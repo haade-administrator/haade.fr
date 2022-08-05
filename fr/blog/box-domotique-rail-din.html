@@ -1,1 +1,762 @@
-<!DOCTYPE html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'><title>Box Domotique rail din Home-assistant et Rpi4 - Haade</title><link rel="alternate" hreflang="en" href="/haade.fr/en/blog/box-domotique-rail-din" /><link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/box-domotique-rail-din" /><title>Box Domotique rail din Home-assistant et Rpi4 | Haade Alsace domotique</title><meta name="generator" content="Jekyll v4.2.2" /><meta property="og:title" content="Box Domotique rail din Home-assistant et Rpi4" /><meta name="author" content="Nico" /><meta property="og:locale" content="fr_FR" /><meta name="description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" /><meta property="og:description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" /><link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" /><meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" /><meta property="og:site_name" content="Haade Alsace domotique" /><meta property="og:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2021-10-05T00:00:00+00:00" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" /><meta property="twitter:title" content="Box Domotique rail din Home-assistant et Rpi4" /><meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2022-08-05T15:38:00+00:00","datePublished":"2021-10-05T00:00:00+00:00","description":"Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant","headline":"Box Domotique rail din Home-assistant et Rpi4","image":"https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"}</script><link href="/haade.fr/assets/css/theme.css?v=1659714323492329195" media="screen, projection, print" rel="stylesheet"> <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script> <!-- The GA snippet --> <script defer src="https://www.googletagmanager.com/gtag/js?id=G-1DEJLWC188"></script> <script> document.addEventListener("DOMContentLoaded", function(event) { window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1DEJLWC188'); }); </script><link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" > <script async src="https://api.countapi.xyz/hit/haade-administrator.github.io/frblogbox-domotique-rail-din?callback=liveViews"></script> <noscript id="deferred-styles"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> </noscript><header><div class="firstnavbar"><div class="links"> <a href="/haade.fr/">Accueil</a> <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a> <a href="/haade.fr/fr/contact/">Contact</a><div class="sl-nav"> langue:<ul><li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i><div class="triangle"></div><ul class="show-flags"><li class="current"><a href="/haade.fr/fr/blog/box-domotique-rail-din"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a><li><a href="/haade.fr/en/blog/box-domotique-rail-din"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></ul></ul></div></div><div class="social-firstnav"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Box Domotique rail din Home-assistant et Rpi4&url=https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a> <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a> <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class='fab fa-facebook-f'></i></a></div></div><div class="secondheader"> <a class="navbar-brand" href="/haade.fr/"> <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade"> </a><p class="sitetag"> Home Assistance Alsace domotique & électronique.</p></div><nav id="nav"><div class="navbar"> <i class='fas fa-bars'></i><div class="nav-links"><div class="sidebar-logo"> <span class="logo-name">H2Ade</span> <i class='fas fa-times'></i></div><ul class="links"><li><a href="/haade.fr/">Accueil<span class="badge badge-light tags">25</span></a><li> <a href="#">Domotique</a> <i class="fas fa-angle-down htmlcss-arrow arrow"></i><ul class="htmlCss-sub-menu sub-menu"><li><a href="/haade.fr/fr/category/securite">Sécurité</a><li class="more"> <span><a href="/haade.fr/fr/category/haade-lab">Tutos</a> <i class='fas fa-angle-right arrow more-arrow'></i> </span><ul class="more-sub-menu sub-menu"><li><a href="/haade.fr/fr/category/docker">Docker</a><li><a href="/haade.fr/fr/category/home-assistant">Home-Assistant</a><li><a href="/haade.fr/fr/category/jeedom">Jeedom</a></ul></ul><li><a href="/haade.fr/fr/category/news">News</a><li><a href="/haade.fr/fr/category/tests">Tests</a><li><a href="/haade.fr/fr/authors">Contributeurs<span class="badge badge-primary">News</span></a><li><div class="sl-nav"> langue:<ul><li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i><div class="triangle"></div><ul class="show-flags"><li class="current"><a href="/haade.fr/fr/blog/box-domotique-rail-din"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a><li><a href="/haade.fr/en/blog/box-domotique-rail-din"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></ul></ul></div></ul></div><script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script><div class="search-box"> <i class='fas fa-search'></i><div class="input-box"> <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search"> <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="Search" type="search" value=""> <input class="search-action" type="submit" value="Ok"> </form></div><div id="lunrsearchresults"><ul></ul></div></div><script src="/haade.fr/assets/js/lunrsearchengine.js?v=8a456722f74448e58212879ac4cd4895" type="text/javascript"></script></div></nav></header><div class="site-content"><div class="container"><div class="main-content"> <script> function liveViews(response) { document.getElementById('visits').innerText = response.value; } </script><div class="entry-header"><h1 class="posttitle">Box Domotique rail din Home-assistant et Rpi4</h1><div class="d-flex align-items-center mt-4"><div> <a href="/haade.fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a></div><div> Rédigé par <a href="/haade.fr/author-nico"><b>Nico</b></a> le <span class="post-date"><time class="post-date" datetime="05-10-2021"> 5 octobre 2021 </time></span> Mis à Jour le <time datetime="2022-08-05T15:38:00+00:00" itemprop="dateModified"> 5 août 2022 </time> <br /> <span class="reading-time" title="Temps de Lecture estimé"> <strong> 4 min</strong> de lecture. </span><p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p></div></div></div><div class="entry-featured-image"> <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp?v=1659713880" alt="Box Domotique rail din Home-assistant et Rpi4" width='944' height='531'></div><div class="article-post"><div class="toc mt-4 mb-4 lead"><h3 class="font-weight-bold"></h3><ul><li><a href="#prérequis-matériel">Prérequis Matériel</a><li><a href="#pourquoi-cette-carte-waveshare-poe-type-c-par-rapport-aux-cartes-officielles-raspberry-pi">Pourquoi cette <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte Waveshare poe+ type C</a>, par rapport aux cartes officielles raspberry pi</a><li><a href="#la-température">La température</a><li><a href="#en-conclusion">En conclusion</a></ul></div><p>Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.</p><h2 id="prérequis-matériel">Prérequis Matériel</h2><p>Pour ma part l’installation du système est monté <a href="https://s.click.aliexpress.com/e/_AsN9If" target="_blank">sur une carte sd de 128Go de marque sandisk en version extrême pro</a>, <em>ne lésine jamais sur la qualité de la carte sd !</em> . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, <strong>la version 2Gb sous home-assistant peut vite devenir limite</strong>, mais le processeur du PI4 a <strong>tendance à chauffer.</strong> Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l’achat d’une <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte complémentaire Waveshare type C en POE+</a></p><h2 id="pourquoi-cette-carte-waveshare-poe-type-c-par-rapport-aux-cartes-officielles-raspberry-pi">Pourquoi cette <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte Waveshare poe+ type C</a>, par rapport aux cartes officielles raspberry pi</h2><p><img src="/haade.fr/assets/images/posts/23/waveshare-poe-typec-raspberrypi-4-820.webp" alt="Waveshareshare plugin raspberrypi 4 poe type c" /></p><ul><li>Elle est compatible avec les derniers standards POE+<li>les GPIO sont toujours accessibles ( <a href="https://s.click.aliexpress.com/e/_ANZpYP" target="_blank">si on veut rajouter un écran tft-lcd de 2.2</a> pouces, c’est mieux )<li>Elle dispose d’une sortie USB supplémentaire de type A en 3.0<li>Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.<li>Elle possède un petit ventilateur pour refroidir le processeur du Raspberry<li>Possibilité de contrôler le ventilateur embarqué</ul><p>Pour être sûre de ne pas rencontrer de surchauffe <a href="https://s.click.aliexpress.com/e/_AMjOYn" target="_blank">j’ai acheté des dissipateurs de 5mm en cuivre</a>, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.</p><h2 id="la-température">La température</h2><ul><li>Boitier rail din ouvert <strong>28°C</strong><li>Boitier fermé <strong>38°C</strong><li>Tableau électrique fermé et remonté <strong>42°C</strong></ul><p>Aucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j’arrive à tenir 42°C avec des pics à 48°C, <strong>maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.</strong></p><p><img src="/haade.fr/assets/images/posts/23/dissipateur-raspberry-pi-home-assistant-820.webp" alt="dissipateur raspberrypi 4 cuivre" /></p><p><strong>Ci-dessus:</strong> La mise en place des dissipateurs de 5mm d’épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.</p><p><img src="/haade.fr/assets/images/posts/23/box-domotique-tableau-820.webp" alt="Intégration final box raspberrypi tableau électrique" /></p><p><strong>Ci-dessus:</strong> L’intégration dans le tableau électrique sur rail din se fait sans soucis, l’alimentation par poe+ est un point positif à l’intégration.</p><p><strong>Ci-dessous:</strong> grâce à Home-Assistant et à l’intégration systemmonitor on peut contrôler l’état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l’intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc… ), <a href="https://community.jeedom.com/t/presentation-box-diy-raspberry-4b-ecran-spi-tft-2-2-boitier-din-alim-5v-2-4a-din/35177" target="_blank">l’ajout d’un écran tft/lcd de 2,2” s’intègre parfaitement au boitier ou l’on pourrait faire du monitoring voir la présentation de l’intégration Jeedom</a>. Mais d’après un retour d’expérience l’ajout d’un tel écran fait augmenter la température de presque 10°C. Peut être que j’effectuerai un upgrade mais pour l’instant je ne trouve pas ça indispensable.</p><p><img src="/haade.fr/assets/images/posts/23/systemmonitor-raspberry-820.webp" alt="Intégration totale lovelace home-assistant d'un raspberrypi" /></p><h2 id="en-conclusion">En conclusion</h2><p>Désormais l’installation domotique sous home assistant fait partie intégrante du domicile, c’est plus waf et pour moi plus logique, le fait de l’intégrer au tableau est indéniablement une place de choix en positionnant le contrôleur domotique au centre du réseau électrique de l’habitat pour un coût total d’environ 120€.</p></div><div class="authorbox mb-5 mt-5 pt-4 pb-4"><div class="row"><div class="wrapavname col-md-3 text-center"> <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico"><p class="mt-4 mb-0 small text-center"> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr"><i class="fa fa-link"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href=""><i class="fab fa-twitter"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a> <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a></p></div><div class="col-md-9"><h4>Nico</h4><p class="mt-3 mb-0">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p></div></div></div><div class="comments mt-5"> <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button><div id="comments"><h4 class="mb-4">commentaires</h4><script src="https://giscus.app/client.js" data-repo=haade-administrator/haade.fr data-repo-id=R_kgDOHHK8ZA data-category=Comments data-category-id=DIC_kwDOHHK8ZM4COugG data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light data-input-position=top data-loading=lazy data-lang=fr crossorigin=anonymous async> </script><div class="clearfix"></div></div></div><div class=" related-posts "><h2 class="text-center mb-4">Articles qui pourrait t'intéresser</h2><div class="d-flex justify-content-center align-items-center"> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/tests">Tests</a> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/haade-lab">Haade-lab</a> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/home-assistant">Home-Assistant</a></div><div class="blog-grid-container"><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-368.webp?v=1659713880" width="368" height="207" alt="La téléinfo dans le dashboard Energie de Home Assistant"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">La téléinfo dans le dashboard Energie de Home Assistant</a></h2><h4 class="card-text">Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="40" height="40" alt="Math67"> </span> <span class="author-meta"> <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a> <span class="post-date"> 3 janvier 2022 </span> </span><div class="clearfix"></div></div></div></div></div><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-368.webp?v=1659713880" width="368" height="207" alt="Test - ZSS-ZK-THL zigbee MOES"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes">Test - ZSS-ZK-THL zigbee MOES</a></h2><h4 class="card-text">TOP ou FLOP ?</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/yann.webp" width="40" height="40" alt="Yann"> </span> <span class="author-meta"> <a href="/haade.fr/author-yann"><span class="post-name font-weight-bold">Yann</span></a> <span class="post-date"> 22 octobre 2021 </span> </span><div class="clearfix"></div></div></div></div></div><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-368.webp?v=1659713880" width="368" height="207" alt="Home-assistant Amber VS Jeedom Atlas"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">Home-assistant Amber VS Jeedom Atlas</a></h2><h4 class="card-text">Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La...</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico"> </span> <span class="author-meta"> <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a> <span class="post-date"> 1<sup>er</sup> octobre 2021 </span> </span><div class="clearfix"></div></div></div></div></div></div></div></div></div><footer><div class="footcontent"><div class="footleft footbox"><div class="footupper"><div class="foottopic">À Propos</div><p>Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique</p></div><div class="footlower"><div class="foottopic">Contactez-nous</div><div class="phone"> <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a></div><div class="email"> <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a></div></div></div><div class="footmiddle footbox"><div class="foottopic">Liens utiles</div><div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div><div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div><div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div><div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div></div><div class="footright footbox"><div class="foottopic">Inscrivez-vous à la Newsletter</div><form action="https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4" method="post" name="" class="" target="_blank" novalidate> <input type="text" placeholder="Entrez une adresse e-mail"> <input type="submit" name="" value="Envoyer"><div class="media-icons"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Box Domotique rail din Home-assistant et Rpi4&url=https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a> <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a> <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a></div></form></div></div><div class="footbottom"><p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p></div></footer></div><script src="/haade.fr/assets/js/vanilla-back-to-top.min.js?v=fa0110e8b42cec56ce96d912fd4bde74" type="text/javascript"></script> <script>addBackToTop({ diameter: 44, backgroundColor: '#1B1C37', textColor: '#2AD2FD' })</script> <script src="/haade.fr/assets/js/prism.min.js?v=f92287b34454ec3acfd41fd0ddc8aa5d" type="text/javascript"></script> <script src="/haade.fr/assets/js/theme.min.js?v=e95050136e10bec758f781f55ba4ffa3" type="text/javascript"></script> <script src="/haade.fr/assets/js/navbar.min.js?v=8565525f2567565ff8410eee8329c6d0" type="text/javascript"></script> <script src="/haade.fr/assets/js/flag.min.js?v=7554506cde6b8467be36bb3f031a5e90" type="text/javascript"></script> <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script><div class="cookie_wrapper"><picture> <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'> <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'> </picture><div class="cookie_content"><header>Comme beaucoup, notre site utilise les cookies</header><p>On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !</p><div class="cookie_buttons"> <button class="item">Ok pour moi!</button> <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/#cookies" class="cookie_item">Lire davantage</a></div></div></div><script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
+<!-- ---
+layout: compress
+--- -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'>
+
+<title>Box Domotique rail din Home-assistant et Rpi4 - Haade</title>
+
+
+    <link rel="alternate" hreflang="en" href="/haade.fr/en/blog/box-domotique-rail-din" />
+    <link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/box-domotique-rail-din" />
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Box Domotique rail din Home-assistant et Rpi4 | Haade Alsace domotique</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Box Domotique rail din Home-assistant et Rpi4" />
+<meta name="author" content="Nico" />
+<meta property="og:locale" content="fr_FR" />
+<meta name="description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" />
+<meta property="og:description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" />
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" />
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" />
+<meta property="og:site_name" content="Haade Alsace domotique" />
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-05T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" />
+<meta property="twitter:title" content="Box Domotique rail din Home-assistant et Rpi4" />
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2022-08-05T19:13:20+00:00","datePublished":"2021-10-05T00:00:00+00:00","description":"Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant","headline":"Box Domotique rail din Home-assistant et Rpi4","image":"https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1659727389670663987" media="screen, projection, print" rel="stylesheet">
+
+<script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
+
+
+<!-- change your GA id in _config.yml -->
+
+  <!--
+  The GA snippet
+-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-1DEJLWC188"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+    gtag('config', 'G-1DEJLWC188');
+  });
+</script>
+
+
+
+
+
+<!--  <link rel="shortcut icon" type="image/x-icon" href="https://haade-administrator.github.io/favicon.ico" > -->
+<link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" >
+
+
+
+
+<script async src="https://api.countapi.xyz/hit/haade-administrator.github.io/frblogbox-domotique-rail-din?callback=liveViews"></script>
+
+
+
+</head>
+
+
+
+<body>
+	<!-- defer loading of font and fontawesome -->
+	<noscript id="deferred-styles">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+	</noscript>
+<header>
+	    <div class="firstnavbar">
+        <div class="links">
+          
+          <a href="/haade.fr/">Accueil</a>
+          
+        <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a>
+        <a href="/haade.fr/fr/contact/">Contact</a>
+          
+<div class="sl-nav">
+  langue:
+  <ul>
+    <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+      <div class="triangle"></div>
+      <ul class="show-flags">
+        
+        <li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li><a href="/haade.fr/en/sorry/"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+          </div>
+      <div class="social-firstnav">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class='fab fa-facebook-f'></i></a>
+      </div>
+    </div>
+
+
+
+<div class="secondheader">
+<!-- Site Logo/Name
+================================================== -->
+
+<a class="navbar-brand" href="/haade.fr/">
+    <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade">
+</a>
+
+
+
+<!-- Site Tag
+================================================== -->
+    <p class="sitetag">
+        Home Assistance Alsace domotique & électronique.
+    </p>
+
+</div>
+
+
+  <nav id="nav">
+    <div class="navbar">
+      <i class='fas fa-bars'></i>
+      <!-- <div class="logo"><a href="#">H2Ade</a></div> -->
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">H2Ade</span>
+          <i class='fas fa-times'></i>
+        </div>
+        <ul class="links">
+          <li><a href="/haade.fr/">Accueil<span class="badge badge-light tags">25</span></a></li>
+          <li>
+            <a href="#">Domotique</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="/haade.fr/fr/category/securite">Sécurité</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/fr/category/haade-lab">Tutos</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="/haade.fr/fr/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/fr/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/fr/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- <li>
+            <a href="#">JAVASCRIPT</a>
+            <i class='fas fa-angle-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Dynamic Clock</a></li>
+              <li><a href="#">Form Validation</a></li>
+              <li><a href="#">Card Slider</a></li>
+              <li><a href="#">Complete Website</a></li>
+            </ul>
+          </li> -->
+          <li><a href="/haade.fr/fr/category/news">News</a></li>
+          <li><a href="/haade.fr/fr/category/tests">Tests</a></li>
+          <li><a href="/haade.fr/fr/authors">Contributeurs<span class="badge badge-primary">News</span></a></li>
+          <li>
+<div class="sl-nav">
+  langue:
+  <ul>
+    <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+      <div class="triangle"></div>
+      <ul class="show-flags">
+        
+        <li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li><a href="/haade.fr/en/sorry/"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</li>
+        </ul>
+      </div>
+
+    <script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script>
+
+<div class="search-box">
+  <i class='fas fa-search'></i>
+  <div class="input-box">
+    <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search">
+      <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="Search" type="search" value="">
+      <input class="search-action" type="submit" value="Ok">
+    </form>
+  </div>
+  <div id="lunrsearchresults">
+      <ul></ul>
+  </div>
+</div>
+
+<script src="/haade.fr/assets/js/lunrsearchengine.js?v=8a456722f74448e58212879ac4cd4895" type="text/javascript"></script>
+
+
+    </div>
+  </nav>
+
+
+</header>
+
+<div class="site-content">
+
+<div class="container">
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+      
+        <script>
+  function liveViews(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+</script>
+
+<!--  -->
+
+
+<div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">Box Domotique rail din Home-assistant et Rpi4</h1>
+    <!-- Author & Date  Box -->
+    
+    
+    <div class="d-flex align-items-center mt-4">
+        <div>
+            
+            <a href="/haade.fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
+            
+        </div>
+        <div>
+        Rédigé par <a href="/haade.fr/author-nico"><b>Nico</b></a> le
+        <span class="post-date"><time class="post-date" datetime="05-10-2021">
+
+     5
+    
+ 
+    
+    octobre
+            
+ 2021
+</time></span>
+        
+        Mis à Jour le <time datetime="2022-08-05T19:13:20+00:00" itemprop="dateModified">
+
+     5
+    
+ 
+    
+    août
+            
+ 2022
+</time>
+        
+        <br />
+        <span class="reading-time" title="Temps de Lecture estimé">
+  <strong>
+    
+    4 min</strong> de lecture.
+</span>
+
+        
+        
+        <p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p>
+        
+        </div>
+    </div>
+    
+</div>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+
+
+<!-- Featured Image -->
+
+<div class="entry-featured-image">
+    
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp?v=1659726800" alt="Box Domotique rail din Home-assistant et Rpi4" width='944' height='531'>
+    
+</div>
+
+
+
+<!-- Content -->
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    
+    
+    <div class="toc mt-4 mb-4 lead">
+        <h3 class="font-weight-bold"></h3>
+        <ul><li><a href="#prérequis-matériel">Prérequis Matériel</a></li><li><a href="#pourquoi-cette-carte-waveshare-poe-type-c-par-rapport-aux-cartes-officielles-raspberry-pi">Pourquoi cette <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte Waveshare poe+ type C</a>, par rapport aux cartes officielles raspberry pi</a></li><li><a href="#la-température">La température</a></li><li><a href="#en-conclusion">En conclusion</a></li></ul>
+    </div>
+    
+    <!-- End Toc -->
+    <p>Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.</p>
+
+<h2 id="prérequis-matériel">Prérequis Matériel</h2>
+
+<p>Pour ma part l’installation du système est monté <a href="https://s.click.aliexpress.com/e/_AsN9If" target="_blank">sur une carte sd de 128Go de marque sandisk en version extrême pro</a>, <em>ne lésine jamais sur la qualité de la carte sd !</em> . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, <strong>la version 2Gb sous home-assistant peut vite devenir limite</strong>, mais le processeur du PI4 a <strong>tendance à chauffer.</strong> Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l’achat d’une <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte complémentaire Waveshare type C en POE+</a></p>
+
+<h2 id="pourquoi-cette-carte-waveshare-poe-type-c-par-rapport-aux-cartes-officielles-raspberry-pi">Pourquoi cette <a href="https://s.click.aliexpress.com/e/_ALSRv5" target="_blank">carte Waveshare poe+ type C</a>, par rapport aux cartes officielles raspberry pi</h2>
+
+<p><img src="/haade.fr/assets/images/posts/23/waveshare-poe-typec-raspberrypi-4-820.webp" alt="Waveshareshare plugin raspberrypi 4 poe type c" /></p>
+
+<ul>
+  <li>Elle est compatible avec les derniers standards POE+</li>
+  <li>les GPIO sont toujours accessibles ( <a href="https://s.click.aliexpress.com/e/_ANZpYP" target="_blank">si on veut rajouter un écran tft-lcd de 2.2</a> pouces, c’est mieux )</li>
+  <li>Elle dispose d’une sortie USB supplémentaire de type A en 3.0</li>
+  <li>Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.</li>
+  <li>Elle possède un petit ventilateur pour refroidir le processeur du Raspberry</li>
+  <li>Possibilité de contrôler le ventilateur embarqué</li>
+</ul>
+
+<p>Pour être sûre de ne pas rencontrer de surchauffe <a href="https://s.click.aliexpress.com/e/_AMjOYn" target="_blank">j’ai acheté des dissipateurs de 5mm en cuivre</a>, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.</p>
+
+<h2 id="la-température">La température</h2>
+
+<ul>
+  <li>Boitier rail din ouvert <strong>28°C</strong></li>
+  <li>Boitier fermé <strong>38°C</strong></li>
+  <li>Tableau électrique fermé et remonté <strong>42°C</strong></li>
+</ul>
+
+<p>Aucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j’arrive à tenir 42°C avec des pics à 48°C, <strong>maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.</strong></p>
+
+<p><img src="/haade.fr/assets/images/posts/23/dissipateur-raspberry-pi-home-assistant-820.webp" alt="dissipateur raspberrypi 4 cuivre" /></p>
+
+<p><strong>Ci-dessus:</strong> La mise en place des dissipateurs de 5mm d’épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.</p>
+
+<p><img src="/haade.fr/assets/images/posts/23/box-domotique-tableau-820.webp" alt="Intégration final box raspberrypi tableau électrique" /></p>
+
+<p><strong>Ci-dessus:</strong> L’intégration dans le tableau électrique sur rail din se fait sans soucis, l’alimentation par poe+ est un point positif à l’intégration.</p>
+
+<p><strong>Ci-dessous:</strong> grâce à Home-Assistant et à l’intégration systemmonitor on peut contrôler l’état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l’intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc… ), <a href="https://community.jeedom.com/t/presentation-box-diy-raspberry-4b-ecran-spi-tft-2-2-boitier-din-alim-5v-2-4a-din/35177" target="_blank">l’ajout d’un écran tft/lcd de 2,2” s’intègre parfaitement au boitier ou l’on pourrait faire du monitoring voir la présentation de l’intégration Jeedom</a>. Mais d’après un retour d’expérience l’ajout d’un tel écran fait augmenter la température de presque 10°C. Peut être que j’effectuerai un upgrade mais pour l’instant je ne trouve pas ça indispensable.</p>
+
+<p><img src="/haade.fr/assets/images/posts/23/systemmonitor-raspberry-820.webp" alt="Intégration totale lovelace home-assistant d'un raspberrypi" /></p>
+
+<h2 id="en-conclusion">En conclusion</h2>
+
+<p>Désormais l’installation domotique sous home assistant fait partie intégrante du domicile, c’est plus waf et pour moi plus logique, le fait de l’intégrer au tableau est indéniablement une place de choix en positionnant le contrôleur domotique au centre du réseau électrique de l’habitat pour un coût total d’environ 120€.</p>
+
+</div>
+
+
+<!-- Author Box if enabled from _config.yml -->
+<!-- Author Box -->
+
+
+<div class="authorbox mb-5 mt-5 pt-4 pb-4">
+    <div class="row">
+        <div class="wrapavname col-md-3 text-center">
+            
+            <img  class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico">
+            
+            <p class="mt-4 mb-0 small text-center">
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr"><i class="fa fa-link"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href=""><i class="fab fa-twitter"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a>
+                <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a>
+            </p>
+        </div>
+        <div class="col-md-9">
+            <h4>Nico</h4>
+            <p class="mt-3 mb-0">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Comments if not disabled with comments: false -->
+<!-- Comments
+================================================== -->
+
+<div class="comments mt-5">
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button>
+    <div id="comments">
+        <h4 class="mb-4">commentaires</h4>
+        
+        
+            
+
+  <script src="https://giscus.app/client.js"
+          data-repo=haade-administrator/haade.fr
+          data-repo-id=R_kgDOHHK8ZA
+          data-category=Comments
+          data-category-id=DIC_kwDOHHK8ZM4COugG
+          data-mapping=pathname
+          data-reactions-enabled=1
+          data-emit-metadata=0
+          data-theme=light
+          data-input-position=top
+          data-loading=lazy
+          data-lang=fr
+          crossorigin=anonymous
+          async>
+  </script>
+
+
+            
+    <div class="clearfix"></div>
+    </div>
+</div>
+
+
+
+<!-- Related Post -->
+<!-- Related Posts
+================================================== -->
+<div class=" related-posts ">
+
+    
+    <h2 class="text-center mb-4">Articles qui pourrait t'intéresser</h2>
+    
+
+    <div class="d-flex justify-content-center align-items-center">
+
+    <!-- Categories -->
+    
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/tests">Tests</a>
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/haade-lab">Haade-lab</a>
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/home-assistant">Home-Assistant</a>
+    
+
+    <!-- Tags -->
+    
+    
+
+    </div>
+
+    
+    
+    
+    <div class="blog-grid-container">
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-368.webp?v=1659726800" width="368" height="207" alt="La téléinfo dans le dashboard Energie de Home Assistant">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">La téléinfo dans le dashboard Energie de Home Assistant</a>
+            </h2>
+            <h4 class="card-text">Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="40" height="40" alt="Math67">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a>
+                
+                <span class="post-date">
+
+     3
+    
+ 
+    
+    janvier
+            
+ 2022
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+            
+
+        
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-368.webp?v=1659726800" width="368" height="207" alt="Test - ZSS-ZK-THL zigbee MOES">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes">Test - ZSS-ZK-THL zigbee MOES</a>
+            </h2>
+            <h4 class="card-text">TOP ou FLOP ?
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/yann.webp" width="40" height="40" alt="Yann">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-yann"><span class="post-name font-weight-bold">Yann</span></a>
+                
+                <span class="post-date">
+
+     22
+    
+ 
+    
+    octobre
+            
+ 2021
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-368.webp?v=1659726800" width="368" height="207" alt="Home-assistant Amber VS Jeedom Atlas">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">Home-assistant Amber VS Jeedom Atlas</a>
+            </h2>
+            <h4 class="card-text">Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                
+                <span class="post-date">
+
+    
+        1<sup>er</sup>
+    
+ 
+    
+    octobre
+            
+ 2021
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+                
+        </div>
+</div>
+
+
+    </div>
+
+</div>
+
+<footer>
+   <div class="footcontent">
+     <div class="footleft footbox">
+       <div class="footupper">
+         <div class="foottopic">À Propos</div>
+         <p>Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique</p>
+       </div>
+       <div class="footlower">
+         <div class="foottopic">Contactez-nous</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a>
+         </div>
+         <div class="email">
+           <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a>
+         </div>
+       </div>
+     </div>
+     <div class="footmiddle footbox">
+       <div class="foottopic">Liens utiles</div>
+       <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
+       <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
+       <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
+       <div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div>
+     </div>
+     
+     <!-- Newsletter
+     ================================================== -->
+     <div class="footright footbox">
+       <div class="foottopic">Inscrivez-vous à la Newsletter</div>
+       <form action="https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4" method="post" name="" class="" target="_blank" novalidate>
+         <input type="text" placeholder="Entrez une adresse e-mail">
+         <input type="submit" name="" value="Envoyer">
+         <div class="media-icons">
+           <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
+           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+         </div>
+       </form>
+     </div>
+     
+   </div>
+   <div class="footbottom">
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+   </div>
+ </footer>
+
+
+</div> <!-- /.site-content -->
+
+
+<!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
+
+<script src="/haade.fr/assets/js/vanilla-back-to-top.min.js?v=fa0110e8b42cec56ce96d912fd4bde74" type="text/javascript"></script>
+<script>addBackToTop({
+  diameter: 44,
+  backgroundColor: '#1B1C37',
+  textColor: '#2AD2FD'
+})</script>
+
+<!-- end script -->
+<script src="/haade.fr/assets/js/prism.min.js?v=f92287b34454ec3acfd41fd0ddc8aa5d" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/theme.min.js?v=e95050136e10bec758f781f55ba4ffa3" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/navbar.min.js?v=8565525f2567565ff8410eee8329c6d0" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/flag.min.js?v=7554506cde6b8467be36bb3f031a5e90" type="text/javascript"></script>
+
+
+
+<script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
+
+
+
+  <div class="cookie_wrapper">
+    <picture>
+    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
+    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
+</picture>
+    <div class="cookie_content">
+      <header>Comme beaucoup, notre site utilise les cookies</header>
+      <p>On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !</p>
+      <div class="cookie_buttons">
+        <button class="item">Ok pour moi!</button>
+        
+        <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/#cookies" class="cookie_item">Lire davantage</a>
+        
+      </div>
+    </div>
+  </div>
+
+<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
+
+
+</body>
+</html>
