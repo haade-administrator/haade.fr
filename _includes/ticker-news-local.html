@@ -1,0 +1,9 @@
+<div class="ticker-wrapper-h">
+	<div class="heading">{{ site.data.newsticker.docs_list_title }}</div>
+
+	<ul class="news-ticker-h">
+		{% for item in site.data.newsticker.docs %}
+		<li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>

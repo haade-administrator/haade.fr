@@ -1,0 +1,123 @@
+<div class="hero-container">
+  <div class="left">
+    {% assign latest_post = site.posts[0] %}
+      <a href="{{site.baseurl}}{{latest_post.url}}">
+        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if latest_post.image contains "://" %}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{% endif %}); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+      </a>
+      <div class="hero-text latest">
+      {% if latest_post.categories != empty %}
+      {% assign sortedCategories = latest_post.categories %}
+      {% for category in sortedCategories limit:2 %}
+      <a class="hero-categories" href="{{site.baseurl}}/categories#{{ category | slugify | replace: " ","-" }}">{{ category }}</a>
+      {% endfor %}
+      {% else %}
+      {% unless latest_post.tags == empty %}
+      {% assign sortedTags = latest_post.tags %}
+      {% for tag in sortedTags limit:2 %}
+      <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
+      {% endfor %}
+      {% endunless %}
+      {% endif %}
+      <br />
+      <a href="{{site.baseurl}}{{latest_post.url}}"><span class="header_title latest">{{ latest_post.title | truncate: 100 }}</span></a>
+      {% if latest_post.author %}
+      {% assign latest_post.author = author.name %}
+      <span class="hero-author">
+        <span class="hero-post-author font-weight-bold">{{ latest_post.author }}</span>
+        {% endif %}
+        <span class="hero-post-date">- {{ latest_post.date | date_to_string }}</span>
+</span>
+      </div>
+    </div>
+  <div class="right">
+    <div class="second">
+      {% assign second_post = site.posts[1] %}
+        <a href="{{site.baseurl}}{{second_post.url}}">
+          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if second_post.image contains "://" %}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{% endif %});"></div>
+        </a>
+        <div class="hero-text second">
+          {% if second_post.categories != empty %}
+          {% assign sortedCategories = second_post.categories | sort %}
+          {% for category in sortedCategories limit:1 %}
+          <a class="hero-categories" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+          {% endfor %}
+          {% else %}
+          {% unless second_post.tags == empty %}
+          {% assign sortedTags = second_post.tags | sort %}
+          {% for tag in sortedTags limit:1 %}
+          <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
+          {% endfor %}
+          {% endunless %}
+          {% endif %}
+          <br />
+        <a href="{{site.baseurl}}{{second_post.url}}"><span class="header_title second">{{ second_post.title | truncate: 60 }}</span></a>
+        {% if second_post.author %}
+        <span class="hero-author">
+          <span class="hero-post-author font-weight-bold">{{ second_post.author }}</span>
+          {% endif %}
+          <span class="hero-post-date">- {{ second_post.date | date_to_string }}</span>
+          </span>
+        </div>
+      </div>
+    <div class="bottom-right">
+      <div class="third">
+        {% assign third_post = site.posts[2] %}
+              <a href="{{site.baseurl}}{{third_post.url}}">
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if third_post.image contains "://" %}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{% endif %});"></div>
+          </a>
+          <div class="hero-text thirdfour">
+            {% if third_post.categories != empty %}
+            {% assign sortedCategories = third_post.categories | sort %}
+            {% for category in sortedCategories limit:1 %}
+            <a class="hero-categories" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+            {% endfor %}
+            {% else %}
+            {% unless third_post.tags == empty %}
+            {% assign sortedTags = third_post.tags | sort %}
+            {% for tag in sortedTags limit:1 %}
+            <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
+            {% endfor %}
+            {% endunless %}
+            {% endif %}
+            <br />
+        <a href="{{site.baseurl}}{{third_post.url}}"><span class="header_title thirdfour">{{ third_post.title | truncate: 60 }}</span></a>
+          {% if third_post.author %}
+          <span class="hero-author">
+            <span class="hero-post-author font-weight-bold">{{ third_post.author }}</span>
+            {% endif %}
+            <span class="hero-post-date">- {{ third_post.date | date_to_string }}</span>
+            </span>
+        </div>
+      </div>
+      <div class="four">
+        {% assign four_post = site.posts[3] %}
+              <a href="{{site.baseurl}}{{four_post.url}}">
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if four_post.image contains "://" %}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{% endif %}); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+          </a>
+          <div class="hero-text thirdfour">
+            {% if four_post.categories != empty %}
+            {% assign sortedCategories = four_post.categories | sort %}
+            {% for category in sortedCategories limit:1 %}
+            <a class="hero-categories" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+            {% endfor %}
+            {% else %}
+            {% unless four_post.tags == empty %}
+            {% assign sortedTags = four_post.tags | sort %}
+            {% for tag in sortedTags limit:1 %}
+            <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
+            {% endfor %}
+            {% endunless %}
+            {% endif %}
+            <br />
+          <a href="{{site.baseurl}}{{four_post.url}}"><span class="header_title thirdfour">{{ four_post.title | truncate: 60 }}</span></a>
+          {% if four_post.author %}
+          <span class="hero-author">
+            <span class="hero-post-author font-weight-bold">{{ four_post.author }}</span>
+            {% endif %}
+            <span class="hero-post-date">- {{ four_post.date | date_to_string }}</span>
+            </span>
+        </div>
+        </div>
+    </div>
+  </div>
+</div>

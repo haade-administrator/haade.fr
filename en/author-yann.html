@@ -1,0 +1,51 @@
+---
+title: "Yann"
+layout: default
+language: en
+language_reference: yann
+published: true
+---
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                  {% if site.data.authors.Yann.web %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.web }}"><i class="fa fa-link"></i></a>
+                  {% endif %}
+
+                  {% if site.data.authors.Yann.twitter %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.twitter }}"><i class="fab fa-twitter"></i></a>
+                  {% endif %}
+
+                  {% if site.data.authors.Yann.youtube %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.youtube }}"><i class="fab fa-youtube"></i></a>
+                  {% endif %}
+
+                  {% if site.data.authors.Yann.discord %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.discord }}"><i class="fab fa-discord"></i></a>
+                  {% endif %}
+
+                  {% if site.data.authors.Yann.email %}
+                      <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Yann.email }}"><i class="fa fa-envelope"></i></a>
+                  {% endif %}
+                  <p class="excerpt">{{ site.data.authors.Yann.description[page.language] }}</p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'language', page.language | size }}</span></p>
+
+            </div>
+            <div class="authorbox col-md-3 text-right">
+              {% if site.data.authors.Yann.gravatar %}
+              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Yann.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Yann.display_name }}">
+              {% else %}
+              <img class="author-thumb-xl" src="{{site.baseurl}}/{{ site.data.authors.Yann.avatar }}" width="120" height="120" alt="{{ site.data.authors.Yann.display_name }}">
+              {% endif %}
+            </div>
+        </div>
+        <h2 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h2>
+            {% assign posts = site.posts | where:"author","Yann" | where: 'language', page.language %}
+            {% for post in posts %}
+            {% include main-loop-card.html %}
+            {% endfor %}
+    </div>
+</div>
+</div>

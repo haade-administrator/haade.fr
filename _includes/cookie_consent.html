@@ -1,0 +1,17 @@
+  <div class="cookie_wrapper">
+    <picture>
+    <source srcset="{{ site.baseurl }}/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
+    <img src="{{ site.baseurl }}/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
+</picture>
+    <div class="cookie_content">
+      <header>{{ translate.cookie.title[page.language] }}</header>
+      <p>{{ translate.cookie.content[page.language] }}</p>
+      <div class="cookie_buttons">
+        <button class="item">{{ translate.cookie.accept[page.language] }}</button>
+        {%- assign pages = site.pages | where: 'language_reference', 'gdpr' | where: 'language', page.language %}
+        {% for page in pages limit:1 %}
+        <a href="{{ site.baseurl }}{{ page.url }}#cookies" class="cookie_item">{{ translate.cookie.read-more[page.language] }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,18 @@
+---
+layout: default
+title: '404 Erreur'
+description: 'Error 404: Page non trouvé'
+language: 'fr'
+language_reference: 404
+published: true
+permalink: /404.html
+---
+<style>
+    header, .newsletter, footer {
+        display:none;
+    }
+</style>
+
+{% assign translate = site.data.locales.translate %}
+
+{% include 404.html %}

@@ -1,0 +1,39 @@
+  Nico:
+    name: Nico
+    display_name: Nico
+    avatar: 'assets/images/nico.webp'
+    # gravatar: '66178447db0764d08b4bd975c515fa5d'
+    email: nico@haade.fr
+    web: https://www.haade.fr
+    url: https://haade-administrator.github.io/haade.fr/author-nico
+    youtube: https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w
+    facebook: https://www.facebook.com/Haade-104508121049333
+    discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644
+    description:
+      fr: "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens."
+      en: "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well."
+
+  Yann:
+    name: Yann
+    display_name: Yann
+    avatar: 'assets/images/yann.webp'
+    email: tonton@haade.fr
+    web: https://www.haade.fr
+    url: https://haade-administrator.github.io/haade.fr/author-yann
+    youtube: https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w
+    facebook: https://www.facebook.com/Haade-104508121049333
+    discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Goreskull#9386
+    description:
+      fr: "Newbie en domotique j'aide Nico et Math dans l'intégration visuelle des articles"
+      en: "Newbie in home automation I help Nico and Math in the visual integration of articles"
+
+  Math67:
+    name: Mathieu
+    display_name: Math67
+    avatar: 'assets/images/math67.webp'
+    email: fogel.mathieu@gmail.com
+    web: []
+    url: https://haade-administrator.github.io/haade.fr/author-math67
+    description:
+      fr: "Écrivez une courte description de l'auteur ici. Vous prévisualisez actuellement la démo Memoirs, un template Jekyll compatible avec les pages Github."
+      en: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."

@@ -1,0 +1,4 @@
+Theme License: MIT (https://bootstrapstarter.com/license/)
+
+Credits:
+- Bootstrap, licensed MIT, docs CC BY 3.0.

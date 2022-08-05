@@ -1,0 +1,15 @@
+---
+layout: default
+title: Archive
+---
+<!-- Begin List Posts
+================================================== -->
+
+<h1>Archive d'articles avec <span>{{ page.type }} '{{ page.title }}'</span></h1>
+
+<div class="blog-grid-container">
+{% assign pages = page.posts | where: 'language', page.language %}
+{% for post in pages %}
+{% include postbox.html %}
+{% endfor %}
+</div>

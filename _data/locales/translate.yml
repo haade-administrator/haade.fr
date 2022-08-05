@@ -1,0 +1,164 @@
+# voir https://medium.com/@desfocado/how-to-make-jekyll-multilingual-c13e74c18f1c
+
+#site description
+site:
+  description:
+    fr: Home Assistance Alsace domotique & électronique.
+    en: Home Assistance Alsace home automation & electronics.
+
+lang:
+  fr: langue
+  en: language
+
+languages:
+  fr:
+    value: Francais
+    slug: fr
+
+  en:
+    value: English
+    slug: en
+
+
+#Index
+
+morepost:
+  fr: Plus d'Articles
+  en: More Posts
+
+rgpd:
+  fr: RGPD
+  en: GDPR
+
+# Posts
+writting:
+  fr: Rédigé par
+  en: Written by
+
+the:
+  fr: le
+  en: the
+
+of:
+  fr: de
+  en: of
+
+in:
+  fr: Dans
+  en: In
+
+update:
+  fr: Mis à Jour
+  en: Update
+
+reading:
+  fr: lecture
+  en: reading
+
+minute:
+  fr: min
+  en: min
+
+times:
+  fr: fois
+  en: times
+
+estimated-time:
+  fr: Temps de Lecture estimé
+  en: Estimated read time
+
+#includes
+count:
+  fr: Cet Article a été vu
+  en: This page has been visited
+
+cookie:
+  title:
+    fr: Comme beaucoup, notre site utilise les cookies
+    en: Like many, our site uses cookies
+
+  content:
+    fr: On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !
+    en: We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!
+
+  accept:
+    fr: Ok pour moi!
+    en: Ok for me!
+
+  read-more:
+    fr: Lire davantage
+    en: read more
+
+giscus:
+  title:
+    fr: commentaires
+    en: Comments
+
+  load:
+    fr: Afficher les Commentaires
+    en: Load the Comments
+
+relatedpost:
+  title:
+    fr: Articles qui pourrait t'intéresser
+    en: Articles that might interest you
+
+error404:
+  title:
+    fr: Oups!
+    en: Oops!
+
+  content:
+    fr: 404 - La page est introuvable
+    en: 404 - The Page can't be found
+
+  link:
+    fr: Retour SUR la page principale
+    en: Go TO Homepage
+
+# table of Content
+
+sommaire:
+  fr: Sommaire
+  en: Sommary
+
+# Commentaires
+
+commentaires:
+  fr: commentaires
+  en: Comments
+
+afficher-les:
+  fr: Afficher les
+  en: Show the
+
+# footer
+
+footer:
+  about:
+    fr: À Propos
+    en: About
+
+  description:
+    fr: Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique
+    en: Haade is a blog intended to help individuals and professionals to set up a home automation system
+
+  contact:
+    fr: Contactez-nous
+    en: Contact-us
+
+  linku:
+    fr: Liens utiles
+    en: Useful links
+
+  newsletter:
+    fr: Inscrivez-vous à la Newsletter
+    en: Subscribe to the newsletter
+
+  inputmail:
+    fr: Entrez une adresse e-mail
+    en: Enter email address
+
+  submit:
+    fr: Envoyer
+    en: Send

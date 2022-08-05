@@ -1,0 +1,37 @@
+{% assign translate = site.data.locales.translate %}
+
+<div class="mb-5 d-flex justify-content-between main-loop-card">
+<div class="pr-3">
+	<h2 class="mb-1 h4 font-weight-bold">
+	<a class="text-dark" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+	</h2>
+	<p class="excerpt">
+	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
+	</p>
+	<small class="d-block text-muted">
+		{{ translate.in[page.language] }} <span class="catlist">
+		{% for category in post.categories %}
+		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{ page.language }}/category/{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+		{% endfor %}
+		</span>
+	</small>
+	<small class="text-muted">
+		{% include date.html date=post.date %}
+	</small>
+</div>
+{% if post.image %}
+	<div class="col-md-3 pr-0 text-right">
+	<a href="{{site.baseurl}}{{post.url}}">
+    {% if post.image %}
+
+        {% if site.lazyimages == "enabled" %}
+            <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}assets/images/posts/{{ post.guid }}{{ post.image }}-272.webp{% else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-272.webp{% endif %}" width="275" height="155" alt="{{ post.title }}">
+        {% else %}
+            <img class="img-thumb" src="{% if post.image contains "://" %}assets/images/posts/{{ post.guid }}{{ post.image }}-272.webp{% else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-272.webp{% endif %}" width="275" height="155" alt="{{ post.title }}">
+        {% endif %}
+
+    {% endif %}
+	</a>
+	</div>
+{% endif %}
+</div>

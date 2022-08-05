@@ -1,0 +1,43 @@
+name: Build and deploy Jekyll H2ade Blog
+
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+
+jobs:
+  github-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3.0.2
+
+      - name: Install and Build
+        run: |
+          sudo apt update
+          sudo apt upgrade
+          sudo apt dist-upgrade
+          sudo apt install libvips imagemagick gvfs libvips-doc libvips-tools poppler-utils ghostscript -y
+          node -v
+          npm -v
+          echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+          echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+          echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+          source ~/.bashrc
+          sudo gem install compass jekyll bundler
+          sass -v
+          bundle install
+          bundle exec jekyll clean
+          JEKYLL_ENV=production bundle exec jekyll build
+
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: _site # The folder the action should deploy.
+          token: ${{ secrets.GITHUB_TOKEN }}

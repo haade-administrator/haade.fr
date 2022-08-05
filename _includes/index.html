@@ -1,0 +1,40 @@
+---
+layout: default
+title: Accueil
+pagination:
+  enabled: true
+  offset: 4
+  locale: fr_FR
+language: fr
+language_reference: index
+published: true
+order: 1
+---
+
+<!-- Posts Index
+================================================== -->
+{% assign translate = site.data.locales.translate %}
+<div class="blog-grid-container">
+  <div class="post-grid">
+    <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.language] }} ..</span></h2>
+    <br />
+    {%- assign posts = paginator.posts | where: 'language', page.language %}
+    {%- for post in posts %}
+        {% include postbox.html %}
+    {% endfor %}
+  </div>
+  <div class="right-bar">
+  <div class="publicity">
+<a href="https://s.click.aliexpress.com/e/_A2CfO1" target="_blank"><img src="{{ site.baseurl }}/assets/images/pub/Sad017413e9e6482ba85f595be670d6f0W.jpg_350x350-368.webp" width="350" height="350" /></a>
+</div>
+<div class="featured"></div>
+</div>
+</div>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+<span class="navigation" role="navigation">
+    {% include pagination.html %}
+</span>
+</div>

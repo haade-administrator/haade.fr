@@ -1,0 +1,75 @@
+---
+guid: 25
+title: "La téléinfo dans le dashboard Energie de Home Assistant"
+description: "Second tuto allons plus loin avec la téléinformation dans le dashboard Energie de Homeassistant"
+layout: post
+author: Math67
+date: "2022-01-03"
+categories: Domotique Haade-lab Home-Assistant
+tags: téléinformation
+description: "La téléinfo dans le dashboard Energie de Home Assistant"
+image: integration-dashboard-energie-ha
+toc: true
+beforetoc:
+language: fr
+published: true
+locale: fr_FR
+comments: true
+---
+
+Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo](https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/).
+
+## Prérequis :
+
+- Home assistant installé avec la version 2021.8.0 minimum
+- Avoir accès à des données de consommation électrique
+
+## Création des compteurs
+Dans un premier temps il faudra créer différents compteurs afin de récolter la quantité d'énergie consommée, pour cela nous utiliserons une intégration native d'HA : [Utility Meter](https://www.home-assistant.io/integrations/utility_meter/).
+
+Ayant un abonnement Heures creuses / Heures pleines, j'ai décidé de créer des compteurs pour les deux tarifs, mais vous pouvez simplement n'en créer qu'un seul en fonction de votre contrat.  
+Ci-dessous mon code, à placer dans le fichier configuration.yaml :
+
+```yaml
+utility_meter:
+  heures_creuses:
+    source: sensor.hchc
+    cycle: daily
+  heures_pleines:
+    source: sensor.hchp
+    cycle: daily
+```
+
+La "source" correspond au sensor "Index HC" ou "Index HP" créé dans ESPHome, il alimentera en temps réel votre compteur.  
+
+La variable "cycle" correspond à la période, vous avez le choix entre : _quarter-hourly, hourly, daily, weekly, monthly, bimonthly, quarterly_ et _yearly_.  
+Ces variables sont toutes documentées dans la doc de l'intégration, libre à vous de créer les compteurs de votre choix. Pour notre besoin _daily_ suffira.
+
+Voici le genre d'entité que vous obtiendrez après redémarrage de Home Assistant :
+
+![entité sensor.heures\_pleines]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/grille-heure-pleine-820.webp)
+
+Maintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard "Energie".
+
+## Configuration du dashboard Energie
+
+Rendez-vous dans "Configuration" puis "Energie".  
+Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la consommation, la production ainsi que le stockage de l'énergie (Plus d'infos [dans la doc officielle](https://www.home-assistant.io/docs/energy/electricity-grid/).
+
+
+Ensuite dans "Réseau électrique", cliquez sur "Ajouter la consommation" et sélectionnez le sensor créé auparavant, dans notre cas : **sensor.heures\_pleines**.  
+Répétez l'opération pour le sensor heures creuses si nécessaire.  
+
+![Configuration du dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-heure-creuse-pleine-820.webp)
+
+Configuration du dashboard Energie
+
+Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/)).
+
+![Ajout d'un compteur]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/ajout-compteur-820.webp)
+
+Une fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.
+
+![Dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-dashboard-energie-ha-820.webp)
+
+L'article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.

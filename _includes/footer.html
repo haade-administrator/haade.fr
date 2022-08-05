@@ -1,0 +1,46 @@
+<footer>
+   <div class="footcontent">
+     <div class="footleft footbox">
+       <div class="footupper">
+         <div class="foottopic">{{ translate.footer.about[page.language] }}</div>
+         <p>{{ translate.footer.description[page.language] }}</p>
+       </div>
+       <div class="footlower">
+         <div class="foottopic">{{ translate.footer.contact[page.language] }}</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a>
+         </div>
+         <div class="email">
+           <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a>
+         </div>
+       </div>
+     </div>
+     <div class="footmiddle footbox">
+       <div class="foottopic">{{ translate.footer.linku[page.language] }}</div>
+       <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
+       <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
+       <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
+       <div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div>
+     </div>
+     {% if site.mailchimp-list %}
+     <!-- Newsletter
+     ================================================== -->
+     <div class="footright footbox">
+       <div class="foottopic">{{ translate.footer.newsletter[page.language] }}</div>
+       <form action="{{site.mailchimp-list}}" method="post" name="" class="" target="_blank" novalidate>
+         <input type="text" placeholder="{{ translate.footer.inputmail[page.language] }}">
+         <input type="submit" name="" value="{{ translate.footer.submit[page.language] }}">
+         <div class="media-icons">
+           <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
+           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+         </div>
+       </form>
+     </div>
+     {% endif %}
+   </div>
+   <div class="footbottom">
+     <p>Copyright © {{ site.time | date: "%Y" }} <a target="_blank" href="https://www.haade.fr">{{ site.name }}</a> 🎉 by Nicoxygen</p>
+   </div>
+ </footer>

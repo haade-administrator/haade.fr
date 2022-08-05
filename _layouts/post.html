@@ -1,0 +1,65 @@
+---
+layout: default
+disqus: false
+post_class: post-template
+---
+
+<script>
+  function liveViews(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+</script>
+
+<!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
+{% assign translate = site.data.locales.translate %}
+
+<div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">{{ page.title }}</h1>
+    <!-- Author & Date  Box -->
+    {% assign author = site.data.authors[page.author] %}
+    {% if page.author %}
+    <div class="d-flex align-items-center mt-4">
+        <div>
+            {% if author.avatar %}
+            <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" width="50" height="50" alt="{{ author.display_name }}"></a>
+            {% else %}
+            <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+            {% endif %}
+        </div>
+        <div>
+        {{ translate.writting[page.language] }} <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> {{ translate.the[page.language] }}
+        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{% include date.html date=page.date %}</time></span>
+        {% if page.last_modified_at %}
+        {{ translate.update[page.language] }} {{ translate.the[page.language] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{% include date.html date=page.last_modified_at %}</time>
+        {% endif %}
+        <br />
+        {% include read-time.html content=content %}
+        {% assign countapi = site.countapi %}
+        {% if countapi.namespace %}
+        <p><i class="fas fa-eye"></i> {{ translate.count[page.language] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.language] }}.</p>
+        {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+{% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+{% endif %}
+
+<!-- Featured Image -->
+{% include featured-image.html %}
+
+<!-- Content -->
+{% include article.html %}
+
+<!-- Author Box if enabled from _config.yml -->
+{% include author-box.html %}
+
+<!-- Comments if not disabled with comments: false -->
+{% include comments.html %}
+
+<!-- Related Post -->
+{% include related-posts.html %}
