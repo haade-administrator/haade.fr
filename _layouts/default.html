@@ -9,7 +9,7 @@ layout: compress
 {% include head.html %}
 
 </head>
-
+{% assign cachebuster = site.time | date:'?v=%s' %}
 {% assign translate = site.data.locales.translate %}
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body>

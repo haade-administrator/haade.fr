@@ -89,7 +89,7 @@ Cochez les cases comme l'image ci-dessous et rentrez un code Hashsecret pour plu
 5. OPT\_USE\_LEGACI\_API\_AUTH: activer l'uthentification API
 6. OPT\_USE\_EVENTNOTIFICATION: Prise en compte du machine learning
 
-![paramétrage option zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-options-systemes-zoneminder-820.webp)
+![paramétrage option zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-options-systemes-zoneminder-820.webp{{ cachebuster }})
 
 ## Mise en place pour Home Assistant
 
@@ -97,7 +97,7 @@ Ensuite il faut créer un utilisateur dédié à Homeassistant avec une ouvertur
 
 Options >>> Utilisateurs >> Ajouter utilisateurs
 
-![paramétrage utilisateur zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-utilisateur-zoneminder-820.webp)
+![paramétrage utilisateur zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-utilisateur-zoneminder-820.webp{{ cachebuster }})
 
 ## 2 - Paramétrage du Machinelearning ( ZMEVENTNOTIFICATION )
 
@@ -164,7 +164,7 @@ object_detection_pattern=(person)
 use_sequence= yes # Important pour la prise en charge du nouveau système
 ```
 
-afin de pouvoir utiliser la capture d'images par personne il faut crée un dossier s'il n'existe pas dans ... nommé known\_faces et intégrer à l'intérieur un sous dossier nommé nicolas ensuite intégrer des photos de vous qui serons nommé 1-820.webp, 2-820.webp, etc. lien direct de l'architecture [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
+afin de pouvoir utiliser la capture d'images par personne il faut crée un dossier s'il n'existe pas dans ... nommé known\_faces et intégrer à l'intérieur un sous dossier nommé nicolas ensuite intégrer des photos de vous qui serons nommé 1-820.webp{{ cachebuster }}, 2-820.webp{{ cachebuster }}, etc. lien direct de l'architecture [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
 
 Une fois toutes les images insérées ou dès que tu ajoutes une nouvelle image, il faudra générer le train\_face, donc rentrons dans le docker zoneminder:
 
@@ -190,7 +190,7 @@ et voilà si tout s'est bien passé Zmeventnotification devrait être fonctionne
 
 les lignes de codes ci-dessous sont à rentrer dans la configuration.yaml de home-assistant pour connaître tous les paramètres consulte cette page officielle: [Intégration Zoneminder et Homeassistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 
-![interface zoneminder dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/detail-ha-zm-820.webp)
+![interface zoneminder dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/detail-ha-zm-820.webp{{ cachebuster }})
 
 interface complète de zoneminder dans home assistant
 

@@ -32,7 +32,7 @@ Assembly and assembly Kobol helios 4 by Kobol.io
 
 In order to better position itself in the market and following the ever-increasing sales of helios 4. The company decided in January 2020 to officially launch helios64.
 
-![Nas opensource kobol helios64]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/helios64-820.webp)
+![Nas opensource kobol helios64]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/helios64-820.webp{{ cachebuster }})
 
 NAS data storage module, helios64 by kobol
 

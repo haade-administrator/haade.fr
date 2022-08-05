@@ -40,4 +40,4 @@ Configuration &gt;&gt; Personalization &gt;&gt; Choose an entity
 
 View this beautiful animated GIF that takes it all right.
 
-![modification of a default icon of a device in home assistant]({{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid}}/modification-icone-device_class-element-binaire-personnalisation-820.webp){: width="700" height="344"} Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say *that home assistant has once again thought of everything.*
+![modification of a default icon of a device in home assistant]({{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid}}/modification-icone-device_class-element-binaire-personnalisation-820.webp{{ cachebuster }}){: width="700" height="344"} Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say *that home assistant has once again thought of everything.*

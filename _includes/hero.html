@@ -2,7 +2,7 @@
   <div class="left">
     {% assign latest_post = site.posts[0] %}
       <a href="{{site.baseurl}}{{latest_post.url}}">
-        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if latest_post.image contains "://" %}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{% endif %}); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if latest_post.image contains "://" %}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{{ cachebuster }}{% endif %}); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
       </a>
       <div class="hero-text latest">
       {% if latest_post.categories != empty %}
@@ -33,7 +33,7 @@
     <div class="second">
       {% assign second_post = site.posts[1] %}
         <a href="{{site.baseurl}}{{second_post.url}}">
-          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if second_post.image contains "://" %}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{% endif %});"></div>
+          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if second_post.image contains "://" %}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{{ cachebuster }}{% endif %});"></div>
         </a>
         <div class="hero-text second">
           {% if second_post.categories != empty %}
@@ -63,7 +63,7 @@
       <div class="third">
         {% assign third_post = site.posts[2] %}
               <a href="{{site.baseurl}}{{third_post.url}}">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if third_post.image contains "://" %}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{% endif %});"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if third_post.image contains "://" %}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{{ cachebuster }}{% endif %});"></div>
           </a>
           <div class="hero-text thirdfour">
             {% if third_post.categories != empty %}
@@ -92,7 +92,7 @@
       <div class="four">
         {% assign four_post = site.posts[3] %}
               <a href="{{site.baseurl}}{{four_post.url}}">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if four_post.image contains "://" %}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{% else %} {{ site.baseurl }}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{% endif %}); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if four_post.image contains "://" %}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{{ cachebuster }}{% endif %}); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
           </a>
           <div class="hero-text thirdfour">
             {% if four_post.categories != empty %}
