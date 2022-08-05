@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+  <channel>
+    <title>Haade</title>
+    <description>Home Assistance Alsace domotique et électronique.</description>
+    <sy:updatePeriod>daily</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <link>https://haade-administrator.github.io/futurofhaade/</link>
+    <atom:link href="https://haade-administrator.github.io/futurofhaade/en/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 05 Aug 2022 15:07:46 +0000</pubDate>
+    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Jekyll v4.2.2</generator>
+    
+    <item>
+      <title>Domotical Box Rail Din Home-assistant and Raspberrypi</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical hardware is an integral part of a home, apart from a NAS is rather personal. The question of a move does not pose a problem for the NAS but with regard to home automation it must continue to function without its personal effects. This is why I decided to integrate the Home-Assistant home automation box on din rail into the electrical panel.&lt;/p&gt;
+</description>
+      
+      <pubDate>Tue, 05 Oct 2021 14:40:45 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/box-domotique-rail-din</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/box-domotique-rail-din</guid>
+      
+      
+      <category>Home Assistant</category>
+      
+      <category>Tests</category>
+      
+      <category>Haade-lab</category>
+      
+    </item>
+    
+    <item>
+      <title>Home-Assistant Amber VS Jeedom Atlas</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a few days apart. The difference lies in the fact that the Amber box is in presale on the platform. &lt;a href=&quot;https://www.crowdsupply.com/nabu-casa/home-assistant-amber&quot;&gt;crowdsupply&lt;/a&gt; &lt;em&gt;who close the 27 October 2021&lt;/em&gt;, with an &lt;strong&gt;official release for June 2022&lt;/strong&gt; while Jeedom Atlas is already &lt;strong&gt;available for sale&lt;/strong&gt; on the site &lt;a href=&quot;https://www.domadoo.fr/fr/194_jeedom&quot;&gt;Domadoo&lt;/a&gt;.&lt;/p&gt;
+</description>
+      
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/home-assistant-amber-vs-jeedom-atlas</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/home-assistant-amber-vs-jeedom-atlas</guid>
+      
+      
+      <category>Home Assistant</category>
+      
+      <category>Jeedom</category>
+      
+      <category>News</category>
+      
+    </item>
+    
+    <item>
+      <title>Zoneminder, home assistant and Machinelearning</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/dlandon/zoneminder.machine.learning&quot; target=&quot;_blank&quot;&gt;Dlandon&lt;/a&gt; this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of day. For less than a year, installation under docker has been greatly simplified. In addition, &lt;strong&gt;machinelearning is very complete&lt;/strong&gt; thanks to object detection, facial detection, facial recognition, plate recognition, etc ….&lt;/p&gt;
+</description>
+      
+      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-et-machinelearning</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-et-machinelearning</guid>
+      
+      
+      <category>Security</category>
+      
+      <category>Haade-lab</category>
+      
+    </item>
+    
+    <item>
+      <title>Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;That’s after the &lt;a href=&quot;https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/&quot;&gt;presentation of the temperature sensor SNZB-02&lt;/a&gt;, I will detail quickly &lt;a href=&quot;https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/&quot;&gt;the sonoff opening sensor SNZB-04&lt;/a&gt;, the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM&lt;/p&gt;
+</description>
+      
+      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</guid>
+      
+      
+      <category>Tests</category>
+      
+    </item>
+    
+    <item>
+      <title>home assistant icon tip</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;Here is in the series &lt;strong&gt;of the very small tutorials&lt;/strong&gt; . I will quickly describe how to change an icon of a &lt;strong&gt;binary sensor&lt;/strong&gt; thanks to the device_class, by customization in home assistant.&lt;/p&gt;
+</description>
+      
+      <pubDate>Wed, 15 Sep 2021 07:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</guid>
+      
+      
+      <category>Home Assistant</category>
+      
+      <category>Haade-lab</category>
+      
+    </item>
+    
+    <item>
+      <title>Sonoff SNZB-02 temperature and humidity sensor test</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;I decided to put forward by presenting a test of the &lt;a href=&quot;https://www.haade.fr/en/produit/capteur-temperature-sonoff-snzb-02-zigbee/&quot;&gt;Sonoff SNZB-02 temperature and humidity sensor&lt;/a&gt;, for the seriousness and the range of the brand’s products. It’s not going to be a big item that’s why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.&lt;/p&gt;
+</description>
+      
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
+      
+      
+      <category>Tests</category>
+      
+    </item>
+    
+    <item>
+      <title>Z-wave VS Matter</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;h2 id=&quot;z-wave-matter-is-an-opportunity-for-true-interoperability&quot;&gt;&lt;a href=&quot;https://z-wavealliance.org/&quot; target=&quot;_blank&quot;&gt;Z-Wave&lt;/a&gt;: &lt;a href=&quot;https://buildwithmatter.com/&quot; target=&quot;_blank&quot;&gt;Matter&lt;/a&gt; is an opportunity for true interoperability&lt;/h2&gt;
+</description>
+      
+      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/z-wave-face-a-matter</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/z-wave-face-a-matter</guid>
+      
+      
+      <category>News</category>
+      
+      <category>Protocoles</category>
+      
+    </item>
+    
+    <item>
+      <title>Open source NAS for Raspberry pi CM4 the future!</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;After &lt;a href=&quot;https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/&quot;&gt;the end announced by kobol ,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)&lt;/p&gt;
+</description>
+      
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</guid>
+      
+      
+      <category>News</category>
+      
+    </item>
+    
+    <item>
+      <title>Kobol helios 64 is done!</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;On Wednesday 25 August, the company &lt;a href=&quot;https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/&quot; target=&quot;_blank&quot;&gt;Kobol&lt;/a&gt;.io &lt;strong&gt;decided to put an end to the adventure&lt;/strong&gt; of the open source helios 64 NAS (network attached storage) storage box.&lt;/p&gt;
+</description>
+      
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/kobol-helios-64-cest-termine</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/kobol-helios-64-cest-termine</guid>
+      
+      
+      <category>News</category>
+      
+    </item>
+    
+    <item>
+      <title>[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002</title>
+      
+      
+      <dc:creator>Nico</dc:creator>
+      
+      
+      <description>&lt;p&gt;Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the &lt;a href=&quot;https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465&quot; target=&quot;_blank&quot;&gt;Atlantic thermostat 109519&lt;/a&gt; this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.&lt;/p&gt;
+</description>
+      
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/test-et-install-thermostat-zigbee-moes-bht-002</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-et-install-thermostat-zigbee-moes-bht-002</guid>
+      
+      
+      <category>Home Assistant</category>
+      
+      <category>Tests</category>
+      
+      <category>Haade-lab</category>
+      
+    </item>
+    
+  </channel>
+</rss>
