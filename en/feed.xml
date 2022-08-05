@@ -9,9 +9,9 @@
     <description>Home Assistance Alsace domotique et électronique.</description>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
-    <link>https://haade-administrator.github.io/futurofhaade/</link>
-    <atom:link href="https://haade-administrator.github.io/futurofhaade/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Aug 2022 15:31:06 +0000</pubDate>
+    <link>https://haade-administrator.github.io/haade.fr/</link>
+    <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 05 Aug 2022 15:45:23 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
