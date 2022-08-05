@@ -18,7 +18,7 @@ layout: compress
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
 <header>
-	{% include_cached header.html %}
+	{% include header.html %}
 </header>
 
 <div class="site-content">
@@ -28,7 +28,7 @@ layout: compress
     <!-- Content
     ================================================== -->
     <div class="main-content">
-      {% if page.layout == 'index' %}
+      {% if page.url == '/index.html' or page.url == '/en/index.html' %}
       {% include ticker-news-local.html %}
       {% include hero.html %}
       {% endif %}
@@ -37,7 +37,7 @@ layout: compress
 
 </div>
 
-{% include_cached footer.html %}
+{% include footer.html %}
 
 </div> <!-- /.site-content -->
 
