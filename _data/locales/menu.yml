@@ -2,6 +2,7 @@ home:
   fr:
     name: 'Accueil'
     link: ''
+    
   en:
     name: 'Home'
     link: 'en/'

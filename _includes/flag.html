@@ -58,16 +58,6 @@
             {%- endfor %}
           {%- endif %}
 
-          {%- elsif page.layout == 'index' %}
-            {%- assign home_pages = site.pages
-              | where: 'language_reference', language_reference
-              | where: 'language', page.language %}
-              {%- if home_pages.size == 1 %}
-            {%- for home_page in home_pages %}
-            {%- assign url = site.baseurl | append: home_page.url %}
-          {%- endfor %}
-          {% endif %}
-
 
       {%- else %}
         {%- assign navigation_pages = site.pages

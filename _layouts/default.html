@@ -1,6 +1,6 @@
----
+<!-- ---
 layout: compress
----
+--- -->
 
 <!DOCTYPE html>
 <html lang="{{ page.language }}">
@@ -18,7 +18,7 @@ layout: compress
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
 <header>
-	{% include header.html %}
+	{% include_cached header.html %}
 </header>
 
 <div class="site-content">
@@ -37,7 +37,7 @@ layout: compress
 
 </div>
 
-{% include footer.html %}
+{% include_cached footer.html %}
 
 </div> <!-- /.site-content -->
 

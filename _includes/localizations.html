@@ -22,7 +22,7 @@
     <link rel="alternate" hreflang="{{ localized_category.language }}" href="{{ site.baseurl }}{{ localized_category.url }}" />
   {%- endfor %}
 
-{%- elsif page.url == '/index.html' %}
+{%- elsif page.layout == 'index' %}
   {%- assign localized_pages = site.pages
     | where: 'language_reference', site.fallback_page
     | sort: 'language' %}
