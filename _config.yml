@@ -30,7 +30,6 @@ fallback_page: 'index'
 # Plugins
 plugins:
   - jekyll-seo-tag
-  - jekyll-include-cache
   - jekyll-figure
   - jekyll-gist
   - jekyll-last-modified-at
@@ -173,9 +172,6 @@ lazyimages: "enabled"
 
 # Vanilla back to top ("enabled" or "disabled")
 backtotop: "enabled"
-
-# Toggle dark / light button ("enabled" or "disabled")
-darklight: "disabled"
 
 # Post Author Box ("enabled" or "disabled")
 authorbox: "enabled"

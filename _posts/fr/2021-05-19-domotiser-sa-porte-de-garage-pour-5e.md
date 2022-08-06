@@ -118,7 +118,7 @@ Dans notre cas nous voulons domotiser un moteur hormann la nomenclature est asse
 
 Maintenant que notre module est prêt et fonctionnel avec homeassistant il ne nous reste plus qu’à le mettre en place dans notre moteur. **Attention! Avant toute intervention n’oubliez pas de couper le courant 230V**. heureusement le branchement est simple et il y a de la place pour intégrer des modules supplémentaires. Comme il s’agit de test en 24V, pour l’occasion nous n’avons pas utilisé de connecteurs molex adéquats et de fil électrique 0,75mm.
 
-{% include_cached hormann.html %}
+{% include hormann.html %}
 
 Il ne reste plus qu’à rassembler le tout et l’incorporer dans le boitier du moteur de porte de garage et vous pouvez pour 5€ livré commander votre porte de garage en wifi via esphome et homeassistant, tout simplement magic !.
 
