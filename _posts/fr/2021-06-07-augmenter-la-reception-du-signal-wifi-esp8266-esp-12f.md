@@ -8,6 +8,7 @@ layout: post
 tags: esp8266 esp12 amélioration
 categories: Domotique Haade-lab Home-Assistant
 language: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

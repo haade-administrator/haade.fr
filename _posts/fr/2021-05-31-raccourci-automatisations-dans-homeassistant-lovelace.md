@@ -9,6 +9,7 @@ categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: miniature
 language: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: false
