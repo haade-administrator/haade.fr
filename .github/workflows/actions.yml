@@ -26,12 +26,14 @@ jobs:
           npm -v
           echo 'visu app list ufw'
           sudo ufw app list
-          echo 'activation service Apache Full'
-          sudo ufw allow 'Apache Full'
+          echo 'activation service Apache Secure'
+          sudo ufw allow 'Apache Secure'
           echo 'redémarrage service ufw'
           sudo service ufw restart
           echo 'status de fonctionnement ufw'
           sudo service ufw status
+          echo 'activation ufw'
+          sudo ufw enable
           echo 'status apache pour ufw'
           sudo ufw status
           echo 'redémarrage Apache2'
