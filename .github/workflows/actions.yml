@@ -21,9 +21,13 @@ jobs:
           sudo apt update
           sudo apt upgrade
           sudo apt dist-upgrade
-          sudo apt install libvips imagemagick gvfs libvips-doc libvips-tools poppler-utils ghostscript -y
+          sudo apt install libvips imagemagick gvfs libvips-doc libvips-tools poppler-utils ghostscript apache2 -y
           node -v
           npm -v
+          sudo ufw app list
+          sudo ufw allow 'Apache Secure'
+          sudo ufw status
+          sudo systemctl status apache2
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
