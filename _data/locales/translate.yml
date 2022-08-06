@@ -67,6 +67,14 @@ estimated-time:
   fr: Temps de Lecture estimé
   en: Estimated read time
 
+search:
+  fr: Recherche...
+  en: Search...
+
+search-sorry:
+  fr: Désolé, aucun résultat trouvé. Fermez et essayez une autre recherche !
+  en: Sorry, no results found. Close and try another search!
+
 #includes
 count:
   fr: Cet Article a été vu
