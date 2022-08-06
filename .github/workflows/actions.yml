@@ -26,7 +26,7 @@ jobs:
           npm -v
           sudo timeout 30 ufw app list
           sudo ufw allow 'Apache'
-          sudo status ufw
+          sudo ufw status
           sudo systemctl status apache2
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
