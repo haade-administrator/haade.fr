@@ -36,6 +36,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-imagemagick
 
+
 # Set which comment system to use
 comments:
   provider: giscus
