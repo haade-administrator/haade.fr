@@ -22,6 +22,44 @@ $badge-purple: #32064a;
 @import 'plugins';
 @import 'prism';
 
+
+// css toggle dark/light https://codepen.io/errbint/pen/VweGXZj
+
+// .button {
+//   position: fixed;
+//   left: 268px;
+//   top: 22px;
+//   transition:0.75s;
+//   width:35px;
+//   height:35px;
+//   background: #FFFFFF;
+//   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+//   border-radius:10px;
+//   display:flex;
+//   justify-content: center;
+//   align-items: start;
+//   overflow: hidden;
+// }
+// .mover{
+//   position:relative;
+//   display:flex;
+//   justify-content:space-between;
+//   align-items:center;
+//   flex-direction:column;
+//   height: 72px;
+//   padding-top:8px;
+//   padding-bottom:3px;
+//   transition:0.75s;
+// }
+// .day{
+//   background-color: white;
+// }
+// .night{
+//   background-color: #0E0E0E;
+// }
+
+// end css toggle darklight
+
 // Intégration google font into scss https://google-webfonts-helper.herokuapp.com/fonts
 /* sen-regular - latin */
 @font-face {
@@ -147,8 +185,13 @@ $badge-purple: #32064a;
        url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.svg#Poppins') format('svg'); /* Legacy iOS */
 }
 // general
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
 body, input, button, select, optgroup, textarea {
-    font-family:'Sen';
+    // font-family:'Sen';
 }
 body {
     line-height:1.7;
