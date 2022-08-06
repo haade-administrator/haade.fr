@@ -4,6 +4,7 @@
  ExpiresDefault "access plus 7200 seconds"
  ExpiresByType image/jpg "access plus 2592000 seconds"
  ExpiresByType image/jpeg "access plus 2592000 seconds"
+ ExpiresByType image/webp "access plus 2592000 seconds"
  ExpiresByType image/png "access plus 2592000 seconds"
  ExpiresByType image/gif "access plus 2592000 seconds"
  AddType image/x-icon .ico
@@ -22,7 +23,7 @@
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+ <FilesMatch "\.(ico|jpe?g|webp|png|gif|swf|css|gz)$">
  Header set Cache-Control "max-age=2592000, public"
  </FilesMatch>
  <FilesMatch "\.(js)$">
