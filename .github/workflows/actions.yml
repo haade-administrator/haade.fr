@@ -25,6 +25,7 @@ jobs:
           node -v
           npm -v
           sudo ufw app list
+          kill
           sudo ufw allow 'Apache'
           sudo status ufw
           sudo systemctl status apache2
