@@ -27,7 +27,10 @@ jobs:
           sudo ufw app list
           sudo ufw allow 'Apache Full'
           sudo ufw status
-          sudo systemctl status apache2
+          sudo apachectl configtest
+          sudo apachectl restart
+          sudo service apache2 restart
+          sudo service apache2 status
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
