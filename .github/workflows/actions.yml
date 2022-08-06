@@ -24,8 +24,7 @@ jobs:
           sudo apt install libvips imagemagick gvfs libvips-doc libvips-tools poppler-utils ghostscript apache2 -y
           node -v
           npm -v
-          sudo ufw app list
-          kill
+          sudo timeout 30 ufw app list
           sudo ufw allow 'Apache'
           sudo status ufw
           sudo systemctl status apache2
