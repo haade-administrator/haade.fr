@@ -25,9 +25,11 @@ jobs:
           node -v
           npm -v
           sudo ufw app list
-          sudo ufw allow 'Apache Secure'
+          sudo ufw allow 'Apache Full'
+          sudo service ufw restart
+          sudo service ufw status
           sudo ufw status
-          sudo systemctl status apache2
+          sudo service apache2 restart
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
