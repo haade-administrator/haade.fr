@@ -331,6 +331,12 @@ a.hero-categories {
 .hero-author {
   display: none;
 }
+.secondheader .sitetag {
+  font-size: 12px;
+}
+.col-md-9 {
+  text-align: center;
+}
 }
 
 @media (max-width: 500px) {
@@ -574,12 +580,6 @@ footer a:hover{
 @media (max-width:920px) {
   .secondheader {
     max-width: 100%;
-  }
-}
-
-@media (max-width:768px) {
-  .secondheader .sitetag {
-    font-size: 12px;
   }
 }
 

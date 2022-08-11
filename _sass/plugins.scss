@@ -637,6 +637,16 @@ a {
   .hero-author {
     display: none;
   }
+  .secondheader .sitetag {
+    font-size: 12px;
+  }
+  .col-md-9 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .row.align-items-center.mb-5 {
+    flex-wrap: nowrap;
+  }
 }
 
 @media (max-width: 500px) {
@@ -920,12 +930,6 @@ footer {
 @media (max-width: 920px) {
   .secondheader {
     max-width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .secondheader .sitetag {
-    font-size: 12px;
   }
 }
 
@@ -1438,5 +1442,11 @@ nav .navbar .links li {
 @media (max-width: 370px) {
   nav .navbar .nav-links {
     max-width: 100%;
+  }
+  .row.align-items-center.mb-5 {
+    flex-wrap: wrap;
+  }
+  .text-right {
+    text-align: center !important;
   }
 }
