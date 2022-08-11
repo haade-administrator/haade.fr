@@ -9,7 +9,7 @@ author: Nico
 layout: post
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: false
 beforetoc:
 comments: true

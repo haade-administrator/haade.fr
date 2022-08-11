@@ -10,7 +10,7 @@ tags: Test Zigbee Homeassistant
 image: controleur-intelligent-luminosite-moes
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: true
 beforetoc:
 comments: true

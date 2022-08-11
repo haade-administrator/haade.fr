@@ -8,7 +8,7 @@ categories: [News, Protocoles]
 image: "zwave-face-a-matter"
 language: en
 publish: true
-locale: en_GB
+locale: en
 ---
 ## [Z-Wave](https://z-wavealliance.org/){:target="_blank"}: [Matter](https://buildwithmatter.com/){:target="_blank"} is an opportunity for true interoperability
 

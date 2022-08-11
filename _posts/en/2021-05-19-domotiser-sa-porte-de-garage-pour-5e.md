@@ -10,7 +10,7 @@ tags: []
 description: "a simple way to automate your garage door at a lower cost"
 language: en
 publish: true
-locale: en_GB
+locale: en
 toc: true
 published: true
 ---

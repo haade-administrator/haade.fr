@@ -10,7 +10,7 @@ tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber
 language: en
 publish: true
-locale: en_GB
+locale: en
 toc: false
 ---
 

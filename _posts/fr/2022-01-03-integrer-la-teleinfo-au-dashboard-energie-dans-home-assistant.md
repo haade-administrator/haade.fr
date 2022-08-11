@@ -13,7 +13,7 @@ toc: true
 beforetoc:
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 comments: true
 ---
 

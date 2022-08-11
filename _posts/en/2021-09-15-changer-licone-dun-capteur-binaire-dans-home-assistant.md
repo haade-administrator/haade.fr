@@ -9,7 +9,7 @@ author: Nico
 layout: post
 language: en
 publish: true
-locale: en_GB
+locale: en
 toc: false
 image: changer-icone-element-binaire-home-assistant
 ---

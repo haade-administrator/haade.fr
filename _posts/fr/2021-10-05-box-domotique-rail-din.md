@@ -10,7 +10,7 @@ tags: Test Raspberry Homeassistant
 image: box-domotique-rail-din-home-assistant
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: true
 beforetoc:
 comments: true

@@ -10,7 +10,7 @@ tags:
 image: "zwave-face-a-matter"
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: true
 beforetoc:
 comments: true

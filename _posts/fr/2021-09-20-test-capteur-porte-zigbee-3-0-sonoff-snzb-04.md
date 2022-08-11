@@ -10,7 +10,7 @@ tags: Test Zigbee Homeassistant
 image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0"
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: false
 beforetoc:
 comments: true

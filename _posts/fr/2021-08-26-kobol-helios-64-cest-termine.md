@@ -10,7 +10,7 @@ tag:
 image: "helios64"
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 beforetoc:
 toc: true
 comments: true

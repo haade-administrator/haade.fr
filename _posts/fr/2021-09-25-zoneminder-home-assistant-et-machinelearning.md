@@ -10,7 +10,7 @@ tags: Tutoriel Zoneminder Homeassistant
 image: "zoneminder_homeassistant-1"
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: true
 beforetoc:
 comments: true

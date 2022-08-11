@@ -8,7 +8,7 @@ categories: [Tests]
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite"
 language: en
 publish: true
-locale: en_GB
+locale: en
 ---
 I decided to put forward by presenting a test of the [Sonoff SNZB-02 temperature and humidity sensor](https://www.haade.fr/en/produit/capteur-temperature-sonoff-snzb-02-zigbee/), for the seriousness and the range of the brand's products. It's not going to be a big item that's why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.
 

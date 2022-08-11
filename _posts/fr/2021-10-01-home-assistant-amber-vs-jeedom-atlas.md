@@ -10,7 +10,7 @@ tags: Comparatif Homeassistant Jeedom
 image: Jeedom-Atlas-vs-Homeassistant-Amber
 language: fr
 published: true
-locale: fr_FR
+locale: fr
 toc: false
 beforetoc:
 comments: true

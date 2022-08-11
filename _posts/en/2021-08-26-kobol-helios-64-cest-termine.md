@@ -8,7 +8,7 @@ categories: [News]
 image: "helios64"
 language: en
 publish: true
-locale: en_GB
+locale: en
 ---
 On Wednesday 25 August, the company [Kobol](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"}.io **decided to put an end to the adventure** of the open source helios 64 NAS (network attached storage) storage box.
 

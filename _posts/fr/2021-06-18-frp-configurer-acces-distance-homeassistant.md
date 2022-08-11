@@ -8,7 +8,7 @@ date: '2021-06-18T20:05:56+00:00'
 author: Nico
 layout: post
 language: fr
-locale: fr_FR
+locale: fr
 published: true
 beforetoc:
 toc: true
