@@ -2,13 +2,13 @@
 guid: 9
 title: 'Raccourci automatisations dans Homeassistant Lovelace'
 date: '2021-05-31T14:52:00+00:00'
+last_modified_at:
 author: Yann
 description: "création d'une entité automatisation dans home assistant et lovelace"
 tags: entité Home-Assistant lovelace
 categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: miniature
-language: fr
 locale: fr
 published: true
 beforetoc:

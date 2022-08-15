@@ -6,7 +6,7 @@ author: Nico
 date: "2021-09-05"
 categories: [News, Protocoles]
 image: "zwave-face-a-matter.webp"
-language: en
+locale: en
 ---
 ## [Z-Wave](https://z-wavealliance.org/){:target="_blank"}: [Matter](https://buildwithmatter.com/){:target="_blank"} is an opportunity for true interoperability
 

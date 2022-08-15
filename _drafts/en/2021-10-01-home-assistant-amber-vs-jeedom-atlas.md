@@ -8,7 +8,7 @@ author: Nico
 categories: [Home Assistant, Jeedom, News ]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png
-language: en
+locale: en
 toc: false
 ---
 

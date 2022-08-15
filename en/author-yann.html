@@ -1,8 +1,8 @@
 ---
 title: "Yann"
 layout: default
-language: en
-language_reference: yann
+locale: en
+locale_reference: yann
 published: true
 ---
 <div class="container">
@@ -29,8 +29,8 @@ published: true
                   {% if site.data.authors.Yann.email %}
                       <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Yann.email }}"><i class="fa fa-envelope"></i></a>
                   {% endif %}
-                  <p class="excerpt">{{ site.data.authors.Yann.description[page.language] }}</p>
-                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'language', page.language | size }}</span></p>
+                  <p class="excerpt">{{ site.data.authors.Yann.description[page.locale] }}</p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
@@ -42,7 +42,7 @@ published: true
             </div>
         </div>
         <h2 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h2>
-            {% assign posts = site.posts | where:"author","Yann" | where: 'language', page.language %}
+            {% assign posts = site.posts | where:"author","Yann" | where: 'locale', page.locale %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}

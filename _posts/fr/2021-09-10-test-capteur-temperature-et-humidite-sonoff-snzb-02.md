@@ -5,10 +5,10 @@ description: "Test du capteur de tempérture SONOFF SNZB-02 et intégration dans
 layout: post
 author: Nico
 date: "2021-09-10"
+last_modified_at:
 category: Tests
 tags: Test Zigbee Homeassistant
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite"
-language: fr
 published: true
 locale: fr
 toc: false

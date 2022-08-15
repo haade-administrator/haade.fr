@@ -3,7 +3,7 @@
 <div class="secondheader">
 <!-- Site Logo/Name
 ================================================== -->
-{%- assign pages = site.pages | where: 'language_reference', 'index' | where: 'language', page.language %}
+{%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
 {% for page in pages limit:1 %}
 <a class="navbar-brand" href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
     <img src="{{ site.baseurl }}/{{ site.logo }}" width='250' height='59' alt="{{ site.name }}">
@@ -14,7 +14,7 @@
 <!-- Site Tag
 ================================================== -->
     <p class="sitetag">
-        {{ translate.site.description[page.language] }}
+        {{ translate.site.description[page.locale] }}
     </p>
 
 </div>

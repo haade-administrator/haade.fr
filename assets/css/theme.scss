@@ -221,6 +221,20 @@ td, th {
   padding: 2px 10px;
 }
 
+.media {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+}
+
 .spanborder {
 	border-bottom:1px solid #e8f3ec;
 	margin-bottom:2rem;

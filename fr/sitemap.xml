@@ -1,8 +1,8 @@
 ---
 layout: none
 title: French Sitemap
-language: fr
-language_reference: sitemap
+locale: fr
+locale_reference: sitemap
 sitemap:
   excluded: true
 ---
@@ -10,7 +10,7 @@ sitemap:
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {%- assign posts = site.posts | sort: 'date' | where: 'language', 'fr' | where: 'published', true %}
+  {%- assign posts = site.posts | sort: 'date' | where: 'locale', 'fr' | where: 'published', true %}
 
   {%- for post in posts reversed %}
     {%- unless post.sitemap.excluded == true %}
@@ -43,7 +43,7 @@ sitemap:
     {%- endunless %}
   {%- endfor %}
 
-  {%- assign pages = site.pages | where: 'language', page.language %}
+  {%- assign pages = site.pages | where: 'locale', page.locale %}
 
   {%- for page in pages %}
     {%- unless page.sitemap.excluded == true %}

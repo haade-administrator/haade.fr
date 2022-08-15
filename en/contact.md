@@ -2,8 +2,8 @@
 layout: firstheader
 title: Contact
 comments: false
-language: en
-language_reference: contact
+locale: en
+locale_reference: contact
 published: true
 order: 3
 ---

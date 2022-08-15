@@ -5,9 +5,9 @@ description: "Configurer simplement un accès à distance sécurisé et gratuit 
 categories: [Domotique, Securite, Haade-lab, Home-Assistant]
 tags: frp module
 date: '2021-06-18T20:05:56+00:00'
+last_modified_at:
 author: Nico
 layout: post
-language: fr
 locale: fr
 published: true
 beforetoc:

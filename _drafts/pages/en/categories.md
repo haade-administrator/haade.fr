@@ -1,7 +1,7 @@
 ---
 layout: categories
 title: Categories
-language: en
-language_reference: categories
+locale: en
+locale_reference: categories
 published: true
 ---

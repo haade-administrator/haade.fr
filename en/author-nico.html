@@ -1,8 +1,8 @@
 ---
 title: "Nico"
 layout: default
-language: en
-language_reference: nicolasR
+locale: en
+locale_reference: nicolasR
 published: true
 comments: true
 ---
@@ -30,8 +30,8 @@ comments: true
                   {% if site.data.authors.Nico.email %}
                       <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Nico.email }}"><i class="fa fa-envelope"></i></a>
                   {% endif %}
-                  <p class="excerpt">{{ site.data.authors.Nico.description[page.language] }}</p>
-                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "language", page.language | size }}</span></p>
+                  <p class="excerpt">{{ site.data.authors.Nico.description[page.locale] }}</p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
@@ -43,7 +43,7 @@ comments: true
             </div>
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h4>
-            {% assign posts = site.posts | where:"author","Nico" | where: 'language', page.language %}
+            {% assign posts = site.posts | where:"author","Nico" | where: 'locale', page.locale %}
             {% for post in posts %}
             {% include main-loop-card.html %}
             {% endfor %}

@@ -3,12 +3,12 @@ guid: 23
 title: "Box Domotique rail din Home-assistant et Rpi4"
 description: "Création et montage d'une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant"
 date: "2021-10-05"
+last_modified_at:
 layout: post
 author: Nico
 categories: Tests Haade-lab Home-Assistant
 tags: Test Raspberry Homeassistant
 image: box-domotique-rail-din-home-assistant
-language: fr
 published: true
 locale: fr
 toc: true

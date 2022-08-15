@@ -4,11 +4,11 @@ title: "[TEST] et [INSTALL] Thermostat Zigbee Moes BHT-002"
 description: "test d'un thermostat zigbee par Moes le BHT-002"
 layout: post
 author: Nico
-date: "2021-08-12"
+date: "2021-12-18T16:34:23+02:00"
+last_modified_at:
 categories: Tests
 tags:
 image: "thermostat-zigbee-moes-bht-002"
-language: fr
 published: true
 locale: fr
 beforetoc:

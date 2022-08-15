@@ -4,9 +4,9 @@ title: "Open source NAS for Raspberry pi CM4 the future!"
 layout: post
 author: Nico
 date: "2021-09-01"
+last_modified_at:
 categories: [News]
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1"
-language: en
 published: true
 locale: en
 ---
@@ -55,7 +55,9 @@ The Wiretrustee SATA card has been verified to work with Raspberry Pi operating 
 
 ## Presentation video
 
+<div class="media">
 <iframe width="662" height="372" src="https://www.youtube.com/embed/ahrdx3TYxZc" frameborder="0" allowfullscreen></iframe>
+</div>
 
 **Price** of the SATA wiretrustee card: **Unknown?**
 

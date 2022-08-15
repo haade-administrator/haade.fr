@@ -5,13 +5,13 @@ description: "Second tuto allons plus loin avec la téléinformation dans le das
 layout: post
 author: Math67
 date: "2022-01-03"
+last_modified_at:
 categories: Domotique Haade-lab Home-Assistant
 tags: téléinformation
 description: "La téléinfo dans le dashboard Energie de Home Assistant"
 image: integration-dashboard-energie-ha
 toc: true
 beforetoc:
-language: fr
 published: true
 locale: fr
 comments: true

@@ -166,6 +166,8 @@
   // when there should be a fixed height on `.modal-dialog`.
   flex: 1 1 auto;
   padding: $modal-inner-padding;
+  height: 70vh;
+  overflow-y: auto;
 }
 
 // Footer (for actions)

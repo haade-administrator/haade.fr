@@ -1,24 +1,24 @@
 {% assign translate = site.data.locales.translate %}
 <div class="sl-nav">
-  {{ translate.lang[page.language] }}:
+  {{ translate.lang[page.locale] }}:
   <ul>
-    <li><b>{{ translate.languages[page.language].value }}</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+    <li><b>{{ translate.languages[page.locale].value }}</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
         {% for language in translate.languages %}
 
         {%- if page.layout == 'page' or page.layout == 'default' or page.layout == 'firstheader' %}
         {%- assign navigation_pages = site.pages
-          | where: 'language_reference', page.language_reference
-          | where: 'language', language[1].slug %}
+          | where: 'locale_reference', page.locale_reference
+          | where: 'locale', language[1].slug %}
         {%- if navigation_pages.size == 1 %}
           {%- for navigation_page in navigation_pages %}
             {%- assign url = site.baseurl | append: navigation_page.url %}
           {%- endfor %}
         {%- else %}
           {%- assign navigation_pages = site.pages
-            | where: 'language_reference', site.fallback_page
-            | where: 'language', language[1].slug %}
+            | where: 'locale_reference', site.fallback_page
+            | where: 'locale', language[1].slug %}
           {%- for navigation_page in navigation_pages limit:1 %}
             {%- assign url = site.baseurl | append: navigation_page.url %}
           {%- endfor %}
@@ -27,15 +27,15 @@
       {%- elsif page.layout == 'post' %}
         {%- assign navigation_posts = site.posts
           | where: 'guid', page.guid
-          | where: 'language', language[1].slug %}
+          | where: 'locale', language[1].slug %}
         {%- if navigation_posts.size == 1 %}
           {%- for navigation_post in navigation_posts %}
             {%- assign url = site.baseurl | append: navigation_post.url %}
           {%- endfor %}
         {%- else %}
           {%- assign navigation_pages = site.pages
-            | where: 'language_reference', site.fallback_page
-            | where: 'language', language[1].slug %}
+            | where: 'locale_reference', site.fallback_page
+            | where: 'locale', language[1].slug %}
           {%- for navigation_page in navigation_pages limit:1 %}
             {%- assign url = site.baseurl | append: navigation_page.url %}
           {%- endfor %}
@@ -44,15 +44,15 @@
         {%- elsif page.layout == 'category' %}
           {%- assign navigation_categories = site.category
             | where: 'guid', page.guid
-            | where: 'language', language[1].slug %}
+            | where: 'locale', language[1].slug %}
           {%- if navigation_categories.size == 1 %}
             {%- for navigation_category in navigation_categories %}
               {%- assign url = site.baseurl | append: navigation_category.url %}
             {%- endfor %}
           {%- else %}
             {%- assign navigation_pages = site.pages
-              | where: 'language_reference', site.fallback_page
-              | where: 'language', language[1].slug %}
+              | where: 'locale_reference', site.fallback_page
+              | where: 'locale', language[1].slug %}
             {%- for navigation_page in navigation_pages limit:1 %}
               {%- assign url = site.baseurl | append: navigation_page.url %}
             {%- endfor %}
@@ -61,14 +61,14 @@
 
       {%- else %}
         {%- assign navigation_pages = site.pages
-          | where: 'language_reference', site.fallback_page
-          | where: 'language', language[1].slug %}
+          | where: 'locale_reference', site.fallback_page
+          | where: 'locale', language[1].slug %}
         {%- for navigation_page in navigation_pages limit:1 %}
           {%- assign url = site.baseurl | append: navigation_page.url %}
         {%- endfor %}
 
       {%- endif %}
-        <li{%- if language[1].slug == page.language %} class="current"{%- endif %}><a href="{{ url }}"><i class="sl-flag fix flag-{{ language[1].slug | replace: 'en', 'england'  }}"><div id="{{ language[1].value }}"></div></i><span class="active">{{ language[1].value }}</span></a></li>
+        <li{%- if language[1].slug == page.locale %} class="current"{%- endif %}><a href="{{ url }}"><i class="sl-flag fix flag-{{ language[1].slug | replace: 'en', 'england'  }}"><div id="{{ language[1].value }}"></div></i><span class="active">{{ language[1].value }}</span></a></li>
         {%- endfor %}
       </ul>
     </li>

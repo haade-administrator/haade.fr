@@ -7,7 +7,7 @@ tags: []
 date: '2021-09-15T07:00:00+00:00'
 author: Nico
 layout: post
-language: en
+locale: en
 toc: false
 image: changer-icone-element-binaire-home-assistant.png
 ---

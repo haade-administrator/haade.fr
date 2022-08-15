@@ -1,7 +1,7 @@
 ---
 layout: tags
 title: Tags
-language: fr
-language_reference: tags
+locale: fr
+locale_reference: tags
 published: true
 ---

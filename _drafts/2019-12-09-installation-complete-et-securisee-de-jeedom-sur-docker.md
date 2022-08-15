@@ -7,7 +7,7 @@ categories: [ Haade-lab, Jeedom ]
 tags: []
 layout: post
 image: installation-jeedom-docker-1.png
-language: en
+locale: en
 toc: true
 ---
 

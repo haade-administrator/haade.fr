@@ -1,32 +1,32 @@
 {%- if page.layout == 'page' or page.layout == 'default' or page.layout == 'firstheader' %}
   {%- assign localized_pages = site.pages
-    | where: 'language_reference', page.language_reference
-    | sort: 'language' %}
+    | where: 'locale_reference', page.locale_reference
+    | sort: 'locale' %}
   {%- for localized_page in localized_pages %}
-    <link rel="alternate" hreflang="{{ localized_page.language }}" href="{{ site.baseurl }}{{ localized_page.url }}" />
+    <link rel="alternate" hreflang="{{ localized_page.locale }}" href="{{ site.baseurl }}{{ localized_page.url }}" />
   {%- endfor %}
 
 {%- elsif page.layout == 'post' %}
   {%- assign localized_posts = site.posts
   | where: 'guid', page.guid
-  | sort: 'language' %}
+  | sort: 'locale' %}
   {%- for localized_post in localized_posts %}
-    <link rel="alternate" hreflang="{{ localized_post.language }}" href="{{ site.baseurl }}{{ localized_post.url }}" />
+    <link rel="alternate" hreflang="{{ localized_post.locale }}" href="{{ site.baseurl }}{{ localized_post.url }}" />
   {%- endfor %}
 
 {%- elsif page.layout == 'category' %}
   {%- assign localized_categories = site.category
   | where: 'guid', page.guid
-  | sort: 'language' %}
+  | sort: 'locale' %}
   {%- for localized_category in localized_categories %}
-    <link rel="alternate" hreflang="{{ localized_category.language }}" href="{{ site.baseurl }}{{ localized_category.url }}" />
+    <link rel="alternate" hreflang="{{ localized_category.locale }}" href="{{ site.baseurl }}{{ localized_category.url }}" />
   {%- endfor %}
 
 {%- elsif page.url == '/index.html' %}
   {%- assign localized_pages = site.pages
-    | where: 'language_reference', site.fallback_page
-    | sort: 'language' %}
+    | where: 'locale_reference', site.fallback_page
+    | sort: 'locale' %}
   {%- for localized_page in localized_pages %}
-    <link rel="alternate" hreflang="{{ localized_page.language }}" href="{{ site.baseurl }}{{ localized_page.url }}" />
+    <link rel="alternate" hreflang="{{ localized_page.locale }}" href="{{ site.baseurl }}{{ localized_page.url }}" />
   {%- endfor %}
 {%- endif %}

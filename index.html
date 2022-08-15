@@ -5,8 +5,8 @@ pagination:
   enabled: true
   offset: 4
   locale: fr
-language: fr
-language_reference: index
+locale: fr
+locale_reference: index
 published: true
 ---
 
@@ -15,9 +15,9 @@ published: true
 {% assign translate = site.data.locales.translate %}
 <div class="blog-grid-container">
   <div class="post-grid">
-    <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.language] }} ..</span></h2>
+    <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.locale] }} ..</span></h2>
     <br />
-    {%- assign posts = paginator.posts | where: 'language', page.language %}
+    {%- assign posts = paginator.posts | where: 'locale', page.locale %}
     {%- for post in posts %}
         {% include postbox.html %}
     {% endfor %}

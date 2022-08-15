@@ -2,11 +2,11 @@
 guid: 23
 title: "Domotical Box Rail Din Home-assistant and Raspberrypi"
 date: 2021-10-05 14:40:45
+last_modified_at:
 layout: post
 author: Nico
 categories: [Home Assistant, Tests, Haade-lab]
 image: box-domotique-rail-din-home-assistant
-language: en
 published: true
 locale: en
 ---

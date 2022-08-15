@@ -5,10 +5,10 @@ description: "Test d'un capteur de porte Sonoff SNZB-04 zigbee et intégration d
 layout: post
 author: Nico
 date: "2021-09-20"
+last_modified_at:
 categories: Tests
 tags: Test Zigbee Homeassistant
 image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0"
-language: fr
 published: true
 locale: fr
 toc: false

@@ -4,8 +4,8 @@ description: 'gdpr ( general, data, protection, regulation ) compliance.'
 date: '2018-05-23T08:31:18+00:00'
 layout: firstheader
 comments: false
-language: en
-language_reference: gdpr
+locale: en
+locale_reference: gdpr
 published: true
 order: 2
 ---

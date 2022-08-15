@@ -1,13 +1,13 @@
 <div id="notfound">
   <div class="notfound">
     <div class="notfound-404">
-      <h1>{{ translate.error404.title[page.language] }}</h1>
-      <h2>{{ translate.error404.content[page.language] }}</h2>
+      <h1>{{ translate.error404.title[page.locale] }}</h1>
+      <h2>{{ translate.error404.content[page.locale] }}</h2>
     </div>
-    {% if page.language == 'fr' %}
-    <a href="{{ site.baseurl }}/{{ tongue }}">{{ translate.error404.link[page.language] }}</a>
+    {% if page.locale == 'fr' %}
+    <a href="{{ site.baseurl }}/{{ tongue }}">{{ translate.error404.link[page.locale] }}</a>
     {% else %}
-    <a href="{{ site.baseurl }}/{{ page.language }}/{{ tongue }}">{{ translate.error404.link[page.language] }}</a>
+    <a href="{{ site.baseurl }}/{{ page.locale }}/{{ tongue }}">{{ translate.error404.link[page.locale] }}</a>
     {% endif %}
   </div>
 </div>

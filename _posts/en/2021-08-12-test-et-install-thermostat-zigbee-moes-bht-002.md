@@ -4,9 +4,9 @@ title: "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002"
 layout: post
 author: Nico
 date: "2021-08-12"
+last_modified_at:
 categories: [Home Assistant, Tests, Haade-lab]
 image: "thermostat-zigbee-moes-bht-002"
-language: en
 published: true
 locale: en
 ---

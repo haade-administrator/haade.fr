@@ -1,5 +1,5 @@
-<span class="reading-time" title="{{ translate.estimated-time[page.language] }}">
+<span class="reading-time" title="{{ translate.estimated-time[page.locale] }}">
   <strong>
     {% assign words = include.content | strip_html | number_of_words %}
-    {{ words | divided_by: 180 | plus: 1 }} {{ translate.minute[page.language] }}</strong> {{ translate.of[page.language] }} {{ translate.reading[page.language] }}.
+    {{ words | divided_by: 180 | plus: 1 }} {{ translate.minute[page.locale] }}</strong> {{ translate.of[page.locale] }} {{ translate.reading[page.locale] }}.
 </span>

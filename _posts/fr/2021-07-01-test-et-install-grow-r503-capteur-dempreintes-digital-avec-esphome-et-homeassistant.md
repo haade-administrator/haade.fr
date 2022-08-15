@@ -5,9 +5,9 @@ description: "[TEST] et [INSTALL] Grow R503 Capteur d&#8217;empreintes digital a
 categories: Tests
 tags: esphome homeassistant
 date: '2021-07-01T19:33:43+00:00'
+last_modified_at:
 author: Nico
 layout: post
-language: fr
 locale: fr
 published: true
 beforetoc:

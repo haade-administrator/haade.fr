@@ -28,16 +28,16 @@ post_class: post-template
             {% endif %}
         </div>
         <div>
-        {{ translate.writting[page.language] }} <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> {{ translate.the[page.language] }}
+        {{ translate.writting[page.locale] }} <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> {{ translate.the[page.locale] }}
         <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{% include date.html date=page.date %}</time></span>
         {% if page.last_modified_at %}
-        {{ translate.update[page.language] }} {{ translate.the[page.language] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{% include date.html date=page.last_modified_at %}</time>
+        {{ translate.update[page.locale] }} {{ translate.the[page.locale] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{% include date.html date=page.last_modified_at %}</time>
         {% endif %}
         <br />
         {% include read-time.html content=content %}
         {% assign countapi = site.countapi %}
         {% if countapi.namespace %}
-        <p><i class="fas fa-eye"></i> {{ translate.count[page.language] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.language] }}.</p>
+        <p><i class="fas fa-eye"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
         {% endif %}
         </div>
     </div>

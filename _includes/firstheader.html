@@ -1,12 +1,12 @@
     <div class="firstnavbar">
         <div class="links">
-          {%- assign pages = site.pages | where: 'language_reference', 'index' | where: 'language', page.language %}
+          {%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
           {% for page in pages limit:1 %}
           <a href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">{{ page.title }}</a>
           {% endfor %}
           {%- assign navigation_pages = site.pages
             | where: 'layout', 'firstheader'
-            | where: 'language', page.language
+            | where: 'locale', page.locale
             | where: 'published', true
             | sort: 'order' %}
           {%- for navigation_page in navigation_pages %}

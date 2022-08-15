@@ -1,5 +1,5 @@
 {% assign day = include.date | date: "%-d" %}
-{% if page.language != 'fr' %}
+{% if page.locale != 'fr' %}
     {% case day %}
         {% when '1' or '21' or '31' %} {{ day }}<sup>st</sup>
         {% when '2' or '22' %} {{ day }}<sup>nd</sup>
@@ -11,7 +11,7 @@
         {{ day }}<sup>er</sup>
     {% else %} {{ day }}
     {% endif %}
-{% endif %} {% if page.language != 'fr' %}
+{% endif %} {% if page.locale != 'fr' %}
     {{ include.date | date: "%B" }}
 {% else %}
     {% assign m = include.date | date: "%-m" %}

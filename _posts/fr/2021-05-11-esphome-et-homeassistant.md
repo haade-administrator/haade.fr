@@ -2,13 +2,13 @@
 guid: 7
 title: 'Intégrations Esphome et Homeassistant'
 date: '2021-05-11T14:28:47+00:00'
+last_modified_at:
 author: Nico
 categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: esphome-logo-haade-homeassistant
 tags:
 description: "Découverte d'esphome dans homeassistant"
-language: fr
 locale: fr
 published: true
 beforetoc:

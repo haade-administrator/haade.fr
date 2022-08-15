@@ -3,12 +3,12 @@ guid: 22
 title: "Home-Assistant Amber VS Jeedom Atlas"
 description: ""
 date: "2021-10-01"
+last_modified_at:
 layout: post
 author: Nico
 categories: [Home Assistant, Jeedom, News ]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber
-language: en
 published: true
 locale: en
 toc: false

@@ -5,9 +5,9 @@ description: 'Change the icon of a binary sensor in home assistant'
 categories: [Home Assistant, Haade-lab]
 tags: []
 date: '2021-09-15T07:00:00+00:00'
+last_modified_at:
 author: Nico
 layout: post
-language: en
 published: true
 locale: en
 toc: false

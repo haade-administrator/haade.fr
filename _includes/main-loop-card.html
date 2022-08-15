@@ -9,9 +9,9 @@
 	   {{ post.excerpt  | strip_html | strip_newlines | truncate: 186}}
 	</p>
 	<small class="d-block text-muted">
-		{{ translate.in[page.language] }} <span class="catlist">
+		{{ translate.in[page.locale] }} <span class="catlist">
 		{% for category in post.categories %}
-		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{ page.language }}/category/{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
+		<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{ page.locale }}/category/{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
 		{% endfor %}
 		</span>
 	</small>

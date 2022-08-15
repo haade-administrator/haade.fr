@@ -1,12 +1,14 @@
 ---
 guid: 18
 title: "Sonoff SNZB-02 temperature and humidity sensor test"
+description: "SONOFF SNZB-02 temperature sensor test and integration in homeassistant"
 layout: post
 author: Nico
 date: "2021-09-10"
+last_modified_at:
 categories: [Tests]
+tags: [Test, Zigbee, Homeassistant]
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite"
-language: en
 published: true
 locale: en
 ---

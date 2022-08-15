@@ -5,9 +5,9 @@ description: "Changer l&#39;icone d&#39;un capteur binaire dans home assistant"
 categories: Domotique Haade-lab Home-Assistant
 tags: Astuces Homeassistant
 date: '2021-09-15T07:00:00+00:00'
+last_modified_at:
 author: Nico
 layout: post
-language: fr
 published: true
 locale: fr
 toc: false

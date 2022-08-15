@@ -8,7 +8,7 @@ sitemap:
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {%- assign pages = site.pages | where: 'language_reference', 'sitemap' %}
+  {%- assign pages = site.pages | where: 'locale_reference', 'sitemap' %}
 
   {%- for page in pages %}
     <sitemap>

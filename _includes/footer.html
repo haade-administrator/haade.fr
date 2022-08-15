@@ -2,11 +2,11 @@
    <div class="footcontent">
      <div class="footleft footbox">
        <div class="footupper">
-         <div class="foottopic">{{ translate.footer.about[page.language] }}</div>
-         <p>{{ translate.footer.description[page.language] }}</p>
+         <div class="foottopic">{{ translate.footer.about[page.locale] }}</div>
+         <p>{{ translate.footer.description[page.locale] }}</p>
        </div>
        <div class="footlower">
-         <div class="foottopic">{{ translate.footer.contact[page.language] }}</div>
+         <div class="foottopic">{{ translate.footer.contact[page.locale] }}</div>
          <div class="phone">
            <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a>
          </div>
@@ -16,7 +16,7 @@
        </div>
      </div>
      <div class="footmiddle footbox">
-       <div class="foottopic">{{ translate.footer.linku[page.language] }}</div>
+       <div class="foottopic">{{ translate.footer.linku[page.locale] }}</div>
        <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
        <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
        <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
@@ -26,10 +26,10 @@
      <!-- Newsletter
      ================================================== -->
      <div class="footright footbox">
-       <div class="foottopic">{{ translate.footer.newsletter[page.language] }}</div>
+       <div class="foottopic">{{ translate.footer.newsletter[page.locale] }}</div>
        <form action="{{site.mailchimp-list}}" method="post" name="" class="" target="_blank" novalidate>
-         <input type="text" placeholder="{{ translate.footer.inputmail[page.language] }}">
-         <input type="submit" name="" value="{{ translate.footer.submit[page.language] }}">
+         <input type="text" placeholder="{{ translate.footer.inputmail[page.locale] }}">
+         <input type="submit" name="" value="{{ translate.footer.submit[page.locale] }}">
          <div class="media-icons">
            <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
            <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>

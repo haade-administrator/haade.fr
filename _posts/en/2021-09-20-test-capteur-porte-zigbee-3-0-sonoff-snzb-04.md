@@ -4,9 +4,9 @@ title: "Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test"
 layout: post
 author: Nico
 date: "2021-09-20"
+last_modified_at:
 categories: [Tests]
 image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0"
-language: en
 published: true
 locale: en
 ---

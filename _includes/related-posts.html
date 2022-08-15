@@ -3,7 +3,7 @@
 <div class="{% unless page.categories == empty %} related-posts {% endunless %}">
 
     {% unless page.categories == empty %}
-    <h2 class="text-center mb-4">{{ translate.relatedpost.title[page.language] }}</h2>
+    <h2 class="text-center mb-4">{{ translate.relatedpost.title[page.locale] }}</h2>
     {% endunless %}
 
     <div class="d-flex justify-content-center align-items-center">
@@ -11,11 +11,11 @@
     <!-- Categories -->
     {% assign sortedCategories = page.categories %}
     {% for category in sortedCategories %}
-    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.language }}/category/{{ category | slugify }}">{{ category }}</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.locale }}/category/{{ category | slugify }}">{{ category }}</a>
     {% endfor %}
 
     <!-- Tags -->
-    {% assign sortedTags = page.tags | where: 'language', page.language | sort %}
+    {% assign sortedTags = page.tags | where: 'locale', page.locale | sort %}
     {% for tag in sortedTags %}
     <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">{{ tag }}</a>
     {% endfor %}
@@ -26,7 +26,7 @@
     {% assign minCommonTags =  1 %}
     {% assign maxRelatedCounter = 0 %}
     <div class="blog-grid-container">
-      {%- assign posts = site.posts | where: 'language', page.language %}
+      {%- assign posts = site.posts | where: 'locale', page.locale %}
       {%- for post in posts %}
 
             {% assign sameTagCount = 0 %}

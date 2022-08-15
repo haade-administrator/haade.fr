@@ -6,7 +6,7 @@ author: Nico
 date: "2021-09-01"
 categories: [News]
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png"
-language: en
+locale: en
 ---
 After [the end announced by kobol ,](https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/) [Wiretrustee](https://wiretrustee.com/){:target="_blank"} announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)
 
@@ -53,7 +53,9 @@ The Wiretrustee SATA card has been verified to work with Raspberry Pi operating 
 
 ## Presentation video
 
+<div class="media">
 <iframe width="662" height="372" src="https://www.youtube.com/embed/ahrdx3TYxZc" frameborder="0" allowfullscreen></iframe>
+</div>
 
 **Price** of the SATA wiretrustee card: **Unknown?**
 

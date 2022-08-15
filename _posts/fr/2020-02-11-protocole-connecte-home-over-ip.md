@@ -2,13 +2,13 @@
 guid: 5
 title: 'Protocole connecté Home over IP'
 date: '2020-02-11T14:45:38+00:00'
+last_modified_at:
 author: Nico
 categories: Domotique Protocoles
 layout: post
 image: homeoverip
 tags:
 description: "Actu du futur protocole HomeoverIP nommé Matter"
-language: fr
 locale: fr
 published: true
 beforetoc:

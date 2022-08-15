@@ -3,12 +3,12 @@ guid: 6
 title: '[TEST] Moes: Interrupteur Zigbee tactile {ZTS-EU} UPGRADE 2020'
 description: "Test de l'interrupteur tactile Moes référence zts-eu"
 date: '2021-03-17T20:40:48+00:00'
+last_modified_at:
 author: Nico
 categories: Tests
 layout: post
 image: inter-moes
 tags:
-language: fr
 locale: fr
 published: true
 beforetoc:
@@ -55,6 +55,8 @@ N’hésitez pas, vous pouvez foncer et l’acheter c’est vraiment un très bo
 
 ## Vidéo Officielle Moes interrupteur de présentation par Tonton
 
+<div class="media">
 <iframe width="662" height="372" src="https://www.youtube.com/embed/cq0ZeT6K1uY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 Tonton Alias Yann a mis à disposition une vidéo concernant le test de l’interrupteur Moes tactile ZTS-EU.

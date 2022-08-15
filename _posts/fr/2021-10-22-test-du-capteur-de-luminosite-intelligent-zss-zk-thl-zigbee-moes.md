@@ -3,12 +3,12 @@ guid: 24
 title: "Test - ZSS-ZK-THL zigbee MOES"
 description: "Test du capteur de luminosité intelligent ZSS-ZK-THL zigbee MOES dans Homeassistant"
 date: "2021-10-22"
+last_modified_at:
 author: Yann
 layout: post
 categories: Tests
 tags: Test Zigbee Homeassistant
 image: controleur-intelligent-luminosite-moes
-language: fr
 published: true
 locale: fr
 toc: true

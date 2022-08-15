@@ -5,10 +5,10 @@ description: "Intégration du système de gestion de caméra Zoneminder dans hom
 layout: post
 author: Nico
 date: "2021-09-25"
+last_modified_at:
 categories: Domotique Securite
 tags: Tutoriel Zoneminder Homeassistant
 image: "zoneminder_homeassistant-1"
-language: fr
 published: true
 locale: fr
 toc: true

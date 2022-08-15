@@ -5,10 +5,10 @@ description: "Après le comparatif du z-wave face à zigbee, voici un comparatif
 layout: post
 author: Nico
 date: "2021-09-05"
+last_modified_at:
 categories: Domotique Protocoles News
 tags:
 image: "zwave-face-a-matter"
-language: fr
 published: true
 locale: fr
 toc: true

@@ -9,20 +9,20 @@
           <i class='fas fa-times'></i>
         </div>
         <ul class="links">
-          <li><a href="{{ site.baseurl }}/{{ menu.home[page.language].link }}">{{ menu.home[page.language].name }}<span class="badge badge-light tags">{{ site.posts | where: "language", page.language | size }}</span></a></li>
+          <li><a href="{{ site.baseurl }}/{{ menu.home[page.locale].link }}">{{ menu.home[page.locale].name }}<span class="badge badge-light tags">{{ site.posts | where: 'locale', page.locale | size }}</span></a></li>
           <li>
-            <a href="#">{{ menu.automation[page.language].name }}</a>
+            <a href="#">{{ menu.automation[page.locale].name }}</a>
             <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
             <ul class="htmlCss-sub-menu sub-menu">
-              <li><a href="{{ site.baseurl }}/{{ menu.security[page.language].link }}">{{ menu.security[page.language].name }}</a></li>
+              <li><a href="{{ site.baseurl }}/{{ menu.security[page.locale].link }}">{{ menu.security[page.locale].name }}</a></li>
               <li class="more">
-                <span><a href="{{ site.baseurl }}/{{ menu.tutorials[page.language].link }}">{{ menu.tutorials[page.language].name }}</a>
+                <span><a href="{{ site.baseurl }}/{{ menu.tutorials[page.locale].link }}">{{ menu.tutorials[page.locale].name }}</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu sub-menu">
-                  <li><a href="{{ site.baseurl }}/{{ menu.docker[page.language].link }}">{{ menu.docker[page.language].name}}</a></li>
-                  <li><a href="{{ site.baseurl }}/{{ menu.ha[page.language].link }}">{{ menu.ha[page.language].name }}</a></li>
-                  <li><a href="{{ site.baseurl }}/{{ menu.jeedom[page.language].link }}">{{ menu.jeedom[page.language].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.docker[page.locale].link }}">{{ menu.docker[page.locale].name}}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.ha[page.locale].link }}">{{ menu.ha[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.jeedom[page.locale].link }}">{{ menu.jeedom[page.locale].name }}</a></li>
                 </ul>
               </li>
             </ul>
@@ -37,9 +37,9 @@
               <li><a href="#">Complete Website</a></li>
             </ul>
           </li> -->
-          <li><a href="{{ site.baseurl }}/{{ menu.news[page.language].link }}">{{ menu.news[page.language].name }}</a></li>
-          <li><a href="{{ site.baseurl }}/{{ menu.tests[page.language].link }}">{{ menu.tests[page.language].name }}</a></li>
-          <li><a href="{{ site.baseurl }}/{{ menu.contributors[page.language].link }}">{{ menu.contributors[page.language].name }}<span class="badge badge-primary">News</span></a></li>
+          <li><a href="{{ site.baseurl }}/{{ menu.news[page.locale].link }}">{{ menu.news[page.locale].name }}</a></li>
+          <li><a href="{{ site.baseurl }}/{{ menu.tests[page.locale].link }}">{{ menu.tests[page.locale].name }}</a></li>
+          <li><a href="{{ site.baseurl }}/{{ menu.contributors[page.locale].link }}">{{ menu.contributors[page.locale].name }}<span class="badge badge-primary">News</span></a></li>
           <li>{% include flag.html %}</li>
         </ul>
       </div>

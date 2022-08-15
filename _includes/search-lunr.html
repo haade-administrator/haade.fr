@@ -4,7 +4,7 @@
   <i class='fas fa-search'></i>
   <div class="input-box">
     <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search">
-      <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="{{ translate.search[page.language] }}" type="search" value="">
+      <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="{{ translate.search[page.locale] }}" type="search" value="">
       <input class="search-action" type="submit" value="Ok">
     </form>
   </div>
@@ -13,5 +13,5 @@
   </div>
 </div>
 
-{% assign lang = page.language | default: "site.default_language" %}
+{% assign lang = page.locale | default: "site.default_locale" %}
 <script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>

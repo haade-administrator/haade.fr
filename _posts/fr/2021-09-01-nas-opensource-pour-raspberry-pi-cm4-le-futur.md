@@ -5,10 +5,10 @@ description: "Depuis la sortie du CM4 par Raspberry des projets sortent de terre
 layout: post
 author: Nico
 date: "2021-09-01"
+last_modified_at:
 categories: News
 tags: Raspberry CM4 Projets
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1"
-language: fr
 published: true
 locale: fr
 toc: true
@@ -60,7 +60,9 @@ La carte Wiretrustee SATA a été vérifiée pour fonctionner avec le système d
 
 ## Vidéo de présentation
 
+<div class="media">
 <iframe width="662" height="372" src="https://www.youtube.com/embed/ahrdx3TYxZc" frameborder="0" allowfullscreen></iframe>
+</div>
 
 **Tarif** de la carte wiretrustee SATA: **Inconnu ?**
 

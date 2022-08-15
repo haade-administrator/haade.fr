@@ -3,11 +3,11 @@ guid: 4
 title: 'Zigbee vs Z-wave'
 description: "Comparons les deux protocoles domotique les plus utilisés z-wave face à zigbee"
 date: '2020-02-11T14:05:00+00:00'
+last_modified_at:
 author: Nico
 categories: Domotique Protocoles
 tags: z-wave zigbee comparaison
 layout: post
-language: fr
 locale: fr
 published: true
 beforetoc:
