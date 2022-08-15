@@ -13,4 +13,5 @@
   </div>
 </div>
 
-<script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine.js' | cache_buster }}" type="text/javascript"></script>
+{% assign lang = page.language | default: "site.default_language" %}
+<script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>

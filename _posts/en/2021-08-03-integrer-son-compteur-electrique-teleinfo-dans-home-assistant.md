@@ -9,7 +9,7 @@ categories: [Home Assistant, Haade-lab]
 tags: []
 image: compteur-electrique-homeassistant
 language: en
-publish: true
+published: true
 locale: en
 toc: true
 ---

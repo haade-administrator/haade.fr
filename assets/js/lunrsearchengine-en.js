@@ -4,12 +4,16 @@ sitemap: false
 ---
 
 {% assign counter = 0 %}
-var documents = [{% for page in site.posts %}{
+var documents = [  {%- assign searchml_posts = site.posts
+  | where: 'layout', 'post'
+  | where: 'language', 'en'
+  | where: 'published', true %}
+  {%- for searchml_post in searchml_posts %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "description": "{{ page.description }}",
-    "tags": "{{ page.tags | join: ' - ' }}"
+    "url": "{{ site.baseurl }}{{ searchml_post.url }}",
+    "title": "{{ searchml_post.title }}",
+    "description": "{{ searchml_post.date | date: "%Y/%m/%d" }} - {{ searchml_post.description }}",
+    "tags": "{{ searchml_post.tags | join: ' - ' }}"
     {% assign counter = counter | plus: 1 %}
     }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
@@ -26,7 +30,7 @@ var idx = lunr(function () {
 function lunr_search(term) {
     document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
     if(term) {
-        document.getElementById('lunrsearchresults').innerHTML = "<p>Résultats pour '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -51,9 +55,9 @@ function lunr_search(term) {
 function lunr_search(term) {
     $('#lunrsearchresults').show( 400 );
 
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Fermer</button></div></div> </div></div>';
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
     if(term) {
-        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Résultats pour '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
+        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Results for '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -69,7 +73,7 @@ function lunr_search(term) {
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><span class='description'>"+ description +"</span><span class='tags'>"+ tags +"</span><small><span class='url'>"+ url +"</span></small></a></li>";
             }
         } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Désolé, aucun résultat trouvé. Fermez et essayez une autre recherche !</li>";
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close and try another search!</li>";
         }
     }
     return false;

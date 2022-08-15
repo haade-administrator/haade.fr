@@ -266,7 +266,7 @@ Ensuite à l’invite de commande on modifie le mot de passe. Puis on rentre ses
 
 Une fois les étapes de connections bien remplies, nous allons jeter un oeil sur l’onglet /Analyse/santé et si tout s’est bien passé nous devrions avoir ceci:
 
-![connection au market Jeedom]({{ site.baseurl }}/assets/images/posts/{{ post.guid }}/market-820.webp{{ cachebuster }})
+![connection au market Jeedom]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/market-820.webp{{ cachebuster }})
 
 On s’aperçoit que la configuration réseau n’est pas bonne donc Rendez-vous dans l’onglet /Réglage/Système/Configuration/Réseaux et paramétrez comme l’image ci-dessous:
 
