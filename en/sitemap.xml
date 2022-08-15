@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/box-domotique-rail-din</loc>
+      <lastmod>2021-10-05T14:40:45+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas</loc>
+      <lastmod>2021-10-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/zoneminder-home-assistant-et-machinelearning</loc>
+      <lastmod>2021-09-25T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</loc>
+      <lastmod>2021-09-20T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</loc>
+      <lastmod>2021-09-15T07:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</loc>
+      <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/z-wave-face-a-matter</loc>
+      <lastmod>2021-09-05T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</loc>
+      <lastmod>2021-09-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/kobol-helios-64-cest-termine</loc>
+      <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/test-et-install-thermostat-zigbee-moes-bht-002</loc>
+      <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
+      <loc>https://haade-administrator.github.io/haade.fr/en/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant</loc>
+      <lastmod>2021-08-03T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/blog/domotiser-sa-porte-de-garage-pour-5e</loc>
       <lastmod>2021-05-19T22:26:35+00:00</lastmod>
       <changefreq>monthly</changefreq>
@@ -8,37 +74,37 @@
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/404.html</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/author-mathieu/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/author-nico/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/author-yann/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/authors/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/contact/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
@@ -50,19 +116,19 @@
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/tags/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/en/page2/</loc>
-      <lastmod>2022-08-11T18:17:56+00:00</lastmod>
+      <lastmod>2022-08-15T11:00:08+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
