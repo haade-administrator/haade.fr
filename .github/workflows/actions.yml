@@ -3,8 +3,8 @@ name: Build and deploy Jekyll H2ade Blog
 on:
   push:
     branches:
-#      - main
-      - 'releases/**'
+      - main
+#      - 'releases/**'
     paths-ignore:
       - .gitignore
       - README.md
