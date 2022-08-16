@@ -26,7 +26,7 @@
       <span class="hero-author">
         <span class="hero-post-author font-weight-bold">{{ latest_post.author }}</span>
         {% endif %}
-        <span class="hero-post-date">- {{ latest_post.date | date_to_string }}</span>
+        <span class="hero-post-date">- {% include date.html date=latest_post.date %}</span>
 </span>
       </div>
       {% endfor %}
@@ -58,7 +58,7 @@
         <span class="hero-author">
           <span class="hero-post-author font-weight-bold">{{ second_post.author }}</span>
           {% endif %}
-          <span class="hero-post-date">- {{ second_post.date | date_to_string }}</span>
+          <span class="hero-post-date">- {% include date.html date=second_post.date %}</span>
           </span>
         </div>
         {% endfor %}
@@ -90,7 +90,7 @@
           <span class="hero-author">
             <span class="hero-post-author font-weight-bold">{{ third_post.author }}</span>
             {% endif %}
-            <span class="hero-post-date">- {{ third_post.date | date_to_string }}</span>
+            <span class="hero-post-date">- {% include date.html date=third_post.date %}</span>
             </span>
         </div>
         {% endfor %}
@@ -121,7 +121,7 @@
           <span class="hero-author">
             <span class="hero-post-author font-weight-bold">{{ four_post.author }}</span>
             {% endif %}
-            <span class="hero-post-date">- {{ four_post.date | date_to_string }}</span>
+            <span class="hero-post-date">- {% include date.html date=four_post.date %}</span>
             </span>
         </div>
         {% endfor %}
