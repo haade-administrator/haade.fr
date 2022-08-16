@@ -2,10 +2,9 @@ name: Build and deploy Jekyll H2ade Blog
 
 on:
   push:
-    tags:
-      - "v1.0.0"
-#    branches:
+    branches:
 #      - main
+      - 'releases/**'
     paths-ignore:
       - .gitignore
       - README.md
