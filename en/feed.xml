@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Aug 2022 11:00:08 +0000</pubDate>
+    <pubDate>Tue, 16 Aug 2022 18:30:11 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
@@ -135,6 +135,12 @@
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
+      
+      <category>Test</category>
+      
+      <category>Zigbee</category>
+      
+      <category>Homeassistant</category>
       
       
       <category>Tests</category>

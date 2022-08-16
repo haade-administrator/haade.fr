@@ -1,14 +1,380 @@
-<!DOCTYPE html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'><title>Jeedom sur docker - Haade</title><link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" /><title>Jeedom sur docker | Haade Alsace domotique</title><meta name="generator" content="Jekyll v4.2.2" /><meta property="og:title" content="Jeedom sur docker" /><meta name="author" content="Nico" /><meta property="og:locale" content="fr" /><meta name="description" content="OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker" /><meta property="og:description" content="OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker" /><link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" /><meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" /><meta property="og:site_name" content="Haade Alsace domotique" /><meta property="og:image" content="https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1" /><meta property="og:type" content="article" /><meta property="article:published_time" content="2019-12-09T10:17:14+00:00" /><meta name="twitter:card" content="summary_large_image" /><meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1" /><meta property="twitter:title" content="Jeedom sur docker" /><meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" /> <script type="application/ld+json"> {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2022-08-15T10:51:32+00:00","datePublished":"2019-12-09T10:17:14+00:00","description":"OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker","headline":"Jeedom sur docker","image":"https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"}</script><link href="/haade.fr/assets/css/theme.css?v=1660561208275054454" media="screen, projection, print" rel="stylesheet"> <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script> <!-- The GA snippet --> <script defer src="https://www.googletagmanager.com/gtag/js?id=G-1DEJLWC188"></script> <script> document.addEventListener("DOMContentLoaded", function(event) { window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1DEJLWC188'); }); </script><link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" > <script async src="https://api.countapi.xyz/hit/haade-administrator.github.io/frbloginstallation-complete-et-securisee-de-jeedom-sur-docker?callback=liveViews"></script> <noscript id="deferred-styles"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/> </noscript><header><div class="firstnavbar"><div class="links"> <a href="/haade.fr/">Accueil</a> <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a> <a href="/haade.fr/fr/contact/">Contact</a><div class="sl-nav"> langue:<ul><li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i><div class="triangle"></div><ul class="show-flags"><li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a><li><a href="/haade.fr/en/index.html"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></ul></ul></div></div><div class="social-firstnav"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a> <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a> <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class='fab fa-facebook-f'></i></a></div></div><div class="secondheader"> <a class="navbar-brand" href="/haade.fr/"> <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade"> </a><p class="sitetag"> Home Assistance Alsace domotique & électronique.</p></div><nav id="nav"><div class="navbar"> <i class='fas fa-bars'></i><div class="nav-links"><div class="sidebar-logo"> <span class="logo-name">H2Ade</span> <i class='fas fa-times'></i></div><ul class="links"><li><a href="/haade.fr/">Accueil<span class="badge badge-light tags">25</span></a><li> <a href="#">Domotique</a> <i class="fas fa-angle-down htmlcss-arrow arrow"></i><ul class="htmlCss-sub-menu sub-menu"><li><a href="/haade.fr/fr/category/securite">Sécurité</a><li class="more"> <span><a href="/haade.fr/fr/category/haade-lab">Tutos</a> <i class='fas fa-angle-right arrow more-arrow'></i> </span><ul class="more-sub-menu sub-menu"><li><a href="/haade.fr/fr/category/docker">Docker</a><li><a href="/haade.fr/fr/category/home-assistant">Home-Assistant</a><li><a href="/haade.fr/fr/category/jeedom">Jeedom</a></ul></ul><li><a href="/haade.fr/fr/category/news">News</a><li><a href="/haade.fr/fr/category/tests">Tests</a><li><a href="/haade.fr/fr/authors">Contributeurs<span class="badge badge-primary">News</span></a><li><div class="sl-nav"> langue:<ul><li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i><div class="triangle"></div><ul class="show-flags"><li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a><li><a href="/haade.fr/en/index.html"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></ul></ul></div></ul></div><script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script><div class="search-box"> <i class='fas fa-search'></i><div class="input-box"> <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search"> <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="Recherche..." type="search" value=""> <input class="search-action" type="submit" value="Ok"> </form></div><div id="lunrsearchresults"><ul></ul></div></div><script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=e8ff9343c68e9b8f1bca91c865dc43c7"></script></div></nav></header><div class="site-content"><div class="container"><div class="main-content"> <script> function liveViews(response) { document.getElementById('visits').innerText = response.value; } </script><div class="entry-header"><h1 class="posttitle">Jeedom sur docker</h1><div class="d-flex align-items-center mt-4"><div> <a href="/haade.fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a></div><div> Rédigé par <a href="/haade.fr/author-nico"><b>Nico</b></a> le <span class="post-date"><time class="post-date" datetime="09-12-2019"> 9 décembre 2019 </time></span> Mis à Jour le <time datetime="2022-08-15T10:51:32+00:00" itemprop="dateModified"> 15 août 2022 </time> <br /> <span class="reading-time" title="Temps de Lecture estimé"> <strong> 9 min</strong> de lecture. </span><p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p></div></div></div><div class="entry-featured-image"> <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/1/installation-jeedom-docker-1-944.webp?v=1660560692" alt="Jeedom sur docker" width='944' height='531'></div><div class="article-post"><div class="toc mt-4 mb-4 lead"><h3 class="font-weight-bold"></h3><ul><li><a href="#1--installation-des-images-et-container-mariadbalpin-et-adminer">1- Installation des images et container mariadb/alpin et Adminer.</a><ul><li><a href="#création-de-la-base-de-donnée-mariadb-qui-va-accueillir-jeedom">Création de la base de donnée mariadb qui va accueillir Jeedom.</a><li><a href="#installation-de-adminer-sur-le-docker-afin-de-paramétrer-mariadb-à-laide-dune-interface-graphique-ultra-légère-29mb-compressé">Installation de Adminer sur le docker afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé</a></ul><li><a href="#2--installation-de-jeedom-sur-docker">2- Installation de jeedom sur docker</a><ul><li><a href="#identification-des-périphériques-usb">Identification des périphériques USB:</a><li><a href="#création-du-container-jeedom-en-mode--host-">Création du container Jeedom en mode « host »</a><li><a href="#installation-du-bluetooth-embarqué">Installation du bluetooth embarqué</a></ul><li><a href="#3--lancement-de-jeedom-et-paramétrage-et-affinage">3- Lancement de jeedom et paramétrage et affinage</a><ul><li><a href="#important-"><strong>Important !</strong></a><li><a href="#commande-a-exécuter-pour-les-droits-jeedom">Commande a exécuter pour les droits Jeedom</a></ul></ul></div><h2 id="1--installation-des-images-et-container-mariadbalpin-et-adminer">1- Installation des images et container mariadb/alpin et Adminer.</h2><p><strong>Prérequis pour pouvoir suivre ce tutoriel:</strong></p><ul><li>Avoir un nas avec openmediavault et docker d’installé<li>Avoir un accès ssh opérationnel<li>Faire la différence entre l’accès Nas en SSH et l’accès à son container en SSH</ul><p>Tout d’abord, apprendre à se connecter en SSH.</p><p>Pour se connecter à son <strong>Nas/Raspberrypi à partir d’un terminal</strong> donc dans notre cas à Debian dans OMV » Valable pour toutes autres distribution basé sur debian » ( raspbian, ubuntu,mint… )</p><pre><code class="language-bash">$ ssh -p 22 your_Nas_ip_address -l root
-</code></pre><p><strong>Connection au raspberrypi</strong></p><pre><code class="language-bash">$ ssh -p 22 your_raspberrypi_ip_address -l pi
-</code></pre><p>une fois connecté on a comme entité</p><pre><code class="language-bash">root@Name_Nas:~#
-</code></pre><p>Ensuite on peut se connecter à notre docker qui a été créé et qui s’appelle <strong>jeedom</strong></p><pre><code class="language-docker">$ docker exec -it jeedom sh
-</code></pre><p>on auras comme entité:</p><pre><code class="language-bash">#
-</code></pre><blockquote><p>Dès cette instant toutes les commandes que vous rentrerez n’agiront plus sur debian de votre Nas mais sur debian de votre container Jeedom.</p></blockquote><p>Pour sortir de son container et retourner sur notre nas il faut faire:</p><pre><code class="language-bash">Ctrl+p Ctrl+q
+<!-- ---
+layout: compress
+--- -->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'>
+
+<title>Jeedom sur docker - Haade</title>
+
+
+    <link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" />
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Jeedom sur docker | Haade Alsace domotique</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Jeedom sur docker" />
+<meta name="author" content="Nico" />
+<meta property="og:locale" content="fr" />
+<meta name="description" content="OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker" />
+<meta property="og:description" content="OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker" />
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" />
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" />
+<meta property="og:site_name" content="Haade Alsace domotique" />
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-12-09T10:17:14+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1" />
+<meta property="twitter:title" content="Jeedom sur docker" />
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2019-12-09T10:17:14+00:00","datePublished":"2019-12-09T10:17:14+00:00","description":"OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker","headline":"Jeedom sur docker","image":"https://haade-administrator.github.io/haade.fr/installation-jeedom-docker-1","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1660674611448178824" media="screen, projection, print" rel="stylesheet">
+
+<script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
+
+
+<!-- change your GA id in _config.yml -->
+
+  <!--
+  The GA snippet
+-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-1DEJLWC188"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(event) {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    gtag('js', new Date());
+    gtag('config', 'G-1DEJLWC188');
+  });
+</script>
+
+
+
+
+
+<!--  <link rel="shortcut icon" type="image/x-icon" href="https://haade-administrator.github.io/favicon.ico" > -->
+<link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" >
+
+
+
+
+<script async src="https://api.countapi.xyz/hit/haade-administrator.github.io/frbloginstallation-complete-et-securisee-de-jeedom-sur-docker?callback=liveViews"></script>
+
+
+
+</head>
+
+
+
+<body>
+	<!-- defer loading of font and fontawesome -->
+	<noscript id="deferred-styles">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+	</noscript>
+<header>
+	    <div class="firstnavbar">
+        <div class="links">
+          
+          <a href="/haade.fr/">Accueil</a>
+          
+        <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a>
+        <a href="/haade.fr/fr/contact/">Contact</a>
+          
+<div class="sl-nav">
+  langue:
+  <ul>
+    <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+      <div class="triangle"></div>
+      <ul class="show-flags">
+        
+        <li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li><a href="/haade.fr/en/index.html"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+          </div>
+      <div class="social-firstnav">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class='fab fa-facebook-f'></i></a>
+      </div>
+    </div>
+
+
+
+<div class="secondheader">
+<!-- Site Logo/Name
+================================================== -->
+
+<a class="navbar-brand" href="/haade.fr/">
+    <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade">
+</a>
+
+
+
+<!-- Site Tag
+================================================== -->
+    <p class="sitetag">
+        Home Assistance Alsace domotique & électronique.
+    </p>
+
+</div>
+
+
+  <nav id="nav">
+    <div class="navbar">
+      <i class='fas fa-bars'></i>
+      <!-- <div class="logo"><a href="#">H2Ade</a></div> -->
+      <div class="nav-links">
+        <div class="sidebar-logo">
+          <span class="logo-name">H2Ade</span>
+          <i class='fas fa-times'></i>
+        </div>
+        <ul class="links">
+          <li><a href="/haade.fr/">Accueil<span class="badge badge-light tags">25</span></a></li>
+          <li>
+            <a href="#">Domotique</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
+            <ul class="htmlCss-sub-menu sub-menu">
+              <li><a href="/haade.fr/fr/category/securite">Sécurité</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/fr/category/haade-lab">Tutos</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu">
+                  <li><a href="/haade.fr/fr/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/fr/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/fr/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- <li>
+            <a href="#">JAVASCRIPT</a>
+            <i class='fas fa-angle-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="#">Dynamic Clock</a></li>
+              <li><a href="#">Form Validation</a></li>
+              <li><a href="#">Card Slider</a></li>
+              <li><a href="#">Complete Website</a></li>
+            </ul>
+          </li> -->
+          <li><a href="/haade.fr/fr/category/news">News</a></li>
+          <li><a href="/haade.fr/fr/category/tests">Tests</a></li>
+          <li><a href="/haade.fr/fr/authors">Contributeurs<span class="badge badge-primary">News</span></a></li>
+          <li>
+<div class="sl-nav">
+  langue:
+  <ul>
+    <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+      <div class="triangle"></div>
+      <ul class="show-flags">
+        
+        <li class="current"><a href="/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li><a href="/haade.fr/en/index.html"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+</li>
+        </ul>
+      </div>
+
+    <script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script>
+
+<div class="search-box">
+  <i class='fas fa-search'></i>
+  <div class="input-box">
+    <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search">
+      <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="Recherche..." type="search" value="">
+      <input class="search-action" type="submit" value="Ok">
+    </form>
+  </div>
+  <div id="lunrsearchresults">
+      <ul></ul>
+  </div>
+</div>
+
+
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=3ce9aba4428aede5364ff35b22a77704"></script>
+
+
+    </div>
+  </nav>
+
+
+</header>
+
+<div class="site-content">
+
+<div class="container">
+
+    <!-- Content
+    ================================================== -->
+    <div class="main-content">
+      
+        <script>
+  function liveViews(response) {
+      document.getElementById('visits').innerText = response.value;
+  }
+</script>
+
+<!--  -->
+
+
+<div class="entry-header">
+    <!-- Post Title -->
+    <h1 class="posttitle">Jeedom sur docker</h1>
+    <!-- Author & Date  Box -->
+    
+    
+    <div class="d-flex align-items-center mt-4">
+        <div>
+            
+            <a href="/haade.fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
+            
+        </div>
+        <div>
+        Rédigé par <a href="/haade.fr/author-nico"><b>Nico</b></a> le
+        <span class="post-date"><time class="post-date" datetime="09-12-2019">
+
+     9
+    
+ 
+    
+    décembre
+    
+ 2019
+</time></span>
+        
+        <br />
+        <span class="reading-time" title="Temps de Lecture estimé">
+  <strong>
+    
+    9 min</strong> de lecture.
+</span>
+
+        
+        
+        <p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p>
+        
+        </div>
+    </div>
+    
+</div>
+
+<!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
+
+
+<!-- Featured Image -->
+
+<div class="entry-featured-image">
+    
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/1/installation-jeedom-docker-1-944.webp" alt="Jeedom sur docker" width='944' height='531'>
+    
+</div>
+
+
+
+<!-- Content -->
+<!-- Post, Page Content
+================================================== -->
+<div class="article-post">
+    <!-- Toc if any -->
+    
+    
+    <div class="toc mt-4 mb-4 lead">
+        <h3 class="font-weight-bold"></h3>
+        <ul><li><a href="#1--installation-des-images-et-container-mariadbalpin-et-adminer">1- Installation des images et container mariadb/alpin et Adminer.</a><ul><li><a href="#création-de-la-base-de-donnée-mariadb-qui-va-accueillir-jeedom">Création de la base de donnée mariadb qui va accueillir Jeedom.</a></li><li><a href="#installation-de-adminer-sur-le-docker-afin-de-paramétrer-mariadb-à-laide-dune-interface-graphique-ultra-légère-29mb-compressé">Installation de Adminer sur le docker afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé</a></li></ul></li><li><a href="#2--installation-de-jeedom-sur-docker">2- Installation de jeedom sur docker</a><ul><li><a href="#identification-des-périphériques-usb">Identification des périphériques USB:</a></li><li><a href="#création-du-container-jeedom-en-mode--host-">Création du container Jeedom en mode « host »</a></li><li><a href="#installation-du-bluetooth-embarqué">Installation du bluetooth embarqué</a></li></ul></li><li><a href="#3--lancement-de-jeedom-et-paramétrage-et-affinage">3- Lancement de jeedom et paramétrage et affinage</a><ul><li><a href="#important-"><strong>Important !</strong></a></li><li><a href="#commande-a-exécuter-pour-les-droits-jeedom">Commande a exécuter pour les droits Jeedom</a></li></ul></li></ul>
+    </div>
+    
+    <!-- End Toc -->
+    <h2 id="1--installation-des-images-et-container-mariadbalpin-et-adminer">1- Installation des images et container mariadb/alpin et Adminer.</h2>
+
+<p><strong>Prérequis pour pouvoir suivre ce tutoriel:</strong></p>
+
+<ul>
+  <li>Avoir un nas avec openmediavault et docker d’installé</li>
+  <li>Avoir un accès ssh opérationnel</li>
+  <li>Faire la différence entre l’accès Nas en SSH et l’accès à son container en SSH</li>
+</ul>
+
+<p>Tout d’abord, apprendre à se connecter en SSH.</p>
+
+<p>Pour se connecter à son <strong>Nas/Raspberrypi à partir d’un terminal</strong> donc dans notre cas à Debian dans OMV » Valable pour toutes autres distribution basé sur debian » ( raspbian, ubuntu,mint… )</p>
+
+<pre><code class="language-bash">$ ssh -p 22 your_Nas_ip_address -l root
+</code></pre>
+
+<p><strong>Connection au raspberrypi</strong></p>
+
+<pre><code class="language-bash">$ ssh -p 22 your_raspberrypi_ip_address -l pi
+</code></pre>
+
+<p>une fois connecté on a comme entité</p>
+
+<pre><code class="language-bash">root@Name_Nas:~#
+</code></pre>
+
+<p>Ensuite on peut se connecter à notre docker qui a été créé et qui s’appelle <strong>jeedom</strong></p>
+
+<pre><code class="language-docker">$ docker exec -it jeedom sh
+</code></pre>
+
+<p>on auras comme entité:</p>
+
+<pre><code class="language-bash">#
+</code></pre>
+
+<blockquote>
+  <p>Dès cette instant toutes les commandes que vous rentrerez n’agiront plus sur debian de votre Nas mais sur debian de votre container Jeedom.</p>
+</blockquote>
+
+<p>Pour sortir de son container et retourner sur notre nas il faut faire:</p>
+
+<pre><code class="language-bash">Ctrl+p Ctrl+q
 ou
 exit
-</code></pre><p>D’abord, partons du principe que nous avons <strong>omv Nas</strong> d’installé avec docker. Connectons-nous en root sur notre Nas soit à l’aide d’un <strong>terminal</strong> soit à l’aide de <strong>Putty:</strong></p><pre><code class="language-bash">$ ssh -p 22 192.168.***.*** -l root
-</code></pre><p>remplacez <strong>l’adresse ip</strong> par la votre et votre nom d’utilisateur par le votre. Par défaut sur omv le nom d’utilisateur est « <strong>root</strong> » et le mot de passe « <strong>openmediavault</strong> » .</p><p><strong>Avec Putty:</strong></p><p><img src="/haade.fr/assets/images/posts/1/connection-putty-820.webp" alt="connection à putty" /></p><p><strong>Ensuite rentrez votre mot de passe.</strong></p><p>Création du dossier mariadb</p><pre><code class="language-bash">$ sudo mkdir -p /sharedfolders/Appdata/mariadb
-</code></pre><h3 id="création-de-la-base-de-donnée-mariadb-qui-va-accueillir-jeedom">Création de la base de donnée mariadb qui va accueillir Jeedom.</h3><pre><code class="language-docker">docker run --name mariadb \
+</code></pre>
+
+<p>D’abord, partons du principe que nous avons <strong>omv Nas</strong> d’installé avec docker. Connectons-nous en root sur notre Nas soit à l’aide d’un <strong>terminal</strong> soit à l’aide de <strong>Putty:</strong></p>
+
+<pre><code class="language-bash">$ ssh -p 22 192.168.***.*** -l root
+</code></pre>
+
+<p>remplacez <strong>l’adresse ip</strong> par la votre et votre nom d’utilisateur par le votre. Par défaut sur omv le nom d’utilisateur est « <strong>root</strong> » et le mot de passe « <strong>openmediavault</strong> » .</p>
+
+<p><strong>Avec Putty:</strong></p>
+
+<p><img src="/haade.fr/assets/images/posts/1/connection-putty-820.webp" alt="connection à putty" /></p>
+
+<p><strong>Ensuite rentrez votre mot de passe.</strong></p>
+
+<p>Création du dossier mariadb</p>
+
+<pre><code class="language-bash">$ sudo mkdir -p /sharedfolders/Appdata/mariadb
+</code></pre>
+
+<h3 id="création-de-la-base-de-donnée-mariadb-qui-va-accueillir-jeedom">Création de la base de donnée mariadb qui va accueillir Jeedom.</h3>
+
+<pre><code class="language-docker">docker run --name mariadb \
 -v /Your_mysql_path:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=Your_password_root \
 -e MYSQL_USER=your_user \
@@ -19,18 +385,99 @@ exit
 --restart always \
 yobasystems/alpine-mariadb:latest
 
-</code></pre><p><strong>Remplacez:</strong><br /> <strong><em>your_mysql_path</em></strong> par un un dossier sur votre disque dur ex: /opt/mysql.<br /> <strong><em>your_name_database</em></strong> par un nom de base de donnée ex: jeedom<br /> <strong><em>your_password_</em></strong>root par un mot de passe administrateur<br /> <strong><em>your_user</em></strong> par un nom d’utilisateur<br /> <strong><em>your_password</em></strong> par un mot de passe utilisateur</p><p><img src="/haade.fr/assets/images/posts/1/mysql-1-820.webp" alt="connection à putty" /></p><h3 id="installation-de-adminer-sur-le-docker-afin-de-paramétrer-mariadb-à-laide-dune-interface-graphique-ultra-légère-29mb-compressé">Installation de Adminer sur le docker afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé</h3><pre><code class="language-docker">docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adminer
-</code></pre><p><strong>Si le port 8080</strong> est pris sur votre hôte vous pouvez le remplace par un autre, exemple 8480:8080.</p><p><strong>Vérifiez l’accès à votre base de donnée</strong> en vous connectant à l’adresse ip de votre NAS <strong>http://192.168.X.X:8080</strong> et accédez à votre table nommé Jeedom avec votre user et password créé dans le container.</p><p>À ce stade nous avons sur notre docker deux container l’un pour mariadb, nommé <strong>mariadb</strong> et l’autre avec adminer nommé <strong>Adminer</strong></p><p><img src="/haade.fr/assets/images/posts/1/container-mariadb-adminer-820.webp" alt="connection à putty" /></p><h2 id="2--installation-de-jeedom-sur-docker">2- Installation de jeedom sur docker</h2><p>Après installation et paramétrage de mariadb/adminer sur docker nous sommes prêt à installer Jeedom et paramétrer.</p><p>Avant d’appliquer la commande de lancement du docker, connectez vos clés z-wave, rfxcom, zigbee, etc… sur votre matériel.</p><p>Nous allons dès à présent rechercher le matériel en se connectant à nouveau à notre système en ssh en tant qu’utilisateur root:</p><pre><code class="language-bash">ssh -p 22 192.168.***.*** -l root
-</code></pre><h3 id="identification-des-périphériques-usb">Identification des périphériques USB:</h3><blockquote><p><strong>Vous pouvez sauter cette étape si vous n’avez rien de connecté au port usb</strong>. <em>il est toujours possible de modifier le container ultérieurement pour installer des périphériques.</em></p></blockquote><p>Nous allons rechercher l’identifiant unique du périphérique, car beaucoup plus stable qu’une association simple par périphérique du type <code>/dev/ttyUSB1</code>, ainsi pour trouver les périphériques nous allons taper la commande:</p><pre><code class="language-bash">$ ls -l /dev/serial/by-id
-</code></pre><p>Ce qui va retourner dans notre cas les valeurs suivantes:</p><pre><code class="language-bash">lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-0658_0200-if00 -&gt; ../../ttyACM0
+</code></pre>
+
+<p><strong>Remplacez:</strong><br />
+<strong><em>your_mysql_path</em></strong> par un un dossier sur votre disque dur ex: /opt/mysql.<br />
+<strong><em>your_name_database</em></strong> par un nom de base de donnée ex: jeedom<br />
+<strong><em>your_password_</em></strong>root par un mot de passe administrateur<br />
+<strong><em>your_user</em></strong> par un nom d’utilisateur<br />
+<strong><em>your_password</em></strong> par un mot de passe utilisateur</p>
+
+<p><img src="/haade.fr/assets/images/posts/1/mysql-1-820.webp" alt="connection à putty" /></p>
+
+<h3 id="installation-de-adminer-sur-le-docker-afin-de-paramétrer-mariadb-à-laide-dune-interface-graphique-ultra-légère-29mb-compressé">Installation de Adminer sur le docker afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé</h3>
+
+<pre><code class="language-docker">docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adminer
+</code></pre>
+
+<p><strong>Si le port 8080</strong> est pris sur votre hôte vous pouvez le remplace par un autre, exemple 8480:8080.</p>
+
+<p><strong>Vérifiez l’accès à votre base de donnée</strong> en vous connectant à l’adresse ip de votre NAS <strong>http://192.168.X.X:8080</strong> et accédez à votre table nommé Jeedom avec votre user et password créé dans le container.</p>
+
+<p>À ce stade nous avons sur notre docker deux container l’un pour mariadb, nommé <strong>mariadb</strong> et l’autre avec adminer nommé <strong>Adminer</strong></p>
+
+<p><img src="/haade.fr/assets/images/posts/1/container-mariadb-adminer-820.webp" alt="connection à putty" /></p>
+
+<h2 id="2--installation-de-jeedom-sur-docker">2- Installation de jeedom sur docker</h2>
+
+<p>Après installation et paramétrage de mariadb/adminer sur docker nous sommes prêt à installer Jeedom et paramétrer.</p>
+
+<p>Avant d’appliquer la commande de lancement du docker, connectez vos clés z-wave, rfxcom, zigbee, etc… sur votre matériel.</p>
+
+<p>Nous allons dès à présent rechercher le matériel en se connectant à nouveau à notre système en ssh en tant qu’utilisateur root:</p>
+
+<pre><code class="language-bash">ssh -p 22 192.168.***.*** -l root
+</code></pre>
+
+<h3 id="identification-des-périphériques-usb">Identification des périphériques USB:</h3>
+
+<blockquote>
+  <p><strong>Vous pouvez sauter cette étape si vous n’avez rien de connecté au port usb</strong>. <em>il est toujours possible de modifier le container ultérieurement pour installer des périphériques.</em></p>
+</blockquote>
+
+<p>Nous allons rechercher l’identifiant unique du périphérique, car beaucoup plus stable qu’une association simple par périphérique du type <code>/dev/ttyUSB1</code>, ainsi pour trouver les périphériques nous allons taper la commande:</p>
+
+<pre><code class="language-bash">$ ls -l /dev/serial/by-id
+</code></pre>
+
+<p>Ce qui va retourner dans notre cas les valeurs suivantes:</p>
+
+<pre><code class="language-bash">lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-0658_0200-if00 -&gt; ../../ttyACM0
 lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0 -&gt; ../../ttyUSB1
 lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0 -&gt; ../../ttyUSB2
 lrwxrwxrwx 1 root root 13 déc.   3 13:28 usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B00194309AD-if00 -&gt; ../../ttyACM1
-</code></pre><p>on peut voir ci-dessus la liste de no périphériques usb:</p><ol><li>usb-0658_0200-if00 -&gt; ../../ttyACM0 correspond à notre clé z-wave z-stick aeontech gen5, valeur à intégrer dans la création de l’image docker:</ol><pre><code class="language-shell">--device=/dev/serial/by-id/usb-0658_0200-if00:/dev/ttyACM0
-</code></pre><ol><li>usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0 -&gt; ../../ttyUSB1 correspond au module de suivi de consommation éléctrique Cartelectronic, valeur à intégrer dans la création de l’image docker:</ol><pre><code class="language-shell">--device=/dev/serial/by-id/usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0:/dev/ttyUSB1
-</code></pre><ol><li>usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0 -&gt; ../../ttyUSB2 correspond à notre clé rfxcom fréquence 433mhz, valeur à intégrer dans la création de l’image docker:</ol><pre><code class="language-shell">--device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2
-</code></pre><ol><li>Texas_Instruments_TI_CC2531_USB_CDC___0X00124B00194309AD-if00 -&gt; ../../ttyACM1 <a href="../produit/cle-sniffer-zigbee-cc2531-avec-antenne/">correspond à notre clé zigbee avec antenne CC2531</a>. ( nous ne l’intégrerons pas à la création du container docker, car celle-ci fonctionne avec zigbe2mqtt qui actuellement n’est pas soutenu comme plugin dans jeedom.</ol><h3 id="création-du-container-jeedom-en-mode--host-">Création du container Jeedom en mode « host »</h3><p><em>Le mode <strong>bridge est déconseillé</strong> car non présent sur le réseau hôte certains module.</em> C<em>omme celui de lunarok xiaomi ne fonctionneront pas et vous ne pourrez pas installer les modules zigbee de xiaomi par exemple.</em></p><p>Depuis peut le tag <strong>latest</strong> de l’image jeedom est régulièrement mis à jour, mais pour l’instant nous rencontrons encore des soucis d’installations, donc on utilisera le tag <strong>master</strong> qui reste pour l’instant l’image la plus stable pour réussir son installation.</p><pre><code class="language-bash">sudo mkdir -p /sharedfolders/Appdata/Jeedom/html
-</code></pre><p>Maintenant que nous avons identifié nos périphériques nous pouvons lancer la commande d’installation de l’image. Toujours sur notre système d’exploitation connecté en ssh en tant que root:</p><pre><code class="language-docker">docker run -d --net host --name jeedom \
+</code></pre>
+
+<p>on peut voir ci-dessus la liste de no périphériques usb:</p>
+
+<ol>
+  <li>usb-0658_0200-if00 -&gt; ../../ttyACM0 correspond à notre clé z-wave z-stick aeontech gen5, valeur à intégrer dans la création de l’image docker:</li>
+</ol>
+
+<pre><code class="language-shell">--device=/dev/serial/by-id/usb-0658_0200-if00:/dev/ttyACM0
+</code></pre>
+
+<ol>
+  <li>usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0 -&gt; ../../ttyUSB1 correspond au module de suivi de consommation éléctrique Cartelectronic, valeur à intégrer dans la création de l’image docker:</li>
+</ol>
+
+<pre><code class="language-shell">--device=/dev/serial/by-id/usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0:/dev/ttyUSB1
+</code></pre>
+
+<ol>
+  <li>usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0 -&gt; ../../ttyUSB2 correspond à notre clé rfxcom fréquence 433mhz, valeur à intégrer dans la création de l’image docker:</li>
+</ol>
+
+<pre><code class="language-shell">--device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2
+</code></pre>
+
+<ol>
+  <li>Texas_Instruments_TI_CC2531_USB_CDC___0X00124B00194309AD-if00 -&gt; ../../ttyACM1 <a href="../produit/cle-sniffer-zigbee-cc2531-avec-antenne/">correspond à notre clé zigbee avec antenne CC2531</a>. ( nous ne l’intégrerons pas à la création du container docker, car celle-ci fonctionne avec zigbe2mqtt qui actuellement n’est pas soutenu comme plugin dans jeedom.</li>
+</ol>
+
+<h3 id="création-du-container-jeedom-en-mode--host-">Création du container Jeedom en mode « host »</h3>
+
+<p><em>Le mode <strong>bridge est déconseillé</strong> car non présent sur le réseau hôte certains module.</em> C<em>omme celui de lunarok xiaomi ne fonctionneront pas et vous ne pourrez pas installer les modules zigbee de xiaomi par exemple.</em></p>
+
+<p>Depuis peut le tag <strong>latest</strong> de l’image jeedom est régulièrement mis à jour, mais pour l’instant nous rencontrons encore des soucis d’installations, donc on utilisera le tag <strong>master</strong> qui reste pour l’instant l’image la plus stable pour réussir son installation.</p>
+
+<pre><code class="language-bash">sudo mkdir -p /sharedfolders/Appdata/Jeedom/html
+</code></pre>
+
+<p>Maintenant que nous avons identifié nos périphériques nous pouvons lancer la commande d’installation de l’image. Toujours sur notre système d’exploitation connecté en ssh en tant que root:</p>
+
+<pre><code class="language-docker">docker run -d --net host --name jeedom \
 -v /.../Jeedom/html:/var/www/html \ # dans omv ce seras de préférence your_jeedom_path remplacé par /sharedfolders/Appdata/
 -e ROOT_PASSWORD=PASSWORD \ # à remplacer par votre mot de passe root
 -e APACHE_PORT=9080 \
@@ -42,7 +489,15 @@ lrwxrwxrwx 1 root root 13 déc.   3 13:28 usb-Texas_Instruments_TI_CC2531_USB_CD
 --device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2 \
 --device=/dev/serial/by-id/usb-0658_0200-if00:/dev/ttyACM0 \
 --restart always jeedom/jeedom:master
-</code></pre><p><strong>Remplacez:</strong> <strong><em>PASSWORD</em></strong> par un mot de passe root pour jeedom,<br /> <strong>l’ajout des accès bluetooth</strong> est à mettre en place, si vous avez une carte bluetooth, intégré à la carte mère dans votre NAS afin de pouvoir utiliser les modules BLEA.</p><h3 id="installation-du-bluetooth-embarqué">Installation du bluetooth embarqué</h3><p>Prenons le cas d’une carte bluetooth Realtek. Ensuite installons le firmware sur debian si ce n’est pas fait.</p><pre><code class="language-bash">$ sudo apt-get install firmware-realtek
+</code></pre>
+
+<p><strong>Remplacez:</strong> <strong><em>PASSWORD</em></strong> par un mot de passe root pour jeedom,<br />
+<strong>l’ajout des accès bluetooth</strong> est à mettre en place, si vous avez une carte bluetooth, intégré à la carte mère dans votre NAS afin de pouvoir utiliser les modules BLEA.</p>
+
+<h3 id="installation-du-bluetooth-embarqué">Installation du bluetooth embarqué</h3>
+<p>Prenons le cas d’une carte bluetooth Realtek. Ensuite installons le firmware sur debian si ce n’est pas fait.</p>
+
+<pre><code class="language-bash">$ sudo apt-get install firmware-realtek
 $ cd /lib/firmware/rtlwifi
 $ wget https://github.com/wkennington/linux-firmware/raw/master/rtlwifi/rtl8822befw.bin
 $ sudo reboot
@@ -51,21 +506,467 @@ Devices:
 	hci0	D0:C5:D3:33:7C:52 # Notre carte bluetooth est bien reconnu
 $ ls -l /sys/class/bluetooth # on cherche le composant bluetooth
 hci0 -&gt; ../../devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14:1.0/bluetooth/hci0 \ adresse unique de notre carte
-</code></pre><p>De plus pour faire remonter le bluetooth dans le plugin BLEA de jeedom. Il faut installer sur votre Container le bluetooth.</p><pre><code class="language-bash">$ ls -l /sys/class/bluetooth \ on regarde si la carte est reconnu
+</code></pre>
+
+<p>De plus pour faire remonter le bluetooth dans le plugin BLEA de jeedom. Il faut installer sur votre Container le bluetooth.</p>
+
+<pre><code class="language-bash">$ ls -l /sys/class/bluetooth \ on regarde si la carte est reconnu
 total 0
 lrwxrwxrwx 1 root root 0 Dec 20 14:59 hci0 -&gt; ../../devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14:1.0/bluetooth/hci0 # réponse ok
 $ hctitool dev
 Devices:
 	hci0	D0:C5:D3:33:7C:52 \ bluetooth ok
 $ apt install -y bluetooth bluez
-</code></pre><p>Finalement le bluetooth remontera dans notre jeedom sans créer d’extra arg pour la création du container contrairement au port usb.</p><pre><code class="language-docker">docker run -d --net host --name jeedom \
+</code></pre>
+
+<p>Finalement le bluetooth remontera dans notre jeedom sans créer d’extra arg pour la création du container contrairement au port usb.</p>
+
+<pre><code class="language-docker">docker run -d --net host --name jeedom \
 -v /your_jeedom_path:/Jeedom/html:/var/www/html \
 -e ROOT_PASSWORD=PASSWORD \
 -e APACHE_PORT=9080 \
 -e SSH_PORT=9022 \
 -e MODE_HOST=1 \
 --restart always jeedom/jeedom:master
-</code></pre><h2 id="3--lancement-de-jeedom-et-paramétrage-et-affinage">3- Lancement de jeedom et paramétrage et affinage</h2><p>à ce stade nous avons installé sur omv 3 containers ( mariadb avec utilisateur, phpmyadmin et jeedom ). Enfin il ne nous reste plus qu’à nous connecter dans notre navigateur.</p><p>rendez-vous sur notre page jeedom en se connectant dans un navigateur à l’adresse de notre NAS <strong>http://192.168.<em>.</em>:9080</strong></p><h3 id="important-"><strong>Important !</strong></h3><p>Remplacez dans « database hostname » <em>localhost</em> par <strong>127.0.0.1</strong> sinon une erreur sql va être généré. Toutefois après le lancement du container jeedom patientez quelques minutes avant de lancer le script d’installation.</p><p>Puis, on rempli bien Database username, password et name. Avec les mêmes caractéristiques lors de la création de la base de données plus haut. On laisse faire l’installation puis on se connecte à jeedom avec login et mot de passe par défaut <strong>admin:admin</strong></p><p><img src="/haade.fr/assets/images/posts/1/jeedom3-1-820.webp" alt="Paramétrage mysql initial jeedom" /> Ensuite à l’invite de commande on modifie le mot de passe. Puis on rentre ses coordonnées jeedom market pour pouvoir passer à l’étape suivante.</p><p><img src="/haade.fr/assets/images/posts/1/jeedom-connection-820.webp" alt="connection à Jeedom" /></p><p>Une fois les étapes de connections bien remplies, nous allons jeter un oeil sur l’onglet /Analyse/santé et si tout s’est bien passé nous devrions avoir ceci:</p><p><img src="/haade.fr/assets/images/posts/1/market-820.webp" alt="connection au market Jeedom" /></p><p>On s’aperçoit que la configuration réseau n’est pas bonne donc Rendez-vous dans l’onglet /Réglage/Système/Configuration/Réseaux et paramétrez comme l’image ci-dessous:</p><ul><li>Accès interne: votre adresse ip de votre carte réseau soit une adresse du type 192.168.xxx.xxx et non 127.0.0.1 vous rencontrerez des conflits avec certains plugins ( exemple xiaomi )<li>Cochez: désactivez la gestion du réseau par jeedom<li>rajoutez si nécessaire dans le masque ip vos adresses docker les notre sont en 172.17 ce qui donnerait 127.0.0.1; 192.168.*.*; 10.*.*.*; 172.16.*.*; 172.17.*.*</ul><p>Enfin revérifiez votre Santé Jeedom et tout devrait être au <strong>VERT.</strong></p><p>Si vous rencontrez des <strong>problèmes de droits</strong> sur dossier/fichier ou <strong>après le lancement d’une sauvegarde</strong>. Alors sur votre container jeedom fraîchement créé il faudra faire les manipulations suivantes:</p><h3 id="commande-a-exécuter-pour-les-droits-jeedom">Commande a exécuter pour les droits Jeedom</h3><pre><code class="language-bash">$ ssh -p 22 192.168.***.*** -l root
-</code></pre><pre><code class="language-docker">$ docker exec -it jeedom sh
-</code></pre><pre><code class="language-bash">$ sudo chown -R www-data:www-data /tmp/jeedom/ /var/www/html/
-</code></pre><p>Pour conclure, après avoir fait ça on peut retourner sur notre jeedom et vérifier que l’état de santé est ok.</p></div><div class="authorbox mb-5 mt-5 pt-4 pb-4"><div class="row"><div class="wrapavname col-md-3 text-center"> <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico"><p class="mt-4 mb-0 small text-center"> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr"><i class="fa fa-link"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href=""><i class="fab fa-twitter"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a> <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a> <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a></p></div><div class="col-md-9"><h4>Nico</h4><p class="mt-3 mb-0">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p></div></div></div><div class="comments mt-5"> <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button><div id="comments"><h4 class="mb-4">commentaires</h4><script src="https://giscus.app/client.js" data-repo=haade-administrator/haade.fr data-repo-id=R_kgDOHHK8ZA data-category=Comments data-category-id=DIC_kwDOHHK8ZM4COugG data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light data-input-position=top data-loading=lazy data-lang=fr crossorigin=anonymous async> </script><div class="clearfix"></div></div></div><div class=" related-posts "><h2 class="text-center mb-4">Articles qui pourrait t'intéresser</h2><div class="d-flex justify-content-center align-items-center"> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/domotique">Domotique</a> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/haade-lab">Haade-lab</a> <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/jeedom">Jeedom</a></div><div class="blog-grid-container"><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-368.webp?v=1660560692" width="368" height="207" alt="La téléinfo dans le dashboard Energie de Home Assistant"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">La téléinfo dans le dashboard Energie de Home Assistant</a></h2><h4 class="card-text">Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="40" height="40" alt="Math67"> </span> <span class="author-meta"> <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a> <span class="post-date"> 3 janvier 2022 </span> </span><div class="clearfix"></div></div></div></div></div><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/box-domotique-rail-din"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-368.webp?v=1660560692" width="368" height="207" alt="Box Domotique rail din Home-assistant et Rpi4"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/box-domotique-rail-din">Box Domotique rail din Home-assistant et Rpi4</a></h2><h4 class="card-text">Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le...</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico"> </span> <span class="author-meta"> <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a> <span class="post-date"> 5 octobre 2021 </span> </span><div class="clearfix"></div></div></div></div></div><div class="blog-grid-item"><div class="card h-100"><div class="maxthumb"> <a href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas"> <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-368.webp?v=1660560692" width="368" height="207" alt="Home-assistant Amber VS Jeedom Atlas"> </a></div><div class="card-body"><h2 class="card-title"> <a class="text-dark" href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">Home-assistant Amber VS Jeedom Atlas</a></h2><h4 class="card-text">Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La...</h4></div><div class="card-footer bg-white"><div class="wrapfooter"> <span class="meta-footer-thumb"> <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico"> </span> <span class="author-meta"> <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a> <span class="post-date"> 1<sup>er</sup> octobre 2021 </span> </span><div class="clearfix"></div></div></div></div></div></div></div></div></div><footer><div class="footcontent"><div class="footleft footbox"><div class="footupper"><div class="foottopic">À Propos</div><p>Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique</p></div><div class="footlower"><div class="foottopic">Contactez-nous</div><div class="phone"> <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a></div><div class="email"> <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a></div></div></div><div class="footmiddle footbox"><div class="foottopic">Liens utiles</div><div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div><div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div><div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div><div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div></div><div class="footright footbox"><div class="foottopic">Inscrivez-vous à la Newsletter</div><form action="https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4" method="post" name="" class="" target="_blank" novalidate> <input type="text" placeholder="Entrez une adresse e-mail"> <input type="submit" name="" value="Envoyer"><div class="media-icons"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a> <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a> <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a> <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a></div></form></div></div><div class="footbottom"><p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p></div></footer></div><script src="/haade.fr/assets/js/vanilla-back-to-top.min.js?v=fa0110e8b42cec56ce96d912fd4bde74" type="text/javascript"></script> <script>addBackToTop({ diameter: 44, backgroundColor: '#1B1C37', textColor: '#2AD2FD' })</script> <script src="/haade.fr/assets/js/prism.min.js?v=f92287b34454ec3acfd41fd0ddc8aa5d" type="text/javascript"></script> <script src="/haade.fr/assets/js/theme.min.js?v=e95050136e10bec758f781f55ba4ffa3" type="text/javascript"></script> <script src="/haade.fr/assets/js/navbar.min.js?v=8565525f2567565ff8410eee8329c6d0" type="text/javascript"></script> <script src="/haade.fr/assets/js/flag.min.js?v=7554506cde6b8467be36bb3f031a5e90" type="text/javascript"></script> <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script><div class="cookie_wrapper"><picture> <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'> <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'> </picture><div class="cookie_content"><header>Comme beaucoup, notre site utilise les cookies</header><p>On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !</p><div class="cookie_buttons"> <button class="item">Ok pour moi!</button> <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/#cookies" class="cookie_item">Lire davantage</a></div></div></div><script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
+</code></pre>
+
+<h2 id="3--lancement-de-jeedom-et-paramétrage-et-affinage">3- Lancement de jeedom et paramétrage et affinage</h2>
+
+<p>à ce stade nous avons installé sur omv 3 containers ( mariadb avec utilisateur, phpmyadmin et jeedom ). Enfin il ne nous reste plus qu’à nous connecter dans notre navigateur.</p>
+
+<p>rendez-vous sur notre page jeedom en se connectant dans un navigateur à l’adresse de notre NAS <strong>http://192.168.<em>.</em>:9080</strong></p>
+
+<h3 id="important-"><strong>Important !</strong></h3>
+<p>Remplacez dans « database hostname » <em>localhost</em> par <strong>127.0.0.1</strong> sinon une erreur sql va être généré. Toutefois après le lancement du container jeedom patientez quelques minutes avant de lancer le script d’installation.</p>
+
+<p>Puis, on rempli bien Database username, password et name. Avec les mêmes caractéristiques lors de la création de la base de données plus haut. On laisse faire l’installation puis on se connecte à jeedom avec login et mot de passe par défaut <strong>admin:admin</strong></p>
+
+<p><img src="/haade.fr/assets/images/posts/1/jeedom3-1-820.webp" alt="Paramétrage mysql initial jeedom" />
+Ensuite à l’invite de commande on modifie le mot de passe. Puis on rentre ses coordonnées jeedom market pour pouvoir passer à l’étape suivante.</p>
+
+<p><img src="/haade.fr/assets/images/posts/1/jeedom-connection-820.webp" alt="connection à Jeedom" /></p>
+
+<p>Une fois les étapes de connections bien remplies, nous allons jeter un oeil sur l’onglet /Analyse/santé et si tout s’est bien passé nous devrions avoir ceci:</p>
+
+<p><img src="/haade.fr/assets/images/posts/1/market-820.webp" alt="connection au market Jeedom" /></p>
+
+<p>On s’aperçoit que la configuration réseau n’est pas bonne donc Rendez-vous dans l’onglet /Réglage/Système/Configuration/Réseaux et paramétrez comme l’image ci-dessous:</p>
+
+<ul>
+  <li>Accès interne: votre adresse ip de votre carte réseau soit une adresse du type 192.168.xxx.xxx et non 127.0.0.1 vous rencontrerez des conflits avec certains plugins ( exemple xiaomi )</li>
+  <li>Cochez: désactivez la gestion du réseau par jeedom</li>
+  <li>rajoutez si nécessaire dans le masque ip vos adresses docker les notre sont en 172.17 ce qui donnerait 127.0.0.1; 192.168.*.*; 10.*.*.*; 172.16.*.*; 172.17.*.*</li>
+</ul>
+
+<p>Enfin revérifiez votre Santé Jeedom et tout devrait être au <strong>VERT.</strong></p>
+
+<p>Si vous rencontrez des <strong>problèmes de droits</strong> sur dossier/fichier ou <strong>après le lancement d’une sauvegarde</strong>. Alors sur votre container jeedom fraîchement créé il faudra faire les manipulations suivantes:</p>
+
+<h3 id="commande-a-exécuter-pour-les-droits-jeedom">Commande a exécuter pour les droits Jeedom</h3>
+
+<pre><code class="language-bash">$ ssh -p 22 192.168.***.*** -l root
+</code></pre>
+
+<pre><code class="language-docker">$ docker exec -it jeedom sh
+</code></pre>
+
+<pre><code class="language-bash">$ sudo chown -R www-data:www-data /tmp/jeedom/ /var/www/html/
+</code></pre>
+
+<p>Pour conclure, après avoir fait ça on peut retourner sur notre jeedom et vérifier que l’état de santé est ok.</p>
+
+</div>
+
+
+<!-- Author Box if enabled from _config.yml -->
+<!-- Author Box -->
+
+
+<div class="authorbox mb-5 mt-5 pt-4 pb-4">
+    <div class="row">
+        <div class="wrapavname col-md-3 text-center">
+            
+            <img  class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico">
+            
+            <p class="mt-4 mb-0 small text-center">
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr"><i class="fa fa-link"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href=""><i class="fab fa-twitter"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a>
+                <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a>
+            </p>
+        </div>
+        <div class="col-md-9">
+            <h4>Nico</h4>
+            <p class="mt-3 mb-0">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- Comments if not disabled with comments: false -->
+<!-- Comments
+================================================== -->
+
+<div class="comments mt-5">
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button>
+    <div id="comments">
+        <h4 class="mb-4">commentaires</h4>
+        
+        
+            
+
+  <script src="https://giscus.app/client.js"
+          data-repo=haade-administrator/haade.fr
+          data-repo-id=R_kgDOHHK8ZA
+          data-category=Comments
+          data-category-id=DIC_kwDOHHK8ZM4COugG
+          data-mapping=pathname
+          data-reactions-enabled=1
+          data-emit-metadata=0
+          data-theme=light
+          data-input-position=top
+          data-loading=lazy
+          data-lang=fr
+          crossorigin=anonymous
+          async>
+  </script>
+
+
+            
+    <div class="clearfix"></div>
+    </div>
+</div>
+
+
+
+<!-- Related Post -->
+<!-- Related Posts
+================================================== -->
+<div class=" related-posts ">
+
+    
+    <h2 class="text-center mb-4">Articles qui pourrait t'intéresser</h2>
+    
+
+    <div class="d-flex justify-content-center align-items-center">
+
+    <!-- Categories -->
+    
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/domotique">Domotique</a>
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/haade-lab">Haade-lab</a>
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/fr/category/jeedom">Jeedom</a>
+    
+
+    <!-- Tags -->
+    
+    
+
+    </div>
+
+    
+    
+    
+    <div class="blog-grid-container">
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-368.webp" width="368" height="207" alt="La téléinfo dans le dashboard Energie de Home Assistant">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">La téléinfo dans le dashboard Energie de Home Assistant</a>
+            </h2>
+            <h4 class="card-text">Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="40" height="40" alt="Math67">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a>
+                
+                <span class="post-date">
+
+     3
+    
+ 
+    
+    janvier
+            
+ 2022
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/box-domotique-rail-din">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-368.webp" width="368" height="207" alt="Box Domotique rail din Home-assistant et Rpi4">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/box-domotique-rail-din">Box Domotique rail din Home-assistant et Rpi4</a>
+            </h2>
+            <h4 class="card-text">Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                
+                <span class="post-date">
+
+     5
+    
+ 
+    
+    octobre
+            
+ 2021
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+            
+
+        
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-368.webp" width="368" height="207" alt="Home-assistant Amber VS Jeedom Atlas">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">Home-assistant Amber VS Jeedom Atlas</a>
+            </h2>
+            <h4 class="card-text">Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                
+                <span class="post-date">
+
+    
+        1<sup>er</sup>
+    
+ 
+    
+    octobre
+            
+ 2021
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+                
+        </div>
+</div>
+
+
+    </div>
+
+</div>
+
+<footer>
+   <div class="footcontent">
+     <div class="footleft footbox">
+       <div class="footupper">
+         <div class="foottopic">À Propos</div>
+         <p>Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique</p>
+       </div>
+       <div class="footlower">
+         <div class="foottopic">Contactez-nous</div>
+         <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a>
+         </div>
+         <div class="email">
+           <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a>
+         </div>
+       </div>
+     </div>
+     <div class="footmiddle footbox">
+       <div class="foottopic">Liens utiles</div>
+       <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
+       <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
+       <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
+       <div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div>
+     </div>
+     
+     <!-- Newsletter
+     ================================================== -->
+     <div class="footright footbox">
+       <div class="foottopic">Inscrivez-vous à la Newsletter</div>
+       <form action="https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4" method="post" name="" class="" target="_blank" novalidate>
+         <input type="text" placeholder="Entrez une adresse e-mail">
+         <input type="submit" name="" value="Envoyer">
+         <div class="media-icons">
+           <a target="_blank" href="https://twitter.com/intent/tweet?text=Jeedom sur docker&url=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
+           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+         </div>
+       </form>
+     </div>
+     
+   </div>
+   <div class="footbottom">
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+   </div>
+ </footer>
+
+
+</div> <!-- /.site-content -->
+
+
+<!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
+
+<script src="/haade.fr/assets/js/vanilla-back-to-top.min.js?v=fa0110e8b42cec56ce96d912fd4bde74" type="text/javascript"></script>
+<script>addBackToTop({
+  diameter: 44,
+  backgroundColor: '#1B1C37',
+  textColor: '#2AD2FD'
+})</script>
+
+<!-- end script -->
+<script src="/haade.fr/assets/js/prism.min.js?v=f92287b34454ec3acfd41fd0ddc8aa5d" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/theme.min.js?v=e95050136e10bec758f781f55ba4ffa3" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/navbar.min.js?v=8565525f2567565ff8410eee8329c6d0" type="text/javascript"></script>
+<script src="/haade.fr/assets/js/flag.min.js?v=7554506cde6b8467be36bb3f031a5e90" type="text/javascript"></script>
+
+
+
+<script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
+
+
+
+  <div class="cookie_wrapper">
+    <picture>
+    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
+    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
+</picture>
+    <div class="cookie_content">
+      <header>Comme beaucoup, notre site utilise les cookies</header>
+      <p>On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !</p>
+      <div class="cookie_buttons">
+        <button class="item">Ok pour moi!</button>
+        
+        <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/#cookies" class="cookie_item">Lire davantage</a>
+        
+      </div>
+    </div>
+  </div>
+
+<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
+
+
+</body>
+</html>
