@@ -17,8 +17,7 @@ published: true
   <div class="post-grid">
     <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.locale] }} ..</span></h2>
     <br />
-    {%- assign posts = paginator.posts | where: 'locale', page.locale %}
-    {%- for post in posts %}
+    {%- for post in paginator.posts %}
         {% include postbox.html %}
     {% endfor %}
   </div>

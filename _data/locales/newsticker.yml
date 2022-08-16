@@ -1,0 +1,24 @@
+docs_list_title:
+  fr: Dernières Nouvelles
+  en: Breaking News
+
+docs:
+  fr:
+    - title: Home-assistant.io
+      url: https://www.home-assistant.io/atom.xml
+
+    - title: Prise en charge de Matter dans Home Assistant
+      url: https://www.home-assistant.io/blog/2022/05/29/matter-in-home-assistant-workshop-announcement/
+
+    - title: Deploiement
+      url: deployment.html
+
+  en:
+    - title: Home-assistant.io
+      url: https://www.home-assistant.io/atom.xml
+
+    - title: Matter in Home Assistant workshop announcement
+      url: https://www.home-assistant.io/blog/2022/05/29/matter-in-home-assistant-workshop-announcement/
+
+    - title: Deployment
+      url: deployment.html
