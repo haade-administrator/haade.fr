@@ -587,6 +587,11 @@ img, img:hover {
         text-align: center;
         line-height: 40px;
     }
+    li.selected a {
+      cursor: auto;
+      color: #666;
+      background: none;
+    }
     span {
         border:0;
     }

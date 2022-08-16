@@ -1,6 +1,6 @@
 <div class="hero-container">
   <div class="left">
-    {% assign latest_posts = site.posts | where:'locale', page.locale %}
+    {% assign latest_posts = site.posts | where:'locale', page.locale | where: 'published', true %}
     {% for latest_post in latest_posts limit:1 %}
       <a href="{{site.baseurl}}{{latest_post.url}}">
         <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if latest_post.image contains "://" %}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ latest_post.guid }}/{{ latest_post.image }}-553.webp{{ cachebuster }}{% endif %}); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
@@ -33,7 +33,7 @@
     </div>
   <div class="right">
     <div class="second">
-      {% assign second_posts = site.posts | where:'locale', page.locale %}
+      {% assign second_posts = site.posts | where:'locale', page.locale | where: 'published', true %}
       {% for second_post in second_posts limit:1 offset:1 %}
         <a href="{{site.baseurl}}{{second_post.url}}">
           <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if second_post.image contains "://" %}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ second_post.guid }}/{{ second_post.image }}-553.webp{{ cachebuster }}{% endif %});"></div>
@@ -65,7 +65,7 @@
       </div>
     <div class="bottom-right">
       <div class="third">
-        {% assign third_posts = site.posts | where:'locale', page.locale %}
+        {% assign third_posts = site.posts | where:'locale', page.locale | where: 'published', true %}
         {% for third_post in third_posts limit:1 offset:2 %}
               <a href="{{site.baseurl}}{{third_post.url}}">
                 <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if third_post.image contains "://" %}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ third_post.guid }}/{{ third_post.image }}-272.webp{{ cachebuster }}{% endif %});"></div>
@@ -96,7 +96,7 @@
         {% endfor %}
       </div>
       <div class="four">
-        {% assign four_posts = site.posts | where:'locale', page.locale %}
+        {% assign four_posts = site.posts | where:'locale', page.locale | where: 'published', true %}
         {% for four_post in four_posts limit:1 offset:3 %}
               <a href="{{site.baseurl}}{{four_post.url}}">
                 <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url({% if four_post.image contains "://" %}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{{ cachebuster }}{% else %} {{ site.baseurl }}/assets/images/posts/{{ four_post.guid }}/{{ four_post.image }}-272.webp{{ cachebuster }}{% endif %}); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>

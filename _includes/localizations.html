@@ -3,7 +3,7 @@
     | where: 'locale_reference', page.locale_reference
     | sort: 'locale' %}
   {%- for localized_page in localized_pages %}
-    <link rel="alternate" hreflang="{{ localized_page.locale }}" href="{{ site.baseurl }}{{ localized_page.url }}" />
+    <link rel="alternate" hreflang="{{ localized_page.locale }}" href="{{ site.baseurl }}{{ localized_page.url | remove: 'index.html' }}" />
   {%- endfor %}
 
 {%- elsif page.layout == 'post' %}
