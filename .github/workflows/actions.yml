@@ -3,7 +3,7 @@ name: Build and deploy Jekyll H2ade Blog
 on:
   push:
     branches:
-#       - main
+       - main
        - 'releases/**'
        - '!releases/**-alpha'
        
