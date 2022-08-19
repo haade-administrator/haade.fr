@@ -19,5 +19,6 @@ group :jekyll_plugins do
     gem 'rouge'
     gem 'jekyll-gist'
     gem 'jekyll-imagemagick'
+    gem 'jekyll_picture_tag'
 
 end
