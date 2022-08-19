@@ -52,7 +52,7 @@ giscus:
   repo-id:             "R_kgDOHHK8ZA"
   category:            "Comments"
   category-id:         "DIC_kwDOHHK8ZM4COugG"
-  mapping:             "pathname"
+  mapping:             "title"
   reaction-enabled:    "1"
   emit-metadata:       "0"
   theme:               "light"
