@@ -8,5 +8,5 @@ Docker intègre les logiciels dans des unités normalisées appelées conteneurs
 <br />
 En conclusion, en utilisant Docker, les développeurs et les administrateurs disposent d’un moyen fiable et peu coûteux de développer. Mais aussi de livrer et exécuter des applications distribuées à toutes les échelles.<br />
 C’est pourquoi nous l’utilisons fortement dans nos programmes de domotique."
-locale: fr
+locale: fr_FR
 ---

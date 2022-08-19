@@ -8,7 +8,7 @@ author: Nico
 categories: Domotique Protocoles
 tags: z-wave zigbee comparaison
 layout: post
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: false

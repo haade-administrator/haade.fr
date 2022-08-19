@@ -1,7 +1,7 @@
 ---
 layout: none
 title: English Sitemap
-locale: en
+locale: en_GB
 locale_reference: sitemap
 sitemap:
   excluded: true

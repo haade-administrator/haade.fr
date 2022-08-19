@@ -10,7 +10,7 @@ category: Tests
 tags: Test Zigbee Homeassistant
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite"
 published: true
-locale: fr
+locale: fr_FR
 toc: false
 beforetoc:
 comments: true

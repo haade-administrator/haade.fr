@@ -10,7 +10,7 @@ categories: Tests Haade-lab Home-Assistant
 tags: Test Raspberry Homeassistant
 image: box-domotique-rail-din-home-assistant
 published: true
-locale: fr
+locale: fr_FR
 toc: true
 beforetoc:
 comments: true

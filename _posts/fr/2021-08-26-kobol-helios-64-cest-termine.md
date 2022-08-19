@@ -10,7 +10,7 @@ categories: News
 tag:
 image: "helios64"
 published: true
-locale: fr
+locale: fr_FR
 beforetoc:
 toc: true
 comments: true

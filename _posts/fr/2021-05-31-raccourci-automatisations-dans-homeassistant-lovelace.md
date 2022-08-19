@@ -9,7 +9,7 @@ tags: entité Home-Assistant lovelace
 categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: miniature
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: false

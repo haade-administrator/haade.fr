@@ -10,7 +10,7 @@ categories: News
 tags: Raspberry CM4 Projets
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1"
 published: true
-locale: fr
+locale: fr_FR
 toc: true
 beforetoc:
 comments: true

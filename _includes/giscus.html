@@ -11,7 +11,7 @@
           data-theme={{ giscus.theme }}
           data-input-position={{ giscus.position }}
           data-loading={{ giscus.loading }}
-          data-lang={{ page.locale }}
+          data-lang={{ page.locale | slice: 0,2 }}
           crossorigin={{ giscus.crossorigin }}
           async>
   </script>

@@ -3,7 +3,7 @@ title: 'RGPD'
 date: '2018-05-23T08:31:18+00:00'
 layout: firstheader
 comments: false
-locale: fr
+locale: fr_FR
 locale_reference: gdpr
 published: true
 order: 2

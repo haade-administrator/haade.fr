@@ -9,7 +9,7 @@ layout: post
 image: domotiser-porte-garage-5-euros
 tags: esp8266
 description: "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266"
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

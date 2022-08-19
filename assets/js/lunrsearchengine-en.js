@@ -6,7 +6,7 @@ sitemap: false
 {% assign counter = 0 %}
 var documents = [  {%- assign searchml_posts = site.posts
   | where: 'layout', 'post'
-  | where: 'locale', 'en'
+  | where: 'locale', 'en_GB'
   | where: 'published', true %}
   {%- for searchml_post in searchml_posts %}{
     "id": {{ counter }},

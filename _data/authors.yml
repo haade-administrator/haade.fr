@@ -10,8 +10,8 @@
     facebook: https://www.facebook.com/Haade-104508121049333
     discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644
     description:
-      fr: "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens."
-      en: "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well."
+      fr_FR: "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens."
+      en_GB: "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well."
 
   Yann:
     name: Yann
@@ -24,16 +24,16 @@
     facebook: https://www.facebook.com/Haade-104508121049333
     discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Goreskull#9386
     description:
-      fr: "Newbie en domotique j'aide Nico et Math dans l'intégration visuelle des articles"
-      en: "Newbie in home automation I help Nico and Math in the visual integration of articles"
+      fr_FR: "Newbie en domotique j'aide Nico et Math dans l'intégration visuelle des articles"
+      en_GB: "Newbie in home automation I help Nico and Math in the visual integration of articles"
 
   Math67:
-    name: Mathieu
+    name: Math67
     display_name: Math67
     avatar: 'assets/images/math67.webp'
     email: fogel.mathieu@gmail.com
     web: []
     url: https://haade-administrator.github.io/haade.fr/author-math67
     description:
-      fr: "Écrivez une courte description de l'auteur ici. Vous prévisualisez actuellement la démo Memoirs, un template Jekyll compatible avec les pages Github."
-      en: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
+      fr_FR: "Écrivez une courte description de l'auteur ici. Vous prévisualisez actuellement la démo Memoirs, un template Jekyll compatible avec les pages Github."
+      en_GB: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."

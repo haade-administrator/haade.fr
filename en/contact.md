@@ -2,7 +2,7 @@
 layout: firstheader
 title: Contact
 comments: false
-locale: en
+locale: en_GB
 locale_reference: contact
 published: true
 order: 3

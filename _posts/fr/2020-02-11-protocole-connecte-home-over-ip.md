@@ -9,7 +9,7 @@ layout: post
 image: homeoverip
 tags:
 description: "Actu du futur protocole HomeoverIP nommé Matter"
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

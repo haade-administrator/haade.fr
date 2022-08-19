@@ -8,7 +8,7 @@ layout: post
 image: domotiser-porte-garage-5-euros
 tags: []
 description: "a simple way to automate your garage door at a lower cost"
-locale: en
+locale: en_GB
 toc: true
 ---
 In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, **but we could have used any brands of motorizations like Somfy** because **they are all equipped with electric motors operating between 18 and 24v.** In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.

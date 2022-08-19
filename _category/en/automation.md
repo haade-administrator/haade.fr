@@ -9,5 +9,5 @@ Computers and telecommunications make it possible to: centralize the control of 
 Home automation or Smarthome provides technical solutions with Jeedom and Homeassistant. To meet comfort needs (energy management, there is also the optimization of lighting and heating comfort).
 <br />
 But also, security (alarm) and communication (remote controls, etc.). Found in homes, hotels and public places, etc...."
-locale: en
+locale: en_GB
 ---

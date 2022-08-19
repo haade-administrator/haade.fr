@@ -9,7 +9,7 @@ layout: post
 image: maillage-zigbee
 tags:
 description: "Zigbee comprendre le protocole et le maillage de ce standard"
-locale: fr
+locale: fr_FR
 published: true
 toc: false
 comments: true

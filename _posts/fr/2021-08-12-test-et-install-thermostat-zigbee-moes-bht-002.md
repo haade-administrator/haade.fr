@@ -10,7 +10,7 @@ categories: Tests
 tags:
 image: "thermostat-zigbee-moes-bht-002"
 published: true
-locale: fr
+locale: fr_FR
 beforetoc:
 toc: true
 comments: true

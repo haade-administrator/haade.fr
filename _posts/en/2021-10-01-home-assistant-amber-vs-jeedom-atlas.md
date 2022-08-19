@@ -10,7 +10,7 @@ categories: [Home Assistant, Jeedom, News ]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber
 published: true
-locale: en
+locale: en_GB
 toc: false
 ---
 

@@ -9,5 +9,5 @@ L'informatique et les télécommunications permettent de : centraliser le contr�
 La domotique ou Smarthome apporte des solutions techniques avec Jeedom et Homeassistant. Pour répondre aux besoins de confort (gestion de l'énergie, il y a aussi l'optimisation du confort d'éclairage et de chauffage).
 <br />
 Mais aussi, la sécurité (alarme) et la communication (télécommandes, etc.). Que l'on retrouve dans les habitations, les hôtels et les lieux publics, etc...."
-locale: fr
+locale: fr_FR
 ---

@@ -8,7 +8,7 @@ author: Nico
 categories: [Home Assistant, Tests, Haade-lab]
 image: box-domotique-rail-din-home-assistant
 published: true
-locale: en
+locale: en_GB
 ---
 For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical hardware is an integral part of a home, apart from a NAS is rather personal. The question of a move does not pose a problem for the NAS but with regard to home automation it must continue to function without its personal effects. This is why I decided to integrate the Home-Assistant home automation box on din rail into the electrical panel.
 

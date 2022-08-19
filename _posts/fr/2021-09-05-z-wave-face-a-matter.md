@@ -10,7 +10,7 @@ categories: Domotique Protocoles News
 tags:
 image: "zwave-face-a-matter"
 published: true
-locale: fr
+locale: fr_FR
 toc: true
 beforetoc:
 comments: true

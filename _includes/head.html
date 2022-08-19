@@ -1,13 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/{{ site.logo }}" width='250' height='59'>
+<link rel="icon" href="{{ site.baseurl }}/{{ site.logo.path }}" width='250' height='59'>
 
 <title>{{ page.title }} - {{site.name}}</title>
 
-{% include localizations.html %}
-
-{% seo %}
+{% include seo.html %}
 
 <link href="{{ site.baseurl }}/assets/css/theme.css?v={{ site.time | date: '%s%N' }}" media="screen, projection, print" rel="stylesheet">
 

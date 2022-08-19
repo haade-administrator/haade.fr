@@ -9,7 +9,7 @@ categories: Tests
 layout: post
 image: inter-moes
 tags:
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

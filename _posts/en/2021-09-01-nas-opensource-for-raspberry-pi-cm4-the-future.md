@@ -8,7 +8,7 @@ last_modified_at:
 categories: [News]
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1"
 published: true
-locale: en
+locale: en_GB
 ---
 After [the end announced by kobol ,](https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/) [Wiretrustee](https://wiretrustee.com/){:target="_blank"} announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)
 

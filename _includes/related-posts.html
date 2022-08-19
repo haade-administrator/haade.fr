@@ -11,7 +11,7 @@
     <!-- Categories -->
     {% assign sortedCategories = page.categories %}
     {% for category in sortedCategories %}
-    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.locale }}/category/{{ category | slugify }}">{{ category }}</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
     {% endfor %}
 
     <!-- Tags -->

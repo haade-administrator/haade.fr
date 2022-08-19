@@ -3,170 +3,170 @@
 #site description
 site:
   description:
-    fr: Home Assistance Alsace domotique & électronique.
-    en: Home Assistance Alsace home automation & electronics.
+    fr_FR: Home Assistance Alsace domotique & électronique.
+    en_GB: Home Assistance Alsace home automation & electronics.
 
 lang:
-  fr: langue
-  en: language
+  fr_FR: langue
+  en_GB: language
 
 languages:
-  fr:
+  fr_FR:
     value: Francais
-    slug: fr
+    slug: fr_FR
 
-  en:
+  en_GB:
     value: English
-    slug: en
+    slug: en_GB
 
 
 #Index
 
 morepost:
-  fr: Plus d'Articles
-  en: More Posts
+  fr_FR: Plus d'Articles
+  en_GB: More Posts
 
 rgpd:
-  fr: RGPD
-  en: GDPR
+  fr_FR: RGPD
+  en_GB: GDPR
 
 # Posts
 writting:
-  fr: Rédigé par
-  en: Written by
+  fr_FR: Rédigé par
+  en_GB: Written by
 
 the:
-  fr: le
-  en: the
+  fr_FR: le
+  en_GB: the
 
 of:
-  fr: de
-  en: of
+  fr_FR: de
+  en_GB: of
 
 in:
-  fr: Dans
-  en: In
+  fr_FR: Dans
+  en_GB: In
 
 update:
-  fr: Mis à Jour
-  en: Update
+  fr_FR: Mis à Jour
+  en_GB: Update
 
 reading:
-  fr: lecture
-  en: reading
+  fr_FR: lecture
+  en_GB: reading
 
 minute:
-  fr: min
-  en: min
+  fr_FR: min
+  en_GB: min
 
 times:
-  fr: fois
-  en: times
+  fr_FR: fois
+  en_GB: times
 
 estimated-time:
-  fr: Temps de Lecture estimé
-  en: Estimated read time
+  fr_FR: Temps de Lecture estimé
+  en_GB: Estimated read time
 
 search:
-  fr: Recherche...
-  en: Search...
+  fr_FR: Recherche...
+  en_GB: Search...
 
 search-sorry:
-  fr: Désolé, aucun résultat trouvé. Fermez et essayez une autre recherche !
-  en: Sorry, no results found. Close and try another search!
+  fr_FR: Désolé, aucun résultat trouvé. Fermez et essayez une autre recherche !
+  en_GB: Sorry, no results found. Close and try another search!
 
 #includes
 count:
-  fr: Cet Article a été vu
-  en: This page has been visited
+  fr_FR: Cet Article a été vu
+  en_GB: This page has been visited
 
 cookie:
   title:
-    fr: Comme beaucoup, notre site utilise les cookies
-    en: Like many, our site uses cookies
+    fr_FR: Comme beaucoup, notre site utilise les cookies
+    en_GB: Like many, our site uses cookies
 
   content:
-    fr: On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !
-    en: We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!
+    fr_FR: On aimerait vous accompagner pendant votre visite. En poursuivant, vous acceptez l'utilisation des cookies par ce site, afin de vous proposer des contenus adaptés et réaliser des statistiques !
+    en_GB: We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!
 
   accept:
-    fr: Ok pour moi!
-    en: Ok for me!
+    fr_FR: Ok pour moi!
+    en_GB: Ok for me!
 
   read-more:
-    fr: Lire davantage
-    en: read more
+    fr_FR: Lire davantage
+    en_GB: read more
 
 giscus:
   title:
-    fr: commentaires
-    en: Comments
+    fr_FR: commentaires
+    en_GB: Comments
 
   load:
-    fr: Afficher les Commentaires
-    en: Load the Comments
+    fr_FR: Afficher les Commentaires
+    en_GB: Load the Comments
 
 relatedpost:
   title:
-    fr: Articles qui pourrait t'intéresser
-    en: Articles that might interest you
+    fr_FR: Articles qui pourrait t'intéresser
+    en_GB: Articles that might interest you
 
 error404:
   title:
-    fr: Oups!
-    en: Oops!
+    fr_FR: Oups!
+    en_GB: Oops!
 
   content:
-    fr: 404 - La page est introuvable
-    en: 404 - The Page can't be found
+    fr_FR: 404 - La page est introuvable
+    en_GB: 404 - The Page can't be found
 
   link:
-    fr: Retour SUR la page principale
-    en: Go TO Homepage
+    fr_FR: Retour SUR la page principale
+    en_GB: Go TO Homepage
 
 # table of Content
 
 sommaire:
-  fr: Sommaire
-  en: Sommary
+  fr_FR: Sommaire
+  en_GB: Sommary
 
 # Commentaires
 
 commentaires:
-  fr: commentaires
-  en: Comments
+  fr_FR: commentaires
+  en_GB: Comments
 
 afficher-les:
-  fr: Afficher les
-  en: Show the
+  fr_FR: Afficher les
+  en_GB: Show the
 
 # footer
 
 footer:
   about:
-    fr: À Propos
-    en: About
+    fr_FR: À Propos
+    en_GB: About
 
   description:
-    fr: Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique
-    en: Haade is a blog intended to help individuals and professionals to set up a home automation system
+    fr_FR: Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique
+    en_GB: Haade is a blog intended to help individuals and professionals to set up a home automation system
 
   contact:
-    fr: Contactez-nous
-    en: Contact-us
+    fr_FR: Contactez-nous
+    en_GB: Contact-us
 
   linku:
-    fr: Liens utiles
-    en: Useful links
+    fr_FR: Liens utiles
+    en_GB: Useful links
 
   newsletter:
-    fr: Inscrivez-vous à la Newsletter
-    en: Subscribe to the newsletter
+    fr_FR: Inscrivez-vous à la Newsletter
+    en_GB: Subscribe to the newsletter
 
   inputmail:
-    fr: Entrez une adresse e-mail
-    en: Enter email address
+    fr_FR: Entrez une adresse e-mail
+    en_GB: Enter email address
 
   submit:
-    fr: Envoyer
-    en: Send
+    fr_FR: Envoyer
+    en_GB: Send

@@ -10,7 +10,7 @@ image: domotiser-porte-garage-5-euros
 tags: []
 description: "a simple way to automate your garage door at a lower cost"
 published: true
-locale: en
+locale: en_GB
 toc: true
 
 ---

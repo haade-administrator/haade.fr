@@ -9,7 +9,7 @@ layout: post
 image: installation-jeedom-docker-1
 tags:
 description: "OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker"
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true
@@ -111,7 +111,9 @@ yobasystems/alpine-mariadb:latest
 
 ![connection à putty]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mysql-1-820.webp{{ cachebuster }})
 
-### Installation de Adminer sur le docker afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé
+### Installation de Adminer sur le docker.
+
+afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé
 
 ```docker
 docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adminer

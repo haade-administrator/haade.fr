@@ -9,7 +9,7 @@ last_modified_at:
 categories: Domotique Haade-lab Home-Assistant
 tags:
 image: compteur-electrique-homeassistant
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

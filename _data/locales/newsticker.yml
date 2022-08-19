@@ -1,9 +1,9 @@
 docs_list_title:
-  fr: Dernières Nouvelles
-  en: Breaking News
+  fr_FR: Dernières Nouvelles
+  en_GB: Breaking News
 
 docs:
-  fr:
+  fr_FR:
     - title: Home-assistant.io
       url: https://www.home-assistant.io/atom.xml
 
@@ -13,7 +13,7 @@ docs:
     - title: Deploiement
       url: deployment.html
 
-  en:
+  en_GB:
     - title: Home-assistant.io
       url: https://www.home-assistant.io/atom.xml
 

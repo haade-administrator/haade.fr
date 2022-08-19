@@ -10,7 +10,7 @@ categories: Domotique Haade-lab Home-Assistant Jeedom News
 tags: Comparatif Homeassistant Jeedom
 image: Jeedom-Atlas-vs-Homeassistant-Amber
 published: true
-locale: fr
+locale: fr_FR
 toc: false
 beforetoc:
 comments: true

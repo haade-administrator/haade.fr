@@ -1,7 +1,7 @@
 ---
 layout: categories
 title: Categories
-locale: fr
+locale: fr_FR
 locale_reference: categories
 published: true
 ---

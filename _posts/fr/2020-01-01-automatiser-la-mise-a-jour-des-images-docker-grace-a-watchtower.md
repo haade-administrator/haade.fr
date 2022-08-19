@@ -8,7 +8,7 @@ layout: post
 image: automatiser-mise-a-jour-image-sur-docker-avec-watchtower-1
 tags:
 description: "Rendre automatique les mises à jour des images docker grâce à watchtower"
-locale: fr
+locale: fr_FR
 published: true
 beforetoc:
 toc: true

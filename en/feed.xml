@@ -18,7 +18,7 @@ title: English RSS Feed
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {%- assign posts = site.posts | where: 'locale', 'en' %}
+    {%- assign posts = site.posts | where: 'locale', 'en_GB' %}
     {% for post in posts limit: 10 %}
     <item>
       <title>{{ post.title | xml_escape }}</title>

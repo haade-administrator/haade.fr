@@ -1,88 +1,88 @@
 home:
-  fr:
+  fr_FR:
     name: 'Accueil'
     link: ''
-    
-  en:
+
+  en_GB:
     name: 'Home'
     link: 'en/'
 
 automation:
-  fr:
+  fr_FR:
     name: 'Domotique'
     link: 'fr/category/domotique'
-  en:
+  en_GB:
     name: 'Automation'
     link: 'en/category/Automation'
 
 security:
-  fr:
+  fr_FR:
     name: 'Sécurité'
     link: 'fr/category/securite'
 
-  en:
+  en_GB:
     name: 'Security'
     link: 'en/category/security'
 
 tutorials:
-  fr:
+  fr_FR:
     name: 'Tutos'
     link: 'fr/category/haade-lab'
 
-  en:
+  en_GB:
     name: 'Tutos'
     link: 'en/category/haade-lab'
 
 docker:
-  fr:
+  fr_FR:
     name: 'Docker'
     link: 'fr/category/docker'
 
-  en:
+  en_GB:
     name: 'Docker'
     link: 'en/category/docker'
 
 ha:
-  fr:
+  fr_FR:
     name: 'Home-Assistant'
     link: 'fr/category/home-assistant'
 
-  en:
+  en_GB:
     name: 'Home-Assistant'
     link: 'en/category/home-assistant'
 
 jeedom:
-  fr:
+  fr_FR:
     name: 'Jeedom'
     link: 'fr/category/jeedom'
 
-  en:
+  en_GB:
     name: 'Jeedom'
     link: 'en/category/jeedom'
 
 news:
-  fr:
+  fr_FR:
     name: 'News'
     link: 'fr/category/news'
 
-  en:
+  en_GB:
     name: 'News'
     link: 'en/category/news'
 
 tests:
-  fr:
+  fr_FR:
     name: 'Tests'
     link: 'fr/category/tests'
 
-  en:
+  en_GB:
     name: 'Tests'
     link: 'en/category/tests'
 
 
 contributors:
-  fr:
+  fr_FR:
     name: 'Contributeurs'
     link: 'fr/authors'
-  en:
+  en_GB:
     name: 'Contributors'
     link: 'en/authors'
