@@ -27,7 +27,8 @@ jobs:
           sudo apt update
           sudo apt upgrade
           sudo apt dist-upgrade
-          sudo apt install libvips libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools imagemagick gvfs poppler-utils ghostscript -y          node -v
+          sudo apt install libvips libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools libvips-dev imagemagick gvfs poppler-utils ghostscript -y          
+          node -v
           npm -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
