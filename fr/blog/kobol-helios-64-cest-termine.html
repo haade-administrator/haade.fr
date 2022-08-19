@@ -79,7 +79,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1660929726178686358" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1660945330640869182" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -400,23 +400,23 @@ layout: compress
 <!-- Author Box -->
 
 
-<div class="authorbox mb-5 mt-5 pt-4 pb-4">
+<div class="authorbox mb-5 mt-5 pt-4 pb-4" itemscope itemtype="https://schema.org/Person">
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
             
-            <img  class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico">
+            <img  class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="70" height="70" alt="Nico" itemprop="image">
             
             <p class="mt-4 mb-0 small text-center">
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr"><i class="fa fa-link"></i></a>
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href=""><i class="fab fa-twitter"></i></a>
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a>
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a>
-                <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.haade.fr" itemprop="url"><i class="fa fa-link"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="" itemprop="sameAs"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w" itemprop="sameAs"><i class="fab fa-youtube"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644" itemprop="sameAs"><i class="fab fa-discord"></i></a>
+                <a class="d-inline-block mx-1 text-dark" href="mailto:nico@haade.fr" itemprop="email"><i class="fa fa-envelope"></i></a>
             </p>
         </div>
         <div class="col-md-9">
-            <h4>Nico</h4>
-            <p class="mt-3 mb-0">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p>
+            <h4 itemprop="name">Nico</h4>
+            <p class="mt-3 mb-0" itemprop="description">Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.</p>
         </div>
     </div>
 </div>
@@ -430,7 +430,7 @@ layout: compress
 
 <div class="comments mt-5">
     <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button>
-    <div id="comments">
+    <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">commentaires</h4>
         
         
@@ -441,7 +441,7 @@ layout: compress
           data-repo-id=R_kgDOHHK8ZA
           data-category=Comments
           data-category-id=DIC_kwDOHHK8ZM4COugG
-          data-mapping=pathname
+          data-mapping=title
           data-reactions-enabled=1
           data-emit-metadata=0
           data-theme=light
