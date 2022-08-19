@@ -11,8 +11,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Aug 2022 21:12:18 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 19 Aug 2022 08:04:33 +0000</pubDate>
+    <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
     <item>
@@ -26,8 +26,8 @@
 </description>
       
       <pubDate>Tue, 05 Oct 2021 14:40:45 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/box-domotique-rail-din</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/box-domotique-rail-din</guid>
+      <link>https://haade-administrator.github.io/en/blog/box-domotical-box-din-rail</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/box-domotical-box-din-rail</guid>
       
       
       <category>Home Assistant</category>
@@ -72,8 +72,8 @@
 </description>
       
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-et-machinelearning</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-et-machinelearning</guid>
+      <link>https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-and-machinelearning</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/zoneminder-home-assistant-and-machinelearning</guid>
       
       
       <category>Security</category>
@@ -93,8 +93,8 @@
 </description>
       
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</guid>
+      <link>https://haade-administrator.github.io/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</guid>
       
       
       <category>Tests</category>
@@ -112,8 +112,8 @@
 </description>
       
       <pubDate>Wed, 15 Sep 2021 07:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</guid>
+      <link>https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</guid>
       
       
       <category>Home Assistant</category>
@@ -133,8 +133,8 @@
 </description>
       
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
+      <link>https://haade-administrator.github.io/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02</guid>
       
       <category>Test</category>
       
@@ -158,8 +158,8 @@
 </description>
       
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/z-wave-face-a-matter</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/z-wave-face-a-matter</guid>
+      <link>https://haade-administrator.github.io/en/blog/z-wave-vs-matter</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/z-wave-vs-matter</guid>
       
       
       <category>News</category>
@@ -179,8 +179,8 @@
 </description>
       
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</guid>
+      <link>https://haade-administrator.github.io/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</guid>
       
       
       <category>News</category>
@@ -198,8 +198,8 @@
 </description>
       
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/kobol-helios-64-cest-termine</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/kobol-helios-64-cest-termine</guid>
+      <link>https://haade-administrator.github.io/en/blog/kobol-helios-64-its-over</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/kobol-helios-64-its-over</guid>
       
       
       <category>News</category>
@@ -217,8 +217,8 @@
 </description>
       
       <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/test-et-install-thermostat-zigbee-moes-bht-002</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-et-install-thermostat-zigbee-moes-bht-002</guid>
+      <link>https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</guid>
       
       
       <category>Home Assistant</category>

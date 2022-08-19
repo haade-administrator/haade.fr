@@ -3,7 +3,7 @@ layout: compress
 --- -->
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
 
 <meta charset="utf-8">
@@ -13,35 +13,84 @@ layout: compress
 
 <title>Intégrer son compteur électrique ( téléinfo ) dans Home Assistant - Haade</title>
 
+<!-- begin _includes/seo.html -->
+<title>Intégrer son compteur électrique ( téléinfo ) dans Home Assistant - Haade.fr</title>
+<meta name="description" content="téléinformation dans homeassistant comment intégrer son compteur edf">
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant">
 
-    <link rel="alternate" hreflang="en" href="/haade.fr/en/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant" />
+  <link rel="alternate" hreflang="en-GB" href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant" />
 
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Intégrer son compteur électrique ( téléinfo ) dans Home Assistant | Haade Alsace domotique</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Intégrer son compteur électrique ( téléinfo ) dans Home Assistant" />
-<meta name="author" content="Mathieu" />
-<meta property="og:locale" content="fr" />
-<meta name="description" content="téléinformation dans homeassistant comment intégrer son compteur edf" />
-<meta property="og:description" content="téléinformation dans homeassistant comment intégrer son compteur edf" />
-<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant" />
-<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant" />
-<meta property="og:site_name" content="Haade Alsace domotique" />
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-08-03T00:00:00+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant" />
-<meta property="twitter:title" content="Intégrer son compteur électrique ( téléinfo ) dans Home Assistant" />
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+<meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Intégrer son compteur électrique ( téléinfo ) dans Home Assistant">
+<meta property="og:description" content="téléinformation dans homeassistant comment intégrer son compteur edf">
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant">
+<meta property="og:site_name" content="Haade.fr">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant-944.webp">
+<meta name="author" content="Math67">
+<meta property="article:author" content="Math67">
+<meta property="article:published_time" content="2021-08-03T00:00:00+00:00">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Mathieu","url":"https://haade-administrator.github.io/haade.fr/author-math67"},"dateModified":"2021-08-03T00:00:00+00:00","datePublished":"2021-08-03T00:00:00+00:00","description":"téléinformation dans homeassistant comment intégrer son compteur edf","headline":"Intégrer son compteur électrique ( téléinfo ) dans Home Assistant","image":"https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Mathieu"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"}</script>
-<!-- End Jekyll SEO tag -->
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "url": "https://haade-administrator.github.io/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant",
+  "name": "Intégrer son compteur électrique ( téléinfo ) dans Home Assistant",
+  "headline": "Intégrer son compteur électrique ( téléinfo ) dans Home Assistant",
+  "keywords": "",
+  "description": "téléinformation dans homeassistant comment intégrer son compteur edf",
+  "articleBody": "Pour mon premier article sur le blog, je vous propose de voir ensemble comment intégrer les informations de votre compteur électrique ( téléinfo ) dans Home Assistant pour environ 14€. Ce tuto est valable pour les anciens compteurs électroniques ainsi que pour les nouveaux compteurs communicants “Linky”. Pour récupérer les informations nous allons passer par une fonctionnalité utilisée par les fournisseurs d’énergie : la Télé-information.\n\nPrérequis :\n\n\n  Home assistant installé avec ESPHome à jour\n  Un module ESP8266 du type Wemos D1 mini et son alimentation\n  Un module PiTInfo\n\n\nProgrammation ESPHome\n\nUn article est dédié à la programmation d’un ESP8266 ou 32 n’hésitez pas à le consulter en cliquant sur le lien\n\nLe compteur électrique étant généralement distant de votre installation domotique je vous conseille de programmer et flasher d’abord votre ESP8266.\n\nRécapitulatif des étapes d’intégrations à ESPhome:\n\n\n  Pour commencer, rendez-vous dans ESPHome vous devez créer une nouvelle configuration en cliquant sur le bouton “+” vert situé en bas à droite de l’écran.\n  Ensuite remplissez les différents champs avec le nom du device, le nom de votre réseau wifi (2.4 Ghz impérativement) ainsi que le mot de passe associé.\n  la plateforme est bien-entendu ESP8266, pour un wemos d1 mini la board est d1_mini\n  Cliquez sur le bouton “Next” et branchez votre Wemos D1 mini en USB sur votre PC, puis cliquez sur “Connect” et choisissez le port COM correspondant à votre Wemos.\n\n\nLe flash peut durer quelques minutes, laissez la page ouverte en attendant la fin de l’opération.\n\nAprès cette opération votre nouvelle configuration apparaîtra sur le Dashboard d’ESPHome, cliquez sur “EDIT”, nous allons compléter le fichier de configuration avec les éléments nécessaire à la remontée des informations du compteur.\n\nEn dessous de “logger” ajoutez les lignes 27 à 29 :\n\n\n\n400: Invalid request\n\n\nEnfin, en dessous de la ligne “captive_portal” ajoutez le reste du code :\n\n\n  Pour les abonnements Heures Pleines / Heures Creuses :\n\n\n400: Invalid request\n\n\n\n  Pour les abonnements au tarif de Base :\n\n\n400: Invalid request\n\n\nVous pouvez maintenant téléverser le fichier en cliquant sur “INSTALL”.\n\nVoilà pour la partie programmation, passons maintenant au branchement du montage.\n\nBranchement au compteur\n\n\n\nVous allez devoir travailler au voisinage d’une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l’alimentation électrique.\n\nNous allons dans cette partie voir comment brancher notre montage, voici le schéma de câblage :\n\n\n\nSchéma de branchement\n\n\n  Rx du Wemos sur TXD du PiTInfo\n  G du Wemos sur GND du PiTInfo\n  3v3 du Wemos sur VCC du PiTInfo\n  Les deux bornes d’entrées du PiTInfo doivent être raccordées sur I1 et I2 sous le compteur (Ces bornes sont protégées par un cache), il n’y a pas de polarité de ce coté du montage\n\n\nCompteur Linky : Pour que les infos remontent à Home Assistant le compteur doit être en mode “Historique”. Vous pouvez vérifier cette information en appuyant sur les touches “+” ou “-“.\n\nMaintenant que le montage est réalisé, il ne reste plus qu’à mettre sous tension le Wemos et retourner sur HA pour configurer la carte Lovelace.\n\nLovelace\n\nDe retour dans Home Assistant rendez-vous dans “Intégrations”. Normalement votre nouveau Wemos devrait être reconnu par HA et vous être proposé à la configuration. Si ce n’est pas le cas, il vous faudra l’ajouter manuellement en cliquant sur “Ajouter l’intégration” en bas à droite. Puis chercher ESPHome dans la liste et enfin rentrer l’adresse IP du module.\n\n\n\nCarte des entités du compteur électrique\n\nAinsi vous obtenez cette carte que vous pouvez ajouter directement à Lovelace ou créer une carte personnalisée.\n\nVoilà c’est maintenant terminé, vous avez toutes les informations de votre compteur qui arrivent sur votre HA. Libre à vous maintenant de gérer ces données, de créer des graphiques, des automatisations… !\n\nEDIT : Suite à un conflit dans Home Assistant au niveau de la configuration pour le tarif “Base”, il est nécessaire de modifier la ligne id: index par id: “index_base” dans le code ESPHome :\n\n  - platform: teleinfo\n    tag_name: \"BASE\"\n    name: \"Index\"\n    unit_of_measurement: \"Wh\"\n    icon: mdi:gauge\n    id: \"index_base\" # &lt;- Ligne à modifier\n\n",
+  "datePublished": "2021-08-03 00:00:00 +0000",
+  "dateModified": "2021-08-03 00:00:00 +0000",
+  "inLanguage": "fr_FR",
+  "author": {
+    "@type": "Person", 
+    "name": "Math67",
+    "alternateName": "Math67",
+    "description": "Écrivez une courte description de l'auteur ici. Vous prévisualisez actuellement la démo Memoirs, un template Jekyll compatible avec les pages Github.",
+    "url": "https://haade-administrator.github.io/haade.fr/author-math67", 
+    "image": "https://haade-administrator.github.io/haade.fr/assets/images/math67.webp", 
+    "email": "fogel.mathieu@gmail.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Haade.fr",
+    "url": "https://haade-administrator.github.io/haade.fr",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 300,
+      "height": 76,
+      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": 300,
+    "height": 76,
+    "url": "https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant-944.webp"
+  }
+}
+</script>
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1660684338364765468" media="screen, projection, print" rel="stylesheet">
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1660896273147369358" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -103,7 +152,7 @@ layout: compress
       <ul class="show-flags">
         
         <li class="current"><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li><a href="/haade.fr/en/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -189,7 +238,7 @@ layout: compress
       <ul class="show-flags">
         
         <li class="current"><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li><a href="/haade.fr/en/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -214,7 +263,7 @@ layout: compress
 </div>
 
 
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=3ce9aba4428aede5364ff35b22a77704"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=6ea6e0cf9d80b99c985d704aa6fbc9d9"></script>
 
 
     </div>
@@ -249,11 +298,11 @@ layout: compress
     <div class="d-flex align-items-center mt-4">
         <div>
             
-            <a href="/haade.fr/author-mathieu"><img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="50" height="50" alt="Math67"></a>
+            <a href="/haade.fr/author-math67"><img class="author-thumb" src="/haade.fr/assets/images/math67.webp" width="50" height="50" alt="Math67"></a>
             
         </div>
         <div>
-        Rédigé par <a href="/haade.fr/author-mathieu"><b>Math67</b></a> le
+        Rédigé par <a href="/haade.fr/author-math67"><b>Math67</b></a> le
         <span class="post-date"><time class="post-date" datetime="03-08-2021">
 
      3
@@ -544,7 +593,7 @@ layout: compress
                 
                 </span>
                 <span class="author-meta">
-                <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a>
+                <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
                 
                 <span class="post-date">
 

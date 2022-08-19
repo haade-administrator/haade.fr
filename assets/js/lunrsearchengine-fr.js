@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant",
     "title": "La téléinfo dans le dashboard Energie de Home Assistant",
-    "description": "03/01/2022 - La téléinfo dans le dashboard Energie de Home Assistant",
+    "description": "03/01/2022 - Teleinfo Home Assistant : Intégrer les informations du compteurs électrique dans le dashboard Energie dans HA",
     "tags": "téléinformation"
     
     }, {
@@ -120,7 +120,7 @@ var documents = [{
     
     }, {
     "id": 17,
-    "url": "/haade.fr/fr/blog/domotiser-sa-porte-de-garage-pour-5e",
+    "url": "/haade.fr/fr/blog/domotiser-sa-porte-de-garage-pour-5",
     "title": "Domotiser sa porte de garage pour 5€",
     "description": "19/05/2021 - une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266",
     "tags": "esp8266"

@@ -3,7 +3,7 @@ layout: compress
 --- -->
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
 
 <meta charset="utf-8">
@@ -13,34 +13,83 @@ layout: compress
 
 <title>Intégrations Esphome et Homeassistant - Haade</title>
 
+<!-- begin _includes/seo.html -->
+<title>Intégrations Esphome et Homeassistant - Haade.fr</title>
+<meta name="description" content="Découverte d’esphome dans homeassistant">
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant">
 
-    <link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/esphome-et-homeassistant" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/fr/blog/esphome-et-homeassistant" />
 
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Intégrations Esphome et Homeassistant | Haade Alsace domotique</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Intégrations Esphome et Homeassistant" />
-<meta name="author" content="Nico" />
-<meta property="og:locale" content="fr" />
-<meta name="description" content="Découverte d’esphome dans homeassistant" />
-<meta property="og:description" content="Découverte d’esphome dans homeassistant" />
-<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant" />
-<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant" />
-<meta property="og:site_name" content="Haade Alsace domotique" />
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-05-11T14:28:47+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant" />
-<meta property="twitter:title" content="Intégrations Esphome et Homeassistant" />
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+<meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Intégrations Esphome et Homeassistant">
+<meta property="og:description" content="Découverte d’esphome dans homeassistant">
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant">
+<meta property="og:site_name" content="Haade.fr">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant-944.webp">
+<meta name="author" content="Nico">
+<meta property="article:author" content="Nico">
+<meta property="article:published_time" content="2021-05-11T14:28:47+00:00">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2021-05-11T14:28:47+00:00","datePublished":"2021-05-11T14:28:47+00:00","description":"Découverte d’esphome dans homeassistant","headline":"Intégrations Esphome et Homeassistant","image":"https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant"}</script>
-<!-- End Jekyll SEO tag -->
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "url": "https://haade-administrator.github.io/fr/blog/esphome-et-homeassistant",
+  "name": "Intégrations Esphome et Homeassistant",
+  "headline": "Intégrations Esphome et Homeassistant",
+  "keywords": "",
+  "description": "Découverte d'esphome dans homeassistant",
+  "articleBody": "ESPHome est un système d’injection de programme afin de contrôler vos modules wifi ESP8266 / ESP32 par des fichiers de configuration simples mais puissants et les contrôler à distance via des systèmes domotiques tel que Homeassistant.\n\nD’ailleurs la société Nabu Casa qui détient le programme Homeassistant à acquis en Mars 2021 le programme esphome. lien de l’article concerné: acquisition esphome par homeassistant\n\nGrâce à l’intégration dans Homeassistant de esphome il est désormais très facile d’injecter un fichier dans le module wifi esp8266/esp32 et de le contrôler, la première injection se fait par usb à l’aide d’un adaptateur UART/USB FT232 disponible ici, et permettant de connecter le module via les connecteurs 3,3/5v, Gnd, Rx/Tx et Tx/Rx.\n\nInstallation:\n\n\n  Vous pouvez retrouver l’installation en Anglais sur esphome.io:\nhttps://esphome.io/guides/getting_started_hassio.html\n\n\nRien de plus simple dans homeassistant (hassio), onglet Supervisor &gt;&gt;&gt; Boutique des modules supplémentaires recherchez esphome et l’installer. Il n’y a rien à toucher dans l’onglet configuration du module, une fois installé, n’oubliez pas de sélectionner Afficher dans la barre latérale. Afin de pouvoir contrôler l’injection.\n\n\n\nUtilisation:\n\nDésormais il ne reste plus qu’à appuyer sur le petit + en bas à droite et de suivre les étapes:\n\n\n  1 – donner un nom au fichier ( en miniature et sans espace )\n  2 – bien choisir la plateforme correspondant à la puce disponible sur votre circuit imprimé\n  3 – remplissez les coordonnées de votre wifi en réseau local 2,4Ghz ( ota pas obligatoire )\n  4 – finish\n\n\n\n\ngif animé lors d’un ajout d’un module dans esphome Maintenant il faut intégrer les entrées ( relais, contacteur, optocoupleur, led, etc …. ), vous en trouvez pas mal sur le site esphome.io\n\n\n  dans les devices: esphome.io/#devices\n  dans les diy fait soi même:\n\n\n\n  Il y a de quoi s’éclater à bas prix, maintenant il ne reste plus qu’à affiner les injections en fonction des modules achetés.\n\n",
+  "datePublished": "2021-05-11 14:28:47 +0000",
+  "dateModified": "2021-05-11 14:28:47 +0000",
+  "inLanguage": "fr_FR",
+  "author": {
+    "@type": "Person", 
+    "name": "Nico",
+    "alternateName": "Nico",
+    "description": "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
+    "url": "https://haade-administrator.github.io/haade.fr/author-nico", 
+    "image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp", 
+    "email": "nico@haade.fr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Haade.fr",
+    "url": "https://haade-administrator.github.io/haade.fr",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 300,
+      "height": 76,
+      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": 300,
+    "height": 76,
+    "url": "https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant-944.webp"
+  }
+}
+</script>
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1660684338364765468" media="screen, projection, print" rel="stylesheet">
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1660896273147369358" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -213,7 +262,7 @@ layout: compress
 </div>
 
 
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=3ce9aba4428aede5364ff35b22a77704"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=6ea6e0cf9d80b99c985d704aa6fbc9d9"></script>
 
 
     </div>
@@ -483,7 +532,7 @@ layout: compress
                 
                 </span>
                 <span class="author-meta">
-                <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a>
+                <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
                 
                 <span class="post-date">
 

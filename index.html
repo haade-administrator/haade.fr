@@ -3,7 +3,7 @@ layout: compress
 --- -->
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
 
 <meta charset="utf-8">
@@ -13,36 +13,87 @@ layout: compress
 
 <title>Accueil - Haade</title>
 
+<!-- begin _includes/seo.html -->
+<title>Accueil - Haade.fr</title>
+<meta name="description" content="Home Assistance Alsace domotique et électronique.">
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/">
 
-    <link rel="alternate" hreflang="en" href="/haade.fr/en/" />
-    <link rel="alternate" hreflang="en" href="/haade.fr/en/page2/" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/page2/" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/page3/" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/page4/" />
+  <link rel="alternate" hreflang="en-GB" href="/haade.fr/en/" />
+  <link rel="alternate" hreflang="en-GB" href="/haade.fr/en/page/2/" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/page/2/" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/page/3/" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/page/4/" />
 
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Accueil | Haade Alsace domotique</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Accueil" />
-<meta property="og:locale" content="fr" />
-<meta name="description" content="Home Assistance Alsace domotique et électronique." />
-<meta property="og:description" content="Home Assistance Alsace domotique et électronique." />
-<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/" />
-<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/" />
-<meta property="og:site_name" content="Haade Alsace domotique" />
-<meta property="og:type" content="website" />
-<link rel="next" href="https://haade-administrator.github.io/haade.fr/page2/index.html" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Accueil" />
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+<link rel="next" href="https://haade-administrator.github.io/haade.fr/page/2/index.html">
+
+<meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Accueil">
+<meta property="og:description" content="Home Assistance Alsace domotique et électronique.">
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/">
+<meta property="og:site_name" content="Haade.fr">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/-944.webp">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Home Assistance Alsace domotique et électronique.","headline":"Accueil","name":"Haade Alsace domotique","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"}},"url":"https://haade-administrator.github.io/haade.fr/"}</script>
-<!-- End Jekyll SEO tag -->
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "url": "https://haade-administrator.github.io/index.html",
+  "name": "Accueil",
+  "headline": "Accueil",
+  "keywords": "",
+  "description": "",
+  "articleBody": "\n{% assign translate = site.data.locales.translate %}\n\n  \n    {{ translate.morepost[page.locale] }} ..\n    \n    {% assign posts = paginator.posts | where: 'published', true | sort: 'order' %}\n    {%- for post in posts %}\n        {% include postbox.html %}\n    {% endfor %}\n  \n  \n  \n\n\n\n\n\n\n\n\n\n    {% include pagination.html %}\n\n\n",
+  "datePublished": null,
+  "dateModified": null,
+  "inLanguage": "fr_FR",
+  "author": {
+    "@type": "Person", 
+    "name": null,
+    "alternateName": null,
+    "description": null,
+    "url": null, 
+    "image": null, 
+    "email": null
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Haade.fr",
+    "url": "https://haade-administrator.github.io/haade.fr",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 300,
+      "height": 76,
+      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haade-administrator.github.io/haade.fr/index.html"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": 300,
+    "height": 76,
+    "url": "https://haade-administrator.github.io/haade.fr/-944.webp"
+  }
+}
+</script>
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1660684338364765468" media="screen, projection, print" rel="stylesheet">
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1660896273147369358" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -215,7 +266,7 @@ layout: compress
 </div>
 
 
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=3ce9aba4428aede5364ff35b22a77704"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=6ea6e0cf9d80b99c985d704aa6fbc9d9"></script>
 
 
     </div>
@@ -252,7 +303,7 @@ layout: compress
     
     
       <a href="/haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant">
-        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-553.webp?v=1660684338); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-553.webp?v=1660896273); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
       </a>
       <div class="hero-text latest">
       
@@ -289,7 +340,7 @@ layout: compress
       
       
         <a href="/haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes">
-          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-553.webp?v=1660684338);"></div>
+          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-553.webp?v=1660896273);"></div>
         </a>
         <div class="hero-text second">
           
@@ -323,7 +374,7 @@ layout: compress
         
         
               <a href="/haade.fr/fr/blog/box-domotique-rail-din">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-272.webp?v=1660684338);"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-272.webp?v=1660896273);"></div>
           </a>
           <div class="hero-text thirdfour">
             
@@ -356,7 +407,7 @@ layout: compress
         
         
               <a href="/haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-272.webp?v=1660684338); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-272.webp?v=1660896273); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
           </a>
           <div class="hero-text thirdfour">
             
@@ -735,21 +786,21 @@ layout: compress
       </li>
     
       <li >
-          <a class="ml-1 mr-1" href="/haade.fr/page2/index.html" title="Accueil - page 2">2</a>
+          <a class="ml-1 mr-1" href="/haade.fr/page/2/index.html" title="Accueil - page 2">2</a>
       </li>
     
       <li >
-          <a class="ml-1 mr-1" href="/haade.fr/page3/index.html" title="Accueil - page 3">3</a>
+          <a class="ml-1 mr-1" href="/haade.fr/page/3/index.html" title="Accueil - page 3">3</a>
       </li>
     
       <li >
-          <a class="ml-1 mr-1" href="/haade.fr/page4/index.html" title="Accueil - page 4">4</a>
+          <a class="ml-1 mr-1" href="/haade.fr/page/4/index.html" title="Accueil - page 4">4</a>
       </li>
     
   
 
   
-    <a class="ml-1 mr-1" href="/haade.fr/page2/"> &raquo;</a>
+    <a class="ml-1 mr-1" href="/haade.fr/page/2/"> &raquo;</a>
   
 </div>
 

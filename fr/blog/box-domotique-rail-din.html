@@ -3,7 +3,7 @@ layout: compress
 --- -->
 
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
 
 <meta charset="utf-8">
@@ -13,35 +13,84 @@ layout: compress
 
 <title>Box Domotique rail din Home-assistant et Rpi4 - Haade</title>
 
+<!-- begin _includes/seo.html -->
+<title>Box Domotique rail din Home-assistant et Rpi4 - Haade.fr</title>
+<meta name="description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant">
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din">
 
-    <link rel="alternate" hreflang="en" href="/haade.fr/en/blog/box-domotique-rail-din" />
-    <link rel="alternate" hreflang="fr" href="/haade.fr/fr/blog/box-domotique-rail-din" />
+  <link rel="alternate" hreflang="en-GB" href="/haade.fr/en/blog/box-domotical-box-din-rail" />
+  <link rel="alternate" hreflang="fr-FR" href="/haade.fr/fr/blog/box-domotique-rail-din" />
 
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Box Domotique rail din Home-assistant et Rpi4 | Haade Alsace domotique</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Box Domotique rail din Home-assistant et Rpi4" />
-<meta name="author" content="Nico" />
-<meta property="og:locale" content="fr" />
-<meta name="description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" />
-<meta property="og:description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant" />
-<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" />
-<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din" />
-<meta property="og:site_name" content="Haade Alsace domotique" />
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" />
-<meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-10-05T00:00:00+00:00" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant" />
-<meta property="twitter:title" content="Box Domotique rail din Home-assistant et Rpi4" />
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+<meta property="og:locale" content="fr_FR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Box Domotique rail din Home-assistant et Rpi4">
+<meta property="og:description" content="Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant">
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din">
+<meta property="og:site_name" content="Haade.fr">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant-944.webp">
+<meta name="author" content="Nico">
+<meta property="article:author" content="Nico">
+<meta property="article:published_time" content="2021-10-05T00:00:00+00:00">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Nico","url":"https://haade-administrator.github.io/haade.fr/author-nico"},"dateModified":"2021-10-05T00:00:00+00:00","datePublished":"2021-10-05T00:00:00+00:00","description":"Création et montage d’une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant","headline":"Box Domotique rail din Home-assistant et Rpi4","image":"https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant","mainEntityOfPage":{"@type":"WebPage","@id":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"},"name":"Nico"},"url":"https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"}</script>
-<!-- End Jekyll SEO tag -->
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "url": "https://haade-administrator.github.io/fr/blog/box-domotique-rail-din",
+  "name": "Box Domotique rail din Home-assistant et Rpi4",
+  "headline": "Box Domotique rail din Home-assistant et Rpi4",
+  "keywords": "Test,Raspberry,Homeassistant",
+  "description": "Création et montage d'une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant",
+  "articleBody": "Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.\n\nPrérequis Matériel\n\nPour ma part l’installation du système est monté sur une carte sd de 128Go de marque sandisk en version extrême pro, ne lésine jamais sur la qualité de la carte sd ! . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, la version 2Gb sous home-assistant peut vite devenir limite, mais le processeur du PI4 a tendance à chauffer. Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l’achat d’une carte complémentaire Waveshare type C en POE+\n\nPourquoi cette carte Waveshare poe+ type C, par rapport aux cartes officielles raspberry pi\n\n\n\n\n  Elle est compatible avec les derniers standards POE+\n  les GPIO sont toujours accessibles ( si on veut rajouter un écran tft-lcd de 2.2 pouces, c’est mieux )\n  Elle dispose d’une sortie USB supplémentaire de type A en 3.0\n  Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.\n  Elle possède un petit ventilateur pour refroidir le processeur du Raspberry\n  Possibilité de contrôler le ventilateur embarqué\n\n\nPour être sûre de ne pas rencontrer de surchauffe j’ai acheté des dissipateurs de 5mm en cuivre, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.\n\nLa température\n\n\n  Boitier rail din ouvert 28°C\n  Boitier fermé 38°C\n  Tableau électrique fermé et remonté 42°C\n\n\nAucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j’arrive à tenir 42°C avec des pics à 48°C, maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.\n\n\n\nCi-dessus: La mise en place des dissipateurs de 5mm d’épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.\n\n\n\nCi-dessus: L’intégration dans le tableau électrique sur rail din se fait sans soucis, l’alimentation par poe+ est un point positif à l’intégration.\n\nCi-dessous: grâce à Home-Assistant et à l’intégration systemmonitor on peut contrôler l’état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l’intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc… ), l’ajout d’un écran tft/lcd de 2,2” s’intègre parfaitement au boitier ou l’on pourrait faire du monitoring voir la présentation de l’intégration Jeedom. Mais d’après un retour d’expérience l’ajout d’un tel écran fait augmenter la température de presque 10°C. Peut être que j’effectuerai un upgrade mais pour l’instant je ne trouve pas ça indispensable.\n\n\n\nEn conclusion\n\nDésormais l’installation domotique sous home assistant fait partie intégrante du domicile, c’est plus waf et pour moi plus logique, le fait de l’intégrer au tableau est indéniablement une place de choix en positionnant le contrôleur domotique au centre du réseau électrique de l’habitat pour un coût total d’environ 120€.\n",
+  "datePublished": "2021-10-05 00:00:00 +0000",
+  "dateModified": "2021-10-05 00:00:00 +0000",
+  "inLanguage": "fr_FR",
+  "author": {
+    "@type": "Person", 
+    "name": "Nico",
+    "alternateName": "Nico",
+    "description": "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
+    "url": "https://haade-administrator.github.io/haade.fr/author-nico", 
+    "image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp", 
+    "email": "nico@haade.fr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Haade.fr",
+    "url": "https://haade-administrator.github.io/haade.fr",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 300,
+      "height": 76,
+      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": 300,
+    "height": 76,
+    "url": "https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant-944.webp"
+  }
+}
+</script>
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1660684338364765468" media="screen, projection, print" rel="stylesheet">
+<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/haade.fr/assets/css/theme.css?v=1660896273147369358" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -103,7 +152,7 @@ layout: compress
       <ul class="show-flags">
         
         <li class="current"><a href="/haade.fr/fr/blog/box-domotique-rail-din"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li><a href="/haade.fr/en/blog/box-domotique-rail-din"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/en/blog/box-domotical-box-din-rail"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -189,7 +238,7 @@ layout: compress
       <ul class="show-flags">
         
         <li class="current"><a href="/haade.fr/fr/blog/box-domotique-rail-din"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li><a href="/haade.fr/en/blog/box-domotique-rail-din"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/en/blog/box-domotical-box-din-rail"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -214,7 +263,7 @@ layout: compress
 </div>
 
 
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=3ce9aba4428aede5364ff35b22a77704"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=6ea6e0cf9d80b99c985d704aa6fbc9d9"></script>
 
 
     </div>
@@ -490,7 +539,7 @@ layout: compress
                 
                 </span>
                 <span class="author-meta">
-                <a href="/haade.fr/author-mathieu"><span class="post-name font-weight-bold">Math67</span></a>
+                <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
                 
                 <span class="post-date">
 
