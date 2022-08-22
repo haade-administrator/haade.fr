@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in jekyll-imagemagick.gemspec
+# to avoid duplication
+gemspec

@@ -164,7 +164,7 @@ object_detection_pattern=(person)
 use_sequence= yes # Important pour la prise en charge du nouveau système
 ```
 
-afin de pouvoir utiliser la capture d'images par personne il faut crée un dossier s'il n'existe pas dans ... nommé known\_faces et intégrer à l'intérieur un sous dossier nommé nicolas ensuite intégrer des photos de vous qui serons nommé 1-820.webp{{ cachebuster }}, 2-820.webp{{ cachebuster }}, etc. lien direct de l'architecture [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
+afin de pouvoir utiliser la capture d'images par personne il faut crée un dossier s'il n'existe pas dans ... nommé known\_faces et intégrer à l'intérieur un sous dossier nommé nicolas ensuite intégrer des photos de vous qui serons nommé 1-820.webp{{ cachebuster }}, 2-820.webp{{ cachebuster }}, etc. lien direct de l'architecture [zmeventnotification known-faces](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
 
 Une fois toutes les images insérées ou dès que tu ajoutes une nouvelle image, il faudra générer le train\_face, donc rentrons dans le docker zoneminder:
 

@@ -1,0 +1,33 @@
+{
+  "name": "haade.fr",
+  "private": true,
+  "version": "1.0.2",
+  "description": "official theme of Haade.fr",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/haade-administrator/haade.fr.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Nicolas Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haade-administrator/haade.fr/issues"
+  },
+  "homepage": "https://haade-administrator.github.io/haade.fr",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "onchange": "^7.1.0",
+    "uglify-js": "^3.13.6"
+  },
+  "scripts": {
+    "uglify": "uglifyjs _drafts/assets/js/flag.js _drafts/assets/js/lazyload.js _drafts/assets/js/lunr.js _drafts/assets/js/navbar.js _drafts/assets/js/prism.js _drafts/assets/js/script.js _drafts/assets/js/theme.js -c -m -o assets/js/test.min.js",
+    "add-banner": "node banner.js",
+    "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npm run uglify && npm run add-banner"
+  }
+}

@@ -229,6 +229,12 @@ imagemagick:
      # jpg: "-quality 85%"
     webp: "-quality 85%"
 
+picture:
+  source: "assets/images/../"
+  output: "assets/images/generated"
+  suppress_warnings: true
+  relative_url: true
+
 
 exclude:
   - changelog.md
