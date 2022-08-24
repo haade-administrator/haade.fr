@@ -13,6 +13,7 @@ layout: compress
 
 <title>Home - Haade</title>
 
+
 <!-- begin _includes/seo.html -->
 <title>Home - Haade.fr</title>
 <meta name="description" content="Home Assistance Alsace domotique et électronique.">
@@ -27,27 +28,25 @@ layout: compress
 <meta property="og:url" content="https://haade-administrator.github.io/haade.fr/en/">
 <meta property="og:site_name" content="Haade.fr">
 <meta property="og:image" content="https://haade-administrator.github.io/haade.fr/-944.webp">
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@graph": [{
+  "@type": "CollectionPage",
   "url": "https://haade-administrator.github.io/en/index.html",
   "name": "Home",
-  "headline": "Home",
-  "keywords": "",
-  "description": "",
-  "articleBody": "\n\n{% assign translate = site.data.locales.translate %}\n\n  \n    {{ translate.morepost[page.locale] }} ..\n    \n{%- assign posts = paginator.posts | where: 'locale', page.locale %}\n{%- for post in posts %}\n        {% include postbox.html %}\n    {% endfor %}\n  \n  \n  \n\n\n\n\n\n\n\n\n\n    {% include pagination.html %}\n\n\n",
-  "datePublished": null,
-  "dateModified": null,
+  "about": "https://haade-administrator.github.io/haade.fr/en/legal-notice",
+  "description": "Home Assistance Alsace home automation & electronics.",
+  "@type": "BreadcrumbList",
+  "url": "https://haade-administrator.github.io",
   "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person",
-    "name": null,
-    "alternateName": null,
-    "description": null,
-    "url": null,"image": null,
-    "email": null
+  "itemListElement":
+  [{"@type":"ListItem",
+  "position":1,
+  "name":"Accueil"}]
   },
+
   "publisher": {
     "@type": "Organization",
     "name": "Haade.fr",
@@ -69,14 +68,17 @@ layout: compress
     "height": 76,
     "url": "https://haade-administrator.github.io/haade.fr/-944.webp"
   }
+]
 }
 </script>
+
+
 
 <meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661240394408305300" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1661372166693651057" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -286,7 +288,7 @@ layout: compress
     
     
       <a href="/haade.fr/en/blog/box-domotical-box-din-rail">
-        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-553.webp?v=1661240394); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-553.webp?v=1661372166); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
       </a>
       <div class="hero-text latest">
       
@@ -321,7 +323,7 @@ layout: compress
       
       
         <a href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">
-          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-553.webp?v=1661240394);"></div>
+          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-553.webp?v=1661372166);"></div>
         </a>
         <div class="hero-text second">
           
@@ -353,7 +355,7 @@ layout: compress
         
         
               <a href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-272.webp?v=1661240394);"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-272.webp?v=1661372166);"></div>
           </a>
           <div class="hero-text thirdfour">
             
@@ -384,7 +386,7 @@ layout: compress
         
         
               <a href="/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-272.webp?v=1661240394); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-272.webp?v=1661372166); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
           </a>
           <div class="hero-text thirdfour">
             
@@ -766,6 +768,8 @@ layout: compress
 </div>
 
 
+
+
 <footer>
    <div class="footcontent">
      <div class="footleft footbox">
@@ -785,6 +789,7 @@ layout: compress
      </div>
      <div class="footmiddle footbox">
        <div class="foottopic">Useful links</div>
+       <div><a href="/haade.fr/en/legal-notice">Legal notice</a></div>
        <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
        <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
        <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
