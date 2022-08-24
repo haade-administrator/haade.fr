@@ -1,3 +1,5 @@
+# megamenu
+
 home:
   fr_FR:
     name: 'Accueil'
@@ -86,3 +88,13 @@ contributors:
   en_GB:
     name: 'Contributors'
     link: 'en/authors'
+
+# footer menu
+
+legalnotice:
+  fr_FR:
+    name: 'Mentions legales'
+    link: 'fr/mentions-legales'
+  en_GB:
+    name: 'Legal notice'
+    link: 'en/legal-notice'

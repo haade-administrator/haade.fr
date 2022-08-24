@@ -1,3 +1,6 @@
+{% assign translate = site.data.locales.translate %}
+{% assign menu = site.data.locales.menu %}
+
 {%- if site.url -%}
   {%- assign seo_url = site.url | append: site.baseurl -%}
 {%- endif -%}
@@ -104,6 +107,50 @@
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
 {%- endif %}
 {% endif %}
+{% if page.url == '/index.html' or page.url == '/en/index.html' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [{
+  "@type": "CollectionPage",
+  "url": "{{ site.url }}{{ page.url }}",
+  "name": {{ page.title | jsonify }},
+  "about": {{ menu.legalnotice[page.locale].link | absolute_url | jsonify }},
+  "description": {{ translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
+  "@type": "BreadcrumbList",
+  "url": "{{ site.url | absolute_url }}",
+  "inLanguage": "{{ page.locale | replace "_", "-" }}",
+  "itemListElement":
+  [{"@type":"ListItem",
+  "position":1,
+  "name":"Accueil"}]
+  },
+
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url | append: site.baseurl | absolute_url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "width": 300,
+      "height": 76,
+      "url": "{{ site.logo.path | absolute_url }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": {{ page.image_width | default: site.logo.width }},
+    "height": {{ page.image_height | default: site.logo.height }},
+    "url": "{{ page.image | append: '-944.webp' | default: site.logo.path | absolute_url }}"
+  }
+]
+}
+</script>
+{% else %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -154,6 +201,8 @@
   }
 }
 </script>
+{% endif %}
+
 
 {% if site.google_site_verification -%}
 <meta name="google-site-verification" content="{{ site.google_site_verification }}" />

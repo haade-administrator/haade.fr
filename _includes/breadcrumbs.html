@@ -1,11 +1,35 @@
-<div id="breadcrumbs">
-{% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-<a href="/">{{ translate.home[page.locale] }}</a>
-{% for crumb in crumbs offset: 1 %}
-  {% if forloop.last %}
-    / {{ page.title }}
-  {% else %}
-    / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
-  {% endif %}
+{% assign translate = site.data.locales.translate %}
+{% assign categories = include.path | split:"/" %}
+{% assign filename_without_extension = categories | last | split:"." | first %}
+{% if categories contains "_posts" or filename_without_extension == "index" %}
+{% assign categories = categories | pop %}
+{% endif %}
+{% assign route="" %}
+<nav class="ariane">
+<ol class="arianefil" itemscope itemtype="https://schema.org/BreadcrumbList">
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a itemprop="item" href="{{ '/' | absolute_url }}"><span itemprop="name">{{ translate.home[page.locale] }}</span></a><meta itemprop="position" content="1"></li>
+{% for category in page.categories %}
+<li><span class="prompt">&nbsp; > &nbsp;</span></li>
+{% assign route = route | append: '/' | append: category %}
+{% if forloop.last %}
+{% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
+{% else %}
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="2"></li>
+{% endif %}
 {% endfor %}
-</div>
+
+{% if page.layout == 'page' or page.layout == 'firstheader' %}
+{% assign crumbs = page.url | split: '/' %}
+{% assign crumbstotal = crumbs | size %}
+{% for crumb in crumbs offset:2 %}
+{% unless crumb == 'index.html' %}
+<li><span class="prompt">&nbsp; > &nbsp;</span> </li>
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope
+itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | remove: '.html' }}</span><meta itemprop="position" content="1"> </li>
+{% endunless %}
+{% endfor %}
+{% endif %}
+</ol>
+</nav>

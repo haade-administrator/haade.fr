@@ -753,6 +753,24 @@ a {
   }
 }
 
+/* Breadcrumbs */
+.breadcrumb-item, .prompt {
+  font-size: 10px;
+}
+ol.arianefil {
+display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    background-color: transparent;
+  }
+ nav .ariane {
+  margin: 0px 0px;
+  max-width: 860px;
+}
+.arianefil {
+  font-size: 10px;
+}
+
 /* footer */
 
 footer {

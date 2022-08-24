@@ -6,6 +6,10 @@ site:
     fr_FR: Home Assistance Alsace domotique & électronique.
     en_GB: Home Assistance Alsace home automation & electronics.
 
+home:
+  fr_FR: Accueil
+  en_GB: Home
+
 lang:
   fr_FR: langue
   en_GB: language

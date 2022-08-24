@@ -14,6 +14,9 @@ post_class: post-template
 {% assign translate = site.data.locales.translate %}
 
 <div class="entry-header">
+  <!-- breadcrumbs -->
+  {% include breadcrumbs.html path=page.path title=page.title %}
+
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
     <!-- Author & Date  Box -->

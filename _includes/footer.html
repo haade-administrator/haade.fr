@@ -1,4 +1,6 @@
 {% assign translate = site.data.locales.translate %}
+{% assign menu = site.data.locales.menu %}
+
 <footer>
    <div class="footcontent">
      <div class="footleft footbox">
@@ -18,6 +20,7 @@
      </div>
      <div class="footmiddle footbox">
        <div class="foottopic">{{ translate.footer.linku[page.locale] }}</div>
+       <div><a href="{{ site.baseurl }}/{{ menu.legalnotice[page.locale].link }}">{{ menu.legalnotice[page.locale].name }}</a></div>
        <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
        <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
        <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
