@@ -16,7 +16,7 @@
 {% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
 {% else %}
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
 {% endif %}
 {% endfor %}
 
@@ -27,7 +27,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{site.baseurl}}/
 {% unless crumb == 'index.html' %}
 <li><span class="prompt">&nbsp; > &nbsp;</span> </li>
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | remove: '.html' }}</span><meta itemprop="position" content="1"> </li>
+itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | remove: '.html' }}</span><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"> </li>
 {% endunless %}
 {% endfor %}
 {% endif %}
