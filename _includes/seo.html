@@ -111,7 +111,6 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@graph": [{
   "@type": "CollectionPage",
   "url": "{{ site.url }}{{ page.url }}",
   "name": {{ page.title | jsonify }},
@@ -144,9 +143,7 @@
     "width": {{ page.image_width | default: site.logo.width }},
     "height": {{ page.image_height | default: site.logo.height }},
     "url": "{{ page.image | default: site.logo.path | absolute_url }}"
-  }
-  }
-],
+  },
   {
   "@type":"WebSite",
   "@id":"{{ site.url }}{{ site.baseurl }}",
@@ -154,9 +151,8 @@
   "name": {{ site.title | jsonify }},
   "description": {{ translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
   "publisher":{"@id":"{{ site.url | append: site.baseurl | absolute_url }}/{{ page.locale | slice: 0,2 }}/authors"}
-}
-
-}
+  }
+  }
 </script>
 {% else %}
 <script type="application/ld+json">
