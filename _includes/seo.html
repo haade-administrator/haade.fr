@@ -107,7 +107,7 @@
 <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
 {%- endif %}
 {% endif %}
-{% if page.url == '/index.html' or page.url == '/en/index.html' %}
+{% if page.layout != 'post' %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

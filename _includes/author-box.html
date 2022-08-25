@@ -11,19 +11,19 @@
             {% endif %}
             <p class="mt-4 mb-0 small text-center">
               {%- if author.url %}
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.url }}" itemprop="url"><i class="fa fa-link"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="url" href="{{ author.url }}"><i class="fa fa-link"></i></a>
                 {%- endif %}
               {%- if author.twitter %}
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.twitter }}" itemprop="sameAs"><i class="fab fa-twitter"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="sameAs" href="{{ author.twitter }}"><i class="fab fa-twitter"></i></a>
                 {%- endif %}
               {%- if author.youtube %}
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.youtube }}" itemprop="sameAs"><i class="fab fa-youtube"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="sameAs" href="{{ author.youtube }}"><i class="fab fa-youtube"></i></a>
                 {%- endif %}
               {%- if author.discord %}
-                <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author.discord }}" itemprop="sameAs"><i class="fab fa-discord"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="sameAs" href="{{ author.discord }}"><i class="fab fa-discord"></i></a>
                 {%- endif %}
               {%- if author.email %}
-                <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author.email }}" itemprop="email"><i class="fa fa-envelope"></i></a>
+                <a class="d-inline-block mx-1 text-dark" itemprop="email" href="mailto:{{ author.email }}"><i class="fa fa-envelope"></i></a>
                 {%- endif %}
             </p>
         </div>

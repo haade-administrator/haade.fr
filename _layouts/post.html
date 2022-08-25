@@ -34,7 +34,7 @@ post_class: post-template
         {{ translate.writting[page.locale] }} <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> {{ translate.the[page.locale] }}
         <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{% include date.html date=page.date %}</time></span>
         {% if page.last_modified_at %}
-        {{ translate.update[page.locale] }} {{ translate.the[page.locale] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}" itemprop="dateModified">{% include date.html date=page.last_modified_at %}</time>
+        {{ translate.update[page.locale] }} {{ translate.the[page.locale] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% include date.html date=page.last_modified_at %}</time>
         {% endif %}
         <br />
         {% include read-time.html content=content %}
