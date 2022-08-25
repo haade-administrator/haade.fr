@@ -117,14 +117,20 @@
   "name": {{ page.title | jsonify }},
   "about": {{ menu.legalnotice[page.locale].link | absolute_url | jsonify }},
   "description": {{ translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
-  "inLanguage": "{{ page.locale | replace "_", "-" }}"
+  "inLanguage": "{{ page.locale | replace "_", "-" }}",
+  "author": {
+    "@type": "Organization",
+    "name": {{ site.title | jsonify }},
+    "url": "{{ site.url | append: site.baseurl | absolute_url }}",
+    "email": "administrateur@haade.fr"
+  }
   },
 
   {
   "@type":"WebSite",
-  "@id":"{{ site.url }}{{ site.baseurl }},
+  "@id":"{{ site.url }}{{ site.baseurl }}",
   "url":"{{ site.url }}{{ site.baseurl }}",
-  "name":"{{ site.title | jsonify }}",
+  "name": {{ site.title | jsonify }},
   "description": {{ translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
   "publisher":{"@id":"{{ site.url | append: site.baseurl | absolute_url }}/{{ page.locale | slice: 0,2 }}/authors"}
 },
@@ -148,7 +154,7 @@
     "@type": "ImageObject",
     "width": {{ page.image_width | default: site.logo.width }},
     "height": {{ page.image_height | default: site.logo.height }},
-    "url": "{{ page.image | append: '-944.webp' | default: site.logo.path | absolute_url }}"
+    "url": "{{ page.image | default: site.logo.path | absolute_url }}"
   }
 ]
 }
@@ -200,7 +206,7 @@
     "@type": "ImageObject",
     "width": {{ page.image_width | default: site.logo.width }},
     "height": {{ page.image_height | default: site.logo.height }},
-    "url": "{{ page.image | default: site.logo.path | absolute_url }}"
+    "url": "{{ page.image | append: '-944.webp' | default: site.logo.path | absolute_url }}"
   }
 }
 </script>
