@@ -31,24 +31,21 @@ layout: compress
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@graph": [{
+  "@type": "CollectionPage",
   "url": "https://haade-administrator.github.io/en/author-nico/",
   "name": "Nico",
-  "headline": "Nico",
-  "keywords": "",
-  "description": "",
-  "articleBody": "\n\n    \n        \n            \n                  {% if site.data.authors.Nico.url %}\n                      \n                  {% endif %}\n\n                  {% if site.data.authors.Nico.twitter %}\n                      \n                  {% endif %}\n\n                  {% if site.data.authors.Nico.youtube %}\n                      \n                  {% endif %}\n\n                  {% if site.data.authors.Nico.discord %}\n                      \n                  {% endif %}\n\n                  {% if site.data.authors.Nico.email %}\n                      \n                  {% endif %}\n                  {{ site.data.authors.Nico.description[page.locale] }}\n                  Nombre d'articles rédigés:{{ site.posts | where:\"author\",\"Nico\" | where: \"locale\", page.locale | size }}\n\n            \n            \n              {% if site.data.authors.Nico.gravatar %}\n              \n              {% else %}\n              \n              {% endif %}\n            \n        \n        Posts written by {{page.title}}\n            {% assign posts = site.posts | where:\"author\",\"Nico\" | where: 'locale', page.locale %}\n            {% for post in posts %}\n            {% include main-loop-card.html %}\n            {% endfor %}\n    \n\n\n",
-  "datePublished": null,
-  "dateModified": null,
+  "about": "https://haade-administrator.github.io/haade.fr/en/legal-notice",
+  "description": "Home Assistance Alsace home automation & electronics.",
+  "@type": "BreadcrumbList",
+  "url": "https://haade-administrator.github.io",
   "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person",
-    "name": null,
-    "alternateName": null,
-    "description": null,
-    "url": null,"image": null,
-    "email": null
+  "itemListElement":
+  [{"@type":"ListItem",
+  "position":1,
+  "name":"Accueil"}]
   },
+
   "publisher": {
     "@type": "Organization",
     "name": "Haade.fr",
@@ -70,6 +67,7 @@ layout: compress
     "height": 76,
     "url": "https://haade-administrator.github.io/haade.fr/-944.webp"
   }
+]
 }
 </script>
 
@@ -79,7 +77,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661372166693651057" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1661427992063614811" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 

@@ -32,24 +32,21 @@ layout: compress
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@graph": [{
+  "@type": "CollectionPage",
   "url": "https://haade-administrator.github.io/en/page/2/index.html",
   "name": "Home - page 2",
-  "headline": "Home - page 2",
-  "keywords": "",
-  "description": "",
-  "articleBody": "\n\n{% assign translate = site.data.locales.translate %}\n\n  \n    {{ translate.morepost[page.locale] }} ..\n    \n{%- assign posts = paginator.posts | where: 'locale', page.locale %}\n{%- for post in posts %}\n        {% include postbox.html %}\n    {% endfor %}\n  \n  \n  \n\n\n\n\n\n\n\n\n\n    {% include pagination.html %}\n\n\n",
-  "datePublished": null,
-  "dateModified": null,
+  "about": "https://haade-administrator.github.io/haade.fr/en/legal-notice",
+  "description": "Home Assistance Alsace home automation & electronics.",
+  "@type": "BreadcrumbList",
+  "url": "https://haade-administrator.github.io",
   "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person",
-    "name": null,
-    "alternateName": null,
-    "description": null,
-    "url": null,"image": null,
-    "email": null
+  "itemListElement":
+  [{"@type":"ListItem",
+  "position":1,
+  "name":"Accueil"}]
   },
+
   "publisher": {
     "@type": "Organization",
     "name": "Haade.fr",
@@ -71,6 +68,7 @@ layout: compress
     "height": 76,
     "url": "https://haade-administrator.github.io/haade.fr/-944.webp"
   }
+]
 }
 </script>
 
@@ -80,7 +78,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661372166693651057" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1661427992063614811" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
