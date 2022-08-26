@@ -4,16 +4,42 @@ title: French Sitemap
 locale: fr_FR
 locale_reference: sitemap
 sitemap:
-  excluded: true
+  exclude: 'yes'
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
+{% if page.xsl %}
+  <?xml-stylesheet type="text/xsl" href="{{ "/sitemap.xsl" | absolute_url }}"?>
+{% endif %}
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% assign categories = site.categories %}
+      {% for category in categories %}
+              <url>
+                  <loc>{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/category/{{ category[0] | slugify }}</loc>
+                  {% if page.sitemap.lastmod %}
+                      <lastmod>{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+                  {% elsif post.date %}
+                      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+                  {% else %}
+                      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+                  {% endif %}
+                  {% if page.sitemap.changefreq %}
+                      <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+                  {% else %}
+                      <changefreq>monthly</changefreq>
+                  {% endif %}
+                  {% if page.sitemap.priority %}
+                      <priority>{{ page.sitemap.priority }}</priority>
+                  {% else %}
+                      <priority>0.5</priority>
+                  {% endif %}
+              </url>
+      {% endfor %}
+      
   {%- assign posts = site.posts | sort: 'date' | where: 'locale', 'fr_FR' | where: 'published', true %}
 
   {%- for post in posts reversed %}
-    {%- unless post.sitemap.excluded == true %}
+    {%- unless post.published == "false" %}
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}{{ post.url }}</loc>
 
@@ -46,7 +72,7 @@ sitemap:
   {%- assign pages = site.pages | where: 'locale', page.locale %}
 
   {%- for page in pages %}
-    {%- unless page.sitemap.excluded == true %}
+    {% unless page.sitemap.exclude == "yes" or page.url contains "assets" or page.name == "feed.xml" %}
     <url>
       <loc>{{ site.url }}{{ site.baseurl }}{{ page.url | remove: 'index.html' }}</loc>
 

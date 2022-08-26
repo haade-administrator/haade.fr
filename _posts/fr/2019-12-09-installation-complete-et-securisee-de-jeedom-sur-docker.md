@@ -14,6 +14,9 @@ published: true
 beforetoc:
 toc: true
 comments: true
+sitemap:
+  changefreq:
+  priority:
 ---
 
 ## 1- Installation des images et container mariadb/alpin et Adminer.
