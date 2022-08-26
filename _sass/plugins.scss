@@ -754,20 +754,28 @@ a {
 }
 
 /* Breadcrumbs */
+
+.ariane {
+z-index: 99;
+
 .breadcrumb-item, .prompt {
   font-size: 10px;
+  z-index: 99;
 }
-ol.arianefil {
+ol {
 display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    background-color: transparent;
   }
+
+li span {
+}
 
 .arianefil {
   font-size: 10px;
+}
 }
 
 /* footer */

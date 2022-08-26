@@ -226,13 +226,15 @@ imagemagick:
     - ".tiff"
   output_formats:
      # jpg: "-quality 85%"
-    webp: "-quality 85%"
+    webp: "-quality 65%"
 
 picture:
-  source: "assets/images/../"
+  disabled: true
+  source: "assets/images"
   output: "assets/images/generated"
-  suppress_warnings: true
+  suppress_warnings: false
   relative_url: true
+  ignore_missing_images: false
 
 
 exclude:
