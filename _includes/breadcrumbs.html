@@ -2,13 +2,16 @@
 {% assign categories = include.path | split:"/" %}
 {% assign filename_without_extension = categories | last | split:"." | first %}
 {% if categories contains "_posts" or filename_without_extension == "index" %}
-{% assign categories = categories | pop %}
+{% assign categories = categories | pop | %}
 {% endif %}
 {% assign route="" %}
 <nav class="ariane">
 <ol class="arianefil" itemscope itemtype="https://schema.org/BreadcrumbList">
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-<a itemprop="item" href="{{ '/' | absolute_url }}"><span itemprop="name">{{ translate.home[page.locale] }}</span></a><meta itemprop="position" content="1"></li>
+  {%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
+  {% for page in pages limit:1 %}
+<a itemprop="item" href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}"><span itemprop="name">{{ translate.home[page.locale] }}</span></a><meta itemprop="position" content="1"></li>
+{% endfor %}
 {% for category in page.categories %}
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 {% assign route = route | append: '/' | append: category %}
