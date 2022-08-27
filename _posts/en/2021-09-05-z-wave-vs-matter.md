@@ -8,6 +8,11 @@ last_modified_at:
 categories: [News, Protocoles]
 image: "zwave-face-a-matter"
 published: true
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 locale: en_GB
 ---
 ## [Z-Wave](https://z-wavealliance.org/){:target="_blank"}: [Matter](https://buildwithmatter.com/){:target="_blank"} is an opportunity for true interoperability

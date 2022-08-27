@@ -6,4 +6,9 @@ description: "Home Assistant is free and open source software for home automatio
 <br />
 Entirely written in Python Home-assistant is light and fast. The Github community brings together more than 2400 contributors, I can tell you that the evolutions are numerous, and the reactivity phenomenal. In short, in tune with the times, so enjoy!"
 locale: en_GB
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---

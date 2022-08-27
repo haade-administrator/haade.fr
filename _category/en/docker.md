@@ -9,4 +9,9 @@ Docker packs software into standardized units called containers. Which bring tog
 In conclusion, by using Docker, developers and administrators have a reliable and inexpensive way to develop. But also to deliver and run distributed applications at all scales.<br />
 This is why we use it heavily in our home automation programs."
 locale: en_GB
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---

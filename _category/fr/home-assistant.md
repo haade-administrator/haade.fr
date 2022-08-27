@@ -6,4 +6,9 @@ description: "Home Assistant est un logiciel gratuit et open source pour la domo
 <br />
 Entièrement écris en Python Home-assistant est léger et rapide. La communauté Github rassemble plus de 2400 contributeurs, je peux te dire que les évolutions sont nombreuses, et la réactivité phénoménale. Bref dans l’air du temps alors régale toi !"
 locale: fr_FR
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---

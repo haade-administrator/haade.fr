@@ -10,5 +10,8 @@ En conclusion, en utilisant Docker, les développeurs et les administrateurs dis
 C’est pourquoi nous l’utilisons fortement dans nos programmes de domotique."
 locale: fr_FR
 sitemap:
-  changefreq: daily
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---

@@ -14,8 +14,10 @@ beforetoc:
 toc: true
 comments: true
 sitemap:
-  changefreq:
-  priority:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---
 Pour commencer, l’utilisation de docker est d’une simplicité déconcertante, tellement déconcertante que l’on a tendance à ouvrir beaucoup de container à l’intérieur de notre propre système. Par exemple sur le NAS du domicile j’ai 12 containers qui tournent en même temps et tout ça n’utilise que 10% de mes ressources processeurs/mémoires. ***Alors utiliser docker c’est bien mais automatiser la mise à jour des images docker avec watchtower c’est primoridal pour la sécurité.*** C’est pourquoi j’ai installé l’image watchtower « tour de guet » en bon français.
 

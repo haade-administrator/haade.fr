@@ -10,4 +10,9 @@ La domotique ou Smarthome apporte des solutions techniques avec Jeedom et Homeas
 <br />
 Mais aussi, la sécurité (alarme) et la communication (télécommandes, etc.). Que l'on retrouve dans les habitations, les hôtels et les lieux publics, etc...."
 locale: fr_FR
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---

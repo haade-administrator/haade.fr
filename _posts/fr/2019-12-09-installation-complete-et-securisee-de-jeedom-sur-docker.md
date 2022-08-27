@@ -15,8 +15,10 @@ beforetoc:
 toc: true
 comments: true
 sitemap:
-  changefreq:
-  priority:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
 ---
 
 ## 1- Installation des images et container mariadb/alpin et Adminer.
