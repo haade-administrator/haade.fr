@@ -11,11 +11,18 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 27 Aug 2022 18:11:33 +0000</pubDate>
+    <pubDate>Sat, 27 Aug 2022 18:15:20 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>La téléinfo dans le dashboard Energie de Home Assistant</title>
       
       
@@ -41,6 +48,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Test - ZSS-ZK-THL zigbee MOES</title>
       
       
@@ -66,6 +80,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Box Domotique rail din Home-assistant et Rpi4</title>
       
       
@@ -95,6 +116,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Home-assistant Amber VS Jeedom Atlas</title>
       
       
@@ -128,6 +156,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Zoneminder, home assistant et Machinelearning</title>
       
       
@@ -155,6 +190,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Test Capteur porte zigbee 3.0 sonoff SNZB-04</title>
       
       
@@ -180,6 +222,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Astuce icone home assistant</title>
       
       
@@ -207,6 +256,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Test capteur température et humidité Sonoff SNZB-02</title>
       
       
@@ -232,6 +288,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/17/zwave-face-a-matter-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>Z-wave face à Matter</title>
       
       
@@ -255,6 +318,13 @@
     </item>
     
     <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
       <title>NAS opensource pour Raspberry pi CM4 le futur!</title>
       
       
