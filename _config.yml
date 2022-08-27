@@ -226,7 +226,7 @@ imagemagick:
     - ".tiff"
   output_formats:
      # jpg: "-quality 85%"
-    webp: "-quality 65%"
+    webp: "-quality 75%"
 
 picture:
   disabled: true
