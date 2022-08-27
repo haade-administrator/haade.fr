@@ -27,13 +27,6 @@ locale: fr_FR
     {%- assign posts = site.posts | where: 'locale', page.locale %}
     {% for post in posts limit: 10 %}
     <item>
-      <image>
-         <url>{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-944.webp</url>
-          <title>{{ site.title | xml_escape }}</title>
-           <link>{{ site.url }}{{ site.baseurl }}</link>
-            <width>944</width>
-             <height>531</height>
-           </image>
       <title>{{ post.title | xml_escape }}</title>
       {% assign author = site.data.authors[post.author] %}
       {% if post.author %}
