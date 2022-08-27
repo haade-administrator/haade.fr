@@ -6,6 +6,7 @@ sitemap:
   exclude: 'yes' #or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
+locale: fr_FR
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
@@ -23,9 +24,16 @@ sitemap:
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{% for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{% endfor %}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {%- assign posts = site.posts | where: 'locale', 'fr_FR' %}
+    {%- assign posts = site.posts | where: 'locale', page.locale %}
     {% for post in posts limit: 10 %}
     <item>
+      <image>
+         <url>{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-944.webp</url>
+          <title>{{ site.title | xml_escape }}</title>
+           <link>{{ site.url }}{{ site.baseurl }}</link>
+            <width>944</width>
+             <height>531</height>
+           </image>
       <title>{{ post.title | xml_escape }}</title>
       {% assign author = site.data.authors[post.author] %}
       {% if post.author %}
