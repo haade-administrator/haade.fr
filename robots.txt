@@ -1,0 +1,5 @@
+# Allow example to allow all crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://haade-administrator.github.io/haade.fr/sitemap.xml
