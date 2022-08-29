@@ -76,7 +76,7 @@ sitemap:
   {%- assign pages = site.pages | where: 'locale', page.locale %}
 
   {%- for page in pages %}
-    {% unless page.sitemap.exclude == "yes" or page.published == "false" or page.url contains "assets" or page.url contains "page/" or page.name == "feed.xml"  %}
+    {% unless page.sitemap.exclude == "yes" or page.published == "false" or page.url contains "assets" or page.name == "feed.xml"  %}
     <url>
       <loc>{{ page.url | remove: 'index.html' | absolute_url }}</loc>
 
