@@ -2,11 +2,11 @@
 title: "Haade.fr"
 description: "Home Assistance Alsace domotique et électronique."
 name: "Haade"
-logo: 'assets/images/logo.webp'
-  # path: 'assets/images/logo.webp'
-  # width: 300
-  # height: 76
-  # alt: Logo officien Haade
+logo: 
+  path: 'assets/images/logo.webp'
+  width: 300
+  height: 76
+  alt: Logo officien Haade
 favicon: 'assets/images/favicon.png'
 url: https://haade-administrator.github.io
 baseurl: /haade.fr
