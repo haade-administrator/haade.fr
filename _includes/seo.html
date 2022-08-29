@@ -137,13 +137,13 @@
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width": {{ page.image_width | default: site.logo.width }},
-    "height": {{ page.image_height | default: site.logo.height }},
-    "url": "{{ page.image | default: site.logo.path | absolute_url }}"
   }
+  // "image": {
+  //   "@type": "ImageObject",
+  //   "width": {{ page.image_width | default: site.logo.width }},
+  //   "height": {{ page.image_height | default: site.logo.height }},
+  //   "url": "{{ page.image | default: site.logo.path | absolute_url }}"
+  // }
 }
 
 </script>
