@@ -1,5 +1,8 @@
 # Allow example to allow all crawlers
 User-agent: *
-Allow: /
+Disallow: https://haade-administrator.github.io/haade.fr/test-et-install-grow-r503-capteur-dempreintes-digital-avec-esphome-et-homeassistant/
+Disallow: https://haade-administrator.github.io/haade.fr/esphome-et-homeassistant/
+Disallow: https://haade-administrator.github.io/haade.fr/author-nico.html
+Disallow: https://haade-administrator.github.io/haade.fr/z-wave-face-a-matter/
 
 Sitemap: https://haade-administrator.github.io/haade.fr/sitemap.xml
