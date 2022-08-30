@@ -25,14 +25,14 @@ post_class: post-template
     <div class="d-flex align-items-center mt-4">
         <div>
             {% if author.avatar %}
-            <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" width="50" height="50" alt="{{ author.display_name }}"></a>
+            <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" width="50" height="50" alt="{{ author.display_name }}"></a>
             {% else %}
-            <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+            <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
             {% endif %}
         </div>
-        <div>
-        {{ translate.writting[page.locale] }} <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> {{ translate.the[page.locale] }}
-        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{% include date.html date=page.date %}</time></span>
+        <div class="readingpost">
+        {{ translate.writting[page.locale] }} <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }},</b></a> {{ translate.the[page.locale] }}
+        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{% include date.html date=page.date %},</time></span>
         {% if page.last_modified_at %}
         {{ translate.update[page.locale] }} {{ translate.the[page.locale] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{% include date.html date=page.last_modified_at %}</time>
         {% endif %}

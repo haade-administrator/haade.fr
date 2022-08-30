@@ -333,6 +333,7 @@ img, img:hover {
 }
 .featured-image, .firstpage .blog-grid-item:nth-child(1), .firstpage .blog-grid-item:nth-child(2), .firstpage .blog-grid-item:nth-child(3) {
     animation: fade-up 0.7s ease-out forwards running;
+    border-radius: 15px;
 }
 // menu
 // .navbar-brand img {
@@ -455,6 +456,19 @@ img, img:hover {
 .d-flex {
   margin-bottom: 10px;
 }
+
+//reading post
+ .readingpost {
+//   display: flex;
+   font-size: 14px;
+   color: #666666;
+//   width: 100%;
+//   margin-left: 2px;
+//
+//   strong, span, p, b, div, time {
+//     margin-left: 2px;
+//   }
+ }
 
 // blog grid
 .blog-grid-container {
