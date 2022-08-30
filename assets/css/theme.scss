@@ -457,17 +457,21 @@ img, img:hover {
   margin-bottom: 10px;
 }
 
+// table of Content
+.toc {
+  li a {
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  li::marker {
+    font-size: 16px;
+  }
+}
+
 //reading post
  .readingpost {
-//   display: flex;
    font-size: 14px;
    color: #666666;
-//   width: 100%;
-//   margin-left: 2px;
-//
-//   strong, span, p, b, div, time {
-//     margin-left: 2px;
-//   }
  }
 
 // blog grid
