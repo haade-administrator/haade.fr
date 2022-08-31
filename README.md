@@ -13,4 +13,5 @@
 9. [layoutit](https://www.layoutit.com/)
 10. [ search.json + dark-light ](https://jamstackthemes.dev/theme/jekyll-klise/)
 [featured post](https://talk.jekyllrb.com/t/featured-post-or-popular-post/5157/2)
-11. regarder fonctionnement scraping website avec scrapy, beautifulsoup, puppeteer ou cheerio
+11. regarder fonctionnement scraping website avec scrapy, beautifulsoup, puppeteer ou cheerio (https://www.twilio.com/blog/4-outils-web-scraping-node-js)
+12. carte produit  [https://designrshub.com/2020/08/free-product-card-css.html]
