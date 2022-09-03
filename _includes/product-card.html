@@ -1,0 +1,222 @@
+  <div class="productcard">
+
+    <div class="productcard-img">
+      <div class="wrapper-thumb">
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
+        <div class="thumbnail"></div>
+      </div>
+      <img class="img-product" src="https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg">
+      <div class="frase">FAS</div>
+      <div class="circle">☄</div>
+    </div>
+
+    <div class="productcard-description">
+      <div class="wrapper">
+        <span class="stars">★★★★★</span>
+        <span class="price">$ 200.00</span>
+      </div>
+      <h1 class="title-product">Nike Air Max for Men</h1>
+      <p>Men's Running Shoes.</p>
+      <h3>Color:</h3>
+      <div class="colors-wrap">
+        <span class="colors"></span>
+        <span class="colors selected"></span>
+        <span class="colors"></span>
+        <span class="colors"></span>
+      </div>
+      <h3>Size:</h3>
+      <div class="size-wrap">
+        <span class="size">40</span>
+        <span class="size">41</span>
+        <span class="size selected">42</span>
+        <span class="size">43</span>
+      </div>
+      <div class="purchase">Add to chart</div>
+      <div class="wishlist">Add to Wishlist</div>
+    </div>
+  </div>
+
+<style>
+
+.productcard{
+    width: 90%;
+    max-width: 750px;
+    height: 425px;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 12.5px 20px 1px rgba(0, 0, 0, 0.3), inset 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    background-image: linear-gradient(-180deg, #fb947d, #FC3E65, #f23236);
+}
+.productcard-img{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+}
+.productcard-description{
+    background: #fff;
+    color: #5d5c5c;
+    height: 115%;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    justify-content: center;
+    padding: 4%;
+    border-radius: 0 4px 4px 0;
+    align-items: flex-start;
+    box-shadow: -16px 0px 23px -20px rgba(0, 0, 0, 0.4), 0 3px 15px -1px rgba(0, 0, 0, 0.3);
+    text-shadow: 1px 1px 1px rgba(170, 170, 170, 0.5);
+}
+.card-description > *{
+    padding: 8px 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.wrapper-thumb{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumbnail{
+    background: rgba(140, 138, 138, 0.59);
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: -16px 0px 23px -20px rgba(146, 142, 142, 0.4), 0 3px 10px -1px rgba(68, 66, 66, 0.3), inset 1px 0px 3px -44px rgba(0, 0, 0, 0.4);
+}
+.thumbnail:nth-child(3){
+    background: rgba(236, 233, 233, 0.9);
+}
+.title-product{
+    font-size: 1.4em;
+    color: #484848;
+    font-weight: bold;
+}
+.img-product{
+    height: 55%;
+    max-height: 100%;
+    z-index: 2;
+    filter: drop-shadow(-1px 22px 15px rgba(0, 0, 0, 0.35));
+    /* transform: scale(2) rotate(25deg) translate(8px, -20px); */
+}
+.stars{
+    font-size: 1.4em;
+    color: #ffd700;
+}
+.price{
+    font-size: 1.5em;
+    text-align: center;
+}
+.colors{
+    width:20px;
+    height:20px;
+    display:inline-block;
+    transition:0.3s all;
+    border-radius:50%;
+    background: #ef8bef;
+    margin: 0 15px;
+}
+.colors:hover, .size:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 0 8px rgba(173, 173, 170, .3);
+    cursor: pointer;
+}
+.colors:active, .size:active{
+    transform: scale(.8);
+}
+.colors:nth-child(2){
+    background: #f43542;
+}.colors:nth-child(3){
+    background: #ffe55b;
+}.colors:nth-child(4){
+    background: #6cf96c;
+}
+.selected{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(173, 173, 170, .3);
+}
+.colors-wrap, .size-wrap{
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.purchase{
+    border-radius: 33px;
+    background-image: linear-gradient(-180deg, #FD886E 0%, #FC3E65 100%);
+    box-shadow: 0px 3px 13px 0px rgba(252, 75, 104, 0.6);
+    margin-top: 20px;
+    padding: 10px 40px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    cursor: pointer;
+    color: #fff;
+    margin: 20px auto 0;
+}
+.purchase:hover{
+    transform: scale(1.1);
+}
+.purchase:active{
+    transform: scale(.9);
+    box-shadow: 0 5px 40px -20px rgba(252, 75, 104, 0.6);
+}
+.frase{
+    position: absolute;
+    left: 0;
+    font-size: 13.3em;
+    font-weight: bold;
+    opacity: 0.1;
+    bottom: 10px;
+    z-index: 1;
+}
+.circle{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    font-size: 3.2em;
+    line-height: .95;
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(28deg);
+    opacity: .9;
+}
+
+.wishlist{
+    margin: 10px auto 0;
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+  </style>

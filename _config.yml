@@ -65,6 +65,10 @@ giscus:
 collections:
   category:
     output: true # générer la page HTML
+  shop:
+    output: true
+  gallery:
+    output: false
 
 defaults:
   - scope:
@@ -95,6 +99,20 @@ defaults:
       path: "_category/en" # an empty string here means all files in the project
     values:
       layout: "category"
+      locale: en_GB
+      permalink: en/:collection/:name
+
+  - scope:
+      path: "_shop/fr" # an empty string here means all files in the project
+    values:
+      layout: "post"
+      locale: fr_FR
+      permalink: fr/:collection/:name
+
+  - scope:
+      path: "_shop/en" # an empty string here means all files in the project
+    values:
+      layout: "post"
       locale: en_GB
       permalink: en/:collection/:name
 

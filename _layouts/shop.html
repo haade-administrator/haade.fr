@@ -1,0 +1,77 @@
+---
+layout: default
+post_class: post-template
+---
+
+<!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
+{% assign translate = site.data.locales.translate %}
+
+<!-- breadcrumbs -->
+{% include breadcrumbs.html path=page.path title=page.title %}
+
+<div class="shop-single">
+  <div class="shop-pictures">
+
+<!-- Featured Image -->
+{% include featured-image.html %}
+</div>
+<div class="shop-article">
+<h1 class="posttitle">{{ page.title }}</h1>
+<!-- Rating -->
+{% if page.rating %}
+<div class="rating mt-4 mb-4 d-flex align-items-left">
+    <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
+</div>
+{% endif %}
+<!-- Content -->
+{% include article.html %}
+
+<!-- Comments if not disabled with comments: false -->
+{% include comments.html %}
+</div>
+
+</div>
+
+<style>
+  .shop-single {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 100%;
+    align-items: flex-start:
+    gap: 10px;
+  }
+
+  .shop-pictures {
+
+  }
+  .shop-pictures .entry-featured-image {
+    width: 500px;
+  }
+
+  .shop-article h1 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .shop-article h2 {
+    font-size: 20px;
+  }
+
+  .shop-article {
+    display: flex;
+    flex-direction: column;
+      align-content: flex-end;
+    max-width: 550px;
+}
+
+.shop-article .rating {
+  margin-left: 0px;
+}
+
+  .shop-article .article-post {
+    font-size: 18px;
+  }
+  </style>

@@ -15,7 +15,7 @@ automation:
     link: 'fr/category/domotique'
   en_GB:
     name: 'Automation'
-    link: 'en/category/Automation'
+    link: 'en/category/automation'
 
 security:
   fr_FR:
@@ -88,6 +88,14 @@ contributors:
   en_GB:
     name: 'Contributors'
     link: 'en/authors'
+
+shop:
+  fr_FR:
+    name: 'Boutique'
+    link: 'fr/shop'
+  en_GB:
+    name: 'Shop'
+    link: 'en/shop'
 
 # footer menu
 

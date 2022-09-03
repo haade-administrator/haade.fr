@@ -1,0 +1,21 @@
+---
+layout: default
+title: 'Error 404 😢'
+description: 'Error 404: Page not found'
+locale: 'en_GB'
+locale_reference: 404
+published: true
+permalink: en/404.html
+robots: noindex
+sitemap:
+  exclude: 'yes'
+reload: true
+---
+<style>
+    header, .newsletter, footer {
+        display:none;
+    }
+</style>
+
+{% assign translate = site.data.locales.translate %}
+{% include 404.html %}

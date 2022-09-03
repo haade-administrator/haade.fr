@@ -23,6 +23,8 @@ comments: true
 
 Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo](https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/).
 
+{% include product-card.html %}
+
 ## Prérequis :
 
 - Home assistant installé avec la version 2021.8.0 minimum

@@ -11,7 +11,7 @@
         <ul class="links">
           <li><a href="{{ site.baseurl }}/{{ menu.home[page.locale].link }}">{{ menu.home[page.locale].name }}<span class="badge badge-light tags">{{ site.posts | where: 'locale', page.locale | size }}</span></a></li>
           <li>
-            <a href="#">{{ menu.automation[page.locale].name }}</a>
+            <a href="{{ menu.automation[page.locale].link | absolute_url }}">{{ menu.automation[page.locale].name }}</a>
             <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
             <ul class="htmlCss-sub-menu sub-menu">
               <li><a href="{{ site.baseurl }}/{{ menu.security[page.locale].link }}">{{ menu.security[page.locale].name }}</a></li>
@@ -40,7 +40,7 @@
           <li><a href="{{ site.baseurl }}/{{ menu.news[page.locale].link }}">{{ menu.news[page.locale].name }}</a></li>
           <li><a href="{{ site.baseurl }}/{{ menu.tests[page.locale].link }}">{{ menu.tests[page.locale].name }}</a></li>
           <li><a href="{{ site.baseurl }}/{{ menu.contributors[page.locale].link }}">{{ menu.contributors[page.locale].name }}<span class="badge badge-primary">News</span></a></li>
-          <li>{% include flag.html %}</li>
+          <li><a href="{{ site.baseurl }}/{{ menu.shop[page.locale].link }}">{{ menu.shop[page.locale].name }}</a></li>
         </ul>
       </div>
 
