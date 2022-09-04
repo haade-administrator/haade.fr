@@ -264,4 +264,5 @@ exclude:
   - package.json
   - package-lock.json
   - .jekyll-cache
+  - node_modules
   - banner.js
