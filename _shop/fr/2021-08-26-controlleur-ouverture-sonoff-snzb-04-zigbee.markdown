@@ -12,6 +12,7 @@ image: "https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit
 imageshadow: true
 comments: false
 rating: 4
+item: 1005002125918926
 ---
 
 Le capteur de porte/fenêtre sans fil SONOFF SNZB-04 est essentiel pour savoir qui entre et sort de votre maison, il est donc le plus souvent utilisé dans le cadre d’un système de sécurité intelligent. En tant qu’assistant à domicile, il est également compatible zigbee2mqtt et intègre la dernière version du protocole zigbee 3.0.

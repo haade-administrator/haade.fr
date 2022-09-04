@@ -1,5 +1,6 @@
+<script>
 const scrape = require('../../node_modules/aliexpress-product-scraper/index.js');
-const item = '32990414707'
+const item = '{{ include.item }}'
 const product = scrape (item);
 const writer = '../../_data/scraper/' + item + ".json"
 const fs = require('fs');
@@ -18,3 +19,4 @@ fs.writeFile(writer, data, (err) => {
     console.log("JSON data is saved.");
 });
 });
+</script

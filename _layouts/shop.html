@@ -6,6 +6,8 @@ post_class: post-template
 <!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
 {% assign translate = site.data.locales.translate %}
 
+{% include scraper.html item=page.item %}
+
 <!-- breadcrumbs -->
 {% include breadcrumbs.html path=page.path title=page.title %}
 

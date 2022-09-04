@@ -254,6 +254,8 @@ picture:
   relative_url: true
   ignore_missing_images: false
 
+include:
+  - node_modules
 
 exclude:
   - changelog.md
@@ -264,5 +266,4 @@ exclude:
   - package.json
   - package-lock.json
   - .jekyll-cache
-  - node_modules
   - banner.js

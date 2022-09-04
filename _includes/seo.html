@@ -200,7 +200,7 @@
 </script>
 {% endif %}
 
-
+{% if page.url == '/index.html' or page.url == '/en/index.html' %}
 {% if site.google_site_verification -%}
 <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {%- endif -%}
@@ -218,5 +218,6 @@
 {%- endif -%}
 {%- if site.baidu_site_verification -%}
 <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}">
+{%- endif %}
 {%- endif %}
 <!-- end _includes/seo.html -->
