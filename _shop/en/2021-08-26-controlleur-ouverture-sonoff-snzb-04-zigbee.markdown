@@ -1,6 +1,6 @@
 ---
 guid: 2000
-layout: shop
+layout: product
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:
 date: "2022-08-31 20:41:06 +0200"
@@ -10,6 +10,7 @@ ean:
 price: 19€
 image: "https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg"
 imageshadow: true
+item: 1005002125918926
 ---
 
 The SONOFF SNZB-04 Wireless Door/Window Sensor is essential for knowing who is entering and leaving your home, so it is most often used as part of a smart security system. As a home assistant, it is also zigbee2mqtt compatible and integrates the latest version of the zigbee 3.0 protocol.

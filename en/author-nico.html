@@ -36,7 +36,7 @@ comments: true
                       <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Nico.email }}"><i class="fa fa-envelope"></i></a>
                   {% endif %}
                   <p class="excerpt">{{ site.data.authors.Nico.description[page.locale] }}</p>
-                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>
+                  <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">

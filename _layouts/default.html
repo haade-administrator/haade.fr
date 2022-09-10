@@ -62,10 +62,5 @@ layout: compress
 <script src="{{ site.baseurl }}{{'/assets/js/lazyload.min.js' | cache_buster }}" type="text/javascript"></script>
 {% endif %}
 
-{% if site.cookie_consent == "enabled" %}
-{% include cookie_consent.html %}
-<script src="{{ site.baseurl }}{{ '/assets/js/script.min.js' | cache_buster }}" type="text/javascript"></script>
-{% endif %}
-
 </body>
 </html>

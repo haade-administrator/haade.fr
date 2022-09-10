@@ -1,6 +1,6 @@
 ---
 guid: 2000
-layout: shop
+layout: product
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:
 date: "2022-08-31 20:41:06 +0200"
