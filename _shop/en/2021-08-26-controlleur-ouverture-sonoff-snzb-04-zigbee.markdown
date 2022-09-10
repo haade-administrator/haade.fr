@@ -1,7 +1,7 @@
 ---
 guid: 2000
 layout: product
-title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
+title: "sonoff snzb-04 zigbee aperture controller"
 description:
 date: "2022-08-31 20:41:06 +0200"
 categories: Marque Protocole Sonoff Zigbee
