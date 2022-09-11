@@ -20,12 +20,17 @@ post_class: post-template
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
 <!-- Rating -->
-{% for item in site.data.scrapers %}
-{% assign scraper = item[1] | sort: "item" %}
-{% if scraper.ratings.totalStar %}
+{% for scraper_hash in site.data.scrapers %}
+{% assign scraper = scraper_hash[1] %}
+{% if scraper.productId == page.item %}
+{% assign rating = scraper.ratings.averageStar %}
+{% if rating %}
 <div class="rating mt-4 mb-4 d-flex align-items-left">
     <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
 </div>
+{% endif %}
+{% assign price = scraper.salePrice.min %}
+{{ price }}
 {% endif %}
 {% endfor %}
 <!-- Content -->
