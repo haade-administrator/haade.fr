@@ -2,6 +2,7 @@ $white: #fff;
 $purple: #1B1C37;
 $lightblue: #2AD2FD;
 
+
 /* style for 404 error */
 
 
@@ -108,6 +109,29 @@ $lightblue: #2AD2FD;
 .sorry {
   text-align: center;
 min-height: 300px;
+}
+
+/* stars themes */
+:root {
+  --star-size: 20px;
+  --star-color: #ccc;
+  --star-background: #1B1C37;
+}
+
+.Stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+
+  display: inline-block;
+  font-size: var(--star-size);
+  line-height: 1;
+
+  &::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 /* style for firstheader */

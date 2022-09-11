@@ -128,6 +128,23 @@ error404:
     fr_FR: Retour SUR la page principale
     en_GB: Go TO Homepage
 
+product:
+  rating:
+    fr_FR: Vote
+    en_GB: Rating
+
+  price:
+    fr_FR: Prix
+    en_GB: Price
+
+  quantity:
+    fr_FR: Quantité en Stock
+    en_GB: Quantity in Stock
+
+  buttonbuy:
+    fr_FR: Achetez Maintenant
+    en_GB: Buy Now
+
 # table of Content
 
 sommary:

@@ -6,7 +6,9 @@ post_class: post-template
 <!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
 {% assign translate = site.data.locales.translate %}
 
-{% include scraper.html item=page.item %}
+{% for scraper_hash in site.data.scrapers %}
+{% assign scraper = scraper_hash[1] %}
+{% if scraper.productId == page.item %}
 
 <!-- breadcrumbs -->
 {% include breadcrumbs.html path=page.path title=page.title %}
@@ -19,24 +21,32 @@ post_class: post-template
 </div>
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
-<!-- Rating -->
-{% for scraper_hash in site.data.scrapers %}
-{% assign scraper = scraper_hash[1] %}
-{% if scraper.productId == page.item %}
+
 {% assign rating = scraper.ratings.averageStar %}
-{% if rating %}
-<div class="rating mt-4 mb-4 d-flex align-items-left">
-    <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
-</div>
-{% endif %}
 {% assign price = scraper.salePrice.min %}
-{{ price }}
-{% endif %}
-{% endfor %}
+{% assign originalprice = scraper.originalPrice.min %}
+{% assign currency = scraper.currency %}
+{% assign quantity = scraper.totalAvailableQuantity %}
+
+<!-- Rating -->
+
+<div class="rating mt-4 mb-4 d-flex align-items-center">
+  {% if rating %}
+  <ul>
+    <li><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %}</li>
+    {% endif %}
+    <li><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }}</li>
+    <li><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</li>
+  </ul>
+</div>
+
 <!-- Content -->
 {% include article.html %}
 
 {% include buttonshop.html %}
+
+{% endif %}
+{% endfor %}
 
 </div>
 <!-- Comments if not disabled with comments: false -->

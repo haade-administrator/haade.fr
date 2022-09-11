@@ -1,5 +1,6 @@
 <div class="button-5" role="button">
-  <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank">Buy Now</a>
+  <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank">{{ translate.product.buttonbuy[page.locale] }} - {{ price }} {{ currency }}
+</a>
 </div>
 
 <style>
@@ -31,7 +32,7 @@
     -webkit-user-select: none;
     touch-action: manipulation;
     vertical-align: baseline;
-    width: 50%;
+    width: auto;
   }
 
   .button-5 a{
