@@ -1,7 +1,9 @@
 {% if page.layout == 'post' %}
 <div class="rating-holder">
-  <div class="Stars" style="--rating: {{page.rating}}; --star-background: #FF6600" aria-label="Rating of this product is {{page.rating}} out of 5."></div>
+  <div class="Stars" style="--rating: {{page.rating}}; --star-background: #FF6600" aria-label="Rating of this product is {{page.rating}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{page.rating}} {{ translate.product.outof[page.locale] }} 5."></div>
 </div>
 {% elsif page.layout == 'product' %}
-<div class="Stars" style="--rating: {{rating}};" aria-label="Rating of this product is {{rating}} out of 5." alt="Rating of this product is {{rating}} out of 5."></div>
+<div class="rating-holder">
+<div class="Stars" style="--rating: {{rating}};" aria-label="Rating of this product is {{rating}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{rating}} {{ translate.product.outof[page.locale] }} 5."></div>
+</div>
 {% endif %}

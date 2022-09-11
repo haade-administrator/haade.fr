@@ -30,15 +30,17 @@ post_class: post-template
 
 <!-- Rating -->
 
-<div class="rating mt-4 mb-4 d-flex align-items-center">
+<div class="mt-4 mb-4 d-flex align-items-center">
   {% if rating %}
-  <ul>
+  <ul class="listscraper">
+    <li><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</li>
     <li><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %}</li>
     {% endif %}
     <li><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }}</li>
     <li><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</li>
   </ul>
 </div>
+{% include buttonshop.html %}
 
 <!-- Content -->
 {% include article.html %}
@@ -54,6 +56,11 @@ post_class: post-template
 </div>
 
 <style>
+
+.listscraper {
+  list-style: none;
+}
+
   .shop-single {
     display: flex;
     flex-wrap: wrap;

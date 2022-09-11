@@ -1,17 +1,16 @@
 ---
-guid: 2000
+guid: 2100
 layout: product
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:
 date: "2022-08-31 20:41:06 +0200"
-categories: Marque Protocole Sonoff Zigbee
+categories: Boutique Marque Protocole Sonoff Zigbee
 locale: fr_FR
 ean:
-price: 19€
 image: "https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg"
 imageshadow: true
 comments: false
-rating: 4
+published: true
 item: 1005002125918926
 item-affiliate: "_DdC2WHD"
 ---

@@ -145,6 +145,14 @@ product:
     fr_FR: Achetez Maintenant
     en_GB: Buy Now
 
+  ratingof:
+    fr_FR: Le produit est noté
+    en_GB: Rating of this product is
+
+  outof:
+    fr_FR: sur
+    en_GB: out of
+
 # table of Content
 
 sommary:
