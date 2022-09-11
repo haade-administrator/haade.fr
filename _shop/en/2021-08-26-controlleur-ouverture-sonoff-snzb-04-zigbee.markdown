@@ -1,5 +1,5 @@
 ---
-guid: 2100
+guid: 2101
 layout: product
 title: "sonoff snzb-04 zigbee aperture controller"
 description:
