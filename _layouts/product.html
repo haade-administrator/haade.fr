@@ -20,11 +20,14 @@ post_class: post-template
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
 <!-- Rating -->
-{% if page.rating %}
+{% for item in site.data.scrapers %}
+{% assign scraper = item[1] | sort: "item" %}
+{% if scraper.ratings.totalStar %}
 <div class="rating mt-4 mb-4 d-flex align-items-left">
     <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
 </div>
 {% endif %}
+{% endfor %}
 <!-- Content -->
 {% include article.html %}
 

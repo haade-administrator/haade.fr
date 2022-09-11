@@ -1,6 +1,9 @@
 <div class="right-bar">
 <div class="publicity">
-<a href="https://s.click.aliexpress.com/e/_A2CfO1" target="_blank"><img src="{{ site.baseurl }}/assets/images/pub/Sad017413e9e6482ba85f595be670d6f0W.jpg_350x350-368.webp{{ cachebuster }}" width="350" height="350" alt="aliexpress publicité" /></a>
-</div>
+  {% if page.locale == 'fr_FR' %}
+<a href="https://s.click.aliexpress.com/e/_DBqKMFz?bz=300*250" target="_blank"><img width="300" height="250" src="//ae01.alicdn.com/kf/H68ac12bef9024309b8cb9f0d27f34672w.gif" /></a></div>
+{% elsif page.locale == 'en_GB' %}
+<a href="https://s.click.aliexpress.com/e/_DEOHo9Z?bz=500*500" target="_parent"><img width="500" height="500" src="//ae01.alicdn.com/kf/H868bbda94c4b4847b65df96e5832da28m.png" /></a>
+{% endif %}
 <div class="featured"></div>
 </div>
