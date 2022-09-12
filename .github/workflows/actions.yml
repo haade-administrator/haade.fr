@@ -3,6 +3,7 @@ name: Build and deploy Jekyll H2ade Blog
 on:
   push:
     branches:
+       - 'main'
        - 'releases/**'
        - '!releases/**-alpha'
        
@@ -29,6 +30,9 @@ jobs:
           sudo apt install libvips libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools libvips-dev imagemagick gvfs poppler-utils ghostscript -y          
           node -v
           npm -v
+          npm install
+          npm run scrap
+          echo aliexpress scraper OK
           vips -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
