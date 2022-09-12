@@ -1,7 +1,6 @@
 name: Build and deploy Jekyll H2ade Blog
 
 on:
-
   schedule:
     - cron: 0 2 * * *
   
