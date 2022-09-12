@@ -5,7 +5,7 @@ date: 2021-10-05 14:40:45
 last_modified_at:
 layout: post
 author: Nico
-categories: [Home Assistant, Tests, Haade-lab]
+categories: Tests Haade-lab Home-Assistant 
 image: box-domotique-rail-din-home-assistant
 published: true
 sitemap:

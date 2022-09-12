@@ -11,8 +11,12 @@ layout: default
 <br />
 <div class="blog-grid-container">
   <!-- ajout multilingual -->
-{% assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
+{% assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true %}
 {% for post in category  %}
+{% include postbox.html %}
+{% endfor %}
+{% assign product = site.shop | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
+{% for post in product  %}
 {% include postbox.html %}
 {% endfor %}
 </div>

@@ -27,18 +27,18 @@ post_class: post-template
 {% assign originalprice = scraper.originalPrice.min %}
 {% assign currency = scraper.currency %}
 {% assign quantity = scraper.totalAvailableQuantity %}
-
+{% assign feedback = scraper.feedback %}
 <!-- Rating -->
 
 <div class="mt-4 mb-4 d-flex align-items-center">
   {% if rating %}
-  <ul class="listscraper">
-    <li><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</li>
-    <li><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %}</li>
+  <div class="listscraper">
+    <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</div>
+    <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %}</div>
     {% endif %}
-    <li><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }}</li>
-    <li><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</li>
-  </ul>
+    <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
+    <div class="itemscraper"> <strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
+  </div>
 </div>
 {% include buttonshop.html %}
 
@@ -52,13 +52,50 @@ post_class: post-template
 
 </div>
 <!-- Comments if not disabled with comments: false -->
+<div class="feedbackscraper">
+
+  {% for rating in feedback %}
+<ul>
+  <li>{{ rating.name }}</li>
+  <li>{{ rating.displayName }}</li>
+  <li>{{ rating.rating }}</li>
+  <li>{% include date.html date=rating.date %}</li>
+  {% if rating.content %}
+  <li>{{ rating.content | strip_html }}</li>
+  {% endif %}
+</ul>
+{% endfor %}
+</div>
 {% include comments.html %}
 </div>
 
 <style>
 
 .listscraper {
-  list-style: none;
+  display: flex;
+  flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: flex-start;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      /* margin-left: auto; */
+      margin-right: auto;
+      padding-left: 20px;
+}
+
+.itemscraper {
+  display: flex;
+  flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.originalprice {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #888;
+  text-decoration: line-through;
 }
 
   .shop-single {

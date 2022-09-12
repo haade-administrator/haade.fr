@@ -7,7 +7,7 @@ author: Nico
 date: "2021-09-10"
 last_modified_at:
 categories: [Tests]
-tags: [Test, Zigbee, Homeassistant]
+tags: [Test, Zigbee, Home-assistant]
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite"
 published: true
 sitemap:

@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-09-25"
 last_modified_at:
-categories: [Security, Haade-lab]
+categories: Security Haade-lab
 image: "zoneminder_homeassistant-1"
 published: true
 sitemap:

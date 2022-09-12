@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-08-12"
 last_modified_at:
-categories: [Home Assistant, Tests, Haade-lab]
+categories: [Home-Assistant, Tests, Haade-lab]
 image: "thermostat-zigbee-moes-bht-002"
 published: true
 sitemap:

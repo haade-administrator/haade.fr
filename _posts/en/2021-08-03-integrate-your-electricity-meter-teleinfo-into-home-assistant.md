@@ -6,7 +6,7 @@ author: math67
 layout: post
 date: "2021-08-03"
 last_modified_at:
-categories: [Home Assistant, Haade-lab]
+categories: [Home-Assistant, Haade-lab]
 tags: []
 image: compteur-electrique-homeassistant
 published: true

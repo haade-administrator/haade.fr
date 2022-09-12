@@ -105,14 +105,14 @@ defaults:
   - scope:
       path: "_shop/fr" # an empty string here means all files in the project
     values:
-      layout: "shop"
+      layout: "category"
       locale: fr_FR
       permalink: fr/:collection/:name
 
   - scope:
       path: "_shop/en" # an empty string here means all files in the project
     values:
-      layout: "shop"
+      layout: "category"
       locale: en_GB
       permalink: en/:collection/:name
 

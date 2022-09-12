@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-09-20"
 last_modified_at:
-categories: [Tests]
+categories: Tests
 image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0"
 published: true
 sitemap:
