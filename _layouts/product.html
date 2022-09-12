@@ -6,10 +6,6 @@ post_class: post-template
 <!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
 {% assign translate = site.data.locales.translate %}
 
-{% for scraper_hash in site.data.scrapers %}
-{% assign scraper = scraper_hash[1] %}
-{% if scraper.productId == page.item %}
-
 <!-- breadcrumbs -->
 {% include breadcrumbs.html path=page.path title=page.title %}
 
@@ -22,24 +18,31 @@ post_class: post-template
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
 
-{% assign rating = scraper.ratings.averageStar %}
+{% for scraper_hash in site.data.aliexpress.scrapers %}
+{% assign scrap = scraper_hash[1] %}
+{% assign scraper = scrap.product %}
+{% if scraper.productId == page.item %}
+
+{% assign rating = scraper.ratings %}
 {% assign price = scraper.salePrice.min %}
 {% assign originalprice = scraper.originalPrice.min %}
 {% assign currency = scraper.currency %}
 {% assign quantity = scraper.totalAvailableQuantity %}
 {% assign feedback = scraper.feedback %}
-<!-- Rating -->
 
+<!-- Rating -->
 <div class="mt-4 mb-4 d-flex align-items-center">
   {% if rating %}
   <div class="listscraper">
     <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</div>
-    <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %}</div>
+    <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %} <div class="totalrating">({{ rating.totalStartCount }} {{ translate.product.reviews[page.locale] }})</div></div>
     {% endif %}
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
     <div class="itemscraper"> <strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
   </div>
 </div>
+{% endif %}
+{% endfor %}
 {% include buttonshop.html %}
 
 <!-- Content -->
@@ -47,21 +50,18 @@ post_class: post-template
 
 {% include buttonshop.html %}
 
-{% endif %}
-{% endfor %}
-
 </div>
 <!-- Comments if not disabled with comments: false -->
 <div class="feedbackscraper">
 
-  {% for rating in feedback %}
+  {% for vote in feedback %}
 <ul>
-  <li>{{ rating.name }}</li>
-  <li>{{ rating.displayName }}</li>
-  <li>{{ rating.rating }}</li>
-  <li>{% include date.html date=rating.date %}</li>
-  {% if rating.content %}
-  <li>{{ rating.content | strip_html }}</li>
+  <li>{{ vote.name }}</li>
+  <li>{{ vote.displayName }}</li>
+  <li>{{ vote.rating }}</li>
+  <li>{% include date.html date=vote.date %}</li>
+  {% if vote.content != '' %}
+  <li>{{ vote.content | strip_html }}</li>
   {% endif %}
 </ul>
 {% endfor %}
@@ -89,6 +89,12 @@ post_class: post-template
   flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+}
+
+.totalrating {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #888;
 }
 
 .originalprice {

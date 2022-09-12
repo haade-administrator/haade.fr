@@ -20,14 +20,18 @@
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "aliexpress-product-scraper": "^1.0.5",
+    "cheerio": "^1.0.0-rc.10",
+    "faker": "^5.5.3",
+    "node-fetch": "^2.6.1",
     "npm-run-all": "^4.1.5",
     "onchange": "^7.1.0",
+    "puppeteer": "^10.0.0",
     "uglify-js": "^3.13.6"
   },
   "scripts": {
     "uglify": "uglifyjs _drafts/assets/js/flag.js _drafts/assets/js/lazyload.js _drafts/assets/js/lunr.js _drafts/assets/js/navbar.js _drafts/assets/js/prism.js _drafts/assets/js/theme.js -c -m -o assets/js/test.min.js",
     "add-banner": "node banner.js",
+    "scrap": "node ./_data/aliexpress/code/launch.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify && npm run add-banner"
   }

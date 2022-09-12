@@ -15,8 +15,8 @@ layout: default
 {% for post in category  %}
 {% include postbox.html %}
 {% endfor %}
-{% assign product = site.shop | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
-{% for post in product  %}
+{% assign productshop = site.shop | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
+{% for post in productshop  %}
 {% include postbox.html %}
 {% endfor %}
 </div>

@@ -4,6 +4,6 @@
 </div>
 {% elsif page.layout == 'product' %}
 <div class="rating-holder">
-<div class="Stars" style="--rating: {{rating}};" aria-label="Rating of this product is {{rating}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{rating}} {{ translate.product.outof[page.locale] }} 5."></div>
+<div class="Stars" style="--rating: {{rating.averageStar}};" aria-label="Rating of this product is {{rating.averageStar}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{rating.averageStar}} {{ translate.product.outof[page.locale] }} 5."></div>
 </div>
 {% endif %}

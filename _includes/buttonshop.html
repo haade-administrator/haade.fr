@@ -1,5 +1,5 @@
 <div class="button-5" role="button">
-  <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank">{{ translate.product.buttonbuy[page.locale] }} - {{ price }} {{ currency }}
+  <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank">{{ translate.product.buttonbuy[page.locale] }} - {% if price != '' %}{% if currency != '' %}{{ price }} {{ currency }}{% endif %}{% endif %}
 </a>
 </div>
 

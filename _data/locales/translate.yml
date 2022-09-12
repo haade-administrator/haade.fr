@@ -153,6 +153,10 @@ product:
     fr_FR: sur
     en_GB: out of
 
+  reviews:
+    fr_FR: avis
+    en_GB: Reviews
+
 # table of Content
 
 sommary:
