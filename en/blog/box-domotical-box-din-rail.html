@@ -41,7 +41,7 @@ layout: compress
   "url": "https://haade-administrator.github.io/en/blog/box-domotical-box-din-rail",
   "name": "Domotical Box Rail Din Home-assistant and Raspberrypi",
   "headline": "Domotical Box Rail Din Home-assistant and Raspberrypi",
-  "keywords": "Home Assistant,Tests,Haade-lab",
+  "keywords": "Tests,Haade-lab,Home-Assistant",
   "description": "",
   "articleBody": "For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical hardware is an integral part of a home, apart from a NAS is rather personal. The question of a move does not pose a problem for the NAS but with regard to home automation it must continue to function without its personal effects. This is why I decided to integrate the Home-Assistant home automation box on din rail into the electrical panel.\n\nMaterial Prerequise\n\nFor my part the installation of the system is mounted on an sd card 128GB of sandisk brand in extreme pro version , never skimp on the quality of the sd card! . As there is a din rail compatible box for Raspberrypi 4, I naturally turned to this card in 4Gb, the 2Gb version under home-assistant can quickly become limited , but the PI4 processor has tendency to heat up. As I have a POE + compatible switch above the board, I decided to buy a Waveshare type C complementary card in POE +\n\nWhy this Waveshare poe + type C card, compared to the official raspberry pi cards\n\n\n\n\n  It is compatible with the latest POE + standards\n  GPIOs are always accessible ( if you want to add a 2.2 inch tft-lcd screen, that’s better)\n  It has an additional USB type A output in 3.0\n  Finally you can connect a 12V fan for optimal cooling.\n  It has a small fan to cool the Raspberry processor\n  Possibility to control the onboard fan\n\n\nTo be sure not to experience overheatingI bought 5mm copper heatsinks , during assembly it works but you have to position according to the components of the waveshare, if you want a little more freedom go on 3mm heatsinks, but they will be less effective .\n\nThe Temperature\n\n\n  Open din rail box 28°C\n  Closed Box 38°C\n  Electrical panel closed and reassembled 42°C\n\n\nNo additional opening on the din rail box was made when measuring the temperatures, and the end result I manage to hold 42°C with peaks at 48°C,now it remains to be seen in full summer season if the peaks are not too high.\n\n\n\nAbove: The installation of the 5mm thick heatsinks is easy, but you still have to orient the positioning according to the additional waveshare poe + type C card.\n\n\n\nAbove: Integration into the din rail electrical panel is carefree, the power supply by poe + is a positive point in the integration.\n\nBelow: thanks to Home-Assistant and the systemmonitor integration we can control the general state of the Raspberrypi, you can see that the 128GB of sdcard is more than enough, the memory used is 25% of 4Gb knowing that the integration of additional plugins is relatively complete (z-wave, esphome, zigbee, mosquitto, xiaomi, doorbird, etc …), the addition of a 2.2” tft/lcd screen fits perfectly into the box or we could do monitoring, see the presentation of the Jeedom integration . But according to a feedback From experience adding such a screen increases the temperature by almost 10 ° C. Maybe I’ll upgrade but for now I don’t find it essential.\n\n\n\nIn conclusion\n\nThe home automation installation under home assistant is now an integral part of the home, it’s more wafer and for me more logical, the fact of integrating it into the board is undeniably a place of choice by positioning the home automation controller in the center of the home electricity network for a total cost of around € 120.\n",
   "datePublished": "2021-10-05 14:40:45 +0000",
@@ -81,11 +81,10 @@ layout: compress
 
 
 
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661877677036747312" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1663008052014269261" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -195,15 +194,15 @@ layout: compress
         <ul class="links">
           <li><a href="/haade.fr/en/">Home<span class="badge badge-light tags">12</span></a></li>
           <li>
-            <a href="#">Automation</a>
-            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
-            <ul class="htmlCss-sub-menu sub-menu">
+            <a href="https://haade-administrator.github.io/haade.fr/en/category/automation">Automation</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow automation"></i>
+            <ul class="htmlCss-sub-menu sub-menu automation">
               <li><a href="/haade.fr/en/category/security">Security</a></li>
               <li class="more">
                 <span><a href="/haade.fr/en/category/haade-lab">Tutos</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu">
+                <ul class="more-sub-menu sub-menu tuto">
                   <li><a href="/haade.fr/en/category/docker">Docker</a></li>
                   <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
                   <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
@@ -224,21 +223,22 @@ layout: compress
           <li><a href="/haade.fr/en/category/news">News</a></li>
           <li><a href="/haade.fr/en/category/tests">Tests</a></li>
           <li><a href="/haade.fr/en/authors">Contributors<span class="badge badge-primary">News</span></a></li>
-          <li>
-<div class="sl-nav">
-  language:
-  <ul>
-    <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
-      <div class="triangle"></div>
-      <ul class="show-flags">
-        
-        <li><a href="/haade.fr/fr/blog/box-domotique-rail-din"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/box-domotical-box-din-rail"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-</li>
+          <li><a href="/haade.fr/en/category/shop">Shop<span class="badge badge-light tags">2</span></a>
+            <!-- <i class="fas fa-angle-down htmlcss-arrow arrow shop"></i>
+            <ul class="htmlCss-sub-menu sub-menu shop">
+              <li><a href="/haade.fr/en/shop/brand">Brand</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/en/shop/protocol">Protocol</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu protocol">
+                  <li><a href="/haade.fr/en/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul> -->
+          </li>
         </ul>
       </div>
 
@@ -302,14 +302,14 @@ layout: compress
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Home Assistant</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/tests"><span itemprop="name">Tests</span></a><meta itemprop="position" content="2"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Tests</span></a><meta itemprop="position" content="3"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/haade-lab"><span itemprop="name">Haade-lab</span></a><meta itemprop="position" content="3"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
@@ -369,7 +369,7 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
 
 <div class="entry-featured-image">
     
-    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp" alt="Domotical Box Rail Din Home-assistant and Raspberrypi" width='944' height='531'>
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp" alt="Domotical Box Rail Din Home-assistant and Raspberrypi">
     
 </div>
 
@@ -430,6 +430,9 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
 <p>The home automation installation under home assistant is now an integral part of the home, it’s more wafer and for me more logical, the fact of integrating it into the board is undeniably a place of choice by positioning the home automation controller in the center of the home electricity network for a total cost of around € 120.</p>
 
 </div>
+
+
+<!-- Rating -->
 
 
 <!-- Author Box if enabled from _config.yml -->
@@ -509,11 +512,11 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
     <!-- Categories -->
     
     
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home Assistant</a>
-    
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/tests">Tests</a>
     
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
+    
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
     
 
     <!-- Tags -->
@@ -560,6 +563,7 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">Home-Assistant Amber VS Jeedom Atlas</a>
+                
             </h2>
             <h4 class="card-text">For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a...</h4>
         </div>
@@ -620,6 +624,7 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">Zoneminder, home assistant and Machinelearning</a>
+                
             </h2>
             <h4 class="card-text">Dlandon this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of...</h4>
         </div>
@@ -680,6 +685,7 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04">Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test</a>
+                
             </h2>
             <h4 class="card-text">That’s after the presentation of the temperature sensor SNZB-02, I will detail quickly the sonoff opening sensor SNZB-04, the quality remains the same, the packaging and the aesthetics of the...</h4>
         </div>
@@ -794,27 +800,6 @@ Domotical Box Rail Din Home-assistant and Raspberrypi
 
 
 <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
-
-
-
-  <div class="cookie_wrapper">
-    <picture>
-    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
-    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
-</picture>
-    <div class="cookie_content">
-      <header>Like many, our site uses cookies</header>
-      <p>We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!</p>
-      <div class="cookie_buttons">
-        <button class="item">Ok for me!</button>
-        
-        <a href="/haade.fr/en/gdpr-general-data-protection-regulation/#cookies" class="cookie_item">read more</a>
-        
-      </div>
-    </div>
-  </div>
-
-<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
 
 
 </body>

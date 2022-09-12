@@ -39,7 +39,7 @@ layout: compress
   "url": "https://haade-administrator.github.io/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
   "name": "Integrate your electricity meter (teleinfo) in Home Assistant",
   "headline": "Integrate your electricity meter (teleinfo) in Home Assistant",
-  "keywords": "Home Assistant,Haade-lab",
+  "keywords": "Home-Assistant,Haade-lab",
   "description": "",
   "articleBody": "For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.\n\nPrerequisites:\n\n\n  Home assistant installed with up-to-date ESPHome\n  An ESP8266 module of the Wemos D1 mini type and its power supply\n  A PitInfo module\n\n\nESPHome programming\n\nAn article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link\n\nAs the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.\n\nSummary of integration steps with ESPhome:\n\n\n  To start, go to ESPHome you must create a new configuration by clicking on the green ‘+’ button located at the bottom right of the screen.\n  Then fill in the various fields with the name of the device, the name of your wifi network (2.4 Ghz imperatively) as well as the associated password.\n  The platform is of course ESP8266, for a wemos d1 mini the board is d1_mini\n  Click on the ‘Next’ button and connect your Wemos D1 mini by USB to your PC, then click on ‘Connect’ and choose the COM port corresponding to your Wemos.\n\n\nThe flash may last a few minutes, leave the page open while waiting for the operation to complete.\n\nAfter this operation, your new configuration will appear on the ESPHome Dashboard. Click on ‘EDIT’, we will complete the configuration file with the elements necessary for reporting information from the meter.\n\nBelow ‘logger’ add the following lines:\n\nFinally, below the ‘captive_portal’ line add the rest of the code:\n\n\n  \n    For Peak Hours / Off-Hours subscriptions:\n  \n  \n    For subscriptions at the Basic rate:\n  \n\n\n You can now upload the file by clicking on ‘INSTALL’.\n\n So much for the programming part, now let’s go to the connection of the assembly.\n\n Connection to the meter\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\n We will in this part see how to connect our assembly, here is the wiring diagram:\n\n\n\nSchéma de branchement\n\n\n  Rx of Wemos on TXD of PiTInfo\n  G of Wemos onGND of PiTInfo\n  3v3 of Wemos on VCC ofPiTInfo\n   The two input terminals of the PiTInfo must be connected to I1 and I2 under the meter (These terminals are protected by a cover), there is no polarity on this side of the assembly\n\n\n Linky counter: For information to go back to Home Assistant. The counter must be in ‘History’ mode, you can check this information by pressing the ‘+’ or ‘-‘ keys.\n\nLovelace\n\n Back in Home Assistant go to ‘Integrations’. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on ‘Add integration’ at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.\n\n\n\nMap of electric meter entities\n\nSo you get this card that you can add directly to Lovelace or create a custom card.\n\nHere it is now over, you have all the information from your meter arriving on your HA. You are now free to manage this data, to create graphs, automations…!\n\nEDIT: Due to a conflict in Home Assistant in the configuration for the “Base” tariff, it is necessary to modify the line id: index by id: “index_base” in the ESPHome code:\n\n  - platform: teleinfo\n    tag_name: \"BASE\"\n    name: \"Index\"\n    unit_of_measurement: \"Wh\"\n    icon: mdi:gauge\n    id: \"index_base\" # &lt;- modify line\n\n",
   "datePublished": "2021-08-03 00:00:00 +0000",
@@ -79,11 +79,10 @@ layout: compress
 
 
 
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661877677036747312" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1663008052014269261" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -193,15 +192,15 @@ layout: compress
         <ul class="links">
           <li><a href="/haade.fr/en/">Home<span class="badge badge-light tags">12</span></a></li>
           <li>
-            <a href="#">Automation</a>
-            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
-            <ul class="htmlCss-sub-menu sub-menu">
+            <a href="https://haade-administrator.github.io/haade.fr/en/category/automation">Automation</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow automation"></i>
+            <ul class="htmlCss-sub-menu sub-menu automation">
               <li><a href="/haade.fr/en/category/security">Security</a></li>
               <li class="more">
                 <span><a href="/haade.fr/en/category/haade-lab">Tutos</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu">
+                <ul class="more-sub-menu sub-menu tuto">
                   <li><a href="/haade.fr/en/category/docker">Docker</a></li>
                   <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
                   <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
@@ -222,21 +221,22 @@ layout: compress
           <li><a href="/haade.fr/en/category/news">News</a></li>
           <li><a href="/haade.fr/en/category/tests">Tests</a></li>
           <li><a href="/haade.fr/en/authors">Contributors<span class="badge badge-primary">News</span></a></li>
-          <li>
-<div class="sl-nav">
-  language:
-  <ul>
-    <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
-      <div class="triangle"></div>
-      <ul class="show-flags">
-        
-        <li><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-</li>
+          <li><a href="/haade.fr/en/category/shop">Shop<span class="badge badge-light tags">2</span></a>
+            <!-- <i class="fas fa-angle-down htmlcss-arrow arrow shop"></i>
+            <ul class="htmlCss-sub-menu sub-menu shop">
+              <li><a href="/haade.fr/en/shop/brand">Brand</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/en/shop/protocol">Protocol</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu protocol">
+                  <li><a href="/haade.fr/en/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul> -->
+          </li>
         </ul>
       </div>
 
@@ -300,7 +300,7 @@ layout: compress
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Home Assistant</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/home-assistant"><span itemprop="name">Home-Assistant</span></a><meta itemprop="position" content="2"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
@@ -360,7 +360,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 
 <div class="entry-featured-image">
     
-    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/13/compteur-electrique-homeassistant-944.webp" alt="Integrate your electricity meter (teleinfo) in Home Assistant" width='944' height='531'>
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/13/compteur-electrique-homeassistant-944.webp" alt="Integrate your electricity meter (teleinfo) in Home Assistant">
     
 </div>
 
@@ -471,6 +471,9 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 </div>
 
 
+<!-- Rating -->
+
+
 <!-- Author Box if enabled from _config.yml -->
 <!-- Author Box -->
 
@@ -544,7 +547,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
     <!-- Categories -->
     
     
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home Assistant</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
     
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
     
@@ -584,6 +587,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/box-domotical-box-din-rail">Domotical Box Rail Din Home-assistant and Raspberrypi</a>
+                
             </h2>
             <h4 class="card-text">For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical...</h4>
         </div>
@@ -644,6 +648,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">Home-Assistant Amber VS Jeedom Atlas</a>
+                
             </h2>
             <h4 class="card-text">For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a...</h4>
         </div>
@@ -704,6 +709,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">Zoneminder, home assistant and Machinelearning</a>
+                
             </h2>
             <h4 class="card-text">Dlandon this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of...</h4>
         </div>
@@ -818,27 +824,6 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 
 
 <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
-
-
-
-  <div class="cookie_wrapper">
-    <picture>
-    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
-    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
-</picture>
-    <div class="cookie_content">
-      <header>Like many, our site uses cookies</header>
-      <p>We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!</p>
-      <div class="cookie_buttons">
-        <button class="item">Ok for me!</button>
-        
-        <a href="/haade.fr/en/gdpr-general-data-protection-regulation/#cookies" class="cookie_item">read more</a>
-        
-      </div>
-    </div>
-  </div>
-
-<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
 
 
 </body>

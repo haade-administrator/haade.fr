@@ -41,7 +41,7 @@ layout: compress
   "url": "https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
   "name": "home assistant icon tip",
   "headline": "home assistant icon tip",
-  "keywords": "Home Assistant,Haade-lab",
+  "keywords": "Home-Assistant,,Haade-lab",
   "description": "Change the icon of a binary sensor in home assistant",
   "articleBody": "Here is in the series of the very small tutorials . I will quickly describe how to change an icon of a binary sensor thanks to the device_class, by customization in home assistant.\n\nSo in normal times to change an icon of an entity of a device, nothing could be simpler:\n\nConfiguration &gt;&gt; Entities &gt;&gt; you change the class icon to hass: or mdi: as desired. And it’s over.\n\nBut when you want to change the icon of a binary, example: a door opening detector. There it gets complicated because there is an icon for an open position and an icon for a closed position. Don’t worry, Home assistant is in the place.\n\nIn this case, the customization must be used in the customize.yaml.\n\nFirst of all, you have to add the integration line in the configuration.yaml click there and you will find all the information about the configuration of the file.\n\nTo keep things simple, you have to add this line:\n\nhomeassistant:\n  customize: !include customize.yaml\n\n\nOnce done go to:\n\nConfiguration &gt;&gt; Personalization &gt;&gt; Choose an entity\n\nModify or create by adding a device_class In general it exists, and there you have a panel of choices (garage door, window, movement …), select in 1 and don’t forget no save.\n\nView this beautiful animated GIF that takes it all right.\n\n Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say that home assistant has once again thought of everything.\n",
   "datePublished": "2021-09-15 07:00:00 +0000",
@@ -81,11 +81,10 @@ layout: compress
 
 
 
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661877677036747312" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1663008052014269261" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -195,15 +194,15 @@ layout: compress
         <ul class="links">
           <li><a href="/haade.fr/en/">Home<span class="badge badge-light tags">12</span></a></li>
           <li>
-            <a href="#">Automation</a>
-            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
-            <ul class="htmlCss-sub-menu sub-menu">
+            <a href="https://haade-administrator.github.io/haade.fr/en/category/automation">Automation</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow automation"></i>
+            <ul class="htmlCss-sub-menu sub-menu automation">
               <li><a href="/haade.fr/en/category/security">Security</a></li>
               <li class="more">
                 <span><a href="/haade.fr/en/category/haade-lab">Tutos</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu">
+                <ul class="more-sub-menu sub-menu tuto">
                   <li><a href="/haade.fr/en/category/docker">Docker</a></li>
                   <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
                   <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
@@ -224,21 +223,22 @@ layout: compress
           <li><a href="/haade.fr/en/category/news">News</a></li>
           <li><a href="/haade.fr/en/category/tests">Tests</a></li>
           <li><a href="/haade.fr/en/authors">Contributors<span class="badge badge-primary">News</span></a></li>
-          <li>
-<div class="sl-nav">
-  language:
-  <ul>
-    <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
-      <div class="triangle"></div>
-      <ul class="show-flags">
-        
-        <li><a href="/haade.fr/fr/blog/changer-licone-dun-capteur-binaire-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-</li>
+          <li><a href="/haade.fr/en/category/shop">Shop<span class="badge badge-light tags">2</span></a>
+            <!-- <i class="fas fa-angle-down htmlcss-arrow arrow shop"></i>
+            <ul class="htmlCss-sub-menu sub-menu shop">
+              <li><a href="/haade.fr/en/shop/brand">Brand</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/en/shop/protocol">Protocol</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu protocol">
+                  <li><a href="/haade.fr/en/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul> -->
+          </li>
         </ul>
       </div>
 
@@ -302,7 +302,7 @@ layout: compress
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Home Assistant</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/home-assistant,"><span itemprop="name">Home-Assistant,</span></a><meta itemprop="position" content="2"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
@@ -362,7 +362,7 @@ home assistant icon tip
 
 <div class="entry-featured-image">
     
-    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp" alt="home assistant icon tip" width='944' height='531'>
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp" alt="home assistant icon tip">
     
 </div>
 
@@ -404,6 +404,9 @@ home assistant icon tip
 <p><img src="https://haade-administrator.github.io/haade.fr/assets/images/posts/19/modification-icone-device_class-element-binaire-personnalisation-820.webp" alt="modification of a default icon of a device in home assistant" width="700" height="344" /> Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say <em>that home assistant has once again thought of everything.</em></p>
 
 </div>
+
+
+<!-- Rating -->
 
 
 <!-- Author Box if enabled from _config.yml -->
@@ -483,7 +486,7 @@ home assistant icon tip
     <!-- Categories -->
     
     
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home Assistant</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant,</a>
     
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
     
@@ -523,6 +526,7 @@ home assistant icon tip
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/box-domotical-box-din-rail">Domotical Box Rail Din Home-assistant and Raspberrypi</a>
+                
             </h2>
             <h4 class="card-text">For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical...</h4>
         </div>
@@ -565,57 +569,6 @@ home assistant icon tip
             
 
             
-            <!-- begin post -->
-
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">
-                
-
-                    
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-368.webp" width="368" height="207" alt="Home-Assistant Amber VS Jeedom Atlas">
-                    
-
-                
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">Home-Assistant Amber VS Jeedom Atlas</a>
-            </h2>
-            <h4 class="card-text">For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                
-                <span class="meta-footer-thumb">
-                
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
-                
-                </span>
-                <span class="author-meta">
-                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                
-                <span class="post-date">
-
-     1<sup>st</sup>
-        
- 
-    October
- 2021
-</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-
-            
-            
-            
 
         
 
@@ -643,6 +596,7 @@ home assistant icon tip
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">Zoneminder, home assistant and Machinelearning</a>
+                
             </h2>
             <h4 class="card-text">Dlandon this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of...</h4>
         </div>
@@ -663,6 +617,121 @@ home assistant icon tip
     
  
     September
+ 2021
+</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+
+            
+            
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+
+        
+
+            
+            
+
+            
+
+            
+            <!-- begin post -->
+
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002">
+                
+
+                    
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-368.webp" width="368" height="207" alt="[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002">
+                    
+
+                
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002">[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002</a>
+                
+            </h2>
+            <h4 class="card-text">Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the Atlantic thermostat...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                
+                <span class="meta-footer-thumb">
+                
+                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                
+                <span class="post-date">
+
+     12<sup>th</sup>
+    
+ 
+    August
  2021
 </span>
                 </span>
@@ -757,27 +826,6 @@ home assistant icon tip
 
 
 <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
-
-
-
-  <div class="cookie_wrapper">
-    <picture>
-    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
-    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
-</picture>
-    <div class="cookie_content">
-      <header>Like many, our site uses cookies</header>
-      <p>We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!</p>
-      <div class="cookie_buttons">
-        <button class="item">Ok for me!</button>
-        
-        <a href="/haade.fr/en/gdpr-general-data-protection-regulation/#cookies" class="cookie_item">read more</a>
-        
-      </div>
-    </div>
-  </div>
-
-<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
 
 
 </body>

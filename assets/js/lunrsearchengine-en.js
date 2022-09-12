@@ -39,7 +39,7 @@ var documents = [{
     "url": "/haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02",
     "title": "Sonoff SNZB-02 temperature and humidity sensor test",
     "description": "2021/09/10 - SONOFF SNZB-02 temperature sensor test and integration in homeassistant",
-    "tags": "Test - Zigbee - Homeassistant"
+    "tags": "Test - Zigbee - Home-assistant"
     
     }, {
     "id": 6,

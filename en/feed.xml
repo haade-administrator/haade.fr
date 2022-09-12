@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Aug 2022 16:41:17 +0000</pubDate>
+    <pubDate>Mon, 12 Sep 2022 18:40:52 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
@@ -37,11 +37,11 @@
       <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/box-domotical-box-din-rail</guid>
       
       
-      <category>Home Assistant</category>
-      
       <category>Tests</category>
       
       <category>Haade-lab</category>
+      
+      <category>Home-Assistant</category>
       
     </item>
     
@@ -67,11 +67,11 @@
       <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/home-assistant-amber-vs-jeedom-atlas</guid>
       
       
-      <category>Home Assistant</category>
-      
       <category>Jeedom</category>
       
       <category>News</category>
+      
+      <category>Home-Assistant</category>
       
     </item>
     
@@ -151,7 +151,7 @@
       <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</guid>
       
       
-      <category>Home Assistant</category>
+      <category>Home-Assistant,</category>
       
       <category>Haade-lab</category>
       
@@ -182,7 +182,7 @@
       
       <category>Zigbee</category>
       
-      <category>Homeassistant</category>
+      <category>Home-assistant</category>
       
       
       <category>Tests</category>
@@ -291,7 +291,7 @@
       <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</guid>
       
       
-      <category>Home Assistant</category>
+      <category>Home-Assistant</category>
       
       <category>Tests</category>
       

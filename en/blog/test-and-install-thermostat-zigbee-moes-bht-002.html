@@ -41,7 +41,7 @@ layout: compress
   "url": "https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
   "name": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
   "headline": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
-  "keywords": "Home Assistant,Tests,Haade-lab",
+  "keywords": "Home-Assistant,Tests,Haade-lab",
   "description": "",
   "articleBody": "Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the Atlantic thermostat 109519 this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.\n\n\n\nTo talk about the Moes brand, this is the second material that I test, both ordered from the Moes Official Store of Aliexpress, and frankly the quality is very well finished. The packaging is professional and the instructions is perfectly detailed. So do not hesitate to order the products of this brand. Moreover, in a future article Yann says (uncle) will test the brand’s new 3 in 1 sensor (thermometer, brightness and humidity) zigbee. It is already zigbee2mqtt compatible so multiplatform, I’m looking forward to that so it’s up to you to play uncle.\n\n\n\nLet’s start with the unpacking, as I said above the packaging is top, the product is well protected. Inside the thermostat (a protective film protects the screen), an ntd probe, two screws and the instructions, nothing special. The connection to electric heating is done without worries because it is available with 2 neutral / 2 phases in input and output, moreover in option we can connect the thermostat in modbus, in our case not the trouble, for the same probe.\n\nInstallation of module\n\nNothing very complicated, to begin with the black part is esay to remove with one hand in order to be able to screw the module on the flush-mounting box.\n\nFrom left to right:\n\n\n  White / red Modbus connection\n  1: flexible wire phase radiator outlet\n  2: neutral flexible wire radiator output\n  3: Circuit breaker neutral\n  4: Circuit breaker phase\n  5-6 wire from the 2.5m NTC probe connected to control the soil temperature.\n\n\n\n\nThen follows the installation in place of the Atlantic room thermostat. As stated above nothing very complicated.\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\nWhat a pity that the connection work by dupont wires, a contact system is more pro\n\n\n\nThe 2.5m NTC probe is a practical external waterproof digital temperature probe for deporting the temperature probe of the Moes zigbee thermostat at ground level for example.\n\nTechnical Notice BHT-002\n\n\n\nNotice officielle du thermostat zigbee Moes BHT-002\n\nProgramming part\n\nWell I will not go into everything in detail, the instructions are just above, the interesting part is the programming which differs from the Atlantic thermostat which simply does not have one.\n\n4 time periods are available and programmable over 3 periods of the week (Monday to Friday, Saturday and Sunday).\n\nFor instance the integration with zigbee2mqtt and homeassistant is very easy. We open the network, 8 seconds on the down arrow and it’s good.\n\nAbove all the homeassistant part is relatively complete unfortunately the programming of the hourly / day periods is not possible. You found in the attributes, it is already not bad. Everything else is configurable via the wizard.\n\n\n\nTo conclude if you want to replace your electric floor heating thermostats you can go there frankly. I’m not even talking about homeassistant control, just the price difference forces you to take a zigbee thermostat. Frankly Moes is worth a visit.\n",
   "datePublished": "2021-08-12 00:00:00 +0000",
@@ -81,11 +81,10 @@ layout: compress
 
 
 
-<meta name="google-site-verification" content="SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ" />
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1661877677036747312" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1663008052014269261" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 
@@ -195,15 +194,15 @@ layout: compress
         <ul class="links">
           <li><a href="/haade.fr/en/">Home<span class="badge badge-light tags">12</span></a></li>
           <li>
-            <a href="#">Automation</a>
-            <i class="fas fa-angle-down htmlcss-arrow arrow"></i>
-            <ul class="htmlCss-sub-menu sub-menu">
+            <a href="https://haade-administrator.github.io/haade.fr/en/category/automation">Automation</a>
+            <i class="fas fa-angle-down htmlcss-arrow arrow automation"></i>
+            <ul class="htmlCss-sub-menu sub-menu automation">
               <li><a href="/haade.fr/en/category/security">Security</a></li>
               <li class="more">
                 <span><a href="/haade.fr/en/category/haade-lab">Tutos</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu">
+                <ul class="more-sub-menu sub-menu tuto">
                   <li><a href="/haade.fr/en/category/docker">Docker</a></li>
                   <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
                   <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
@@ -224,21 +223,22 @@ layout: compress
           <li><a href="/haade.fr/en/category/news">News</a></li>
           <li><a href="/haade.fr/en/category/tests">Tests</a></li>
           <li><a href="/haade.fr/en/authors">Contributors<span class="badge badge-primary">News</span></a></li>
-          <li>
-<div class="sl-nav">
-  language:
-  <ul>
-    <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
-      <div class="triangle"></div>
-      <ul class="show-flags">
-        
-        <li><a href="/haade.fr/fr/blog/test-et-install-thermostat-zigbee-moes-bht-002"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
-      </ul>
-    </li>
-  </ul>
-</div>
-</li>
+          <li><a href="/haade.fr/en/category/shop">Shop<span class="badge badge-light tags">2</span></a>
+            <!-- <i class="fas fa-angle-down htmlcss-arrow arrow shop"></i>
+            <ul class="htmlCss-sub-menu sub-menu shop">
+              <li><a href="/haade.fr/en/shop/brand">Brand</a></li>
+              <li class="more">
+                <span><a href="/haade.fr/en/shop/protocol">Protocol</a>
+                <i class='fas fa-angle-right arrow more-arrow'></i>
+              </span>
+                <ul class="more-sub-menu sub-menu protocol">
+                  <li><a href="/haade.fr/en/category/docker">Docker</a></li>
+                  <li><a href="/haade.fr/en/category/home-assistant">Home-Assistant</a></li>
+                  <li><a href="/haade.fr/en/category/jeedom">Jeedom</a></li>
+                </ul>
+              </li>
+            </ul> -->
+          </li>
         </ul>
       </div>
 
@@ -302,14 +302,14 @@ layout: compress
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Home Assistant</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/home-assistant"><span itemprop="name">Home-Assistant</span></a><meta itemprop="position" content="2"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 
 
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop="name">Tests</span></a><meta itemprop="position" content="3"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/tests"><span itemprop="name">Tests</span></a><meta itemprop="position" content="3"></li>
 
 
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
@@ -369,7 +369,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
 
 <div class="entry-featured-image">
     
-    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-944.webp" alt="[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002" width='944' height='531'>
+    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-944.webp" alt="[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002">
     
 </div>
 
@@ -442,6 +442,9 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
 <p>To conclude if you want to replace your electric floor heating thermostats you can go there frankly. I’m not even talking about homeassistant control, just the price difference forces you to take a zigbee thermostat. Frankly Moes is worth a visit.</p>
 
 </div>
+
+
+<!-- Rating -->
 
 
 <!-- Author Box if enabled from _config.yml -->
@@ -521,7 +524,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
     <!-- Categories -->
     
     
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home Assistant</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
     
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/tests">Tests</a>
     
@@ -563,6 +566,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/box-domotical-box-din-rail">Domotical Box Rail Din Home-assistant and Raspberrypi</a>
+                
             </h2>
             <h4 class="card-text">For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical...</h4>
         </div>
@@ -623,6 +627,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">Home-Assistant Amber VS Jeedom Atlas</a>
+                
             </h2>
             <h4 class="card-text">For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a...</h4>
         </div>
@@ -683,6 +688,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">Zoneminder, home assistant and Machinelearning</a>
+                
             </h2>
             <h4 class="card-text">Dlandon this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of...</h4>
         </div>
@@ -797,27 +803,6 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href=""><span itemprop=
 
 
 <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
-
-
-
-  <div class="cookie_wrapper">
-    <picture>
-    <source srcset="/haade.fr/assets/images/cookie-90.webp" type="image/webp" width='90' height='90'>
-    <img src="/haade.fr/assets/images/cookie-90.png" alt="cookie logo" width='90' height='90'>
-</picture>
-    <div class="cookie_content">
-      <header>Like many, our site uses cookies</header>
-      <p>We would like to accompany you during your visit. By continuing, you accept the use of cookies by this site, in order to offer you adapted content and to produce statistics!</p>
-      <div class="cookie_buttons">
-        <button class="item">Ok for me!</button>
-        
-        <a href="/haade.fr/en/gdpr-general-data-protection-regulation/#cookies" class="cookie_item">read more</a>
-        
-      </div>
-    </div>
-  </div>
-
-<script src="/haade.fr/assets/js/script.min.js?v=9670b3e7d30085a51e0571960d42a52d" type="text/javascript"></script>
 
 
 </body>
