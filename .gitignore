@@ -13,5 +13,5 @@ _site
 vendor/bundle
 node_modules
 # banner.js
-# package.json
-# package-lock.json
+package.json
+package-lock.json
