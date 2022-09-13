@@ -6,8 +6,6 @@ const data  = [
   '32982628286'
 ]
 
-const writer = './../scrapers/' + data + ".json";
-
 const fs = require('fs');
 
 
@@ -21,10 +19,10 @@ async function delayedLog(item) {
     await delay();
     const product = await scrape(item,2,{headless:false});
     console.log({product});
-    const copy = JSON.stringify ({product});
+    const copy = JSON.stringify ({product}, null, 4);
 
     // write JSON string to a file
-    fs.writeFile('./_data/aliexpress/scrapers/' + item + ".json", copy, (err) => {
+    fs.writeFile('./../scrapers/' + item + ".json", copy, (err) => {
         if (err) {
             throw err;
         }

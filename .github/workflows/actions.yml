@@ -1,15 +1,16 @@
 name: Build and deploy Jekyll H2ade Blog
 
 on:
+
   push:
     branches:
-       - 'main'
-       - 'releases/**'
-       - '!releases/**-alpha'
-       
-    tags:
+      - 'main'
+      - 'releases/**'
+      - '!releases/**-alpha'
+
+   tags:
       - v1.*.*
-       
+
     paths-ignore:
       - .gitignore
       - README.md
@@ -27,7 +28,7 @@ jobs:
           sudo apt update
           sudo apt upgrade
           sudo apt dist-upgrade
-          sudo apt install libvips libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools libvips-dev imagemagick gvfs poppler-utils ghostscript -y          
+          sudo apt install libvips libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools libvips-dev imagemagick gvfs poppler-utils ghostscript -y
           node -v
           npm -v
           npm install
