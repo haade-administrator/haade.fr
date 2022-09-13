@@ -1,23 +1,14 @@
 name: Build and deploy Jekyll H2ade Blog
 
 on:
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 3fcb04382c87b7f20060b60cd40f4a1384c7022d
   push:
     branches:
       - 'main'
       - 'releases/**'
       - '!releases/**-alpha'
-<<<<<<< HEAD
 
-   tags:
-=======
-       
     tags:
->>>>>>> 3fcb04382c87b7f20060b60cd40f4a1384c7022d
       - v1.*.*
 
     paths-ignore:
