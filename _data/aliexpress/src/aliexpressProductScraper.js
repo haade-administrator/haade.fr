@@ -6,23 +6,9 @@ const Feedback = require('./feedback');
 
 async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
-    const browser = await puppeteer.launch({args: ['--lang=fr-FR,fr']})
+    const browser = await puppeteer.launch({ env: { LANGUAGE: "fr_FR" } })
     process.setMaxListeners(Infinity);
     const page = await browser.newPage();
-    await page.setExtraHTTPHeaders({'Accept-Language': 'fr'});
-    // Set the language forcefully on javascript
-await page.evaluateOnNewDocument(() => {
-    Object.defineProperty(navigator, "language", {
-        get: function() {
-            return "fr-FR";
-        }
-    });
-    Object.defineProperty(navigator, "languages", {
-        get: function() {
-            return ["fr-FR", "fr"];
-        }
-    });
-});
     await page.setDefaultNavigationTimeout(0);
 
     /** Scrape the aliexpress product page for details */
