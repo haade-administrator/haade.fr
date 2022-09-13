@@ -24,8 +24,8 @@ jobs:
     steps:
       - name: fr_FR.UTF-8
         run: |
-          sudo locale-gen pt_BR.UTF-8
-          sudo update-locale LANG=pt_BR.UTF-8
+          sudo locale-gen fr_FR.UTF-8
+          sudo update-locale LANG=fr_FR.UTF-8
   
       - name: date
         run: |
