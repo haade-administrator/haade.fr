@@ -6,7 +6,7 @@ const Feedback = require('./feedback');
 
 async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
-    const browser = await puppeteer.launch({headless: false, args: ['--lang=fr-FR,fr']})
+    const browser = await puppeteer.launch({args: ['--lang=fr-FR,fr']})
     process.setMaxListeners(Infinity);
     const page = await browser.newPage();
     await page.setDefaultNavigationTimeout(0);
