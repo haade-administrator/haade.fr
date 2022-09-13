@@ -21,7 +21,7 @@ post_class: post-template
 {% for scraper_hash in site.data.aliexpress.scrapers %}
 {% assign scrap = scraper_hash[1] %}
 {% assign scraper = scrap.product %}
-{% if scraper.productId == page.item %}
+{% if scrap[1] == page.item %}
 
 {% assign rating = scraper.ratings %}
 {% assign price = scraper.salePrice.min %}

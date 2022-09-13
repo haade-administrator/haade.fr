@@ -4,14 +4,14 @@ const cheerio = require('cheerio');
 const Variants = require('./variants');
 const Feedback = require('./feedback');
 
-async function AliexpressProductScraper(productId, feedbackLimit, puppeterHeaders = {},pageHeaders = {}) {
+async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({headless: false, args: ['--lang=fr-FR,fr']})
     process.setMaxListeners(Infinity);
     const page = await browser.newPage();
     await page.setDefaultNavigationTimeout(0);
     /** Scrape the aliexpress product page for details */
-    await page.goto(`https://www.aliexpress.com/item/${productId}.html`,pageHeaders);
+    await page.goto(`https://www.aliexpress.com/item/${productId}.html`);
     const aliExpressData = await page.evaluate(() => runParams);
 
     /** Products shipping charges data */
