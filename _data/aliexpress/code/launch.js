@@ -22,7 +22,7 @@ async function delayedLog(item) {
     const copy = JSON.stringify ({product}, null, 4);
 
     // write JSON string to a file
-    fs.writeFile('./../scrapers/' + item + ".json", copy, (err) => {
+    fs.writeFile('./_data/aliexpress/scrapers/' + item + ".json", copy, (err) => {
         if (err) {
             throw err;
         }
