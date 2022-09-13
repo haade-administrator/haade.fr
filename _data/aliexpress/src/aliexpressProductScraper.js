@@ -6,9 +6,23 @@ const Feedback = require('./feedback');
 
 async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
-    const browser = await puppeteer.launch()
+    const browser = await puppeteer.launch({args: ['--lang=fr-FR,fr']})
     process.setMaxListeners(Infinity);
     const page = await browser.newPage();
+    await page.setExtraHTTPHeaders({'Accept-Language': 'fr'});
+    // Set the language forcefully on javascript
+await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, "language", {
+        get: function() {
+            return "fr-FR";
+        }
+    });
+    Object.defineProperty(navigator, "languages", {
+        get: function() {
+            return ["fr-FR", "fr"];
+        }
+    });
+});
     await page.setDefaultNavigationTimeout(0);
 
     /** Scrape the aliexpress product page for details */
@@ -93,7 +107,7 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
                 variant.maxQuant = await maxQuant?.textContent;
 
                 variant.shipping = {};
-                for (const country of ["United States"]) {
+                for (const country of ["France"]) {
                     variant.shipping[country] = [];
                     await checkAvaliblity("span.product-shipping-info");
                     const shippingDialogLink = await document.querySelector("span.product-shipping-info");
