@@ -58,6 +58,23 @@
             {%- endfor %}
           {%- endif %}
 
+        {%- elsif page.layout == 'product' %}
+          {%- assign navigation_shops = site.shop
+            | where: 'guid', page.guid
+            | where: 'locale', language[1].slug %}
+          {%- if navigation_shops.size == 1 %}
+            {%- for navigation_shop in navigation_shops %}
+              {%- assign url = site.baseurl | append: navigation_shop.url %}
+            {%- endfor %}
+          {%- else %}
+            {%- assign navigation_pages = site.pages
+              | where: 'locale_reference', site.fallback_page
+              | where: 'locale', language[1].slug %}
+            {%- for navigation_page in navigation_pages limit:1 %}
+              {%- assign url = site.baseurl | append: navigation_page.url %}
+            {%- endfor %}
+          {%- endif %}
+
 
       {%- else %}
         {%- assign navigation_pages = site.pages

@@ -1,10 +1,6 @@
 const scrape = require('./../index.js');
 
-const data  = [
-  '1005002125918926',
-  '1005002941131619',
-  '32982628286'
-]
+const data = require('./../../data.js');
 
 const fs = require('fs');
 
@@ -19,10 +15,10 @@ async function delayedLog(item) {
     await delay();
     const product = await scrape(item,2,{headless:false});
     console.log({product});
-    const copy = JSON.stringify ({product}, null, 4);
+    const copy = JSON.stringify ({product});
 
     // write JSON string to a file
-    fs.writeFile('./_data/aliexpress/scrapers/' + item + ".json", copy, (err) => {
+    fs.writeFile('./_data/aliexpress/fr_FR/scrapers/' + item + ".json", copy, (err) => {
         if (err) {
             throw err;
         }

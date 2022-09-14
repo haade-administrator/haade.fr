@@ -7,13 +7,12 @@ const Feedback = require('./feedback');
 // load cookie function
 const cookie = {
     name: 'aep_usuc_f',
-    value: 'site=fra&province=907200100001000000&city=907200100001135000&c_tp=EUR&x_alimid=2299046143&isfb=y&ups_d=1|1|1|1&isb=y&ups_u_t=1675349909049&region=FR&b_locale=fr_FR&ae_u_p_s=2',
+    value: 'site=glo&c_tp=USD&x_alimid=2299046143&isfb=y&ups_d=1|1|1|1&isb=y&ups_u_t=1675349909049&region=UK&b_locale=en_US&ae_u_p_s=2',
     domain: '.aliexpress.com',
     path: '/',
     httpOnly: true,
     secure: true
 }
-
 
 async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
@@ -24,7 +23,7 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
     await page.setDefaultNavigationTimeout(0);
 
     /** Scrape the aliexpress product page for details */
-    await page.goto(`https://fr.aliexpress.com/item/${productId}.html`);
+    await page.goto(`https://www.aliexpress.com/item/${productId}.html`);
     const aliExpressData = await page.evaluate(() => runParams);
 
     /** Products shipping charges data */
@@ -105,7 +104,7 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
                 variant.maxQuant = await maxQuant?.textContent;
 
                 variant.shipping = {};
-                for (const country of ["France"]) {
+                for (const country of ["United Kingdom"]) {
                     variant.shipping[country] = [];
                     await checkAvaliblity("span.product-shipping-info");
                     const shippingDialogLink = await document.querySelector("span.product-shipping-info");

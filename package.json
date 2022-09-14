@@ -31,7 +31,8 @@
   "scripts": {
     "uglify": "uglifyjs _drafts/assets/js/flag.js _drafts/assets/js/lazyload.js _drafts/assets/js/lunr.js _drafts/assets/js/navbar.js _drafts/assets/js/prism.js _drafts/assets/js/theme.js -c -m -o assets/js/test.min.js",
     "add-banner": "node banner.js",
-    "scrap": "node ./_data/aliexpress/code/launch.js",
+    "scrapFR": "node ./_data/aliexpress/fr_FR/code/launch.js",
+    "scrapEN": "node ./_data/aliexpress/en_GB/code/launch.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify && npm run add-banner"
   }

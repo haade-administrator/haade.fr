@@ -18,7 +18,12 @@ post_class: post-template
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
 
-{% for scraper_hash in site.data.aliexpress.scrapers %}
+{% if page.locale == 'fr_FR' %}
+{% assign localscrapers = site.data.aliexpress.fr_FR.scrapers %}
+{% else %}
+{% assign localscrapers = site.data.aliexpress.en_GB.scrapers %}
+{% endif %}
+{% for scraper_hash in localscrapers %}
 {% assign scrap = scraper_hash[1] %}
 {% assign scraper = scrap.product %}
 {% if scraper.productId == page.item %}
