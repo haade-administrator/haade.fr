@@ -1,4 +1,5 @@
 ---
+guid: 2104
 title: "Boitier Alu raspberrpi 4 Argon avec disque Nvme M.2"
 date: "2021-03-19"
 coverImage: "ArgonONEM2CaseforRaspberryPi4ModelBM2SATASSDto.jpg"

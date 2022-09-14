@@ -1,5 +1,5 @@
 ---
-guid: 2101
+guid: 2123
 layout: product
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:

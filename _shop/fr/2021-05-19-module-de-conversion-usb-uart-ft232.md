@@ -1,4 +1,5 @@
 ---
+guid: 2114
 title: "Module de conversion usb uart ft232"
 date: "2021-05-19"
 ---

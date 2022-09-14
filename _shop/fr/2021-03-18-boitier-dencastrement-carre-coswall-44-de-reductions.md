@@ -1,4 +1,5 @@
 ---
+guid: 2102
 title: "Boîtier d&#39;encastrement carré Coswall 44% de réductions"
 date: "2021-03-18"
 coverImage: "Coswallbotededoubluresche1Gangpourplaquesdepltrecloisonss.jpg"

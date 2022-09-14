@@ -1,4 +1,5 @@
 ---
+guid: 2113
 title: "ESP8266 relay 7-30v Yunshan lysignal ESP-12F"
 date: "2021-05-17"
 ---

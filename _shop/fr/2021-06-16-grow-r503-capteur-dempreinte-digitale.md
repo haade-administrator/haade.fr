@@ -1,4 +1,5 @@
 ---
+guid: 2117
 title: "GROW R503 - Fingerprint sensor"
 date: "2021-06-16"
 ---

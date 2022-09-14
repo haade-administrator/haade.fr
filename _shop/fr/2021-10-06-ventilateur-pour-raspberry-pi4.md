@@ -1,4 +1,5 @@
 ---
+guid: 2125
 title: "Ventilateur pour Raspberry Pi4"
 date: "2021-10-06"
 ---

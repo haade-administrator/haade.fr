@@ -1,4 +1,5 @@
 ---
+guid: 2109
 title: "ARGON ONE+ boitier alu raspberry pi 4B"
 date: "2021-03-25"
 coverImage: "RaspberryPi4BARGONONEAluminumCaseHousingTheAdapterPlateCoolingFans.jpg"
