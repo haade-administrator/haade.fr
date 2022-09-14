@@ -4,11 +4,23 @@ const cheerio = require('cheerio');
 const Variants = require('./variants');
 const Feedback = require('./feedback');
 
+// load cookie function
+const cookie = {
+    name: 'aep_usuc_f',
+    value: 'site=fra&province=907200100001000000&city=907200100001135000&c_tp=EUR&x_alimid=2299046143&isfb=y&ups_d=1|1|1|1&isb=y&ups_u_t=1675349909049&region=FR&b_locale=fr_FR&ae_u_p_s=2',
+    domain: '.aliexpress.com',
+    path: '/',
+    httpOnly: true,
+    secure: true
+}
+
+
 async function AliexpressProductScraper(productId, feedbackLimit) {
     const FEEDBACK_LIMIT = feedbackLimit || 10;
-    const browser = await puppeteer.launch({ env: { LANGUAGE: "fr_FR" } })
+    const browser = await puppeteer.launch()
     process.setMaxListeners(Infinity);
     const page = await browser.newPage();
+    await page.setCookie(cookie)
     await page.setDefaultNavigationTimeout(0);
 
     /** Scrape the aliexpress product page for details */
