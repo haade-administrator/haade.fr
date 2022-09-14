@@ -11,7 +11,7 @@ image: "https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit
 imageshadow: true
 comments: false
 published: true
-item: 3256801939604174
+item: 1005002125918926
 item-affiliate: "_DdC2WHD"
 ---
 
