@@ -157,6 +157,10 @@ product:
     fr_FR: avis
     en_GB: Reviews
 
+  reseller:
+    fr_FR: revendeur
+    en_GB: reseller
+
 # table of Content
 
 sommary:
