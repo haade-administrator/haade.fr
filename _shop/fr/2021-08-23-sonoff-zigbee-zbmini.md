@@ -1,4 +1,5 @@
 ---
+guid: 2120
 title: "Sonoff zigbee zbmini"
 date: "2021-08-23"
 ---

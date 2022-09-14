@@ -1,4 +1,5 @@
 ---
+guid: 2112
 title: "Caméra colorvu protocole hikvision"
 date: "2021-03-27"
 coverImage: "HikvisionCompatibleFullColorNightCameraIPColorVuBulletColorfulHDCam8MP5MP2MPNetwork.jpg"

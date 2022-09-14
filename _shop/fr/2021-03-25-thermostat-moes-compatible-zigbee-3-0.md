@@ -1,4 +1,5 @@
 ---
+guid: 2111
 title: "Thermostat Moes compatible zigbee 3.0"
 date: "2021-03-25"
 ---

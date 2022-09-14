@@ -1,5 +1,5 @@
 ---
-guid: 2100
+guid: 2121
 layout: product
 title: "Capteur température sonoff snzb-02 zigbee"
 date: "2021-08-25"

@@ -1,4 +1,5 @@
 ---
+guid: 2126
 title: "Écran tactile Raspberry Pi"
 date: "2021-10-11"
 ---

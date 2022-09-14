@@ -1,4 +1,5 @@
 ---
+guid: 2108
 title: "Upgrade 2020 Moes zigbee-rf interrupteur sur ancien"
 date: "2021-03-21"
 coverImage: "TuyaZigBee30SmartLightSwitchRelayModule123GangSmartLifeTuya.jpg"

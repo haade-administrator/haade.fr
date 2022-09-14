@@ -1,4 +1,5 @@
 ---
+guid: 2105
 title: "Boitier d&#39;encastrement à sceller Coswall 85mm"
 date: "2021-03-19"
 coverImage: "CoswallAdjustableMountingBoxInternalCassette86mm85mm50mmFor86TypeSwitchandSocketWhite.jpg"

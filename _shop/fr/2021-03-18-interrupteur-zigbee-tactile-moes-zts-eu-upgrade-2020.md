@@ -1,4 +1,5 @@
 ---
+guid: 2103
 title: "Interrupteur Zigbee tactile Moes ZTS-EU upgrade 2020"
 date: "2021-03-18"
 coverImage: "ZigBeeWallTouchSmartLightSwitchWithNeutralNoNeutralNoCapacitorSmartLifeTuyaWorks.jpg"

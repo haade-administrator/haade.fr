@@ -1,4 +1,5 @@
 ---
+guid: 2118
 title: "Thermomètre Zigbee Moes 3 en 1"
 date: "2021-08-03"
 ---
