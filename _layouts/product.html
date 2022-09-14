@@ -29,6 +29,7 @@ post_class: post-template
 {% if scraper.productId == page.item %}
 
 {% assign rating = scraper.ratings %}
+{% assign star = rating.averageStar %}
 {% assign price = scraper.salePrice.min %}
 {% assign originalprice = scraper.originalPrice.min %}
 {% assign currency = scraper.currency %}
@@ -73,104 +74,3 @@ post_class: post-template
 </div>
 {% include comments.html %}
 </div>
-
-<style>
-
-.listscraper {
-  display: flex;
-  flex-direction: column;
-      flex-wrap: nowrap;
-      align-content: flex-start;
-      align-items: flex-start;
-      justify-content: center;
-      width: 100%;
-      /* margin-left: auto; */
-      margin-right: auto;
-      padding-left: 20px;
-}
-
-.itemscraper {
-  display: flex;
-  flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: center;
-}
-
-.totalrating {
-  margin-left: 10px;
-  font-size: 13px;
-  color: #888;
-}
-
-.originalprice {
-  margin-left: 10px;
-  font-size: 13px;
-  color: #888;
-  text-decoration: line-through;
-}
-
-  .shop-single {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-
-.shop-single .comments {
-width: 100%;
-padding-left: 20px;
-padding-right: 20px;
-margin-left: auto;
-margin-right: auto;
-}
-
-  .shop-pictures {
-    display: flex;
-width: 40%;
-height: auto;
-  }
-
-  .shop-article h1 {
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align:center;
-  }
-
-  .shop-article h2 {
-    font-size: 20px;
-  }
-
-  .shop-article {
-    display: flex;
-    width:60%;
-    height: auto;
-flex-direction: column;
-}
-
-.shop-article .rating {
-  margin-left: 0px;
-}
-
-  .shop-article .article-post {
-    font-size: 18px;
-  }
-
-  @media(max-width: 1024px) {
-    .shop-single{
-      flex-direction: column;
-    }
-    .shop-pictures {
-      width: 100%;
-    }
-    .shop-article {
-      width: 100%;
-    }
-  }
-
-
-
-  </style>

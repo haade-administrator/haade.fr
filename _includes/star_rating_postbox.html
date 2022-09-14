@@ -1,8 +1,10 @@
-{% if page.layout != 'shop' %}
+{% if page.collection != 'shop' %}
 <div class="rating-holder">
   <div class="Stars" style="--rating: {{post.rating}}; --star-background: #FF6600" aria-label="Rating of this product is {{post.rating}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{post.rating}} {{ translate.product.outof[page.locale] }} 5."></div>
 </div>
-{% elsif page.layout == 'shop' %}
-{% assign star = rating.averageStar %}
-<div class="Stars" style="--rating: {{post.star}};" aria-label="Rating of this product is {{post.star}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{post.star}} {{ translate.product.outof[page.locale] }} 5."></div>
+{% else %}
+{% assign stars = site.pages | map: '--rating:' %}
+{% for note in stars %}
+<div class="Stars" style="--rating: {{note}};" aria-label="Rating of this product is {{post.star}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{post.star}} {{ translate.product.outof[page.locale] }} 5."></div>
+{% endfor %}
 {% endif %}

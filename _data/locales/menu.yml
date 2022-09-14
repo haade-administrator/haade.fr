@@ -92,10 +92,10 @@ contributors:
 shop:
   fr_FR:
     name: 'Boutique'
-    link: 'fr/category/boutique'
+    link: 'fr/shop/boutique'
   en_GB:
     name: 'Shop'
-    link: 'en/category/shop'
+    link: 'en/shop/shop'
 
 brand:
   fr_FR:

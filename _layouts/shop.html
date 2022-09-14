@@ -1,5 +1,5 @@
 ---
-title: "Categories"
+title: "Shop"
 layout: default
 ---
 {% include breadcrumbs.html path=page.path title=page.title %}
@@ -11,8 +11,8 @@ layout: default
 <br />
 <div class="blog-grid-container">
   <!-- ajout multilingual -->
-{% assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true %}
-{% for post in category  %}
+{% assign shop = site.shop | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
+{% for post in shop  %}
 {% include postbox.html %}
 {% endfor %}
 </div>

@@ -13,6 +13,7 @@ comments: false
 published: true
 item: 32982628286
 item-affiliate: _DBKptAP
+rating: 4
 ---
 
 > Clé fonctionnel avec zigbee2mqtt et jeedom ou homeassistant**
