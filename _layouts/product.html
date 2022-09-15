@@ -24,7 +24,7 @@ post_class: post-template
   <div class="shop-pictures">
 {%- assign images = scraper.images %}
 <!-- Featured Image -->
-{% include featured-image.html %}
+{% include imagegallery.html %}
 
 {%- assign store = scraper.storeInfo %}
 {%- assign reseller = store.name %}
