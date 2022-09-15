@@ -10,23 +10,35 @@ post_class: post-template
 {% include breadcrumbs.html path=page.path title=page.title %}
 
 <div class="shop-single">
-  <div class="shop-pictures">
 
+  {%- if page.locale == 'fr_FR' %}
+  {%- assign localscrapers = site.data.aliexpress.fr_FR.scrapers %}
+  {%- else %}
+  {%- assign localscrapers = site.data.aliexpress.en_GB.scrapers %}
+  {%- endif %}
+  {%- for scraper_hash in localscrapers %}
+  {%- assign scrap = scraper_hash[1] %}
+  {%- assign scraper = scrap.product %}
+  {%- if scraper.productId == page.item %}
+
+  <div class="shop-pictures">
+{%- assign images = scraper.images %}
 <!-- Featured Image -->
 {% include featured-image.html %}
+
+{%- assign store = scraper.storeInfo %}
+{%- assign reseller = store.name %}
+{%- assign resellernr = store.storeNumber %}
+{%- assign resellerstar = store.rating %}
+{%- assign resellerfw = store.followers %}
+<div class="reseller">
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.reseller[page.locale] }}:</strong><a href="https://www.aliexpress.com/store/{{ resellernr }}">{{ reseller }}</a></div>
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.feedback[page.locale] }}:</strong>{{ resellerstar }}</div>
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.follower[page.locale] }}:</strong>{{ resellerfw }}</div>
+</div>
 </div>
 <div class="shop-article">
 <h1 class="posttitle">{{ page.title }}</h1>
-
-{%- if page.locale == 'fr_FR' %}
-{%- assign localscrapers = site.data.aliexpress.fr_FR.scrapers %}
-{%- else %}
-{%- assign localscrapers = site.data.aliexpress.en_GB.scrapers %}
-{%- endif %}
-{%- for scraper_hash in localscrapers %}
-{%- assign scrap = scraper_hash[1] %}
-{%- assign scraper = scrap.product %}
-{%- if scraper.productId == page.item %}
 
 {%- assign rating = scraper.ratings %}
 {%- assign star = rating.averageStar %}
@@ -35,11 +47,6 @@ post_class: post-template
 {%- assign currency = scraper.currency %}
 {%- assign quantity = scraper.totalAvailableQuantity %}
 {%- assign feedback = scraper.feedback %}
-{%- assign store = scraper.storeInfo %}
-{%- assign reseller = store.name %}
-{%- assign resellernr = store.storeNumber %}
-{%- assign resellerstar = store.rating %}
-{%- assign resellerfw = store.followers %}
 
 <!-- Rating -->
 <div class="mt-4 mb-4 d-flex align-items-center">
@@ -51,9 +58,6 @@ post_class: post-template
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
     <div class="itemscraper"> <strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
   </div>
-</div>
-<div class="reseller">
-<div class="reseller-name"><strong class="mr-1">{{ translate.product.reseller[page.locale] }}:</strong><a href="https://www.aliexpress.com/store/{{ resellernr }}">{{ reseller }}</a>, {{ resellerstar }} Positive feedback, {{ resellerfw }} followers</div>
 </div>
 {% endif %}
 {% endfor %}
@@ -82,3 +86,10 @@ post_class: post-template
 </div>
 {% include comments.html %}
 </div>
+
+<style>
+.reseller {
+  border: 1px solid #eaeaea;
+  padding: 3px 4px;
+}
+</style>

@@ -158,9 +158,16 @@ product:
     en_GB: Reviews
 
   reseller:
-    fr_FR: revendeur
-    en_GB: reseller
+    fr_FR: Revendeur
+    en_GB: Reseller
 
+  feedback:
+    fr_FR: Commentaires Positif
+    en_GB: Positive Feedback
+
+  follower:
+    fr_FR: Fans
+    en_GB: Followers
 # table of Content
 
 sommary:

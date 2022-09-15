@@ -127,6 +127,7 @@ $lightblue: #2AD2FD;
 
   .shop-pictures {
     display: flex;
+    flex-direction: column;
 width: 40%;
 height: auto;
   }
@@ -159,7 +160,7 @@ flex-direction: column;
         align-content: flex-start;
         align-items: flex-start;
         justify-content: center;
-        width: 100%;
+        width: 50%;
         /* margin-left: auto; */
         margin-right: auto;
         padding-left: 20px;
