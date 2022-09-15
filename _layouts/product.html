@@ -38,7 +38,9 @@ post_class: post-template
 </div>
 </div>
 <div class="shop-article">
-<h1 class="posttitle">{{ page.title }}</h1>
+{%- assign scraptitle = scraper.title | strip_html %}
+
+<h1 class="posttitle">{{ scraptitle | truncatewords: 9 }}</h1>
 
 {%- assign rating = scraper.ratings %}
 {%- assign star = rating.averageStar %}
@@ -64,6 +66,8 @@ post_class: post-template
 {% include buttonshop.html %}
 
 <!-- Content -->
+{%- assign scrapdescription = scraper.description | strip_html %}
+
 {% include article.html %}
 
 {% include buttonshop.html %}
