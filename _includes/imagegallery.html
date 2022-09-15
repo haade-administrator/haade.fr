@@ -2,7 +2,7 @@
   <div class="product-small-img">
     {% for pictures in images | limit:5 %}
         {% if site.lazyimages == "enabled" %}
-        <img class="gallery-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ pictures }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
+        <img class="gallery-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if pictures contains "://" %}{{ pictures }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
         {% else %}
         <img class="gallery-image {% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ images }}{% else %}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
         {% endif %}
@@ -11,9 +11,8 @@
   </div>
 <div class="img-product-container">
   {% for pictures in images | offset:0 limit:1 %}
-
   {% if site.lazyimages == "enabled" %}
-  <img id="imageBox" class="lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ pictures }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
+  <img id="imageBox" class="lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if pictures contains "://" %}{{ pictures }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
   {% else %}
   <img id="imageBox" class="{% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ pictures }}{% else %}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
   {% endif %}
