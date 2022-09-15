@@ -46,10 +46,8 @@ jobs:
           node -v
           npm -v
           npm install
-          npm run scrapFR
-          echo aliexpress scraperFR OK
-          npm run scrapEN
-          echo aliexpress scraperEN OK
+          npm run scrap
+          echo aliexpress scraper OK
           vips -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
