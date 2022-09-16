@@ -31,7 +31,8 @@
                   {% include star_rating_postbox.html %}
                 </div>
                 {% assign star = rating.averageStar %}
-                {% elsif include.voting %}
+                {% assign star = post.starscrap | split:"<img " %}
+                {% elsif star %}
                 <div class="mb-2 mt-2 font-weight-normal">
                   {% include star_rating_postbox.html %}
                 </div>
