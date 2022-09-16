@@ -130,6 +130,14 @@ $lightblue: #2AD2FD;
     flex-direction: column;
 width: 40%;
 height: auto;
+
+.reseller {
+  border: 1px solid #eaeaea;
+  padding: 3px 4px;
+}
+h5 {font-weight: 600;
+text-decoration: underline;
+}
   }
 
 .shop-article {
@@ -194,21 +202,34 @@ flex-direction: column;
   @media (max-width: 1024px) {
     .shop-single{
       flex-direction: column;
-    }
+
     .shop-pictures {
       width: 100%;
+
+      .reseller {
+        text-align: center;
+        margin-bottom: 20px;
+      }
     }
     .shop-article {
       width: 100%;
+
+      .listscraper {
+        align-items: center;
+      }
+      .button-shop {
+        padding-left: 0px;
+        flex-direction: column;
+      }
     }
-    .button-shop {
-      padding-left: 85px;
-    }
+  }
   }
 
 /* button-shop product */
 
 .button-shop {
+  display: flex;
+  flex-direction: row;
   padding-left: 20px;
 
 

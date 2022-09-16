@@ -19,7 +19,7 @@
                 <span><a href="{{ site.baseurl }}/{{ menu.tutorials[page.locale].link }}">{{ menu.tutorials[page.locale].name }}</a>
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
-                <ul class="more-sub-menu sub-menu tuto">
+                <ul class="more-sub-menu sub-menu">
                   <li><a href="{{ site.baseurl }}/{{ menu.docker[page.locale].link }}">{{ menu.docker[page.locale].name}}</a></li>
                   <li><a href="{{ site.baseurl }}/{{ menu.ha[page.locale].link }}">{{ menu.ha[page.locale].name }}</a></li>
                   <li><a href="{{ site.baseurl }}/{{ menu.jeedom[page.locale].link }}">{{ menu.jeedom[page.locale].name }}</a></li>
@@ -56,6 +56,7 @@
               </li>
             </ul> -->
           </li>
+          <li>{% include flag.html %}</li>
         </ul>
       </div>
 
