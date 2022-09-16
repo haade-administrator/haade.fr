@@ -4,22 +4,7 @@ on:
   schedule:
     - cron: '0 2 * * *'
 
-  push:
-    branches:
-      - 'main'
-      - 'releases/**'
-      - '!releases/**-alpha'
-
-    tags:
-      - v1.*.*
-
-    paths-ignore:
-      - .gitignore
-      - README.md
-      - LICENSE.txt
-env:
-  LANG: "fr_FR.UTF-8"
-  
+ 
 jobs:
   github-pages:
     runs-on: ubuntu-latest
