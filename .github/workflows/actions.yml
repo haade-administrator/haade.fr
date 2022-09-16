@@ -1,24 +1,27 @@
 name: Build and deploy Jekyll H2ade Blog
 
 on:
+#  schedule:
+#    - cron: '0 2 * * *'
+
+  push:
+    branches:
+      - 'main'
+      - 'releases/**'
+      - '!releases/**-alpha'
+
+    tags:
+      - v1.*.*
+
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE.txt
+env:
+  LANG: "fr_FR.UTF-8"
+  
   schedule:
     - cron: '0 2 * * *'
-
-#  push:
-#    branches:
-#      - 'main'
-#      - 'releases/**'
-#      - '!releases/**-alpha'
-#
-#    tags:
-#      - v1.*.*
-#
-#    paths-ignore:
-#      - .gitignore
-#      - README.md
-#      - LICENSE.txt
-#env:
-#  LANG: "fr_FR.UTF-8"
  
  
 jobs:
