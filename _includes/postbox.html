@@ -4,15 +4,23 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ post.url }}">
-                {% if post.image %}
-
-                    {% if site.lazyimages == "enabled" %}
+              {%- if page.layout != 'shop' %}
+                {%- if post.image %}
+                    {%- if site.lazyimages == "enabled" %}
                         <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-368.webp{{ cachebuster }}{% endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {% else %}
+                    {%- else %}
                         <img class="img-thumb" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-368.webp{{ cachebuster }}{% endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {% endif %}
-
-                {% endif %}
+                    {%- endif %}
+                {%- endif %}
+                {%- else %}
+                {%- if post.image %}
+                    {%- if site.lazyimages == "enabled" %}
+                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/images/shop/{{ post.guid }}/{{ post.image }}{{ cachebuster }}{% endif %}" width="368" height="207" alt="{{ post.title }}">
+                    {%- else %}
+                        <img class="img-thumb" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/assets/images/shop/{{ post.guid }}/{{ post.image }}{{ cachebuster }}{% endif %}" width="368" height="207" alt="{{ post.title }}">
+                    {%- endif %}
+                {%- endif %}
+              {%- endif %}
             </a>
         </div>
         <div class="card-body">
@@ -23,7 +31,7 @@
                   {% include star_rating_postbox.html %}
                 </div>
                 {% assign star = rating.averageStar %}
-                {% elsif post.star %}
+                {% elsif include.voting %}
                 <div class="mb-2 mt-2 font-weight-normal">
                   {% include star_rating_postbox.html %}
                 </div>

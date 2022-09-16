@@ -1,4 +1,5 @@
-{% if page.image %}
+{%- if page.layout != 'product' %}
+{%- if page.image %}
 <div class="entry-featured-image">
     {% if site.lazyimages == "enabled" %}
     <img class="featured-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
@@ -6,4 +7,13 @@
     <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
     {% endif %}
 </div>
-{% endif %}
+{%- endif %}
+{%- else %}
+<div class="entry-featured-image">
+    {%- if site.lazyimages == "enabled" %}
+    <img class="featured-image lazyimg {% if page.imageshadow %} image-shadow {% endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{site.url}}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
+    {%- else %}
+    <img class="featured-image {% if page.imageshadow %} image-shadow {% endif %}" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{% endif %}" alt="{{ page.title }}">
+    {%- endif %}
+</div>
+{%- endif %}

@@ -4,10 +4,10 @@ post_class: post-template
 ---
 
 <!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
-{% assign translate = site.data.locales.translate %}
+{%- assign translate = site.data.locales.translate %}
 
 <!-- breadcrumbs -->
-{% include breadcrumbs.html path=page.path title=page.title %}
+{%- include breadcrumbs.html path=page.path title=page.title %}
 
 <div class="shop-single">
 
@@ -24,7 +24,7 @@ post_class: post-template
   <div class="shop-pictures">
 {%- assign images = scraper.images %}
 <!-- Featured Image -->
-{% include imagegallery.html %}
+{% include featured-image.html %}
 
 {%- assign store = scraper.storeInfo %}
 {%- assign reseller = store.name %}
@@ -52,43 +52,43 @@ post_class: post-template
 
 <!-- Rating -->
 <div class="mt-4 mb-4 d-flex align-items-center">
-  {% if star %}
+  {%- if star %}
   <div class="listscraper">
     <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</div>
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {% include star_rating.html %} <div class="totalrating">({{ rating.totalStartCount }} {{ translate.product.reviews[page.locale] }})</div></div>
-    {% endif %}
+  {%- endif %}
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
-    <div class="itemscraper"> <strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
+    <div class="itemscraper"><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
   </div>
 </div>
-{% endif %}
-{% endfor %}
-{% include buttonshop.html %}
+{%- endif %}
+{%- endfor %}
+{%- include buttonshop.html %}
 
 <!-- Content -->
 {%- assign scrapdescription = scraper.description | strip_html %}
 
-{% include article.html %}
+{%- include article.html %}
 
-{% include buttonshop.html %}
+{%- include buttonshop.html %}
 
 </div>
 <!-- Comments if not disabled with comments: false -->
 <div class="feedbackscraper">
 
-  {% for vote in feedback %}
+  {%- for vote in feedback %}
 <ul>
   <li>{{ vote.name }}</li>
   <li>{{ vote.displayName }}</li>
   <li>{{ vote.rating }}</li>
   <li>{% include date.html date=vote.date %}</li>
-  {% if vote.content != '' %}
+  {%- if vote.content != '' %}
   <li>{{ vote.content | strip_html }}</li>
-  {% endif %}
+  {%- endif %}
 </ul>
-{% endfor %}
+{%- endfor %}
 </div>
-{% include comments.html %}
+{%- include comments.html %}
 </div>
 
 <style>

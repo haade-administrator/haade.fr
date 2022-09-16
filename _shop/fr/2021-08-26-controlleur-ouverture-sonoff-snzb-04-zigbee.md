@@ -7,7 +7,7 @@ date: "2021-06-28"
 categories: Boutique Marque Protocole Sonoff Zigbee
 locale: fr_FR
 ean:
-image: "https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg"
+image: SONOFF-SNZB-04.webp
 imageshadow: true
 comments: false
 published: true
