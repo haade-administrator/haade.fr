@@ -17,11 +17,12 @@ on:
       - .gitignore
       - README.md
       - LICENSE.txt
+      
+  schedule:
+    - cron: '0 2 * * *'   
+      
 env:
   LANG: "fr_FR.UTF-8"
-  
-  schedule:
-    - cron: '0 2 * * *'
  
  
 jobs:
