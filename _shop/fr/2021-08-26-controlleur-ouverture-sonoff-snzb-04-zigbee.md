@@ -21,7 +21,7 @@ Le capteur de porte/fenêtre sans fil SONOFF SNZB-04 est essentiel pour savoir q
 SONOFF SNZB-04 est un capteur de porte/fenêtre sans fil ZigBee deux-en-un qui peut être placé sur votre porte ou fenêtre pour vous dire avec une notification d’alerte si votre porte ou fenêtre est ouverte ou fermée, ajoutant une couche de sécurité supplémentaire à votre domicile. Le capteur vous offre la possibilité de créer un lien de scène entre ZigBee et les appareils Wi-Fi grâce à homeassistant.
 
 ## Spécifications :
-- Batterie : 3 V (CR2450).
+- Branchement : Pile 3 V (CR2450).
 - Connexion sans fil : Zigbee 3.0.
 
 ## Dimension :

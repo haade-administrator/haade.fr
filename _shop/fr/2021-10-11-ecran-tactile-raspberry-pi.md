@@ -2,6 +2,15 @@
 guid: 2126
 title: "Écran tactile Raspberry Pi"
 date: "2021-10-11"
+images:
+
+  - url: /assets/img/cypripedium-calceolum.jpg
+    alt: Cypripedium Calceolum
+    title: Cypripedium Calceolum
+
+  - url: /assets/img/hello-bumblebee.jpg
+    alt: Hello bumblebee !
+    title: Hello bumblebee !
 ---
 
 **➡Caractéristiques uniques de UPi06 Max:**

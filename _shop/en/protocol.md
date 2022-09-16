@@ -2,7 +2,7 @@
 guid: 2002
 title: Protocol
 category: Protocol
-description: ""
+description: "Z-wave, Zigbee, Wifi, Rf433Mhz"
 locale: en_GB
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

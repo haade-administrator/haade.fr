@@ -26,34 +26,28 @@
         <div class="card-body">
             <h2 class="card-title">
                 <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-                {% if post.rating %}
+                {%- if post.rating %}
                 <div class="mb-2 mt-2 font-weight-normal">
-                  {% include star_rating_postbox.html %}
+                  {%- include star_rating_postbox.html %}
                 </div>
-                {% assign star = rating.averageStar %}
-                {% assign star = post.starscrap | split:"<img " %}
-                {% elsif star %}
-                <div class="mb-2 mt-2 font-weight-normal">
-                  {% include star_rating_postbox.html %}
-                </div>
-                {% endif %}
+                {%- endif %}
             </h2>
             <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
-                {% if post.author %}
+                {%- if post.author %}
                 <span class="meta-footer-thumb">
-                {% if author.avatar %}
+                {%- if author.avatar %}
                 <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" width="40" height="40" alt="{{ author.display_name }}">
-                {% else %}
+                {%- else %}
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=40&d=mm&r=x" alt="{{ author.display_name }}">
-                {% endif %}
+                {%- endif %}
                 </span>
                 <span class="author-meta">
                 <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
-                {% endif %}
-                <span class="post-date">{% include date.html date=post.date %}</span>
+                {%- endif %}
+                <span class="post-date">{%- include date.html date=post.date %}</span>
                 </span>
                 <div class="clearfix"></div>
             </div>
