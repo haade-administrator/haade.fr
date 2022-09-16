@@ -5,13 +5,13 @@ on:
 #    - cron: '0 2 * * *'
 
   push:
-    branches:
-      - 'main'
-      - 'releases/**'
-      - '!releases/**-alpha'
+#    branches:
+#      - 'main'
+#      - 'releases/**'
+#      - '!releases/**-alpha'
 
-    tags:
-      - v1.*.*
+#    tags:
+#      - v1.*.*
 
     paths-ignore:
       - .gitignore
