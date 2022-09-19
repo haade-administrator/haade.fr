@@ -11,9 +11,71 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Sep 2022 04:29:48 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
+    <pubDate>Mon, 19 Sep 2022 17:01:04 +0000</pubDate>
+    <lastBuildDate>Fri, 16 Sep 2022 16:05:07 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+    <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2127/sonoff-nspanel-presentation.webp-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Sonoff NSPanel Smart Scene Wall Switch Smart Wifi Thermostat Temperature</title>
+      
+      
+      
+      <description>&lt;p&gt;The NSPanel Smart Scene Wall Switch is equipped with a built-in powerful thermostat and environmental sensors. You can set different indoor temperatures for different time periods, and NSPanel will automatically trigger heating or cooling equipment based on your setting conditions to keep the room at a comfortable temperature. What’s more, NSPanel has scenario-based control function, you can set different modes for wake up, work, entertainment and sleep, and you can switch mode at any time.&lt;/p&gt;
+</description>
+      
+      <pubDate>Fri, 16 Sep 2022 16:05:07 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</guid>
+      
+      
+      <category>Shop</category>
+      
+      <category>Brand</category>
+      
+      <category>Wifi</category>
+      
+      <category>Sonoff</category>
+      
+    </item>
+    
+    <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2123/https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg-944.webp</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>sonoff snzb-04 zigbee aperture controller</title>
+      
+      
+      
+      <description>&lt;p&gt;The SONOFF SNZB-04 Wireless Door/Window Sensor is essential for knowing who is entering and leaving your home, so it is most often used as part of a smart security system. As a home assistant, it is also zigbee2mqtt compatible and integrates the latest version of the zigbee 3.0 protocol.&lt;/p&gt;
+</description>
+      
+      <pubDate>Wed, 31 Aug 2022 18:41:06 +0000</pubDate>
+      <link>https://haade-administrator.github.io/en/blog/controlleur-ouverture-sonoff-snzb-04-zigbee</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/controlleur-ouverture-sonoff-snzb-04-zigbee</guid>
+      
+      
+      <category>Shop</category>
+      
+      <category>Brand</category>
+      
+      <category>Protocol</category>
+      
+      <category>Sonoff</category>
+      
+      <category>Zigbee</category>
+      
+    </item>
     
     <item>
       <!-- <image>
@@ -240,62 +302,6 @@
       
       
       <category>News</category>
-      
-    </item>
-    
-    <item>
-      <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/15/helios64-944.webp</url>
-          <title>Haade.fr</title>
-           <link>https://haade-administrator.github.io/haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Kobol helios 64 is done!</title>
-      
-      
-      <dc:creator>Nico</dc:creator>
-      
-      
-      <description>&lt;p&gt;On Wednesday 25 August, the company &lt;a href=&quot;https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/&quot; target=&quot;_blank&quot;&gt;Kobol&lt;/a&gt;.io &lt;strong&gt;decided to put an end to the adventure&lt;/strong&gt; of the open source helios 64 NAS (network attached storage) storage box.&lt;/p&gt;
-</description>
-      
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/kobol-helios-64-its-over</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/kobol-helios-64-its-over</guid>
-      
-      
-      <category>News</category>
-      
-    </item>
-    
-    <item>
-      <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-944.webp</url>
-          <title>Haade.fr</title>
-           <link>https://haade-administrator.github.io/haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002</title>
-      
-      
-      <dc:creator>Nico</dc:creator>
-      
-      
-      <description>&lt;p&gt;Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the &lt;a href=&quot;https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465&quot; target=&quot;_blank&quot;&gt;Atlantic thermostat 109519&lt;/a&gt; this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.&lt;/p&gt;
-</description>
-      
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</guid>
-      
-      
-      <category>Home-Assistant</category>
-      
-      <category>Tests</category>
-      
-      <category>Haade-lab</category>
       
     </item>
     
