@@ -4,7 +4,7 @@ layout: product
 title: "interrupteur mural wifi pour scene intelligente NSPANEL"
 description: interrupteur mural wifi pour scene intelligente NSPANEL
 date: "2022-09-16 18:05:07 +0200"
-categories: Boutique Marque Wifi Sonoff Protocole
+categories: Boutique Sonoff Wifi
 locale: fr_FR
 ean:
 image: sonoff-nspanel-presentation.webp

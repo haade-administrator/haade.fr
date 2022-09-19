@@ -7,13 +7,12 @@ description:
 categories: Boutique Marque Protocole Zigbee
 locale: fr_FR
 ean:
-image: "https://ae01.alicdn.com/kf/Hc2f2bee2df9d4fb982c0ae6b8a9c80a8f/mulateur-d-bogueur-ZIGBEE-CC2531-CC2540-avec-carte-Bluetooth-sans-fil-dongle-USB-programmeur-4.jpg_640x640.jpg"
+image: "CC-Debugger-ZIGBEE-emulator-CC2531-CC2540-Sniffer-Wireless-Board-Bluetooth-4-0-Dongle-Capture-USB-Programmer.jpg"
 imageshadow: true
 comments: false
 published: true
 item: 32982628286
-item-affiliate: _DBKptAP
-rating: 4
+item-affiliate: _DdpUY7l
 ---
 
 > Clé fonctionnel avec zigbee2mqtt et jeedom ou homeassistant**
