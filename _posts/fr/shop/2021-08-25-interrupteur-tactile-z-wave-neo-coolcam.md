@@ -2,6 +2,8 @@
 guid: 2122
 title: "Interrupteur tactile z-wave neo coolcam"
 date: "2021-08-25"
+layout: product
+published: false
 ---
 
 1. Conception intelligente: l'interrupteur d'éclairage est un appareil INTELLIGENT qui peut être contrôlé à distance par le réseau z-wave

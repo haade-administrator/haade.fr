@@ -3,6 +3,8 @@ guid: 2110
 title: "Capteur de porte Aqara par xiaomi zigbee 3.0"
 date: "2021-03-25"
 coverImage: "XiaomiAqaracapteurdouverturedeportefentrepourmaisonconnecteMinicapteurfonction.jpg"
+layout: product
+published: false
 ---
 
 **Xiaomi a sorti il y a quelque temps des capteurs de portes de qualité.**

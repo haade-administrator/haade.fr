@@ -3,6 +3,8 @@ guid: 2112
 title: "Caméra colorvu protocole hikvision"
 date: "2021-03-27"
 coverImage: "HikvisionCompatibleFullColorNightCameraIPColorVuBulletColorfulHDCam8MP5MP2MPNetwork.jpg"
+layout: product
+published: false
 ---
 
 Les caméra chinoises colorvu intégrant le protocole hikvision sont vraiment impressionnante rapport qualité prix.

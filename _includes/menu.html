@@ -40,7 +40,7 @@
           <li><a href="{{ site.baseurl }}/{{ menu.news[page.locale].link }}">{{ menu.news[page.locale].name }}</a></li>
           <li><a href="{{ site.baseurl }}/{{ menu.tests[page.locale].link }}">{{ menu.tests[page.locale].name }}</a></li>
           <li><a href="{{ site.baseurl }}/{{ menu.contributors[page.locale].link }}">{{ menu.contributors[page.locale].name }}<span class="badge badge-primary">News</span></a></li>
-          <li><a href="{{ site.baseurl }}/{{ menu.shop[page.locale].link }}">{{ menu.shop[page.locale].name }}<span class="badge badge-light tags">{{ site.shop | where: 'locale', page.locale | where:"layout","product" | size }}</span></a>
+          <li><a href="{{ site.baseurl }}/{{ menu.shop[page.locale].link }}">{{ menu.shop[page.locale].name }}<span class="badge badge-light tags">{{ site.posts | where: 'locale', page.locale | where:"layout", "product" | size }}</span></a>
             <!-- <i class="fas fa-angle-down htmlcss-arrow arrow shop"></i>
             <ul class="htmlCss-sub-menu sub-menu shop">
               <li><a href="{{ site.baseurl }}/{{ menu.brand[page.locale].link }}">{{ menu.brand[page.locale].name }}</a></li>

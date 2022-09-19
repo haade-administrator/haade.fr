@@ -23,7 +23,7 @@ sitemap:
   <div class="post-grid">
     <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.locale] }} ..</span></h2>
     <br />
-{%- assign posts = paginator.posts | where: 'locale', page.locale %}
+{%- assign posts = paginator.posts | where: 'locale', page.locale | where: 'layout', 'post' %}
 {%- for post in posts %}
         {% include postbox.html %}
     {% endfor %}

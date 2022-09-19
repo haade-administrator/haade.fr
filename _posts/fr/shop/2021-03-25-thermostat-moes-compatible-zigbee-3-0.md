@@ -2,6 +2,8 @@
 guid: 2111
 title: "Thermostat Moes compatible zigbee 3.0"
 date: "2021-03-25"
+layout: product
+published: false
 ---
 
 Décidément Moes fabrique des produits zigbee de qualité et nous allons dans très peut de temps vous présenter plus en détail ce thermostat avec un article détaillé et peut être une vidéo présenté par tonton

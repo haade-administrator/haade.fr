@@ -4,7 +4,7 @@ layout: product
 title: "Clé sniffer zigbee CC2531 avec antenne"
 date: "2019-12-09"
 description:
-categories: Boutique Marque Protocole Sonoff Zigbee
+categories: Boutique Marque Protocole Zigbee
 locale: fr_FR
 ean:
 image: "https://ae01.alicdn.com/kf/Hc2f2bee2df9d4fb982c0ae6b8a9c80a8f/mulateur-d-bogueur-ZIGBEE-CC2531-CC2540-avec-carte-Bluetooth-sans-fil-dongle-USB-programmeur-4.jpg_640x640.jpg"

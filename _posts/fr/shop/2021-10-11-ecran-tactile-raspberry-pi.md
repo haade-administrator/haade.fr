@@ -11,6 +11,8 @@ images:
   - url: /assets/img/hello-bumblebee.jpg
     alt: Hello bumblebee !
     title: Hello bumblebee !
+layout: product
+published: false
 ---
 
 **➡Caractéristiques uniques de UPi06 Max:**

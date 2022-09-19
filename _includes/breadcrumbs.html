@@ -19,13 +19,8 @@
 {% if forloop.last %}
 {% if include.title %}{{include.title}}{% else %}{{ category }}{% endif %}
 {% else %}
-{% if page.layout != 'product' %}
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
 itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
-{% else %}
-<li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/shop/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
-{% endif %}
 {% endif %}
 {% endfor %}
 

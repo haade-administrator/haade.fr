@@ -2,6 +2,8 @@
 guid: 2116
 title: "[:fr]GRANDIR R503 plaque inox plus protection pour empreinte digitale Grow R503[:en]GRANDIR R503 stainless steel plate plus protection for Grow R503 fingerprint[:]"
 date: "2021-06-16"
+layout: product
+published: false
 ---
 
 \[:fr\]

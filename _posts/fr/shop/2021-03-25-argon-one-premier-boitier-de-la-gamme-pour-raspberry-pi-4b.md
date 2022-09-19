@@ -3,6 +3,8 @@ guid: 2109
 title: "ARGON ONE+ boitier alu raspberry pi 4B"
 date: "2021-03-25"
 coverImage: "RaspberryPi4BARGONONEAluminumCaseHousingTheAdapterPlateCoolingFans.jpg"
+layout: product
+published: false
 ---
 
 Argon ONE V2 boîtier en aluminium pour Pi 4, boitier en aluminium de très bonne facture livré avec ventilateur et composant de connections pour adaptation avec le boitier. Compatible uniquement avec le raspberry 4B, **8 options disponibles sur la fiche produit.**

@@ -2,6 +2,8 @@
 guid: 2117
 title: "GROW R503 - Fingerprint sensor"
 date: "2021-06-16"
+layout: product
+published: false
 ---
 
 The Grow R503 can collect 200 fingerprints, the recognition rate is high whatever the conditions (dry or wet finger, fine texture or marked texture). It can be easily integrated into a variety of end products, such as: access controllers, presence, safe ....

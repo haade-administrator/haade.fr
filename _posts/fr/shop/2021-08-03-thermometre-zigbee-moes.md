@@ -2,6 +2,8 @@
 guid: 2118
 title: "Thermomètre Zigbee Moes 3 en 1"
 date: "2021-08-03"
+layout: product
+published: false
 ---
 
 1. Le Nouveau thermomètre Moes Zigbee détecte:

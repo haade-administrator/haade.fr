@@ -92,26 +92,26 @@ contributors:
 shop:
   fr_FR:
     name: 'Boutique'
-    link: 'fr/shop/boutique'
+    link: 'fr/category/boutique'
   en_GB:
     name: 'Shop'
-    link: 'en/shop/shop'
+    link: 'en/category/shop'
 
 brand:
   fr_FR:
     name: 'Marque'
-    link: 'fr/shop/marque'
+    link: 'fr/category/marque'
   en_GB:
     name: 'Brand'
-    link: 'en/shop/brand'
+    link: 'en/category/brand'
 
 protocol:
   fr_FR:
     name: 'Protocole'
-    link: 'fr/shop/protocole'
+    link: 'fr/category/protocole'
   en_GB:
     name: 'Protocol'
-    link: 'en/shop/protocol'
+    link: 'en/category/protocol'
 
 # footer menu
 

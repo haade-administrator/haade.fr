@@ -1,5 +1,10 @@
 # Haade next generation
 
+## Installation
+npm Install
+bundle config set --local path 'vendor/bundle'
+bundle install
+
 ### todo list
 
 1. verification intégration google google_analytics

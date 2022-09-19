@@ -3,6 +3,8 @@ guid: 2105
 title: "Boitier d&#39;encastrement à sceller Coswall 85mm"
 date: "2021-03-19"
 coverImage: "CoswallAdjustableMountingBoxInternalCassette86mm85mm50mmFor86TypeSwitchandSocketWhite.jpg"
+layout: product
+published: false
 ---
 
 J'avais présenté il y a peut de temps le boitier d'encastrement pour cloison creuse, ici il se décline en version à sceller dans tous murs pleins.

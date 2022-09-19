@@ -2,6 +2,8 @@
 guid: 2115
 title: "Multiroom Up2Stream Amp V4"
 date: "2021-05-20"
+layout: product
+published: false
 ---
 
 Still running cables around your audio system? Want to listen to music on the Internet? The Up2Stream AMP v4 Wifi and Bluetooth amplifier board is perfect for you. You can use AMP v4 to easily create your own wireless stereo system. AMP v4 can provide you with 50Wx2 power on 4 ohm speakers and you can stream music online from many famous online music services like Spotify, Deezer, TuneIn and more.

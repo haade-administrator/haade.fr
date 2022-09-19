@@ -24,7 +24,7 @@
           {%- endfor %}
         {%- endif %}
 
-      {%- elsif page.layout == 'post' %}
+      {%- elsif page.layout == 'post' or page.layout == 'product' %}
         {%- assign navigation_posts = site.posts
           | where: 'guid', page.guid
           | where: 'locale', language[1].slug %}
@@ -48,40 +48,6 @@
           {%- if navigation_categories.size == 1 %}
             {%- for navigation_category in navigation_categories %}
               {%- assign url = site.baseurl | append: navigation_category.url %}
-            {%- endfor %}
-          {%- else %}
-            {%- assign navigation_pages = site.pages
-              | where: 'locale_reference', site.fallback_page
-              | where: 'locale', language[1].slug %}
-            {%- for navigation_page in navigation_pages limit:1 %}
-              {%- assign url = site.baseurl | append: navigation_page.url %}
-            {%- endfor %}
-          {%- endif %}
-
-          {%- elsif page.layout == 'shop' %}
-            {%- assign navigation_shops = site.shop
-              | where: 'guid', page.guid
-              | where: 'locale', language[1].slug %}
-            {%- if navigation_shops.size == 1 %}
-              {%- for navigation_shop in navigation_shops %}
-                {%- assign url = site.baseurl | append: navigation_shop.url %}
-              {%- endfor %}
-            {%- else %}
-              {%- assign navigation_pages = site.pages
-                | where: 'locale_reference', site.fallback_page
-                | where: 'locale', language[1].slug %}
-              {%- for navigation_page in navigation_pages limit:1 %}
-                {%- assign url = site.baseurl | append: navigation_page.url %}
-              {%- endfor %}
-            {%- endif %}
-
-        {%- elsif page.layout == 'product' %}
-          {%- assign navigation_shops = site.shop
-            | where: 'guid', page.guid
-            | where: 'locale', language[1].slug %}
-          {%- if navigation_shops.size == 1 %}
-            {%- for navigation_shop in navigation_shops %}
-              {%- assign url = site.baseurl | append: navigation_shop.url %}
             {%- endfor %}
           {%- else %}
             {%- assign navigation_pages = site.pages

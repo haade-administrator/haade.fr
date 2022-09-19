@@ -2,6 +2,8 @@
 guid: 2113
 title: "ESP8266 relay 7-30v Yunshan lysignal ESP-12F"
 date: "2021-05-17"
+layout: product
+published: false
 ---
 
 With ESP8266 WiFi module, 4-layer board design. Input overvoltage protection, input with TVS, when the voltage exceeds 33V, the automatic protection works. Input overcurrent protection. Relay 220V 10A, 125V 12A normally open, normally closed. One way optocoupler isolation input, TVS input protection. High current terminals An output status indicator, an input status indicator. More safety with the PCB relays anti-climb design. Access control server via TCP CLIENT mode Via HTTP protocol control
