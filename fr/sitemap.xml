@@ -8,7 +8,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/docker</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -23,7 +23,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/domotique</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -38,7 +38,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/haade-lab</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -53,7 +53,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/home-assistant</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -68,7 +68,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/jeedom</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -83,7 +83,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/news</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -98,7 +98,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/protocoles</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -113,7 +113,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/securite</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -128,7 +128,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/boutique</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -143,7 +143,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/marque</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -158,7 +158,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/protocole</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -173,7 +173,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/sonoff</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -188,7 +188,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/wifi</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -203,7 +203,7 @@
       <url>
         <loc>https://haade-administrator.github.io/haade.fr/fr/category/tests</loc>
         
-            <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+            <lastmod>2022-09-19T18:35:09+00:00</lastmod>
         
         
             <changefreq>monthly</changefreq>
@@ -293,6 +293,12 @@
       <priority>0.5</priority>
     </url>
     <url>
+      <loc>https://haade-administrator.github.io/haade.fr/fr/blog/sonoff-zigbee-zbmini-snzb-03</loc>
+      <lastmod>2021-08-23T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/blog/test-et-install-thermostat-zigbee-moes-bht-002</loc>
       <lastmod>2021-08-12T14:34:23+00:00</lastmod>
       <changefreq>monthly</changefreq>
@@ -347,6 +353,12 @@
       <priority>0.5</priority>
     </url>
     <url>
+      <loc>https://haade-administrator.github.io/haade.fr/fr/blog/boitier-dencastrement-carre-coswall-44-de-reductions</loc>
+      <lastmod>2021-03-18T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+    </url>
+    <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/blog/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020</loc>
       <lastmod>2021-03-17T20:40:48+00:00</lastmod>
       <changefreq>monthly</changefreq>
@@ -392,35 +404,35 @@
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/author-math67/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/author-nico/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/author-yann/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/authors/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/contact/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
@@ -428,14 +440,14 @@
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/mentions-legales/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/rgpd-politique-de-confidentialite/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
@@ -443,42 +455,42 @@
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/fr/tags/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/page/2/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/page/3/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/page/4/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     
     <url>
       <loc>https://haade-administrator.github.io/haade.fr/page/5/</loc>
-      <lastmod>2022-09-19T17:07:25+00:00</lastmod>
+      <lastmod>2022-09-19T18:35:09+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>

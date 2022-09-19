@@ -92,111 +92,125 @@ var documents = [{
     
     }, {
     "id": 13,
+    "url": "/haade.fr/fr/blog/sonoff-zigbee-zbmini-snzb-03",
+    "title": "Sonoff zigbee zbmini SNZB-03",
+    "description": "23/08/2021 - ",
+    "tags": ""
+    
+    }, {
+    "id": 14,
     "url": "/haade.fr/fr/blog/test-et-install-thermostat-zigbee-moes-bht-002",
     "title": "[TEST] et [INSTALL] Thermostat Zigbee Moes BHT-002",
     "description": "12/08/2021 - test d'un thermostat zigbee par Moes le BHT-002",
     "tags": ""
     
     }, {
-    "id": 14,
+    "id": 15,
     "url": "/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant",
     "title": "Intégrer son compteur électrique ( téléinfo ) dans Home Assistant",
     "description": "03/08/2021 - téléinformation dans homeassistant comment intégrer son compteur edf",
     "tags": ""
     
     }, {
-    "id": 15,
+    "id": 16,
     "url": "/haade.fr/fr/blog/test-et-install-grow-r503-capteur-dempreintes-digital-avec-esphome-et-homeassistant",
     "title": "Grow R503 Capteur d&#8217;empreintes digital",
     "description": "01/07/2021 - [TEST] et [INSTALL] Grow R503 Capteur d&#8217;empreintes digital avec esphome et homeassistant",
     "tags": "esphome - homeassistant"
     
     }, {
-    "id": 16,
+    "id": 17,
     "url": "/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee",
     "title": "Controlleur d’ouverture sonoff snzb-04 zigbee",
     "description": "28/06/2021 - ",
     "tags": ""
     
     }, {
-    "id": 17,
+    "id": 18,
     "url": "/haade.fr/fr/blog/frp-configurer-acces-distance-homeassistant",
     "title": "Frp &#8211; accès à distance pour homeassistant.",
     "description": "18/06/2021 - Configurer simplement un accès à distance sécurisé et gratuit avec Home assistant et notre module frp",
     "tags": "frp - module"
     
     }, {
-    "id": 18,
+    "id": 19,
     "url": "/haade.fr/fr/blog/augmenter-la-reception-du-signal-wifi-esp8266-esp-12f",
     "title": "Augmenter le signal wifi sur esp8266 esp-12f esp-12s",
     "description": "07/06/2021 - Amélioration du signal wifi d'un module esp8266/esp12 en soudant facilement une antenne externe",
     "tags": "esp8266 - esp12 - amélioration"
     
     }, {
-    "id": 19,
+    "id": 20,
     "url": "/haade.fr/fr/blog/raccourci-automatisations-dans-homeassistant-lovelace",
     "title": "Raccourci automatisations dans Homeassistant Lovelace",
     "description": "31/05/2021 - création d'une entité automatisation dans home assistant et lovelace",
     "tags": "entité - Home-Assistant - lovelace"
     
     }, {
-    "id": 20,
+    "id": 21,
     "url": "/haade.fr/fr/blog/domotiser-sa-porte-de-garage-pour-5",
     "title": "Domotiser sa porte de garage pour 5€",
     "description": "19/05/2021 - une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266",
     "tags": "esp8266"
     
     }, {
-    "id": 21,
+    "id": 22,
     "url": "/haade.fr/fr/blog/esphome-et-homeassistant",
     "title": "Intégrations Esphome et Homeassistant",
     "description": "11/05/2021 - Découverte d'esphome dans homeassistant",
     "tags": ""
     
     }, {
-    "id": 22,
+    "id": 23,
+    "url": "/haade.fr/fr/blog/boitier-dencastrement-carre-coswall-44-de-reductions",
+    "title": "Boîtier d&#39;encastrement carré Coswall 44% de réductions",
+    "description": "18/03/2021 - ",
+    "tags": ""
+    
+    }, {
+    "id": 24,
     "url": "/haade.fr/fr/blog/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020",
     "title": "[TEST] Moes: Interrupteur Zigbee tactile {ZTS-EU} UPGRADE 2020",
     "description": "17/03/2021 - Test de l'interrupteur tactile Moes référence zts-eu",
     "tags": ""
     
     }, {
-    "id": 23,
+    "id": 25,
     "url": "/haade.fr/fr/blog/protocole-connecte-home-over-ip",
     "title": "Protocole connecté Home over IP",
     "description": "11/02/2020 - Actu du futur protocole HomeoverIP nommé Matter",
     "tags": ""
     
     }, {
-    "id": 24,
+    "id": 26,
     "url": "/haade.fr/fr/blog/zigbee-vs-z-wave",
     "title": "Zigbee vs Z-wave",
     "description": "11/02/2020 - Comparons les deux protocoles domotique les plus utilisés z-wave face à zigbee",
     "tags": "z-wave - zigbee - comparaison"
     
     }, {
-    "id": 25,
+    "id": 27,
     "url": "/haade.fr/fr/blog/zigbee-comprendre-le-protocole-et-le-maillage",
     "title": "Zigbee &#8211; comprendre le protocole et le maillage",
     "description": "10/02/2020 - Zigbee comprendre le protocole et le maillage de ce standard",
     "tags": ""
     
     }, {
-    "id": 26,
+    "id": 28,
     "url": "/haade.fr/fr/blog/automatiser-la-mise-a-jour-des-images-docker-grace-a-watchtower",
     "title": "Automatiser La Mise A Jour Des Images Docker Grace A Watchtower",
     "description": "01/01/2020 - Rendre automatique les mises à jour des images docker grâce à watchtower",
     "tags": ""
     
     }, {
-    "id": 27,
+    "id": 29,
     "url": "/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker",
     "title": "Jeedom sur docker",
     "description": "09/12/2019 - OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker",
     "tags": ""
     
     }, {
-    "id": 28,
+    "id": 30,
     "url": "/haade.fr/fr/blog/cle-sniffer-zigbee-cc2531-avec-antenne-et-boitier",
     "title": "Clé sniffer zigbee CC2531 avec antenne",
     "description": "09/12/2019 - ",
