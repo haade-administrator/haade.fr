@@ -1,10 +1,10 @@
 <div class="feedbackscraper">
-  {%- assign feedback = scraper.feedback %}
-  {%- for vote in feedback %}
+  {%- assign feedbacks = scraper.feedback %}
+  {%- for vote in feedbacks %}
+
 <ul>
-  <li>{{ vote.name }}</li>
   <li>{{ vote.displayName }}</li>
-  <li>{{ vote.rating }}</li>
+  <li>Nomber of Stars: {{ vote.rating }}</li>
   <li>{% include date.html date=vote.date %}</li>
   {%- if vote.content != '' %}
   <li>{{ vote.content | strip_html }}</li>
