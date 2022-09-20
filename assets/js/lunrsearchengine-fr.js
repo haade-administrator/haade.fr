@@ -92,8 +92,8 @@ var documents = [{
     
     }, {
     "id": 13,
-    "url": "/haade.fr/fr/blog/sonoff-zigbee-zbmini-snzb-03",
-    "title": "Sonoff zigbee zbmini SNZB-03",
+    "url": "/haade.fr/fr/blog/sonoff-zigbee-zbmini",
+    "title": "Sonoff zigbee zbmini",
     "description": "23/08/2021 - ",
     "tags": ""
     
