@@ -1,1 +1,5 @@
-
+{%- if page.locale == 'fr_FR' %}
+{%- assign localscrapers = site.data.aliexpress.fr_FR.scrapers %}
+{%- else %}
+{%- assign localscrapers = site.data.aliexpress.en_GB.scrapers %}
+{%- endif %}
