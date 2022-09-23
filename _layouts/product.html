@@ -22,24 +22,14 @@ layout: default
 <!-- Featured Image -->
 {%- include featured-image.html %}
 
-{%- assign store = scraper.storeInfo %}
-{%- assign reseller = store.name %}
-{%- assign resellernr = store.storeNumber %}
-{%- assign resellerstar = store.rating %}
-{%- assign resellerfw = store.followers %}
-<div class="reseller">
-  <h5>{{ translate.product.shopinfo[page.locale] }}</h5>
-<div class="reseller-name"><strong class="mr-1">{{ translate.product.reseller[page.locale] }}:</strong><a href="https://www.aliexpress.com/store/{{ resellernr }}">{{ reseller }}</a></div>
-<div class="reseller-name"><strong class="mr-1">{{ translate.product.feedback[page.locale] }}:</strong>{{ resellerstar }}</div>
-<div class="reseller-name"><strong class="mr-1">{{ translate.product.follower[page.locale] }}:</strong>{{ resellerfw }}</div>
-</div>
+{%- include aliexreseller.html %}
 </div>
 <div class="shop-article">
 {%- assign scraptitle = scraper.title | strip_html %}
 
 <h1 class="posttitle">{{ scraptitle | truncatewords: 9 }}</h1>
 
-{%- include star.html %}
+{%- include aliexstar.html %}
 
 {%- include buttonshop.html %}
 
@@ -52,7 +42,7 @@ layout: default
 
 </div>
 <!-- Comments if not disabled with comments: false -->
-{%- include feedback.html %}
+{%- include aliexfeed.html %}
 
 {%- endif %}
 {%- endfor %}

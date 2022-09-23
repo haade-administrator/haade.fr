@@ -1,0 +1,11 @@
+{%- assign store = scraper.storeInfo %}
+{%- assign reseller = store.name %}
+{%- assign resellernr = store.storeNumber %}
+{%- assign resellerstar = store.rating %}
+{%- assign resellerfw = store.followers %}
+<div class="reseller">
+  <h5>{{ translate.product.shopinfo[page.locale] }}</h5>
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.reseller[page.locale] }}:</strong><a href="https://www.aliexpress.com/store/{{ resellernr }}">{{ reseller }}</a></div>
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.feedback[page.locale] }}:</strong>{{ resellerstar }}</div>
+<div class="reseller-name"><strong class="mr-1">{{ translate.product.follower[page.locale] }}:</strong>{{ resellerfw }}</div>
+</div>

@@ -12,8 +12,8 @@ image: SONOFF-Zigbee-3-0-ZBBridge-Mini-ZBMINI.jpg
 imageshadow: true
 comments: true
 published: true
-item: 1005002125822566
-item-affiliate: '_DDnHzLh'
+item: 1005002039563710
+item-affiliate: '_DE3225p'
 declination: ZBMINI
 ---
 
