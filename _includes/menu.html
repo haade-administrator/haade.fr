@@ -9,7 +9,7 @@
           <i class='fas fa-times'></i>
         </div>
         <ul class="links">
-          <li><a href="{{ site.baseurl }}/{{ menu.home[page.locale].link }}">{{ menu.home[page.locale].name }}<span class="badge badge-light tags">{{ site.posts | where: 'locale', page.locale | size }}</span></a></li>
+          <li><a href="{{ site.baseurl }}/{{ menu.home[page.locale].link }}">{{ menu.home[page.locale].name }}<span class="badge badge-light tags">{{ site.posts | where: 'locale', page.locale | where:'layout', 'post' | size }}</span></a></li>
           <li>
             <a href="{{ menu.automation[page.locale].link | absolute_url }}">{{ menu.automation[page.locale].name }}</a>
             <i class="fas fa-angle-down htmlcss-arrow arrow automation"></i>

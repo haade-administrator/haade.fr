@@ -1,14 +1,18 @@
 <div class="feedbackscraper">
   {%- assign feedbacks = scraper.feedback %}
   {%- for vote in feedbacks %}
-
+  {%- for value in vote.info | size %}
+{% if value[1] contains page.declination %}
 <ul>
   <li>{{ vote.displayName }}</li>
-  <li>Nomber of Stars: {{ vote.rating }}</li>
+  <li>Number of Stars: {{ vote.rating }}</li>
+  <li>{{ value[1] }}</li>
   <li>{% include date.html date=vote.date %}</li>
   {%- if vote.content != '' %}
   <li>{{ vote.content | strip_html }}</li>
   {%- endif %}
 </ul>
+{% endif %}
+  {%- endfor %}
 {%- endfor %}
 </div>
