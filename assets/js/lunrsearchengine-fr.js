@@ -211,8 +211,8 @@ var documents = [{
     
     }, {
     "id": 30,
-    "url": "/haade.fr/fr/blog/cle-sniffer-zigbee-cc2531-avec-antenne-et-boitier",
-    "title": "Clé sniffer zigbee CC2531 avec antenne",
+    "url": "/haade.fr/fr/blog/cle-zigbee-3-sonoff-Z-Bridge",
+    "title": "Clé zigbee 3.0 Sonoff zbridge",
     "description": "09/12/2019 - ",
     "tags": ""
     
