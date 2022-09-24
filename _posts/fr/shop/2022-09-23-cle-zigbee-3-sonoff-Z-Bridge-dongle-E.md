@@ -1,18 +1,18 @@
 ---
 guid: 2128
 layout: product
-title: "Clé zigbee 3.0 Sonoff zbridge"
-date: "2019-12-09"
+title: "Clé zigbee 3.0 Sonoff zbridge Dongle-E"
+date: "2022-09-23"
 description:
 categories: Boutique Sonoff Zigbee
 locale: fr_FR
 ean:
-image: "SONOFF-Dongle-USB-sans-fil-zb-p-Plus-Zigbee-3-0.webp"
+image: "SONOFF-Dongle-E-USB-ZB-Zigbee-3-0-passerelle-universelle.jpeg"
 imageshadow: true
 comments: false
 published: true
-item: 1005003763454756
-item-affiliate: _DdpUY7l
+item: 1005003756346858
+item-affiliate: "_DDG923N"
 ---
 
 > Clé fonctionnel immédiatement avec zigbee2mqtt, openhab et homeassistant**
