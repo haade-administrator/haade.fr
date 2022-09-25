@@ -4,21 +4,15 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en-GB">
-<head>
-
-<meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'>
 
-<title>Integrate your electricity meter (teleinfo) in Home Assistant - Haade</title>
-
-
-<!-- begin _includes/seo.html -->
+<title>Integrate your electricity meter (teleinfo) in Home Assistant - Haade</title><!-- begin _includes/seo.html -->
 <title>Integrate your electricity meter (teleinfo) in Home Assistant - Haade.fr</title>
 <meta name="description" content="For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.">
 <link rel="canonical" href="https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant">
-
   <link rel="alternate" hreflang="en-GB" href="https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"/>
   <link rel="alternate" hreflang="fr-FR" href="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"/>
 
@@ -31,31 +25,28 @@ layout: compress
 <meta property="og:image" content="https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant-944.webp">
 <meta property="article:author" content="math67">
 <meta property="article:published_time" content="2021-08-03T00:00:00+00:00">
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "url": "https://haade-administrator.github.io/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
-  "name": "Integrate your electricity meter (teleinfo) in Home Assistant",
-  "headline": "Integrate your electricity meter (teleinfo) in Home Assistant",
-  "keywords": "Home-Assistant,Haade-lab",
-  "description": "",
-  "articleBody": "For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.\n\nPrerequisites:\n\n\n  Home assistant installed with up-to-date ESPHome\n  An ESP8266 module of the Wemos D1 mini type and its power supply\n  A PitInfo module\n\n\nESPHome programming\n\nAn article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link\n\nAs the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.\n\nSummary of integration steps with ESPhome:\n\n\n  To start, go to ESPHome you must create a new configuration by clicking on the green ‘+’ button located at the bottom right of the screen.\n  Then fill in the various fields with the name of the device, the name of your wifi network (2.4 Ghz imperatively) as well as the associated password.\n  The platform is of course ESP8266, for a wemos d1 mini the board is d1_mini\n  Click on the ‘Next’ button and connect your Wemos D1 mini by USB to your PC, then click on ‘Connect’ and choose the COM port corresponding to your Wemos.\n\n\nThe flash may last a few minutes, leave the page open while waiting for the operation to complete.\n\nAfter this operation, your new configuration will appear on the ESPHome Dashboard. Click on ‘EDIT’, we will complete the configuration file with the elements necessary for reporting information from the meter.\n\nBelow ‘logger’ add the following lines:\n\nFinally, below the ‘captive_portal’ line add the rest of the code:\n\n\n  \n    For Peak Hours / Off-Hours subscriptions:\n  \n  \n    For subscriptions at the Basic rate:\n  \n\n\n You can now upload the file by clicking on ‘INSTALL’.\n\n So much for the programming part, now let’s go to the connection of the assembly.\n\n Connection to the meter\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\n We will in this part see how to connect our assembly, here is the wiring diagram:\n\n\n\nSchéma de branchement\n\n\n  Rx of Wemos on TXD of PiTInfo\n  G of Wemos onGND of PiTInfo\n  3v3 of Wemos on VCC ofPiTInfo\n   The two input terminals of the PiTInfo must be connected to I1 and I2 under the meter (These terminals are protected by a cover), there is no polarity on this side of the assembly\n\n\n Linky counter: For information to go back to Home Assistant. The counter must be in ‘History’ mode, you can check this information by pressing the ‘+’ or ‘-‘ keys.\n\nLovelace\n\n Back in Home Assistant go to ‘Integrations’. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on ‘Add integration’ at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.\n\n\n\nMap of electric meter entities\n\nSo you get this card that you can add directly to Lovelace or create a custom card.\n\nHere it is now over, you have all the information from your meter arriving on your HA. You are now free to manage this data, to create graphs, automations…!\n\nEDIT: Due to a conflict in Home Assistant in the configuration for the “Base” tariff, it is necessary to modify the line id: index by id: “index_base” in the ESPHome code:\n\n  - platform: teleinfo\n    tag_name: \"BASE\"\n    name: \"Index\"\n    unit_of_measurement: \"Wh\"\n    icon: mdi:gauge\n    id: \"index_base\" # &lt;- modify line\n\n",
-  "datePublished": "2021-08-03 00:00:00 +0000",
-  "dateModified": "2021-08-03 00:00:00 +0000",
+  "name":"Integrate your electricity meter (teleinfo) in Home Assistant",
+  "headline":"Integrate your electricity meter (teleinfo) in Home Assistant",
+  "keywords":"Home-Assistant,Haade-lab",
+  "description":"",
+  "articleBody":"For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.\n\nPrerequisites:\n\n\n  Home assistant installed with up-to-date ESPHome\n  An ESP8266 module of the Wemos D1 mini type and its power supply\n  A PitInfo module\n\n\nESPHome programming\n\nAn article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link\n\nAs the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.\n\nSummary of integration steps with ESPhome:\n\n\n  To start, go to ESPHome you must create a new configuration by clicking on the green ‘+’ button located at the bottom right of the screen.\n  Then fill in the various fields with the name of the device, the name of your wifi network (2.4 Ghz imperatively) as well as the associated password.\n  The platform is of course ESP8266, for a wemos d1 mini the board is d1_mini\n  Click on the ‘Next’ button and connect your Wemos D1 mini by USB to your PC, then click on ‘Connect’ and choose the COM port corresponding to your Wemos.\n\n\nThe flash may last a few minutes, leave the page open while waiting for the operation to complete.\n\nAfter this operation, your new configuration will appear on the ESPHome Dashboard. Click on ‘EDIT’, we will complete the configuration file with the elements necessary for reporting information from the meter.\n\nBelow ‘logger’ add the following lines:\n\nFinally, below the ‘captive_portal’ line add the rest of the code:\n\n\n  \n    For Peak Hours / Off-Hours subscriptions:\n  \n  \n    For subscriptions at the Basic rate:\n  \n\n\n You can now upload the file by clicking on ‘INSTALL’.\n\n So much for the programming part, now let’s go to the connection of the assembly.\n\n Connection to the meter\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\n We will in this part see how to connect our assembly, here is the wiring diagram:\n\n\n\nSchéma de branchement\n\n\n  Rx of Wemos on TXD of PiTInfo\n  G of Wemos onGND of PiTInfo\n  3v3 of Wemos on VCC ofPiTInfo\n   The two input terminals of the PiTInfo must be connected to I1 and I2 under the meter (These terminals are protected by a cover), there is no polarity on this side of the assembly\n\n\n Linky counter: For information to go back to Home Assistant. The counter must be in ‘History’ mode, you can check this information by pressing the ‘+’ or ‘-‘ keys.\n\nLovelace\n\n Back in Home Assistant go to ‘Integrations’. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on ‘Add integration’ at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.\n\n\n\nMap of electric meter entities\n\nSo you get this card that you can add directly to Lovelace or create a custom card.\n\nHere it is now over, you have all the information from your meter arriving on your HA. You are now free to manage this data, to create graphs, automations…!\n\nEDIT: Due to a conflict in Home Assistant in the configuration for the “Base” tariff, it is necessary to modify the line id: index by id: “index_base” in the ESPHome code:\n\n  - platform: teleinfo\n    tag_name: \"BASE\"\n    name: \"Index\"\n    unit_of_measurement: \"Wh\"\n    icon: mdi:gauge\n    id: \"index_base\" # &lt;- modify line\n\n",
+  "datePublished":"2021-08-03 00:00:00 +0000",
+  "dateModified":"2021-08-03 00:00:00 +0000",
   "inLanguage": "en_GB",
   "author": {
-    "@type": "Person",
-    "name": null,
-    "alternateName": null,
-    "description": null,
-    "url": null,"image": null,
-    "email": null
+    "@type": "Person","name":null,
+    "alternateName":null,
+    "description":null,
+    "url":null,"image":null,"email":null
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Haade.fr",
+    "name":"Haade.fr",
     "url": "https://haade-administrator.github.io/haade.fr",
     "logo": {
       "@type": "ImageObject",
@@ -70,26 +61,19 @@ layout: compress
   },
   "image": {
     "@type": "ImageObject",
-    "width": 300,
-    "height": 76,
+    "width":300,
+    "height":76,
     "url": "https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant-944.webp"
   }
 }
 </script>
-
-
-
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664120217443467451" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
-
-
-<!-- change your GA id in _config.yml -->
-
-  <!--
+<!-- change your GA id in _config.yml --><!--
   The GA snippet
 -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -105,44 +89,28 @@ layout: compress
 </script>
 
 
-
-
-
 <!--  <link rel="shortcut icon" type="image/x-icon" href="https://haade-administrator.github.io/favicon.ico" > -->
 <link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" >
-
-
-
 
 <script async src="https://api.countapi.xyz/hit/haade-administrator.github.io/enblogintegrate-your-electricity-meter-teleinfo-into-home-assist?callback=liveViews"></script>
 
 
-
 </head>
-
-
-
 <body>
 	<!-- defer loading of font and fontawesome -->
 	<noscript id="deferred-styles">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
-<header>
-	    <div class="firstnavbar">
+<header>    <div class="firstnavbar">
         <div class="links">
-          
           <a href="/haade.fr/en/">Home</a>
-          
         <a href="/haade.fr/en/gdpr-general-data-protection-regulation/">GDPR</a>
         <a href="/haade.fr/en/contact/">Contact</a>
-          
-<div class="sl-nav">
-  language:
+<div class="sl-nav">language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
-        
         <li><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
         <li class="current"><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
@@ -160,25 +128,20 @@ layout: compress
     </div>
 
 
-
 <div class="secondheader">
 <!-- Site Logo/Name
 ================================================== -->
-
 <a class="navbar-brand" href="/haade.fr/en/">
     <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade">
 </a>
 
 
-
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">
-        Home Assistance Alsace home automation & electronics.
+    <p class="sitetag">Home Assistance Alsace home automation & electronics.
     </p>
 
 </div>
-
 
   <nav id="nav">
     <div class="navbar">
@@ -238,13 +201,11 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">
-  language:
+<div class="sl-nav">language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
-        
         <li><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
         <li class="current"><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
@@ -253,9 +214,7 @@ layout: compress
 </div>
 </li>
         </ul>
-      </div>
-
-    <script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script>
+      </div><script src="/haade.fr/assets/js/lunr.min.js?v=a944ea77ca394dff9a667d5aea56f0e9" type="text/javascript"></script>
 
 <div class="search-box">
   <i class='fas fa-search'></i>
@@ -269,9 +228,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-
-
-<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=872a2383f1cceeb2bb3a24fa2873c15b"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=bc6be4a432a419ffbff8156b66b1badd"></script>
 
 
     </div>
@@ -286,47 +243,24 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content">
-      
-        <script>
+    <div class="main-content"><script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
 </script>
 
-<!--  -->
-
+<!-- -->
 
 <div class="entry-header">
   <!-- breadcrumbs -->
-  
-
-
-
-
 <nav class="ariane">
 <ol class="arianefil" itemscope itemtype="https://schema.org/BreadcrumbList">
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
-  
 <a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
-
-
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
-
-
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
 itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/home-assistant"><span itemprop="name">Home-Assistant</span></a><meta itemprop="position" content="2"></li>
-
-
-<li><span class="prompt">&nbsp; > &nbsp;</span></li>
-
-
-Integrate your electricity meter (teleinfo) in Home Assistant
-
-
-
-
-
+<li><span class="prompt">&nbsp; > &nbsp;</span></li>Integrate your electricity meter (teleinfo) in Home Assistant
 </ol>
 </nav>
 
@@ -334,60 +268,37 @@ Integrate your electricity meter (teleinfo) in Home Assistant
     <!-- Post Title -->
     <h1 class="posttitle">Integrate your electricity meter (teleinfo) in Home Assistant</h1>
     <!-- Author & Date  Box -->
-    
-    
     <div class="d-flex align-items-center mt-4">
         <div>
-            
             <a href="/haade.fr/en/author-"><img class="author-thumb" src="https://www.gravatar.com/avatar/?s=50&d=mm&r=x" alt=""></a>
-            
         </div>
-        <div class="readingpost">
-        Written by <a href="/haade.fr/en/author-"><b>,</b></a> the
-        <span class="post-date"><time class="post-date" datetime="03-08-2021"> 3<sup>rd</sup> 
-    August 2021
+        <div class="readingpost">Written by <a href="/haade.fr/en/author-"><b>,</b></a>the
+        <span class="post-date"><time class="post-date" datetime="03-08-2021">3<sup>rd</sup>August2021
 ,</time></span>
-        
-        <br />
-        <span class="reading-time" title="Estimated read time">
-  <strong>
-    
-    4 min</strong> of reading.
+        <br /><span class="reading-time" title="Estimated read time">
+  <strong>4min</strong>ofreading.
 </span>
 
-        
-        
-        <p><i class="fas fa-eye"></i> This page has been visited <span id="visits" style="font-weight:bold">...</span> times.</p>
-        
+        <p><i class="fas fa-eye"></i>This page has been visited <span id="visits" style="font-weight:bold">...</span>times.</p>
         </div>
     </div>
-    
 </div>
 
 <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->
 
-
 <!-- Featured Image -->
-
 <div class="entry-featured-image">
-    
-    <img class="featured-image lazyimg " src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/13/compteur-electrique-homeassistant-944.webp" alt="Integrate your electricity meter (teleinfo) in Home Assistant">
-    
+    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/13/compteur-electrique-homeassistant-944.webp" alt="Integrate your electricity meter (teleinfo) in Home Assistant">
 </div>
 
 
-<!-- Content -->
-<!-- Post, Page Content
+<!-- Content --><!-- Post, Page Content
 ================================================== -->
 <div class="article-post">
     <!-- Toc if any -->
-    
-    
     <div class="toc mt-4 mb-4 lead">
-        <h3 class="font-weight-bold">Sommary</h3>
-        <ul><li><a href="#prerequisites">Prerequisites:</a></li><li><a href="#esphome-programming">ESPHome programming</a><ul><li><a href="#summary-of-integration-steps-with-esphome">Summary of integration steps with ESPhome:</a></li></ul></li><li><a href="#lovelace">Lovelace</a></li></ul>
+        <h3 class="font-weight-bold">Sommary</h3><ul><li><a href="#prerequisites">Prerequisites:</a></li><li><a href="#esphome-programming">ESPHome programming</a><ul><li><a href="#summary-of-integration-steps-with-esphome">Summary of integration steps with ESPhome:</a></li></ul></li><li><a href="#lovelace">Lovelace</a></li></ul>
     </div>
-    
     <!-- End Toc -->
     <p>For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.</p>
 
@@ -483,17 +394,11 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 
 <!-- Rating -->
 
-
-<!-- Author Box if enabled from _config.yml -->
-<!-- Author Box -->
-
-
+<!-- Author Box if enabled from _config.yml --><!-- Author Box -->
 <div class="authorbox mb-5 mt-5 pt-4 pb-4" itemscope itemtype="https://schema.org/Person">
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
-            
             <img  class="author-thumb" src="/haade.fr/" width="70" height="70" alt="" itemprop="image">
-            
             <p class="mt-4 mb-0 small text-center">
             </p>
         </div>
@@ -505,20 +410,12 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 </div>
 
 
-
-
-<!-- Comments if not disabled with comments: false -->
-<!-- Comments
+<!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
-
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load the Comments</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Load the Comments</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">Comments</h4>
-        
-        
-            
-
   <script src="https://giscus.app/client.js"
           data-repo=haade-administrator/haade.fr
           data-repo-id=R_kgDOHHK8ZA
@@ -535,70 +432,26 @@ Integrate your electricity meter (teleinfo) in Home Assistant
           async>
   </script>
 
-
-            
     <div class="clearfix"></div>
     </div>
 </div>
 
 
-
-<!-- Related Post -->
-<!-- Related Posts
+<!-- Related Post --><!-- Related Posts
 ================================================== -->
-<div class=" related-posts ">
-
-    
+<div class=" related-posts">
     <h2 class="text-center mb-4">Articles that might interest you</h2>
-    
 
     <div class="d-flex justify-content-center align-items-center">
 
     <!-- Categories -->
-    
-    
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
-    
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
-    
 
     <!-- Tags -->
-    
-    
 
     </div>
-
-    
-    
-    
-    <div class="blog-grid-container">
-
-            
-            
-
-            
-
-            
-
-        
-
-            
-            
-
-            
-
-            
-
-        
-
-            
-            
-
-            
-
-            
-            <!-- begin post -->
-
+    <div class="blog-grid-container"><!-- begin post -->
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
@@ -619,8 +472,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 5<sup>th</sup> 
-    October 2021
+                <span class="post-date">5<sup>th</sup>October2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -629,21 +481,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
     </div>
 </div>
 <!-- end post -->
-
-            
-            
-            
-
-        
-
-            
-            
-
-            
-
-            
-            <!-- begin post -->
-
+<!-- begin post -->
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
@@ -664,8 +502,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 1<sup>st</sup> 
-    October 2021
+                <span class="post-date">1<sup>st</sup>October2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -674,21 +511,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
     </div>
 </div>
 <!-- end post -->
-
-            
-            
-            
-
-        
-
-            
-            
-
-            
-
-            
-            <!-- begin post -->
-
+<!-- begin post -->
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
@@ -709,8 +532,7 @@ Integrate your electricity meter (teleinfo) in Home Assistant
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 25<sup>th</sup> 
-    September 2021
+                <span class="post-date">25<sup>th</sup>September2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -720,9 +542,6 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 </div>
 <!-- end post -->
 
-            
-            
-                
         </div>
 </div>
 
@@ -730,9 +549,6 @@ Integrate your electricity meter (teleinfo) in Home Assistant
     </div>
 
 </div>
-
-
-
 
 <footer>
    <div class="footcontent">
@@ -759,7 +575,6 @@ Integrate your electricity meter (teleinfo) in Home Assistant
        <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
        <div><a target="_blank" href="https://www.aqara.com/eu/news.html">Aquara by Xiaomi</a></div>
      </div>
-     
      <!-- Newsletter
      ================================================== -->
      <div class="footright footbox">
@@ -775,10 +590,9 @@ Integrate your electricity meter (teleinfo) in Home Assistant
          </div>
        </form>
      </div>
-     
    </div>
    <div class="footbottom">
-     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 
@@ -787,24 +601,18 @@ Integrate your electricity meter (teleinfo) in Home Assistant
 
 
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
-
 <script src="/haade.fr/assets/js/vanilla-back-to-top.min.js?v=fa0110e8b42cec56ce96d912fd4bde74" type="text/javascript"></script>
 <script>addBackToTop({
   diameter: 44,
   backgroundColor: '#1B1C37',
   textColor: '#2AD2FD'
 })</script>
-
 <!-- end script -->
 <script src="/haade.fr/assets/js/prism.min.js?v=f92287b34454ec3acfd41fd0ddc8aa5d" type="text/javascript"></script>
 <script src="/haade.fr/assets/js/theme.min.js?v=e95050136e10bec758f781f55ba4ffa3" type="text/javascript"></script>
 <script src="/haade.fr/assets/js/navbar.min.js?v=8565525f2567565ff8410eee8329c6d0" type="text/javascript"></script>
 <script src="/haade.fr/assets/js/flag.min.js?v=7554506cde6b8467be36bb3f031a5e90" type="text/javascript"></script>
-
-
-
 <script src="/haade.fr/assets/js/lazyload.min.js?v=ee4dbc7154191222a80288cb8fbfe262" type="text/javascript"></script>
-
 
 </body>
 </html>

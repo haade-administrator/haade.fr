@@ -11,10 +11,9 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 25 Sep 2022 15:36:57 +0000</pubDate>
+    <pubDate>Sun, 25 Sep 2022 19:22:55 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2128/SONOFF-Dongle-E-USB-ZB-Zigbee-3-0-passerelle-universelle.jpeg-944.webp</url>
@@ -24,27 +23,17 @@
              <height>531</height>
            </image> -->
       <title>Clé zigbee 3.0 Sonoff zbridge Dongle-E</title>
-      
-      
-      
       <description>&lt;blockquote&gt;
   &lt;p&gt;Clé fonctionnel immédiatement avec zigbee2mqtt, openhab et homeassistant**&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-      
       <pubDate>Fri, 23 Sep 2022 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/cle-zigbee-3-sonoff-Z-Bridge-dongle-E</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/cle-zigbee-3-sonoff-Z-Bridge-dongle-E</guid>
-      
-      
       <category>Boutique</category>
-      
       <category>Sonoff</category>
-      
       <category>Zigbee</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2127/sonoff-nspanel-presentation.webp-944.webp</url>
@@ -54,25 +43,15 @@
              <height>531</height>
            </image> -->
       <title>interrupteur mural wifi pour scene intelligente NSPANEL</title>
-      
-      
-      
       <description>&lt;p&gt;L’interrupteur mural de scène intelligent NSPanel est équipé d’un thermostat puissant intégré et de capteurs environnementaux. Vous pouvez régler différentes températures intérieures pour différentes périodes de temps, et NSPanel déclenchera automatiquement l’équipement de chauffage ou de refroidissement en fonction de vos conditions de réglage pour maintenir la pièce à une température confortable. De plus, NSPanel dispose d’une fonction de contrôle basée sur des scénarios, vous pouvez définir différents modes pour le réveil, le travail, le divertissement et le sommeil, et vous pouvez changer de mode à tout moment.&lt;/p&gt;
 </description>
-      
       <pubDate>Fri, 16 Sep 2022 16:05:07 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/interrupteur-mural-wifi-pour-scene-intelligente-nspanel</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/interrupteur-mural-wifi-pour-scene-intelligente-nspanel</guid>
-      
-      
       <category>Boutique</category>
-      
       <category>Sonoff</category>
-      
       <category>Wifi</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/25/integration-dashboard-energie-ha-944.webp</url>
@@ -82,29 +61,17 @@
              <height>531</height>
            </image> -->
       <title>La téléinfo dans le dashboard Energie de Home Assistant</title>
-      
-      
       <dc:creator>Math67</dc:creator>
-      
-      
       <description>&lt;p&gt;Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la &lt;a href=&quot;https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/&quot;&gt;téléinfo&lt;/a&gt;.&lt;/p&gt;
 </description>
-      
       <pubDate>Mon, 03 Jan 2022 13:23:45 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</guid>
-      
       <category>téléinformation</category>
-      
-      
       <category>Domotique</category>
-      
       <category>Haade-lab</category>
-      
       <category>Home-Assistant</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes-944.webp</url>
@@ -114,29 +81,17 @@
              <height>531</height>
            </image> -->
       <title>Test - ZSS-ZK-THL zigbee MOES</title>
-      
-      
       <dc:creator>Yann</dc:creator>
-      
-      
       <description>&lt;h1 id=&quot;top-ou-flop-&quot;&gt;TOP ou FLOP ?&lt;/h1&gt;
 </description>
-      
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes</guid>
-      
       <category>Test</category>
-      
       <category>Zigbee</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Tests</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp</url>
@@ -146,33 +101,19 @@
              <height>531</height>
            </image> -->
       <title>Box Domotique rail din Home-assistant et Rpi4</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.&lt;/p&gt;
 </description>
-      
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/box-domotique-rail-din</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/box-domotique-rail-din</guid>
-      
       <category>Test</category>
-      
       <category>Raspberry</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Tests</category>
-      
       <category>Haade-lab</category>
-      
       <category>Home-Assistant</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-944.webp</url>
@@ -182,37 +123,21 @@
              <height>531</height>
            </image> -->
       <title>Home-assistant Amber VS Jeedom Atlas</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme &lt;a href=&quot;https://www.crowdsupply.com/nabu-casa/home-assistant-amber&quot;&gt;crowdsupply&lt;/a&gt; &lt;em&gt;qui se termine le 27 Octobre 2021&lt;/em&gt;, avec une sortie &lt;strong&gt;officielle pour Juin 2022&lt;/strong&gt; alors que Jeedom Atlas est déjà &lt;strong&gt;disponible à la vente&lt;/strong&gt; sur le site &lt;a href=&quot;https://www.domadoo.fr/fr/194_jeedom&quot;&gt;Domadoo&lt;/a&gt;.&lt;/p&gt;
 </description>
-      
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/home-assistant-amber-vs-jeedom-atlas</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/home-assistant-amber-vs-jeedom-atlas</guid>
-      
       <category>Comparatif</category>
-      
       <category>Homeassistant</category>
-      
       <category>Jeedom</category>
-      
-      
       <category>Domotique</category>
-      
       <category>Haade-lab</category>
-      
       <category>Home-Assistant</category>
-      
       <category>Jeedom</category>
-      
       <category>News</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-944.webp</url>
@@ -222,31 +147,18 @@
              <height>531</height>
            </image> -->
       <title>Zoneminder, home assistant et Machinelearning</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/dlandon/zoneminder.machine.learning&quot; target=&quot;_blank&quot;&gt;Dlandon&lt;/a&gt; a sorti cette année une image Docker complète avec Zoneminder et le Machinelearning, l’intégration dans home assistant est complète. C’est pourqoui cet article devait absolument voir le jour. Depuis moins d’un an l’installation sous docker a été largement simplifié. De plus le &lt;strong&gt;machinelearning est très complet&lt;/strong&gt; grâce à la détection d’objets, détection faciale, reconnaissance faciale, reconnaissance de plaques, etc… .&lt;/p&gt;
 </description>
-      
       <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/zoneminder-home-assistant-et-machinelearning</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/zoneminder-home-assistant-et-machinelearning</guid>
-      
       <category>Tutoriel</category>
-      
       <category>Zoneminder</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Domotique</category>
-      
       <category>Securite</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-944.webp</url>
@@ -256,29 +168,17 @@
              <height>531</height>
            </image> -->
       <title>Test Capteur porte zigbee 3.0 sonoff SNZB-04</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;Voilà après la &lt;a href=&quot;https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/&quot;&gt;présentation du capteur de température SNZB-02&lt;/a&gt;, je vais détailler rapidement &lt;a href=&quot;https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/&quot;&gt;le capteur d’ouverture sonoff SNZB-04&lt;/a&gt;, la qualité reste la même, le conditionnement et l’esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM&lt;/p&gt;
 </description>
-      
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</guid>
-      
       <category>Test</category>
-      
       <category>Zigbee</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Tests</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp</url>
@@ -288,31 +188,18 @@
              <height>531</height>
            </image> -->
       <title>Astuce icone home assistant</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;Voilà dans la série &lt;strong&gt;des tout petits tutos&lt;/strong&gt;. Je vais décrire rapidement comment changer un icône d’un &lt;strong&gt;capteur binaire&lt;/strong&gt; grâce à la device_class, par la personnalisation dans home assistant.&lt;/p&gt;
 </description>
-      
       <pubDate>Wed, 15 Sep 2021 07:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</guid>
-      
       <category>Astuces</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Domotique</category>
-      
       <category>Haade-lab</category>
-      
       <category>Home-Assistant</category>
-      
     </item>
-    
     <item>
       <!-- <image>
          <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-944.webp</url>
@@ -322,28 +209,16 @@
              <height>531</height>
            </image> -->
       <title>Test capteur température et humidité Sonoff SNZB-02</title>
-      
-      
       <dc:creator>Nico</dc:creator>
-      
-      
       <description>&lt;p&gt;J’ai décidé de mettre en avant en présentant un test du &lt;a href=&quot;https://www.haade.fr/produit/capteur-temperature-sonoff-snzb-02-zigbee/&quot;&gt;capteur de température et humidité Sonoff SNZB-02&lt;/a&gt;, pour le sérieux et l’éventail de produits de la marque. Ça ne va pas être un gros article c’est pourquoi j’ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.&lt;/p&gt;
 </description>
-      
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
       <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
-      
       <category>Test</category>
-      
       <category>Zigbee</category>
-      
       <category>Homeassistant</category>
-      
-      
       <category>Tests</category>
-      
     </item>
-    
   </channel>
 </rss>
