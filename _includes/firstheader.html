@@ -1,23 +1,23 @@
     <div class="firstnavbar">
         <div class="links">
           {%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
-          {% for page in pages limit:1 %}
-          <a href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">{{ page.title }}</a>
-          {% endfor %}
+          {%- for page in pages limit:1 %}
+          <a href="{{- site.baseurl }}{{- page.url | remove: 'index.html' }}">{{- page.title }}</a>
+          {%- endfor %}
           {%- assign navigation_pages = site.pages
             | where: 'layout', 'firstheader'
             | where: 'locale', page.locale
             | where: 'published', true
             | sort: 'order' %}
           {%- for navigation_page in navigation_pages %}
-        <a href="{{ site.baseurl }}{{ navigation_page.url }}">{{ navigation_page.title }}</a>
+        <a href="{{- site.baseurl }}{{- navigation_page.url }}">{{- navigation_page.title }}</a>
            {%- endfor %}
-          {% include flag.html %}
+          {%- include flag.html %}
           </div>
       <div class="social-firstnav">
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link"><i class="fab fa-twitter"></i></a>
+        <a href="https://twitter.com/intent/tweet?text={{- page.title }}&url={{- page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link"><i class="fab fa-twitter"></i></a>
         <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube" target="_blank" alt="youtube"></i></a>
         <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord" target="_blank" alt="discord"></i></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook"><i class='fab fa-facebook-f'></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{- page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook"><i class='fab fa-facebook-f'></i></a>
       </div>
     </div>

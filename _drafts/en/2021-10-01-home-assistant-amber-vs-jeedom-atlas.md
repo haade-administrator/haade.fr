@@ -39,7 +39,7 @@ For the start of the school year Home-Assistant and Jeedom unveil two new boxes,
 
 # Let's Start With Home-Assistant Amber
 
-![](assets/images/posts/{{ page.guid }}/home-assistant-amber-powered-raspberry.webp)
+![](assets/images/posts/{{- page.guid }}/home-assistant-amber-powered-raspberry.webp)
 
 The Amber Box **is more than promising** because it is an integration card accommodating the raspberrypi component CM4 card available in several 1,2 and 4gb variants of optional wifi memories and with or without an 8, 16 or 32gb emmc. The box is compatible with all CM4 cards.
 
@@ -76,7 +76,7 @@ _Well not much!_
 
 # let's continue with Jeedom Atlas
 
-![](assets/images/posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.webp)
+![](assets/images/posts/{{- page.guid }}/Jeedom-Atlas-caracteristique.webp)
 
 ## Advantage Jeedom Atlas
 

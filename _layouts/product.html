@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<!-- {% assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
+<!-- {%- assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
 {%- assign translate = site.data.locales.translate %}
 
 <!-- breadcrumbs -->
@@ -27,7 +27,7 @@ layout: default
 <div class="shop-article">
 {%- assign scraptitle = scraper.title | strip_html %}
 
-<h1 class="posttitle">{{ scraptitle | truncatewords: 9 }}</h1>
+<h1 class="posttitle">{{- scraptitle | truncatewords: 9 }}</h1>
 
 {%- include aliexstar.html %}
 

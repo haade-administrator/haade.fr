@@ -5,11 +5,11 @@ title: Archive
 <!-- Begin List Posts
 ================================================== -->
 
-<h1>Archive d'articles avec <span>{{ page.type }} '{{ page.title }}'</span></h1>
+<h1>Archive d'articles avec <span>{{- page.type }} '{{- page.title }}'</span></h1>
 
 <div class="blog-grid-container">
-{% assign pages = page.posts | where: 'locale', page.locale %}
-{% for post in pages %}
-{% include postbox.html %}
-{% endfor %}
+{%- assign pages = page.posts | where: 'locale', page.locale %}
+{%- for post in pages %}
+{%- include postbox.html %}
+{%- endfor %}
 </div>

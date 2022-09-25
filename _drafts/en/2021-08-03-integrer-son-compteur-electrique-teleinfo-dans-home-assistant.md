@@ -50,13 +50,13 @@ Finally, below the 'captive\_portal' line add the rest of the code:
 
 ##  **Connection to the meter**
 
-![logo risque électrique]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/pngegg-150x150.png)
+![logo risque électrique]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/pngegg-150x150.png)
 
 **You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.**
 
  We will in this part see how to connect our assembly, here is the wiring diagram:
 
-![]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/branchement.png)
+![]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/branchement.png)
 
 Schéma de branchement
 
@@ -71,7 +71,7 @@ Schéma de branchement
 
  Back in Home Assistant go to 'Integrations'. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on 'Add integration' at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.
 
-![]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/image-1.png)
+![]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/image-1.png)
 
 Map of electric meter entities
 

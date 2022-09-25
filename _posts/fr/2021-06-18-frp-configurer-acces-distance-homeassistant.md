@@ -44,11 +44,11 @@ Colle ce lien [lien github Haade](https://github.com/haade-administrator/haade-a
 
 Si t’as rien compris regarde le gif animé ci-dessous.
 
-![ajout d'un dépot frp configurer l'accès à distance supplémentaire dans homeassistant supervisor avec hassio ]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/haade-depot.webp)
+![ajout d'un dépot frp configurer l'accès à distance supplémentaire dans homeassistant supervisor avec hassio ]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/haade-depot.webp)
 
 ## Paramètre l’application FRPc
 
-![paramétrage frp par haade]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-frp-haade-820.webp{{ cachebuster }})
+![paramétrage frp par haade]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/parametrage-frp-haade-820.webp{{- cachebuster }})
 
 capture du paramétrage pour accès à distance grâce à frp et créé pour homeassistant hassio
 1. **server addr:** l’adresse ip de votre serveur vps

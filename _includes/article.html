@@ -2,15 +2,15 @@
 ================================================== -->
 <div class="article-post">
     <!-- Toc if any -->
-    {% if page.toc %}
-    {% if page.beforetoc %}
+    {%- if page.toc %}
+    {%- if page.beforetoc %}
         <p><em>{{page.beforetoc}}</em></p>
-    {% endif %}
+    {%- endif %}
     <div class="toc mt-4 mb-4 lead">
-        <h3 class="font-weight-bold">{{ translate.sommary[page.locale] }}</h3>
-        {% include toc.html html=content %}
+        <h3 class="font-weight-bold">{{- translate.sommary[page.locale] }}</h3>
+        {%- include toc.html html=content %}
     </div>
-    {% endif %}
+    {%- endif %}
     <!-- End Toc -->
     {{content}}
 </div>

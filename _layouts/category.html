@@ -2,18 +2,18 @@
 title: "Categories"
 layout: default
 ---
-{% include breadcrumbs.html path=page.path title=page.title %}
+{%- include breadcrumbs.html path=page.path title=page.title %}
 
 <!-- https://www.valhalla.fr/2017/10/16/jekyll-une-page-par-categorie/ -->
 <div class="category">
-<h1>{{ page.title }}</h1>
-<p>{{ page.description | strip_html | truncatewords:60 }}</p>
+<h1>{{- page.title }}</h1>
+<p>{{- page.description | strip_html | truncatewords:60 }}</p>
 <br />
 <div class="blog-grid-container">
   <!-- ajout multilingual -->
-{% assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
-{% for post in category  %}
-{% include postbox.html %}
-{% endfor %}
+{%- assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true | sort: 'order' %}
+{%- for post in category  %}
+{%- include postbox.html %}
+{%- endfor %}
 </div>
 </div>

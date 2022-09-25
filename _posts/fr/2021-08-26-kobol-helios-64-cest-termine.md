@@ -30,7 +30,7 @@ Mercredi 25 Août, la société [Kobol](https://blog.kobol.io/2021/08/25/we-are-
 
 L'aventure du NAS ( network attached storage ) opensource selon Kobol a commencée au mois de juin 2017 avec la venue de l'helios 4.
 
-![helios 4 par Kobol]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/helios4-820.webp{{ cachebuster }})
+![helios 4 par Kobol]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/helios4-820.webp{{- cachebuster }})
 
 Premier Nas de la société kobol, le helios 4
 
@@ -44,7 +44,7 @@ Montage et assemblage Kobol helios 4 par Kobol.io
 
 Afin de pouvoir mieux se positionner sur le marché et suite aux ventes toujours plus forte de l'helios 4. La société a décidé en janvier 2020 de lancer officiellement l'helios64.
 
-![Nas opensource kobol helios64]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/helios64-820.webp{{ cachebuster }})
+![Nas opensource kobol helios64]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/helios64-820.webp{{- cachebuster }})
 
 module de stockage de donnée NAS, helios 64 par kobol
 

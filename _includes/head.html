@@ -1,29 +1,29 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="{{ site.baseurl }}/{{ site.logo.path }}" width='250' height='59'>
+<link rel="icon" href="{{- site.baseurl }}/{{- site.logo.path }}" width='250' height='59'>
 
-<title>{{ page.title }} - {{site.name}}</title>
+<title>{{- page.title }} - {{site.name}}</title>
 
-{% include seo.html %}
+{%- include seo.html %}
 
-<link href="{{ site.baseurl }}/assets/css/theme.css?v={{ site.time | date: '%s%N' }}" media="screen, projection, print" rel="stylesheet">
+<link href="{{- site.baseurl }}/assets/css/theme.css?v={{- site.time | date: '%s%N' }}" media="screen, projection, print" rel="stylesheet">
 
-<script src="{{ site.baseurl }}{{ '/assets/js/jquery.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{- site.baseurl }}{{- '/assets/js/jquery.min.js' | cache_buster }}" type="text/javascript"></script>
 
-{% if jekyll.environment == 'production' %}
+{%- if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
-{% if site.google_analytics.id != empty and site.google_analytics.id %}
-  {% include google-analytics.html %}
-{% endif %}
+{%- if site.google_analytics.id != empty and site.google_analytics.id %}
+  {%- include google-analytics.html %}
+{%- endif %}
 
-{% endif %}
+{%- endif %}
 
-<!--  <link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.url }}" > -->
-<link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/{{ site.favicon }}" >
+<!--  <link rel="shortcut icon" type="image/x-icon" href="{{- "/favicon.ico" | prepend: site.url }}" > -->
+<link rel="shortcut icon" type="image/png" href="{{- site.baseurl }}/{{- site.favicon }}" >
 
-{% assign countapi = site.countapi %}
-{% if jekyll.environment == 'production' and countapi.namespace %}
+{%- assign countapi = site.countapi %}
+{%- if jekyll.environment == 'production' and countapi.namespace %}
 
-<script async src="https://api.countapi.xyz/hit/{{ countapi.namespace }}/{{ page.url | remove: '/' | slice: 0, 64 }}?callback=liveViews"></script>
-{% endif %}
+<script async src="https://api.countapi.xyz/hit/{{- countapi.namespace }}/{{- page.url | remove: '/' | slice: 0, 64 }}?callback=liveViews"></script>
+{%- endif %}

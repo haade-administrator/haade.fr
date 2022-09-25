@@ -1,6 +1,6 @@
 <script>
 const scrape = require('../../node_modules/aliexpress-product-scraper/index.js');
-const item = '{{ include.item }}'
+const item = '{{- include.item }}'
 const product = scrape (item);
 const writer = '../../_data/scraper/' + item + ".json"
 const fs = require('fs');

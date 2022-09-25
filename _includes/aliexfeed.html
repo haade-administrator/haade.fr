@@ -2,26 +2,26 @@
   {%- assign feedbacks = scraper.feedback %}
   {%- for vote in feedbacks %}
   {%- for value in vote.info %}
-{% if value[1] contains page.declination %}
+{%- if value[1] contains page.declination %}
 <ul>
-  <li>{{ vote.displayName }}</li>
-  <li>Number of Stars: {{ vote.rating }}</li>
-  <li>{{ value[1] }}</li>
-  <li>{% include date.html date=vote.date %}</li>
+  <li>{{- vote.displayName }}</li>
+  <li>Number of Stars: {{- vote.rating }}</li>
+  <li>{{- value[1] }}</li>
+  <li>{%- include date.html date=vote.date %}</li>
   {%- if vote.content != '' %}
-  <li>{{ vote.content | strip_html }}</li>
+  <li>{{- vote.content | strip_html }}</li>
   {%- endif %}
 </ul>
-{% else %}
+{%- else %}
 <ul>
-  <li>{{ vote.displayName }}</li>
-  <li>Number of Global Stars: {{ vote.rating }}</li>
-  <li>{% include date.html date=vote.date %}</li>
+  <li>{{- vote.displayName }}</li>
+  <li>Number of Global Stars: {{- vote.rating }}</li>
+  <li>{%- include date.html date=vote.date %}</li>
   {%- if vote.content != '' %}
-  <li>{{ vote.content | strip_html }}</li>
+  <li>{{- vote.content | strip_html }}</li>
   {%- endif %}
 </ul>
-{% endif %}
+{%- endif %}
   {%- endfor %}
 {%- endfor %}
 </div>

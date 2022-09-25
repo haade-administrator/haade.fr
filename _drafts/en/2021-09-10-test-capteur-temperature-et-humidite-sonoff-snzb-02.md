@@ -42,7 +42,7 @@ Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 pro
 
 ## Compare Sonoff SNZB-02 VS Xiaomi Aqara WSDCGQ11LM
 
-![]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi-1024x576.png)
+![]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi-1024x576.png)
 
 ## Positive point of the sonoff SNZB-02 temperature sensor
 

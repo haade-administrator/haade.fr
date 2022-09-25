@@ -1,23 +1,23 @@
-{% if paginator.total_pages > 1 %}
+{%- if paginator.total_pages > 1 %}
 <div class="pagination">
-  {% if paginator.previous_page %}
-    <a class="ml-1 mr-1" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html' }}">&laquo; </a>
-  {% else %}
+  {%- if paginator.previous_page %}
+    <a class="ml-1 mr-1" href="{{- paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html' }}">&laquo; </a>
+  {%- else %}
     <span>&laquo; </span>
-  {% endif %}
+  {%- endif %}
 
-  {% if paginator.page_trail %}
-    {% for trail in paginator.page_trail %}
-      <li {% if page.url == trail.path %}class="selected"{% endif %}>
-          <a class="ml-1 mr-1" href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+  {%- if paginator.page_trail %}
+    {%- for trail in paginator.page_trail %}
+      <li {%- if page.url == trail.path %}class="selected"{%- endif %}>
+          <a class="ml-1 mr-1" href="{{- trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{- trail.num }}</a>
       </li>
-    {% endfor %}
-  {% endif %}
+    {%- endfor %}
+  {%- endif %}
 
-  {% if paginator.next_page %}
-    <a class="ml-1 mr-1" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html' }}"> &raquo;</a>
-  {% else %}
+  {%- if paginator.next_page %}
+    <a class="ml-1 mr-1" href="{{- paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | remove: 'index.html' }}"> &raquo;</a>
+  {%- else %}
     <span> &raquo;</span>
-  {% endif %}
+  {%- endif %}
 </div>
-{% endif %}
+{%- endif %}

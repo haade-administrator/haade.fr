@@ -13,50 +13,50 @@ sitemap:
 ---
 
 <div class="list-authors mt-5">
-{% for author in site.data.authors %}
-    <div id="{{ author[1].name }}" class="authorbox position-relative pb-5 pt-5 mb-4 mt-4 border">
+{%- for author in site.data.authors %}
+    <div id="{{- author[1].name }}" class="authorbox position-relative pb-5 pt-5 mb-4 mt-4 border">
         <div class="row">
             <div class="wrapavname col-md-3 text-center">
-                {% if author[1].gravatar %}
-                <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=70&d=mm&r=x" alt="{{ author.display_name }}">
-                {% else %}
-                <img  class="author-thumb" src="{{site.baseurl}}/{{ author[1].avatar }}" width="70" height="70" alt="{{ author.display_name }}">
-                {% endif %}
+                {%- if author[1].gravatar %}
+                <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{- author[1].gravatar }}?s=70&d=mm&r=x" alt="{{- author.display_name }}">
+                {%- else %}
+                <img  class="author-thumb" src="{{site.baseurl}}/{{- author[1].avatar }}" width="70" height="70" alt="{{- author.display_name }}">
+                {%- endif %}
 
                 <p class="mt-4 mb-0 small text-center">
 
-                    {% if author[1].web %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].web }}"><i class="fa fa-link"></i></a>
-                    {% endif %}
+                    {%- if author[1].web %}
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- author[1].web }}"><i class="fa fa-link"></i></a>
+                    {%- endif %}
 
-                    {% if author[1].twitter %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].twitter }}"><i class="fab fa-twitter"></i></a>
-                    {% endif %}
+                    {%- if author[1].twitter %}
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- author[1].twitter }}"><i class="fab fa-twitter"></i></a>
+                    {%- endif %}
 
-                    {% if author[1].youtube %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].youtube }}"><i class="fab fa-youtube"></i></a>
-                    {% endif %}
+                    {%- if author[1].youtube %}
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- author[1].youtube }}"><i class="fab fa-youtube"></i></a>
+                    {%- endif %}
 
-                    {% if author[1].discord %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].discord }}"><i class="fab fa-discord"></i></a>
-                    {% endif %}
+                    {%- if author[1].discord %}
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- author[1].discord }}"><i class="fab fa-discord"></i></a>
+                    {%- endif %}
 
-                    {% if author[1].email %}
-                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author[1].email }}"><i class="fa fa-envelope"></i></a>
-                    {% endif %}
+                    {%- if author[1].email %}
+                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{- author[1].email }}"><i class="fa fa-envelope"></i></a>
+                    {%- endif %}
 
                 </p>
 
             </div>
             <div class="col-md-9">
-              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author[1].name | slugify }}">
-                <h3>{{ author[1].display_name }}</h3>
+              <a href="{{site.baseurl}}/{{- page.locale | slice: 0,2 }}/author-{{- author[1].name | slugify }}">
+                <h3>{{- author[1].display_name }}</h3>
                 <small class="d-inline-block mt-1 mb-3 font-weight-normal">(Voir les Articles)</small>
 
-                <p class="mt-3 mb-0">{{ author[1].description[page.locale] }}</p>
+                <p class="mt-3 mb-0">{{- author[1].description[page.locale] }}</p>
               </a>
             </div>
         </div>
     </div>
-{% endfor %}
+{%- endfor %}
 </div>

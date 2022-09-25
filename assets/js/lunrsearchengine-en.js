@@ -3,18 +3,18 @@ layout: null
 sitemap: false
 ---
 
-{% assign counter = 0 %}
+{%- assign counter = 0 %}
 var documents = [  {%- assign searchml_posts = site.posts
   | where: 'locale', 'en_GB'
   | where: 'published', true %}
   {%- for searchml_post in searchml_posts %}{
-    "id": {{ counter }},
-    "url": "{{ site.baseurl }}{{ searchml_post.url }}",
-    "title": "{{ searchml_post.title }}",
-    "description": "{{ searchml_post.date | date: "%Y/%m/%d" }} - {{ searchml_post.description }}",
-    "tags": "{{ searchml_post.tags | join: ' - ' }}"
-    {% assign counter = counter | plus: 1 %}
-    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+    "id": {{- counter }},
+    "url": "{{- site.baseurl }}{{- searchml_post.url }}",
+    "title": "{{- searchml_post.title }}",
+    "description": "{{- searchml_post.date | date: "%Y/%m/%d" }} - {{- searchml_post.description }}",
+    "tags": "{{- searchml_post.tags | join: ' - ' }}"
+    {%- assign counter = counter | plus: 1 %}
+    }{%- if forloop.last %}{%- else %}, {%- endif %}{%- endfor %}];
 
 var idx = lunr(function () {
     this.ref('id')

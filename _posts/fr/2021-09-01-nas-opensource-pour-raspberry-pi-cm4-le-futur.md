@@ -22,21 +22,21 @@ comments: true
 ---
 Après [la fin annoncée par kobol,](https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/){:target="_blank"} [Wiretrustee](https://wiretrustee.com/){:target="_blank"} annonce l'arrivée imminente d'une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )
 
-![carte sata wiretrustee pour raspberrypi]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/carte-sata-wiretrustee-raspberrypi-4-1-820.webp{{ cachebuster }})
+![carte sata wiretrustee pour raspberrypi]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/carte-sata-wiretrustee-raspberrypi-4-1-820.webp{{- cachebuster }})
 
 Ce n'est pas sans rappeler le projet du NAS opensource Helios 4 créé en 2017 que la société wiretrustee surf sur la vague des NAS opensource. Avec une vision légèrement différente en créant une carte SATA accueillant le module raspberry pi 4 ( CM4 ). Ainsi la compatibilité du Raspberry avec les options du component CM4 comme le wifi, la mémoire et le ssd embarqué en font un allié précieux et surtout fiable. Pour l'instant le projet est au stade de crowdfounding mais je suis confiant quand à la sortie de cette carte.
 
-![boitier sata wiretrustee rapsberrypi 4]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-820.webp{{ cachebuster }})
+![boitier sata wiretrustee rapsberrypi 4]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-820.webp{{- cachebuster }})
 
 Nas wiretrustee raspberry pi cm4 en 2,5" et 3,5"
 
 Par rapport à kobol la carte wiretrustee possède qu'**une seule carte réseau ethernet** et on ne **peut pas brancher de batteries de secours** afin d'éviter les pannes après coupure de courant, bref de l'utiliser comme onduleur, ça viendra peut être lors d'une prochaine révision. Le reste est plutôt bien pensé.
 
-![blue print wiretrustee]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/blueprint-wiretrustee-sata-raspberry-card-nas-820.webp{{ cachebuster }})
+![blue print wiretrustee]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/blueprint-wiretrustee-sata-raspberry-card-nas-820.webp{{- cachebuster }})
 
 ## Caractéristiques et spécifications
 
-![carte opensource wiretrustee sata pour raspberrypi]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/wiretrustee-raspberrypi-board-sata-nas-opensource-820.webp{{ cachebuster }})
+![carte opensource wiretrustee sata pour raspberrypi]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/wiretrustee-raspberrypi-board-sata-nas-opensource-820.webp{{- cachebuster }})
 
 - 4 x SATA 3.0 ports
 - dimensions hors tout 100 x 100 mm PCB

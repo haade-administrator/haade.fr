@@ -22,7 +22,7 @@ comments: true
 ---
 La livraison par aliexpress du capteur d’empreintes Grow R503 et des accessoires s’est effectuée sans soucis et livré bien emballé, je n’ai rencontré aucun soucis à la livraison et le délai d’envoi et livraison a été effectuée rapidement, le manufacturier Grow propose de bonnes prestations.
 
-![Grow R503 capteur d'empreintes complet avec plaque inox]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/grow-r503-plaque-inox-clapet-zinc-esphome-home-assistant-820.webp{{ cachebuster }}){: width="700" height="394"}
+![Grow R503 capteur d'empreintes complet avec plaque inox]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/grow-r503-plaque-inox-clapet-zinc-esphome-home-assistant-820.webp{{- cachebuster }}){: width="700" height="394"}
 
 ## Le matériel, test du Grow R503
 
@@ -30,7 +30,7 @@ La livraison par aliexpress du capteur d’empreintes Grow R503 et des accessoir
 
 **+** La partie arrière est siliconée pour éviter la pénétration d’humidité.
 
-![dessous capteur grow r503]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/silicone-grow-r503-820.webp{{ cachebuster }}){: width="700" height="394"}
+![dessous capteur grow r503]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/silicone-grow-r503-820.webp{{- cachebuster }}){: width="700" height="394"}
 
 dessous du capteur d’empreinte grow r503 rempli de silicone pour éviter les infiltrations **+** le Grow R503 a une capacité mémoire de **200 empreintes**.
 
@@ -61,7 +61,7 @@ Hormis le fait que ce soit un test, c’est aussi la suite d’un article que j�
 
 ### 1 – Connexion au wemos
 
-![branchement grow r503 sur wemos D1 mini]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/branchement-grow-r503-wemos-d1-mini-820.webp{{ cachebuster }}){: width="700" height="394"}
+![branchement grow r503 sur wemos D1 mini]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/branchement-grow-r503-wemos-d1-mini-820.webp{{- cachebuster }}){: width="700" height="394"}
 
 branchement par fil dupont du capteur d’empreinte r503 sur wemos d1 mini esphome. Personnellement j’utilise des **fils dupont** ou je serti des connecteurs dupont idéal pour le diamètre des fils du capteur d’empreinte Grow R503, suivez le schéma de branchement:
 
@@ -75,7 +75,7 @@ branchement par fil dupont du capteur d’empreinte r503 sur wemos d1 mini espho
 
 là aussi j’ai rédigé un article à **consulter** [esphome et home assistant](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/).
 
-{% gist 1e431d8fe4fa347e01f286349e610891 %}
+{%- gist 1e431d8fe4fa347e01f286349e610891 %}
 
 ### 3 – Intégration du capteur d’empreintes Grow R503 à Lovelace
 
@@ -87,7 +87,7 @@ les enregistrements d’empreintes se font dans Outils de développements &gt;&g
 
 Ci-dessous la liste des 4 services disponibles.
 
-![Branchement wemos D1 mini](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-WeMos-D1-Mini-pinout-gpio-pin-820.webp{{ cachebuster }}?w=715&quality=100&strip=all&ssl=1){: width="700" height="394"}
+![Branchement wemos D1 mini](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-WeMos-D1-Mini-pinout-gpio-pin-820.webp{{- cachebuster }}?w=715&quality=100&strip=all&ssl=1){: width="700" height="394"}
 
 Gif animé présentant les services disponibles avec esphome et le capteur d’empreinte Grow R503
 1. **Cancel\_enroll:** stoppe le service enroll ( appairage )
@@ -99,7 +99,7 @@ Gif animé présentant les services disponibles avec esphome et le capteur d’e
 
 Grâce à la documentation complète Esphome, du capteur d’empreinte digitale Grow R503, nous pouvons facilement **créer des Balise (tags)** et ainsi personnaliser les **finger\_id** au nom d’une personne ce qui permet très facilement de réaliser une automatisation unique.
 
-{% gist 1e431d8fe4fa347e01f286349e610891 %}
+{%- gist 1e431d8fe4fa347e01f286349e610891 %}
 
 **Exemple:** Grâce aux balises, **Person\_a** pourra ouvrir la porte de garage tandis que **Person\_b** ouvrira cette même porte mais aura le pouvoir de désactiver en même temps l’alarme, magique !
 

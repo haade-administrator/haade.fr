@@ -10,10 +10,10 @@
 <div class="mt-4 mb-4 d-flex align-items-center">
   {%- if star %}
   <div class="listscraper">
-    <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {% include date.html date=site.time %}</div>
-    <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong>{% include star_rating.html %}<div class="totalrating">({{ rating.totalStartCount }} {{ translate.product.reviews[page.locale] }})</div></div>
+    <div class="itemscraper"><strong class="mr-1">{{- translate.update[page.locale] }}:</strong> {%- include date.html date=site.time %}</div>
+    <div class="itemscraper"><strong class="mr-1">{{- translate.product.rating[page.locale] }}:</strong>{%- include star_rating.html %}<div class="totalrating">({{- rating.totalStartCount }} {{- translate.product.reviews[page.locale] }})</div></div>
   {%- endif %}
-    <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
-    <div class="itemscraper"><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
+    <div class="itemscraper"><strong class="mr-1">{{- translate.product.price[page.locale] }}:</strong> {{- price }} {{- currency }} <div class="originalprice">{{- originalprice }}</div></div>
+    <div class="itemscraper"><strong class="mr-1">{{- translate.product.quantity[page.locale] }}:</strong> {{- quantity }}</div>
   </div>
 </div>

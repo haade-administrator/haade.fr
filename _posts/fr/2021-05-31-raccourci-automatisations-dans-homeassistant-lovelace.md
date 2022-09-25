@@ -37,6 +37,6 @@ Voici en détails la façon de mettre ce raccourci en place
 
 5\) Il ne reste plus qu’a choisir l’auto a mettre en raccourci et le raccourci sera disponible dans l’aperçu
 
-![Gif animé qui montre étape par étape la création d'une entité de contrôle d'une ou plusieurs automatisations dans homeassistant lovelace]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/raccourci.webp){: width="700" height="400"}
+![Gif animé qui montre étape par étape la création d'une entité de contrôle d'une ou plusieurs automatisations dans homeassistant lovelace]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/raccourci.webp){: width="700" height="400"}
 
 Gif animé qui montre étape par étape la création d’une entité de contrôle d’une ou plusieurs automatisations dans homeassistant lovelace. Voilà un tout petit tuto sur homeassistant et lovelace. Pas compliqué mais au moins tu trouveras directement tes automatisations dans entité. Il est aussi possible de créer un bouton directement sur lovelace. Mais c’est plus difficile à mettre en place et la différence d’ergonomie n’est pas meilleur. [Si ça t’intéresse clic sur ce lien d’une discussion sur les forums d’home assistant.](https://community.home-assistant.io/t/how-can-i-execute-an-automation-from-a-lovelace-button/211426/5){: target="_blank"}

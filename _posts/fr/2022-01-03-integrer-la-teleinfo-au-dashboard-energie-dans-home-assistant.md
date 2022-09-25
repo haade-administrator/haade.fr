@@ -23,7 +23,7 @@ comments: true
 
 Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo](https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/).
 
-{% include product-card.html %}
+{%- include product-card.html %}
 
 ## Prérequis :
 
@@ -53,7 +53,7 @@ Ces variables sont toutes documentées dans la doc de l'intégration, libre à v
 
 Voici le genre d'entité que vous obtiendrez après redémarrage de Home Assistant :
 
-![entité sensor.heures\_pleines]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/grille-heure-pleine-820.webp{{ cachebuster }})
+![entité sensor.heures\_pleines]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/grille-heure-pleine-820.webp{{- cachebuster }})
 
 Maintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard "Energie".
 
@@ -66,16 +66,16 @@ Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la con
 Ensuite dans "Réseau électrique", cliquez sur "Ajouter la consommation" et sélectionnez le sensor créé auparavant, dans notre cas : **sensor.heures\_pleines**.  
 Répétez l'opération pour le sensor heures creuses si nécessaire.  
 
-![Configuration du dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-heure-creuse-pleine-820.webp{{ cachebuster }})
+![Configuration du dashboard Energie]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/integration-heure-creuse-pleine-820.webp{{- cachebuster }})
 
 Configuration du dashboard Energie
 
 Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/)).
 
-![Ajout d'un compteur]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/ajout-compteur-820.webp{{ cachebuster }})
+![Ajout d'un compteur]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/ajout-compteur-820.webp{{- cachebuster }})
 
 Une fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.
 
-![Dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-dashboard-energie-ha-820.webp{{ cachebuster }})
+![Dashboard Energie]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/integration-dashboard-energie-ha-820.webp{{- cachebuster }})
 
 L'article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.

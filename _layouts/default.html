@@ -3,22 +3,22 @@ layout: compress
 --- -->
 
 <!DOCTYPE html>
-<html lang="{{ page.locale | replace: '_', '-' }}">
+<html lang="{{- page.locale | replace: '_', '-' }}">
 <head>
 
-{% include head.html %}
+{%- include head.html %}
 
 </head>
-{% assign cachebuster = site.time | date:'?v=%s' %}
-{% assign translate = site.data.locales.translate %}
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
+{%- assign cachebuster = site.time | date:'?v=%s' %}
+{%- assign translate = site.data.locales.translate %}
+{%- capture layout %}{%- if page.layout %}layout-{{- page.layout }}{%- endif %}{%- endcapture %}
 <body>
 	<!-- defer loading of font and fontawesome -->
 	<noscript id="deferred-styles">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
 <header>
-	{% include header.html %}
+	{%- include header.html %}
 </header>
 
 <div class="site-content">
@@ -28,39 +28,39 @@ layout: compress
     <!-- Content
     ================================================== -->
     <div class="main-content">
-      {% if page.url == '/index.html' or page.url == '/en/index.html' %}
-      {% include ticker-news-local.html %}
-      {% include hero.html %}
-      {% endif %}
-        {{ content }}
+      {%- if page.url == '/index.html' or page.url == '/en/index.html' %}
+      {%- include ticker-news-local.html %}
+      {%- include hero.html %}
+      {%- endif %}
+        {{- content }}
     </div>
 
 </div>
 
-{% include footer.html %}
+{%- include footer.html %}
 
 </div> <!-- /.site-content -->
 
 
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
-{% if site.backtotop == "enabled" %}
-<script src="{{ site.baseurl }}{{ '/assets/js/vanilla-back-to-top.min.js' | cache_buster }}" type="text/javascript"></script>
+{%- if site.backtotop == "enabled" %}
+<script src="{{- site.baseurl }}{{- '/assets/js/vanilla-back-to-top.min.js' | cache_buster }}" type="text/javascript"></script>
 <script>addBackToTop({
   diameter: 44,
   backgroundColor: '#1B1C37',
   textColor: '#2AD2FD'
 })</script>
-{% endif %}
+{%- endif %}
 <!-- end script -->
-<script src="{{ site.baseurl }}{{ '/assets/js/prism.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/theme.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/navbar.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/flag.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{- site.baseurl }}{{- '/assets/js/prism.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{- site.baseurl }}{{- '/assets/js/theme.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{- site.baseurl }}{{- '/assets/js/navbar.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{- site.baseurl }}{{- '/assets/js/flag.min.js' | cache_buster }}" type="text/javascript"></script>
 
 
-{% if site.lazyimages == "enabled" %}
-<script src="{{ site.baseurl }}{{'/assets/js/lazyload.min.js' | cache_buster }}" type="text/javascript"></script>
-{% endif %}
+{%- if site.lazyimages == "enabled" %}
+<script src="{{- site.baseurl }}{{'/assets/js/lazyload.min.js' | cache_buster }}" type="text/javascript"></script>
+{%- endif %}
 
 </body>
 </html>

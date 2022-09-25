@@ -56,8 +56,8 @@ script:
         topic: zigbee2mqtt/bridge/config/rename
         payload_template: >-
           {
-            "old": "{{ states.input_text.zigbee2mqtt_old_name.state | string }}",
-            "new": "{{ states.input_text.zigbee2mqtt_new_name.state | string }}"
+            "old": "{{- states.input_text.zigbee2mqtt_old_name.state | string }}",
+            "new": "{{- states.input_text.zigbee2mqtt_new_name.state | string }}"
           }
   zigbee2mqtt_remove:
     alias: Retirer le device
@@ -65,7 +65,7 @@ script:
       service: mqtt.publish
       data_template:
         topic: zigbee2mqtt/bridge/config/remove
-        payload_template: "{{ states.input_text.zigbee2mqtt_remove.state | string }}"
+        payload_template: "{{- states.input_text.zigbee2mqtt_remove.state | string }}"
 
 # Timer for joining time remaining (120 sec = 2 min)
 timer:
@@ -83,20 +83,20 @@ sensor:
   - platform: mqtt
     name: Zigbee2mqtt Version
     state_topic: "zigbee2mqtt/bridge/config"
-    value_template: "{{ value_json.version }}"
+    value_template: "{{- value_json.version }}"
     icon: mdi:zigbee
   # Sensor for Showing the Coordinator Version
   - platform: mqtt
     name: Coordinator Version
     state_topic: "zigbee2mqtt/bridge/config"
-    value_template: "{{ value_json.coordinator }}"
+    value_template: "{{- value_json.coordinator }}"
     icon: mdi:chip
   - platform: mqtt
     name: Zigbee2mqtt Networkmap
     # if you change base_topic of Zigbee2mqtt, change state_topic accordingly
     state_topic: zigbee2mqtt/bridge/networkmap/raw
     value_template: >-
-      {{ now().strftime('%Y-%m-%d %H:%M:%S') }}
+      {{- now().strftime('%Y-%m-%d %H:%M:%S') }}
     # again, if you change base_topic of Zigbee2mqtt, change json_attributes_topic accordingly
     json_attributes_topic: zigbee2mqtt/bridge/networkmap/raw
 
@@ -119,7 +119,7 @@ automation:
     action:
       - service: mqtt.publish
         data:
-          payload_template: "{{ states('input_select.zigbee2mqtt_log_level') }}"
+          payload_template: "{{- states('input_select.zigbee2mqtt_log_level') }}"
           topic: zigbee2mqtt/bridge/config/log_level
   # Automation to start timer when enable join is turned on
   - id: zigbee_join_enabled
@@ -227,7 +227,7 @@ sensor:
     # if you change base_topic of Zigbee2mqtt, change state_topic accordingly
     state_topic: zigbee2mqtt/bridge/networkmap/raw
     value_template: >-
-      {{ now().strftime('%Y-%m-%d %H:%M:%S') }}
+      {{- now().strftime('%Y-%m-%d %H:%M:%S') }}
     # again, if you change base_topic of Zigbee2mqtt, change json_attributes_topic accordingly
     json_attributes_topic: zigbee2mqtt/bridge/networkmap/raw
 ```

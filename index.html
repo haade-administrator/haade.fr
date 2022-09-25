@@ -12,23 +12,23 @@ published: true
 
 <!-- Posts Index
 ================================================== -->
-{% assign translate = site.data.locales.translate %}
+{%- assign translate = site.data.locales.translate %}
 <div class="blog-grid-container">
   <div class="post-grid">
-    <h2 class="font-weight-bold spanborder"><span>{{ translate.morepost[page.locale] }} ..</span></h2>
+    <h2 class="font-weight-bold spanborder"><span>{{- translate.morepost[page.locale] }} ..</span></h2>
     <br />
-    {% assign posts = paginator.posts | where: 'published', true | sort: 'order' | where: 'layout', 'post' %}
+    {%- assign posts = paginator.posts | where: 'published', true | sort: 'order' | where: 'layout', 'post' %}
     {%- for post in posts %}
-        {% include postbox.html %}
-    {% endfor %}
+        {%- include postbox.html %}
+    {%- endfor %}
   </div>
-{% include right-bar.html %}
+{%- include right-bar.html %}
 </div>
 
 <!-- Pagination
 ================================================== -->
 <div class="bottompagination">
 <span class="navigation" role="navigation">
-    {% include pagination.html %}
+    {%- include pagination.html %}
 </span>
 </div>
