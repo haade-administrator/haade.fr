@@ -1,8 +1,8 @@
 {%- assign translate = site.data.locales.translate %}
 <div class="sl-nav">
-  {{- translate.lang[page.locale] }}:
+  {{ translate.lang[page.locale] }}:
   <ul>
-    <li><b>{{- translate.languages[page.locale].value }}</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
+    <li><b>{{ translate.languages[page.locale].value }}</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
         {%- for language in translate.languages %}
@@ -68,7 +68,7 @@
         {%- endfor %}
 
       {%- endif %}
-        <li{%- if language[1].slug == page.locale %} class="current"{%- endif %}><a href="{{- url }}"><i class="sl-flag fix flag-{{- language[1].slug | replace: 'fr_FR', 'fr' | replace: 'en_GB', 'england'  }}"><div id="{{- language[1].value }}"></div></i><span class="active">{{- language[1].value }}</span></a></li>
+        <li{%- if language[1].slug == page.locale %} class="current"{%- endif %}><a href="{{ url }}"><i class="sl-flag fix flag-{{ language[1].slug | replace: 'fr_FR', 'fr' | replace: 'en_GB', 'england'  }}"><div id="{{ language[1].value }}"></div></i><span class="active">{{ language[1].value }}</span></a></li>
         {%- endfor %}
       </ul>
     </li>

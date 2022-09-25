@@ -28,7 +28,7 @@ Pour ma part l'installation du système est monté [sur une carte sd de 128Go de
 
 ## Pourquoi cette [carte Waveshare poe+ type C](https://s.click.aliexpress.com/e/_ALSRv5){:target="_blank"}, par rapport aux cartes officielles raspberry pi
 
-![Waveshareshare plugin raspberrypi 4 poe type c]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/waveshare-poe-typec-raspberrypi-4-820.webp{{- cachebuster }})
+![Waveshareshare plugin raspberrypi 4 poe type c]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/waveshare-poe-typec-raspberrypi-4-820.webp{{ cachebuster }})
 
 - Elle est compatible avec les derniers standards POE+
 - les GPIO sont toujours accessibles ( [si on veut rajouter un écran tft-lcd de 2.2](https://s.click.aliexpress.com/e/_ANZpYP){:target="_blank"} pouces, c'est mieux )
@@ -47,17 +47,17 @@ Pour être sûre de ne pas rencontrer de surchauffe [j'ai acheté des dissipateu
 
 Aucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j'arrive à tenir 42°C avec des pics à 48°C, **maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.**
 
-![dissipateur raspberrypi 4 cuivre]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/dissipateur-raspberry-pi-home-assistant-820.webp{{- cachebuster }})
+![dissipateur raspberrypi 4 cuivre]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/dissipateur-raspberry-pi-home-assistant-820.webp{{ cachebuster }})
 
 **Ci-dessus:** La mise en place des dissipateurs de 5mm d'épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.
 
-![Intégration final box raspberrypi tableau électrique]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/box-domotique-tableau-820.webp{{- cachebuster }})
+![Intégration final box raspberrypi tableau électrique]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/box-domotique-tableau-820.webp{{ cachebuster }})
 
 **Ci-dessus:** L'intégration dans le tableau électrique sur rail din se fait sans soucis, l'alimentation par poe+ est un point positif à l'intégration.
 
 **Ci-dessous:** grâce à Home-Assistant et à l'intégration systemmonitor on peut contrôler l'état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l'intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc... ), [l'ajout d'un écran tft/lcd de 2,2" s'intègre parfaitement au boitier ou l'on pourrait faire du monitoring voir la présentation de l'intégration Jeedom](https://community.jeedom.com/t/presentation-box-diy-raspberry-4b-ecran-spi-tft-2-2-boitier-din-alim-5v-2-4a-din/35177){:target="_blank"}. Mais d'après un retour d'expérience l'ajout d'un tel écran fait augmenter la température de presque 10°C. Peut être que j'effectuerai un upgrade mais pour l'instant je ne trouve pas ça indispensable.
 
-![Intégration totale lovelace home-assistant d'un raspberrypi]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/systemmonitor-raspberry-820.webp{{- cachebuster }})
+![Intégration totale lovelace home-assistant d'un raspberrypi]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/systemmonitor-raspberry-820.webp{{ cachebuster }})
 
 ## En conclusion
 

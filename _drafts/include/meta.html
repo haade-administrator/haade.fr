@@ -1,0 +1,80 @@
+<html>
+    <head>
+      <title>Executive Anvil</title>
+    </head>
+    <body>
+    <div>
+      <div itemtype="https://schema.org/Product" itemscope>
+        <meta itemprop="mpn" content="925872" />
+        <meta itemprop="name" content="Executive Anvil" />
+        <link itemprop="image" href="https://example.com/photos/16x9/photo.jpg" />
+        <link itemprop="image" href="https://example.com/photos/4x3/photo.jpg" />
+        <link itemprop="image" href="https://example.com/photos/1x1/photo.jpg" />
+        <meta itemprop="description" content="Sleeker than ACME's Classic Anvil, the Executive Anvil is perfect for the business traveler looking for something to drop from a height." />
+        <div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+          <meta itemprop="lowPrice" content="119.99" />
+          <meta itemprop="highPrice" content="199.99" />
+          <meta itemprop="offerCount" content="6" />
+          <meta itemprop="priceCurrency" content="USD" />
+        </div>
+        <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
+          <meta itemprop="reviewCount" content="89" />
+          <meta itemprop="ratingValue" content="4.4" />
+        </div>
+        <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
+          <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Fred Benson" />
+          </div>
+          <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
+            <meta itemprop="ratingValue" content="4" />
+            <meta itemprop="bestRating" content="5" />
+          </div>
+        </div>
+        <meta itemprop="sku" content="0446310786" />
+        <div itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
+          <meta itemprop="name" content="ACME" />
+        </div>
+      </div>
+    </div>
+    </body>
+  </html>
+
+  ========================================================================
+
+  product page with an offer
+
+  <html>
+    <head>
+      <title>Cheese Knife Pro review</title>
+    </head>
+    <body>
+      <div itemtype="https://schema.org/Product" itemscope>
+        <meta itemprop="name" content="Cheese Knife Pro" />
+        <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
+          <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
+            <meta itemprop="name" content="Pascal Van Cleeff" />
+          </div>
+          <div itemprop="positiveNotes" itemtype="https://schema.org/ItemList" itemscope>
+            <div itemprop="itemListElement" itemtype="https://schema.org/ListItem" itemscope>
+              <meta itemprop="position" content="1" />
+              <meta itemprop="name" content="Consistent results" />
+            </div>
+            <div itemprop="itemListElement" itemtype="https://schema.org/ListItem" itemscope>
+              <meta itemprop="position" content="2" />
+              <meta itemprop="name" content="Still sharp after many uses" />
+            </div>
+          </div>
+          <div itemprop="negativeNotes" itemtype="https://schema.org/ItemList" itemscope>
+            <div itemprop="itemListElement" itemtype="https://schema.org/ListItem" itemscope>
+              <meta itemprop="position" content="1" />
+              <meta itemprop="name" content="No child protection" />
+            </div>
+            <div itemprop="itemListElement" itemtype="https://schema.org/ListItem" itemscope>
+              <meta itemprop="position" content="2" />
+              <meta itemprop="name" content="Lacking advanced features" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>

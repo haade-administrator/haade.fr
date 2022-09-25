@@ -16,33 +16,33 @@ sitemap:
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
                   {%- if site.data.authors.Yann.url %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Yann.url }}"><i class="fa fa-link"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.url }}"><i class="fa fa-link"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Yann.twitter %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Yann.twitter }}"><i class="fab fa-twitter"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.twitter }}"><i class="fab fa-twitter"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Yann.youtube %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Yann.youtube }}"><i class="fab fa-youtube"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.youtube }}"><i class="fab fa-youtube"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Yann.discord %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Yann.discord }}"><i class="fab fa-discord"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Yann.discord }}"><i class="fab fa-discord"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Yann.email %}
-                      <a class="d-inline-block mx-1 text-dark" href="mailto:{{- site.data.authors.Yann.email }}"><i class="fa fa-envelope"></i></a>
+                      <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Yann.email }}"><i class="fa fa-envelope"></i></a>
                   {%- endif %}
-                  <p class="excerpt">{{- site.data.authors.Yann.description[page.locale] }}</p>
-                  <p>Number of articles written:<span class="badge badge-light posts">{{- site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
+                  <p class="excerpt">{{ site.data.authors.Yann.description[page.locale] }}</p>
+                  <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
               {%- if site.data.authors.Yann.gravatar %}
-              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{- site.data.authors.Yann.gravatar }}?s=120&d=mm&r=x" alt="{{- site.data.authors.Yann.display_name }}">
+              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Yann.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Yann.display_name }}">
               {%- else %}
-              <img class="author-thumb-xl" src="{{site.baseurl}}/{{- site.data.authors.Yann.avatar }}" width="120" height="120" alt="{{- site.data.authors.Yann.display_name }}">
+              <img class="author-thumb-xl" src="{{site.baseurl}}/{{ site.data.authors.Yann.avatar }}" width="120" height="120" alt="{{ site.data.authors.Yann.display_name }}">
               {%- endif %}
             </div>
         </div>

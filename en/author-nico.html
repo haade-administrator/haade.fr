@@ -17,33 +17,33 @@ comments: true
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
                   {%- if site.data.authors.Nico.url %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Nico.url }}"><i class="fa fa-link"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Nico.url }}"><i class="fa fa-link"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.twitter %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Nico.twitter }}"><i class="fab fa-twitter"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Nico.twitter }}"><i class="fab fa-twitter"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.youtube %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Nico.youtube }}"><i class="fab fa-youtube"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Nico.youtube }}"><i class="fab fa-youtube"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.discord %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{- site.data.authors.Nico.discord }}"><i class="fab fa-discord"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ site.data.authors.Nico.discord }}"><i class="fab fa-discord"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.email %}
-                      <a class="d-inline-block mx-1 text-dark" href="mailto:{{- site.data.authors.Nico.email }}"><i class="fa fa-envelope"></i></a>
+                      <a class="d-inline-block mx-1 text-dark" href="mailto:{{ site.data.authors.Nico.email }}"><i class="fa fa-envelope"></i></a>
                   {%- endif %}
-                  <p class="excerpt">{{- site.data.authors.Nico.description[page.locale] }}</p>
-                  <p>Number of articles written:<span class="badge badge-light posts">{{- site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>
+                  <p class="excerpt">{{ site.data.authors.Nico.description[page.locale] }}</p>
+                  <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
               {%- if site.data.authors.Nico.gravatar %}
-              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{- site.data.authors.Nico.gravatar }}?s=120&d=mm&r=x" alt="{{- site.data.authors.Nico.display_name }}">
+              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Nico.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Nico.display_name }}">
               {%- else %}
-              <img class="author-thumb-xl" src="{{site.baseurl}}/{{- site.data.authors.Nico.avatar }}" width="120" height="120" alt="{{- site.data.authors.Nico.display_name }}">
+              <img class="author-thumb-xl" src="{{site.baseurl}}/{{ site.data.authors.Nico.avatar }}" width="120" height="120" alt="{{ site.data.authors.Nico.display_name }}">
               {%- endif %}
             </div>
         </div>

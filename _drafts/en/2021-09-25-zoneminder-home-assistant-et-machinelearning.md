@@ -82,7 +82,7 @@ Check the boxes like the image below and enter a Hashsecret code for more securi
 5. OPT\_USE\_LEGACI\_API\_AUTH: enable API authentication
 6. OPT\_USE\_EVENTNOTIFICATION: Consideration of machine learning
 
-![]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/capture-options-systemes-zoneminder.png)
+![]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-options-systemes-zoneminder.png)
 
 ## Setup for Home Assistant
 
@@ -90,7 +90,7 @@ Then you have to create a user dedicated to Homeassistant with an opening to the
 
 Options >>> Users >> Add users
 
-![]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/capture-utilisateur-zoneminder.png)
+![]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-utilisateur-zoneminder.png)
 
 ## 2 - Machinelearning configuration (ZMEVENTNOTIFICATION)
 
@@ -191,7 +191,7 @@ and voila if everything went well Zmeventnotification should be functional.
 
 [the lines of codes below are to be entered in the configuration.yaml of home-assistant to know all the parameters consult this official page:](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"} [Intéegrate Zoneminder and Home assistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 
-![interface zoneminder dans home assistant]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/detail-ha-zm.png)
+![interface zoneminder dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/detail-ha-zm.png)
 
 full zoneminder interface in home assistant
 
@@ -216,7 +216,7 @@ For Home Assistant I created two new states, HOME is a state when I am at home, 
 
 **ADVANTAGE:** Compared to the Zm binary-sensor which allows you to switch from one mode to another in HA, the change of state is very practical when you want to choose another mode, when you are full of cameras and above all simplifies automations in HA call a service without needing to call each camera or create a binary\_sensor Home or Away group in HA group.yaml.
 
-![]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/zoneminder-etat.gif)
+![]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zoneminder-etat.gif)
 
 ## 4 - How Modes work in Zoneminder:
 

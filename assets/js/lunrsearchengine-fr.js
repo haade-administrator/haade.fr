@@ -8,11 +8,11 @@ var documents = [  {%- assign searchml_posts = site.posts
   | where: 'locale', 'fr_FR'
   | where: 'published', true %}
   {%- for searchml_post in searchml_posts %}{
-    "id": {{- counter }},
-    "url": "{{- site.baseurl }}{{- searchml_post.url }}",
-    "title": "{{- searchml_post.title }}",
-    "description": "{{- searchml_post.date | date: "%d/%m/%Y" }} - {{- searchml_post.description }}",
-    "tags": "{{- searchml_post.tags | join: ' - ' }}"
+    "id": {{ counter }},
+    "url": "{{ site.baseurl }}{{ searchml_post.url }}",
+    "title": "{{ searchml_post.title }}",
+    "description": "{{ searchml_post.date | date: "%d/%m/%Y" }} - {{ searchml_post.description }}",
+    "tags": "{{ searchml_post.tags | join: ' - ' }}"
     {%- assign counter = counter | plus: 1 %}
     }{%- if forloop.last %}{%- else %}, {%- endif %}{%- endfor %}];
 

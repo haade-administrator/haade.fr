@@ -8,7 +8,7 @@ layout: default
 <!-- breadcrumbs -->
 {%- include breadcrumbs.html path=page.path title=page.title %}
 
-<div class="shop-single">
+<div class="shop-single" itemtype="https://schema.org/Product" itemscope>
 
 {%- include aliexcrap.html %}
 
@@ -26,9 +26,11 @@ layout: default
 </div>
 <div class="shop-article">
 {%- assign scraptitle = scraper.title | strip_html %}
-
-<h1 class="posttitle">{{- scraptitle | truncatewords: 9 }}</h1>
-
+{%- if page.title != nil %}
+<h1 class="posttitle" itemprop="name">{{ page.title }}</h1>
+{%- else %}
+<h1 class="posttitle" itemprop="name">{{ scraptitle | truncatewords: 9 }}</h1>
+{%- endif %}
 {%- include aliexstar.html %}
 
 {%- include buttonshop.html %}

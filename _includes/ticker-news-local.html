@@ -1,10 +1,10 @@
 {%- assign translate = site.data.locales.newsticker %}
 <div class="ticker-wrapper-h">
-	<div class="heading">{{- translate.docs_list_title[page.locale] }}</div>
+	<div class="heading">{{ translate.docs_list_title[page.locale] }}</div>
 
 	<ul class="news-ticker-h">
 		{%- for item in translate.docs[page.locale] %}
-		<li><a href="{{- item.url }}" target="_blank" rel="noopener noreferrer">{{- item.title | join: ' | ' }}</a></li>
+		<li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title | join: ' | ' }}</a></li>
 		{%- endfor %}
 	</ul>
 </div>

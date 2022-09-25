@@ -52,7 +52,7 @@ Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigb
 
 ## Comparatif [Sonoff SNZB-04](https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/) VS Xiaomi Aqara Mijia MCCGQ01LM
 
-![sonoff SNZB-04 vs Xiaomi MCCGQ01LM ]({{- site.baseurl }}/assets/images/posts/{{- page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi-820.webp{{- cachebuster }})
+![sonoff SNZB-04 vs Xiaomi MCCGQ01LM ]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi-820.webp{{ cachebuster }})
 
 test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 

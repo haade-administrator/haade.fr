@@ -10,17 +10,17 @@
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
   {%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
   {%- for page in pages limit:1 %}
-<a itemprop="item" href="{{- page.url | remove: 'index.html' | absolute_url }}"><span itemprop="name">{{- translate.home[page.locale] }}</span></a><meta itemprop="position" content="1"></li>
+<a itemprop="item" href="{{ page.url | remove: 'index.html' | absolute_url }}"><span itemprop="name">{{ translate.home[page.locale] }}</span></a><meta itemprop="position" content="1"></li>
 {%- endfor %}
 {%- assign categories = page.categories %}
 {%- for category in categories %}
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 {%- assign route = route | append: '/' | append: category %}
 {%- if forloop.last %}
-{%- if include.title %}{{include.title}}{%- else %}{{- category }}{%- endif %}
+{%- if include.title %}{{include.title}}{%- else %}{{ category }}{%- endif %}
 {%- else %}
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{- site.url }}{{- site.baseurl }}/{{- page.locale | slice: 0,2 }}/category/{{- category | downcase }}"><span itemprop="name">{{- category }}</span></a><meta itemprop="position" content="{{- forloop.index | plus: 1 }}"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}"><span itemprop="name">{{ category }}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
 {%- endif %}
 {%- endfor %}
 
@@ -32,7 +32,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{- site.url }}{{
 {%- unless crumb == 'index.html' %}
 <li><span class="prompt">&nbsp; > &nbsp;</span> </li>
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><span itemprop="name">{{- crumb | remove: '.html' }}</span><meta itemprop="position" content="{{- forloop.index | plus: 1 }}"> </li>
+itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | remove: '.html' }}</span><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"> </li>
 {%- endunless %}
 {%- endfor %}
 {%- endif %}

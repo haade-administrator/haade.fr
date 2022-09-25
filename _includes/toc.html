@@ -52,11 +52,11 @@
     {%- capture deprecation_warnings %}{%- endcapture %}
 
     {%- if include.baseurl %}
-        {%- capture deprecation_warnings %}{{- deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{- newline }}{%- endcapture %}
+        {%- capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{%- endcapture %}
     {%- endif %}
 
     {%- if include.skipNoIDs %}
-        {%- capture deprecation_warnings %}{{- deprecation_warnings }}<!-- jekyll-toc :: "skipNoIDs" has been deprecated, use "skip_no_ids" instead -->{{- newline }}{%- endcapture %}
+        {%- capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "skipNoIDs" has been deprecated, use "skip_no_ids" instead -->{{ newline }}{%- endcapture %}
     {%- endif %}
 
     {%- capture jekyll_toc %}{%- endcapture %}
@@ -102,49 +102,49 @@
             {%- assign minHeader = currLevel %}
         {%- endif %}
 
-        {%- capture _hAttrToStrip %}{{- _workspace[0] | split: '>' | first }}>{%- endcapture %}
+        {%- capture _hAttrToStrip %}{{ _workspace[0] | split: '>' | first }}>{%- endcapture %}
         {%- assign header = _workspace[0] | replace: _hAttrToStrip, '' %}
 
         {%- if include.item_class and include.item_class != blank %}
-            {%- capture listItemClass %} class="{{- include.item_class | replace: '%level%', currLevel | split: '.' | join: ' ' }}"{%- endcapture %}
+            {%- capture listItemClass %} class="{{ include.item_class | replace: '%level%', currLevel | split: '.' | join: ' ' }}"{%- endcapture %}
         {%- endif %}
 
         {%- if include.submenu_class and include.submenu_class != blank %}
             {%- assign subMenuLevel = currLevel | minus: 1 %}
-            {%- capture subMenuClass %} class="{{- include.submenu_class | replace: '%level%', subMenuLevel | split: '.' | join: ' ' }}"{%- endcapture %}
+            {%- capture subMenuClass %} class="{{ include.submenu_class | replace: '%level%', subMenuLevel | split: '.' | join: ' ' }}"{%- endcapture %}
         {%- endif %}
 
-        {%- capture anchorBody %}{%- if include.sanitize %}{{- header | strip_html }}{%- else %}{{- header }}{%- endif %}{%- endcapture %}
+        {%- capture anchorBody %}{%- if include.sanitize %}{{ header | strip_html }}{%- else %}{{ header }}{%- endif %}{%- endcapture %}
 
         {%- if htmlID %}
-            {%- capture anchorAttributes %} href="{%- if baseURL %}{{- baseURL }}{%- endif %}#{{- htmlID }}"{%- endcapture %}
+            {%- capture anchorAttributes %} href="{%- if baseURL %}{{ baseURL }}{%- endif %}#{{ htmlID }}"{%- endcapture %}
 
             {%- if include.anchor_class %}
-                {%- capture anchorAttributes %}{{- anchorAttributes }} class="{{- include.anchor_class | split: '.' | join: ' ' }}"{%- endcapture %}
+                {%- capture anchorAttributes %}{{ anchorAttributes }} class="{{ include.anchor_class | split: '.' | join: ' ' }}"{%- endcapture %}
             {%- endif %}
 
-            {%- capture listItem %}<a{{- anchorAttributes }}>{{- anchorBody }}</a>{%- endcapture %}
+            {%- capture listItem %}<a{{ anchorAttributes }}>{{ anchorBody }}</a>{%- endcapture %}
         {%- elsif skipNoIDs == true %}
             {%- continue %}
         {%- else %}
-            {%- capture listItem %}{{- anchorBody }}{%- endcapture %}
+            {%- capture listItem %}{{ anchorBody }}{%- endcapture %}
         {%- endif %}
 
         {%- if currLevel > lastLevel %}
-            {%- capture jekyll_toc %}{{- jekyll_toc }}<{{- listModifier }}{{- subMenuClass }}>{%- endcapture %}
+            {%- capture jekyll_toc %}{{ jekyll_toc }}<{{ listModifier }}{{ subMenuClass }}>{%- endcapture %}
         {%- elsif currLevel < lastLevel %}
             {%- assign repeatCount = lastLevel | minus: currLevel %}
 
             {%- for i in (1..repeatCount) %}
-                {%- capture jekyll_toc %}{{- jekyll_toc }}</li></{{- listModifier }}>{%- endcapture %}
+                {%- capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{%- endcapture %}
             {%- endfor %}
 
-            {%- capture jekyll_toc %}{{- jekyll_toc }}</li>{%- endcapture %}
+            {%- capture jekyll_toc %}{{ jekyll_toc }}</li>{%- endcapture %}
         {%- else %}
-            {%- capture jekyll_toc %}{{- jekyll_toc }}</li>{%- endcapture %}
+            {%- capture jekyll_toc %}{{ jekyll_toc }}</li>{%- endcapture %}
         {%- endif %}
 
-        {%- capture jekyll_toc %}{{- jekyll_toc }}<li{{- listItemClass }}>{{- listItem }}{%- endcapture %}
+        {%- capture jekyll_toc %}{{ jekyll_toc }}<li{{ listItemClass }}>{{ listItem }}{%- endcapture %}
 
         {%- assign lastLevel = currLevel %}
         {%- assign firstHeader = false %}
@@ -153,22 +153,22 @@
     {%- assign repeatCount = minHeader | minus: 1 %}
     {%- assign repeatCount = lastLevel | minus: repeatCount %}
     {%- for i in (1..repeatCount) %}
-        {%- capture jekyll_toc %}{{- jekyll_toc }}</li></{{- listModifier }}>{%- endcapture %}
+        {%- capture jekyll_toc %}{{ jekyll_toc }}</li></{{ listModifier }}>{%- endcapture %}
     {%- endfor %}
 
     {%- if jekyll_toc != '' %}
         {%- assign rootAttributes = '' %}
         {%- if include.class and include.class != blank %}
-            {%- capture rootAttributes %} class="{{- include.class | split: '.' | join: ' ' }}"{%- endcapture %}
+            {%- capture rootAttributes %} class="{{ include.class | split: '.' | join: ' ' }}"{%- endcapture %}
         {%- endif %}
 
         {%- if include.id and include.id != blank %}
-            {%- capture rootAttributes %}{{- rootAttributes }} id="{{- include.id }}"{%- endcapture %}
+            {%- capture rootAttributes %}{{ rootAttributes }} id="{{ include.id }}"{%- endcapture %}
         {%- endif %}
 
         {%- if rootAttributes %}
             {%- assign nodes = jekyll_toc | split: '>' %}
-            {%- capture jekyll_toc %}<{{- listModifier }}{{- rootAttributes }}>{{- nodes | shift | join: '>' }}>{%- endcapture %}
+            {%- capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{%- endcapture %}
         {%- endif %}
     {%- endif %}
-{%- endcapture %}{%- assign tocWorkspace = '' %}{{- deprecation_warnings }}{{- jekyll_toc -}}
+{%- endcapture %}{%- assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}

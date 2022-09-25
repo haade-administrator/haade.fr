@@ -5,11 +5,11 @@
    <div class="footcontent">
      <div class="footleft footbox">
        <div class="footupper">
-         <div class="foottopic">{{- translate.footer.about[page.locale] }}</div>
-         <p>{{- translate.footer.description[page.locale] }}</p>
+         <div class="foottopic">{{ translate.footer.about[page.locale] }}</div>
+         <p>{{ translate.footer.description[page.locale] }}</p>
        </div>
        <div class="footlower">
-         <div class="foottopic">{{- translate.footer.contact[page.locale] }}</div>
+         <div class="foottopic">{{ translate.footer.contact[page.locale] }}</div>
          <div class="phone">
            <a href="#"><i class="fas fa-phone-volume"></i>+0033 0 00 00 00</a>
          </div>
@@ -19,8 +19,8 @@
        </div>
      </div>
      <div class="footmiddle footbox">
-       <div class="foottopic">{{- translate.footer.linku[page.locale] }}</div>
-       <div><a href="{{- site.baseurl }}/{{- menu.legalnotice[page.locale].link }}">{{- menu.legalnotice[page.locale].name }}</a></div>
+       <div class="foottopic">{{ translate.footer.linku[page.locale] }}</div>
+       <div><a href="{{ site.baseurl }}/{{ menu.legalnotice[page.locale].link }}">{{ menu.legalnotice[page.locale].name }}</a></div>
        <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
        <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>
        <div><a target="_blank" href="https://z-wavealliance.org/category/z-wave-in-the-news/">Z-wave Alliance</a></div>
@@ -30,21 +30,21 @@
      <!-- Newsletter
      ================================================== -->
      <div class="footright footbox">
-       <div class="foottopic">{{- translate.footer.newsletter[page.locale] }}</div>
+       <div class="foottopic">{{ translate.footer.newsletter[page.locale] }}</div>
        <form action="{{site.mailchimp-list}}" method="post" name="" class="" target="_blank" novalidate>
-         <input type="text" placeholder="{{- translate.footer.inputmail[page.locale] }}">
-         <input type="submit" name="" value="{{- translate.footer.submit[page.locale] }}">
+         <input type="text" placeholder="{{ translate.footer.inputmail[page.locale] }}">
+         <input type="submit" name="" value="{{ translate.footer.submit[page.locale] }}">
          <div class="media-icons">
-           <a target="_blank" href="https://twitter.com/intent/tweet?text={{- page.title }}&url={{- page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
+           <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
            <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
            <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
-           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{- page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
          </div>
        </form>
      </div>
      {%- endif %}
    </div>
    <div class="footbottom">
-     <p>Copyright © {{- site.time | date: "%Y" }} <a target="_blank" href="https://www.haade.fr">{{- site.name }}</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © {{ site.time | date: "%Y" }} <a target="_blank" href="https://www.haade.fr">{{ site.name }}</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>

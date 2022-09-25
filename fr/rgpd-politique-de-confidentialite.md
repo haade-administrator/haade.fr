@@ -36,7 +36,7 @@ Si vous êtes un utilisateur ou une utilisatrice enregistré·e et que vous tél
 
 ### Formulaires de contact
 
-Le formulaire de contact est disponible à l’adresse suivante: [Contact]({{- site.baseurl }}/contact).
+Le formulaire de contact est disponible à l’adresse suivante: [Contact]({{ site.baseurl }}/contact).
 
 Il ne stocke aucune information en base de données, les informations sont uniquement transmises par email à l’adresse de contact de Haade. Aucune statistique ou revente n’est effectué à partir de vos données personnelles.
 
@@ -87,4 +87,4 @@ Les commentaires des visiteurs peuvent être vérifiés à l’aide d’un servi
 ## Informations de contact
 
 **Haade.fr-Administration**<br />
-**[Contact]({{- site.baseurl }}/contact)**
+**[Contact]({{ site.baseurl }}/contact)**

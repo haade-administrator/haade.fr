@@ -31,9 +31,9 @@ La marque **Moes** offrant des produits de qualité/prix (~15euros) correcte mai
 
 ## **Contenu de la boîte :**
 
-![déballage du capteur de luminosité et thermomètre moes zigbee]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/deballage-capteur-luminosite-moes-820.webp{{- cachebuster }})
+![déballage du capteur de luminosité et thermomètre moes zigbee]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/deballage-capteur-luminosite-moes-820.webp{{ cachebuster }})
 
-![contenu de la boite du capteur intelligent de luminosité et thermostat moes zss-zk-thl zigbee]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/contenu-capteur-intelligent-moes-zss-zk-thl-820.webp{{- cachebuster }})
+![contenu de la boite du capteur intelligent de luminosité et thermostat moes zss-zk-thl zigbee]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/contenu-capteur-intelligent-moes-zss-zk-thl-820.webp{{ cachebuster }})
 
 
 - Le Thermomètre
@@ -48,15 +48,15 @@ Rien de plus simple en 2 étapes comme la plupart de ce genre de gadget
 
 - 1: Lancer l’appairage de zigbee
 
-![Activer appairage dans l'onglet zigbee d'homeassistant]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/zigbee-apa-820.webp{{- cachebuster }})
+![Activer appairage dans l'onglet zigbee d'homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-apa-820.webp{{ cachebuster }})
 
 - 2: Appui de 3 sec sur le bouton rouge du thermomètre
 
-![bouton appairage moes zss]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/bouton-appairage-820.webp{{- cachebuster }})
+![bouton appairage moes zss]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/bouton-appairage-820.webp{{ cachebuster }})
 
 **Attention !** cependant lors de la mise en route de celui-ci j'ai rencontré un problème de contact au niveau de la pile. Au départ, je l'ai remplacé mais le problème venait tout simplement des 2 petits contacteurs qui étaient en position trop basse voir aplatit. J'ai tout simplement relevé ces pattes délicatement pour avoir un contact idéal avec la pile.
 
-![attention contacteur pile du moes smart brightness zigbee]({{- site.baseurl }}/assets/images/posts/{{- page.guid }}/contact-pile-moes-smart-zss-zigbee-820.webp{{- cachebuster }})
+![attention contacteur pile du moes smart brightness zigbee]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/contact-pile-moes-smart-zss-zigbee-820.webp{{ cachebuster }})
 
 ## Conclusion
 
