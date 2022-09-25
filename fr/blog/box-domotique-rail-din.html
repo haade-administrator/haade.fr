@@ -27,51 +27,51 @@ layout: compress
 <meta property="article:author" content="Nico">
 <meta property="article:published_time" content="2021-10-05T00:00:00+00:00">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "url": "https://haade-administrator.github.io/fr/blog/box-domotique-rail-din",
-  "name":"Box Domotique rail din Home-assistant et Rpi4",
-  "headline":"Box Domotique rail din Home-assistant et Rpi4",
-  "keywords":"Test,Raspberry,Homeassistant",
-  "description":"Création et montage d'une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant",
-  "articleBody":"Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.\n\nPrérequis Matériel\n\nPour ma part l’installation du système est monté sur une carte sd de 128Go de marque sandisk en version extrême pro, ne lésine jamais sur la qualité de la carte sd ! . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, la version 2Gb sous home-assistant peut vite devenir limite, mais le processeur du PI4 a tendance à chauffer. Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l’achat d’une carte complémentaire Waveshare type C en POE+\n\nPourquoi cette carte Waveshare poe+ type C, par rapport aux cartes officielles raspberry pi\n\n\n\n\n  Elle est compatible avec les derniers standards POE+\n  les GPIO sont toujours accessibles ( si on veut rajouter un écran tft-lcd de 2.2 pouces, c’est mieux )\n  Elle dispose d’une sortie USB supplémentaire de type A en 3.0\n  Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.\n  Elle possède un petit ventilateur pour refroidir le processeur du Raspberry\n  Possibilité de contrôler le ventilateur embarqué\n\n\nPour être sûre de ne pas rencontrer de surchauffe j’ai acheté des dissipateurs de 5mm en cuivre, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.\n\nLa température\n\n\n  Boitier rail din ouvert 28°C\n  Boitier fermé 38°C\n  Tableau électrique fermé et remonté 42°C\n\n\nAucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j’arrive à tenir 42°C avec des pics à 48°C, maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.\n\n\n\nCi-dessus: La mise en place des dissipateurs de 5mm d’épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.\n\n\n\nCi-dessus: L’intégration dans le tableau électrique sur rail din se fait sans soucis, l’alimentation par poe+ est un point positif à l’intégration.\n\nCi-dessous: grâce à Home-Assistant et à l’intégration systemmonitor on peut contrôler l’état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l’intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc… ), l’ajout d’un écran tft/lcd de 2,2” s’intègre parfaitement au boitier ou l’on pourrait faire du monitoring voir la présentation de l’intégration Jeedom. Mais d’après un retour d’expérience l’ajout d’un tel écran fait augmenter la température de presque 10°C. Peut être que j’effectuerai un upgrade mais pour l’instant je ne trouve pas ça indispensable.\n\n\n\nEn conclusion\n\nDésormais l’installation domotique sous home assistant fait partie intégrante du domicile, c’est plus waf et pour moi plus logique, le fait de l’intégrer au tableau est indéniablement une place de choix en positionnant le contrôleur domotique au centre du réseau électrique de l’habitat pour un coût total d’environ 120€.\n",
-  "datePublished":"2021-10-05 00:00:00 +0000",
-  "dateModified":"2021-10-05 00:00:00 +0000",
-  "inLanguage": "fr_FR",
-  "author": {
-    "@type": "Person","name":"Nico",
-    "alternateName":"Nico",
-    "description":"Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
-    "url":"https://haade-administrator.github.io/haade.fr/author-nico","image":"https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email":"nico@haade.fr"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name":"Haade.fr",
-    "url": "https://haade-administrator.github.io/haade.fr",
-    "logo": {
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://haade-administrator.github.io/fr/blog/box-domotique-rail-din",
+    "name": "Box Domotique rail din Home-assistant et Rpi4",
+    "headline": "Box Domotique rail din Home-assistant et Rpi4",
+    "keywords": "Test,Raspberry,Homeassistant",
+    "description": "Création et montage d'une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant",
+    "articleBody": "Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.\n\nPrérequis Matériel\n\nPour ma part l’installation du système est monté sur une carte sd de 128Go de marque sandisk en version extrême pro, ne lésine jamais sur la qualité de la carte sd ! . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, la version 2Gb sous home-assistant peut vite devenir limite, mais le processeur du PI4 a tendance à chauffer. Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l’achat d’une carte complémentaire Waveshare type C en POE+\n\nPourquoi cette carte Waveshare poe+ type C, par rapport aux cartes officielles raspberry pi\n\n\n\n\n  Elle est compatible avec les derniers standards POE+\n  les GPIO sont toujours accessibles ( si on veut rajouter un écran tft-lcd de 2.2 pouces, c’est mieux )\n  Elle dispose d’une sortie USB supplémentaire de type A en 3.0\n  Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.\n  Elle possède un petit ventilateur pour refroidir le processeur du Raspberry\n  Possibilité de contrôler le ventilateur embarqué\n\n\nPour être sûre de ne pas rencontrer de surchauffe j’ai acheté des dissipateurs de 5mm en cuivre, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.\n\nLa température\n\n\n  Boitier rail din ouvert 28°C\n  Boitier fermé 38°C\n  Tableau électrique fermé et remonté 42°C\n\n\nAucune ouverture supplémentaire sur le boitier rail din a été réalisée lors de la mesure des températures, et résultat final j’arrive à tenir 42°C avec des pics à 48°C, maintenant il reste à voir en pleine saison estivale sil les pics ne sont pas trop élevés.\n\n\n\nCi-dessus: La mise en place des dissipateurs de 5mm d’épaisseur se fait sans mal, mais il faut tout de même orienter le positionnement en fonction de la carte additionnelle waveshare poe+ type C.\n\n\n\nCi-dessus: L’intégration dans le tableau électrique sur rail din se fait sans soucis, l’alimentation par poe+ est un point positif à l’intégration.\n\nCi-dessous: grâce à Home-Assistant et à l’intégration systemmonitor on peut contrôler l’état général du Raspberrypi, tu peux voir que les 128GO de sdcard suffisent amplement, la mémoire utilisée est de 25% de 4Gb sachant que l’intégration des plugins additionnels est relativement complète ( z-wave,esphome,zigbee,mosquitto,xiaomi,doorbird, etc… ), l’ajout d’un écran tft/lcd de 2,2” s’intègre parfaitement au boitier ou l’on pourrait faire du monitoring voir la présentation de l’intégration Jeedom. Mais d’après un retour d’expérience l’ajout d’un tel écran fait augmenter la température de presque 10°C. Peut être que j’effectuerai un upgrade mais pour l’instant je ne trouve pas ça indispensable.\n\n\n\nEn conclusion\n\nDésormais l’installation domotique sous home assistant fait partie intégrante du domicile, c’est plus waf et pour moi plus logique, le fait de l’intégrer au tableau est indéniablement une place de choix en positionnant le contrôleur domotique au centre du réseau électrique de l’habitat pour un coût total d’environ 120€.\n",
+    "datePublished": "2021-10-05 00:00:00 +0000",
+    "dateModified": "2021-10-05 00:00:00 +0000",
+    "inLanguage": "fr_FR",
+    "author": {
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email": "nico@haade.fr"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haade.fr",
+      "url": "https://haade-administrator.github.io/haade.fr",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 300,
+        "height": 76,
+        "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"
+    },
+    "image": {
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      "url": "https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant-944.webp"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/box-domotique-rail-din"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width":300,
-    "height":76,
-    "url": "https://haade-administrator.github.io/haade.fr/box-domotique-rail-din-home-assistant-944.webp"
   }
-}
-</script>
+  </script>
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664139082845088652" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -107,7 +107,8 @@ layout: compress
           <a href="/haade.fr/">Accueil</a>
         <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a>
         <a href="/haade.fr/fr/contact/">Contact</a>
-<div class="sl-nav">langue:
+<div class="sl-nav">
+  langue:
   <ul>
     <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -139,7 +140,8 @@ layout: compress
 
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">Home Assistance Alsace domotique & électronique.
+    <p class="sitetag">
+        Home Assistance Alsace domotique & électronique.
     </p>
 
 </div>
@@ -202,7 +204,8 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">langue:
+<div class="sl-nav">
+  langue:
   <ul>
     <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -229,7 +232,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=e5fc65b44048f9a8428a0183b27d14ab"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=2af48b995863058855a21f4038deff2d"></script>
 
 
     </div>
@@ -244,7 +247,8 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content"><script>
+    <div class="main-content">
+        <script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
@@ -276,14 +280,16 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <div>
             <a href="/haade.fr/fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
         </div>
-        <div class="readingpost">Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a>le
-        <span class="post-date"><time class="post-date" datetime="05-10-2021">5octobre2021
+        <div class="readingpost">
+        Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a> le
+        <span class="post-date"><time class="post-date" datetime="05-10-2021"> 5octobre 2021
 ,</time></span>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
-  <strong>4min</strong>delecture.
+  <strong>
+    4 min</strong> de lecture.
 </span>
 
-        <p><i class="fas fa-eye"></i>Cet Article a été vu <span id="visits" style="font-weight:bold">...</span>fois.</p>
+        <p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p>
         </div>
     </div>
 </div>
@@ -292,7 +298,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image">
-    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp" alt="Box Domotique rail din Home-assistant et Rpi4">
+    <img itemprop="image" class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp" alt="Box Domotique rail din Home-assistant et Rpi4">
 </div>
 
 
@@ -379,7 +385,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Afficher les Commentaires</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">commentaires</h4>
   <script src="https://giscus.app/client.js"
@@ -440,7 +446,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
-                <span class="post-date">3janvier2022
+                <span class="post-date"> 3janvier 2022
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -471,7 +477,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-yann"><span class="post-name font-weight-bold">Yann</span></a>
-                <span class="post-date">22octobre2021
+                <span class="post-date"> 22octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -501,7 +507,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">1<sup>er</sup>octobre2021
+                <span class="post-date">
+        1<sup>er</sup>octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -561,7 +568,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
      </div>
    </div>
    <div class="footbottom">
-     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 

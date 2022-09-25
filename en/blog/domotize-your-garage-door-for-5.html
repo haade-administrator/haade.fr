@@ -28,51 +28,51 @@ layout: compress
 <meta property="article:published_time" content="2021-05-19T22:26:35+00:00">
 <meta property="article:modified_time" content="">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "url": "https://haade-administrator.github.io/en/blog/domotize-your-garage-door-for-5",
-  "name":"Automate your garage door for 5€",
-  "headline":"Automate your garage door for 5€",
-  "keywords":"Automation,Home-Assistant,Haade-lab",
-  "description":"a simple way to automate your garage door at a lower cost",
-  "articleBody":"In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, but we could have used any brands of motorizations like Somfy because they are all equipped with electric motors operating between 18 and 24v. In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.\n\nPrerequisites to automate your garage door:\n\n\n  Homeassistant installed with esphome\n  A module usb FT232\n  A module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installed in you’re system ( look dedicaced article )\n  Know how to create a new Node and configure it\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\nA: Alimentation 7-30V + CC\n\nA1: ft232 connection (Tx, RX and GND)\n\nB: Boot jumper (in program position on the photo)\n\nC: Contactor output\n\n\n  Normally closed relay input (NC)\n  Communication relay (COM) black wire\n  Normally open relay contact (NO)\n\n\nD: Optocoupler (push button switch)\n\n\n  5v (line + of the push button)\n  GPIO5 (line - of the push button)\n  GND (ground not connected to be connected with ground A1 for example, essential for the operation of the push button)\n\n\n2: Blue led D4 of the optocoupler (on when the switch is on)\n3: Red led D2 of the relay contactor (on when the relay is on))\n4 : Blue wifi led (flashes when searching for the network and then fixed).\n\nConnection\n\nft232 and esp8266 ESP-12F Yunshan-Lysignal\n\n\n  On one side, a universal dc socket set to 9v, a minimum of 7v is required for programming.\n  The other rx on tx\n  next tx sur rx\n  and for finish ground sur ground (GND)\n  Connect everything to the raspberry pi\n\n\nParameterized file for ESPhome\n\nSTEP TO FOLLOW CAREFULLY\n\nThe module can be finicky to program so follow these steps carefully\n\n\n  Connect ftd232 usb uart (jumper on 3.3v) to the raspberry pi (homeassistant) and to the yunshan / lysignal module (tx&gt; rx, rx&gt; tx and gnd)\n  Then connect a minimum 7v and max 30v power supply in dc,\n  Check the presence of the jumper on the connectors\n  To be able to upload the code, the light must be light blue on led d4 after connecting the power supply (if it is red on led d2, we cannot upload even in usb. In this case disconnect the boot jumper and replace - then unplug the power supply for a few seconds.)\n  Upload the code\n  Once finished remove the jumper from the boot while leaving the rest powered (plug and ft232)\n  Disconnect ft232\n  Disconnect the power wait 20 sec and reconnect the power once started the blue led of the esp8266-12e module flashes several times the time to connect to the wifi network, once fixed your module is ok\n  You can remove the rx / tx / gnd pins and the ftd.\n\n\nFinal rendering in Homeassistant\n\n\n\nanimated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant\n\nHere is a complete return to properly automate your garage door for € 5 thanks to the help of homeassistant and esphome of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!\n\nCreation of dry contact automation\n\nTo begin with, the no / nc pushbuttons operate in dry contact. In order to allow the state return to Off, we must create an automation which indicates to us when the state of the switch garage switch relay changes to on after 0.4 seconds the relay returns to off to be personalized according to the name given to your switch relay .\n\nHormann supramatic e3 control card\n\n\n\nHormann supramatic e3 engine controller board nomenclature\n\nIn our case we want to automate a Hormann engine, the nomenclature is quite simple:\n\n\n  The three-pin molex type plug that delivers 24v continuously so that’s what we need. Originally this - + - plug is intended to connect a back-up battery in the event of a power cut.\n  Input for external push button, we will of course connect the relay above NO or NC on the + plug and the COM on the - plug. See the pictures of the module setup below.\n\n\nModule setup and testing\n\nNow that our module is ready and functional with homeassistant, we just have to put it in place in our engine. Warning! Before any intervention, do not forget to switch off the 230V current. Fortunately the connection is simple and there is room to integrate additional modules. As this is a 24V test, for the occasion we did not use suitable molex connectors and 0.75mm electric wire.\n\n\n  \n    \n\n    Automate your garage door with a hormann supramatic e3 motor\n  \n  \n    \n\n    Dismantling the garage door motor in order to access the card\n  \n  \n    \n\n    Molex type connector provided by hormann to connect an additional 24v supplied battery\n  \n  \n    \n\n    Yunshan esp8266 test connection\n  \n  \n    \n\n    contactor input for push button\n  \n  \n    \n\n    Connection of the yunshan no nc to the inputs of the external push button\n  \n\n\nAll you have to do is put everything together and incorporate it into the garage door motor unit and you can order your garage door for € 5 delivered via wifi via esphome and homeassistant, quite simply magic !.\n\nWe are currently experiencing a problem with the distance of the wifi antenna, part of an orange box without an external antenna, the dropout is regular, to alleviate this problem we are going to integrate an external antenna to the esp8266 chip, an article will be dedicated to This manipulation with earnings tests very soon, do not hesitate to follow us.\n",
-  "datePublished":"2021-05-19 22:26:35 +0000",
-  "dateModified":"2021-05-19 22:26:35 +0000",
-  "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person","name":"Nico",
-    "alternateName":"Nico",
-    "description":"Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
-    "url":"https://haade-administrator.github.io/haade.fr/author-nico","image":"https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email":"nico@haade.fr"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name":"Haade.fr",
-    "url": "https://haade-administrator.github.io/haade.fr",
-    "logo": {
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://haade-administrator.github.io/en/blog/domotize-your-garage-door-for-5",
+    "name": "Automate your garage door for 5€",
+    "headline": "Automate your garage door for 5€",
+    "keywords": "Automation,Home-Assistant,Haade-lab",
+    "description": "a simple way to automate your garage door at a lower cost",
+    "articleBody": "In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, but we could have used any brands of motorizations like Somfy because they are all equipped with electric motors operating between 18 and 24v. In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.\n\nPrerequisites to automate your garage door:\n\n\n  Homeassistant installed with esphome\n  A module usb FT232\n  A module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installed in you’re system ( look dedicaced article )\n  Know how to create a new Node and configure it\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\nA: Alimentation 7-30V + CC\n\nA1: ft232 connection (Tx, RX and GND)\n\nB: Boot jumper (in program position on the photo)\n\nC: Contactor output\n\n\n  Normally closed relay input (NC)\n  Communication relay (COM) black wire\n  Normally open relay contact (NO)\n\n\nD: Optocoupler (push button switch)\n\n\n  5v (line + of the push button)\n  GPIO5 (line - of the push button)\n  GND (ground not connected to be connected with ground A1 for example, essential for the operation of the push button)\n\n\n2: Blue led D4 of the optocoupler (on when the switch is on)\n3: Red led D2 of the relay contactor (on when the relay is on))\n4 : Blue wifi led (flashes when searching for the network and then fixed).\n\nConnection\n\nft232 and esp8266 ESP-12F Yunshan-Lysignal\n\n\n  On one side, a universal dc socket set to 9v, a minimum of 7v is required for programming.\n  The other rx on tx\n  next tx sur rx\n  and for finish ground sur ground (GND)\n  Connect everything to the raspberry pi\n\n\nParameterized file for ESPhome\n\nSTEP TO FOLLOW CAREFULLY\n\nThe module can be finicky to program so follow these steps carefully\n\n\n  Connect ftd232 usb uart (jumper on 3.3v) to the raspberry pi (homeassistant) and to the yunshan / lysignal module (tx&gt; rx, rx&gt; tx and gnd)\n  Then connect a minimum 7v and max 30v power supply in dc,\n  Check the presence of the jumper on the connectors\n  To be able to upload the code, the light must be light blue on led d4 after connecting the power supply (if it is red on led d2, we cannot upload even in usb. In this case disconnect the boot jumper and replace - then unplug the power supply for a few seconds.)\n  Upload the code\n  Once finished remove the jumper from the boot while leaving the rest powered (plug and ft232)\n  Disconnect ft232\n  Disconnect the power wait 20 sec and reconnect the power once started the blue led of the esp8266-12e module flashes several times the time to connect to the wifi network, once fixed your module is ok\n  You can remove the rx / tx / gnd pins and the ftd.\n\n\nFinal rendering in Homeassistant\n\n\n\nanimated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant\n\nHere is a complete return to properly automate your garage door for € 5 thanks to the help of homeassistant and esphome of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!\n\nCreation of dry contact automation\n\nTo begin with, the no / nc pushbuttons operate in dry contact. In order to allow the state return to Off, we must create an automation which indicates to us when the state of the switch garage switch relay changes to on after 0.4 seconds the relay returns to off to be personalized according to the name given to your switch relay .\n\nHormann supramatic e3 control card\n\n\n\nHormann supramatic e3 engine controller board nomenclature\n\nIn our case we want to automate a Hormann engine, the nomenclature is quite simple:\n\n\n  The three-pin molex type plug that delivers 24v continuously so that’s what we need. Originally this - + - plug is intended to connect a back-up battery in the event of a power cut.\n  Input for external push button, we will of course connect the relay above NO or NC on the + plug and the COM on the - plug. See the pictures of the module setup below.\n\n\nModule setup and testing\n\nNow that our module is ready and functional with homeassistant, we just have to put it in place in our engine. Warning! Before any intervention, do not forget to switch off the 230V current. Fortunately the connection is simple and there is room to integrate additional modules. As this is a 24V test, for the occasion we did not use suitable molex connectors and 0.75mm electric wire.\n\n\n  \n    \n\n    Automate your garage door with a hormann supramatic e3 motor\n  \n  \n    \n\n    Dismantling the garage door motor in order to access the card\n  \n  \n    \n\n    Molex type connector provided by hormann to connect an additional 24v supplied battery\n  \n  \n    \n\n    Yunshan esp8266 test connection\n  \n  \n    \n\n    contactor input for push button\n  \n  \n    \n\n    Connection of the yunshan no nc to the inputs of the external push button\n  \n\n\nAll you have to do is put everything together and incorporate it into the garage door motor unit and you can order your garage door for € 5 delivered via wifi via esphome and homeassistant, quite simply magic !.\n\nWe are currently experiencing a problem with the distance of the wifi antenna, part of an orange box without an external antenna, the dropout is regular, to alleviate this problem we are going to integrate an external antenna to the esp8266 chip, an article will be dedicated to This manipulation with earnings tests very soon, do not hesitate to follow us.\n",
+    "datePublished": "2021-05-19 22:26:35 +0000",
+    "dateModified": "2021-05-19 22:26:35 +0000",
+    "inLanguage": "en_GB",
+    "author": {
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email": "nico@haade.fr"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haade.fr",
+      "url": "https://haade-administrator.github.io/haade.fr",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 300,
+        "height": 76,
+        "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://haade-administrator.github.io/haade.fr/en/blog/domotize-your-garage-door-for-5"
+    },
+    "image": {
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      "url": "https://haade-administrator.github.io/haade.fr/domotiser-porte-garage-5-euros-944.webp"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://haade-administrator.github.io/haade.fr/en/blog/domotize-your-garage-door-for-5"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width":300,
-    "height":76,
-    "url": "https://haade-administrator.github.io/haade.fr/domotiser-porte-garage-5-euros-944.webp"
   }
-}
-</script>
+  </script>
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664139082845088652" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -108,7 +108,8 @@ layout: compress
           <a href="/haade.fr/en/">Home</a>
         <a href="/haade.fr/en/gdpr-general-data-protection-regulation/">GDPR</a>
         <a href="/haade.fr/en/contact/">Contact</a>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -140,7 +141,8 @@ layout: compress
 
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">Home Assistance Alsace home automation & electronics.
+    <p class="sitetag">
+        Home Assistance Alsace home automation & electronics.
     </p>
 
 </div>
@@ -203,7 +205,8 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -230,7 +233,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=bc6be4a432a419ffbff8156b66b1badd"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=714bd79088e7e78d7c9e5e38ef010ae9"></script>
 
 
     </div>
@@ -245,7 +248,8 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content"><script>
+    <div class="main-content">
+        <script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
@@ -277,15 +281,20 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <div>
             <a href="/haade.fr/en/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
         </div>
-        <div class="readingpost">Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a>the
-        <span class="post-date"><time class="post-date" datetime="19-05-2021">19<sup>th</sup>May2021
-,</time></span>Updatethe <time datetime=""><sup>th</sup>
+        <div class="readingpost">
+        Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a> the
+        <span class="post-date"><time class="post-date" datetime="19-05-2021"> 19<sup>th</sup>
+    May 2021
+,</time></span>
+        Update the <time datetime=""> <sup>th</sup>
+     
 </time>
         <br /><span class="reading-time" title="Estimated read time">
-  <strong>6min</strong>ofreading.
+  <strong>
+    6 min</strong> of reading.
 </span>
 
-        <p><i class="fas fa-eye"></i>This page has been visited <span id="visits" style="font-weight:bold">...</span>times.</p>
+        <p><i class="fas fa-eye"></i> This page has been visited <span id="visits" style="font-weight:bold">...</span> times.</p>
         </div>
     </div>
 </div>
@@ -294,7 +303,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image">
-    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/8/domotiser-porte-garage-5-euros-944.webp" alt="Automate your garage door for 5€">
+    <img itemprop="image" class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/8/domotiser-porte-garage-5-euros-944.webp" alt="Automate your garage door for 5€">
 </div>
 
 
@@ -471,7 +480,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Load the Comments</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load the Comments</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">Comments</h4>
   <script src="https://giscus.app/client.js"
@@ -531,7 +540,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">5<sup>th</sup>October2021
+                <span class="post-date"> 5<sup>th</sup>
+    October 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -561,7 +571,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">1<sup>st</sup>October2021
+                <span class="post-date"> 1<sup>st</sup>
+    October 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -591,7 +602,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">25<sup>th</sup>September2021
+                <span class="post-date"> 25<sup>th</sup>
+    September 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -651,7 +663,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
      </div>
    </div>
    <div class="footbottom">
-     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 

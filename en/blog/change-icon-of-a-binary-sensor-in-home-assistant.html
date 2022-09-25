@@ -27,51 +27,51 @@ layout: compress
 <meta property="article:author" content="Nico">
 <meta property="article:published_time" content="2021-09-15T07:00:00+00:00">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "url": "https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
-  "name":"home assistant icon tip",
-  "headline":"home assistant icon tip",
-  "keywords":"Home-Assistant,,Haade-lab",
-  "description":"Change the icon of a binary sensor in home assistant",
-  "articleBody":"Here is in the series of the very small tutorials . I will quickly describe how to change an icon of a binary sensor thanks to the device_class, by customization in home assistant.\n\nSo in normal times to change an icon of an entity of a device, nothing could be simpler:\n\nConfiguration &gt;&gt; Entities &gt;&gt; you change the class icon to hass: or mdi: as desired. And it’s over.\n\nBut when you want to change the icon of a binary, example: a door opening detector. There it gets complicated because there is an icon for an open position and an icon for a closed position. Don’t worry, Home assistant is in the place.\n\nIn this case, the customization must be used in the customize.yaml.\n\nFirst of all, you have to add the integration line in the configuration.yaml click there and you will find all the information about the configuration of the file.\n\nTo keep things simple, you have to add this line:\n\nhomeassistant:\n  customize: !include customize.yaml\n\n\nOnce done go to:\n\nConfiguration &gt;&gt; Personalization &gt;&gt; Choose an entity\n\nModify or create by adding a device_class In general it exists, and there you have a panel of choices (garage door, window, movement …), select in 1 and don’t forget no save.\n\nView this beautiful animated GIF that takes it all right.\n\n Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say that home assistant has once again thought of everything.\n",
-  "datePublished":"2021-09-15 07:00:00 +0000",
-  "dateModified":"2021-09-15 07:00:00 +0000",
-  "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person","name":"Nico",
-    "alternateName":"Nico",
-    "description":"Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
-    "url":"https://haade-administrator.github.io/haade.fr/author-nico","image":"https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email":"nico@haade.fr"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name":"Haade.fr",
-    "url": "https://haade-administrator.github.io/haade.fr",
-    "logo": {
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://haade-administrator.github.io/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
+    "name": "home assistant icon tip",
+    "headline": "home assistant icon tip",
+    "keywords": "Home-Assistant,,Haade-lab",
+    "description": "Change the icon of a binary sensor in home assistant",
+    "articleBody": "Here is in the series of the very small tutorials . I will quickly describe how to change an icon of a binary sensor thanks to the device_class, by customization in home assistant.\n\nSo in normal times to change an icon of an entity of a device, nothing could be simpler:\n\nConfiguration &gt;&gt; Entities &gt;&gt; you change the class icon to hass: or mdi: as desired. And it’s over.\n\nBut when you want to change the icon of a binary, example: a door opening detector. There it gets complicated because there is an icon for an open position and an icon for a closed position. Don’t worry, Home assistant is in the place.\n\nIn this case, the customization must be used in the customize.yaml.\n\nFirst of all, you have to add the integration line in the configuration.yaml click there and you will find all the information about the configuration of the file.\n\nTo keep things simple, you have to add this line:\n\nhomeassistant:\n  customize: !include customize.yaml\n\n\nOnce done go to:\n\nConfiguration &gt;&gt; Personalization &gt;&gt; Choose an entity\n\nModify or create by adding a device_class In general it exists, and there you have a panel of choices (garage door, window, movement …), select in 1 and don’t forget no save.\n\nView this beautiful animated GIF that takes it all right.\n\n Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say that home assistant has once again thought of everything.\n",
+    "datePublished": "2021-09-15 07:00:00 +0000",
+    "dateModified": "2021-09-15 07:00:00 +0000",
+    "inLanguage": "en_GB",
+    "author": {
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email": "nico@haade.fr"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haade.fr",
+      "url": "https://haade-administrator.github.io/haade.fr",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 300,
+        "height": 76,
+        "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://haade-administrator.github.io/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant"
+    },
+    "image": {
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      "url": "https://haade-administrator.github.io/haade.fr/changer-icone-element-binaire-home-assistant-944.webp"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://haade-administrator.github.io/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width":300,
-    "height":76,
-    "url": "https://haade-administrator.github.io/haade.fr/changer-icone-element-binaire-home-assistant-944.webp"
   }
-}
-</script>
+  </script>
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664139082845088652" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -107,7 +107,8 @@ layout: compress
           <a href="/haade.fr/en/">Home</a>
         <a href="/haade.fr/en/gdpr-general-data-protection-regulation/">GDPR</a>
         <a href="/haade.fr/en/contact/">Contact</a>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -139,7 +140,8 @@ layout: compress
 
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">Home Assistance Alsace home automation & electronics.
+    <p class="sitetag">
+        Home Assistance Alsace home automation & electronics.
     </p>
 
 </div>
@@ -202,7 +204,8 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -229,7 +232,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=bc6be4a432a419ffbff8156b66b1badd"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=714bd79088e7e78d7c9e5e38ef010ae9"></script>
 
 
     </div>
@@ -244,7 +247,8 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content"><script>
+    <div class="main-content">
+        <script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
@@ -273,14 +277,17 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <div>
             <a href="/haade.fr/en/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
         </div>
-        <div class="readingpost">Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a>the
-        <span class="post-date"><time class="post-date" datetime="15-09-2021">15<sup>th</sup>September2021
+        <div class="readingpost">
+        Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a> the
+        <span class="post-date"><time class="post-date" datetime="15-09-2021"> 15<sup>th</sup>
+    September 2021
 ,</time></span>
         <br /><span class="reading-time" title="Estimated read time">
-  <strong>2min</strong>ofreading.
+  <strong>
+    2 min</strong> of reading.
 </span>
 
-        <p><i class="fas fa-eye"></i>This page has been visited <span id="visits" style="font-weight:bold">...</span>times.</p>
+        <p><i class="fas fa-eye"></i> This page has been visited <span id="visits" style="font-weight:bold">...</span> times.</p>
         </div>
     </div>
 </div>
@@ -289,7 +296,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image">
-    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp" alt="home assistant icon tip">
+    <img itemprop="image" class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp" alt="home assistant icon tip">
 </div>
 
 
@@ -354,7 +361,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Load the Comments</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load the Comments</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">Comments</h4>
   <script src="https://giscus.app/client.js"
@@ -413,7 +420,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">5<sup>th</sup>October2021
+                <span class="post-date"> 5<sup>th</sup>
+    October 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -443,7 +451,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">25<sup>th</sup>September2021
+                <span class="post-date"> 25<sup>th</sup>
+    September 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -473,7 +482,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">12<sup>th</sup>August2021
+                <span class="post-date"> 12<sup>th</sup>
+    August 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -533,7 +543,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
      </div>
    </div>
    <div class="footbottom">
-     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 

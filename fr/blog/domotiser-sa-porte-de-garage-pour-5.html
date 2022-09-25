@@ -27,51 +27,51 @@ layout: compress
 <meta property="article:author" content="Nico">
 <meta property="article:published_time" content="2021-05-19T22:26:35+00:00">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "url": "https://haade-administrator.github.io/fr/blog/domotiser-sa-porte-de-garage-pour-5",
-  "name":"Domotiser sa porte de garage pour 5€",
-  "headline":"Domotiser sa porte de garage pour 5€",
-  "keywords":"esp8266",
-  "description":"une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266",
-  "articleBody":"Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, mais nous aurions pu utiliser n’importe quelles marques de motorisations comme Somfy car elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.\n\nPrérequis pour domotiser sa porte de garage:\n\n\n  Homeassistant installé avec esphome\n  Un module usb FT232\n  un module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installé sur le système ( voir l’article dédié )\n  Savoir créer un nouveau Noeud et le paramétrer\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\nA: Alimentation 7-30V + CC\n\nA1: Connectique ft232 (Tx, RX et GND)\nB: Cavalier boot ( en position programme sur la photo )\nC: Sortie contacteur\n\n\n  Entrée relais normalement fermé (NC)\n  Relais communication (COM) fil noir\n  Contact de relais normalement ouvert (NO)\n\n\nD: Optocoupleur ( interrupteur bouton poussoir )\n\n\n  +5v (ligne + du bouton poussoir)\n  GPIO5 (ligne – du bouton poussoir)\n  GND (ground non raccordé à raccorder avec le ground A1 par exemple, indispensable pour le fonctionnement du bouton poussoir )\n\n\n2: led D4 bleu de l’optocoupleur ( allumé quand interrupteur enclanché )\n3: led rouge D2 du contacteur relais ( allumé quand relais enclanché )\n4 : led bleu wifi ( clignote lors d’une recherche du reseau et ensuite fixe ).\n\nBranchement ft232 et esp8266 ESP-12F Yunshan-Lysignal\n\nft232\net\nesp8266 ESP-12F Yunshan-Lysignal\n\n\n  d’un côté une prise dc universelle paramétré sur 9v il faut 7v au minimum pour la programmation.\n  de l’autre rx sur tx\n  ensuite tx sur rx\n  et pour finir ground sur ground (GND)\n  Brancher le tout au raspberry pi.\n\n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\n\n\nModule de conversion usb uart ft232\n\n\n  ESP8266 relay 7-30v Yunshan lysignal ESP-12F\n  Module de conversion usb uart ft232\n\n\nFichier paramétré pour ESPhome&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\nÉtape à suivre minutieusement\n\nLe module peut être capricieux à programmer donc suivez bien ces étapes\n\n\n  connecter ftd232 usb uart ( cavalier sur 3.3v ) au raspberry pi ( homeassistant ) et au module yunshan/lysignal (tx &gt; rx, rx &gt; tx et gnd)\n  ensuite brancher une alim minimum 7v et max 30v en dc,\n  vérifiez bien la présence du cavalier sur les connecteurs\n  pour pouvoir uploader le code il faut que la lumière soit bleu léger sur la led d4 après avoir branché l’alim (si c’est rouge sur la led d2 on ne pourra uploader même en usb. Dans ce cas déconnectez le cavalier boot et remettez-le puis débranchez l’alim quelques secondes. )\n  uploader le code\n  une fois terminé enlever le cavalier du boot tout en laissant le reste alimenté ( prise et ft232 )\n  débrancher ft232\n  débrancher l’alimentation attendez 20 sec et rebrancher l’alimentation une fois démarré la led bleu du module esp8266-12e clignote plusieurs fois le temps de se connecter au réseau wifi, une fois fixe votre module est ok\n  On peut enlever les broches rx/tx/gnd et le ftd.\n\n\nRendu final dans Homeassistant\n\n\n\nimage gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide d’homeassistant et esphome du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !\n\nCréation de l’automatisation contact sec\n\nPour commencer les boutons poussoirs no/nc fonctionnent en contact sec. Afin de permettre le retour d’état à Off il faut créer une automatisation qui nous indique au changement d’état du relais switch garage sur on après 0,4 secondes le relais retourne à off à personnaliser en fonction du nom donné à votre relais switch.&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\nCarte de contrôle Hormann supramatic e3\n\n\n\nDans notre cas nous voulons domotiser un moteur hormann la nomenclature est assez simple:\n\n\n  la fiche de type molex trois broches qui délivre 24v en continu donc c’est ce qu’il nous faut. À l’origine cette fiche – + – est prévu pour connecter une batterie de secours en cas de coupure de courant.\n  Entrée pour bouton poussoir externe, nous allons bien sure brancher le relais dessus NO ou NC sur la fiche + et le COM sur la fiche -. Voir les images de la mise en place du module ci-dessous.\n\n\nMise en place du module et test\n\nMaintenant que notre module est prêt et fonctionnel avec homeassistant il ne nous reste plus qu’à le mettre en place dans notre moteur. Attention! Avant toute intervention n’oubliez pas de couper le courant 230V. heureusement le branchement est simple et il y a de la place pour intégrer des modules supplémentaires. Comme il s’agit de test en 24V, pour l’occasion nous n’avons pas utilisé de connecteurs molex adéquats et de fil électrique 0,75mm.&lt;div class=\"col-lg-10 offset-lg-1\"&gt;\n\n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n&lt;/div&gt;\n\nIl ne reste plus qu’à rassembler le tout et l’incorporer dans le boitier du moteur de porte de garage et vous pouvez pour 5€ livré commander votre porte de garage en wifi via esphome et homeassistant, tout simplement magic !.\n\nNous rencontrons actuellement un soucis de distance de l’antenne wifi, faisant partie d’une box orange sans antenne externe le décrochage est régulier, pour pallier à ce soucis nous allons intégrer une antenne externe à la puce esp8266, un article va être dédié à cette manipulation avec des tests de gains très prochainement, n ‘hésitez pas à nous suivre.\n",
-  "datePublished":"2021-05-19 22:26:35 +0000",
-  "dateModified":"2021-05-19 22:26:35 +0000",
-  "inLanguage": "fr_FR",
-  "author": {
-    "@type": "Person","name":"Nico",
-    "alternateName":"Nico",
-    "description":"Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
-    "url":"https://haade-administrator.github.io/haade.fr/author-nico","image":"https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email":"nico@haade.fr"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name":"Haade.fr",
-    "url": "https://haade-administrator.github.io/haade.fr",
-    "logo": {
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://haade-administrator.github.io/fr/blog/domotiser-sa-porte-de-garage-pour-5",
+    "name": "Domotiser sa porte de garage pour 5€",
+    "headline": "Domotiser sa porte de garage pour 5€",
+    "keywords": "esp8266",
+    "description": "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266",
+    "articleBody": "Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, mais nous aurions pu utiliser n’importe quelles marques de motorisations comme Somfy car elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.\n\nPrérequis pour domotiser sa porte de garage:\n\n\n  Homeassistant installé avec esphome\n  Un module usb FT232\n  un module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installé sur le système ( voir l’article dédié )\n  Savoir créer un nouveau Noeud et le paramétrer\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\nA: Alimentation 7-30V + CC\n\nA1: Connectique ft232 (Tx, RX et GND)\nB: Cavalier boot ( en position programme sur la photo )\nC: Sortie contacteur\n\n\n  Entrée relais normalement fermé (NC)\n  Relais communication (COM) fil noir\n  Contact de relais normalement ouvert (NO)\n\n\nD: Optocoupleur ( interrupteur bouton poussoir )\n\n\n  +5v (ligne + du bouton poussoir)\n  GPIO5 (ligne – du bouton poussoir)\n  GND (ground non raccordé à raccorder avec le ground A1 par exemple, indispensable pour le fonctionnement du bouton poussoir )\n\n\n2: led D4 bleu de l’optocoupleur ( allumé quand interrupteur enclanché )\n3: led rouge D2 du contacteur relais ( allumé quand relais enclanché )\n4 : led bleu wifi ( clignote lors d’une recherche du reseau et ensuite fixe ).\n\nBranchement ft232 et esp8266 ESP-12F Yunshan-Lysignal\n\nft232\net\nesp8266 ESP-12F Yunshan-Lysignal\n\n\n  d’un côté une prise dc universelle paramétré sur 9v il faut 7v au minimum pour la programmation.\n  de l’autre rx sur tx\n  ensuite tx sur rx\n  et pour finir ground sur ground (GND)\n  Brancher le tout au raspberry pi.\n\n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\n\n\nModule de conversion usb uart ft232\n\n\n  ESP8266 relay 7-30v Yunshan lysignal ESP-12F\n  Module de conversion usb uart ft232\n\n\nFichier paramétré pour ESPhome&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\nÉtape à suivre minutieusement\n\nLe module peut être capricieux à programmer donc suivez bien ces étapes\n\n\n  connecter ftd232 usb uart ( cavalier sur 3.3v ) au raspberry pi ( homeassistant ) et au module yunshan/lysignal (tx &gt; rx, rx &gt; tx et gnd)\n  ensuite brancher une alim minimum 7v et max 30v en dc,\n  vérifiez bien la présence du cavalier sur les connecteurs\n  pour pouvoir uploader le code il faut que la lumière soit bleu léger sur la led d4 après avoir branché l’alim (si c’est rouge sur la led d2 on ne pourra uploader même en usb. Dans ce cas déconnectez le cavalier boot et remettez-le puis débranchez l’alim quelques secondes. )\n  uploader le code\n  une fois terminé enlever le cavalier du boot tout en laissant le reste alimenté ( prise et ft232 )\n  débrancher ft232\n  débrancher l’alimentation attendez 20 sec et rebrancher l’alimentation une fois démarré la led bleu du module esp8266-12e clignote plusieurs fois le temps de se connecter au réseau wifi, une fois fixe votre module est ok\n  On peut enlever les broches rx/tx/gnd et le ftd.\n\n\nRendu final dans Homeassistant\n\n\n\nimage gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide d’homeassistant et esphome du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !\n\nCréation de l’automatisation contact sec\n\nPour commencer les boutons poussoirs no/nc fonctionnent en contact sec. Afin de permettre le retour d’état à Off il faut créer une automatisation qui nous indique au changement d’état du relais switch garage sur on après 0,4 secondes le relais retourne à off à personnaliser en fonction du nom donné à votre relais switch.&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\nCarte de contrôle Hormann supramatic e3\n\n\n\nDans notre cas nous voulons domotiser un moteur hormann la nomenclature est assez simple:\n\n\n  la fiche de type molex trois broches qui délivre 24v en continu donc c’est ce qu’il nous faut. À l’origine cette fiche – + – est prévu pour connecter une batterie de secours en cas de coupure de courant.\n  Entrée pour bouton poussoir externe, nous allons bien sure brancher le relais dessus NO ou NC sur la fiche + et le COM sur la fiche -. Voir les images de la mise en place du module ci-dessous.\n\n\nMise en place du module et test\n\nMaintenant que notre module est prêt et fonctionnel avec homeassistant il ne nous reste plus qu’à le mettre en place dans notre moteur. Attention! Avant toute intervention n’oubliez pas de couper le courant 230V. heureusement le branchement est simple et il y a de la place pour intégrer des modules supplémentaires. Comme il s’agit de test en 24V, pour l’occasion nous n’avons pas utilisé de connecteurs molex adéquats et de fil électrique 0,75mm.&lt;div class=\"col-lg-10 offset-lg-1\"&gt;\n\n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n    \n      \n    \n  \n&lt;/div&gt;\n\nIl ne reste plus qu’à rassembler le tout et l’incorporer dans le boitier du moteur de porte de garage et vous pouvez pour 5€ livré commander votre porte de garage en wifi via esphome et homeassistant, tout simplement magic !.\n\nNous rencontrons actuellement un soucis de distance de l’antenne wifi, faisant partie d’une box orange sans antenne externe le décrochage est régulier, pour pallier à ce soucis nous allons intégrer une antenne externe à la puce esp8266, un article va être dédié à cette manipulation avec des tests de gains très prochainement, n ‘hésitez pas à nous suivre.\n",
+    "datePublished": "2021-05-19 22:26:35 +0000",
+    "dateModified": "2021-05-19 22:26:35 +0000",
+    "inLanguage": "fr_FR",
+    "author": {
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email": "nico@haade.fr"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haade.fr",
+      "url": "https://haade-administrator.github.io/haade.fr",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 300,
+        "height": 76,
+        "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/domotiser-sa-porte-de-garage-pour-5"
+    },
+    "image": {
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      "url": "https://haade-administrator.github.io/haade.fr/domotiser-porte-garage-5-euros-944.webp"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://haade-administrator.github.io/haade.fr/fr/blog/domotiser-sa-porte-de-garage-pour-5"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width":300,
-    "height":76,
-    "url": "https://haade-administrator.github.io/haade.fr/domotiser-porte-garage-5-euros-944.webp"
   }
-}
-</script>
+  </script>
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664139082845088652" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -107,7 +107,8 @@ layout: compress
           <a href="/haade.fr/">Accueil</a>
         <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a>
         <a href="/haade.fr/fr/contact/">Contact</a>
-<div class="sl-nav">langue:
+<div class="sl-nav">
+  langue:
   <ul>
     <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -139,7 +140,8 @@ layout: compress
 
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">Home Assistance Alsace domotique & électronique.
+    <p class="sitetag">
+        Home Assistance Alsace domotique & électronique.
     </p>
 
 </div>
@@ -202,7 +204,8 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">langue:
+<div class="sl-nav">
+  langue:
   <ul>
     <li><b>Francais</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -229,7 +232,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=e5fc65b44048f9a8428a0183b27d14ab"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-fr.js?v=2af48b995863058855a21f4038deff2d"></script>
 
 
     </div>
@@ -244,7 +247,8 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content"><script>
+    <div class="main-content">
+        <script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
@@ -276,14 +280,16 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <div>
             <a href="/haade.fr/fr/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
         </div>
-        <div class="readingpost">Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a>le
-        <span class="post-date"><time class="post-date" datetime="19-05-2021">19mai2021
+        <div class="readingpost">
+        Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a> le
+        <span class="post-date"><time class="post-date" datetime="19-05-2021"> 19mai 2021
 ,</time></span>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
-  <strong>6min</strong>delecture.
+  <strong>
+    6 min</strong> de lecture.
 </span>
 
-        <p><i class="fas fa-eye"></i>Cet Article a été vu <span id="visits" style="font-weight:bold">...</span>fois.</p>
+        <p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p>
         </div>
     </div>
 </div>
@@ -292,7 +298,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image">
-    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/8/domotiser-porte-garage-5-euros-944.webp" alt="Domotiser sa porte de garage pour 5€">
+    <img itemprop="image" class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/8/domotiser-porte-garage-5-euros-944.webp" alt="Domotiser sa porte de garage pour 5€">
 </div>
 
 
@@ -470,7 +476,7 @@ et
 <!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Afficher les Commentaires</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Afficher les Commentaires</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">commentaires</h4>
   <script src="https://giscus.app/client.js"
@@ -531,7 +537,7 @@ et
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
-                <span class="post-date">3janvier2022
+                <span class="post-date"> 3janvier 2022
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -561,7 +567,7 @@ et
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">5octobre2021
+                <span class="post-date"> 5octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -591,7 +597,8 @@ et
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">1<sup>er</sup>octobre2021
+                <span class="post-date">
+        1<sup>er</sup>octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -651,7 +658,7 @@ et
      </div>
    </div>
    <div class="footbottom">
-     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 

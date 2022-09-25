@@ -27,51 +27,51 @@ layout: compress
 <meta property="article:author" content="Nico">
 <meta property="article:published_time" content="2021-08-12T00:00:00+00:00">
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "url": "https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
-  "name":"[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
-  "headline":"[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
-  "keywords":"Home-Assistant,Tests,Haade-lab",
-  "description":"",
-  "articleBody":"Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the Atlantic thermostat 109519 this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.\n\n\n\nTo talk about the Moes brand, this is the second material that I test, both ordered from the Moes Official Store of Aliexpress, and frankly the quality is very well finished. The packaging is professional and the instructions is perfectly detailed. So do not hesitate to order the products of this brand. Moreover, in a future article Yann says (uncle) will test the brand’s new 3 in 1 sensor (thermometer, brightness and humidity) zigbee. It is already zigbee2mqtt compatible so multiplatform, I’m looking forward to that so it’s up to you to play uncle.\n\n\n\nLet’s start with the unpacking, as I said above the packaging is top, the product is well protected. Inside the thermostat (a protective film protects the screen), an ntd probe, two screws and the instructions, nothing special. The connection to electric heating is done without worries because it is available with 2 neutral / 2 phases in input and output, moreover in option we can connect the thermostat in modbus, in our case not the trouble, for the same probe.\n\nInstallation of module\n\nNothing very complicated, to begin with the black part is esay to remove with one hand in order to be able to screw the module on the flush-mounting box.\n\nFrom left to right:\n\n\n  White / red Modbus connection\n  1: flexible wire phase radiator outlet\n  2: neutral flexible wire radiator output\n  3: Circuit breaker neutral\n  4: Circuit breaker phase\n  5-6 wire from the 2.5m NTC probe connected to control the soil temperature.\n\n\n\n\nThen follows the installation in place of the Atlantic room thermostat. As stated above nothing very complicated.\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\nWhat a pity that the connection work by dupont wires, a contact system is more pro\n\n\n\nThe 2.5m NTC probe is a practical external waterproof digital temperature probe for deporting the temperature probe of the Moes zigbee thermostat at ground level for example.\n\nTechnical Notice BHT-002\n\n\n\nNotice officielle du thermostat zigbee Moes BHT-002\n\nProgramming part\n\nWell I will not go into everything in detail, the instructions are just above, the interesting part is the programming which differs from the Atlantic thermostat which simply does not have one.\n\n4 time periods are available and programmable over 3 periods of the week (Monday to Friday, Saturday and Sunday).\n\nFor instance the integration with zigbee2mqtt and homeassistant is very easy. We open the network, 8 seconds on the down arrow and it’s good.\n\nAbove all the homeassistant part is relatively complete unfortunately the programming of the hourly / day periods is not possible. You found in the attributes, it is already not bad. Everything else is configurable via the wizard.\n\n\n\nTo conclude if you want to replace your electric floor heating thermostats you can go there frankly. I’m not even talking about homeassistant control, just the price difference forces you to take a zigbee thermostat. Frankly Moes is worth a visit.\n",
-  "datePublished":"2021-08-12 00:00:00 +0000",
-  "dateModified":"2021-08-12 00:00:00 +0000",
-  "inLanguage": "en_GB",
-  "author": {
-    "@type": "Person","name":"Nico",
-    "alternateName":"Nico",
-    "description":"Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
-    "url":"https://haade-administrator.github.io/haade.fr/author-nico","image":"https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email":"nico@haade.fr"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name":"Haade.fr",
-    "url": "https://haade-administrator.github.io/haade.fr",
-    "logo": {
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "url": "https://haade-administrator.github.io/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
+    "name": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
+    "headline": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
+    "keywords": "Home-Assistant,Tests,Haade-lab",
+    "description": "",
+    "articleBody": "Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the Atlantic thermostat 109519 this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.\n\n\n\nTo talk about the Moes brand, this is the second material that I test, both ordered from the Moes Official Store of Aliexpress, and frankly the quality is very well finished. The packaging is professional and the instructions is perfectly detailed. So do not hesitate to order the products of this brand. Moreover, in a future article Yann says (uncle) will test the brand’s new 3 in 1 sensor (thermometer, brightness and humidity) zigbee. It is already zigbee2mqtt compatible so multiplatform, I’m looking forward to that so it’s up to you to play uncle.\n\n\n\nLet’s start with the unpacking, as I said above the packaging is top, the product is well protected. Inside the thermostat (a protective film protects the screen), an ntd probe, two screws and the instructions, nothing special. The connection to electric heating is done without worries because it is available with 2 neutral / 2 phases in input and output, moreover in option we can connect the thermostat in modbus, in our case not the trouble, for the same probe.\n\nInstallation of module\n\nNothing very complicated, to begin with the black part is esay to remove with one hand in order to be able to screw the module on the flush-mounting box.\n\nFrom left to right:\n\n\n  White / red Modbus connection\n  1: flexible wire phase radiator outlet\n  2: neutral flexible wire radiator output\n  3: Circuit breaker neutral\n  4: Circuit breaker phase\n  5-6 wire from the 2.5m NTC probe connected to control the soil temperature.\n\n\n\n\nThen follows the installation in place of the Atlantic room thermostat. As stated above nothing very complicated.\n\n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\nWhat a pity that the connection work by dupont wires, a contact system is more pro\n\n\n\nThe 2.5m NTC probe is a practical external waterproof digital temperature probe for deporting the temperature probe of the Moes zigbee thermostat at ground level for example.\n\nTechnical Notice BHT-002\n\n\n\nNotice officielle du thermostat zigbee Moes BHT-002\n\nProgramming part\n\nWell I will not go into everything in detail, the instructions are just above, the interesting part is the programming which differs from the Atlantic thermostat which simply does not have one.\n\n4 time periods are available and programmable over 3 periods of the week (Monday to Friday, Saturday and Sunday).\n\nFor instance the integration with zigbee2mqtt and homeassistant is very easy. We open the network, 8 seconds on the down arrow and it’s good.\n\nAbove all the homeassistant part is relatively complete unfortunately the programming of the hourly / day periods is not possible. You found in the attributes, it is already not bad. Everything else is configurable via the wizard.\n\n\n\nTo conclude if you want to replace your electric floor heating thermostats you can go there frankly. I’m not even talking about homeassistant control, just the price difference forces you to take a zigbee thermostat. Frankly Moes is worth a visit.\n",
+    "datePublished": "2021-08-12 00:00:00 +0000",
+    "dateModified": "2021-08-12 00:00:00 +0000",
+    "inLanguage": "en_GB",
+    "author": {
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/assets/images/nico.webp","email": "nico@haade.fr"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Haade.fr",
+      "url": "https://haade-administrator.github.io/haade.fr",
+      "logo": {
+        "@type": "ImageObject",
+        "width": 300,
+        "height": 76,
+        "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://haade-administrator.github.io/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002"
+    },
+    "image": {
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp"
+      "url": "https://haade-administrator.github.io/haade.fr/thermostat-zigbee-moes-bht-002-944.webp"
     }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://haade-administrator.github.io/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002"
-  },
-  "image": {
-    "@type": "ImageObject",
-    "width":300,
-    "height":76,
-    "url": "https://haade-administrator.github.io/haade.fr/thermostat-zigbee-moes-bht-002-944.webp"
   }
-}
-</script>
+  </script>
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664133775468199752" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664139082845088652" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -107,7 +107,8 @@ layout: compress
           <a href="/haade.fr/en/">Home</a>
         <a href="/haade.fr/en/gdpr-general-data-protection-regulation/">GDPR</a>
         <a href="/haade.fr/en/contact/">Contact</a>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -139,7 +140,8 @@ layout: compress
 
 <!-- Site Tag
 ================================================== -->
-    <p class="sitetag">Home Assistance Alsace home automation & electronics.
+    <p class="sitetag">
+        Home Assistance Alsace home automation & electronics.
     </p>
 
 </div>
@@ -202,7 +204,8 @@ layout: compress
             </ul> -->
           </li>
           <li>
-<div class="sl-nav">language:
+<div class="sl-nav">
+  language:
   <ul>
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
@@ -229,7 +232,7 @@ layout: compress
       <ul></ul>
   </div>
 </div>
-<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=bc6be4a432a419ffbff8156b66b1badd"></script>
+<script src="/haade.fr/assets/js/lunrsearchengine-en.js?v=714bd79088e7e78d7c9e5e38ef010ae9"></script>
 
 
     </div>
@@ -244,7 +247,8 @@ layout: compress
 
     <!-- Content
     ================================================== -->
-    <div class="main-content"><script>
+    <div class="main-content">
+        <script>
   function liveViews(response) {
       document.getElementById('visits').innerText = response.value;
   }
@@ -276,14 +280,17 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <div>
             <a href="/haade.fr/en/author-nico"><img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="50" height="50" alt="Nico"></a>
         </div>
-        <div class="readingpost">Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a>the
-        <span class="post-date"><time class="post-date" datetime="12-08-2021">12<sup>th</sup>August2021
+        <div class="readingpost">
+        Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a> the
+        <span class="post-date"><time class="post-date" datetime="12-08-2021"> 12<sup>th</sup>
+    August 2021
 ,</time></span>
         <br /><span class="reading-time" title="Estimated read time">
-  <strong>4min</strong>ofreading.
+  <strong>
+    4 min</strong> of reading.
 </span>
 
-        <p><i class="fas fa-eye"></i>This page has been visited <span id="visits" style="font-weight:bold">...</span>times.</p>
+        <p><i class="fas fa-eye"></i> This page has been visited <span id="visits" style="font-weight:bold">...</span> times.</p>
         </div>
     </div>
 </div>
@@ -292,7 +299,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image">
-    <img class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-944.webp" alt="[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002">
+    <img itemprop="image" class="featured-image lazyimg" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://haade-administrator.github.io/haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002-944.webp" alt="[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002">
 </div>
 
 
@@ -388,7 +395,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <!-- Comments if not disabled with comments: false --><!-- Comments
 ================================================== -->
 <div class="comments mt-5">
-    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp;Load the Comments</button>
+    <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="fa fa-comments text-muted"></i> &nbsp; Load the Comments</button>
     <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
         <h4 class="mb-4">Comments</h4>
   <script src="https://giscus.app/client.js"
@@ -448,7 +455,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">5<sup>th</sup>October2021
+                <span class="post-date"> 5<sup>th</sup>
+    October 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -478,7 +486,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">1<sup>st</sup>October2021
+                <span class="post-date"> 1<sup>st</sup>
+    October 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -508,7 +517,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">25<sup>th</sup>September2021
+                <span class="post-date"> 25<sup>th</sup>
+    September 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -568,7 +578,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
      </div>
    </div>
    <div class="footbottom">
-     <p>Copyright ©2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
+     <p>Copyright © 2022 <a target="_blank" href="https://www.haade.fr">Haade</a> 🎉 by Nicoxygen</p>
    </div>
  </footer>
 
