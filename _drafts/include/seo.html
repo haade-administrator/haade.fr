@@ -112,36 +112,37 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "@id": "{{- site.url }}{{- page.url }}/#website",
   "url": "{{- site.url }}{{- page.url }}",
   "name": {{- page.title | jsonify }},
-  "description": "{{- translate.site.description[page.locale] | strip_newlines | strip | jsonify }}",
-  "inLanguage": "{{ page.locale | replace "_", "-" }}",
-  "publisher": {
+  "about": {{- menu.legalnotice[page.locale].link | absolute_url | jsonify }},
+  "description": {{- translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
+  "inLanguage": "{{- page.locale | replace "_", "-" }}",
+  "author": {
     "@type": "Organization",
-    #@id": "{{- site.url | append: site.baseurl | absolute_url }}/#organization",
     "name": {{- site.title | jsonify }},
     "url": "{{- site.url | append: site.baseurl | absolute_url }}",
-    "sameAs": "https://discord.gg/{{- site.social.discord }}",
-    "sameAs": "https://www.youtube.com/channel/{{- site.social.youtube }}",
+    "email": "administrateur@haade.fr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{- site.title | jsonify }},
+    "url": "{{- site.url | append: site.baseurl | absolute_url }}",
     "logo": {
       "@type": "ImageObject",
-      "@id": "{{- site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
-      "inLanguage": "{{- page.locale | replace "_", "-" }}",
-      "url": "{{- site.logo.path | absolute_url }}",
-      "width": "300",
-      "height": "76",
-      "caption": {{- site.title | jsonify }}
-    },
-    "image": {
-      "@type": "ImageObject",
-      "@id": "{{- site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
-      "url": "{{- page.image | default: site.logo.path | absolute_url }}",
-      "inLanguage": "{{- page.locale | replace "_", "-" }}",
-      "width": "{{- page.image_width | default: site.logo.width }}",
-      "height": "{{- page.image_height | default: site.logo.height }}",
-      "caption": {{- site.title | jsonify }}
+      "width": 300,
+      "height": 76,
+      "url": "{{- site.logo.path | absolute_url }}"
     }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{- page.url | absolute_url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "width": {{- page.image_width | default: site.logo.width }},
+    "height": {{- page.image_height | default: site.logo.height }},
+    "url": "{{- page.image | default: site.logo.path | absolute_url }}"
   }
 }
 

@@ -18,6 +18,11 @@ words_per_minute: 180
 #google
 google_site_verification: 'SZHADy8knzo8Q_dv__GBJYH7U10uDTYtWu31EqGqtvQ'
 
+#socialnetwork
+social:
+  discord: 'FaK6MuZ2'
+  youtube: 'UCcXJ1ZsjEvQxuWJy7gH-A6w'
+
 # google analytics + futur pageviews
 google_analytics:
   id:  'G-1DEJLWC188'
