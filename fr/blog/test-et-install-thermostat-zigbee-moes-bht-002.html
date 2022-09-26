@@ -38,7 +38,7 @@ layout: compress
     "articleBody": "Aujourd’hui je vais tester et installer le thermostat zigbee BHT-002 de la marque Moes, plus précisément la version chauffage électrique BHT-002-GBLZBW, celui-ci va être remplacer par le thermostat Atlantic 109519 ce thermostat des années 2000 coûte toujours _plus de 40 euro_s l’unité avec des paramétrages très restreints.\n\n\n\nPour parler de la marque Moes, c’est le second matériel que je test, commandé tous deux chez le revendeur Moes Official Store d’aliexpress, franchement la qualité est très bien fini, l’emballage est pro et la notice ( en Anglais ) est parfaitement détaillée. Alors n’hésitez pas à commander les produits de cette marque. D’ailleurs dans un prochain article Yann va tester le nouveau capteur 3 en 1 ( thermomètre, luminosité et humidité ) zigbee de la marque. Il est déjà compatible zigbee2mqtt donc multi-plateforme, j’attends ça avec impatience donc à toi de jouer tonton.\n\n\n\nCommençons par le déballage, comme je le disais plus haut l’emballage est top, le produit est bien protégé, à l’intérieur le thermostat ( un film de protection protège l’écran ). Une sonde NTC de 2,5m, deux visses sous blister et la notice, rien d’extraordinaire. Le branchement sur chauffage électrique se fera sans soucis, car disponible avec 2 neutres/2 phases en entrée et sortie. De plus en option on peut brancher le thermostat en modbus, dans notre cas pas la peine, pour la sonde idem.\n\nInstallation du module\n\nRien de bien compliqué, pour commencer la partie noir se déboîte facilement d’une main afin de pouvoir visser le module sur le boitier d’encastrement ( compatible norme européenne ).\n\nDe Gauche à droite:\n\n\n  Connectique Modbus blanc/rouge\n  1: phase fil souple sortie du radiateur\n  2: neutre fil souple sortie du radiateur\n  3: Neutre du disjoncteur\n  4 Phase du disjoncteur\n  5-6 fil de la sonde NTC de 2,5m branchée pour contrôler la température du sol.\n\n\n\n\nSuit l’installation en lieu et place au thermostat d’ambiance Atlantic. Comme énoncé plus haut rien de bien compliqué.\n\n\n\nVous allez devoir travailler au voisinage d’une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l’alimentation électrique.\n\nCe qui est dommage, la connectique réalisée par des fils dupont, et non par un système de connection par contact.\n\n\n\nAussi la sonde NTC de 2,5m est une sonde de température numérique étanche externe. Pratique pour déporter la sonde de température au niveau des résistances du sol par exemple.\n\nNotice Technique BHT-002\n\nNotice technique BHT-002\n\nNotice officielle du thermostat zigbee Moes BHT-002\n\nPartie Programmation\n\nBon je ne vais pas tout détailler, d’ailleurs la notice est au dessus, la partie intéressante est la programmation qui diffère du thermostat Atlantic, à savoir qu’il n’en possède pas.\n\n4 périodes horaires sont disponibles et programmable sur 3 périodes de la semaine ( lundi à vendredi, samedi et dimanche ), ce qui nous fait en tout 12 possibilités.\n\nquand à l’intégration avec zigbee2mqtt et homeassistant est très simple. On ouvre le réseau, 8 secondes sur la flèche du bas et c’est inclus.\n\nla partie homeassistant est relativement complète malheureusement la programmation des périodes horaires/jour n’est pas possible. Elle s’affiche dans les attributs c’est déjà pas mal. Tout le reste est paramétrable via l’assistant.\n\n\n\nPour conclure si tu souhaites remplacer tes thermostats de chauffages au sol électriques tu peux y aller franchement. Je ne parle même pas du contrôle par homeassistant, rien que la différence de prix force à prendre un thermostat zigbee. Franchement Moes vaut le détour.\n",
     "datePublished": "2021-08-12 14:34:23 +0000",
     "dateModified": "2021-08-12 14:34:23 +0000",
-    "inLanguage": "fr_FR",
+    "inLanguage": "fr-FR",
     "author": {
       "@type": "Person","name": "Nico",
       "alternateName": "Nico",
@@ -71,7 +71,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664176031175915367" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664181707715296592" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -276,7 +276,8 @@ layout: compress
         </div>
         <div class="readingpost">
         Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a> le
-        <span class="post-date"><time class="post-date" datetime="12-08-2021"> 12août 2021
+        <span class="post-date"><time class="post-date" datetime="12-08-2021"> 12
+    août 2021
 ,</time></span>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
   <strong>
@@ -450,7 +451,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-yann"><span class="post-name font-weight-bold">Yann</span></a>
-                <span class="post-date"> 22octobre 2021
+                <span class="post-date"> 22
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -480,7 +482,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 5octobre 2021
+                <span class="post-date"> 5
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -510,7 +513,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 20septembre 2021
+                <span class="post-date"> 20
+    septembre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>

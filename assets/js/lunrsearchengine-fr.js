@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/haade.fr/fr/blog/cle-zigbee-3-sonoff-Z-Bridge-dongle-E",
     "title": "Clé zigbee 3.0 Sonoff zbridge Dongle-E",
-    "description": "23/09/2022 - ",
+    "description": "23/09/2022 - Dongle Sonoff compatible zigbee2mqtt et homeassistant à base de puce cc2652",
     "tags": ""
     },{
     "id": 1,

@@ -37,7 +37,7 @@ layout: compress
     "articleBody": "Pour commencer, on trouve sur internet certains comparatif zigbee vs z-wave mais je trouve qu’ils ne vont pas au bout des choses. Donc je vais détailler dans cet article ces deux protocoles qui sont actuellement indispensable dans la domotisation d’un habitat. Alors quel est le meilleur protocole ! sont-ils indissociables nous allons voir ça dès maintenant.\n\nPour comprendre mieux le maillage zigbee j’ai créé un article récemment sur ce sujet, on peut le consulter en cliquant ici.\n\nTableau comparatif zigbee vs z-wave\n\n\n  \n    \n       \n      ZIGBEE\n      Z-WAVE\n    \n  \n  \n    \n      EVOLUTION\n      1.2 – 3.0\n      300 – 500 – 700\n    \n    \n      Maillage\n      oui\n      oui\n    \n    \n      reconstruction maillage\n      non\n      oui\n    \n    \n      soin des noeuds\n      oui\n      oui\n    \n    \n      conso des piles\n      très faible\n      modéré\n    \n    \n      cout des piles\n      dérisoire\n      élevé\n    \n    \n      Sécurité\n      AES 128\n      AES 128\n    \n    \n      Nombre de modules\n      &gt; 600\n      &gt; 1000\n    \n    \n      Variété des modules\n      bien\n      très bien\n    \n    \n      cout des modules\n      &lt; 20€\n      &gt; 45€\n    \n    \n      Configurations modules\n      facile\n      complexe car varié\n    \n    \n      inclusion\n      facile\n      aléatoire\n    \n    \n      Touchlink\n      oui ( zigbee 3.0 )\n      non\n    \n    \n      librairie\n      libre ou protégé\n      libre ou protégé\n    \n    \n      clé controleur\n      cc2531 / Deconz / zigate\n      aeotec / Sigma / zway\n    \n    \n      coût controleur\n      6 – 60 €\n      50 – 70€\n    \n    \n      Piles modules\n      CR2032\n      Cr123A\n    \n    \n      Coût piles Varta\n      1,30€\n      3,26€\n    \n    \n      Durée de vie théorique\n      2 ans\n      2 ans\n    \n    \n      Durée de vie réel\n      1,5 – 2 ans\n      0,5 – 1,5 ans\n    \n    \n      portée\n      30 – 100m\n      30 – 100m\n    \n    \n      réactivité\n      instantanée\n      instantanée\n    \n    \n      librairie libre\n      zigbee2mqtt\n      openzwave / zwave2mqtt\n    \n    \n      Prise en Charge Homeassistant\n      oui\n      oui\n    \n    \n      Prise en Charge Jeedom\n      Partiel\n      oui\n    \n    \n      Note sur 10 Haade\n      8\n      6\n    \n  \n\n\nAlors quel est le bon protocole !\n\nPersonnellement j’avais il y a 5 ans commencé à domotiser mon habitat en z-wave avec le gestionnaire domotique Jeedom.\n\n\n  Tout au long de ces années j’ai pu me faire un avis objectif sur la question. De là est née l’envie d’éditer un comparatif zigbee vs z-wave.\n\n\nLe z-wave c’est bien pour le choix des modules variés comme tous les modules de courant, ou contact sec mis derrière les interrupteurs, les modules d’alarmes etc… . Mais tous les modules sur pile sont gourmands et les piles coûtent cher de plus la ré-inclusion après changement de pile est parfois délicate.\n\nDepuis mai 2019 j’ai décidé de changer tous les modules sur piles z-wave par des modules xiaomi zigbee. Cette prise de conscience pour ce changement est venu en même temps que l’envie de changer de système domotique jeedom par homeassistant.\n\nCertes ce fut délicat mais je ne le regrette pas. Jeedom à commencé à développer openzigbee qui prend en charge zigbee2mtt mais l’a laissé tombé pour s’occuper de deconz. C’est une des raisons qui m’ont fait quitté ce système, mais ça c’est un autre débat. Du coup l’intégration par mqtt est possible mais il faut créer des virtuels pour commander les actions et ça c’est pas très waf.\n\nAprès il y a le coût des modules qui est pour l’instant trop cher à mon gout pour le z-wave, ça devrait changer au second semestre 2020 mais pour l’instant j’ai vendu les anciens modules en occasion sur une market place et 5 modules sur piles m’ont permis de ramasser suffisamment d’argent pour m’en payer 20 en zigbee c’est tout simplement surréaliste. Alors faut-il supprimer le z-wave je dirais non car pour l’instant les modules z-wave sont plus variés que zigbee ( mais c’est en train de changer ).\n\nCONCLUSION\n\nAlors faut-il privilégier le Zigbee !\n\nPour conclure le protocole Zigbee est selon moi indispensable et le protocole z-wave reste complémentaire voir secondaire, mais tout celà risque de change dans 1 à deux ans avec l’arrivée du protocole Home over ip 😉\n\nÀ mon humble avis oui c’est beaucoup plus raisonnable en termes de coût et d’entretien, une fois que l’on a toute les astuces pour renforcer le maillage il devient même incontournable.\n",
     "datePublished": "2020-02-11 14:05:00 +0000",
     "dateModified": "2020-02-11 14:05:00 +0000",
-    "inLanguage": "fr_FR",
+    "inLanguage": "fr-FR",
     "author": {
       "@type": "Person","name": "Nico",
       "alternateName": "Nico",
@@ -70,7 +70,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664176031175915367" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664181707715296592" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -278,7 +278,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         </div>
         <div class="readingpost">
         Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a> le
-        <span class="post-date"><time class="post-date" datetime="11-02-2020"> 11février 2020
+        <span class="post-date"><time class="post-date" datetime="11-02-2020"> 11
+    février 2020
 ,</time></span>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
   <strong>
@@ -563,7 +564,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-math67"><span class="post-name font-weight-bold">Math67</span></a>
-                <span class="post-date"> 3janvier 2022
+                <span class="post-date"> 3
+    janvier 2022
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -594,7 +596,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
                 <span class="post-date">
-        1<sup>er</sup>octobre 2021
+        1<sup>er</sup>
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -630,7 +633,8 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 25septembre 2021
+                <span class="post-date"> 25
+    septembre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>

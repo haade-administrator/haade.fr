@@ -35,10 +35,10 @@ layout: compress
     "headline": "La téléinfo dans le dashboard Energie de Home Assistant",
     "keywords": "téléinformation",
     "description": "Teleinfo Home Assistant : Intégrer les informations du compteurs électrique dans le dashboard Energie dans HA",
-    "articleBody": "Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.  &lt;div class=\"productcard\"&gt;\n\n&lt;div class=\"productcard-img\"&gt;\n  &lt;div class=\"wrapper-thumb\"&gt;\n    &lt;div class=\"thumbnail\"&gt;&lt;/div&gt;\n    &lt;div class=\"thumbnail\"&gt;&lt;/div&gt;\n    &lt;div class=\"thumbnail\"&gt;&lt;/div&gt;\n  &lt;/div&gt;\n  &lt;img class=\"img-product\" src=\"https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg\"&gt;\n  &lt;div class=\"frase\"&gt;FAS&lt;/div&gt;\n  &lt;div class=\"circle\"&gt;☄&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;div class=\"productcard-description\"&gt;\n  &lt;div class=\"wrapper\"&gt;\n    &lt;span class=\"stars\"&gt;★★★★★&lt;/span&gt;\n    &lt;span class=\"price\"&gt;$ 200.00&lt;/span&gt;\n  &lt;/div&gt;\n  &lt;h1 class=\"title-product\"&gt;Nike Air Max for Men&lt;/h1&gt;\n  &lt;p&gt;Men's Running Shoes.&lt;/p&gt;\n  &lt;h3&gt;Color:&lt;/h3&gt;\n  &lt;div class=\"colors-wrap\"&gt;\n    &lt;span class=\"colors\"&gt;&lt;/span&gt;\n    &lt;span class=\"colors selected\"&gt;&lt;/span&gt;\n    &lt;span class=\"colors\"&gt;&lt;/span&gt;\n    &lt;span class=\"colors\"&gt;&lt;/span&gt;\n  &lt;/div&gt;\n  &lt;h3&gt;Size:&lt;/h3&gt;\n  &lt;div class=\"size-wrap\"&gt;\n    &lt;span class=\"size\"&gt;40&lt;/span&gt;\n    &lt;span class=\"size\"&gt;41&lt;/span&gt;\n    &lt;span class=\"size selected\"&gt;42&lt;/span&gt;\n    &lt;span class=\"size\"&gt;43&lt;/span&gt;\n  &lt;/div&gt;\n  &lt;div class=\"purchase\"&gt;Add to chart&lt;/div&gt;\n  &lt;div class=\"wishlist\"&gt;Add to Wishlist&lt;/div&gt;\n&lt;/div&gt;\n\n&lt;/div&gt;\n\n\n\nPrérequis :\n\n\n  Home assistant installé avec la version 2021.8.0 minimum\n  Avoir accès à des données de consommation électrique\n\n\nCréation des compteurs\nDans un premier temps il faudra créer différents compteurs afin de récolter la quantité d’énergie consommée, pour cela nous utiliserons une intégration native d’HA : Utility Meter.\n\nAyant un abonnement Heures creuses / Heures pleines, j’ai décidé de créer des compteurs pour les deux tarifs, mais vous pouvez simplement n’en créer qu’un seul en fonction de votre contrat.\nCi-dessous mon code, à placer dans le fichier configuration.yaml :\n\nutility_meter:\n  heures_creuses:\n    source: sensor.hchc\n    cycle: daily\n  heures_pleines:\n    source: sensor.hchp\n    cycle: daily\n\n\nLa “source” correspond au sensor “Index HC” ou “Index HP” créé dans ESPHome, il alimentera en temps réel votre compteur.\n\nLa variable “cycle” correspond à la période, vous avez le choix entre : quarter-hourly, hourly, daily, weekly, monthly, bimonthly, quarterly et yearly.\nCes variables sont toutes documentées dans la doc de l’intégration, libre à vous de créer les compteurs de votre choix. Pour notre besoin daily suffira.\n\nVoici le genre d’entité que vous obtiendrez après redémarrage de Home Assistant :\n\n\n\nMaintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard “Energie”.\n\nConfiguration du dashboard Energie\n\nRendez-vous dans “Configuration” puis “Energie”.\nLà vous allez découvrir plusieurs tableaux vous permettant de monitorer la consommation, la production ainsi que le stockage de l’énergie (Plus d’infos dans la doc officielle.\n\nEnsuite dans “Réseau électrique”, cliquez sur “Ajouter la consommation” et sélectionnez le sensor créé auparavant, dans notre cas : sensor.heures_pleines.\nRépétez l’opération pour le sensor heures creuses si nécessaire.\n\n\n\nConfiguration du dashboard Energie\n\nVous avez la possibilité d’inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : une entrée nombre).\n\n\n\nUne fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.\n\n\n\nL’article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.\n",
+    "articleBody": "Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la téléinfo.\n\nPrérequis :\n\n\n  Home assistant installé avec la version 2021.8.0 minimum\n  Avoir accès à des données de consommation électrique\n\n\nCréation des compteurs\nDans un premier temps il faudra créer différents compteurs afin de récolter la quantité d’énergie consommée, pour cela nous utiliserons une intégration native d’HA : Utility Meter.\n\nAyant un abonnement Heures creuses / Heures pleines, j’ai décidé de créer des compteurs pour les deux tarifs, mais vous pouvez simplement n’en créer qu’un seul en fonction de votre contrat.\nCi-dessous mon code, à placer dans le fichier configuration.yaml :\n\nutility_meter:\n  heures_creuses:\n    source: sensor.hchc\n    cycle: daily\n  heures_pleines:\n    source: sensor.hchp\n    cycle: daily\n\n\nLa “source” correspond au sensor “Index HC” ou “Index HP” créé dans ESPHome, il alimentera en temps réel votre compteur.\n\nLa variable “cycle” correspond à la période, vous avez le choix entre : quarter-hourly, hourly, daily, weekly, monthly, bimonthly, quarterly et yearly.\nCes variables sont toutes documentées dans la doc de l’intégration, libre à vous de créer les compteurs de votre choix. Pour notre besoin daily suffira.\n\nVoici le genre d’entité que vous obtiendrez après redémarrage de Home Assistant :\n\n\n\nMaintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard “Energie”.\n\nConfiguration du dashboard Energie\n\nRendez-vous dans “Configuration” puis “Energie”.\nLà vous allez découvrir plusieurs tableaux vous permettant de monitorer la consommation, la production ainsi que le stockage de l’énergie (Plus d’infos dans la doc officielle.\n\nEnsuite dans “Réseau électrique”, cliquez sur “Ajouter la consommation” et sélectionnez le sensor créé auparavant, dans notre cas : sensor.heures_pleines.\nRépétez l’opération pour le sensor heures creuses si nécessaire.\n\n\n\nConfiguration du dashboard Energie\n\nVous avez la possibilité d’inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : une entrée nombre).\n\n\n\nUne fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.\n\n\n\nL’article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.\n",
     "datePublished": "2022-01-03 13:23:45 +0000",
     "dateModified": "2022-01-03T13:23:47+00:00",
-    "inLanguage": "fr_FR",
+    "inLanguage": "fr-FR",
     "author": {
       "@type": "Person","name": "Math67",
       "alternateName": "Math67",
@@ -71,7 +71,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664176031175915367" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664181707715296592" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -282,13 +282,15 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         </div>
         <div class="readingpost">
         Rédigé par <a href="/haade.fr/fr/author-math67"><b>Math67,</b></a> le
-        <span class="post-date"><time class="post-date" datetime="03-01-2022"> 3janvier 2022
+        <span class="post-date"><time class="post-date" datetime="03-01-2022"> 3
+    janvier 2022
 ,</time></span>
-        Mis à Jour le <time datetime="2022-01-03T13:23:47+00:00"> 3janvier 2022
+        Mis à Jour le <time datetime="2022-01-03T13:23:47+00:00"> 3
+    janvier 2022
 </time>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
   <strong>
-    3 min</strong> de lecture.
+    2 min</strong> de lecture.
 </span>
 
         <p><i class="fas fa-eye"></i> Cet Article a été vu <span id="visits" style="font-weight:bold">...</span> fois.</p>
@@ -312,229 +314,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
         <h3 class="font-weight-bold">Sommaire</h3><ul><li><a href="#prérequis-">Prérequis :</a></li><li><a href="#création-des-compteurs">Création des compteurs</a></li><li><a href="#configuration-du-dashboard-energie">Configuration du dashboard Energie</a></li></ul>
     </div>
     <!-- End Toc -->
-    <p>Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la <a href="https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/">téléinfo</a>.  &lt;div class="productcard"&gt;</p>
-
-<pre><code>&lt;div class="productcard-img"&gt;
-  &lt;div class="wrapper-thumb"&gt;
-    &lt;div class="thumbnail"&gt;&lt;/div&gt;
-    &lt;div class="thumbnail"&gt;&lt;/div&gt;
-    &lt;div class="thumbnail"&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;img class="img-product" src="https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg"&gt;
-  &lt;div class="frase"&gt;FAS&lt;/div&gt;
-  &lt;div class="circle"&gt;☄&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class="productcard-description"&gt;
-  &lt;div class="wrapper"&gt;
-    &lt;span class="stars"&gt;★★★★★&lt;/span&gt;
-    &lt;span class="price"&gt;$ 200.00&lt;/span&gt;
-  &lt;/div&gt;
-  &lt;h1 class="title-product"&gt;Nike Air Max for Men&lt;/h1&gt;
-  &lt;p&gt;Men's Running Shoes.&lt;/p&gt;
-  &lt;h3&gt;Color:&lt;/h3&gt;
-  &lt;div class="colors-wrap"&gt;
-    &lt;span class="colors"&gt;&lt;/span&gt;
-    &lt;span class="colors selected"&gt;&lt;/span&gt;
-    &lt;span class="colors"&gt;&lt;/span&gt;
-    &lt;span class="colors"&gt;&lt;/span&gt;
-  &lt;/div&gt;
-  &lt;h3&gt;Size:&lt;/h3&gt;
-  &lt;div class="size-wrap"&gt;
-    &lt;span class="size"&gt;40&lt;/span&gt;
-    &lt;span class="size"&gt;41&lt;/span&gt;
-    &lt;span class="size selected"&gt;42&lt;/span&gt;
-    &lt;span class="size"&gt;43&lt;/span&gt;
-  &lt;/div&gt;
-  &lt;div class="purchase"&gt;Add to chart&lt;/div&gt;
-  &lt;div class="wishlist"&gt;Add to Wishlist&lt;/div&gt;
-&lt;/div&gt;
-</code></pre>
-<p>&lt;/div&gt;</p>
-
-<style>
-
-.productcard{
-    width: 90%;
-    max-width: 750px;
-    height: 425px;
-    background-size: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 12.5px 20px 1px rgba(0, 0, 0, 0.3), inset 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
-    border-radius: 4px;
-    color: #fff;
-    background-image: linear-gradient(-180deg, #fb947d, #FC3E65, #f23236);
-}
-.productcard-img{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-    position: relative;
-}
-.productcard-description{
-    background: #fff;
-    color: #5d5c5c;
-    height: 115%;
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    justify-content: center;
-    padding: 4%;
-    border-radius: 0 4px 4px 0;
-    align-items: flex-start;
-    box-shadow: -16px 0px 23px -20px rgba(0, 0, 0, 0.4), 0 3px 15px -1px rgba(0, 0, 0, 0.3);
-    text-shadow: 1px 1px 1px rgba(170, 170, 170, 0.5);
-}
-.card-description > *{
-    padding: 8px 0;
-}
-.wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-.wrapper-thumb{
-    height: 20%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.thumbnail{
-    background: rgba(140, 138, 138, 0.59);
-    width: 15px;
-    height: 15px;
-    margin: 0 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: -16px 0px 23px -20px rgba(146, 142, 142, 0.4), 0 3px 10px -1px rgba(68, 66, 66, 0.3), inset 1px 0px 3px -44px rgba(0, 0, 0, 0.4);
-}
-.thumbnail:nth-child(3){
-    background: rgba(236, 233, 233, 0.9);
-}
-.title-product{
-    font-size: 1.4em;
-    color: #484848;
-    font-weight: bold;
-}
-.img-product{
-    height: 55%;
-    max-height: 100%;
-    z-index: 2;
-    filter: drop-shadow(-1px 22px 15px rgba(0, 0, 0, 0.35));
-    /* transform: scale(2) rotate(25deg) translate(8px, -20px); */
-}
-.stars{
-    font-size: 1.4em;
-    color: #ffd700;
-}
-.price{
-    font-size: 1.5em;
-    text-align: center;
-}
-.colors{
-    width:20px;
-    height:20px;
-    display:inline-block;
-    transition:0.3s all;
-    border-radius:50%;
-    background: #ef8bef;
-    margin: 0 15px;
-}
-.colors:hover, .size:hover{
-    transform: scale(1.2);
-    box-shadow: 0 0 0 8px rgba(173, 173, 170, .3);
-    cursor: pointer;
-}
-.colors:active, .size:active{
-    transform: scale(.8);
-}
-.colors:nth-child(2){
-    background: #f43542;
-}.colors:nth-child(3){
-    background: #ffe55b;
-}.colors:nth-child(4){
-    background: #6cf96c;
-}
-.selected{
-    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(173, 173, 170, .3);
-}
-.colors-wrap, .size-wrap{
-    width: 100%;
-    margin: 5px auto;
-    padding: 10px;
-    border-radius: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.size{
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 15px;
-    cursor: pointer;
-    transition: all .3s;
-}
-.purchase{
-    border-radius: 33px;
-    background-image: linear-gradient(-180deg, #FD886E 0%, #FC3E65 100%);
-    box-shadow: 0px 3px 13px 0px rgba(252, 75, 104, 0.6);
-    margin-top: 20px;
-    padding: 10px 40px;
-    align-items: center;
-    text-transform: uppercase;
-    transition: all .3s ease;
-    cursor: pointer;
-    color: #fff;
-    margin: 20px auto 0;
-}
-.purchase:hover{
-    transform: scale(1.1);
-}
-.purchase:active{
-    transform: scale(.9);
-    box-shadow: 0 5px 40px -20px rgba(252, 75, 104, 0.6);
-}
-.frase{
-    position: absolute;
-    left: 0;
-    font-size: 13.3em;
-    font-weight: bold;
-    opacity: 0.1;
-    bottom: 10px;
-    z-index: 1;
-}
-.circle{
-    position: absolute;
-    right: 25px;
-    top: 25px;
-    font-size: 3.2em;
-    line-height: .95;
-    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.25));
-    transform: rotate(28deg);
-    opacity: .9;
-}
-
-.wishlist{
-    margin: 10px auto 0;
-    font-size: 17px;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-
-  </style>
+    <p>Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la <a href="https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/">téléinfo</a>.</p>
 
 <h2 id="prérequis-">Prérequis :</h2>
 
@@ -677,7 +457,8 @@ Répétez l’opération pour le sensor heures creuses si nécessaire.</p>
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 5octobre 2021
+                <span class="post-date"> 5
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -708,7 +489,8 @@ Répétez l’opération pour le sensor heures creuses si nécessaire.</p>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
                 <span class="post-date">
-        1<sup>er</sup>octobre 2021
+        1<sup>er</sup>
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -744,7 +526,8 @@ Répétez l’opération pour le sensor heures creuses si nécessaire.</p>
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 25septembre 2021
+                <span class="post-date"> 25
+    septembre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>

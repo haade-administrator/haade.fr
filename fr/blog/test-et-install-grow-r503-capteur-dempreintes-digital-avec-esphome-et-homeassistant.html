@@ -37,7 +37,7 @@ layout: compress
     "articleBody": "La livraison par aliexpress du capteur d’empreintes Grow R503 et des accessoires s’est effectuée sans soucis et livré bien emballé, je n’ai rencontré aucun soucis à la livraison et le délai d’envoi et livraison a été effectuée rapidement, le manufacturier Grow propose de bonnes prestations.\n\n\n\nLe matériel, test du Grow R503\n\n+ Le touché tactile est correcte, la validation de l’empreinte se fait en appuyant moyennement sur le pad et durant 1,5 secondes ensuite la validation par norme de confiance se fait.\n\n+ La partie arrière est siliconée pour éviter la pénétration d’humidité.\n\n\n\ndessous du capteur d’empreinte grow r503 rempli de silicone pour éviter les infiltrations + le Grow R503 a une capacité mémoire de 200 empreintes.\n\n+ Le contrôle par LED est fonctionnel en ( bleu, pourpre et rouge )\n\n+ Le manufacturier Grow propose des options pour le capteur d’empreinte R503 comme une plaque en inox adapté aux boîtiers d’encastrements européens, ainsi qu’un cache capteur en plastique ou zinc.\n\n– les fils de connections sont de type jst 1,0mm, il aurait été préférable d’avoir du 1,5 voir 2,0 mm surtout pour ce qui est d’une adaptation diy.\n\n– Seule trois couleurs lumineuses sont disponibles ( bleu, rouge et violet )\n\n– le fait qu’il n’existe pas un Grow R503 imperméable ip66-67 le rend incompatible seul en utilisation extérieur, mais pour pallier au problème il est possible d’acheter un clapet en plastique ou zinc, disponible en lien dans notre boutique.\n\nINSTALL du Grow R503 sur Home assistant\n\nPrérequis:\n\n\n  home assistant installé et fonctionnel\n  esphome installé et fonctionnel version: 1.18.0 mini\n  Module ESP8266/32 type Wemos D1 mini ou équivalent\n  Module de conversion usb uart type ft232\n  Capteur empreintes digitales GROW R503, R307 ou équivalent\n  ( optionnel ): plaque inox 86mm et support de protection R503\n\n\nGrâce au travail effectué par l’équipe home assistant et esphome v1.18.0 et supérieur tu peux désormais intégrer facilement un capteur d’empreintes digitales Grow R503 et ainsi domotiser un accès grâce à ton petit doigt. dans mon cas ce sera pour utiliser l’accès à la porte de garage c’est pourquoi je me suis orienté vers un GROW R503 avec plaque inx compatible boîte d’encastrement, un projet similaire est déjà diffusé sur la communauté home assistant share your Projects! Garage fingerprint sensor.\n\nHormis le fait que ce soit un test, c’est aussi la suite d’un article que j’ai rédigé sur le site domotiser sa porte de garage pour 5€, n’hésite pas à le lire.\n\n1 – Connexion au wemos\n\n\n\nbranchement par fil dupont du capteur d’empreinte r503 sur wemos d1 mini esphome. Personnellement j’utilise des fils dupont ou je serti des connecteurs dupont idéal pour le diamètre des fils du capteur d’empreinte Grow R503, suivez le schéma de branchement:\n\n\n  Tx jaune du R503 sur le rx GPIO5 (D1) du wemos D1 mini\n  Rx vert du R503 sur le tx GPIO16 (D0) du wemos\n  Ensemble 3v3 rouge et blanc du R503 sur le 3v3 du wemos\n  Ground noir de R503 sur GND du wemos\n  WakeUp bleu du R503 sur GPIO2 (D2) ( ou autre ) du wemos\n\n\n2 – Connexion et paramétrage sur esphome\n\nlà aussi j’ai rédigé un article à consulter esphome et home assistant.&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\n3 – Intégration du capteur d’empreintes Grow R503 à Lovelace\n\nl’intégration dans lovelace est complète, comme d’habitude toutes les infos ne sont pas nécessaires à toi de faire le tri.\n\n4 – Enregistrement d’empreintes\n\nles enregistrements d’empreintes se font dans Outils de développements &gt;&gt; Services, appelle enroll pour appairer puis colle ton doigt, la lumière bleue vas clignoter et passer au pourpre fixe, lâche et recolle ton doigt afin de renouveler l’empreinte ensuite le grow r503 clignotera 2 fois en bleu, le processus sera validé et tu pourras utiliser l’ouverture d’une porte du bout de tes doigts.\n\nCi-dessous la liste des 4 services disponibles.\n\n\n\nGif animé présentant les services disponibles avec esphome et le capteur d’empreinte Grow R503\n\n  Cancel_enroll: stoppe le service enroll ( appairage )\n  Delete: permet d’effacer un ID d’empreinte ( pour rappel les empreintes commencent à l’ID 0 )\n  Delete_all: permet de supprimer toutes les empreintes\n  Enroll ( appairage ): permet d’enregistrer une nouvelle empreinte, finger_id représente l’identifiant de l’empreinte tandis que num_scans indique le nombre de capture de l’empreinte pour enregistrement ( 2 par défaut ) perso je conseil 3.\n\n\n5 – Entrée d’automatisation par Balise pour le capteur Grow R503\n\nGrâce à la documentation complète Esphome, du capteur d’empreinte digitale Grow R503, nous pouvons facilement créer des Balise (tags) et ainsi personnaliser les finger_id au nom d’une personne ce qui permet très facilement de réaliser une automatisation unique.&lt;pre&gt;400: Invalid request&lt;/pre&gt;\n\nExemple: Grâce aux balises, Person_a pourra ouvrir la porte de garage tandis que Person_b ouvrira cette même porte mais aura le pouvoir de désactiver en même temps l’alarme, magique !\n\nDonc après avoir enregistrée ton empreinte digitale tu peux te rendre dans Configuration &gt;&gt; Balise et ainsi voir les balises créées.\n\nBon à savoir: Dans le script esphome tu pourrais très bien mettre Person_a au lieu d’un prénom, ensuite pas de soucis la balise peut être modifiable dans homeassistant ou tu peux changer de Nom regarde le gif ci-dessous.\n\n6 – Automatisation et déclencheur du Grow R503 et Homeassistant\n\nRien de plus simple il suffit de choisir en type de déclencheur BALISE et la personne concernée ainsi au déclenchement tu pourras mener l’action qu’il te convient.\n",
     "datePublished": "2021-07-01 19:33:43 +0000",
     "dateModified": "2021-07-01 19:33:43 +0000",
-    "inLanguage": "fr_FR",
+    "inLanguage": "fr-FR",
     "author": {
       "@type": "Person","name": "Nico",
       "alternateName": "Nico",
@@ -70,7 +70,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664176031175915367" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664181707715296592" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -276,7 +276,8 @@ layout: compress
         <div class="readingpost">
         Rédigé par <a href="/haade.fr/fr/author-nico"><b>Nico,</b></a> le
         <span class="post-date"><time class="post-date" datetime="01-07-2021">
-        1<sup>er</sup>juillet 2021
+        1<sup>er</sup>
+    juillet 2021
 ,</time></span>
         <br /><span class="reading-time" title="Temps de Lecture estimé">
   <strong>
@@ -484,7 +485,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-yann"><span class="post-name font-weight-bold">Yann</span></a>
-                <span class="post-date"> 22octobre 2021
+                <span class="post-date"> 22
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -514,7 +516,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 5octobre 2021
+                <span class="post-date"> 5
+    octobre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>
@@ -544,7 +547,8 @@ layout: compress
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date"> 20septembre 2021
+                <span class="post-date"> 20
+    septembre 2021
 </span>
                 </span>
                 <div class="clearfix"></div>

@@ -38,7 +38,7 @@ layout: compress
     "articleBody": "Here is in the series of the very small tutorials . I will quickly describe how to change an icon of a binary sensor thanks to the device_class, by customization in home assistant.\n\nSo in normal times to change an icon of an entity of a device, nothing could be simpler:\n\nConfiguration &gt;&gt; Entities &gt;&gt; you change the class icon to hass: or mdi: as desired. And it’s over.\n\nBut when you want to change the icon of a binary, example: a door opening detector. There it gets complicated because there is an icon for an open position and an icon for a closed position. Don’t worry, Home assistant is in the place.\n\nIn this case, the customization must be used in the customize.yaml.\n\nFirst of all, you have to add the integration line in the configuration.yaml click there and you will find all the information about the configuration of the file.\n\nTo keep things simple, you have to add this line:\n\nhomeassistant:\n  customize: !include customize.yaml\n\n\nOnce done go to:\n\nConfiguration &gt;&gt; Personalization &gt;&gt; Choose an entity\n\nModify or create by adding a device_class In general it exists, and there you have a panel of choices (garage door, window, movement …), select in 1 and don’t forget no save.\n\nView this beautiful animated GIF that takes it all right.\n\n Modification of an icon of a binary sensor in home assistant thanks to the customization of device_class entities Finally, we can say that home assistant has once again thought of everything.\n",
     "datePublished": "2021-09-15 07:00:00 +0000",
     "dateModified": "2021-09-15 07:00:00 +0000",
-    "inLanguage": "en_GB",
+    "inLanguage": "en-GB",
     "author": {
       "@type": "Person","name": "Nico",
       "alternateName": "Nico",
@@ -71,7 +71,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664176031175915367" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664181707715296592" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
