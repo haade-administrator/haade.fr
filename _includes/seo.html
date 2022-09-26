@@ -60,7 +60,7 @@
 <link rel="next" href="{{ paginator.next_page_path | absolute_url }}">
 {%- endif %}
 {%- include localizations.html %}
-<meta property="og:locale" content="{{ site.locale | default: "fr_FR" }}">
+<meta property="og:locale" content="{{ site.locale | default: "fr_FR" | replace: '_', '-' }}">
 <meta property="og:type" content="{{ og_type }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">{%- if seo_description %}
 <meta property="og:description" content="{{ seo_description }}">
@@ -167,18 +167,20 @@
   "url": "{{ site.url }}{{ page.url }}",
   "name": {{ page.title | jsonify }},
   "description": {{ translate.site.description[page.locale] | strip_newlines | strip | jsonify }},
-  "inLanguage": "{{ page.locale | replace "_", "-" }}",
+  "inLanguage": "{{ page.locale | replace: "_", "-" }}",
   "publisher": {
     "@type": "Organization",
-    #@id": "{{ site.url | append: site.baseurl | absolute_url }}/#organization",
+    "@id": "{{ site.url | append: site.baseurl | absolute_url }}/#organization",
     "name": {{ site.title | jsonify }},
     "url": "{{ site.url | append: site.baseurl | absolute_url }}",
-    "sameAs": "https://discord.gg/{{ site.social.discord }}",
-    "sameAs": "https://www.youtube.com/channel/{{ site.social.youtube }}",
+    "sameAs": [
+    "https://discord.gg/{{ site.social.discord }}",
+    "https://www.youtube.com/channel/{{ site.social.youtube }}"
+    ],
     "logo": {
       "@type": "ImageObject",
       "@id": "{{ site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
-      "inLanguage": "{{ page.locale | replace "_", "-" }}",
+      "inLanguage": "{{ page.locale | replace: "_", "-" }}",
       "url": "{{ site.logo.path | absolute_url }}",
       "width": "300",
       "height": "76",
@@ -188,7 +190,7 @@
       "@type": "ImageObject",
       "@id": "{{ site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
       "url": "{{ page.image | default: site.logo.path | absolute_url }}",
-      "inLanguage": "{{ page.locale | replace "_", "-" }}",
+      "inLanguage": "{{ page.locale | replace: "_", "-" }}",
       "width": "{{ page.image_width | default: site.logo.width }}",
       "height": "{{ page.image_height | default: site.logo.height }}",
       "caption": {{ site.title | jsonify }}
