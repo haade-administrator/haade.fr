@@ -28,5 +28,5 @@
             {%- when '10' %}octobre
             {%- when '11' %}novembre
             {%- when '12' %}décembre
-    {%- endcase %}
+    {% endcase %}
 {%- endif %} {{ include.date | date: "%Y" }}

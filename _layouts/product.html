@@ -10,7 +10,7 @@ layout: default
 
 <div class="shop-single" itemtype="https://schema.org/Product" itemscope>
 
-{%- include aliexcrap.html %}
+  {%- include aliexcrap.html %}
 
   {%- for scraper_hash in localscrapers %}
   {%- assign scrap = scraper_hash[1] %}
@@ -18,40 +18,40 @@ layout: default
   {%- if scraper.productId == page.item %}
 
   <div class="shop-pictures">
-{%- assign images = scraper.images %}
-<!-- Featured Image -->
-{%- if images[1] contains "://" %}
-{%- include imagegallery.html %}
-{%- else %}
-{%- include featured-image.html %}
-{%- endif %}
-{%- include aliexreseller.html %}
-</div>
-<div class="shop-article">
-{%- assign scraptitle = scraper.title | strip_html %}
-{%- if page.title != nil %}
-<h1 class="posttitle" itemprop="name">{{ page.title }}</h1>
-{%- else %}
-<h1 class="posttitle" itemprop="name">{{ scraptitle | truncatewords: 9 }}</h1>
-{%- endif %}
-{%- include aliexstar.html %}
+    {%- assign images = scraper.images %}
+    <!-- Featured Image -->
+    {%- if images[1] contains "://" %}
+    {%- include imagegallery.html %}
+    {%- else %}
+    {%- include featured-image.html %}
+    {%- endif %}
+    {%- include aliexreseller.html %}
+  </div>
+  <div class="shop-article">
+    {%- assign scraptitle = scraper.title | strip_html %}
+    {%- if page.title != nil %}
+    <h1 class="posttitle" itemprop="name">{{ page.title }}</h1>
+    {%- else %}
+    <h1 class="posttitle" itemprop="name">{{ scraptitle | truncatewords: 9 }}</h1>
+    {%- endif %}
+    {%- include aliexstar.html %}
 
-{%- include buttonshop.html %}
+    {%- include buttonshop.html %}
 
-<!-- Content -->
-{%- assign scrapdescription = scraper.description | strip_html %}
-<meta itemprop="description" content="{{ scrapdescription }}" />
+    <!-- Content -->
+    {%- assign scrapdescription = scraper.description | strip_html %}
+    <meta itemprop="description" content="{{ scrapdescription }}" />
 
-{%- include article.html %}
+    {%- include article.html %}
 
-{%- include buttonshop.html %}
+    {%- include buttonshop.html %}
 
-</div>
-<!-- Comments if not disabled with comments: false -->
-{%- include aliexfeed.html %}
+  </div>
+  <!-- Comments if not disabled with comments: false -->
+  {%- include aliexfeed.html %}
 
-{%- endif %}
-{%- endfor %}
+  {%- endif %}
+  {%- endfor %}
 
-{%- include comments.html %}
+  {%- include comments.html %}
 </div>

@@ -1,27 +1,23 @@
 <div class="feedbackscraper">
   {%- assign feedbacks = scraper.feedback %}
   {%- for vote in feedbacks %}
-  {%- for value in vote.info %}
-{%- if value[1] contains page.declination %}
-<ul>
-  <li>{{ vote.displayName }}</li>
-  <li>Number of Stars: {{ vote.rating }}</li>
-  <li>{{ value[1] }}</li>
-  <li>{%- include date.html date=vote.date %}</li>
-  {%- if vote.content != '' %}
-  <li>{{ vote.content | strip_html }}</li>
-  {%- endif %}
-</ul>
-{%- else %}
-<ul>
-  <li>{{ vote.displayName }}</li>
-  <li>Number of Global Stars: {{ vote.rating }}</li>
-  <li>{%- include date.html date=vote.date %}</li>
-  {%- if vote.content != '' %}
-  <li>{{ vote.content | strip_html }}</li>
-  {%- endif %}
-</ul>
-{%- endif %}
+  <ul>
+    <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
+      <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
+      <li itemprop="name" />{{ vote.displayName }}</li>
+      </div>
+    <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
+      <li>Number of Stars:<meta itemprop="ratingValue" />{{ vote.rating }}</li>
+      <meta itemprop="bestRating" content="{{ beststar }}" />
+    </div>
+    </div>
+    {%- for value in vote.info %}
+    <li>{{ value[1] }}</li>
+    {%- endfor %}
+    <li>{%- include date.html date=vote.date %}</li>
+    {%- if vote.content != '' %}
+    <li>{{ vote.content | strip_html }}</li>
+    {%- endif %}
+  </ul>
   {%- endfor %}
-{%- endfor %}
 </div>
