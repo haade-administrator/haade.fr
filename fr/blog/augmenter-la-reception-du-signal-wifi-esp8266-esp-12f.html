@@ -16,7 +16,7 @@ layout: compress
 <link rel="canonical" href="https://haade-administrator.github.io/haade.fr/fr/blog/augmenter-la-reception-du-signal-wifi-esp8266-esp-12f">
   <link rel="alternate" hreflang="fr-FR" href="https://haade-administrator.github.io/haade.fr/fr/blog/augmenter-la-reception-du-signal-wifi-esp8266-esp-12f"/>
 
-<meta property="og:locale" content="fr_FR">
+<meta property="og:locale" content="fr-FR">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Augmenter le signal wifi sur esp8266 esp-12f esp-12s">
 <meta property="og:description" content="Amélioration du signal wifi d’un module esp8266/esp12 en soudant facilement une antenne externe">
@@ -37,7 +37,7 @@ layout: compress
     "articleBody": "Voilà un article qui n’est autre que la continuité d’un article que j’ai rédigé il y a peut de temps Domotiser sa porte de garage pour 5€. Il faut maintenant augmenter la réception du signal wifi sur l’ESP8266. En effet les carte ESP8266 esp-12f/12s sont équipées d’une antenne interne peut performante. De plus les moteurs de portes de garages sont bien souvent éloignés de notre réseau wifi. Et pour rien arranger les box du marché ont très souvent des antennes internes, qui sont faut l’avouer de mauvaises émissivités.\n\nAntenne acheté sur aliexpress avec un gain de 6dbm et fil ipex\n\n\n\nPréparation fil ipex avant soudure antenne wifi gain 6dbm sur esp8266 En installant le module chez tonton qui, si vous nous suivez, se trouve être le second rédacteur du site et le responsable de la chaine youtube. Nous nous sommes rendu compte que le module esp8266 7-30v équipé d’un esp-12f/12s n’arrivait pas rester sur le réseau wifi -90dbm environ. Alors j’ai un petit peut fouillé sur le net ça c’est pas bien difficile et j’ai trouvé un article en anglais sur une telle soudure.\n\nDe ce pas j’ai commandé un lot de deux antennes wifi sur aliexpress et dès réception je me suis attelé à la tâche.\n\nPremièrement j’ai mesuré sur plusieurs heures à un point donné la puissance wifi avec l’antenne de base. Une mesure établi toutes les 20 secondes. Tu peux voir un débit moyen de -68dbm.\n\n\n\nEnsuite j’ai sectionné les deux broches de sorties de l’antenne grâce à un cutter. Pas bien difficile, la section du cuivre se fait facilement.\n\n\n\nPassons à la Soudure du fil Ipex afin d’augmenter la réception du signal wifi sur esp8266-12f/12s\n\nFacile à réaliser avec un fer à souder traditionnel. Il ne reste plus qu’à augmenter la portée du signal wifi esp8266. Ci dessous la nomenclature.\n\n\n  Celle numérotée 1 est la sortie wifi principale point positif entouré d’un fil nylon\n  Celle de droite numéro 2 est le Ground ( filaments entourant le fil conducteur principal de l’antenne ).\n\n\n\n\nAprès vient les soudures. Attention à ce que 1 ne touche pas 2 car sinon il va y avoir des pertes. D’ailleurs facilement testable avec un multimètre.\n\nTestons à présent avec l’antenne en place en gardant le module dans les mêmes conditions que précédemment. Et là on aperçoit bien sur la photo le changement de dbm. Je pensais gagner 10-15dbm mais je suis à 20dbm de mieux donc à ne pas hésiter à réaliser cette soudure. Une fois installé chez tonton nous sommes passé de -90dbm à -70dbm et le wifi reste fixé donc c’est jackpot.\n\n\n\nCapture d’écran animé esphome gain wifi suite à soudure antenne sur esp8266 Pour info une bonne distance se situe entre -60 et -50dbm\n\nN’hésite pas à tester le tuto, il fonctionne à coup sûre. Sur toutes les cartes utilisant la puce esp8266-12f/12s. Comme le yunshan 7-30v, la célèbre carte de développement wemos d1 mini et wemos d1 v3.0. La version pro est équipée d’une sortie IPEX pour antenne externe.\n",
     "datePublished": "2021-06-07 08:06:15 +0000",
     "dateModified": "2021-06-07 08:06:15 +0000",
-    "inLanguage": "fr_FR",
+    "inLanguage": "fr-FR",
     "author": {
       "@type": "Person","name": "Nico",
       "alternateName": "Nico",
@@ -70,7 +70,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664166749946016728" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664175941601620138" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
