@@ -2,6 +2,3 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://haade-administrator.github.io/haade.fr/sitemap.xml
-Sitemap: https://haade-administrator.github.io/haade.fr/fr/sitemap.xml
-Sitemap: https://haade-administrator.github.io/haade.fr/en/sitemap.xml
