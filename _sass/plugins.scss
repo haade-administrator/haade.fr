@@ -236,7 +236,7 @@ flex-direction: column;
      a{
       align-items: center;
       background-clip: padding-box;
-      background-color: #ff6600;
+      background-color: $lightblue;
       border: 1px solid transparent;
       border-radius: .25rem;
       color: #fff;
@@ -263,7 +263,7 @@ flex-direction: column;
 
      :hover,
      :focus {
-      background-color: #fb8332;
+      background-color: #4ad5f8;
       box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     }
 
@@ -272,7 +272,7 @@ flex-direction: column;
     }
 
      :active {
-      background-color: #c85000;
+      background-color: #1e96b4;
       box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
       transform: translateY(0);
     }
