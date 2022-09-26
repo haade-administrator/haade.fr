@@ -40,8 +40,10 @@
 {%- assign site_og_image = site.logo.path | absolute_url -%}
 {%- assign site_og_image = site_og_image | escape -%}
 
-{%- if page.date -%}
+{%- if page.layout == 'post' -%}
   {%- assign og_type = "article" -%}
+{%- elsif page.layout == 'product' -%}
+  {%- assign og_type = "product" -%}
 {%- else -%}
   {%- assign og_type = "website" -%}
 {%- endif -%}
