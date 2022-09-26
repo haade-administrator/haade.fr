@@ -120,7 +120,7 @@
     "articleBody": {{ page.content | strip_html | jsonify }},
     "datePublished": {{ page.date | jsonify }},
     "dateModified": {{ page.last_modified_at | default: page.date | jsonify }},
-    "inLanguage": "{{ page.locale | replace "_", "-" }}",
+    "inLanguage": "{{ page.locale | replace: "_", "-" }}",
     "author": {
       "@type": "Person",
       {%- assign author = page.author -%}
