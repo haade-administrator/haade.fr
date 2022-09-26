@@ -20,7 +20,7 @@ layout: default
   <div class="shop-pictures">
 {%- assign images = scraper.images %}
 <!-- Featured Image -->
-{%- include featured-image.html %}
+{%- include imagegallery.html %}
 
 {%- include aliexreseller.html %}
 </div>
@@ -37,6 +37,7 @@ layout: default
 
 <!-- Content -->
 {%- assign scrapdescription = scraper.description | strip_html %}
+<p itemprop="description">{{ page.description }}</p>
 
 {%- include article.html %}
 

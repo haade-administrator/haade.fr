@@ -15,7 +15,7 @@
     {{ include.date | date: "%B" }}
 {%- else %}
     {%- assign m = include.date | date: "%-m" %}
-    {%- case m %}
+    {% case m %}
             {%- when  '1' %}janvier
             {%- when  '2' %}février
             {%- when  '3' %}mars
