@@ -4,12 +4,12 @@
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-      <li itemprop="name" />{{ vote.displayName }}</li>
+        <li itemprop="name">{{ vote.displayName }}</li>
       </div>
-    <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
-      <li>Number of Stars:<meta itemprop="ratingValue" />{{ vote.rating }}</li>
-      <meta itemprop="bestRating" content="{{ beststar }}" />
-    </div>
+      <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
+        <li itemprop="ratingValue">{{ vote.rating }}</li>
+        <meta itemprop="bestRating" content="{{ beststar }}" />
+      </div>
     </div>
     {%- for value in vote.info %}
     <li>{{ value[1] }}</li>
