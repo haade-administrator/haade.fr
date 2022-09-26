@@ -1,10 +1,22 @@
 {%- assign rating = scraper.ratings %}
 {%- assign star = rating.averageStar %}
-{%- assign price = scraper.salePrice.min %}
+{%- assign totalstar = rating.totalStartCount %}
+{%- assign minprice = scraper.salePrice.min %}
+{%- assign maxprice = scraper.salePrice.max %}
 
 {%- assign originalprice = scraper.originalPrice.min %}
 {%- assign currency = scraper.currency %}
 {%- assign quantity = scraper.totalAvailableQuantity %}
+<div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
+  <meta itemprop="lowPrice" content="{{ minprice }}" />
+  <meta itemprop="highPrice" content="{{ maxprice }}" />
+  <meta itemprop="offerCount" content="{{ quantity }}" />
+  <meta itemprop="priceCurrency" content="{{ currency }}" />
+</div>
+<div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
+  <meta itemprop="reviewCount" content="{{ totalstar }}" />
+  <meta itemprop="ratingValue" content="{{ star }}" />
+</div>
 
 <!-- Rating -->
 <div class="mt-4 mb-4 d-flex align-items-center">
@@ -13,7 +25,7 @@
     <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {%- include date.html date=site.time %}</div>
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong>{%- include star_rating.html %}<div class="totalrating">({{ rating.totalStartCount }} {{ translate.product.reviews[page.locale] }})</div></div>
   {%- endif %}
-    <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ price }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
+    <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ minprice }} {{ currency }} <div class="originalprice">{{ originalprice }}</div></div>
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.quantity[page.locale] }}:</strong> {{ quantity }}</div>
   </div>
 </div>
