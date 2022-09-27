@@ -20,3 +20,4 @@ bundle install
 [featured post](https://talk.jekyllrb.com/t/featured-post-or-popular-post/5157/2)
 11. regarder fonctionnement scraping website avec scrapy, beautifulsoup, puppeteer ou cheerio (https://www.twilio.com/blog/4-outils-web-scraping-node-js)
 12. carte produit  [https://designrshub.com/2020/08/free-product-card-css.html]
+13. [carte produit avec scene](https://codepen.io/cannap/pen/WxJogO)

@@ -1,6 +1,7 @@
 ---
 guid: 2128
 layout: product
+brand: Sonoff
 title: "Clé zigbee 3.0 Sonoff zbridge Dongle-E"
 date: "2022-09-23"
 description: "Dongle Sonoff compatible zigbee2mqtt et homeassistant à base de puce cc2652"

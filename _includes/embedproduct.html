@@ -1,0 +1,45 @@
+{%- assign translate = site.data.locales.translate %}
+
+
+{% assign products = site.posts | where:'guid', include.guid | where:'locale', page.locale | where: 'published', true | where: 'layout', 'product' %}
+{% if include.guid %}
+{% for product in products %}
+<div class="embedproduct">
+    <div class="embedproduct-picture"><img
+            src="{{ site.baseurl }}/assets/images/shop/{{ include.guid }}/{{ product.image }}">
+    </div>
+    <div class="text">
+        <div class="embedproduct-info">
+            <h2>{{ product.title }}</h2>
+            <h3>{{ translate.by[page.locale] }} {{ product.brand }}</h3>
+            <p>{{ product.description }}</p>
+        </div>
+        <div class="embedproduct-price">
+            {% if product contains currency %}
+            <p><span>{{ product.price }}</span>{{ product.currency }}</p>
+            {% endif %}
+            <div class="embedbutton" role="button"><a href="{{ product.url | relative_url }}">{{ translate.product.buttonbuy[page.locale] }}</a></div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<div class="embedproduct">
+    <div class="embedproduct-picture"><img
+            src="{{ include.image }}">
+    </div>
+    <div class="text">
+        <div class="embedproduct-info">
+            <h2>{{ include.title }}</h2>
+            <h3>{{ translate.by[page.locale] }} {{ include.brand }}</h3>
+            <p>{{ include.description }}</p>
+        </div>
+        <div class="embedproduct-price">
+            {% if product contains currency %}
+            <p><span>{{ include.price}}</span>{{ include.currency }}</p>
+            {% endif %}
+            <div class="embedbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ include.affiliate }}" target="_blank" rel="nofollow noopener">{{ translate.product.buttonbuy[page.locale] }}</a></div>
+        </div>
+    </div>
+</div>
+{% endif %}

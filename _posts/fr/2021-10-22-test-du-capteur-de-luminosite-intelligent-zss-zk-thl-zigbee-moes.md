@@ -27,7 +27,7 @@ J'ai décidé de tester ce capteur de luminosité intelligent pour apporter une 
 
 La marque **Moes** offrant des produits de qualité/prix (~15euros) correcte mais fonctionnel en a fait un atout pour le choix de celui-ci.
 
-
+{% include embedproduct.html image="https://ae01.alicdn.com/kf/S4cd0f01cbf634844b8b946d91fd86ed7l/Thermom-tre-intelligent-Moes-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg_.webp" title="Thermomètre intelligent Moes ZigBee" brand="Moes" description="Le thermomètre intelligent de luminosité détecte les changements de la lumière ambiante, de la température et de l'humidité en temps réel; Signalez activement à l'utilisateur par l'application smart Life comme protocole Bluetooth intégré." affiliate="_DlVHhaB" %}
 
 ## **Contenu de la boîte :**
 
@@ -61,3 +61,5 @@ Rien de plus simple en 2 étapes comme la plupart de ce genre de gadget
 ## Conclusion
 
 Une fois de plus Moes innove en proposant un affichage a faible consommation, la qualité des matériaux reste en dessous de ce que sait faire la marque Moes, le fait de ne pouvoir alterner les éléments affichés n'est pas ce qu'il a de plus WAF. Si tu cherches un produit qui t'affiches la luminosité en priorité et qui n'est pas gourmand en pile alors fonce ! car ce capteur Moes 3 en 1 s'intègre facilement dans home-assistant.
+
+{% include embedproduct.html image="https://ae01.alicdn.com/kf/S4cd0f01cbf634844b8b946d91fd86ed7l/Thermom-tre-intelligent-Moes-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg_.webp" title="Thermomètre intelligent Moes ZigBee" brand="Moes" description="Le thermomètre intelligent de luminosité détecte les changements de la lumière ambiante, de la température et de l'humidité en temps réel; Signalez activement à l'utilisateur par l'application smart Life comme protocole Bluetooth intégré." affiliate="_DlVHhaB" %}
