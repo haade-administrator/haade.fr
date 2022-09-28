@@ -2,6 +2,9 @@ $white: #fff;
 $purple: #1B1C37;
 $lightblue: #2AD2FD;
 
+$red: #FA4647;
+$light-bg: #fefefe;
+
 
 /* style for 404 error */
 
@@ -236,7 +239,7 @@ $lightblue: #2AD2FD;
   }
 }
 
-/* embedproduct */
+/* product-embed.html */
 .embedproduct {
   border: 1px solid #ccc;
   display: flex;
@@ -327,28 +330,29 @@ $lightblue: #2AD2FD;
           vertical-align: baseline;
           width: auto;
         }
-          :hover,
-          :focus {
-            background-color: #4ad5f8;
-            box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-          }
 
-          :hover {
-            transform: translateY(-1px);
-            color: $purple;
-          }
-
-          :active {
-            background-color: #1e96b4;
-            box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
-            transform: translateY(0);
-          }
-
+        :hover,
+        :focus {
+          background-color: #4ad5f8;
+          box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
         }
+
+        :hover {
+          transform: translateY(-1px);
+          color: $purple;
+        }
+
+        :active {
+          background-color: #1e96b4;
+          box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+          transform: translateY(0);
+        }
+
       }
     }
-
   }
+
+}
 
 
 @media (max-width: 670px) {
@@ -369,6 +373,164 @@ $lightblue: #2AD2FD;
 
   .embedproduct-price {
     justify-content: center;
+  }
+}
+
+/* product-scene.html */
+
+.scene-right {
+  max-width: 100%;
+  text-align: center;
+  align-items: flex-end;
+  display: flex;
+  justify-content: center;
+}
+
+.scene {
+  // padding: 2px 2px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.22), 0px 5px 10px 0 rgba(0, 0, 0, 0.2);
+  background: $light-bg;
+  width: auto;
+  height: 100%;
+  border-radius: 0px;
+  margin-bottom: 30px;
+  display: flex;
+
+  .scene-image {
+    display: inline-block;
+    position: relative;
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+  }
+
+  .image-point {
+    position: absolute;
+
+    .point {
+      &:before {
+        transform: translate(-50%, -50%) rotate(45deg);
+      }
+    }
+
+    .point {
+      position: relative;
+      // display: inline-block;
+      cursor: pointer;
+      height: 28px;
+      width: 28px;
+      background: $lightblue;
+      border-radius: 100%;
+      // animation-fill-mode: forwards;
+      animation-name: pulseOut;
+      animation-duration: .5s;
+      animation-iteration-count: 1;
+
+      &:hover {
+        animation-fill-mode: forwards;
+        animation-name: pulseIn;
+        animation-duration: .5s;
+        animation-iteration-count: 1;
+      }
+
+      &:before {
+        transition: all 0.5s;
+        color: $white;
+        content: "+";
+        font-size: 24px;
+        font-weight: bold;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        display: inline;
+        left: 50%;
+        transform-origin: 50% 50%;
+      }
+    }
+  }
+}
+
+//Pointer
+.point-content {
+  display: none;
+  transition: all 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  max-width: 400px;
+  min-height: 200px;
+  background: white;
+  display: flex;
+  box-shadow: 0 40px 70px 0 rgba(0, 0, 0, 0.22), 0px 27px 24px 0 rgba(0, 0, 0, 0.2);
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  &.active {
+    top: 20px;
+    visibility: visible;
+    opacity: 1;
+    z-index: 99;
+  }
+
+  .point-details {
+    padding: 15px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .point-image {
+    padding: 10px 0;
+    width: 500px;
+  }
+}
+
+//Button
+.buttonscene {
+  display: inline-block;
+  background: $lightblue;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.5s;
+  bottom: 10;
+  text-transform: uppercase;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 40px 70px 0 rgba(0, 0, 0, 0.22),0px 27px 24px 0 rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 25px 35px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+@keyframes pulseIn {
+  from {
+
+    box-shadow: transparent 0 0 0 0;
+  }
+
+  to {
+    box-shadow: //0 0 0 5px rgba(108, 99, 255,.40),
+      0 0 0 5px rgba(4, 107, 248, .30), 0 0 0 10px rgba(4, 107, 248, .20), 0 0 0 15px rgba(4, 107, 248, .10);
+  }
+}
+
+@keyframes pulseOut {
+  from {
+    box-shadow: //0 0 0 5px rgba(108, 99, 255,.40),
+      0 0 0 5px rgba(4, 107, 248, .30), 0 0 0 10px rgba(4, 107, 248, .20), 0 0 0 15px rgba(4, 107, 248, .10);
+  }
+
+  to {
+    box-shadow: transparent 0 0 0 0;
   }
 }
 
@@ -450,7 +612,7 @@ $lightblue: #2AD2FD;
     content: '★★★★★';
     letter-spacing: 3px;
     background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 }
@@ -1057,8 +1219,6 @@ a {
     list-style: none;
   }
 
-  li span {}
-
   .arianefil {
     font-size: 12px;
   }
@@ -1388,10 +1548,6 @@ nav .navbar .links li {
     .more-arrow {
       line-height: 40px;
     }
-  }
-
-  .htmlCss-more-sub-menu {
-    /* line-height: 40px; */
   }
 
   .sub-menu .more-sub-menu {

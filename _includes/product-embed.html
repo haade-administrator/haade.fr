@@ -1,8 +1,6 @@
 {%- assign translate = site.data.locales.translate %}
-
-
 {%- assign products = site.posts | where:'guid', include.guid | where:'locale', page.locale | where: 'published', true | where: 'layout', 'product' %}
-{%- if include.guid != 'null' %}
+{%- if include.guid %}
 {%- for product in products %}
 <div class="embedproduct">
     <div class="embedproduct-picture"><img

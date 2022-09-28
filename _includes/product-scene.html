@@ -1,0 +1,83 @@
+<div class="scene" domflag>
+    <div class="scene-right">
+        <div class="scene-image">
+            <!-- 1. POINT -->
+            <div class="image-point" style="top:140px; left:130px;">
+                <div class="point"></div>
+                <div class="point-content">
+                    <div class="close">
+                        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </div>
+                    <div class="point-image">
+                        <img src="https://res.cloudinary.com/dw8swjfpf/image/upload/v1469389227/cap_haespo.png" alt="">
+                    </div>
+                    <div class="point-details">
+                        <h3 class="no_toc">Hoddy</h3>
+                        <p>
+                            Design is all about fucking relationships—the relationship of form and content, the
+                            relationship of elements, the relationship of designer and user.
+                        </p>
+                        <a class="btn btn-blue buttonscene">i want this</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /1 .POINT -->
+            <!-- 2. POINT -->
+            <div class="image-point" style="bottom:150px; left:15px;">
+                <div class="point"></div>
+                <div class="point-content">
+                    <div class="close">
+                        <svg fill="#000000" height="24" viewBox="0 0 24 24" width="24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                            <path d="M0 0h24v24H0z" fill="none" />
+                        </svg>
+                    </div>
+                    <div class="point-image">
+                        <img src="https://res.cloudinary.com/dw8swjfpf/image/upload/v1469389227/cap_haespo.png" alt="">
+                    </div>
+                    <div class="point-details">
+                        <h3 class="no_toc">Hoddy</h3>
+                        <p>
+                            Design is all about fucking relationships—the relationship of form and content, the
+                            relationship of elements, the relationship of designer and user.
+                        </p>
+                        <a class="btn btn-blue buttonscene">i want this</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /2 .POINT -->
+
+            <img src="{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ include.image }}" alt="">
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+  //Just for Demo never use jquery like this
+
+  $('.point-content .close').on('click', function(e) {
+
+    $(this).parent().removeClass('active');
+
+  })
+
+  $('.point').on('click', function(e) {
+    e.stopPropagation();
+
+    $(this).next().addClass('active');
+
+    	$('.image-point').removeClass('active');
+    	$(this).parent().addClass('active');
+    	$('.scene').addClass('open');
+  })
+
+})
+</script>

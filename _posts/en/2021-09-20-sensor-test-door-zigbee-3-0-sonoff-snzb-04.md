@@ -17,7 +17,7 @@ locale: en_GB
 ---
 That's after the [presentation of the temperature sensor SNZB-02](https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/), I will detail quickly [the sonoff opening sensor SNZB-04](https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/), the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM
 
-{%- include embedproduct.html guid="2123" %}
+{% include product-embed.html guid="2123" %}
 
 ## Unpacking, still nothing crazy
 
@@ -87,4 +87,4 @@ Sensor: 47 x 27 x 13.5mm
 
 If you don't care about design, if you want to save money or if you have a lot of modules to buy, then [the sonoff opening sensor SNZB-04](https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/) otherwise if the mesh of the network does not scare you **then switch to Xiaomi**, otherwise [the new one Xiaomi MCCGQ12LM rectangular aperture sensor is Zigbee 3.0 compatibility](https://www.haade.fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/)
 
-{%- include embedproduct.html guid="2123" %}
+{% include product-embed.html guid="2123" %}
