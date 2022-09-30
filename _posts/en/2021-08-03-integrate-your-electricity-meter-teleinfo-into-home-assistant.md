@@ -8,7 +8,7 @@ date: "2021-08-03"
 last_modified_at:
 categories: [Home-Assistant, Haade-lab]
 tags: []
-image: compteur-electrique-homeassistant
+image: compteur-electrique-homeassistant.png
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

@@ -18,7 +18,7 @@ locale: fr_FR
 toc: false
 beforetoc:
 comments: true
-image: changer-icone-element-binaire-home-assistant
+image: changer-icone-element-binaire-home-assistant.png
 ---
 
 Voilà dans la série **des tout petits tutos**. Je vais décrire rapidement comment changer un icône d’un **capteur binaire** grâce à la device\_class, par la personnalisation dans home assistant.

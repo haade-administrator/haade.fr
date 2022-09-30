@@ -6,7 +6,7 @@ author: Nico
 date: "2021-09-25"
 last_modified_at:
 categories: Security Haade-lab
-image: "zoneminder_homeassistant-1"
+image: "zoneminder_homeassistant-1.png"
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

@@ -1,7 +1,7 @@
   Nico:
     name: Nico
     display_name: Nico
-    avatar: 'assets/images/nico.webp'
+    avatar: 'nico.jpg'
     # gravatar: '66178447db0764d08b4bd975c515fa5d'
     email: nico@haade.fr
     web: https://www.haade.fr
@@ -16,7 +16,7 @@
   Yann:
     name: Yann
     display_name: Yann
-    avatar: 'assets/images/yann.webp'
+    avatar: 'yann.jpg'
     email: tonton@haade.fr
     web: https://www.haade.fr
     url: https://haade-administrator.github.io/haade.fr/author-yann
@@ -30,7 +30,7 @@
   Math67:
     name: Math67
     display_name: Math67
-    avatar: 'assets/images/math67.webp'
+    avatar: 'math67.png'
     email: fogel.mathieu@gmail.com
     web: []
     url: https://haade-administrator.github.io/haade.fr/author-math67

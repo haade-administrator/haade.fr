@@ -4,10 +4,10 @@
 <div class="authorbox mb-5 mt-5 pt-4 pb-4" itemscope itemtype="https://schema.org/Person">
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
-            {%- if author.gravatar %}
-            <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=70&d=mm&r=x" alt="{{ author.display_name }}" itemprop="image">
+            {%- if author.avatar %}
+            {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img class="author-thumb" itemprop="image" %}
             {%- else %}
-            <img  class="author-thumb" src="{{ site.baseurl }}/{{ author.avatar }}" width="70" height="70" alt="{{ author.display_name }}" itemprop="image">
+            <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=70&d=mm&r=x" alt="{{ author.display_name }}" itemprop="image">
             {%- endif %}
             <p class="mt-4 mb-0 small text-center">
               {%- if author.url %}

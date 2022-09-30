@@ -6,7 +6,7 @@ last_modified_at:
 author: Nico
 categories: Domotique Haade-lab Home-Assistant
 layout: post
-image: esphome-logo-haade-homeassistant
+image: esphome-logo-haade-homeassistant.png
 tags:
 description: "Découverte d'esphome dans homeassistant"
 locale: fr_FR

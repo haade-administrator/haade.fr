@@ -1,3 +1,33 @@
+# firstheader and footer social network
+share:
+  twitter:
+    fr_FR:
+      name: 'Partage cette page sur Twitter'
+
+    en_GB:
+      name: 'Share this page on Twitter'
+
+  facebook:
+    fr_FR:
+      name: 'Partage cette page sur Facebook'
+    
+    en_GB:
+      name: 'Share this page on Facebook'
+  
+  youtube:
+    fr_FR:
+      name: 'Abonne toi à notre chaine youtube'
+    
+    en_GB:
+      name: 'Subscribe to our youtube channel'
+  
+  discord:
+    fr_FR:
+      name: 'Invitation sur notre réseau Discord'
+
+    en_GB:
+      name: 'Invitation to our Discord network'
+
 # megamenu
 
 home:

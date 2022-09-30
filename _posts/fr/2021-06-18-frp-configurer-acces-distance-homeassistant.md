@@ -17,7 +17,7 @@ sitemap:
   lastmod: # date to end modification
 beforetoc:
 toc: true
-image: addons-frp-fatdier-haade-remote-access-reverse-proxy
+image: addons-frp-fatdier-haade-remote-access-reverse-proxy.png
 comments: true
 ---
 

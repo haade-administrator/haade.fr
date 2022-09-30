@@ -8,7 +8,7 @@ description: "création d'une entité automatisation dans home assistant et love
 tags: entité Home-Assistant lovelace
 categories: Domotique Haade-lab Home-Assistant
 layout: post
-image: miniature
+image: miniature.jpg
 locale: fr_FR
 published: true
 sitemap:

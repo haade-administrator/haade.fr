@@ -6,7 +6,7 @@ author: Nico
 date: "2021-09-20"
 last_modified_at:
 categories: Tests
-image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0"
+image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0.png"
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

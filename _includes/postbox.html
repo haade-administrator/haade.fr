@@ -6,19 +6,11 @@
             <a href="{{ site.baseurl }}{{ post.url }}">
               {%- if post.guid <= 999 %}
                 {%- if post.image %}
-                    {%- if site.lazyimages == "enabled" %}
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if post.image contains "://" %}{{ post.image }}{%- else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-368.webp{{ cachebuster }}{%- endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {%- else %}
-                        <img class="img-thumb" src="{%- if post.image contains "://" %}{{ post.image }}{%- else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-368.webp{{ cachebuster }}{%- endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {%- endif %}
+                {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} %}{%- endif %}
                 {%- endif %}
                 {%- elsif page.guid >= 2000 %}
                 {%- if post.image %}
-                    {%- if site.lazyimages == "enabled" %}
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if post.image contains "://" %}{{ post.image }}{%- else %}{{ site.baseurl }}/assets/images/shop/{{ post.guid }}/{{ post.image }}{{ cachebuster }}{%- endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {%- else %}
-                        <img class="img-thumb" src="{%- if post.image contains "://" %}{{ post.image }}{%- else %}{{ site.baseurl }}/assets/images/shop/{{ post.guid }}/{{ post.image }}{{ cachebuster }}{%- endif %}" width="368" height="207" alt="{{ post.title }}">
-                    {%- endif %}
+                        {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box shop/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} %}{%- endif %}
                 {%- endif %}
               {%- endif %}
             </a>
@@ -39,7 +31,7 @@
                 {%- if post.author %}
                 <span class="meta-footer-thumb">
                 {%- if author.avatar %}
-                <img class="author-thumb" src="{{site.baseurl}}/{{ author.avatar }}" width="40" height="40" alt="{{ author.display_name }}">
+                {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img class="author-thumb" %}
                 {%- else %}
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=40&d=mm&r=x" alt="{{ author.display_name }}">
                 {%- endif %}

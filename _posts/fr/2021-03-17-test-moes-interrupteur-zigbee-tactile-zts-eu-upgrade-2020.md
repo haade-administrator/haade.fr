@@ -7,7 +7,7 @@ last_modified_at:
 author: Nico
 categories: Tests
 layout: post
-image: inter-moes
+image: inter-moes.png
 tags:
 locale: fr_FR
 published: true

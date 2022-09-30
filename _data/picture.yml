@@ -1,10 +1,69 @@
 media_queries:
-  mobile: 'max-width: 600px'
+  mobile: 'max-width: 480px'
+  tablet: 'max-width: 768'
+  laptop: 'max-width: 1024px'
+  desktop: 'max-width: 1200'
+  wide: 'min-width: 1201'
 
 presets:
+
   default:
-    widths: [ 272, 368, 553, 820, 944 ]
+    markup: data_auto
+    widths: [ 300, 400, 820 ]
+    formats: [webp, original]
+    attributes:
+      parent: class="lazy"
+    dimension_attributes: true
+    fallback_width: 300
+
+  logo:
+    widths: [ 250 ]
     formats: [webp, original]
     sizes:
-      mobile: 80vw
-    size: 500px
+      mobile: 150px
+    size: 250px
+    fallback_width: 250
+    dimension_attributes: true
+
+  shop:
+    markup: data_auto
+    widths: [ 425 ]
+    formats: [webp, original]
+    sizes:
+      laptop: 350px
+    size: 425px
+    attributes:
+      parent: class="lazy"
+    fallback_width: 640
+
+  post:
+    markup: data_auto
+    widths: [ 944 ]
+    formats: [webp, original]
+    sizes:
+      laptop: 350px
+    size: 944px
+    attributes:
+      parent: class="lazy"
+    fallback_width: 944
+    dimension_attributes: true
+
+  box:
+    widths: [ 368 ]
+    formats: [webp, original]
+    sizes:
+      laptop: 350px
+    size: 368px
+    attributes:
+      img: 'class="img-thumb"'
+      parent: class="lazy"
+
+  avatar:
+    widths: [40, 50, 70]
+    formats: [webp, original]
+    fallback_width: 70
+
+  lazy:
+    markup: data_auto
+    link_source: true
+    noscript: true

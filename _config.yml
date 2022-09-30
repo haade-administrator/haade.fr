@@ -3,7 +3,7 @@ title: "Haade.fr"
 description: "Home Assistance Alsace domotique et électronique."
 name: "Haade"
 logo:
-  path: 'assets/images/logo.webp'
+  path: 'logo.png'
   width: 300
   height: 76
   alt: Logo officien Haade
@@ -164,7 +164,7 @@ pagination:
 ######################### end jekyll-paginate-v2 ###################################
 
 # Other
-highlighter: rouge
+highlighter: none
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
@@ -214,7 +214,7 @@ compress_html:
 # jekyll imagemagick
 
 imagemagick:
-  enabled: true
+  enabled: false
   widths:
     - 0
     - 272
@@ -236,12 +236,13 @@ imagemagick:
     webp: "-quality 85%"
 
 picture:
-  disabled: true
+  disabled: false
   source: "assets/images"
   output: "assets/images/generated"
   suppress_warnings: false
   relative_url: true
-  ignore_missing_images: false
+  ignore_missing_images: true
+  nomarkdown: false
 
 include:
   - node_modules

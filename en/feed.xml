@@ -28,7 +28,7 @@ sitemap:
     {%- for post in posts limit: 10 %}
     <item>
       <!-- <image>
-         <url>{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}-944.webp</url>
+         <url>{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}</url>
           <title>{{ site.title | xml_escape }}</title>
            <link>{{ site.url }}{{ site.baseurl }}</link>
             <width>944</width>

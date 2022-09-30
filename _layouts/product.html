@@ -20,11 +20,8 @@ layout: default
   <div class="shop-pictures">
     {%- assign images = scraper.images %}
     <!-- Featured Image -->
-    {%- if images[1] contains "://" %}
-    {%- include imagegallery.html %}
-    {%- else %}
     {%- include featured-image.html %}
-    {%- endif %}
+    
     {%- include aliexreseller.html %}
   </div>
   <div class="shop-article">

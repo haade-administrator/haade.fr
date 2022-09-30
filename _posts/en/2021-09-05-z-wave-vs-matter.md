@@ -6,7 +6,7 @@ author: Nico
 date: "2021-09-05"
 last_modified_at:
 categories: [News, Protocoles]
-image: "zwave-face-a-matter"
+image: "zwave-face-a-matter.jpg"
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

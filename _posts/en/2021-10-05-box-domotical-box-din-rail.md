@@ -6,7 +6,7 @@ last_modified_at:
 layout: post
 author: Nico
 categories: Tests Haade-lab Home-Assistant 
-image: box-domotique-rail-din-home-assistant
+image: box-domotique-rail-din-home-assistant.png
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

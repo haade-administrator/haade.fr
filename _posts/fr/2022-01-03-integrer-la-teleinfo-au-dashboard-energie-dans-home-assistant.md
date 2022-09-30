@@ -8,7 +8,7 @@ date: "2022-01-03T13:23:45+00:00"
 last_modified_at: "2022-01-03T13:23:47+00:00"
 categories: Domotique Haade-lab Home-Assistant
 tags: téléinformation
-image: integration-dashboard-energie-ha
+image: integration-dashboard-energie-ha.png
 toc: true
 beforetoc:
 published: true
@@ -51,7 +51,7 @@ Ces variables sont toutes documentées dans la doc de l'intégration, libre à v
 
 Voici le genre d'entité que vous obtiendrez après redémarrage de Home Assistant :
 
-![entité sensor.heures\_pleines]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/grille-heure-pleine-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/grille-heure-pleine.png --alt entité sensor.heures\_pleines %}
 
 Maintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard "Energie".
 
@@ -64,16 +64,16 @@ Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la con
 Ensuite dans "Réseau électrique", cliquez sur "Ajouter la consommation" et sélectionnez le sensor créé auparavant, dans notre cas : **sensor.heures\_pleines**.  
 Répétez l'opération pour le sensor heures creuses si nécessaire.  
 
-![Configuration du dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-heure-creuse-pleine-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/integration-heure-creuse-pleine.png --img --alt Configuration du dashboard Energie %}
 
 Configuration du dashboard Energie
 
 Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/)).
 
-![Ajout d'un compteur]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/ajout-compteur-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/ajout-compteur.png --alt Ajout d'un compteur %}
 
 Une fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.
 
-![Dashboard Energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-dashboard-energie-ha-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/integration-dashboard-energie-ha.png --alt Dashboard Energie %}
 
 L'article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.

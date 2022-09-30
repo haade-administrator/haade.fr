@@ -1,21 +1,21 @@
 {%- if page.guid <= 999 %}
 {%- if page.image %}
 <div class="entry-featured-image">
-    {%- if site.lazyimages == "enabled" %}
-    <img class="featured-image lazyimg {%- if page.imageshadow %} image-shadow {%- endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{%- endif %}" alt="{{ page.title }}">
+    {%- if page.imageshadow %}
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image image-shadow" itemprop="image" %}{%- endif %}
     {%- else %}
-    <img class="featured-image {%- if page.imageshadow %} image-shadow {%- endif %}" src="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{%- endif %}" alt="{{ page.title }}">
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image" itemprop="image" %}{%- endif %}
     {%- endif %}
 </div>
 {%- endif %}
 {%- elsif page.guid >= 2000 %}
 {%- if page.image %}
 <div class="entry-featured-image">
-    {%- if site.lazyimages == "enabled" %}
-    <img itemprop="image" class="featured-image lazyimg {%- if page.imageshadow %} image-shadow {%- endif %}" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{site.url}}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}{{ cachebuster }}{%- endif %}" href="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{site.url}}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}{{ cachebuster }}{%- endif %}" alt="{{ page.title }}">
-    {%- else %}
-    <img itemprop="image" class="featured-image {%- if page.imageshadow %} image-shadow {%- endif %}" src="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{%- endif %}" href="{%- if page.image contains "://" %}{{ page.image }}{%- else %}{{ site.baseurl }}/assets/images/shop/{{ page.guid }}/{{ page.image }}-944.webp{{ cachebuster }}{%- endif %}" alt="{{ page.title }}">
-    {%- endif %}
+{%- if page.imageshadow %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image image-shadow" itemprop="image" %}{%- endif %}
+{%- else %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image" itemprop="image" %}{%- endif %}
+{%- endif %}
 </div>
 {%- endif %}
 {%- endif %}

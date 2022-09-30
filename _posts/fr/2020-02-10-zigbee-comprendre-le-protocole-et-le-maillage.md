@@ -6,7 +6,7 @@ last_modified_at:
 author: Nico
 categories: Domotique Protocoles
 layout: post
-image: maillage-zigbee
+image: maillage-zigbee.png
 tags:
 description: "Zigbee comprendre le protocole et le maillage de ce standard"
 locale: fr_FR

@@ -6,7 +6,7 @@ last_modified_at:
 author: Nico
 categories: Domotique Haade-lab Jeedom
 layout: post
-image: installation-jeedom-docker-1
+image: installation-jeedom-docker-1.png
 tags:
 description: "OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker"
 locale: fr_FR

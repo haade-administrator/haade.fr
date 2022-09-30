@@ -7,7 +7,7 @@ description:
 categories: Boutique Marque Protocole Sonoff Zigbee
 locale: fr_FR
 ean:
-image: SONOFF-SNZB-02.webp
+image: SONOFF-SNZB-02.png
 imageshadow: true
 comments: false
 published: true

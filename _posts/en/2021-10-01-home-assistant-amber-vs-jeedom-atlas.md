@@ -8,7 +8,7 @@ layout: post
 author: Nico
 categories: Jeedom News Home-Assistant
 tags: []
-image: Jeedom-Atlas-vs-Homeassistant-Amber
+image: Jeedom-Atlas-vs-Homeassistant-Amber.png
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

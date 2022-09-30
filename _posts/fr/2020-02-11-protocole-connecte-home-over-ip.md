@@ -6,7 +6,7 @@ last_modified_at:
 author: Nico
 categories: Domotique Protocoles
 layout: post
-image: homeoverip
+image: homeoverip.png
 tags:
 description: "Actu du futur protocole HomeoverIP nommé Matter"
 locale: fr_FR

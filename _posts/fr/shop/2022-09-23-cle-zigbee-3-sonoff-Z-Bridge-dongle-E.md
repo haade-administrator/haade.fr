@@ -23,7 +23,7 @@ item-affiliate: "_DDG923N"
 SONOFF Zigbee 3.0 Dongle USB Plus est une clé USB Zigbee universelle. Elle peut être utilisé comme passerelle Zigbee dans l'assistant à domicile, openHAB, Zigbee2MQTT ou d'autres plateformes open source pour contrôler localement tous vos appareils Zigbee, ainsi, vous n'avez pas besoin d'investir dans les hub Zigbee de différentes marques, tout ce dont vous avez besoin est une passerelle universelle-Dongle Plus!
 
 - Pré-flashé avec le micrologiciel du coordonnateur Zigbee basé sur EZNet 6.10.3 hors boîte
-[Firmaware itead sonoff zbridge](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware)
+[Firmware itead sonoff zbridge](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware)
 - Basé sur EFR32MG21
 - + 20dBm gain de sortie
 - Le boîtier en aluminium réduit efficacement les interférences du signal des périphériques

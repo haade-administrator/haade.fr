@@ -6,7 +6,7 @@ last_modified_at: ''
 author: Nico
 categories: [ Automation, Home-Assistant, Haade-lab ]
 layout: post
-image: domotiser-porte-garage-5-euros
+image: domotiser-porte-garage-5-euros.png
 tags: []
 description: "a simple way to automate your garage door at a lower cost"
 published: true

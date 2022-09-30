@@ -1,6 +1,11 @@
 <div class="scene" domflag>
     <div class="scene-right">
         <div class="scene-image">
+{%- assign translate = site.data.locales.translate %}
+{%- assign guid = guid-{{forloop.index | plus: 1 }} %}
+{%- assign products = site.posts | where:'guid', include.guid | where:'locale', page.locale | where: 'published', true | where: 'layout', 'product' %}
+{%- if include.guid %}
+{%- for product in products %}
             <!-- 1. POINT -->
             <div class="image-point" style="top:140px; left:130px;">
                 <div class="point"></div>
@@ -26,9 +31,11 @@
                     </div>
                 </div>
             </div>
+            {% endfor %}
+            {% endif %}
             <!-- /1 .POINT -->
             <!-- 2. POINT -->
-            <div class="image-point" style="bottom:150px; left:15px;">
+<!--             <div class="image-point" style="bottom:150px; left:15px;">
                 <div class="point"></div>
                 <div class="point-content">
                     <div class="close">
@@ -51,7 +58,7 @@
                         <a class="btn btn-blue buttonscene">i want this</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- /2 .POINT -->
 
             <img src="{{ site.baseurl }}/assets/images/posts/{{ page.guid }}/{{ include.image }}" alt="">

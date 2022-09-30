@@ -17,7 +17,7 @@ sitemap:
   lastmod: # date to end modification
 beforetoc:
 toc: false
-image: zigbee-vs-z-wave
+image: zigbee-vs-z-wave.png
 comments: true
 ---
 

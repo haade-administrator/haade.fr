@@ -6,7 +6,7 @@ author: Nico
 date: "2021-08-26"
 last_modified_at:
 categories: [News]
-image: "helios64"
+image: "helios64.png"
 published: true
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never

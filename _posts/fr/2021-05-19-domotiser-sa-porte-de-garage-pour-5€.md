@@ -6,7 +6,7 @@ last_modified_at:
 author: Nico
 categories: Domotique Haade-lab Home-Assistant
 layout: post
-image: domotiser-porte-garage-5-euros
+image: domotiser-porte-garage-5-euros.png
 tags: esp8266
 description: "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266"
 locale: fr_FR

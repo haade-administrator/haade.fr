@@ -17,7 +17,7 @@ sitemap:
   lastmod: # date to end modification
 beforetoc:
 toc: true
-image: soudure-antenne-exterieur-esp-12f-plus-20db
+image: soudure-antenne-exterieur-esp-12f-plus-20db.jpg
 comments: true
 ---
 

@@ -34,10 +34,10 @@
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
 {%- endif -%}
 
-{%- assign header_image = page.image | append: "-944.webp" | default: site.logo.path | absolute_url -%}
+{%- assign header_image = page.image | default: site.logo | absolute_url -%}
 {%- assign header_image = header_image | escape -%}
 
-{%- assign site_og_image = site.logo.path | absolute_url -%}
+{%- assign site_og_image = site.logo | absolute_url -%}
 {%- assign site_og_image = site_og_image | escape -%}
 
 {%- if page.date -%}
@@ -131,7 +131,7 @@
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "{{ site.logo.path | absolute_url }}"
+      "url": "{{ site.logo | absolute_url }}"
     }
   },
   "mainEntityOfPage": {
@@ -142,7 +142,7 @@
     "@type": "ImageObject",
     "width": {{ page.image_width | default: site.logo.width }},
     "height": {{ page.image_height | default: site.logo.height }},
-    "url": "{{ page.image | default: site.logo.path | absolute_url }}"
+    "url": "{{ page.image | default: site.logo | absolute_url }}"
   }
 }
 
@@ -183,7 +183,7 @@
       "@type": "ImageObject",
       "width": 300,
       "height": 76,
-      "url": "{{ site.logo.path | absolute_url }}"
+      "url": "{{ site.logo | absolute_url }}"
     }
   },
   "mainEntityOfPage": {
@@ -194,7 +194,7 @@
     "@type": "ImageObject",
     "width": {{ page.image_width | default: site.logo.width }},
     "height": {{ page.image_height | default: site.logo.height }},
-    "url": "{{ page.image | append: '-944.webp' | default: site.logo.path | absolute_url }}"
+    "url": "{{ page.image | default: site.logo | absolute_url }}"
   }
 }
 </script>
