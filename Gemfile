@@ -18,7 +18,6 @@ group :jekyll_plugins do
     gem 'faraday-retry'
     gem 'rouge'
     gem 'jekyll-gist'
-    gem 'jekyll-imagemagick'
     gem 'jekyll_picture_tag'
 
 end

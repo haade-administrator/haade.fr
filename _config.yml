@@ -42,7 +42,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-figure
   - jekyll-gist
-  - jekyll-imagemagick
 
 
 # Set which comment system to use
@@ -211,29 +210,7 @@ compress_html:
   startings: [html, head, body]
 
 
-# jekyll imagemagick
-
-imagemagick:
-  enabled: false
-  widths:
-    - 0
-    - 272
-    - 368
-    - 553
-    - 820
-    - 944
-
-  input_directories:
-    - assets/images/../
-
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-  output_formats:
-     # jpg: "-quality 85%"
-    webp: "-quality 85%"
+# jekyll picture tag
 
 picture:
   disabled: false
