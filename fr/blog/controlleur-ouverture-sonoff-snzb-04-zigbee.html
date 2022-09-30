@@ -7,7 +7,7 @@ layout: compress
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'>
+<link rel="icon" href="/haade.fr/logo.png" width='250' height='59'>
 
 <title>Controlleur d’ouverture sonoff snzb-04 zigbee - Haade</title><!-- begin _includes/seo.html -->
 <title>Controlleur d’ouverture sonoff snzb-04 zigbee - Haade.fr</title>
@@ -22,12 +22,12 @@ layout: compress
 <meta property="og:description" content="Le capteur de porte/fenêtre sans fil SONOFF SNZB-04 est essentiel pour savoir qui entre et sort de votre maison, il est donc le plus souvent utilisé dans le cadre d’un système de sécurité intelligent. En tant qu’assistant à domicile, il est également compatible zigbee2mqtt et intègre la dernière version du protocole zigbee 3.0.">
 <meta property="og:url" content="https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee">
 <meta property="og:site_name" content="Haade.fr">
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/SONOFF-SNZB-04.webp-944.webp">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/SONOFF-SNZB-04.webp">
 <meta property="article:published_time" content="2021-06-28T00:00:00+00:00">
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664512549067603665" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664552670996386905" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -58,7 +58,8 @@ layout: compress
 	<noscript id="deferred-styles">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
-<header>    <div class="firstnavbar">
+<header>
+    <div class="firstnavbar">
         <div class="links">
           <a href="/haade.fr/">Accueil</a>
         <a href="/haade.fr/fr/rgpd-politique-de-confidentialite/">RGPD</a>
@@ -78,10 +79,10 @@ layout: compress
 
           </div>
       <div class="social-firstnav">
-        <a href="https://twitter.com/intent/tweet?text=Controlleur d’ouverture sonoff snzb-04 zigbee&url=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube" target="_blank" alt="youtube"></i></a>
-        <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord" target="_blank" alt="discord"></i></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook"><i class='fab fa-facebook-f'></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Controlleur d’ouverture sonoff snzb-04 zigbee&url=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link" aria-label="Partage cette page sur Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Abonne toi à notre chaine youtube"><i class="fab fa-youtube" target="_blank" alt="youtube" aria-hidden="true" title="youtube"></i></a>
+        <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation sur notre réseau Discord"><i class="fab fa-discord" target="_blank" alt="discord" aria-hidden="true" title="discord"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook" aria-label="Partage cette page sur Facebook"><i class='fab fa-facebook-f' aria-hidden="true" title="facebook"></i></a>
       </div>
     </div>
 
@@ -90,7 +91,12 @@ layout: compress
 <!-- Site Logo/Name
 ================================================== -->
 <a class="navbar-brand" href="/haade.fr/">
-    <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade">
+    <picture>
+  <source sizes="(max-width: 480px) 150px, 250px" srcset="/haade.fr/assets/images/generated/logo-250-542b954e1.webp 250w" type="image/webp">
+  <source sizes="(max-width: 480px) 150px, 250px" srcset="/haade.fr/assets/images/generated/logo-250-f0694d40e.png 250w" type="image/png">
+  <img style="width:250px; height:63px;" src="/haade.fr/assets/images/generated/logo-250-f0694d40e.png" alt="Logo officien Haade" width="300" height="76">
+</picture>
+
 </a>
 
 
@@ -228,71 +234,14 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <div class="shop-single" itemtype="https://schema.org/Product" itemscope>
 
   <div class="shop-pictures">
-    <!-- Featured Image --><div class="productbox">
-  <div class="product-small-img">
-        <img itemprop="image" class="gallery-image lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
-        <img itemprop="image" class="gallery-image lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/Hd7188fd80aee4e32bb8e09a06f59cbd1o/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/Hd7188fd80aee4e32bb8e09a06f59cbd1o/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
-        <img itemprop="image" class="gallery-image lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/H74fb95b166664e7abb793143e7cbba0aQ/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/H74fb95b166664e7abb793143e7cbba0aQ/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
-        <img itemprop="image" class="gallery-image lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/Hb6c2c7e5ab374bf9abe0fc1bcd3cfe96m/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/Hb6c2c7e5ab374bf9abe0fc1bcd3cfe96m/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
-        <img itemprop="image" class="gallery-image lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/H988480674058432987fc2a91d68bae07t/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/H988480674058432987fc2a91d68bae07t/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
+    <!-- Featured Image -->
+<div class="entry-featured-image"><picture class="lazy">
+  <source data-sizes="(max-width: 1024px) 350px, 425px" data-srcset="/haade.fr/assets/images/generated/shop/2123/SONOFF-SNZB-04-425-4bacbbf24.webp 425w" type="image/webp">
+  <source data-sizes="(max-width: 1024px) 350px, 425px" data-srcset="/haade.fr/assets/images/generated/shop/2123/SONOFF-SNZB-04-425-4bacbbf24.webp 425w" type="image/webp">
+  <img class="featured-image image-shadow" itemprop="image" data-src="/haade.fr/assets/images/generated/shop/2123/SONOFF-SNZB-04-640-4bacbbf24.webp" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
+</picture>
 
-  </div>
-<div class="img-product-container">
-  <img itemprop="image" id="imageBox" class="lazyimg image-shadow" src="data:image/webp;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" href="https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Mini-capteur-d-ouverture-de-porte-fen-tre-Zigbee-SNZB-04-fonctionne-avec-l-application.jpg" alt="Controlleur d’ouverture sonoff snzb-04 zigbee">
 </div>
-</div>
-
-<style>
-  .product-small-img img {
-    height: auto;
-    width: 60px;
-    margin: 3px 0;
-    cursor: pointer;
-    opacity: 0.6;
-    border-radius: 0;
-  }
-
-  .product-small-img img:hover {
-    opacity: 1;
-  }
-
-  .product-small-img {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    max-height: 400px;
-  }
-  .productbox {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-
-  .img-product-container {
-    height: auto;
-    width: 400px;
-    display: flex;
-    padding: 3px 0 10px 10px;
-  }
-
-  .img-product-container img {
-    border-radius: 5px;
-  }
-
-  @media (max-width: 1024px) {}
-  </style>
-
-  <script>
-$(document).ready(function(){
-$('.gallery-image').on('click', function(){
-  var imgURL = $(this).attr('src');
-  $('#imageBox').attr('src', imgURL)
-  });
-});
-    </script>
 
 <div class="reseller" itemprop="brand" itemtype="https://schema.org/Brand" itemscope>
   <h5>Boutique info</h5>
@@ -309,7 +258,7 @@ $('.gallery-image').on('click', function(){
 <div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
   <meta itemprop="lowPrice" content="10.75" />
   <meta itemprop="highPrice" content="92.22" />
-  <meta itemprop="offerCount" content="27772" />
+  <meta itemprop="offerCount" content="27756" />
   <meta itemprop="priceCurrency" content="EUR" />
 </div>
 <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
@@ -329,7 +278,7 @@ $('.gallery-image').on('click', function(){
     </div>
     <div class="itemscraper"><strong class="mr-1">Prix:</strong> 10.75 EUR <div class="originalprice">15.36</div>
     </div>
-    <div class="itemscraper"><strong class="mr-1">Quantité en Stock:</strong> 27772
+    <div class="itemscraper"><strong class="mr-1">Quantité en Stock:</strong> 27756
     </div>
   </div>
 </div><div class="button-shop" role="button">
@@ -376,7 +325,7 @@ $('.gallery-image').on('click', function(){
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Kevin Lakin</li>
+        <li itemprop="name">Andres O'Keefe</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -392,7 +341,7 @@ $('.gallery-image').on('click', function(){
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Edna Schmitt</li>
+        <li itemprop="name">Ms. Clinton Fritsch</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -409,7 +358,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Julia Murazik</li>
+        <li itemprop="name">Jaime Bayer</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -425,7 +374,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Darren Bosco</li>
+        <li itemprop="name">Lonnie Grimes</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -441,7 +390,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Herbert Parker</li>
+        <li itemprop="name">Paulette Baumbach</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -457,7 +406,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Eva Kohler</li>
+        <li itemprop="name">Miranda Brown</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -473,7 +422,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Ernest Langosh</li>
+        <li itemprop="name">Samantha Farrell</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -489,7 +438,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Sophie Schowalter II</li>
+        <li itemprop="name">Stella Olson</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">2</li>
@@ -505,7 +454,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Ms. Tammy McKenzie</li>
+        <li itemprop="name">Jeffrey Ruecker</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">1</li>
@@ -521,7 +470,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Madeline Halvorson I</li>
+        <li itemprop="name">Ronald Collier DDS</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -536,7 +485,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Wilbert Hilpert</li>
+        <li itemprop="name">Alberta Runolfsson</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -551,7 +500,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Winifred Jenkins</li>
+        <li itemprop="name">Orlando Stanton</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -566,7 +515,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Dr. Joy Satterfield</li>
+        <li itemprop="name">Irvin Cole</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -581,7 +530,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Daniel Stokes</li>
+        <li itemprop="name">Harriet Skiles</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -596,7 +545,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Mercedes Altenwerth</li>
+        <li itemprop="name">Kurt Ullrich</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -611,7 +560,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Harold Spinka</li>
+        <li itemprop="name">Michael Prohaska DDS</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -626,7 +575,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Myrtle Marquardt</li>
+        <li itemprop="name">Joyce Schowalter</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -641,7 +590,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Byron Volkman</li>
+        <li itemprop="name">Carroll Bailey</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -656,7 +605,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Benjamin Ortiz</li>
+        <li itemprop="name">Jennifer Williamson</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -671,7 +620,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Aaron Osinski</li>
+        <li itemprop="name">Lonnie Wilkinson</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -686,7 +635,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Bryant Donnelly</li>
+        <li itemprop="name">Diane Oberbrunner</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -701,7 +650,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Marc Connelly</li>
+        <li itemprop="name">Mrs. Maxine Kunde</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -716,7 +665,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Alice Langworth</li>
+        <li itemprop="name">Todd Bradtke</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">5</li>
@@ -731,7 +680,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Bryant O'Hara</li>
+        <li itemprop="name">Freda Heller</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">4</li>
@@ -746,7 +695,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Harold Lang</li>
+        <li itemprop="name">Cameron Becker</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">4</li>
@@ -761,7 +710,7 @@ Good bargain</li>
   <ul>
     <div itemprop="review" itemtype="https://schema.org/Review" itemscope>
       <div itemprop="author" itemtype="https://schema.org/Person" itemscope>
-        <li itemprop="name">Barbara Wisoky</li>
+        <li itemprop="name">Bert Breitenberg</li>
       </div>
       <div itemprop="reviewRating" itemtype="https://schema.org/Rating" itemscope>
         <li itemprop="ratingValue">4</li>
@@ -815,10 +764,10 @@ Good bargain</li>
          <input type="text" placeholder="Entrez une adresse e-mail">
          <input type="submit" name="" value="Envoyer">
          <div class="media-icons">
-           <a target="_blank" href="https://twitter.com/intent/tweet?text=Controlleur d’ouverture sonoff snzb-04 zigbee&url=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
-           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
-           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
-           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+           <a target="_blank" href="https://twitter.com/intent/tweet?text=Controlleur d’ouverture sonoff snzb-04 zigbee&url=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Partage cette page sur Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Abonne toi à notre chaine youtube"><i class="fab fa-youtube" aria-hidden="true" title="youtube"></i></a>
+           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation sur notre réseau Discord"><i class="fab fa-discord" aria-hidden="true" title="discord"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="Partage cette page sur Facebook"><i class="fab fa-facebook-f" aria-hidden="true" title="facebook"></i></a>
          </div>
        </form>
      </div>

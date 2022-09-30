@@ -7,7 +7,7 @@ layout: compress
 <head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="icon" href="/haade.fr/assets/images/logo.webp" width='250' height='59'>
+<link rel="icon" href="/haade.fr/logo.png" width='250' height='59'>
 
 <title>Home - Haade</title><!-- begin _includes/seo.html -->
 <title>Home - Haade.fr</title>
@@ -28,7 +28,7 @@ layout: compress
 <meta property="og:description" content="Home Assistance Alsace domotique et électronique.">
 <meta property="og:url" content="https://haade-administrator.github.io/haade.fr/en/">
 <meta property="og:site_name" content="Haade.fr">
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/-944.webp">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/logo.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -51,7 +51,7 @@ layout: compress
       "@type": "ImageObject",
       "@id": "https://haade-administrator.github.io/haade.fr/#/schema/logo/image/",
       "inLanguage": "en-GB",
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp",
+      "url": "https://haade-administrator.github.io/haade.fr/logo.png",
       "width": "300",
       "height": "76",
       "caption": "Haade.fr"
@@ -59,7 +59,7 @@ layout: compress
     "image": {
       "@type": "ImageObject",
       "@id": "https://haade-administrator.github.io/haade.fr/#/schema/logo/image/",
-      "url": "https://haade-administrator.github.io/haade.fr/assets/images/logo.webp",
+      "url": "https://haade-administrator.github.io/haade.fr/logo.png",
       "inLanguage": "en-GB",
       "width": "300",
       "height": "76",
@@ -71,7 +71,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1664512549067603665" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1664552670996386905" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -102,7 +102,8 @@ layout: compress
 	<noscript id="deferred-styles">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
 	</noscript>
-<header>    <div class="firstnavbar">
+<header>
+    <div class="firstnavbar">
         <div class="links">
           <a href="/haade.fr/en/">Home</a>
         <a href="/haade.fr/en/gdpr-general-data-protection-regulation/">GDPR</a>
@@ -122,10 +123,10 @@ layout: compress
 
           </div>
       <div class="social-firstnav">
-        <a href="https://twitter.com/intent/tweet?text=Home&url=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube" target="_blank" alt="youtube"></i></a>
-        <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord" target="_blank" alt="discord"></i></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook"><i class='fab fa-facebook-f'></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Home&url=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+        <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Subscribe to our youtube channel"><i class="fab fa-youtube" target="_blank" alt="youtube" aria-hidden="true" title="youtube"></i></a>
+        <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation to our Discord network"><i class="fab fa-discord" target="_blank" alt="discord" aria-hidden="true" title="discord"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook" aria-label="Share this page on Facebook"><i class='fab fa-facebook-f' aria-hidden="true" title="facebook"></i></a>
       </div>
     </div>
 
@@ -134,7 +135,12 @@ layout: compress
 <!-- Site Logo/Name
 ================================================== -->
 <a class="navbar-brand" href="/haade.fr/en/">
-    <img src="/haade.fr/assets/images/logo.webp" width='250' height='59' alt="Haade">
+    <picture>
+  <source sizes="(max-width: 480px) 150px, 250px" srcset="/haade.fr/assets/images/generated/logo-250-542b954e1.webp 250w" type="image/webp">
+  <source sizes="(max-width: 480px) 150px, 250px" srcset="/haade.fr/assets/images/generated/logo-250-f0694d40e.png 250w" type="image/png">
+  <img style="width:250px; height:63px;" src="/haade.fr/assets/images/generated/logo-250-f0694d40e.png" alt="Logo officien Haade" width="300" height="76">
+</picture>
+
 </a>
 
 
@@ -260,7 +266,12 @@ layout: compress
 <div class="hero-container">
   <div class="left">
       <a href="/haade.fr/en/blog/box-domotical-box-din-rail">
-        <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-553.webp?v=1664512549); height: 385px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+        <picture class="lazy">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-300-09781ad38.webp 300w, /haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-400-09781ad38.webp 400w, /haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-820-09781ad38.webp 820w" type="image/webp">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-300-5132a9275.png 300w, /haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-400-5132a9275.png 400w, /haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-820-5132a9275.png 820w" type="image/png">
+  <img class="hero-image" data-src="/haade.fr/assets/images/generated/posts/23/box-domotique-rail-din-home-assistant-300-5132a9275.png" width="975" height="675">
+</picture>
+
       </a>
       <div class="hero-text latest">
       <a class="hero-categories" href="/haade.fr/en/category/tests">Tests</a>
@@ -276,7 +287,12 @@ layout: compress
   <div class="right">
     <div class="second">
         <a href="/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas">
-          <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-553.webp?v=1664512549);"></div>
+          <picture class="lazy">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-300-b02882f16.webp 300w, /haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-400-b02882f16.webp 400w, /haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-820-b02882f16.webp 820w" type="image/webp">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-300-1b52c5190.png 300w, /haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-400-1b52c5190.png 400w, /haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-820-1b52c5190.png 820w" type="image/png">
+  <img class="hero-image" data-src="/haade.fr/assets/images/generated/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-300-1b52c5190.png" width="1200" height="521">
+</picture>
+        
         </a>
         <div class="hero-text second">
           <a class="hero-categories" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
@@ -291,8 +307,13 @@ layout: compress
     <div class="bottom-right">
       <div class="third">
               <a href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-272.webp?v=1664512549);"></div>
-          </a>
+                <picture class="lazy">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-300-7f52ca53e.webp 300w, /haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-400-7f52ca53e.webp 400w, /haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-820-7f52ca53e.webp 820w" type="image/webp">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-300-6b6c7853a.png 300w, /haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-400-6b6c7853a.png 400w, /haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-820-6b6c7853a.png 820w" type="image/png">
+  <img class="hero-image" data-src="/haade.fr/assets/images/generated/posts/21/zoneminder_homeassistant-1-300-6b6c7853a.png" width="1200" height="613">
+</picture>
+        
+              </a>
           <div class="hero-text thirdfour">
             <a class="hero-categories" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
             <br />
@@ -305,7 +326,12 @@ layout: compress
       </div>
       <div class="four">
               <a href="/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04">
-                <div class="hero-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0) 60%),url( /haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-272.webp?v=1664512549); height: 140px; width:100%;    background-size: cover;    background-repeat: no-repeat;"></div>
+                <picture class="lazy">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-300-bd99b625b.webp 300w, /haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-400-bd99b625b.webp 400w, /haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-820-bd99b625b.webp 820w" type="image/webp">
+  <source data-srcset="/haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-300-02715b084.png 300w, /haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-400-02715b084.png 400w, /haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-820-02715b084.png 820w" type="image/png">
+  <img class="hero-image" data-src="/haade.fr/assets/images/generated/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-300-02715b084.png" width="1200" height="613">
+</picture>
+        
           </a>
           <div class="hero-text thirdfour">
             <a class="hero-categories" href="/haade.fr/en/category/tests">Tests</a>
@@ -320,7 +346,6 @@ layout: compress
     </div>
   </div>
 </div>
-
         <!-- Posts Index
 ================================================== -->
 <div class="blog-grid-container">
@@ -330,66 +355,12 @@ layout: compress
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-368.webp" width="368" height="207" alt="Zoneminder, home assistant and Machinelearning">
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning">Zoneminder, home assistant and Machinelearning</a>
-            </h2>
-            <h4 class="card-text">Dlandon this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
-                </span>
-                <span class="author-meta">
-                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">25<sup>th</sup>September 2021</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-<!-- begin post -->
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-368.webp" width="368" height="207" alt="Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test">
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04">Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test</a>
-            </h2>
-            <h4 class="card-text">That’s after the presentation of the temperature sensor SNZB-02, I will detail quickly the sonoff opening sensor SNZB-04, the quality remains the same, the packaging and the aesthetics of the...</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
-                </span>
-                <span class="author-meta">
-                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">20<sup>th</sup>September 2021</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-<!-- begin post -->
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-368.webp" width="368" height="207" alt="home assistant icon tip">
+            <a href="/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant"><picture class="lazy">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/19/changer-icone-element-binaire-home-assistant-368-5eca00eea.webp 368w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/19/changer-icone-element-binaire-home-assistant-368-f17ac3b39.png 368w" type="image/png">
+  <img class="img-thumb" src="/haade.fr/assets/images/generated/posts/19/changer-icone-element-binaire-home-assistant-800-f17ac3b39.png" alt="home assistant icon tip">
+</picture>
+
             </a>
         </div>
         <div class="card-body">
@@ -401,7 +372,12 @@ layout: compress
         <div class="card-footer bg-white">
             <div class="wrapfooter">
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w" type="image/jpeg">
+  <img class="author-thumb" src="/haade.fr/assets/images/generated/nico-70-d409fecd0.jpg" alt="Nico">
+</picture>
+
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
@@ -417,8 +393,12 @@ layout: compress
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-368.webp" width="368" height="207" alt="Sonoff SNZB-02 temperature and humidity sensor test">
+            <a href="/haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02"><picture class="lazy">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-368-ef68d349e.webp 368w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-368-d7356d1ab.png 368w" type="image/png">
+  <img class="img-thumb" src="/haade.fr/assets/images/generated/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-800-d7356d1ab.png" alt="Sonoff SNZB-02 temperature and humidity sensor test">
+</picture>
+
             </a>
         </div>
         <div class="card-body">
@@ -430,7 +410,12 @@ layout: compress
         <div class="card-footer bg-white">
             <div class="wrapfooter">
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w" type="image/jpeg">
+  <img class="author-thumb" src="/haade.fr/assets/images/generated/nico-70-d409fecd0.jpg" alt="Nico">
+</picture>
+
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
@@ -446,8 +431,12 @@ layout: compress
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/haade.fr/en/blog/z-wave-vs-matter">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/17/zwave-face-a-matter-368.webp" width="368" height="207" alt="Z-wave VS Matter">
+            <a href="/haade.fr/en/blog/z-wave-vs-matter"><picture class="lazy">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/17/zwave-face-a-matter-368-2976d3593.webp 368w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/17/zwave-face-a-matter-368-9a569010d.jpg 368w" type="image/jpeg">
+  <img class="img-thumb" src="/haade.fr/assets/images/generated/posts/17/zwave-face-a-matter-800-9a569010d.jpg" alt="Z-wave VS Matter">
+</picture>
+
             </a>
         </div>
         <div class="card-body">
@@ -460,7 +449,12 @@ layout: compress
         <div class="card-footer bg-white">
             <div class="wrapfooter">
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w" type="image/jpeg">
+  <img class="author-thumb" src="/haade.fr/assets/images/generated/nico-70-d409fecd0.jpg" alt="Nico">
+</picture>
+
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
@@ -476,8 +470,12 @@ layout: compress
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="/haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future">
-                        <img class="img-thumb lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="/haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-368.webp" width="368" height="207" alt="Open source NAS for Raspberry pi CM4 the future!">
+            <a href="/haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future"><picture class="lazy">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-368-21e3396f8.webp 368w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-368-808c44c59.png 368w" type="image/png">
+  <img class="img-thumb" src="/haade.fr/assets/images/generated/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-800-808c44c59.png" alt="Open source NAS for Raspberry pi CM4 the future!">
+</picture>
+
             </a>
         </div>
         <div class="card-body">
@@ -490,11 +488,55 @@ layout: compress
         <div class="card-footer bg-white">
             <div class="wrapfooter">
                 <span class="meta-footer-thumb">
-                <img class="author-thumb" src="/haade.fr/assets/images/nico.webp" width="40" height="40" alt="Nico">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w" type="image/jpeg">
+  <img class="author-thumb" src="/haade.fr/assets/images/generated/nico-70-d409fecd0.jpg" alt="Nico">
+</picture>
+
                 </span>
                 <span class="author-meta">
                 <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
                 <span class="post-date"> 1<sup>st</sup>September 2021</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+<!-- begin post -->
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="/haade.fr/en/blog/kobol-helios-64-its-over"><picture class="lazy">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/15/helios64-368-14880ee8e.webp 368w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 368px" srcset="/haade.fr/assets/images/generated/posts/15/helios64-368-fd7fce93d.png 368w" type="image/png">
+  <img class="img-thumb" src="/haade.fr/assets/images/generated/posts/15/helios64-800-fd7fce93d.png" alt="Kobol helios 64 is done!">
+</picture>
+
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/en/blog/kobol-helios-64-its-over">Kobol helios 64 is done!</a>
+            </h2>
+            <h4 class="card-text">On Wednesday 25 August, the company Kobol.io decided to put an end to the adventure of the open source helios 64 NAS (network attached storage) storage box.
+</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                <span class="meta-footer-thumb">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w" type="image/jpeg">
+  <img class="author-thumb" src="/haade.fr/assets/images/generated/nico-70-d409fecd0.jpg" alt="Nico">
+</picture>
+
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                <span class="post-date">26<sup>th</sup>August 2021</span>
                 </span>
                 <div class="clearfix"></div>
             </div>
@@ -566,10 +608,10 @@ layout: compress
          <input type="text" placeholder="Enter email address">
          <input type="submit" name="" value="Send">
          <div class="media-icons">
-           <a target="_blank" href="https://twitter.com/intent/tweet?text=Home&url=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fab fa-twitter"></i></a>
-           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-youtube"></i></a>
-           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;"><i class="fab fa-discord"></i></a>
-           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;"><i class="fab fa-facebook-f"></i></a>
+           <a target="_blank" href="https://twitter.com/intent/tweet?text=Home&url=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Subscribe to our youtube channel"><i class="fab fa-youtube" aria-hidden="true" title="youtube"></i></a>
+           <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation to our Discord network"><i class="fab fa-discord" aria-hidden="true" title="discord"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/index.html" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="Share this page on Facebook"><i class="fab fa-facebook-f" aria-hidden="true" title="facebook"></i></a>
          </div>
        </form>
      </div>

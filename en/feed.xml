@@ -11,12 +11,12 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Sep 2022 04:35:49 +0000</pubDate>
+    <pubDate>Fri, 30 Sep 2022 15:44:30 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2127/sonoff-nspanel-presentation.webp-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2127/sonoff-nspanel-presentation.webp</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -35,7 +35,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2123/https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2123/https://ae01.alicdn.com/kf/H4a510666f184407dafafadb11f28cb957/Sonoff-kit-pont-Zigbee-SNZB-01-SNZB-04-commutateur-sans-fil-capteur-de-temp-rature-et.jpg_640x640.jpg</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -55,7 +55,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -74,7 +74,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -93,7 +93,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/21/zoneminder_homeassistant-1-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/21/zoneminder_homeassistant-1.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -111,7 +111,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -128,7 +128,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -146,7 +146,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -166,7 +166,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/17/zwave-face-a-matter-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/17/zwave-face-a-matter.jpg</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
@@ -184,7 +184,7 @@
     </item>
     <item>
       <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1-944.webp</url>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png</url>
           <title>Haade.fr</title>
            <link>https://haade-administrator.github.io/haade.fr</link>
             <width>944</width>
