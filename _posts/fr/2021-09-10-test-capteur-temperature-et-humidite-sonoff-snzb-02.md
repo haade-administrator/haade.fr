@@ -54,8 +54,7 @@ Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zig
 
 ## Comparatif Sonoff SNZB-02 VS Xiaomi Aqara WSDCGQ11LM
 
-![capteur température zigbee sonoff vs xiaomi]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi-820.webp{{ cachebuster }})
-
+{% picture posts/{{ page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi.png --alt capteur température zigbee sonoff vs xiaomi %}
 ## Point Positif du capteur de température du sonoff SNZB-02
 
 - le prix actuellement moins de 10€
