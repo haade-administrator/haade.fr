@@ -75,7 +75,7 @@ branchement par fil dupont du capteur d’empreinte r503 sur wemos d1 mini espho
 
 là aussi j’ai rédigé un article à **consulter** [esphome et home assistant](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/).
 
-{%- gist 1e431d8fe4fa347e01f286349e610891 %}
+{% gist 1e431d8fe4fa347e01f286349e610891 %}
 
 ### 3 – Intégration du capteur d’empreintes Grow R503 à Lovelace
 
@@ -99,7 +99,7 @@ Gif animé présentant les services disponibles avec esphome et le capteur d’e
 
 Grâce à la documentation complète Esphome, du capteur d’empreinte digitale Grow R503, nous pouvons facilement **créer des Balise (tags)** et ainsi personnaliser les **finger\_id** au nom d’une personne ce qui permet très facilement de réaliser une automatisation unique.
 
-{%- gist 1e431d8fe4fa347e01f286349e610891 %}
+{% gist 1e431d8fe4fa347e01f286349e610891 %}
 
 **Exemple:** Grâce aux balises, **Person\_a** pourra ouvrir la porte de garage tandis que **Person\_b** ouvrira cette même porte mais aura le pouvoir de désactiver en même temps l’alarme, magique !
 

@@ -32,7 +32,7 @@ presets:
       laptop: 350px
     size: 425px
     dimension_attributes: true
-    fallback_width: 640
+    fallback_width: 425
 
   post:
     widths: [ 944 ]

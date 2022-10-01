@@ -83,7 +83,7 @@ et
 
 ## Fichier paramétré pour ESPhome
 
-{%- gist ba9b6667ece8269cd37f64e34e908977 %}
+{% gist ba9b6667ece8269cd37f64e34e908977 %}
 
 ### Étape à suivre minutieusement
 
@@ -109,7 +109,7 @@ image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec es
 
 Pour commencer les boutons poussoirs no/nc fonctionnent en contact sec. Afin de permettre le retour d’état à Off il faut créer une automatisation qui nous indique au changement d’état du relais switch garage sur on après 0,4 secondes le relais retourne à off **à personnaliser en fonction du nom donné à votre relais switch**.
 
-{%- gist ecbf82461009fd134a1cc7228946edc1 %}
+{% gist ecbf82461009fd134a1cc7228946edc1 %}
 
 ## Carte de contrôle Hormann supramatic e3
 
