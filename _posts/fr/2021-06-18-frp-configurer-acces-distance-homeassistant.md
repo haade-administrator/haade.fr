@@ -48,7 +48,7 @@ Si t’as rien compris regarde le gif animé ci-dessous.
 
 ## Paramètre l’application FRPc
 
-![paramétrage frp par haade]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-frp-haade-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/parametrage-frp-haade.png --alt paramétrage frp par haade %}
 
 capture du paramétrage pour accès à distance grâce à frp et créé pour homeassistant hassio
 1. **server addr:** l’adresse ip de votre serveur vps
