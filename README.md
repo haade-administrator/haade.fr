@@ -1,14 +1,14 @@
 # Haade next generation
 
 ## Installation
-npm Install
-bundle config set --local path 'vendor/bundle'
-bundle install
+- npm Install
+- bundle config set --local path 'vendor/bundle'
+- bundle install
 
 ### todo list
 
 1. verification intégration google google_analytics
-2. intégrer Masonry gallery [pasonry desandro](https://masonry.desandro.com)
+2. intégrer Masonry gallery [masonry desandro](https://masonry.desandro.com)
 3. créer une collection gallery vour [jekyllrb doc](https://jekyllrb.com/docs/collections/)
 4. Créer une collection _EAN voir exemple jekyll-product-catalog
 5. intégration [pwa progressive-web-app jekyll](https://github.com/lavas-project/jekyll-pwa)
