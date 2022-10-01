@@ -42,7 +42,7 @@ sitemap:
               {%- if site.data.authors.Yann.gravatar %}
               <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Yann.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Yann.display_name }}">
               {%- else %}
-              <img class="author-thumb-xl" src="{{site.baseurl}}/{{ site.data.authors.Yann.avatar }}" width="120" height="120" alt="{{ site.data.authors.Yann.display_name }}">
+              {% picture avatar {{ site.data.authors.Yann.avatar }} --alt {{ site.data.authors.Yann.display_name }} --img class="author-thumb-xl" %}
               {%- endif %}
             </div>
         </div>

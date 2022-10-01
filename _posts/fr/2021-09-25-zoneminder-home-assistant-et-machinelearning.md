@@ -95,7 +95,7 @@ Cochez les cases comme l'image ci-dessous et rentrez un code Hashsecret pour plu
 5. OPT\_USE\_LEGACI\_API\_AUTH: activer l'uthentification API
 6. OPT\_USE\_EVENTNOTIFICATION: Prise en compte du machine learning
 
-![paramétrage option zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-options-systemes-zoneminder-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/capture-options-systemes-zoneminder.png --alt paramétrage option zoneminder %}
 
 ## Mise en place pour Home Assistant
 
@@ -103,7 +103,7 @@ Ensuite il faut créer un utilisateur dédié à Homeassistant avec une ouvertur
 
 Options >>> Utilisateurs >> Ajouter utilisateurs
 
-![paramétrage utilisateur zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/capture-utilisateur-zoneminder-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/capture-utilisateur-zoneminder.png --alt paramétrage utilisateur zoneminder %}
 
 ## 2 - Paramétrage du Machinelearning ( ZMEVENTNOTIFICATION )
 
@@ -155,7 +155,6 @@ Au tour de **objectconfig.ini** qui doit ressembler au code ci-dessous. Avec la 
 Pour ces paramétrages n'hésitez pas à m'écrire mais dans premier lieu il s'agit de modifier les **\[monitor-x\]** en effet on ne met pas le nom de sa caméra mais si celle-ci est en première position on l’appellera monitor-1 et ainsi de suite, ci-dessous un exemple de monitoring de garage.
 
 ```bash
-
 [monitor-1]
 # mon garage
 model_sequence=alpr,object
@@ -196,7 +195,7 @@ et voilà si tout s'est bien passé Zmeventnotification devrait être fonctionne
 
 les lignes de codes ci-dessous sont à rentrer dans la configuration.yaml de home-assistant pour connaître tous les paramètres consulte cette page officielle: [Intégration Zoneminder et Homeassistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 
-![interface zoneminder dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/detail-ha-zm-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/detail-ha-zm.png --alt interface zoneminder dans home assistant %}
 
 interface complète de zoneminder dans home assistant
 

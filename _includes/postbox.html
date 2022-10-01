@@ -31,7 +31,7 @@
                 {%- if post.author %}
                 <span class="meta-footer-thumb">
                 {%- if author.avatar %}
-                {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img class="author-thumb" %}
+                {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} %}
                 {%- else %}
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=40&d=mm&r=x" alt="{{ author.display_name }}">
                 {%- endif %}

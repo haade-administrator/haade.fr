@@ -42,7 +42,7 @@ sitemap:
               {%- if site.data.authors.Math67.gravatar %}
               <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Math67.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Math67.display_name }}">
               {%- else %}
-              <img class="author-thumb-xl" src="{{site.baseurl}}/{{ site.data.authors.Math67.avatar }}" width="120" height="120" alt="{{ site.data.authors.Math67.display_name }}">
+              {% picture avatar {{ site.data.authors.Math67.avatar }} --alt {{ site.data.authors.Math67.display_name }} --img class="author-thumb-xl" %}
               {%- endif %}
             </div>
         </div>

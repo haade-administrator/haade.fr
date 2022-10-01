@@ -2,8 +2,8 @@
 
 ---
 
-$purple: #1B1C37;
 $lightblue: #2AD2FD;
+$purple: #1B1C37;
 $black: #111;
 $primary: $lightblue;
 $dark:    $black;
@@ -18,7 +18,6 @@ $badge-purple: #32064a;
 @import 'bootstrap/variables';
 @import "bootstrap/mixins";
 @import 'bootstrap/bootstrap';
-@import 'stars';
 @import 'plugins';
 @import 'prism';
 
@@ -684,14 +683,18 @@ img, img:hover {
     -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
     box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
 }
+
 .entry-header {
+
+.authorpost {
     .author-thumb {
-        width:50px;
+        width:70px;
         border-radius:50%;
         margin-right:15px;
         border:2px solid darken($primary,20%);
         padding:2px;
     }
+}
 }
 .authorbox {
     margin-top:50px;

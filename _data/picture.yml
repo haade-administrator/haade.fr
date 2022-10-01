@@ -12,7 +12,7 @@ presets:
     widths: [ 300, 400, 820 ]
     formats: [webp, original]
     attributes:
-      parent: class="lazy"
+      parent: class="lazyimg"
     dimension_attributes: true
     fallback_width: 300
 
@@ -26,26 +26,20 @@ presets:
     dimension_attributes: true
 
   shop:
-    markup: data_auto
     widths: [ 425 ]
     formats: [webp, original]
     sizes:
       laptop: 350px
     size: 425px
-    attributes:
-      parent: class="lazy"
     dimension_attributes: true
     fallback_width: 640
 
   post:
-    markup: data_auto
     widths: [ 944 ]
     formats: [webp, original]
     sizes:
       laptop: 350px
     size: 944px
-    attributes:
-      parent: class="lazy"
     fallback_width: 944
     dimension_attributes: true
 
@@ -58,19 +52,18 @@ presets:
     size: 368px
     attributes:
       img: 'class="img-thumb"'
-      parent: class="lazy"
+      parent: class="lazyimg"
     dimension_attributes: true
 
 
   avatar:
-    widths: [40, 50, 70]
+    widths: [40, 50, 70, 120]
     formats: [webp, original]
-    sizes:
-      wide: 70px
-      laptop: 50px
-      mobile: 40px
-    dimension_attributes: true
     fallback_width: 40
+    attributes:
+      img: 'class="author-thumb" itemprop="image"'
+    dimension_attributes: true
+
 
   lazy:
     markup: data_auto

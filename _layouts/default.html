@@ -1,6 +1,6 @@
----
+<!-- ---
 layout: compress
----
+--- -->
 
 <!DOCTYPE html>
 <html lang="{{ page.locale | replace: '_', '-' }}">
@@ -56,11 +56,8 @@ layout: compress
 <script src="{{ site.baseurl }}{{ '/assets/js/theme.min.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/navbar.min.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/flag.min.js' | cache_buster }}" type="text/javascript"></script>
-
-
-{%- if site.lazyimages == "enabled" %}
 <script src="{{ site.baseurl }}{{'/assets/js/lazyload.min.js' | cache_buster }}" type="text/javascript"></script>
-{%- endif %}
+
 
 </body>
 </html>

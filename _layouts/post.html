@@ -9,7 +9,6 @@ post_class: post-template
   }
 </script>
 
-<!-- {%- assign cachebuster = page.last_modified_at | date:'?v=%s' %} -->
 {%- assign translate = site.data.locales.translate %}
 
 <div class="entry-header">
@@ -21,11 +20,10 @@ post_class: post-template
     <!-- Author & Date  Box -->
     {%- assign author = site.data.authors[page.author] %}
     {%- if page.author %}
-    <div class="d-flex align-items-center mt-4">
-        <div>
+    <div class="d-flex align-items-start mt-4">
+        <div class="authorpost">
             {%- if author.avatar %}
-            <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}">{% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img class="author-thumb" %}
-            </a>
+            {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }} %}
             {%- else %}
             <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
             {%- endif %}
