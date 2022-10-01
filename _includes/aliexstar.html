@@ -30,7 +30,7 @@
         translate.product.reviews[page.locale] }})</div>
     </div>
     {%- endif %}
-    {%- if scraper.salePrice %}
+    {%- if scraper.salePrice != empty %}
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ minprice }} {{
       currency }} <div class="originalprice">{{ originalprice }}</div>
     </div>

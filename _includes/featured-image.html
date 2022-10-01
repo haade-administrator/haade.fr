@@ -12,7 +12,7 @@
 {%- if page.image %}
 <div class="entry-featured-image">
 {%- if page.imageshadow %}
-{%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image image-shadow" itemprop="image" %}{%- endif %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image image-shadow" style="width:550px; height:auto;" itemprop="image" %}{%- endif %}
 {%- else %}
 {%- if page.image contains "://" %}{{ page.image }}{%- else %}{%- picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image" itemprop="image" %}{%- endif %}
 {%- endif %}

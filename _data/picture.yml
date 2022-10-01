@@ -29,7 +29,7 @@ presets:
     widths: [ 425 ]
     formats: [webp, original]
     sizes:
-      laptop: 350px
+      laptop: 550px
     size: 425px
     dimension_attributes: true
     fallback_width: 425
