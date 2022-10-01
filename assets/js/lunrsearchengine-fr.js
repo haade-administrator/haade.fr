@@ -139,48 +139,54 @@ var documents = [{
     "tags": "esp8266"
     },{
     "id": 23,
+    "url": "/haade.fr/fr/blog/module-de-conversion-usb-uart-ft232",
+    "title": "Module de conversion usb uart ft232",
+    "description": "19/05/2021 - module universel ft232 vers usb",
+    "tags": ""
+    },{
+    "id": 24,
     "url": "/haade.fr/fr/blog/esphome-et-homeassistant",
     "title": "Intégrations Esphome et Homeassistant",
     "description": "11/05/2021 - Découverte d'esphome dans homeassistant",
     "tags": ""
     },{
-    "id": 24,
+    "id": 25,
     "url": "/haade.fr/fr/blog/boitier-dencastrement-carre-coswall-44-de-reductions",
     "title": "Boîtier d&#39;encastrement carré Coswall 44% de réductions",
     "description": "18/03/2021 - ",
     "tags": ""
     },{
-    "id": 25,
+    "id": 26,
     "url": "/haade.fr/fr/blog/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020",
     "title": "[TEST] Moes: Interrupteur Zigbee tactile {ZTS-EU} UPGRADE 2020",
     "description": "17/03/2021 - Test de l'interrupteur tactile Moes référence zts-eu",
     "tags": ""
     },{
-    "id": 26,
+    "id": 27,
     "url": "/haade.fr/fr/blog/protocole-connecte-home-over-ip",
     "title": "Protocole connecté Home over IP",
     "description": "11/02/2020 - Actu du futur protocole HomeoverIP nommé Matter",
     "tags": ""
     },{
-    "id": 27,
+    "id": 28,
     "url": "/haade.fr/fr/blog/zigbee-vs-z-wave",
     "title": "Zigbee vs Z-wave",
     "description": "11/02/2020 - Comparons les deux protocoles domotique les plus utilisés z-wave face à zigbee",
     "tags": "z-wave - zigbee - comparaison"
     },{
-    "id": 28,
+    "id": 29,
     "url": "/haade.fr/fr/blog/zigbee-comprendre-le-protocole-et-le-maillage",
     "title": "Zigbee &#8211; comprendre le protocole et le maillage",
     "description": "10/02/2020 - Zigbee comprendre le protocole et le maillage de ce standard",
     "tags": ""
     },{
-    "id": 29,
+    "id": 30,
     "url": "/haade.fr/fr/blog/automatiser-la-mise-a-jour-des-images-docker-grace-a-watchtower",
     "title": "Automatiser La Mise A Jour Des Images Docker Grace A Watchtower",
     "description": "01/01/2020 - Rendre automatique les mises à jour des images docker grâce à watchtower",
     "tags": ""
     },{
-    "id": 30,
+    "id": 31,
     "url": "/haade.fr/fr/blog/installation-complete-et-securisee-de-jeedom-sur-docker",
     "title": "Jeedom sur docker",
     "description": "09/12/2019 - OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker",
