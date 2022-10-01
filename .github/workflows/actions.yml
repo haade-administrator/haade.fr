@@ -41,17 +41,10 @@ jobs:
 
       - name: Install and Build
         run: |
-          sudo apt update
-          sudo apt upgrade
-          sudo apt dist-upgrade
-          sudo apt install libvips libvips-dev libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools imagemagick gvfs poppler-utils ghostscript -y
-          locale
-          node -v
-          npm -v
+          sudo apt install libvips libvips-dev libvips-tools libjpeg-turbo8 libpng16-16 libwebp6 libheif1 libvips-tools imagemagick gvfs poppler-utils ghostscript -y
           npm install
           npm run scrap
           echo aliexpress scraper OK
-          vips -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
