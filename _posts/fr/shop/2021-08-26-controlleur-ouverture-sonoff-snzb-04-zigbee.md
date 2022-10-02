@@ -1,6 +1,7 @@
 ---
 guid: 2123
 layout: product
+brand: Sonoff
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:
 date: "2021-06-28"

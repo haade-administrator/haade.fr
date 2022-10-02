@@ -25,7 +25,7 @@ Dans cet article je vais vous montrer tout simplement comment domotiser sa porte
 ## Prérequis pour domotiser sa porte de garage:
 
 - Homeassistant installé avec esphome
-- Un [module usb FT232]({% post_url 2021-05-19-module-de-conversion-usb-uart-ft232 %})
+- Un [module usb FT232]({% post_url /fr/shop/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 - un [module 7/30V Yunshan Lysignal esp8266 esp-12f](https://www.haade.fr/produit/relais-7-30v-yunshan-lysignal/)
 - Esphome installé sur le système [( voir l’article dédié )](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/)
 - Savoir créer un nouveau Noeud et le paramétrer
@@ -59,7 +59,7 @@ D: Optocoupleur ( interrupteur bouton poussoir )
 
 ## Branchement ft232 et esp8266 ESP-12F Yunshan-Lysignal
 
-[ft232]({% post_url 2021-05-19-module-de-conversion-usb-uart-ft232 %})
+[ft232]({% post_url /fr/shop/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 et
 [esp8266 ESP-12F Yunshan-Lysignal](https://www.haade.fr/produit/relais-7-30v-yunshan-lysignal/)
 
@@ -72,7 +72,7 @@ et
 {% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Branchement ft 232 yunshan Lysignal %}
 
 1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F](https://www.haade.fr/go/8933-32738602028)
-2. [Module de conversion usb uart ft232]({% post_url 2021-05-19-module-de-conversion-usb-uart-ft232 %})
+2. [Module de conversion usb uart ft232]({% post_url /fr/shop/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 
 ## Fichier paramétré pour ESPhome
 
