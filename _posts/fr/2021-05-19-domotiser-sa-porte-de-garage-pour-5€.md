@@ -106,7 +106,7 @@ Pour commencer les boutons poussoirs no/nc fonctionnent en contact sec. Afin de 
 
 ## Carte de contrôle Hormann supramatic e3
 
-![nomenclature carte controleur moteur hormann supramatic e3]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/hormann-carte-controleur-820.webp{{ cachebuster }}){: width="700" height="216"}
+{% picture posts/{{ page.guid }}/hormann-carte-controleur.jpg --alt nomenclature carte controleur moteur hormann supramatic e3 %}
 
 Dans notre cas nous voulons domotiser un moteur hormann la nomenclature est assez simple:
 

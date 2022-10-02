@@ -81,7 +81,7 @@ remplacez **l’adresse ip** par la votre et votre nom d’utilisateur par le vo
 
 **Avec Putty:**
 
-![connection à putty]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/connection-putty-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/connection-putty.png --alt connection à putty %}
 
 **Ensuite rentrez votre mot de passe.**
 
@@ -114,7 +114,7 @@ yobasystems/alpine-mariadb:latest
 ***your\_user*** par un nom d’utilisateur  
 ***your\_password*** par un mot de passe utilisateur
 
-![connection à putty]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mysql-1-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/mysql-1.png --alt connection à putty %}
 
 ### Installation de Adminer sur le docker.
 
@@ -130,7 +130,7 @@ docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adm
 
 À ce stade nous avons sur notre docker deux container l’un pour mariadb, nommé **mariadb** et l’autre avec adminer nommé **Adminer**
 
-![connection à putty]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/container-mariadb-adminer-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/container-mariadb-adminer.png --alt connection à putty %}
 
 ## 2- Installation de jeedom sur docker
 
@@ -266,14 +266,14 @@ Remplacez dans « database hostname » *localhost* par **127.0.0.1** sinon une e
 
 Puis, on rempli bien Database username, password et name. Avec les mêmes caractéristiques lors de la création de la base de données plus haut. On laisse faire l’installation puis on se connecte à jeedom avec login et mot de passe par défaut **admin:admin**
 
-![Paramétrage mysql initial jeedom]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom3-1-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/jeedom3-1.png --alt Paramétrage mysql initial jeedom %}
 Ensuite à l’invite de commande on modifie le mot de passe. Puis on rentre ses coordonnées jeedom market pour pouvoir passer à l’étape suivante.
 
-![connection à Jeedom]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom-connection-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/jeedom-connection.png --alt connection à Jeedom %}
 
 Une fois les étapes de connections bien remplies, nous allons jeter un oeil sur l’onglet /Analyse/santé et si tout s’est bien passé nous devrions avoir ceci:
 
-![connection au market Jeedom]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/market-820.webp{{ cachebuster }})
+{% picture posts/{{ page.guid }}/market.png --alt connection au market Jeedom %}
 
 On s’aperçoit que la configuration réseau n’est pas bonne donc Rendez-vous dans l’onglet /Réglage/Système/Configuration/Réseaux et paramétrez comme l’image ci-dessous:
 

@@ -7,7 +7,7 @@ description:
 categories: Shop Brand Protocol Sonoff Zigbee
 locale: en_GB
 ean:
-image: "https://ae01.alicdn.com/kf/Hd5c4d9df36884d30b1e46cbcc4e7707f2/SONOFF-capteur-de-temp-rature-et-d-humidit-SNZB-02-ZigBee-pour-maison-intelligente-eWeLink-moniteur.jpg_640x640.jpg"
+image: "SONOFF-SNZB-02.png"
 imageshadow: true
 comments: false
 published: true
