@@ -12,7 +12,7 @@ presets:
     widths: [ 300, 400, 820 ]
     formats: [webp, original]
     attributes:
-      parent: class="lazyimg"
+      parent: 'class="lazyimg"'
     dimension_attributes: true
     fallback_width: 300
 
@@ -52,7 +52,7 @@ presets:
     size: 368px
     attributes:
       img: 'class="img-thumb"'
-      parent: class="lazyimg"
+      parent: 'class="lazyimg"'
     dimension_attributes: true
 
 

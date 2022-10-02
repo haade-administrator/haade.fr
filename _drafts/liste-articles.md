@@ -15,3 +15,4 @@ layout: post
 - wiretrustee NAS CM4 terminé mais accessible en opensource [wiretrustee terminé](https://github.com/wiretrustee/cm4-sata-board)
 - casaos un operating system intéressant (https://github.com/IceWhaleTech/CasaOS)
 - zimaboard carte NAs et + (https://www.zimaboard.com/)
+- seaberry carte CM4 (https://pipci.jeffgeerling.com/boards_cm/seaberry.html)
