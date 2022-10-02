@@ -7,7 +7,7 @@ var documents = [{
     "tags": ""
     },{
     "id": 1,
-    "url": "/haade.fr/en/blog/controlleur-ouverture-sonoff-snzb-04-zigbee",
+    "url": "/haade.fr/en/blog/opening-control-sonoff-snzb-04-zigbee",
     "title": "sonoff snzb-04 zigbee aperture controller",
     "description": "2022/08/31 - ",
     "tags": ""

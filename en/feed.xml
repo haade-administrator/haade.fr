@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Oct 2022 16:20:51 +0000</pubDate>
+    <pubDate>Sun, 02 Oct 2022 17:31:18 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -45,8 +45,8 @@
       <description>&lt;p&gt;The SONOFF SNZB-04 Wireless Door/Window Sensor is essential for knowing who is entering and leaving your home, so it is most often used as part of a smart security system. As a home assistant, it is also zigbee2mqtt compatible and integrates the latest version of the zigbee 3.0 protocol.&lt;/p&gt;
 </description>
       <pubDate>Wed, 31 Aug 2022 18:41:06 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/controlleur-ouverture-sonoff-snzb-04-zigbee</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/controlleur-ouverture-sonoff-snzb-04-zigbee</guid>
+      <link>https://haade-administrator.github.io/en/blog/opening-control-sonoff-snzb-04-zigbee</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/opening-control-sonoff-snzb-04-zigbee</guid>
       <category>Shop</category>
       <category>Brand</category>
       <category>Protocol</category>

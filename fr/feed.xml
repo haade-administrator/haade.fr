@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 02 Oct 2022 16:20:51 +0000</pubDate>
+    <pubDate>Sun, 02 Oct 2022 17:31:18 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -169,7 +169,7 @@
            </image> -->
       <title>Test Capteur porte zigbee 3.0 sonoff SNZB-04</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Voilà après la &lt;a href=&quot;https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/&quot;&gt;présentation du capteur de température SNZB-02&lt;/a&gt;, je vais détailler rapidement &lt;a href=&quot;https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/&quot;&gt;le capteur d’ouverture sonoff SNZB-04&lt;/a&gt;, la qualité reste la même, le conditionnement et l’esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM&lt;/p&gt;
+      <description>&lt;p&gt;Voilà après la &lt;a href=&quot;/haade.fr/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02&quot;&gt;présentation du capteur de température SNZB-02&lt;/a&gt;, je vais détailler rapidement &lt;a href=&quot;/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee&quot;&gt;le capteur d’ouverture sonoff SNZB-04&lt;/a&gt;, la qualité reste la même, le conditionnement et l’esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM&lt;/p&gt;
 </description>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</link>
