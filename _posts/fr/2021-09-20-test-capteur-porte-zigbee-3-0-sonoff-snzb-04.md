@@ -50,7 +50,7 @@ Bon si tu suis l’actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peu
 
 Encore une fois le prix et pour un gros point, **la prise en charge du zigbee 3.0**, je serai bien resté sur du **xiaomi aqara mijia MCCGQ01LM** mais le tarif a explosé en passant du simple à presque deux fois le prix. **Le design est nettement plus sympa et la taille est réduite**, mais seulement **4 données remontent** dans zigbee2mqtt ( batterie faible ne remonte pas ). Il fonctionne lui aussi avec des piles cr2032.
 
-Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0](https://www.haade.fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/)
+Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({% post_url /fr/shop/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0 %})
 
 ## Comparatif [Sonoff SNZB-04]({% post_url /fr/shop/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee %}) VS Xiaomi Aqara Mijia MCCGQ01LM
 

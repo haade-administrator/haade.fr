@@ -1,7 +1,7 @@
 {%- if page.collection != 'shop' %}
 <div class="rating-holder">
-  <div class="Stars" style="--rating: {{post.rating}}; --star-background: #FF6600" aria-label="Rating of this product is {{post.rating}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{post.rating}} {{ translate.product.outof[page.locale] }} 5."></div>
+  <div class="Stars" style="--rating: {{post.rating}}; --star-background: #FF6600" title="{{ translate.product.ratingof[page.locale] }} {{post.rating}} {{ translate.product.outof[page.locale] }} 5."></div>
 </div>
 {%- else %}
-<div class="Stars" style="--rating: {{star}};" aria-label="Rating of this product is {{star}} out of 5." title="{{ translate.product.ratingof[page.locale] }} {{post.star}} {{ translate.product.outof[page.locale] }} 5."></div>
+<div class="Stars" style="--rating: {{star}};" title="{{ translate.product.ratingof[page.locale] }} {{post.star}} {{ translate.product.outof[page.locale] }} 5."></div>
 {%- endif %}

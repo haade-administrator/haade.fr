@@ -34,10 +34,10 @@
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}
 {%- endif -%}
 
-{%- assign header_image = page.image | default: site.logo.path | absolute_url -%}
+{%- assign header_image = page.image | default: '/assets/images/logo.png' | absolute_url -%}
 {%- assign header_image = header_image | escape -%}
 
-{%- assign site_og_image = site.logo | absolute_url -%}
+{%- assign site_og_image = '/assets/images/logo.png' | append: /assets/images | absolute_url -%}
 {%- assign site_og_image = site_og_image | escape -%}
 
 {%- if page.layout == 'post' -%}
@@ -145,7 +145,7 @@
         "@type": "ImageObject",
         "width": 300,
         "height": 76,
-        "url": "{{ site.logo.path | absolute_url }}"
+        "url": "{{ '/assets/images/logo.png' | absolute_url }}"
       }
     },
     "mainEntityOfPage": {
@@ -156,7 +156,7 @@
       "@type": "ImageObject",
       "width": {{ page.image_width | default: site.logo.width }},
       "height": {{ page.image_height | default: site.logo.height }},
-      "url": "{{ page.image | default: site.logo.path | absolute_url }}"
+      "url": "{{ page.image | default: '/assets/images/logo.png' | absolute_url }}"
     }
   }
   </script>
@@ -183,7 +183,7 @@
       "@type": "ImageObject",
       "@id": "{{ site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
       "inLanguage": "{{ page.locale | replace: "_", "-" }}",
-      "url": "{{ site.logo.path | absolute_url }}",
+      "url": "{{ '/assets/images/logo.png' | absolute_url }}",
       "width": "300",
       "height": "76",
       "caption": {{ site.title | jsonify }}
@@ -191,7 +191,7 @@
     "image": {
       "@type": "ImageObject",
       "@id": "{{ site.url | append: site.baseurl | absolute_url }}/#/schema/logo/image/",
-      "url": "{{ page.image | default: site.logo.path | absolute_url }}",
+      "url": "{{ page.image | default: '/assets/images/logo.png' | absolute_url  }}",
       "inLanguage": "{{ page.locale | replace: "_", "-" }}",
       "width": "{{ page.image_width | default: site.logo.width }}",
       "height": "{{ page.image_height | default: site.logo.height }}",

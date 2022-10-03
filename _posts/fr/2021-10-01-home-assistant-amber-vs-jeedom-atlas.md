@@ -20,7 +20,7 @@ toc: false
 beforetoc:
 comments: true
 ---
-Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu'elles sont sorties toutes deux à quelques jours d'intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme [crowdsupply](https://www.crowdsupply.com/nabu-casa/home-assistant-amber) _qui se termine le 27 Octobre 2021_, avec une sortie **officielle pour Juin 2022** alors que Jeedom Atlas est déjà **disponible à la vente** sur le site [Domadoo](https://www.domadoo.fr/fr/194_jeedom).
+Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu'elles sont sorties toutes deux à quelques jours d'intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme [crowdsupply](https://www.crowdsupply.com/nabu-casa/home-assistant-amber){:target="_blank"} _qui se termine le 27 Octobre 2021_, avec une sortie **officielle pour Juin 2022** alors que Jeedom Atlas est déjà **disponible à la vente** sur le site [Domadoo](https://www.domadoo.fr/fr/194_jeedom){:target="_blank"}.
 
 |  | Home Assistant Amber/Yellow (**<span style="color:red">Raspberrypi</span>** CM4) | Jeedom Atlas (Rock Pi4) |
 |---|---|---|

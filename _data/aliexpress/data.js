@@ -5,5 +5,6 @@ module.exports = [
   '32221847893',       // 2102 boitier carré coswal
   '1005002039563710',  // 2120 sonoff zbmini
   '1005003756346858',   // 2128 clé zigbee zbridge
-  '4000120687489'       // 2114 module ft232
+  '4000120687489',       // 2114 module ft232
+  '4000713894535'      // 2110 Aqara door 3.0
 ]

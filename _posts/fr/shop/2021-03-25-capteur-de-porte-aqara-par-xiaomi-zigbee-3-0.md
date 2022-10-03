@@ -1,10 +1,20 @@
 ---
 guid: 2110
-title: "Capteur de porte Aqara par xiaomi zigbee 3.0"
-date: "2021-03-25"
-coverImage: "XiaomiAqaracapteurdouverturedeportefentrepourmaisonconnecteMinicapteurfonction.jpg"
 layout: product
-published: false
+title: "Capteur de porte Aqara par xiaomi zigbee 3.0"
+brand: Xiaomi
+date: "2021-03-25"
+last_modified_at: '2022-10-03'
+description: "Capteur d'ouverture de porte Xiaomi Aquara compatible zigbee 3.0"
+categories: Boutique Xiaomi Zigbee
+locale: fr_FR
+ean:
+image: "Aqara-capteur-zigbee-fenetre-porte.jpg"
+imageshadow: true
+comments: false
+published: true
+item: 4000713894535
+item-affiliate: '_DdxUHDV'
 ---
 
 **Xiaomi a sorti il y a quelque temps des capteurs de portes de qualité.**
