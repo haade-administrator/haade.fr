@@ -90,6 +90,22 @@ defaults:
       permalink: en/blog/:title
 
   - scope:
+      path: "_posts/fr/shop" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "product"
+      locale: fr_FR
+      permalink: fr/produit/:title
+
+  - scope:
+      path: "_posts/en/shop" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "product"
+      locale: en_GB
+      permalink: en/product/:title
+
+  - scope:
       path: "_category/fr" # an empty string here means all files in the project
     values:
       layout: "category"
