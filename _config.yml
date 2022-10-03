@@ -42,6 +42,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-figure
   - jekyll-gist
+  - jekyll-redirect-from
 
 
 # Set which comment system to use

@@ -16,3 +16,4 @@ layout: post
 - casaos un operating system intéressant (https://github.com/IceWhaleTech/CasaOS)
 - zimaboard carte NAs et + (https://www.zimaboard.com/)
 - seaberry carte CM4 (https://pipci.jeffgeerling.com/boards_cm/seaberry.html)
+- axzez compute nas rasperry pi 4 (https://www.axzez.com/product-page/interceptor-carrier-board)
