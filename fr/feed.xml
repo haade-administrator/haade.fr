@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Oct 2022 03:33:46 +0000</pubDate>
+    <pubDate>Mon, 03 Oct 2022 12:27:31 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -62,7 +62,7 @@
            </image> -->
       <title>La téléinfo dans le dashboard Energie de Home Assistant</title>
       <dc:creator>Math67</dc:creator>
-      <description>&lt;p&gt;Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la &lt;a href=&quot;https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/&quot;&gt;téléinfo&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la &lt;a href=&quot;/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant&quot;&gt;téléinfo&lt;/a&gt;.&lt;/p&gt;
 </description>
       <pubDate>Mon, 03 Jan 2022 13:23:45 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</link>
@@ -124,7 +124,7 @@
            </image> -->
       <title>Home-assistant Amber VS Jeedom Atlas</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme &lt;a href=&quot;https://www.crowdsupply.com/nabu-casa/home-assistant-amber&quot;&gt;crowdsupply&lt;/a&gt; &lt;em&gt;qui se termine le 27 Octobre 2021&lt;/em&gt;, avec une sortie &lt;strong&gt;officielle pour Juin 2022&lt;/strong&gt; alors que Jeedom Atlas est déjà &lt;strong&gt;disponible à la vente&lt;/strong&gt; sur le site &lt;a href=&quot;https://www.domadoo.fr/fr/194_jeedom&quot;&gt;Domadoo&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme &lt;a href=&quot;https://www.crowdsupply.com/nabu-casa/home-assistant-amber&quot; target=&quot;_blank&quot;&gt;crowdsupply&lt;/a&gt; &lt;em&gt;qui se termine le 27 Octobre 2021&lt;/em&gt;, avec une sortie &lt;strong&gt;officielle pour Juin 2022&lt;/strong&gt; alors que Jeedom Atlas est déjà &lt;strong&gt;disponible à la vente&lt;/strong&gt; sur le site &lt;a href=&quot;https://www.domadoo.fr/fr/194_jeedom&quot; target=&quot;_blank&quot;&gt;Domadoo&lt;/a&gt;.&lt;/p&gt;
 </description>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/home-assistant-amber-vs-jeedom-atlas</link>
