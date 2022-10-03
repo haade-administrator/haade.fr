@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Oct 2022 12:27:31 +0000</pubDate>
+    <pubDate>Mon, 03 Oct 2022 18:30:58 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -26,8 +26,8 @@
       <description>&lt;p&gt;The NSPanel Smart Scene Wall Switch is equipped with a built-in powerful thermostat and environmental sensors. You can set different indoor temperatures for different time periods, and NSPanel will automatically trigger heating or cooling equipment based on your setting conditions to keep the room at a comfortable temperature. What’s more, NSPanel has scenario-based control function, you can set different modes for wake up, work, entertainment and sleep, and you can switch mode at any time.&lt;/p&gt;
 </description>
       <pubDate>Fri, 16 Sep 2022 16:05:07 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</guid>
+      <link>https://haade-administrator.github.io/en/product/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/product/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature</guid>
       <category>Shop</category>
       <category>Brand</category>
       <category>Wifi</category>
@@ -45,8 +45,8 @@
       <description>&lt;p&gt;The SONOFF SNZB-04 Wireless Door/Window Sensor is essential for knowing who is entering and leaving your home, so it is most often used as part of a smart security system. As a home assistant, it is also zigbee2mqtt compatible and integrates the latest version of the zigbee 3.0 protocol.&lt;/p&gt;
 </description>
       <pubDate>Wed, 31 Aug 2022 18:41:06 +0000</pubDate>
-      <link>https://haade-administrator.github.io/en/blog/opening-control-sonoff-snzb-04-zigbee</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/en/blog/opening-control-sonoff-snzb-04-zigbee</guid>
+      <link>https://haade-administrator.github.io/en/product/opening-control-sonoff-snzb-04-zigbee</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/en/product/opening-control-sonoff-snzb-04-zigbee</guid>
       <category>Shop</category>
       <category>Brand</category>
       <category>Protocol</category>

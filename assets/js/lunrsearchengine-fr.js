@@ -1,13 +1,13 @@
 
 var documents = [{
     "id": 0,
-    "url": "/haade.fr/fr/blog/cle-zigbee-3-sonoff-Z-Bridge-dongle-E",
+    "url": "/haade.fr/fr/produit/cle-zigbee-3-sonoff-Z-Bridge-dongle-E",
     "title": "Clé zigbee 3.0 Sonoff zbridge Dongle-E",
     "description": "23/09/2022 - Dongle Sonoff compatible zigbee2mqtt et homeassistant à base de puce cc2652",
     "tags": ""
     },{
     "id": 1,
-    "url": "/haade.fr/fr/blog/interrupteur-mural-wifi-pour-scene-intelligente-nspanel",
+    "url": "/haade.fr/fr/produit/interrupteur-mural-wifi-pour-scene-intelligente-nspanel",
     "title": "interrupteur mural wifi pour scene intelligente NSPANEL",
     "description": "16/09/2022 - interrupteur mural wifi pour scene intelligente NSPANEL",
     "tags": ""
@@ -79,13 +79,13 @@ var documents = [{
     "tags": ""
     },{
     "id": 13,
-    "url": "/haade.fr/fr/blog/capteur-temperature-sonoff-snzb-02-zigbee",
+    "url": "/haade.fr/fr/produit/capteur-temperature-sonoff-snzb-02-zigbee",
     "title": "Capteur température sonoff snzb-02 zigbee",
     "description": "25/08/2021 - ",
     "tags": ""
     },{
     "id": 14,
-    "url": "/haade.fr/fr/blog/sonoff-zigbee-zbmini",
+    "url": "/haade.fr/fr/produit/sonoff-zigbee-zbmini",
     "title": "Sonoff zigbee zbmini",
     "description": "23/08/2021 - ",
     "tags": ""
@@ -109,7 +109,7 @@ var documents = [{
     "tags": "esphome - homeassistant"
     },{
     "id": 18,
-    "url": "/haade.fr/fr/blog/controlleur-ouverture-sonoff-snzb-04-zigbee",
+    "url": "/haade.fr/fr/produit/controlleur-ouverture-sonoff-snzb-04-zigbee",
     "title": "Controlleur d’ouverture sonoff snzb-04 zigbee",
     "description": "28/06/2021 - ",
     "tags": ""
@@ -139,7 +139,7 @@ var documents = [{
     "tags": "esp8266"
     },{
     "id": 23,
-    "url": "/haade.fr/fr/blog/module-de-conversion-usb-uart-ft232",
+    "url": "/haade.fr/fr/produit/module-de-conversion-usb-uart-ft232",
     "title": "Module de conversion usb uart ft232",
     "description": "19/05/2021 - module universel ft232 vers usb",
     "tags": ""
@@ -151,13 +151,13 @@ var documents = [{
     "tags": ""
     },{
     "id": 25,
-    "url": "/haade.fr/fr/blog/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0",
+    "url": "/haade.fr/fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0",
     "title": "Capteur de porte Aqara par xiaomi zigbee 3.0",
     "description": "25/03/2021 - Capteur d'ouverture de porte Xiaomi Aquara compatible zigbee 3.0",
     "tags": ""
     },{
     "id": 26,
-    "url": "/haade.fr/fr/blog/boitier-dencastrement-carre-coswall-44-de-reductions",
+    "url": "/haade.fr/fr/produit/boitier-dencastrement-carre-coswall-44-de-reductions",
     "title": "Boîtier d&#39;encastrement carré Coswall 44% de réductions",
     "description": "18/03/2021 - ",
     "tags": ""

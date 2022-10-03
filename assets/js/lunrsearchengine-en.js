@@ -1,13 +1,13 @@
 
 var documents = [{
     "id": 0,
-    "url": "/haade.fr/en/blog/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature",
+    "url": "/haade.fr/en/product/sonoff-nspanel-smart-scene-wall-switch-smart-wifi-thermostat-temperature",
     "title": "Sonoff NSPanel Smart Scene Wall Switch Smart Wifi Thermostat Temperature",
     "description": "2022/09/16 - ",
     "tags": ""
     },{
     "id": 1,
-    "url": "/haade.fr/en/blog/opening-control-sonoff-snzb-04-zigbee",
+    "url": "/haade.fr/en/product/opening-control-sonoff-snzb-04-zigbee",
     "title": "sonoff snzb-04 zigbee aperture controller",
     "description": "2022/08/31 - ",
     "tags": ""
@@ -67,7 +67,7 @@ var documents = [{
     "tags": ""
     },{
     "id": 11,
-    "url": "/haade.fr/en/blog/temperature-sensor-sonoff-snzb-02-zigbee",
+    "url": "/haade.fr/en/product/temperature-sensor-sonoff-snzb-02-zigbee",
     "title": "Temperature sensor sonoff snzb-02 zigbee",
     "description": "2021/08/25 - ",
     "tags": ""
