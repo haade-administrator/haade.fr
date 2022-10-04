@@ -204,7 +204,7 @@ cookie_consent: "enabled"
 # countapi.xyz
 countapi:
   namespace: haade-administrator.github.io
-  key: 4299f32a-3d13-4fe4-91f7-87c847196022
+  key: ae4cf949-9484-4746-802b-5abf0aa51634
 
 # Sass
 sass:

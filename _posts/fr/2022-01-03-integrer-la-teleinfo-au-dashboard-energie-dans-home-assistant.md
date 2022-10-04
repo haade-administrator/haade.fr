@@ -19,6 +19,7 @@ sitemap:
   lastmod: # date to end modification
 locale: fr_FR
 comments: true
+count: 1810
 ---
 
 Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /fr/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
