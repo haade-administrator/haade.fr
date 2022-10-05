@@ -13,6 +13,8 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 order: 2
+redirect_from:
+  - /en/rgpd-politique-de-confidentialite
 ---
 
 ## Who are we ?

@@ -11,6 +11,8 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 order: 3
+redirect_from:
+  - /en/contact
 ---
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    

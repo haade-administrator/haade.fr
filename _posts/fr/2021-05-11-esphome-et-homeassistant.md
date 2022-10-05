@@ -19,6 +19,8 @@ sitemap:
 beforetoc:
 toc: true
 comments: true
+redirect_from:
+  - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant
 ---
 
 ESPHome est un système d’injection de programme afin de contrôler vos modules wifi ESP8266 / ESP32 par des fichiers de configuration simples mais puissants et les contrôler à distance via des systèmes domotiques tel que Homeassistant.

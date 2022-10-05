@@ -19,6 +19,8 @@ sitemap:
   exclude: #'yes' or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
+redirect_from:
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker
 ---
 
 ## 1- Installation des images et container mariadb/alpin et Adminer.

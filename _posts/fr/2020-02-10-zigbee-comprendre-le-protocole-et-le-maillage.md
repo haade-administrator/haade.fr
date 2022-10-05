@@ -18,6 +18,8 @@ sitemap:
   lastmod: # date to end modification
 toc: false
 comments: true
+redirect_from:
+  - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/zigbee-comprendre-le-protocole-et-le-maillage
 ---
 
 J’ai essayé de trouver sur le web des articles concernant le protocole et le maillage zigbee et la gestion de son parc de modules mais aucun n’avait su répondre à mes attentes, c’est ainsi que m’est venu l’idée de rédiger un tel article.
