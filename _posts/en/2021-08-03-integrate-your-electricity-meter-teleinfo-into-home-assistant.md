@@ -17,6 +17,8 @@ sitemap:
   lastmod: # date to end modification
 locale: en_GB
 toc: true
+redirect_from:
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant
 ---
 For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new "Linky" communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.
 

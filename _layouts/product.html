@@ -18,9 +18,9 @@ layout: default
   {%- if scraper.productId == page.item %}
 
   <div class="shop-pictures">
-    {%- assign images = scraper.images %}
+    <!-- {%- assign images = scraper.images %} -->
     <!-- Featured Image -->
-    {%- include featured-image.html %}
+    {%- include imagegallery.html %}
     
     {%- include aliexreseller.html %}
   </div>

@@ -14,6 +14,8 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: en_GB
+redirect_from:
+  - /en/blog/news/kobol-helios-64-cest-termine
 ---
 On Wednesday 25 August, the company [Kobol](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"}.io **decided to put an end to the adventure** of the open source helios 64 NAS (network attached storage) storage box.
 

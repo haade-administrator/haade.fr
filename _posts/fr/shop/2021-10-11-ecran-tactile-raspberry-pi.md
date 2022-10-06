@@ -1,18 +1,25 @@
 ---
 guid: 2126
 title: "Écran tactile Raspberry Pi"
-date: "2021-10-11"
-images:
-
-  - url: /assets/img/cypripedium-calceolum.jpg
-    alt: Cypripedium Calceolum
-    title: Cypripedium Calceolum
-
-  - url: /assets/img/hello-bumblebee.jpg
-    alt: Hello bumblebee !
-    title: Hello bumblebee !
+description: 'ecran tactile eviciv 10 pouces pour raspberry pi 4'
 layout: product
-published: false
+brand: Eviciv
+date: "2021-10-11"
+categories: Boutique Accessoires Raspberry-pi
+locale: fr_FR
+ean:
+images: 
+  - image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg
+    title: Ecran 21 pouces rapsberrypi
+  - image: EVICIV-10-1-pouces-Raspberry-Pi-montage.jpg
+    title: montage raspberrypi dans ecran 10 pouces
+imageshadow: true
+comments: false
+published: true
+item: 1005002055766609
+item-affiliate: "_Ddj52MB"
+redirect_from:
+  - /produit/ecran-tactile-raspberry-pi
 ---
 
 **➡Caractéristiques uniques de UPi06 Max:**

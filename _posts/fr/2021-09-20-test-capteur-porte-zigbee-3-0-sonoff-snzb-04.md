@@ -19,6 +19,8 @@ locale: fr_FR
 toc: false
 beforetoc:
 comments: true
+redirect_from:
+  - /blog/tests/test-capteur-porte-zigbee-3-0-sonoff-snzb-04
 ---
 Voilà après la [présentation du capteur de température SNZB-02]({% post_url /fr/2021-09-10-test-capteur-temperature-et-humidite-sonoff-snzb-02 %}), je vais détailler rapidement [le capteur d'ouverture sonoff SNZB-04]({% post_url /fr/shop/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee %}), la qualité reste la même, le conditionnement et l'esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM
 

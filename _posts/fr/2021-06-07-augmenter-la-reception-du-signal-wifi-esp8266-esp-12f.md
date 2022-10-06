@@ -19,6 +19,8 @@ beforetoc:
 toc: true
 image: soudure-antenne-exterieur-esp-12f-plus-20db.jpg
 comments: true
+redirect_from:
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/augmenter-la-reception-du-signal-wifi-esp8266-esp-12f
 ---
 
 Voilà un article qui n’est autre que la continuité d’un article que j’ai rédigé il y a peut de temps [Domotiser sa porte de garage pour 5€](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotiser-sa-porte-de-garage-pour-5e/). Il faut maintenant augmenter la réception du signal wifi sur l’ESP8266. En effet les carte ESP8266 esp-12f/12s sont équipées d’une antenne interne peut performante. De plus les moteurs de portes de garages sont bien souvent éloignés de notre réseau wifi. Et pour rien arranger les box du marché ont très souvent des antennes internes, **qui sont faut l’avouer de mauvaises émissivités.**
