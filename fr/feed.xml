@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Oct 2022 17:24:54 +0000</pubDate>
+    <pubDate>Thu, 06 Oct 2022 01:36:09 +0000</pubDate>
     <lastBuildDate>Fri, 23 Sep 2022 00:00:00 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -91,6 +91,24 @@
       <category>Zigbee</category>
       <category>Homeassistant</category>
       <category>Tests</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/2126/</url>
+          <title>Haade.fr</title>
+           <link>https://haade-administrator.github.io/haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Écran tactile Raspberry Pi</title>
+      <description>&lt;p&gt;&lt;strong&gt;➡Caractéristiques uniques de UPi06 Max:&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <link>https://haade-administrator.github.io/fr/produit/ecran-tactile-raspberry-pi</link>
+      <guid isPermaLink="true">https://haade-administrator.github.io/fr/produit/ecran-tactile-raspberry-pi</guid>
+      <category>Boutique</category>
+      <category>Accessoires</category>
+      <category>Raspberry-pi</category>
     </item>
     <item>
       <!-- <image>
@@ -199,26 +217,6 @@
       <category>Domotique</category>
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade-administrator.github.io/haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade-administrator.github.io/haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test capteur température et humidité Sonoff SNZB-02</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;J’ai décidé de mettre en avant en présentant un test du &lt;a href=&quot;https://www.haade.fr/produit/capteur-temperature-sonoff-snzb-02-zigbee/&quot;&gt;capteur de température et humidité Sonoff SNZB-02&lt;/a&gt;, pour le sérieux et l’éventail de produits de la marque. Ça ne va pas être un gros article c’est pourquoi j’ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.&lt;/p&gt;
-</description>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade-administrator.github.io/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
-      <guid isPermaLink="true">https://haade-administrator.github.io/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
-      <category>Test</category>
-      <category>Zigbee</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
