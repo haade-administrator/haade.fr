@@ -8,11 +8,12 @@ date: "2021-10-11"
 categories: Boutique Accessoires Raspberry-pi
 locale: fr_FR
 ean:
-images: 
-  - image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg
-    title: Ecran 21 pouces rapsberrypi
-  - image: EVICIV-10-1-pouces-Raspberry-Pi-montage.jpg
-    title: montage raspberrypi dans ecran 10 pouces
+image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg
+# images: 
+#   - image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg
+#     title: Ecran 21 pouces rapsberrypi
+#   - image: EVICIV-10-1-pouces-Raspberry-Pi-montage.jpg
+#     title: montage raspberrypi dans ecran 10 pouces
 imageshadow: true
 comments: false
 published: true
