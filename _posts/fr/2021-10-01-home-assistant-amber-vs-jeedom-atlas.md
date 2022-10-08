@@ -87,7 +87,7 @@ _Eh bien pas grand chose !_
 
 # Continuons avec Jeedom Atlas
 
-{% picture }posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --alt Jeedom atlas caractéristique %}
+{% picture posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --alt Jeedom atlas caractéristique %}
 
 ## Avantage Jeedom Atlas
 
