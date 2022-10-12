@@ -37,7 +37,7 @@
                 {%- endif %}
                 </span>
                 <span class="author-meta">
-                <a href="{{site.baseurl}}/author-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
+                <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
                 {%- endif %}
                 <span class="post-date">{%- include date.html date=post.date %}</span>
                 </span>
