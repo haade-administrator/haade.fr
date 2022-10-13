@@ -27,7 +27,7 @@ var documents = [{
     "id": 4,
     "url": "/haade.fr/fr/produit/ecran-tactile-raspberry-pi",
     "title": "Écran tactile Raspberry Pi",
-    "description": "11/10/2021 - ecran tactile eviciv 10 pouces pour raspberry pi 4",
+    "description": "11/10/2021 - Écran Tactile Raspberry Pi de 10.1 pouces RPI 2 3 4 modèle B boîtier EVICIV UPi06 Max moniteur Portable RasPi USB C affichage Tactile",
     "tags": ""
     },{
     "id": 5,
