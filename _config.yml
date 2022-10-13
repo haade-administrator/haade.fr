@@ -236,7 +236,7 @@ picture:
   nomarkdown: false
 
 include:
-  - node_modules
+
 
 exclude:
   - changelog.md
@@ -248,3 +248,4 @@ exclude:
   - package-lock.json
   - .jekyll-cache
   - banner.js
+  - node_modules
