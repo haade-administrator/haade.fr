@@ -15,6 +15,7 @@ published: true
 item: 1005002125918926
 item-affiliate: "_DdC2WHD"
 rating: 4.6
+redirect_from: /produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee
 ---
 
 Le capteur de porte/fenêtre sans fil SONOFF SNZB-04 est essentiel pour savoir qui entre et sort de votre maison, il est donc le plus souvent utilisé dans le cadre d’un système de sécurité intelligent. En tant qu’assistant à domicile, il est également compatible zigbee2mqtt et intègre la dernière version du protocole zigbee 3.0.
