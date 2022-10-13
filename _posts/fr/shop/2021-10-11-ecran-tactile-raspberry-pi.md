@@ -1,7 +1,7 @@
 ---
 guid: 2126
 title: "Écran tactile Raspberry Pi"
-description: 'ecran tactile eviciv 10 pouces pour raspberry pi 4'
+description: 'Écran Tactile Raspberry Pi de 10.1 pouces RPI 2 3 4 modèle B boîtier EVICIV UPi06 Max moniteur Portable RasPi USB C affichage Tactile'
 layout: product
 brand: Eviciv
 date: "2021-10-11"

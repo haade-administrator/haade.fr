@@ -235,9 +235,6 @@ picture:
   ignore_missing_images: true
   nomarkdown: false
 
-include:
-
-
 exclude:
   - changelog.md
   - LICENSE.txt
