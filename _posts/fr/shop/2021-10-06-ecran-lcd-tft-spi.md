@@ -15,6 +15,7 @@ comments: false
 published: true
 item: 1005002610639133
 item-affiliate: "_DCVqeQB"
+redirect_from: /produit/ecran-lcd-tft-spi
 ---
 
 **Caractéristiques**
