@@ -1,40 +1,57 @@
 {
-	// Place your espace de travail futurofhaade snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
-	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
-	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
-	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
-	// Placeholders with the same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"scope": "javascript,typescript",
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-	"producthaade": {
-		"prefix": "productFrontmatter",
+	"posthaade": {
+		"prefix": "postHaade",
 		"body": [
 		  "---",
-		  "guid: $1",
-		  "layout: product",
-		  "title: $2",
-		  "description: $3",
-		  "date: $4",
-		  "categories: [$5]",
-		  "tags: [$6]",
-		  "locale: ${7|fr_FR,en_GB|}",
-		  "ean: $8",
-		  "image: $9",
-		  "imageshadow: ${10|true,false|}",
-		  "comments: ${11|true,false|}",
-		  "published: ${12|true,false|}",
-		  "item: $13",
-		  "item-affiliate: $14",
-		  "---"
+		  "guid: ${1:20}",
+		  "title: \"$2\"",
+		  "description: \"$3\"",
+		  "layout: post",
+		  "author: ${4|Nico,Yann,Math67|}",
+		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "last_modified_at: $6",
+		  "categories: [${7|Docker,Domotique,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}, ${9|Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}]",
+		  "tags: [$10]",
+		  "image: '${11:picture.png}'",
+		  "toc: ${12|true,false|}",
+		  "beforetoc: '$13'",
+		  "published: ${14|false,true|}",
+		  "sitemap:",
+		  "  changefreq: '${15|monthly,always,hourly,daily,weekly,yearly,never|}'",
+		  "  exclude: '${16|no,yes|}'",
+		  "  priority: ${17|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|} #between 0.0 to 1.0, 1.0 high priority",
+		  "  lastmod:  # date to end modification",
+		  "locale: ${18|fr_FR,en_GB|}",
+		  "comments: ${19|true,false|}",
+		  "rating: ${20| ,0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0|}",
+		  "---",
+		  "$21"
+		],
+		"description": "posthaade"
+	  },
+
+	  "producthaade": {
+		"prefix": "productHaade",
+		"body": [
+		  "---",
+		  "guid: ${1:2100}",
+		  "layout: product ",
+		  "title: \"$2\"",
+		  "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE\"",
+		  "description: \"$3\"",
+		  "categories: [${7|Boutique,Marque,Protocole,Sonoff,Wifi|}, ${8|Marque,Boutique,Protocole,Sonoff,Wifi|}, ${9|Protocole,Boutique,Marque,Sonoff,Wifi|}]",
+		  "tags: [$10]",
+		  "locale: ${11|fr_FR,en_GB|}",
+		  "brand: ${12|Moes,Sonoff,Xiaomi|}",
+		  "ean: $13",
+		  "image: '${14:picture.png}'",
+		  "imageshadow: ${15|true,false|}",
+		  "comments: ${16|false,true|}",
+		  "published: ${17|false,true|}",
+		  "item: $18",
+		  "item-affiliate: \"$19\"",
+		  "---",
+		  "$20"
 		],
 		"description": "producthaade"
 	  }

@@ -246,3 +246,4 @@ exclude:
   - .jekyll-cache
   - banner.js
   - node_modules
+  - .vscode

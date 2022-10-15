@@ -47,6 +47,8 @@ sitemap:
 
       {%- if post.sitemap.lastmod %}
         {%- assign lastmod = post.sitemap.lastmod | date: '%Y-%m-%d' %}
+      {%- elsif post.last_modified_at %}
+        {%- assign lastmod = post.last_modified_at | date_to_xmlschema %}
       {%- elsif post.date %}
         {%- assign lastmod = post.date | date_to_xmlschema %}
       {%- else %}
