@@ -1,0 +1,41 @@
+{
+	// Place your espace de travail futurofhaade snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"producthaade": {
+		"prefix": "productFrontmatter",
+		"body": [
+		  "---",
+		  "guid: $1",
+		  "layout: product",
+		  "title: $2",
+		  "description: $3",
+		  "date: $4",
+		  "categories: [$5]",
+		  "tags: [$6]",
+		  "locale: ${7|fr_FR,en_GB|}",
+		  "ean: $8",
+		  "image: $9",
+		  "imageshadow: ${10|true,false|}",
+		  "comments: ${11|true,false|}",
+		  "published: ${12|true,false|}",
+		  "item: $13",
+		  "item-affiliate: $14",
+		  "---"
+		],
+		"description": "producthaade"
+	  }
+}
