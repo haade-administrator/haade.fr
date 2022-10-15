@@ -1,10 +1,23 @@
 ---
 guid: 2122
+layout: product 
 title: "Interrupteur tactile z-wave neo coolcam"
-date: "2021-08-25"
-layout: product
-published: false
+date: "2021-08-25 19:17"
+description: "Interrupteur z-wave effet verre gamme neo coolcam bien placé qualité-prix"
+categories: [Boutique, Neo-coolcam, Z-wave]
+tags: [z-wave]
+locale: fr_FR
+brand: Neo-coolcam
+ean: 
+image: 'NEO-COOLCAM-interrupteur-mural-z-wave-Plus-1-2-3CH-EU-868-4Mhz-domotique.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+item: 1005002782331110
+item-affiliate: "_DDH3gjp"
 ---
+
 
 1. Conception intelligente: l'interrupteur d'éclairage est un appareil INTELLIGENT qui peut être contrôlé à distance par le réseau z-wave
 2. Réseau sûr et efficace: dans les communications réseau z-wave, l'interrupteur d'éclairage peut être connecté à n'importe quelle passerelle z-wave dans différents pays ou régions. La fréquence radio est différente dans les communications avec la passerelle z-wave.

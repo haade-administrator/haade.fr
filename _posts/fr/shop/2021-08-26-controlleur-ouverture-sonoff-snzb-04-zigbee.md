@@ -14,7 +14,7 @@ comments: false
 published: true
 item: 1005002125918926
 item-affiliate: "_DdC2WHD"
-rating: 4.6
+rating: 
 redirect_from: /produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee
 ---
 

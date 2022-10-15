@@ -47,11 +47,12 @@
 		  "image: '${14:picture.png}'",
 		  "imageshadow: ${15|true,false|}",
 		  "comments: ${16|false,true|}",
-		  "published: ${17|false,true|}",
-		  "item: $18",
-		  "item-affiliate: \"$19\"",
+		  "rating: ${17| ,0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0|}",
+		  "published: ${18|false,true|}",
+		  "item: $19",
+		  "item-affiliate: \"$20\"",
 		  "---",
-		  "$20"
+		  "$21"
 		],
 		"description": "producthaade"
 	  }

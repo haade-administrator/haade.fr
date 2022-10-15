@@ -262,6 +262,8 @@ async function AliexpressProductScraper(productId, feedbackLimit) {
             (data.imageModule &&
                 data.imageModule.imagePathList) ||
             [],
+        // feedback: feedbackData,
+        // variants: Variants.get(data.skuModule),
         specs: data.specsModule.props,
         currency: data.webEnv?.currency,
         originalPrice: {

@@ -10,9 +10,9 @@
             "name": "Magical Moment Store",
             "companyId": 245373702,
             "storeNumber": 5003092,
-            "followers": 3846,
-            "ratingCount": 275,
-            "rating": "93.0%"
+            "followers": 3847,
+            "ratingCount": 282,
+            "rating": "92.9%"
         },
         "ratings": {
             "totalStar": 5,
@@ -104,12 +104,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 128.08,
-            "max": 128.08
+            "min": 126.64,
+            "max": 126.64
         },
         "salePrice": {
-            "min": 65.33,
-            "max": 65.33
+            "min": 64.59,
+            "max": 64.59
         }
     }
 }
