@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-09-01"
 last_modified_at:
-categories: [News]
+category: News
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png"
 published: true
 sitemap:

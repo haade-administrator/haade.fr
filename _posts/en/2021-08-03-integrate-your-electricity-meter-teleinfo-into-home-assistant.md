@@ -1,8 +1,8 @@
 ---
 guid: 13
 title: "Integrate your electricity meter (teleinfo) in Home Assistant"
-description: ""
-author: math67
+description:
+author: Math67
 layout: post
 date: "2021-08-03"
 last_modified_at:

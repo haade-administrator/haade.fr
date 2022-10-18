@@ -6,12 +6,20 @@
   <link rel="alternate" hreflang="{{ localized_page.locale | replace: '_', '-' }}" href="{{ localized_page.url | absolute_url | remove: 'index.html' }}"/>
   {%- endfor %}
 
-{%- elsif page.layout == 'post' or page.layout == 'product' %}
+{%- elsif page.layout == 'post' %}
   {%- assign localized_posts = site.posts
   | where: 'guid', page.guid
   | sort: 'locale' %}
   {%- for localized_post in localized_posts %}
   <link rel="alternate" hreflang="{{ localized_post.locale | replace: '_', '-'  }}" href="{{ localized_post.url | absolute_url }}"/>
+  {%- endfor %}
+
+{%- elsif page.layout == 'product' %}
+  {%- assign localized_products = site.products
+  | where: 'guid', page.guid
+  | sort: 'locale' %}
+  {%- for localized_product in localized_products %}
+  <link rel="alternate" hreflang="{{ localized_shop.locale | replace: '_', '-'  }}" href="{{ localized_shop.url | absolute_url }}"/>
   {%- endfor %}
 
 {%- elsif page.layout == 'category' %}

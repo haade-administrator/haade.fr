@@ -1,7 +1,7 @@
-{%- if page.collection != 'shop' %}
+{%- if post.layout == 'post' %}
 <div class="rating-holder">
   <div class="Stars" style="--rating: {{post.rating}}; --star-background: #FF6600" title="{{ translate.product.ratingof[page.locale] }} {{post.rating}} {{ translate.product.outof[page.locale] }} 5."></div>
 </div>
-{%- else %}
+{%- elsif product.layout == 'product' %}
 <div class="Stars" style="--rating: {{star}};" title="{{ translate.product.ratingof[page.locale] }} {{post.star}} {{ translate.product.outof[page.locale] }} 5."></div>
 {%- endif %}

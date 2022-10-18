@@ -49,8 +49,8 @@ redirect_from:
             </div>
         </div>
         <h4 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h4>
-            {%- assign posts = site.posts | where:"author","Math67" | where: 'locale', page.locale %}
-            {%- for post in posts %}
+            {%- assign filtered_posts = site.posts | where:"author","Math67" | where: 'locale', page.locale %}
+            {%- for post in filtered_posts %}
             {%- include main-loop-card.html %}
             {%- endfor %}
     </div>

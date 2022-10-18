@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-09-20"
 last_modified_at:
-categories: Tests
+category: Tests
 image: "sonoff-snzb-04-detecteur-porte-zigbee-3.0.png"
 published: true
 sitemap:
@@ -17,6 +17,7 @@ locale: en_GB
 redirect_from:
   - /en/blog/tests/test-capteur-porte-zigbee-3-0-sonoff-snzb-04
 ---
+
 That's after the [presentation of the temperature sensor SNZB-02](https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/), I will detail quickly [the sonoff opening sensor SNZB-04](https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/), the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM
 
 {% include product-embed.html guid="2123" %}

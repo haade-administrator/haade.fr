@@ -69,13 +69,16 @@ giscus:
 # Liste des catégories
 collections:
   category:
-    output: true # générer la page HTML
+    output: true
   gallery:
     output: false
+  products:
+    output: true
+    sort_by: date
 
 defaults:
   - scope:
-      path: "_posts/fr" # an empty string here means all files in the project
+      path: "_posts/fr" 
       type: "posts"
     values:
       layout: "post"
@@ -83,7 +86,7 @@ defaults:
       permalink: fr/blog/:title
 
   - scope:
-      path: "_posts/en" # an empty string here means all files in the project
+      path: "_posts/en" 
       type: "posts"
     values:
       layout: "post"
@@ -91,23 +94,21 @@ defaults:
       permalink: en/blog/:title
 
   - scope:
-      path: "_posts/fr/shop" # an empty string here means all files in the project
-      type: "posts"
+      path: "_products/fr" 
     values:
       layout: "product"
       locale: fr_FR
       permalink: fr/produit/:title
 
   - scope:
-      path: "_posts/en/shop" # an empty string here means all files in the project
-      type: "posts"
+      path: "_products/en" 
     values:
       layout: "product"
       locale: en_GB
       permalink: en/product/:title
 
   - scope:
-      path: "_category/fr" # an empty string here means all files in the project
+      path: "_category/fr" 
     values:
       layout: "category"
       locale: fr_FR
@@ -115,7 +116,7 @@ defaults:
 
 
   - scope:
-      path: "_category/en" # an empty string here means all files in the project
+      path: "_category/en" 
     values:
       layout: "category"
       locale: en_GB

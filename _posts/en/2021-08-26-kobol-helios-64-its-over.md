@@ -5,7 +5,7 @@ layout: post
 author: Nico
 date: "2021-08-26"
 last_modified_at:
-categories: [News]
+category: News
 image: "helios64.png"
 published: true
 sitemap:

@@ -1,12 +1,12 @@
 ---
 guid: 22
 title: "Home-Assistant Amber VS Jeedom Atlas"
-description: ""
+description:
 date: "2021-10-01"
 last_modified_at:
 layout: post
 author: Nico
-categories: Jeedom News Home-Assistant
+categories: [Jeedom, News, Home-Assistant]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png
 published: true
@@ -17,8 +17,7 @@ sitemap:
   lastmod: # date to end modification
 locale: en_GB
 toc: false
-redirect_from:
-  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/home-assistant-amber-vs-jeedom-atlas
+redirect_from: /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/home-assistant-amber-vs-jeedom-atlas
 ---
 
 For the start of the school year Home-Assistant and Jeedom unveil two new boxes, the Home-Assistant Amber vs Jeedom Atlas. Amazing when you know that they both went out a few days apart. The difference lies in the fact that the Amber box is in presale on the platform. [crowdsupply](https://www.crowdsupply.com/nabu-casa/home-assistant-amber) _who close the 27 October 2021_, with an **official release for June 2022** while Jeedom Atlas is already **available for sale** on the site [Domadoo](https://www.domadoo.fr/fr/194_jeedom).

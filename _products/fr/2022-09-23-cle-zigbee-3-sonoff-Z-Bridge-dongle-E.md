@@ -1,6 +1,8 @@
 ---
 guid: 2128
 layout: product
+rating: 4.5
+author: Nico
 brand: Sonoff
 title: "Clé zigbee 3.0 Sonoff zbridge Dongle-E"
 date: "2022-09-23"

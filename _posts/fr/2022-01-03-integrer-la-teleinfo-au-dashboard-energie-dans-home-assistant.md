@@ -23,6 +23,7 @@ redirect_from:
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant
 ---
 
+
 Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /fr/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
 
 ## Prérequis :

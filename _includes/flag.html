@@ -24,13 +24,30 @@
           {%- endfor %}
         {%- endif %}
 
-      {%- elsif page.layout == 'post' or page.layout == 'product' %}
+      {%- elsif page.layout == 'post' %}
         {%- assign navigation_posts = site.posts
           | where: 'guid', page.guid
           | where: 'locale', language[1].slug %}
         {%- if navigation_posts.size == 1 %}
           {%- for navigation_post in navigation_posts %}
             {%- assign url = site.baseurl | append: navigation_post.url %}
+          {%- endfor %}
+        {%- else %}
+          {%- assign navigation_pages = site.pages
+            | where: 'locale_reference', site.fallback_page
+            | where: 'locale', language[1].slug %}
+          {%- for navigation_page in navigation_pages limit:1 %}
+            {%- assign url = site.baseurl | append: navigation_page.url %}
+          {%- endfor %}
+        {%- endif %}
+
+        {%- elsif page.layout == 'product' %}
+        {%- assign navigation_products = site.products
+          | where: 'guid', page.guid
+          | where: 'locale', language[1].slug %}
+        {%- if navigation_products.size == 1 %}
+          {%- for navigation_product in navigation_products %}
+            {%- assign url = site.baseurl | append: navigation_product.url %}
           {%- endfor %}
         {%- else %}
           {%- assign navigation_pages = site.pages
