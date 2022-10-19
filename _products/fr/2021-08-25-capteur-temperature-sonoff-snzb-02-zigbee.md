@@ -4,7 +4,7 @@ layout: product
 title: "Capteur température sonoff snzb-02 zigbee"
 date: "2021-08-25"
 description:
-categories: Boutique Marque Protocole Sonoff Zigbee
+categories: [Boutique, Sonoff, Zigbee]
 locale: fr_FR
 ean:
 image: SONOFF-SNZB-02.png

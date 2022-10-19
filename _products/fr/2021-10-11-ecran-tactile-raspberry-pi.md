@@ -5,7 +5,7 @@ title: "Écran tactile Raspberry Pi"
 description: 'Écran Tactile Raspberry Pi de 10.1 pouces RPI 2 3 4 modèle B boîtier EVICIV UPi06 Max moniteur Portable RasPi USB C affichage Tactile'
 brand: Eviciv
 date: "2021-10-11"
-categories: Boutique Accessoires Raspberry-pi
+categories: [Boutique, Accessoires, Raspberry-pi]
 locale: fr_FR
 ean:
 image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg

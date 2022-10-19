@@ -1,5 +1,5 @@
 ---
-guid: 2004
+guid: 2005
 title: Wifi
 category: Wifi
 description: "The main difference of the Wi-Fi standards developed from 2009 is the use of the two frequency bands 2.4 GHz and 5 Ghz. The 802.11n standard thus made it possible to allocate bandwidth according to the use of each device. For example, a computer requiring a better connection would be allocated the 5 GHz bandwidth, and therefore benefit from a better speed, whereas a telephone browsing the Internet would find itself on the 2.4 GHz bandwidth, thus allowing a better range, to be able to move, but a slightly lower flow.

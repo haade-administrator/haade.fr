@@ -1,5 +1,5 @@
 ---
-guid: 2003
+guid: 2004
 title: Sonoff
 category: Sonoff
 description: "SONOFF was founded out of a simple need: make your lives easier, smart and better.We have the ambition to design and create the most innovative smart products in a simple and affordable way including Wi-Fi DIY smart switches, Wi-Fi smart wall switches, Wi-Fi smart plugs, Wi-Fi smart lighting, and other accessories to give you a smart home."

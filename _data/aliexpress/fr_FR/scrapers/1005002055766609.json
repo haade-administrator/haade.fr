@@ -10,7 +10,7 @@
             "name": "Eviciv Official Store",
             "companyId": 246647964,
             "storeNumber": 5047327,
-            "followers": 97139,
+            "followers": 97125,
             "ratingCount": 77,
             "rating": "94.7%"
         },
@@ -180,12 +180,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 359.39,
-            "max": 368.28
+            "min": 357.15,
+            "max": 365.99
         },
         "salePrice": {
-            "min": 201.26,
-            "max": 206.23
+            "min": 200.01,
+            "max": 204.95
         }
     }
 }

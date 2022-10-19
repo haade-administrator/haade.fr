@@ -10,5 +10,6 @@ module.exports = [
   '1005002782331110',   // 2122 neocollcam z-wave interrupteur
   '1005002610639133',    // 2124 ecran spi      
   '4000274394108',      // 2125 ventilateur raspberrypi
-  '1005002055766609'    // 2126 eviciv ecran 10pouces raspberrypi
+  '1005002055766609',    // 2126 eviciv ecran 10pouces raspberrypi
+  '4000552781660'       // 2119 capteur température digitale
 ]

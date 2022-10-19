@@ -4,7 +4,7 @@ title: "Module de conversion usb uart ft232"
 description: 'module universel ft232 vers usb'
 date: "2021-05-19"
 layout: product
-categories: Boutique
+categories: [Boutique, Accessoires]
 locale: fr_FR
 ean:
 image: 'Module-USB-vers-UART-TTL-FT-232.jpg'

@@ -15,7 +15,7 @@ layout: default
 {%- for post in category %}
 {%- include postbox.html %}
 {%- endfor %}
-{% assign products = site.products | where: "categories", page.category | where: 'published', true | sort: 'date' | reverse %}
+{% assign products = site.products | where: "categories", page.category | where: 'locale', page.locale | where: 'published', true | sort: 'date' | reverse %}
 {% for product in products %}
 {%- include postbox.html %}
 {% endfor %}

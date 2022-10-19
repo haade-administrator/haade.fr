@@ -39,7 +39,7 @@
 		  "title: \"$2\"",
 		  "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE\"",
 		  "description: \"$3\"",
-		  "categories: [${7|Boutique,Marque,Protocole,Sonoff,Wifi|}, ${8|Marque,Boutique,Protocole,Sonoff,Wifi|}, ${9|Protocole,Boutique,Marque,Sonoff,Wifi|}]",
+		  "categories: [${7|Boutique,Sonoff,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${8|Sonoff,Boutique,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${9|Wifi,Zigbee,Z-wave,Boutique,Sonoff,Accessoires,Raspberry-pi|}]",
 		  "tags: [$10]",
 		  "locale: ${11|fr_FR,en_GB|}",
 		  "brand: ${12|Moes,Sonoff,Xiaomi|}",
@@ -55,5 +55,24 @@
 		  "$21"
 		],
 		"description": "producthaade"
+	  },
+
+	  "categoryhaade": {
+		"prefix": "categoryHaade",
+		"body": [
+		  "---",
+		  "guid: ${1:2000}",
+		  "title: \"$2\"",
+		  "category: $3",
+		  "description: \"$4\"",
+		  "locale: ${5|fr_FR,en_GB|}",
+		  "sitemap:",
+		  "  changefreq: '${6|monthly,always,hourly,daily,weekly,yearly,never|}'",
+		  "  exclude: '${7|no,yes|}'",
+		  "  priority: ${8|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|}",
+		  "  lastmod: $9 # date to end modification",
+		  "---"
+		],
+		"description": "categoryhaade"
 	  }
 }

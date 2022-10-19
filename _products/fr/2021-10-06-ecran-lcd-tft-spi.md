@@ -4,7 +4,7 @@ layout: product
 title: "Écran LCD TFT SPI"
 date: "2021-10-06 19:07"
 description: "Ecran additionnel pour micro ordinateur type raspberrypi"
-categories: [Boutique]
+categories: [Boutique, Accessoires, Raspberry-pi]
 tags: [raspberrypi, accessoires]
 locale: fr_FR
 brand: 

@@ -1,5 +1,5 @@
 ---
-guid: 2004
+guid: 2005
 title: Wifi
 category: Wifi
 description: "La principale différence des normes Wi-Fi mise au point à partir de 2009 est l’utilisation des deux bandes de fréquence 2,4 GHz et 5 Ghz. La norme 802.11n permettait ainsi d’allouer une bande passante en fonction de l’utilisation de chaque appareil. Par exemple, un ordinateur nécessitant une meilleure connexion allait se voir allouer la bande passante en 5 Ghz, et donc bénéficier d’un meilleur débit, là où un téléphone naviguant sur Internet allait se retrouver sur la bande passante 2,4 GHz, permettant ainsi une meilleure portée, pour pouvoir se déplacer, mais un débit légèrement plus faible.

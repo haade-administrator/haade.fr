@@ -5,7 +5,7 @@ brand: Sonoff
 title: "Controlleur d’ouverture sonoff snzb-04 zigbee"
 description:
 date: "2021-06-28"
-categories: [Boutique, Sonoff, Zigbee, Wifi]
+categories: [Boutique, Sonoff, Zigbee]
 locale: fr_FR
 ean:
 image: SONOFF-SNZB-04.webp

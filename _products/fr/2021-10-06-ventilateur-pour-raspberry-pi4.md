@@ -4,7 +4,7 @@ layout: product
 title: "Ventilateur pour Raspberrypi 4"
 date: "2021-10-06 18:54"
 description: "Le raspberry à tendance à chauffer ce ventilateur fera le nécessaire pour ne pas dépasser les 50°C"
-categories: [Boutique]
+categories: [Boutique, Accessoires, Raspberry-pi]
 tags: [raspberrypi, accessoires]
 locale: fr_FR
 brand: 
