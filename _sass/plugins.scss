@@ -794,10 +794,11 @@ $lightblue: #2AD2FD;
 @media (max-width: 525px) {
 
   .category p {
-    width: 280px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    display: none;
+  }
+
+  .ariane {
+    display: none;
   }
 
   .firstnavbar {

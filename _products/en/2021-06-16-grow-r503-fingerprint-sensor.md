@@ -1,12 +1,12 @@
 ---
 guid: 2117
 layout: product 
-title: "Grow R503 - capteur d'empreinte digitale"
+title: "Grow R503 - Fingerprint sensor"
 date: "2021-06-16 16:15"
 description: ""
-categories: [Boutique, Wifi]
+categories: [Shop, Wifi]
 tags: []
-locale: fr_FR
+locale: en_GB
 brand: Grow
 ean: 
 image: 'GROW-R503-indicateur-annulaire-circulaire-rvb-controle-LED-DC3-3V-mx1-0-6-broches-Module.jpg'
@@ -51,4 +51,4 @@ Accessories are also available with the Grow R503 such as a [stainless steel pla
 |Abrasive resistance intensity|1 million times|
 |Communications baud rate (UART):|(9600 × N) bps where N = 1 ~ 12(default N = 6, ie 57600bps)|
 
-Documentation technique: [téléchargeable ici](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){:target="_blank"}
+Technical folder: [download here](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){:target="_blank"}

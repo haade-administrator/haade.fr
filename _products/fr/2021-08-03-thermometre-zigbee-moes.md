@@ -1,9 +1,21 @@
 ---
 guid: 2118
+layout: product 
 title: "Thermomètre Zigbee Moes 3 en 1"
-date: "2021-08-03"
-layout: product
-published: false
+date: "2021-08-03 13:43"
+description: "thermomètre zigbee 3.0 par Moes"
+categories: [Boutique, Moes, Zigbee]
+tags: []
+locale: fr_FR
+brand: Moes
+ean: 
+image: 'Thermometre-intelligent-MOES-ZigBee-Bluetooth-luminosite-capteur-detection-de-temperature.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+item: 1005002525279564
+item-affiliate: "_De3MttD"
 ---
 
 1. Le Nouveau thermomètre Moes Zigbee détecte:

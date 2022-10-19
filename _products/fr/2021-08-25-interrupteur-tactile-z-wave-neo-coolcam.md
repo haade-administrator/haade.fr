@@ -7,7 +7,7 @@ description: "Interrupteur z-wave effet verre gamme neo coolcam bien placé qual
 categories: [Boutique, Neo-coolcam, Z-wave]
 tags: [z-wave]
 locale: fr_FR
-brand: Neo-coolcam
+brand: NEO Coolcam
 ean: 
 image: 'NEO-COOLCAM-interrupteur-mural-z-wave-Plus-1-2-3CH-EU-868-4Mhz-domotique.jpg'
 imageshadow: true

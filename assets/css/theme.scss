@@ -1055,6 +1055,10 @@ body.active-side {
     }
 }
 @media (max-width: 480px) {
+    .posttitle {
+    font-size: 22px;
+    text-align: center;
+    }
     .newsletter {
         .mc-field-group input[type="email"] {
             min-width:170px;
