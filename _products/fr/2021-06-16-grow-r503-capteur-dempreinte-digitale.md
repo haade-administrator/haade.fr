@@ -16,39 +16,40 @@ rating:
 published: true
 item: 33053655412
 item-affiliate: "_DEroCaf"
+redirect_from: /produit/grow-r503-capteur-dempreinte-digitale
 ---
 
-The Grow R503 can collect 200 fingerprints, the recognition rate is high whatever the conditions (dry or wet finger, fine texture or marked texture). It can be easily integrated into a variety of end products, such as: access controllers, presence, safe ....
+Le Grow R503 peut collecter 200 empreintes digitales, le taux de reconnaissance est élevé quelles que soient les conditions (doigt sec ou humide, texture fine ou texture marquée). Il peut être facilement intégré dans une variété de produits finaux, tels que : contrôleurs d'accès, présence, coffre-fort....
 
-Accessories are also available with the Grow R503 such as a [stainless steel plate support](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/), despite its fairly high level of tightness, ip65 you can also buy a [plastic or zinc protective valve.](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/)
+Des accessoires sont également disponibles avec le Grow R503 comme un [support plaque inox](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/), malgré son assez haut niveau d'étanchéité, ip65 vous pouvez aussi acheter une [valve de protection plastique ou zinc.](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/)
 
-### Product Description
+### Description Produit
 
-|Model|R503|
-|Type|Capacitive Fingerprint Module|
+|Modèle|R503|
+|Type|Module capacitif d'empreintes digitales|
 |Interface|UART(TTL)|
-|Resolution|508 DPI|
-|Voltage|DC 3.3V|
-|Fingerprint Capacity|200|
-|Sensing array|192*192 pixel|
-|Working current|20mA|
-|Standby current|Typical touch standby voltage: 3.3V, Average current: 2uA|
-|Fingerprint module external size|Diameter 28 (mm)|
-|Fingerprint module inner size|Diameter 23.5 (mm)|
-|Fingerprint module height|19 (mm)|
-|Effective collection area|Diameter 15.5 (mm)|
-|Connector|MX1.0-6Pin|
-|LED Control|YES|
-|LED Color|Blue and Red|
-|Scanning Speed|&lt; 0.2 second|
-|Verification Speed|&lt; 0.3 second|
-|Matching Method|1:1; 1:N|
-|FRR|≤1%|
-|FAR|≤0.001%|
-|Work environment|-20C ---60C|
-|Work Humidity|10-85%|
-|Anti-static capacity|15KV|
-|Abrasive resistance intensity|1 million times|
-|Communications baud rate (UART):|(9600 × N) bps where N = 1 ~ 12(default N = 6, ie 57600bps)|
+|Résolution|508 ppp|
+|Tension|CC 3.3V|
+|Capacité d'empreintes digitales|200|
+|Matrice de détection|192*192 pixels|
+|Courant de travail|20mA|
+|Courant de veille|Tension de veille tactile typique : 3,3 V, courant moyen : 2 uA|
+|Taille externe du module d'empreintes digitales|Diamètre 28 (mm)|
+|Taille intérieure du module d'empreintes digitales|Diamètre 23,5 (mm)|
+|Hauteur du module d'empreintes digitales|19 (mm)|
+|Zone de collecte effective|Diamètre 15,5 (mm)|
+|Connecteur|MX1.0-6Pin|
+|Contrôle LED|OUI|
+|Couleur LED|Bleu et Rouge|
+|Vitesse de numérisation|&lt; 0,2 seconde|
+|Vitesse de vérification|&lt; 0,3 seconde|
+|Méthode de correspondance|1:1 ; 1:N|
+|FRR|≤1 %|
+|LOIN|≤0,001 %|
+|Environnement de travail|-20C-60C|
+|Humidité de travail|10-85 %|
+|Capacité antistatique|15KV|
+|Intensité de la résistance abrasive|1 million de fois|
+|Débit en bauds des communications (UART) :|(9600 × N) bps où N = 1 ~ 12 (par défaut N = 6, c'est-à-dire 57600bps)|
 
 Documentation technique: [téléchargeable ici](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){:target="_blank"}

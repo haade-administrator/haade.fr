@@ -22,6 +22,9 @@
 {%- assign countapi = site.countapi %}
 {%- if jekyll.environment == 'production' and countapi.namespace %}
 <script async src="https://api.countapi.xyz/hit/{{ countapi.namespace }}/{{ page.url | replace: '/', '-' | slice: 1, 64 }}?callback=liveViews"></script>
-{%- elsif jekyll.environment == 'development' %}
-<script async src="https://api.countapi.xyz/get/{{ countapi.namespace }}/{{ page.url | replace: '/', '-' | slice: 1, 64 }}"></script>
+{%- elsif jekyll.environment == 'development' and page.layout == 'post' or page.layout == 'product' %}
+<script async src="https://api.countapi.xyz/create?namespace={{ countapi.namespace }}&key={{ page.url | replace: '/', '-' | slice: 1, 64 }}&enable_reset=1"></script>
+{%- else %}
+<script async src="https://api.countapi.xyz/create?namespace={{ countapi.namespace }}&key={{ page.url | replace: '/', '-' | slice: 1, 64 }}&enable_reset=1"></script>
+
 {%- endif %}

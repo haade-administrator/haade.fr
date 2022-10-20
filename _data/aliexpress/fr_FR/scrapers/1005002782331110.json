@@ -11,8 +11,8 @@
             "companyId": 240232864,
             "storeNumber": 3633016,
             "followers": 308,
-            "ratingCount": 31,
-            "rating": "96.7%"
+            "ratingCount": 30,
+            "rating": "96.6%"
         },
         "ratings": {
             "totalStar": 5,
@@ -76,12 +76,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 36.7,
-            "max": 41.31
+            "min": 37.09,
+            "max": 41.74
         },
         "salePrice": {
-            "min": 29.73,
-            "max": 33.46
+            "min": 30.04,
+            "max": 33.81
         }
     }
 }

@@ -7,6 +7,10 @@ module.exports = [
   '1005003756346858',    // 2128 clé zigbee zbridge
   '4000120687489',       // 2114 module ft232
   '4000713894535',       // 2110 Aqara door 3.0
+  '1005001388390681',    // 2112 camera hikvision
+  '1005002939261789',    // 2113 Esp8266 7-30V
+  '1005001874391490',    // 2115 airlink amp v4
+  '1005002617485357',    // 2116 Grandir R503
   '1005002782331110',    // 2122 neocollcam z-wave interrupteur
   '1005002610639133',    // 2124 ecran spi      
   '4000274394108',       // 2125 ventilateur raspberrypi

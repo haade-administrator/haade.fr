@@ -1,27 +1,54 @@
 ---
 guid: 2115
-title: "Multiroom Up2Stream Amp V4"
-date: "2021-05-20"
-layout: product
-published: false
+layout: product 
+title: "Multiroom Up2stream amp v4"
+date: "2021-05-20 14:09"
+description: ""
+categories: [Boutique, Accessoires, Up2stream]
+tags: []
+locale: fr_FR
+brand: Up2stream
+ean: 
+image: 'Up2Stream-carte-d-amplificateur-st-r-o-V4-WiFi-et-Bluetooth-5-0-50W-x-2.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+item: 1005001874391490
+item-affiliate: "_DB0DUH5"
+redirect_from: /produit/multiroom-up2stream-amp-v4
 ---
 
-Still running cables around your audio system? Want to listen to music on the Internet? The Up2Stream AMP v4 Wifi and Bluetooth amplifier board is perfect for you. You can use AMP v4 to easily create your own wireless stereo system. AMP v4 can provide you with 50Wx2 power on 4 ohm speakers and you can stream music online from many famous online music services like Spotify, Deezer, TuneIn and more.
+Toujours en train de faire passer des câbles autour de votre système audio ? Vous voulez écouter de la musique sur Internet ? La carte d'amplification Wifi et Bluetooth Up2Stream AMP v4 est parfaite pour vous. Vous pouvez utiliser AMP v4 pour créer facilement votre propre système stéréo sans fil. AMP v4 peut vous fournir une puissance de 50Wx2 sur des haut-parleurs de 4 ohms et vous pouvez diffuser de la musique en ligne à partir de nombreux services de musique en ligne célèbres tels que Spotify, Deezer, TuneIn et plus encore.
 
-### Easy switching mode
+### Mode de commutation facile
 
-You can easily change the AMP Mono output mode from Mono to Stereo or vice versa, see what works best for you.
+Vous pouvez facilement changer le mode de sortie AMP Mono de Mono à Stéréo ou vice versa, voyez ce qui vous convient le mieux.
 
-### High power stereo system
+### Système stéréo haute puissance
 
-You can combine 2 mono amps to form a stereo system with a total power of 200 W. It is also very easy to configure. Just 2 steps and you can enjoy your music with high power stereo system.
+Vous pouvez combiner 2 amplis mono pour former un système stéréo d'une puissance totale de 200 W. Il est également très simple à configurer. Juste 2 étapes et vous pouvez profiter de votre musique avec un système stéréo haute puissance.
 
-### DIY your multi-room audio
+### DIY votre audio multi-pièces
 
-When you have speakers in multiple rooms, you can connect multiple AMP v4s to form a multiroom audio system. You can listen to the same music in all rooms at the same time synchronously. It can let you enjoy the booming music all over your house when you have a house party.
+Lorsque vous avez des haut-parleurs dans plusieurs pièces, vous pouvez connecter plusieurs AMP v4 pour former un système audio multiroom. Vous pouvez écouter la même musique dans toutes les pièces en même temps de manière synchrone. Il peut vous permettre de profiter de la musique en plein essor dans toute votre maison lorsque vous organisez une fête à la maison.
 
-### specification
+### Spécification
 
-<table class="a-bordered a-horizontal-stripes aplus-tech-spec-table"><tbody><tr><td class="a-text-bold">Wireless network</td><td>IEEE802.11 b, g, n 2.4G</td></tr><tr><td class="a-text-bold">Ethernet</td><td>RJ45 10,100M unique</td></tr><tr><td class="a-text-bold">Bluetooth</td><td>5.0, SBS, AAC</td></tr><tr><td class="a-text-bold">USB Host</td><td>Play USB music</td></tr><tr><td class="a-text-bold">Bluetooth distance</td><td>10 M</td></tr><tr><td class="a-text-bold">Input signal</td><td>DC 12 V à 26 V</td></tr><tr><td class="a-text-bold">input audio</td><td>Analog 3,5 mm (1 Vrms), connector 4 broches, Micro USB</td></tr><tr><td class="a-text-bold">Output audio</td><td>Analog speaker out ( pin space 5mm ), 4 pin connectore stereo, 2 pin connectore mono, SPDIF Pin out</td></tr></tbody></table>
+|Réseau sans fil|IEEE802.11 b, g, n 2.4G|
+|Ethernet|RJ45 10 100M unique|
+|Bluetooth|5.0, SBS, AAC|
+|Hôte USB|Lire de la musique USB|
+|Distance Bluetooth|10M|
+|Signal d'entrée|DC 12 V à 26 V|
+|entrée audio|Analogique 3,5 mm (1 Vrms), connecteur 4 broches, Micro USB|
+|Sortie audio|Sortie haut-parleur analogique (espacement des broches 5mm), connecteur stéréo 4 broches, connecteur mono 2 broches, sortie SPDIF Pin|
 
-<table class="a-bordered a-horizontal-stripes aplus-tech-spec-table"><tbody><tr><td class="a-text-bold">Frequency response</td><td>20 Hz a 20 kHz</td></tr><tr><td class="a-text-bold">Speaker power stereo</td><td>2 × 50 W into a 4 Ω a 21 V, 2 × 30 W into a 8 Ω a 24 V, 2 × 15 W into a 8 Ω a 15 V</td></tr><tr><td class="a-text-bold">THD</td><td>0,03%, a 1 kHz 50 W + 50 W 24 V-4 Ω</td></tr><tr><td class="a-text-bold">Speaker impedance</td><td>4-8 ohmios</td></tr><tr><td class="a-text-bold">Music format</td><td>FLAC,MP3,AAC,AAC+;ALAC,APE,WAV</td></tr><tr><td class="a-text-bold">Decoding</td><td>Hasta 24bit,192kHz</td></tr><tr><td class="a-text-bold">Protocols</td><td>AirPlay, DLNA, UPnP, Spotify Connect, Qplay</td></tr><tr><td class="a-text-bold">Dimensions</td><td>110 * 80 * 22m</td></tr></tbody></table>
+|Réponse en fréquence|20 Hz à 20 kHz|
+|Puissance des enceintes stéréo|2 × 50 W dans un 4 Ω à 21 V, 2 × 30 W dans un 8 Ω à 24 V, 2 × 15 W dans un 8 Ω à 15 V|
+|THD|0,03%, à 1 kHz 50 W + 50 W 24 V-4 Ω|
+|Impédance des enceintes|4-8 ohms|
+|Format de musique|FLAC,MP3,AAC,AAC+;ALAC,APE,WAV|
+|Décodage|Hasta 24bit,192kHz|
+|Protocoles|AirPlay, DLNA, UPnP, Spotify Connect, Qplay|
+|Dimensions|110 * 80 * 22m|

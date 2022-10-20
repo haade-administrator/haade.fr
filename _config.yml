@@ -205,7 +205,7 @@ cookie_consent: "enabled"
 # countapi.xyz
 countapi:
   namespace: haade.fr
-  key: ae4cf949-9484-4746-802b-5abf0aa51634
+  key: 97a74694-cc9d-43bb-9948-4d63fdccef94
 
 # Sass
 sass:

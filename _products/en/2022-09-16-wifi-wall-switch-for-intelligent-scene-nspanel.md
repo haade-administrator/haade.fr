@@ -1,10 +1,11 @@
 ---
 guid: 2127
 layout: product
-title: "Sonoff NSPanel Smart Scene Wall Switch Smart Wifi Thermostat Temperature"
-description:
+brand: Sonoff
+title: "Sonoff NSPANEL"
+description: "wifi wall switch for smart stage NSPanel"
 date: "2022-09-16 18:05:07 +0200"
-categories: Shop Brand Wifi Sonoff
+categories: [Shop, Sonoff, Wifi]
 locale: en_GB
 ean:
 image: sonoff-nspanel-presentation.webp

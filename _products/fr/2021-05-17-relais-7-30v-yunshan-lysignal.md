@@ -1,19 +1,30 @@
 ---
 guid: 2113
-title: "ESP8266 relay 7-30v Yunshan lysignal ESP-12F"
+layout: product 
+title: "ESP8266 relais 7-30v ESP-12F"
 date: "2021-05-17"
-layout: product
-published: false
+description: ""
+categories: [Boutique, Esp, Wifi]
+tags: []
+locale: fr_FR
+brand:
+ean: 
+image: 'Module-relais-WIFI-ESP8266-DC-7V-DC-30V-Module-reseau-65mm-x-40mm-x-20mm.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+item: 1005002939261789
+item-affiliate: "_DdXXdRV"
+redirect_from: /produit/relais-7-30v-yunshan-lysignal
 ---
 
-With ESP8266 WiFi module, 4-layer board design. Input overvoltage protection, input with TVS, when the voltage exceeds 33V, the automatic protection works. Input overcurrent protection. Relay 220V 10A, 125V 12A normally open, normally closed. One way optocoupler isolation input, TVS input protection. High current terminals An output status indicator, an input status indicator. More safety with the PCB relays anti-climb design. Access control server via TCP CLIENT mode Via HTTP protocol control
+Avec module WiFi ESP8266, conception de carte à 4 couches. Protection contre les surtensions d'entrée, entrée avec TVS, lorsque la tension dépasse 33 V, la protection automatique fonctionne. Protection contre les surintensités d'entrée. Relais 220V 10A, 125V 12A normalement ouvert, normalement fermé. Entrée d'isolation optocoupleur unidirectionnelle, protection d'entrée TVS. Bornes de courant élevé Un indicateur d'état de sortie, un indicateur d'état d'entrée. Plus de sécurité avec la conception anti-escalade des relais PCB. Serveur de contrôle d'accès via le mode CLIENT TCP Via le contrôle du protocole HTTP
 
-### Characteristics:
+### Les caractéristiques:
 
-Input voltage: DC 7-30V Panel dimension: 65mm × 40mm × 20mm
+Tension d'entrée : DC 7-30 V Dimension du panneau : 65 mm × 40 mm × 20 mm
 
-### Package including:
+### Forfait comprenant :
 
-1 x ESP8266 220V 10A Network Relay WIFI Module
-
-\[content-egg-price-movers template=wdgt\_price\_movers\_list limit=5\]
+1 module WIFI relais réseau ESP8266 220V 10A

@@ -16,6 +16,7 @@ rating:
 published: true
 item: 33053655412
 item-affiliate: "_DEroCaf"
+redirect_from: /en/produit/grow-r503-capteur-dempreinte-digitale
 ---
 
 The Grow R503 can collect 200 fingerprints, the recognition rate is high whatever the conditions (dry or wet finger, fine texture or marked texture). It can be easily integrated into a variety of end products, such as: access controllers, presence, safe ....

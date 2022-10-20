@@ -11,7 +11,7 @@
             "companyId": 245373702,
             "storeNumber": 5003092,
             "followers": 3847,
-            "ratingCount": 283,
+            "ratingCount": 284,
             "rating": "92.9%"
         },
         "ratings": {
@@ -104,12 +104,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 125.85,
-            "max": 125.85
+            "min": 127.16,
+            "max": 127.16
         },
         "salePrice": {
-            "min": 64.19,
-            "max": 64.19
+            "min": 64.86,
+            "max": 64.86
         }
     }
 }

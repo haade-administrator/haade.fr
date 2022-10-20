@@ -10,8 +10,8 @@
             "name": "zemismart Direct Store",
             "companyId": 234065807,
             "storeNumber": 1848374,
-            "followers": 119979,
-            "ratingCount": 1599,
+            "followers": 119987,
+            "ratingCount": 1594,
             "rating": "96.5%"
         },
         "ratings": {
@@ -48,12 +48,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 46.18,
-            "max": 46.18
+            "min": 46.66,
+            "max": 46.66
         },
         "salePrice": {
-            "min": 25.86,
-            "max": 25.86
+            "min": 26.13,
+            "max": 26.13
         }
     }
 }

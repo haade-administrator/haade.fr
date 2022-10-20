@@ -10,15 +10,15 @@
             "name": "RazerZONE Store",
             "companyId": 239354536,
             "storeNumber": 2793050,
-            "followers": 74691,
-            "ratingCount": 844,
+            "followers": 0,
+            "ratingCount": 838,
             "rating": "95.5%"
         },
         "ratings": {
             "totalStar": 5,
             "averageStar": "4.4",
-            "totalStartCount": 42,
-            "fiveStarCount": 28,
+            "totalStartCount": 43,
+            "fiveStarCount": 29,
             "fourStarCount": 6,
             "threeStarCount": 6,
             "twoStarCount": 0,
@@ -52,12 +52,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 3.88,
-            "max": 3.88
+            "min": 3.92,
+            "max": 3.92
         },
         "salePrice": {
-            "min": 2.45,
-            "max": 2.45
+            "min": 2.48,
+            "max": 2.48
         }
     }
 }

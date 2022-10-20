@@ -13,6 +13,15 @@ comments: false
 published: true
 item: 4000120687489
 item-affiliate: '_DDMgdcF'
+redirect_from: /produit/module-de-conversion-usb-uart-ft232
 ---
 
-**Comment utiliser:** Dans le cas de travailler avec un MCU: VCCIO: sortie 3,3 V ou 5 V (le module est alimenté par USB, le cavalier intégré doit être court-circuité à 3,3 V ou 5 V) GND: GND TXD: MCU.RX (direction du signal: MCU.RX << FT232 << PC.TX) RXD: MCU.TX (direction du signal: MCU.TX >> FT232 >> PC.RX) RTS: MCU.CTS (direction du signal: MCU.CTS << FT232 << PC.RTS) CTS: MCU.RTS (direction du signal: MCU.RTS >> FT232 >> PC.CTS)
+Le FT232R est une interface UART USB vers série, une façon peu coûteuse d'ajouter une capacité USB aux microcontrôleurs. Utilisez ceci pour donner votre propre planche à pain pour la capacité USB pour le démarrage ou le téléchargement de croquis.
+
+Indicateur de communication d'émetteur-récepteur RXD/TXD
+
+Comprend une protection contre les surintensités, à l'aide d'un fusible 500ma à restauration automatique
+
+Cette carte comprend une broche DTR nécessaire à la réinitialisation automatique lors du téléchargement sur votre appareil.
+
+Alimentation USB: 3.3V ou 5V
