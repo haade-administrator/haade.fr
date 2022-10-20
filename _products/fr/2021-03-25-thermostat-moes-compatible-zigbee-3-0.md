@@ -1,22 +1,22 @@
 ---
-guid|2111
-layout|product 
-title|"Thermostat Moes compatible zigbee 3.0"
-date|"2022-10-20 18:34"
-description|"thermostat tactile Moes avec puce zigbee 3.0"
-categories|[Boutique, Moes, Zigbee]
-tags|[]
-locale|fr_FR
-brand|Moes
-ean|
-image|'Moes-Thermostat-zigbee-intelligent.jpg'
-imageshadow|true
-comments|false
-rating| 
-published|true
-item|4001326539649
-item-affiliate|"_DESyRwL"
-redirect_from|/produit/thermostat-moes-compatible-zigbee-3-0
+guid: 2111
+layout: product 
+title: "Thermostat Moes compatible zigbee 3.0"
+date: "2022-10-20 18:34"
+description: "thermostat tactile Moes avec puce zigbee 3.0"
+categories: [Boutique, Moes, Zigbee]
+tags: []
+locale: fr_FR
+brand: Moes
+ean:
+image: 'Moes-Thermostat-zigbee-intelligent.jpg'
+imageshadow: true
+comments: false
+rating: 
+published: true
+item: 4001326539649
+item-affiliate: "_DESyRwL"
+redirect_from: /produit/thermostat-moes-compatible-zigbee-3-0
 ---
 
 Décidément Moes fabrique des produits zigbee de qualité et nous allons dans très peut de temps vous présenter plus en détail ce thermostat avec un article détaillé et peut être une vidéo présenté par tonton

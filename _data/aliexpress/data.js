@@ -7,6 +7,7 @@ module.exports = [
   '1005003756346858',    // 2128 clé zigbee zbridge
   '4000120687489',       // 2114 module ft232
   '4000713894535',       // 2110 Aqara door 3.0
+  '4000240410050',       // 2109 boitier argon one+
   '4001326539649',       // 2111 Thermostat moes zigbee 3.0
   '1005001388390681',    // 2112 camera hikvision
   '1005002939261789',    // 2113 Esp8266 7-30V
