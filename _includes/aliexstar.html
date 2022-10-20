@@ -26,7 +26,7 @@
     <div class="itemscraper"><strong class="mr-1">{{ translate.update[page.locale] }}:</strong> {%- include date.html
       date=site.time %}</div>
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong>{%- include
-      star_rating.html %}<div class="totalrating">({{ rating.totalStartCount }} {{
+      star_rating.html %}<div class="totalrating">({{ totalstar }} {{
         translate.product.reviews[page.locale] }})</div>
     </div>
     {%- endif %}
