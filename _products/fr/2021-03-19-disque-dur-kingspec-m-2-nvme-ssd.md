@@ -13,7 +13,7 @@ image: 'KingSpec-disque-dur-interne-SSD-M-2-NVMe-128-PCIe-avec-capacit-de-256-go
 imageshadow: true
 comments: false
 rating:  
-published: false
+published: true
 item: 1005004405900182
 item-affiliate: "_DD02Q83"
 redirect_from: /produit/disque-dur-kingspec-m-2-nvme-ssd

@@ -2,7 +2,7 @@
 guid: 2105
 layout: product 
 title: "Junction box Coswall square"
-date: "2021-03-09 10:22"
+date: "2021-03-19 10:22"
 description: "Square recessed box ideal for home automation module"
 categories: [Shop, Accessories]
 tags: []

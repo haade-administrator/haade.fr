@@ -7,6 +7,7 @@ module.exports = [
   '1005003756346858',    // 2128 clé zigbee zbridge
   '4000120687489',       // 2114 module ft232
   '4000713894535',       // 2110 Aqara door 3.0
+  '32958909969',         // 2102 Coswall boite dérivation
   '1005002061590357',    // 2103 ZTS Moes inter
   '1005001721899988',    // 2104 argon boitier avec nvme
   '32221847893',         // 2105 boiter encastrement coswall
