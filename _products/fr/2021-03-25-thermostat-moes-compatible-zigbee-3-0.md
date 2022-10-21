@@ -2,7 +2,7 @@
 guid: 2111
 layout: product 
 title: "Thermostat Moes compatible zigbee 3.0"
-date: "2022-10-20 18:34"
+date: "2021-03-25 18:34"
 description: "thermostat tactile Moes avec puce zigbee 3.0"
 categories: [Boutique, Moes, Zigbee]
 tags: []

@@ -1,11 +1,24 @@
 ---
 guid: 2103
-title: "Interrupteur Zigbee tactile Moes ZTS-EU upgrade 2020"
-date: "2021-03-18"
-coverImage: "ZigBeeWallTouchSmartLightSwitchWithNeutralNoNeutralNoCapacitorSmartLifeTuyaWorks.jpg"
-layout: product
-published: false
+layout: product 
+title: "Interrupteur Moes ZTS-EU upgrade 2020"
+date: "2021-03-18 10:42"
+description: "Interrupteur Zigbee tactile Moes ZTS-EU upgrade 2020, 1, 2 ou 3 commandes"
+categories: [Boutique, Zigbee, Moes]
+tags: []
+locale: fr_FR
+brand: Moes
+ean: 
+image: 'MOES-Interrupteur-Mural-Tactile-ZigBee-Commutateur-Connecte-avec-ou-Sans-Neutre.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+item: 1005002061590357
+item-affiliate: "_DCXgdBz"
+redirect_from: /produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020
 ---
+
 
 Vous désirez choisir un bon interrupteur tactile alors n'hésitez plus. Testé par tonton depuis l'évolution en 2020 (voir le lien plus bas). L'upgrade inclus quelques nouveautés. Surtout lors d''installation dans une maison ancienne.
 
@@ -27,5 +40,3 @@ Vous désirez choisir un bon interrupteur tactile alors n'hésitez plus. Testé 
 #### **Vidéo de présentation Youtube**
 
 [https://youtu.be/cq0ZeT6K1uY](https://youtu.be/cq0ZeT6K1uY)
-
-\[content-egg module=Aliexpress2\]

@@ -2,7 +2,7 @@
 guid: 2109
 layout: product 
 title: "Argon One+ boitier raspberrypi"
-date: "2022-10-20 19:11"
+date: "2021-03-27 19:11"
 description: "Boitier de qualité en aluminium pour raspberry pi 4"
 categories: [Boutique, Accessoires, Raspberry-pi]
 tags: []
