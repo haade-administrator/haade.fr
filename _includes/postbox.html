@@ -7,7 +7,7 @@
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ post.url }}">
                 {%- if post.image %}
-                {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box posts/{{ post.guid }}/{{ post.image }} 183:103 --alt {{ post.title }} %}{%- endif %}
+                {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box posts/{{ post.guid }}/{{ post.image }} 183:103 --alt {{ post.title }} --img width="366px" height="auto" %}{%- endif %}
                 {%- endif %}
             </a>
         </div>

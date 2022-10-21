@@ -80,9 +80,9 @@ Après lancement de l'image l'installation se fait rapidement grâce au travail 
 
 PS: Si tu veux utiliser une [installation sous docker-compose tu trouvera le code ici.](https://github.com/dlandon/zoneminder.machine.learning/blob/master/docker-compose.yaml){:target="_blank"}
 
-## 1 - Préparation de Zoneminder pour Home assistant et Machinelearning ML
+### 1 - Préparation de Zoneminder pour Home assistant et Machinelearning ML
 
-## Protection par mot de passe de Zoneminder
+**Protection par mot de passe de Zoneminder**
 
 Modifier l'utilisateur par défaut **Admin** dan options >>> utilisateurs et paramétrez un mot de passe
 
@@ -107,7 +107,7 @@ Options >>> Utilisateurs >> Ajouter utilisateurs
 
 {% picture posts/{{ page.guid }}/capture-utilisateur-zoneminder.png 410:347 --alt paramétrage utilisateur zoneminder %}
 
-## 2 - Paramétrage du Machinelearning ( ZMEVENTNOTIFICATION )
+### 2 - Paramétrage du Machinelearning ( ZMEVENTNOTIFICATION )
 
 Pour commencer l'intégralité de la documentation est disponible à cette adresse [https://zmeventnotification.readthedocs.io/](https://zmeventnotification.readthedocs.io/){:target="_blank"}
 
@@ -193,7 +193,7 @@ sudo service zoneminder restart
 
 et voilà si tout s'est bien passé Zmeventnotification devrait être fonctionnel.
 
-## 3 - Intégration de Zoneminder dans Home Assistant
+### 3 - Intégration de Zoneminder dans Home Assistant
 
 les lignes de codes ci-dessous sont à rentrer dans la configuration.yaml de home-assistant pour connaître tous les paramètres consulte cette page officielle: [Intégration Zoneminder et Homeassistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 
@@ -225,7 +225,7 @@ Pour Home Assistant j'ai créé deux nouveaux états, HOME c'est un état quand 
 {% picture posts/{{ page.guid }}/zoneminder-etat.webp 410:197 --alt Paramétrer un état dans zoneminder %}
 
 
-## 4 - Fonctionnement des Modes dans Zoneminder:
+### 4 - Fonctionnement des Modes dans Zoneminder:
 
 - **Aucun:** Moniteur désactivé. Aucun flux visualisé ni aucun événement généré.
 - **Nodect:** Il s'agit d'un mode spécial conçu pour travailler avec des déclencheurs externes. Dans Nodect, aucune détection de mouvement n'a lieu mais les événements sont enregistrés sur déclencheurs externes
