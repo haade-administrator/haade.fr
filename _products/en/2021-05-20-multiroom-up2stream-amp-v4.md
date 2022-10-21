@@ -47,8 +47,8 @@ When you have speakers in multiple rooms, you can connect multiple AMP v4s to fo
 |Frequency response|20 Hz a 20 kHz|
 |Speaker power stereo|2 × 50 W into a 4 Ω a 21 V, 2 × 30 W into a 8 Ω a 24 V, 2 × 15 W into a 8 Ω a 15 V|
 |THD|0,03%, a 1 kHz 50 W + 50 W 24 V-4 Ω|
-|Speaker impedance|4-8 ohmios|
-|Music format|FLAC,MP3,AAC,AAC+;ALAC,APE,WAV|
+|Speaker impedance|4-8 ohms|
+|Music format|FLAC, MP3, AAC, AAC+, ALAC, APE, WAV|
 |Decoding|Hasta 24bit,192kHz|
 |Protocols|AirPlay, DLNA, UPnP, Spotify Connect, Qplay|
 |Dimensions|110 * 80 * 22m|

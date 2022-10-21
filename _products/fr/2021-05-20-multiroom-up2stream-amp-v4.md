@@ -48,7 +48,7 @@ Lorsque vous avez des haut-parleurs dans plusieurs pièces, vous pouvez connecte
 |Puissance des enceintes stéréo|2 × 50 W dans un 4 Ω à 21 V, 2 × 30 W dans un 8 Ω à 24 V, 2 × 15 W dans un 8 Ω à 15 V|
 |THD|0,03%, à 1 kHz 50 W + 50 W 24 V-4 Ω|
 |Impédance des enceintes|4-8 ohms|
-|Format de musique|FLAC,MP3,AAC,AAC+;ALAC,APE,WAV|
+|Format de musique|FLAC, MP3, AAC, AAC+, ALAC, APE, WAV|
 |Décodage|Hasta 24bit,192kHz|
 |Protocoles|AirPlay, DLNA, UPnP, Spotify Connect, Qplay|
 |Dimensions|110 * 80 * 22m|
