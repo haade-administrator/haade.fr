@@ -13,7 +13,7 @@ presets:
     formats: [webp, original]
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: true
+    dimension_attributes: false
     fallback_width: 300
 
   logo:
@@ -35,12 +35,12 @@ presets:
     fallback_width: 425
 
   post:
-    widths: [ 944 ]
+    widths: [ 1200 ]
     formats: [webp, original]
     sizes:
       laptop: 350px
-    size: 944px
-    fallback_width: 944
+    size: 1200px
+    fallback_width: 1200
     dimension_attributes: true
 
   box:
@@ -53,7 +53,7 @@ presets:
     attributes:
       img: 'class="img-thumb"'
       parent: 'class="lazyimg"'
-    dimension_attributes: true
+    dimension_attributes: false
 
 
   avatar:

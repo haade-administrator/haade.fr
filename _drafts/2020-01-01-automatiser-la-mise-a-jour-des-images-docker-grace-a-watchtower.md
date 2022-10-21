@@ -66,7 +66,7 @@ docker run -d \
     --cleanup
 ```
 
-Si On veut faire les mises à jours de certaines images il suffit de mettre le nom des **images containers concernées**. Ainsi dans l'exemple ci-dessous seul les images nommé [Jeedom](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/installation-complete-et-securisee-de-jeedom-sur-docker/) et Homeassistant seront mises à jour.
+Si On veut faire les mises à jours de certaines images il suffit de mettre le nom des **images containers concernées**. Ainsi dans l'exemple ci-dessous seul les images nommé [Jeedom]({%- post_url 2019-12-09-installation-complete-et-securisee-de-jeedom-sur-docker %}) et Homeassistant seront mises à jour.
 
 ```docker
 docker run -d \

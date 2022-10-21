@@ -22,35 +22,34 @@ comments: true
 redirect_from:
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e
 ---
-Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **<span class="has-inline-color has-luminous-vivid-orange-color">elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v</span>**. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.
+
+Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v**. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.
 
 ## Prérequis pour domotiser sa porte de garage:
 
 - Homeassistant installé avec esphome
 - Un [module usb FT232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
-- un [module 7/30V Yunshan Lysignal esp8266 esp-12f](https://www.haade.fr/produit/relais-7-30v-yunshan-lysignal/)
-- Esphome installé sur le système [( voir l’article dédié )](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/)
+- un [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/fr/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
+- Esphome installé sur le système [( voir l’article dédié )]({%- post_url 2021-05-11-esphome-et-homeassistant %})
 - Savoir créer un nouveau Noeud et le paramétrer
 - device type: Espressif ESP-12E module
 
 ## Nomenclature Yunshan-Lysignal esp8266
 
-{% picture posts/{{ page.guid }}/yunshan.png --alt Relais Yunshan-Lysignal esp8266 porte de garage %}
+{% picture posts/{{ page.guid }}/yunshan.png --alt Relais Yunshan-Lysignal esp8266 porte de garage %}<br>
 
-### ESP8266 relay 7-30v Yunshan lysignal ESP-12F
+### ESP8266 relais 7-30v Yunshan lysignal ESP-12F
 
 A: Alimentation 7-30V + CC
-
 A1: Connectique ft232 (Tx, RX et GND)  
 B: Cavalier boot ( en position programme sur la photo )  
-C: Sortie contacteur
 
+C: Sortie contacteur
 - Entrée relais normalement fermé (NC)
 - Relais communication (COM) fil noir
 - Contact de relais normalement ouvert (NO)
 
 D: Optocoupleur ( interrupteur bouton poussoir )
-
 - +5v (ligne + du bouton poussoir)
 - GPIO5 (ligne – du bouton poussoir)
 - GND (ground non raccordé à raccorder avec le ground A1 par exemple, **indispensable pour le fonctionnement du bouton poussoir** )
@@ -63,7 +62,7 @@ D: Optocoupleur ( interrupteur bouton poussoir )
 
 [ft232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 et
-[esp8266 ESP-12F Yunshan-Lysignal](https://www.haade.fr/produit/relais-7-30v-yunshan-lysignal/)
+[esp8266 ESP-12F Yunshan-Lysignal]({%- link _products/fr/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
 
 - d’un côté une prise dc universelle paramétré sur 9v il faut 7v au minimum pour la programmation.
 - de l’autre rx sur tx
@@ -73,7 +72,7 @@ et
 
 {% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Branchement ft 232 yunshan Lysignal %}
 
-1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F](https://www.haade.fr/go/8933-32738602028)
+1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- link _products/fr/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
 2. [Module de conversion usb uart ft232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 
 ## Fichier paramétré pour ESPhome
@@ -96,9 +95,10 @@ et
 
 ## Rendu final dans Homeassistant
 
-![Rendu final de l'esp8266 dans homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/yunshan-homeassistant.gif){: width="499" height="369"}
+{% picture posts/{{ page.guid }}/yunshan-homeassistant.gif --alt Rendu final de esp8266 dans homeassistant %}
 
-image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
+
+image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome]({%- post_url 2021-05-11-esphome-et-homeassistant %}) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
 
 ## Création de l’automatisation contact sec
 
@@ -119,7 +119,7 @@ Dans notre cas nous voulons domotiser un moteur hormann la nomenclature est asse
 
 Maintenant que notre module est prêt et fonctionnel avec homeassistant il ne nous reste plus qu’à le mettre en place dans notre moteur. **Attention! Avant toute intervention n’oubliez pas de couper le courant 230V**. heureusement le branchement est simple et il y a de la place pour intégrer des modules supplémentaires. Comme il s’agit de test en 24V, pour l’occasion nous n’avons pas utilisé de connecteurs molex adéquats et de fil électrique 0,75mm.
 
-{%- include hormann.html %}
+{% include hormann.html %}
 
 Il ne reste plus qu’à rassembler le tout et l’incorporer dans le boitier du moteur de porte de garage et vous pouvez pour 5€ livré commander votre porte de garage en wifi via esphome et homeassistant, tout simplement magic !.
 
