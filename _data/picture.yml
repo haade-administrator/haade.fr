@@ -3,7 +3,7 @@ media_queries:
   tablet: 'max-width: 768'
   laptop: 'max-width: 1024px'
   desktop: 'max-width: 1200'
-  wide: 'min-width: 1201'
+  wide: 'min-width: 944'
 
 presets:
 
@@ -23,25 +23,25 @@ presets:
       mobile: 150px
     size: 250px
     fallback_width: 250
-    dimension_attributes: true
+    dimension_attributes: false
 
   shop:
-    widths: [ 425 ]
+    widths: [ 444 ]
     formats: [webp, original]
     sizes:
-      laptop: 550px
-    size: 425px
-    dimension_attributes: true
-    fallback_width: 425
+      laptop: 444px
+    size: 400px
+    dimension_attributes: false
+    fallback_width: 444
 
   post:
-    widths: [ 1200 ]
+    widths: [ 944 ]
     formats: [webp, original]
     sizes:
       laptop: 350px
-    size: 1200px
-    fallback_width: 1200
-    dimension_attributes: true
+    size: 944px
+    fallback_width: 944
+    dimension_attributes: false
 
   box:
     markup: data_auto
