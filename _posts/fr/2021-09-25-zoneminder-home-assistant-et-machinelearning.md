@@ -97,7 +97,7 @@ Cochez les cases comme l'image ci-dessous et rentrez un code Hashsecret pour plu
 5. OPT\_USE\_LEGACI\_API\_AUTH: activer l'uthentification API
 6. OPT\_USE\_EVENTNOTIFICATION: Prise en compte du machine learning
 
-{% picture posts/{{ page.guid }}/capture-options-systemes-zoneminder.png 10:9 --alt paramétrage option zoneminder %}
+{% picture posts/{{ page.guid }}/capture-options-systemes-zoneminder.png 10:9 --img width="820" height="738" --alt paramétrage option zoneminder %}
 
 **Mise en place pour Home Assistant**
 
@@ -105,7 +105,7 @@ Ensuite il faut créer un utilisateur dédié à Homeassistant avec une ouvertur
 
 Options >>> Utilisateurs >> Ajouter utilisateurs
 
-{% picture posts/{{ page.guid }}/capture-utilisateur-zoneminder.png 410:347 --alt paramétrage utilisateur zoneminder %}
+{% picture posts/{{ page.guid }}/capture-utilisateur-zoneminder.png 410:347 --img width="820" height="694" --alt paramétrage utilisateur zoneminder %}
 
 ### 2 - Paramétrage du Machinelearning ( ZMEVENTNOTIFICATION )
 
@@ -197,11 +197,11 @@ et voilà si tout s'est bien passé Zmeventnotification devrait être fonctionne
 
 les lignes de codes ci-dessous sont à rentrer dans la configuration.yaml de home-assistant pour connaître tous les paramètres consulte cette page officielle: [Intégration Zoneminder et Homeassistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 
-{% picture posts/{{ page.guid }}/detail-ha-zm.png 41:23 --alt interface zoneminder dans home assistant %}
+{% picture posts/{{ page.guid }}/detail-ha-zm.png 41:23 --img width="820" height="460" --alt interface zoneminder dans home assistant %}
 
 interface complète de zoneminder dans home assistant
 
-En plus de cette intégration dans home-assistant Zoneminder permet de faire remonter un service appelé z**oneminder.set\_run\_state**. Permet de Changer l'état de Zoneminder.
+En plus de cette intégration dans home-assistant Zoneminder permet de faire remonter un service appelé **zoneminder.set\_run\_state**. Permet de Changer l'état de Zoneminder.
 
 ## Qu'est-ce qu'un état dans Zoneminder:
 
@@ -222,7 +222,7 @@ Pour Home Assistant j'ai créé deux nouveaux états, HOME c'est un état quand 
 
 **AVANTAGE:** Par rapport au binary-sensor Zm qui permet de passer d'un mode à l'autre dans HA, le changement d'état est très pratique lorsque l'on veut choisir un autre mode, lorsqu'on à pleins de caméra et surtout simplifie les automatisations dans HA appel à un service sans avoir besoin de faire appel à chaque caméra ou de créer un groupe binary\_sensor Home ou Away dans group.yaml de HA.
 
-{% picture posts/{{ page.guid }}/zoneminder-etat.webp 410:197 --alt Paramétrer un état dans zoneminder %}
+{% picture posts/{{ page.guid }}/zoneminder-etat.webp 410:197 --img width="820" height="394" --alt Paramétrer un état dans zoneminder %}
 
 
 ### 4 - Fonctionnement des Modes dans Zoneminder:
