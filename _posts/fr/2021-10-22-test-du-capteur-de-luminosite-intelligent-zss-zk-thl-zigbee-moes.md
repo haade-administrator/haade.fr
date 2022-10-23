@@ -33,9 +33,7 @@ La marque **Moes** offrant des produits de qualité/prix (~15euros) correcte mai
 
 ## **Contenu de la boîte :**
 
-{% picture posts/{{ page.guid }}/deballage-capteur-luminosite-moes.png --alt déballage du capteur de luminosité et thermomètre moes zigbee %}
-
-{% picture posts/{{ page.guid }}/contenu-capteur-intelligent-moes-zss-zk-thl.png --alt contenu de la boite du capteur intelligent de luminosité et thermostat moes zss-zk-thl zigbee %}
+{% picture posts/{{ page.guid }}/contenu-capteur-intelligent-moes-zss-zk-thl.png --img width="820" height="615" --alt contenu de la boite du capteur intelligent de luminosité et thermostat moes zss-zk-thl zigbee %}
 
 
 - Le Thermomètre
@@ -50,7 +48,7 @@ Rien de plus simple en 2 étapes comme la plupart de ce genre de gadget
 
 - 1: Lancer l’appairage de zigbee
 
-{% picture posts/{{ page.guid }}/zigbee-apa.png --alt Activer appairage dans l'onglet zigbee d'homeassistant %}
+{% picture posts/{{ page.guid }}/zigbee-apa.png --alt Activer appairage dans l'onglet zigbee d'homeassistant --img width="254" height="62" %}
 
 - 2: Appui de 3 sec sur le bouton rouge du thermomètre
 
@@ -58,10 +56,10 @@ Rien de plus simple en 2 étapes comme la plupart de ce genre de gadget
 
 **Attention !** cependant lors de la mise en route de celui-ci j'ai rencontré un problème de contact au niveau de la pile. Au départ, je l'ai remplacé mais le problème venait tout simplement des 2 petits contacteurs qui étaient en position trop basse voir aplatit. J'ai tout simplement relevé ces pattes délicatement pour avoir un contact idéal avec la pile.
 
-{% picture posts/{{ page.guid }}/contact-pile-moes-smart-zss-zigbee.png --alt attention contacteur pile du moes smart brightness zigbee %}
+{% picture posts/{{ page.guid }}/contact-pile-moes-smart-zss-zigbee.png --img width="820" height="615" --alt attention contacteur pile du moes smart brightness zigbee %}
 
 ## Conclusion
 
 Une fois de plus Moes innove en proposant un affichage a faible consommation, la qualité des matériaux reste en dessous de ce que sait faire la marque Moes, le fait de ne pouvoir alterner les éléments affichés n'est pas ce qu'il a de plus WAF. Si tu cherches un produit qui t'affiches la luminosité en priorité et qui n'est pas gourmand en pile alors fonce ! car ce capteur Moes 3 en 1 s'intègre facilement dans home-assistant.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S4cd0f01cbf634844b8b946d91fd86ed7l/Thermom-tre-intelligent-Moes-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg_.webp" title="Thermomètre intelligent Moes ZigBee" brand="Moes" description="Le thermomètre intelligent de luminosité détecte les changements de la lumière ambiante, de la température et de l'humidité en temps réel; Signalez activement à l'utilisateur par l'application smart Life comme protocole Bluetooth intégré." affiliate="_DlVHhaB" %}
+{% include product-embed.html image="/assets/images/posts/{{ page.guid }}/Thermom-tre-intelligent-Moes-ZigBee-Bluetooth-maille-luminosite-temp-rature-humidit-capteur-Tuya-Smart.webp" title="Thermomètre intelligent Moes ZigBee" brand="Moes" description="Le thermomètre intelligent de luminosité détecte les changements de la lumière ambiante, de la température et de l'humidité en temps réel; Signalez activement à l'utilisateur par l'application smart Life comme protocole Bluetooth intégré." affiliate="_DlVHhaB" %}

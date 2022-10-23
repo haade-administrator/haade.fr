@@ -54,7 +54,7 @@ Ces variables sont toutes documentées dans la doc de l'intégration, libre à v
 
 Voici le genre d'entité que vous obtiendrez après redémarrage de Home Assistant :
 
-{% picture posts/{{ page.guid }}/grille-heure-pleine.png --alt entité sensor.heures\_pleines %}
+{% picture posts/{{ page.guid }}/grille-heure-pleine.png --alt entité sensor.heures\_pleines --img width="390" height="539" %}
 
 Maintenant que nous avons nos compteurs de consommation, nous allons passer à la configuration du dashboard "Energie".
 
@@ -67,16 +67,16 @@ Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la con
 Ensuite dans "Réseau électrique", cliquez sur "Ajouter la consommation" et sélectionnez le sensor créé auparavant, dans notre cas : **sensor.heures\_pleines**.  
 Répétez l'opération pour le sensor heures creuses si nécessaire.  
 
-{% picture posts/{{ page.guid }}/integration-heure-creuse-pleine.png --img --alt Configuration du dashboard Energie %}
+{% picture posts/{{ page.guid }}/integration-heure-creuse-pleine.png --img width="393" height="564" --alt Configuration du dashboard Energie %}
 
 Configuration du dashboard Energie
 
 Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/){:target="_blank"}).
 
-{% picture posts/{{ page.guid }}/ajout-compteur.png --alt Ajout d'un compteur %}
+{% picture posts/{{ page.guid }}/ajout-compteur.png --alt Ajouter un compteur --img width="415" height="561" %}
 
 Une fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.
 
-{% picture posts/{{ page.guid }}/integration-dashboard-energie-ha.png --alt Dashboard Energie %}
+{% picture posts/{{ page.guid }}/integration-dashboard-energie-ha.png 16:9 --alt Dashboard Energie --img width="820" height="461" %}
 
 L'article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.
