@@ -13,8 +13,8 @@ image: 'Module-d-cran-LCD-TFT-pour-carte-de-d-veloppement-stm32-port-s-rie-SPI-s
 imageshadow: true
 comments: false
 published: true
-item: 1005002610639133
-item-affiliate: "_DCVqeQB"
+item: 33015586094
+item-affiliate: "_DDSL3qj"
 redirect_from: /produit/ecran-lcd-tft-spi
 ---
 

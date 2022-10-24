@@ -22,7 +22,7 @@ comments: true
 redirect_from:
   - /blog/tests/test-capteur-porte-zigbee-3-0-sonoff-snzb-04
 ---
-Voilà après la [présentation du capteur de température SNZB-02]({% post_url /fr/2021-09-10-test-capteur-temperature-et-humidite-sonoff-snzb-02 %}), je vais détailler rapidement [le capteur d'ouverture sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}), la qualité reste la même, le conditionnement et l'esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM
+Voilà après la [présentation du capteur de température SNZB-02]({% post_url /fr/2021-09-10-test-capteur-temperature-et-humidite-sonoff-snzb-02 %}), je vais détailler rapidement [le capteur d'ouverture sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}), la qualité reste la même, le conditionnement et l'esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM
 
 {% include product-embed.html guid="2123" description="Capteur porte zigbee 3.0 sonoff SNZB-04" %}
 
@@ -32,7 +32,7 @@ Voilà après la [présentation du capteur de température SNZB-02]({% post_url 
 - une notice disponible en 8 langues
 - un autocollant 3M
 
-## Spécifications du [Sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
+## Spécifications du [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
 
 - Pile: 3V (CR2450)
 - Protocole sans fil: Zigbee (IEEE 802.15.4)
@@ -48,25 +48,25 @@ Bon si tu suis l’actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peu
 - voltage
 - qualité du lien ( lqi )
 
-## Qu’est-ce qui m’a fait acheter le capteur d'ouverture [sonoff snzb-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}):
+## Qu’est-ce qui m’a fait acheter le capteur d'ouverture [sonoff snzb-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}):
 
 Encore une fois le prix et pour un gros point, **la prise en charge du zigbee 3.0**, je serai bien resté sur du **xiaomi aqara mijia MCCGQ01LM** mais le tarif a explosé en passant du simple à presque deux fois le prix. **Le design est nettement plus sympa et la taille est réduite**, mais seulement **4 données remontent** dans zigbee2mqtt ( batterie faible ne remonte pas ). Il fonctionne lui aussi avec des piles cr2032.
 
-Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({% link _products/fr/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
+Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
 
-## Comparatif [Sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) VS Xiaomi Aqara Mijia MCCGQ01LM
+## Comparatif [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) VS Xiaomi Aqara Mijia MCCGQ01LM
 
 {% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM %}
 
 test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
-## Point Positif du capteur de température du [sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
+## Point Positif du capteur de température du [sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
 
 - le prix actuellement moins de 8€
 - inclus le protocole zigbee 3.0
 - **Compatible Zigbee2mqtt**
 
-## Point négatif capteur d'ouverture du [sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
+## Point négatif capteur d'ouverture du [sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
 
 - Package un peut light ( mais c’est pas ce qu’on lui demande )
 - **la taille, trop massive à mon goût**
@@ -92,6 +92,6 @@ test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
 ## En conclusion
 
-Si tu t'en fous du design, si tu veux faire des économies ou alors si tu as beaucoup de modules à acheter, alors [le capteur d'ouverture sonoff SNZB-04]({% link _products/fr/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) est fait pour toi, sinon si le maillage du réseau ne te fait pas peur **alors passe sur Xiaomi**, rappel: [le nouveau capteur d'ouverture rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0](https://www.haade.fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/)
+Si tu t'en fous du design, si tu veux faire des économies ou alors si tu as beaucoup de modules à acheter, alors [le capteur d'ouverture sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) est fait pour toi, sinon si le maillage du réseau ne te fait pas peur **alors passe sur Xiaomi**, rappel: [le nouveau capteur d'ouverture rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({%- link _products/fr/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
 
 {% include product-embed.html guid="2123" description="Capteur porte zigbee 3.0 sonoff SNZB-04" %}

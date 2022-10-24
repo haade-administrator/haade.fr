@@ -60,7 +60,7 @@ Matter utilise le **Wi-Fi, Bluetooth Low Energy** pour le couplage initial et **
 
 Comme le montre l'image ci-dessous, **Z-Wave a la possibilité de vivre à côté d'un système Matter**, à condition qu'il y ait un périphérique de passerelle en place qui prend en charge les deux systèmes. Ce n'est pas si différent de dire, un hub SmartThings , qui offre Zigbee , Z-Wave, Wi-Fi et autres.
 
-{% picture posts/{{ page.guid}}/zwave-face-a-matter.jpg --alt z-wave vs matter %}
+{% picture posts/{{ page.guid}}/zwave-face-a-matter.jpg --alt z-wave vs matter --img width="820" height="461" %}
 
 « Une petite astuce est nécessaire et une technologie initiale est requise pour tenir la promesse d'interopérabilité. Et non pour briquer ou rendre complètement obsolètes des centaines de millions de produits et d'installations », a expliqué Klein.
 

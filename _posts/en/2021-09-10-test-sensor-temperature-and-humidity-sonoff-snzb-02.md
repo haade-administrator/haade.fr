@@ -20,7 +20,7 @@ redirect_from:
   - /en/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02
 ---
 
-I decided to put forward by presenting a test of the [Sonoff SNZB-02 temperature and humidity sensor](https://www.haade.fr/en/produit/capteur-temperature-sonoff-snzb-02-zigbee/), for the seriousness and the range of the brand's products. It's not going to be a big item that's why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.
+I decided to put forward by presenting a test of the [Sonoff SNZB-02 temperature and humidity sensor]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-08-25-temperature-sensor-sonoff-snzb-02-zigbee.md %}), for the seriousness and the range of the brand's products. It's not going to be a big item that's why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.
 
 **Regarding the unboxing nothing crazy:**
 
@@ -50,11 +50,11 @@ Well, quite simply the price and the protocol which is the Zigbee 3.0.
 
 Basically I wanted to start again on xiaomi aqara but the price exploded from single to double. **The design is nicer**, it's a 3 in 1 with an additional atmospheric pressure sensor. It works with cr2032 batteries.
 
-Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 protocol** and it is far from being good for the mesh especially since it tends to be put long standby. In fact, he tends to drop out of the network. Fortunately the version [rectangular Xiaomi MCCGQ12LM is Zigbee 3.0 compatible](https://www.haade.fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/)
+Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 protocol** and it is far from being good for the mesh especially since it tends to be put long standby. In fact, he tends to drop out of the network. Fortunately the version [rectangular Xiaomi MCCGQ12LM is Zigbee 3.0 compatible]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0.md %})
 
 ## Compare Sonoff SNZB-02 VS Xiaomi Aqara WSDCGQ11LM
 
-{% picture posts/{{ page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi.png --alt temperature sensor zigbee sonoff vs xiaomi %}
+{% picture posts/{{ page.guid}}/capteur-temperature-humidite-sonoff-snzb-02-zigbee-vs-xiaomi.png --alt temperature sensor zigbee sonoff vs xiaomi --img width="820" height="461" %}
 
 ## Positive point of the sonoff SNZB-02 temperature sensor
 
