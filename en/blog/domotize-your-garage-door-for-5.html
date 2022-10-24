@@ -33,7 +33,7 @@ layout: compress
     "headline": "Automate your garage door for 5€",
     "keywords": "Automation,Home-Assistant,Haade-lab",
     "description": "a simple way to automate your garage door at a lower cost",
-    "articleBody": "In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, but we could have used any brands of motorizations like Somfy because they are all equipped with electric motors operating between 18 and 24v. In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.\n\nPrerequisites to automate your garage door:\n\n\n  Homeassistant installed with esphome\n  A module usb FT232\n  A module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installed in you’re system ( look dedicaced article )\n  Know how to create a new Node and configure it\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\n\n  \n  \n  \n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\nA: Alimentation 7-30V + CC\nA1: ft232 connection (Tx, RX and GND)\nB: Boot jumper (in program position on the photo)\n\nC: Contactor output\n\n  Normally closed relay input (NC)\n  Communication relay (COM) black wire\n  Normally open relay contact (NO)\n\n\nD: Optocoupler (push button switch)\n\n  5v (line + of the push button)\n  GPIO5 (line - of the push button)\n  GND (ground not connected to be connected with ground A1 for example, essential for the operation of the push button)\n\n\n2: Blue led D4 of the optocoupler (on when the switch is on)\n3: Red led D2 of the relay contactor (on when the relay is on))\n4 : Blue wifi led (flashes when searching for the network and then fixed).\n\nConnection\n\nft232 and esp8266 ESP-12F Yunshan-Lysignal\n\n\n  On one side, a universal dc socket set to 9v, a minimum of 7v is required for programming.\n  The other rx on tx\n  next tx sur rx\n  and for finish ground sur ground (GND)\n  Connect everything to the raspberry pi\n\n\n\n  \n  \n  \n\n\n\n  ESP8266 relay 7-30v Yunshan lysignal ESP-12F\n  usb uart ft232 converter module\n\n\nParameterized file for ESPhome\n\n400: Invalid request\n\n\nSTEP TO FOLLOW CAREFULLY\n\nThe module can be finicky to program so follow these steps carefully\n\n\n  Connect ftd232 usb uart (jumper on 3.3v) to the raspberry pi (homeassistant) and to the yunshan / lysignal module (tx&gt; rx, rx&gt; tx and gnd)\n  Then connect a minimum 7v and max 30v power supply in dc,\n  Check the presence of the jumper on the connectors\n  To be able to upload the code, the light must be light blue on led d4 after connecting the power supply (if it is red on led d2, we cannot upload even in usb. In this case disconnect the boot jumper and replace - then unplug the power supply for a few seconds.)\n  Upload the code\n  Once finished remove the jumper from the boot while leaving the rest powered (plug and ft232)\n  Disconnect ft232\n  Disconnect the power wait 20 sec and reconnect the power once started the blue led of the esp8266-12e module flashes several times the time to connect to the wifi network, once fixed your module is ok\n  You can remove the rx / tx / gnd pins and the ftd.\n\n\nFinal rendering in Homeassistant\n\n\n  \n  \n  \n\n\nanimated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant\n\nHere is a complete return to properly automate your garage door for € 5 thanks to the help of homeassistant and esphome of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!\n\nCreation of dry contact automation\n\nTo begin with, the no / nc pushbuttons operate in dry contact. In order to allow the state return to Off, we must create an automation which indicates to us when the state of the switch garage switch relay changes to on after 0.4 seconds the relay returns to off to be personalized according to the name given to your switch relay .\n\n400: Invalid request\n\n\nHormann supramatic e3 control card\n\n\n  \n  \n  \n\n\nHormann supramatic e3 engine controller board nomenclature\nIn our case we want to automate a Hormann engine, the nomenclature is quite simple:\n\n\n  The three-pin molex type plug that delivers 24v continuously so that’s what we need. Originally this - + - plug is intended to connect a back-up battery in the event of a power cut.\n  Input for external push button, we will of course connect the relay above NO or NC on the + plug and the COM on the - plug. See the pictures of the module setup below.\n\n\nModule setup and testing\n\nNow that our module is ready and functional with homeassistant, we just have to put it in place in our engine. Warning! Before any intervention, do not forget to switch off the 230V current. Fortunately the connection is simple and there is room to integrate additional modules. As this is a 24V test, for the occasion we did not use suitable molex connectors and 0.75mm electric wire.\n\n\n  \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n  \n\n\nAll you have to do is put everything together and incorporate it into the garage door motor unit and you can order your garage door for € 5 delivered via wifi via esphome and homeassistant, quite simply magic !.\n\nWe are currently experiencing a problem with the distance of the wifi antenna, part of an orange box without an external antenna, the dropout is regular, to alleviate this problem we are going to integrate an external antenna to the esp8266 chip, an article will be dedicated to This manipulation with earnings tests very soon, do not hesitate to follow us.\n",
+    "articleBody": "In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, but we could have used any brands of motorizations like Somfy because they are all equipped with electric motors operating between 18 and 24v. In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.\n\nPrerequisites to automate your garage door:\n\n\n  Homeassistant installed with esphome\n  A module usb FT232\n  A module 7/30V Yunshan Lysignal esp8266 esp-12f\n  Esphome installed in you’re system ( look dedicaced article )\n  Know how to create a new Node and configure it\n  device type: Espressif ESP-12E module\n\n\nNomenclature Yunshan-Lysignal esp8266\n\n\n  \n  \n  \n\n\n\nESP8266 relay 7-30v Yunshan lysignal ESP-12F\n\nA: Alimentation 7-30V + CC\nA1: ft232 connection (Tx, RX and GND)\nB: Boot jumper (in program position on the photo)\n\nC: Contactor output\n\n  Normally closed relay input (NC)\n  Communication relay (COM) black wire\n  Normally open relay contact (NO)\n\n\nD: Optocoupler (push button switch)\n\n  5v (line + of the push button)\n  GPIO5 (line - of the push button)\n  GND (ground not connected to be connected with ground A1 for example, essential for the operation of the push button)\n\n\n2: Blue led D4 of the optocoupler (on when the switch is on)\n3: Red led D2 of the relay contactor (on when the relay is on))\n4 : Blue wifi led (flashes when searching for the network and then fixed).\n\nConnection\n\nft232 and esp8266 ESP-12F Yunshan-Lysignal\n\n\n  On one side, a universal dc socket set to 9v, a minimum of 7v is required for programming.\n  The other rx on tx\n  next tx sur rx\n  and for finish ground sur ground (GND)\n  Connect everything to the raspberry pi\n\n\n\n  \n  \n  \n\n\n\n  ESP8266 relay 7-30v Yunshan lysignal ESP-12F\n  usb uart ft232 converter module\n\n\nParameterized file for ESPhome\n\n400: Invalid request\n\n\nSTEP TO FOLLOW CAREFULLY\n\nThe module can be finicky to program so follow these steps carefully\n\n\n  Connect ftd232 usb uart (jumper on 3.3v) to the raspberry pi (homeassistant) and to the yunshan / lysignal module (tx&gt; rx, rx&gt; tx and gnd)\n  Then connect a minimum 7v and max 30v power supply in dc,\n  Check the presence of the jumper on the connectors\n  To be able to upload the code, the light must be light blue on led d4 after connecting the power supply (if it is red on led d2, we cannot upload even in usb. In this case disconnect the boot jumper and replace - then unplug the power supply for a few seconds.)\n  Upload the code\n  Once finished remove the jumper from the boot while leaving the rest powered (plug and ft232)\n  Disconnect ft232\n  Disconnect the power wait 20 sec and reconnect the power once started the blue led of the esp8266-12e module flashes several times the time to connect to the wifi network, once fixed your module is ok\n  You can remove the rx / tx / gnd pins and the ftd.\n\n\nFinal rendering in Homeassistant\n\n\n\nanimated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant\n\nHere is a complete return to properly automate your garage door for € 5 thanks to the help of homeassistant and esphome of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!\n\nCreation of dry contact automation\n\nTo begin with, the no / nc pushbuttons operate in dry contact. In order to allow the state return to Off, we must create an automation which indicates to us when the state of the switch garage switch relay changes to on after 0.4 seconds the relay returns to off to be personalized according to the name given to your switch relay .\n\n400: Invalid request\n\n\nHormann supramatic e3 control card\n\n\n  \n  \n  \n\n\nHormann supramatic e3 engine controller board nomenclature\nIn our case we want to automate a Hormann engine, the nomenclature is quite simple:\n\n\n  The three-pin molex type plug that delivers 24v continuously so that’s what we need. Originally this - + - plug is intended to connect a back-up battery in the event of a power cut.\n  Input for external push button, we will of course connect the relay above NO or NC on the + plug and the COM on the - plug. See the pictures of the module setup below.\n\n\nModule setup and testing\n\nNow that our module is ready and functional with homeassistant, we just have to put it in place in our engine. Warning! Before any intervention, do not forget to switch off the 230V current. Fortunately the connection is simple and there is room to integrate additional modules. As this is a 24V test, for the occasion we did not use suitable molex connectors and 0.75mm electric wire.\n\n\n  \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n    \n      \n  \n  \n  \n\n\n    \n  \n\n\nAll you have to do is put everything together and incorporate it into the garage door motor unit and you can order your garage door for € 5 delivered via wifi via esphome and homeassistant, quite simply magic !.\n\nWe are currently experiencing a problem with the distance of the wifi antenna, part of an orange box without an external antenna, the dropout is regular, to alleviate this problem we are going to integrate an external antenna to the esp8266 chip, an article will be dedicated to This manipulation with earnings tests very soon, do not hesitate to follow us.\n",
     "datePublished": "2021-05-19 22:26:35 +0000",
     "dateModified": "2021-05-19 22:26:35 +0000",
     "inLanguage": "en-GB",
@@ -69,7 +69,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1666600062929499922" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1666620512146828401" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -283,7 +283,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
   <picture>
     <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
     <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-    <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
+    <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
   </picture>
 </a>
 
@@ -338,9 +338,9 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <h2 id="nomenclature-yunshan-lysignal-esp8266">Nomenclature Yunshan-Lysignal esp8266</h2>
 
 <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-300-c517a87ef.webp 300w, /haade.fr/assets/images/generated/posts/8/yunshan-400-c517a87ef.webp 400w, /haade.fr/assets/images/generated/posts/8/yunshan-820-c517a87ef.webp 820w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-300-1472a3179.png 300w, /haade.fr/assets/images/generated/posts/8/yunshan-400-1472a3179.png 400w, /haade.fr/assets/images/generated/posts/8/yunshan-820-1472a3179.png 820w" type="image/png" />
-  <img data-src="/haade.fr/assets/images/generated/posts/8/yunshan-300-1472a3179.png" alt="Yunshan-Lysignal esp8266 garage door relay" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-240-c517a87ef.webp 240w, /haade.fr/assets/images/generated/posts/8/yunshan-300-c517a87ef.webp 300w, /haade.fr/assets/images/generated/posts/8/yunshan-400-c517a87ef.webp 400w, /haade.fr/assets/images/generated/posts/8/yunshan-553-c517a87ef.webp 553w, /haade.fr/assets/images/generated/posts/8/yunshan-820-c517a87ef.webp 820w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-240-1472a3179.png 240w, /haade.fr/assets/images/generated/posts/8/yunshan-300-1472a3179.png 300w, /haade.fr/assets/images/generated/posts/8/yunshan-400-1472a3179.png 400w, /haade.fr/assets/images/generated/posts/8/yunshan-553-1472a3179.png 553w, /haade.fr/assets/images/generated/posts/8/yunshan-820-1472a3179.png 820w" type="image/png" />
+  <img data-src="/haade.fr/assets/images/generated/posts/8/yunshan-150-1472a3179.png" alt="Yunshan-Lysignal esp8266 garage door relay" />
 </picture>
 <p><br /></p>
 
@@ -381,9 +381,9 @@ B: Boot jumper (in program position on the photo)</p>
 </ul>
 
 <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-300-9ae8ad124.webp 300w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-400-9ae8ad124.webp 400w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-800-9ae8ad124.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-300-384b6eb86.jpg 300w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-400-384b6eb86.jpg 400w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-800-384b6eb86.jpg 800w" type="image/jpeg" />
-  <img data-src="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-300-384b6eb86.jpg" alt="Hookup ft 232 yunshan Lysignal" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-240-9ae8ad124.webp 240w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-300-9ae8ad124.webp 300w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-400-9ae8ad124.webp 400w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-553-9ae8ad124.webp 553w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-800-9ae8ad124.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-240-384b6eb86.jpg 240w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-300-384b6eb86.jpg 300w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-400-384b6eb86.jpg 400w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-553-384b6eb86.jpg 553w, /haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-800-384b6eb86.jpg 800w" type="image/jpeg" />
+  <img data-src="/haade.fr/assets/images/generated/posts/8/branchement-ft232-yunshan-lysignal-esp8266-150-384b6eb86.jpg" alt="Hookup ft 232 yunshan Lysignal" />
 </picture>
 
 <ol>
@@ -414,11 +414,7 @@ B: Boot jumper (in program position on the photo)</p>
 
 <h2 id="final-rendering-in-homeassistant">Final rendering in Homeassistant</h2>
 
-<picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-300-4029b9981.webp 300w, /haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-400-4029b9981.webp 400w, /haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-499-4029b9981.webp 499w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-300-83f33d393.gif 300w, /haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-400-83f33d393.gif 400w, /haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-499-83f33d393.gif 499w" type="image/gif" />
-  <img data-src="/haade.fr/assets/images/generated/posts/8/yunshan-homeassistant-300-83f33d393.gif" alt="intégration module yunshan-lysignal homeassistant" />
-</picture>
+<p><img src="/haade.fr/assets/images/posts/8/yunshan-homeassistant.webp" alt="intégration module yunshan-lysignal homeassistant" width="499" height="369" /></p>
 
 <p>animated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant</p>
 
@@ -434,9 +430,9 @@ B: Boot jumper (in program position on the photo)</p>
 <h2 id="hormann-supramatic-e3-control-card">Hormann supramatic e3 control card</h2>
 
 <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-300-d95df1927.webp 300w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-400-d95df1927.webp 400w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-820-d95df1927.webp 820w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-300-7d33d4a7c.jpg 300w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-400-7d33d4a7c.jpg 400w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-820-7d33d4a7c.jpg 820w" type="image/jpeg" />
-  <img data-src="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-300-7d33d4a7c.jpg" alt="hormann supramatic e3 motor controller board parts list" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-240-d95df1927.webp 240w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-300-d95df1927.webp 300w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-400-d95df1927.webp 400w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-553-d95df1927.webp 553w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-820-d95df1927.webp 820w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-240-7d33d4a7c.jpg 240w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-300-7d33d4a7c.jpg 300w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-400-7d33d4a7c.jpg 400w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-553-7d33d4a7c.jpg 553w, /haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-820-7d33d4a7c.jpg 820w" type="image/jpeg" />
+  <img data-src="/haade.fr/assets/images/generated/posts/8/hormann-carte-controleur-150-7d33d4a7c.jpg" alt="hormann supramatic e3 motor controller board parts list" />
 </picture>
 
 <p>Hormann supramatic e3 engine controller board nomenclature
@@ -455,49 +451,49 @@ In our case we want to automate a Hormann engine, the nomenclature is quite simp
   <div class="card-columns">
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/1-300-c79cc5f82.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-400-c79cc5f82.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-800-c79cc5f82.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/1-300-bc810156c.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-400-bc810156c.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-800-bc810156c.jpg 800w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/1-300-bc810156c.jpg" alt="Domotiser sa porte de garage avec un moteur hormann supramatic e3" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/1-240-c79cc5f82.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-300-c79cc5f82.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-400-c79cc5f82.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-553-c79cc5f82.webp 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-800-c79cc5f82.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/1-240-bc810156c.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-300-bc810156c.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-400-bc810156c.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-553-bc810156c.jpg 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/1-800-bc810156c.jpg 800w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/1-150-bc810156c.jpg" alt="Domotiser sa porte de garage avec un moteur hormann supramatic e3" />
 </picture>
 
     </div>
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/6-300-41db1f791.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-400-41db1f791.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-800-41db1f791.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/6-300-899e2f2d9.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-400-899e2f2d9.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-800-899e2f2d9.jpg 800w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/6-300-899e2f2d9.jpg" alt="démontage du moteur de porte de garage afin d’accéder à la carte" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/6-240-41db1f791.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-300-41db1f791.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-400-41db1f791.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-553-41db1f791.webp 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-800-41db1f791.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/6-240-899e2f2d9.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-300-899e2f2d9.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-400-899e2f2d9.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-553-899e2f2d9.jpg 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/6-800-899e2f2d9.jpg 800w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/6-150-899e2f2d9.jpg" alt="démontage du moteur de porte de garage afin d’accéder à la carte" />
 </picture>
 
     </div>
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/3-300-d23ca8e97.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-400-d23ca8e97.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-800-d23ca8e97.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/3-300-6a6f0abf3.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-400-6a6f0abf3.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-800-6a6f0abf3.jpg 800w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/3-300-6a6f0abf3.jpg" alt="branchement du yunshan no nc sur les entrées du bouton poussoir externe" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/3-240-d23ca8e97.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-300-d23ca8e97.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-400-d23ca8e97.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-553-d23ca8e97.webp 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-800-d23ca8e97.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/3-240-6a6f0abf3.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-300-6a6f0abf3.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-400-6a6f0abf3.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-553-6a6f0abf3.jpg 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/3-800-6a6f0abf3.jpg 800w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/3-150-6a6f0abf3.jpg" alt="branchement du yunshan no nc sur les entrées du bouton poussoir externe" />
 </picture>
 
     </div>
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/4-300-d3046381c.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-380-d3046381c.webp 380w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/4-300-c8884c508.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-380-c8884c508.jpg 380w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/4-300-c8884c508.jpg" alt="branchement test du yunshan esp8266" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/4-240-d3046381c.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-300-d3046381c.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-380-d3046381c.webp 380w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/4-240-c8884c508.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-300-c8884c508.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/4-380-c8884c508.jpg 380w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/4-150-c8884c508.jpg" alt="branchement test du yunshan esp8266" />
 </picture>
 
     </div>
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/5-300-469ec0628.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-400-469ec0628.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-800-469ec0628.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/5-300-799206180.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-400-799206180.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-800-799206180.jpg 800w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/5-300-799206180.jpg" alt="entrée contacteur pour bouton poussoir" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/5-240-469ec0628.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-300-469ec0628.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-400-469ec0628.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-553-469ec0628.webp 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-800-469ec0628.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/5-240-799206180.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-300-799206180.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-400-799206180.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-553-799206180.jpg 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/5-800-799206180.jpg 800w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/5-150-799206180.jpg" alt="entrée contacteur pour bouton poussoir" />
 </picture>
 
     </div>
     <div class="card">
       <picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/2-300-449ee78a8.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-400-449ee78a8.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-800-449ee78a8.webp 800w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/2-300-2a0ac8c2c.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-400-2a0ac8c2c.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-800-2a0ac8c2c.jpg 800w" type="image/jpeg" />
-  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/2-300-2a0ac8c2c.jpg" alt="connecteur type molex prévu par hormann pour brancher une batterie supplémentaire fourni du 24v" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/2-240-449ee78a8.webp 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-300-449ee78a8.webp 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-400-449ee78a8.webp 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-553-449ee78a8.webp 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-800-449ee78a8.webp 800w" type="image/webp" />
+  <source data-srcset="/haade.fr/assets/images/generated/posts/gallery/hormann/2-240-2a0ac8c2c.jpg 240w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-300-2a0ac8c2c.jpg 300w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-400-2a0ac8c2c.jpg 400w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-553-2a0ac8c2c.jpg 553w, /haade.fr/assets/images/generated/posts/gallery/hormann/2-800-2a0ac8c2c.jpg 800w" type="image/jpeg" />
+  <img class="card-img-top" data-src="/haade.fr/assets/images/generated/posts/gallery/hormann/2-150-2a0ac8c2c.jpg" alt="connecteur type molex prévu par hormann pour brancher une batterie supplémentaire fourni du 24v" />
 </picture>
 
     </div>
@@ -520,7 +516,7 @@ In our case we want to automate a Hormann engine, the nomenclature is quite simp
             <picture>
   <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
   <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
+  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
 </picture>
 
             <p class="mt-4 mb-0 small text-center">
@@ -604,7 +600,7 @@ In our case we want to automate a Hormann engine, the nomenclature is quite simp
                 <picture>
   <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
   <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
+  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
 </picture>
 
                 </span>
@@ -642,7 +638,7 @@ In our case we want to automate a Hormann engine, the nomenclature is quite simp
                 <picture>
   <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
   <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
+  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
 </picture>
 
                 </span>
@@ -680,7 +676,7 @@ In our case we want to automate a Hormann engine, the nomenclature is quite simp
                 <picture>
   <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
   <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
+  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
 </picture>
 
                 </span>
