@@ -85,7 +85,7 @@ _Well not much!_
 
 # let's continue with Jeedom Atlas
 
-{% picture }posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --alt Jeedom atlas caracteristic --img width="820" height="461" %}
+{% picture posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --alt Jeedom atlas caracteristic --img width="820" height="461" %}
 
 
 ## Advantage Jeedom Atlas

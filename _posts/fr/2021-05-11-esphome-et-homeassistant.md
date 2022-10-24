@@ -47,7 +47,7 @@ Désormais il ne reste plus qu’à appuyer sur le petit **+** en bas à droite 
 - 3 – remplissez les coordonnées de votre wifi en réseau local **2,4Ghz** ( ota pas obligatoire )
 - 4 – finish
 
-![ajout module esphome dans homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-ajout.webp{{ cachebuster }}){: width="820" height="466"}
+![ajout module esphome dans homeassistant]({{site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-ajout.webp{{ cachebuster }}){: width="820" height="466"}
 
 
 gif animé lors d’un ajout d’un module dans esphome Maintenant il faut intégrer les entrées ( relais, contacteur, optocoupleur, led, etc …. ), vous en trouvez pas mal sur le site esphome.io

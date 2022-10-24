@@ -224,7 +224,7 @@ For Home Assistant I created two new states, HOME is a state when I am at home, 
 
 **ADVANTAGE:** Compared to the Zm binary-sensor which allows you to switch from one mode to another in HA, the change of state is very practical when you want to choose another mode, when you are full of cameras and above all simplifies automations in HA call a service without needing to call each camera or create a binary\_sensor Home or Away group in HA group.yaml.
 
-![Setting up a report in zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zoneminder-etat.webp{{ cachebuster }}){: width="820" height="394"}
+![Setting up a report in zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}
 
 ## 4 - How Modes work in Zoneminder:
 

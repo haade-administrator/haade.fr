@@ -222,7 +222,7 @@ Pour Home Assistant j'ai créé deux nouveaux états, HOME c'est un état quand 
 
 **AVANTAGE:** Par rapport au binary-sensor Zm qui permet de passer d'un mode à l'autre dans HA, le changement d'état est très pratique lorsque l'on veut choisir un autre mode, lorsqu'on à pleins de caméra et surtout simplifie les automatisations dans HA appel à un service sans avoir besoin de faire appel à chaque caméra ou de créer un groupe binary\_sensor Home ou Away dans group.yaml de HA.
 
-![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zoneminder-etat.webp{{ cachebuster }}){: width="820" height="394"}
+![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}
 
 ### 4 - Fonctionnement des Modes dans Zoneminder:
 

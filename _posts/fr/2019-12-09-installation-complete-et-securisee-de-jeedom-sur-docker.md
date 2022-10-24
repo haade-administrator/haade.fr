@@ -83,7 +83,7 @@ remplacez **l’adresse ip** par la votre et votre nom d’utilisateur par le vo
 
 **Avec Putty:**
 
-{% picture posts/{{ page.guid }}/connection-putty.png --alt connection à putty %}
+{% picture posts/{{ page.guid }}/connection-putty.png --alt connection à putty --img width="553" height="550" %}
 
 **Ensuite rentrez votre mot de passe.**
 

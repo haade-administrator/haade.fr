@@ -30,7 +30,7 @@ Dans cet article je vais vous montrer tout simplement comment domotiser sa porte
 - Homeassistant installé avec esphome
 - Un [module usb FT232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 - un [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/fr/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
-- Esphome installé sur le système [( voir l’article dédié )]({%- post_url 2021-05-11-esphome-et-homeassistant %})
+- Esphome installé sur le système [( voir l’article dédié )]({%- post_url /fr/2021-05-11-esphome-et-homeassistant %})
 - Savoir créer un nouveau Noeud et le paramétrer
 - device type: Espressif ESP-12E module
 
@@ -95,10 +95,9 @@ et
 
 ## Rendu final dans Homeassistant
 
-{% picture posts/{{ page.guid }}/yunshan-homeassistant.gif --alt Rendu final de esp8266 dans homeassistant %}
+![Rendu final de esp8266 dans homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/yunshan-homeassistant.webp{{ cachebuster }}){: width="499" height="369"}
 
-
-image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome]({%- post_url 2021-05-11-esphome-et-homeassistant %}) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
+image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome]({%- post_url /fr/2021-05-11-esphome-et-homeassistant %}) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
 
 ## Création de l’automatisation contact sec
 
