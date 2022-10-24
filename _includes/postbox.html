@@ -27,7 +27,7 @@
                 {%- if post.author %}
                 <span class="meta-footer-thumb">
                 {%- if author.avatar %}
-                {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} %}
+                {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img width="40" height="40" %}
                 {%- else %}
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=40&d=mm&r=x" alt="{{ author.display_name }}">
                 {%- endif %}
@@ -69,7 +69,7 @@
                 {%- if product.author %}
                 <span class="meta-footer-thumb">
                 {%- if authorshop.avatar %}
-                {% picture avatar {{ authorshop.avatar }} --alt {{ authorshop.display_name }} %}
+                {% picture avatar {{ authorshop.avatar }} --alt {{ authorshop.display_name }} --img width="40" height="40" %}
                 {%- else %}
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ authorshop.gravatar }}?s=40&d=mm&r=x" alt="{{ authorshop.display_name }}">
                 {%- endif %}

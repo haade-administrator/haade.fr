@@ -24,7 +24,7 @@ redirect_from:
 ---
 
 
-Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /fr/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
+Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /{{ page.locale | slice: 0,2 }}/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
 
 ## Prérequis :
 
@@ -77,6 +77,6 @@ Vous avez la possibilité d'inclure le calcul du coût de votre consommation, so
 
 Une fois la configuration terminée consultez votre dashboard Energie, vous devriez après quelques jours de fonctionnement obtenir ce genre de graphique.
 
-{% picture posts/{{ page.guid }}/integration-dashboard-energie-ha.png 16:9 --alt Dashboard Energie --img width="820" height="461" %}
+{% picture posts/{{ page.guid }}/integration-dashboard-energie-ha.png --alt Dashboard Energie --img width="820" height="461" %}
 
 L'article touche à sa fin, vous savez maintenant comment configurer le dashboard Energie.
