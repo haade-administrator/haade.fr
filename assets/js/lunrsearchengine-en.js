@@ -71,6 +71,12 @@ var documents = [{
     "title": "Automate your garage door for 5€",
     "description": "2021/05/19 - a simple way to automate your garage door at a lower cost",
     "tags": ""
+    },{
+    "id": 12,
+    "url": "/haade.fr/en/blog/esphome-and-homeassistant",
+    "title": "Esphome and Homeassistant integrations",
+    "description": "2021/05/11 - Discovery of esphome in homeassistant",
+    "tags": ""
     }];
 
 var idx = lunr(function () {

@@ -8,40 +8,40 @@ layout: compress
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="icon" href="/haade.fr/assets/images/logo.png"><!-- begin _includes/seo.html -->
-<title>Integrate your electricity meter (teleinfo) in Home Assistant - Haade.fr</title>
-<meta name="description" content="For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.">
-<meta name="author" content="Math67">
-<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant">
-  <link rel="alternate" hreflang="en-GB" href="https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"/>
-  <link rel="alternate" hreflang="fr-FR" href="https://haade-administrator.github.io/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"/>
+<title>Esphome and Homeassistant integrations - Haade.fr</title>
+<meta name="description" content="Discovery of esphome in homeassistant">
+<meta name="author" content="Nico">
+<link rel="canonical" href="https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant">
+  <link rel="alternate" hreflang="en-GB" href="https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant"/>
+  <link rel="alternate" hreflang="fr-FR" href="https://haade-administrator.github.io/haade.fr/fr/blog/esphome-et-homeassistant"/>
 
 <meta property="og:locale" content="fr-FR">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Integrate your electricity meter (teleinfo) in Home Assistant">
-<meta property="og:description" content="For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.">
-<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant">
+<meta property="og:title" content="Esphome and Homeassistant integrations">
+<meta property="og:description" content="Discovery of esphome in homeassistant">
+<meta property="og:url" content="https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant">
 <meta property="og:site_name" content="Haade.fr">
-<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant.png">
-<meta property="article:author" content="Math67">
-<meta property="article:published_time" content="2021-08-03T00:00:00+00:00">
+<meta property="og:image" content="https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant.png">
+<meta property="article:author" content="Nico">
+<meta property="article:published_time" content="2021-05-11T14:28:47+00:00">
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "url": "https://haade-administrator.github.io/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
-    "name": "Integrate your electricity meter (teleinfo) in Home Assistant",
-    "headline": "Integrate your electricity meter (teleinfo) in Home Assistant",
-    "keywords": "Home-Assistant,Haade-lab",
-    "description": "",
-    "articleBody": "For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.\n\nPrerequisites:\n\n\n  Home assistant installed with up-to-date ESPHome\n  An ESP8266 module of the Wemos D1 mini type and its power supply\n  A PitInfo module\n\n\nESPHome programming\n\nAn article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link\n\nAs the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.\n\nSummary of integration steps with ESPhome:\n\n\n  To start, go to ESPHome you must create a new configuration by clicking on the green ‘+’ button located at the bottom right of the screen.\n  Then fill in the various fields with the name of the device, the name of your wifi network (2.4 Ghz imperatively) as well as the associated password.\n  The platform is of course ESP8266, for a wemos d1 mini the board is d1_mini\n  Click on the ‘Next’ button and connect your Wemos D1 mini by USB to your PC, then click on ‘Connect’ and choose the COM port corresponding to your Wemos.\n\n\nThe flash may last a few minutes, leave the page open while waiting for the operation to complete.\n\nAfter this operation, your new configuration will appear on the ESPHome Dashboard. Click on ‘EDIT’, we will complete the configuration file with the elements necessary for reporting information from the meter.\n\nBelow ‘logger’ add the following lines:\n\nFinally, below the ‘captive_portal’ line add the rest of the code:\n\n\n  \n    For Peak Hours / Off-Hours subscriptions:\n  \n  \n    For subscriptions at the Basic rate:\n  \n\n\n You can now upload the file by clicking on ‘INSTALL’.\n\n So much for the programming part, now let’s go to the connection of the assembly.\n\n Connection to the meter\n\n\n  \n  \n  \n\n\nYou will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.\n\n We will in this part see how to connect our assembly, here is the wiring diagram:\n\n\n  \n  \n  \n\n\nSchéma de branchement\n\n\n  Rx of Wemos on TXD of PiTInfo\n  G of Wemos onGND of PiTInfo\n  3v3 of Wemos on VCC ofPiTInfo\n   The two input terminals of the PiTInfo must be connected to I1 and I2 under the meter (These terminals are protected by a cover), there is no polarity on this side of the assembly\n\n\n Linky counter: For information to go back to Home Assistant. The counter must be in ‘History’ mode, you can check this information by pressing the ‘+’ or ‘-‘ keys.\n\nLovelace\n\n Back in Home Assistant go to ‘Integrations’. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on ‘Add integration’ at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.\n\n\n  \n  \n  \n\n\nMap of electric meter entities\n\nSo you get this card that you can add directly to Lovelace or create a custom card.\n\nHere it is now over, you have all the information from your meter arriving on your HA. You are now free to manage this data, to create graphs, automations…!\n\nEDIT: Due to a conflict in Home Assistant in the configuration for the “Base” tariff, it is necessary to modify the line id: index by id: “index_base” in the ESPHome code:\n\n  - platform: teleinfo\n    tag_name: \"BASE\"\n    name: \"Index\"\n    unit_of_measurement: \"Wh\"\n    icon: mdi:gauge\n    id: \"index_base\" # &lt;- modify line\n\n",
-    "datePublished": "2021-08-03 00:00:00 +0000",
-    "dateModified": "2021-08-03 00:00:00 +0000",
+    "url": "https://haade-administrator.github.io/en/blog/esphome-and-homeassistant",
+    "name": "Esphome and Homeassistant integrations",
+    "headline": "Esphome and Homeassistant integrations",
+    "keywords": "Domotique,Haade-lab,Home-Assistant",
+    "description": "Discovery of esphome in homeassistant",
+    "articleBody": "ESPHome is a program injection system to control your ESP8266 / ESP32 wifi modules with simple but powerful configuration files and control them remotely via home automation systems such as Homeassistant.\n\nMoreover, the company Nabu Casa, which owns the Homeassistant program, acquired the esphome program in March 2021. link of relevant article: acquired esphome by homeassistant\n\nThanks to the integration in Esphome’s Homeassistant it is now very easy to inject a file into the esp8266/esp32 wifi module and to control it, the first injection is done by usb using a UART/USB FT232 adapter available here, and allowing the module to be connected via the 3.3/5v, Gnd, Rx/Tx and Tx/Rx connectors.\n\nFacility:\n\n\n  You can find the installation in English on esphome.io:\nhttps://esphome.io/guides/getting_started_hassio.html\n\n\nNothing could be simpler in homeassistant (hassio), tab Supervisor &gt;&gt;&gt; Shop additional modules search for esphome and install it. There is nothing to touch in the configuration tab of the module, once installed, do not forget to select Show in the sidebar. In order to be able to control the injection.\n\n\n\nUse:\n\nNow all you have to do is press the little **** at the bottom right and follow the steps:\n\n\n  1 – give a name to the file (in miniature and without space)\n  2 – choose the platform corresponding to the chip available on your printed circuit\n  3 – fill in the coordinates of your wifi in the local network 2.4Ghz (ota not mandatory)\n  4 – finish\n\n\n\n\nanimated gif when adding a module in esphome Now you have to integrate the inputs (relay, contactor, optocoupler, led, etc.), you can find a lot of them on the esphome.io site\n\n\n  in devices: esphome.io/#devices\n  in diy do it yourself:\n\n\n\n  There is plenty to have fun at low prices, now all that remains is to refine the injections according to the modules purchased.\n\n",
+    "datePublished": "2021-05-11 14:28:47 +0000",
+    "dateModified": "2021-05-11 14:28:47 +0000",
     "inLanguage": "en-GB",
     "author": {
-      "@type": "Person","name": "Math67",
-      "alternateName": "Math67",
-      "description": "Passionate about tinkering and electricity",
-      "url": "https://haade-administrator.github.io/haade.fr/author-math67","image": "https://haade-administrator.github.io/haade.fr/math67.png","email": "fogel.mathieu@gmail.com"
+      "@type": "Person","name": "Nico",
+      "alternateName": "Nico",
+      "description": "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.",
+      "url": "https://haade-administrator.github.io/haade.fr/author-nico","image": "https://haade-administrator.github.io/haade.fr/nico.jpg","email": "nico@haade.fr"
     },
     "publisher": {
       "@type": "Organization",
@@ -56,13 +56,13 @@ layout: compress
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"
+      "@id": "https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant"
     },
     "image": {
       "@type": "ImageObject",
       "width": 250,
       "height": 63,
-      "url": "https://haade-administrator.github.io/haade.fr/compteur-electrique-homeassistant.png"
+      "url": "https://haade-administrator.github.io/haade.fr/esphome-logo-haade-homeassistant.png"
     }
   }
   </script>
@@ -90,7 +90,7 @@ layout: compress
 
  <!-- <link rel="shortcut icon" type="image/x-icon" href="https://haade-administrator.github.io/favicon.ico" > -->
 <link rel="shortcut icon" type="image/png" href="/haade.fr/assets/images/favicon.png" >
-<script async src="https://api.countapi.xyz/hit/haade.fr/en-blog-integrate-your-electricity-meter-teleinfo-into-home-assi?callback=liveViews"></script>
+<script async src="https://api.countapi.xyz/hit/haade.fr/en-blog-esphome-and-homeassistant?callback=liveViews"></script>
 
 
 </head>
@@ -111,8 +111,8 @@ layout: compress
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
-        <li><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/fr/blog/esphome-et-homeassistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li class="current"><a href="/haade.fr/en/blog/esphome-and-homeassistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -120,10 +120,10 @@ layout: compress
 
           </div>
       <div class="social-firstnav">
-        <a href="https://twitter.com/intent/tweet?text=Integrate your electricity meter (teleinfo) in Home Assistant&url=https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+        <a href="https://twitter.com/intent/tweet?text=Esphome and Homeassistant integrations&url=https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" target="_blank" alt="twitter link" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
         <a href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Subscribe to our youtube channel"><i class="fab fa-youtube" target="_blank" alt="youtube" aria-hidden="true" title="youtube"></i></a>
         <a href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation to our Discord network"><i class="fab fa-discord" target="_blank" alt="discord" aria-hidden="true" title="discord"></i></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook" aria-label="Share this page on Facebook"><i class='fab fa-facebook-f' aria-hidden="true" title="facebook"></i></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" target="_blank" alt="facebook" aria-label="Share this page on Facebook"><i class='fab fa-facebook-f' aria-hidden="true" title="facebook"></i></a>
       </div>
     </div>
 
@@ -213,8 +213,8 @@ layout: compress
     <li><b>English</b> <i class="fa fa-angle-down triangle-arrow trrow" aria-hidden="true"></i>
       <div class="triangle"></div>
       <ul class="show-flags">
-        <li><a href="/haade.fr/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
-        <li class="current"><a href="/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
+        <li><a href="/haade.fr/fr/blog/esphome-et-homeassistant"><i class="sl-flag fix flag-fr"><div id="Francais"></div></i><span class="active">Francais</span></a></li>
+        <li class="current"><a href="/haade.fr/en/blog/esphome-and-homeassistant"><i class="sl-flag fix flag-england"><div id="English"></div></i><span class="active">English</span></a></li>
       </ul>
     </li>
   </ul>
@@ -265,33 +265,36 @@ layout: compress
 <a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/home-assistant"><span itemprop="name">Home-Assistant</span></a><meta itemprop="position" content="2"></li>
-<li><span class="prompt">&nbsp; > &nbsp;</span></li>Integrate your electricity meter (teleinfo) in Home Assistant
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/domotique"><span itemprop="name">Domotique</span></a><meta itemprop="position" content="2"></li>
+<li><span class="prompt">&nbsp; > &nbsp;</span></li>
+<li class="breadcrumb-item" itemprop="itemListElement" itemscope
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/haade-lab"><span itemprop="name">Haade-lab</span></a><meta itemprop="position" content="3"></li>
+<li><span class="prompt">&nbsp; > &nbsp;</span></li>Esphome and Homeassistant integrations
 </ol>
 </nav>
 
 
     <!-- Post Title -->
-    <h1 class="posttitle">Integrate your electricity meter (teleinfo) in Home Assistant</h1>
+    <h1 class="posttitle">Esphome and Homeassistant integrations</h1>
     <!-- Author & Date  Box -->
     <div class="d-flex align-items-start mt-4">
         <div class="authorpost">
-            <a href="/haade.fr/en/author-math67">
+            <a href="/haade.fr/en/author-nico">
   <picture>
-    <source srcset="/haade.fr/assets/images/generated/math67-40-e3dda1f71.webp 40w, /haade.fr/assets/images/generated/math67-50-e3dda1f71.webp 50w, /haade.fr/assets/images/generated/math67-70-e3dda1f71.webp 70w, /haade.fr/assets/images/generated/math67-120-e3dda1f71.webp 120w" type="image/webp">
-    <source srcset="/haade.fr/assets/images/generated/math67-40-96752a9a2.png 40w, /haade.fr/assets/images/generated/math67-50-96752a9a2.png 50w, /haade.fr/assets/images/generated/math67-70-96752a9a2.png 70w, /haade.fr/assets/images/generated/math67-120-96752a9a2.png 120w" type="image/png">
-    <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/math67-40-96752a9a2.png" alt="Math67" width="150" height="150">
+    <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
+    <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
+    <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
   </picture>
 </a>
 
         </div>
         <div class="readingpost">
-        Written by <a href="/haade.fr/en/author-math67"><b>Math67,</b></a> the
-        <span class="post-date"><time class="post-date" datetime="03-08-2021"> 3<sup>rd</sup>August 2021,</time></span>
+        Written by <a href="/haade.fr/en/author-nico"><b>Nico,</b></a> the
+        <span class="post-date"><time class="post-date" datetime="11-05-2021">11<sup>th</sup>May 2021,</time></span>
         <br>
         <span><span class="reading-time" title="Estimated read time">
   <strong>
-    4 min</strong> of reading.
+    2 min</strong> of reading.
 </span>
 </span>
         <p><i class="fas fa-eye"></i> This page has been visited <span id="visits" style="font-weight:bold">...</span> times.</p>
@@ -303,9 +306,9 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 
 <!-- Featured Image -->
 <div class="entry-featured-image"><picture>
-  <source sizes="(max-width: 1024px) 350px, 944px" srcset="/haade.fr/assets/images/generated/posts/13/compteur-electrique-homeassistant-944-1cde72891.webp 944w" type="image/webp">
-  <source sizes="(max-width: 1024px) 350px, 944px" srcset="/haade.fr/assets/images/generated/posts/13/compteur-electrique-homeassistant-944-0e11f44a7.png 944w" type="image/png">
-  <img width="940" height="528" class="featured-image" itemprop="image" src="/haade.fr/assets/images/generated/posts/13/compteur-electrique-homeassistant-944-0e11f44a7.png" alt="Integrate your electricity meter (teleinfo) in Home Assistant">
+  <source sizes="(max-width: 1024px) 350px, 944px" srcset="/haade.fr/assets/images/generated/posts/7/esphome-logo-haade-homeassistant-944-7afeb0b4c.webp 944w" type="image/webp">
+  <source sizes="(max-width: 1024px) 350px, 944px" srcset="/haade.fr/assets/images/generated/posts/7/esphome-logo-haade-homeassistant-944-0a34b580e.png 944w" type="image/png">
+  <img width="940" height="528" class="featured-image" itemprop="image" src="/haade.fr/assets/images/generated/posts/7/esphome-logo-haade-homeassistant-944-0a34b580e.png" alt="Esphome and Homeassistant integrations">
 </picture>
 
 </div>
@@ -316,109 +319,49 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <div class="article-post">
     <!-- Toc if any -->
     <div class="toc mt-4 mb-4 lead">
-        <h3 class="font-weight-bold">Sommary</h3><ul><li><a href="#prerequisites">Prerequisites:</a></li><li><a href="#esphome-programming">ESPHome programming</a><ul><li><a href="#summary-of-integration-steps-with-esphome">Summary of integration steps with ESPhome:</a></li></ul></li><li><a href="#lovelace">Lovelace</a></li></ul>
+        <h3 class="font-weight-bold">Sommary</h3><ul><li><a href="#facility">Facility:</a></li></ul>
     </div>
     <!-- End Toc -->
-    <p>For my first post on the blog, I suggest you see together how to integrate the information from your electricity meter (teleinfo) into Home Assistant for around € 14. This tutorial is valid for old electronic meters as well as for new “Linky” communicating meters. To retrieve the information we will use a feature used by energy suppliers: Tele-information.</p>
+    <p>ESPHome is a program injection system to control your ESP8266 / ESP32 wifi modules with simple but powerful configuration files and control them remotely via home automation systems such as Homeassistant.</p>
 
-<h3 id="prerequisites">Prerequisites:</h3>
+<p>Moreover, the company Nabu Casa, which owns the Homeassistant program, acquired the esphome program in March 2021. link of relevant article: <a href="https://www.home-assistant.io/blog/2021/03/18/nabu-casa-has-acquired-esphome/" target=" _blank">acquired esphome by homeassistant</a></p>
 
-<ul>
-  <li>Home assistant installed with up-to-date ESPHome</li>
-  <li>An ESP8266 module of the <a href="https://fr.aliexpress.com/item/32651747570.html?spm=a2g0o.productlist.0.0.77694726yRAR17&amp;algo_pvid=cd2ec6ef-58ee-4733-89fd-25627174ac51&amp;algo_exp_id=cd2ec6ef-58ee-4733-89fd-25627174ac51-0" target="_blank">Wemos D1 mini</a> type and its power supply</li>
-  <li>A <a href="https://www.tindie.com/products/Hallard/pitinfo/" target="_blank">PitInfo</a> module</li>
-</ul>
+<p>Thanks to the integration in Esphome’s Homeassistant it is now very easy to inject a file into the esp8266/esp32 wifi module and to control it, the first injection is done by usb using a UART/USB FT232 adapter available here, and allowing the module to be connected via the 3.3/5v, Gnd, Rx/Tx and Tx/Rx connectors.</p>
 
-<h3 id="esphome-programming">ESPHome programming</h3>
+<h3 id="facility">Facility:</h3>
 
-<p><a href="https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/">An article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link</a></p>
+<blockquote>
+  <p>You can find the installation in English on esphome.io:
+<a href="https://esphome.io/guides/getting_started_hassio.html" target="_blank">https://esphome.io/guides/getting_started_hassio.html</a></p>
+</blockquote>
 
-<p>As the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.</p>
+<p>Nothing could be simpler in homeassistant (hassio), <strong>tab</strong> Supervisor &gt;&gt;&gt; Shop additional modules search for <strong>esphome</strong> and install it. There is nothing to touch in the configuration tab of the module, once installed, do not forget to select <strong>Show in the sidebar.</strong> In order to be able to control the injection.</p>
 
-<h4 id="summary-of-integration-steps-with-esphome">Summary of integration steps with ESPhome:</h4>
+<p><img src="/haade.fr/assets/images/posts/7/esphome-install.webp" alt="install esphome in homeassistant" width="820" height="421" /></p>
 
-<ul>
-  <li>To start, go to ESPHome you must create a new configuration by clicking on the green ‘+’ button located at the bottom right of the screen.</li>
-  <li>Then fill in the various fields with the name of the device, the name of your wifi network (2.4 Ghz imperatively) as well as the associated password.</li>
-  <li>The <strong>platform</strong> is of course ESP8266, for a wemos d1 mini <strong>the board</strong> is d1_mini</li>
-  <li>Click on the ‘Next’ button and connect your Wemos D1 mini by USB to your PC, then click on ‘Connect’ and choose the COM port corresponding to your Wemos.</li>
-</ul>
+<h2 id="use">Use:</h2>
 
-<p>The flash may last a few minutes, leave the page open while waiting for the operation to complete.</p>
-
-<p>After this operation, your new configuration will appear on the ESPHome Dashboard. Click on ‘EDIT’, we will complete the configuration file with the elements necessary for reporting information from the meter.</p>
-
-<p>Below ‘logger’ add the following lines:</p>
-
-<p>Finally, below the ‘captive_portal’ line add the rest of the code:</p>
+<p>Now all you have to do is press the little <strong>**</strong>** at the bottom right and follow the steps:</p>
 
 <ul>
-  <li>
-    <p>For Peak Hours / Off-Hours subscriptions:</p>
-  </li>
-  <li>
-    <p>For subscriptions at the Basic rate:</p>
-  </li>
+  <li>1 – give a name to the file (in miniature and without space)</li>
+  <li>2 – choose the platform corresponding to the chip available on your printed circuit</li>
+  <li>3 – fill in the coordinates of your wifi in the local network <strong>2.4Ghz</strong> (ota not mandatory)</li>
+  <li>4 – finish</li>
 </ul>
 
-<p> You can now upload the file by clicking on ‘INSTALL’.</p>
+<p><img src="/haade.fr/assets/images/posts/7/esphome-ajout.webp" alt="add esphome module in homeassistant" width="820" height="466" /></p>
 
-<p> So much for the programming part, now let’s go to the connection of the assembly.</p>
-
-<h2 id="connection-to-the-meter"> <strong>Connection to the meter</strong></h2>
-
-<picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/pngegg-150x150-150-e7cc71435.webp 150w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/pngegg-150x150-150-400972c5e.png 150w" type="image/png" />
-  <img data-src="/haade.fr/assets/images/generated/posts/13/pngegg-150x150-150-400972c5e.png" alt="Electrical hazard logo" />
-</picture>
-
-<p><strong>You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.</strong></p>
-
-<p> We will in this part see how to connect our assembly, here is the wiring diagram:</p>
-
-<picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/branchement-300-f760e091f.webp 300w, /haade.fr/assets/images/generated/posts/13/branchement-400-f760e091f.webp 400w, /haade.fr/assets/images/generated/posts/13/branchement-820-f760e091f.webp 820w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/branchement-300-f7b613f40.png 300w, /haade.fr/assets/images/generated/posts/13/branchement-400-f7b613f40.png 400w, /haade.fr/assets/images/generated/posts/13/branchement-820-f7b613f40.png 820w" type="image/png" />
-  <img data-src="/haade.fr/assets/images/generated/posts/13/branchement-300-f7b613f40.png" alt="connection diagram pitinfo, wemos and electric meter" />
-</picture>
-
-<p>Schéma de branchement</p>
+<p>animated gif when adding a module in esphome Now you have to integrate the inputs (relay, contactor, optocoupler, led, etc.), you can find a lot of them on the esphome.io site</p>
 
 <ul>
-  <li><strong>Rx</strong> of Wemos on <strong>TXD</strong> of PiTInfo</li>
-  <li><strong>G</strong> of Wemos on<strong>GND</strong> of PiTInfo</li>
-  <li><strong>3v3</strong> of Wemos on <strong>VCC</strong> ofPiTInfo</li>
-  <li> The two <strong>input terminals</strong> of the PiTInfo must be connected to <strong>I1</strong> and <strong>I2</strong> under the meter (These terminals are protected by a cover), there is no polarity on this side of the assembly</li>
+  <li>in devices: <a href="https://esphome.io/#devices" target="_blank">esphome.io/#devices</a></li>
+  <li>in diy <a href="https://esphome.io/guides/diy.html" target="_blank">do it yourself:</a></li>
 </ul>
 
-<p> <strong>Linky counter:</strong> For information to go back to Home Assistant. The counter must be in ‘History’ mode, you can check this information by pressing the ‘+’ or ‘-‘ keys.</p>
-
-<h3 id="lovelace">Lovelace</h3>
-
-<p> Back in Home Assistant go to ‘Integrations’. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on ‘Add integration’ at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.</p>
-
-<picture class="lazyimg">
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/entite-teleinfo-homeassistant-300-0c6e832f0.webp 300w, /haade.fr/assets/images/generated/posts/13/entite-teleinfo-homeassistant-327-0c6e832f0.webp 327w" type="image/webp" />
-  <source data-srcset="/haade.fr/assets/images/generated/posts/13/entite-teleinfo-homeassistant-300-f808bd51e.png 300w, /haade.fr/assets/images/generated/posts/13/entite-teleinfo-homeassistant-327-f808bd51e.png 327w" type="image/png" />
-  <img data-src="/haade.fr/assets/images/generated/posts/13/entite-teleinfo-homeassistant-300-f808bd51e.png" alt="homeassistant teleinfo entity with pitinfo and wemos" />
-</picture>
-
-<p>Map of electric meter entities</p>
-
-<p>So you get this card that you can add directly to Lovelace or create a custom card.</p>
-
-<p>Here it is now over, you have all the information from your meter arriving on your HA. You are now free to manage this data, to create graphs, automations…!</p>
-
-<p>EDIT: Due to a conflict in Home Assistant in the configuration for the “Base” tariff, it is necessary to modify the line id: index by id: “index_base” in the ESPHome code:</p>
-
-<pre><code class="language-yaml">  - platform: teleinfo
-    tag_name: "BASE"
-    name: "Index"
-    unit_of_measurement: "Wh"
-    icon: mdi:gauge
-    id: "index_base" # &lt;- modify line
-</code></pre>
+<blockquote>
+  <p>There is plenty to have fun at low prices, now all that remains is to refine the injections according to the modules purchased.</p>
+</blockquote>
 
 </div>
 
@@ -430,19 +373,21 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
             <picture>
-  <source srcset="/haade.fr/assets/images/generated/math67-40-e3dda1f71.webp 40w, /haade.fr/assets/images/generated/math67-50-e3dda1f71.webp 50w, /haade.fr/assets/images/generated/math67-70-e3dda1f71.webp 70w, /haade.fr/assets/images/generated/math67-120-e3dda1f71.webp 120w" type="image/webp">
-  <source srcset="/haade.fr/assets/images/generated/math67-40-96752a9a2.png 40w, /haade.fr/assets/images/generated/math67-50-96752a9a2.png 50w, /haade.fr/assets/images/generated/math67-70-96752a9a2.png 70w, /haade.fr/assets/images/generated/math67-120-96752a9a2.png 120w" type="image/png">
-  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/math67-40-96752a9a2.png" alt="Math67" width="150" height="150">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
+  <img class="author-thumb" itemprop="image" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico" width="150" height="150">
 </picture>
 
             <p class="mt-4 mb-0 small text-center">
-                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="url" href="https://haade-administrator.github.io/haade.fr/author-math67"><i class="fa fa-link"></i></a>
-                <a class="d-inline-block mx-1 text-dark" itemprop="email" href="mailto:fogel.mathieu@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="url" href="https://haade-administrator.github.io/haade.fr/author-nico"><i class="fa fa-link"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="sameAs" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w"><i class="fab fa-youtube"></i></a>
+                <a target="_blank" class="d-inline-block mx-1 text-dark" itemprop="sameAs" href="https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644"><i class="fab fa-discord"></i></a>
+                <a class="d-inline-block mx-1 text-dark" itemprop="email" href="mailto:nico@haade.fr"><i class="fa fa-envelope"></i></a>
             </p>
         </div>
         <div class="col-md-9">
-            <h4 itemprop="name">Math67</h4>
-            <p class="mt-3 mb-0" itemprop="description">Passionate about tinkering and electricity</p>
+            <h4 itemprop="name">Nico</h4>
+            <p class="mt-3 mb-0" itemprop="description">Founding member of the Haade site, a home automation enthusiast with all the tricks that go well.</p>
         </div>
     </div>
 </div>
@@ -483,8 +428,9 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
     <div class="d-flex justify-content-center align-items-center">
 
     <!-- Categories -->
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/domotique">Domotique</a>
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/haade-lab">Haade-lab</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/home-assistant">Home-Assistant</a>
 
     <!-- Tags -->
 
@@ -645,10 +591,10 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
          <input type="text" placeholder="Enter email address">
          <input type="submit" name="" value="Send">
          <div class="media-icons">
-           <a target="_blank" href="https://twitter.com/intent/tweet?text=Integrate your electricity meter (teleinfo) in Home Assistant&url=https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
+           <a target="_blank" href="https://twitter.com/intent/tweet?text=Esphome and Homeassistant integrations&url=https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="Share this page on Twitter"><i class="fab fa-twitter" aria-hidden="true" title="twitter"></i></a>
            <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Subscribe to our youtube channel"><i class="fab fa-youtube" aria-hidden="true" title="youtube"></i></a>
            <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="Invitation to our Discord network"><i class="fab fa-discord" aria-hidden="true" title="discord"></i></a>
-           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="Share this page on Facebook"><i class="fab fa-facebook-f" aria-hidden="true" title="facebook"></i></a>
+           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://haade-administrator.github.io/haade.fr/en/blog/esphome-and-homeassistant" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="Share this page on Facebook"><i class="fab fa-facebook-f" aria-hidden="true" title="facebook"></i></a>
          </div>
        </form>
      </div>
