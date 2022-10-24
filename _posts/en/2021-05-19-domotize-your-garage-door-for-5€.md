@@ -28,7 +28,7 @@ In this article I will simply show you how to automate your garage door for 5 �
 - Homeassistant installed with esphome
 - A [module usb FT232]({%- link _products/en/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 - A [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/en/2021-05-17-relay-7-30v-esp-8266.md %})
-- Esphome installed in you're system [( look dedicaced article )]({%- post_url 2021-05-11-esphome-et-homeassistant %})
+- Esphome installed in you're system [( look dedicaced article )]({%- post_url 2021-05-11-esphome-and-homeassistant %})
 - Know how to create a new Node and configure it
 - device type: Espressif ESP-12E module
 
@@ -95,7 +95,7 @@ D: Optocoupler (push button switch)
 
 animated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant
 
-Here is a complete return to properly automate your garage door for € 5 thanks to the help of [homeassistant and esphome]({%- post_url 2021-05-11-esphome-et-homeassistant %}) of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!
+Here is a complete return to properly automate your garage door for € 5 thanks to the help of [homeassistant and esphome]({%- post_url 2021-05-11-esphome-and-homeassistant %}) of the Yunshan-Lysignal esp8266 7-30V module, but beware the integration stage is not yet finished!
 
 ## Creation of dry contact automation
 
