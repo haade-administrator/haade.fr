@@ -24,7 +24,7 @@ For a long time I had the home automation system integrated into docker on the f
 
 For my part the installation of the system is mounted [on an sd card 128GB of sandisk brand in extreme pro version](https://s.click.aliexpress.com/e/_AsN9If) , _never skimp on the quality of the sd card!_ . As there is a din rail compatible box for Raspberrypi 4, I naturally turned to this card in 4Gb, **the 2Gb version under home-assistant can quickly become limited** , but the PI4 processor has **tendency to heat up.** As I have a POE + compatible switch above the board, I decided to buy a [Waveshare type C complementary card in POE +](https://s.click.aliexpress.com/e/_ALSRv5){:target="_blank"}
 
-{% include product-embed.html image="/assets/images/posts/{{ page.guid }}/SanDisk-Carte-Micro-SD-Extreme-Pro-16-Go-32-Go-64-Go-128-Go-256-Go.webp" title="Carte sdcard mini sandisk extreme, etreme pro et highendurance" brand="Sandisk" description="SanDisk — Carte Micro SD Extreme, 32 Go/64 Go/128 Go, U3, V30, A2, A1, TF, mémoire flash" affiliate="_DdZe15z" %}
+{% include product-embed.html image="SanDisk-Carte-Micro-SD-Extreme-Pro.webp" title="Carte sdcard mini sandisk extreme, etreme pro et highendurance" brand="Sandisk" description="SanDisk — Carte Micro SD Extreme, 32 Go/64 Go/128 Go, U3, V30, A2, A1, TF, mémoire flash" affiliate="_DdZe15z" %}
 
 ## Why this [Waveshare poe + type C card](https://s.click.aliexpress.com/e/_ALSRv5){:target="_blank"}, compared to the official raspberry pi cards
 
@@ -55,7 +55,7 @@ No additional opening on the din rail box was made when measuring the temperatur
 
 **Above:** Integration into the din rail electrical panel is carefree, the power supply by poe + is a positive point in the integration.
 
-{% include product-embed.html image="/assets/images/posts/{{ page.guid }}/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}
+{% include product-embed.html image="Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}
 
 **Below:** thanks to Home-Assistant and the systemmonitor integration we can control the general state of the Raspberrypi, you can see that the 128GB of sdcard is more than enough, the memory used is 25% of 4Gb knowing that the integration of additional plugins is relatively complete (z-wave, esphome, zigbee, mosquitto, xiaomi, doorbird, etc ...), [the addition of a 2.2" tft/lcd screen fits perfectly into the box or we could do monitoring, see the presentation of the Jeedom integration](https://community.jeedom.com/t/presentation-box-diy-raspberry-4b-ecran-spi-tft-2-2-boitier-din-alim-5v-2-4a-din/35177){:target="_blank"} . But according to a feedback From experience adding such a screen increases the temperature by almost 10 ° C. Maybe I'll upgrade but for now I don't find it essential.
 

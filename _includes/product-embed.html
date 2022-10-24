@@ -3,8 +3,8 @@
 {%- if include.guid %}
 {%- for product in products %}
 <div class="embedproduct">
-    <div class="embedproduct-picture"><img
-            src="{{ site.baseurl }}/assets/images/shop/{{ include.guid }}/{{ product.image }}">
+    <div class="embedproduct-picture">
+        {% picture shop/{{ include.guid }}/{{ product.image }} --alt {{ include.description }} --img width="250" height="250" %}
     </div>
     <div class="text">
         <div class="embedproduct-info">
@@ -23,8 +23,8 @@
 {%- endfor %}
 {%- else %}
 <div class="embedproduct">
-    <div class="embedproduct-picture"><img
-            src="{{ include.image }}">
+    <div class="embedproduct-picture">
+        {% picture posts/{{ page.guid }}/{{ include.image }} --alt {{ include.description }} --img width="250" height="250" %}
     </div>
     <div class="text">
         <div class="embedproduct-info">

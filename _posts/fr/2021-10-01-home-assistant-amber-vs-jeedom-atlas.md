@@ -50,7 +50,7 @@ Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home
 
 # Commençons Par Home-Assistant Amber
 
-{% picture posts/{{ page.guid }}/home-assistant-amber-powered-raspberry.jpg --alt amber par home-assistant %}
+{% picture posts/{{ page.guid }}/home-assistant-amber-powered-raspberry.jpg --img width="820" height="461" --alt amber par home-assistant %}
 
 La Box Amber **est plus que prometteuse** car il s'agit d'une carte d'intégration accueillant la carte raspberrypi component CM4 disponible en plusieurs variantes 1,2 et 4gb de mémoires wifi en option et embarquant ou non un emmc de 8, 16 ou 32gb. La box est compatible avec l'ensemble des cartes CM4.
 
@@ -87,7 +87,7 @@ _Eh bien pas grand chose !_
 
 # Continuons avec Jeedom Atlas
 
-{% picture posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --alt Jeedom atlas caractéristique %}
+{% picture posts/{{ page.guid }}/Jeedom-Atlas-caracteristique.jpg --img width="820" height="461" --alt Jeedom atlas caractéristique %}
 
 ## Avantage Jeedom Atlas
 
