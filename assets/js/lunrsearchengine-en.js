@@ -77,6 +77,12 @@ var documents = [{
     "title": "Esphome and Homeassistant integrations",
     "description": "2021/05/11 - Discovery of esphome in homeassistant",
     "tags": ""
+    },{
+    "id": 13,
+    "url": "/haade.fr/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
+    "title": "Zigbee, comprendre le protocole et le mailing",
+    "description": "2020/02/10 - Zigbee comprend le protocole et le mailing de ce standard",
+    "tags": ""
     }];
 
 var idx = lunr(function () {

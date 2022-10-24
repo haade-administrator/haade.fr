@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Oct 2022 14:08:32 +0000</pubDate>
+    <pubDate>Mon, 24 Oct 2022 14:43:05 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -115,7 +115,7 @@
            </image> -->
       <title>Sonoff SNZB-02 temperature and humidity sensor test</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;I decided to put forward by presenting a test of the &lt;a href=&quot;https://www.haade.fr/en/produit/capteur-temperature-sonoff-snzb-02-zigbee/&quot;&gt;Sonoff SNZB-02 temperature and humidity sensor&lt;/a&gt;, for the seriousness and the range of the brand’s products. It’s not going to be a big item that’s why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.&lt;/p&gt;
+      <description>&lt;p&gt;I decided to put forward by presenting a test of the &lt;a href=&quot;/haade.fr/en/product/temperature-sensor-sonoff-snzb-02-zigbee&quot;&gt;Sonoff SNZB-02 temperature and humidity sensor&lt;/a&gt;, for the seriousness and the range of the brand’s products. It’s not going to be a big item that’s why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.&lt;/p&gt;
 </description>
       <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02</link>
