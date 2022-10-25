@@ -1,9 +1,9 @@
 media_queries:
-  mobile: 'max-width: 480px'
+  mobile: 'max-width: 480'
   tablet: 'max-width: 768'
-  laptop: 'max-width: 1024px'
+  laptop: 'max-width: 1024'
   desktop: 'max-width: 1200'
-  wide: 'min-width: 944'
+  wide: 'min-width: 1201'
 
 presets:
 
@@ -35,12 +35,14 @@ presets:
     fallback_width: 444
 
   post:
-    widths: [ 944 ]
+    widths: [ 450, 738, 790, 940 ]
     formats: [webp, original]
     sizes:
-      laptop: 350px
-    size: 944px
-    fallback_width: 944
+      mobile: 450px
+      tablet: 738px
+      laptop: 790px
+      desktop: 940px
+    fallback_width: 450
     dimension_attributes: false
 
   box:

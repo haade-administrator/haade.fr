@@ -1029,37 +1029,66 @@ a {
   }
 }
 
+@media (max-width: 525px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 5px 0px;
+    grid-template-areas:
+        "left"
+        "right";
+}
+  .right {
+    grid-template-columns: 1fr;
+    gap: 5px 0px;
+    grid-template-areas: "second" "bottom-right";
+}
+.left .hero-image {
+  height: 240px;
+}
+.second .hero-image {
+  height: 180px;
+}
+}
+
 @media (max-width: 1200px) {
   a.hero-categories {
     font-size: 9px;
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 525px) and (max-width: 1024px) {
   .hero-container {
     grid-template-columns: 1fr;
     row-gap: 5px;
     grid-template-areas: "left" "right";
   }
-
-  /* .right {
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 140px;
+  .bottom-right {
+    grid-template-columns:1fr;
+    gap: 5px 0px;
+    grid-template-areas: "third" "four";
+    justify-items: end;
+  }
+   .second .third .four, .hero-image {
+    width:497px;
+    object-fit: cover;
+   }
+  
+  
+   .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 5px;
     grid-template-areas: "second bottom-right";
-    column-gap: 5px;
-  } */
+   }
 
    .left .hero-image {
     width: 100%;
-    height: 50%;
+    height: 350px;
   }
 
   .second .hero-image {
     object-fit: cover;
-  }
-
-  .third .four, .hero-image {
-    object-fit: cover;
+    height: 285px;
   }
 
   .hero-text.second {
@@ -1118,6 +1147,9 @@ a {
     font-size: 10px;
   }
 }
+
+@media (max-width: 575px) {}
+
 
 /* css horizontal ticker */
 

@@ -4,7 +4,7 @@ title: 'Jeedom sur docker'
 date: '2019-12-09T10:17:14+00:00'
 last_modified_at:
 author: Nico
-categories: Domotique Haade-lab Jeedom
+categories: [Domotique, Haade-lab, Docker, Jeedom]
 layout: post
 image: installation-jeedom-docker-1.png
 tags:
@@ -19,8 +19,7 @@ sitemap:
   exclude: #'yes' or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
-redirect_from:
-  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker
+redirect_from: /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker
 ---
 
 ## 1- Installation des images et container mariadb/alpin et Adminer.
@@ -116,7 +115,7 @@ yobasystems/alpine-mariadb:latest
 ***your\_user*** par un nom d’utilisateur  
 ***your\_password*** par un mot de passe utilisateur
 
-{% picture posts/{{ page.guid }}/mysql-1.png --alt connection à putty %}
+{% picture posts/{{ page.guid }}/mysql-1.png --alt création docker mysql --img width="820" height="587" %}
 
 ### Installation de Adminer sur le docker.
 
@@ -132,7 +131,7 @@ docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adm
 
 À ce stade nous avons sur notre docker deux container l’un pour mariadb, nommé **mariadb** et l’autre avec adminer nommé **Adminer**
 
-{% picture posts/{{ page.guid }}/container-mariadb-adminer.png --alt connection à putty %}
+{% picture posts/{{ page.guid }}/container-mariadb-adminer.png --alt ligne de commande installation adminer --img width="820" height="113" %}
 
 ## 2- Installation de jeedom sur docker
 
@@ -268,14 +267,14 @@ Remplacez dans « database hostname » *localhost* par **127.0.0.1** sinon une e
 
 Puis, on rempli bien Database username, password et name. Avec les mêmes caractéristiques lors de la création de la base de données plus haut. On laisse faire l’installation puis on se connecte à jeedom avec login et mot de passe par défaut **admin:admin**
 
-{% picture posts/{{ page.guid }}/jeedom3-1.png --alt Paramétrage mysql initial jeedom %}
+{% picture posts/{{ page.guid }}/jeedom3-1.png --alt Paramétrage mysql initial jeedom --img width="820" height="711" %}
 Ensuite à l’invite de commande on modifie le mot de passe. Puis on rentre ses coordonnées jeedom market pour pouvoir passer à l’étape suivante.
 
-{% picture posts/{{ page.guid }}/jeedom-connection.png --alt connection à Jeedom %}
+{% picture posts/{{ page.guid }}/jeedom-connection.png --alt connection à Jeedom --img width="820" height="491" %}
 
 Une fois les étapes de connections bien remplies, nous allons jeter un oeil sur l’onglet /Analyse/santé et si tout s’est bien passé nous devrions avoir ceci:
 
-{% picture posts/{{ page.guid }}/market.png --alt connection au market Jeedom %}
+{% picture posts/{{ page.guid }}/market.png --alt connection au market Jeedom --img width="820" height="700" %}
 
 On s’aperçoit que la configuration réseau n’est pas bonne donc Rendez-vous dans l’onglet /Réglage/Système/Configuration/Réseaux et paramétrez comme l’image ci-dessous:
 

@@ -73,13 +73,13 @@ Voilà pour la partie programmation, passons maintenant au branchement du montag
 
 ### Branchement au compteur
 
-{% picture posts/{{ page.guid }}/pngegg-150x150.png --alt Logo risque électrique %}
+{% picture logo posts/{{ page.guid }}/pngegg.png --alt Logo risque électrique --img width="250" height="250" %}
 
 **Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique.** **Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique.**
 
 Nous allons dans cette partie voir comment brancher notre montage, voici le schéma de câblage :
 
-{% picture posts/{{ page.guid }}/branchement.png --alt schema branchement pitinfo, wemos et compteur électrique %}
+{% picture posts/{{ page.guid }}/branchement.png --alt schema branchement pitinfo, wemos et compteur électrique --img width="820" height="508" %}
 
 Schéma de branchement
 
@@ -96,7 +96,7 @@ Maintenant que le montage est réalisé, il ne reste plus qu'à mettre sous tens
 
 De retour dans Home Assistant rendez-vous dans "Intégrations". Normalement votre nouveau Wemos devrait être reconnu par HA et vous être proposé à la configuration. Si ce n'est pas le cas, il vous faudra l'ajouter manuellement en cliquant sur "Ajouter l'intégration" en bas à droite. Puis chercher ESPHome dans la liste et enfin rentrer l'adresse IP du module.
 
-{% picture posts/{{ page.guid }}/entite-teleinfo-homeassistant.png --alt entité téléinfo homeassistant avec pitinfo et wemos %}
+{% picture posts/{{ page.guid }}/entite-teleinfo-homeassistant.png --alt entité téléinfo homeassistant avec pitinfo et wemos --img width="327" height="819" %}
 
 Carte des entités du compteur électrique
 

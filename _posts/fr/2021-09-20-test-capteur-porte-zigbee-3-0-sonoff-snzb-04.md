@@ -56,7 +56,7 @@ Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigb
 
 ## Comparatif [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) VS Xiaomi Aqara Mijia MCCGQ01LM
 
-{% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM %}
+{% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM --img width="820" height="461" %}
 
 test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
@@ -92,6 +92,6 @@ test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
 ## En conclusion
 
-Si tu t'en fous du design, si tu veux faire des économies ou alors si tu as beaucoup de modules à acheter, alors [le capteur d'ouverture sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) est fait pour toi, sinon si le maillage du réseau ne te fait pas peur **alors passe sur Xiaomi**, rappel: [le nouveau capteur d'ouverture rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({%- link _products/fr/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
+Si tu t'en fous du design, si tu veux faire des économies ou alors si tu as beaucoup de modules à acheter, alors [le capteur d'ouverture sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %}) est fait pour toi, sinon si le maillage du réseau ne te fait pas peur **alors passe sur Xiaomi**, rappel: [le nouveau capteur d'ouverture rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
 
 {% include product-embed.html guid="2123" description="Capteur porte zigbee 3.0 sonoff SNZB-04" %}

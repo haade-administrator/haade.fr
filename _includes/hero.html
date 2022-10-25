@@ -3,7 +3,7 @@
     {%- assign latest_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
     {%- for latest_post in latest_posts limit:1 %}
       <a href="{{site.baseurl}}{{latest_post.url}}">
-        {% picture posts/{{ latest_post.guid }}/{{ latest_post.image }} 13:9 --alt {{ latest_post.description }} --img class="hero-image" width="553" height="385" %}
+        {% picture posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" width="553" height="385" %}
       </a>
       <div class="hero-text latest">
       {%- if latest_post.categories != empty %}
@@ -36,7 +36,7 @@
       {%- assign second_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
       {%- for second_post in second_posts limit:1 offset:1 %}
         <a href="{{site.baseurl}}{{second_post.url}}">
-          {% picture posts/{{ second_post.guid }}/{{ second_post.image }} 53:23 --alt {{ second_post.description }} --img class="hero-image" width="553" height="240" %}        
+          {% picture posts/{{ second_post.guid }}/{{ second_post.image }} --alt {{ second_post.description }} --img class="hero-image" width="553" height="240" %}        
         </a>
         <div class="hero-text second">
           {%- if second_post.categories != empty %}
@@ -68,7 +68,7 @@
         {%- assign third_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for third_post in third_posts limit:1 offset:2 %}
               <a href="{{site.baseurl}}{{third_post.url}}">
-                {% picture posts/{{ third_post.guid }}/{{ third_post.image }} 137:70 --alt {{ third_post.description }} --img class="hero-image" width="274" height="140" %}        
+                {% picture posts/{{ third_post.guid }}/{{ third_post.image }} --alt {{ third_post.description }} --img class="hero-image" width="274" height="140" %}        
               </a>
           <div class="hero-text thirdfour">
             {%- if third_post.categories != empty %}
@@ -99,7 +99,7 @@
         {%- assign four_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for four_post in four_posts limit:1 offset:3 %}
               <a href="{{site.baseurl}}{{four_post.url}}">
-                {% picture posts/{{ four_post.guid }}/{{ four_post.image }} 137:70 --alt {{ four_post.description }}  --img class="hero-image" width="274" height="140" %}        
+                {% picture posts/{{ four_post.guid }}/{{ four_post.image }} --alt {{ four_post.description }}  --img class="hero-image" width="274" height="140" %}        
           </a>
           <div class="hero-text thirdfour">
             {%- if four_post.categories != empty %}

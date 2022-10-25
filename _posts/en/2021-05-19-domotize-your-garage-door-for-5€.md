@@ -26,7 +26,7 @@ In this article I will simply show you how to automate your garage door for 5 â‚
 ## Prerequisites to automate your garage door:
 
 - Homeassistant installed with esphome
-- A [module usb FT232]({%- link _products/en/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+- A [module usb FT232]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 - A [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relay-7-30v-esp-8266.md %})
 - Esphome installed in you're system [( look dedicaced article )]({%- post_url /en/2021-05-11-esphome-and-homeassistant %})
 - Know how to create a new Node and configure it
@@ -58,7 +58,7 @@ D: Optocoupler (push button switch)
 
 ## Connection
 
-[ft232]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %}) and [esp8266 ESP-12F Yunshan-Lysignal]({%- link _products/en/2021-05-17-relay-7-30v-esp-8266.md %})
+[ft232]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %}) and [esp8266 ESP-12F Yunshan-Lysignal]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relay-7-30v-esp-8266.md %})
 
 - On one side, a universal dc socket set to 9v, a minimum of 7v is required for programming.
 - The other rx on tx
@@ -69,7 +69,7 @@ D: Optocoupler (push button switch)
 {% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Hookup ft 232 yunshan Lysignal %}
 
 1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relay-7-30v-esp-8266.md %})
-2. [usb uart ft232 converter module]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+2. [usb uart ft232 converter module]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 
 ## Parameterized file for ESPhome
 

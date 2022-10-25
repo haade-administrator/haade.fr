@@ -21,7 +21,7 @@ redirect_from: /produit/grow-r503-capteur-dempreinte-digitale
 
 Le Grow R503 peut collecter 200 empreintes digitales, le taux de reconnaissance est élevé quelles que soient les conditions (doigt sec ou humide, texture fine ou texture marquée). Il peut être facilement intégré dans une variété de produits finaux, tels que : contrôleurs d'accès, présence, coffre-fort....
 
-Des accessoires sont également disponibles avec le Grow R503 comme un [support plaque inox]({% link _products/fr/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %}), malgré son assez haut niveau d'étanchéité, ip65 vous pouvez aussi acheter une [valve de protection plastique ou zinc.]({% link _products/fr/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %})
+Des accessoires sont également disponibles avec le Grow R503 comme un [support plaque inox]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %}), malgré son assez haut niveau d'étanchéité, ip65 vous pouvez aussi acheter une [valve de protection plastique ou zinc.]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %})
 
 ### Description Produit
 

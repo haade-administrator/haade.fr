@@ -22,7 +22,7 @@ comments: true
 redirect_from:
   - /blog/news/kobol-helios-64-cest-termine
 ---
-Mercredi 25 Août, la société [Kobol](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"}.io a **décidée de stopper l'aventure** du boîtier de stockage NAS ( network attached storage ) open source helios 64.
+Mercredi 25 Août, la société [Kobol.io](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"} a **décidée de stopper l'aventure** du boîtier de stockage NAS ( network attached storage ) open source helios 64.
 
 **Après une année 2020 très difficile** dûe à la flambée des prix des composants électroniques et des délais de livraisons toujours plus long. Les **3 compères** de la société avaient décidé fin avril de faire une pause. D'abord annoncée à deux mois, celle-ci s'est rallongée à plus de 4 mois.
 
@@ -32,7 +32,7 @@ Mercredi 25 Août, la société [Kobol](https://blog.kobol.io/2021/08/25/we-are-
 
 L'aventure du NAS ( network attached storage ) opensource selon Kobol a commencée au mois de juin 2017 avec la venue de l'helios 4.
 
-{% picture posts/{{ page.guid}}/helios4.jpg --alt helios 4 par Kobol %}
+{% picture posts/{{ page.guid}}/helios4.jpg --alt helios 4 par Kobol --img width="820" height="857" %}
 
 Premier Nas de la société kobol, le helios 4
 
@@ -46,7 +46,7 @@ Montage et assemblage Kobol helios 4 par Kobol.io
 
 Afin de pouvoir mieux se positionner sur le marché et suite aux ventes toujours plus forte de l'helios 4. La société a décidé en janvier 2020 de lancer officiellement l'helios64.
 
-{% picture posts/{{ page.guid}}/helios64.png --alt Nas opensource kobol helios64 %}
+{% picture posts/{{ page.guid}}/helios64.png --alt Nas opensource kobol helios64 --img width="820" height="461" %}
 
 module de stockage de donnée NAS, helios 64 par kobol
 

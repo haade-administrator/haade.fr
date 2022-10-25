@@ -27,14 +27,14 @@ So why did we choose to present this product to you, and well because it has onl
 
 > Moes' zigbee-compatible touch switch looks a lot like Livolo's switch, however the 2020 upgrade and the touch interface make this product a very good switch and above all it stands out.
 
-[**Commercial Link Moes Upgrade 2020 Switch**]({% link _products/en/2021-03-18-zigbee-touch-switch-moes-zts-eu-upgrade-2020.md %})
+[**Commercial Link Moes Upgrade 2020 Switch**]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-zigbee-touch-switch-moes-zts-eu-upgrade-2020.md %})
 
 As uncle says in the video, the Moes switch works under homeassistant with the zigbee2mqtt module from version 1.18.x.
 
 ## Coswall square recessed box ideal for new and old:
 
-1. [recessed box 83mm hollow materials]({% link _products/en/2021-03-18-square-recessed-box-coswall-44-reductions.md %})
-2. [Coswall 85mm flush-mounting box]({% link _products/en/2021-03-19-recessed-box-to-seal-coswall-85mm.md %})
+1. [recessed box 83mm hollow materials]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-square-recessed-box-coswall-placo.md %})
+2. [Coswall 85mm flush-mounting box]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-19-recessed-box-to-seal-coswall-85mm.md %})
 
 ## So what are its advantages:
 

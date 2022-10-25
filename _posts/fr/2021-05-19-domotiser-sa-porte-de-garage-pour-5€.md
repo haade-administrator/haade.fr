@@ -36,7 +36,7 @@ Dans cet article je vais vous montrer tout simplement comment domotiser sa porte
 
 ## Nomenclature Yunshan-Lysignal esp8266
 
-{% picture posts/{{ page.guid }}/yunshan.png --alt Relais Yunshan-Lysignal esp8266 porte de garage %}<br>
+{% picture posts/{{ page.guid }}/yunshan.png --alt Relais Yunshan-Lysignal esp8266 porte de garage --img width="820" height="351" %}<br>
 
 ### ESP8266 relais 7-30v Yunshan lysignal ESP-12F
 
@@ -60,9 +60,9 @@ D: Optocoupleur ( interrupteur bouton poussoir )
 
 ## Branchement ft232 et esp8266 ESP-12F Yunshan-Lysignal
 
-[ft232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+[ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 et
-[esp8266 ESP-12F Yunshan-Lysignal]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
+[esp8266 ESP-12F Yunshan-Lysignal]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
 
 - d’un côté une prise dc universelle paramétré sur 9v il faut 7v au minimum pour la programmation.
 - de l’autre rx sur tx
@@ -70,7 +70,7 @@ et
 - et pour finir ground sur ground (GND)
 - Brancher le tout au raspberry pi.
 
-{% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Branchement ft 232 yunshan Lysignal %}
+{% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Branchement ft 232 yunshan Lysignal --img width="820" height="461" %}
 
 1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
 2. [Module de conversion usb uart ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
@@ -97,7 +97,7 @@ et
 
 ![Rendu final de esp8266 dans homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/yunshan-homeassistant.webp{{ cachebuster }}){: width="499" height="369"}
 
-image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome]({%- post_url /fr/2021-05-11-esphome-et-homeassistant %}) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
+image gif animé sur le fonctionnement du module yunshan 7-30v intégré avec esphome et homeassistant. Voilà un retour complet pour bien domotiser sa porte de garage pour 5€ grâce à l’aide [d’homeassistant et esphome]({% post_url /fr/2021-05-11-esphome-et-homeassistant %}) du module esp8266 7-30V Yunshan-Lysignal mais attention l’étape d’intégration n’est pas encore fini !
 
 ## Création de l’automatisation contact sec
 
@@ -107,7 +107,7 @@ Pour commencer les boutons poussoirs no/nc fonctionnent en contact sec. Afin de 
 
 ## Carte de contrôle Hormann supramatic e3
 
-{% picture posts/{{ page.guid }}/hormann-carte-controleur.jpg --alt nomenclature carte controleur moteur hormann supramatic e3 %}
+{% picture posts/{{ page.guid }}/hormann-carte-controleur.jpg --alt nomenclature carte controleur moteur hormann supramatic e3 --img width="820" height="252" %}
 
 Dans notre cas nous voulons domotiser un moteur hormann la nomenclature est assez simple:
 

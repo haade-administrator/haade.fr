@@ -19,7 +19,7 @@ item-affiliate: "_DFpjRJ9"
 redirect_from: /en/produit/grandir-r503-plaque-inox-plus-protection-r503
 ---
 
-1. Stainless steel plate for [grow R503]({% link _products/en/2021-06-16-grow-r503-fingerprint-sensor.md %}) or GM60 fingerprint sensor
+1. Stainless steel plate for [grow R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grow-r503-fingerprint-sensor.md %}) or GM60 fingerprint sensor
 2. Dimensions: 86x86mm
 3. Hole diameter: 25mm
 4. Thickness: 1.05mm

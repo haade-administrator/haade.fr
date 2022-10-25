@@ -25,7 +25,7 @@ redirect_from:
 
 **Pour commencer**, on trouve sur internet certains comparatif zigbee vs z-wave mais je trouve qu’ils ne vont pas au bout des choses. Donc je vais détailler dans cet article ces deux protocoles qui sont actuellement indispensable dans la domotisation d’un habitat. Alors quel est le meilleur protocole ! sont-ils indissociables nous allons voir ça dès maintenant.
 
-Pour comprendre mieux le maillage zigbee [j’ai créé un article récemment sur ce sujet, on peut le consulter en cliquant ici.]({{ site.baseurl }}/zigbee-comprendre-le-protocole-et-le-maillage/)
+Pour comprendre mieux le maillage zigbee [j’ai créé un article récemment sur ce sujet, on peut le consulter en cliquant ici.]({% post_url /fr/2020-02-10-zigbee-comprendre-le-protocole-et-le-maillage %})
 
 ### Tableau comparatif zigbee vs z-wave
 
@@ -60,7 +60,7 @@ Pour comprendre mieux le maillage zigbee [j’ai créé un article récemment su
 
 ### Alors quel est le bon protocole !
 
-Personnellement j’avais il y a 5 ans commencé à domotiser mon habitat en z-wave avec le gestionnaire domotique **[Jeedom](https://www.jeedom.com/site/fr/){:target="_blank"}**.
+Personnellement j’avais il y a 5 ans commencé à domotiser mon habitat en z-wave avec le gestionnaire domotique **[Jeedom]**(https://www.jeedom.com/site/fr/){:target="_blank"}.
 
 > Tout au long de ces années j’ai pu me faire un avis objectif sur la question. De là est née l’envie d’éditer un comparatif zigbee vs z-wave.
 

@@ -51,10 +51,10 @@ parmi les options que je trouve les plus intéressantes de watchtower on peut:
 ### Documentation officielle de Watchtower
 
 Ci joint la documentation officielle de Watchtower   
-[Documents officiels Watchtower](https://containrrr.github.io/watchtower/){:target="_blank"}
+[Documentation officielle Watchtower](https://containrrr.github.io/watchtower/){:target="_blank"}
 
 Liste des Arguments disponibles  
-[Arguments Wtchtower](https://containrrr.github.io/watchtower/arguments/){:target="_blank"}
+[Arguments Watchtower](https://containrrr.github.io/watchtower/arguments/){:target="_blank"}
 
 Le code docker ci-dessous avec l’argument
 `--schedule "0 2 * * *`

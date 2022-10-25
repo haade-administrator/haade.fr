@@ -27,7 +27,7 @@ Voilà un article qui n’est autre que la continuité d’un article que j’ai
 
 ### Antenne acheté sur aliexpress avec un gain de 6dbm et fil ipex
 
-{% picture posts/{{ page.guid }}/antenne-wifi-gain-6db-connectique-ipex.jpg --alt antenne wifi connecteur ipex 20db %}
+{% picture posts/{{ page.guid }}/antenne-wifi-gain-6db-connectique-ipex.jpg --alt antenne wifi connecteur ipex 20db --img width="820" height="461" %}
 
 Préparation fil ipex avant soudure antenne wifi gain 6dbm sur esp8266 En installant le module chez tonton qui, *si vous nous suivez, se trouve être le second rédacteur du site et le responsable de la chaine youtube*. Nous nous sommes rendu compte que le module esp8266 7-30v équipé d’un esp-12f/12s n’arrivait pas rester sur le réseau wifi -90dbm environ. Alors j’ai un petit peut fouillé sur le net ça c’est pas bien difficile et [j’ai trouvé un article en anglais sur une telle soudure.](https://www.instructables.com/External-Antenna-for-ESP8266/){: target="_blank"}
 
@@ -35,11 +35,11 @@ De ce pas j’ai commandé un lot de deux antennes wifi sur aliexpress et dès r
 
 Premièrement j’ai mesuré sur plusieurs heures à un point donné la puissance wifi avec l’antenne de base. Une mesure établi toutes les 20 secondes. Tu peux voir un débit moyen de -68dbm.
 
-{% picture posts/{{ page.guid }}/wifi-avant.png --alt Capture su plusieurs heures d'un débit wifi normal avec l'antenne intégrée nativement au circuit esp8266-12f %}
+{% picture posts/{{ page.guid }}/wifi-avant.png --alt Capture su plusieurs heures d'un débit wifi normal avec l'antenne intégrée nativement au circuit esp8266-12f --img width="431" height="371" %}
 
 Ensuite j’ai sectionné les deux broches de sorties de l’antenne grâce à un cutter. Pas bien difficile, la section du cuivre se fait facilement.
 
-{% picture posts/{{ page.guid }}/sectionnement-antenne-presente.jpg --alt section des broches wifi sur un esp8266 esp-12F/12s %}
+{% picture posts/{{ page.guid }}/sectionnement-antenne-presente.jpg --alt section des broches wifi sur un esp8266 esp-12F/12s --img width="820" height="461" %}
 
 ### Passons à la Soudure du fil Ipex afin d’augmenter la réception du signal wifi sur esp8266-12f/12s
 
@@ -48,7 +48,7 @@ Facile à réaliser avec un fer à souder traditionnel. Il ne reste plus qu’à
 1. Celle numérotée 1 est la sortie wifi principale point positif entouré d’un fil nylon
 2. Celle de droite numéro 2 est le Ground ( filaments entourant le fil conducteur principal de l’antenne ).
 
-{% picture posts/{{ page.guid }}/antenne-soudee-esp-12f-wemos-d1-mini.png --alt zoom soudure antenne wifi -6dm sur esp8266-12f type wemos d1 mini %}
+{% picture posts/{{ page.guid }}/antenne-soudee-esp-12f-wemos-d1-mini.png --alt zoom soudure antenne wifi -6dm sur esp8266-12f type wemos d1 mini --img width="820" height="461" %}
 
 Après vient les soudures. Attention à ce que 1 ne touche pas 2 car sinon il va y avoir des pertes. D’ailleurs facilement testable avec un multimètre.
 
