@@ -21,7 +21,7 @@ redirect_from: /en/produit/grow-r503-capteur-dempreinte-digitale
 
 The Grow R503 can collect 200 fingerprints, the recognition rate is high whatever the conditions (dry or wet finger, fine texture or marked texture). It can be easily integrated into a variety of end products, such as: access controllers, presence, safe ....
 
-Accessories are also available with the Grow R503 such as a [stainless steel plate support](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/), despite its fairly high level of tightness, ip65 you can also buy a [plastic or zinc protective valve.](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/)
+Accessories are also available with the Grow R503 such as a [stainless steel plate support]({% link _products/en/2021-06-16-grandir-r503-stainless-steel-plate-plus-protection-r503.md %}), despite its fairly high level of tightness, ip65 you can also buy a [plastic or zinc protective valve.]({% link _products/en/2021-06-16-grandir-r503-stainless-steel-plate-plus-protection-r503.md %})
 
 ### Product Description
 

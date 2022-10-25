@@ -35,8 +35,10 @@ Vous désirez choisir un bon interrupteur tactile alors n'hésitez plus. Testé 
 9. fonctionne en mode toggle pour tout autre fonction qu'une lumière
 10. permet de simuler un va et vient via un assistant domotique tel que Homeassistant
 
-[Article de présentation détaillé de l'interrupteur](https://www.haade.fr/blog/test-de-matos/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020/)
+[Article de présentation détaillé de l'interrupteur]({% post_url /fr/2021-03-17-test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020 %})
 
 #### **Vidéo de présentation Youtube**
 
-[https://youtu.be/cq0ZeT6K1uY](https://youtu.be/cq0ZeT6K1uY)
+<div class="media">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cq0ZeT6K1uY" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+</div>

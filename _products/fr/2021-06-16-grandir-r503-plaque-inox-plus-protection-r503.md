@@ -19,7 +19,7 @@ item-affiliate: "_DFpjRJ9"
 redirect_from: /produit/grandir-r503-plaque-inox-plus-protection-r503
 ---
 
-1. Plaque en acier inoxydable pour capteur d'empreinte digital [grow R503](https://www.haade.fr/produit/grow-r503-capteur-dempreinte-digitale/) ou GM60
+1. Plaque en acier inoxydable pour capteur d'empreinte digital [grow R503]({% link _products/fr/2021-06-16-grow-r503-capteur-dempreinte-digitale.md %}) ou GM60
 2. Dimensions: 86x86mm
 3. Diamètre du trou: 25mm
 4. Épaisseur: 1,05mm

@@ -24,7 +24,7 @@ redirect_from:
 ---
 La livraison par aliexpress du capteur d’empreintes Grow R503 et des accessoires s’est effectuée sans soucis et livré bien emballé, je n’ai rencontré aucun soucis à la livraison et le délai d’envoi et livraison a été effectuée rapidement, le manufacturier Grow propose de bonnes prestations.
 
-{% picture posts/{{ page.guid }}/grow-r503-plaque-inox-clapet-zinc-esphome-home-assistant.jpg --alt Grow R503 capteur d'empreintes complet avec plaque inox %}
+{% picture posts/{{ page.guid }}/grow-r503-plaque-inox-clapet-zinc-esphome-home-assistant.jpg --alt Grow R503 capteur empreintes complet avec plaque inox %}
 
 ## Le matériel, test du Grow R503
 
@@ -51,15 +51,15 @@ dessous du capteur d’empreinte grow r503 rempli de silicone pour éviter les i
 ### Prérequis:
 
 - home assistant installé et fonctionnel
-- [esphome installé et fonctionnel](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/) version: **1.18.0 mini**
+- [esphome installé et fonctionnel]({% post_url /fr/2021-05-11-esphome-et-homeassistant %}) version: **1.18.0 mini**
 - Module ESP8266/32 type Wemos D1 mini ou équivalent
-- [Module de conversion usb uart type ft232](https://www.haade.fr/produit/module-de-conversion-usb-uart-ft232/)
-- Capteur [empreintes digitales GROW R503](https://www.haade.fr/produit/grow-r503-capteur-dempreinte-digitale/), R307 ou équivalent
-- ( optionnel ): [plaque inox 86mm et support de protection R503](https://www.haade.fr/produit/grandir-r503-plaque-inox-plus-protection-r503/)
+- [Module de conversion usb uart type ft232]({% link _products/fr/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+- Capteur [empreintes digitales GROW R503]({% link _products/fr/2021-06-16-grow-r503-capteur-dempreinte-digitale.md %}), R307 ou équivalent
+- ( optionnel ): [plaque inox 86mm et support de protection R503]({% link _products/fr/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %})
 
 Grâce au travail effectué par l’équipe home assistant et esphome v1.18.0 et supérieur tu peux désormais [intégrer facilement un capteur d’empreintes digitales Grow R503](https://esphome.io/components/fingerprint_grow.html){:target="_blank"} et ainsi domotiser un accès grâce à ton petit doigt. dans mon cas ce sera pour utiliser l’accès à la porte de garage c’est pourquoi je me suis orienté vers un GROW R503 avec plaque inx compatible boîte d’encastrement, un projet similaire est déjà diffusé sur la communauté home assistant[ *share your Projects!* Garage fingerprint sensor](https://community.home-assistant.io/t/garage-fingerprint-sensor/312977){:target="_blank"}.
 
-Hormis le fait que ce soit un test, c’est aussi la suite d’un article que j’ai rédigé sur le site [domotiser sa porte de garage pour 5€](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/domotiser-sa-porte-de-garage-pour-5e/), n’hésite pas à le lire.
+Hormis le fait que ce soit un test, c’est aussi la suite d’un article que j’ai rédigé sur le site [domotiser sa porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}), n’hésite pas à le lire.
 
 ### 1 – Connexion au wemos
 
@@ -75,7 +75,7 @@ branchement par fil dupont du capteur d’empreinte r503 sur wemos d1 mini espho
 
 ### 2 – Connexion et paramétrage sur esphome
 
-là aussi j’ai rédigé un article à **consulter** [esphome et home assistant](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/).
+là aussi j’ai rédigé un article à **consulter** [esphome et home assistant]({% post_url /fr/2021-05-11-esphome-et-homeassistant %}).
 
 {% gist 1e431d8fe4fa347e01f286349e610891 %}
 

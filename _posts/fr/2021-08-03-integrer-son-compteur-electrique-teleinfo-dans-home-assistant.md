@@ -32,7 +32,7 @@ Pour mon premier article sur le blog, je vous propose de voir ensemble comment i
 
 ### Programmation ESPHome
 
-[Un article est dédié à la programmation d'un ESP8266 ou 32 n'hésitez pas à le consulter en cliquant sur le lien](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/)
+[Un article est dédié à la programmation d'un ESP8266 ou 32 n'hésitez pas à le consulter en cliquant sur le lien]({% post_url /fr/2021-05-11-esphome-et-homeassistant %})
 
 Le compteur électrique étant généralement distant de votre installation domotique je vous conseille de programmer et flasher d'abord votre ESP8266.
 

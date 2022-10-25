@@ -23,7 +23,7 @@ With the power of Big Tech behind it and Project CHIP morphing into the marketin
 
 It might seem, looking from the outside at least, that Z-Wave could be a casualty of this shake up.
 
-Z-Wave is not a communications protocol the new initiative is making use of and, let us not forget, [homeoverip](https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip/) ==> [Matter](https://buildwithmatter.com/) is an initiative essentially run by Z-Wave’s long term rival Zigbee, under its new guise of the Connectivity Standards Alliance.
+Z-Wave is not a communications protocol the new initiative is making use of and, let us not forget, [homeoverip]({% post_url /en/2020-02-11-connected-protocol-home-over-ip-matter %}) ==> [Matter](https://buildwithmatter.com/){:target="_blank"} is an initiative essentially run by Z-Wave’s long term rival Zigbee, under its new guise of the Connectivity Standards Alliance.
 
 ## Interoperability: the key to Z-wave and Matter protocols
 

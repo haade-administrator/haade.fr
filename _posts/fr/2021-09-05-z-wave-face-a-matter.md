@@ -26,7 +26,7 @@ redirect_from:
 
 Le patron de Z-Wave affirme que les utilisateurs bénéficieront d'une approche rationalisée de la maison intelligente.
 
-Avec la puissance de Big Tech derrière elle et le projet CHIP se transformant en un [homeoverip](https://www.haade.fr/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip/){:target="_blank"} ==> [Matter](https://buildwithmatter.com/){:target="_blank"} conviviale pour le marketing, nous pourrions envisager l'un des plus grands bouleversements jamais réalisés dans le monde de la maison intelligente.
+Avec la puissance de Big Tech derrière elle et le projet CHIP se transformant en un [homeoverip]({% post_url /fr/2020-02-11-protocole-connecte-home-over-ip %}){:target="_blank"} ==> [Matter](https://buildwithmatter.com/){:target="_blank"} conviviale pour le marketing, nous pourrions envisager l'un des plus grands bouleversements jamais réalisés dans le monde de la maison intelligente.
 
 Il pourrait sembler, vu de l'extérieur au moins, que Z-Wave pourrait être une victime de ce bouleversement.
 

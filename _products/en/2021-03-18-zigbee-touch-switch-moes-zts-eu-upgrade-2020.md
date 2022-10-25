@@ -34,8 +34,10 @@ You want to choose a good tactile switch then do not hesitate any more. Tested b
 9. operates in toggle mode for any function other than a light
 10. allows you to simulate coming and going via a home automation assistant such as Homeassistant
 
-[Detailed presentation article of the switch](https://www.haade.fr/blog/test-de-matos/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020/)
+[Detailed presentation article of the switch]({% post_url /en/2021-03-17-test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020 %})
 
 #### **Youtube presentation video**
 
-[https://youtu.be/cq0ZeT6K1uY](https://youtu.be/cq0ZeT6K1uY)
+<div class="media">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cq0ZeT6K1uY" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+</div>

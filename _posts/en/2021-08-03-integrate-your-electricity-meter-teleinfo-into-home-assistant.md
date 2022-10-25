@@ -30,7 +30,7 @@ For my first post on the blog, I suggest you see together how to integrate the i
 
 ### ESPHome programming
 
-[An article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link](https://www.haade.fr/blog/domotique-smarthome-jeedom-homeassistant/protocoles/esphome-et-homeassistant/)
+[An article is dedicated to the programming of an ESP8266 or 32.Do not hesitate to consult it by clicking on the link]({% post_url /en/2021-05-11-esphome-and-homeassistant %})
 
 As the electricity meter is generally remote from your home automation system, I advise you to program and flash your ESP8266 first.
 
