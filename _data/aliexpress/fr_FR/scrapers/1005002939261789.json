@@ -10,8 +10,8 @@
             "name": "Eiechip Official Store",
             "companyId": 217363303,
             "storeNumber": 735678,
-            "followers": 34638,
-            "ratingCount": 20125,
+            "followers": 34778,
+            "ratingCount": 20102,
             "rating": "98.1%"
         },
         "ratings": {
@@ -84,12 +84,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 9.2,
-            "max": 9.2
+            "min": 9.08,
+            "max": 9.08
         },
         "salePrice": {
-            "min": 5.71,
-            "max": 5.71
+            "min": 5.63,
+            "max": 5.63
         }
     }
 }

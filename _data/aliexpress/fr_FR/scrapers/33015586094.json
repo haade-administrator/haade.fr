@@ -1,0 +1,115 @@
+{
+    "product": {
+        "title": "Module d&#39;affichage tactile coloré LCD SPI TFT, 1.44 1.8 2.0 2.2 2.4 2.8 3.2 3.5 pouces ILI9341 ILI9488 4.0x480 320x240 320",
+        "categoryId": 400401,
+        "productId": 33015586094,
+        "totalAvailableQuantity": 71331,
+        "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:center\" align=\"center\"><img src=\"https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n.jpg\" slate-data-type=\"image\"></p></div></div><p><br></p></div></div><p><br></p></div></div>\n\n<script>window.adminAccountId=116191644;</script>\n",
+        "orders": 325,
+        "storeInfo": {
+            "name": "EC-Buying Ali Store",
+            "companyId": 106226508,
+            "storeNumber": 1762106,
+            "followers": 9346,
+            "ratingCount": 8969,
+            "rating": "98.8%"
+        },
+        "ratings": {
+            "totalStar": 5,
+            "averageStar": "4.9",
+            "totalStartCount": 38,
+            "fiveStarCount": 35,
+            "fourStarCount": 2,
+            "threeStarCount": 1,
+            "twoStarCount": 0,
+            "oneStarCount": 0
+        },
+        "images": [
+            "https://ae01.alicdn.com/kf/H616e8d76d0fa407cb3256ec2f2c81514l/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg",
+            "https://ae01.alicdn.com/kf/H182b931629aa4a1eae643a9155834509U/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg",
+            "https://ae01.alicdn.com/kf/Hf8cc6cc487904451b5e6363fa182fa17X/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg",
+            "https://ae01.alicdn.com/kf/H190956355644421eba3b07e91d591341y/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg",
+            "https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg",
+            "https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD/Module-d-affichage-tactile-color-LCD-SPI-TFT-1-44-1-8-2-0-2-2.jpg"
+        ],
+        "specs": [
+            {
+                "attrName": "Nom de marque",
+                "attrValue": "EC Buying"
+            },
+            {
+                "attrName": "Origine",
+                "attrValue": "CN (Origine)"
+            },
+            {
+                "attrName": "Numéro de Modèle",
+                "attrValue": "TFT Color Screen"
+            },
+            {
+                "attrName": "Résolution",
+                "attrValue": "128x64"
+            },
+            {
+                "attrName": "Type",
+                "attrValue": "TFT"
+            },
+            {
+                "attrName": "Mode d'affichage",
+                "attrValue": "-"
+            },
+            {
+                "attrName": "Personnalisé",
+                "attrValue": "Oui"
+            },
+            {
+                "attrName": "Resolution",
+                "attrValue": "176*220 128*160 128X128"
+            },
+            {
+                "attrName": "Resolution 2",
+                "attrValue": "128*128 240x320 480x320"
+            },
+            {
+                "attrName": "Resolution 3",
+                "attrValue": "176x220 128x160"
+            },
+            {
+                "attrName": "Driver 2",
+                "attrValue": "ILI9341 ILI9488"
+            },
+            {
+                "attrName": "Driver 3",
+                "attrValue": "ILI9225 ST7735 ST7735"
+            },
+            {
+                "attrName": "Screen Size 1",
+                "attrValue": "1.44\" 1.8\" 2.0\" 2.2\" 2.4\" 2.8\""
+            },
+            {
+                "attrName": "Screen Size 2",
+                "attrValue": "3.2\" 3.5\" 4.0\""
+            },
+            {
+                "attrName": "Screen Size 3",
+                "attrValue": "1.44inch 1.8inch 2.0inch 2.2inch"
+            },
+            {
+                "attrName": "Screen Size 4",
+                "attrValue": "2.4inch 2.8inch 3.2inch 3.5inch"
+            },
+            {
+                "attrName": "Screen Size 5",
+                "attrValue": "4.0inch 2 4 inch 2\" 4\""
+            }
+        ],
+        "currency": "EUR",
+        "originalPrice": {
+            "min": 4.79,
+            "max": 21.95
+        },
+        "salePrice": {
+            "min": 3.5,
+            "max": 16.03
+        }
+    }
+}

@@ -24,7 +24,7 @@ redirect_from:
 ---
 
 
-Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /{{ page.locale | slice: 0,2 }}/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
+Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie" les données de la [téléinfo]({% post_url /fr/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %}).
 
 ## Prérequis :
 

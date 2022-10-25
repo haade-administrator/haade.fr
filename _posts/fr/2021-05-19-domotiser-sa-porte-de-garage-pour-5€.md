@@ -30,7 +30,7 @@ Dans cet article je vais vous montrer tout simplement comment domotiser sa porte
 - Homeassistant installé avec esphome
 - Un [module usb FT232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
 - un [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
-- Esphome installé sur le système [( voir l’article dédié )]({%- post_url /{{ page.locale | slice: 0,2 }}/2021-05-11-esphome-et-homeassistant %})
+- Esphome installé sur le système [( voir l’article dédié )]({%- post_url /fr/2021-05-11-esphome-et-homeassistant %})
 - Savoir créer un nouveau Noeud et le paramétrer
 - device type: Espressif ESP-12E module
 
