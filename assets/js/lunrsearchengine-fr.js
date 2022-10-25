@@ -134,7 +134,7 @@ var documents = [{
     },{
     "id": 22,
     "url": "/haade.fr/fr/blog/zigbee-comprendre-le-protocole-et-le-maillage",
-    "title": "Zigbee &#8211; comprendre le protocole et le maillage",
+    "title": "Zigbee comprendre le protocole et le maillage",
     "description": "10/02/2020 - Zigbee comprendre le protocole et le maillage de ce standard",
     "tags": ""
     },{
