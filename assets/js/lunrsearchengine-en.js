@@ -79,6 +79,18 @@ var documents = [{
     "tags": ""
     },{
     "id": 13,
+    "url": "/haade.fr/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020",
+    "title": "[TEST] Moes: Touch Zigbee Switch {ZTS-EU} UPGRADE 2020",
+    "description": "2021/03/17 - Moes tact switch test reference zts-eu",
+    "tags": ""
+    },{
+    "id": 14,
+    "url": "/haade.fr/en/blog/connected-protocol-home-over-ip-matter",
+    "title": "Connected Protocol Home over IP/Matter",
+    "description": "2020/02/11 - News of the future HomeoverIP protocol named Matter",
+    "tags": ""
+    },{
+    "id": 15,
     "url": "/haade.fr/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
     "title": "Zigbee, comprendre le protocole et le mailing",
     "description": "2020/02/10 - Zigbee comprend le protocole et le mailing de ce standard",

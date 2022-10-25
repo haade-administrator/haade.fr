@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Oct 2022 06:24:05 +0000</pubDate>
+    <pubDate>Tue, 25 Oct 2022 08:11:31 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -211,7 +211,7 @@
            </image> -->
       <title>NAS opensource pour Raspberry pi CM4 le futur!</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Après &lt;a href=&quot;https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/&quot; target=&quot;_blank&quot;&gt;la fin annoncée par kobol,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; annonce l’arrivée imminente d’une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )&lt;/p&gt;
+      <description>&lt;p&gt;Après &lt;a href=&quot;/haade.fr/fr/blog/kobol-helios-64-cest-termine&quot;&gt;la fin annoncée par kobol,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; annonce l’arrivée imminente d’une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )&lt;/p&gt;
 </description>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/fr/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</link>

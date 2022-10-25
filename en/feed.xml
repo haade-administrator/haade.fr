@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Oct 2022 06:24:05 +0000</pubDate>
+    <pubDate>Tue, 25 Oct 2022 08:11:31 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -80,7 +80,7 @@
            </image> -->
       <title>Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;That’s after the &lt;a href=&quot;https://www.haade.fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/&quot;&gt;presentation of the temperature sensor SNZB-02&lt;/a&gt;, I will detail quickly &lt;a href=&quot;https://www.haade.fr/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/&quot;&gt;the sonoff opening sensor SNZB-04&lt;/a&gt;, the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM&lt;/p&gt;
+      <description>&lt;p&gt;That’s after the &lt;a href=&quot;/haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02&quot;&gt;presentation of the temperature sensor SNZB-02&lt;/a&gt;, I will detail quickly &lt;a href=&quot;/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04&quot;&gt;the sonoff opening sensor SNZB-04&lt;/a&gt;, the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM&lt;/p&gt;
 </description>
       <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</link>
@@ -153,7 +153,7 @@
            </image> -->
       <title>Open source NAS for Raspberry pi CM4 the future!</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;After &lt;a href=&quot;https://www.haade.fr/blog/news/kobol-helios-64-cest-termine/&quot;&gt;the end announced by kobol ,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)&lt;/p&gt;
+      <description>&lt;p&gt;After &lt;a href=&quot;/haade.fr/en/blog/kobol-helios-64-its-over&quot;&gt;the end announced by kobol ,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)&lt;/p&gt;
 </description>
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</link>
