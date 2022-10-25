@@ -52,7 +52,7 @@ Rien de plus simple en 2 étapes comme la plupart de ce genre de gadget
 
 - 2: Appui de 3 sec sur le bouton rouge du thermomètre
 
-{% picture posts/{{ page.guid }}/bouton-appairage.png --alt bouton appairage moes zss %}
+{% picture posts/{{ page.guid }}/bouton-appairage.png --alt bouton appairage moes zss --img width="820" height="615" %}
 
 **Attention !** cependant lors de la mise en route de celui-ci j'ai rencontré un problème de contact au niveau de la pile. Au départ, je l'ai remplacé mais le problème venait tout simplement des 2 petits contacteurs qui étaient en position trop basse voir aplatit. J'ai tout simplement relevé ces pattes délicatement pour avoir un contact idéal avec la pile.
 
