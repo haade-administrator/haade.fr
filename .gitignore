@@ -12,7 +12,7 @@ _site
 .bundle/
 vendor/bundle
 node_modules
-# banner.js
+banner.js
 # package.json
 # package-lock.json
 CNAME
