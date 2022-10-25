@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade-administrator.github.io/haade.fr/</link>
     <atom:link href="https://haade-administrator.github.io/haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Oct 2022 16:38:15 +0000</pubDate>
+    <pubDate>Tue, 25 Oct 2022 18:04:18 +0000</pubDate>
     <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     <item>
@@ -170,7 +170,7 @@
            </image> -->
       <title>Kobol helios 64 is done!</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;On Wednesday 25 August, the company &lt;a href=&quot;https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/&quot; target=&quot;_blank&quot;&gt;Kobol&lt;/a&gt;.io &lt;strong&gt;decided to put an end to the adventure&lt;/strong&gt; of the open source helios 64 NAS (network attached storage) storage box.&lt;/p&gt;
+      <description>&lt;p&gt;On Wednesday 25 August, the company &lt;a href=&quot;https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/&quot; target=&quot;_blank&quot;&gt;Kobol.io&lt;/a&gt; &lt;strong&gt;decided to put an end to the adventure&lt;/strong&gt; of the open source helios 64 NAS (network attached storage) storage box.&lt;/p&gt;
 </description>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       <link>https://haade-administrator.github.io/en/blog/kobol-helios-64-its-over</link>

@@ -31,7 +31,7 @@ layout: compress
     "url": "https://haade-administrator.github.io/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
     "name": "Zigbee, comprendre le protocole et le mailing",
     "headline": "Zigbee, comprendre le protocole et le mailing",
-    "keywords": "Domotique,Protocoles",
+    "keywords": "Automation,Protocoles",
     "description": "Zigbee comprend le protocole et le mailing de ce standard",
     "articleBody": "I tried to find on the web articles concerning the protocol and the zigbee mesh and the management of its park of modules but none had been able to meet my expectations, this is how the idea of write such an article.\n\nBefore starting and in order to better understand the writing of this article, you should know that our test environment is based on zigbee2mqtt. It is installed in a docker container and controlled by homeassistant core. Which itself is also installed in a container. The two systems communicate together thanks to a communication server MQTT. Which acts as a buffer between the systems and is also installed in a container.\n\nWhy I chose zigbee2mgtt!\n\nit has the advantage of being:\n\n\n  100% open source.\n  Support for new modules is regular and can be integrated by anyone!\n  Currently it supports 584 modules from 112 different brands.\n  the management of a protocol outside of a module integrated into a home automation manager has the effect of not putting the eggs in the same basket.\n  Restarting homeassistant does not restart the zigbee network\n  very light and easily installable on docker, in case of problems it is very quickly reinstalled.\n\n\nZigbee2mqtt has native support for homeassistant and hassio. You can easily create a lovelace map displaying the zigbee protocol and mesh live. In addition every 15 days zigbee modules are supported. At the time of writing this message, there are more than 500 modules.\n\nZigbee2mqtt.io devotes an entire article to the inclusion of new modules that are not yet supported, it’s really within everyone’s reach. We currently find zigbee keys around 20€, (if you have the programming boxes) otherwise it’s 22 € the first order). The cc2531 has the disadvantage of being compatible only with the zigbee-1.2 network, why: because it does not have enough internal memory. If you want a basic network in zigbee 3.0, then you will have to opt for a coordinator CC26X2R coordinator zigbee 3.0 with $40 cost. It is also possible to transform a cc2530/31 into a router in order to strengthen its mesh. remembering that for the competition we are between 35-45€.\n\nAs a reminder:\n\nin zigbee the coordinator is the main relay. Routers (physical device) are modules powered by the neutral that serve as relay antennas.\n\nExample:\n\n\n  Xiaomi zigbee switches.\n  IKEA tradfri bulbs, (pay attention to bulbs plugged behind a switch, because they will not be visible in the zigbee network so can be activated and deactivated only if the switch is ON). they are essential for the mesh and the reinforcement of a zigbee network as for the z-wave on this point.\n\n\nThe mesh end modules called logical device, are all modules powered by batteries or without the neutral. They only send information and do not allow other information to be received.\n\nI chose to flash the cc2531 coordinator in zigbee 1.2,\n\n\n  It is possible to flash the cc2531 coordinator in zigbee 3.0 but I noticed the loss of module initially included.\n\n\nStaying in 1.2 has no influence on the inclusion of new generation 3.0 modules because they are backwards compatible.\n\nAdvantage of zigbee over z-wave:\n\n\n  Two routers can communicate with each other without a coordinator (Touchlink, zigbee 3.0).\n  Ah, the batteries are still too expensive and durable (and yes the zigbee has the advantage of consuming very very little, i.e. 20 milli joules per hour, which is also the main reason that made me change the protocol).\n  The price of the modules is ridiculous, count 6€ for a door sensor. They stand out from z-wave because the zigbee alliance, from the start, opened the protocol for the manufacture of the chip to the manufacturer. For comparison, z-wave chips are always and only manufactured by sigma designs. under the pressure of protocols including the future protocol by ip, the z-wave alliance opens its protocol to the manufacturer in the second half of 2020. The manufacture of z-wave chips which should lower the selling costs of the modules).\n  Self-forming mesh yes, but self-healing (to date I have not been able to verify).\n  The coordinator is capable of routing but limited to 13 for zigbee 3.0 against 20 for zigbee 1.2 with a cc2531.\n  Depending on your mesh, the number of modules is not limited because each router said physical device can take several logical devices.\n  Zigbee 3.0 brings an extra layer of AES-128 security\n\n\nCreate your zigbee network\n\n1st Case: you are starting from a fresh installation with the coordinator alone:\n\n\n  First install and pair a router module. (switch with neutral for example).\n  Then we include all the logic modules around the physical device. Be careful!** Of course, your logic module must be closer to the switch than the coordinator which is going to appropriate it at any time (it’s not for nothing that it is also called a sniffer). That’s why it’s best to include end modules near a router.\n\n\n2nd case: you have an existing installation with router modules installed and end modules grafted onto the coordinator instead of a router\n\n\n  Switch to inclusion mode and pair the router module again even if it is already recognized by zigbee2mqtt.\n  Then near this router include/re-include the end modules refresh your Network Card (personally I use zigbee2mqtt networkmap card ).\n  Normally you will see the logic module unhook from the coordinator to be grafted onto the router. ps: if it is an existing installation and you want to pair a door opening module, like the xiaomi. No need to take it off if a router or the coordinator is close enough then a simple inclusion will be enough to inject the module into the network.\n\n\nRemove a module from the zigbee network\n\nit is slightly more restrictive because it is the module which decides on its own exclusion and not the zigbee coordinator during an exclusion if it has failed, renew the exclusion and wake up your module to be excluded.\n\nIn conclusion: the Zigbee protocol and mesh is slightly more restrictive to set up apart from the inclusion of the modules in the network than z-wave. On the other hand, the inclusion of the modules is easier than the other protocol. Feel free to comment if needed 🙂\n\nNomenclature:\n\nCoordinator: as its name suggests, it is the conductor of the zigbee network, there can only be one per network.\n\nRouter: (physical device): these are the relay antennas to strengthen the mesh, it acts as a signal repeater.\n\nEnd module: (logical peripheral): are the set of satellite modules rendering status returns, lights, etc….\n",
     "datePublished": "2020-02-10 13:17:10 +0000",
@@ -69,7 +69,7 @@ layout: compress
 <!-- end _includes/seo.html -->
 
 
-<link href="/haade.fr/assets/css/theme.css?v=1666715895273074343" media="screen, projection, print" rel="stylesheet">
+<link href="/haade.fr/assets/css/theme.css?v=1666721058865918291" media="screen, projection, print" rel="stylesheet">
 
 <script src="/haade.fr/assets/js/jquery.min.js?v=1276065911521c5c22037a31365d179d" type="text/javascript"></script>
 <!-- change your GA id in _config.yml --><!--
@@ -265,7 +265,7 @@ layout: compress
 <a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li>
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>
 <li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/domotique"><span itemprop="name">Domotique</span></a><meta itemprop="position" content="2"></li>
+itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-administrator.github.io/haade.fr/en/category/automation"><span itemprop="name">Automation</span></a><meta itemprop="position" content="2"></li>
 <li><span class="prompt">&nbsp; > &nbsp;</span></li>Zigbee, comprendre le protocole et le mailing
 </ol>
 </nav>
@@ -466,7 +466,7 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
     <div class="d-flex justify-content-center align-items-center">
 
     <!-- Categories -->
-    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/domotique">Domotique</a>
+    <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/automation">Automation</a>
     <a class="smoothscroll badge badge-primary text-capitalize" href="/haade.fr/en/category/protocoles">Protocoles</a>
 
     <!-- Tags -->
@@ -515,6 +515,44 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
+            <a href="/haade.fr/en/blog/domotize-your-garage-door-for-5"><picture class="lazyimg">
+  <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/8/domotiser-porte-garage-5-euros-368-ac24a0f70.webp 368w" type="image/webp">
+  <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/8/domotiser-porte-garage-5-euros-368-3480be3a9.png 368w" type="image/png">
+  <img class="img-thumb" width="366" height="206" data-src="/haade.fr/assets/images/generated/posts/8/domotiser-porte-garage-5-euros-800-3480be3a9.png" alt="Automate your garage door for 5€">
+</picture>
+
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="/haade.fr/en/blog/domotize-your-garage-door-for-5">Automate your garage door for 5€</a>
+            </h2>
+            <h4 class="card-text">In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann...</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
+                <span class="meta-footer-thumb">
+                <picture>
+  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
+  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
+  <img class="author-thumb" itemprop="image" width="40" height="40" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
+</picture>
+
+                </span>
+                <span class="author-meta">
+                <a href="/haade.fr/en/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
+                <span class="post-date">19<sup>th</sup>May 2021</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end post -->
+<!-- begin post -->
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
             <a href="/haade.fr/en/blog/esphome-and-homeassistant"><picture class="lazyimg">
   <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/7/esphome-logo-haade-homeassistant-368-549f4a4cb.webp 368w" type="image/webp">
   <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/7/esphome-logo-haade-homeassistant-368-6292ef04b.png 368w" type="image/png">
@@ -542,45 +580,6 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="https://haade-adm
                 <span class="author-meta">
                 <a href="/haade.fr/en/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
                 <span class="post-date">11<sup>th</sup>May 2021</span>
-                </span>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- end post -->
-<!-- begin post -->
-<div class="blog-grid-item">
-    <div class="card h-100">
-        <div class="maxthumb">
-            <a href="/haade.fr/en/blog/connected-protocol-home-over-ip-matter"><picture class="lazyimg">
-  <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/5/homeoverip-368-953c173e9.webp 368w" type="image/webp">
-  <source data-sizes="(max-width: 1024) 350px, 368px" data-srcset="/haade.fr/assets/images/generated/posts/5/homeoverip-368-49af44528.png 368w" type="image/png">
-  <img class="img-thumb" width="366" height="206" data-src="/haade.fr/assets/images/generated/posts/5/homeoverip-800-49af44528.png" alt="Connected Protocol Home over IP/Matter">
-</picture>
-
-            </a>
-        </div>
-        <div class="card-body">
-            <h2 class="card-title">
-                <a class="text-dark" href="/haade.fr/en/blog/connected-protocol-home-over-ip-matter">Connected Protocol Home over IP/Matter</a>
-            </h2>
-            <h4 class="card-text">This article is a translation of the original article available at this address of the future home over ip protocol
-</h4>
-        </div>
-        <div class="card-footer bg-white">
-            <div class="wrapfooter">
-                <span class="meta-footer-thumb">
-                <picture>
-  <source srcset="/haade.fr/assets/images/generated/nico-40-e2480172e.webp 40w, /haade.fr/assets/images/generated/nico-50-e2480172e.webp 50w, /haade.fr/assets/images/generated/nico-70-e2480172e.webp 70w, /haade.fr/assets/images/generated/nico-120-e2480172e.webp 120w" type="image/webp">
-  <source srcset="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg 40w, /haade.fr/assets/images/generated/nico-50-d409fecd0.jpg 50w, /haade.fr/assets/images/generated/nico-70-d409fecd0.jpg 70w, /haade.fr/assets/images/generated/nico-120-d409fecd0.jpg 120w" type="image/jpeg">
-  <img class="author-thumb" itemprop="image" width="40" height="40" src="/haade.fr/assets/images/generated/nico-40-d409fecd0.jpg" alt="Nico">
-</picture>
-
-                </span>
-                <span class="author-meta">
-                <a href="/haade.fr/en/author-nico"><span class="post-name font-weight-bold">Nico</span></a>
-                <span class="post-date">11<sup>th</sup>February 2020</span>
                 </span>
                 <div class="clearfix"></div>
             </div>
