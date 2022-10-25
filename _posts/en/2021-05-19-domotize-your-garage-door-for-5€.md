@@ -34,7 +34,7 @@ In this article I will simply show you how to automate your garage door for 5 â‚
 
 ## Nomenclature Yunshan-Lysignal esp8266
 
-{% picture posts/{{ page.guid }}/yunshan.png --alt Yunshan-Lysignal esp8266 garage door relay %}<br>
+{% picture posts/{{ page.guid }}/yunshan.png --alt Yunshan-Lysignal esp8266 garage door relay --img width="820" height="351" %}<br>
 
 ### ESP8266 relay 7-30v Yunshan lysignal ESP-12F
 
@@ -66,7 +66,7 @@ D: Optocoupler (push button switch)
 - and for finish ground sur ground (GND)
 - Connect everything to the raspberry pi
 
-{% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Hookup ft 232 yunshan Lysignal %}
+{% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Hookup ft 232 yunshan Lysignal --img width="820" height="461" %}
 
 1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relay-7-30v-esp-8266.md %})
 2. [usb uart ft232 converter module]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
@@ -105,7 +105,7 @@ To begin with, the no / nc pushbuttons operate in dry contact. In order to allow
 
 ## Hormann supramatic e3 control card
 
-{% picture posts/{{ page.guid }}/hormann-carte-controleur.jpg --alt hormann supramatic e3 motor controller board parts list %}
+{% picture posts/{{ page.guid }}/hormann-carte-controleur.jpg --alt hormann supramatic e3 motor controller board parts list --img width="820" height="253" %}
 
 Hormann supramatic e3 engine controller board nomenclature
 In our case we want to automate a Hormann engine, the nomenclature is quite simple:

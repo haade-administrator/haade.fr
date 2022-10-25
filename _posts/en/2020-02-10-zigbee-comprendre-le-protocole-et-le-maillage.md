@@ -4,7 +4,7 @@ title: 'Zigbee, comprendre le protocole et le mailing'
 date: '2020-02-10T13:17:10+00:00'
 last_modified_at:
 author: Nico
-categories: [Domotique, Protocoles]
+categories: [Automation, Protocoles]
 layout: post
 image: maillage-zigbee.png
 tags:

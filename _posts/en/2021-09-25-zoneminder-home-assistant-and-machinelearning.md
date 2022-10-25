@@ -107,7 +107,7 @@ To begin with, all the documentation is available at this address [https://zmeve
 
 For the learning machine we have 3 files to customize for these 3 files there is also a duplicate example. So these are the secret.ini files which contain all the passwords and objectconfig.ini contains each setting for each camera. Basically we indicate what we want Zmeventnotification to analyze according to each camera.
 
-secrets.ini should look like this ( **in my config I don't use** the ML API, OpenAlpr, Escontrol, Mqtt and Pushover)
+secrets.ini should look like this (**in my config I don't use** the ML API, OpenAlpr, Escontrol, Mqtt and Pushover)
 
 ```bash
 # your secrets file
@@ -189,13 +189,9 @@ sudo service zoneminder restart
 
 and voila if everything went well Zmeventnotification should be functional.
 
-](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
-
-[
-
 ## 3 - Integration of Zoneminder in Home Assistant
 
-](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
+[zmeventnotification known-faces](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
 
 [the lines of codes below are to be entered in the configuration.yaml of home-assistant to know all the parameters consult this official page:](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"} [Intéegrate Zoneminder and Home assistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
 

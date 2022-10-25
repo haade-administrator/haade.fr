@@ -65,7 +65,7 @@ Finally, below the 'captive\_portal' line add the rest of the code:
 
  We will in this part see how to connect our assembly, here is the wiring diagram:
 
-{% picture posts/{{ page.guid }}/branchement.png --alt connection diagram pitinfo, wemos and electric meter %}
+{% picture posts/{{ page.guid }}/branchement.png --alt connection diagram pitinfo, wemos and electric meter --img width="820" height="508" %}
 
 Schéma de branchement
 
@@ -80,7 +80,7 @@ Schéma de branchement
 
  Back in Home Assistant go to 'Integrations'. Normally your new Wemos should be recognized by HA and offered to you for configuration. If this is not the case, you will have to add it manually by clicking on 'Add integration' at the bottom right. Then look for ESPHome in the list and finally enter the IP address of the module.
 
-{% picture posts/{{ page.guid }}/entite-teleinfo-homeassistant.png --alt homeassistant teleinfo entity with pitinfo and wemos %}
+{% picture posts/{{ page.guid }}/entite-teleinfo-homeassistant.png --alt homeassistant teleinfo entity with pitinfo and wemos --img width="327" height="819" %}
 
 Map of electric meter entities
 

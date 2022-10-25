@@ -28,7 +28,7 @@ For my part the installation of the system is mounted [on an sd card 128GB of sa
 
 ## Why this [Waveshare poe + type C card](https://s.click.aliexpress.com/e/_ALSRv5){:target="_blank"}, compared to the official raspberry pi cards
 
-{% picture posts/{{ page.guid }}/waveshare-poe-typec-raspberrypi-4.png --alt Waveshareshare plugin raspberrypi 4 poe type c --img width="820" height="460" %}
+{% picture posts/{{ page.guid }}/waveshare-poe-typec-raspberrypi-4.png --alt Waveshareshare plugin raspberrypi 4 poe type c --img width="820" height="461" %}
 
 - It is compatible with the latest POE + standards
 - GPIOs are always accessible ( [if you want to add a 2.2](https://s.click.aliexpress.com/e/_ANZpYP){:target="_blank"} inch tft-lcd screen, that's better)
@@ -47,11 +47,11 @@ To be sure not to experience overheating[I bought 5mm copper heatsinks](https://
 
 No additional opening on the din rail box was made when measuring the temperatures, and the end result I manage to hold 42°C with peaks at 48°C,**now it remains to be seen in full summer season if the peaks are not too high.**
 
-{% picture posts/{{ page.guid }}/dissipateur-raspberry-pi-home-assistant.png --alt raspberrypi 4 copper heatsink --img width="820" height="460" %}
+{% picture posts/{{ page.guid }}/dissipateur-raspberry-pi-home-assistant.png --alt raspberrypi 4 copper heatsink --img width="820" height="461" %}
 
 **Above:** The installation of the 5mm thick heatsinks is easy, but you still have to orient the positioning according to the additional waveshare poe + type C card.
 
-{% picture posts/{{ page.guid }}/box-domotique-tableau.png --alt Integration final box raspberrypi electrical panel --img width="820" height="460" %}
+{% picture posts/{{ page.guid }}/box-domotique-tableau.png --alt Integration final box raspberrypi electrical panel --img width="820" height="461" %}
 
 **Above:** Integration into the din rail electrical panel is carefree, the power supply by poe + is a positive point in the integration.
 

@@ -19,21 +19,21 @@ redirect_from:
 ---
 After [the end announced by kobol ,]({% post_url /en/2021-08-26-kobol-helios-64-its-over %}) [Wiretrustee](https://wiretrustee.com/){:target="_blank"} announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)
 
-{% picture posts/{{ page.guid}}/carte-sata-wiretrustee-raspberrypi-4-1.png --alt wiretrustee sata card for raspberrypi %}
+{% picture posts/{{ page.guid}}/carte-sata-wiretrustee-raspberrypi-4-1.png --alt wiretrustee sata card for raspberrypi --img width="820" height="461" %}
 
 It is reminiscent of the Helios 4 opensource NAS project created in 2017 that the wiretrustee company is riding the wave of opensource NAS. With a slightly different vision by creating a SATA card housing the raspberry pi 4 (CM4) module. Thus the compatibility of the Raspberry with the options of the CM4 component such as wifi, memory and onboard ssd make it a valuable and above all reliable ally. For the moment the project is at the crowdfounding stage but I am confident when this map will be released.
 
-{% picture posts/{{ page.guid}}/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png --alt box sata wiretrustee rapsberrypi 4 %}
+{% picture posts/{{ page.guid}}/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png --alt box sata wiretrustee rapsberrypi 4 --img width="820" height="461" %}
 
 Nas wiretrustee raspberry pi cm4 in 2.5 "and 3.5"
 
 Compared to kobol, the wiretrustee card has only **one ethernet network card** and you cannot **connect backup batteries** in order to avoid breakdowns after power cuts of current, in short to use it as an inverter, it may come during a next service. The rest is pretty well thought out.
 
-![ ]({:target="_blank"}blueprint-wiretrustee-sata-raspberry-card-nas-1024x576.png
+{% picture posts/{{ page.guid}}/blueprint-wiretrustee-sata-raspberry-card-nas.png --alt blue print wiretrustee --img width="820" height="461" %}
 
 ## Features and specifications
 
-{% picture posts/{{ page.guid}}/wiretrustee-raspberrypi-board-sata-nas-opensource.png --alt opensource wiretrustee sata card for raspberrypi %}
+{% picture posts/{{ page.guid}}/wiretrustee-raspberrypi-board-sata-nas-opensource.png --alt opensource wiretrustee sata card for raspberrypi --img width="820" height="461" %}
 
 - 4 x SATA 3.0 ports
 - overall dimensions 100 x 100 mm PCB

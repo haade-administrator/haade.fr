@@ -52,7 +52,7 @@ Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 protoc
 
 ## [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %}) VS Xiaomi Aqara Mijia MCCGQ01LM
 
-{% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM %}
+{% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM --img width="820" height="461" %}
 
 test and compare of open sensor sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
