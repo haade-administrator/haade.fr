@@ -9,12 +9,55 @@ presets:
 
   default:
     markup: data_auto
-    widths: [ 240, 300, 400, 553, 820 ]
+    widths: [ 240, 300, 400, 820 ]
     formats: [webp, original]
     attributes:
       parent: 'class="lazyimg"'
     dimension_attributes: false
     fallback_width: 150
+
+  herofirst:
+    widths: [450, 463, 543, 738, 994]
+    formats: [webp, original]
+    sizes:
+      mobile: 450px
+      tablet: 738px
+      laptop: 994px
+      desktop: 463px
+      wide: 543px
+    attributes:
+      parent: 'class="lazyimg"'
+    dimension_attributes: false
+    fallback_width: 450
+  
+  herotwo:
+    widths: [367, 450, 463, 495, 553]
+    formats: [webp, original]
+    sizes:
+      mobile: 450px
+      tablet: 367px
+      laptop: 495px
+      desktop: 463px
+      wide: 553px
+    attributes:
+      parent: 'class="lazyimg"'
+    dimension_attributes: false
+    fallback_width: 367
+
+  heroend:
+    widths: [223, 229, 274, 367, 495]
+    formats: [webp, original]
+    sizes:
+      mobile: 223px
+      tablet: 367px
+      laptop: 495px
+      desktop: 229px
+      wide: 274px
+    attributes:
+      parent: 'class="lazyimg"'
+    dimension_attributes: false
+    fallback_width: 223
+
 
   logo:
     widths: [ 250 ]
@@ -47,11 +90,14 @@ presets:
 
   box:
     markup: data_auto
-    widths: [ 368 ]
+    widths: [ 307, 367, 450, 495, 738 ]
     formats: [webp, original]
     sizes:
-      laptop: 350px
-    size: 368px
+      mobile: 450px
+      tablet: 738px
+      laptop: 495px
+      desktop: 307px
+      wide: 367px
     attributes:
       img: 'class="img-thumb"'
       parent: 'class="lazyimg"'

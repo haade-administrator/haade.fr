@@ -884,6 +884,7 @@ $lightblue: #2AD2FD;
   position: relative;
   .hero-image {
     height: 385px;
+    object-fit: cover;
   }
 }
 
@@ -966,6 +967,7 @@ span.header_title {
 
   .hero-image {
     height: 240px;
+    object-fit: cover;
   }
 }
 
@@ -985,6 +987,7 @@ span.header_title {
 
   .hero-image {
     height: 140px;
+    object-fit: cover;
   }
 }
 
@@ -994,6 +997,7 @@ span.header_title {
 
   .hero-image {
     height: 140px;
+    object-fit: cover;
   }
 }
 
@@ -1070,7 +1074,6 @@ a {
   }
    .second .third .four, .hero-image {
     width:497px;
-    object-fit: cover;
    }
   
   
@@ -1087,7 +1090,6 @@ a {
   }
 
   .second .hero-image {
-    object-fit: cover;
     height: 285px;
   }
 
