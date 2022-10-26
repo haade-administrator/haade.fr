@@ -9,14 +9,21 @@ presets:
 
   default:
     markup: data_auto
-    widths: [ 240, 300, 400, 820 ]
+    widths: [ 240, 300, 400, 480, 698, 820 ]
     formats: [webp, original]
+    sizes:
+      mobile: 480px
+      tablet: 698px
+      laptop: 820px
+      desktop: 820px
+      wide: 820px
     attributes:
       parent: 'class="lazyimg"'
     dimension_attributes: false
-    fallback_width: 150
+    fallback_width: 240
 
   herofirst:
+    markup: data_auto
     widths: [450, 463, 543, 738, 994]
     formats: [webp, original]
     sizes:
@@ -31,6 +38,7 @@ presets:
     fallback_width: 450
   
   herotwo:
+    markup: data_auto
     widths: [367, 450, 463, 495, 553]
     formats: [webp, original]
     sizes:
@@ -45,6 +53,7 @@ presets:
     fallback_width: 367
 
   heroend:
+    markup: data_auto
     widths: [223, 229, 274, 367, 495]
     formats: [webp, original]
     sizes:
@@ -69,22 +78,27 @@ presets:
     dimension_attributes: false
 
   shop:
-    widths: [ 444 ]
+    widths: [ 372, 444 ]
     formats: [webp, original]
     sizes:
-      laptop: 444px
-    size: 400px
+      laptop: 372px
+    size: 444px
+    attributes:
+      parent: 'class="lazyimg"'
     dimension_attributes: false
-    fallback_width: 444
+    fallback_width: 372
 
   post:
-    widths: [ 450, 738, 790, 940 ]
+    widths: [ 450, 738, 790, 930, 940 ]
     formats: [webp, original]
     sizes:
       mobile: 450px
       tablet: 738px
-      laptop: 790px
-      desktop: 940px
+      laptop: 940px
+      desktop: 930px
+      wide: 940px
+    attributes:
+      parent: 'class="lazyimg"'
     fallback_width: 450
     dimension_attributes: false
 
