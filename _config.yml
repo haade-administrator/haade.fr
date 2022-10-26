@@ -200,7 +200,7 @@ backtotop: "enabled"
 authorbox: "enabled"
 
 # Cookie consent ("enabled" or "disabled")
-cookie_consent: "enabled"
+cookie_consent: "disabled"
 
 # countapi.xyz
 countapi:
