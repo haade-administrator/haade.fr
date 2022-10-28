@@ -60,46 +60,7 @@ $badge-purple: #32064a;
 // end css toggle darklight
 
 // Intégration google font into scss https://google-webfonts-helper.herokuapp.com/fonts
-/* sen-regular - latin */
-@font-face {
-  font-family: 'Sen';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-regular.svg#Sen') format('svg'); /* Legacy iOS */
-}
-/* sen-700 - latin */
-@font-face {
-  font-family: 'Sen';
-  font-style: normal;
-  font-weight: 700;
-  src: url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-700.svg#Sen') format('svg'); /* Legacy iOS */
-}
-/* sen-800 - latin */
-@font-face {
-  font-family: 'Sen';
-  font-style: normal;
-  font-weight: 800;
-  src: url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.eot'); /* IE9 Compat Modes */
-  src: local(''),
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('{{ site.baseurl }}/assets/fonts/sen/sen-v7-latin-800.svg#Sen') format('svg'); /* Legacy iOS */
-}
+
 /* poppins-200 - latin  généré par https://google-webfonts-helper.herokuapp.com/fonts/poppins?subsets=latin*/
 @font-face {
   font-family: 'Poppins';
@@ -190,7 +151,6 @@ $badge-purple: #32064a;
 }
 
 body, input, button, select, optgroup, textarea {
-    // font-family:'Sen';
 }
 body {
     line-height:1.7;

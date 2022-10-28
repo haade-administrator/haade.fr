@@ -69,7 +69,8 @@ presets:
 
 
   logo:
-    widths: [ 250 ]
+    markup: data_auto
+    widths: [ 150, 250 ]
     formats: [webp, original]
     sizes:
       mobile: 150px

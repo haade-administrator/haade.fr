@@ -221,7 +221,7 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
   ignore:
-    envs: [local]
+    envs: [development]
   blanklines: false
   profile: false
   startings: [html, head, body]

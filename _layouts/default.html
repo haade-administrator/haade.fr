@@ -1,6 +1,6 @@
-<!-- ---
+---
 layout: compress
---- -->
+---
 
 <!DOCTYPE html>
 <html lang="{{ page.locale | replace: '_', '-' }}">
@@ -43,17 +43,19 @@ layout: compress
 </div> <!-- /.site-content -->
 
 
+<!-- end script -->
+<script src="{{ site.baseurl }}{{ '/assets/js/main.min.js' | cache_buster }}" type="text/javascript"></script>
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
 {%- if site.backtotop == "enabled" %}
-<script src="{{ site.baseurl }}{{ '/assets/js/vanilla-back-to-top.min.js' | cache_buster }}" type="text/javascript"></script>
 <script>addBackToTop({
   diameter: 44,
   backgroundColor: '#1B1C37',
   textColor: '#2AD2FD'
 })</script>
 {%- endif %}
-<!-- end script -->
-<script src="{{ site.baseurl }}{{ '/assets/js/global.min.js' | cache_buster }}" type="text/javascript"></script>
+<!-- lunrsearch engine -->
+{%- assign lang = page.locale | default: "site.default_locale" | slice: 0,2 %}
+<script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>
 
 
 

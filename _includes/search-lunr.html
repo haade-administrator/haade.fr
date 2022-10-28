@@ -12,6 +12,3 @@
       <ul></ul>
   </div>
 </div>
-
-{%- assign lang = page.locale | default: "site.default_locale" | slice: 0,2 %}
-<script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>
