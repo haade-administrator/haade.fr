@@ -29,6 +29,7 @@ layout: compress
     ================================================== -->
     <div class="main-content">
       {%- if page.url == '/index.html' or page.url == '/en/index.html' %}
+      <!-- {%- include featured-post.html %} -->
       {%- include ticker-news-local.html %}
       {%- include hero.html %}
       {%- endif %}
@@ -52,11 +53,8 @@ layout: compress
 })</script>
 {%- endif %}
 <!-- end script -->
-<script src="{{ site.baseurl }}{{ '/assets/js/prism.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/theme.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/navbar.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{ '/assets/js/flag.min.js' | cache_buster }}" type="text/javascript"></script>
-<script src="{{ site.baseurl }}{{'/assets/js/lazyload.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/global.min.js' | cache_buster }}" type="text/javascript"></script>
+
 
 
 </body>

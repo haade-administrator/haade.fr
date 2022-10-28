@@ -1,0 +1,25 @@
+{%- assign posts = paginator.posts | where: 'published', true | sort: 'order' | where: 'layout', 'post' %}
+{% for post in posts %}
+<div class="featured-post">
+        <div class="featured-picture">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {%- if post.image %}
+                {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} --img width="366" height="206" %}{%- endif %}
+                {%- endif %}
+            </a>
+        </div>
+        <div class="featured-title">
+            <h2 class="card-title">
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+        </div>
+    </div>
+{% endfor %}
+
+<style>
+    .featured-post {
+        display:flex;
+        flex-direction: row;
+    }
+</style>
+
