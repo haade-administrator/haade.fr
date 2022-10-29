@@ -1,0 +1,4 @@
+# Allow example to allow all crawlers
+User-agent: *
+Allow: /
+

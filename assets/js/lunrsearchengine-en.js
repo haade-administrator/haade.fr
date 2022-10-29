@@ -1,0 +1,166 @@
+
+var documents = [{
+    "id": 0,
+    "url": "/en/blog/box-domotical-box-din-rail",
+    "title": "Domotical Box Rail Din Home-assistant and Raspberrypi",
+    "description": "2021/10/05 - ",
+    "tags": ""
+    },{
+    "id": 1,
+    "url": "/en/blog/home-assistant-amber-vs-jeedom-atlas",
+    "title": "Home-Assistant Amber VS Jeedom Atlas",
+    "description": "2021/10/01 - ",
+    "tags": ""
+    },{
+    "id": 2,
+    "url": "/en/blog/zoneminder-home-assistant-and-machinelearning",
+    "title": "Zoneminder, home assistant and Machinelearning",
+    "description": "2021/09/25 - ",
+    "tags": ""
+    },{
+    "id": 3,
+    "url": "/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04",
+    "title": "Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test",
+    "description": "2021/09/20 - ",
+    "tags": ""
+    },{
+    "id": 4,
+    "url": "/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
+    "title": "home assistant icon tip",
+    "description": "2021/09/15 - Change the icon of a binary sensor in home assistant",
+    "tags": ""
+    },{
+    "id": 5,
+    "url": "/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02",
+    "title": "Sonoff SNZB-02 temperature and humidity sensor test",
+    "description": "2021/09/10 - SONOFF SNZB-02 temperature sensor test and integration in homeassistant",
+    "tags": "Test - Zigbee - Home-assistant"
+    },{
+    "id": 6,
+    "url": "/en/blog/z-wave-vs-matter",
+    "title": "Z-wave VS Matter",
+    "description": "2021/09/05 - ",
+    "tags": ""
+    },{
+    "id": 7,
+    "url": "/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future",
+    "title": "Open source NAS for Raspberry pi CM4 the future!",
+    "description": "2021/09/01 - ",
+    "tags": ""
+    },{
+    "id": 8,
+    "url": "/en/blog/kobol-helios-64-its-over",
+    "title": "Kobol helios 64 is done!",
+    "description": "2021/08/26 - ",
+    "tags": ""
+    },{
+    "id": 9,
+    "url": "/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
+    "title": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
+    "description": "2021/08/12 - ",
+    "tags": ""
+    },{
+    "id": 10,
+    "url": "/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
+    "title": "Integrate your electricity meter (teleinfo) in Home Assistant",
+    "description": "2021/08/03 - ",
+    "tags": ""
+    },{
+    "id": 11,
+    "url": "/en/blog/domotize-your-garage-door-for-5",
+    "title": "Automate your garage door for 5€",
+    "description": "2021/05/19 - a simple way to automate your garage door at a lower cost",
+    "tags": ""
+    },{
+    "id": 12,
+    "url": "/en/blog/esphome-and-homeassistant",
+    "title": "Esphome and Homeassistant integrations",
+    "description": "2021/05/11 - Discovery of esphome in homeassistant",
+    "tags": ""
+    },{
+    "id": 13,
+    "url": "/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020",
+    "title": "[TEST] Moes: Touch Zigbee Switch {ZTS-EU} UPGRADE 2020",
+    "description": "2021/03/17 - Moes tact switch test reference zts-eu",
+    "tags": ""
+    },{
+    "id": 14,
+    "url": "/en/blog/connected-protocol-home-over-ip-matter",
+    "title": "Connected Protocol Home over IP/Matter",
+    "description": "2020/02/11 - News of the future HomeoverIP protocol named Matter",
+    "tags": ""
+    },{
+    "id": 15,
+    "url": "/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
+    "title": "Zigbee, comprendre le protocole et le mailing",
+    "description": "2020/02/10 - Zigbee comprend le protocole et le mailing de ce standard",
+    "tags": ""
+    }];
+
+var idx = lunr(function () {
+    this.ref('id')
+    this.field('title', { boost: 10 });
+    this.field('description', { boost: 15 });
+    this.field('tags', { boost: 5 });
+
+    documents.forEach(function (doc) {
+        this.add(doc)
+    }, this)
+});
+function lunr_search(term) {
+    document.getElementById('lunrsearchresults').innerHTML = '<ul></ul>';
+    if(term) {
+        document.getElementById('lunrsearchresults').innerHTML = "<p>Results for '" + term + "'</p>" + document.getElementById('lunrsearchresults').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var description = documents[ref]['description'];
+                var tags = documents[ref]['tags'];
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><span class='description'>"+ description +"</span><span class='tags'>"+ tags +"</span><span class='url'>"+ url +"</span></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results found...</li>";
+        }
+    }
+    return false;
+}
+
+function lunr_search(term) {
+    $('#lunrsearchresults').show( 400 );
+
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
+    if(term) {
+        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Results for '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
+        //put results on the screen.
+        var results = idx.search(term);
+        if(results.length>0){
+            //console.log(idx.search(term));
+            //if results
+            for (var i = 0; i < results.length; i++) {
+                // more statements
+                var ref = results[i]['ref'];
+                var url = documents[ref]['url'];
+                var title = documents[ref]['title'];
+                var description = documents[ref]['description'];
+                var tags = documents[ref]['tags'];
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><span class='description'>"+ description +"</span><span class='tags'>"+ tags +"</span><small><span class='url'>"+ url +"</span></small></a></li>";
+            }
+        } else {
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Sorry, no results found. Close and try another search!</li>";
+        }
+    }
+    return false;
+}
+
+$(function() {
+    $("#lunrsearchresults").on('click', '#btnx', function () {
+        $('#lunrsearchresults').hide( 5 );
+    });
+});
