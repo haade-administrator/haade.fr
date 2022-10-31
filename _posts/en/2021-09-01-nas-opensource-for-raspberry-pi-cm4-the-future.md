@@ -62,7 +62,7 @@ The Wiretrustee SATA card has been verified to work with Raspberry Pi operating 
 
 ## Presentation video
 
-{% youtube ahrdx3TYxZc %}
+{% include youtubePlayer.html id="ahrdx3TYxZc" %}
 
 **Price** of the SATA wiretrustee card: **Unknown?**
 

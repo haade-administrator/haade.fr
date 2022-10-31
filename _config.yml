@@ -23,10 +23,6 @@ social:
   discord: 'FaK6MuZ2'
   youtube: 'UCcXJ1ZsjEvQxuWJy7gH-A6w'
 
-#API tiers
-youtube:
-  api_key: AIzaSyAEHm-4WA0Hr6XTUkcVUm2O5mu4i1mgDPk
-
 # google analytics + futur pageviews
 google_analytics:
   id:  'G-1DEJLWC188'

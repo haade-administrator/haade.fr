@@ -62,6 +62,6 @@ N’hésitez pas, vous pouvez foncer et l’acheter c’est vraiment un très bo
 
 ## Vidéo Officielle Moes interrupteur de présentation par Tonton
 
-{% youtube cq0ZeT6K1uY %}
+{% include youtubePlayer.html id="cq0ZeT6K1uY" %}
 
 Tonton Alias Yann a mis à disposition une vidéo concernant le test de l’interrupteur Moes tactile ZTS-EU.

@@ -14,7 +14,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag'
     gem 'jekyll-figure'
     gem 'bootstrap', '~> 4.4.1'
-    gem 'yt'
     gem 'kramdown'
     gem 'faraday-retry'
     gem 'rouge'

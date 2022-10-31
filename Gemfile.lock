@@ -164,8 +164,6 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.3.0)
     webrick (1.7.0)
-    yt (0.33.4)
-      activesupport
     zeitwerk (2.6.2)
 
 PLATFORMS
@@ -182,7 +180,6 @@ DEPENDENCIES
   jekyll_picture_tag
   kramdown
   rouge
-  yt
 
 BUNDLED WITH
    2.3.14

@@ -33,7 +33,7 @@ The first Nas of the kobol company, the helios 4
 
 The pre-launch campaign turned out to be auspicious, and the first dedicated NAS-based arm-processor nano computer was born. Not without difficulty, it runs under [Armbian](https://www.armbian.com/helios4/){:target="_blank"}, who supported the project from the start by declining the software for the helios4 and 64. The first NAS delivered as a kit, the helios 4 was very affordable in the face of formidable competition.
 
-{% youtube og2ssRhCrnI %}
+{% include youtubePlayer.html id="og2ssRhCrnI" %}
 
 Assembly and assembly Kobol helios 4 by Kobol.io
 
@@ -45,7 +45,7 @@ NAS data storage module, helios64 by kobol
 
 An always open-source and compatible NAS (debian, OMV, Nextcloud), made up of an uncompromising nano card, with more power, more networks…. But also supplied with a very neat case. For $ 295 we could claim an aluminum case, a UPS battery pack. In fact, the NAS integrated by default an inverter on battery and cables. All this provided with the same [Armbian opensource software for helios64.](https://www.armbian.com/helios64/){:target="_blank"}
 
-{% youtube 58coL23Bzzw %}
+{% include youtubePlayer.html id="58coL23Bzzw" %}
 
 Programming, mounting NAS kobol helios 64
 
