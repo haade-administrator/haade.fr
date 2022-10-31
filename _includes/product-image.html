@@ -7,9 +7,9 @@
   <div class="img-product-container">
     {%- for item in page.images | offset:0 limit:1 %}
     {%- if page.imageshadow %}
-    {% picture shop shop/{{ page.guid }}/{{ item.image }} --alt {{ item.title }} --img id="imageBox" class="image-shadow" style="width:400px; height:auto;" itemprop="image" %}
+    {% picture shop shop/{{ page.guid }}/{{ item.image }} 1:1 --alt {{ item.title }} --img id="imageBox" class="image-shadow" style="width:400px; height:auto;" itemprop="image" %}
 {%- else %}
-{% picture shop shop/{{ page.guid }}/{{ item.image }} --alt {{ item.title }} --img id="imageBox" style="width:425px; height:auto;" itemprop="image" %}
+{% picture shop shop/{{ page.guid }}/{{ item.image }} 1:1 --alt {{ item.title }} --img id="imageBox" style="width:425px; height:auto;" itemprop="image" %}
 {%- endif %}
     {%- endfor %}
   </div>
