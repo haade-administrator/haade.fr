@@ -22,8 +22,7 @@ presets:
     dimension_attributes: false
     fallback_width: 240
 
-  herofirst:
-    
+  herofirst:    
     widths: [450, 463, 543, 738, 994]
     formats: [webp, original]
     sizes:

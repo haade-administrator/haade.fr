@@ -3,7 +3,7 @@
     {%- assign latest_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
     {%- for latest_post in latest_posts limit:1 %}
       <a href="{{site.baseurl}}{{latest_post.url}}">
-        {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} 79:55 --alt {{ latest_post.description }} --img class="hero-image" width="553" height="385" %}
+        {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" width="553" height="385" %}
       </a>
       <div class="hero-text latest">
       {%- if latest_post.categories != empty %}
