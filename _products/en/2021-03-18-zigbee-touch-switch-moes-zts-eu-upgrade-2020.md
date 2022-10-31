@@ -38,6 +38,4 @@ You want to choose a good tactile switch then do not hesitate any more. Tested b
 
 #### **Youtube presentation video**
 
-<div class="media">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cq0ZeT6K1uY" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
-</div>
+{% youtube cq0ZeT6K1uY 560 315 %}
