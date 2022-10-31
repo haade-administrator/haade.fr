@@ -8,8 +8,8 @@ logo:
   height: 63
   alt: 'Logo officiel du site domotique Haade'
 favicon: 'assets/images/favicon.png'
-url: https://haadefr.netlify.app
-baseurl: 
+url: https://haade-administrator.github.io
+baseurl: /haade.fr
 mailchimp-list: 'https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4'
 permalink: /:title/
 email: administrateur@haade.fr
