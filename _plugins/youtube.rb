@@ -1,6 +1,6 @@
 # https://gist.github.com/joelverhagen/1805814
 class YouTube < Liquid::Tag
-    Syntax = /^\s*([^\s]+)(\s+(\d+)\s+(\d+)\s*)?/
+    Syntax = /^\s*([^\s]+)(?:\s+(\d+)\s+(\d+)\s*)?/
   
     def initialize(tagName, markup, tokens)
       super
@@ -22,7 +22,7 @@ class YouTube < Liquid::Tag
   
     def render(context)
     "<div class=\"media\">
-     <iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\" allowfullscreen></iframe>
+     <iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}\" frameborder=\"0\"></iframe>
      </div>"
     #   "<iframe width=\"#{@width}\" height=\"#{@height}\" src=\"http://www.youtube.com/embed/#{@id}?color=white&theme=light\"></iframe>"
     end
