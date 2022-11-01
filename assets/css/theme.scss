@@ -495,7 +495,6 @@ img, img:hover {
     display: flex;
     align-items:center;
     .author-thumb {
-        width:40px;
         border-radius:50%;
         margin-right: 7px;
     }
@@ -650,7 +649,6 @@ img, img:hover {
 
 .authorpost {
     .author-thumb {
-        width:70px;
         border-radius:50%;
         margin-right:15px;
         border:2px solid darken($primary,20%);
@@ -665,13 +663,11 @@ img, img:hover {
         font-size:16px;
     }
     .author-thumb {
-        width:70px;
         border-radius:50%;
         border:2px solid darken($primary,20%);
         padding:2px;
     }
     .author-thumb-xl {
-        width:120px;
         border-radius:50%;
         border:2px solid darken($primary,20%);
         padding:2px;

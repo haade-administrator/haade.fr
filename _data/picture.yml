@@ -1,9 +1,9 @@
 media_queries:
-  mobile: 'max-width: 480'
-  tablet: 'max-width: 768'
-  laptop: 'max-width: 1024'
-  desktop: 'max-width: 1200'
-  wide: 'min-width: 1201'
+  mobile: 'max-width: 480px'
+  tablet: 'max-width: 768px'
+  laptop: 'max-width: 1024px'
+  desktop: 'max-width: 1200px'
+  wide: 'min-width: 1201px'
 
 presets:
 
@@ -114,12 +114,12 @@ presets:
 
 
   avatar:
-    widths: [40, 50, 70, 120]
+    widths: [40, 70, 120, 150]
     formats: [webp, original]
-    fallback_width: 40
     attributes:
       img: 'class="author-thumb" itemprop="image"'
     dimension_attributes: false
+    fallback_width: 70
 
 
   lazy:
