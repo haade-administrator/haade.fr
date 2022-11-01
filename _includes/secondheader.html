@@ -6,7 +6,7 @@
 {%- assign pages = site.pages | where: 'locale_reference', 'index' | where: 'locale', page.locale %}
 {%- for page in pages limit:1 %}
 <a class="navbar-brand" href="{{ site.baseurl }}{{ page.url | remove: 'index.html' }}">
-    {% picture logo {{ site.logo.path }} --alt {{ site.logo.alt }} --img width="{{ site.logo.width }}" height="{{ site.logo.height }}" %}
+    {% picture logo {{ site.logo.path }} --alt {{ site.logo.alt }} %}
 </a>
 {%- endfor %}
 

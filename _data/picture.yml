@@ -2,8 +2,7 @@ media_queries:
   mobile: 'max-width: 480px'
   tablet: 'max-width: 768px'
   laptop: 'max-width: 1024px'
-  desktop: 'max-width: 1200px'
-  wide: 'min-width: 1201px'
+  wide: 'min-width: 1025px'
 
 presets:
 
@@ -22,32 +21,33 @@ presets:
     dimension_attributes: false
     fallback_width: 240
 
-  herofirst:    
-    widths: [370, 450, 463, 543, 738, 994]
+  herofirst:  
+    markup: data_auto
+    widths: [440, 700, 1000]
     formats: [webp, original]
     sizes:
-      desktop: 360px
-      wide: 450px
-    size: calc(100vw - 30px)
+      mobile: 440px
+      tablet: 700px
+      laptop: 1000px
+      wide: 700px
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: false
-    fallback_width: 450
+    dimension_attributes: true
+    fallback_width: 1000
   
   herotwo:
     markup: data_auto
-    widths: [367, 450, 463, 495, 553]
+    widths: [370, 450, 495, 560]
     formats: [webp, original]
     sizes:
       mobile: 450px
-      tablet: 367px
+      tablet: 370px
       laptop: 495px
-      desktop: 463px
-      wide: 553px
+      wide: 560px
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: false
-    fallback_width: 367
+    dimension_attributes: true
+    fallback_width: 560
 
   heroend:
     markup: data_auto
@@ -57,7 +57,6 @@ presets:
       mobile: 223px
       tablet: 367px
       laptop: 495px
-      desktop: 229px
       wide: 274px
     attributes:
       parent: 'class="lazyimg"'
@@ -66,14 +65,13 @@ presets:
 
 
   logo:
-    markup: data_auto
     widths: [ 150, 250 ]
     formats: [webp, original]
     sizes:
       mobile: 150px
     size: 250px
     fallback_width: 250
-    dimension_attributes: false
+    dimension_attributes: true
 
   shop:
     widths: [ 372, 444 ]

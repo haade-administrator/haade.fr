@@ -3,7 +3,7 @@
     {%- assign latest_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
     {%- for latest_post in latest_posts limit:1 %}
       <a href="{{site.baseurl}}{{latest_post.url}}">
-        {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" width="553" height="385" %}
+        {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" %}
       </a>
       <div class="hero-text latest">
       {%- if latest_post.categories != empty %}
@@ -36,7 +36,7 @@
       {%- assign second_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
       {%- for second_post in second_posts limit:1 offset:1 %}
         <a href="{{site.baseurl}}{{second_post.url}}">
-          {% picture herotwo posts/{{ second_post.guid }}/{{ second_post.image }} 23:10 --alt {{ second_post.description }} --img class="hero-image" width="553" height="240" %}        
+          {% picture herotwo posts/{{ second_post.guid }}/{{ second_post.image }} --alt {{ second_post.description }} --img class="hero-image" %}        
         </a>
         <div class="hero-text second">
           {%- if second_post.categories != empty %}
