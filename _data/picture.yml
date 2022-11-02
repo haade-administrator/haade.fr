@@ -2,19 +2,18 @@ media_queries:
   mobile: 'max-width: 480px'
   tablet: 'max-width: 768px'
   laptop: 'max-width: 1024px'
-  wide: 'min-width: 1025px'
+  wide: 'max-width: 1200px'
+  extra-wide: 'max-width: 1920px'
 
 presets:
 
   default:
-    markup: data_auto
     widths: [ 240, 300, 400, 480, 698, 820 ]
     formats: [webp, original]
     sizes:
       mobile: 480px
       tablet: 698px
       laptop: 820px
-      desktop: 820px
       wide: 820px
     attributes:
       parent: 'class="lazyimg"'
@@ -22,21 +21,25 @@ presets:
     fallback_width: 240
 
   herofirst:  
-    markup: data_auto
-    widths: [440, 700, 1000]
+    widths: [300, 400, 500, 600, 700, 800, 900, 1000]
     formats: [webp, original]
+    media_widths:
+      mobile: [300, 400, 500]
+      tablet: [500, 600, 700, 800]
+      laptop: [800, 900, 1000]
+      wide: [500]
+      extra-wide: [600]
     sizes:
-      mobile: 440px
-      tablet: 700px
-      laptop: 1000px
-      wide: 700px
+      wide: 500px
+      extra-wide: 600px
+    size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
     dimension_attributes: true
-    fallback_width: 1000
+    fallback_width: 700
+    fallback_format: webp
   
   herotwo:
-    markup: data_auto
     widths: [370, 450, 495, 560]
     formats: [webp, original]
     sizes:
@@ -50,7 +53,6 @@ presets:
     fallback_width: 560
 
   heroend:
-    markup: data_auto
     widths: [223, 229, 274, 367, 495]
     formats: [webp, original]
     sizes:
@@ -96,7 +98,6 @@ presets:
     fallback_width: 738
 
   box:
-    markup: data_auto
     widths: [ 307, 367, 450, 495, 738 ]
     formats: [webp, original]
     sizes:
@@ -112,7 +113,6 @@ presets:
 
 
   avatar:
-    markup: data_auto
     crop: '1:1'
     base_width: 40
     pixel_ratios: [1, 1.75, 3, 3.75]
