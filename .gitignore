@@ -15,4 +15,4 @@ node_modules
 # banner.js
 # package.json
 # package-lock.json
-*.new
+
