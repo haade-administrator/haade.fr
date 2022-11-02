@@ -1,243 +1,243 @@
 
 var documents = [{
     "id": 0,
-    "url": "/haade.fr/en/blog/box-domotical-box-din-rail",
+    "url": "/en/blog/box-domotical-box-din-rail",
     "title": "Domotical Box Rail Din Home-assistant and Raspberrypi",
     "description": "05/10/2021 - ",
     "tags": ""},{
     "id": 1,
-    "url": "/haade.fr/en/blog/home-assistant-amber-vs-jeedom-atlas",
+    "url": "/en/blog/home-assistant-amber-vs-jeedom-atlas",
     "title": "Home-Assistant Amber VS Jeedom Atlas",
     "description": "01/10/2021 - ",
     "tags": ""},{
     "id": 2,
-    "url": "/haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning",
+    "url": "/en/blog/zoneminder-home-assistant-and-machinelearning",
     "title": "Zoneminder, home assistant and Machinelearning",
     "description": "25/09/2021 - ",
     "tags": ""},{
     "id": 3,
-    "url": "/haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04",
+    "url": "/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04",
     "title": "Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test",
     "description": "20/09/2021 - ",
     "tags": ""},{
     "id": 4,
-    "url": "/haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
+    "url": "/en/blog/change-icon-of-a-binary-sensor-in-home-assistant",
     "title": "home assistant icon tip",
     "description": "15/09/2021 - Change the icon of a binary sensor in home assistant",
     "tags": ""},{
     "id": 5,
-    "url": "/haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02",
+    "url": "/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02",
     "title": "Sonoff SNZB-02 temperature and humidity sensor test",
     "description": "10/09/2021 - SONOFF SNZB-02 temperature sensor test and integration in homeassistant",
     "tags": "Test - Zigbee - Home-assistant"},{
     "id": 6,
-    "url": "/haade.fr/en/blog/z-wave-vs-matter",
+    "url": "/en/blog/z-wave-vs-matter",
     "title": "Z-wave VS Matter",
     "description": "05/09/2021 - ",
     "tags": ""},{
     "id": 7,
-    "url": "/haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future",
+    "url": "/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future",
     "title": "Open source NAS for Raspberry pi CM4 the future!",
     "description": "01/09/2021 - ",
     "tags": ""},{
     "id": 8,
-    "url": "/haade.fr/en/blog/kobol-helios-64-its-over",
+    "url": "/en/blog/kobol-helios-64-its-over",
     "title": "Kobol helios 64 is done!",
     "description": "26/08/2021 - ",
     "tags": ""},{
     "id": 9,
-    "url": "/haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
+    "url": "/en/blog/test-and-install-thermostat-zigbee-moes-bht-002",
     "title": "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002",
     "description": "12/08/2021 - ",
     "tags": ""},{
     "id": 10,
-    "url": "/haade.fr/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
+    "url": "/en/blog/integrate-your-electricity-meter-teleinfo-into-home-assistant",
     "title": "Integrate your electricity meter (teleinfo) in Home Assistant",
     "description": "03/08/2021 - ",
     "tags": ""},{
     "id": 11,
-    "url": "/haade.fr/en/blog/domotize-your-garage-door-for-5",
+    "url": "/en/blog/domotize-your-garage-door-for-5",
     "title": "Automate your garage door for 5€",
     "description": "19/05/2021 - a simple way to automate your garage door at a lower cost",
     "tags": ""},{
     "id": 12,
-    "url": "/haade.fr/en/blog/esphome-and-homeassistant",
+    "url": "/en/blog/esphome-and-homeassistant",
     "title": "Esphome and Homeassistant integrations",
     "description": "11/05/2021 - Discovery of esphome in homeassistant",
     "tags": ""},{
     "id": 13,
-    "url": "/haade.fr/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020",
+    "url": "/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020",
     "title": "[TEST] Moes: Touch Zigbee Switch {ZTS-EU} UPGRADE 2020",
     "description": "17/03/2021 - Moes tact switch test reference zts-eu",
     "tags": ""},{
     "id": 14,
-    "url": "/haade.fr/en/blog/connected-protocol-home-over-ip-matter",
+    "url": "/en/blog/connected-protocol-home-over-ip-matter",
     "title": "Connected Protocol Home over IP/Matter",
     "description": "11/02/2020 - News of the future HomeoverIP protocol named Matter",
     "tags": ""},{
     "id": 15,
-    "url": "/haade.fr/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
+    "url": "/en/blog/zigbee-comprendre-le-protocole-et-le-maillage",
     "title": "Zigbee, comprendre le protocole et le mailing",
     "description": "10/02/2020 - Zigbee comprend le protocole et le mailing de ce standard",
     "tags": ""},{
         "id": 16,
-        "url": "/haade.fr/en/product/square-recessed-box-coswall-placo",
+        "url": "/en/product/square-recessed-box-coswall-placo",
         "title": "Coswall Square Flush Box for placo",
         "description": "18/03/2021 - Square recessed box for Placoplatre ideal for home automation modules",
         "tags": ""
         },{
         "id": 17,
-        "url": "/haade.fr/en/product/zigbee-touch-switch-moes-zts-eu-upgrade-2020",
+        "url": "/en/product/zigbee-touch-switch-moes-zts-eu-upgrade-2020",
         "title": "Switch Moes ZTS-EU upgrade 2020",
         "description": "18/03/2021 - Zigbee touch switch Moes ZTS-EU upgrade 2020, 1, 2 or 3 commands",
         "tags": ""
         },{
         "id": 18,
-        "url": "/haade.fr/en/product/disque-dur-kingspec-m-2-nvme-ssd",
+        "url": "/en/product/disque-dur-kingspec-m-2-nvme-ssd",
         "title": "KingSpec M.2 NVME ssd hard drive",
         "description": "19/03/2021 - quality Nvme hard drive at an unbeatable price",
         "tags": ""
         },{
         "id": 19,
-        "url": "/haade.fr/en/product/carte-dextension-argon-one-m-2",
+        "url": "/en/product/carte-dextension-argon-one-m-2",
         "title": "Argon One M.2 expansion card",
         "description": "19/03/2021 - Additional expansion card for the argon + box in order to be able to integrate an NVME hard disk",
         "tags": ""
         },{
         "id": 20,
-        "url": "/haade.fr/en/product/recessed-box-to-seal-coswall-85mm",
+        "url": "/en/product/recessed-box-to-seal-coswall-85mm",
         "title": "Junction box Coswall square",
         "description": "19/03/2021 - Square recessed box ideal for home automation module",
         "tags": ""
         },{
         "id": 21,
-        "url": "/haade.fr/en/product/box-alu-raspberrpi-4-argon-with-disk-nvme-m-2",
+        "url": "/en/product/box-alu-raspberrpi-4-argon-with-disk-nvme-m-2",
         "title": "Aluminum box raspberry 4 Argon with Nvme M.2 disk",
         "description": "19/03/2021 - Argon box complete with aluminum and nvme ssd support for raspberry-pi 4",
         "tags": ""
         },{
         "id": 22,
-        "url": "/haade.fr/en/product/upgrade-2020-moes-zigbee-rf-switch",
+        "url": "/en/product/upgrade-2020-moes-zigbee-rf-switch",
         "title": "Upgrade 2020 Moes zigbee-rf switch on old",
         "description": "21/03/2021 - ",
         "tags": ""
         },{
         "id": 23,
-        "url": "/haade.fr/en/product/aqara-door-sensor-by-xiaomi-zigbee-3-0",
+        "url": "/en/product/aqara-door-sensor-by-xiaomi-zigbee-3-0",
         "title": "Aqara door sensor by xiaomi zigbee 3.0",
         "description": "25/03/2021 - Door opening sensor Xiaomi Aquara compatible zigbee 3.0",
         "tags": ""
         },{
         "id": 24,
-        "url": "/haade.fr/en/product/thermostat-moes-compatibility-zigbee-3-0",
+        "url": "/en/product/thermostat-moes-compatibility-zigbee-3-0",
         "title": "Zigbee 3.0 compatible Moes thermostat",
         "description": "25/03/2021 - Moes touch thermostat with zigbee 3.0 chip",
         "tags": ""
         },{
         "id": 25,
-        "url": "/haade.fr/en/product/camera-colorvu-protocol-hikvision",
+        "url": "/en/product/camera-colorvu-protocol-hikvision",
         "title": "colorvu camera hikvision protocol",
         "description": "27/03/2021 - ",
         "tags": ""
         },{
         "id": 26,
-        "url": "/haade.fr/en/product/argon-one-first-range-box-for-raspberry-pi-4b",
+        "url": "/en/product/argon-one-first-range-box-for-raspberry-pi-4b",
         "title": "Argon One+ raspberrypi box",
         "description": "27/03/2021 - Quality aluminum case for raspberry pi 4",
         "tags": ""
         },{
         "id": 27,
-        "url": "/haade.fr/en/product/relay-7-30v-esp-8266",
+        "url": "/en/product/relay-7-30v-esp-8266",
         "title": "ESP8266 relay 7-30v ESP-12F",
         "description": "17/05/2021 - ",
         "tags": ""
         },{
         "id": 28,
-        "url": "/haade.fr/en/product/module-de-conversion-usb-uart-ft232",
+        "url": "/en/product/module-de-conversion-usb-uart-ft232",
         "title": "ft232 converter module",
         "description": "19/05/2021 - usb uart ft232 converter module",
         "tags": ""
         },{
         "id": 29,
-        "url": "/haade.fr/en/product/multiroom-up2stream-amp-v4",
+        "url": "/en/product/multiroom-up2stream-amp-v4",
         "title": "Multiroom upstream anp v4",
         "description": "20/05/2021 - ",
         "tags": ""
         },{
         "id": 30,
-        "url": "/haade.fr/en/product/grandir-r503-stainless-steel-plate-plus-protection-r503",
+        "url": "/en/product/grandir-r503-stainless-steel-plate-plus-protection-r503",
         "title": "GRANDIR R503 stainless steel",
         "description": "16/06/2021 - GRANDIR R503 stainless steel plate plus protection for Grow R503 fingerprint",
         "tags": ""
         },{
         "id": 31,
-        "url": "/haade.fr/en/product/grow-r503-fingerprint-sensor",
+        "url": "/en/product/grow-r503-fingerprint-sensor",
         "title": "Grow R503 - Fingerprint sensor",
         "description": "16/06/2021 - ",
         "tags": ""
         },{
         "id": 32,
-        "url": "/haade.fr/en/product/thermometer-zigbee-moes",
+        "url": "/en/product/thermometer-zigbee-moes",
         "title": "Zigbee Moes 3 in 1 Thermometer",
         "description": "03/08/2021 - zigbee 3.0 thermometer by Moes",
         "tags": ""
         },{
         "id": 33,
-        "url": "/haade.fr/en/product/temperature-sensor",
+        "url": "/en/product/temperature-sensor",
         "title": "zigbee digital temperature sensor",
         "description": "09/08/2021 - Zemismart Tuya Zigbee Temperature and Humidity Sensor with LCD Display Real-time Monitor for Smart Home Smart Link",
         "tags": ""
         },{
         "id": 34,
-        "url": "/haade.fr/en/product/sonoff-zigbee-zbmini",
+        "url": "/en/product/sonoff-zigbee-zbmini",
         "title": "Sonoff zigbee zbmini",
         "description": "23/08/2021 - Sonoff Zbmini control switch and light zigbee 3.0",
         "tags": ""
         },{
         "id": 35,
-        "url": "/haade.fr/en/product/temperature-sensor-sonoff-snzb-02-zigbee",
+        "url": "/en/product/temperature-sensor-sonoff-snzb-02-zigbee",
         "title": "Temperature sensor sonoff snzb-02 zigbee",
         "description": "25/08/2021 - ",
         "tags": ""
         },{
         "id": 36,
-        "url": "/haade.fr/en/product/touch-switch-z-wave-neo-coolcam",
+        "url": "/en/product/touch-switch-z-wave-neo-coolcam",
         "title": "z-wave neo coolcam touch switch",
         "description": "25/08/2021 - Z-wave switch glass effect range neo coolcam well placed quality-price",
         "tags": "z-wave"
         },{
         "id": 37,
-        "url": "/haade.fr/en/product/fan-for-raspberry-pi4",
+        "url": "/en/product/fan-for-raspberry-pi4",
         "title": "Fan for Raspberrypi 4",
         "description": "06/10/2021 - The raspberry tends to heat up this fan will do what is necessary not to exceed 50°C",
         "tags": "raspberrypi - accessories"
         },{
         "id": 38,
-        "url": "/haade.fr/en/product/display-lcd-tft-spi",
+        "url": "/en/product/display-lcd-tft-spi",
         "title": "SPI TFT-LCD display",
         "description": "06/10/2021 - Additional screen for raspberrypi type microcomputer",
         "tags": "raspberrypi - accessories"
         },{
         "id": 39,
-        "url": "/haade.fr/en/product/raspberry-pi-touch-screen",
+        "url": "/en/product/raspberry-pi-touch-screen",
         "title": "Raspberry Pi touch screen",
         "description": "11/10/2021 - 10.1 inch Raspberry Pi Touch Screen RPI 2 3 4 Model B Case EVICIV UPi06 Max Portable Monitor RasPi USB C Touch Display",
         "tags": ""
         },{
         "id": 40,
-        "url": "/haade.fr/en/product/opening-control-sonoff-snzb-04-zigbee",
+        "url": "/en/product/opening-control-sonoff-snzb-04-zigbee",
         "title": "sonoff snzb-04 zigbee aperture controller",
         "description": "31/08/2022 - ",
         "tags": ""
         },{
         "id": 41,
-        "url": "/haade.fr/en/product/wifi-wall-switch-for-intelligent-scene-nspanel",
+        "url": "/en/product/wifi-wall-switch-for-intelligent-scene-nspanel",
         "title": "Sonoff NSPANEL",
         "description": "16/09/2022 - wifi wall switch for smart stage NSPanel",
         "tags": ""
         },{
         "id": 42,
-        "url": "/haade.fr/en/product/key-zigbee-3-sonoff-Z-Bridge-dongle-E",
+        "url": "/en/product/key-zigbee-3-sonoff-Z-Bridge-dongle-E",
         "title": "zigbee key 3.0 Sonoff zbridge Dongle-E",
         "description": "23/09/2022 - Sonoff dongle compatible zigbee2mqtt and homeassistant based on cc2652 chip",
         "tags": ""
