@@ -2,8 +2,8 @@ media_queries:
   mobile: 'max-width: 480px'
   tablet: 'max-width: 768px'
   laptop: 'max-width: 1024px'
-  wide: 'max-width: 1200px'
-  extra-wide: 'max-width: 1920px'
+  wide: 'min-width: 1025px'
+
 
 presets:
 
@@ -21,23 +21,25 @@ presets:
     fallback_width: 240
 
   herofirst:  
+    markup: auto
     widths: [300, 400, 500, 600, 700, 800, 900, 1000]
     formats: [webp, original]
     media_widths:
       mobile: [300, 400, 500]
       tablet: [500, 600, 700, 800]
       laptop: [800, 900, 1000]
-      wide: [500]
-      extra-wide: [600]
+      wide: [600]
     sizes:
-      wide: 500px
-      extra-wide: 600px
+      wide: 600px
     size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
     dimension_attributes: true
     fallback_width: 700
-    fallback_format: webp
   
   herotwo:
     widths: [370, 450, 495, 560]
