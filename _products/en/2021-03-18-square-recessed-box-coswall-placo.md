@@ -14,7 +14,7 @@ comments: false
 published: true
 item: 32958909969
 item-affiliate: '_DDr9CYF'
-redirect_from: /en/produit/boitier-dencastrement-carre-coswall-44-de-reductions
+redirect_from: /en/produit/boitier-dencastrement-carre-coswall-44-de-reductions/
 ---
 
 Recessed box for plasterboard or drywall, it is ideal for all new constructions or renovations, in any case I recommend it because in home automation we always need a little space, given that it is 83mm from the side it is compatible with all the switches on the market which have a side of 86mm, this is fortunately often the case in home automation and on the Chinese market. Coming back to Coswall, they produce quality and inexpensive flush-mounting boxes presented with the Moes touch switch.

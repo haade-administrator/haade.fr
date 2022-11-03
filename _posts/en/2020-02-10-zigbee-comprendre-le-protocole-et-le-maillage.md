@@ -19,7 +19,7 @@ sitemap:
 toc: false
 comments: true
 redirect_from:
-  - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/zigbee-comprendre-le-protocole-et-le-maillage
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/zigbee-comprendre-le-protocole-et-le-maillage/
 ---
 
 I tried to find on the web articles concerning the protocol and the zigbee mesh and the management of its park of modules but none had been able to meet my expectations, this is how the idea of write such an article.

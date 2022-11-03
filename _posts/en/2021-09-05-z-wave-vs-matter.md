@@ -15,7 +15,7 @@ sitemap:
   lastmod: # date to end modification
 locale: en_GB
 redirect_from:
-  - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter/
 ---
 ## [Z-Wave](https://z-wavealliance.org/){:target="_blank"}: [Matter](https://buildwithmatter.com/){:target="_blank"} is an opportunity for true interoperability
 

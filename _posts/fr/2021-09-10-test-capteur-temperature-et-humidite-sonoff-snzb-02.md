@@ -20,7 +20,7 @@ toc: false
 beforetoc:
 comments: true
 redirect_from:
-  - /blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02
+  - /fr/blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/
 ---
 J'ai décidé de mettre en avant en présentant un test du [capteur de température et humidité Sonoff SNZB-02]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-25-capteur-temperature-sonoff-snzb-02-zigbee.md %}), pour le sérieux et l'éventail de produits de la marque. Ça ne va pas être un gros article c'est pourquoi j'ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.
 

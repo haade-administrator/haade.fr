@@ -14,7 +14,7 @@ comments: false
 published: true
 item: 32958909969
 item-affiliate: '_DDr9CYF'
-redirect_from: /produit/boitier-dencastrement-carre-coswall-44-de-reductions
+redirect_from: /fr/produit/boitier-dencastrement-carre-coswall-44-de-reductions/
 ---
 
 Boîtier d'encastrements pour plaques de plâtres ou cloison sèche, il est idéal pour toutes nouvelles constructions ou en rénovations, en tous cas je le conseil car en domotique nous avons toujours besoin d'un peut de place, étant donné qu'il à 83mm de côté il est compatible avec l'ensemble des interrupteurs du marché qui ont 86mm de côté, c'est heureusement souvent le cas en domotique et sur le marché chinois. Pour en revenir à Coswall, ils produisent des boites d'encastrements qualitatives et peut onéreuse présenté avec l'interrupteur Moes tactile.

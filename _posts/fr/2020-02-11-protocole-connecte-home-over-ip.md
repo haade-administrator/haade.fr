@@ -20,7 +20,7 @@ beforetoc:
 toc: true
 comments: true
 redirect_from:
-  - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip
+  - /fr/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip/
 ---
 
 Cet article est une traduction de [l’article original disponible à cette adresse](https://www.connectedhomeip.com/){:target="_blank"} du futur protocole home over ip

@@ -20,7 +20,7 @@ toc: true
 beforetoc:
 comments: true
 redirect_from:
-  - /blog/tests/box-domotique-rail-din
+  - /fr/blog/tests/box-domotique-rail-din/
 ---
 
 Durant longtemps j'avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l'installation a pris de l'ampleur et comme tout le monde le sait le matériel physique est partie intégrante d'une habitation, hors un NAS est plutôt personnel. La question d'un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C'est pourquoi j'ai décidé d'intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.

@@ -15,7 +15,7 @@ sitemap:
   lastmod: # date to end modification
 locale: en_GB
 redirect_from:
-  - /en/blog/tests/test-capteur-porte-zigbee-3-0-sonoff-snzb-04
+  - /en/blog/tests/test-capteur-porte-zigbee-3-0-sonoff-snzb-04/
 ---
 
 That's after the [presentation of the temperature sensor SNZB-02]({% post_url /en/2021-09-10-test-sensor-temperature-and-humidity-sonoff-snzb-02 %}), I will detail quickly [the sonoff opening sensor SNZB-04]({% post_url /en/2021-09-20-sensor-test-door-zigbee-3-0-sonoff-snzb-04 %}), the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM

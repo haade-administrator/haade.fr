@@ -20,7 +20,7 @@ toc: true
 beforetoc:
 comments: true
 redirect_from:
-  - /blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes
+  - /fr/blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes/
 ---
 
 # TOP ou FLOP ?

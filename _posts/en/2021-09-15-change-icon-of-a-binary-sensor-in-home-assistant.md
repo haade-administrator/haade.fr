@@ -18,7 +18,7 @@ locale: en_GB
 toc: false
 image: changer-icone-element-binaire-home-assistant.png
 redirect_from:
-  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/changer-licone-dun-capteur-binaire-dans-home-assistant
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/changer-licone-dun-capteur-binaire-dans-home-assistant/
 ---
 
 Here is in the series **of the very small tutorials** . I will quickly describe how to change an icon of a **binary sensor** thanks to the device\_class, by customization in home assistant.

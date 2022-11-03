@@ -16,7 +16,7 @@ rating:
 published: true
 item: 1005002061590357
 item-affiliate: "_DCXgdBz"
-redirect_from: /en/produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020
+redirect_from: /en/produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
 ---
 
 You want to choose a good tactile switch then do not hesitate any more. Tested by uncle since the evolution in 2020 (see link below). The upgrade includes some new features. Especially when installing in an old house.
