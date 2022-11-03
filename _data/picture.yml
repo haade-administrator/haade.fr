@@ -1,5 +1,6 @@
 media_queries:
   mobile: 'max-width: 480px'
+  mobile-wide: 'max-width: 524px'
   tablet: 'max-width: 768px'
   laptop: 'max-width: 1024px'
   wide: 'min-width: 1025px'
@@ -28,9 +29,9 @@ presets:
       mobile: [300, 400, 500]
       tablet: [500, 600, 700, 800]
       laptop: [800, 900, 1000]
-      wide: [600]
+      wide: [400, 500, 600]
     sizes:
-      wide: 600px
+      wide: 38vw
     size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
@@ -39,81 +40,123 @@ presets:
       png: 85
       webp: 85
     dimension_attributes: true
-    fallback_width: 700
+    fallback_width: 1000
   
   herotwo:
-    widths: [370, 450, 495, 560]
+    markup: auto
+    widths: [300, 400, 500, 600]
     formats: [webp, original]
+    media_widths:
+      mobile-wide: [300, 400, 500]
+      tablet: [300, 400]
+      laptop: [400, 500]
+      wide: [400, 500, 600]
     sizes:
-      mobile: 450px
-      tablet: 370px
-      laptop: 495px
-      wide: 560px
+      tablet: calc(50vw - 15px)
+      laptop: calc(50vw - 15px)
+      wide: 38vw
+    size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
     dimension_attributes: true
-    fallback_width: 560
+    fallback_width: 600
 
   heroend:
-    widths: [223, 229, 274, 367, 495]
+    markup: auto
+    widths: [200, 300, 400, 500, 600]
     formats: [webp, original]
+    media_widths:
+      mobile-wide: [200, 300]
+      tablet: [300, 400]
+      laptop: [400, 500]
+      wide: [200, 300]
     sizes:
-      mobile: 223px
-      tablet: 367px
-      laptop: 495px
-      wide: 274px
+      wide: 19vw
+    size: calc(50vw - 15px)
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: false
-    fallback_width: 223
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
+    dimension_attributes: true
+    fallback_width: 600
 
 
   logo:
     widths: [ 150, 250 ]
     formats: [webp, original]
     sizes:
-      mobile: 150px
+      mobile-wide: 150px
     size: 250px
     fallback_width: 250
     dimension_attributes: true
 
   shop:
-    widths: [ 300, 350, 400, 444 ]
+    widths: [ 300, 400, 444 ]
     formats: [webp, original]
+    media_widths:
+      mobile: [300, 400]
+      tablet: [300, 400]
+      laptop: [400, 444]
+      wide: [200, 300]
     sizes:
-      tablet: 444px
-      laptop: 444px
-      wide: 444px
+      wide: 31vw
     size: calc(100vw -30px)
     attributes:
       parent: 'class="lazyimg"'
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
     dimension_attributes: true
     fallback_width: 444
 
   post:
-    widths: [ 360, 450, 738, 790, 940 ]
+    widths: [ 300, 400, 500, 600, 700, 800, 900, 1000 ]
     formats: [webp, original]
+    media_widths:
+      mobile: [300, 400, 500]
+      tablet: [600, 700, 800]
+      laptop: [800, 900]
+      wide: [900, 1000]
     sizes:
-      wide: 940px
+      wide: 77vw
     size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
     dimension_attributes: true
-    fallback_width: 738
+    fallback_width: 900
 
   box:
-    widths: [ 307, 367, 450, 495, 738 ]
+    widths: [ 300, 400, 500, 600, 700, 800 ]
     formats: [webp, original]
+    media_widths:
+      mobile: [300, 400, 500]
+      tablet: [500, 600, 700, 800]
+      laptop: [400, 500]
+      wide: [300, 400]
     sizes:
-      mobile: 450px
-      tablet: 738px
-      laptop: 495px
-      desktop: 307px
-      wide: 367px
+      laptop: calc(50vw - 15px)
+      desktop: calc(50vw - 15px)
+      wide: 25vw
+    size: calc(100vw - 30px)
     attributes:
       img: 'class="img-thumb"'
       parent: 'class="lazyimg"'
-    dimension_attributes: false
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
+    dimension_attributes: true
 
 
   avatar:

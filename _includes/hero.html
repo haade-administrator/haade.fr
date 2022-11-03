@@ -68,7 +68,7 @@
         {%- assign third_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for third_post in third_posts limit:1 offset:2 %}
               <a href="{{site.baseurl}}{{third_post.url}}">
-                {% picture heroend posts/{{ third_post.guid }}/{{ third_post.image }} 137:70 --alt {{ third_post.description }} --img class="hero-image" width="274" height="140" %}        
+                {% picture heroend posts/{{ third_post.guid }}/{{ third_post.image }} --alt {{ third_post.description }} --img class="hero-image" %}        
               </a>
           <div class="hero-text thirdfour">
             {%- if third_post.categories != empty %}
@@ -99,7 +99,7 @@
         {%- assign four_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for four_post in four_posts limit:1 offset:3 %}
               <a href="{{site.baseurl}}{{four_post.url}}">
-                {% picture heroend posts/{{ four_post.guid }}/{{ four_post.image }} 137:70 --alt {{ four_post.description }}  --img class="hero-image" width="274" height="140" %}        
+                {% picture heroend posts/{{ four_post.guid }}/{{ four_post.image }} --alt {{ four_post.description }}  --img class="hero-image" %}        
           </a>
           <div class="hero-text thirdfour">
             {%- if four_post.categories != empty %}

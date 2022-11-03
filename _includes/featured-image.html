@@ -1,6 +1,6 @@
 {%- if page.guid <= 999 %}
 {%- if page.image %}
-<div class="entry-featured-image">
+<div class="featured-image-post">
     {%- if page.imageshadow %}
     {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image image-shadow" itemprop="image" %}{%- endif %}
     {%- else %}
@@ -10,7 +10,7 @@
 {%- endif %}
 {%- elsif page.guid >= 2000 %}
 {%- if page.image %}
-<div class="entry-featured-image">
+<div class="featured-image-shop">
 {%- if page.imageshadow %}
 {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image image-shadow" itemprop="image" %}{%- endif %}
 {%- else %}

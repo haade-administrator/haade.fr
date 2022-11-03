@@ -629,8 +629,20 @@ img, img:hover {
     font-weight:700;
     line-height:1.2;
 }
-.entry-featured-image {
-    width:940px;
+.featured-image-post {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    max-width: 100%;
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.featured-image-shop {
+    width: 100%;
+    height: auto;
     max-width: 100%;
     text-align:center;
     margin-left:auto;
