@@ -78,15 +78,17 @@ presets:
     dimension_attributes: true
 
   shop:
-    widths: [ 372, 444 ]
+    widths: [ 300, 350, 400, 444 ]
     formats: [webp, original]
     sizes:
-      laptop: 372px
-    size: 444px
+      tablet: 444px
+      laptop: 444px
+      wide: 444px
+    size: calc(100vw -30px)
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: false
-    fallback_width: 372
+    dimension_attributes: true
+    fallback_width: 444
 
   post:
     widths: [ 360, 450, 738, 790, 940 ]
@@ -96,7 +98,7 @@ presets:
     size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
-    dimension_attributes: false
+    dimension_attributes: true
     fallback_width: 738
 
   box:
