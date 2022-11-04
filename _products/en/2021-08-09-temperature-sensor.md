@@ -16,6 +16,7 @@ rating:
 published: true
 item: 4000552781660
 item-affiliate: "_DlBLvhh"
+redirect_from: /en/produit/capteur-temperature/
 ---
 
 

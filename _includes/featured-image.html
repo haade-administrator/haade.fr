@@ -1,20 +1,20 @@
 {%- if page.guid <= 999 %}
 {%- if page.image %}
-<div class="featured-image-post">
+<div class="entry-featured-image">
     {%- if page.imageshadow %}
-    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image image-shadow" itemprop="image" %}{%- endif %}
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post image-shadow" itemprop="image" %}{%- endif %}
     {%- else %}
-    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image" itemprop="image" %}{%- endif %}
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post" itemprop="image" %}{%- endif %}
     {%- endif %}
 </div>
 {%- endif %}
 {%- elsif page.guid >= 2000 %}
 {%- if page.image %}
-<div class="featured-image-shop">
+<div class="entry-featured-image">
 {%- if page.imageshadow %}
-{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image image-shadow" itemprop="image" %}{%- endif %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-shop image-shadow" itemprop="image" %}{%- endif %}
 {%- else %}
-{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} class="featured-image" itemprop="image" %}{%- endif %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-shop" itemprop="image" %}{%- endif %}
 {%- endif %}
 </div>
 {%- endif %}

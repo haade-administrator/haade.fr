@@ -19,7 +19,7 @@ locale: fr_FR
 toc: true
 beforetoc:
 comments: true
-rating: 4.5
+rating:
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/
 ---

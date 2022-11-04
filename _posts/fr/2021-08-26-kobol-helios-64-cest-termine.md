@@ -21,6 +21,7 @@ toc: true
 comments: true
 redirect_from:
   - /fr/blog/news/kobol-helios-64-cest-termine/
+  - /blog/news/kobol-helios-64-cest-termine/
 ---
 Mercredi 25 Août, la société [Kobol.io](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"} a **décidée de stopper l'aventure** du boîtier de stockage NAS ( network attached storage ) open source helios 64.
 

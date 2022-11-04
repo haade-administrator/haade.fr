@@ -97,16 +97,20 @@ presets:
     dimension_attributes: true
 
   shop:
-    widths: [ 300, 400, 444 ]
+    crop: '1:1'
+    markup: auto
+    widths: [ 300, 350, 400, 444 ]
     formats: [webp, original]
     media_widths:
-      mobile: [300, 400]
-      tablet: [300, 400]
-      laptop: [400, 444]
-      wide: [200, 300]
+      mobile: [300, 350, 400]
+      tablet: [400]
+      laptop: [400]
+      wide: [400, 444]
     sizes:
+      tablet: 400px
+      laptop: 400px
       wide: 31vw
-    size: calc(100vw -30px)
+    size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'
     format_quality:
@@ -114,17 +118,18 @@ presets:
       png: 85
       webp: 85
     dimension_attributes: true
-    fallback_width: 444
+    fallback_width: 400
 
   post:
-    widths: [ 300, 400, 500, 600, 700, 800, 900, 1000 ]
+    widths: [ 300, 400, 500, 600, 700, 800, 900, 940 ]
     formats: [webp, original]
     media_widths:
       mobile: [300, 400, 500]
       tablet: [600, 700, 800]
-      laptop: [800, 900]
-      wide: [900, 1000]
+      laptop: [800]
+      wide: [900, 940]
     sizes:
+      laptop: 800px
       wide: 77vw
     size: calc(100vw - 30px)
     attributes:
@@ -134,7 +139,7 @@ presets:
       png: 85
       webp: 85
     dimension_attributes: true
-    fallback_width: 900
+    fallback_width: 940
 
   box:
     widths: [ 300, 400, 500, 600, 700, 800 ]
