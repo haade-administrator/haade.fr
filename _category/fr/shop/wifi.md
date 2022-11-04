@@ -13,4 +13,7 @@ sitemap:
   exclude: #'yes' or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
+redirect_fropm: 
+  - /categorie-produit/protocol/wifi/
+  - /categorie-produit/wifi/
 ---

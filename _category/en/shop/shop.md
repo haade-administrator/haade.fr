@@ -11,5 +11,4 @@ sitemap:
   lastmod: # date to end modification
 redirect_from: 
   - /en/shop/
-  - /shop/
 ---

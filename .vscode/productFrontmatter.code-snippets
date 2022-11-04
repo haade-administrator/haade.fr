@@ -65,12 +65,13 @@
 		  "title: \"$2\"",
 		  "category: $3",
 		  "description: \"$4\"",
-		  "locale: ${5|fr_FR,en_GB|}",
+		  "url: \"$5\"",
+		  "locale: ${6|fr_FR,en_GB|}",
 		  "sitemap:",
-		  "  changefreq: '${6|monthly,always,hourly,daily,weekly,yearly,never|}'",
-		  "  exclude: '${7|no,yes|}'",
-		  "  priority: ${8|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|}",
-		  "  lastmod: $9 # date to end modification",
+		  "  changefreq: '${7|monthly,always,hourly,daily,weekly,yearly,never|}'",
+		  "  exclude: '${8|no,yes|}'",
+		  "  priority: ${9|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|}",
+		  "  lastmod: $10 # date to end modification",
 		  "---"
 		],
 		"description": "categoryhaade"
