@@ -23,6 +23,10 @@ rating:
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/
   - /blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/2/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/3/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/4/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/5/
 ---
 [Dlandon](https://hub.docker.com/r/dlandon/zoneminder.machine.learning){:target="_blank"} a sorti cette année une image Docker complète avec Zoneminder et le Machinelearning, l'intégration dans home assistant est complète. C'est pourqoui cet article devait absolument voir le jour. Depuis moins d'un an l'installation sous docker a été largement simplifié. De plus le **machinelearning est très complet** grâce à la détection d'objets, détection faciale, reconnaissance faciale, reconnaissance de plaques, etc... .
 

@@ -22,6 +22,7 @@ comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/raccourci-automatisations-dans-homeassistant-lovelace/
   - /blog/home-automation-smarthome-jeedom-homeassistant/raccourci-automatisations-dans-homeassistant-lovelace/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/raccourci-automatisations-dans-homeassistant-lovelace/
 ---
 
 En seulement deux clic après avoir ajouté un raccourci **de tes automatisations** dans homeassistant Lovelace, tu pourras activer ou désactiver sans devoir passer par la configuration.

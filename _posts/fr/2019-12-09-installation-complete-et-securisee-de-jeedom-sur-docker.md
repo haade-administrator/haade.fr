@@ -22,6 +22,10 @@ sitemap:
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/2/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/3/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/installation-complete-et-securisee-de-jeedom-sur-docker/2/
 ---
 
 ## 1- Installation des images et container mariadb/alpin et Adminer.

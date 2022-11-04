@@ -22,6 +22,9 @@ comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/frp-configurer-acces-distance-homeassistant/
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/frp-configurer-acces-distance-homeassistant/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/frp-configurer-acces-distance-homeassistant/2/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/frp-configurer-acces-distance-homeassistant/2/
+  - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/frp-configurer-acces-distance-homeassistant/
 ---
 
 Éditer un tel article alors qu’il existe plusieurs façons de configurer un accès à distance pour homeassistant son assistant préféré. Pour une simple raison frp permet de configurer un accès par reverse proxy simplement et rapidement afin d’exposer homeassistant sur internet. la simplicité de mise en oeuvre, la rapidité d’exécution et le délai de connexion **est simplement époustouflant.**
