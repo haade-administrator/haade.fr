@@ -21,6 +21,7 @@ image: zigbee-vs-z-wave.png
 comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/zigbee-vs-z-wave/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/zigbee-vs-z-wave/
 ---
 
 **Pour commencer**, on trouve sur internet certains comparatif zigbee vs z-wave mais je trouve qu’ils ne vont pas au bout des choses. Donc je vais détailler dans cet article ces deux protocoles qui sont actuellement indispensable dans la domotisation d’un habitat. Alors quel est le meilleur protocole ! sont-ils indissociables nous allons voir ça dès maintenant.

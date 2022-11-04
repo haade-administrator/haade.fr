@@ -16,7 +16,9 @@ rating:
 published: true
 item: 1005002061590357
 item-affiliate: "_DCXgdBz"
-redirect_from: /produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020
+redirect_from: 
+    - /produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
+    - /fr/produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
 ---
 
 

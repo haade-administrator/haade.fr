@@ -16,7 +16,7 @@ rating:
 published: true
 item: 4001326539649
 item-affiliate: "_DESyRwL"
-redirect_from: /en/produit/thermostat-moes-compatible-zigbee-3-0
+redirect_from: /en/produit/thermostat-moes-compatible-zigbee-3-0/
 ---
 
 Definitely Moes manufactures quality zigbee products and we will soon present this thermostat to you in more detail with a detailed article and perhaps a video presented by uncle

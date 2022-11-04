@@ -541,7 +541,7 @@ img, img:hover {
     }
     .img-thumb {
         object-fit:cover;
-        height:300px;
+        height: auto;
         width:100%;
         object-position:center;
     }

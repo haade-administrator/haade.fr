@@ -31,6 +31,9 @@ presets:
       laptop: [800, 900, 1000]
       wide: [400, 500, 600]
     sizes:
+      mobile: calc(100vw - 30px)
+      tablet: calc(100vw - 30px)
+      laptop: calc(100vw - 30px)
       wide: 38vw
     size: calc(100vw - 30px)
     attributes:
@@ -52,6 +55,7 @@ presets:
       laptop: [400, 500]
       wide: [400, 500, 600]
     sizes:
+      mobile-wide: calc(100vw - 30px)
       tablet: calc(50vw - 15px)
       laptop: calc(50vw - 15px)
       wide: 38vw
@@ -75,6 +79,9 @@ presets:
       laptop: [400, 500]
       wide: [200, 300]
     sizes:
+      mobile-wide: calc(50vw - 15px) 
+      tablet: calc(50vw - 15px)
+      laptop: calc(50vw - 15px)
       wide: 19vw
     size: calc(50vw - 15px)
     attributes:
@@ -107,6 +114,7 @@ presets:
       laptop: [400]
       wide: [400, 444]
     sizes:
+      mobile: calc(100vw - 30px)
       tablet: 400px
       laptop: 400px
       wide: 31vw
@@ -129,6 +137,8 @@ presets:
       laptop: [800]
       wide: [900, 940]
     sizes:
+      mobile: calc(100vw - 30px)
+      tablet: calc(100vw - 30px)
       laptop: 800px
       wide: 77vw
     size: calc(100vw - 30px)
@@ -150,8 +160,9 @@ presets:
       laptop: [400, 500]
       wide: [300, 400]
     sizes:
+      mobile: calc(100vw - 30px)
+      tablet: calc(100vw - 30px)
       laptop: calc(50vw - 15px)
-      desktop: calc(50vw - 15px)
       wide: 25vw
     size: calc(100vw - 30px)
     attributes:

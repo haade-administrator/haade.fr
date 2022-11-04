@@ -13,7 +13,9 @@ comments: false
 published: true
 item: 1005002941131619
 item-affiliate: "_DdD7Tc7"
-redirect_from: /produit/capteur-temperature-sonoff-snzb-02-zigbee
+redirect_from: 
+    - /produit/capteur-temperature-sonoff-snzb-02-zigbee/
+    - /fr/produit/capteur-temperature-sonoff-snzb-02-zigbee/
 ---
 
 SONOFF SNZB-02 est un capteur de température et d'humidité ZigBee qui peut fonctionner de manière transparente avec SONOFF ZigBee Bridge et **Zigbee2mqtt** afin de suivre les changements de température et d'humidité dans votre maison. C'est un capteur à piles qui peut être placé dans n'importe quel coin de votre maison pour surveiller la température et l'humidité de la pièce. Installation sans aucun outil, collez simplement le capteur sur la surface du mur ou de l'appareil et mettez-le en évidence.

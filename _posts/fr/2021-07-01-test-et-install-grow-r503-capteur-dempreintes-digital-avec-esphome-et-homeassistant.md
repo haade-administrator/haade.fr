@@ -21,6 +21,7 @@ image: grow-r503-capteur-empreinte-digital.jpg
 comments: true
 redirect_from:
   - /fr/blog/tests/test-et-install-grow-r503-capteur-dempreintes-digital-avec-esphome-et-homeassistant/
+  - /blog/tests/test-et-install-grow-r503-capteur-dempreintes-digital-avec-esphome-et-homeassistant/
 ---
 La livraison par aliexpress du capteur d’empreintes Grow R503 et des accessoires s’est effectuée sans soucis et livré bien emballé, je n’ai rencontré aucun soucis à la livraison et le délai d’envoi et livraison a été effectuée rapidement, le manufacturier Grow propose de bonnes prestations.
 

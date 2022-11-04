@@ -16,7 +16,9 @@ rating:
 published: true
 item: 1005001974091527
 item-affiliate: "_DloZ2en"
-redirect_from: /produit/carte-dextension-argon-one-m-2
+redirect_from: 
+    - /produit/carte-dextension-argon-one-m-2/
+    - /fr/produit/carte-dextension-argon-one-m-2/
 ---
 
 à tous ceux qui souhaitent rajouter la carte d'extension disque dur M. en Nvme à leurs Argon One existant alors ce produit est fait pour vous. Enfin une solution pérenne aux sdcard, il ne restera plus qu'à acheter un dd compatible Nvme

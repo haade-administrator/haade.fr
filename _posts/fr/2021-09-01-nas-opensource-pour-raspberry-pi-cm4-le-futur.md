@@ -21,6 +21,7 @@ beforetoc:
 comments: true
 redirect_from:
   - /fr/blog/news/nas-opensource-pour-raspberry-pi-cm4-le-futur/
+  - /blog/news/nas-opensource-pour-raspberry-pi-cm4-le-futur/
 ---
 Après [la fin annoncée par kobol,]({% post_url /fr/2021-08-26-kobol-helios-64-cest-termine %}) [Wiretrustee](https://wiretrustee.com/){:target="_blank"} annonce l'arrivée imminente d'une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )
 

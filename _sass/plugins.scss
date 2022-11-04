@@ -793,6 +793,12 @@ $lightblue: #2AD2FD;
 
 @media (max-width: 525px) {
 
+  .secondheader {
+    .sitetag {
+      font-size: 14px;
+    }
+  }
+  
   .category p {
     display: none;
   }

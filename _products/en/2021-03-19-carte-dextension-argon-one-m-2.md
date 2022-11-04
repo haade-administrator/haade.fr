@@ -16,7 +16,7 @@ rating:
 published: true
 item: 1005001974091527
 item-affiliate: "_DloZ2en"
-redirect_from: /en/produit/carte-dextension-argon-one-m-2
+redirect_from: /en/produit/carte-dextension-argon-one-m-2/
 ---
 
 to all those who wish to add the M. en Nvme hard disk expansion card to their existing Argon One then this product is made for you. Finally a lasting solution to the sdcard, all you have to do is buy an Nvme compatible dd

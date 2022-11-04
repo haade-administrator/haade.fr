@@ -15,7 +15,7 @@ comments: false
 published: true
 item: 33015586094
 item-affiliate: "_DDSL3qj"
-redirect_from: /produit/ecran-lcd-tft-spi
+redirect_from: /en/produit/ecran-lcd-tft-spi/
 ---
 
 **Features**

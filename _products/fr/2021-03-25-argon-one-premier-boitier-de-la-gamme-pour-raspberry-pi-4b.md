@@ -16,7 +16,9 @@ rating:
 published: true
 item: 4000240410050
 item-affiliate: "_DCmPkvN"
-redirect_from: /produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b
+redirect_from: 
+    - /produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b/
+    - /fr/produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b/
 ---
 
 Argon ONE V2 boîtier en aluminium pour Pi 4, boitier en aluminium de très bonne facture livré avec ventilateur et composant de connections pour adaptation avec le boitier. Compatible uniquement avec le raspberry 4B, **8 options disponibles sur la fiche produit.**

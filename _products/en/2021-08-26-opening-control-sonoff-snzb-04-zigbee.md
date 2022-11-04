@@ -13,6 +13,8 @@ comments: false
 published: true
 item: 1005002125918926
 item-affiliate: "_DdC2WHD"
+redirect_from: 
+    - /en/produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee
 ---
 
 The SONOFF SNZB-04 Wireless Door/Window Sensor is essential for knowing who is entering and leaving your home, so it is most often used as part of a smart security system. As a home assistant, it is also zigbee2mqtt compatible and integrates the latest version of the zigbee 3.0 protocol.

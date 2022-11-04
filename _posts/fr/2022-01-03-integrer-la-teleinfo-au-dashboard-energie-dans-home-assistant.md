@@ -21,6 +21,7 @@ locale: fr_FR
 comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant/
 ---
 
 

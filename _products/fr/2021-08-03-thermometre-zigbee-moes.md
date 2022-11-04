@@ -16,6 +16,10 @@ rating:
 published: true
 item: 1005002525279564
 item-affiliate: "_De3MttD"
+redirect_from: 
+    - /fr/produit/thermometre-zigbee-moes/
+    - /produit/thermometre-zigbee-moes/
+
 ---
 
 1. Le Nouveau thermomètre Moes Zigbee détecte:

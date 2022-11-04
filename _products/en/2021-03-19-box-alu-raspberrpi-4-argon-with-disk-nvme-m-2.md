@@ -16,7 +16,7 @@ rating:
 published: true
 item: 1005001721899988
 item-affiliate: "_DF1BlFN"
-redirect_from: /en/produit/boitier-alu-raspberrpi-4-argon-avec-disque-nvme-m-2
+redirect_from: /en/produit/boitier-alu-raspberrpi-4-argon-avec-disque-nvme-m-2/
 ---
 
 Argon had already released a first aluminum raspberry pi box at a very affordable price, now they are going further by offering a variant with a hard disk, more data loss on sdcard, ** that's really the good news of the moment! **

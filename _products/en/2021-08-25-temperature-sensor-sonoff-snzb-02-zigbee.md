@@ -13,6 +13,7 @@ comments: false
 published: true
 item: 1005002941131619
 item-affiliate: "_DdD7Tc7"
+redirect_from: /en/produit/capteur-temperature-sonoff-snzb-02-zigbee/
 ---
 
 SONOFF SNZB-02 is a ZigBee temperature and humidity sensor that can work seamlessly with SONOFF ZigBee Bridge and **Zigbee2mqtt** to track temperature and humidity changes in your home. It is a battery operated sensor that can be placed in any corner of your home to monitor room temperature and humidity. Installation without any tools, just stick the sensor on the surface of the wall or device and highlight it.

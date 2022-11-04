@@ -15,7 +15,7 @@ comments: false
 published: true
 item: 4000274394108
 item-affiliate: "_DDCzbsn"
-redirect_from: /en/produit/ventilateur-pour-raspberry-pi4
+redirect_from: /en/produit/ventilateur-pour-raspberry-pi4/
 ---
 
 

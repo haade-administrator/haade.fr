@@ -16,7 +16,7 @@ rating:
 published: true
 item: 32221847893
 item-affiliate: "_DnL0OQB"
-redirect_from: /en/produit/boitier-dencastrement-a-sceller-coswall-85mm
+redirect_from: /en/produit/boitier-dencastrement-a-sceller-coswall-85mm/
 ---
 
 I had presented a little time ago the flush-mounting box for hollow partition, here it is available in a version to be sealed in all solid walls.

@@ -19,7 +19,9 @@ comments: false
 published: true
 item: 1005002055766609
 item-affiliate: "_Ddj52MB"
-redirect_from: /produit/ecran-tactile-raspberry-pi
+redirect_from: 
+    - /produit/ecran-tactile-raspberry-pi/
+    - /fr/produit/ecran-tactile-raspberry-pi/
 ---
 
 **Caractéristiques uniques de UPi06 Max:**

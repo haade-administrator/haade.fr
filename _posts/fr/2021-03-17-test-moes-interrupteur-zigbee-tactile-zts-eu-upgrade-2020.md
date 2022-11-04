@@ -21,6 +21,7 @@ toc: true
 comments: true
 redirect_from:
   - /fr/blog/tests/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020/
+  - /blog/tests/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020/
 ---
 Alors pourquoi avons nous choisi de vous présenter ce produit, et bien car il a qu’un seul inconvénient tout le reste c’est du positif.
 

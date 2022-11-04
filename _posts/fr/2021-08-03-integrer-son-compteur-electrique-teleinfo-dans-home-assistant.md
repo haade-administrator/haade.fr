@@ -21,6 +21,7 @@ toc: true
 comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/integrer-son-compteur-electrique-teleinfo-dans-home-assistant/
 ---
 Pour mon premier article sur le blog, je vous propose de voir ensemble comment intégrer les informations de votre compteur électrique ( téléinfo ) dans Home Assistant **pour environ 14€**. Ce tuto est valable pour les anciens compteurs électroniques ainsi que pour les nouveaux compteurs communicants "Linky". Pour récupérer les informations nous allons passer par une fonctionnalité utilisée par les fournisseurs d'énergie : la Télé-information.
 

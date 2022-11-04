@@ -16,7 +16,7 @@ rating:
 published: true
 item: 4000240410050
 item-affiliate: "_DCmPkvN"
-redirect_from: /en/produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b
+redirect_from: /en/produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b/
 ---
 
 Argon ONE V2 aluminum case for Pi 4, aluminum case of very good quality delivered with fan and connection component for adaptation with the case. Compatible only with the raspberry 4B, **8 options available on the product sheet.**

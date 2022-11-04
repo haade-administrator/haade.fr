@@ -16,7 +16,9 @@ rating:
 published: true
 item: 32221847893
 item-affiliate: "_DnL0OQB"
-redirect_from: /produit/boitier-dencastrement-a-sceller-coswall-85mm
+redirect_from: 
+    - /produit/boitier-dencastrement-a-sceller-coswall-85mm/
+    - /fr/produit/boitier-dencastrement-a-sceller-coswall-85mm/
 ---
 
 J'avais présenté il y a peut de temps le boitier d'encastrement pour cloison creuse, ici il se décline en version à sceller dans tous murs pleins.

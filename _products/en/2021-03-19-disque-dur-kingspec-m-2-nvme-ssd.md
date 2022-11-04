@@ -16,7 +16,7 @@ rating:
 published: true
 item: 1005004405900182
 item-affiliate: "_DD02Q83"
-redirect_from: /en/produit/disque-dur-kingspec-m-2-nvme-ssd
+redirect_from: /en/produit/disque-dur-kingspec-m-2-nvme-ssd/
 ---
 
 You will find on aliexpress a hard drive adapted to Argon extension support sold from 128gb to 2Tb enough to do in all situations rated {{ star }} out of {{ totalstar }} reviews, it's a safe bet, at an unbeatable price. Just read the reviews.

@@ -16,7 +16,9 @@ rating:
 published: true
 item: 1005001388390681
 item-affiliate: "_DBXSkgT"
-redirect_from: /produit/camera-colorvu-protocol-hikvision
+redirect_from: 
+    - /produit/camera-colorvu-protocol-hikvision/
+    - /fr/produit/camera-colorvu-protocol-hikvision/
 ---
 
 Les caméra chinoises colorvu intégrant le protocole hikvision sont vraiment impressionnante rapport qualité prix.

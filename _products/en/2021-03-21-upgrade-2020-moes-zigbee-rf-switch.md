@@ -16,7 +16,7 @@ rating:
 published: true
 item: 1005001593033528
 item-affiliate: "_DBXd2r1"
-redirect_from: /en/produit/upgrade-2020-moes-zigbee-rf-interrupteur-sur-ancien
+redirect_from: /en/produit/upgrade-2020-moes-zigbee-rf-interrupteur-sur-ancien/
 ---
 
 Moes releases an **UPGRADE 2020** from the 1-2 light switch

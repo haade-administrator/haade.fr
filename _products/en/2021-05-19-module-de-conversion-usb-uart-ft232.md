@@ -13,7 +13,7 @@ comments: false
 published: true
 item: 4000120687489
 item-affiliate: '_DDMgdcF'
-redirect_from: /en/produit/module-de-conversion-usb-uart-ft232
+redirect_from: /en/produit/module-de-conversion-usb-uart-ft232/
 ---
 
 The FT232R is a USB to serial UART interface, an inexpensive way to add USB capability to microcontrollers. Use this to give your own breadboard for USB capability for booting or downloading sketches.
