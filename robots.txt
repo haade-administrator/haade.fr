@@ -1,4 +1,9 @@
-# Allow example to allow all crawlers
 User-agent: *
-Allow: /
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /go/
+Disallow: /main/
+Disallow: /?p=/
+
+Sitemap: https://haade.fr/sitemap.xml
 
