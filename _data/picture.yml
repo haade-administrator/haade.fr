@@ -140,7 +140,7 @@ presets:
       mobile: calc(100vw - 30px)
       tablet: calc(100vw - 30px)
       laptop: 800px
-      wide: 74vw
+      wide: 940px
     size: calc(100vw - 30px)
     attributes:
       parent: 'class="lazyimg"'

@@ -19,6 +19,7 @@ item-affiliate: "_DCXgdBz"
 redirect_from: 
     - /produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
     - /fr/produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
+    - /produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/amp/
 ---
 
 

@@ -15,5 +15,7 @@ sitemap:
   exclude: #'yes' or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
-redirect_from: /blog/category/home-automation-smarthome-jeedom-homeassistant/
+redirect_from: 
+  - /blog/category/home-automation-smarthome-jeedom-homeassistant/
+  - /blog/category/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/assistants-vocaux/
 ---

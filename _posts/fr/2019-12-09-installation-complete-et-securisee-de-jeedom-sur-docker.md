@@ -184,13 +184,13 @@ on peut voir ci-dessus la liste de no périphériques usb:
 --device=/dev/serial/by-id/usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0:/dev/ttyUSB1
 ```
 
-3. usb-RFXCOM\_RFXtrx433\_A1XSV19D-if00-port0 -&gt; ../../ttyUSB2 correspond à notre clé rfxcom fréquence 433mhz, valeur à intégrer dans la création de l’image docker:
+3. usb-RFXCOM\_RFXtrx433\_A1XSV19D-if00-port0 -> ../../ttyUSB2 correspond à notre clé rfxcom fréquence 433mhz, valeur à intégrer dans la création de l’image docker:
 
 ```shell
 --device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2
 ```
 
-4. Texas\_Instruments\_TI\_CC2531\_USB\_CDC\_\_\_0X00124B00194309AD-if00 -&gt; ../../ttyACM1 [correspond à notre clé zigbee avec antenne CC2531](../produit/cle-sniffer-zigbee-cc2531-avec-antenne/). ( nous ne l’intégrerons pas à la création du container docker, car celle-ci fonctionne avec zigbe2mqtt qui actuellement n’est pas soutenu comme plugin dans jeedom.
+4. Texas\_Instruments\_TI\_CC2531\_USB... -> ../../ttyACM1 [correspond à notre clé zigbee avec antenne CC2531](../produit/cle-sniffer-zigbee-cc2531-avec-antenne/). ( nous ne l’intégrerons pas à la création du container docker, car celle-ci fonctionne avec zigbe2mqtt qui actuellement n’est pas soutenu comme plugin dans jeedom.
 
 ### Création du container Jeedom en mode « host »
 

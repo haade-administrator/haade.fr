@@ -14,7 +14,8 @@ sitemap:
 order: 2
 toc: false
 redirect_from:
-  - /rgpd-politique-de-confidentialite
+  - /rgpd-politique-de-confidentialite/
+  - /rgpd-condition-generale/
 ---
 
 ## Qui sommes-nous ?
