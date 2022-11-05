@@ -632,17 +632,19 @@ img, img:hover {
 
 .entry-featured-image {
     margin: auto;
+    display: flex;
+    text-align: center;
     margin-bottom: 50px;
+    justify-content: center;
 
 .featured-image-post {
     width: auto;
     height: auto;
     border-radius: 22px;
-    text-align:center;
 }
 
 .featured-image-shop {
-    width: 100%;
+    width: auto;
     height: auto;
 }
 }

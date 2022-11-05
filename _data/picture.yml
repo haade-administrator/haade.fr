@@ -104,15 +104,13 @@ presets:
     dimension_attributes: true
 
   shop:
-    crop: '1:1'
-    markup: auto
     widths: [ 300, 350, 400, 444 ]
     formats: [webp, original]
     media_widths:
       mobile: [300, 350, 400]
       tablet: [400]
       laptop: [400]
-      wide: [400, 444]
+      wide: [350, 400, 444]
     sizes:
       mobile: calc(100vw - 30px)
       tablet: 400px
