@@ -59,7 +59,7 @@ sitemap:
               {%- if site.data.authors.Yann.gravatar %}
               <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.Yann.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.Yann.display_name }}">
               {%- else %}
-              {% picture avatar {{ site.data.authors.Yann.avatar }} --alt {{ site.data.authors.Yann.display_name }} --img class="author-thumb-xl" width="150" height="150" %}
+              {% picture avatar150 {{ site.data.authors.Yann.avatar }} --alt {{ site.data.authors.Yann.display_name }} --img width="150" height="150" %}
               {%- endif %}
             </div>
         </div>

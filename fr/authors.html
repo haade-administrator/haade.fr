@@ -22,7 +22,7 @@ redirect_from:
                 {%- if author[1].gravatar %}
                 <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author[1].gravatar }}?s=70&d=mm&r=x" alt="{{ author.display_name }}">
                 {%- else %}
-                {% picture avatar {{ author[1].avatar }} --alt {{ author.display_name }} --img width="120" height="120" %}
+                {% picture avatar120 {{ author[1].avatar }} --alt {{ author.display_name }} --img width="120" height="120" %}
                 {%- endif %}
 
                 <p class="mt-4 mb-0 small text-center">

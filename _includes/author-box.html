@@ -5,7 +5,7 @@
     <div class="row">
         <div class="wrapavname col-md-3 text-center">
             {%- if author.avatar %}
-            {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img width="70" height="70" %}
+            {% picture avatar120 {{ author.avatar }} --alt {{ author.display_name }} --img width="120" height="120" %}
             {%- else %}
             <img  class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=70&d=mm&r=x" alt="{{ author.display_name }}" itemprop="image">
             {%- endif %}

@@ -429,6 +429,7 @@ img, img:hover {
  .readingpost {
    font-size: 14px;
    color: #666666;
+   margin-left: 15px;
  }
 
 // blog grid
@@ -658,10 +659,7 @@ img, img:hover {
 
 .authorpost {
     .author-thumb {
-        width: 70px;
-        height: auto;
         border-radius:50%;
-        margin-right:15px;
         border:2px solid darken($primary,20%);
         padding:2px;
     }
@@ -674,15 +672,6 @@ img, img:hover {
         font-size:16px;
     }
     .author-thumb {
-        width: 120px;
-        height: auto;
-        border-radius:50%;
-        border:2px solid darken($primary,20%);
-        padding:2px;
-    }
-    .author-thumb-xl {
-        width: 150px;
-        height: auto;
         border-radius:50%;
         border:2px solid darken($primary,20%);
         padding:2px;

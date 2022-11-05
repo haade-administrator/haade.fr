@@ -176,13 +176,42 @@ presets:
   avatar:
     crop: '1:1'
     base_width: 40
-    pixel_ratios: [1, 1.75, 3, 3.75]
-    fallback_width: 150
+    pixel_ratios: [1]
+    fallback_width: 40
     formats: [webp, original]
     attributes:
       img: 'class="author-thumb" itemprop="image"'
     dimension_attributes: false
 
+  avatar70:
+    crop: '1:1'
+    base_width: 70
+    pixel_ratios: [1]
+    fallback_width: 70
+    formats: [webp, original]
+    attributes:
+      img: 'class="author-thumb" itemprop="image"'
+    dimension_attributes: false
+
+  avatar120:
+    crop: '1:1'
+    base_width: 120
+    pixel_ratios: [1]
+    fallback_width: 120
+    formats: [webp, original]
+    attributes:
+      img: 'class="author-thumb" itemprop="image"'
+    dimension_attributes: false
+
+  avatar150:
+    crop: '1:1'
+    base_width: 150
+    pixel_ratios: [1]
+    fallback_width: 150
+    formats: [webp, original]
+    attributes:
+      img: 'class="author-thumb" itemprop="image"'
+    dimension_attributes: false
 
 
 
