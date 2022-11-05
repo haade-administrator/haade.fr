@@ -4,7 +4,7 @@ layout: product
 title: "z-wave neo coolcam touch switch"
 date: "2021-08-25 19:17"
 description: "Z-wave switch glass effect range neo coolcam well placed quality-price"
-categories: [Shop, Neo-coolcam, Z-wave]
+categories: [Shop, Neo-coolcam, Zwave]
 tags: [z-wave]
 locale: en_GB
 brand: NEO Coolcam

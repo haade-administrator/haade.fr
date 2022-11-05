@@ -4,6 +4,11 @@ Disallow: /cgi-bin/
 Disallow: /go/
 Disallow: /main/
 Disallow: /?p=/
+Disallow: /etiquette-produit/
+Disallow: /ajout-d-articles/
+Disallow: /community/
+Disallow: /features/
+Disallow: /tag/
 
 Sitemap: https://haade.fr/sitemap.xml
 

@@ -23,6 +23,8 @@ redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/
   - /blog/tutoriel-domotique-electronique/domotiser-sa-porte-de-garage-pour-5e/amp/
+  - - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/2/
+  - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/3/
 ---
 
 Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v**. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.

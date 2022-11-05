@@ -4,7 +4,7 @@ layout: product
 title: "Interrupteur tactile z-wave neo coolcam"
 date: "2021-08-25 19:17"
 description: "Interrupteur z-wave effet verre gamme neo coolcam bien placé qualité-prix"
-categories: [Boutique, Neo-coolcam, Z-wave]
+categories: [Boutique, Neo-coolcam, Zwave]
 tags: [z-wave]
 locale: fr_FR
 brand: NEO Coolcam

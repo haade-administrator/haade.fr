@@ -21,6 +21,7 @@ beforetoc:
 comments: true
 redirect_from:
   - /fr/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter/
+  - /blog/news/z-wave-face-a-matter/
   - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter/
 ---
 ## [Z-Wave](https://z-wavealliance.org/){:target="_blank"} + [Matter](https://buildwithmatter.com/){:target="_blank"} est une opportunité pour une véritable interopérabilité.
