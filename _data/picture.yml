@@ -104,13 +104,13 @@ presets:
     dimension_attributes: true
 
   shop:
-    widths: [ 300, 330, 400, 444 ]
+    widths: [ 300, 350, 400, 444 ]
     formats: [webp, original]
     media_widths:
       mobile: [300, 350, 400]
       tablet: [300, 350, 400]
       laptop: [400]
-      wide: [330, 400, 444]
+      wide: [350, 400, 444]
     sizes:
       mobile: calc(100vw - 30px)
       tablet: calc(100vw - 30px)

@@ -3,26 +3,26 @@
         "title": "1.44 1.8 2.0 2.2 2.4 2.8 3.2 3.5 4.0 inch SPI TFT LCD Screen Colorful Touch Display Module ILI9341 ILI9488 480*320 240*320 Drive",
         "categoryId": 400401,
         "productId": 33015586094,
-        "totalAvailableQuantity": 71331,
+        "totalAvailableQuantity": 71221,
         "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:center\" align=\"center\"><img src=\"https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n.jpg\" slate-data-type=\"image\"></p></div></div><p><br></p></div></div><p><br></p>\n<script>window.adminAccountId=116191644;</script>\n",
-        "orders": 325,
+        "orders": 364,
         "storeInfo": {
             "name": "EC-Buying Ali Store",
             "companyId": 106226508,
             "storeNumber": 1762106,
-            "followers": 9346,
-            "ratingCount": 8969,
-            "rating": "98.8%"
+            "followers": 9421,
+            "ratingCount": 9314,
+            "rating": "98.7%"
         },
         "ratings": {
             "totalStar": 5,
-            "averageStar": "4.9",
-            "totalStartCount": 38,
-            "fiveStarCount": 35,
+            "averageStar": "4.8",
+            "totalStartCount": 48,
+            "fiveStarCount": 43,
             "fourStarCount": 2,
             "threeStarCount": 1,
-            "twoStarCount": 0,
-            "oneStarCount": 0
+            "twoStarCount": 1,
+            "oneStarCount": 1
         },
         "images": [
             "https://ae01.alicdn.com/kf/H616e8d76d0fa407cb3256ec2f2c81514l/1-44-1-8-2-0-2-2-2-4-2-8-3-2-3-5.jpg",
@@ -108,8 +108,8 @@
             "max": 17.45
         },
         "salePrice": {
-            "min": 2.78,
-            "max": 12.74
+            "min": 2.71,
+            "max": 12.39
         }
     }
 }
