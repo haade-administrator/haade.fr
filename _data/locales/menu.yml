@@ -119,6 +119,14 @@ contributors:
     name: 'Contributors'
     link: 'en/authors'
 
+community:
+  fr_FR:  
+    name: 'Forum'
+    link: 'https://github.com/haade-administrator/haade.fr/discussions'
+  en_GB:
+    name: 'Forum'
+    link: 'https://github.com/haade-administrator/haade.fr/discussions'
+
 shop:
   fr_FR:
     name: 'Boutique'
