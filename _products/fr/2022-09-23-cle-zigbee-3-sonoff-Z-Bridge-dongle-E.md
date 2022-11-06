@@ -17,8 +17,8 @@ published: true
 item: 1005003756346858
 item-affiliate: "_DDG923N"
 redirect_from: 
-    - /produit/cle-sniffer-zigbee-cc2531-avec-antenne/amp/
-    - /produit/cle-sniffer-zigbee-cc2531-avec-antenne-et-boitier/
+  - /produit/cle-sniffer-zigbee-cc2531-avec-antenne/amp/
+  - /produit/cle-sniffer-zigbee-cc2531-avec-antenne-et-boitier/
 ---
 
 > Clé fonctionnel immédiatement avec zigbee2mqtt, openhab et homeassistant**

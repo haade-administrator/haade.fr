@@ -11,7 +11,7 @@ sitemap:
   priority: 0.5
   lastmod:  # date to end modification
 redirect_from: 
-    - /categorie-produit/protocol/zigbee/
-    - /categorie-produit/zigbee/?amp
-    - /categorie-produit/zigbee/
+  - /categorie-produit/protocol/zigbee/
+  - /categorie-produit/zigbee/?amp
+  - /categorie-produit/zigbee/
 ---
