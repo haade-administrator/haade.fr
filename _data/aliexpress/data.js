@@ -1,7 +1,7 @@
 module.exports = [
   '1005002125918926',    // 2123 sonoff snzb04
   '1005002941131619',    // 2121 sonoff snzb02
-  '1005004128896524',    // 2127 interrupteur sonoff nspanel
+  '1005003704218300',    // 2127 interrupteur sonoff nspanel
   '32221847893',         // 2102 boitier carré coswal
   '1005002039563710',    // 2120 sonoff zbmini
   '1005003756346858',    // 2128 clé zigbee zbridge
