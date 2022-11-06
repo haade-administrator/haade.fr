@@ -11,5 +11,8 @@ sitemap:
   exclude: #'yes' or 'no'
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
-redirect_from: /blog/category/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/
+redirect_from: 
+  - /blog/category/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/
+  - /blog/category/non-classifiee/tutos-haade-lab/home-assistant/
+  - /blog/category/domotique-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/
 ---

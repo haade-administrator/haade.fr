@@ -9,6 +9,8 @@ Disallow: /ajout-d-articles/
 Disallow: /community/
 Disallow: /features/
 Disallow: /tag/
+Disallow: /feed/
+Disallow: /hot/
 
 Sitemap: https://haade.fr/sitemap.xml
 

@@ -13,4 +13,5 @@ sitemap:
 redirect_from: 
   - /en/categorie-produit/protocol/zigbee/
   - /en/categorie-produit/zigbee/?amp
+  - /en/categorie-produit/zigbee/
 ---
