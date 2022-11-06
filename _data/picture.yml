@@ -108,12 +108,12 @@ presets:
     formats: [webp, original]
     media_widths:
       mobile: [300, 350, 400]
-      tablet: [400]
+      tablet: [300, 350, 400]
       laptop: [400]
       wide: [350, 400, 444]
     sizes:
       mobile: calc(100vw - 30px)
-      tablet: 400px
+      tablet: calc(100vw - 30px)
       laptop: 400px
       wide: 31vw
     size: calc(100vw - 30px)
