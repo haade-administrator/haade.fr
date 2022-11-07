@@ -12,9 +12,9 @@
 {%- if page.image %}
 <div class="entry-featured-image">
 {%- if page.imageshadow %}
-{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-shop image-shadow" itemprop="image" %}{%- endif %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img width="444" height="444" class="featured-image-shop image-shadow" itemprop="image" %}{%- endif %}
 {%- else %}
-{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-shop" itemprop="image" %}{%- endif %}
+{%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture shop shop/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img width="444" height="444" class="featured-image-shop" itemprop="image" %}{%- endif %}
 {%- endif %}
 </div>
 {%- endif %}
