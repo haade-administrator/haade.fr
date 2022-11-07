@@ -21,6 +21,7 @@ toc: true
 comments: true
 redirect_from:
   - /en/blog/tests/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020/
+rating: 4.2
 ---
 
 So why did we choose to present this product to you, and well because it has only one drawback, everything else is positive.

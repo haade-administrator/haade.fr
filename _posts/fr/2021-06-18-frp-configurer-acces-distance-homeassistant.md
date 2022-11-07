@@ -81,13 +81,13 @@ capture du paramétrage pour accès à distance grâce à frp et créé pour hom
 
 rien de plus simple, on commence par se connecter au serveur à l’aide d’un terminal ou de putty
 
-```bash
+{% highlight shell %}
 ssh -p 22 135.122.X.X - l root
-```
+{% endhighlight %}
 
 Rendez-vous sur la dernière release qui nous intéresse dans notre cas un amd64 ( serveur debian 10 ) [release frp Fatedier](https://github.com/fatedier/frp/releases){:target="_blank"}
 
-```bash
+{% highlight shell %}
 cd /usr/lib/
 wget https://github.com/fatedier/frp/releases/download/v0.37.0/frp_0.37.0_linux_amd64.tar.gz
 tar zxvf frp_0.37.0_linux_amd64.tar.gz
@@ -96,11 +96,11 @@ rm -rf frp_0.37.0_linux_amd64.tar.gz
 cd /var/frp/
 rm -rf frpc.ini frpc_full.ini frpc
 nano frps.ini
-```
+{% endhighlight %}
 
 Compléter tout simplement le fichier dans notre cas en sous domaine mais dans le fichier zippé il y a un **fichier frps\_full.ini avec toutes les commandes paramétrables**, n’hésite pas à le consulter.
 
-```bash
+{% highlight shell %}
 [common]
  bind_port = 7000 // port par défaut
  subdomain_host = frp.haade.fr // domaine ou sous domaine dans notre cas un sous domaine
@@ -111,34 +111,34 @@ Compléter tout simplement le fichier dans notre cas en sous domaine mais dans l
  dashboard_port = 7500 // port de connexion à l\'interface frps
  dashboard_user = admin // nom d\'utilisateur
  dashboard_pwd = password // mot de passe
-```
+{% endhighlight %}
 
 Enfin lancez la commande ci-dessous et c’est terminé côté serveur bien pour tester le retour de commande mais pas des plus pratique pour garder le service lancé.
 
-```bash
+{% highlight shell %}
 ./frps -c ./frps.ini
-```
+{% endhighlight %}
 
 vérifie le résultat
 
-```bash
+{% highlight shell %}
 2021/06/17 20:04:07 [I] [root.go:200] frps uses config file: ./frps.ini
  2021/06/17 20:04:07 [I] [service.go:192] frps tcp listen on 0.0.0.0:7000
  2021/06/17 20:04:07 [I] [service.go:235] http service listen on 0.0.0.0:80
  2021/06/17 20:04:07 [I] [service.go:250] https service listen on 0.0.0.0:8443
  2021/06/17 20:04:07 [I] [service.go:294] Dashboard listen on 0.0.0.0:7500
  2021/06/17 20:04:07 [I] [root.go:209] frps started successfully
-```
+{% endhighlight %}
 
 Paramétrons un service pour pallier à ce soucis
 
-```bash
+{% highlight shell %}
 sudo nano /usr/lib/systemd/system/frps.service
-```
+{% endhighlight %}
 
 Colle le code ci-dessous:
 
-```bash
+{% highlight shell %}
 [Unit]
  Description=The nginx HTTP and reverse proxy server
  After=network.target remote-fs.target nss-lookup.target
@@ -153,28 +153,28 @@ Colle le code ci-dessous:
  StandardError=inherit
  [Install]
  WantedBy=multi-user.target
-```
+{% endhighlight %}
 
 relance le daemon et service
 
-```bash
+{% highlight shell %}
 cd /usr/lib/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable frps
 sudo systemctl start frps
-```
+{% endhighlight %}
 
 
 vérifie si le service est bien lancé
 
-```bash
+{% highlight shell %}
 sudo systemctl status frps
-```
+{% endhighlight %}
 
 
 Vérifie le résultat du service **Active: active (running)**, frps.service est bien actif, tu peux fermer le terminal et tester en live.
 
-```bash
+{% highlight shell %}
 ● frps.service - The nginx HTTP and reverse proxy server
     Loaded: loaded (/lib/systemd/system/frps.service; enabled; vendor preset: ena
     Active: active (running) since Thu 2021-06-17 19:37:04 UTC; 21min ago
@@ -183,7 +183,7 @@ Vérifie le résultat du service **Active: active (running)**, frps.service est 
     Memory: 17.0M
     CGroup: /system.slice/frps.service
             └─1210 /usr/lib/frp/frps -c /usr/lib/frp/frps.ini
-```
+{% endhighlight %}
 
 <div style="background-color:#3399ff; color:white; padding:10px"><strong>IMPORTANT:</strong> à tous ceux qui souhaiteraient suivre ce tutoriel mais qui ne veulent pas <strong>investir dans un vps,</strong> haade propose ce service <strong>GRATUITEMENT</strong>, avec un lien de type <strong>.eu.haade.link</strong>, si tu souhaites bénéficier de ce service <strong>GRATUITEMENT</strong> rien de plus simple: laisse un <strong>commentaire</strong> en bas de cet article et fait nous la demande par [formulaire de contact](https://www.haade.fr/contact/).
 <strong>Sans Engagement, ce service est susceptible de devenir payant.</strong></div>

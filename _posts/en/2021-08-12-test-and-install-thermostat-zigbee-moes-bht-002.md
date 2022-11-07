@@ -17,6 +17,8 @@ locale: en_GB
 redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/test-et-install-thermostat-zigbee-moes-bht-002/
   - /en/blog/tests/test-et-install-thermostat-zigbee-moes-bht-002/2/
+  - /en/blog/tests/test-et-install-thermostat-zigbee-moes-bht-002/
+rating: 4.6
 ---
 
 Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the [Atlantic thermostat 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){:target="_blank"} this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.

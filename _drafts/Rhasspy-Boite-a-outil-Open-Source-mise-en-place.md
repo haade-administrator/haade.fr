@@ -42,8 +42,8 @@ Commence par télécharger Raspbian ensuite installe sur une carte sd ( de nombr
 > 
 > Many operating systems are available for Raspberry Pi, including Raspberry Pi OS, our official supported operating system, and operating systems from other organisations. Raspberry Pi Imager is the quick and easy way to install an operating system to a microSD card ready to use with your Raspberry Pi.
 
-<script async="" charset="UTF-8" src="//cdn.embedly.com/widgets/platform.js"></script></div></figure>```
-<pre class="wp-block-code" title="installation rhaspy sur raspbian">```bash
+<script async="" charset="UTF-8" src="//cdn.embedly.com/widgets/platform.js"></script></div></figure>{% endhighlight %}
+<pre class="wp-block-code" title="installation rhaspy sur raspbian">{% highlight shell %}
 sudo apt-get update sudo apt-get upgrade sudo raspi-config
 
 # mettre le local sur fr utf-8
@@ -66,15 +66,15 @@ docker run -d \
 rhasspy/rhasspy:latest \
 --user-profiles /profiles \
 --profile fr
-```
-```
+{% endhighlight %}
+{% endhighlight %}
 
 Installation de la carte respeaker ou matrix voice
 
 ## Installation de Matrix voice:
 
-```
-<pre class="wp-block-code">```bash
+{% endhighlight %}
+<pre class="wp-block-code">{% highlight shell %}
 curl https://apt.matrix.one/doc/apt-key.gpg | sudo apt-key add - echo "deb https://apt.matrix.one/raspbian $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/matrixlabs.list 
 
 sudo apt-get update 
@@ -82,28 +82,28 @@ sudo apt-get upgrade
 sudo reboot 
 sudo apt install matrixio-kernel-modules 
 sudo reboot
-```
-```
+{% endhighlight %}
+{% endhighlight %}
 
 ## Installation des Respeaker Microphones 
 
 line de la doc complète: <https://github.com/respeaker/seeed-voicecard>
 
-```
-<pre class="wp-block-code">```bash
+{% endhighlight %}
+<pre class="wp-block-code">{% highlight shell %}
 git clone https://github.com/respeaker/seeed-voicecard 
 cd seeed-voicecard 
 sudo ./install.sh 
 sudo reboot
-```
-```
+{% endhighlight %}
+{% endhighlight %}
 
 ## Installation de hermesledcontrol grâce à project-alice-assistant
 
 afin de controler les leds par hermès facilement adresse du projet: <https://github.com/project-alice-assistant/HermesLedControl>
 
-```
-<pre class="wp-block-code">```bash
+{% endhighlight %}
+<pre class="wp-block-code">{% highlight shell %}
 wget https://gist.githubusercontent.com/Psychokiller1888/a9826f92c5a3c5d03f34d182fda1ce4c/raw/cbb53252dd55dc4e9f5f6064a493f0981cf133fb/hlc_download.sh
 
 sudo chmod +x hlc_download.sh 
@@ -111,7 +111,7 @@ sudo ./hlc_download.sh
 
 
 
-```
-```
+{% endhighlight %}
+{% endhighlight %}
 
 Installer wakeword raven ( snips ) lien: <https://github.com/rhasspy/rhasspy-wake-raven>

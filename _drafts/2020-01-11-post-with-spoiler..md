@@ -23,6 +23,6 @@ A major clue to everything that truly happened was the scene that played next un
 
 #### So how do we add spoilers in this theme?
 
-```html
+{% highlight html %}
 <span class="spoiler">My hidden paragraph here.</span>
-```
+{% endhighlight %}

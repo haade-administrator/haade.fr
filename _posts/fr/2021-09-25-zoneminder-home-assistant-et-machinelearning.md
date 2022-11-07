@@ -45,7 +45,7 @@ quand à home assistant OS, il est installé sur un Raspberry pi depuis peut, av
 
 ci-dessous on retrouve la [commande docker que l'on retrouve dans la documentation du dépôt github](https://github.com/dlandon/zoneminder.machine.learning){:target="_blank"}.
 
-```docker
+{% highlight docker %}
 docker run -d --name="Zoneminder" \
 --net="bridge" \
 --privileged="false" \
@@ -60,11 +60,11 @@ docker run -d --name="Zoneminder" \
 -v "/mnt/Zoneminder":"/config":rw \
 -v "/mnt/Zoneminder/data":"/var/cache/zoneminder":rw \
 dlandon/zoneminder.machine.learning
-```
+{% endhighlight %}
 
 Exemple de configurations personnalisés "celle que j'utilise" pour Openmediavault, il faut penser à personnaliser le timezone TZ ainsi que tout volume de montage. Tu peux installer ZM non sécurisé avec le port **\-p 8080:80**, cependant je conseil vivement de faire l'installation en ssl, letsencrypt fait partie du container. Un plus !
 
-```docker
+{% highlight docker %}
 docker run -d --name="Zoneminder" \
 --net="bridge" \
 --privileged="false" \
@@ -79,7 +79,7 @@ docker run -d --name="Zoneminder" \
 -v "/sharedfolder/Appdata/Zoneminder":"/config":rw \
 -v "/sharedfolder/Télésurveillance/Zoneminder":"/var/cache/zoneminder":rw \
 dlandon/zoneminder.machine.learning
-```
+{% endhighlight %}
 
 Après lancement de l'image l'installation se fait rapidement grâce au travail de dlandon sur l'image. Auparavant avec l'ancienne image de Zoneminder il fallait patienter 20 à 40 minutes, la partie ES et ML prenait pas mal de temps. **Maintenant Zoneminder et Le paquet ZMEventnotification** s'installent **en moins de 5 minutes**.
 
@@ -120,7 +120,7 @@ Pour le machinelearning nous avons 3 fichiers à personnaliser pour ces 3 fichie
 
 secrets.ini doit ressembler à ça ( **dans ma config je n'utilise pas** l'api ML, OpenAlpr, Escontrol, Mqtt et Pushover )
 
-```bash
+{% highlight shell %}
 # your secrets file
 [secrets]
 
@@ -153,7 +153,7 @@ MQTT_PASSWORD=your_mqtt_password
 
 PUSHOVER_APP_TOKEN=your_pushover_app_token
 PUSHOVER_USER_KEY=your_pushover_user_key
-```
+{% endhighlight %}
 
 Au tour de **objectconfig.ini** qui doit ressembler au code ci-dessous. Avec la nouvelle version de ZMeventnotification, le paramétrage des moniteurs à été très simplifié
 
@@ -161,7 +161,7 @@ Au tour de **objectconfig.ini** qui doit ressembler au code ci-dessous. Avec la 
 
 Pour ces paramétrages n'hésitez pas à m'écrire mais dans premier lieu il s'agit de modifier les **\[monitor-x\]** en effet on ne met pas le nom de sa caméra mais si celle-ci est en première position on l’appellera monitor-1 et ainsi de suite, ci-dessous un exemple de monitoring de garage.
 
-```bash
+{% highlight shell %}
 [monitor-1]
 # mon garage
 model_sequence=alpr,object
@@ -174,27 +174,27 @@ object_detection_pattern=(person)
 
 [ml]
 use_sequence= yes # Important pour la prise en charge du nouveau système
-```
+{% endhighlight %}
 
 afin de pouvoir utiliser la capture d'images par personne il faut crée un dossier s'il n'existe pas dans ... nommé known\_faces et intégrer à l'intérieur un sous dossier nommé nicolas ensuite intégrer des photos de vous qui serons nommé 1.png, 2.png, etc. lien direct de l'architecture [zmeventnotification known-faces](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
 
 Une fois toutes les images insérées ou dès que tu ajoutes une nouvelle image, il faudra générer le train\_face, donc rentrons dans le docker zoneminder:
 
-```docker
+{% highlight docker %}
 docker exec -it zoneminder /bin/bash
-```
+{% endhighlight %}
 
 Une fois toutes les images intégrées dans le dossier ou en cas de rajout d'images lance la commande suivante afin de générer le trainface:
 
-```bash
+{% highlight shell %}
 sudo -u www-data /var/lib/zmeventnotification/bin/zm_train_faces.py
-```
+{% endhighlight %}
 
 redémarre les service
 
-```bash
+{% highlight shell %}
 sudo service zoneminder restart
-```
+{% endhighlight %}
 
 et voilà si tout s'est bien passé Zmeventnotification devrait être fonctionnel.
 

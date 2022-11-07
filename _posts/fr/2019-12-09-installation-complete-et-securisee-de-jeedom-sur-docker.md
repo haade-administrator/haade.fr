@@ -40,49 +40,49 @@ Tout d’abord, apprendre à se connecter en SSH.
 
 Pour se connecter à son **Nas/Raspberrypi à partir d’un terminal** donc dans notre cas à Debian dans OMV » Valable pour toutes autres distribution basé sur debian » ( raspbian, ubuntu,mint… )
 
-```bash
+{% highlight shell %}
 $ ssh -p 22 your_Nas_ip_address -l root
-```
+{% endhighlight %}
 
 **Connection au raspberrypi**
 
-```bash
+{% highlight shell %}
 $ ssh -p 22 your_raspberrypi_ip_address -l pi
-```
+{% endhighlight %}
 
 une fois connecté on a comme entité
 
-```bash
+{% highlight shell %}
 root@Name_Nas:~#
-```
+{% endhighlight %}
 
 Ensuite on peut se connecter à notre docker qui a été créé et qui s’appelle **jeedom**
 
-```docker
+{% highlight docker %}
 $ docker exec -it jeedom sh
-```
+{% endhighlight %}
 
 on auras comme entité:
 
-```bash
+{% highlight shell %}
 #
-```
+{% endhighlight %}
 
 > Dès cette instant toutes les commandes que vous rentrerez n’agiront plus sur debian de votre Nas mais sur debian de votre container Jeedom.
 
 Pour sortir de son container et retourner sur notre nas il faut faire:
 
-```bash
+{% highlight shell %}
 Ctrl+p Ctrl+q
 ou
 exit
-```
+{% endhighlight %}
 
 D’abord, partons du principe que nous avons **omv Nas** d’installé avec docker. Connectons-nous en root sur notre Nas soit à l’aide d’un **terminal** soit à l’aide de **Putty:**
 
-```bash
+{% highlight shell %}
 $ ssh -p 22 192.168.***.*** -l root
-```
+{% endhighlight %}
 
 remplacez **l’adresse ip** par la votre et votre nom d’utilisateur par le votre. Par défaut sur omv le nom d’utilisateur est « **root** » et le mot de passe « **openmediavault** » .
 
@@ -94,13 +94,13 @@ remplacez **l’adresse ip** par la votre et votre nom d’utilisateur par le vo
 
 Création du dossier mariadb
 
-```bash
+{% highlight shell %}
 $ sudo mkdir -p /sharedfolders/Appdata/mariadb
-```
+{% endhighlight %}
 
 ### Création de la base de donnée mariadb qui va accueillir Jeedom.
 
-```docker
+{% highlight docker %}
 docker run --name mariadb \
 -v /Your_mysql_path:/var/lib/mysql \
 -e MYSQL_ROOT_PASSWORD=Your_password_root \
@@ -112,7 +112,7 @@ docker run --name mariadb \
 --restart always \
 yobasystems/alpine-mariadb:latest
 
-```
+{% endhighlight %}
 
 **Remplacez:**  
 ***your\_mysql\_path*** par un un dossier sur votre disque dur ex: /opt/mysql.  
@@ -127,9 +127,9 @@ yobasystems/alpine-mariadb:latest
 
 afin de paramétrer mariadb à l’aide d’une interface graphique ultra légère 29Mb compressé
 
-```docker
+{% highlight docker %}
 docker run -d --name adminer --link mariadb:db -p 8080:8080 --restart always adminer
-```
+{% endhighlight %}
 
 **Si le port 8080** est pris sur votre hôte vous pouvez le remplace par un autre, exemple 8480:8080.
 
@@ -147,9 +147,9 @@ Avant d’appliquer la commande de lancement du docker, connectez vos clés z-wa
 
 Nous allons dès à présent rechercher le matériel en se connectant à nouveau à notre système en ssh en tant qu’utilisateur root:
 
-```bash
+{% highlight shell %}
 ssh -p 22 192.168.***.*** -l root
-```
+{% endhighlight %}
 
 ### Identification des périphériques USB:
 
@@ -157,38 +157,38 @@ ssh -p 22 192.168.***.*** -l root
 
 Nous allons rechercher l’identifiant unique du périphérique, car beaucoup plus stable qu’une association simple par périphérique du type `/dev/ttyUSB1`, ainsi pour trouver les périphériques nous allons taper la commande:
 
-```bash
+{% highlight shell %}
 $ ls -l /dev/serial/by-id
-```
+{% endhighlight %}
 
 Ce qui va retourner dans notre cas les valeurs suivantes:
 
-```bash
+{% highlight shell %}
 lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-0658_0200-if00 -> ../../ttyACM0
 lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0 -> ../../ttyUSB1
 lrwxrwxrwx 1 root root 13 nov.  27 16:36 usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0 -> ../../ttyUSB2
 lrwxrwxrwx 1 root root 13 déc.   3 13:28 usb-Texas_Instruments_TI_CC2531_USB_CDC___0X00124B00194309AD-if00 -> ../../ttyACM1
-```
+{% endhighlight %}
 
 on peut voir ci-dessus la liste de no périphériques usb:
 
 1. usb-0658\_0200-if00 -&gt; ../../ttyACM0 correspond à notre clé z-wave z-stick aeontech gen5, valeur à intégrer dans la création de l’image docker:
 
-```shell
+{% highlight shell %}
 --device=/dev/serial/by-id/usb-0658_0200-if00:/dev/ttyACM0
-```
+{% endhighlight %}
 
 2. usb-Cartelectronic\_Interface\_USB\_1\_TIC\_DA33DTBE-if00-port0 -&gt; ../../ttyUSB1 correspond au module de suivi de consommation éléctrique Cartelectronic, valeur à intégrer dans la création de l’image docker:
 
-```shell
+{% highlight shell %}
 --device=/dev/serial/by-id/usb-Cartelectronic_Interface_USB_1_TIC_DA33DTBE-if00-port0:/dev/ttyUSB1
-```
+{% endhighlight %}
 
 3. usb-RFXCOM\_RFXtrx433\_A1XSV19D-if00-port0 -> ../../ttyUSB2 correspond à notre clé rfxcom fréquence 433mhz, valeur à intégrer dans la création de l’image docker:
 
-```shell
+{% highlight shell %}
 --device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2
-```
+{% endhighlight %}
 
 4. Texas\_Instruments\_TI\_CC2531\_USB... -> ../../ttyACM1 [correspond à notre clé zigbee avec antenne CC2531](../produit/cle-sniffer-zigbee-cc2531-avec-antenne/). ( nous ne l’intégrerons pas à la création du container docker, car celle-ci fonctionne avec zigbe2mqtt qui actuellement n’est pas soutenu comme plugin dans jeedom.
 
@@ -198,13 +198,13 @@ on peut voir ci-dessus la liste de no périphériques usb:
 
 Depuis peut le tag **latest** de l’image jeedom est régulièrement mis à jour, mais pour l’instant nous rencontrons encore des soucis d’installations, donc on utilisera le tag **master** qui reste pour l’instant l’image la plus stable pour réussir son installation.
 
-```bash
+{% highlight shell %}
 sudo mkdir -p /sharedfolders/Appdata/Jeedom/html
-```
+{% endhighlight %}
 
 Maintenant que nous avons identifié nos périphériques nous pouvons lancer la commande d’installation de l’image. Toujours sur notre système d’exploitation connecté en ssh en tant que root:
 
-```docker
+{% highlight docker %}
 docker run -d --net host --name jeedom \
 -v /.../Jeedom/html:/var/www/html \ # dans omv ce seras de préférence your_jeedom_path remplacé par /sharedfolders/Appdata/
 -e ROOT_PASSWORD=PASSWORD \ # à remplacer par votre mot de passe root
@@ -217,7 +217,7 @@ docker run -d --net host --name jeedom \
 --device=/dev/serial/by-id/usb-RFXCOM_RFXtrx433_A1XSV19D-if00-port0:/dev/ttyUSB2 \
 --device=/dev/serial/by-id/usb-0658_0200-if00:/dev/ttyACM0 \
 --restart always jeedom/jeedom:master
-```
+{% endhighlight %}
 
 **Remplacez:** ***PASSWORD*** par un mot de passe root pour jeedom,  
 **l’ajout des accès bluetooth** est à mettre en place, si vous avez une carte bluetooth, intégré à la carte mère dans votre NAS afin de pouvoir utiliser les modules BLEA.
@@ -225,7 +225,7 @@ docker run -d --net host --name jeedom \
 ### Installation du bluetooth embarqué
 Prenons le cas d’une carte bluetooth Realtek. Ensuite installons le firmware sur debian si ce n’est pas fait.
 
-```bash
+{% highlight shell %}
 $ sudo apt-get install firmware-realtek
 $ cd /lib/firmware/rtlwifi
 $ wget https://github.com/wkennington/linux-firmware/raw/master/rtlwifi/rtl8822befw.bin
@@ -235,11 +235,11 @@ Devices:
 	hci0	D0:C5:D3:33:7C:52 # Notre carte bluetooth est bien reconnu
 $ ls -l /sys/class/bluetooth # on cherche le composant bluetooth
 hci0 -> ../../devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14:1.0/bluetooth/hci0 \ adresse unique de notre carte
-```
+{% endhighlight %}
 
 De plus pour faire remonter le bluetooth dans le plugin BLEA de jeedom. Il faut installer sur votre Container le bluetooth.
 
-```bash
+{% highlight shell %}
 $ ls -l /sys/class/bluetooth \ on regarde si la carte est reconnu
 total 0
 lrwxrwxrwx 1 root root 0 Dec 20 14:59 hci0 -> ../../devices/pci0000:00/0000:00:14.0/usb1/1-14/1-14:1.0/bluetooth/hci0 # réponse ok
@@ -247,11 +247,11 @@ $ hctitool dev
 Devices:
 	hci0	D0:C5:D3:33:7C:52 \ bluetooth ok
 $ apt install -y bluetooth bluez
-```
+{% endhighlight %}
 
 Finalement le bluetooth remontera dans notre jeedom sans créer d’extra arg pour la création du container contrairement au port usb.
 
-```docker
+{% highlight docker %}
 docker run -d --net host --name jeedom \
 -v /your_jeedom_path:/Jeedom/html:/var/www/html \
 -e ROOT_PASSWORD=PASSWORD \
@@ -259,7 +259,7 @@ docker run -d --net host --name jeedom \
 -e SSH_PORT=9022 \
 -e MODE_HOST=1 \
 --restart always jeedom/jeedom:master
-```
+{% endhighlight %}
 
 
 ## 3- Lancement de jeedom et paramétrage et affinage
@@ -294,17 +294,17 @@ Si vous rencontrez des **problèmes de droits** sur dossier/fichier ou **après 
 
 ### Commande a exécuter pour les droits Jeedom
 
-```bash
+{% highlight shell %}
 $ ssh -p 22 192.168.***.*** -l root
-```
+{% endhighlight %}
 
-```docker
+{% highlight docker %}
 $ docker exec -it jeedom sh
-```
+{% endhighlight %}
 
-```bash
+{% highlight shell %}
 $ sudo chown -R www-data:www-data /tmp/jeedom/ /var/www/html/
-```
+{% endhighlight %}
 
 
 Pour conclure, après avoir fait ça on peut retourner sur notre jeedom et vérifier que l’état de santé est ok.

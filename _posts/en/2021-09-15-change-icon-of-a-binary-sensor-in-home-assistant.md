@@ -35,10 +35,10 @@ First of all, you have to add the integration line in the configuration.yaml [cl
 
 To keep things simple, you have to add this line:
 
-```yaml
+{% highlight yaml %}
 homeassistant:
   customize: !include customize.yaml
-```
+{% endhighlight %}
 
 Once done go to:
 

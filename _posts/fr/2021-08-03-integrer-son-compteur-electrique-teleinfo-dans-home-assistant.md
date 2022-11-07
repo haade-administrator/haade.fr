@@ -50,11 +50,11 @@ Après cette opération votre nouvelle configuration apparaîtra sur le Dashboar
 
 En dessous de "logger" ajoutez les lignes 27 à 29 :
 
-```yaml
+{% highlight yaml %}
   baud_rate: 0
   level: INFO 
   esp8266_store_log_strings_in_flash: False
-```
+{% endhighlight %}
 
 {% gist 1a1dcda522d69522b4ab4a70e771d262 %}
 
@@ -107,11 +107,11 @@ Voilà c'est maintenant terminé, vous avez toutes les informations de votre com
 
 EDIT : Suite à un conflit dans Home Assistant au niveau de la configuration pour le tarif "Base", il est nécessaire de modifier la ligne id: index par id: "index\_base" dans le code ESPHome :
 
-```yaml
+{% highlight yaml %}
   - platform: teleinfo
     tag_name: "BASE"
     name: "Index"
     unit_of_measurement: "Wh"
     icon: mdi:gauge
     id: "index_base" # <- Ligne à modifier
-```
+{% endhighlight %}

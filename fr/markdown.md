@@ -49,7 +49,7 @@ le retour à la ligne se fait automatiquement.
 ## liens spécifique à haade
 
 créer un lien vers un article du site:
-[lien de l'article]({% post_url /en/2021-05-11-esphome-and-homeassistant %})
+
 
 créer un lien vers un produit:
 [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})

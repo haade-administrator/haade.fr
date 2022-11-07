@@ -39,7 +39,7 @@ Dans un premier temps il faudra créer différents compteurs afin de récolter l
 Ayant un abonnement Heures creuses / Heures pleines, j'ai décidé de créer des compteurs pour les deux tarifs, mais vous pouvez simplement n'en créer qu'un seul en fonction de votre contrat.  
 Ci-dessous mon code, à placer dans le fichier configuration.yaml :
 
-```yaml
+{% highlight yaml %}
 utility_meter:
   heures_creuses:
     source: sensor.hchc
@@ -47,7 +47,7 @@ utility_meter:
   heures_pleines:
     source: sensor.hchp
     cycle: daily
-```
+{% endhighlight %}
 
 La "source" correspond au sensor "Index HC" ou "Index HP" créé dans ESPHome, il alimentera en temps réel votre compteur.  
 

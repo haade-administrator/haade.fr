@@ -23,6 +23,7 @@ redirect_from:
   - /fr/blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes/
   - /blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes/
   - /en/blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes/
+rating: 3.6
 ---
 
 # TOP ou FLOP ?

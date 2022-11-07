@@ -30,12 +30,12 @@ Pour commencer, l’utilisation de docker est d’une simplicité déconcertante
 
 Alors que fait cette image. Avec watchtower, vous pouvez mettre à jour la version en cours d’exécution de votre application conteneurisée simplement en poussant une nouvelle image vers le Docker Hub ou votre propre registre d’images. Watchtower supprimera votre ancienne image, fermera gracieusement votre conteneur existant et le redémarrera avec les mêmes options que celles utilisées lors de son déploiement initial. Exécutez le conteneur Watchtower avec la commande suivante:
 
-```docker
+{% highlight docker %}
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
     containrrr/watchtower
-```
+{% endhighlight %}
 
 
 watchtower fermera proprement votre container existant en enregistrant les options et arguments de son déploiement initial.
@@ -69,7 +69,7 @@ nous permet de programmer la recherche de mise à jour des images à 2h00 du mat
 
 Ce qui pourrait être dérangeant si nous avons un site wordpress par exemple. L’argument `--cleanup` nous permet d’effacer l’ancienne image après une mise à jour réussi. Afin de ne pas saturer notre disque dur inutilement.
 
-```docker
+{% highlight docker %}
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
@@ -77,17 +77,17 @@ docker run -d \
     containrrr/watchtower \
     --schedule "0 2 * * *" \
     --cleanup
-```
+{% endhighlight %}
 
 
 Si On veut faire les mises à jours de certaines images il suffit de mettre le nom des **images containers concernées**. Ainsi dans l’exemple ci-dessous seul les images nommé [Jeedom]({% post_url /fr/2019-12-09-installation-complete-et-securisee-de-jeedom-sur-docker %}) et Homeassistant seront mises à jour.
 
-```docker
+{% highlight docker %}
 docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
     containrrr/watchtower \
     jeedom homeassistant
-```
+{% endhighlight %}
 
 Pour Conclure j’utilise personnellement Watchtower depuis de nombreux mois sur une douzaine de containers et je n’ai jamais rencontré de problèmes suite à une mise à jour. ***C’est un indispensable de la virtualisation Docker***. Beaucoup d’images ont validés leurs compatibilités, comme celle générées par linuxserver.io

@@ -90,11 +90,11 @@ Here it is now over, you have all the information from your meter arriving on yo
 
 EDIT: Due to a conflict in Home Assistant in the configuration for the "Base" tariff, it is necessary to modify the line id: index by id: "index\_base" in the ESPHome code:
 
-```yaml
+{% highlight yaml %}
   - platform: teleinfo
     tag_name: "BASE"
     name: "Index"
     unit_of_measurement: "Wh"
     icon: mdi:gauge
     id: "index_base" # <- modify line
-```
+{% endhighlight %}

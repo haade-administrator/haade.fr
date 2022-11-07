@@ -40,7 +40,7 @@ when the home assistant OS, it is installed on a Raspberry pi since can, before 
 
 below we find the [docker command that we find in the documentation of the github repository](https://github.com/dlandon/zoneminder.machine.learning){:target="_blank"} .
 
-```docker
+{% highlight docker %}
 docker run -d --name="Zoneminder" \
 --net="bridge" \
 --privileged="false" \
@@ -55,11 +55,11 @@ docker run -d --name="Zoneminder" \
 -v "/mnt/Zoneminder":"/config":rw \
 -v "/mnt/Zoneminder/data":"/var/cache/zoneminder":rw \
 dlandon/zoneminder.machine.learning
-```
+{% endhighlight %}
 
 Example of custom configurations "the one I use" for Openmediavault, you have to think about customizing the TZ timezone as well as any mounting volume. You can install ZM unsecured with the port **\-p 8080: 80** , however I strongly advise to install in ssl, letsencrypt is part of the container. Bye!
 
-```docker
+{% highlight docker %}
 docker run -d --name="Zoneminder" \
 --net="bridge" \
 --privileged="false" \
@@ -74,7 +74,7 @@ docker run -d --name="Zoneminder" \
 -v "/sharedfolder/Appdata/Zoneminder":"/config":rw \
 -v "/sharedfolder/Télésurveillance/Zoneminder":"/var/cache/zoneminder":rw \
 dlandon/zoneminder.machine.learning
-```
+{% endhighlight %}
 
 After launching the image, the installation is done quickly thanks to dlandon's work on the image. Previously with the old image of Zoneminder you had to wait 20 to 40 minutes, the ES and ML part took a lot of time. **Now Zoneminder and The ZMEventnotification package** install **in less than 5 minutes** .
 
@@ -115,7 +115,7 @@ For the learning machine we have 3 files to customize for these 3 files there is
 
 secrets.ini should look like this (**in my config I don't use** the ML API, OpenAlpr, Escontrol, Mqtt and Pushover)
 
-```bash
+{% highlight shell %}
 # your secrets file
 [secrets]
 
@@ -148,7 +148,7 @@ MQTT_PASSWORD=your_mqtt_password
 
 PUSHOVER_APP_TOKEN=your_pushover_app_token
 PUSHOVER_USER_KEY=your_pushover_user_key
-```
+{% endhighlight %}
 
 Next to **objectconfig.ini** which should look like the code below. With the new version of ZMeventnotification, the configuration of monitors has been greatly simplified
 
@@ -156,7 +156,7 @@ Next to **objectconfig.ini** which should look like the code below. With the new
 
 For these settings, do not hesitate to write to me but in the first place it is a question of modifying the **\[monitor-x\]** indeed we do not put the name of its camera but if this is in the first position, we will call it monitor-1 and so on, below is an example of garage monitoring.
 
-```bash
+{% highlight shell %}
 [monitor-1]
 # mon Door
 model_sequence=alpr,object
@@ -169,7 +169,7 @@ object_detection_pattern=(person)
 
 [ml]
 use_sequence= yes # Important for the support of the new system
-```
+{% endhighlight %}
 
 in order to be able to use the capture of images by person you must create a folder if it does not exist in ... named known\_faces and integrate inside a subfolder named nicolas then integrate photos of you which will be named 1.webp, 2.webp, etc. architecture direct link [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
 
@@ -177,21 +177,21 @@ in order to be able to use the capture of images by person you must create a fol
 
 Once all the images have been inserted or as soon as you add a new image, you will have to generate the train\_face, so let's go into the docker zoneminder:
 
-```docker
+{% highlight docker %}
 docker exec -it zoneminder /bin/bash
-```
+{% endhighlight %}
 
 Once all the images are integrated in the folder or in case of adding images, run the following command to generate the trainface:
 
-```bash
+{% highlight shell %}
 sudo -u www-data /var/lib/zmeventnotification/bin/zm_train_faces.py
-```
+{% endhighlight %}
 
 restart the service
 
-```bash
+{% highlight shell %}
 sudo service zoneminder restart
-```
+{% endhighlight %}
 
 and voila if everything went well Zmeventnotification should be functional.
 
