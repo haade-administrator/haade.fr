@@ -11,9 +11,31 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Nov 2022 15:25:48 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2022 20:17:53 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Nov 2022 18:11:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Moes Push Button Zigbee Switch Test ZTS-EU</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;For continuity here is a quality test of the Moes tactile button switch also named Zts-eu this is a push button, moreover it bears the same name as the test done previously with the tactile switch of the same brand you can consult the test: &lt;a href=&quot;/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020&quot;&gt;test zts-eu tactile by Moes&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 06 Nov 2022 18:11:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/push-button-test-moes-zts-eu-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/push-button-test-moes-zts-eu-zigbee</guid>
+      <category>Tests</category>
+      <category>Moes</category>
+      <category>Zigbee</category>
+      <category>Tests</category>
+      <category>Automation</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
@@ -175,25 +197,6 @@
       <link>https://haade.fr/en/blog/kobol-helios-64-its-over</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/kobol-helios-64-its-over</guid>
       <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/14/thermostat-zigbee-moes-bht-002.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the &lt;a href=&quot;https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465&quot; target=&quot;_blank&quot;&gt;Atlantic thermostat 109519&lt;/a&gt; this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.&lt;/p&gt;
-</description>
-      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-and-install-thermostat-zigbee-moes-bht-002</guid>
-      <category>Home-Assistant</category>
-      <category>Tests</category>
-      <category>Haade-lab</category>
     </item>
   </channel>
 </rss>

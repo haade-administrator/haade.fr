@@ -11,9 +11,31 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Nov 2022 15:25:48 +0000</pubDate>
-    <lastBuildDate>Mon, 03 Jan 2022 13:23:45 +0000</lastBuildDate>
+    <pubDate>Mon, 07 Nov 2022 20:17:53 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Nov 2022 18:11:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test interrupteur zigbee ZTS-EU à bouton poussoir Moes</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Par continuité voilà un test qualité de l’interrupteur à bouton tactileMoes aussi nommé Zts-eu celui_ci est à bouton poussoir, d’ailleurs il porte le même nom que le test fait précédemment avec l’interrupteur tactile de la même marque vous pouvez consulter le test: &lt;a href=&quot;/fr/blog/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020&quot;&gt;test zts-eu tactile par Moes&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 06 Nov 2022 18:11:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-bouton-poussoir-moes-zts-eu-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-bouton-poussoir-moes-zts-eu-zigbee</guid>
+      <category>Tests</category>
+      <category>Moes</category>
+      <category>Zigbee</category>
+      <category>Tests</category>
+      <category>Domotique</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/25/integration-dashboard-energie-ha.png</url>
@@ -198,26 +220,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/z-wave-face-a-matter</guid>
       <category>Domotique</category>
       <category>Protocoles</category>
-      <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>NAS opensource pour Raspberry pi CM4 le futur!</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Après &lt;a href=&quot;/fr/blog/kobol-helios-64-cest-termine&quot;&gt;la fin annoncée par kobol,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; annonce l’arrivée imminente d’une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )&lt;/p&gt;
-</description>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/nas-opensource-pour-raspberry-pi-cm4-le-futur</guid>
-      <category>Raspberry</category>
-      <category>CM4</category>
-      <category>Projets</category>
       <category>News</category>
     </item>
   </channel>
