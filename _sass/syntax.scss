@@ -7,11 +7,28 @@
 			padding: 0;
 			width: calc(100% - 1em);
 			border: 0;
+		&.gutter.gl {
+			  padding-right: 0.5em;
+			  color: #999;
+			  border-right: 1px solid #ccc;
+			  text-align: right;
+			}
+		&.code {
+				padding-left: 1em;
 		}
-		pre {
-			margin: 0;
-			padding: 1em;
-			background-color: #cccccc;
+	}
+}
+	pre {
+		display: block;
+		font-size:15px;
+		margin-bottom:30px;
+		background: #ececec;
+		border-radius: 10px;
+		color:inherit;
+		padding: 5px;
+		.lineno {
+		margin:0;
+		overflow: hidden;
 		}
 	}
 	.hll { background-color: #ffffcc }

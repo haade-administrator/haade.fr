@@ -5,7 +5,7 @@ layout: page
 comments: false
 locale: fr_FR
 locale_reference: markdown
-published: false
+published: true
 sitemap:
   changefreq: never
   exclude: yes
@@ -72,6 +72,7 @@ ___
 ***
 
 ## écrire du code
+
 ```javascript
 def bubble_sort(list)
   return list if list.size <= 1 # already sorted
@@ -85,12 +86,13 @@ def bubble_sort(list)
       end
     end
   end
-
   list
 end
 ```
 
+
 {% highlight javascript %}
+
 def bubble_sort(list)
   return list if list.size <= 1 # already sorted
   swapped = true
@@ -103,7 +105,6 @@ def bubble_sort(list)
       end
     end
   end
-
   list
 end
 {% endhighlight %}
