@@ -649,6 +649,11 @@ img, img:hover {
     height: auto;
 }
 }
+
+.pictinpost {
+    margin: 10px 0;
+}
+
 .image-shadow {
     -webkit-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
     -moz-box-shadow: 0 7px 50px 0 rgba(84,110,122,.15);
@@ -670,6 +675,11 @@ img, img:hover {
     margin-bottom:50px;
     .author-description {
         font-size:16px;
+    }
+    a:hover {
+        color: $lightblue;
+        text-decoration: none;
+    
     }
     .author-thumb {
         border-radius:50%;

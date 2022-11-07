@@ -67,18 +67,18 @@ $lightblue: #2AD2FD;
     display: inline-block;
     font-weight: 700;
     text-decoration: none;
-    color: #fff;
+    color: $white;
     text-transform: uppercase;
     padding: 13px 23px;
-    background: #ff6300;
+    background: $lightblue;
     font-size: 18px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
   }
 
   a:hover {
-    color: #ff6300;
-    background: #211b19;
+    color: $lightblue;
+    background: $purple;
   }
 }
 

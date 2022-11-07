@@ -3,7 +3,7 @@ guid: 23
 title: "Box Domotique rail din Home-assistant et Rpi4"
 description: "Création et montage d'une box intégrer au tableau électrique sur rail-din à base de Raspberry4 et Homeassistant"
 date: "2021-10-05"
-last_modified_at: "2022-10-03"
+last_modified_at: "2022-11-07 14:13"
 layout: post
 author: Nico
 categories: [Tests, Home-Assistant]
@@ -35,18 +35,23 @@ Pour ma part l'installation du système est monté [sur une carte sd de 128Go de
 
  _ne lésine jamais sur la qualité de la carte sd !_ . Comme il existe un boitier compatible rail din pour Raspberrypi 4, je me suis orienté naturellement vers cette carte en 4Gb, **la version 2Gb sous home-assistant peut vite devenir limite**, mais le processeur du PI4 a **tendance à chauffer.** Comme je possède un switch compatible POE+ au dessus du tableau, je suis parti sur l'achat d'une  [carte complémentaire Waveshare type C en POE+](https://s.click.aliexpress.com/e/_DElHtRZ){:target="_blank"}
 
-## Vous pouvez remplacer la type C par B sans aucuns soucis. Pourquoi cette [carte Waveshare poe+ type B ou C](https://s.click.aliexpress.com/e/_DDwVMIL){:target="_blank"}, par rapport aux cartes officielles raspberry pi
+ {% include product-embed.html image="Waveshare-Power-Over-Ethernet-Type-C-quipement-pour-Raspberry-Pi-3B-4B-802-3af-at.webp" title="module complémentaire pour raspberry pi poe+ waveshare type C" brand="Waveshare" description="Carte additionnelle qui alimente le raspberry pi par poe+" affiliate="_DElHtRZ" %}
+
+#### Vous pouvez remplacer la type C par B sans aucuns soucis. Pourquoi cette [carte Waveshare poe+ type B ou C](https://s.click.aliexpress.com/e/_DDwVMIL){:target="_blank"}, par rapport aux cartes officielles raspberry pi
 
 {% picture posts/{{ page.guid }}/waveshare-poe-typec-raspberrypi-4.png --alt Waveshareshare plugin raspberrypi 4 poe type c --img width="820" height="460" %}
 
 - Elle est compatible avec les derniers standards POE+
-- les GPIO sont toujours accessibles ( [si on veut rajouter un écran tft-lcd de 2.2](https://s.click.aliexpress.com/e/_DkJsUqT){:target="_blank"} pouces, c'est mieux )
+- les GPIO sont toujours accessibles ( [si on veut rajouter un écran tft-lcd de 2.2](https://s.click.aliexpress.com/e/_DkJsUqT){:target="_blank"} pouces, c'est mieux ).
+  {% include product-embed.html guid="2124" %}
 - Elle dispose d'une sortie USB supplémentaire de type A en 3.0
 - Enfin on peut y connecter un ventilateur de 12V pour un refroidissement optimal.
 - Elle possède un petit ventilateur pour refroidir le processeur du Raspberry
 - Possibilité de contrôler le ventilateur embarqué
 
-Pour être sûre de ne pas rencontrer de surchauffe [j'ai acheté des dissipateurs de 5mm en cuivre](https://s.click.aliexpress.com/e/_AMjOYn){:target="_blank"}, au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.
+Pour être sûre de ne pas rencontrer de surchauffe [j'ai acheté des dissipateurs de 5mm en cuivre](https://s.click.aliexpress.com/e/_AMjOYn){:target="_blank"}.
+   {% include product-embed.html image="Radiateur-en-cuivre-Raspberry-Pi-Mini-PC-Raspberry-Pi-4-3-2-1-mod-le-B.webp" title="Radiateur en cuivre Raspberry Pi" brand="Enfinity" description="Radiateur en cuivre Raspberry Pi, Mini PC Raspberry Pi 4 3 2 1 modèle B A Plus processeur RAM mémoire Lan puce refroidissement du dissipateur thermique" affiliate="_DkJsUqT" %}
+ Au montage ça passe mais il faut positionner en fonction des composants du waveshare, si tu veux un peut plus de liberté passe sur des dissipateurs de 3mm, mais ils seront moins efficaces.
 
 ## La température
 

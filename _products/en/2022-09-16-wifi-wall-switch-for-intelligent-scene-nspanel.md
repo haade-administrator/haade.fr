@@ -12,8 +12,8 @@ image: sonoff-nspanel-presentation.webp
 imageshadow: true
 comments: false
 published: true
-item: 1005003704218300
-item-affiliate: "_DE1YsuR"
+item: 32752039931
+item-affiliate: "_DmxcE1h"
 ---
 
 The NSPanel Smart Scene Wall Switch is equipped with a built-in powerful thermostat and environmental sensors. You can set different indoor temperatures for different time periods, and NSPanel will automatically trigger heating or cooling equipment based on your setting conditions to keep the room at a comfortable temperature. What's more, NSPanel has scenario-based control function, you can set different modes for wake up, work, entertainment and sleep, and you can switch mode at any time.

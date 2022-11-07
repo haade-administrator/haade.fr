@@ -1,8 +1,8 @@
 ---
 guid: 23
 title: "Domotical Box Rail Din Home-assistant and Raspberrypi"
-date: '2021-10-05 14:40:45'
-last_modified_at:
+date: "2021-10-05 14:40:45"
+last_modified_at: "2022-11-07 14:13"
 layout: post
 author: Nico
 categories: [Haade-lab, Home-Assistant] 
@@ -26,18 +26,25 @@ For my part the installation of the system is mounted [on an sd card 128GB of sa
 
 {% include product-embed.html image="SanDisk-Carte-Micro-SD-Extreme-Pro.webp" title="Carte sdcard mini sandisk extreme, etreme pro et highendurance" brand="Sandisk" description="SanDisk — Carte Micro SD Extreme, 32 Go/64 Go/128 Go, U3, V30, A2, A1, TF, mémoire flash" affiliate="_DdZe15z" %}
 
-## Why this [Waveshare poe + type C card](https://s.click.aliexpress.com/e/_ALSRv5){:target="_blank"}, compared to the official raspberry pi cards
+_never skimp on the quality of the sd card!_ . As there is a din rail compatible case for Raspberrypi 4, I naturally opted for this 4Gb card, **the 2Gb version under home-assistant can quickly become limited**, but the PI4 processor **tends to heat up .** As I have a POE+ compatible switch above the board, I went on the purchase of a [Waveshare type C add-on card in POE+](https://s.click.aliexpress.com/e/_DElHtRZ){:target="_blank"}
+
+{% include product-embed.html image="Waveshare-Power-Over-Ethernet-Type-C-quipement-pour-Raspberry-Pi-3B-4B-802-3af-at.webp" title="addon for raspberry pi poe+ waveshare type C" brand="Waveshare" description="Additional board that powers the raspberry pi by poe+" affiliate="_DElHtRZ" %}
+
+#### You can replace type C with B without any problem. Why this [Waveshare poe+ type B or C card](https://s.click.aliexpress.com/e/_DDwVMIL){:target="_blank"}, compared to official raspberry pi cards
 
 {% picture posts/{{ page.guid }}/waveshare-poe-typec-raspberrypi-4.png --alt Waveshareshare plugin raspberrypi 4 poe type c --img width="820" height="461" %}
 
 - It is compatible with the latest POE + standards
-- GPIOs are always accessible ( [if you want to add a 2.2](https://s.click.aliexpress.com/e/_ANZpYP){:target="_blank"} inch tft-lcd screen, that's better)
+- GPIOs are always accessible ( [if you want to add a 2.2](https://s.click.aliexpress.com/e/_ANZpYP){:target="_blank"} inch tft-lcd screen, that's better).
+    {% include product-embed.html guid="2124" %}
 - It has an additional USB type A output in 3.0
 - Finally you can connect a 12V fan for optimal cooling.
 - It has a small fan to cool the Raspberry processor
 - Possibility to control the onboard fan
 
-To be sure not to experience overheating[I bought 5mm copper heatsinks](https://s.click.aliexpress.com/e/_AMjOYn){:target="_blank"} , during assembly it works but you have to position according to the components of the waveshare, if you want a little more freedom go on 3mm heatsinks, but they will be less effective .
+To be sure not to experience overheating[I bought 5mm copper heatsinks](https://s.click.aliexpress.com/e/_AMjOYn){:target="_blank"}.
+{% include product-embed.html image="Radiateur-en-cuivre-Raspberry-Pi-Mini-PC-Raspberry-Pi-4-3-2-1-mod-le-B.webp" title="Raspberry Pi Copper Heatsink" brand="Enfinity" description="Raspberry Pi Mini PC Copper Heatsink Raspberry Pi 4 3 2 1 Model B A Plus CPU RAM Memory Lan Chip Heatsink Cooling" affiliate="_DkJsUqT" %}
+During assembly it works but you have to position according to the components of the waveshare, if you want a little more freedom go on 3mm heatsinks, but they will be less effective .
 
 ## The Temperature
 

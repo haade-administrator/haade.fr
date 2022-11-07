@@ -10,7 +10,7 @@
             "name": "HZGROW Store",
             "companyId": 238880430,
             "storeNumber": 3625094,
-            "followers": 1333,
+            "followers": 1334,
             "ratingCount": 162,
             "rating": "98.8%"
         },
@@ -72,12 +72,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 1.91,
-            "max": 10.18
+            "min": 1.88,
+            "max": 10.01
         },
         "salePrice": {
-            "min": 1.79,
-            "max": 9.57
+            "min": 1.76,
+            "max": 9.41
         }
     }
 }

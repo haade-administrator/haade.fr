@@ -3,15 +3,15 @@
         "title": "Module d&#39;Affichage Tactile Coloré, Écran LCD à Cristaux Liquides, SPI, TFT, Commande ILI9341, ILI9488, 480 x 320, 240 x 320, 1,44, 1,8, 2,0, 2,2, 2,4, 2,8, 3,2, 3,5, 4,0 Pouces",
         "categoryId": 400401,
         "productId": 33015586094,
-        "totalAvailableQuantity": 71221,
+        "totalAvailableQuantity": 71118,
         "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:center\" align=\"center\"><img src=\"https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n.jpg\" slate-data-type=\"image\"></p></div></div><p><br></p></div></div><p><br></p></div></div>\n\n<script>window.adminAccountId=116191644;</script>\n",
-        "orders": 364,
+        "orders": 365,
         "storeInfo": {
             "name": "EC-Buying Ali Store",
             "companyId": 106226508,
             "storeNumber": 1762106,
-            "followers": 9421,
-            "ratingCount": 9314,
+            "followers": 9426,
+            "ratingCount": 9332,
             "rating": "98.7%"
         },
         "ratings": {
@@ -104,12 +104,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 4.85,
-            "max": 22.23
+            "min": 4.77,
+            "max": 21.86
         },
         "salePrice": {
-            "min": 3.45,
-            "max": 15.78
+            "min": 3.39,
+            "max": 15.52
         }
     }
 }

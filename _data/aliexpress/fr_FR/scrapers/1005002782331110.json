@@ -76,12 +76,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 37.06,
-            "max": 41.72
+            "min": 36.44,
+            "max": 41.02
         },
         "salePrice": {
-            "min": 30.02,
-            "max": 33.79
+            "min": 29.51,
+            "max": 33.23
         }
     }
 }

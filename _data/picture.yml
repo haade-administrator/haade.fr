@@ -17,6 +17,7 @@ presets:
       laptop: 820px
       wide: 820px
     attributes:
+      img: 'class="pictinpost"'
       parent: 'class="lazyimg"'
     dimension_attributes: false
     fallback_width: 240

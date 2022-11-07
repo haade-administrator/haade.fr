@@ -3,22 +3,22 @@
         "title": "Module USB vers UART TTL à 5 broches, 3 pièces par lot, pour arduino PL2303, 1 pièce de chaque, PL2303HX, CP2102, CH340G",
         "categoryId": 400103,
         "productId": 4000120687489,
-        "totalAvailableQuantity": 115871,
+        "totalAvailableQuantity": 115851,
         "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hfdd6514f3197428285affcd46e97bed3J.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hf4a04df644094f4b9baad410dc6217b6L.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H89aca326936d4ee19b6c863455311e374.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H124a1d879703422c9a9e6923228c693cw.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hb5c4cb6942dd4527b05adc11cc3be32eg.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H757fb95c40374c1b845b4e88914bff5aC.jpg\"></p></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n\n<script>window.adminAccountId=220662299;</script>\n",
-        "orders": 2489,
+        "orders": 2502,
         "storeInfo": {
             "name": "IGMOPNRQ module Store",
             "companyId": 230681721,
             "storeNumber": 1113426,
             "followers": 6757,
-            "ratingCount": 5887,
+            "ratingCount": 5878,
             "rating": "97.9%"
         },
         "ratings": {
             "totalStar": 5,
             "averageStar": "4.9",
-            "totalStartCount": 670,
-            "fiveStarCount": 626,
+            "totalStartCount": 671,
+            "fiveStarCount": 627,
             "fourStarCount": 34,
             "threeStarCount": 1,
             "twoStarCount": 1,
@@ -70,12 +70,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 0.87,
-            "max": 3.56
+            "min": 0.86,
+            "max": 3.51
         },
         "salePrice": {
-            "min": 0.83,
-            "max": 3.39
+            "min": 0.81,
+            "max": 3.33
         }
     }
 }

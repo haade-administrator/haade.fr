@@ -20,7 +20,7 @@ redirect_from:
 
 That's after the [presentation of the temperature sensor SNZB-02]({% post_url /en/2021-09-10-test-sensor-temperature-and-humidity-sonoff-snzb-02 %}), I will detail quickly [the sonoff opening sensor SNZB-04]({% post_url /en/2021-09-20-sensor-test-door-zigbee-3-0-sonoff-snzb-04 %}), the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM
 
-{% include product-embed.html guid="2123" description="Door sensor zigbee 3.0 sonoff SNZB-04" %}
+{% include product-embed.html guid="2123" %}
 
 ## Unpacking, still nothing crazy
 
@@ -90,4 +90,4 @@ Sensor: 47 x 27 x 13.5mm
 
 If you don't care about design, if you want to save money or if you have a lot of modules to buy, then [the sonoff opening sensor SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %}) otherwise if the mesh of the network does not scare you **then switch to Xiaomi**, otherwise [the new one Xiaomi MCCGQ12LM rectangular aperture sensor is Zigbee 3.0 compatibility]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0.md %})
 
-{% include product-embed.html guid="2123" description="Door sensor zigbee 3.0 sonoff SNZB-04" %}
+{% include product-embed.html guid="2123" %}

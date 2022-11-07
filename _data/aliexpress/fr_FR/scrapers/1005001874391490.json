@@ -10,9 +10,9 @@
             "name": "Arylic Store",
             "companyId": 246625608,
             "storeNumber": 5047150,
-            "followers": 106420,
-            "ratingCount": 199,
-            "rating": "99.0%"
+            "followers": 106428,
+            "ratingCount": 195,
+            "rating": "98.9%"
         },
         "ratings": {
             "totalStar": 5,
@@ -132,12 +132,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 180.36,
-            "max": 244.13
+            "min": 177.34,
+            "max": 240.03
         },
         "salePrice": {
-            "min": 119.04,
-            "max": 161.12
+            "min": 117.04,
+            "max": 158.42
         }
     }
 }
