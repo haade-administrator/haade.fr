@@ -10,14 +10,14 @@ on:
 
 #    tags:
 #      - v1.*.*
+      
+  schedule:
+    - cron: '0 2 * * *' 
 
     paths-ignore:
       - .gitignore
       - README.md
-      - LICENSE.txt
-      
-  schedule:
-    - cron: '0 2 * * *'   
+      - LICENSE.txt  
       
 env:
   LANG: "fr_FR.UTF-8"
