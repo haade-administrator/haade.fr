@@ -9,7 +9,11 @@
       {%- if latest_post.categories != empty %}
       {%- assign sortedCategories = latest_post.categories %}
       {%- for category in sortedCategories limit:2 %}
+      {%- if page.locale == "fr_FR" %}
+      <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
+      {%- elsif page.locale == "en_GB" %}
       <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
+      {%- endif %}
       {%- endfor %}
       {%- else %}
       {%- unless latest_post.tags == empty %}
@@ -42,7 +46,11 @@
           {%- if second_post.categories != empty %}
           {%- assign sortedCategories = second_post.categories | sort %}
           {%- for category in sortedCategories limit:1 %}
+          {%- if page.locale == "fr_FR" %}
+          <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
+          {%- elsif page.locale == "en_GB" %}
           <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
+          {%- endif %}
           {%- endfor %}
           {%- else %}
           {%- unless second_post.tags == empty %}
@@ -74,7 +82,11 @@
             {%- if third_post.categories != empty %}
             {%- assign sortedCategories = third_post.categories | sort %}
             {%- for category in sortedCategories limit:1 %}
+            {%- if page.locale == "fr_FR" %}
+            <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
+            {%- elsif page.locale == "en_GB" %}
             <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
+            {%- endif %}
             {%- endfor %}
             {%- else %}
             {%- unless third_post.tags == empty %}
@@ -105,7 +117,11 @@
             {%- if four_post.categories != empty %}
             {%- assign sortedCategories = four_post.categories | sort %}
             {%- for category in sortedCategories limit:1 %}
+            {%- if page.locale == "fr_FR" %}
+            <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
+            {%- elsif page.locale == "en_GB" %}
             <a class="hero-categories" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
+            {%- endif %}
             {%- endfor %}
             {%- else %}
             {%- unless four_post.tags == empty %}

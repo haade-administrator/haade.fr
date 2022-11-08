@@ -112,7 +112,7 @@ defaults:
     values:
       layout: "category"
       locale: fr_FR
-      permalink: fr/:collection/:name
+      permalink: fr/categorie/:name
 
 
   - scope:
@@ -120,7 +120,22 @@ defaults:
     values:
       layout: "category"
       locale: en_GB
-      permalink: en/:collection/:name
+      permalink: en/category/:name
+
+  - scope:
+      path: "_category/fr/shop" 
+    values:
+      layout: "category"
+      locale: fr_FR
+      permalink: fr/categorie-produit/:name
+
+
+  - scope:
+      path: "_category/en/shop" 
+    values:
+      layout: "category"
+      locale: en_GB
+      permalink: en/category-product/:name
 
 
 

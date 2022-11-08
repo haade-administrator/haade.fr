@@ -18,5 +18,6 @@ sitemap:
 redirect_from: 
   - /blog/category/home-automation-smarthome-jeedom-homeassistant/
   - /blog/category/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/assistants-vocaux/
+  - /blog/snax_collection/25-history/
   - /fr/category/domotique
 ---

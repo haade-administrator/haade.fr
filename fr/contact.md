@@ -12,7 +12,8 @@ sitemap:
   lastmod: # date to end modification
 order: 3
 redirect_from:
-  - /contact
+  - /contact/
+  - /ajout-d-articles/
 ---
 
 <form action="https://formspree.io/{{site.email}}" method="POST">    
