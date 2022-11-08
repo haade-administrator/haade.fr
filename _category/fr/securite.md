@@ -12,4 +12,5 @@ sitemap:
 redirect_from: 
   - /blog/category/home-automation-smarthome-jeedom-homeassistant/securite/
   - /blog/category/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/securite/
+  - /fr/category/securite
 ---

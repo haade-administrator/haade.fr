@@ -14,4 +14,5 @@ redirect_from:
   - /shop/
   - /categorie-produit/non-classe/?lang=fr
   - /shop/page/2/
+  - /fr/category/boutique
 ---

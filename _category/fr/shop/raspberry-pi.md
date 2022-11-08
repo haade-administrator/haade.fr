@@ -14,5 +14,7 @@ sitemap:
   exclude: 'no'
   priority: 0.5
   lastmod:  # date to end modification
-redirect_from: /categorie-produit/brand/raspberry/
+redirect_from: 
+  - /categorie-produit/brand/raspberry/
+  - /fr/category/raspberry-pi
 ---

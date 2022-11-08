@@ -12,4 +12,5 @@ sitemap:
 redirect_from: 
   - /blog/category/home-automation-smarthome-jeedom-homeassistant/protocoles/
   - /blog/tag/zigbee/
+  - /fr/category/protocoles
 ---

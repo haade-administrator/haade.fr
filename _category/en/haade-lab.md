@@ -14,4 +14,5 @@ redirect_from:
   - /en/blog/category/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/
   - /en/blog/category/non-classifiee/tutos-haade-lab/
   - /en/blog/category/domotique-smarthome-jeedom-homeassistant/tutos-haade-lab/
+  - /en/category/haade-lab
 ---

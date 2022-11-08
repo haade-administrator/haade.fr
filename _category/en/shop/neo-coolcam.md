@@ -9,5 +9,7 @@ sitemap:
   exclude: 'no'
   priority: 0.5
   lastmod:  # date to end modification
-redirect_from: /en/categorie-produit/brand/neocoolcam/
+redirect_from: 
+  - /en/categorie-produit/brand/neocoolcam/
+  - /en/category/neo-coolcam
 ---

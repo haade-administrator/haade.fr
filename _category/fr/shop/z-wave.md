@@ -10,5 +10,7 @@ sitemap:
   exclude: 'no'
   priority: 0.5
   lastmod:  # date to end modification
-redirect_from: /categorie-produit/protocol/zwave/
+redirect_from: 
+  - /categorie-produit/protocol/zwave/
+  - /fr/category/z-wave
 ---

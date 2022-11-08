@@ -16,4 +16,5 @@ sitemap:
 redirect_fropm: 
   - /en/categorie-produit/protocol/wifi/
   - /en/categorie-produit/wifi/
+  - /en/category/wifi
 ---

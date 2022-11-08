@@ -14,4 +14,5 @@ redirect_from:
   - /categorie-produit/protocol/zigbee/
   - /categorie-produit/zigbee/?amp
   - /categorie-produit/zigbee/
+  - /fr/category/zigbee
 ---
