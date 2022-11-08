@@ -23,3 +23,7 @@
 {%- if jekyll.environment == 'production' and countapi.namespace %}
 <script async src="https://api.countapi.xyz/hit/{{ countapi.namespace }}/{{ page.url | replace: '/', '-' | slice: 1, 64 }}?callback=liveViews"></script>
 {%- endif %}
+
+{% if page.noindex %}
+<META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW"/>
+{% endif %}

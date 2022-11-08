@@ -11,7 +11,11 @@
     <!-- Categories -->
     {%- assign sortedCategories = page.categories %}
     {%- for category in sortedCategories %}
+    {%- if page.locale == "fr_FR" %}
+    <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
+    {%- elsif page.locale == "en_GB" %}
     <a class="smoothscroll badge badge-primary text-capitalize" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | slugify }}">{{ category }}</a>
+    {%- endif %}
     {%- endfor %}
 
     <!-- Tags -->

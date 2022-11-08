@@ -11,9 +11,15 @@
 		<small class="d-block text-muted">
 			{{ translate.in[page.locale] }} <span class="catlist">
 				{%- for category in post.categories %}
+				{%- if page.locale == "fr_FR" %}
 				<a class="text-capitalize text-muted smoothscroll"
-					href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}">{{
+					href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | downcase }}">{{
 					category }}</a><span class="sep">, </span>
+				{%- elsif page.locale == "en_GB" %}
+				<a class="text-capitalize text-muted smoothscroll"
+				href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}">{{
+				category }}</a><span class="sep">, </span>
+				{%- endif %}
 				{%- endfor %}
 			</span>
 		</small>

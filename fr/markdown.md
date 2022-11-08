@@ -5,6 +5,7 @@ layout: page
 comments: false
 locale: fr_FR
 locale_reference: markdown
+noindex: true
 published: true
 sitemap:
   changefreq: never

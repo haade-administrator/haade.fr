@@ -10,24 +10,50 @@
 		  "author: ${4|Nico,Yann,Math67|}",
 		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
 		  "last_modified_at: $6",
-		  "categories: [${7|Docker,Domotique,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}, ${9|Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Securite,Test|}]",
+		  "categories: [${7|Docker,Domotique,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Test|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Test|}, ${9|Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Test|}]",
 		  "tags: [$10]",
 		  "image: '${11:picture.png}'",
 		  "toc: ${12|true,false|}",
 		  "beforetoc: '$13'",
 		  "published: ${14|false,true|}",
+		  "noindex: ${15|false,true|}",
 		  "sitemap:",
-		  "  changefreq: '${15|monthly,always,hourly,daily,weekly,yearly,never|}'",
-		  "  exclude: '${16|no,yes|}'",
-		  "  priority: ${17|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|} #between 0.0 to 1.0, 1.0 high priority",
+		  "  changefreq: '${16|monthly,always,hourly,daily,weekly,yearly,never|}'",
+		  "  exclude: '${17|no,yes|}'",
+		  "  priority: ${18|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|} #between 0.0 to 1.0, 1.0 high priority",
 		  "  lastmod:  # date to end modification",
-		  "locale: ${18|fr_FR,en_GB|}",
-		  "comments: ${19|true,false|}",
-		  "rating: ${20| ,0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0|}",
+		  "locale: ${19|fr_FR,en_GB|}",
+		  "comments: ${20|true,false|}",
+		  "rating: ${21| ,0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0|}",
 		  "---",
-		  "$21"
+		  "$22"
 		],
 		"description": "posthaade"
+	  },
+
+	  "pagehaade": {
+		"prefix": "pageHaade",
+		"body": [
+		  "---",
+		  "title: \"$1\"",
+		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
+		  "author: ${2|Nico,Yann,Math67|}",
+		  "layout: page",
+		  "comments: ${3|false,true|}",
+		  "locale: ${4|fr_FR,en_GB|}",
+		  "locale_reference: [$5]",
+		  "published: ${6|false,true|}",
+		  "noindex: ${7|false,true|}",
+		  "sitemap:",
+		  "  changefreq: '${8|monthly,always,hourly,daily,weekly,yearly,never|}'",
+		  "  exclude: '${9|no,yes|}'",
+		  "  priority: ${10|0.5,0.0,0.1,0.2,0.3,0.4,0.6,0.7,0.8,0.9,1.0|} #between 0.0 to 1.0, 1.0 high priority",
+		  "  lastmod:  # date to end modification",
+		  "toc: ${11|true,false|}",
+		  "---",
+		  "$12"
+		],
+		"description": "pagehaade"
 	  },
 
 	  "producthaade": {

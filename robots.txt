@@ -11,6 +11,11 @@ Disallow: /features/
 Disallow: /tag/
 Disallow: /feed/
 Disallow: /hot/
+Disallow: /community/
+Disallow: /forum/
+Disallow: /forums/
+Disallow: /reaction/
+Disallow: /snax_format/
 
 Sitemap: https://haade.fr/sitemap.xml
 

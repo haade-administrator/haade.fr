@@ -42,7 +42,7 @@ home:
 automation:
   fr_FR:
     name: 'Domotique'
-    link: 'fr/category/domotique'
+    link: 'fr/categorie/domotique'
   en_GB:
     name: 'Automation'
     link: 'en/category/automation'
@@ -50,7 +50,7 @@ automation:
 security:
   fr_FR:
     name: 'Sécurité'
-    link: 'fr/category/securite'
+    link: 'fr/categorie/securite'
 
   en_GB:
     name: 'Security'
@@ -59,7 +59,7 @@ security:
 tutorials:
   fr_FR:
     name: 'Tutos'
-    link: 'fr/category/haade-lab'
+    link: 'fr/categorie/haade-lab'
 
   en_GB:
     name: 'Tutos'
@@ -68,7 +68,7 @@ tutorials:
 docker:
   fr_FR:
     name: 'Docker'
-    link: 'fr/category/docker'
+    link: 'fr/categorie/docker'
 
   en_GB:
     name: 'Docker'
@@ -77,7 +77,7 @@ docker:
 ha:
   fr_FR:
     name: 'Home-Assistant'
-    link: 'fr/category/home-assistant'
+    link: 'fr/categorie/home-assistant'
 
   en_GB:
     name: 'Home-Assistant'
@@ -86,7 +86,7 @@ ha:
 jeedom:
   fr_FR:
     name: 'Jeedom'
-    link: 'fr/category/jeedom'
+    link: 'fr/categorie/jeedom'
 
   en_GB:
     name: 'Jeedom'
@@ -95,7 +95,7 @@ jeedom:
 news:
   fr_FR:
     name: 'News'
-    link: 'fr/category/news'
+    link: 'fr/categorie/news'
 
   en_GB:
     name: 'News'
@@ -104,7 +104,7 @@ news:
 tests:
   fr_FR:
     name: 'Tests'
-    link: 'fr/category/tests'
+    link: 'fr/categorie/tests'
 
   en_GB:
     name: 'Tests'
@@ -130,15 +130,15 @@ community:
 shop:
   fr_FR:
     name: 'Boutique'
-    link: 'fr/category/boutique'
+    link: 'fr/categorie-produit/boutique'
   en_GB:
     name: 'Shop'
-    link: 'en/category/shop'
+    link: 'en/category-product/shop'
 
 brand:
   fr_FR:
     name: 'Marque'
-    link: 'fr/category/marque'
+    link: 'fr/categorie/marque'
   en_GB:
     name: 'Brand'
     link: 'en/category/brand'
@@ -146,7 +146,7 @@ brand:
 protocol:
   fr_FR:
     name: 'Protocole'
-    link: 'fr/category/protocole'
+    link: 'fr/categorie/protocole'
   en_GB:
     name: 'Protocol'
     link: 'en/category/protocol'
