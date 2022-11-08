@@ -1,11 +1,9 @@
 name: Scrap aliexpress
 
-on:
-      
+on:      
   schedule:
-    - cron: '0 1 * * *'
-  pull_request:
-    branches: [ "main" ] 
+  - cron: "0 1 * * *"
+
 
 jobs:
   build:
