@@ -22,5 +22,19 @@ comments: true
 rating:  
 ---
 
+## Intro
+
+Voilà une présentation d'un petit module à 7€ qui sans le rappeler fait penser à un petit [tuto de domotisation d'une porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}).
+La grande nouveauté de cet article c'est le fait que Ewelink produise un module équivalent intégrant le protocole Zigbee 3.0 et en plus ils embarquent le RF 433 Mhz dispo à la vente avec une télécommande pour ceux qui le désirent.
+
+## Prérequis
+- Ben une piscine avec une ampoule traditionnelle ( donc une vieille piscine :)
+- Une box domotique sous home-assistant
+- le module Zigbee2mqtt intégré à HA
+- Un module Ewelink simple relais dispo ici.
+- toucher un minimum en éléctricité.
+
+## l'avantage du module
+
 
 
