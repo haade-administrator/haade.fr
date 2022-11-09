@@ -36,5 +36,13 @@ La grande nouveauté de cet article c'est le fait que Ewelink produise un module
 
 ## l'avantage du module
 
+Grâce à son large spectre d'alimentation usb 5v et 7-32v
+on peut domotiser facilement tout ce qui est commandé par moteur électrique dans la maison
+- moteur de portail
+- porte de garage
+- lumière de piscine
+
+etc...
+
 
 
