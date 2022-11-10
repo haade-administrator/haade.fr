@@ -16,8 +16,6 @@ sitemap:
 toc: false
 ---
 
-## liste
-
 - homeassistant paramétrage alarme
 - rhasspy
 - homeassistant présence
@@ -31,3 +29,4 @@ toc: false
 - axzez compute nas rasperry pi 4 [axzez](https://www.axzez.com/product-page/interceptor-carrier-board){:target="_blank"}
 - odroid hc4 Nas [odroid hc4](https://www.kubii.fr/nano-ordinateurs/3196-carte-odroid-hc4-3272496311572.html){:target="_blank"}
 - boitier argon eon [argon eon](https://www.kickstarter.com/projects/argonforty/argon-eon-4-bay-network-storage-powered-by-raspberry-pi-4?lang=fr){:target="_blank"}
+- intégration et utilisation [frigate](https://frigate.video/){:target="_blank"} dans homeassistant 

@@ -11,7 +11,7 @@ tags: []
 image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink-7€.jpg'
 toc: true
 beforetoc: ''
-published: false
+published: true
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
@@ -28,7 +28,7 @@ Voilà une présentation d'un petit module à 7€ qui sans le rappeler fait pen
 La grande nouveauté de cet article c'est le fait que Ewelink produise un module équivalent intégrant le protocole Zigbee 3.0 et en plus ils embarquent le RF 433 Mhz dispo à la vente avec une télécommande pour ceux qui le désirent.
 
 ## Prérequis
-- Ben une piscine avec une ampoule traditionnelle ( donc une vieille piscine :)
+- Une piscine avec une ampoule traditionnelle ( donc une vieille piscine 🤪 )
 - Une box domotique sous home-assistant
 - le module Zigbee2mqtt intégré à HA
 - Un module Ewelink simple relais dispo ici.
@@ -41,8 +41,9 @@ on peut domotiser facilement tout ce qui est commandé par moteur électrique da
 - moteur de portail
 - porte de garage
 - lumière de piscine
+- etc...
 
-etc...
+On peut le commander sans hub domotique grâce à la fréquence radio et à la télécommande ( en option )
 
 
 
