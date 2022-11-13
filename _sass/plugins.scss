@@ -2039,8 +2039,8 @@ nav .navbar .links li {
       }
     }
     .alert-link {
-      font-weight: normal;
-      color: #4790e6;
+      color: $purple;
+      font-weight: 600;
     }
     ul {
       margin: 0;
@@ -2060,25 +2060,29 @@ nav .navbar .links li {
   .alert-icon {
     min-width: 40px;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     color: white;
     background-color: rgba(0,0,0,0.25);
     padding: 1rem;
   }
+  .article-post .alert-text p {
+    margin: 0 auto;
+  }
   .alert-text {
     color: #2d3a51;
-    padding: 2.4rem;
     width: 100%;
-    & > h5 {
+    padding: 10px 15px;
+    font-weight: 500;
+    & > h4 {
       margin-top: 0;
-      font-weight: 600;
+      font-weight: 700;
     }
   }
   .alert-warning {
     background-color: #fff8f5;
     border-color: #ffccb3;
     .alert-text {
-      h5 {
+      h4 {
         color: $alert-warning;
       }
     }
@@ -2095,7 +2099,7 @@ nav .navbar .links li {
     background-color: #fffcf5;
     border-color: #ffe4ad;
     .alert-text {
-      h5 {
+      h4 {
         color: $alert-help;
       }
     }
@@ -2112,7 +2116,7 @@ nav .navbar .links li {
     background-color: #f7fbff;
     border-color: #cee5ff;
     .alert-text {
-      h5 {
+      h4 {
         color: $alert-info;
       }
     }
@@ -2129,7 +2133,7 @@ nav .navbar .links li {
     background-color: #fdf5f5;
     border-color: #f6d3d3;
     .alert-text {
-      h5 {
+      h4 {
         color: $alert-error;
       }
     }
@@ -2146,7 +2150,7 @@ nav .navbar .links li {
     background-color: #edf8ed;
     border-color: #b9e4b9;
     .alert-text {
-      h5 {
+      h4 {
         color: $alert-success;
       }
     }

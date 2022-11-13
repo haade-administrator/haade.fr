@@ -54,9 +54,7 @@ Rien de bien compliqué, pour commencer la partie noir se déboîte facilement d
 
 Suit l'installation en lieu et place au thermostat d'ambiance Atlantic. Comme énoncé plus haut rien de bien compliqué.
 
-{% picture logo posts/{{ page.guid}}/pngegg.png --img width="250" height="250" --alt logo risque électrique %}
-
-**Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique.** **Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique.**
+{%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." %}
 
 Ce qui est dommage, la connectique réalisée par des fils dupont, **et non par un système de connection par contact.**
 

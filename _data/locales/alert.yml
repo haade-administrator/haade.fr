@@ -1,0 +1,19 @@
+warning:
+  fr_FR: Attention
+  en_GB: Warning
+
+help:
+  fr_FR: Aide
+  en_GB: Help   
+ 
+info:
+  fr_FR: Info
+  en_GB: Info
+
+error:
+  fr_FR: Erreur
+  en_GB: Error
+
+success:
+  fr_FR: Succès
+  en_GB: Success

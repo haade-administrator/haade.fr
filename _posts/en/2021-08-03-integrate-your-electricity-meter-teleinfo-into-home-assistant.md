@@ -59,9 +59,7 @@ Finally, below the 'captive\_portal' line add the rest of the code:
 
 ##  **Connection to the meter**
 
-{% picture posts/{{ page.guid }}/pngegg.png --alt Electrical hazard logo --img width="250" height="250" %}
-
-**You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.**
+{%- include alert.html type="warning" text="You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply." %}
 
  We will in this part see how to connect our assembly, here is the wiring diagram:
 

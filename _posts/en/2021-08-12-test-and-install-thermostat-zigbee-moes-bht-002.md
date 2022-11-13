@@ -48,9 +48,7 @@ Nothing very complicated, to begin with the black part is esay to remove with on
 
 Then follows the installation in place of the Atlantic room thermostat. As stated above nothing very complicated.
 
-{% picture logo posts/{{ page.guid}}/pngegg.png --img width="250" height="250" --alt electrical hazard logo %}
-
-**You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply.**
+{%- include alert.html type="warning" text="You will have to work in the vicinity of a voltage of 220V which is dangerous if you come into contact with an electrical conductor. Be careful with your handling, if in doubt cut off the power supply." %}
 
 What a pity that the connection work by dupont wires, a contact system is more pro
 

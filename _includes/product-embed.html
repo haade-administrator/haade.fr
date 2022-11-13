@@ -24,7 +24,7 @@
 {%- else %}
 <div class="embedproduct">
     <div class="embedproduct-picture">
-        {% picture posts/{{ page.guid }}/{{ include.image }} 1:1 center --alt {{ include.description }} --img width="250" height="250" %}
+        {%- if include.image contains "://" %}<img class="pictinpost lazyimg" width="250" height="250" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ include.image }}" >{%- else %}{% picture posts/{{ page.guid }}/{{ include.image }} 1:1 center --alt {{ include.description }} --img width="250" height="250" %}{%- endif %}
     </div>
     <div class="text">
         <div class="embedproduct-info">

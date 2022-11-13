@@ -74,9 +74,7 @@ Voilà pour la partie programmation, passons maintenant au branchement du montag
 
 ### Branchement au compteur
 
-{% picture logo posts/{{ page.guid }}/pngegg.png --alt Logo risque électrique --img width="250" height="250" %}
-
-**Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique.** **Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique.**
+{%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." %}
 
 Nous allons dans cette partie voir comment brancher notre montage, voici le schéma de câblage :
 

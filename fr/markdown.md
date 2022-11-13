@@ -92,12 +92,34 @@ end
 ```
 
 ## inclure produit externe
-{% include product-embed.html image="Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S88b1ba6506f6436bbccbd8ed76fd711ct/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg_Q90.jpg_.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}
 
 ## inclure produit interne à un article
 {% include product-embed.html guid="2123" %}
 
 ## intégration images articles dans un article
+
+
+## inclure un message d'alerte
+
+type:
+  - warning
+  - help
+  - info
+  - error
+  - success
+
+text: descriptif du message
+link: lien chemin absolu
+textlink: descriptif du lien
+
+{%- include alert.html type="" text="" link="" textlink="" %}
+
+{%- include alert.html type="warning" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
+{%- include alert.html type="help" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
+{%- include alert.html type="info" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
+{%- include alert.html type="error" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
+{%- include alert.html type="success" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
 
 
 

@@ -1,54 +1,71 @@
+{%- assign translate = site.data.locales.alert %}
+{%- if include.type == "warning" %}
 <div class="alert alert-warning" role="alert">
   <div class="alert-icon">
     <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
-    <h5>Warning</h5>
-    <ul>
-      <li><a href="#" class="alert-link">Freeze Warning Until Wed Oct 04, 2017, 1:00:00 AM</a></li>
-      <li><a href="#" class="alert-link">Freeze Warning Until Wed Oct 05, 2017, 11:07:00 AM</a></li>
-      <li><a href="#" class="alert-link">Freeze Warning Until Wed Oct 06, 2017, 2:40:00 PM</a></li>
-    </ul>
+    <h4>{{ translate.warning[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    {%- if include.link %}
+    <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
+    {%- endif %}
   </div>
 </div>
 
+{%- elsif include.type == "help" %}
 <div class="alert alert-help" role="alert">
   <div class="alert-icon">
     <i class="fas fa-question-circle"></i>
   </div>
   <div class="alert-text">
-    <h5>Help</h5>
-    <p>Indicates neutral informative to aid in understanding.</p>
+    <h4>{{ translate.help[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    {%- if include.link %}
+    <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
+    {%- endif %}
   </div>
 </div>
 
+{%- elsif include.type == "info" %}
 <div class="alert alert-info" role="alert">
   <div class="alert-icon">
     <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
-    <h5>Info</h5>
-    Indicates a neutral informative change or action. I am intentionally long to demonstrate what it should look like
-    within the new alert and I also <a href="#" class="alert-link">hyperlink</a> out to things and stuff.
+    <h4>{{ translate.info[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    {%- if include.link %}
+    <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
+    {%- endif %}
   </div>
 </div>
 
+{%- elsif include.type == "error" %}
 <div class="alert alert-danger" role="alert">
   <div class="alert-icon">
     <i class="fas fa-times-circle"></i>
   </div>
   <div class="alert-text">
-    <h5>Error</h5>
-    Indicates a warning that might need attention.
+    <h4>{{ translate.error[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    {%- if include.link %}
+    <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
+    {%- endif %}
   </div>
 </div>
 
+{%- elsif include.type == "success" %}
 <div class="alert alert-success" role="alert">
   <div class="alert-icon">
     <i class="fas fa-check-circle"></i>
   </div>
   <div class="alert-text">
-    <h5>Success</h5>
-    Indicates a successful or positive action.
+    <h4>{{ translate.success[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    {%- if include.link %}
+    <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
+    {%- endif %}
   </div>
 </div>
+{%- endif %}
