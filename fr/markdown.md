@@ -97,4 +97,8 @@ end
 ## inclure produit interne à un article
 {% include product-embed.html guid="2123" %}
 
+## intégration images articles dans un article
+
+
+
 
