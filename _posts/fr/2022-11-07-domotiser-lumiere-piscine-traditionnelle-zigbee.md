@@ -1,14 +1,14 @@
 ---
 guid: 27
 title: "Domotiser simplement l'allumage de la lumière de la piscine"
-description: "Ewelink propose un module à 7€ avec puce zigbee qui nous permet de domotiser la lumière traditionnelle d'une piscine"
+description: "Ewelink propose un module à 11€ avec puce zigbee qui nous permet de domotiser la lumière traditionnelle d'une piscine"
 layout: post
 author: Nico
 date: 2022-11-07 22:00
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]
 tags: []
-image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink-7€.jpg'
+image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg'
 toc: true
 beforetoc: ''
 published: false
@@ -23,6 +23,8 @@ rating:
 ---
 
 ## Intro
+
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DCX0fWX" %}
 
 Voilà une présentation d'un petit module à 7€ qui sans le rappeler fait penser à un petit [tuto de domotisation d'une porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}).
 La grande nouveauté de cet article c'est le fait que Ewelink produise un module équivalent intégrant le protocole Zigbee 3.0 et en plus ils embarquent le RF 433 Mhz dispo à la vente avec une télécommande pour ceux qui le désirent.
@@ -44,6 +46,20 @@ on peut domotiser facilement tout ce qui est commandé par moteur électrique da
 - etc...
 
 On peut le commander sans hub domotique grâce à la fréquence radio et à la télécommande ( en option )
+
+## Schéma des connectiques
+
+- Relais AC-DC 30v-230-
+- alimentation micro usb 5v
+- alimentation filaire 7-32v
+- bouton-switch manuel
+- bouton d'appairage
+- led de fonctionnement et du relais
+- antenne RF-433Mhz
+
+{% picture posts/{{ page.guid }}/detail-relais-ewelink-zigbee.jpg --alt détail relais ewelink zigbee --img width="820" height="820" %}
+
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DCX0fWX" %}
 
 
 

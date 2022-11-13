@@ -2,6 +2,12 @@ $white: #fff;
 $purple: #1B1C37;
 $lightblue: #2AD2FD;
 
+$alert-help: #ffab00;
+$alert-warning: #ff5400;
+$alert-info: #3592ff;
+$alert-error: #d33534;
+$alert-success: #42ae42;
+
 
 /* style for 404 error */
 
@@ -2016,3 +2022,141 @@ nav .navbar .links li {
     width: 100%;
     height: 100%;
   }
+
+  /* Alert message include */
+
+  .alert {
+    position: relative;
+    padding: 0;
+    min-width: 250px;
+    button {
+      &.close {
+        margin: 0.45rem 1rem;
+        opacity: 0.75;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+    .alert-link {
+      font-weight: normal;
+      color: #4790e6;
+    }
+    ul {
+      margin: 0;
+      li {
+        margin-bottom: 0.2rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .alert-icon,
+  .alert-text {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .alert-icon {
+    min-width: 40px;
+    text-align: center;
+    font-size: 2.2rem;
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    padding: 1rem;
+  }
+  .alert-text {
+    color: #2d3a51;
+    padding: 2.4rem;
+    width: 100%;
+    & > h5 {
+      margin-top: 0;
+      font-weight: 600;
+    }
+  }
+  .alert-warning {
+    background-color: #fff8f5;
+    border-color: #ffccb3;
+    .alert-text {
+      h5 {
+        color: $alert-warning;
+      }
+    }
+    button {
+      &.close {
+        color: $alert-warning;
+      }
+    }
+    .alert-icon {
+      background-color: $alert-warning;
+    }
+  }
+  .alert-help {
+    background-color: #fffcf5;
+    border-color: #ffe4ad;
+    .alert-text {
+      h5 {
+        color: $alert-help;
+      }
+    }
+    button {
+      &.close {
+        color: $alert-help;
+      }
+    }
+    .alert-icon {
+      background-color: $alert-help;
+    }
+  }
+  .alert-info {
+    background-color: #f7fbff;
+    border-color: #cee5ff;
+    .alert-text {
+      h5 {
+        color: $alert-info;
+      }
+    }
+    button {
+      &.close {
+        color: $alert-info;
+      }
+    }
+    .alert-icon {
+      background-color: $alert-info;
+    }
+  }
+  .alert-danger {
+    background-color: #fdf5f5;
+    border-color: #f6d3d3;
+    .alert-text {
+      h5 {
+        color: $alert-error;
+      }
+    }
+    button {
+      &.close {
+        color: $alert-error;
+      }
+    }
+    .alert-icon {
+      background-color: $alert-error;
+    }
+  }
+  .alert-success {
+    background-color: #edf8ed;
+    border-color: #b9e4b9;
+    .alert-text {
+      h5 {
+        color: $alert-success;
+      }
+    }
+    button {
+      &.close {
+        color: $alert-success;
+      }
+    }
+    .alert-icon {
+      background-color: $alert-success;
+    }
+  }
+  

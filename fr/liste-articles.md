@@ -30,3 +30,7 @@ toc: false
 - odroid hc4 Nas [odroid hc4](https://www.kubii.fr/nano-ordinateurs/3196-carte-odroid-hc4-3272496311572.html){:target="_blank"}
 - boitier argon eon [argon eon](https://www.kickstarter.com/projects/argonforty/argon-eon-4-bay-network-storage-powered-by-raspberry-pi-4?lang=fr){:target="_blank"}
 - intégration et utilisation [frigate](https://frigate.video/){:target="_blank"} dans homeassistant 
+- hydroponic esp32-ha [led gardener](https://www.youtube.com/c/LEDGardener){:target="_blank"}
+  - [led gardener github](https://github.com/ledgardener/gardenAutomation){:target="_blank"}
+- Projet raspberry control piscine erp et ph avecha[raspipool](https://github.com/virgilm/sparkly){:target="_blank"}
+- projet esp32 piscine et ha[esp32 pool](https://github.com/smurry/pool_controller){:target="_blank"}
