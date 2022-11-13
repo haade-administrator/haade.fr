@@ -20,3 +20,4 @@
 11. regarder fonctionnement scraping website avec scrapy, beautifulsoup, puppeteer ou cheerio (https://www.twilio.com/blog/4-outils-web-scraping-node-js)
 12. carte produit  [https://designrshub.com/2020/08/free-product-card-css.html]
 13. [carte produit avec scene](https://codepen.io/cannap/pen/WxJogO)
+14. intégrer le service gratuit pour l'envoi de mail par formulaire [formsubmit](formsubmit.co) voir tuto youtube [](https://www.youtube.com/watch?v=Yg6POD0M30w)

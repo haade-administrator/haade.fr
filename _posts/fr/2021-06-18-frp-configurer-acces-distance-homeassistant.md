@@ -169,6 +169,8 @@ vérifie si le service est bien lancé
 
 {% highlight shell %}
 sudo systemctl status frps
+ou
+sudo service frps status
 {% endhighlight %}
 
 
