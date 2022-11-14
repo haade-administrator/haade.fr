@@ -16,14 +16,18 @@ redirect_from:
   - /ajout-d-articles/
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
+{%- if jekyll.environment == 'production' %}
+<form action="https://formsubmit.co/{{site.formcoprod}}" method="POST">
+{%- else %}
+<form action="https://formsubmit.co/{{site.formcodev}}" method="POST">
+{%- endif %} 
 <p class="mb-4">S'il vous plait envoyez votre message à {{site.name}}. Nous vous répondrons dès que possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
 <input class="form-control" type="text" name="name" placeholder="Nom*" required>
 </div>
 <div class="col-md-6">
-<input class="form-control" type="email" name="_replyto" placeholder="Adresse E-mail*" required>
+<input class="form-control" type="email" name="email" placeholder="Adresse E-mail*" required>
 </div>
 </div>
 <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    

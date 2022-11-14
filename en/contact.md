@@ -15,7 +15,11 @@ redirect_from:
   - /en/contact
 ---
 
-<form action="https://formspree.io/{{site.email}}" method="POST">    
+{%- if jekyll.environment == 'production' %}
+<form action="https://formsubmit.co/{{site.formcoprod}}" method="POST">
+{%- else %}
+<form action="https://formsubmit.co/{{site.formcodev}}" method="POST">
+{%- endif %}
 <p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
 <div class="form-group row">
 <div class="col-md-6">
