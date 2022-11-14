@@ -16,20 +16,55 @@ redirect_from:
   - /ajout-d-articles/
 ---
 
-{%- if jekyll.environment == 'production' %}
-<form action="https://formsubmit.co/{{site.formcoprod}}" method="POST">
-{%- else %}
-<form action="https://formsubmit.co/{{site.formcodev}}" method="POST">
-{%- endif %} 
-<p class="mb-4">S'il vous plait envoyez votre message à {{site.name}}. Nous vous répondrons dès que possible!</p>
-<div class="form-group row">
-<div class="col-md-6">
-<input class="form-control" type="text" name="name" placeholder="Nom*" required>
-</div>
-<div class="col-md-6">
-<input class="form-control" type="email" name="email" placeholder="Adresse E-mail*" required>
-</div>
-</div>
-<textarea rows="8" class="form-control mb-3" name="message" placeholder="Message*" required></textarea>    
-<input class="btn btn-dark" type="submit" value="Envoyer">
-</form>
+
+<form action="https://formsubmit.co/{{site.formsubmitco}}" method="POST">
+<input type="hidden" name="_next" value="{{ site.url }}{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/contact-success">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_subject" value="Nouvelle soumission !">
+<!-- Honeypot -->
+<input type="text" name="_honey" style="display:none">
+<!-- Disable captcha -->
+<input type="hidden" name="_captcha" value="false">
+<!-- Autoresponse mail box -->
+<input type="hidden" name="_autoresponse" value="Nous avons bien reçu votre message et vous répondrons dans les meilleurs délai">
+    <div class="contentact">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Addresse</div>
+          <div class="text-one">29 rue des greniers à grains</div>
+          <div class="text-two">67350 Ettendorf</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Téléphone</div>
+          <div class="text-one">+0033 6 99 40 15 86</div>
+          <div class="text-two"></div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">administrateur[@]haade.fr</div>
+          <div class="text-two">nico[@]haade.fr</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Envoyez-nous un message</div>
+        <p>Tu veux me poser une question, tu es sur la bonne page. C'est avec plaisir que je te répondrai.</p>
+        <div class="input-box">
+          <input type="text" name="Nom" placeholder="Ton Nom *" required>
+        </div>
+        <div class="input-box">
+          <input type="email" name="email" placeholder="Ton adresse Mail *" required>
+        </div>
+        <div class="input-box">
+        <input type="text" name="_subject" placeholder="Sujet *" value="" required>
+        </div>
+        <div class="input-box message-box">
+          <textarea name="Message" placeholder="Message *" required></textarea>    
+        </div>
+        <div class="button">
+          <input type="submit" value="Envoyer" >
+        </div>
+      </div>
+    </div></form>

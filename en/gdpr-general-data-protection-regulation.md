@@ -16,6 +16,7 @@ order: 2
 redirect_from:
   - /en/rgpd-politique-de-confidentialite
 ---
+# GDPR
 
 ## Who are we ?
 Haade is a blog intended to help individuals and professionals to set up a home automation system

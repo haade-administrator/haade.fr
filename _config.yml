@@ -16,9 +16,7 @@ email: administrateur@haade.fr
 words_per_minute: 180
 
 #https://formsubmit.co/
-formcodev: 'db65ec0e1e884cf4b77b96fa7ce5d63e'
-formcoprod: administrateur@haade.fr
-
+formsubmitco: 'db65ec0e1e884cf4b77b96fa7ce5d63e'
 
 #socialnetwork
 social:

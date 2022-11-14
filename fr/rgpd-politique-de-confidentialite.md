@@ -18,6 +18,8 @@ redirect_from:
   - /rgpd-condition-generale/
 ---
 
+# RGPD
+
 ## Qui sommes-nous ?
 
 Haade est un blog destiné à aider les particuliers et professionnels à la mise en place d’un système domotique
