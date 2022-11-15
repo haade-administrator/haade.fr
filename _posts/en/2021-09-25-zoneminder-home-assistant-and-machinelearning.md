@@ -14,6 +14,8 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: en_GB
+beforetoc:
+toc: true
 redirect_from: 
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/zoneminder-home-assistant-et-machinelearning/
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/

@@ -14,6 +14,7 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: en_GB
+toc: true
 redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/test-et-install-thermostat-zigbee-moes-bht-002/
   - /en/blog/tests/test-et-install-thermostat-zigbee-moes-bht-002/2/
