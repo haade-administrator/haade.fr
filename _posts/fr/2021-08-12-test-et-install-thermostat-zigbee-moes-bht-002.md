@@ -27,6 +27,7 @@ redirect_from:
   - /blog/tests/test-et-install-thermostat-zigbee-moes-bht-002/
 rating: 4.6
 ---
+
 Aujourd'hui je vais tester et installer le thermostat zigbee BHT-002 de la marque Moes, plus précisément la version chauffage électrique BHT-002-GBLZBW, celui-ci va être remplacer par le [thermostat Atlantic 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){:target="_blank"} ce thermostat des années 2000 coûte toujours _plus de 40 euro_s l'unité avec des paramétrages très restreints.
 
 {% picture posts/{{ page.guid}}/remplacement-thermostat-atlantic109519-vs-moes-bht-002.png --alt remplacement thermostat atlantic chauffage électrique par moes bht-002 --img width="820" height="461" %}
@@ -54,7 +55,7 @@ Rien de bien compliqué, pour commencer la partie noir se déboîte facilement d
 
 Suit l'installation en lieu et place au thermostat d'ambiance Atlantic. Comme énoncé plus haut rien de bien compliqué.
 
-{%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." %}
+{%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." link="" textlink="" %}
 
 Ce qui est dommage, la connectique réalisée par des fils dupont, **et non par un système de connection par contact.**
 

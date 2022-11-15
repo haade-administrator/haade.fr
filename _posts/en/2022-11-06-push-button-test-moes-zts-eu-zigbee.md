@@ -31,9 +31,7 @@ For continuity here is a quality test of the Moes tactile button switch also nam
 
 {% include product-embed.html image="zigbee-smart-wall-light-switch-with-neutral-wire-or-no-neutral-wire-wiring-no-capacitor-needed.jpg" title="zigbee push button switch moes from 1 to 3 switches" brand="Waveshare" description="Moes zts-eu brand push button switch" affiliate="_DDzDn7v" %}
 
-> ***Warning:***
-
-Since the 1-push button version no longer has the same reference, it is generally called ZS-EUB, it is possible that ZTS versions are still in circulation. In short, the 1 gang ZS-EUB version was supported a while ago ** you have to put zigbee2mqtt in version 1.28.0 ** which dates from October 2022.
+{%- include alert.html type="info" text="Since the 1-push button version no longer has the same reference, it is generally called ZS-EUB, it is possible that ZTS versions are still in circulation. In short, the 1 gang ZS-EUB version was supported a while ago ** you have to put zigbee2mqtt in version 1.28.0 ** which dates from October 2022." link="" textlink="" %}
 
 ## Connecting the push button
 

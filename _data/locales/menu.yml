@@ -160,3 +160,19 @@ legalnotice:
   en_GB:
     name: 'Legal notice'
     link: 'en/legal-notice'
+
+gdpr:
+  fr_FR:
+    name: 'Politique de confidentialité'
+    link: 'fr/rgpd'
+  en_GB:
+    name: 'Privacy Policy'
+    link: 'en/gdpr'
+
+contact:
+  fr_FR:
+    name: 'Formulaire de contact'
+    link: 'fr/contact'
+  en_GB:
+    name: 'Confact form'
+    link: 'en/contact'

@@ -8,7 +8,7 @@
     {%- endif %}
     <div class="toc mt-4 mb-4 lead">
         <h3 class="font-weight-bold">{{ translate.sommary[page.locale] }}</h3>
-        {%- include toc.html sanitize=true html=content h_min=1 h_max=4 skip_no_ids=true %}
+        {%- include toc.html sanitize=true html=content h_min=1 h_max=4 item_class="toc" skip_no_ids=true %}
     </div>
     {%- endif %}
     <!-- End Toc -->

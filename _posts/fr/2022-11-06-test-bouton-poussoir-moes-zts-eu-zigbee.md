@@ -31,9 +31,7 @@ Par continuité voilà un test qualité de l'interrupteur à bouton tactileMoes 
 
 {% include product-embed.html image="zigbee-smart-wall-light-switch-with-neutral-wire-or-no-neutral-wire-wiring-no-capacitor-needed.jpg" title="Interrupteur bouton poussoir zigbee moes de 1 à 3 interrupteurs" brand="Waveshare" description="Interrupteur à bouton poussoir de la marque Moes zts-eu" affiliate="_DDzDn7v" %}
 
-> ***Attention:***
-
-Depuis peut la version bouton 1 poussoir n'a plus la même référence elle se nomme généralement ZS-EUB, il se peut que des version ZTS soient toujours en circulation. Bref la version 1 gang ZS-EUB a été prise en charge il y a peut de temps **il faut mettre zigbee2mqtt en version 1.28.0** qui date d'Octobre 2022.
+{%- include alert.html type="info" text="Depuis peut la version bouton 1 poussoir n'a plus la même référence elle se nomme généralement ZS-EUB, il se peut que des version ZTS soient toujours en circulation. Bref la version 1 gang ZS-EUB a été prise en charge il y a peut de temps <strong>il faut mettre zigbee2mqtt en version 1.28.0</strong> qui date d'Octobre 2022." link="" textlink="" %}
 
 ## Branchement du bouton poussoir
 

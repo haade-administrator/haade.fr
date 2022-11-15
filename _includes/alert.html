@@ -5,9 +5,10 @@
     <i class="fas fa-exclamation-circle"></i>
   </div>
   <div class="alert-text">
-    <h4>{{ translate.warning[page.locale] }}</h4>
+    <h4 class="no_toc">{{ translate.warning[page.locale] }}</h4>
     <p>{{ include.text }}</p>
-    {%- if include.link %}
+    {%- if include.link != empty %}
+    <hr>
     <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
     {%- endif %}
   </div>
@@ -19,9 +20,10 @@
     <i class="fas fa-question-circle"></i>
   </div>
   <div class="alert-text">
-    <h4>{{ translate.help[page.locale] }}</h4>
+    <h4 class="no_toc">{{ translate.help[page.locale] }}</h4>
     <p>{{ include.text }}</p>
-    {%- if include.link %}
+    {%- if include.link != empty %}
+    <hr>
     <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
     {%- endif %}
   </div>
@@ -33,9 +35,10 @@
     <i class="fas fa-info-circle"></i>
   </div>
   <div class="alert-text">
-    <h4>{{ translate.info[page.locale] }}</h4>
+    <h4 class="no_toc">{{ translate.info[page.locale] }}</h4>
     <p>{{ include.text }}</p>
-    {%- if include.link %}
+    {%- if include.link != empty %}
+    <hr>
     <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
     {%- endif %}
   </div>
@@ -47,9 +50,10 @@
     <i class="fas fa-times-circle"></i>
   </div>
   <div class="alert-text">
-    <h4>{{ translate.error[page.locale] }}</h4>
+    <h4 class="no_toc">{{ translate.error[page.locale] }}</h4>
     <p>{{ include.text }}</p>
-    {%- if include.link %}
+    {%- if include.link != empty %}
+    <hr>
     <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
     {%- endif %}
   </div>
@@ -61,9 +65,10 @@
     <i class="fas fa-check-circle"></i>
   </div>
   <div class="alert-text">
-    <h4>{{ translate.success[page.locale] }}</h4>
+    <h4 class="no_toc">{{ translate.success[page.locale] }}</h4>
     <p>{{ include.text }}</p>
-    {%- if include.link %}
+    {%- if include.link != empty %}
+    <hr>
     <a href="{{ include.link }}" class="alert-link">{{ include.textlink }}</a>
     {%- endif %}
   </div>

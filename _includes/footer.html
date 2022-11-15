@@ -14,12 +14,13 @@
            <a href="#"><i class="fas fa-phone-volume"></i>+0033 6 99 40 15 86</a>
          </div>
          <div class="email">
-           <a href="mailto:administrateur@haade.fr"><i class="fas fa-envelope"></i>administrateur[@]haade.fr</a>
+           <a href="{{ site.baseurl }}/{{ menu.contact[page.locale].link }}"><i class="fas fa-envelope"></i>{{ menu.contact[page.locale].name }}</a>
          </div>
        </div>
      </div>
      <div class="footmiddle footbox">
        <div class="foottopic">{{ translate.footer.linku[page.locale] }}</div>
+       <div><a href="{{ site.baseurl }}/{{ menu.gdpr[page.locale].link }}">{{ menu.gdpr[page.locale].name }}</a></div>
        <div><a href="{{ site.baseurl }}/{{ menu.legalnotice[page.locale].link }}">{{ menu.legalnotice[page.locale].name }}</a></div>
        <div><a target="_blank" href="https://buildwithmatter.com/">Protocole Matter</a></div>
        <div><a target="_blank" href="https://zigbeealliance.org/fr/%C3%A9v%C3%A9nements/">Zigbee Alliance</a></div>

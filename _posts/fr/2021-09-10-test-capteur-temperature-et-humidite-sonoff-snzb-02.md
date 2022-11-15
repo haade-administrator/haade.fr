@@ -16,7 +16,7 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: fr_FR
-toc: false
+toc: true
 beforetoc:
 comments: true
 redirect_from:

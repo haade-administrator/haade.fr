@@ -17,7 +17,7 @@ sitemap:
   lastmod: # date to end modification
 locale: fr_FR
 beforetoc:
-toc: true
+toc: false
 comments: true
 redirect_from:
   - /fr/blog/news/kobol-helios-64-cest-termine/
