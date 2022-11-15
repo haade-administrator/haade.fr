@@ -1,6 +1,6 @@
 {%- assign translate = site.data.locales.alert %}
 {%- if include.type == "warning" %}
-<div class="alert alert-warning no_toc_section" role="alert">
+<div class="alert alert-warning" role="alert">
   <div class="alert-icon">
     <i class="fas fa-exclamation-circle"></i>
   </div>
@@ -14,7 +14,7 @@
 </div>
 
 {%- elsif include.type == "help" %}
-<div class="alert alert-help no_toc_section" role="alert">
+<div class="alert alert-help" role="alert">
   <div class="alert-icon">
     <i class="fas fa-question-circle"></i>
   </div>
@@ -28,7 +28,7 @@
 </div>
 
 {%- elsif include.type == "info" %}
-<div class="alert alert-info no_toc_section" role="alert">
+<div class="alert alert-info" role="alert">
   <div class="alert-icon">
     <i class="fas fa-info-circle"></i>
   </div>
@@ -42,7 +42,7 @@
 </div>
 
 {%- elsif include.type == "error" %}
-<div class="alert alert-danger no_toc_section" role="alert">
+<div class="alert alert-danger" role="alert">
   <div class="alert-icon">
     <i class="fas fa-times-circle"></i>
   </div>
@@ -56,7 +56,7 @@
 </div>
 
 {%- elsif include.type == "success" %}
-<div class="alert alert-success no_toc_section" role="alert">
+<div class="alert alert-success" role="alert">
   <div class="alert-icon">
     <i class="fas fa-check-circle"></i>
   </div>
