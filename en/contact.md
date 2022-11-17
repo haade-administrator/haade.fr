@@ -20,7 +20,7 @@ order: 3
 <!-- Honeypot -->
 <input type="text" name="_honey" style="display:none">
 <!-- Disable captcha -->
-<input type="hidden" name="_captcha" value="true">
+<input type="hidden" name="_captcha" value="false">
 <!-- Autoresponse mail box -->
 <input type="hidden" name="_autoresponse" value="We have received your message and will respond to you as soon as possible.">
     <div class="contentact">
@@ -59,6 +59,14 @@ order: 3
         <div class="input-box message-box">
           <textarea name="Message" placeholder="Message *" required></textarea>    
         </div>
+         <div
+  class="g-recaptcha"
+  data-sitekey="6LexaRQjAAAAAEGlmHkRT1kSFy-6qDzyJ9fiPrlV"
+  data-callback="onRecaptchaSuccess"
+  data-expired-callback="onRecaptchaResponseExpiry"
+  data-error-callback="onRecaptchaError"
+>
+</div>
         <div class="button">
           <input type="submit" value="Send us" >
         </div>

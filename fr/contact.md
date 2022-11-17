@@ -24,7 +24,7 @@ redirect_from:
 <!-- Honeypot -->
 <input type="text" name="_honey" style="display:none">
 <!-- Disable captcha -->
-<input type="hidden" name="_captcha" value="true">
+<input type="hidden" name="_captcha" value="false">
 <!-- Autoresponse mail box -->
 <input type="hidden" name="_autoresponse" value="Nous avons bien reçu votre message et vous répondrons dans les meilleurs délai">
     <div class="contentact">
@@ -63,6 +63,14 @@ redirect_from:
         <div class="input-box message-box">
           <textarea name="Message" placeholder="Message *" required></textarea>    
         </div>
+        <div
+  class="g-recaptcha"
+  data-sitekey="6LexaRQjAAAAAEGlmHkRT1kSFy-6qDzyJ9fiPrlV"
+  data-callback="onRecaptchaSuccess"
+  data-expired-callback="onRecaptchaResponseExpiry"
+  data-error-callback="onRecaptchaError"
+>
+</div>
         <div class="button">
           <input type="submit" value="Envoyer" >
         </div>
