@@ -14,6 +14,7 @@
 			  text-align: right;
 			}
 		&.code {
+				width: 100%;
 				padding-left: 1em;
 		}
 	}
@@ -83,7 +84,6 @@
     }
 	// fin intégration clipboard
 		.lineno {
-		margin:0;
 		overflow: hidden;
 		}
 	}

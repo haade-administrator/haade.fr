@@ -56,11 +56,39 @@ le retour à la ligne se fait automatiquement.
 
 # liens spécifique à haade
 
-créer un lien vers un article du site:
+### créer un lien vers un article du site:
 [intégrer un article interne]({% post_url /en/2021-05-11-esphome-and-homeassistant %})
 
-créer un lien vers un produit:
+### créer un lien vers un produit:
 [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
+
+# créer un lien traditionnel pour les gifs transformés en webp avec gif2webp
+
+![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}{:target="_blank"}
+
+# transformer un gif en webp sur le pc
+
+{% highlight shell %}
+sudo apt-get update
+sudo apt-get install webp
+
+Basic command line usage:
+
+gif2webp input.gif -o output.png
+{% endhighlight %}
+
+{% highlight ruby linenos mark_lines="1 2" %}
+sudo apt-get update
+sudo apt-get install webp
+
+Basic command line usage:
+
+gif2webp input.gif -o output.png
+{% endhighlight %}
+
+[x] #739
+[ ] https://github.com/octo-org/octo-repo/issues/740
+[ ] Add delight to the experience when all tasks are complete :tada:
 
 # intégrer une image dans un article
 
@@ -81,7 +109,7 @@ ___
 
 # écrire du code
 
-```javascript
+{% highlight javascript %}
 def bubble_sort(list)
   return list if list.size <= 1 # already sorted
   swapped = true
@@ -96,7 +124,7 @@ def bubble_sort(list)
   end
   list
 end
-```
+{% endhighlight %}
 
 # inclure produit externe
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S88b1ba6506f6436bbccbd8ed76fd711ct/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg_Q90.jpg_.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}
