@@ -54,15 +54,12 @@ layout: compress
 <script src="{{ site.baseurl }}{{ '/assets/js/jquery-3.6.1.slim.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/theme.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/prism.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/captcha.js' | cache_buster }}" type="text/javascript"></script>
 {%- endif %}
 
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
 {%- if site.backtotop == "enabled" %}
-<script>addBackToTop({
-  diameter: 44,
-  backgroundColor: '#1B1C37',
-  textColor: '#2AD2FD'
-})</script>
+<script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
 {%- endif %}
 <!-- lunrsearch engine -->
 {%- assign lang = page.locale | default: "site.default_locale" | slice: 0,2 %}

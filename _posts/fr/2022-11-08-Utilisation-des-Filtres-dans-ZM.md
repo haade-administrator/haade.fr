@@ -1,11 +1,29 @@
 ---
 guid: 28
-title: 'Utilisation des Filtres dans ZM'
-date: '2022-11-08 09:25'
-author: Nicolas
+author: Nico
 layout: post
+title: 'Utilisation des Filtres dans ZM'
+description: ""
+date: '2022-11-08 09:25'
+last_modified_at: 
+categories: [Docker, Domotique, Haade-lab]
+tags: []
+image: ''
+toc: true
+beforetoc: ''
 published: false
+noindex: false
+published: false
+sitemap:
+  changefreq: 'monthly'
+  exclude: 'no'
+  priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
+  lastmod:  # date to end modification
+locale: fr_FR
+comments: true
+rating:  
 ---
+
 
 Les filtres dans ZoneMinder ont un rôle très important, ils permettent de classer, d’archiver de supprimer à peut près tout dans Zoneminder que ce soit des évènements, les vidéos ou les images.
 
