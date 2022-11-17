@@ -22,9 +22,8 @@ redirect_from:
 <input type="hidden" name="_template" value="table">
 <input type="hidden" name="_subject" value="Nouvelle soumission !">
 <!-- Honeypot -->
-<input type="text" name="_honey" style="display:none">
 <!-- Disable captcha -->
-<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_captcha" value="true">
 <!-- Autoresponse mail box -->
 <input type="hidden" name="_autoresponse" value="Nous avons bien reçu votre message et vous répondrons dans les meilleurs délai">
     <div class="contentact">

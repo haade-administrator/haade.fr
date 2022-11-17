@@ -7,11 +7,11 @@ last_modified_at:
 categories: [Docker, Domotique, Haade-lab]
 tags: []
 image: 'zoneminder-les-zones.png'
-toc: false
+toc: true
 beforetoc: ''
 author: Nico
 layout: post
-published: false
+published: true
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
@@ -25,7 +25,7 @@ C’est l’un des concepts les plus importants de ZoneMinder et vous avez le ch
 
 **1 - Active:**{: .red} **Déclenche une alarme lorsqu’un mouvement y est détecté**. C’est le type de zone que vous utiliserez le plus souvent et qui sera défini pour votre zone par défaut. Seules les zones actives et exclusives peuvent déclencher une alarme.
 
-{% picture posts/{{ page.guid }}/zone-active-zoneminder.png --alt zone active dans Zoneminder --img width="932" height="522" %}
+{% picture posts/{{ page.guid }}/zone-active-zoneminder.png --alt zone active dans Zoneminder --img width="875" height="491" %}
 
 **2 - Inclusive:**{: style="color: red"} **Ce type de zone peut être utilisé pour toutes les zones pour lesquelles vous souhaitez déclencher une alarme uniquement si au moins une autre zone active en a déjà déclenché une.** Cela peut être par exemple pour couvrir une zone de l’image comme **une plante ou un arbre** qui bouge beaucoup et qui déclencherait de nombreuses alarmes. Peut-être que c’est derrière une zone que vous souhaitez surveiller, dans ce cas, vous créeriez une zone active couvrant les parties non mobiles et une zone inclusive couvrant l’arbre peut-être avec des paramètres de détection moins sensibles également. Si quelque chose déclenchait une alarme dans la zone active et également dans la zone inclusive, ils seraient tous deux enregistrés et l’alarme résultante serait beaucoup plus grande que si vous l’aviez complètement effacée.
 
@@ -43,6 +43,8 @@ C’est l’un des concepts les plus importants de ZoneMinder et vous avez le ch
 **5 – Inactif:** Supprime la détection de mouvement en son sein. **Elle peut être superposée** à tout autre type de zone, empêchant le mouvement dans la zone inactive d’être efficace pour tout autre type de zone. Utilisez des zones inactives pour couvrir des zones dans lesquelles rien de notable ne se produira ou où vous recevez de fausses alarmes qui ne concernent pas ce que vous essayez de surveiller. Les zones inactives peuvent être superposées sur d’autres zones pour masquer les zones, et sont traitées en premier (à l’exception des zones de confidentialité, voir ci-dessous). En règle générale, vous devez essayer de faire en sorte que les zones soient contiguës les unes aux autres au lieu de se chevaucher pour éviter le traitement répété en double de la même zone.
 
 **6 – Confidentialité:** **Noircit les pixels qu’il contient. Cela peut être utilisé si vous souhaitez masquer certaines régions de l’image si la situation ne permet pas une autre solution.** Ce type de zone est différent de tous les autres en ce sens qu’il est traité dès que possible lors de la capture (même avant que l’horodatage n’entre dans l’image) et non dans le processus d’analyse. Ainsi, si vous ajoutez, modifiez ou supprimez une zone de confidentialité, vous ne voyez pas les modifications dans l’image tant que le processus de capture n’est pas redémarré. Cela se fera automatiquement, mais prendra quelques secondes.
+
+{% picture posts/{{ page.guid }}/zone-privacy-zoneminder.png --alt zone active dans Zoneminder --img width="932" height="522" %}
 
 **Préréglage**
 

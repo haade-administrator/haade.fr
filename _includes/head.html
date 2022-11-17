@@ -19,7 +19,6 @@
 {%- assign countapi = site.countapi %}
 {%- if jekyll.environment == 'production' and countapi.namespace %}
 <script async src="https://api.countapi.xyz/hit/{{ countapi.namespace }}/{{ page.url | replace: '/', '-' | slice: 1, 64 }}?callback=liveViews"></script>
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 {%- endif %}
 
 

@@ -17,10 +17,8 @@ order: 3
 <input type="hidden" name="_next" value="{{ site.url }}{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/contact-success">
 <input type="hidden" name="_template" value="table">
 <input type="hidden" name="_subject" value="New Submission !">
-<!-- Honeypot -->
-<input type="text" name="_honey" style="display:none">
 <!-- Disable captcha -->
-<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_captcha" value="true">
 <!-- Autoresponse mail box -->
 <input type="hidden" name="_autoresponse" value="We have received your message and will respond to you as soon as possible.">
     <div class="contentact">

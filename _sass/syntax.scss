@@ -21,12 +21,14 @@
 	pre {
 		display: block;
 		margin-bottom:30px;
-		background: #ececec;
+		background: #f5f2f0;
 		border-radius: 7px;
 		color:inherit;
 		// integration clipboard
 		padding: 8px 12px;
         position: relative;
+		overflow-x: auto;
+		overflow-y: hidden;
   
     // override skeleton styles
     > code {
