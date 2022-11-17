@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Nov 2022 03:30:22 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Nov 2022 18:11:00 +0000</lastBuildDate>
+    <pubDate>Thu, 17 Nov 2022 13:19:54 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/29/zoneminder-les-zones.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Explication des Zones dans ZM</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;C’est l’un des concepts les plus importants de ZoneMinder et vous avez le choix entre six choix.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</guid>
+      <category>Docker</category>
+      <category>Domotique</category>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
@@ -202,25 +221,6 @@
       <category>Zigbee</category>
       <category>Homeassistant</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/17/zwave-face-a-matter.jpg</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Z-wave face à Matter</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;h2 id=&quot;z-wave--matter-est-une-opportunité-pour-une-véritable-interopérabilité&quot;&gt;&lt;a href=&quot;https://z-wavealliance.org/&quot; target=&quot;_blank&quot;&gt;Z-Wave&lt;/a&gt; + &lt;a href=&quot;https://buildwithmatter.com/&quot; target=&quot;_blank&quot;&gt;Matter&lt;/a&gt; est une opportunité pour une véritable interopérabilité.&lt;/h2&gt;
-</description>
-      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/z-wave-face-a-matter</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/z-wave-face-a-matter</guid>
-      <category>Domotique</category>
-      <category>Protocoles</category>
-      <category>News</category>
     </item>
   </channel>
 </rss>
