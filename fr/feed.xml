@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Nov 2022 03:37:06 +0000</pubDate>
+    <pubDate>Fri, 18 Nov 2022 09:21:35 +0000</pubDate>
     <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -22,16 +22,15 @@
             <width>944</width>
              <height>531</height>
            </image> -->
-      <title>Explication des Zones dans ZM</title>
+      <title>Explication des Zones dans Zoneminder</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;C’est l’un des concepts les plus importants de ZoneMinder et vous avez le choix entre six choix.&lt;/p&gt;
 </description>
       <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
       <link>https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</guid>
-      <category>Docker</category>
+      <category>Securite</category>
       <category>Domotique</category>
-      <category>Haade-lab</category>
     </item>
     <item>
       <!-- <image>

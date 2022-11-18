@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Nov 2022 03:37:06 +0000</pubDate>
+    <pubDate>Fri, 18 Nov 2022 09:21:35 +0000</pubDate>
     <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/29/zoneminder-the-areas.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Explanation of zones in Zoneminder</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;This is one of the most important concepts in ZoneMinder and there are six choices to choose from.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/Explanation-of-Zones-in-ZM</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/Explanation-of-Zones-in-ZM</guid>
+      <category>Security</category>
+      <category>Automation</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
@@ -179,23 +197,6 @@
       <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</guid>
-      <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/15/helios64.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Kobol helios 64 is done!</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;On Wednesday 25 August, the company &lt;a href=&quot;https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/&quot; target=&quot;_blank&quot;&gt;Kobol.io&lt;/a&gt; &lt;strong&gt;decided to put an end to the adventure&lt;/strong&gt; of the open source helios 64 NAS (network attached storage) storage box.&lt;/p&gt;
-</description>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/kobol-helios-64-its-over</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/kobol-helios-64-its-over</guid>
       <category>News</category>
     </item>
   </channel>

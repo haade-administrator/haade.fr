@@ -2,8 +2,8 @@
 var documents = [{
     "id": 0,
     "url": "/fr/blog/Explication-des-Zones-dans-ZM",
-    "title": "Explication des Zones dans ZM",
-    "description": "09/11/2022 - ",
+    "title": "Explication des Zones dans Zoneminder",
+    "description": "09/11/2022 - Zoneminder intègre des zones qui permettent d'affiner les faux positifs",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/test-bouton-poussoir-moes-zts-eu-zigbee",
