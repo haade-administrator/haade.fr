@@ -7,12 +7,15 @@ locale: fr_FR
 locale_reference: markdown
 noindex: true
 published: true
+render_with_liquid: true
 sitemap:
   changefreq: never
   exclude: yes
   priority: 0.0
 toc: true
 ---
+[source](https://www.markdownguide.org/tools/jekyll/){:target="_blank"}
+
 # Nombre de # pour la taille du titre
 ## titre 2 exemple ...
 ...
@@ -77,18 +80,36 @@ Basic command line usage:
 gif2webp input.gif -o output.png
 {% endhighlight %}
 
-{% highlight ruby linenos mark_lines="1 2" %}
-sudo apt-get update
-sudo apt-get install webp
+## Spoiler
 
-Basic command line usage:
+<span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span>
 
-gif2webp input.gif -o output.png
+## citation
+> "There's almost no single moment in Portrait of a Lady on Fire that couldn't be captured, mounted, and hung on a wall as high art." <cite>— Entertainment Weekly</cite>
+
+# écrire du code
+{% raw %}
+{% highlight javascript mark_lines="1 2" %}
+def bubble_sort(list)
+  return list if list.size <= 1 # already sorted
+  swapped = true
+  while swapped do
+    swapped = false
+    0.upto(list.size-2) do |i|
+      if list[i] > list[i+1]
+        list[i], list[i+1] = list[i+1], list[i] # swap values
+        swapped = true
+      end
+    end
+  end
+  list
+end
 {% endhighlight %}
+{% endraw %}
 
-[x] #739
-[ ] https://github.com/octo-org/octo-repo/issues/740
-[ ] Add delight to the experience when all tasks are complete :tada:
+[x] #739.
+[ ] https://github.com/octo-org/octo-repo/issues/740.
+[ ] Add delight to the experience when all tasks are complete :tada.
 
 # intégrer une image dans un article
 
@@ -106,25 +127,6 @@ gif2webp input.gif -o output.png
 ---
 ___
 ***
-
-# écrire du code
-
-{% highlight javascript %}
-def bubble_sort(list)
-  return list if list.size <= 1 # already sorted
-  swapped = true
-  while swapped do
-    swapped = false
-    0.upto(list.size-2) do |i|
-      if list[i] > list[i+1]
-        list[i], list[i+1] = list[i+1], list[i] # swap values
-        swapped = true
-      end
-    end
-  end
-  list
-end
-{% endhighlight %}
 
 # inclure produit externe
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S88b1ba6506f6436bbccbd8ed76fd711ct/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg_Q90.jpg_.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" %}

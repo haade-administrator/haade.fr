@@ -241,7 +241,7 @@ For Home Assistant I created two new states, HOME is a state when I am at home, 
 
 ## How Zones work in Zoneminder
 
-An article is dedicated to zones and presets, click here!
+[An article is dedicated to zones and presets, click here!]({% post_url /en/2022-11-09-Explanation-of-Zones-in-ZM %})
 
 ## How filters work in Zoneminder
 

@@ -14,7 +14,6 @@
 			  text-align: right;
 			}
 		&.code {
-				width: 100%;
 				padding-left: 1em;
 		}
 	}
@@ -59,8 +58,8 @@
       color: white;
       position: absolute;
 	  font-weight: 600;
-      right: 1.2rem;
-      top: 1.2rem;
+      right: 0.5rem;
+      top: 0.5rem;
       opacity: 0.3;
 	  border-radius: 7px;
 	  border: none;
@@ -78,12 +77,12 @@
     &:active .copy,
     &:focus .copy,
     &:hover .copy {
-	  border: none;
-     // background: rgba(0, 0, 0, 0.3);
+	  border: 0;
       opacity: 0.6;
     }
 	// fin intégration clipboard
 		.lineno {
+		margin: 0;
 		overflow: hidden;
 		}
 	}
@@ -158,3 +157,7 @@
 	.il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
 }
 
+@media (max-width: 1024px) {
+
+	.copy {display: none;}
+}

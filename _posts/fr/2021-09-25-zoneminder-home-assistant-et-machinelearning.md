@@ -240,7 +240,7 @@ Pour Home Assistant j'ai créé deux nouveaux états, HOME c'est un état quand 
 
 ## Fonctionnement des Zones dans Zoneminder
 
-Un article est dédié aux zones et préréglages, clic ici !
+[Un article est dédié aux zones et préréglages, clic ici !]({% post_url /fr/2022-11-09-Explication-des-Zones-dans-ZM %})
 
 ## Fonctionnement de Filtres dans Zoneminder
 
