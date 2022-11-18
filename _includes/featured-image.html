@@ -2,9 +2,9 @@
 {%- if page.image %}
 <div class="entry-featured-image">
     {%- if page.imageshadow %}
-    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post image-shadow" itemprop="image" %}{%- endif %}
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post image-shadow" width="940" height="529" itemprop="image" %}{%- endif %}
     {%- else %}
-    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post" itemprop="image" %}{%- endif %}
+    {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post" width="940" height="529" itemprop="image" %}{%- endif %}
     {%- endif %}
 </div>
 {%- endif %}

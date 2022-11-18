@@ -87,24 +87,24 @@ gif2webp input.gif -o output.png
 ## citation
 > "There's almost no single moment in Portrait of a Lady on Fire that couldn't be captured, mounted, and hung on a wall as high art." <cite>— Entertainment Weekly</cite>
 
-# écrire du code
+# écrire du code sans rendu en front 
+**avec un point à la fin**
+
 {% raw %}
-{% highlight javascript mark_lines="1 2" %}
-def bubble_sort(list)
-  return list if list.size <= 1 # already sorted
-  swapped = true
-  while swapped do
-    swapped = false
-    0.upto(list.size-2) do |i|
-      if list[i] > list[i+1]
-        list[i], list[i+1] = list[i+1], list[i] # swap values
-        swapped = true
-      end
-    end
-  end
-  list
-end
-{% endhighlight %}
+def bubble_sort(list).
+  return list if list.size <= 1 # already sorted.
+  swapped = true.
+  while swapped do.
+    swapped = false.
+    0.upto(list.size-2) do |i|.
+      if list[i] > list[i+1].
+        list[i], list[i+1] = list[i+1], list[i] # swap values.
+        swapped = true.
+      end.
+    end.
+  end.
+  list.
+end.
 {% endraw %}
 
 [x] #739.
