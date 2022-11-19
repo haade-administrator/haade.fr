@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Nov 2022 03:30:13 +0000</pubDate>
+    <pubDate>Sat, 19 Nov 2022 19:53:12 +0000</pubDate>
     <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -29,6 +29,24 @@
       <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
       <link>https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</guid>
+      <category>Securite</category>
+      <category>Domotique</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/28/utilisation-des-filtres-zoneminder.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Utilisation des Filtres dans ZM</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Les filtres dans ZoneMinder ont un rôle très important, ils permettent de classer, d’archiver de supprimer à peut près tout dans Zoneminder que ce soit les évènements, les vidéos ou les images.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 08 Nov 2022 09:25:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</guid>
       <category>Securite</category>
       <category>Domotique</category>
     </item>
@@ -200,26 +218,6 @@
       <category>Domotique</category>
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test capteur température et humidité Sonoff SNZB-02</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;J’ai décidé de mettre en avant en présentant un test du &lt;a href=&quot;/fr/produit/capteur-temperature-sonoff-snzb-02-zigbee&quot;&gt;capteur de température et humidité Sonoff SNZB-02&lt;/a&gt;, pour le sérieux et l’éventail de produits de la marque. Ça ne va pas être un gros article c’est pourquoi j’ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.&lt;/p&gt;
-</description>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02</guid>
-      <category>Test</category>
-      <category>Zigbee</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>

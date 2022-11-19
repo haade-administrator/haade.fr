@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Nov 2022 03:30:13 +0000</pubDate>
+    <pubDate>Sat, 19 Nov 2022 19:53:12 +0000</pubDate>
     <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -29,6 +29,24 @@
       <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/Explanation-of-Zones-in-ZM</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/Explanation-of-Zones-in-ZM</guid>
+      <category>Security</category>
+      <category>Automation</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/28/use-of-filter-zoneminder.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Use of filters in Zoneminder</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;The filters in ZoneMinder have a very important role, they allow you to classify, archive and delete almost everything in Zoneminder, whether events, videos or images.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 08 Nov 2022 09:25:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/Utilisation-des-Filtres-dans-ZM</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/Utilisation-des-Filtres-dans-ZM</guid>
       <category>Security</category>
       <category>Automation</category>
     </item>
@@ -181,23 +199,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-vs-matter</guid>
       <category>News</category>
       <category>Protocoles</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/16/boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Open source NAS for Raspberry pi CM4 the future!</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;After &lt;a href=&quot;/en/blog/kobol-helios-64-its-over&quot;&gt;the end announced by kobol ,&lt;/a&gt; &lt;a href=&quot;https://wiretrustee.com/&quot; target=&quot;_blank&quot;&gt;Wiretrustee&lt;/a&gt; announces the imminent arrival of a SATA card compatible with the Raspberrypi compute module 4 (CM4)&lt;/p&gt;
-</description>
-      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/nas-opensource-for-raspberry-pi-cm4-the-future</guid>
-      <category>News</category>
     </item>
   </channel>
 </rss>
