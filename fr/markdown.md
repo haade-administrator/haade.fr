@@ -19,7 +19,7 @@ toc: true
 # Nombre de # pour la taille du titre
 ## titre 2 exemple ...
 ...
-titre 3 = 3 dièses.
+titre 3 = 3 dièses.{: style="color:red"}
 titre 4 = 4 dièses.
 titre 5 = 5 dièses.
 titre 6 = 6 dièses.
@@ -107,9 +107,9 @@ def bubble_sort(list).
 end.
 {% endraw %}
 
-[x] #739.
-[ ] https://github.com/octo-org/octo-repo/issues/740.
-[ ] Add delight to the experience when all tasks are complete :tada.
+- [x] #739.
+- [ ] https://github.com/octo-org/octo-repo/issues/740.
+- [ ] Add delight to the experience when all tasks are complete :tada.
 
 # intégrer une image dans un article
 
@@ -135,7 +135,13 @@ ___
 {% include product-embed.html guid="2123" %}
 
 # intégration images articles dans un article
+**remplacer 29 par {{ page.guid }}**
 
+{% picture posts/29/zone-inclusive-zoneminder.png --alt zone inclusive dans ZM --img width="932" height="522" %}
+
+# intégrer une video youtube
+
+{% include youtubePlayer.html id="cq0ZeT6K1uY" %}
 
 # inclure un message d'alerte
 

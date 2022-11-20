@@ -11,7 +11,7 @@ tags: []
 image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg'
 toc: true
 beforetoc: ''
-published: false
+published: true
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
@@ -21,6 +21,9 @@ locale: fr_FR
 comments: true
 rating:  
 ---
+
+
+
 
 ## Intro
 
@@ -60,6 +63,3 @@ On peut le commander sans hub domotique grâce à la fréquence radio et à la t
 {% picture posts/{{ page.guid }}/detail-relais-ewelink-zigbee.jpg --alt détail relais ewelink zigbee --img width="820" height="820" %}
 
 {% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DCX0fWX" %}
-
-
-

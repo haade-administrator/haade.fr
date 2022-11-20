@@ -1,0 +1,11 @@
+{% assign link = links{forloop.index} %}
+{% assign title = titles{forloop.index} %}
+<div class="externalsource">
+    <ul>
+        <li class="listlink">
+            <a href="{% for link in include.links %}
+            {{ include.link | plus: 1 }}{% endfor %}" target="_blank">{% for title in include.titles %}
+            {{ include.title | plus: 1 }}{% endfor %}<i class="fas fa-external-link-alt"></i></a>
+        </li>
+    </ul>
+</div>
