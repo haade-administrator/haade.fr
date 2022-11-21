@@ -56,6 +56,10 @@ post_class: post-template
 <!-- Content -->
 {%- include article.html %}
 
+{%- if page.sourcelink %}
+{% include sourcelink.html %}
+{%- endif %}
+
 <!-- Rating -->
 {%- if page.rating %}
 <div class="rating mt-4 mb-4 d-flex align-items-center">

@@ -242,6 +242,39 @@ $alert-success: #42ae42;
   }
 }
 
+/* sourcelink include */
+.sourcelink { 
+  margin-top: 5em;
+  max-width: 860px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  .listlink {
+    i {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+a {
+  font-size: 14px;
+  color: $purple;
+}
+:hover {
+  color: $lightblue;
+}
+}
+span.titlesource {
+  padding: 2px 5px;
+  background-color: $purple;
+  color: #fff;
+  border-radius: 5px;
+}
+ol {font-size: 14px;
+margin-top:10px;}
+}
+
 /* product-embed.html */
 .embedproduct {
   border: 1px solid #ccc;

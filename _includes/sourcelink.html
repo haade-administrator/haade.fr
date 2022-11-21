@@ -1,11 +1,10 @@
-{% assign link = links{forloop.index} %}
-{% assign title = titles{forloop.index} %}
-<div class="externalsource">
-    <ul>
+{%- assign translate = site.data.locales.translate %}
+<div class="sourcelink">
+    <span class="titlesource">{{ translate.sourcelink[page.locale] }}</span>
+    <ol>{% for slink in page.sourcelink %}
         <li class="listlink">
-            <a href="{% for link in include.links %}
-            {{ include.link | plus: 1 }}{% endfor %}" target="_blank">{% for title in include.titles %}
-            {{ include.title | plus: 1 }}{% endfor %}<i class="fas fa-external-link-alt"></i></a>
+            <a rel="canonical" href="{{ slink }}" target="_blank">{{ slink | remove: "https://" | remove: "http://" | replace_first: "?", "/" | split: "/" | slice: "0" }}<i class="fas fa-external-link-alt"></i></a>
         </li>
-    </ul>
+        {% endfor %}
+    </ol>
 </div>

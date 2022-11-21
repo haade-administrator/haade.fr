@@ -132,6 +132,10 @@ error404:
     fr_FR: Retour SUR la page principale
     en_GB: Go TO Homepage
 
+sourcelink:
+  fr_FR: Articles source
+  en_GB: Source posts
+
 product:
   rating:
     fr_FR: Vote

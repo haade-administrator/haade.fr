@@ -4,7 +4,7 @@ title: "ZBDongle-P VS ZBDongle-E"
 description: "Comparatif des clés zigbee sonoff dongle-p et dongle-e quel SOC choisir pour l'avenir de la gestion du protocole"
 layout: post
 author: Nico
-image: 'zbdongle.jpg'
+image: 'dongle-p-vs-dongle-e-zigbee-sonoff.png'
 date: 2022-11-20 17:20
 last_modified_at: 
 categories: [Haade-lab]
@@ -21,6 +21,9 @@ sitemap:
 locale: fr_FR
 comments: true
 rating:  
+sourcelink:
+  - https://www.reddit.com/r/homeassistant/comments/x9kkh1/zigbee_matter_hub_cc2652p_vs_efr32mg21_vs_cc2531/
+  - https://sonoff.tech/
 ---
 
 ## Intro
@@ -31,19 +34,22 @@ rating:
 
 ||ZBDongle-P|ZBDongle-E|
 ||:--------:|:--------:|
-|Soc|CC2652P|EFR32MG21|
-|Interface Protocole|Z-Stack(ZNP)|EmberZNet(EZSP)|
-|Usb serie Soc|CP2102(N)|CH9102F|
-|ID|Dongle Plus|Dongle Plus V2|
-|Contrôle de flux|Hardware|Software|
-|Dimensions|63mm|52mm|
-|Puissance du signal|De 5 à 20dbm max|**+/-20dbm max**{: style="color: red;" }|
-|ZHA Home Assistant|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|
-|Zigbee2mqtt|[Supporté](https://www.zigbee2mqtt.io/guide/adapters/#recommended){:target="_blank"}|[Expérimental](https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){:target="_blank"}|
-|Openhab|Non Supporté|Supporté|
-|Jeedom{: .green}|Supporté|Supporté|
-|Iobroker|Supporté|Supporté|
-|Domoticz|Supporté|Supporté|
+|**Soc**|CC2652P|EFR32MG21|
+|**Processeur**|Cortex-M4|Cortex-M33|
+|**Memoire Flash**|352Kb|**1000kb**{: .blue }|
+|**Ram**|80kb|**96kb**{: .blue }|
+|**Interface Protocole**|Z-Stack(ZNP)|EmberZNet(EZSP)|
+|**Usb serie Soc**|CP2102(N)|CH9102F|
+|**ID**|Dongle Plus|Dongle Plus V2|
+|**Contrôle de flux**|Hardware|Software|
+|**Dimensions**|63mm|**52mm**{: .blue }|
+|**Puissance du signal**|De 5 à 20dbm max|**+/-20dbm max**{: .blue }|
+|**ZHA Home Assistant**|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|
+|**Zigbee2mqtt**|[Supporté](https://www.zigbee2mqtt.io/guide/adapters/#recommended){:target="_blank"}|[**Expérimental**{: .red}](https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){:target="_blank"}|
+|**Openhab**|**Non Supporté**{: .red }|Supporté|
+|**Jeedom**|Supporté|Supporté|
+|**Iobroker**|Supporté|Supporté|
+|**Domoticz**|Supporté|Supporté|
 
 ## Différence entre les Soc:
 
@@ -70,8 +76,6 @@ Activer le contrôle de flux matériel et générer le micrologiciel corresponda
 
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
-
-{% include sourcelink.html links1='https://www.reddit.com/r/homeassistant/comments/x9kkh1/zigbee_matter_hub_cc2652p_vs_efr32mg21_vs_cc2531/' titles1='discussion sur reddit' links2='https://free.fr' titles2='free' %}
 
 
 
