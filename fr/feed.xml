@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 20 Nov 2022 03:39:15 +0000</pubDate>
+    <pubDate>Mon, 21 Nov 2022 03:43:04 +0000</pubDate>
     <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -49,6 +49,25 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</guid>
       <category>Securite</category>
       <category>Domotique</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/27/domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Domotiser simplement l'allumage de la lumière de la piscine</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+</description>
+      <pubDate>Mon, 07 Nov 2022 22:00:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/domotiser-lumiere-piscine-traditionnelle-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotiser-lumiere-piscine-traditionnelle-zigbee</guid>
+      <category>Domotique</category>
+      <category>Haade-lab</category>
+      <category>Home-Assistant</category>
     </item>
     <item>
       <!-- <image>
@@ -197,27 +216,6 @@
       <category>Zigbee</category>
       <category>Homeassistant</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Astuce icone home assistant</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Voilà dans la série &lt;strong&gt;des tout petits tutos&lt;/strong&gt;. Je vais décrire rapidement comment changer un icône d’un &lt;strong&gt;capteur binaire&lt;/strong&gt; grâce à la device_class, par la personnalisation dans home assistant.&lt;/p&gt;
-</description>
-      <pubDate>Wed, 15 Sep 2021 07:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/changer-licone-dun-capteur-binaire-dans-home-assistant</guid>
-      <category>Astuces</category>
-      <category>Homeassistant</category>
-      <category>Domotique</category>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
