@@ -1,0 +1,7 @@
+{% for pdf in site.static_files %}
+  {% if pdf.path contains 'assets/images/posts/{{ page.guid }}' %}
+  <div class="pdfinteger">
+  Téléchargez le fichier PDF ici : <a href="{{ pdf.path }}">{{ pdf.title }}</a><i class="far fa-file-pdf"></i>
+</div>  
+  {% endif %}
+{% endfor %}

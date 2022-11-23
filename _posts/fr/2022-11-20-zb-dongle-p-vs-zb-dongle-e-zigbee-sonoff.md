@@ -24,21 +24,97 @@ rating:
 sourcelink:
   - https://www.reddit.com/r/homeassistant/comments/x9kkh1/zigbee_matter_hub_cc2652p_vs_efr32mg21_vs_cc2531/
   - https://sonoff.tech/
+  - https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs
+  - https://www.ti.com/product/CC2652P#features
 ---
 
-## Intro
+## INTRODUCTION
 
  aujourd'hui nous allons  comparer deux clés  ZigBee de la marque sonoff la ZBDongle-P et la ZBDongle-E. La ZBDongle-P dispose d'un processeur CC2652P, qui a été longuement éprouvé et fonctionne sur l'ensemble des plateformes domotique. quand a la clé ZBDongle-E dispose d'un processeur EFR32MG21, celle-ci est beaucoup plus récente mais semble être l'avenir des processeurs des clés Zigbee 3.0, vu sa récente introduction il faudra faire attention à ce qu'elle soit bien compatible avec les plateformes domotiques actuelles. Par exemple avec le service zigbee2mqtt celle-ci est à utiliser avec précaution car encore expérimental, voir le lien dans le tableau ci-dessous. **La principale différence réside dans la puissance du signal la clé ZBDongle-P a un signal initiales de 5 dbm et peut aller jusqu'à 20 Dbm max, alors que la ZBDongle-E a un signal avoisinant les 20 décibels maximum.** La Seconde différence se trouve au niveau des dimensions la ZBDongle-P mesure 66mm tandis que la ZBDongle-E mesure 11 mm de moins. Les mises à jours du firmware fonctionnent de façon identique sur les deux clés.
+
+## Présentation CC2652P clé ZBDongle-P
+
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S90bbc8d67fea433b9049a0df5f455f48c/1-10PCS-SONOFF-ZB-Dongle-Plus-USB-Zigbee3-0-Passerelle-Analyseur-Zigbee-2MQTT-Interface-Capture-Avec.jpg_Q90.jpg_.webp" title="Sonoff zbdongle-p cc2652p" brand="Sonoff" description="Le dongle USB SONOFF Zigbee 3.0 est une clé USB Zigbee universelle." affiliate="_DEQcEe7" %}
+
+L'appareil SimpleLink™CC2652P est un microcontrôleur sans fil (MCU) multiprotocole de 2,4 GHz prenant en charge **Thread , Zigbee , Bluetooth 5.2 Low Energy** , IEEE 802.15.4, les objets intelligents compatibles IPv6 (6LoWPAN), les systèmes propriétaires, y compris le TI 15.4-Stack (2.4 GHz) et multiprotocole simultané via un pilote Dynamic Multiprotocol Manager (DMM). L'appareil est optimisé pour la communication sans fil à faible puissance et la détection avancée dans les systèmes de sécurité des bâtiments, CVC, médical, réseau câblé, électronique portable, home cinéma et divertissement, et marchés des périphériques connectés. 
+
+### Spécification CC2652P
+
+#### Microcontrôleur
+- Puissant processeur Arm Cortex-M4F de 48 MHz
+- Note EEMBC CoreMark : 148
+- 352 Ko de flash programmable intégré au système
+- 256 Ko de ROM pour les protocoles et les fonctions de bibliothèque
+- 8 Ko de mémoire cache SRAM (également disponible en tant que RAM à usage général)
+- 80 Ko de SRAM à très faible fuite. La SRAM est protégée par parité pour assurer une grande fiabilité de fonctionnement.
+- Débogage cJTAG et JTAG à 2 broches
+- Prend en charge la mise à jour en direct (OTA).
+- 
+#### Contrôleur de capteur ultra-basse consommation avec 4 Ko de SRAM
+- Échantillonner, stocker et traiter les données des capteurs
+- Fonctionnement indépendant du CPU du système
+- Réveil rapide pour un fonctionnement à faible consommation
+- TI-RTOS, pilotes, bootloader, contrôleur basse consommation Bluetooth 5.2 et IEEE 802.15.4 MAC en ROM pour une taille d'application optimisée
+- 
+#### Taille Soc
+7 mm × 7 mm RGZ VQFN48 (26 GPIO)
+
+## Présentation EFR32MG21 Clé ZBDongle-E
+
+{% include product-embed.html guid="2128" %}
+
+Les appareils EFR32MG21 apportent des solutions hautes performances, basse consommation et sécurisées à l'IoT. Conçus pour augmenter la capacité de traitement, améliorer les performances RF et réduire le courant actif, les dispositifs EFR32MG21 sont des SoC sans fil 2,4 GHz optimisés pour les applications de maillage **Zigbee, Thread et Bluetooth** alimentées par la ligne, y compris l'éclairage connecté, les passerelles, les assistants vocaux et les compteurs intelligents.
+
+La famille de SoC EFR32MG21 comprend un sous-système de sécurité intégré et des dispositifs qui peuvent tirer parti des technologies Secure Vault. Secure Vault fournit des fonctionnalités logicielles de sécurité de pointe avec une technologie matérielle à fonction physique non clonable (PUF) pour réduire considérablement le risque de failles de sécurité IoT et de compromission de la propriété intellectuelle
+
+Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue portée et une puissance de sortie jusqu'à +20 dBm, l'EFR32MG21 fournit une liaison RF robuste pour assurer des communications fiables. EFR32MG21 utilise les outils de développement Simplicity Studio 5, offrant une migration facile et une mise sur le marché rapide avec des kits de développement, des SDK, des applications mobiles et notre analyseur de réseau breveté.
+
+### Spécification EFR32MG21
+
+#### Radio Zigbee et Thread
+- 2,4 GHz IEEE 802.15.4
+- 250 kbps O-QPSK DSSS
+- Excellente sensibilité de réception :
+  - 104,5 dBm à 250 kbps O-QPSK DSSS
+- Puissance de sortie programmable : +20 dBm
+- Réception en mode actif : 9,4 mA
+- Émission en mode actif : 9,3 mA à 0 dBm
+- Émission en mode actif : 33,8 mA à 10 dBm
+- 
+#### Radio basse consommation Bluetooth®
+- Compatible avec les spécifications Bluetooth 5, Bluetooth 5.1 et Bluetooth Mesh
+- Excellente sensibilité de réception :
+  - 104,9 dBm à 125 kbps GFSK
+  - 97,5 dBm à 1 Mbit/s GFSK
+  - 94,4 dBm à 2 Mbit/s GFSK
+- Puissance de sortie programmable : jusqu'à +20 dBm
+- Réception en mode actif : 8,8 mA
+- Émission en mode actif : 9,3 mA à 0 dBm
+- Émission en mode actif : 33,8 mA à 10 dBm
+
+#### Options de MCU et de mémoire puissantes
+- ARM® Cortex®-M33
+  - DSP et unité à virgule flottante
+- Vitesse d'horloge jusqu'à 80 MHz
+- Courant de mode actif faible : 50,9 μA/MHz
+- Jusqu'à 1024 ko de flash programmable
+- Jusqu'à 96 Ko de RAM
+- 
+#### Taille Soc
+- QFN32 (4 mm x 4 mm)
+
+
 
 ## Comparatif ZBDongle-P VS ZBDongle-E
 
 ||ZBDongle-P|ZBDongle-E|
 ||:--------:|:--------:|
 |**Soc**|CC2652P|EFR32MG21|
-|**Processeur**|Cortex-M4|Cortex-M33|
+|**Processeur**|Cortex-M4F|Cortex-M33|
 |**Memoire Flash**|352Kb|**1000kb**{: .blue }|
 |**Ram**|80kb|**96kb**{: .blue }|
 |**Interface Protocole**|Z-Stack(ZNP)|EmberZNet(EZSP)|
+|**Compatible**|Zigbee, OpenThread, Bluetooth|Zigbee, OpenThread, Bluetooth|
 |**Usb serie Soc**|CP2102(N)|CH9102F|
 |**ID**|Dongle Plus|Dongle Plus V2|
 |**Contrôle de flux**|Hardware|Software|
@@ -66,6 +142,7 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 ## Compatibilité avec Matter
 
 Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, mais je doute qu'il puisse faire les deux en même temps (mais peut-être que quelqu'un a essayé et peut partager ?), vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
+Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} celui-ci est compatible **Zigbee, Matter et Openthread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){:target="_blank"} elle aussi compatible avec **Zigbee, Matter et Openthread**{: .red}
 
 ## firmware flashing
 
@@ -74,8 +151,15 @@ Le dongle USB Plus Zigbee 3.0 est livré pré-flashé avec le micrologiciel du c
 Flashage du micrologiciel ZBDongle-P (CC2652P) et ZBDongle-E (EFR32MG21)
 Activer le contrôle de flux matériel et générer le micrologiciel correspondant
 
+{% include pdflink.html %}
+
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
+
+## CONCLUSION
+
+le ZBDongle-P équipé de la puce TI CC2652-P est au point et fonctionne avec tous les softs du moment cependant il semble tomber aux oubliettes, il n'y a qu'à voir le nombre de produits en vente sur Aliexpress il n'y en a que pour la version E, en effet celle-ci semble être la nouvelle norme Zigbee en effet le processeur est plus petit et les performance sont au dessus à tous les niveaux, du fait de sa jeunesse elle est encore en phase de test mais celà semble toucher à sa fin. 
+> ***Si tu as une puce CC2652P je ne pense pas qu'il faille se dépêcher d'en changer surtout si ton maillage est solide. Je pense que les constructeurs vont bientôt sortir des clés à base de S-labs EFR32MG24 qui elle est compatible en plus du reste avec Matter.***
 
 
 
