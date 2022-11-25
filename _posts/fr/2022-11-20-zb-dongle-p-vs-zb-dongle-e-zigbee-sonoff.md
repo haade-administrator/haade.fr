@@ -11,7 +11,7 @@ categories: [Haade-lab]
 tags: []
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -26,6 +26,7 @@ sourcelink:
   - https://sonoff.tech/
   - https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs
   - https://www.ti.com/product/CC2652P#features
+  - https://www.zigbee2mqtt.io/guide/adapters/
 ---
 
 ## INTRODUCTION
@@ -114,7 +115,7 @@ Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue 
 |**Memoire Flash**|352Kb|**1000kb**{: .blue }|
 |**Ram**|80kb|**96kb**{: .blue }|
 |**Interface Protocole**|Z-Stack(ZNP)|EmberZNet(EZSP)|
-|**Compatible**|Zigbee, OpenThread, Bluetooth|Zigbee, OpenThread, Bluetooth|
+|**Compatible**|Zigbee, Thread, Bluetooth|Zigbee, Thread, Bluetooth|
 |**Usb serie Soc**|CP2102(N)|CH9102F|
 |**ID**|Dongle Plus|Dongle Plus V2|
 |**Contrôle de flux**|Hardware|Software|
@@ -141,8 +142,8 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 
 ## Compatibilité avec Matter
 
-Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, mais je doute qu'il puisse faire les deux en même temps (mais peut-être que quelqu'un a essayé et peut partager ?), vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
-Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} celui-ci est compatible **Zigbee, Matter et Openthread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){:target="_blank"} elle aussi compatible avec **Zigbee, Matter et Openthread**{: .red}
+Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, **mais il ne peut faire les deux en même temps car les puces CC2652P et EFR32MG21, ne sont pas multi-thread,** vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
+Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){:target="_blank"} elle aussi compatible avec **Zigbee, Matter et Miltithread**{: .red}.
 
 ## firmware flashing
 
@@ -151,10 +152,23 @@ Le dongle USB Plus Zigbee 3.0 est livré pré-flashé avec le micrologiciel du c
 Flashage du micrologiciel ZBDongle-P (CC2652P) et ZBDongle-E (EFR32MG21)
 Activer le contrôle de flux matériel et générer le micrologiciel correspondant
 
-{% include pdflink.html %}
+**Selon Sonoff:**
+{% include doclink.html pdf="Dongle-P+E-flashing-sonoff.pdf" title="Flash firmware ZBDongle-P et E selon Sonoff" %}
+
+**Ma solution UNIFLASH pour CC2652P**
+Je préfère cette solution car le logiciel de flashage est fourni par Texas Instrument et il est disponible pour les 3 plateformes ( Linux, Mac et Windows )
+
+Commencez par télécharger le soft:
+[logiciel Uniflash par TI](https://www.ti.com/tool/download/UNIFLASH){:target="_blank"} 
+
+
+
 
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
+**Réglage de 5 à 20db par défaut**
+
+{% include doclink.html pdf="Configure-ZBDongle-P-puissance-transmission-signal.pdf" title="configurer la puissance du signal sur ZBDongle-P" %}
 
 ## CONCLUSION
 

@@ -1,0 +1,14 @@
+<div class="contentlink">
+{%- if include.pdf -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.pdf }}" target="_blank">{{ include.title }}</a><i class="far fa-file-pdf"></i>
+{%- elsif include.docx -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.docx }}" target="_blank">{{ include.title }}</a><i class="far fa-file-word"></i>
+{%- elsif include.csv -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.csv }}" target="_blank">{{ include.title }}</a><i class="far fa-file-csv"></i>
+{%- elsif include.xls -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.xls }}" target="_blank">{{ include.title }}</a><i class="far fa-file-excel"></i>
+{%- elsif include.zip -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.zip }}" target="_blank">{{ include.title }}</a><i class="far fa-file-archive"></i>
+{%- endif -%}
+</div>
+
