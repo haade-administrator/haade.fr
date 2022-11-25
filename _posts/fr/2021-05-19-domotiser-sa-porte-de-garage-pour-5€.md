@@ -11,6 +11,7 @@ tags: esp8266
 description: "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266"
 locale: fr_FR
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

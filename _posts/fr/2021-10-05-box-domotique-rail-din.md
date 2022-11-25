@@ -10,6 +10,7 @@ categories: [Tests, Home-Assistant]
 tags: Test Raspberry Homeassistant
 image: box-domotique-rail-din-home-assistant.png
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

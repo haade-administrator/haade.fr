@@ -12,6 +12,7 @@ image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg'
 toc: true
 beforetoc: ''
 published: true
+noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'

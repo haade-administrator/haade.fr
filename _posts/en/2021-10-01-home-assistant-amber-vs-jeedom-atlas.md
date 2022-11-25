@@ -10,6 +10,7 @@ categories: [Jeedom, News, Home-Assistant]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

@@ -9,6 +9,7 @@ last_modified_at:
 author: Nico
 layout: post
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

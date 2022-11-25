@@ -11,6 +11,7 @@ tags:
 description: "Zigbee comprendre le protocole et le maillage de ce standard"
 locale: fr_FR
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

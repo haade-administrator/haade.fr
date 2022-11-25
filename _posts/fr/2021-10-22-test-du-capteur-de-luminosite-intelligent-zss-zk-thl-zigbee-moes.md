@@ -10,6 +10,7 @@ categories: Tests
 tags: Test Zigbee Homeassistant
 image: controleur-intelligent-luminosite-moes.png
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

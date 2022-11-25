@@ -12,6 +12,7 @@ beforetoc: ''
 author: Nico
 layout: post
 published: true
+noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'

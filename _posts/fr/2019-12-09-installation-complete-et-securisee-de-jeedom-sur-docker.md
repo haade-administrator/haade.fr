@@ -11,6 +11,7 @@ tags:
 description: "OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker"
 locale: fr_FR
 published: true
+noindex: false
 beforetoc:
 toc: true
 comments: true

@@ -10,6 +10,7 @@ categories: Domotique Securite
 tags: Tutoriel Zoneminder Homeassistant
 image: "zoneminder_homeassistant-1.png"
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

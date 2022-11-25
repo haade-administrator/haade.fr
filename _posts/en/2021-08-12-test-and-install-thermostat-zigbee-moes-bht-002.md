@@ -8,6 +8,7 @@ last_modified_at:
 categories: [Home-Assistant, Tests, Haade-lab]
 image: "thermostat-zigbee-moes-bht-002.png"
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

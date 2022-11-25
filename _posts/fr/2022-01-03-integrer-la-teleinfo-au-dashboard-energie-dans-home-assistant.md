@@ -12,6 +12,7 @@ image: integration-dashboard-energie-ha.png
 toc: true
 beforetoc:
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'
