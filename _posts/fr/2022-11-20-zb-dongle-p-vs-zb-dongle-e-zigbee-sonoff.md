@@ -11,7 +11,7 @@ categories: [Haade-lab]
 tags: []
 toc: true
 beforetoc: ''
-published: true
+published: flase
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -173,7 +173,7 @@ Commencez par télécharger le soft:
 ## CONCLUSION
 
 le ZBDongle-P équipé de la puce TI CC2652-P est au point et fonctionne avec tous les softs du moment cependant il semble tomber aux oubliettes, il n'y a qu'à voir le nombre de produits en vente sur Aliexpress il n'y en a que pour la version E, en effet celle-ci semble être la nouvelle norme Zigbee en effet le processeur est plus petit et les performance sont au dessus à tous les niveaux, du fait de sa jeunesse elle est encore en phase de test mais celà semble toucher à sa fin. 
-> ***Si tu as une puce CC2652P je ne pense pas qu'il faille se dépêcher d'en changer surtout si ton maillage est solide. Je pense que les constructeurs vont bientôt sortir des clés à base de S-labs EFR32MG24 qui elle est compatible en plus du reste avec Matter.***
+> ***Si tu as une puce CC2652P je ne pense pas qu'il faille se dépêcher d'en changer pour une EFR32MG21 surtout si ton maillage est solide. Je pense que les constructeurs vont bientôt sortir des clés à base de S-labs EFR32MG24 qui elle est compatible Multithread ce qui veut tout simplement dire:*** **Zigbee et Matter en même temps.**
 
 
 
