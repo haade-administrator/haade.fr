@@ -8,6 +8,7 @@ author: Nico
 categories: [Haade-lab, Home-Assistant] 
 image: box-domotique-rail-din-home-assistant.png
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

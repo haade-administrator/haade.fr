@@ -10,6 +10,7 @@ tags: z-wave zigbee comparaison
 layout: post
 locale: fr_FR
 published: true
+noindex: falses
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

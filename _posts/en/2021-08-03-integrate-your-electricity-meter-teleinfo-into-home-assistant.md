@@ -10,6 +10,7 @@ categories: [Home-Assistant, Haade-lab]
 tags: []
 image: compteur-electrique-homeassistant.png
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

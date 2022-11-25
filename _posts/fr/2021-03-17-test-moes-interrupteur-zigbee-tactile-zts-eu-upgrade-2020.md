@@ -11,6 +11,7 @@ image: inter-moes.png
 tags:
 locale: fr_FR
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

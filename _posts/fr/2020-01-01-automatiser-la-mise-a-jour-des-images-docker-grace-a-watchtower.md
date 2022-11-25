@@ -10,6 +10,7 @@ tags:
 description: "Rendre automatique les mises à jour des images docker grâce à watchtower"
 locale: fr_FR
 published: true
+noindex: false
 beforetoc:
 toc: true
 comments: true

@@ -10,6 +10,7 @@ tags: esp8266 esp12 amélioration
 categories: Domotique Haade-lab Home-Assistant
 locale: fr_FR
 published: true
+noindex: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

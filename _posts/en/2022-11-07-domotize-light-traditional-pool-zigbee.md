@@ -12,6 +12,7 @@ image: 'automate-light-traditional-pool-zigbee-ewelink.jpg'
 toc: true
 beforetoc: ''
 published: false
+noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'

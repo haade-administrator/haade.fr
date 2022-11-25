@@ -12,6 +12,7 @@ image: 'interrupteur-moes-zigbee-zts-eu-2-gang-test.png'
 toc: true
 beforetoc: ''
 published: true
+noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'

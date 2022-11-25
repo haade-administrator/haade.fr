@@ -11,6 +11,7 @@ tags:
 description: "Zigbee comprend le protocole et le mailing de ce standard"
 locale: en_GB
 published: true
+noindex: false
 beforetoc:
 toc: false
 sitemap:
