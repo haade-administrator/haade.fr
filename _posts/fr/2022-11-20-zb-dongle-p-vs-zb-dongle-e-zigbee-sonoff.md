@@ -7,11 +7,11 @@ author: Nico
 image: 'dongle-p-vs-dongle-e-zigbee-sonoff.png'
 date: 2022-11-20 17:20
 last_modified_at: 
-categories: [Haade-lab]
+categories: [Haade-lab, Zigbee]
 tags: []
 toc: true
 beforetoc: ''
-published: flase
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -50,13 +50,13 @@ L'appareil SimpleLink™CC2652P est un microcontrôleur sans fil (MCU) multiprot
 - 80 Ko de SRAM à très faible fuite. La SRAM est protégée par parité pour assurer une grande fiabilité de fonctionnement.
 - Débogage cJTAG et JTAG à 2 broches
 - Prend en charge la mise à jour en direct (OTA).
-- 
+
 #### Contrôleur de capteur ultra-basse consommation avec 4 Ko de SRAM
 - Échantillonner, stocker et traiter les données des capteurs
 - Fonctionnement indépendant du CPU du système
 - Réveil rapide pour un fonctionnement à faible consommation
 - TI-RTOS, pilotes, bootloader, contrôleur basse consommation Bluetooth 5.2 et IEEE 802.15.4 MAC en ROM pour une taille d'application optimisée
-- 
+  
 #### Taille Soc
 7 mm × 7 mm RGZ VQFN48 (26 GPIO)
 
@@ -81,7 +81,7 @@ Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue 
 - Réception en mode actif : 9,4 mA
 - Émission en mode actif : 9,3 mA à 0 dBm
 - Émission en mode actif : 33,8 mA à 10 dBm
-- 
+  
 #### Radio basse consommation Bluetooth®
 - Compatible avec les spécifications Bluetooth 5, Bluetooth 5.1 et Bluetooth Mesh
 - Excellente sensibilité de réception :
@@ -100,7 +100,7 @@ Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue 
 - Courant de mode actif faible : 50,9 μA/MHz
 - Jusqu'à 1024 ko de flash programmable
 - Jusqu'à 96 Ko de RAM
-- 
+  
 #### Taille Soc
 - QFN32 (4 mm x 4 mm)
 
@@ -145,25 +145,29 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, **mais il ne peut faire les deux en même temps car les puces CC2652P et EFR32MG21, ne sont pas multi-thread,** vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
 Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){:target="_blank"} elle aussi compatible avec **Zigbee, Matter et Miltithread**{: .red}.
 
-## firmware flashing
+## Firmware flashing
 
 Le dongle USB Plus Zigbee 3.0 est livré pré-flashé avec le micrologiciel du coordinateur, mais si vous souhaitez mettre à jour, modifier le micrologiciel du routeur et ajouter au dongle ou générer le micrologiciel qui prend en charge le contrôle de flux matériel, veuillez lire le document suivant.
 
 Flashage du micrologiciel ZBDongle-P (CC2652P) et ZBDongle-E (EFR32MG21)
 Activer le contrôle de flux matériel et générer le micrologiciel correspondant
 
-**Selon Sonoff:**
+### Selon Sonoff
+
 {% include doclink.html pdf="Dongle-P+E-flashing-sonoff.pdf" title="Flash firmware ZBDongle-P et E selon Sonoff" %}
 
-**Ma solution cc-2538 par jet pour CC2652P**
-[zigbee2mqtt](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html){:target="_blank"} 
-[Jelmer cc-2538](https://github.com/JelmerT/cc2538-bsl)
+**Ma solution cc-2538 par jelmerT pour CC2652P**
+Je voulais rédiger un tuto mais il existe ce tuto simple sur le site de Zigbee2mqtt: [zigbee2mqtt.io flash cc2652P avec un terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html#method-without-docker){:target="_blank"} 
 
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
+
 **Réglage de 5 à 20db par défaut**
+Ci-dessous un document rédigé par Sonoff plutôt bien fait.
 
 {% include doclink.html pdf="Configure-ZBDongle-P-puissance-transmission-signal.pdf" title="configurer la puissance du signal sur ZBDongle-P" %}
+
+> À savoir que le firmware fourni par Zigbee2mqtt est déjà paramétré sur 20dbm [Zigbee2mqtt z-stack firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){:target="_blank"}
 
 ## CONCLUSION
 
