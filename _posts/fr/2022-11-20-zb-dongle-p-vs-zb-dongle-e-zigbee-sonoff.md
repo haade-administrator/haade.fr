@@ -155,14 +155,9 @@ Activer le contrôle de flux matériel et générer le micrologiciel corresponda
 **Selon Sonoff:**
 {% include doclink.html pdf="Dongle-P+E-flashing-sonoff.pdf" title="Flash firmware ZBDongle-P et E selon Sonoff" %}
 
-**Ma solution UNIFLASH pour CC2652P**
-Je préfère cette solution car le logiciel de flashage est fourni par Texas Instrument et il est disponible pour les 3 plateformes ( Linux, Mac et Windows )
-
-Commencez par télécharger le soft:
-[logiciel Uniflash par TI](https://www.ti.com/tool/download/UNIFLASH){:target="_blank"} 
-
-
-
+**Ma solution cc-2538 par jet pour CC2652P**
+[zigbee2mqtt](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html){:target="_blank"} 
+[Jelmer cc-2538](https://github.com/JelmerT/cc2538-bsl)
 
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
