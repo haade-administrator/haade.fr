@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Nov 2022 03:19:51 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Nov 2022 19:49:00 +0000</lastBuildDate>
+    <pubDate>Sat, 26 Nov 2022 03:09:39 +0000</pubDate>
+    <lastBuildDate>Sun, 20 Nov 2022 17:20:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/30/dongle-p-vs-dongle-e-zigbee-sonoff.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>ZBDongle-P VS ZBDongle-E</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt;
+</description>
+      <pubDate>Sun, 20 Nov 2022 17:20:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</guid>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/29/zoneminder-les-zones.png</url>
@@ -196,26 +213,6 @@
       <category>Homeassistant</category>
       <category>Domotique</category>
       <category>Securite</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test Capteur porte zigbee 3.0 sonoff SNZB-04</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Voilà après la &lt;a href=&quot;/fr/blog/test-capteur-temperature-et-humidite-sonoff-snzb-02&quot;&gt;présentation du capteur de température SNZB-02&lt;/a&gt;, je vais détailler rapidement &lt;a href=&quot;/fr/produit/controlleur-ouverture-sonoff-snzb-04-zigbee&quot;&gt;le capteur d’ouverture sonoff SNZB-04&lt;/a&gt;, la qualité reste la même, le conditionnement et l’esthétisme du module est similaire. Plus bas il y aura aussi une comparaison avec le xiaomi mijia porte et fenêtre MCCGQ01LM&lt;/p&gt;
-</description>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-capteur-porte-zigbee-3-0-sonoff-snzb-04</guid>
-      <category>Test</category>
-      <category>Zigbee</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
