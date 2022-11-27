@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Nov 2022 03:09:39 +0000</pubDate>
+    <pubDate>Sun, 27 Nov 2022 03:25:45 +0000</pubDate>
     <lastBuildDate>Sun, 20 Nov 2022 17:20:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -30,6 +30,7 @@
       <link>https://haade.fr/fr/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</guid>
       <category>Haade-lab</category>
+      <category>Zigbee</category>
     </item>
     <item>
       <!-- <image>

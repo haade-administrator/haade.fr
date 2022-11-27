@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Nov 2022 03:09:39 +0000</pubDate>
+    <pubDate>Sun, 27 Nov 2022 03:25:45 +0000</pubDate>
     <lastBuildDate>Sun, 20 Nov 2022 17:20:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/30/dongle-p-vs-dongle-e-zigbee-sonoff.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>ZBDongle-P VS ZBDongle-E</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt;
+</description>
+      <pubDate>Sun, 20 Nov 2022 17:20:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</guid>
+      <category>Haade-lab</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/29/zoneminder-the-areas.png</url>
@@ -181,24 +199,6 @@
       <category>Zigbee</category>
       <category>Home-assistant</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/17/zwave-face-a-matter.jpg</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Z-wave VS Matter</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;h2 id=&quot;z-wave-matter-is-an-opportunity-for-true-interoperability&quot;&gt;&lt;a href=&quot;https://z-wavealliance.org/&quot; target=&quot;_blank&quot;&gt;Z-Wave&lt;/a&gt;: &lt;a href=&quot;https://buildwithmatter.com/&quot; target=&quot;_blank&quot;&gt;Matter&lt;/a&gt; is an opportunity for true interoperability&lt;/h2&gt;
-</description>
-      <pubDate>Sun, 05 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/z-wave-vs-matter</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-vs-matter</guid>
-      <category>News</category>
-      <category>Protocoles</category>
     </item>
   </channel>
 </rss>
