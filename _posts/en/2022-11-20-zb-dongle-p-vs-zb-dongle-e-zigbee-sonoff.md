@@ -156,7 +156,24 @@ Enable hardware flow control and generate corresponding firmware
 
 {% include doclink.html pdf="Dongle-P+E-flashing-sonoff.pdf" title="Flash firmware ZBDongle-P and E according to Sonoff" %}
 
-**My cc-2538 solution by jelmerT for CC2652P**
+### My cc-2538 solution by jelmerT for CC2652P
+
+> I chose this solution because it is not mandatory to open the dongle!
+
+{% highlight shell %}
+sudo python3 cc2538-bsl.py --bootloader-sonoff-usb -e -w -v --ieee-address 00:00:00:00:00:00:00:00 -p /dev/ttyUSB0 ./CC1352P2_CC2652P_launchpad_coordinator_20220219. hex
+
+--bootloader-sonoff-usb # allows to put in bsl mode automatically
+-e # erase
+-w # write
+-v # verify
+--ieee-address # secondary mac address ideal for rekeying your network
+-p # the port, ps: port access requires sudo on linux
+
+# to find all commands:
+python3 cc2538-bsl.py -h
+{% endhighlight %}
+
 I wanted to write a tutorial but there is this simple tutorial on the Zigbee2mqtt site: [zigbee2mqtt.io flash cc2652P with a terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html# method-without-docker){:target="_blank"}
 
 
