@@ -26,5 +26,8 @@ module.exports = [
   '1005002055766609',    // 2126 eviciv ecran 10pouces raspberrypi
   '4000552781660',       // 2119 capteur température digitale
   '1005002525279564',    // 2118 thermostat moes 3 en 1
-  '33053655412'          // 2117 grow r503 fingerprint
+  '33053655412',         // 2117 grow r503 fingerprint
+  '32873382856',         // 2129 capteur inductif vertical eleabc
+  '32582384960',         // 2130 capteur inductif plat
+  '1005001621776421'    // 2131 wemos d1 mini pro
 ]

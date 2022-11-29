@@ -3,22 +3,22 @@
         "title": "1.44 1.8 2.0 2.2 2.4 2.8 3.2 3.5 4.0 inch SPI TFT LCD Screen Colorful Touch Display Module ILI9341 ILI9488 480*320 240*320 Drive",
         "categoryId": 400401,
         "productId": 33015586094,
-        "totalAvailableQuantity": 71118,
+        "totalAvailableQuantity": 70746,
         "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:center\" align=\"center\"><img src=\"https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n.jpg\" slate-data-type=\"image\"></p></div></div><p><br></p></div></div><p><br></p>\n<script>window.adminAccountId=116191644;</script>\n",
-        "orders": 365,
+        "orders": 469,
         "storeInfo": {
             "name": "EC-Buying Ali Store",
             "companyId": 106226508,
             "storeNumber": 1762106,
-            "followers": 9426,
-            "ratingCount": 9332,
+            "followers": 9739,
+            "ratingCount": 9811,
             "rating": "98.7%"
         },
         "ratings": {
             "totalStar": 5,
             "averageStar": "4.8",
-            "totalStartCount": 48,
-            "fiveStarCount": 43,
+            "totalStartCount": 63,
+            "fiveStarCount": 58,
             "fourStarCount": 2,
             "threeStarCount": 1,
             "twoStarCount": 1,
@@ -104,12 +104,12 @@
         ],
         "currency": "USD",
         "originalPrice": {
-            "min": 3.81,
-            "max": 17.45
+            "min": 3.65,
+            "max": 16.6
         },
         "salePrice": {
-            "min": 2.71,
-            "max": 12.39
+            "min": 2.66,
+            "max": 12.12
         }
     }
 }
