@@ -311,6 +311,24 @@ var documents = [{
         "title": "Clé zigbee 3.0 Sonoff zbridge Dongle-E",
         "description": "23/09/2022 - Dongle Sonoff compatible zigbee2mqtt et homeassistant à base de puce cc2652",
         "tags": ""
+        },{
+        "id": 57,
+        "url": "/fr/produit/capteur-inductif-5v-npn-LJ18A3-8Z",
+        "title": "capteur inductif 5v LJ18A3-8Z/BX pour compteur à eau",
+        "description": "29/11/2022 - grâce à ce capteur inductif vous pourrez suivre facilement vos consommations d'eau sur votre assistant domotique préféré",
+        "tags": ""
+        },{
+        "id": 58,
+        "url": "/fr/produit/capteur-inductif-de-forme-plate-DC-NPN-NO-5VDC",
+        "title": "capteur inductif plat 5v TL-W5MC1-5V pour compteur à eau",
+        "description": "29/11/2022 - grâce à ce capteur inductif plat vous pourrez suivre facilement vos consommations d'eau sur votre assistant domotique préféré idéal pour les emplacements réduits",
+        "tags": ""
+        },{
+        "id": 59,
+        "url": "/fr/produit/wemos-d1-mini-pro-plus-antenne",
+        "title": "Module esp wemos mini D1 pro avec antenne",
+        "description": "30/11/2022 - Module de développement esp8266 réputé wemos D1 mini pro avec antenne afin de capter au mieux les ondes wifi",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

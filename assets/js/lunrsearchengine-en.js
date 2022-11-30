@@ -261,6 +261,24 @@ var documents = [{
         "title": "zigbee key 3.0 Sonoff zbridge Dongle-E",
         "description": "23/09/2022 - Sonoff dongle compatible zigbee2mqtt and homeassistant based on cc2652 chip",
         "tags": ""
+        },{
+        "id": 47,
+        "url": "/en/product/inductive-sensor-5v-npn-LJ18A3-8Z",
+        "title": "5v inductive sensor LJ18A3-8Z/BX for water meter",
+        "description": "29/11/2022 - thanks to this inductive sensor you can easily follow your water consumption on your favorite home automation assistant",
+        "tags": ""
+        },{
+        "id": 48,
+        "url": "/en/product/plate-inductive-sensor-DC-NPN-NO-5VDC",
+        "title": "5v flat inductive sensor TL-W5MC1-5V for water meter",
+        "description": "29/11/2022 - thanks to this flat inductive sensor you can easily follow your water consumption on your favorite home automation assistant ideal for small spaces",
+        "tags": ""
+        },{
+        "id": 49,
+        "url": "/en/product/wemos-d1-mini-pro-with-antenna",
+        "title": "wemos mini D1 pro esp module with antenna",
+        "description": "30/11/2022 - Renowned esp8266 development module wemos D1 mini pro with antenna to best capture wifi waves",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
