@@ -29,9 +29,7 @@ sourcelink:
   - https://www.zigbee2mqtt.io/guide/adapters/
 ---
 
-## INTRODUCTION
-
- today we are going to compare two ZigBee keys from the sonoff brand, the ZBDongle-P and the ZBDongle-E. The ZBDongle-P has a CC2652P processor, which has been tested for a long time and works on all home automation platforms. when the ZBDongle-E key has an EFR32MG21 processor, this one is much more recent but seems to be the future of Zigbee 3.0 key processors, given its recent introduction it will be necessary to be careful that it is well compatible with current home automation platforms. For example with the zigbee2mqtt service, this should be used with caution because it is still experimental, see the link in the table below. **The main difference lies in the signal strength the ZBDongle-P has an initial signal of 5 dbm and can go up to 20 Dbm max, while the ZBDongle-E has a signal of around 20 decibels maximum.** The second difference is in the dimensions the ZBDongle-P measures 66mm while the ZBDongle-E measures 11 mm less. Firmware updates work identically on both keys.
+ Today we are going to compare two ZigBee keys from the sonoff brand, the ZBDongle-P and the ZBDongle-E. The ZBDongle-P has a CC2652P processor, which has been tested for a long time and works on all home automation platforms. when the ZBDongle-E key has an EFR32MG21 processor, this one is much more recent but seems to be the future of Zigbee 3.0 key processors, given its recent introduction it will be necessary to be careful that it is well compatible with current home automation platforms. For example with the zigbee2mqtt service, this should be used with caution because it is still experimental, see the link in the table below. **The main difference lies in the signal strength the ZBDongle-P has an initial signal of 5 dbm and can go up to 20 Dbm max, while the ZBDongle-E has a signal of around 20 decibels maximum.** The second difference is in the dimensions the ZBDongle-P measures 66mm while the ZBDongle-E measures 11 mm less. Firmware updates work identically on both keys.
 
 ## Presentation CC2652P ZBDongle-P key
 
