@@ -106,3 +106,5 @@ De nombreux sujets parlent de ces phénomènes d'interférences, je pense que ch
 - Ensuite paramètre le canal zigbee si tu le peux, sinon paramètre le canal wifi
   
 Fait en sorte d'harmoniser et d'espacer au mieux le fréquences sur ton réseau sans fil, et j'espère que tu tomberas sur ces articles avant de commencer ton réseau zigbee ça te permettras d'avoir plus d'amplitudes sur ton paramétrage final.
+
+> N'hésite pas à exposer ton cas sur notre forum ou par un commentaire, nous tacherons de trouver une solution ensemble.
