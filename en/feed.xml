@@ -11,9 +11,29 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Dec 2022 03:29:20 +0000</pubDate>
-    <lastBuildDate>Sun, 20 Nov 2022 17:20:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Dec 2022 03:04:21 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2022 22:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/31/interference-zigbee-wifi-freqeunce-2.4ghz-en.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>interference between zigbee and wifi frequency 2.4ghz</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Both ZigBee and Wi-Fi channels operate in the 2.4 GHz band, the frequencies are very close so interference may occur depending on the channel settings. Careful planning must be done to ensure that they do not interfere with each other.
+Using a ZigBee network and a Wi-Fi network on the same frequency will cause them to interfere with each other. &lt;strong&gt;The zigbee network will be impacted first.&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 30 Nov 2022 22:54:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/interference-zigbee-wifi-2-4ghz-to-know</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/interference-zigbee-wifi-2-4ghz-to-know</guid>
+      <category>Zigbee</category>
+      <category>Wifi</category>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/30/dongle-p-vs-dongle-e-zigbee-sonoff.png</url>
@@ -24,7 +44,7 @@
            </image> -->
       <title>ZBDongle-P VS ZBDongle-E</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt;
+      <description>&lt;p&gt;Today we are going to compare two ZigBee keys from the sonoff brand, the ZBDongle-P and the ZBDongle-E. The ZBDongle-P has a CC2652P processor, which has been tested for a long time and works on all home automation platforms. when the ZBDongle-E key has an EFR32MG21 processor, this one is much more recent but seems to be the future of Zigbee 3.0 key processors, given its recent introduction it will be necessary to be careful that it is well compatible with current home automation platforms. For example with the zigbee2mqtt service, this should be used with caution because it is still experimental, see the link in the table below. &lt;strong&gt;The main difference lies in the signal strength the ZBDongle-P has an initial signal of 5 dbm and can go up to 20 Dbm max, while the ZBDongle-E has a signal of around 20 decibels maximum.&lt;/strong&gt; The second difference is in the dimensions the ZBDongle-P measures 66mm while the ZBDongle-E measures 11 mm less. Firmware updates work identically on both keys.&lt;/p&gt;
 </description>
       <pubDate>Sun, 20 Nov 2022 17:20:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</link>
@@ -179,26 +199,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</guid>
       <category>Home-Assistant</category>
       <category>Haade-lab</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/18/sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Sonoff SNZB-02 temperature and humidity sensor test</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;I decided to put forward by presenting a test of the &lt;a href=&quot;/en/product/temperature-sensor-sonoff-snzb-02-zigbee&quot;&gt;Sonoff SNZB-02 temperature and humidity sensor&lt;/a&gt;, for the seriousness and the range of the brand’s products. It’s not going to be a big item that’s why I decided to compare it with the aqara WSDCGQ11LM temperature sensor by xiaomi.&lt;/p&gt;
-</description>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02</guid>
-      <category>Test</category>
-      <category>Zigbee</category>
-      <category>Home-assistant</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>

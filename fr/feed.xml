@@ -11,9 +11,29 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Dec 2022 03:29:20 +0000</pubDate>
-    <lastBuildDate>Sun, 20 Nov 2022 17:20:00 +0000</lastBuildDate>
+    <pubDate>Fri, 02 Dec 2022 03:04:21 +0000</pubDate>
+    <lastBuildDate>Wed, 30 Nov 2022 22:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/31/interference-zigbee-wifi-freqeunce-2.4ghz.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>interférence entre zigbee et wifi frequence 2.4ghz</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Les canaux ZigBee et Wi-Fi fonctionnent tous deux dans la bande 2,4 GHz, les fréquences sont très proches de ce fait des interférences peuvent apparaîtres suivant le paramétrage des canaux. Une planification minutieuse doit être effectuée pour s’assurer qu’ils n’interfèrent pas les uns avec les autres.
+L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréquence les feras interférer les uns avec les autres. &lt;strong&gt;Le réseau zigbee sera impacté en premier lieux.&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 30 Nov 2022 22:54:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/interference-zigbee-wifi-2-4ghz-a-savoir</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/interference-zigbee-wifi-2-4ghz-a-savoir</guid>
+      <category>Zigbee</category>
+      <category>Wifi</category>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/30/dongle-p-vs-dongle-e-zigbee-sonoff.png</url>
@@ -24,7 +44,7 @@
            </image> -->
       <title>ZBDongle-P VS ZBDongle-E</title>
       <dc:creator>Nico</dc:creator>
-      <description>&lt;h2 id=&quot;introduction&quot;&gt;INTRODUCTION&lt;/h2&gt;
+      <description>&lt;p&gt;Aujourd’hui nous allons  comparer deux clés  ZigBee de la marque sonoff la ZBDongle-P et la ZBDongle-E. La ZBDongle-P dispose d’un processeur CC2652P, qui a été longuement éprouvé et fonctionne sur l’ensemble des plateformes domotique. quand a la clé ZBDongle-E dispose d’un processeur EFR32MG21, celle-ci est beaucoup plus récente mais semble être l’avenir des processeurs des clés Zigbee 3.0, vu sa récente introduction il faudra faire attention à ce qu’elle soit bien compatible avec les plateformes domotiques actuelles. Par exemple avec le service zigbee2mqtt celle-ci est à utiliser avec précaution car encore expérimental, voir le lien dans le tableau ci-dessous. &lt;strong&gt;La principale différence réside dans la puissance du signal la clé ZBDongle-P a un signal initiales de 5 dbm et peut aller jusqu’à 20 Dbm max, alors que la ZBDongle-E a un signal avoisinant les 20 décibels maximum.&lt;/strong&gt; La Seconde différence se trouve au niveau des dimensions la ZBDongle-P mesure 66mm tandis que la ZBDongle-E mesure 11 mm de moins. Les mises à jours du firmware fonctionnent de façon identique sur les deux clés.&lt;/p&gt;
 </description>
       <pubDate>Sun, 20 Nov 2022 17:20:00 +0000</pubDate>
       <link>https://haade.fr/fr/blog/zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff</link>
@@ -193,27 +213,6 @@
       <category>Home-Assistant</category>
       <category>Jeedom</category>
       <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/21/zoneminder_homeassistant-1.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Zoneminder, home assistant et Machinelearning</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;&lt;a href=&quot;https://hub.docker.com/r/dlandon/zoneminder.machine.learning&quot; target=&quot;_blank&quot;&gt;Dlandon&lt;/a&gt; a sorti cette année une image Docker complète avec Zoneminder et le Machinelearning, l’intégration dans home assistant est complète. C’est pourqoui cet article devait absolument voir le jour. Depuis moins d’un an l’installation sous docker a été largement simplifié. De plus le &lt;strong&gt;machinelearning est très complet&lt;/strong&gt; grâce à la détection d’objets, détection faciale, reconnaissance faciale, reconnaissance de plaques, etc… .&lt;/p&gt;
-</description>
-      <pubDate>Sat, 25 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/zoneminder-home-assistant-et-machinelearning</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/zoneminder-home-assistant-et-machinelearning</guid>
-      <category>Tutoriel</category>
-      <category>Zoneminder</category>
-      <category>Homeassistant</category>
-      <category>Domotique</category>
-      <category>Securite</category>
     </item>
   </channel>
 </rss>
