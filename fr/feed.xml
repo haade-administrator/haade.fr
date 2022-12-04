@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Dec 2022 03:04:21 +0000</pubDate>
+    <pubDate>Sun, 04 Dec 2022 02:58:45 +0000</pubDate>
     <lastBuildDate>Wed, 30 Nov 2022 22:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -96,7 +96,7 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
             <width>944</width>
              <height>531</height>
            </image> -->
-      <title>Domotiser simplement l'allumage de la lumière de la piscine</title>
+      <title>Domotiser simplement l&apos;allumage de la lumière de la piscine</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
 </description>
