@@ -284,7 +284,6 @@ $alert-success: #42ae42;
   border: 1px solid #ccc;
   display: flex;
   flex-wrap: nowrap;
-  gap: 16px;
   margin: 50px auto;
   max-width: 600px;
   /* VIA CSS MATIC https://goo.gl/cIbnS */
@@ -292,13 +291,17 @@ $alert-success: #42ae42;
   -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 
-  .embedproduct-picture img {
+  .embedproduct-picture {
     display: flex;
-    max-width: 250px;
-    margin: auto;
+    align-items: flex-start;
+    margin-top: 35px;
     height: auto;
     padding: 10px;
-    border-radius: 7px 0 0 7px;
+
+    img {
+      border-radius: 7px;
+      max-width: 250px;
+    }
   }
 
   .text {
@@ -332,15 +335,10 @@ $alert-success: #42ae42;
     }
 
     .embedproduct-price {
-      display: inline-flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-items: center;
-      gap: 20px;
 
       .embedaffiliate {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
 
         span {
           font-size: 20px;
@@ -355,7 +353,7 @@ $alert-success: #42ae42;
             box-sizing: border-box;
             cursor: pointer;
             display: inline-flex;
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 600;
             justify-content: center;
             line-height: 1.25;
@@ -972,6 +970,28 @@ $alert-success: #42ae42;
   position: relative;
   text-align: left;
   margin-bottom: 45px;
+}
+
+.pickgradient:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(51, 51, 51, 0.65) 100%);
+  /* FF3.6+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(51, 51, 51, 0.65) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(51, 51, 51, 0.65) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(51, 51, 51, 0.65) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(51, 51, 51, 0.65) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#a6333333', GradientType=0);
+  /* IE6-9 */
 }
 
 .left {

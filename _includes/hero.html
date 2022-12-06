@@ -2,9 +2,11 @@
   <div class="left">
     {%- assign latest_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
     {%- for latest_post in latest_posts limit:1 %}
+    <div class="pickgradient">
       <a href="{{site.baseurl}}{{latest_post.url}}">
         {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" %}
       </a>
+      </div>
       <div class="hero-text latest">
       {%- if latest_post.categories != empty %}
       {%- assign sortedCategories = latest_post.categories %}
@@ -39,9 +41,11 @@
     <div class="second">
       {%- assign second_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
       {%- for second_post in second_posts limit:1 offset:1 %}
+      <div class="pickgradient">
         <a href="{{site.baseurl}}{{second_post.url}}">
           {% picture herotwo posts/{{ second_post.guid }}/{{ second_post.image }} --alt {{ second_post.description }} --img class="hero-image" %}        
         </a>
+      </div>
         <div class="hero-text second">
           {%- if second_post.categories != empty %}
           {%- assign sortedCategories = second_post.categories | sort %}
@@ -75,9 +79,11 @@
       <div class="third">
         {%- assign third_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for third_post in third_posts limit:1 offset:2 %}
+        <div class="pickgradient">
               <a href="{{site.baseurl}}{{third_post.url}}">
                 {% picture heroend posts/{{ third_post.guid }}/{{ third_post.image }} --alt {{ third_post.description }} --img class="hero-image" %}        
               </a>
+              </div>
           <div class="hero-text thirdfour">
             {%- if third_post.categories != empty %}
             {%- assign sortedCategories = third_post.categories | sort %}
@@ -110,9 +116,11 @@
       <div class="four">
         {%- assign four_posts = site.posts | where:'locale', page.locale | where: 'published', true | where: 'layout', 'post' %}
         {%- for four_post in four_posts limit:1 offset:3 %}
+        <div class="pickgradient">
               <a href="{{site.baseurl}}{{four_post.url}}">
                 {% picture heroend posts/{{ four_post.guid }}/{{ four_post.image }} --alt {{ four_post.description }}  --img class="hero-image" %}        
           </a>
+          </div>
           <div class="hero-text thirdfour">
             {%- if four_post.categories != empty %}
             {%- assign sortedCategories = four_post.categories | sort %}
