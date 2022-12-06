@@ -63,14 +63,14 @@ Enfin, autres nouveautés non des moindres, la présence d’un bouton d’alime
 |**Batteries**|Lithium 6000mAh|
 |**Dimensions (cm)**|12 x 12 x 3|
 
-## fournitures
+## Fournitures
 
 Livré avec une Jeedom Luna
 - 1 câble rj45
 - 1 support mural
 - 1 cable usb avec une alim
 
-{% picture posts/{{ page.guid }}/jeedom-luna-accessoires.jpg --alt accessoires fournis avec la nouvelle Jeedom Luna --img width="400" height="400" %}
+{% picture posts/{{ page.guid }}/jeedom-luna-accessoires.jpg --alt accessoires fournis avec la nouvelle Jeedom Luna --img width="400" height="182" %}
 
 ## Tarifs et Disponibilités
 

@@ -70,6 +70,8 @@ Comes with a Jeedom Luna
 - 1 wall bracket
 - 1 usb cable with a power supply
 
+{% picture posts/{{ page.guid }}/jeedom-luna-accessoires.jpg --alt accessories supplied with the new Jeedom Luna --img width="400" height="182" %}
+
 ## Rates and Availability
 
 Initially scheduled for November 2022, this box is running late, **the release has been postponed to Mid-December 2022**, at the time of writing these few lines.
