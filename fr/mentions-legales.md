@@ -13,7 +13,7 @@ sitemap:
   lastmod: # date to end modification
 comments: false
 redirect_from:
-  - /mentions-legales
+  - /mentions-legales/
 ---
 
 ## Informations légales
