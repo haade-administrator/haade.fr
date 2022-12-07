@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Dec 2022 03:05:41 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2022 22:54:00 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Dec 2022 03:07:43 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Dec 2022 07:50:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/32/jeedom-luna.jpg</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>New box jeedom Luna</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Cut for efficiency at a lower cost, Jeedom Luna is nonetheless solid and fast with basic technical characteristics comparable to those of a Jeedom Smart (4 64-bit cores: Quad Cortex-A53 (1.5GHz) / 2GB DDR3) coupled with many additional features such as &lt;strong&gt;Z-Wave and Zigbee home automation protocols integrated by default&lt;/strong&gt; as well as the backup battery to name a few.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 06 Dec 2022 07:50:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/jeedom-luna-box-domotic-controlled-prices</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/jeedom-luna-box-domotic-controlled-prices</guid>
+      <category>Jeedom</category>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/31/interference-zigbee-wifi-freqeunce-2.4ghz-en.png</url>
@@ -181,24 +199,6 @@ Using a ZigBee network and a Wi-Fi network on the same frequency will cause them
       <link>https://haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</guid>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/19/changer-icone-element-binaire-home-assistant.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>home assistant icon tip</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Here is in the series &lt;strong&gt;of the very small tutorials&lt;/strong&gt; . I will quickly describe how to change an icon of a &lt;strong&gt;binary sensor&lt;/strong&gt; thanks to the device_class, by customization in home assistant.&lt;/p&gt;
-</description>
-      <pubDate>Wed, 15 Sep 2021 07:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/change-icon-of-a-binary-sensor-in-home-assistant</guid>
-      <category>Home-Assistant</category>
-      <category>Haade-lab</category>
     </item>
   </channel>
 </rss>

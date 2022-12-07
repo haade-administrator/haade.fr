@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Dec 2022 03:05:41 +0000</pubDate>
-    <lastBuildDate>Wed, 30 Nov 2022 22:54:00 +0000</lastBuildDate>
+    <pubDate>Wed, 07 Dec 2022 03:07:43 +0000</pubDate>
+    <lastBuildDate>Tue, 06 Dec 2022 07:50:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/32/jeedom-luna.jpg</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Nouvelle box jeedom Luna</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Taillée pour l’efficacité à moindre coût, Jeedom Luna n’en demeure pas moins solide et véloce avec des caractéristiques techniques de base comparables à celles d’une Jeedom Smart (4 cœurs 64 bits : Quad Cortex-A53 (1,5GHz) / 2Go DDR3) couplées à de nombreuses fonctionnalités complémentaires telles que les &lt;strong&gt;protocoles domotiques Z-Wave et Zigbee intégrés par défaut&lt;/strong&gt; ainsi que la batterie de secours pour ne citer qu’elles.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 06 Dec 2022 07:50:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/jeedom-luna-box-domotique-tarif-maitrise</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/jeedom-luna-box-domotique-tarif-maitrise</guid>
+      <category>Jeedom</category>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/31/interference-zigbee-wifi-freqeunce-2.4ghz.png</url>
@@ -189,30 +207,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Homeassistant</category>
       <category>Tests</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/22/Jeedom-Atlas-vs-Homeassistant-Amber.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Home-assistant Amber VS Jeedom Atlas</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Pour la rentrée Home-Assistant et Jeedom dévoilent deux nouvelles box, la Home-Assistant Amber/Yellow vs Jeedom Atlas. Étonnant quand on sait qu’elles sont sorties toutes deux à quelques jours d’intervalles. La différence réside dans le fait que la box Amber/Yellow est en prévente sur la plateforme &lt;a href=&quot;https://www.crowdsupply.com/nabu-casa/home-assistant-amber&quot; target=&quot;_blank&quot;&gt;crowdsupply&lt;/a&gt; &lt;em&gt;qui se termine le 27 Octobre 2021&lt;/em&gt;, avec une sortie &lt;strong&gt;officielle pour Juin 2022&lt;/strong&gt; alors que Jeedom Atlas est déjà &lt;strong&gt;disponible à la vente&lt;/strong&gt; sur le site &lt;a href=&quot;https://www.domadoo.fr/fr/194_jeedom&quot; target=&quot;_blank&quot;&gt;Domadoo&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-amber-vs-jeedom-atlas</guid>
-      <category>Comparatif</category>
-      <category>Homeassistant</category>
-      <category>Jeedom</category>
-      <category>Domotique</category>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
-      <category>Jeedom</category>
-      <category>News</category>
     </item>
   </channel>
 </rss>
