@@ -8,7 +8,7 @@ date: 2022-12-05 13:08
 last_modified_at: 
 categories: [Domotique, Haade-lab]
 tags: []
-image: 'picture.png'
+image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
 beforetoc: ''
 published: false
@@ -23,7 +23,6 @@ comments: true
 rating:  
 sourcelink:
   - https://github.com/psykokwak-com/everblu-meters-esp8266
-  - https://github.com/esp8266/Arduino
   - https://fr.macerobotics.com/developpeur/tutoriels/programmer-le-microcontroleur-esp8266-avec-lide-arduino/
 ---
 Depuis peu la *version 2022.11 de Homeassistant prend en charge le compteur d'énergie eau*, il est possible de récupérer les données facilement à l'aide d'esp et ça **pour 10€ environs**. Dans mon cas le compteur est équipé d'un émetteur 433Mhz ce qui permet de récupérer les données à l'aide d'un récepteur CC1101 accouplé à un esp8266 facilement. J'ai repris un référentiel complet sur github qui a été édité par *psykokwak*, et je félicite son travail. Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant.
@@ -86,6 +85,7 @@ git clone https://github.com/haade-administrator/watermeter2mqtt.git watermeter2
 ### Pour terminer, Donnez les permissions au port usb
 
 {% highlight shell %}
+sudo usermod -a -G dialout #USER
 sudo chmod a+rw /dev/ttyUSB0
 {% endhighlight %}
 
