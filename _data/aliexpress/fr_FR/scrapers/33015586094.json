@@ -3,23 +3,23 @@
         "title": "Module d&#39;Affichage Tactile Coloré, Écran LCD à Cristaux Liquides, SPI, TFT, Commande ILI9341, ILI9488, 480 x 320, 240 x 320, 1,44, 1,8, 2,0, 2,2, 2,4, 2,8, 3,2, 3,5, 4,0 Pouces",
         "categoryId": 400401,
         "productId": 33015586094,
-        "totalAvailableQuantity": 70746,
+        "totalAvailableQuantity": 70657,
         "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p style=\"text-align:center\" align=\"center\"><img src=\"https://ae01.alicdn.com/kf/H424e505b892c4199a7b9325422d32e2dD.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/H024cc9d33ba44d728a7016a3db2ca3e3n.jpg\" slate-data-type=\"image\"></p></div></div><p><br></p></div></div><p><br></p></div></div>\n\n<script>window.adminAccountId=116191644;</script>\n",
-        "orders": 469,
+        "orders": 518,
         "storeInfo": {
             "name": "EC-Buying Ali Store",
             "companyId": 106226508,
             "storeNumber": 1762106,
-            "followers": 9739,
-            "ratingCount": 9811,
+            "followers": 9799,
+            "ratingCount": 10176,
             "rating": "98.7%"
         },
         "ratings": {
             "totalStar": 5,
             "averageStar": "4.8",
-            "totalStartCount": 63,
-            "fiveStarCount": 58,
-            "fourStarCount": 2,
+            "totalStartCount": 71,
+            "fiveStarCount": 65,
+            "fourStarCount": 3,
             "threeStarCount": 1,
             "twoStarCount": 1,
             "oneStarCount": 1
@@ -104,12 +104,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 4.38,
-            "max": 19.9
+            "min": 4.29,
+            "max": 19.5
         },
         "salePrice": {
-            "min": 3.19,
-            "max": 14.53
+            "min": 3.21,
+            "max": 14.62
         }
     }
 }

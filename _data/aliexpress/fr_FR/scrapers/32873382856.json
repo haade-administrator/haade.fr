@@ -3,22 +3,22 @@
         "title": "Capteur de proximité inductif M18, 8mm, DC 5V NPN, pas de cylindre//interrupteur, tension de fonctionnement 5VDC, spécial pour MCU",
         "categoryId": 200001056,
         "productId": 32873382856,
-        "totalAvailableQuantity": 32833,
+        "totalAvailableQuantity": 32811,
         "description": "<div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"><div class=\"detailmodule_dynamic\"><kse:widget data-widget-type=\"customText\" id=\"24461526\" title=\"\" type=\"custom\"></kse:widget></div></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\">\n<div>\n<strong><span style=\"font-size: 36.0px;\"><span style=\"font-weight: bold;margin-right: 12.0px;\">Cylindre 5V NPN pas de capteur de proximité</span></span></strong>\n<img alt=\"327\" src=\"https://ae01.alicdn.com/kf/HTB1H.MDqYGYBuNjy0Foq6AiBFXaz.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"330\" src=\"https://ae01.alicdn.com/kf/HTB1fj3Uq79WBuNjSspeq6yz5VXai.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"329\" src=\"https://ae01.alicdn.com/kf/HTB12K9brmBYBeNjy0Feq6znmFXab.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"328\" src=\"https://ae01.alicdn.com/kf/HTB1wdg1q1GSBuNjSspbq6AiipXaK.jpg?width=930&amp;height=550&amp;hash=1480\">\n</div>\n<p></p></div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n\n<script>window.adminAccountId=231758244;</script>\n",
-        "orders": 333,
+        "orders": 344,
         "storeInfo": {
             "name": "Shop4198022 Store",
             "companyId": 241153606,
             "storeNumber": 4198022,
-            "followers": 6630,
-            "ratingCount": 23182,
-            "rating": "98.4%"
+            "followers": 6685,
+            "ratingCount": 23157,
+            "rating": "98.6%"
         },
         "ratings": {
             "totalStar": 5,
             "averageStar": "4.6",
-            "totalStartCount": 18,
-            "fiveStarCount": 16,
+            "totalStartCount": 20,
+            "fiveStarCount": 18,
             "fourStarCount": 0,
             "threeStarCount": 0,
             "twoStarCount": 0,
@@ -62,12 +62,12 @@
         ],
         "currency": "EUR",
         "originalPrice": {
-            "min": 7.01,
-            "max": 7.01
+            "min": 6.86,
+            "max": 6.86
         },
         "salePrice": {
-            "min": 6.66,
-            "max": 6.66
+            "min": 6.52,
+            "max": 6.52
         }
     }
 }

@@ -11,7 +11,7 @@ tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
