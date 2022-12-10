@@ -204,7 +204,7 @@ Votre module émetteur-récepteur n'est peut-être pas calibré correctement, ve
 
 ## Conclusion
 
-Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif](http://127.0.0.1:4000/fr/produit/capteur-inductif-5v-npn-LJ18A3-8Z){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille aussi autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
+Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-capteur-inductif-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille aussi autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
 
 
 
