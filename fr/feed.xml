@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 09 Dec 2022 03:07:24 +0000</pubDate>
+    <pubDate>Sat, 10 Dec 2022 02:57:38 +0000</pubDate>
     <lastBuildDate>Tue, 06 Dec 2022 07:50:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -31,6 +31,24 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/jeedom-luna-box-domotique-tarif-maitrise</guid>
       <category>Jeedom</category>
       <category>News</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/33/domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>domotiser son compteur d&apos;eau itron en fréquence radio</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Depuis peu la &lt;em&gt;version 2022.11 de Homeassistant prend en charge le compteur d’énergie eau&lt;/em&gt;, il est possible de récupérer les données facilement à l’aide d’esp et ça &lt;strong&gt;pour 10€ environs&lt;/strong&gt;. Dans mon cas le compteur est équipé d’un émetteur 433Mhz ce qui permet de récupérer les données à l’aide d’un récepteur CC1101 accouplé à un esp8266 facilement. J’ai repris un référentiel complet sur github qui a été édité par &lt;em&gt;psykokwak&lt;/em&gt;, et je félicite son travail. Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 05 Dec 2022 13:08:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/domotiser-compteur-eau-itron-everblu-cyble</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotiser-compteur-eau-itron-everblu-cyble</guid>
+      <category>Domotique</category>
+      <category>Haade-lab</category>
     </item>
     <item>
       <!-- <image>
@@ -186,27 +204,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Zigbee</category>
       <category>Homeassistant</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Box Domotique rail din Home-assistant et Rpi4</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/box-domotique-rail-din</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/box-domotique-rail-din</guid>
-      <category>Test</category>
-      <category>Raspberry</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
