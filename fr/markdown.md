@@ -57,7 +57,10 @@ le retour à la ligne se fait automatiquement.
 >
 >  *Everything* is going according to **plan**.
 
-# liens spécifique à haade
+# Les Liens
+
+### Inclure un lien externe
+[Descriptif](https://www.lien.fr){:target="_blank"}
 
 ### créer un lien vers un article du site:
 [intégrer un article interne]({% post_url /en/2021-05-11-esphome-and-homeassistant %})
@@ -128,26 +131,30 @@ end.
 ___
 ***
 
-# inclure un lien static_file
+# Les documents
+
+### inclure un lien static_file
 **préfixe ( pdf, docx, zip, csv, xls )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
-# inclure produit externe
+# Les produits
+
+### inclure produit externe
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S88b1ba6506f6436bbccbd8ed76fd711ct/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg_Q90.jpg_.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" domlink="" %}
 
-# inclure produit interne à un article
+### inclure produit interne à un article
 {% include product-embed.html guid="2123" %}
 
-# intégration images articles dans un article
+### intégration images articles dans un article
 **remplacer 29 par {{ page.guid }}**
 
 {% picture posts/29/zone-inclusive-zoneminder.png --alt zone inclusive dans ZM --img width="932" height="522" %}
 
-# intégrer une video youtube
+### intégrer une video youtube
 
 {% include youtubePlayer.html id="cq0ZeT6K1uY" %}
 
-# inclure un message d'alerte
+### inclure un message d'alerte
 
 type:
   - warning
