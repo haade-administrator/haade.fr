@@ -20,6 +20,10 @@ presets:
       img: 'class="pictinpost"'
       parent: 'class="lazyimg"'
     dimension_attributes: false
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
     fallback_width: 240
 
   herofirst:  
