@@ -56,15 +56,45 @@ Ci-dessous une présentation sommaire avec photo
 - Dimensions: env. 5,8 x 5,8 x 8,9 cm
 - Poids: 118gr
 
+|Tension de fonctionnement| 220–240 V∼, 50 Hz|
+|Courant de sortie| HG06337-FR 16 A max. (3840 W)|
+|Plage de fréquence| 2,400–2,483 GHz|
+|Puissance d'émission| max. < 1 dBm|
+|Protocole de communication| ZigBee 3.0|
+|Portée de réception| env. 70 m (champ libre)|
+|Température de fonctionnement| de +5 à +35 °C|
+|Humidité durant le fonctionnement| de 10 à 80 %|
+|Température de stockage| de 0 à +45 °C|
+|Dimensions| 58 x 58 x 89 mm|
+|Poids| 118gr|
+|Classe de protection| IP21|
+
+{% include doclink.html pdf="notice-prise-simple-lidl-silvercrest-367547-fr.pdf" title="Notice Prise Simple  SAPZ 1 A1" %}
+
+
 ## Silvercrest Multi-prise Usb
 
 {% picture posts/{{ page.guid }}/multiprise-zigbee-lidl-silvercrest-usb.jpg --alt multiprise lidl silvercrest simple zigbee 3.0 avc port usb --img width="940" height="529" %}
 
 **Infos Techniques**
-- USB-A : 5 V 2,4 A /port
-- Total 6 A (30 W) max.
-- Bloc multiprise à 3 prises : (16 A/220-240 V~ 50 Hz)
-- Charge totale maximale 3 840 W
+
+|Tension de fonctionnement| 220–240 V∼, 50 Hz|
+|Courant de sortie (total)|HG06338-FR 16 A max. (3840 W)|
+|Courant de sortie USB-A|6 A max. au total, 2,4 A max. par port|
+|Plage de fréquence| de 2,400 à 2,483 GHz|
+|Puissance d'émission| max. < 3 dBm|
+|Protocole de communication| ZigBee 3.0|
+|Portée de réception| env. 70 m (champ libre)|
+|Température de fonctionnement| de +5 à +35 °C|
+|Humidité durant le fonctionnement| de 10 à 80 %|
+|Température de stockage| de 0 à +45 °C|
+|Longueur du câble| 140 cm|
+|Dimensions|HG06338-FR 350 x 65 x 41 mm|
+|Poids|680 g|
+|Classe de protection| IP21|
+
+
+{% include doclink.html pdf="notice-multiprise-lidl-silvercrest-367548-all.pdf" title="Notice Multiprise  SPSZ 3 A1" %}
 
 **À Savoir**
 
@@ -85,17 +115,27 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 
 - Alarme anti-détérioration
 - Ce produit peut être intégré à d’autres systèmes compatibles avec ZigBee 3.0
-- Portée de detection: Max 10m
-- Angle de détection : 120°
-- Dimensions: 
-- Poids:
+
+|Tension de fonctionnement|3v|
+|Type de piles|2x1,5v (AAA)|
+|Plage de fréquence|de 2,4 à 2,485 Ghz|
+|Puissance d'émission max|13dbm|
+|Durée de fonctionnement|12 mois (60 sonneries/jour)|
+|Hauteur de montage|2,1m|
+|Protocole de communication|Zigbee 3.0|
+|Portée de réception|env 70m (surface dégagée)|
+|Champ optique/angle de saisie|< 10m à +25°C/120°|
+|Température de fonctionnement|de +5°c à +35°C|
+|Humidité durant le fonctionnement|de 10 à 80%|
+|Dimensions|40x77x46mm (avec fixation murale)|
+|Indice de protection IP|IP21|
+
+{% include doclink.html pdf="notice-detecteur-mouvement-400869-lidl-silvercrest-fr.pdf" title="Notice détecteur de mouvement SMSZ 1 B2" %}
 
 
 # Webshop Belgique
 
 [Boutique en ligne Lidl Livraison Belgique](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){:target="_blank"}
-
-# L'application Lidl SmartHome
 
 # Conclusion
 
