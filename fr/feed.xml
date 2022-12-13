@@ -11,9 +11,32 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Dec 2022 03:06:02 +0000</pubDate>
-    <lastBuildDate>Tue, 06 Dec 2022 07:50:00 +0000</lastBuildDate>
+    <pubDate>Tue, 13 Dec 2022 03:07:53 +0000</pubDate>
+    <lastBuildDate>Sun, 11 Dec 2022 18:42:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/34/presentation-gamme-lidl-silvercrest-smart-home.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Présentation de la gamme zigbee lidl smart home</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Lidl commercialise depuis un moment des produits connectés fonctionnant en &lt;strong&gt;Zigbee 3.0&lt;/strong&gt;, les gammes concernées sont &lt;strong&gt;Silvercrest&lt;/strong&gt; mais aussi &lt;strong&gt;Livarno&lt;/strong&gt;. &lt;a href=&quot;https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&amp;amp;brand=silvercrest&amp;amp;brand=livarno+lux&amp;amp;brand=livarno+home&amp;amp;idsOnly=false&amp;amp;productsOnly=false&quot; target=&quot;_blank&quot;&gt;Cliquez ici pour accéder à l’ensemble de la Gamme Zigbee Lidl&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Produits imposants, emballage de qualité, au premier abord qualitatif, mais qu’en est-il réellement ? pouvons-nous nous fier à ce matériel !&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      <pubDate>Sun, 11 Dec 2022 18:42:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/presentation-de-la-gamme-silvercrest-lidl-smart-home-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-de-la-gamme-silvercrest-lidl-smart-home-zigbee</guid>
+      <category>Protocoles</category>
+      <category>News</category>
+      <category>Tests</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/32/jeedom-luna.jpg</url>
@@ -186,27 +209,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Zigbee</category>
       <category>Homeassistant</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Box Domotique rail din Home-assistant et Rpi4</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Durant longtemps j’avais le système domotique intégré dans docker sur le NAS familial. Mais avec le temps l’installation a pris de l’ampleur et comme tout le monde le sait le matériel physique est partie intégrante d’une habitation, hors un NAS est plutôt personnel. La question d’un déménagement ne pose pas de soucis pour le NAS mais en ce qui concerne la domotique elle doit continuer à fonctionner sans ses effets personnels. C’est pourquoi j’ai décidé d’intégrer la box domotique Home-Assistant sur rail din dans le tableau électrique.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/box-domotique-rail-din</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/box-domotique-rail-din</guid>
-      <category>Test</category>
-      <category>Raspberry</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
