@@ -52,13 +52,6 @@ Ci-dessous une présentation sommaire avec photo, des 3 modules probaablement le
 {% picture posts/{{ page.guid }}/prise-simple-zigbee-lidl-silvercrest.jpg --alt prise lidl silvercrest simple zigbee 3.0 --img width="940" height="529" %}
 
 **Infos Techniques**
-<<<<<<< HEAD
-- Système de connexion sans fil: Zigbee 3.0
-- Reconnu sous **ZHA et Zigbee2mqtt**
-- Puissance: max. **3840 W** (220-240 V / 16 A)
-- Dimensions: env. 5,8 x 5,8 x 8,9 cm
-- Poids: 118gr
-=======
 
 |Tension de fonctionnement| 220–240 V∼, 50 Hz|
 |Courant de sortie| HG06337-FR 16 A max. (3840 W)|
@@ -75,22 +68,12 @@ Ci-dessous une présentation sommaire avec photo, des 3 modules probaablement le
 
 {% include doclink.html pdf="notice-prise-simple-lidl-silvercrest-367547-fr.pdf" title="Notice Prise Simple  SAPZ 1 A1" %}
 
->>>>>>> 0209de57b5fc0fa4a9adcb24b8bbba8b36f1dacc
 
 ## Silvercrest Multi-prise Usb Modèle HG06338
 
 {% picture posts/{{ page.guid }}/multiprise-zigbee-lidl-silvercrest-usb.jpg --alt multiprise lidl silvercrest simple zigbee 3.0 avc port usb --img width="940" height="529" %}
 
 **Infos Techniques**
-<<<<<<< HEAD
-- USB-A : 5 V 2,4 A /port **( non domotisable )**
-- Reconnu sous **ZHA et Zigbee2mqtt**
-- Total 6 A (30 W) max.
-- Bloc multiprise à 3 prises : (16 A/220-240 V~ 50 Hz)
-- Charge totale maximale **3 840 W**
-- Dimensions:
-- Poids: 
-=======
 
 |Tension de fonctionnement| 220–240 V∼, 50 Hz|
 |Courant de sortie (total)|HG06338-FR 16 A max. (3840 W)|
@@ -109,7 +92,6 @@ Ci-dessous une présentation sommaire avec photo, des 3 modules probaablement le
 
 
 {% include doclink.html pdf="notice-multiprise-lidl-silvercrest-367548-all.pdf" title="Notice Multiprise  SPSZ 3 A1" %}
->>>>>>> 0209de57b5fc0fa4a9adcb24b8bbba8b36f1dacc
 
 **À Savoir**
 
@@ -129,13 +111,6 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 **Infos Techniques**
 
 - Alarme anti-détérioration
-<<<<<<< HEAD
-- Reconnu dans **zigbee2mqtt sous le détecteur HG06335**
-- Portée de detection: Max 10m
-- Angle de détection : 120°
-- Dimensions: 
-- Poids:
-=======
 - Ce produit peut être intégré à d’autres systèmes compatibles avec ZigBee 3.0
 
 |Tension de fonctionnement|3v|
@@ -153,7 +128,6 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 |Indice de protection IP|IP21|
 
 {% include doclink.html pdf="notice-detecteur-mouvement-400869-lidl-silvercrest-fr.pdf" title="Notice détecteur de mouvement SMSZ 1 B2" %}
->>>>>>> 0209de57b5fc0fa4a9adcb24b8bbba8b36f1dacc
 
 
 # Webshop Belgique
