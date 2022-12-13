@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2022-12-11 18:42
 last_modified_at: 
-categories: [Protocoles, News, Tests, Zigbee]
+categories: [News, Zigbee]
 tags: []
 image: 'presentation-gamme-lidl-silvercrest-smart-home.png'
 toc: true
@@ -51,10 +51,6 @@ Ci-dessous une présentation sommaire avec photo
 {% picture posts/{{ page.guid }}/prise-simple-zigbee-lidl-silvercrest.jpg --alt prise lidl silvercrest simple zigbee 3.0 --img width="940" height="529" %}
 
 **Infos Techniques**
-- Système de connexion sans fil: Zigbee 3.0
-- Puissance: max. 3 840 W (220-240 V / 16 A)
-- Dimensions: env. 5,8 x 5,8 x 8,9 cm
-- Poids: 118gr
 
 |Tension de fonctionnement| 220–240 V∼, 50 Hz|
 |Courant de sortie| HG06337-FR 16 A max. (3840 W)|
