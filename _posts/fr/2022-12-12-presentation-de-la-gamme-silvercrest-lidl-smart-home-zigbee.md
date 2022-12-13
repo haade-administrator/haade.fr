@@ -1,7 +1,7 @@
 ---
 guid: 34
 title: "Présentation de la gamme zigbee lidl smart home"
-description: "voilà quelques temps que lidl a sorti sla gamme smart home silvercrest mais que vaut-elle ?"
+description: "voilà quelques temps que lidl a sorti la gamme smart home silvercrest mais que vaut-elle réellement?"
 layout: post
 author: Nico
 date: 2022-12-11 18:42
@@ -37,34 +37,39 @@ Déjà présenté à de nombreuses reprises, je ne vais pas m'attarder sur ces p
 1. Le prix de 10 à 30€ pour la multiprise
 2. Une fabrication de qualité
 3. une intégration facile à d'autres systèmes zigbee
-4. un fonctionnement stable
+4. fonctionnent avec Zigbee2mqtt
+5. un fonctionnement stable
 
 **Inconvénient:**{: .red}
 - Des dimensions déroutantes, il n'y a qu'à voir le capteur de mouvement qui est 2 à 3 fois plus grand que la conccurrence.
 
 {% picture posts/{{ page.guid }}/module-zigbee-smart-home-lidl-silvercrest.jpg --alt ensemble de modules smart home zigbee 3.0 lidl silvercrest, module prise simple, multiprise et capteur de mouvement --img width="940" height="529" %} 
 
-Ci-dessous une présentation sommaire avec photo
+Ci-dessous une présentation sommaire avec photo, des 3 modules probaablement les plus utilisés du moment.
 
-## Prise simple
+## Prise simple Modèle HG06337
 
 {% picture posts/{{ page.guid }}/prise-simple-zigbee-lidl-silvercrest.jpg --alt prise lidl silvercrest simple zigbee 3.0 --img width="940" height="529" %}
 
 **Infos Techniques**
 - Système de connexion sans fil: Zigbee 3.0
-- Puissance: max. 3 840 W (220-240 V / 16 A)
+- Reconnu sous **ZHA et Zigbee2mqtt**
+- Puissance: max. **3840 W** (220-240 V / 16 A)
 - Dimensions: env. 5,8 x 5,8 x 8,9 cm
 - Poids: 118gr
 
-## Silvercrest Multi-prise Usb
+## Silvercrest Multi-prise Usb Modèle HG06338
 
 {% picture posts/{{ page.guid }}/multiprise-zigbee-lidl-silvercrest-usb.jpg --alt multiprise lidl silvercrest simple zigbee 3.0 avc port usb --img width="940" height="529" %}
 
 **Infos Techniques**
-- USB-A : 5 V 2,4 A /port
+- USB-A : 5 V 2,4 A /port **( non domotisable )**
+- Reconnu sous **ZHA et Zigbee2mqtt**
 - Total 6 A (30 W) max.
 - Bloc multiprise à 3 prises : (16 A/220-240 V~ 50 Hz)
-- Charge totale maximale 3 840 W
+- Charge totale maximale **3 840 W**
+- Dimensions:
+- Poids: 
 
 **À Savoir**
 
@@ -74,9 +79,9 @@ Ci-dessous une présentation sommaire avec photo
 - Guide d’utilisation rapide (notice complète disponible par application ou - téléchargement à partir du site web de service)
 - Protocole de connexion sans fil : Zigbee 3.0
 
-## Capteur Mouvement
+## Capteur Mouvement modèle SMSZ 1 B2
 
-Détecte les mouvements grâce à un capteur infrarouge
+Détecte les mouvements grâce à un capteur infrarouge.
 Pour une utilisation comme détecteur de mouvement ou pour commander des éclairages.
 
 {% picture posts/{{ page.guid }}/capteur-mouvement-lidl-zigbee-silvercrest.jpg --alt capteur de mouvement lidl silvercrest zigbee 3.0 --img width="940" height="529" %}
@@ -84,7 +89,7 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 **Infos Techniques**
 
 - Alarme anti-détérioration
-- Ce produit peut être intégré à d’autres systèmes compatibles avec ZigBee 3.0
+- Reconnu dans **zigbee2mqtt sous le détecteur HG06335**
 - Portée de detection: Max 10m
 - Angle de détection : 120°
 - Dimensions: 
@@ -95,8 +100,8 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 
 [Boutique en ligne Lidl Livraison Belgique](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){:target="_blank"}
 
-# L'application Lidl SmartHome
-
 # Conclusion
+
+> Le rapport qualité prix est indéniable, si les dimensions des produits ne sont pas un critère de choix, alors foncez !
 
 Les produits Lidl Smart Home ne sont pas seulement moins chers que des produits de marques similaires, ils réduisent également votre facture d’énergie. Bon pour votre porte-monnaie et pour l’environnement. Les produits Smart Home sont en outre faciles à installer et à commander et grâce à la technologie Zigbee 3.0, ces produits sont de plus compatibles avec les produits intelligents d’autres fabricants. **Le label OBL vous indique que ces produits ont été testés de manière approfondie par un prestataire de services de test indépendant** pour détecter les défauts logiques, fonctionnels et techniques et que la sécurité des informations est garantie.
