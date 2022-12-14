@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/presentation-de-la-gamme-silvercrest-lidl-smart-home-zigbee",
     "title": "Présentation de la gamme zigbee lidl smart home",
-    "description": "11/12/2022 - voilà quelques temps que lidl a sorti sla gamme smart home silvercrest mais que vaut-elle ?",
+    "description": "11/12/2022 - voilà quelques temps que lidl a sorti la gamme smart home silvercrest mais que vaut-elle réellement?",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/jeedom-luna-box-domotique-tarif-maitrise",

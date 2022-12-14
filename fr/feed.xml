@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Dec 2022 03:07:53 +0000</pubDate>
+    <pubDate>Wed, 14 Dec 2022 03:06:50 +0000</pubDate>
     <lastBuildDate>Sun, 11 Dec 2022 18:42:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -32,9 +32,7 @@
       <pubDate>Sun, 11 Dec 2022 18:42:00 +0000</pubDate>
       <link>https://haade.fr/fr/blog/presentation-de-la-gamme-silvercrest-lidl-smart-home-zigbee</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-de-la-gamme-silvercrest-lidl-smart-home-zigbee</guid>
-      <category>Protocoles</category>
       <category>News</category>
-      <category>Tests</category>
       <category>Zigbee</category>
     </item>
     <item>

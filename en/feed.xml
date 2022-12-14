@@ -11,9 +11,30 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Dec 2022 03:07:53 +0000</pubDate>
+    <pubDate>Wed, 14 Dec 2022 03:06:50 +0000</pubDate>
     <lastBuildDate>Sun, 11 Dec 2022 18:42:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/34/presentation-gamme-lidl-silvercrest-smart-home-en.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Presentation of the zigbee lidl smart home range</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Lidl has been marketing connected products operating in &lt;strong&gt;Zigbee 3.0&lt;/strong&gt; for some time, the ranges concerned are &lt;strong&gt;Silvercrest&lt;/strong&gt; but also &lt;strong&gt;Livarno&lt;/strong&gt;. &lt;a href=&quot;https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&amp;amp;brand=silvercrest&amp;amp;brand=livarno+lux&amp;amp;brand =livarno+home&amp;amp;idsOnly=false&amp;amp;productsOnly=false&quot; target=&quot;_blank&quot;&gt;Click here to access the entire Zigbee Lidl range&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Imposing products, quality packaging, at first glance qualitative, but what is it really? can we trust this material!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+      <pubDate>Sun, 11 Dec 2022 18:42:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/presentation-of-the-range-silvercrest-lidl-smart-home-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/presentation-of-the-range-silvercrest-lidl-smart-home-zigbee</guid>
+      <category>News</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/32/jeedom-luna.jpg</url>
@@ -182,23 +203,6 @@ Using a ZigBee network and a Wi-Fi network on the same frequency will cause them
       <guid isPermaLink="true">https://haade.fr/en/blog/zoneminder-home-assistant-and-machinelearning</guid>
       <category>Security</category>
       <category>Haade-lab</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/20/sonoff-snzb-04-detecteur-porte-zigbee-3.0.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;That’s after the &lt;a href=&quot;/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02&quot;&gt;presentation of the temperature sensor SNZB-02&lt;/a&gt;, I will detail quickly &lt;a href=&quot;/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04&quot;&gt;the sonoff opening sensor SNZB-04&lt;/a&gt;, the quality remains the same, the packaging and the aesthetics of the module are similar. Further down there will also be a comparison with the xiaomi mijia door and window MCCGQ01LM&lt;/p&gt;
-</description>
-      <pubDate>Mon, 20 Sep 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/sensor-test-door-zigbee-3-0-sonoff-snzb-04</guid>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
