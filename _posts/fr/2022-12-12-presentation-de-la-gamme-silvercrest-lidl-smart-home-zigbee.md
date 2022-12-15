@@ -31,7 +31,7 @@ Lidl commercialise depuis un moment des produits connectés fonctionnant en **Zi
 
 # Modules Zigbee Smart home Lidl Silvercrest
 
-Déjà présenté à de nombreuses reprises, je ne vais pas m'attarder sur ces produits, par contre on peut lire à gauche et à droite qu'ils ne s'utilisent qu'avec la box Smart Home, eh bien ce n'est pas le cas, chez moi ils sont intégrés à Home Assistant par le biais de la passerelle [Zigbe2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
+Déjà présenté à de nombreuses reprises, je ne vais pas m'attarder sur ces produits, par contre on peut lire à gauche et à droite qu'ils ne s'utilisent qu'avec la box Smart Home, eh bien ce n'est pas le cas, chez moi ils sont intégrés à Home Assistant par le biais de la passerelle [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
 
 **Avantage:**{: .blue}
 1. Le prix de 10 à 30€ pour la multiprise

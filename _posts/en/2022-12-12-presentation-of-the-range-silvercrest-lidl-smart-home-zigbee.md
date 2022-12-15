@@ -31,7 +31,7 @@ Lidl has been marketing connected products operating in **Zigbee 3.0** for some 
 
 # Zigbee Smart home modules Lidl Silvercrest
 
-Already presented on many occasions, I will not dwell on these products, on the other hand we can read on the left and on the right that they are only used with the Smart Home box, well it is not If so, for me they are integrated with Home Assistant through the gateway [Zigbe2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
+Already presented on many occasions, I will not dwell on these products, on the other hand we can read on the left and on the right that they are only used with the Smart Home box, well it is not If so, for me they are integrated with Home Assistant through the gateway [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
 
 **Advantage:**{: .blue}
 1. The price of 10 to 30€ for the power strip
