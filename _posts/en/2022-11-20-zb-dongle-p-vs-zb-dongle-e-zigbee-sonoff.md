@@ -112,7 +112,7 @@ With sensitivity better than -104 dBm for 802.15.4 and long-range Bluetooth and 
 |**Processor**|Cortex-M4F|Cortex-M33|
 |**Flash Memory**|352Kb|**1000kb**{: .blue }|
 |**Ram**|80kb|**96kb**{: .blue }|
-|**Protocol Interface**|Z-Stack(ZNP)|EmberZNet(EZSP)|
+|**Protocol Interface**|Z-Stack(ZNP)|EmberZNet (EZSP)|
 |**Compatible**|Zigbee, Thread, Bluetooth|Zigbee, Thread, Bluetooth|
 |**Usb Serial Soc**|CP2102(N)|CH9102F|
 |**ID**|Dongle Plus|Dongle Plus V2|

@@ -3,7 +3,7 @@ guid: 4
 title: 'Zigbee vs Z-wave'
 description: "Comparons les deux protocoles domotique les plus utilisés z-wave face à zigbee"
 date: '2020-02-11T14:05:00+00:00'
-last_modified_at:
+last_modified_at: '2022-12-15'
 author: Nico
 categories: Domotique Protocoles
 tags: z-wave zigbee comparaison
@@ -63,7 +63,7 @@ Pour comprendre mieux le maillage zigbee [j’ai créé un article récemment su
 
 ### Alors quel est le bon protocole !
 
-Personnellement j’avais il y a 5 ans commencé à domotiser mon habitat en z-wave avec le gestionnaire domotique **[Jeedom]**(https://www.jeedom.com/site/fr/){:target="_blank"}.
+Personnellement j’avais il y a 5 ans commencé à domotiser mon habitat en z-wave avec le gestionnaire domotique **[Jeedom](https://www.jeedom.com/fr/)**{:target="_blank"}.
 
 > Tout au long de ces années j’ai pu me faire un avis objectif sur la question. De là est née l’envie d’éditer un comparatif zigbee vs z-wave.
 
@@ -79,6 +79,6 @@ Certes ce fut délicat mais je ne le regrette pas. Jeedom à commencé à dével
 
 ### Alors faut-il privilégier le Zigbee !
 
-**Pour conclure le protocole Zigbee est selon moi indispensable** et le protocole z-wave reste complémentaire voir secondaire, mais tout celà risque de change dans 1 à deux ans avec [l’arrivée du protocole Home over ip](https://www.connectedhomeip.com/){:target="_blank"} 😉
+**Pour conclure le protocole Zigbee est selon moi indispensable** et le protocole z-wave reste complémentaire voir secondaire, mais tout celà risque de change dans 1 à deux ans avec [l’arrivée du protocole Home over ip avec matter](https://buildwithmatter.com/){:target="_blank"} 😉
 
 À mon humble avis oui c’est beaucoup plus raisonnable en termes de coût et d’entretien, une fois que l’on a toute les astuces pour renforcer le maillage il devient même incontournable.
