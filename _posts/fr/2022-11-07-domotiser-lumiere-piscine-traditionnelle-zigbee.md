@@ -23,12 +23,9 @@ comments: true
 rating:  
 ---
 
-
-
-
 ## Intro
 
-{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DCX0fWX" %}
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEPOMbt" %}
 
 Voilà une présentation d'un petit module à 7€ qui sans le rappeler fait penser à un petit [tuto de domotisation d'une porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}).
 La grande nouveauté de cet article c'est le fait que Ewelink produise un module équivalent intégrant le protocole Zigbee 3.0 et en plus ils embarquent le RF 433 Mhz dispo à la vente avec une télécommande pour ceux qui le désirent.
@@ -53,7 +50,7 @@ On peut le commander sans hub domotique grâce à la fréquence radio et à la t
 
 ## Schéma des connectiques
 
-- Relais AC-DC 30v-230-
+- Relais AC-DC 30v-230v
 - alimentation micro usb 5v
 - alimentation filaire 7-32v
 - bouton-switch manuel
@@ -63,4 +60,18 @@ On peut le commander sans hub domotique grâce à la fréquence radio et à la t
 
 {% picture posts/{{ page.guid }}/detail-relais-ewelink-zigbee.jpg --alt détail relais ewelink zigbee --img width="820" height="820" %}
 
-{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DCX0fWX" %}
+## Reconnaissance dans Zigbee2mqtt
+
+Le module est reconnu comme interrupteur ewelink zb-sw01 et entièrement fonctionnel, il est d'ailleurs compatible avec **Zha, domoticz, jeedom, Tasmota et Deconz**, autant vous dire que vous pouvez foncer, d'ailleurs vous pouvez aussi vous orienter vers cet interrupteur au cas ou le module relais ne serait pas disponible.
+
+{% picture posts/{{ page.guid }}/zb-sw01-domotiser-lumière-piscine.png --alt reconnaissance du relais dans zigbee2mqtt ewelink --img width="939" height="686" %}
+
+[Lien de compatibilité Blakkader](https://zigbee.blakadder.com/eWeLink_ZB-SW015.html){:target="_blank"}
+
+## Photo mise en place
+
+{% picture posts/{{ page.guid }}/integration-module-lumière-piscine-traditionnelle-zigbee-homeassistant-ewelink.png --alt integration du module dans un boitier ip44 --img width="940" height="529" %}
+
+En suivant le schéma un peut plus haut il sera facile de brancher en parallèle sur le circuit de lumière.
+
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEPOMbt" %}
