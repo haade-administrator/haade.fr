@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Dec 2022 03:09:45 +0000</pubDate>
-    <lastBuildDate>Sun, 11 Dec 2022 18:42:00 +0000</lastBuildDate>
+    <pubDate>Fri, 16 Dec 2022 16:19:00 +0000</pubDate>
+    <lastBuildDate>Wed, 14 Dec 2022 16:37:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/35/moes-third-anniversary.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>offre special Moes Aliexpress</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Journée de la marque Chez Moes sur Aliexpress, la vente se termine le 16 Décembre à 23h59 et bénéficiez de remise supplémentaire:&lt;/p&gt;
+</description>
+      <pubDate>Wed, 14 Dec 2022 16:37:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/offre-special-moes</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/offre-special-moes</guid>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/34/presentation-gamme-lidl-silvercrest-smart-home.png</url>
@@ -187,26 +204,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Domotique</category>
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/24/controleur-intelligent-luminosite-moes.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test - ZSS-ZK-THL zigbee MOES</title>
-      <dc:creator>Yann</dc:creator>
-      <description>&lt;h1 id=&quot;top-ou-flop-&quot;&gt;TOP ou FLOP ?&lt;/h1&gt;
-</description>
-      <pubDate>Fri, 22 Oct 2021 00:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes</guid>
-      <category>Test</category>
-      <category>Zigbee</category>
-      <category>Homeassistant</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
