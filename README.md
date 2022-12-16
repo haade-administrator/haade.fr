@@ -22,3 +22,4 @@
 13. [carte produit avec scene](https://codepen.io/cannap/pen/WxJogO)
 14. intégrer le service gratuit pour l'envoi de mail par formulaire [formsubmit](https://formsubmit.co) [voir tuto youtube](https://www.youtube.com/watch?v=Yg6POD0M30w)
 15. [regex expression jekyll](https://michaelcurrin.github.io/code-cookbook/recipes/other/regex/)
+16. [listmonk mailinglist](https://github.com/knadh/listmonk)
