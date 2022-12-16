@@ -25,9 +25,9 @@ rating:
 
 ## Intro
 
-{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEPOMbt" %}
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEAPYLZ" %}
 
-Voilà une présentation d'un petit module à 7€ qui sans le rappeler fait penser à un petit [tuto de domotisation d'une porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}).
+Présentation d'un petit module à 7€ qui sans le rappeler fait penser à un petit [tuto de domotisation d'une porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}).
 La grande nouveauté de cet article c'est le fait que Ewelink produise un module équivalent intégrant le protocole Zigbee 3.0 et en plus ils embarquent le RF 433 Mhz dispo à la vente avec une télécommande pour ceux qui le désirent.
 
 ## Prérequis
@@ -74,4 +74,7 @@ Le module est reconnu comme interrupteur ewelink zb-sw01 et entièrement fonctio
 
 En suivant le schéma un peut plus haut il sera facile de brancher en parallèle sur le circuit de lumière.
 
-{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEPOMbt" %}
+## Conclusion
+Voilà un module zigbee à ne pas manquer pour domotiser tout ce qui fonctionne entre 7 et 32v comme les lumières de piscines, moteur de porte de garage, moteur de portail etc, et le tout en **ZIGBEE!**{: .red}
+
+{% include product-embed.html image="1-600x600.jpg" title="Module relais 1 zigbee 7-32v" brand="Ewelink" description="Module 1 relais zigbee eweling pour domotiser moteur ou lumière 7-32v" affiliate="_DEAPYLZ" %}
