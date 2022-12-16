@@ -2,11 +2,11 @@ name: Build and deploy Jekyll H2ade Blog
 
 on:
 
-#  push:
-#    branches:
-#      - 'main'
-#      - 'releases/**'
-#      - '!releases/**-alpha'
+  push:
+    branches:
+      - 'main'
+      - 'releases/**'
+      - '!releases/**-alpha'
 
 #    tags:
 #      - v1.*.*
