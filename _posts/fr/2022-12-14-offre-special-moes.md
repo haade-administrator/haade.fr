@@ -40,7 +40,7 @@ Journée de la marque Chez Moes sur Aliexpress, la vente se termine le 16 Décem
 
 [Moes jours de folies](https://www.aliexpress.com/store/5492026?spm=a2g0o.home.01003.1.1a6a7065pbuX37){:target="_blank"}
 
-{% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt zone inclusive dans ZM --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt zone inclusive dans ZM --img width="940" height="529" --link https://www.aliexpress.com/store/5492026?spm=a2g0o.home.01003.1.1a6a7065pbuX37 %}
 
 
 
