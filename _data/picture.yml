@@ -20,6 +20,7 @@ presets:
       img: 'class="pictinpost"'
       parent: 'class="lazyimg"'
     dimension_attributes: false
+    nomarkdown: true
     format_quality:
       jpg: 85
       png: 85
