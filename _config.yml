@@ -245,6 +245,10 @@ picture:
   ignore_missing_images: true
   nomarkdown: false
 
+# jekyll gist
+gist:
+  noscript: false
+
 exclude:
   - changelog.md
   - LICENSE.txt
