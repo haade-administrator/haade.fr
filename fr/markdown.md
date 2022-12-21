@@ -74,6 +74,8 @@ le retour à la ligne se fait automatiquement.
 
 # transformer un gif en webp sur le pc
 
+gif2webp -lossy image.gif -o image.webp
+
 {% highlight shell %}
 sudo apt-get update
 sudo apt-get install webp
