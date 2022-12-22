@@ -972,7 +972,7 @@ $alert-success: #42ae42;
   margin-bottom: 45px;
 }
 
-.pickgradient:after {
+.pickgradient a:after {
   content: '';
   position: absolute;
   left: 0;
@@ -1011,7 +1011,7 @@ span.header_title {
   text-decoration: none;
   font-weight: 700;
   text-shadow: 1px 1px #333;
-  max-width: 97%;
+  margin-right: 1em;
 
   &.latest {
     font-size: 24px;
