@@ -70,7 +70,7 @@ le retour à la ligne se fait automatiquement.
 
 # créer un lien traditionnel pour les gifs transformés en webp avec gif2webp
 
-![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}{:target="_blank"}
+![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}{: target="_blank"}
 
 # transformer un gif en webp sur le pc
 

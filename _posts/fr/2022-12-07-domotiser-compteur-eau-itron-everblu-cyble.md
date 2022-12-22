@@ -1,17 +1,17 @@
 ---
 guid: 33
-title: "domotiser son compteur d'eau itron en fréquence radio"
-description: "Domotiser pas à pas son compteur d'eau itron équipé d'un capteur 433mhz everblu cyble avec arduino dans homeassistant"
+title: "Domotise le compteur d'eau Itron avec esp et cc1101 dans ha pour 10€"
+description: "Domotiser pas à pas son compteur d'eau itron équipé d'un capteur 433mhz everblu cyble avec arduino dans homeassistant grâce un un module esp8266/esp32 et un émetteur/récepteur TI cc1101"
 layout: post
 author: Nico
 date: 2022-12-21 13:08
 last_modified_at: 
-categories: [Domotique, Haade-lab]
+categories: [Haade-lab, Home-assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -29,10 +29,15 @@ sourcelink:
 Depuis peu la *version 2022.11 de Homeassistant prend en charge le compteur d'énergie eau*, il est possible de récupérer les données facilement à l'aide d'esp et ça **pour 10€ environs**. Dans mon cas le compteur est équipé d'un émetteur 433Mhz Itron Everblu Cyble 2.1. Ce qui permet de récupérer les données à l'aide d'un récepteur CC1101 accouplé à un esp8266/esp32 facilement. J'ai repris et **modifié** un référentiel complet sur github qui a été édité par *psykokwak*, et je félicite son travail. [Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant](https://github.com/haade-administrator/watermeter2mqtt.git){: target="_blank"}.
 
 # Prérequis
-- une carte esp8266
-- un controleur CC1101
+- une [carte esp8266]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-wemos-d1-mini-pro-plus-antenne.md %})
+- un [controleur CC1101]({% link _products/{{ page.locale | slice: 0,2 }}/2022-12-09-cc1101-recepteur-frequence-radio-433mhz.md %})
 - un compteur d'eau Itron équipé d'un émetteur Itron Everblu cyble Enhanced [Itron Everblu cyble](https://www.itron.com/fr/solutions/product-catalog/everblu-cyble-enhanced){: target="_blank"}
 - home assistant v[2022.11.0 mini](https://www.home-assistant.io/blog/2022/11/02/release-202211/#getting-insights-into-water-usage){: target="_blank"}
+
+{% include product-embed.html guid="2131" %}
+{% include product-embed.html guid="2132" %}
+
+
 
 # Préparation Arduino
 
@@ -65,7 +70,7 @@ Commençons par installer la librairie de gestion des cartes esp8266 et esp32:
 ### Sélectionner la bonne carte dans mon cas un wemos d1 mini pro sur port usb 
 1. Branchez votre controlleur esp sur USB
 2. Dans le menu déroulant ajout carte /dev/USB0, commencez par sélectionner la carte et cochez le port correspondant.
-3. Pour terminer, Donnez les permissions au port usb
+3. Pour terminer, **Donne les permissions au port usb**
 
 {% highlight shell %}
 sudo usermod -a -G dialout #USER
@@ -92,18 +97,23 @@ git clone https://github.com/haade-administrator/watermeter2mqtt.git watermeter2
 
 # Connection esp866 au CC011 dans mon cas un Wemos D1 Mini
 
-|CC1101|Wemos D1 mini|
-|------|-----|
-|VCC|3V3|
-|GOD0 (GDO0)|D1, GPIO 5|
-|CSN (SPI chip select CS or SS)|D8, GPIO 15|
-|SCK (SPI clock)|D5, GPIO 14|
-|MOSI (SPI MOSI)|D7, GPIO 13|
-|GOD1 (SPI MISO)|D6, GPIO 12|
-|GOD2 (GDO2)|D2, GPIO 4|
-|GND (ground)|G|
+|[CC1101](https://s.click.aliexpress.com/e/_DEK1jt9){: target="_blank"}|[Wemos D1 mini](https://s.click.aliexpress.com/e/_Dc6fzTD){: target="_blank"}|[NodeMCU](https://s.click.aliexpress.com/e/_DBOXniR){: target="_blank"}|[ESP32](https://s.click.aliexpress.com/e/_DBOXniR){: target="_blank"}|
+|------|-------------|-------|-----|
+|VCC|3v3|3v3|3v3|
+|GOD0 (GDO0)|D1, GPIO 5|GPIO 5|GPIO 22|
+|CSN (SPI chip select CS or SS)|D8, GPIO 15|GPIO 15|GPIO 5 ou GPIO 15|
+|SCK (SPI clock)|D5, GPIO 14|GPIO 14|GPIO 18 ou GPIO 14|
+|MOSI (SPI MOSI)|D7, GPIO 13|GPIO 13|GPIO 23 ou GPIO 13|
+|GOD1 (SPI MISO)|D6, GPIO 12|GPIO 12|GPIO 19 ou GPIO 12|
+|GOD2 (GDO2)|D2, GPIO 4|GPIO 4|GPIO 21|
+|GND (ground)|G|GND|GND|
 
-{% picture posts/{{ page.guid }}/GPIO-ESP8266-D1-MINI-PRO-PICTURES.png --alt GPIO Wemos pin --img width="891" height="430" %}
+{% picture posts/{{ page.guid }}/d1-mini-gpio.png --alt GPIO Wemos d1 mini pin --img width="891" height="430" %}
+
+1. [Lien image NodeMcu Esp8266 GPIO](https://raw.githubusercontent.com/AchimPieters/ESP8266-12F---Power-Mode/master/Node-MCU-Pinout.png)
+2. [Lien image Gpio Esp32 - 30 pin](https://raw.githubusercontent.com/AchimPieters/esp32-homekit-camera/master/Images/ESP32-30PIN-DEVBOARD.png)
+3. [Lien image Gpio Esp32 - 30 pin](https://raw.githubusercontent.com/AchimPieters/esp32-homekit-camera/master/Images/ESP32-38%20PIN-DEVBOARD.png)
+
 
 # Paramétrons les fichiers avant vérification
 
@@ -225,7 +235,7 @@ tout en bas du fichier ligne 53-60
 
 
 
-# Dernière étape
+# Pousser le projet sur le module esp8266/esp32
 
 Il ne reste plus qu'à valider le projet croquis > vérifier/compiler ou Ctrl+R, et si tout c'est bien passé vous devrier avoir en résultat
 
@@ -254,6 +264,18 @@ Hard resetting via RTS pin...
 
 **Vérifie le monitor série**
 
+# Dernière étape faire remonter l'info dans le compteur d'énergie
+
+1. Dans homeassistant va dans Paramètres > Tableaux de bords > Energies
+2. Ajouter une source d'eau
+3. Sélectionne Water meter index
+
+![Paramétrer Consommation eau dans ha energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parameter-watermeter-energy-ha.webp{{ cachebuster }}){: width="657" height="287"}
+
+### Résultat final dans conso Energie
+
+{% picture posts/{{ page.guid }}/conso-energie-ha.png --alt Résultat final dans onglet conso energie --img width="600" height="400" %}
+
 
 
 # Foire aux questions
@@ -272,6 +294,9 @@ Votre compteur peut être configuré de telle sorte qu'il n'écoute les demandes
 #### Etalonnage de la fréquence 433Mhz
 
 Votre module émetteur-récepteur n'est peut-être pas calibré correctement, veuillez modifier la fréquence un peu plus bas ou plus haut et réessayez. Vous pouvez utiliser RTL-SDR pour mesurer le décalage nécessaire. Vous pouvez décommenter la partie du code dans le watermeter2mqtt.ino ( voir plus haut ), fichier qui analyse toutes les fréquences autour de la fréquence du compteur pour trouver la bonne.
+
+{% include product-embed.html guid="2131" %}
+{% include product-embed.html guid="2132" %}
 
 # Conclusion
 
