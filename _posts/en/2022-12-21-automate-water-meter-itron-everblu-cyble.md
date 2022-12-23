@@ -6,12 +6,12 @@ layout: post
 author: Nico
 date: 2022-12-21 13:08
 last_modified_at: 
-categories: [Haade-lab, Home-assistant, Esp]
+categories: [Haade-lab, Home-Assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -36,8 +36,6 @@ Recently *version 2022.11 of Homeassistant supports the water energy meter*, it 
 
 {% include product-embed.html guid="2131" %}
 {% include product-embed.html guid="2132" %}
-
-
 
 # Arduino preparation
 
@@ -67,6 +65,7 @@ Let's start by installing the esp8266 and esp32 card management library:
 {% picture posts/{{ page.guid }}/add-esp-mqtt-client.png --alt Add the espmqttclient library --img width="796" height="533" %}
 
 ### Select the right card in my case a wemos d1 mini pro on usb port
+
 1. Connect your esp controller to USB
 2. In the add /dev/USB0 card drop-down menu, start by selecting the card and checking the corresponding port.
 3. Finally, **Give permissions to the usb port**
@@ -179,7 +178,7 @@ Just uncomment the code line 272-291
   while (42);
   */
 }
-  {% endhighlight %}
+{% endhighlight %}
 
 ![Find the right frequency corresponding to the Everblu module]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/frequence-found.webp{{ cachebuster }}){: width="838" height="613"}
 
@@ -200,7 +199,7 @@ the result should look like the image below:
 Go to line 188-190 *if necessary*
 
 {% highlight yaml %}
-  configTzTime("CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", "pool.ntp.org");
+configTzTime("CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", "pool.ntp.org");
 {% endhighlight %}
 
 *The clock is set to Paris*, to modify according to your region [copy/paste the code available on this site](https://sites.google.com/a/usapiens.com/opnode/time-zones){: target="_blank"}
@@ -209,7 +208,7 @@ Go to line 188-190 *if necessary*
 
 Important step, match the connections of the CC1001 to the GPIO of the esp module:
 
-Let's start by going back to [the diagram available above]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/domotiser-compteur-eau-itron-everblu-cyble#connection-esp866-au-cc011-dans-mon-cas-un-wemos-d1-mini), you will be able to realize that on a Wemos D1 for example that SCK corresponds to the GPIO14, Miso 12 etc... knowing that modifies lines 94 to 100 of the code available in this file. See the animated GIF below:
+Let's start by going back to [the diagram available above]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/automate-water-meter-itron-everblu-cyble#connection-esp866-to-cc011-in-my-case-a-wemos-d1-mini), you will be able to realize that on a Wemos D1 for example that SCK corresponds to the GPIO14, Miso 12 etc... knowing that modifies lines 94 to 100 of the code available in this file. See the animated GIF below:
 
 ![Configure the connections of the CC1101 to the Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298"}
 
@@ -253,6 +252,7 @@ Les variables globales utilisent 35268 octets (43%) de mémoire dynamique, ce qu
 Then click upload: sketch > upload or Ctrl+U
 
 result:
+
 {% highlight shell %}
 Wrote 372528 bytes (266139 compressed) at 0x00000000 in 23.5 seconds (effective 126.9 kbit/s)...
 Hash of data verified.
@@ -297,7 +297,7 @@ Your transceiver module may not be calibrated correctly, please change the frequ
 
 # Conclusion
 
-This is a simple method to set up, for those who are not equipped with an Itron Everblu Enhanced transmitter, there is another method which consists of putting an [inductive sensor]({% link _products/{{ page.locale | slice: 0.2 }}/2022-11-29-inductive-sensor-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directly on the meter and connect it to an esp8266, this method is a little more restrictive because it will be necessary to have a source of energy near this meter in order to be able to supply the esp and the sensor with 5V, the price of the whole also oscillates around 10€, an excellent article is available here [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
+This is a simple method to set up, for those who are not equipped with an Itron Everblu Enhanced transmitter, there is another method which consists of putting an [inductive sensor]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-inductive-sensor-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directly on the meter and connect it to an esp8266, this method is a little more restrictive because it will be necessary to have a source of energy near this meter in order to be able to supply the esp and the sensor with 5V, the price of the whole also oscillates around 10€, an excellent article is available here [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
 
 
 

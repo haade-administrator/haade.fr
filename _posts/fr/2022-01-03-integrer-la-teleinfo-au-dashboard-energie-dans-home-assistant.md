@@ -6,7 +6,7 @@ layout: post
 author: Math67
 date: "2022-01-03T13:23:45+00:00"
 last_modified_at: "2022-01-03T13:23:47+00:00"
-categories: Domotique Haade-lab Home-Assistant
+categories: [Domotique, Haade-lab, Home-Assistant]
 tags: téléinformation
 image: integration-dashboard-energie-ha.png
 toc: true

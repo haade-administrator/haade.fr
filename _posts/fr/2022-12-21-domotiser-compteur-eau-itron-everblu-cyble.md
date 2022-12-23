@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2022-12-21 13:08
 last_modified_at: 
-categories: [Haade-lab, Home-assistant, Esp]
+categories: [Haade-lab, Home-Assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
@@ -25,14 +25,15 @@ sourcelink:
   - https://github.com/psykokwak-com/everblu-meters-esp8266
   - https://fr.macerobotics.com/developpeur/tutoriels/programmer-le-microcontroleur-esp8266-avec-lide-arduino/
   - https://sites.google.com/a/usapiens.com/opnode/time-zones
+  - https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor
 ---
 Depuis peu la *version 2022.11 de Homeassistant prend en charge le compteur d'énergie eau*, il est possible de récupérer les données facilement à l'aide d'esp et ça **pour 10€ environs**. Dans mon cas le compteur est équipé d'un émetteur 433Mhz Itron Everblu Cyble 2.1. Ce qui permet de récupérer les données à l'aide d'un récepteur CC1101 accouplé à un esp8266/esp32 facilement. J'ai repris et **modifié** un référentiel complet sur github qui a été édité par *psykokwak*, et je félicite son travail. [Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant](https://github.com/haade-administrator/watermeter2mqtt.git){: target="_blank"}.
 
 # Prérequis
 - une [carte esp8266]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-wemos-d1-mini-pro-plus-antenne.md %})
 - un [controleur CC1101]({% link _products/{{ page.locale | slice: 0,2 }}/2022-12-09-cc1101-recepteur-frequence-radio-433mhz.md %})
-- un compteur d'eau Itron équipé d'un émetteur Itron Everblu cyble Enhanced [Itron Everblu cyble](https://www.itron.com/fr/solutions/product-catalog/everblu-cyble-enhanced){: target="_blank"}
-- home assistant v[2022.11.0 mini](https://www.home-assistant.io/blog/2022/11/02/release-202211/#getting-insights-into-water-usage){: target="_blank"}
+- un compteur d'eau Itron équipé d'un émetteur [Itron Everblu cyble Enhanced](https://www.itron.com/fr/solutions/product-catalog/everblu-cyble-enhanced){: target="_blank"}
+- home assistant [v2022.11.0 mini](https://www.home-assistant.io/blog/2022/11/02/release-202211/#getting-insights-into-water-usage){: target="_blank"}
 
 {% include product-embed.html guid="2131" %}
 {% include product-embed.html guid="2132" %}
@@ -186,7 +187,7 @@ Il suffit de décommenter le code ligne 272-291
 
 Poussez le code sur votre module ensuite sélectionne Monitor série:
 
-{% picture posts/{{ page.guid }}/select-monitor-serie.png --alt Selectionne monitor serie sur arduino ide --img width="1115" height="577" %}
+{% picture posts/{{ page.guid }}/select-monitor-serie.png --alt Sélectionne monitor serie sur arduino ide --img width="1115" height="577" %}
 
 
 le résultat doit être comme sur l'image ci-dessous:
@@ -201,7 +202,7 @@ le résultat doit être comme sur l'image ci-dessous:
 Aller à la ligne 188-190 *si nécessaire*
 
 {% highlight yaml %}
-  configTzTime("CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", "pool.ntp.org");
+configTzTime("CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", "pool.ntp.org");
 {% endhighlight %}
 
 *L'horloge est réglé sur paris*, pour modifier en fonction de votre région [copiez/collez le code dispo sur ce site](https://sites.google.com/a/usapiens.com/opnode/time-zones){: target="_blank"}
@@ -210,7 +211,7 @@ Aller à la ligne 188-190 *si nécessaire*
 
 Étape importante, faire correspondre les branchements du CC1001 au GPIO du module esp:
 
-Commençons par reprendre [le schéma dispo plus haut]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/domotiser-compteur-eau-itron-everblu-cyble#connection-esp866-au-cc011-dans-mon-cas-un-wemos-d1-mini), tu pourras te rendre compte que sur un Wemos D1 par exemple que SCK correspond au GPIO14, Miso 12 etc... sachant ça modifie les lignes 94 à 100 du code dispo dans ce fichier. Voir le Gif animé ci-dessous:
+Commençons par reprendre [le schéma dispo plus haut]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/domotiser-compteur-eau-itron-everblu-cyble#connection-esp866-au-cc011-dans-mon-cas-un-wemos-d1-mini), tu pourras te rendre compte que sur un Wemos D1 par exemple que SCK correspond au GPIO14, Miso 12 etc... sachant que ça modifie les lignes 94 à 100 du code dispo dans ce fichier. Voir le Gif animé ci-dessous:
 
 ![Paramétrer les branchements du CC1101 au Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298"}
 
@@ -300,7 +301,7 @@ Votre module émetteur-récepteur n'est peut-être pas calibré correctement, ve
 
 # Conclusion
 
-Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-capteur-inductif-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille aussi autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
+Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-capteur-inductif-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
 
 
 
