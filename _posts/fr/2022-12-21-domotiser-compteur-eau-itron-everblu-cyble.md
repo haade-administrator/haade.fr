@@ -51,8 +51,8 @@ Depuis peu la *version 2022.11 de Homeassistant prend en charge le compteur d'é
 
 Commençons par installer la librairie de gestion des cartes esp8266 et esp32:
 
-[http://arduino.esp8266.com/stable/package_esp8266com_index.json](http://arduino.esp8266.com/stable/package_esp8266com_index.json){: target="_blank"}
-[https://dl.espressif.com/dl/package_esp32_index.json](https://dl.espressif.com/dl/package_esp32_index.json){: target="_blank"}
+[librairie carte esp8266](http://arduino.esp8266.com/stable/package_esp8266com_index.json){: target="_blank"}
+[Librairie carte esp32](https://dl.espressif.com/dl/package_esp32_index.json){: target="_blank"}
 
 - Fichier > Préférences et collez l'url ci-dessus dans URL de gestionnaire de carte supplémentaire
 

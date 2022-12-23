@@ -25,6 +25,7 @@ sourcelink:
   - https://github.com/psykokwak-com/everblu-meters-esp8266
   - https://fr.macerobotics.com/developpeur/tutoriels/programmer-le-microcontroleur-esp8266-avec-lide-arduino/
   - https://sites.google.com/a/usapiens.com/opnode/time-zones
+  - https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor
 ---
 Recently *version 2022.11 of Homeassistant supports the water energy meter*, it is possible to recover the data easily using esp and that **for around 10€**. In my case the meter is equipped with a 433Mhz Itron Everblu Cyble 2.1 transmitter. This makes it easy to retrieve data using a CC1101 receiver coupled to an esp8266/esp32. I picked up and **modified** a complete repository on github that was edited by *psykokwak*, and I commend his work. [This repository allows data to be received and transferred by mqtt to homeassistant](https://github.com/haade-administrator/watermeter2mqtt.git){: target="_blank"}.
 
@@ -48,8 +49,8 @@ Recently *version 2022.11 of Homeassistant supports the water energy meter*, it 
 
 Let's start by installing the esp8266 and esp32 card management library:
 
-[http://arduino.esp8266.com/stable/package_esp8266com_index.json](http://arduino.esp8266.com/stable/package_esp8266com_index.json){: target="_blank"}
-[https://dl.espressif.com/dl/package_esp32_index.json](https://dl.espressif.com/dl/package_esp32_index.json){: target="_blank"}
+[Card library esp8266](http://arduino.esp8266.com/stable/package_esp8266com_index.json){: target="_blank"}
+[Card library esp32](https://dl.espressif.com/dl/package_esp32_index.json){: target="_blank"}
 
 - File > Preferences and paste the above url in Additional Map Manager URL
 
