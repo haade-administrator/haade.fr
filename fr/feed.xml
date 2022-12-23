@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 22 Dec 2022 02:57:33 +0000</pubDate>
-    <lastBuildDate>Wed, 14 Dec 2022 16:37:00 +0000</lastBuildDate>
+    <pubDate>Fri, 23 Dec 2022 02:53:17 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Dec 2022 13:08:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/33/domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Domotise le compteur d&apos;eau Itron avec esp et cc1101 dans ha pour 10€</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Depuis peu la &lt;em&gt;version 2022.11 de Homeassistant prend en charge le compteur d’énergie eau&lt;/em&gt;, il est possible de récupérer les données facilement à l’aide d’esp et ça &lt;strong&gt;pour 10€ environs&lt;/strong&gt;. Dans mon cas le compteur est équipé d’un émetteur 433Mhz Itron Everblu Cyble 2.1. Ce qui permet de récupérer les données à l’aide d’un récepteur CC1101 accouplé à un esp8266/esp32 facilement. J’ai repris et &lt;strong&gt;modifié&lt;/strong&gt; un référentiel complet sur github qui a été édité par &lt;em&gt;psykokwak&lt;/em&gt;, et je félicite son travail. &lt;a href=&quot;https://github.com/haade-administrator/watermeter2mqtt.git&quot; target=&quot;_blank&quot;&gt;Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 21 Dec 2022 13:08:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/domotiser-compteur-eau-itron-everblu-cyble</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotiser-compteur-eau-itron-everblu-cyble</guid>
+      <category>Haade-lab</category>
+      <category>Home-assistant</category>
+      <category>Esp</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/35/moes-third-anniversary.png</url>
@@ -184,26 +203,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Tests</category>
       <category>Domotique</category>
       <category>Zigbee</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/25/integration-dashboard-energie-ha.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>La téléinfo dans le dashboard Energie de Home Assistant</title>
-      <dc:creator>Math67</dc:creator>
-      <description>&lt;p&gt;Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la &lt;a href=&quot;/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant&quot;&gt;téléinfo&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 03 Jan 2022 13:23:45 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</guid>
-      <category>téléinformation</category>
-      <category>Domotique</category>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>

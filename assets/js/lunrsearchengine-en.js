@@ -309,6 +309,12 @@ var documents = [{
         "title": "wemos mini D1 pro esp module with antenna",
         "description": "30/11/2022 - Renowned esp8266 development module wemos D1 mini pro with antenna to best capture wifi waves",
         "tags": ""
+        },{
+        "id": 56,
+        "url": "/en/product/cc1101-receiver-radio-frequency-433mhz",
+        "title": "CC1101 Wireless RF Transceiver Board Module, 315/433/868/915MHZ",
+        "description": "09/12/2022 - CC1101 Wireless RF Transceiver Board, SMA 315MHZ 433MHZ 868MHZ 915MHZ Antenna Module, 30ma GFSK MSK Modulation",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
