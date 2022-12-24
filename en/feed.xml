@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Dec 2022 02:53:17 +0000</pubDate>
+    <pubDate>Sat, 24 Dec 2022 02:48:57 +0000</pubDate>
     <lastBuildDate>Wed, 21 Dec 2022 13:08:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/33/domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Domotizes the Itron water meter with esp and cc1101 in ha for 10€</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Recently &lt;em&gt;version 2022.11 of Homeassistant supports the water energy meter&lt;/em&gt;, it is possible to recover the data easily using esp and that &lt;strong&gt;for around 10€&lt;/strong&gt;. In my case the meter is equipped with a 433Mhz Itron Everblu Cyble 2.1 transmitter. This makes it easy to retrieve data using a CC1101 receiver coupled to an esp8266/esp32. I picked up and &lt;strong&gt;modified&lt;/strong&gt; a complete repository on github that was edited by &lt;em&gt;psykokwak&lt;/em&gt;, and I commend his work. &lt;a href=&quot;https://github.com/haade-administrator/watermeter2mqtt.git&quot; target=&quot;_blank&quot;&gt;This repository allows data to be received and transferred by mqtt to homeassistant&lt;/a&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 21 Dec 2022 13:08:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/automate-water-meter-itron-everblu-cyble</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/automate-water-meter-itron-everblu-cyble</guid>
+      <category>Haade-lab</category>
+      <category>Home-Assistant</category>
+      <category>Esp</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/35/moes-third-anniversary.png</url>
@@ -184,24 +203,6 @@ Using a ZigBee network and a Wi-Fi network on the same frequency will cause them
       <category>Tests</category>
       <category>Automation</category>
       <category>Zigbee</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Domotical Box Rail Din Home-assistant and Raspberrypi</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical hardware is an integral part of a home, apart from a NAS is rather personal. The question of a move does not pose a problem for the NAS but with regard to home automation it must continue to function without its personal effects. This is why I decided to integrate the Home-Assistant home automation box on din rail into the electrical panel.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 05 Oct 2021 14:40:45 +0000</pubDate>
-      <link>https://haade.fr/en/blog/box-domotical-box-din-rail</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/box-domotical-box-din-rail</guid>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
