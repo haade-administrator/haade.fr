@@ -67,7 +67,7 @@
 		  "title: \"$2\"",
 		  "date: \"$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE\"",
 		  "description: \"$3\"",
-		  "categories: [${7|Boutique,Sonoff,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${8|Sonoff,Boutique,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${9|Wifi,Zigbee,Z-wave,Boutique,Sonoff,Accessoires,Raspberry-pi|}]",
+		  "categories: [${7|Boutique,Esp,Sonoff,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${8|Sonoff,Boutique,Esp,Wifi,Zigbee,Z-wave,Accessoires,Raspberry-pi|}, ${9|Wifi,Zigbee,Z-wave,Boutique,Sonoff,Accessoires,Esp,Raspberry-pi|}]",
 		  "tags: [$10]",
 		  "locale: ${11|fr_FR,en_GB|}",
 		  "brand: ${12|Moes,Sonoff,Xiaomi|}",

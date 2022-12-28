@@ -18,7 +18,6 @@ item: 1005002939261789
 item-affiliate: "_DdXXdRV"
 redirect_from: 
     - /produit/relais-7-30v-yunshan-lysignal/
-    - /fr/produit/relais-7-30v-yunshan-lysignal/
 ---
 
 Avec module WiFi ESP8266, conception de carte à 4 couches. Protection contre les surtensions d'entrée, entrée avec TVS, lorsque la tension dépasse 33 V, la protection automatique fonctionne. Protection contre les surintensités d'entrée. Relais 220V 10A, 125V 12A normalement ouvert, normalement fermé. Entrée d'isolation optocoupleur unidirectionnelle, protection d'entrée TVS. Bornes de courant élevé Un indicateur d'état de sortie, un indicateur d'état d'entrée. Plus de sécurité avec la conception anti-escalade des relais PCB. Serveur de contrôle d'accès via le mode CLIENT TCP Via le contrôle du protocole HTTP

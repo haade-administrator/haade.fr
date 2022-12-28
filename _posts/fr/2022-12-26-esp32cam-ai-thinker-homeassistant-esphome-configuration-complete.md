@@ -6,9 +6,9 @@ layout: post
 author: Nico
 date: 2022-12-25 23:25
 last_modified_at: 
-categories: [Docker, Domotique, Haade-lab]
+categories: [Domotique, Securite]
 tags: []
-image: 'picture.png'
+image: 'integration-esp32cam-esphome-homeassistant.png'
 toc: true
 beforetoc: ''
 published: false
@@ -22,8 +22,16 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - 
+  - https://esphome.io/components/esp32_camera.html
+  - https://wiki.keyestudio.com/KS5001_ESP32-CAM_Development_Board_WiFi%2BBluetooth_Module_with_OV2640_Camera_%28Black_and_Eco-friendly%29
 ---
+
+{% include product-embed.html guid="2133" %}
+{% include product-embed.html guid="2114" %}
+
 https://esphome.io/components/esp32_camera_web_server.html
-https://esphome.io/components/esp32_camera.html
-https://wiki.keyestudio.com/KS5001_ESP32-CAM_Development_Board_WiFi%2BBluetooth_Module_with_OV2640_Camera_%28Black_and_Eco-friendly%29
+
+{% gist 3eb516ff987528c414b5bb273dc48fc3 %}
+
+{% include product-embed.html guid="2133" %}
+
