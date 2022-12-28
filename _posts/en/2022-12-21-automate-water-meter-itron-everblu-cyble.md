@@ -5,7 +5,7 @@ description: "Automate your itron water meter step by step equipped with a 433mh
 layout: post
 author: Nico
 date: 2022-12-21 13:08
-last_modified_at: 
+last_modified_at: 2022-12-28 17:43
 categories: [Haade-lab, Home-Assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
@@ -141,7 +141,17 @@ EspMQTTClient mqtt(
   if (ptm->tm_hour == 14 && ptm->tm_min == 0 && ptm->tm_sec == 0)
 {% endhighlight %}
 
-**3 find the right frequency for your CC1101 transmitter**
+**3 choices of scheduled reading or at each data update**
+
+By default the script updates as soon as the data changes, just uncomment onScheduled line 257 to 259 and comment onUpdateData
+
+{% highlight yaml %}
+// Note: on scheduled allows you to read the information once a day, onUpdateData allows you to read each time information changes
+ // onScheduled();
+  onUpdateData();
+{% endhighlight %}
+
+**4 find the right frequency for your CC1101 transmitter**
 
 Just uncomment the code line 272-291
 
@@ -195,7 +205,7 @@ the result should look like the image below:
 > Once the code has been retrieved, remember to comment on these codes, otherwise you will not be able to upload the data later.
 
 
-**4 Set the clock to your region** *(Optional)*
+**5 Set the clock to your region** *(Optional)*
 
 Go to line 188-190 *if necessary*
 

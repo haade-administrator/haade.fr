@@ -5,7 +5,7 @@ description: "Domotiser pas à pas son compteur d'eau itron équipé d'un capteu
 layout: post
 author: Nico
 date: 2022-12-21 13:08
-last_modified_at: 
+last_modified_at: 2022-12-28 17:43
 categories: [Haade-lab, Home-Assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
@@ -134,7 +134,7 @@ EspMQTTClient mqtt(
 );
 {% endhighlight %}
 
-**2 ligne 88-90 réglage de du relevé**
+**2 ligne 88-90 réglage du relevé programmé**
 > Pour rappel ce code relève une fois par jour dans les heures ouvrés du releveur les données de consos.
 **ci dessous j'ai réglé sur 14h UTC ce qui correspond à 15h France**
 
@@ -143,7 +143,17 @@ EspMQTTClient mqtt(
   if (ptm->tm_hour == 14 && ptm->tm_min == 0 && ptm->tm_sec == 0)
 {% endhighlight %}
 
-**3 trouver la bonne fréquence de votre emetteur CC1101**
+**3 choix du relevé programmé ou à chaque mise à jour des données**
+
+Par défaut le script met à jour dès le changement de données modifier il suffit de décommenter onScheduled ligne 257 à 259 et de commenter onUpdateData
+
+{% highlight yaml %}
+// Note: on scheduled allows you to read the information once a day, onUpdateData allows you to read each time information changes
+ // onScheduled();
+  onUpdateData();
+{% endhighlight %}
+
+**4 trouver la bonne fréquence de votre emetteur CC1101**
 
 Il suffit de décommenter le code ligne 272-291
 
@@ -197,7 +207,7 @@ le résultat doit être comme sur l'image ci-dessous:
 > Une fois le code récupéré pense à commenter ces codes sinon tu ne pourras faire remonter les données ultérieurement.
 
 
-**4 Paramétrer l'horloge sur sa région** *(Optionnel)*
+**5 Paramétrer l'horloge sur sa région** *(Optionnel)*
 
 Aller à la ligne 188-190 *si nécessaire*
 
