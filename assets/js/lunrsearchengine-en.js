@@ -320,6 +320,12 @@ var documents = [{
         "title": "CC1101 Wireless RF Transceiver Board Module, 315/433/868/915MHZ",
         "description": "09/12/2022 - CC1101 Wireless RF Transceiver Board, SMA 315MHZ 433MHZ 868MHZ 915MHZ Antenna Module, 30ma GFSK MSK Modulation",
         "tags": ""
+        },{
+        "id": 58,
+        "url": "/en/product/esp32cam-ai-thinker",
+        "title": "camera esp32 ai-thinker",
+        "description": "28/12/2022 - Camera esp32cam ai-thinker, create a low cost camera",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

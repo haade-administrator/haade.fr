@@ -360,6 +360,12 @@ var documents = [{
         "title": "Module de carte émetteur-récepteur RF sans fil CC1101, 315/433/868/915MHZ",
         "description": "09/12/2022 - Carte émetteur-récepteur RF sans fil CC1101, Module d'antenne SMA 315MHZ 433MHZ 868MHZ 915MHZ, Modulation 30ma GFSK MSK",
         "tags": ""
+        },{
+        "id": 66,
+        "url": "/fr/produit/esp32cam-ai-thinker",
+        "title": "camera esp32 ai-thinker",
+        "description": "28/12/2022 - Caméra esp32cam ai-thinker, créer une caméra à faible cout",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
