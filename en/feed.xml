@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Jan 2023 02:52:00 +0000</pubDate>
+    <pubDate>Mon, 02 Jan 2023 11:34:26 +0000</pubDate>
     <lastBuildDate>Wed, 21 Dec 2022 13:08:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -32,23 +32,6 @@
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
       <category>Esp</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/35/moes-third-anniversary.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Special Offers Moes Aliexpress</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Brand Day At Moes on Aliexpress, sale ends December 16th at 11:59 p.m. and get extra discount:&lt;/p&gt;
-</description>
-      <pubDate>Wed, 14 Dec 2022 16:37:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/special-offers-moes</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/special-offers-moes</guid>
-      <category>News</category>
     </item>
     <item>
       <!-- <image>
@@ -203,6 +186,24 @@ Using a ZigBee network and a Wi-Fi network on the same frequency will cause them
       <category>Tests</category>
       <category>Automation</category>
       <category>Zigbee</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/23/box-domotique-rail-din-home-assistant.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Domotical Box Rail Din Home-assistant and Raspberrypi</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;For a long time I had the home automation system integrated into docker on the family NAS. But over time the installation has grown and as everyone knows the physical hardware is an integral part of a home, apart from a NAS is rather personal. The question of a move does not pose a problem for the NAS but with regard to home automation it must continue to function without its personal effects. This is why I decided to integrate the Home-Assistant home automation box on din rail into the electrical panel.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 05 Oct 2021 14:40:45 +0000</pubDate>
+      <link>https://haade.fr/en/blog/box-domotical-box-din-rail</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/box-domotical-box-din-rail</guid>
+      <category>Haade-lab</category>
+      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
