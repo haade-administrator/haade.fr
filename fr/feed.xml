@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 02 Jan 2023 11:55:01 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Dec 2022 13:08:00 +0000</lastBuildDate>
+    <pubDate>Mon, 02 Jan 2023 12:23:40 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Jan 2023 12:06:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/35/Moes-brand-day-40.jpg</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>offre special Moes Aliexpress</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Journée de la marque Chez Moes sur Aliexpress -40% sur les meilleurs produits Moes, à celà vous pouvez ajouter jusqu’à -50% de remise supplémentaire grâce aux journées &lt;a href=&quot;https://s.click.aliexpress.com/e/_DF4SggB&quot;&gt;Spotlight Plus&lt;/a&gt; offre valable &lt;strong&gt;jusqu’au Jeudi 5 Janvier&lt;/strong&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 02 Jan 2023 12:06:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/offre-special-moes</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/offre-special-moes</guid>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/33/domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png</url>
@@ -186,26 +203,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Tests</category>
       <category>Domotique</category>
       <category>Zigbee</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/25/integration-dashboard-energie-ha.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>La téléinfo dans le dashboard Energie de Home Assistant</title>
-      <dc:creator>Math67</dc:creator>
-      <description>&lt;p&gt;Dans cet article, nous allons voir comment intégrer dans le dashboard “Energie” les données de la &lt;a href=&quot;/fr/blog/integrer-son-compteur-electrique-teleinfo-dans-home-assistant&quot;&gt;téléinfo&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 03 Jan 2022 13:23:45 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant</guid>
-      <category>téléinformation</category>
-      <category>Domotique</category>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
