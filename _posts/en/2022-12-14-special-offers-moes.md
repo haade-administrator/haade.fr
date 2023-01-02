@@ -1,36 +1,40 @@
 ---
 guid: 35
 title: "Special Offers Moes Aliexpress"
-description: "aliexpress moes two day special offer ends on December 16, 2022 at 11:59 PM"
+description: "Moes special offer on aliexpress a maximum of discount coupons"
 layout: post
 author: Nico
-date: 2022-12-14 16:37
-last_modified_at: 
+date: 2023-01-02 12:06
+last_modified_at: 2023-01-02 12:06
 categories: [News]
 tags: []
-image: 'moes-third-anniversary.png'
+image: 'Moes-brand-day-40.jpg'
 toc: true
 beforetoc: ''
 published: true
 noindex: false
 sitemap:
-  changefreq: 'monthly'
+  changefreq: 'daily'
   exclude: 'no'
-  priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
+  priority: 1.0 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
 rating:  
 sourcelink:
   - https://www.aliexpress.com/store/5492026?spm=a2g0o.home.01003.1.1a6a7065pbuX37
+  - https://s.click.aliexpress.com/e/_DF4SggB
 ---
 
-Brand Day At Moes on Aliexpress, sale ends December 16th at 11:59 p.m. and get extra discount:
+Brand Day At Moes on Aliexpress -40% on the best Moes products, to this you can add up to -50% additional discount thanks to [Spotlight Plus days](https://s.click.aliexpress.com/e/_DF4SggB) offer valid **until Thursday January 5th**.
+
+1. Code **PLUS5** coupons up to 50% for a minimum order of 50€ **offer valid until 5/01/23**
+2. Code **PLUS10** coupons up to 50% for a minimum order of 100€ **offer valid until 5/01/23**
 
 
-1. Code **Moes20** Spend €221.64 and get an extra €19.24 off shipping
-2. Code **XWAXALMVAGSR** Spend €76.96 and get an additional €14.43 discount excluding delivery costs
-3. Code **Moes012** Spend €115.44 and get an extra €11.54 off shipping
+1. Code **0PTPVTQS4PK7** Spend €172.21 and get an additional €9.57 off shipping costs **valid until 02/28/23**
+2. Code **7W72X7VXTW86** Spend €47.84 and get an additional €2.87 off shipping costs **valid until 01/31/23**
+3. Code **UAXGI5LLNEJK** Spend €115.44 and get €11.54 extra discounts excluding delivery costs **valid until 03/31/23**
 
 > Discover the new switches **Moes Star ring Series** simply magnificent.
 
@@ -38,9 +42,9 @@ Brand Day At Moes on Aliexpress, sale ends December 16th at 11:59 p.m. and get e
 
 ## Click on the links below to benefit:
 
-[Moes crazy days](https://www.aliexpress.com/store/5492026?spm=a2g0o.home.01003.1.1a6a7065pbuX37){:target="_blank"}
+[Moes crazy days](https://s.click.aliexpress.com/e/_DF4SggB){:target="_blank"}
 
-{% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt inclusive area in ZM --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt inclusive area in ZM --img width="940" height="529" --link https://s.click.aliexpress.com/e/_DF4SggB %}
 
 
 
