@@ -23,7 +23,7 @@ comments: true
 rating:  
 sourcelink:
   - https://esphome.io/components/esp32_camera.html
-  - https://wiki.keyestudio.com/KS5001_ESP32-CAM_Development_Board_WiFi%2BBluetooth_Module_with_OV2640_Camera_%28Black_and_Eco-friendly%29
+  - https://www.studiopieters.nl/esp32-cam-troubleshooting/
 ---
 
 Pourquoi lancer cet article alors qu'il en existe déjà plein d'autres. Primo je me suis rendu compte que les autres articles ou sujet de forums sont tous incomplets ou mal expliqués quand à l'intégration complète dans Homeassistant. Secondo comme l'un des prochains articles aura comme intégration une microcaméra esp32-cam dans une lumière, il me fallait d'abord expliquer cette intégration.
@@ -37,8 +37,10 @@ Pourquoi lancer cet article alors qu'il en existe déjà plein d'autres. Primo j
 
 # Schéma de branchement ESP32-cam sur FTDI
 
-Le seul et l'unique branchement à suivre pour flasher la puce la première fois. 
+Le seul et l'unique branchement à suivre pour flasher la puce la première fois. **N'oublie pas de passer le cavalier sur 5v**.
 > J'ai l'habitude avant branchement sur le port usb de maintenir le bouton reset et de relâcher une fois le module branché sur le pc.
+
+{% picture posts/{{ page.guid }}/connection-esp32-cam-ai-thinker-with-ftdi-cavalier3v3.jpg --alt connection esp32-cam avec ftdi programmeur via usb --img width="756" height="381" %}
 
 |ESP32-CAM|FTDI Programmer|
 |---------|---------------|
@@ -46,24 +48,36 @@ Le seul et l'unique branchement à suivre pour flasher la puce la première fois
 |**5V**{: .red}|**VCC (5V)**{: .red}|
 |**U0R**{: .green}|**TX**{: .green}|
 |**U0T**{: .yellow}|**RX**{: .yellow}|
-||**GPIO 0**{: .blue} to **GND**{: .black}|
+|**GPIO 0**{: .blue} to **GND**{: .black}||
 
-si tu rencontres des soucis voici [un article complet et juste](https://www.studiopieters.nl/esp32-cam-troubleshooting/){: target="_blank"} sur la manip à réaliser ( en Anglais)
+si tu **rencontres des soucis** voici [un article complet et juste](https://www.studiopieters.nl/esp32-cam-troubleshooting/){: target="_blank"} sur la manip à réaliser **(en Anglais)**
 
 # Avant de rentrer dans le vif du sujet
 
 Les deux liens ci-dessous m'ont permis de paramétrer la caméra sur esphome
-Le premier pour les paramétrages en général, le second pour l'exposition de la vidéo et des images afin de pouvoir les exploiter sous HA ou via un NVR
+***Le premier*** pour les paramétrages en général, ***le second*** pour l'exposition de la vidéo et des images afin de pouvoir les exploiter sous HA ou via un NVR.
 
 1. [Esphome 32cam](https://esphome.io/components/esp32_camera.html){: target="_blank"}
 2. [Esphome 32cam server](https://esphome.io/components/esp32_camera_web_server.html){: target="_blank"}
 
+# Premier Flash
 
-# Fichier complet à importer dans esphome après Flash
+Première étape connecte le FTDI à l'ordinateur embarquant homeassistant
+
+{%- include alert.html type="info" text="J'ai l'habitude avant branchement sur le port usb de maintenir le bouton reset et de relâcher une fois le module branché sur le pc." %}
+
+Ensuite rendez-vous dans l'onglet Esphome et on clic sur le bouton vert New Device
+- Nomme le module
+- à l'étape de l'installation clic sur **SKIP THIS STEP**
+- choisis la carte, pick specific board > Ai Thinker ESP32-CAM
+- install et Plug into the computer run Dashboard
+
+# Fichier complet à importer dans esphome
 
 Le gist ci-dessous est complet il faudra biensûre personnaliser, les noms, les clés API, OTA et WIFI
 
-## Explication
+## Explication des lignes
+
 - de la ligne 37 à 49: Exposition des ports GPIO de l'esp32-cam
 - de 53 à 60: paramétrage de l'image/vidéo
 - de la ligne 64 à 68 paramétrage du serveur
@@ -76,6 +90,8 @@ Le gist ci-dessous est complet il faudra biensûre personnaliser, les noms, les 
 - ligne 110 à 112 ajout d'un bouton de redémarrage de la caméra
 
 {% gist 3eb516ff987528c414b5bb273dc48fc3 %}
+
+# 
 
 {% include product-embed.html guid="2133" %}
 
