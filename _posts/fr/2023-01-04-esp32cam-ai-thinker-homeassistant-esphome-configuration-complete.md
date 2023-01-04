@@ -117,6 +117,7 @@ EN regardant l'intégration ci-dessous nous avons bien:
 {% picture posts/{{ page.guid }}/rendu-homeassistant.png --alt rendu complet de la caméra esp32-cam dans homeassistant --img width="940" height="857" %}
 
 # Conclusion
+
 Pour 6€ avoir une caméra miniature intégrée à ce point dans homeassistant grâce à esphome, je dis chapeau, tu peux foncer, les modules Esp32 et Esp8266 sont vraiment des modules à acheter, à tester et à intégrer dans la vie de tous les jours, dans un prochain article je présenterai un esp32-cam intégré dans une borne lumineuse de parking une spycam sans aucun doute 😜.
 
 
