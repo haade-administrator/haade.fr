@@ -4,14 +4,14 @@ title: "Esp32-cam Ai Thinker et homeassistant"
 description: "Installation complète et facile de la caméra Esp32-cam Ai-thinker dans homeassistant via esphome"
 layout: post
 author: Nico
-date: 2022-12-25 23:25
+date: 2023-01-04 12:33
 last_modified_at: 
 categories: [Domotique, Securite]
 tags: []
 image: 'integration-esp32cam-esphome-homeassistant.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -33,12 +33,14 @@ Pourquoi lancer cet article alors qu'il en existe déjà plein d'autres. Primo j
 - Un Esp32-cam Ai Thinker classic
 - un [connecteur FTDI]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md%})
 
+{%- include alert.html type="help" text="Si c'est ta première intégration et que tu n'as pas de connecteurs FTDI tu peux acheter depuis peut la caméra esp32-cam avecbranchement par usb il s'agit de la version ch340" link="https://s.click.aliexpress.com/e/_DmTiKkr" textlink="Esp32-cam ch340g" %}
+
 {% include product-embed.html guid="2133" %}
 
 # Schéma de branchement ESP32-cam sur FTDI
 
 Le seul et l'unique branchement à suivre pour flasher la puce la première fois. **N'oublie pas de passer le cavalier sur 5v**.
-> J'ai l'habitude avant branchement sur le port usb de maintenir le bouton reset et de relâcher une fois le module branché sur le pc.
+> J'ai l'habitude avant branchement sur le port usb de **maintenir le bouton reset des modules esp32** et de relâcher une fois le module branché sur le pc.
 
 {% picture posts/{{ page.guid }}/connection-esp32-cam-ai-thinker-with-ftdi-cavalier3v3.jpg --alt connection esp32-cam avec ftdi programmeur via usb --img width="756" height="381" %}
 
@@ -64,13 +66,14 @@ Les deux liens ci-dessous m'ont permis de paramétrer la caméra sur esphome
 
 Première étape connecte le FTDI à l'ordinateur embarquant homeassistant
 
-{%- include alert.html type="info" text="J'ai l'habitude avant branchement sur le port usb de maintenir le bouton reset et de relâcher une fois le module branché sur le pc." %}
+{%- include alert.html type="info" text="J'ai l'habitude avant branchement sur le port usb de <b>maintenir le bouton reset des modules esp32</b> et de relâcher une fois le module branché sur le pc." %}
 
 Ensuite rendez-vous dans l'onglet Esphome et on clic sur le bouton vert New Device
-- Nomme le module
-- à l'étape de l'installation clic sur **SKIP THIS STEP**
-- choisis la carte, pick specific board > Ai Thinker ESP32-CAM
-- install et Plug into the computer run Dashboard
+1. Nomme la caméra
+2. à l'étape de l'installation clic sur **SKIP THIS STEP**
+3. choisis la carte, pick specific board > Ai Thinker ESP32-CAM
+4. install > Plug into the computer run Dashboard
+5. **Copie la clé API** tu en auras besoin lors de la configuration de la caméra dans home assistant.
 
 # Fichier complet à importer dans esphome
 
@@ -91,7 +94,31 @@ Le gist ci-dessous est complet il faudra biensûre personnaliser, les noms, les 
 
 {% gist 3eb516ff987528c414b5bb273dc48fc3 %}
 
-# 
+# Intégration et configuration dans Home-Assistant
+
+Une fois intégré dans Esphome, il faut encore paramétré la caméra dans homeassistant, rien de plus simple, il suffit d'aller dans **Paramètres** > **Appareils et services**, ensuite en haut à gauche apparaîtra un onglet esphome à configurer comme l'image ci-dessous.
+
+{% picture posts/{{ page.guid }}/home-assistant-configuration.png --alt configuration de la caméra esp32 dans homeassistant --img width="281" height="320" %}
+
+**lors de la configuration encore deux étapes à suivre:**
+
+1. il y aura une demande **d'ajout de noeud**
+2. après validation il faudra **renseigner la clé api** que tu auras copié précédemment enfin si tu as bien suivi les étapes du tuto.
+
+## rendu de la caméra Esp32-cam dans Home-assistant
+
+EN regardant l'intégration ci-dessous nous avons bien:
+
+- le contrôle et l'état des deux lumières
+- le capteur de la caméra
+- le redémarrage de la caméra esp32-cam
+- les infos diagnostics
+
+{% picture posts/{{ page.guid }}/rendu-homeassistant.png --alt rendu complet de la caméra esp32-cam dans homeassistant --img width="940" height="857" %}
+
+# Conclusion
+Pour 6€ avoir une caméra miniature intégrée à ce point dans homeassistant grâce à esphome, je dis chapeau, tu peux foncer, les modules Esp32 et Esp8266 sont vraiment des modules à acheter, à tester et à intégrer dans la vie de tous les jours, dans un prochain article je présenterai un esp32-cam intégré dans une borne lumineuse de parking une spycam sans aucun doute 😜.
+
 
 {% include product-embed.html guid="2133" %}
 
