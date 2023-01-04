@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Jan 2023 02:56:20 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Jan 2023 12:06:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Jan 2023 14:09:57 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Jan 2023 12:33:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/36/integration-esp32cam-esphome-homeassistant.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Esp32-cam Ai Thinker et homeassistant</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Pourquoi lancer cet article alors qu’il en existe déjà plein d’autres. Primo je me suis rendu compte que les autres articles ou sujet de forums sont tous incomplets ou mal expliqués quand à l’intégration complète dans Homeassistant. Secondo comme l’un des prochains articles aura comme intégration une microcaméra esp32-cam dans une lumière, il me fallait d’abord expliquer cette intégration.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Jan 2023 12:33:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/esp32cam-ai-thinker-homeassistant-esphome-configuration-complete</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/esp32cam-ai-thinker-homeassistant-esphome-configuration-complete</guid>
+      <category>Domotique</category>
+      <category>Securite</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/35/Moes-brand-day-40.jpg</url>
@@ -181,28 +199,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <category>Domotique</category>
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test interrupteur zigbee ZTS-EU à bouton poussoir Moes</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Par continuité voilà un test qualité de l’interrupteur à bouton tactileMoes aussi nommé Zts-eu celui_ci est à bouton poussoir, d’ailleurs il porte le même nom que le test fait précédemment avec l’interrupteur tactile de la même marque vous pouvez consulter le test: &lt;a href=&quot;/fr/blog/test-moes-interrupteur-zigbee-tactile-zts-eu-upgrade-2020&quot;&gt;test zts-eu tactile par Moes&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 06 Nov 2022 18:11:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-bouton-poussoir-moes-zts-eu-zigbee</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-bouton-poussoir-moes-zts-eu-zigbee</guid>
-      <category>Tests</category>
-      <category>Moes</category>
-      <category>Zigbee</category>
-      <category>Tests</category>
-      <category>Domotique</category>
-      <category>Zigbee</category>
     </item>
   </channel>
 </rss>

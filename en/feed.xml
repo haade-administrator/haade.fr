@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Jan 2023 02:56:20 +0000</pubDate>
-    <lastBuildDate>Mon, 02 Jan 2023 12:06:00 +0000</lastBuildDate>
+    <pubDate>Wed, 04 Jan 2023 14:09:57 +0000</pubDate>
+    <lastBuildDate>Wed, 04 Jan 2023 12:33:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/36/integration-esp32cam-esphome-homeassistant-en.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Esp32-cam Ai Thinker and homeassistant</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Why start this article when there are already plenty of others. First, I realized that the other articles or forum topics are all incomplete or poorly explained when it comes to full integration into Homeassistant. Secondo as one of the next articles will have as integration an esp32-cam microcamera in a light, I had to explain this integration first.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Jan 2023 12:33:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/esp32cam-ai-thinker-homeassistant-esphome-full-configuration</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/esp32cam-ai-thinker-homeassistant-esphome-full-configuration</guid>
+      <category>Automation</category>
+      <category>Security</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/35/Moes-brand-day-40.jpg</url>
@@ -181,28 +199,6 @@ Using a ZigBee network and a Wi-Fi network on the same frequency will cause them
       <category>Automation</category>
       <category>Haade-lab</category>
       <category>Home-Assistant</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/26/interrupteur-moes-zigbee-zts-eu-2-gang-test.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Moes Push Button Zigbee Switch Test ZTS-EU</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;For continuity here is a quality test of the Moes tactile button switch also named Zts-eu this is a push button, moreover it bears the same name as the test done previously with the tactile switch of the same brand you can consult the test: &lt;a href=&quot;/en/blog/test-moes-switch-zigbee-tactile-zts-eu-upgrade-2020&quot;&gt;test zts-eu tactile by Moes&lt;/a&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 06 Nov 2022 18:11:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/push-button-test-moes-zts-eu-zigbee</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/push-button-test-moes-zts-eu-zigbee</guid>
-      <category>Tests</category>
-      <category>Moes</category>
-      <category>Zigbee</category>
-      <category>Tests</category>
-      <category>Automation</category>
-      <category>Zigbee</category>
     </item>
   </channel>
 </rss>
