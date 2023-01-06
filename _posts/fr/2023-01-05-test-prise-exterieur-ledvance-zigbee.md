@@ -40,6 +40,7 @@ Aujourd'hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare 
 - Qualité de fabrication.
 - Interrupteur physique avec voyant vert.
 - **Compatible Zigbee2mqtt**
+- Reconnu comme **routeur** dans le maillage
 
 #### Inconvénient
 {: .red}
@@ -84,6 +85,12 @@ T'as besoin de la notice ou de la fiche produit, n'hésite pas télécharge c'es
 {% include doclink.html pdf="notice-technique-smartplug-ledvance-externe.pdf" title="notice technique smartplug + prise externe zigbee Ledvance" %}
 
 {% include doclink.html pdf="4058075729322_SMART_ZB_COMPACT_OUTDOOR_PLUG_EU_fr.pdf" title="fiche produit smartplug + prise externe zigbee Ledvance 4058075729322" %}
+
+# Integration [Zigbee2mqtt](https://www.zigbee2mqtt.io/){: target="_blank"}
+
+Comme souvent, l'intégration dans Z2M se fait sans soucis et c'est tant mieux :).
+
+{% picture posts/{{ page.guid }}/integration-into-ledvance-smartplug-exterieur-4058075729322-zigbee2mqtt.png --alt Dimensions zigbee prise externe Ledvance --img width="493" height="672" %}
 
 # Conclusion
 

@@ -40,6 +40,7 @@ Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the 
 - Manufacturing quality.
 - Physical switch with green light.
 - **Zigbee2mqtt compatible**
+- Recognized as **router** in the mesh
 
 #### Inconvenience
 {: .red}
@@ -67,8 +68,6 @@ Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the 
 |Ambient temperature range| -10°C to +35°C|
 |Type of protection| **IP44**|
 
-
-
 # Sizes
 
 {% picture posts/{{ page.guid }}/dimensions-size-smartplug-ledvance-4058075729322-prise-externe-zigbee.png --alt Ledvance external socket zigbee dimensions --img width="300" height="207" %}
@@ -84,6 +83,12 @@ You need the manual or the product sheet, don't hesitate to download it's in Fre
 {% include doclink.html pdf="notice-technique-smartplug-ledvance-externe.pdf" title="technical notice smartplug + external zigbee socket Ledvance" %}
 
 {% include doclink.html pdf="4058075729322_SMART_ZB_COMPACT_OUTDOOR_PLUG_EU_en.pdf" title="product sheet smartplug + external zigbee socket Ledvance 4058075729322" %}
+
+# Integration [Zigbee2mqtt](https://www.zigbee2mqtt.io/){: target="_blank"}
+
+As often, the integration in Z2M is done without worries and that's good :).
+
+{% picture posts/{{ page.guid }}/integration-into-ledvance-smartplug-exterieur-4058075729322-zigbee2mqtt.png --alt Ledvance external socket zigbee dimensions --img width="493" height="672" %}
 
 # Conclusion
 
