@@ -14,6 +14,12 @@ sitemap:
   priority: 0.0
 toc: true
 ---
+
+# lire les articles de drafts
+
+jekyll serve --drafts
+
+
 [source](https://www.markdownguide.org/tools/jekyll/){:target="_blank"}
 
 # Nombre de # pour la taille du titre

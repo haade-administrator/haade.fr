@@ -1,17 +1,17 @@
 ---
 guid: 38
-title: "Test de la prise exterieur zigbee ledvance Smartplug"
-description: "Test et unboxing de la prise smartplug+ Ledvance zigbee pour extérieur"
+title: "Test de la prise extérieur Zigbee Ledvance Smartplug+"
+description: "Test et unboxing de la prise SMART+ Compact Outdoor Plug | Prise extérieure connectée compacte pour contrôler des appareils conventionnels avec la technologie Zigbee"
 layout: post
 author: Nico
 date: 2023-01-05 15:20
 last_modified_at: 
-categories: [Test]
+categories: [Tests]
 tags: []
 image: 'external-wire-ledvance-smartplug-plus-ziggbee-ip44-prise-externe.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -20,14 +20,13 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 3.5
+rating: 3.7
 sourcelink:
   - https://www.ledvance.com/en/tech/products/index?productId=4058075729322&category=141283&documentId=408
   - https://www.benelux.ledvance.com/fr/particuliers/produits/smart-home/smart-home-components/smart-zigbee/composants-exterieurs-smart-avec-technologie-zigbee/prises-smart-avec-technologie-zigbee/prise-exterieure-connectee-compacte-pour-controler-des-appareils-conventionnels-avec-la-technologie-zigbee-c141283?productId=203923
 ---
-Aujourd'hui 
+Aujourd'hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare sur le marché, celui des prises connectées compatible extérieur. En France à l'heur ou j'écris ces quelques lignes, il est à ma connaissance le seul produit disponible
 [prise lidl](https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932){: target="_blank"}
-
 
 # Avantage du produit
 {: .blue}

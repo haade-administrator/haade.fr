@@ -11,7 +11,7 @@ tags: []
 image: 'picture.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -43,6 +43,12 @@ Tuto Haade-lab simple, pro et efficace pour un **coût de moins de 10€**, je v
 # Préparer le Transformateur
 
 Pour ma part j'avais un tout petit transformateur chinois de **5v et 1a**, après ouverture il suffit de déssouder le connecteur Usb, j'ai soudé à la place deux fils dupont mâle femelle ainsi je peux les connecter directement au 5v et Ground de la caméra, de l'autre côté j'ai déssoudé les cosses de la tête d'alimentation 230v et j'ai branché deux fils électriques récupéré sur une ancienne lampe.
+
+Si tu ne te sens pas prêt ou que tu n'as pas de transfo sous la main tu peux aussi acheter un mini module de puissance, perso je te conseil de prendre une unité de 1A mini, sur la page Aliexpress tu auras le choix et pourras monter jusqu'à 2A, pas mal
+
+_DdKafHl
+
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S6a21eecfcd074bcc999fabadd747c270k/Convertisseur-Buck-de-pr-cision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg_640x640.jpg" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
 
 # Préparer la réception du signal wifi
 
