@@ -75,7 +75,7 @@ l'intégration se fait sans soucis, l'intégration se fait en appuyant 5 seconde
 
 ## Important
 
-À l’heure actuelle les interrupteurs moes zts-eu ne sont pas reconnus coumme routeur dans zigbee2mqtt quand ils sont branchés avec le neutre
+À l’heure actuelle les interrupteurs moes zts-eu ne sont pas reconnus comme **routeur dans zigbee2mqtt mais comme enddevice** quand ils sont branchés avec le neutre
 
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt-4.png --alt bug interrupteur non reconnu comme routeur quand le neutre est branché --img width="329" height="269" %}
 

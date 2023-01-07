@@ -57,7 +57,7 @@ As uncle says in the video, the Moes switch works under homeassistant with the z
 ## What's the downside as I found only one other than it doesn't act as a router when the neutral isn't connected
 
 1. **The internal antenna lacks power** during our tests the switch is located 3 meters from the zigbee antenna and the **LQI indicated 52**, while the xiaomi door sensor located at the same distance **displays 113 LQI**. Having tested several touchscreens of different brands, the results remain essentially the same.
-2. The switch light does not work in Toggle mode (without bulbs connected through the switch.
+2. The switch light does not work in Toggle mode (without bulbs connected through the switch).
 
 ## In conclusion
 

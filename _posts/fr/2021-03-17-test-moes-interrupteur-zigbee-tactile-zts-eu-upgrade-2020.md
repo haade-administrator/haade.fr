@@ -54,10 +54,10 @@ Comme le dit tonton dans la vidéo, l’interrupteur Moes fonctionne sous homeas
 12. De ce fait on peut simuler un va et viens (2way) via notre assistant préféré.
 13. Le Prix plus qu’attractif 15-17€ pour l’inter blanc 1 touche
 
-## Quel est l’inconvénient car j’en ai trouvé qu’un seul à part le fait qu’il n’agisse pas comme routeur quand le neutre n’est pas branché
+## Quel est l’inconvénient car j’en ai trouvé qu’un seul à part le fait qu’il n’agisse pas comme routeur quand le neutre n’est pas branché.
 
 1. **L’antenne interne manque de puissance** lors de nos test l’interrupteur est situé à 3 mètres de l’antenne zigbee et le **LQI indiquait 52**, tandis que le capteur de porte xiaomi situé à la même distance **affiche 113 LQI**. Ayant testé plusieurs inter tactiles de différentes marques les résultat restent sensiblement les mêmes.
-2. La lumière de l’interrupteur ne fonctionne pas en mode Toggle ( sans ampoules de connectées via l’interupteur.
+2. La lumière de l’interrupteur ne fonctionne pas en mode Toggle ( sans ampoules de connectées via l’interupteur ).
 
 ## En Conclusion
 

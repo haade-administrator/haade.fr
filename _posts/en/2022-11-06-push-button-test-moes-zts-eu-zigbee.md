@@ -75,7 +75,7 @@ integration is done without worries, integration is done by pressing a push butt
 
 ## Important
 
-Currently the moes zts-eu switches are not recognized as a router in zigbee2mqtt when they are connected with the neutral
+Currently the moes zts-eu switches are not recognized as a **router in zigbee2mqtt but as enddevice** when they are connected with the neutral
 
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt-4.png --alt bug switch not recognized as router when neutral is connected --img width="329" height="269" %}
 
