@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 06 Jan 2023 02:59:28 +0000</pubDate>
-    <lastBuildDate>Wed, 04 Jan 2023 12:33:00 +0000</lastBuildDate>
+    <pubDate>Sat, 07 Jan 2023 02:53:49 +0000</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2023 15:20:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/38/external-wire-ledvance-smartplug-plus-ziggbee-ip44-4058075729322-prise-externe.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test de la prise extérieur Zigbee Ledvance Smartplug+</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Aujourd’hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare sur le marché, celui des prises connectées &lt;strong&gt;compatible en extérieur&lt;/strong&gt;. En France à l’heure ou j’écris ces quelques lignes, il est à ma connaissance le &lt;a href=&quot;https://www.amazon.fr/LEDVANCE-intelligente-lext%C3%A9rieur-technologie-4058075729322/dp/B0BFK1HPSB/ref=asc_df_B0BFK1HPSB/?tag=googshopfr-21&amp;amp;linkCode=df0&amp;amp;hvadid=603411883361&amp;amp;hvpos=&amp;amp;hvnetw=g&amp;amp;hvrand=8196400474170599897&amp;amp;hvpone=&amp;amp;hvptwo=&amp;amp;hvqmt=&amp;amp;hvdev=c&amp;amp;hvdvcmdl=&amp;amp;hvlocint=&amp;amp;hvlocphy=9055951&amp;amp;hvtargid=pla-1869637444266&amp;amp;psc=1&quot; target=&quot;_blank&quot;&gt;seul produit disponible en vente&lt;/a&gt; en france. Si t’es ressortissant Belge tu peux te procurer la &lt;a href=&quot;https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932&quot; target=&quot;_blank&quot;&gt;prise lidl&lt;/a&gt; pour extérieur avec mesure de consommation et au prix de 22€. &lt;em&gt;Quelle bande de veinard !&lt;/em&gt;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 05 Jan 2023 15:20:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-prise-exterieur-ledvance-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-prise-exterieur-ledvance-zigbee</guid>
+      <category>Tests</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/36/integration-esp32cam-esphome-homeassistant.png</url>
@@ -180,25 +197,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <guid isPermaLink="true">https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</guid>
       <category>Securite</category>
       <category>Domotique</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/27/domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Domotiser simplement l&apos;allumage de la lumière de la piscine</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
-</description>
-      <pubDate>Mon, 07 Nov 2022 22:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/domotiser-lumiere-piscine-traditionnelle-zigbee</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotiser-lumiere-piscine-traditionnelle-zigbee</guid>
-      <category>Domotique</category>
-      <category>Haade-lab</category>
-      <category>Home-Assistant</category>
     </item>
   </channel>
 </rss>
