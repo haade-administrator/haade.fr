@@ -25,7 +25,7 @@ sourcelink:
   - https://www.ledvance.com/en/tech/products/index?productId=4058075729322&category=141283&documentId=408
   - https://www.benelux.ledvance.com/fr/particuliers/produits/smart-home/smart-home-components/smart-zigbee/composants-exterieurs-smart-avec-technologie-zigbee/prises-smart-avec-technologie-zigbee/prise-exterieure-connectee-compacte-pour-controler-des-appareils-conventionnels-avec-la-technologie-zigbee-c141283?productId=203923
 ---
-Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the market, that of connected sockets **compatible outdoors**. In France at the time of writing these few lines, it is to my knowledge the [only product available for sale](https://www.amazon.fr/LEDVANCE-intelligente-lext%C3%A9rieur-technologie-4058075729322/dp/B0BFK1HPSB/ref=asc_df_B0BFK1HPSB/?tag=googshopfr-21&linkCode=df0&hvadid=603411883361&hvpos=&hvnetw=g&hvrand=8196400474170599897&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9055951&hvtargid=pla-1869637444266&psc=1){: target="_blank"}in France. If you are a Belgian national, you can get the [lidl plug](https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932){: target="_blank"} for outdoor with consumption measurement and at the price of 22€. *What a lucky bunch!*
+Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the market, that of connected sockets **compatible outdoors**. In France at the time of writing these few lines, it is to my knowledge the [only product available for sale](https://amzn.to/3VU9igT){: target="_blank"}in France. If you are a Belgian national, you can get the [lidl plug](https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932){: target="_blank"} for outdoor with consumption measurement and at the price of 22€. *What a lucky bunch!*
 
 # For or Against this take
 
@@ -45,8 +45,8 @@ Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the 
 **Inconvenience**{: .red}
 
 - Absence of consumption statement
-- Plug to German Eu Standards (incompatible with EU France standards, an adapter will be needed) or this [type of Legrand 069570 plug](https://www.amazon.fr/dp/B071J437G1/ref=emc_b_5_i?th=1){: target="_blank"}
-- Its price [about 35€ on amazon](https://www.amazon.fr/LEDVANCE-intelligente-lext%C3%A9rieur-technologie-4058075729322/dp/B0BFK1HPSB/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2G6RFBLVOZ4WZ&keywords=ledvance+zigbee&qid=1672948663&sprefix=ledvance+zigbee%2Caps%2C87&sr=8-14){: target="_blank"}
+- Plug to German Eu Standards (incompatible with EU France standards, an adapter will be needed) or this [type of Legrand 069570 plug](https://amzn.to/3Xb7t0f){: target="_blank"}
+- Its price [about 35€ on amazon](https://amzn.to/3VU9igT){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/prise-eu-german-zigbee-plug-ledvance.png --alt Too bad can not be used simply without an adapter --img width="775" height="525" %}
 
