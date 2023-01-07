@@ -8,7 +8,7 @@ date: 2023-01-05 15:20
 last_modified_at: 
 categories: [Tests]
 tags: []
-image: 'external-wire-ledvance-smartplug-plus-ziggbee-ip44-4058075729322-prise-externe.png'
+image: 'external-wire-ledvance-smartplug-plus-zigbee-ip44-4058075729322-prise-externe.png'
 toc: true
 beforetoc: ''
 published: true
@@ -31,8 +31,8 @@ Aujourd'hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare 
 
 {% picture posts/{{ page.guid }}/prise-eu-german-zigbee-plug-ledvance-femelle.png --alt Prise extérieur Smartplug+ Ledvance prise extérieur de qualité --img width="840" height="500" %}
 
-#### Avantage du produit
-{: .blue}
+**Avantage du produit**{: .blue}
+
 - Intègre l'équipement électrique conventionnel dans les systèmes domestiques intelligents compatibles.
 - Permet la commutation de sources lumineuses conventionnelles et d'autres appareils électriques.
 - Connexion simple d'appareils électriques via une prise standard.
@@ -42,8 +42,8 @@ Aujourd'hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare 
 - **Compatible Zigbee2mqtt**
 - Reconnu comme **routeur** dans le maillage
 
-#### Inconvénient
-{: .red}
+**Inconvénient**{: .red}
+
 - Absence de relevé de la consommation
 - Prise aux Normes Eu Allemande (incompatible avec les normes EU France il faudra un adaptateur) ou ce [type de prise Legrand 069570](https://www.amazon.fr/dp/B071J437G1/ref=emc_b_5_i?th=1){: target="_blank"}
 - Son prix [environ 35€ sur amazon](https://www.amazon.fr/LEDVANCE-intelligente-lext%C3%A9rieur-technologie-4058075729322/dp/B0BFK1HPSB/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2G6RFBLVOZ4WZ&keywords=ledvance+zigbee&qid=1672948663&sprefix=ledvance+zigbee%2Caps%2C87&sr=8-14){: target="_blank"}

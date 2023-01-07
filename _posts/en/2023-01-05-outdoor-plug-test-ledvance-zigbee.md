@@ -8,7 +8,7 @@ date: 2023-01-05 15:20
 last_modified_at: 
 categories: [Tests]
 tags: []
-image: 'external-wire-ledvance-smartplug-plus-ziggbee-ip44-4058075729322-prise-externe.png'
+image: 'external-wire-ledvance-smartplug-plus-zigbee-ip44-4058075729322-prise-externe.png'
 toc: true
 beforetoc: ''
 published: true
@@ -31,8 +31,8 @@ Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the 
 
 {% picture posts/{{ page.guid }}/prise-eu-german-zigbee-plug-ledvance-femelle.png --alt Outdoor socket Smartplug+ Ledvance quality outdoor socket --img width="840" height="500" %}
 
-#### Product Advantage
-{: .blue}
+**Product Advantage**{: .blue}
+
 - Integrates conventional electrical equipment into compatible smart home systems.
 - Allows the switching of conventional light sources and other electrical devices.
 - Simple connection of electrical devices via a standard socket.
@@ -42,8 +42,8 @@ Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the 
 - **Zigbee2mqtt compatible**
 - Recognized as **router** in the mesh
 
-#### Inconvenience
-{: .red}
+**Inconvenience**{: .red}
+
 - Absence of consumption statement
 - Plug to German Eu Standards (incompatible with EU France standards, an adapter will be needed) or this [type of Legrand 069570 plug](https://www.amazon.fr/dp/B071J437G1/ref=emc_b_5_i?th=1){: target="_blank"}
 - Its price [about 35€ on amazon](https://www.amazon.fr/LEDVANCE-intelligente-lext%C3%A9rieur-technologie-4058075729322/dp/B0BFK1HPSB/ref=sr_1_14?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2G6RFBLVOZ4WZ&keywords=ledvance+zigbee&qid=1672948663&sprefix=ledvance+zigbee%2Caps%2C87&sr=8-14){: target="_blank"}
