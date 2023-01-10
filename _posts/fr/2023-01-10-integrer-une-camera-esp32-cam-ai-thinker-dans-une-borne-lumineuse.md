@@ -33,8 +33,9 @@ Tuto Haade-lab simple, pro et efficace pour un **coût de moins de 10€**, je v
 3. du [fil dupont](https://s.click.aliexpress.com/e/_DEa3QnV){: target="_blank"}
 4. un transfo 5v 1-2A de téléphone portable (plus il est petit mieux c'est)
 5. du fil électrique multi-brin en 1mm d'épaisseur
-6. [un fer à souder ou station de soudage et de l'étaing](https://s.click.aliexpress.com/e/_DBNhnb1){: target="_blank"}
-7. ( optionnel ) un NVR de préférence [Frigate](https://frigate.video/){: target="_blank"}
+6. Une ou deux [appliques Philips Arbour](https://amzn.to/3W8BWv6){: target="_blank"}
+7. [un fer à souder ou station de soudage et de l'étaing](https://s.click.aliexpress.com/e/_DBNhnb1){: target="_blank"}
+8. ( optionnel ) un NVR de préférence [Frigate](https://frigate.video/){: target="_blank"}
 
 # Flasher et Intégrer la caméra dans HomeAssistant
 
