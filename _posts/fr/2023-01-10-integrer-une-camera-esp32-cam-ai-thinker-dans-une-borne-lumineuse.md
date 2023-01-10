@@ -60,8 +60,8 @@ Là c'est un peut plus délicat mais réalisable et assez facilement avec une st
 
 {%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." %}
 
-Passons désormais à l'étape d'intégration. Je vais essayer de faire au plus simple mais aussi au plus propre et ceux sans percer de trous à part pour la caméra. Ainsi j'éviterai naturellement les entrées d'eau qui pourrait se faire à l'intérieur de l'applique et faire disjoncter le compteur.
-Pour fixer le transformateur, l'antenne et l'optique de la caméra, j'ai utilisé un pistolet à colle chaude, en cas d'erreur il est toujours possible de l'enlever. Attention à coller en priorité l'optique de la caméra et éviter de trop coller le module ESP32-cam, d'une à l'utilisation tu risques de faire surchauffer les composants, de l'autre en cas de manipulation tu risques de décoller des composants. Cependant si tu désires tout de même coller le module caméra fait le sur les bords bas à gauche et à droite.
+Passons désormais à l'étape d'intégration. Je vais essayer de faire au plus simple mais aussi au plus propre et ceux sans percer de trous à part pour la caméra. Ainsi j'éviterai naturellement les entrées d'eau qui pourraient se faire à l'intérieur de l'applique et faire disjoncter le compteur.
+Pour fixer (transformateur, l'antenne et l'optique de la caméra), j'ai utilisé un pistolet à colle chaude, en cas d'erreur il est toujours possible de l'enlever. Attention à coller en priorité l'optique de la caméra et éviter de trop coller le module ESP32-cam, d'une à l'utilisation tu risques de faire surchauffer les composants, de l'autre en cas de manipulation tu risques de décoller des composants. Cependant si tu désires tout de même coller le module caméra fait le sur les bords bas à gauche et à droite.
 
 Pour l'instant j'ai mis l'antenne à l'intérieur de l'applique à voir si à l'utilisation cette intégration est viable. Sinon je verrai pour la déporter.
 
