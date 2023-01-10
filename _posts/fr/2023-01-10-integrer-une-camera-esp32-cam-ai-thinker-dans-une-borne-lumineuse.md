@@ -42,11 +42,9 @@ Tuto Haade-lab simple, pro et efficace pour un **coût de moins de 10€**, je v
 
 # Préparer le Transformateur
 
-Pour ma part j'avais un tout petit transformateur chinois de **5v et 1a**, après ouverture il suffit de déssouder le connecteur Usb, j'ai soudé à la place deux fils dupont mâle femelle ainsi je peux les connecter directement au 5v et Ground de la caméra, de l'autre côté j'ai déssoudé les cosses de la tête d'alimentation 230v et j'ai branché deux fils électriques récupéré sur une ancienne lampe.
+Pour ma part j'avais un tout petit transformateur chinois de **5v et 1a**, c'est ce qu'il me fallait car l'intégration dans l'applique est réduite. Après ouverture il suffit de déssouder le connecteur Usb, j'ai soudé à la place deux fils dupont mâle femelle ainsi je peux les connecter directement au 5v et Ground de la caméra, de l'autre côté j'ai déssoudé les cosses de la tête d'alimentation 230v et j'ai branché deux fils électriques récupéré sur une ancienne lampe.
 
 Si tu ne te sens pas prêt ou que tu n'as pas de transfo sous la main tu peux aussi acheter un mini module de puissance, perso je te conseil de prendre une unité de 1A mini, sur la page Aliexpress tu auras le choix et pourras monter jusqu'à 2A, pas mal
-
-_DdKafHl
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S6a21eecfcd074bcc999fabadd747c270k/Convertisseur-Buck-de-pr-cision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg_640x640.jpg" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
 
@@ -63,6 +61,9 @@ Là c'est un peut plus délicat mais réalisable et assez facilement avec une st
 {%- include alert.html type="warning" text="Vous allez devoir travailler au voisinage d'une tension de 220V qui est dangereuse si vous entrez en contact avec un conducteur électrique. Prenez garde à vos manipulations, en cas de doute coupez l'alimentation électrique." %}
 
 Passons désormais à l'étape d'intégration. Je vais essayer de faire au plus simple mais aussi au plus propre et ceux sans percer de trous à part pour la caméra. Ainsi j'éviterai naturellement les entrées d'eau qui pourrait se faire à l'intérieur de l'applique et faire disjoncter le compteur.
+Pour fixer le transformateur, l'antenne et l'optique de la caméra, j'ai utilisé un pistolet à colle chaude, en cas d'erreur il est toujours possible de l'enlever. Attention à coller en priorité l'optique de la caméra et éviter de trop coller le module ESP32-cam, d'une à l'utilisation tu risques de faire surchauffer les composants, de l'autre en cas de manipulation tu risques de décoller des composants. Cependant si tu désires tout de même coller le module caméra fait le sur les bords bas à gauche et à droite.
+
+Pour l'instant j'ai mis l'antenne à l'intérieur de l'applique à voir si à l'utilisation cette intégration est viable. Sinon je verrai pour la déporter.
 
 # Intégration dans frigate
 
