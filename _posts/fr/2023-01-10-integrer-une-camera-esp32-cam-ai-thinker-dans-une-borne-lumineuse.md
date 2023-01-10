@@ -8,10 +8,10 @@ date: 2023-01-04 15:38
 last_modified_at: 
 categories: [Haade-lab, Sécurité, Esp]
 tags: []
-image: 'picture.png'
+image: 'esp32-cam-resistor-external-antenna.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -47,7 +47,7 @@ Pour ma part j'avais un tout petit transformateur chinois de **5v et 1a**, c'est
 
 Si tu ne te sens pas prêt ou que tu n'as pas de transfo sous la main tu peux aussi acheter un mini module de puissance, perso je te conseil de prendre une unité de 1A mini, sur la page Aliexpress tu auras le choix et pourras monter jusqu'à 2A, pas mal
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S6a21eecfcd074bcc999fabadd747c270k/Convertisseur-Buck-de-pr-cision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg_640x640.jpg" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S331a25f1365d4104991809083690ff4bW/Convertisseur-Buck-de-pr-cision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg_Q90.jpg_.webp" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
 
 # Préparer la réception du signal wifi
 
