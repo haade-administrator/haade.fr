@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Jan 2023 03:03:57 +0000</pubDate>
+    <pubDate>Wed, 11 Jan 2023 02:55:34 +0000</pubDate>
     <lastBuildDate>Thu, 05 Jan 2023 15:20:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.1</generator>
     <item>
@@ -30,6 +30,25 @@
       <link>https://haade.fr/fr/blog/test-prise-exterieur-ledvance-zigbee</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-prise-exterieur-ledvance-zigbee</guid>
       <category>Tests</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/37/esp32-cam-resistor-external-antenna.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Intégrer une caméra esp32-cam dans une applique lumineuse</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Tuto Haade-lab simple, pro et efficace pour un &lt;strong&gt;coût de moins de 10€&lt;/strong&gt;, je vais intégrer une caméra Ai Thinker Esp32-cam dans une applique lumineuse Philips fixée sur le parking, non intrusive car très peut visible, &lt;em&gt;opération caméra espion.&lt;/em&gt; Elle sera controlée par &lt;strong&gt;le NVR Frigate&lt;/strong&gt; et intégrée dans homeassistant grâce au service esphome.&lt;/p&gt;
+</description>
+      <pubDate>Wed, 04 Jan 2023 15:38:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/integrer-une-camera-esp32-cam-ai-thinker-dans-une-borne-lumineuse</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/integrer-une-camera-esp32-cam-ai-thinker-dans-une-borne-lumineuse</guid>
+      <category>Haade-lab</category>
+      <category>Sécurité</category>
+      <category>Esp</category>
     </item>
     <item>
       <!-- <image>
@@ -177,24 +196,6 @@ L’utilisation d’un réseau ZigBee et d’un réseau Wi-Fi sur la même fréq
       <pubDate>Wed, 09 Nov 2022 19:49:00 +0000</pubDate>
       <link>https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/Explication-des-Zones-dans-ZM</guid>
-      <category>Securite</category>
-      <category>Domotique</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/28/utilisation-des-filtres-zoneminder.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Utilisation des Filtres dans ZM</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Les filtres dans ZoneMinder ont un rôle très important, ils permettent de classer, d’archiver de supprimer à peut près tout dans Zoneminder que ce soit les évènements, les vidéos ou les images.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 08 Nov 2022 09:25:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/Utilisation-des-Filtres-dans-ZM</guid>
       <category>Securite</category>
       <category>Domotique</category>
     </item>
