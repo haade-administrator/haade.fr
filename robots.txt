@@ -10,7 +10,6 @@ Disallow: /features/
 Disallow: /tag/
 Disallow: /feed/
 Disallow: /hot/
-Disallow: /community/
 Disallow: /forum/
 Disallow: /forums/
 Disallow: /reaction/
