@@ -8,7 +8,7 @@ date: 2023-01-04 15:38
 last_modified_at: 
 categories: [Haade-lab, Sécurité, Esp]
 tags: []
-image: 'esp32-cam-resistor-external-antenna.png'
+image: 'spycam-esp32cam-ai-thinker-applique-lumineuse.png'
 toc: true
 beforetoc: ''
 published: false
