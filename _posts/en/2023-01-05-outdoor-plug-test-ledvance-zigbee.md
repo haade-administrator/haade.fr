@@ -27,6 +27,8 @@ sourcelink:
 ---
 Today, I'm going to test and detail a rare Zigbee 3.0 compatible product on the market, that of connected sockets **compatible outdoors**. In France at the time of writing these few lines, it is to my knowledge the [only product available for sale](https://amzn.to/3VU9igT){: target="_blank"}in France. If you are a Belgian national, you can get the [lidl plug](https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932){: target="_blank"} for outdoor with consumption measurement and at the price of 22€. *What a lucky bunch!*
 
+{% include product-embed.html image="ledvance-prise-externe-smartplug-4058075729322-shop.png" title="Ledvance outdoor switch zigbee" brand="Ledvance" description="Ledvance outdoor smart plug+ zigbee technology" amazlink="3VU9igT" %}
+
 # For or Against this take
 
 {% picture posts/{{ page.guid }}/prise-eu-german-zigbee-plug-ledvance-femelle.png --alt Outdoor socket Smartplug+ Ledvance quality outdoor socket --img width="840" height="500" %}
@@ -94,4 +96,5 @@ As often, the integration in Z2M is done without worries and that's good :).
 
 The socket is of good quality, the integration into zigbee2mqtt (therefore Homeassistant and Jeedom compatible) is done without problem, the translucent button is well done, however I put 3 stars because the socket does not meet EU France standards so not usable without an additional plug and that's a shame, personally I still haven't understood why French sockets don't have the same standard.
 
+{% include product-embed.html image="ledvance-prise-externe-smartplug-4058075729322-shop.png" title="Ledvance outdoor switch zigbee" brand="Ledvance" description="Ledvance outdoor smart plug+ zigbee technology" amazlink="3VU9igT" %}
 

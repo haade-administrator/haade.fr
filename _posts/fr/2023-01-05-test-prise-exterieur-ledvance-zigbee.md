@@ -27,6 +27,8 @@ sourcelink:
 ---
 Aujourd'hui, je vais tester et détailler un produit compatible Zigbee 3.0 rare sur le marché, celui des prises connectées **compatible en extérieur**. En France à l'heure ou j'écris ces quelques lignes, il est à ma connaissance le [seul produit disponible en vente](https://amzn.to/3VU9igT){: target="_blank"} en france. Si t'es ressortissant Belge tu peux te procurer la [prise lidl](https://www.lidl.be/p/fr-BE/silvercrest-prise-connectee-smart-home-pour-l-exterieur/p100351932){: target="_blank"} pour extérieur avec mesure de consommation et au prix de 22€. *Quelle bande de veinard !*
 
+{% include product-embed.html image="ledvance-prise-externe-smartplug-4058075729322-shop.png" title="Prise extérieur ledvance zigbee" brand="Ledvance" description="Prise ledvance outdoor smart plug+ technologie zigbee" amazlink="3VU9igT" %}
+
 # Pour ou Contre cette prise
 
 {% picture posts/{{ page.guid }}/prise-eu-german-zigbee-plug-ledvance-femelle.png --alt Prise extérieur Smartplug+ Ledvance prise extérieur de qualité --img width="840" height="500" %}
@@ -95,5 +97,7 @@ Comme souvent, l'intégration dans Z2M se fait sans soucis et c'est tant mieux :
 # Conclusion
 
 La prise est de bonne qualitée, l'intégration dans zigbee2mqtt ( donc compatible Homeassistant et Jeedom ) se fait sans problème, le bouton  translucide est bien fait, cependant j'ai mis 3 étoiles car la prise n'est pas aux normes EU France donc non utilisable sans plug supplémentaire et c'est bien dommage, perso je n'ai toujours pas compris pourquoi les prises françaises n'ont pas la même norme.
+
+{% include product-embed.html image="ledvance-prise-externe-smartplug-4058075729322-shop.png" title="Prise extérieur ledvance zigbee" brand="Ledvance" description="Prise ledvance outdoor smart plug+ technologie zigbee" amazlink="3VU9igT" %}
 
 
