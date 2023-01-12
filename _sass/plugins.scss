@@ -405,6 +405,9 @@ $alert-success: #42ae42;
         }
 
         .aliexbutton {
+          img {
+            padding-right: 1em;
+          }
           a {
             background-color: #D61616;
           }
@@ -420,6 +423,9 @@ $alert-success: #42ae42;
         }
 
         .dombutton {
+          img {
+            padding-right: 1em;
+          }
           a {
             background-color: #6c4eac;
           }
@@ -431,6 +437,23 @@ $alert-success: #42ae42;
 
           :active {
             background-color: #ac90e9;
+          }
+        }
+        .amazbutton {
+          i {
+            padding-right: 1em;
+          }
+          a {
+            background-color: #ff9900;
+          }
+
+          :hover,
+          :focus {
+            background-color: #ffbf00;
+          }
+
+          :active {
+            background-color: #ffd000;
           }
         }
       }
