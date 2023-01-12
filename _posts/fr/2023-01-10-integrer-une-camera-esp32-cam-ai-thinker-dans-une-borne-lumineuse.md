@@ -11,7 +11,7 @@ tags: []
 image: 'esp32-cam-resistor-external-antenna.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -37,17 +37,27 @@ Tuto Haade-lab simple, pro et efficace pour un **coût de moins de 10€**, je v
 7. [un fer à souder ou station de soudage et de l'étaing](https://s.click.aliexpress.com/e/_DBNhnb1){: target="_blank"}
 8. ( optionnel ) un NVR de préférence [Frigate](https://frigate.video/){: target="_blank"}
 
+
+{% picture posts/{{ page.guid }}/materiel-necessaire-spycam-applique-lumineuse-garage.png --alt spycam dans applique lumineuse avecesp32-cam pour 6€ --img width="940" height="529" %}
+
+
 # Flasher et Intégrer la caméra dans HomeAssistant
 
 **J'ai rédigé un tuto complet** sur la manip à réaliser, [**tu as juste à lire cet article**]({% post_url /fr/2023-01-04-esp32cam-ai-thinker-homeassistant-esphome-configuration-complete %}){: target="_blank"}.
 
 # Préparer le Transformateur
 
+{% picture posts/{{ page.guid }}/modification-chargeur-usb-5v.png --alt modification chargeur Usb en adaptation alim --img width="940" height="529" %}
+
 Pour ma part j'avais un tout petit transformateur chinois de **5v et 1a**, c'est ce qu'il me fallait car l'intégration dans l'applique est réduite. Après ouverture il suffit de déssouder le connecteur Usb, j'ai soudé à la place deux fils dupont mâle femelle ainsi je peux les connecter directement au 5v et Ground de la caméra, de l'autre côté j'ai déssoudé les cosses de la tête d'alimentation 230v et j'ai branché deux fils électriques récupéré sur une ancienne lampe.
+
+{% picture posts/{{ page.guid }}/modification-chargeur-5v-pour-integration-spycam-esp32cam.png --alt adaptation chargeur usb 5v en alimentation esp32-cam --img width="940" height="529" %}
 
 Si tu ne te sens pas prêt ou que tu n'as pas de transfo sous la main tu peux aussi acheter un mini module de puissance, perso je te conseil de prendre une unité de 1A mini, sur la page Aliexpress tu auras le choix et pourras monter jusqu'à 2A, pas mal
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S331a25f1365d4104991809083690ff4bW/Convertisseur-Buck-de-pr-cision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg_Q90.jpg_.webp" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
+{% include product-embed.html image="Convertisseur-de-precision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg" title="Mini module de puissance 5V, 2A" brand="RQG" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" affiliate="_DdKafHl" %}
+
+{% include product-embed.html image="Convertisseur-de-precision-AC-DC-V-5V-12V-AC-3-3v-5v-cc-module.jpg" title="Mini module de puissance 5V, 2A" brand="Ai thinker" description="Mini module d'alimentation 230V AC vers 5V dc en à,7, 1 et 2 A" amazlink="_DdKafHl" %}
 
 # Préparer la réception du signal wifi
 
