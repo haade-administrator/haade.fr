@@ -88,7 +88,7 @@ sudo apt-get install webp
 
 Basic command line usage:
 
-gif2webp input.gif -o output.png
+gif2webp input.gif -o output.webp
 {% endhighlight %}
 
 ## Spoiler
@@ -182,6 +182,22 @@ textlink: descriptif du lien
 {%- include alert.html type="info" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
 {%- include alert.html type="error" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
 {%- include alert.html type="success" text="ceci est un texte" link="#" textlink="cliquez ici pour voir le site" %}
+
+# Choisir entre rouge et prism
+prism:
+
+convertir prism.css non minifié avec https://beautifytools.com/css-to-scss-converter.php
+ajouter prism.scss à _sass
+ajouter prism à import dans theme.scss
+ajouter prism.js à assets.js
+modifier package.js mais aussi default.js pour le mode development
+modifier config.yml
+
+rouge:
+
+virer prism
+ajouter _syntax.scss à theme.scss
+ajouter codeblock.js à defaut.html et aussi à package.js
 
 
 

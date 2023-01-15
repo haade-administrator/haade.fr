@@ -5,7 +5,7 @@ description: "Jeedom Luna est évolutive, multi-protocoles et autonome. En effet
 layout: post
 author: Nico
 date: 2022-12-06 07:50
-last_modified_at: "2022-12-18"
+last_modified_at: "2023-01-15 17:14"
 categories: [Jeedom, News]
 tags: []
 image: 'jeedom-luna.jpg'
@@ -81,3 +81,5 @@ Vous pouvez vous procurer cette box domotique **au prix de 199€ TTC** (hors op
 ## Conclusion
 
 L’équipe a désiré permettre à tout un chacun de profiter d’une combinaison d’équipements éprouvée en environnement professionnel avec toutes les attentes et obligations qui en découlent afin de pouvoir mettre en place, facilement et n’importe où, une infrastructure domotique efficace et résiliente à la hauteur des possibilités offertes par Jeedom ! **Reste plus qu'à attendre sa sortie imminente.**
+
+{% include product-embed.html image="jeedom-luna-shop.jpg" title="Nouvelle box domotique jeedom luna" brand="Jeedom" description="Jeedom Luna est évolutive, multi-protocoles et autonome. Elle est aussi bien en mesure de gérer les petites à moyennes installations domotiques" domlink="box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html" %}

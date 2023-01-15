@@ -26,7 +26,7 @@
 {%- else %}
 <div class="embedproduct">
     <div class="embedproduct-picture">
-        {%- if include.image contains "://" %}<img class="pictinpost lazyimg" width="250" height="250" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ include.image }}" alt="{{ product.description }}" >{%- else %}{% picture posts/{{ page.guid }}/{{ include.image }} 1:1 center --alt {{ include.description }} --img width="250" height="250" %}{%- endif %}
+        {%- if include.image contains "://" %}<img class="pictinpost lazyimg" width="250" height="250" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{{ include.image }}" alt="{{ include.description }}" >{%- else %}{% picture posts/{{ page.guid }}/{{ include.image }} 1:1 center --alt {{ include.description }} --img width="250" height="250" %}{%- endif %}
     </div>
     <div class="text">
         <div class="embedproduct-info">
@@ -43,7 +43,7 @@
             <span class="aliexbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ include.affiliate }}" target="_blank" rel="nofollow noopener"><img src="/assets/images/aliexpress-payment.png" alt="aliexpress logo payment"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Aliexpress</a></span>
             {%- endif %}
             {% if include.domlink %}
-            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/fr/{{ include.domlink }}?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
+            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ page.locale | slice: 0,2 }}/{{ include.domlink }}?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
             {%- endif %}
             {% if include.amazlink %}
             <span class="amazbutton" role="button"><a href="https://amzn.to/{{ include.amazlink }}" target="_blank" rel="nofollow noopener"><i class="fab fa-amazon fa-lg"></i>{{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Amazon</a></span>

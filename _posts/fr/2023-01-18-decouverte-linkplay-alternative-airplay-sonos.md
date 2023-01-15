@@ -25,11 +25,13 @@ sourcelink:
   - https://www.arylic.com/
   - https://www.linkplay.com/
   - https://fr.aliexpress.com/store/5047150?spm=a2g0o.detail.1000007.1.1214233a9V1zdT
+  - https://github.com/nagyrobi/home-assistant-custom-components-linkplay#installation
+  - https://github.com/hacs/integration
 ---
 
 Voilà quelque temps que je voulais rédiger cet article, comme je ne l'ai pas fait après l'achat de la carte Up2stream Amp V3, mais deux ans plus tard, je peux dire que ce produit à été éprouvé et te faire un retour sur la fiabilité du système linkplay Multi-room.
 
-{% include product-embed.html guid="2115" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S797d0591279b408bbe4dfd5393363d6a4/Up2Stream-amplificateur-Audio-sans-fil-V4-50W-x-2-carte-son-Multiroom-Streaming-sans-fil-st.jpg_Q90.jpg_.webp" title="Arylic Amp V4" brand="Arylic" description="Up2Stream – amplificateur Audio sans fil V4, 50W x 2, carte son, Multiroom, Streaming sans fil, stéréo, décodage DAC, réception Audio" affiliate="_DcuIO5Z" amazlink="3ZKq8SK" %}
 
 
 # Ce qui m'intéressait 
@@ -64,19 +66,19 @@ Les modules linkplay sont compatibles avec beaucoup de [protocoles et les servic
 - qobuz
 - etc...
 
-# Concernant l'application Companion ( 4stream )
+#  Companion app ( 4stream )
 
-[lien direct application companion google play noté 2,9](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
+[lien direct application companion google play **noté 2,9**](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
 
-[lien direct application companion App store](https://apps.apple.com/fr/app/4stream/id1446722739){: target="_blank"}
+[lien direct application companion App store **noté 3,1**](https://apps.apple.com/fr/app/4stream/id1446722739){: target="_blank"}**
 
 Malgré une notation faible c'est un logiciel fiable, mais pour tout de dire je l'utilise peut car d'une part j'utilise l'intégration linkplay dans homeassistant mais aussi directement Spotify.
 
-# Utilisation des produits [Up2stream]https://fr.aliexpress.com/store/5047150?spm=a2g0o.detail.1000007.1.1214233a9V1zdT{: target="_blank"}
+# Utilisation des produits [Up2stream](https://fr.aliexpress.com/store/5047150?spm=a2g0o.detail.1000007.1.1214233a9V1zdT){: target="_blank"}
 
 J'ai acheté en Décembre 2020 le module up2stream fabriqué par arylic Amp V3, désormais remplacé par une version V4, c'est à ma connaissance le seul fabriquant qui inclus la technologie Linkplay sur des cartes Diy.
 
-{% include product-embed.html guid="2115" %}
+{% include product-embed.html image="arylic-up2stream-amp-v4-multiroom.png" title="Arylic Amp V4" brand="Arylic" description="Up2Stream – amplificateur Audio sans fil V4, 50W x 2, carte son, Multiroom, Streaming sans fil, stéréo, décodage DAC, réception Audio" affiliate="_DcuIO5Z" amazlink="3ZKq8SK" %}
 
 # Installation du matériel
 
@@ -86,7 +88,7 @@ J'ai acheté en Décembre 2020 le module up2stream fabriqué par arylic Amp V3, 
 - 1 module [d'alimentation multiple Meanwell 12-24v](https://s.click.aliexpress.com/e/_DC0ZHPD){: target="_blank"}
 - 1 ou plusieurs [cordons d'alimentations **093**](https://s.click.aliexpress.com/e/_DnCLRVN){: target="_blank"}
 - 1 enceinte stéréo ou 2 monos aux choix minimum 50w ( j'ai choisi une [monitor audio c180 T-2 stéréo](https://www.monitoraudio.com/en/product-ranges/core/c180-t2/){: target="_blank"} )
-- 1 coffret de [rangement Debflex 210cm](https://amzn.to/3Xa4uFx){: target="_blank"}
+- 1 coffret de [rangement Debflex 315cm](https://amzn.to/3CMTNAR){: target="_blank"}
 
 # Intégration dans Homeassistant avec HACS.
 

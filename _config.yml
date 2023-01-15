@@ -190,11 +190,17 @@ autopages:
 
 
 # Other
-highlighter: rouge
+# highlighter: rouge
+# markdown: kramdown
+# kramdown:
+#   input: GFM
+#   syntax_highlighter: rouge
+
+highlighter: none
 markdown: kramdown
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+   syntax_highlighter_opts:
+      disable : true
 
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)

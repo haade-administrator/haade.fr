@@ -5,7 +5,7 @@ description: "Jeedom Luna is scalable, multi-protocol and autonomous. Indeed, du
 layout: post
 author: Nico
 date: 2022-12-06 07:50
-last_modified_at: "2022-12-18"
+last_modified_at: "2023-01-15 17:14"
 categories: [Jeedom, News]
 tags: []
 image: 'jeedom-luna.jpg'
@@ -81,3 +81,5 @@ You can get this home automation box **at the price of €199 including tax** (e
 ## Conclusion
 
 The team wanted to allow everyone to benefit from a proven combination of equipment in a professional environment with all the resulting expectations and obligations in order to be able to set up, easily and anywhere, an effective home automation infrastructure. and resilient up to the possibilities offered by Jeedom! **All that remains is to wait for its imminent release.**
+
+{% include product-embed.html image="jeedom-luna-shop.jpg" title="New box jeedom Luna" brand="Jeedom" description="Jeedom Luna is scalable, multi-protocol and autonomous. It is also well able to manage small to medium home automation installations" domlink="box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html" %}
