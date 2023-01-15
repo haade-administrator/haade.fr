@@ -11,7 +11,7 @@ tags: []
 image: 'picture.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -31,7 +31,7 @@ sourcelink:
 
 Voilà quelque temps que je voulais rédiger cet article, comme je ne l'ai pas fait après l'achat de la carte Up2stream Amp V3, mais deux ans plus tard, je peux dire que ce produit à été éprouvé et te faire un retour sur la fiabilité du système linkplay Multi-room.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S797d0591279b408bbe4dfd5393363d6a4/Up2Stream-amplificateur-Audio-sans-fil-V4-50W-x-2-carte-son-Multiroom-Streaming-sans-fil-st.jpg_Q90.jpg_.webp" title="Arylic Amp V4" brand="Arylic" description="Up2Stream – amplificateur Audio sans fil V4, 50W x 2, carte son, Multiroom, Streaming sans fil, stéréo, décodage DAC, réception Audio" affiliate="_DcuIO5Z" amazlink="3ZKq8SK" %}
+{% include product-embed.html image="arylic-up2stream-amp-v4-multiroom.png" title="Arylic Amp V4" brand="Arylic" description="Up2Stream – amplificateur Audio sans fil V4, 50W x 2, carte son, Multiroom, Streaming sans fil, stéréo, décodage DAC, réception Audio" affiliate="_DcuIO5Z" amazlink="3ZKq8SK" %}
 
 
 # Ce qui m'intéressait 
@@ -67,6 +67,8 @@ Les modules linkplay sont compatibles avec beaucoup de [protocoles et les servic
 - etc...
 
 #  Companion app ( 4stream )
+
+![image animée de l'application 4stream par linkplay]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/4stream.webp{{ cachebuster }}){: width="242" height="525"}
 
 [lien direct application companion google play **noté 2,9**](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
 
