@@ -54,7 +54,7 @@ comments:
 giscus:
   repo:                "haade-administrator/haade.fr"
   repo-id:             "R_kgDOHxeeuA"
-  category:            "Website Comments"
+  category:            "Comments"
   category-id:         "DIC_kwDOHxeeuM4CTn1C"
   mapping:             "title"
   strict:              "1"
@@ -62,6 +62,7 @@ giscus:
   emit-metadata:       "0"
   theme:               "light"
   position:            "top"
+  loading:             "lazy"
   lang:                "fr"
   crossorigin:         "anonymous"
 
