@@ -53,10 +53,11 @@ comments:
 # https://giscus.vercel.app/
 giscus:
   repo:                "haade-administrator/haade.fr"
-  repo-id:             "R_kgDOHHK8ZA"
-  category:            "Comments"
-  category-id:         "DIC_kwDOHHK8ZM4COugG"
+  repo-id:             "R_kgDOHxeeuA"
+  category:            "Website Comments"
+  category-id:         "DIC_kwDOHxeeuM4CTn1C"
   mapping:             "title"
+  strict:              "0"
   reaction-enabled:    "1"
   emit-metadata:       "0"
   theme:               "light"
