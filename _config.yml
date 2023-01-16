@@ -57,7 +57,7 @@ giscus:
   category:            "Website Comments"
   category-id:         "DIC_kwDOHxeeuM4CTn1C"
   mapping:             "title"
-  strict:              "1"
+  strict:              "0"
   reaction-enabled:    "1"
   emit-metadata:       "0"
   theme:               "light"
