@@ -62,7 +62,6 @@ giscus:
   emit-metadata:       "0"
   theme:               "light"
   position:            "top"
-  loading:             "lazy"
   lang:                "fr"
   crossorigin:         "anonymous"
 
