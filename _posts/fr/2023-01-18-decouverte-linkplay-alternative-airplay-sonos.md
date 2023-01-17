@@ -93,15 +93,48 @@ L'avantage de la cartte up2stream réside dans le fait qu'on puisse s'y connecte
 
 # Intégration dans Homeassistant avec [HACS](https://github.com/hacs/integration){: target="_blank"}.
 
-Linkplay est utilisable dans Homeassistant gr^ace à la librairie HACS, pour l'installer suis le tutoriel officiel [HACS](https://github.com/hacs/integration){: target="_blank"}. 
+Linkplay est utilisable dans Homeassistant avec l'implantation de la librairie HACS, pour l'installer suis le tutoriel officiel [HACS](https://github.com/hacs/integration){: target="_blank"}. 
 Ensuite il te suffit d'aller dans HACS > intégration > explorer et télécharger des dépôts.
-Cherche linkplay et install
+Cherche linkplay et installe-le.
 
 Le paramétrage se fait dans le fichier configuration.yaml de homeassistant.
 [Suis la notice d'installation](https://github.com/nagyrobi/home-assistant-custom-components-linkplay#installation){: target="_blank"}
 
 Ensuite l'interface linkplay est compatible avec [la carte mini media player](https://github.com/kalkih/mini-media-player){: target="_blank"}, pour l'installer rien de plus simple va dans HACS > interface > explorer et installer des dépôts.
 Recherche mini media player et installe le.
+
+{% highlight yaml %}
+media_player:
+    - platform: linkplay
+      host: 192.168.1.2
+      name: Player 1
+      sources: {}
+
+    - platform: linkplay
+      host: 192.168.1.3
+      name: Player 2
+      sources: {}
+      {% endhighlight %}
+
+# Mode Multiroom
+
+Les appareils Linkplay prennent en charge le multiroom en deux modes :
+
+- Mode WiFi direct, où le maître se transforme en point d'accès caché et les esclaves s'y connectent directement. L'avantage est qu'il s'agit d'une connexion directe dédiée entre les enceintes, avec des paramètres réseau optimisés en usine pour le streaming. 
+- Mode routeur, où le maître et les esclaves se connectent via le réseau local **(à partir du micrologiciel v4.2.8020)**.
+
+Cette intégration détectera automatiquement la version du firmware en cours d'exécution sur le lecteur et choisira le mode multiroom en conséquence. Les unités dont la version du micrologiciel est inférieure à v4.2.8020 peuvent se connecter aux multirooms uniquement en mode Wi-Fi direct . Le numéro de version du micrologiciel peut être vu dans les attributs de l'appareil.
+
+**Pour créer un groupe multiroom** rien de plus simple, connectez media_player.sound_player2(esclave) à media_player.sound_player1(maître) :
+
+{% highlight yaml %}
+    - service: linkplay.join
+      data:
+        entity_id: media_player.sound_player2
+        master: media_player.sound_player1
+{% endhighlight %}
+
+**Pour toute les autres options n'hésitez pas à consulter la doc du référentiel**
 
 {% picture posts/{{ page.guid }}/interface-mini-media-player.png --alt carte lovelace mini media player --img width="940" height="826 %}
 
