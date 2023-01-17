@@ -51,13 +51,14 @@ layout: compress
 <script src="{{ site.baseurl }}{{ '/assets/js/jquery-3.6.1.slim.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/theme.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/prism.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
 <!-- <script src="{{ site.baseurl }}{{ '/assets/js/codeblock.js' | cache_buster }}" type="text/javascript"></script> -->
 {%- endif %}
 
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
-{%- if site.backtotop == "enabled" %}
+<!-- {%- if site.backtotop == "enabled" %}
 <script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
-{%- endif %}
+{%- endif %} -->
 <!-- lunrsearch engine -->
 {%- assign lang = page.locale | default: "site.default_locale" | slice: 0,2 %}
 <script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>
