@@ -63,26 +63,13 @@ Linkplay fabrique des modules:
 
 Les modules linkplay sont compatibles avec beaucoup de [protocoles et de services de musique en streaming](https://www.linkplay.com/app){: target="_blank"} en autre:
 
-- Spotify
-- Tidal
-- Airplay
-- Airplay 2
-- tunein
-- deezer
-- napster
-- dlna
-- qobuz
-- etc...
+Spotify, Tidal, Airplay, Airplay 2, Tunein, Deezer, Napster, Dlna, Qobuz, etc...
 
 #  Companion app ( 4stream )
 
-![image animée de l'application 4stream par linkplay]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/4stream.webp{{ cachebuster }}){: width="242" height="525"}
-
-[lien direct application companion google play **noté 2,9**](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
-
-[lien direct application companion App store **noté 3,1**](https://apps.apple.com/fr/app/4stream/id1446722739){: target="_blank"}**
-
-Malgré une notation faible c'est un logiciel fiable, mais pour tout de dire je l'utilise peut car d'une part j'utilise l'intégration linkplay dans homeassistant mais aussi directement Spotify.
+|![image animée de l'application 4stream par linkplay]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/4stream.webp{{ cachebuster }}){: width="242" height="525"}|[lien direct application companion google play **noté 2,9**](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
+[lien direct application companion App store **noté 3,1**](https://apps.apple.com/fr/app/4stream/id1446722739){: target="_blank"}
+Malgré une notation faible c'est un logiciel fiable, mais pour tout de dire je l'utilise peut car d'une part j'utilise l'intégration linkplay dans homeassistant mais aussi directement Spotify.|
 
 # Utilisation des produits [Up2stream](https://fr.aliexpress.com/store/5047150?spm=a2g0o.detail.1000007.1.1214233a9V1zdT){: target="_blank"}
 
