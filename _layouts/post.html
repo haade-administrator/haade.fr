@@ -67,6 +67,14 @@ post_class: post-template
 </div>
 {%- endif %}
 
+<!-- affiliate-links -->
+{% capture amazon %}{{ content | has_amazon }}{{ content | has_aliexpress }}{{ content | has_domadoo }}{% endcapture %}
+{% if amazon == 'true' %}{% include affiliate-links.html %}{% endif %}
+{% if aliexpress == 'true' %}{% include affiliate-links.html %}{% endif %}
+{% if domadoo == 'true' %}{% include affiliate-links.html %}{% endif %}
+
+
+
 <!-- Author Box if enabled from _config.yml -->
 {%- include author-box.html %}
 
