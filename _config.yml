@@ -268,3 +268,6 @@ exclude:
   - banner.js
   - node_modules
   - .vscode
+
+# copy_to_dest plugins node_modules https://talk.jekyllrb.com/t/including-fontawesome-webfonts-from-node-modules/4486
+
