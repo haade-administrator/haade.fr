@@ -10,7 +10,7 @@ layout: default
 
 <div class="shop-single" itemtype="https://schema.org/Product" itemscope>
 
-  {%- include aliexcrap.html %}
+  {%- include aliexpress/aliexcrap.html %}
 
   {%- for scraper_hash in localscrapers %}
   {%- assign scrap = scraper_hash[1] %}
@@ -22,7 +22,7 @@ layout: default
     <!-- Featured Image -->
     {%- include featured-image.html %}
     
-    {%- include aliexreseller.html %}
+    {%- include aliexpress/aliexreseller.html %}
   </div>
   <div class="shop-article">
     {%- assign scraptitle = scraper.title | strip_html %}
@@ -31,7 +31,7 @@ layout: default
     {%- else %}
     <h1 class="posttitle" itemprop="name">{{ scraptitle | truncatewords: 9 }}</h1>
     {%- endif %}
-    {%- include aliexstar.html %}
+    {%- include aliexpress/aliexstar.html %}
 
     {%- include buttonshop.html %}
 
@@ -45,7 +45,7 @@ layout: default
 
   </div>
   <!-- Comments if not disabled with comments: false -->
-  <!-- {%- include aliexfeed.html %} -->
+  <!-- {%- include aliexpress/aliexfeed.html %} -->
 
   {%- endif %}
   {%- endfor %}

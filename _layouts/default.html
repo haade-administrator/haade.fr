@@ -13,10 +13,7 @@ layout: compress
 {%- assign translate = site.data.locales.translate %}
 {%- capture layout %}{%- if page.layout %}layout-{{ page.layout }}{%- endif %}{%- endcapture %}
 <body>
-	<!-- defer loading of font and fontawesome -->
-	<noscript id="deferred-styles">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-	</noscript>
+
 <header>
 	{%- include header.html %}
 </header>
@@ -54,13 +51,14 @@ layout: compress
 <script src="{{ site.baseurl }}{{ '/assets/js/jquery-3.6.1.slim.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/theme.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/prism.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
 <!-- <script src="{{ site.baseurl }}{{ '/assets/js/codeblock.js' | cache_buster }}" type="text/javascript"></script> -->
 {%- endif %}
 
 <!-- back to top vanilla script https://github.com/vfeskov/vanilla-back-to-top -->
-{%- if site.backtotop == "enabled" %}
+<!-- {%- if site.backtotop == "enabled" %}
 <script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
-{%- endif %}
+{%- endif %} -->
 <!-- lunrsearch engine -->
 {%- assign lang = page.locale | default: "site.default_locale" | slice: 0,2 %}
 <script src="{{site.baseurl}}{{ '/assets/js/lunrsearchengine-' | append: lang | append: '.js' | cache_buster }}"></script>
