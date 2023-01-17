@@ -33,7 +33,7 @@ sourcelink:
 
 ## Présentation CC2652P clé ZBDongle-P
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S90bbc8d67fea433b9049a0df5f455f48c/1-10PCS-SONOFF-ZB-Dongle-Plus-USB-Zigbee3-0-Passerelle-Analyseur-Zigbee-2MQTT-Interface-Capture-Avec.jpg_Q90.jpg_.webp" title="Sonoff zbdongle-p cc2652p" brand="Sonoff" description="Le dongle USB SONOFF Zigbee 3.0 est une clé USB Zigbee universelle." affiliate="_DEQcEe7" %}
+{% include product-embed.html image="SONOFF-ZB-Dongle-Plus-USB-Zigbee3-0-Passerelle-Analyseur-Zigbee-2MQTT.jpg" title="Sonoff zbdongle-p cc2652p" brand="Sonoff" description="Le dongle USB SONOFF Zigbee 3.0 est une clé USB Zigbee universelle." affiliate="_DEQcEe7" %}
 
 L'appareil SimpleLink™CC2652P est un microcontrôleur sans fil (MCU) multiprotocole de 2,4 GHz prenant en charge **Thread , Zigbee , Bluetooth 5.2 Low Energy** , IEEE 802.15.4, les objets intelligents compatibles IPv6 (6LoWPAN), les systèmes propriétaires, y compris le TI 15.4-Stack (2.4 GHz) et multiprotocole simultané via un pilote Dynamic Multiprotocol Manager (DMM). L'appareil est optimisé pour la communication sans fil à faible puissance et la détection avancée dans les systèmes de sécurité des bâtiments, CVC, médical, réseau câblé, électronique portable, home cinéma et divertissement, et marchés des périphériques connectés. 
 
