@@ -1,5 +1,10 @@
-<p class="disclosure">En cours de rédaction</p>
-    <style>
+{% capture amazon %}{{ content | has_amazon }}{% endcapture %}
+{% capture aliexpress %}{{ content | has_aliexpress }}{% endcapture %}
+{% capture domadoo %}{{ content | has_domadoo }}{% endcapture %}
+
+<p class="disclosure">En cours de rédaction {% if amazon == 'true' %}Amazon{% endif %}{% if aliexpress == 'true' %}Aliexpress{% endif %}{% if domadoo == 'true' %}Domadoo{% endif %}</p>
+
+<style> 
         p.disclosure {
   font-size: .75em;
   background: #efefef;

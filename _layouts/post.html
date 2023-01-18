@@ -68,10 +68,11 @@ post_class: post-template
 {%- endif %}
 
 <!-- affiliate-links -->
-{% capture amazon %}{{ content | has_amazon }}{{ content | has_aliexpress }}{{ content | has_domadoo }}{% endcapture %}
-{% if amazon == 'true' %}{% include affiliate-links.html %}{% endif %}
-{% if aliexpress == 'true' %}{% include affiliate-links.html %}{% endif %}
-{% if domadoo == 'true' %}{% include affiliate-links.html %}{% endif %}
+{% capture amazon %}{{ content | has_amazon }}{% endcapture %}
+{% capture aliexpress %}{{ content | has_aliexpress }}{% endcapture %}
+{% capture domadoo %}{{ content | has_domadoo }}{% endcapture %}
+<!-- {% if amazon == 'true' or aliexpress == 'true' or domadoo == 'true' %}{% include affiliate-links.html %}{% endif %} -->
+
 
 
 
