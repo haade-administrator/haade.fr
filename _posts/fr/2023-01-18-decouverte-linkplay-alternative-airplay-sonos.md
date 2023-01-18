@@ -8,7 +8,7 @@ date: 2023-01-10 18:46
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]
 tags: []
-image: 'picture.png'
+image: 'multiroom-arylic-linkplay-diy.png'
 toc: true
 beforetoc: ''
 published: false
