@@ -14,6 +14,7 @@ Disallow: /forum/
 Disallow: /forums/
 Disallow: /reaction/
 Disallow: /snax_format/
+Disallow: /wp-content/
 
 Sitemap: https://haade.fr/sitemap.xml
 
