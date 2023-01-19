@@ -5,7 +5,7 @@ description: "voilà quelques temps que lidl a sorti la gamme smart home silverc
 layout: post
 author: Nico
 date: 2022-12-11 18:42
-last_modified_at: 
+last_modified_at: 2023-01-18 16:02
 categories: [News, Zigbee]
 tags: []
 image: 'presentation-gamme-lidl-silvercrest-smart-home.png'
@@ -24,10 +24,11 @@ rating:
 sourcelink:
   - https://www.lidl.fr/la-variete-lidl/smart-home
 ---
+
 Lidl commercialise depuis un moment des produits connectés fonctionnant en **Zigbee 3.0**, les gammes concernées sont **Silvercrest** mais aussi **Livarno**. [Cliquez ici pour accéder à l'ensemble de la Gamme Zigbee Lidl](https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&brand=silvercrest&brand=livarno+lux&brand=livarno+home&idsOnly=false&productsOnly=false){:target="_blank"}.
 > Produits imposants, emballage de qualité, au premier abord qualitatif, mais qu'en est-il réellement ? pouvons-nous nous fier à ce matériel !
 
-{%- include alert.html type="info" text="Prochaine vente dans vos magasins le <b>../../....</b>" %}
+{%- include alert.html type="info" text="Prochaine vente dans vos magasins le <b>18/01/2023</b>" %}
 
 # Modules Zigbee Smart home Lidl Silvercrest
 
