@@ -1,7 +1,7 @@
 ---
 guid: 40
 title: "En vente actuellement dans vos magasins Lidl"
-description: "La gamme silvercrest Zigbee est en vente actuellement dans vos magasins Lidl"
+description: "La domotique lidl silvercrest Zigbee de retour dans les rayons est en vente actuellement dans vos magasins Lidl"
 layout: post
 author: Nico
 date: 2023-01-19 16:06
