@@ -3,26 +3,26 @@
         "title": "M18 8mm sensing DC 5V NPN NO LJ18A3-8-Z/BX-5V cylinder inductive proximity sensor switch work voltage 5VDC special for MCU",
         "categoryId": 200001056,
         "productId": 32873382856,
-        "totalAvailableQuantity": 32749,
+        "totalAvailableQuantity": 32699,
         "description": "<div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"><div class=\"detailmodule_dynamic\"><kse:widget data-widget-type=\"customText\" id=\"24461526\" title=\"\" type=\"custom\"></kse:widget></div></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"> \n<div> \n <strong><span style=\"font-size: 36.0px;\"><span style=\"font-weight: bold;margin-right: 12.0px;\">5V cylinder NPN NO proximity sensor</span></span></strong> \n <img alt=\"327\" src=\"https://ae01.alicdn.com/kf/HTB1H.MDqYGYBuNjy0Foq6AiBFXaz.jpg?width=930&amp;height=550&amp;hash=1480\"> \n <img alt=\"330\" src=\"https://ae01.alicdn.com/kf/HTB1fj3Uq79WBuNjSspeq6yz5VXai.jpg?width=930&amp;height=550&amp;hash=1480\"> \n <img alt=\"329\" src=\"https://ae01.alicdn.com/kf/HTB12K9brmBYBeNjy0Feq6znmFXab.jpg?width=930&amp;height=550&amp;hash=1480\"> \n <img alt=\"328\" src=\"https://ae01.alicdn.com/kf/HTB1wdg1q1GSBuNjSspbq6AiipXaK.jpg?width=930&amp;height=550&amp;hash=1480\"> \n</div> \n<p> &nbsp; </p></div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n\n<script>window.adminAccountId=231758244;</script>\n",
-        "orders": 372,
+        "orders": 401,
         "storeInfo": {
             "name": "Shop4198022 Store",
             "companyId": 241153606,
             "storeNumber": 4198022,
-            "followers": 6934,
-            "ratingCount": 22929,
-            "rating": "98.6%"
+            "followers": 7097,
+            "ratingCount": 23912,
+            "rating": "98.7%"
         },
         "ratings": {
             "totalStar": 5,
-            "averageStar": "4.7",
-            "totalStartCount": 26,
-            "fiveStarCount": 24,
-            "fourStarCount": 0,
+            "averageStar": "4.8",
+            "totalStartCount": 27,
+            "fiveStarCount": 25,
+            "fourStarCount": 1,
             "threeStarCount": 0,
             "twoStarCount": 0,
-            "oneStarCount": 2
+            "oneStarCount": 1
         },
         "images": [
             "https://ae01.alicdn.com/kf/HTB1tUj0vv5TBuNjSspmq6yDRVXaE/M18-8mm-sensing-DC-5V-NPN-NO-LJ18A3-8-Z-BX-5V-cylinder-inductive-proximity-sensor.jpg",
@@ -66,8 +66,8 @@
             "max": 5.84
         },
         "salePrice": {
-            "min": 5.55,
-            "max": 5.55
+            "min": 1.55,
+            "max": 1.55
         }
     }
 }
