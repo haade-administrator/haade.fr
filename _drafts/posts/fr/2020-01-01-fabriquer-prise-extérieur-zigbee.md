@@ -29,5 +29,6 @@ sourcelink:
 [prise avoir dual zigbee etanche](https://s.click.aliexpress.com/e/_DBC24TH){: target="_blank"}
 [prise avoir zigbee un peut moin cher](https://s.click.aliexpress.com/e/_DCHmof9)
 [boitier avec prise eu](https://s.click.aliexpress.com/e/_DdpYNhl){: target="_blank"}
-[module zigbee prise 16A girier compatible z2m](https://s.click.aliexpress.com/e/_DF6rnhl)
-[module zigbee prise pas cher](https://s.click.aliexpress.com/e/_DlqGENp)
+[module zigbee prise 16A girier compatible z2m](https://s.click.aliexpress.com/e/_DF6rnhl){: target="_blank"}
+[module zigbee prise pas cher](https://s.click.aliexpress.com/e/_DlqGENp){: target="_blank"}
+[prise zigbee 16a](https://s.click.aliexpress.com/e/_DkBZpYB){: target="_blank"}
