@@ -156,6 +156,11 @@ ___
 
 {% picture posts/29/zone-inclusive-zoneminder.png --alt zone inclusive dans ZM --img width="932" height="522" %}
 
+### inclure images dans article boutique
+**remplacer 2134 par {{ page.guid }}**
+
+{% picture shop/2134/schema-ampoule-branchement.jpg --alt mini interrupteur zigbee tuya compatible prise --img width="790" height="11000" %}
+
 ### intégrer une video youtube
 
 {% include youtubePlayer.html id="cq0ZeT6K1uY" %}
