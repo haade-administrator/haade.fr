@@ -49,7 +49,9 @@ jobs:
           node -v
           npm -v
           npm install
-          npm run scrap
+          npm run scrapdomadoo
+          echo domadoo scraper OK
+          npm run scrapaliexpress
           echo aliexpress scraper OK
           vips -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc

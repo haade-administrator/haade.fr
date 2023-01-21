@@ -122,8 +122,6 @@ end.
 - [ ] https://github.com/octo-org/octo-repo/issues/740.
 - [ ] Add delight to the experience when all tasks are complete :tada.
 
-# intégrer une image dans un article
-
 
 # créer un tableau
 
