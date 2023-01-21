@@ -31,5 +31,6 @@ module.exports = [
   '32582384960',         // 2130 capteur inductif plat
   '1005001621776421',    // 2131 wemos d1 mini pro
   '1005004215796531',    // 2132 cc1101
-  '1005001722303127'     // 2133 esp32cam ai-thinker
+  '1005001722303127',    // 2133 esp32cam ai-thinker
+  '1005004899030766'     // 2134 mini interrupteur zigbee tuya
 ]
