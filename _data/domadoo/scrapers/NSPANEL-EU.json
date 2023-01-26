@@ -1,12 +1,20 @@
 {
-    "title": "SONOFF - Interrupteur mural NSPanel Smart Scene (EU)",
-    "reference": "NSPANEL-EU",
-    "new": "Nouveau produit",
-    "price": "72,99€",
-    "currentprice": "56,93€",
-    "discountpercentage": "Économisez 22%",
-    "available": "Disponible",
-    "description": "Contrôlez votre logement connecté à l'aide de NSPANEL-EU SONOFF, un interrupteur mural intelligent.",
-    "specifications": "",
-    "image": "https://cdn1.domadoo.fr/19862-medium_default/sonoff-interrupteur-mural-nspanel-smart-scene-eu.jpg"
+    "product": {
+        "productId": "objets-connectes/5985-sonoff-interrupteur-mural-nspanel-smart-scene-eu",
+        "title": "SONOFF - Interrupteur mural NSPanel Smart Scene (EU)",
+        "description": "Contrôlez votre logement connecté à l'aide de NSPANEL-EU SONOFF, un interrupteur mural intelligent.",
+        "reference": "NSPANEL-EU",
+        "productNew": "Nouveau produit",
+        "salePrice": "56.93",
+        "discount": "-22%",
+        "currency": "EUR",
+        "originalPrice": "72,99",
+        "available": "Disponible",
+        "image": "https://cdn1.domadoo.fr/19862-medium_default/sonoff-interrupteur-mural-nspanel-smart-scene-eu.jpg"
+    },
+    "ratings": {
+        "totalStar": "",
+        "averageStar": "4",
+        "totalStarCount": ""
+    }
 }

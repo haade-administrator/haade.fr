@@ -30,20 +30,54 @@ async function scrapeDomadoo() {
     $('.label').remove();
     $('.material-icons').remove();
     const product = {};
-    product.title = $('h1').text().trim().replace(/\n|\r/g, '');
-    product.reference = $('.product-reference').filter(':first').text().trim().replace(/\n|\r/g, '');
-    product.new = $('.product-flag.new').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
-    product.price = $('.regular-price').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(/ €/, '€');
-    product.currentprice = $('.current-price-value').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(/ €/, '€');
-    product.discountpercentage = $('.discount-percentage').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
-    product.available = $('#item-stock-date-availability').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
-    product.description = $('*[id^="product-description-short-"]').text().trim().replace(/\n|\r/g, '');
-    product.specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
-    product.image = await page.evaluate(() => document.querySelector('.js-qv-product-cover.img-fluid').src);
+    const productId = link;
+    const title = $('h1').text().trim().replace(/\n|\r/g, '');
+    const reference = $('.product-reference').filter(':first').text().trim().replace(/\n|\r/g, '');
+    const productNew = $('.product-flag.new').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
+    const originalPrice = $('.regular-price').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(/ €/, '');
+    const globalprice = $('.current-price-value').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(",", ".").replace("€", "EUR");
+    const priceArr = globalprice.split(" ");
+    const currency = priceArr[1];
+    const salePrice = priceArr[0];
+    const rating = {
+        averageStar: $('.netreviewsProductWidgetNewRate .ratingValue').text(),
+        totalStar: $('.netreviewsProductWidgetNewRate .bestValue').text(),
+        totalStarCount: $('netreviewsProductWidgetNewLink span').text(),
+   };
+    const discount = $('.discount-percentage').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace("Économisez ", "-");
+    const available = $('#item-stock-date-availability').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
+    const description = $('*[id^="product-description-short-"]').text().trim().replace(/\n|\r/g, '');
+    const specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
+    const image = await page.evaluate(() => document.querySelector('.js-qv-product-cover.img-fluid').src);
+    if (!image) {
+    console.log("Image not found, continuing...");
+    continue;
+    }
+            // Enregistrer les données dans un objet
+            const data = {
+                product: {
+                productId,
+                title,
+                description,
+                reference,
+                productNew,
+                salePrice,
+                discount,
+                currency,
+                originalPrice,
+                available,
+                image,
+            },
+            ratings: {
+                totalStar: rating.totalStar,
+                averageStar: rating.averageStar,
+                totalStarCount: rating.totalStarCount,
+            },
+            };
 
     // write results to file
-    fs.writeFileSync('./_data/domadoo/scrapers/' + product.reference + ".json", JSON.stringify(product, null, 4));
-    console.log(`Product data saved to file product ${product.reference}.json.`);
+    fs.writeFileSync('../../_data/domadoo/scrapers/' + reference + ".json", JSON.stringify(data, null, 4));
+    console.log(`Product data saved to file product ${reference}.json.`);
     }
     await browser.close();
 }

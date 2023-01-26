@@ -4,6 +4,7 @@ const fs = require('fs');
 const links = require('./data');
 const url = require('url');
 
+
 let invalidLinkCount = 0;
 
 async function scrapeAliexpress() {
@@ -21,6 +22,7 @@ async function scrapeAliexpress() {
     });
 
     for (const link of links) {
+
         if(!(/^https?:\/\//.test(`https://fr.aliexpress.com/item/${link}.html`))) {
             console.log(`Invalid link: ${link}`);
             invalidLinkCount++;
@@ -44,27 +46,50 @@ async function scrapeAliexpress() {
 
     const $ = cheerio.load(html);
 
+    const product = {};
+        const productId = JSON.parse(link);
 
         // Récupérer les votes
-        const votes = $('.overview-rating-average').text();
-        const review = $('.product-reviewer-reviews').text();
-        const price = $('.product-price-current').text();
-        const specialprice = $('.uniform-banner-box-price').text();
-        const finalPrice = price || specialprice || 'price not found';
-        const pricedel = $('.product-price-del').text();
-        const specialpricedel = $('.uniform-banner-box-discounts span:first-child').text();
-        const finalPricedel = pricedel || specialpricedel || 'price not found';
+        const rating = {
+            votes: $('.overview-rating-average').text(),
+            reviews: $('.product-reviewer-reviews').text().match(/\d+/)[0],
+        };
+        // récupérer le prix et la devise
+        const globalprice = $('.product-price-current').text().replace(",", ".").replace("€", "EUR");
+        const priceArr = globalprice.split(" ");
+        const pricecurrency = priceArr[0];
+        const price = priceArr[1];
+        // récupérer le prix special et la devise
+        const globalsprice = $('.uniform-banner-box-price').text().replace(",", ".").replace("€", "EUR");
+        const spriceArr = globalsprice.split(" ");
+        const pricescurrency = spriceArr[0];
+        const specialprice = spriceArr[1];
+        // passer du prix au prix special automatiquement
+        const salePrice = price || specialprice || 'price not found';
+        const currency = pricecurrency || pricescurrency || 'currency not found';
+        // récupérer le prix barré
+        const globalpricedel = $('.product-price-del').text().replace(",", ".");
+        const pricedelArr = globalpricedel.split(" ");
+        const pricedel = pricedelArr[1];
+       // récupérer le prix spécial barré
+        const globalspricedel = $('.uniform-banner-box-discounts span:nth-of-type(1)').text().replace(",", ".");
+        const discount = $('.uniform-banner-box-discounts span:nth-of-type(2)').text();
+        const pricesdelArr = globalspricedel.split(" ");
+        const specialpricedel = pricesdelArr[1];
+        // passer du prix barré au prix special barré automatiquement
+        const originalPrice = pricedel || specialpricedel || 'price not found';
 
 
         const title = $('.product-title').text();
         const description = $('.detail-desc-decorate-richtext').text();
         const reference = $('.sku-title-value').text();
-        const quantity = $('div.product-quantity-tip').text();
+        const quantity = $('div.product-quantity-tip').text().match(/\d+/)[0];
         const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
         const storeLink = $('.store-name a').attr('href');
         const store = {
             name: $('.store-name').text(),
-            link: url.resolve('https://fr.aliexpress.com', storeLink),
+            url: url.resolve('https://fr.aliexpress.com', storeLink),
+            number: storeLink.match(/\d+/)[0],
             feedback: $('.h-store-info i').eq(0).text(),
             followers: $('.h-store-info i').eq(1).text(),
         };
@@ -73,21 +98,30 @@ async function scrapeAliexpress() {
 
         // Enregistrer les données dans un objet
         const data = {
+            product: {
+            productId,
             title,
             description,
             reference,
-            finalPrice,
-            finalPricedel,
+            salePrice,
+            discount,
+            currency,
+            originalPrice,
             quantity,
             image,
-            votes,
-            review,
-            store: {
+            storeInfo: {
                 name: store.name,
-                link: store.link,
-                feedback: store.feedback,
+                url: store.url,
+                storeNumber: store.number,
+                rating: store.feedback,
                 followers: store.followers,
             },
+            ratings: {
+                totalStar: 5,
+                averageStar: rating.votes,
+                totalStarCount: rating.reviews,
+            },
+        },
         };
 
     // write results to file

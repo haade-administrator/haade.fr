@@ -1,12 +1,20 @@
 {
-    "title": "SONOFF - Micromodule commutateur connecté Zigbee - ZBMINI",
-    "reference": "ZBMINI",
-    "new": "Nouveau produit",
-    "price": "13,90€",
-    "currentprice": "10,84€",
-    "discountpercentage": "Économisez 22%",
-    "available": "Disponible",
-    "description": "Le micromodule commutateur SONOFF ZBMINI ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison.",
-    "specifications": "",
-    "image": "https://cdn1.domadoo.fr/15794-medium_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg"
+    "product": {
+        "productId": "peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133",
+        "title": "SONOFF - Micromodule commutateur connecté Zigbee - ZBMINI",
+        "description": "Le micromodule commutateur SONOFF ZBMINI ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison.",
+        "reference": "ZBMINI",
+        "productNew": "Nouveau produit",
+        "salePrice": "10.84",
+        "discount": "-22%",
+        "currency": "EUR",
+        "originalPrice": "13,90",
+        "available": "Disponible",
+        "image": "https://cdn1.domadoo.fr/15794-medium_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg"
+    },
+    "ratings": {
+        "totalStar": "",
+        "averageStar": "4.7",
+        "totalStarCount": ""
+    }
 }
