@@ -76,7 +76,7 @@ async function scrapeDomadoo() {
             };
 
     // write results to file
-    fs.writeFileSync('../../_data/domadoo/scrapers/' + reference + ".json", JSON.stringify(data, null, 4));
+    fs.writeFileSync('./_data/domadoo/scrapers/' + reference + ".json", JSON.stringify(data, null, 4));
     console.log(`Product data saved to file product ${reference}.json.`);
     }
     await browser.close();
