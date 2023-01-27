@@ -135,7 +135,7 @@ the Lidl SAPZ 1 A1 socket has **( 2 functions )** and allows:
 |Router function (repeater)|Yes|Yes|Yes|Yes|
 |Voltage|230v, 50-60Hz|85-250v, 50-60Hz|250v, 50-60Hz|220-240v, 50Hz|
 |Amperage|16A, Max 3680W|16A, Max 3680W|**10A, Max 2300W**{: .red}|16A, Max **3840W**{: .blue}|
-|Operating temperature|**-20~45°C**{: .blue}|0~40°C|0~35°C|{: .red}|
+|Operating temperature|**-20~45°C**{: .blue}|0~40°C|0~35°C|**+5~35°C**{: .red}|
 |Humidity during Operation|Not specified|20~85%|0~95%|10~80%|
 |Reception range|55 m|55m|not specified|70m|
 |Measured range equivalent distance|**25 lqi**{:.red}|58 lqi|54 lqi|58 lqi|

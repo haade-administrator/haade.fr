@@ -135,7 +135,7 @@ la prise Lidl SAPZ 1 A1 dispose de **( 2 fonctions )** et permet de:
 |Foncion routeur (répéteur)|Oui|Oui|Oui|Oui|
 |Voltage|230v, 50-60Hz|85-250v, 50-60Hz|250v,  50-60Hz|220-240v, 50Hz|
 |Ampérage|16A, Max 3680W|16A, Max 3680W|**10A, Max 2300W**{: .red}|16A, Max **3840W**{: .blue}|
-|Température de fonctionnement|**-20~45°C**{: .blue}|0~40°C|0~35°C|{: .red}|
+|Température de fonctionnement|**-20~45°C**{: .blue}|0~40°C|0~35°C|**+5~35°C**{: .red}|
 |Humidité durant Fonctionnement|Non renseigné|20~85%|0~95%|10~80%|
 |Portée réception|55 m|55m|non renseigné|70m|
 |Portée mesurée distance équivalente|**25 lqi**{: .red}|58 lqi|54 lqi|58 lqi|
