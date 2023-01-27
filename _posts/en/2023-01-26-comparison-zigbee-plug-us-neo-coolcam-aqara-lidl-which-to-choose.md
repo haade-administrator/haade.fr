@@ -164,8 +164,8 @@ Actual size of the sockets, I hope that with this shot you will be able to reali
 After a long reflection and using the table I decided to establish this result:
 
 1. [**Neo PLUG-007SPB2**](https://www.domadoo.fr/en/peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.html?domid=39){: target="_blank"}{: .blue}
-2. [Aqara SP-EUC01](https://www.domadoo.fr/en/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.html?domid=39){: target="_blank"}
-3. [Nous A1Z](https://www.domadoo.fr/en/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html?domid=39){: target="_blank"}
+2. [Aqara SP-EUC01](https://www.domadoo.fr/en/peripheriques/5385-aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.html?domid=39){: target="_blank"}{: .orange}
+3. [Nous A1Z](https://www.domadoo.fr/en/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html?domid=39){: target="_blank"}{: .red}
 4. Lidl SAPZ 1 A1
 
 Going back to this ranking, I decided to put the Aqara socket in second position before the Us because it did not encounter any signal strength problems and ** above all it incorporates a temperature sensor which makes it the only two-in-one plug, so we can discuss its price, which is the highest.**.
