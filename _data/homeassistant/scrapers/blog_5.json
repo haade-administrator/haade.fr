@@ -1,0 +1,7 @@
+{
+    "title": "2023: Home Assistant's year of Voice",
+    "date": "December 20, 2022",
+    "category": "Announcements",
+    "author": "Paulus Schoutsen",
+    "content": "TL;DR: It is our goal for 2023 to let users control Home Assistant in their own language. Mike Hansen, creator of Rhasspy, has joined Nabu Casa to lead this effort. We’re starting off by building a collection of intent matching sentences in every language.Usually, the month of December is meant to reflect back. However, we already did that last month when we hosted the State of the Open Home 2022. We didn’t only reflect, we also announced our focus for next year: 2023 is going to be the year of voice.It’s a big and bold goal, but achievable given the right constraints. The amount of work laid out for us can be summarised as follows:Our #1 priority is supporting different languages. There are enough projects out there trying to create an English voice assistant. But for us, that just doesn’t cut it. People need to be able to speak in their own language, as that is the most accessible and only acceptable language for a voice assistant for the smart home."
+}

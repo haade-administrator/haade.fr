@@ -1,0 +1,7 @@
+{
+    "title": "2023.1: Happy New Year of the voice!",
+    "date": "January 4, 2023",
+    "category": "CoreRelease-Notes",
+    "author": "Franck Nijhof",
+    "content": "Happy New Year! 🍾We wish you, and all the loved ones around you, all the best for 2023! 🥂2023: What an exciting year this will be; The year of the voice!\nAnd not just that, many exciting things are expected this year. More spoilers\ncan be found in the State of the Open Home 2022\nrecording on YouTube.Starting this amazing year with: Home Assistant Core 2023.1! 🎊A fairly small release, as we all enjoyed our Holidays. Yet, the first traces\nof the voice project are already visible: support for entity aliases!Still, this release contains over 800 changes, most of which are\nquality improvements, bug and stability fixes, and other minor improvements.\nThe perfect release to start the year with, an easy upgrade worth doing.Enjoy the release!../FrenckPS: Did you know Home Assistant is now on Mastodon too?"
+}

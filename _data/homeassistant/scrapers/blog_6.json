@@ -1,0 +1,7 @@
+{
+    "title": "2022.12: It does matter!",
+    "date": "December 7, 2022",
+    "category": "CoreRelease-Notes",
+    "author": "Franck Nijhof",
+    "content": "Home Assistant Core 2022.12! 🎄Already the last release of the year, right on time to bring you some cool\nnew features to work with during the upcoming Holidays!2022 has been a fantastic year for the Home Assistant project. We became\none of the world’s largest and fastest-growing GitHub open source projects! ❤️ Tons of new features each month, and not just that,\nwe matured a lot! Everything became more stable and faster, and\nthe UX made leaps forwards as well!We looked back at 2022 during the State of the Open Home,\nand sneak peaked at 2023, with some great new UI concepts\nand: The year of the voice! 🗣️ Missed it?\nThe full video is available on YouTube.But! The year isn’t over yet! This release really Matters! We are thrilled to\nbe one of the first in the world to roll out Matter support to the public! 🎉No Matter devices yet? Don’t worry! There are tons of things in this release\nthat will keep you busy. The Tile card got “features”! You can now extend\nyour Bluetooth range using Shelly devices, and a long-requested feature lands:\nLocal Calendar. 🤩For 2022, this is it! Thank you for joining our community. Thank you for\nsharing, helping out, contributing, creating YouTube videos, blog articles,\nand podcasts.Thank you for using Home Assistant! ❤️Happy holidays and for the last time in 2022: Enjoy the release!../Frenck"
+}

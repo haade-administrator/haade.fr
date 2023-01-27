@@ -1,0 +1,7 @@
+{
+    "title": "Year of the Voice - Chapter 1: Assist",
+    "date": "January 26, 2023",
+    "category": "Assist",
+    "author": "Paulus Schoutsen",
+    "content": "This year is Home Assistant’s year of the voice. It is our goal for 2023 to let users control Home Assistant in their own language. Today, one month into 2023, we start our first chapter.At Home Assistant we believe that technology is meant to be played with, and projects should be usable as soon as possible. Together with the community we can then iterate and refine. That’s why today, we’re delivering a basic experience for 22 languages to interact with Home Assistant. Oh, and we are also releasing some fun stuff that we cooked up along the way.To watch the video presentation of this blog post, including live demos, check the recording of our live stream.The core of a voice assistant is to be able to understand the intention of a spoken sentence. What is it the user wants to do? To extract these intentions we created our own template sentence matching format and intent recognizer named Hassil.This new format is used by our new Home Assistant Intents project. The goal of this project is to collect home automation sentences in every possible language. Since it’s start a month ago, we have had 112 people contribute. The project now supports 22 languages and 14 more are in progress.We have added a new feature to Home Assistant:  Assist. It allow users to use natural language to control Home Assistant. It is powered by Hassil and the sentences from the Home Assistant Intent project."
+}
