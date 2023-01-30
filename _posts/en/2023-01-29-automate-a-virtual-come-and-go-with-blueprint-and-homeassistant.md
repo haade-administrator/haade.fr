@@ -1,7 +1,7 @@
 ---
 guid: 42
-title: "automate a virtual back and forth with 2 inter zigbee"
-description: "we will simply automate thanks to blueprint and homeassistant a virtual back and forth between 2 single-way zigbee switches"
+title: "automate a virtual 2 way with 2 switch zigbee"
+description: "we will simply automate thanks to blueprint and homeassistant a virtual 2 way between 2 single-way zigbee switches"
 layout: post
 author: Nico
 date: 2023-01-29 15:46
