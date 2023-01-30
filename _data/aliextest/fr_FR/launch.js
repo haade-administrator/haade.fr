@@ -47,13 +47,20 @@ async function scrapeAliexpress() {
     const $ = cheerio.load(html);
 
     const product = {};
-        const productId = JSON.parse(link);
+    const productId = JSON.parse(link);
 
         // Récupérer les votes
         const rating = {
             votes: $('.overview-rating-average').text(),
-            reviews: $('.product-reviewer-reviews').text().match(/\d+/)[0],
-        };
+            reviews: null,
+          };
+          
+          try {
+            rating.reviews = $('.product-reviewer-reviews').text().match(/\d+/)[0];
+          } catch (error) {
+            console.log(`Error the product has not been rated`);
+            continue;
+          };
         // récupérer le prix et la devise
         const globalprice = $('.product-price-current').text().replace(",", ".").replace("€", "EUR");
         const priceArr = globalprice.split(" ");

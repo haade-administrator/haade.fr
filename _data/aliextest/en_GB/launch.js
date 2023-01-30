@@ -47,13 +47,20 @@ async function scrapeAliexpress() {
     const $ = cheerio.load(html);
 
     const product = {};
-        const productId = JSON.parse(link);
+    const productId = JSON.parse(link);
 
         // Récupérer les votes
         const rating = {
             votes: $('.overview-rating-average').text(),
-            reviews: $('.product-reviewer-reviews').text().match(/\d+/)[0],
-        };
+            reviews: null,
+          };
+          
+          try {
+            rating.reviews = $('.product-reviewer-reviews').text().match(/\d+/)[0];
+          } catch (error) {
+            console.log(`Error the product has not been rated`);
+            continue;
+          };
         // récupérer le prix et la devise
         const globalprice = $('.product-price-current').text().replace("US", "USD").replace(",", ".").replace("$", "");
         const priceArr = globalprice.split(" ");
@@ -69,12 +76,10 @@ async function scrapeAliexpress() {
         const currency = pricecurrency || pricescurrency || 'currency not found';
         // récupérer le prix barré
         const globalpricedel = $('.product-price-del').text().replace("US", "USD").replace("$", "").replace(",", ".");
-        console.log(globalpricedel);
         const pricedelArr = globalpricedel.split(" ");
         const pricedel = pricedelArr[1];
        // récupérer le prix spécial barré
         const globalspricedel = $('.uniform-banner-box-discounts span:nth-of-type(1)').text().replace("US", "USD").replace("$", "").replace(",", ".");
-        console.log(globalspricedel);
         const discount = $('.uniform-banner-box-discounts span:nth-of-type(2)').text();
         const pricesdelArr = globalspricedel.split(" ");
         const specialpricedel = pricesdelArr[1];
