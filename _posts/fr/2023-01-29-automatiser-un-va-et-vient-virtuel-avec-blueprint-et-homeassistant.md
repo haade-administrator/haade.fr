@@ -47,7 +47,7 @@ Un va et vient traditionnel est compsé de 4 phases
 {% picture posts/{{ page.guid }}/schema-va-et-vient-traditionnel.jpg --alt schema va et vient traditionnel --img width="940" height="438" %}
 
 si tu possèdes deux interrupteurs simples avec seulement **l'un des deux équipés de la phase provenant du tableau ( rouge )
-alors il faudra garder une des deux navettes branchées (orange)**
+alors il faudra garder une des deux navettes branchées (orange)** et faire un pont du neutre rouge afin d'apporter le neutre au second interrupteur.
 
 Si les deux interrupteurs possèdent un neutre du tableaux **( cas des interrupteurs doubles alimentant des lumières d'un autre circuit ) alors tu pourras supprimer les deux navettes.**
 

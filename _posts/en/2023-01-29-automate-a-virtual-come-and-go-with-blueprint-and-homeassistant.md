@@ -46,7 +46,7 @@ A traditional back and forth is made up of 4 phases
 
 {% picture posts/{{ page.guid }}/schema-va-et-vient-traditionnel.jpg --alt traditional 2 way switch diagram --img width="940" height="438" %}
 
-if you have two single switches with only **one of the two fitted with the phase coming from the panel (red) then it will be necessary to keep one of the two shuttles connected (orange)**
+if you have two single switches with only **one of the two fitted with the phase coming from the panel (red) then it will be necessary to keep one of the two shuttles connected (orange)** and make a bridge from the red neutral in order to bring the neutral to the second switch.
 
 If the two switches have a neutral from the tables **(case of double switches supplying lights from another circuit) then you can remove the two shuttles.**
 
