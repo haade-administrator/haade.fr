@@ -8,19 +8,19 @@
     "discount": "",
     "currency": "EUR",
     "originalPrice": "1.14",
-    "quantity": "12141",
+    "quantity": "12138",
     "image": "https://ae01.alicdn.com/kf/Hf32c1271270d4591bf1590b09b30d23cA/Carte-de-d-veloppement-wifi-ESP32-CAM-MB-tableau-Bluetooth-avec-cam-ra-OV2640-micro-USB.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "PCBFUN Store",
       "url": "https://fr.aliexpress.com/store/910688006",
       "storeNumber": "910688006",
-      "rating": "96.6%",
-      "followers": "3071"
+      "rating": "96.5%",
+      "followers": "3099"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStarCount": "8"
+      "totalStarCount": "10"
     }
   }
 }
