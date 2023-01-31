@@ -58,10 +58,10 @@ jobs:
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
           source ~/.bashrc
-          sudo gem install compass jekyll bundler
+          sudo gem install compass jekyll bundler feed-normalizer to_slug sanitize
           sass -v
           bundle config set --local path 'vendor/bundle'
-          bundle install
+          bundle install && bundle update
           bundle exec jekyll clean
           JEKYLL_ENV=production bundle exec jekyll build
 
