@@ -19,5 +19,8 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll_picture_tag'
     gem 'jekyll-redirect-from'
+    gem 'feed-normalizer'
+    gem 'to_slug'
+    gem 'sanitize'
 
 end
