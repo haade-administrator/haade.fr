@@ -29,7 +29,13 @@ feed.each do |feeditem|
 		date = dateadded if date.nil?
 
 		filename = "#{output_location}/#{title.to_slug.sub(/-\Z/,"")}.md"
-		description = Sanitize.fragment(entry.content)
+		description = if entry.description.nil?
+            Sanitize.fragment(entry.content).to_s.force_encoding("utf-8")
+          else
+            Sanitize.fragment(entry.description).to_s.force_encoding("utf-8")
+          end
+
+
 		if File.exist?(filename)
 			next
 		else
