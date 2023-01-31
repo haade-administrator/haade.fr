@@ -154,7 +154,7 @@ ___
 ### intégration images articles dans un article
 **remplacer 29 par {{ page.guid }}**
 
-{% picture posts/29/zone-inclusive-zoneminder.png --alt zone inclusive dans ZM --img width="932" height="522" %}
+{% picture posts/29/zone-inclusive-zoneminder.png --alt zone inclusive dans ZM --img width="940" height="529" %}
 
 ### inclure images dans article boutique
 **remplacer 2134 par {{ page.guid }}**
