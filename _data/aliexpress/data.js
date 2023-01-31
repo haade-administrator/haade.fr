@@ -32,5 +32,6 @@ module.exports = [
   '1005001621776421',    // 2131 wemos d1 mini pro
   '1005004215796531',    // 2132 cc1101
   '1005001722303127',    // 2133 esp32cam ai-thinker
-  '1005004899030766'     // 2134 mini interrupteur zigbee tuya
+  '1005004899030766',    // 2134 mini interrupteur zigbee tuya
+  '1005004775774974'    // 2135 Moes star ring
 ]

@@ -38,7 +38,7 @@ Brand Day At Moes on Aliexpress -40% on the best Moes products, to this you can 
 
 > Discover the new switches **Moes Star ring Series** simply magnificent.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-push-button-switch-connect-Tuya-Star-Ring-zigbee-3-0-with-t-l-control-works.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-push-button-switch-connect-Tuya-Star-Ring-zigbee-3-0-with-t-l-control-works.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DD0tVR9" %}
 
 ## Click on the links below to benefit:
 

@@ -33,7 +33,7 @@ It is common in France to want to replace its classic switches with zigbee switc
 - homeassistant installed
 - some notions of electricity.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DD0tVR9" %}
 
 # 1st step connect the switches
 
@@ -88,6 +88,6 @@ And here the link **to connect 4 switches** back and forth:
 
 Here's a very simple way to automate a back and forth in a virtual, simple, fast and reliable way **without response delay between the two switches** in other words that it's **instantaneous** 😁, the hardest for you if you have no notions of electricity will be to connect the switches correctly.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DD0tVR9" %}
 
 

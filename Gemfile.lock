@@ -137,6 +137,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (4.0.1)
+    rss (0.2.8)
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     ruby2_keywords (0.0.5)
@@ -191,6 +192,7 @@ DEPENDENCIES
   jekyll_picture_tag
   kramdown
   rouge
+  rss
   sanitize
   to_slug
 

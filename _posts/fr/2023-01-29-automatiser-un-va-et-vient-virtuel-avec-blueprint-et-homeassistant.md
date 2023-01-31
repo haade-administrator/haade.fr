@@ -33,7 +33,7 @@ Il est courant en france de vouloir remplacer ses interrupteurs classiques par d
 - homeassistant d'installé
 - quelques notions d'électricités.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DD0tVR9" %}
 
 # 1ère étape brancher les interrupteurs
 
@@ -89,6 +89,6 @@ Et ici le lien **pour connecter 4 interrupteurs** en va et vient:
 
 Voilà une façon très simple d'automatiser un va et vient de façon virtuel, simple, rapide et fiable **sans délai de réponse entre les deux interrupteurs** autant dire que c'est de **l'instantané** 😁, le plus dure pour toi si tu n'as pas de notions d'électricités sera de brancher correctement les interrupteurs.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DD0tVR9" %}
 
 

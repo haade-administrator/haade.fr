@@ -5,8 +5,8 @@ require 'yaml'
 require 'to_slug'
 require 'sanitize'
 
-feed_file = "../_data/feeds.yml"
-output_location = "../_externalposts"
+feed_file = "./_data/feeds.yml"
+output_location = "./_externalposts"
 
 feed = YAML.load_file(feed_file) 
 feed.each do |feeditem|

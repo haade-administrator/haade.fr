@@ -26,7 +26,7 @@ sourcelink:
 
 Au cours de mes **années d'expériences en domotique** j'ai acheté toutes sortes d'interrupteurs connectés, des Xiaomi en zigbee 1.0, des interrupteurs Z-wave MCOhome hors de prix et fonctionnel 2 ans, des interrupteurs Moes à bouton tactiles zigbee et à boutons poussoirs. *C'est maintenant la troisième série testée chez Moes, alors que valent ces interrupteurs Moes Star Ring ZS-SR-EU ?*
 
-{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee.png" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee.png" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DD0tVR9" %}
 
 # Rendu général
 
@@ -114,6 +114,6 @@ Dommage qu'ils ne fassent pas office de routeurs et qu'ils n'intègrent pas [un 
 
 > il fait parti des interrupteurs à avoir, une valeur sûre
 
-{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee-anthracite.png" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee-anthracite.png" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DD0tVR9" %}
 
 

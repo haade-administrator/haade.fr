@@ -38,7 +38,7 @@ Journée de la marque Chez Moes sur Aliexpress -40% sur les meilleurs produits M
 
 > Découvrez les nouveaux interrupteurs **Moes Star ring Series** tout simplement magnifique.
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sa5aee894221e44ef9d8c22ce8dac2fded/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_640x640.jpg" title="Nouvel interrupteur Moes Star ring series Zigbee" brand="Moes" description="MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google" affiliate="_DD0tVR9" %}
 
 ## Cliquez sur le liens ci-dessous pour en bénéficier:
 

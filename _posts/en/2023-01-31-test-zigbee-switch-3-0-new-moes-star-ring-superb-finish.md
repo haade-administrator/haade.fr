@@ -26,7 +26,7 @@ sourcelink:
 
 During my **years of experience in home automation** I bought all kinds of connected switches, Xiaomi zigbee 1.0, Z-wave MCOhome switches overpriced and functional 2 years, Moes switches with button zigbee touch screens and push buttons. *This is now the third series tested at Moes, so what are these Moes Star Ring ZS-SR-EU switches worth?*
 
-{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee.png" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee.png" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DD0tVR9" %}
 
 # General rendering
 
@@ -114,6 +114,6 @@ Too bad they don't act as routers and they don't integrate [a 2 way]({% post_url
 
 > it is one of the switches to have, a safe bet
 
-{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee-anthracite.png" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DFJMnfN" %}
+{% include product-embed.html image="moes-star-ring-ZS-SR-EU-smart-switch-interrupteur-zigbee-anthracite.png" title="New Moes Star ring series Zigbee switch" brand="Moes" description="MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google" affiliate="_DD0tVR9" %}
 
 

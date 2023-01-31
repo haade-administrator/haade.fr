@@ -10,9 +10,9 @@
             "name": "Gorelax Life Store",
             "companyId": 230364536,
             "storeNumber": 1083560,
-            "followers": 3100,
-            "ratingCount": 498,
-            "rating": "97.8%"
+            "followers": 3102,
+            "ratingCount": 497,
+            "rating": "97.6%"
         },
         "ratings": {
             "totalStar": 5,
@@ -112,8 +112,8 @@
             "max": 92.15
         },
         "salePrice": {
-            "min": 55.9,
-            "max": 55.9
+            "min": 59.9,
+            "max": 59.9
         }
     }
 }
