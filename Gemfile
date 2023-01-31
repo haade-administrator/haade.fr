@@ -22,5 +22,6 @@ group :jekyll_plugins do
     gem 'feed-normalizer'
     gem 'to_slug'
     gem 'sanitize'
+    gem 'rss'
 
 end
