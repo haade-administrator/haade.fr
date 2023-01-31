@@ -93,7 +93,7 @@ la prise Neo Coolcam Plug-007SPB2 dispose de **( 9 fonctions )** (là aussi iden
 
 ## Aqara Smart plug SP-EUC01
 
-La prise Aqara est plus imposante par rapport aux deux précédentes, la qualité et le rendu des matériaux est présent, je dirais mêm qu'il est de très bonne qualité. Le plastique blanc est brillant, le bouton blanc est bien intégré. Le voyant présent en façade **est très petit et discret**, idéal pour les pièces de vies ( chambres etc ... ). Quand au package il est très bien fait, la notice complète.
+La prise Aqara est plus imposante par rapport aux deux précédentes, la qualité et le rendu des matériaux est présent, je dirais même qu'il est de très bonne qualité. Le plastique blanc est brillant, le bouton blanc est bien intégré. Le voyant présent en façade **est très petit et discret**, idéal pour les pièces de vies ( chambres etc ... ). Quand au package il est très bien fait, la notice complète.
 
 Comme tu peux le voir sur le schéma ci-dessous, elle est aussi reconnu comme routeur ( répéteur de signal ), comme pour les autres l'intégration dans zigbee2mqtt se fait sans soucis.
 
