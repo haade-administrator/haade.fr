@@ -1,0 +1,5 @@
+- name: Rpilocator
+  feed: https://rpilocator.com/feed/
+
+- name: Homeassistant
+  feed: https://www.home-assistant.io/atom.xml

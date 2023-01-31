@@ -1,0 +1,8 @@
+---
+title: "Stock Alert (CH) - RPi CM4 - 4GB RAM, 8GB MMC, With Wifi is In Stock at Pi-Shop"
+date: 2023-01-25 07:47:44 +0000
+dateadded: 2023-01-31 08:03:20 +0100
+description: "Stock Alert (CH): RPi CM4 - 4GB RAM, 8GB MMC, With Wifi is In Stock at Pi-Shop"
+link: "https://rpilocator.com?vendor=pishopch&utm_source=feed&utm_medium=rss"
+category:
+---
