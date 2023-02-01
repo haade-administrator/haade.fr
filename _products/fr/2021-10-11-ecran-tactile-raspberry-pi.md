@@ -21,7 +21,6 @@ item: 1005002055766609
 item-affiliate: "_Ddj52MB"
 redirect_from: 
   - /produit/ecran-tactile-raspberry-pi/
-  - /fr/produit/ecran-tactile-raspberry-pi/
 ---
 
 **Caractéristiques uniques de UPi06 Max:**
@@ -35,11 +34,11 @@ redirect_from:
 **Que contient la boite ?**
 
 1. étui pour écran tactile UPi06 de 10.1 pouces 
-1. câble HDMI vers HDMI 
-1. USB-C à USB-C Câble 
-1. USB-A à USB-C Câble
-1. Chargeur mural 1 
-1. manuel
+2. câble HDMI vers HDMI 
+3. USB-C à USB-C Câble 
+4. USB-A à USB-C Câble
+5. Chargeur mural 1 
+6. manuel
 
 **Autres CARACTÉRISTIQUES:**
 

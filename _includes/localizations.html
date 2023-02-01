@@ -19,7 +19,7 @@
   | where: 'guid', page.guid
   | sort: 'locale' %}
   {%- for localized_product in localized_products %}
-  <link rel="alternate" hreflang="{{ localized_shop.locale | slice: 0,2 }}" href="{{ localized_shop.url | absolute_url }}"/>
+  <link rel="alternate" hreflang="{{ localized_product.locale | slice: 0,2 }}" href="{{ localized_product.url | absolute_url }}"/>
   {%- endfor %}
 
 {%- elsif page.layout == 'category' %}

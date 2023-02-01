@@ -16,7 +16,6 @@ published: true
 item: 1005002039563710
 item-affiliate: '_DE3225p'
 redirect_from: 
-  - /fr/produit/sonoff-zigbee-zbmini/
   - /produit/sonoff-zigbee-zbmini/
 ---
 

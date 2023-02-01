@@ -17,7 +17,6 @@ item: 33015586094
 item-affiliate: "_DDSL3qj"
 redirect_from: 
   - /produit/ecran-lcd-tft-spi/
-  - /fr/produit/ecran-lcd-tft-spi/
 ---
 
 **Caractéristiques**

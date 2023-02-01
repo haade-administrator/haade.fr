@@ -18,7 +18,6 @@ item: 1005001874391490
 item-affiliate: "_DB0DUH5"
 redirect_from: 
     - /produit/multiroom-up2stream-amp-v4/
-    - /fr/produit/multiroom-up2stream-amp-v4/
 ---
 
 Toujours en train de faire passer des câbles autour de votre système audio ? Vous voulez écouter de la musique sur Internet ? La carte d'amplification Wifi et Bluetooth Up2Stream AMP v4 est parfaite pour vous. Vous pouvez utiliser AMP v4 pour créer facilement votre propre système stéréo sans fil. AMP v4 peut vous fournir une puissance de 50Wx2 sur des haut-parleurs de 4 ohms et vous pouvez diffuser de la musique en ligne à partir de nombreux services de musique en ligne célèbres tels que Spotify, Deezer, TuneIn et plus encore.

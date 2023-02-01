@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005002525279564
-item-affiliate: "_De3MttD"
+item: 1005002535901726
+item-affiliate: "_DkfISrD"
 redirect_from: /en/produit/thermometre-zigbee-moes/
 ---
 

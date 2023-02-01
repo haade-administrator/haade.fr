@@ -18,7 +18,6 @@ item: 1005002617485357
 item-affiliate: "_DFpjRJ9"
 redirect_from: 
     - /produit/grandir-r503-plaque-inox-plus-protection-r503/
-    - /fr/produit/grandir-r503-plaque-inox-plus-protection-r503/
 ---
 
 1. Plaque en acier inoxydable pour capteur d'empreinte digital [grow R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grow-r503-capteur-dempreinte-digitale.md %}) ou GM60

@@ -18,7 +18,6 @@ item: 1005001721899988
 item-affiliate: "_DF1BlFN"
 redirect_from: 
     - /produit/boitier-alu-raspberrpi-4-argon-avec-disque-nvme-m-2/
-    - /fr/produit/boitier-alu-raspberrpi-4-argon-avec-disque-nvme-m-2/
 ---
 
 Argon avait déjà sorti un premier boitier raspberry pi en aluminium à un tarif très abordable, maintenant ils vont plus loin en proposant une variante avec disque dur plus de pertes de données sur sdcard, **ça c'est vraiment la bonne nouvelle du moment !**

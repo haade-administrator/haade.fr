@@ -1,123 +1,26 @@
 {
-    "product": {
-        "title": "SONOFF ZB Dongle-E USB Dongle Plus Zigbee 3.0 passerelle universelle Support Assistant à domicile Raspbian Ubuntu macOS",
-        "categoryId": 200003818,
-        "productId": 1005003756346858,
-        "totalAvailableQuantity": 6867,
-        "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><br></p><div><div style=\"overflow:hidden;height:0px\"></div><div><div><div><br></div><div><kse:widget data-widget-type=\"customText\" id=\"1005000000614103\" type=\"custom\"></kse:widget><kse:widget data-widget-type=\"customText\" id=\"1005000000586113\" type=\"custom\"></kse:widget></div><div><br></div><div><br></div><div><br></div></div><div>&nbsp;</div><h1 style=\"font-family:Arial, Helvetica, Arial, Lucida, sans-serif;font-size:30px;font-weight:500;letter-spacing:normal;line-height:1em;text-align:start;white-space:normal;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"start\">Dongle USB Zigbee 3.0 Plus-ZBDongle-E</h1><div><br></div><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(117, 117, 117);font-size:14px;font-family:Arial, Helvetica, Arial, Lucida, sans-serif\">SONOFF Zigbee 3.0 USB Dongle Plus est une clé USB Zigbee universelle. Il peut être utilisé comme une passerelle Zigbee dans l'assistant domestique, openHAB, ou d'autres plateformes open source pour contrôler localement tous vos appareils Zigbee, vous n'avez donc pas besoin d'investir dans les moyeux Zigbee de différentes marques, tout ce dont vous avez besoin est une passerelle universelle-Dongle Plus!</span></p><div>&nbsp;</div><ul style=\"font-family:Arial, Helvetica, Arial, Lucida, sans-serif;font-size:14px;font-weight:500;letter-spacing:normal;line-height:26px;text-align:left;white-space:normal;color:rgb(117, 117, 117);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px 0px 23px 1em;padding-bottom:23px;padding-top:0px;padding-left:1em;padding-right:0px;list-style:disc;box-sizing:border-box\" align=\"left\"><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Pré-flashé avec le firmware du codeur Zigbee basé sur EZNet 6.10.3 hors de la boîte</p></li><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Prend en charge les plates-formes de maison intelligente comme l'assistant à domicile, openHAB, etc.</p></li><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Basé sur EFR32MG21</p></li><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Gain de sortie + 20dbm</p></li><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Le boîtier en aluminium réduit efficacement les interférences du signal provenant des périphériques</p></li><li style=\"font-size:14px;background-color:transparent;border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\"><p>Câble d'extension USB de 1.5m en option pour une meilleure portée du signal</p></li></ul><p style=\"font-family:Arial, Helvetica, Arial, Lucida, sans-serif;font-size:14px;font-weight:500;letter-spacing:normal;text-align:left;white-space:normal;color:rgb(117, 117, 117);background-color:rgb(255, 255, 255);border:0px;margin:0px;margin-bottom:0px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" align=\"left\">SONOFF Zigbee 3.0 USB Dongle Plus peut fonctionner avec les appareils ci-dessous:<br><span style=\"background-color:transparent;font-size:14px\"><strong>Routeur</strong></span>:<span>&nbsp;</span>ZBMINI<span>&nbsp;</span>Commutateur intelligent,<span>&nbsp;</span>S31 Lite ZB<span>&nbsp;</span>Prise intelligente,<span>&nbsp;</span>BASICZBR3<span>&nbsp;</span>Commutateur intelligent,<span>&nbsp;</span>S26R2ZB<span>&nbsp;</span>Interrupteur intelligent<br><span style=\"background-color:transparent;font-size:14px\"><strong>Dispositif d'extrémité</strong></span>:<span>&nbsp;</span>ZBMINI-L<span>&nbsp;</span>Commutateur intelligent,<span>&nbsp;</span>Commutateur SNZB-01,<span>&nbsp;</span>SNZB-02<span>&nbsp;</span>Temp. Et Hum. Capteur,<span>&nbsp;</span>SNZB-03<span>&nbsp;</span>Capteur de mouvement,<span>&nbsp;</span>SNZB-04<span>&nbsp;</span>Capteur de porte/fenêtre</p><div><br></div><p><span style=\"background-color:rgb(255, 255, 255);color:rgb(117, 117, 117);font-size:14px;font-family:Arial, Helvetica, Arial, Lucida, sans-serif\">Dongle Plus prend en charge une variété de systèmes courants, tels que Linux, Ubuntu, Raspbian, Windows, macOS (Windows et macOS nécessitent l'installation correspondante du pilote).</span></p><p style=\"font-family:OpenSans;font-size:14px;font-weight:300;letter-spacing:normal;line-height:20px;text-align:start;white-space:pre-wrap;color:rgb(0, 0, 0);background-color:rgb(255, 255, 255);margin:0px 0px 12px;margin-bottom:12px;margin-top:0px;margin-left:0px;margin-right:0px;padding:0px;padding-bottom:0px;padding-top:0px;padding-left:0px;padding-right:0px;box-sizing:border-box\" class=\"detail-desc-decorate-content\" align=\"start\"><br><img src=\"https://ae01.alicdn.com/kf/Sd9298485d0a74a43ba89144ca1cdf9dck.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Seaf282417ba4445a9618e35ae5206daah.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S474a12db166a42eb8de7b3b71e06686ec.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S698cde2fd653495fa74777d29b40fbaeA.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S24300d3451964f29927173d96774429bu.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/S4abe9e7a9f08472f894c8d75c013a7d3r.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Scc5141cef29545ec9b68b59af9bf191cG.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Sf984d1cd09f947d3b46e2052a8757e81G.jpg\" slate-data-type=\"image\"><img src=\"https://ae01.alicdn.com/kf/Sbda4a1a2eb2d40abb29ab464fa66a5fcX.jpg\" slate-data-type=\"image\"><br><br></p></div></div><p><br></p><p><br></p></div></div>\n\n<script>window.adminAccountId=220913019;</script>\n",
-        "orders": 416,
-        "storeInfo": {
-            "name": "E-WELINK Store",
-            "companyId": 230910863,
-            "storeNumber": 1232699,
-            "followers": 34192,
-            "ratingCount": 127,
-            "rating": "94.3%"
-        },
-        "ratings": {
-            "totalStar": 5,
-            "averageStar": "4.8",
-            "totalStartCount": 51,
-            "fiveStarCount": 49,
-            "fourStarCount": 0,
-            "threeStarCount": 0,
-            "twoStarCount": 0,
-            "oneStarCount": 2
-        },
-        "images": [
-            "https://ae01.alicdn.com/kf/S9316ebb760ac4ea6a6c6ae87cc358e764/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg",
-            "https://ae01.alicdn.com/kf/Sa317a10b308d4688ae278932bb453efcz/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg",
-            "https://ae01.alicdn.com/kf/Sd20e4372f20d41d2a59ce55437a58979e/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg",
-            "https://ae01.alicdn.com/kf/S31b48d3d02254d8390615e188252c836W/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg",
-            "https://ae01.alicdn.com/kf/S9c2957f065914ea7aead5d4c63155127O/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg",
-            "https://ae01.alicdn.com/kf/S5002f54f67b54831a381ecbf2e33d2f4x/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg"
-        ],
-        "specs": [
-            {
-                "attrName": "Nom de marque",
-                "attrValue": "SONOFF"
-            },
-            {
-                "attrName": "Origine",
-                "attrValue": "CN (Origine)"
-            },
-            {
-                "attrName": "Compatibilité",
-                "attrValue": "Tous compatibles"
-            },
-            {
-                "attrName": "État assemblée",
-                "attrValue": "Prêt-à-aller"
-            },
-            {
-                "attrName": "Certification",
-                "attrValue": "CE,FCC,ROHS"
-            },
-            {
-                "attrName": "Paquet",
-                "attrValue": "Universal Zigbee USB stick"
-            },
-            {
-                "attrName": "Caméra équipée",
-                "attrValue": "Pas de"
-            },
-            {
-                "attrName": "Numéro de Modèle",
-                "attrValue": "Zigbee 3.0 USB Dongle Plus"
-            },
-            {
-                "attrName": "Type",
-                "attrValue": "DIY universal gateway"
-            },
-            {
-                "attrName": "Product Series",
-                "attrValue": "DIY smart switch"
-            },
-            {
-                "attrName": "Input",
-                "attrValue": "5VDC 100mA Max"
-            },
-            {
-                "attrName": "Color",
-                "attrValue": "Black"
-            },
-            {
-                "attrName": "Applicable place",
-                "attrValue": "Indoor"
-            },
-            {
-                "attrName": "Working temperature",
-                "attrValue": "-10 to 40"
-            },
-            {
-                "attrName": "Working humidity",
-                "attrValue": "5%-95% RH, non-condensing"
-            },
-            {
-                "attrName": "Supported platforms",
-                "attrValue": "Windows, Raspbian, Ubuntu, macOS"
-            },
-            {
-                "attrName": "Casing material",
-                "attrValue": "Aluminum alloy"
-            },
-            {
-                "attrName": "Support",
-                "attrValue": "BASICZBR3, S31 Lite zb, SNZB01, SNZB02, SNZB03, SNZB04, ZBMINI, S26R2ZB etc"
-            },
-            {
-                "attrName": "Zigbee",
-                "attrValue": "Zigbee 3.0 (IEEE 802.15.4)"
-            }
-        ],
-        "currency": "EUR",
-        "originalPrice": {
-            "min": 34.17,
-            "max": 160.53
-        },
-        "salePrice": {
-            "min": 21.18,
-            "max": 113.41
-        }
+  "product": {
+    "productId": 1005003756346858,
+    "title": "SONOFF ZB Dongle-E USB Dongle Plus Zigbee 3.0 passerelle universelle Support Assistant à domicile Raspbian Ubuntu macOS",
+    "description": "",
+    "reference": "USB Dongle Plus 1pcs",
+    "salePrice": "24.95€",
+    "discount": "",
+    "currency": "EUR",
+    "originalPrice": "34.17",
+    "quantity": "920",
+    "image": "https://ae01.alicdn.com/kf/S9316ebb760ac4ea6a6c6ae87cc358e764/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg_Q90.jpg_.webp",
+    "storeInfo": {
+      "name": "E-WELINK Store",
+      "url": "https://fr.aliexpress.com/store/1232699",
+      "storeNumber": "1232699",
+      "rating": "94.2%",
+      "followers": "34192"
+    },
+    "ratings": {
+      "totalStar": 5,
+      "averageStar": "4.8",
+      "totalStartCount": "51"
     }
+  }
 }

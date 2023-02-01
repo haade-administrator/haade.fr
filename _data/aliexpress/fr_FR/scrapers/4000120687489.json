@@ -1,78 +1,26 @@
 {
-    "product": {
-        "title": "Module USB vers UART TTL à 5 broches, 3 pièces par lot, pour arduino PL2303, 1 pièce de chaque, PL2303HX, CP2102, CH340G",
-        "categoryId": 400103,
-        "productId": 4000120687489,
-        "totalAvailableQuantity": 114416,
-        "description": "<div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><div class=\"detailmodule_html\"><div class=\"detail-desc-decorate-richtext\"><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hfdd6514f3197428285affcd46e97bed3J.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hf4a04df644094f4b9baad410dc6217b6L.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H89aca326936d4ee19b6c863455311e374.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H124a1d879703422c9a9e6923228c693cw.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/Hb5c4cb6942dd4527b05adc11cc3be32eg.jpg\"></p><p><img style=\"width:1000px;\" src=\"https://ae01.alicdn.com/kf/H757fb95c40374c1b845b4e88914bff5aC.jpg\"></p></div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n</div></div>\n\n<script>window.adminAccountId=220662299;</script>\n",
-        "orders": 2476,
-        "storeInfo": {
-            "name": "IGMOPNRQ module Store",
-            "companyId": 230681721,
-            "storeNumber": 1113426,
-            "followers": 6889,
-            "ratingCount": 4892,
-            "rating": "98.4%"
-        },
-        "ratings": {
-            "totalStar": 5,
-            "averageStar": "4.9",
-            "totalStartCount": 524,
-            "fiveStarCount": 483,
-            "fourStarCount": 27,
-            "threeStarCount": 6,
-            "twoStarCount": 1,
-            "oneStarCount": 7
-        },
-        "images": [
-            "https://ae01.alicdn.com/kf/Hacc1205382f14e32a23294c78dd03233z/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg",
-            "https://ae01.alicdn.com/kf/H70808ddbd0f542c78294454287707161V/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg",
-            "https://ae01.alicdn.com/kf/Hea9da6ce26824bf7b8118e9743048457O/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg",
-            "https://ae01.alicdn.com/kf/Hdce701a13e544c9e9ff1d367315906d9n/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg"
-        ],
-        "specs": [
-            {
-                "attrName": "Nom de marque",
-                "attrValue": "IGMOPNRQ"
-            },
-            {
-                "attrName": "Origine",
-                "attrValue": "CN (Origine)"
-            },
-            {
-                "attrName": "Condition",
-                "attrValue": "Nouveau"
-            },
-            {
-                "attrName": "Type",
-                "attrValue": "RÉGULATEUR DE TENSION"
-            },
-            {
-                "attrName": "Numéro de Modèle",
-                "attrValue": "PL2303/CP2102/USB TO TTL"
-            },
-            {
-                "attrName": "Température de fonctionnement",
-                "attrValue": "International standard"
-            },
-            {
-                "attrName": "Tension d'alimentation",
-                "attrValue": "International standard"
-            },
-            {
-                "attrName": "Puissance de dissipation",
-                "attrValue": "International standard"
-            },
-            {
-                "attrName": "Personnalisé",
-                "attrValue": "Oui"
-            }
-        ],
-        "currency": "EUR",
-        "originalPrice": {
-            "min": 0.78,
-            "max": 3.21
-        },
-        "salePrice": {}
+  "product": {
+    "productId": 4000120687489,
+    "title": "Module USB vers UART TTL à 5 broches, 3 pièces par lot, pour arduino PL2303, 1 pièce de chaque, PL2303HX, CP2102, CH340G",
+    "description": "",
+    "reference": "PL2303HX",
+    "salePrice": "0.78",
+    "discount": "",
+    "currency": "EUR",
+    "originalPrice": null,
+    "quantity": "8155",
+    "image": "https://ae01.alicdn.com/kf/Hacc1205382f14e32a23294c78dd03233z/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg_Q90.jpg_.webp",
+    "storeInfo": {
+      "name": "IGMOPNRQ module Store",
+      "url": "https://fr.aliexpress.com/store/1113426",
+      "storeNumber": "1113426",
+      "rating": "98.4%",
+      "followers": "6890"
+    },
+    "ratings": {
+      "totalStar": 5,
+      "averageStar": "4.9",
+      "totalStartCount": "526"
     }
+  }
 }

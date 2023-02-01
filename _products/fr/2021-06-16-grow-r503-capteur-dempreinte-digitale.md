@@ -18,7 +18,6 @@ item: 33053655412
 item-affiliate: "_DEroCaf"
 redirect_from: 
     - /produit/grow-r503-capteur-dempreinte-digitale/
-    - /fr/produit/grow-r503-capteur-dempreinte-digitale/
 ---
 
 Le Grow R503 peut collecter 200 empreintes digitales, le taux de reconnaissance est élevé quelles que soient les conditions (doigt sec ou humide, texture fine ou texture marquée). Il peut être facilement intégré dans une variété de produits finaux, tels que : contrôleurs d'accès, présence, coffre-fort....

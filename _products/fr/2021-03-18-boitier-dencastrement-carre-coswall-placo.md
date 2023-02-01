@@ -15,7 +15,6 @@ published: true
 item: 32958909969
 item-affiliate: '_DDr9CYF'
 redirect_from: 
-    - /fr/produit/boitier-dencastrement-carre-coswall-44-de-reductions/
     - /produit/boitier-dencastrement-carre-coswall-44-de-reductions/
 ---
 

@@ -17,7 +17,6 @@ item: 4000713894535
 item-affiliate: '_DdxUHDV'
 redirect_from: 
     - /produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/
-    - /fr/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/
 ---
 
 **Xiaomi a sorti il y a quelque temps des capteurs de portes de qualité.**

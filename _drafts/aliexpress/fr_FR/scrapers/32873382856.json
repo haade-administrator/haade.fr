@@ -1,0 +1,73 @@
+{
+    "product": {
+        "title": "Capteur de proximité inductif M18, 8mm, DC 5V NPN, pas de cylindre//interrupteur, tension de fonctionnement 5VDC, spécial pour MCU",
+        "categoryId": 200001056,
+        "productId": 32873382856,
+        "totalAvailableQuantity": 32676,
+        "description": "<div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"\"><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"></div></div><div class=\"detailmodule_dynamic\"><div class=\"detailmodule_dynamic\"><kse:widget data-widget-type=\"customText\" id=\"24461526\" title=\"\" type=\"custom\"></kse:widget></div></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\"></div><div class=\"\"><div class=\"\">\n<div>\n<strong><span style=\"font-size: 36.0px;\"><span style=\"font-weight: bold;margin-right: 12.0px;\">Cylindre 5V NPN pas de capteur de proximité</span></span></strong>\n<img alt=\"327\" src=\"https://ae01.alicdn.com/kf/HTB1H.MDqYGYBuNjy0Foq6AiBFXaz.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"330\" src=\"https://ae01.alicdn.com/kf/HTB1fj3Uq79WBuNjSspeq6yz5VXai.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"329\" src=\"https://ae01.alicdn.com/kf/HTB12K9brmBYBeNjy0Feq6znmFXab.jpg?width=930&amp;height=550&amp;hash=1480\">\n<img alt=\"328\" src=\"https://ae01.alicdn.com/kf/HTB1wdg1q1GSBuNjSspbq6AiipXaK.jpg?width=930&amp;height=550&amp;hash=1480\">\n</div>\n<p></p></div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n</div></div></div></div>\n\n<script>window.adminAccountId=231758244;</script>\n",
+        "orders": 421,
+        "storeInfo": {
+            "name": "Shop4198022 Store",
+            "companyId": 241153606,
+            "storeNumber": 4198022,
+            "followers": 7168,
+            "ratingCount": 23790,
+            "rating": "98.7%"
+        },
+        "ratings": {
+            "totalStar": 5,
+            "averageStar": "4.8",
+            "totalStartCount": 26,
+            "fiveStarCount": 24,
+            "fourStarCount": 1,
+            "threeStarCount": 0,
+            "twoStarCount": 0,
+            "oneStarCount": 1
+        },
+        "images": [
+            "https://ae01.alicdn.com/kf/HTB1tUj0vv5TBuNjSspmq6yDRVXaE/Capteur-de-proximit-inductif-M18-8mm-DC-5V-NPN-pas-de-cylindre-interrupteur-tension-de-fonctionnement.jpg",
+            "https://ae01.alicdn.com/kf/HTB1mu4crkCWBuNjy0Faq6xUlXXaZ/Capteur-de-proximit-inductif-M18-8mm-DC-5V-NPN-pas-de-cylindre-interrupteur-tension-de-fonctionnement.jpg",
+            "https://ae01.alicdn.com/kf/HTB13aTOiMKTBuNkSne1q6yJoXXaH/Capteur-de-proximit-inductif-M18-8mm-DC-5V-NPN-pas-de-cylindre-interrupteur-tension-de-fonctionnement.jpg",
+            "https://ae01.alicdn.com/kf/HTB1XutDrh9YBuNjy0Ffq6xIsVXaY/Capteur-de-proximit-inductif-M18-8mm-DC-5V-NPN-pas-de-cylindre-interrupteur-tension-de-fonctionnement.jpg"
+        ],
+        "specs": [
+            {
+                "attrName": "Nom de marque",
+                "attrValue": "ELEABC"
+            },
+            {
+                "attrName": "Origine",
+                "attrValue": "CN (Origine)"
+            },
+            {
+                "attrName": "Certification",
+                "attrValue": "CCC"
+            },
+            {
+                "attrName": "Type D'article",
+                "attrValue": "Commutateurs"
+            },
+            {
+                "attrName": "Garantie",
+                "attrValue": "2 years"
+            },
+            {
+                "attrName": "Numéro de Modèle",
+                "attrValue": "LJ18A3-8-Z/BX-5V"
+            },
+            {
+                "attrName": "Type de découpage",
+                "attrValue": "Interrupteur marche/arrêt"
+            }
+        ],
+        "currency": "EUR",
+        "originalPrice": {
+            "min": 6.69,
+            "max": 6.69
+        },
+        "salePrice": {
+            "min": 2.58,
+            "max": 2.58
+        }
+    }
+}

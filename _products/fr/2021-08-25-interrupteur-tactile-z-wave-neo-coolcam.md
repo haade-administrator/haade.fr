@@ -18,7 +18,6 @@ item: 1005002782331110
 item-affiliate: "_DDH3gjp"
 redirect_from: 
   - /produit/interrupteur-tactile-z-wave-neo-coolcam/
-  - /fr/produit/interrupteur-tactile-z-wave-neo-coolcam/
 ---
 
 
