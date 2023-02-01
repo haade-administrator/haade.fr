@@ -62,7 +62,7 @@ jobs:
           sass -v
           bundle config set --local path 'vendor/bundle'
           bundle install && bundle update
-#          bundle exec jekyll clean
+          bundle exec jekyll clean
           JEKYLL_ENV=production bundle exec jekyll build
 
 
