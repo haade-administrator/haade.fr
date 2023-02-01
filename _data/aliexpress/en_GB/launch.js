@@ -14,7 +14,7 @@ async function scrapeAliexpress() {
   // Ajouter les cookies nécessaires si nécessaire
   await page.setCookie({
     name: 'aep_usuc_f',
-    value: 'site=usa&c_tp=USD&region=US&b_locale=en_US',
+    value: 'isfm=y&site=usa&province=922865760000000000&city=922865765662000000&c_tp=USD&x_alimid=169543615&isfb=y&isb=y&region=US&b_locale=en_US',
     domain: '.aliexpress.com',
     path: '/',
     httpOnly: true,
@@ -23,7 +23,7 @@ async function scrapeAliexpress() {
 
   await page.setCookie({
     name: 'xman_t',
-    value: 'xS98E5WRTlqFxuILPSdG1PtzUzLdGXe9MN/CyKMUwQk9vpEpr8oNEwhjN0cxmfEbJLiKpbLFnLrNwa60cnAdEXhqnbbCR+bO30eRHl1i76mCgLD5zE8wJJ9BqopDDiovUMuygNV6VDelfGSMdoCUqVcp7sS27oLL+qI/zCzcpC8SV/knGdzWikQfzfjzVQMjVp6aaReBepq+zRGL6IGiXYFHrevX1eBACZkQMBJD5fh17UgWpykHK8NKbGcDRYNJyoNzQUxcu+8Ayj9ollB0uKYqpcFFNxSOhw6mwzM0lEJUwKfL7h9Q4JdwnQLN6/LuTHd5D6G0nAYtDbrRLJdg2Bs1nY6GrRp4bTJYFWaE1djc8PiyELclHjGM7Ei40OxcQs51Xg4AnIrOB+wmGsATq1msPrVqqb8Z2GA88EnHIRMmmNTmDhZmhWfNLBMZsnlCrRL7JMvY6O01ro7hnD/PPcHhZEinuMTVkb3z/ShXunU2liI5qlvzp/BBuqA3qiM2vcjOuBKQYUqJnQHZKzAs9ng3Q54N0PmRo+PFgb8o3AY89hZ+O/3w97REjm13n/WOEZVdHXGmzRXkO2QPPPMJSb0Ck+rBpbXnKnrzlUPuFaZVF4EfF53b0OQh/cVtCuAj4DzoanxJsRVhEpJqrdVdiZ0MfBFpIHUy',
+    value: '5VuiEgRT/JpbRhkBGnQLby7Sza6sjMHXr9QdT4TPwBoN8FIpph+jGRKGPe54DxefCX8vFu/BLt+W6VNSNHSrNwPOsUfiunmy1nJd3YJUJN0/ubdnVrRVbZiudTVg1KMAz6szzRkTURky9A8jKzVjSLXmY7Q501uI6B9Bpk7pKhuv7TzNuJq4LJ+jd2fT41snaI8G/eOg9XF1reQTFiuWB6v1RuRynUQL7kP22dVIwWMPERLVj5GYuPSO6SeNwc6hrbE9oI0gVPeCXNkIPJDAU9LIj8PMoOPIGQxYcAYiJSuxrGpiW+R9acBUogfT3drTAbYIs45JWQcBMvN9ENDVDx1FNmx+09FOsiAx4J5ZeHkXQKn3gpr1L+KY20oNua4JIJwuumH1aiWIwDpDthSGrdfWmzNnyDZOVb8U/QMvQ5iB7wzMGJ/H2aUETe9Qpbf+zuL0ofw6EzkiWa9bnp6iyqA7sJ182fPS7HMCvIRcmt4OYvjl06a1tcNSR6wIO2eGvYzab9xKdtxeozwyyXhWIJ0qI8p86t2XsmM0kn5BC7HTUWvZgdFT7hhXccpftbgIbeabofY38y5oxrGtC5XICl+kKolwXFIR8ymQKBfby3t4qhqeHg4PoJRPelm7kZ37eQRZUN71zvnwhGAlcD0pMEm7yJFexDnc',
     domain: '.aliexpress.com',
     path: '/',
     httpOnly: true,
@@ -32,7 +32,7 @@ async function scrapeAliexpress() {
 
   await page.setCookie({
     name: 'xman_us_f',
-    value: 'x_locale=en_US&x_l=0&x_user=FR|rodriguez|nicolas|ifm|169543615&x_lid=fr1049920001&x_c_chg=1&x_as_i=%7B%22aeuCID%22%3A%22%22%2C%22cookieCacheEffectTime%22%3A1675261261973%2C%22isCookieCache%22%3A%22Y%22%2C%22ms%22%3A%220%22%7D&acs_rt=142dc33103ae41cb9de1dcc52fe04020',
+    value: 'x_locale=fr_FR&x_l=0&x_user=FR|rodriguez|nicolas|ifm|169543615&x_lid=fr1049920001&x_c_chg=0&x_as_i=%7B%22aeuCID%22%3A%22%22%2C%22cookieCacheEffectTime%22%3A1675261261973%2C%22isCookieCache%22%3A%22Y%22%2C%22ms%22%3A%220%22%7D&acs_rt=142dc33103ae41cb9de1dcc52fe04020',
     domain: '.aliexpress.com',
     path: '/',
     httpOnly: true,
@@ -87,19 +87,21 @@ async function scrapeAliexpress() {
     } catch (error) {
       console.log(`Error the product ${link} has not been rated`);
     };
+
     // récupérer le prix et la devise
-    const globalprice = $('.product-price-current').text().replace("US", "USD").replace(",", ".").replace("$", "");
+    const globalprice = $('.product-price-current').text().replace("US", "").replace(",", ".").replace("$", "").trim();
     const priceArr = globalprice.split(" ");
-    const pricecurrency = priceArr[0];
-    const price = priceArr[1];
+    const minprice = priceArr[0];
+    const maxprice = priceArr[1] || null;
+    const currency = "USD";
     // récupérer le prix special et la devise
-    const globalsprice = $('.uniform-banner-box-price').text().replace("US", "USD").replace(",", ".").replace("$", "");
+    const globalsprice = $('.uniform-banner-box-price').text().replace("US", "").replace(",", ".").replace("$", "").trim();
     const spriceArr = globalsprice.split(" ");
-    const pricescurrency = spriceArr[0];
-    const specialprice = spriceArr[1];
+    const minspecialprice = spriceArr[0];
+    const maxspecialprice = spriceArr[1];
     // passer du prix au prix special automatiquement
-    const salePrice = price || specialprice || 'price not found';
-    const currency = pricecurrency || pricescurrency || 'currency not found';
+    const minsalePrice = minprice || minspecialprice || 'price not found';
+    const maxsalePrice = maxprice || maxspecialprice || 'price not found';
     // récupérer le prix barré
     const globalpricedel = $('.product-price-del').text().replace("US", "USD").replace("$", "").replace(",", ".");
     const pricedelArr = globalpricedel.split(" ");
@@ -114,7 +116,7 @@ async function scrapeAliexpress() {
 
 
     const title = $('.product-title').text();
-    const description = $('.detail-desc-decorate-richtext').text();
+    const description = $('div.product-description').html();
     const reference = $('.sku-title-value').text();
     const sale = {
       quantity: null,
@@ -143,7 +145,8 @@ async function scrapeAliexpress() {
         title,
         description,
         reference,
-        salePrice,
+        minsalePrice,
+        maxsalePrice,
         discount,
         currency,
         originalPrice,

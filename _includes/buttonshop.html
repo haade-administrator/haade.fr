@@ -1,6 +1,6 @@
 <div class="button-shop" role="button">
   <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank" rel="nofollow noopener">{{
-    translate.product.buttonbuy[page.locale] }} - {%- if scraper.salePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
+    translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
     currency }}{%- endif %}
   </a>
 </div>

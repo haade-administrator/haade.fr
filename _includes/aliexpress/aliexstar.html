@@ -2,15 +2,15 @@
 {%- assign star = rating.averageStar %}
 {%- assign beststar = rating.totalStar %}
 {%- assign totalstar = rating.totalStartCount %}
-{%- assign minprice = scraper.salePrice %}
-{%- assign maxprice = scraper.salePrice %}
+{%- assign minprice = scraper.minsalePrice %}
+{%- assign maxprice = scraper.maxsalePrice %}
 
 {%- assign originalprice = scraper.originalPrice %}
 {%- assign currency = scraper.currency %}
 {%- assign quantity = scraper.quantity %}
 <div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
   <meta itemprop="lowPrice" content="{{ minprice }}" />
-  <meta itemprop="highPrice" content="{{ originalprice }}" />
+  <meta itemprop="highPrice" content="{{ maxprice }}" />
   <meta itemprop="offerCount" content="{{ quantity }}" />
   <meta itemprop="priceCurrency" content="{{ currency }}" />
 </div>

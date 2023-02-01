@@ -88,18 +88,21 @@ async function scrapeAliexpress() {
       console.log(`Erreur le produit ${link} n'a pas été noté`);
     };
     // récupérer le prix et la devise
-    const globalprice = $('.product-price-value').text().replace(",", ".").replace("€", "EUR");
+    const globalprice = $('.product-price-value').text().replace(/,/g, ".").replace(/€/g, '').trim();
     const priceArr = globalprice.split(" ");
-    const pricecurrency = priceArr[0];
-    const price = priceArr[1];
+    const minprice = priceArr[0];
+    const maxprice = priceArr[1] || null;
+    const currency = "EUR";
+
     // récupérer le prix special et la devise
-    const globalsprice = $('.uniform-banner-box-price').text().replace(",", ".").replace("€", "EUR");
+    const globalsprice = $('.uniform-banner-box-price').text().replace(/,/g, ".").replace(/€/g, '').trim();
     const spriceArr = globalsprice.split(" ");
-    const pricescurrency = spriceArr[0];
-    const specialprice = spriceArr[1];
+    const minspecialprice = spriceArr[0];
+    const maxspecialprice = spriceArr[1];
+
     // passer du prix au prix special automatiquement
-    const salePrice = price || specialprice || 'prix introuvable';
-    const currency = pricecurrency || pricescurrency || 'devise introuvable';
+    const minsalePrice = minprice || minspecialprice || 'prix introuvable';
+    const maxsalePrice = maxprice || maxspecialprice || 'prix introuvable';
     // récupérer le prix barré
     const globalpricedel = $('.product-price-del').text().replace(",", ".");
     const pricedelArr = globalpricedel.split(" ");
@@ -114,7 +117,7 @@ async function scrapeAliexpress() {
 
 
     const title = $('.product-title').text();
-    const description = $('.detail-desc-decorate-richtext').text();
+    const description = $('div.product-description').html();
     const reference = $('.sku-title-value').text();
     const sale = {
       quantity: null,
@@ -143,7 +146,8 @@ async function scrapeAliexpress() {
         title,
         description,
         reference,
-        salePrice,
+        minsalePrice,
+        maxsalePrice,
         discount,
         currency,
         originalPrice,
