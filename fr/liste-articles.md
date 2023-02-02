@@ -34,3 +34,4 @@ toc: false
   - [led gardener github](https://github.com/ledgardener/gardenAutomation){:target="_blank"}
 - Projet raspberry control piscine erp et ph avec ha [raspipool](https://github.com/virgilm/sparkly){:target="_blank"}
 - projet esp32 piscine et ha [esp32 pool](https://github.com/smurry/pool_controller){:target="_blank"}
+- upgrader clé cc2652

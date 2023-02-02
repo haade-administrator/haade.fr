@@ -36,7 +36,7 @@ layout: default
     {%- include buttonshop.html %}
 
     <!-- Content -->
-    {%- assign scrapdescription = scraper.description | strip_html %}
+    {%- assign scrapdescription = scraper.description | strip_html | strip %}
     <meta itemprop="description" content="{{ scrapdescription }}" />
 
     {%- include article.html %}

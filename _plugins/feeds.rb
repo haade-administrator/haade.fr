@@ -4,6 +4,7 @@ require 'time'
 require 'yaml'
 require 'to_slug'
 require 'sanitize'
+require 'rss'
 
 feed_file = "./_data/feeds.yml"
 output_location = "./_externalposts"
@@ -30,9 +31,9 @@ feed.each do |feeditem|
 
 		filename = "#{output_location}/#{title.to_slug.sub(/-\Z/,"")}.md"
 		description = if entry.description.nil?
-            Sanitize.fragment(entry.content).to_s.force_encoding("utf-8")
+            body
           else
-            Sanitize.fragment(entry.description).to_s.force_encoding("utf-8")
+            Sanitize.fragment(entry.description)
           end
 
 

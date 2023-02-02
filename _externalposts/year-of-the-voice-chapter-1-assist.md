@@ -1,60 +1,60 @@
 ---
 title: "Year of the Voice - Chapter 1 - Assist"
 date: 2023-01-26 00:00:00 +0000
-dateadded: 2023-01-31 09:17:01 +0100
-description: " This year is Home Assistant���s year of the voice. It is our goal for 2023 to let users control Home Assistant in their own language. Today, one month into 2023, we start our first chapter. 
- At Home Assistant we believe that technology is meant to be played with, and projects should be usable as soon as possible. Together with the community we can then iterate and refine. That���s why today, we���re delivering a basic experience for 22 languages to interact with Home Assistant. Oh, and we are also releasing some fun stuff that we cooked up along the way. 
- To watch the video presentation of this blog post, including live demos, check the recording of our live stream. 
- Intentions 
- The core of a voice assistant is to be able to understand the intention of a spoken sentence. What is it the user wants to do? To extract these intentions we created our own template sentence matching format and intent recognizer named Hassil. 
- This new format is used by our new Home Assistant Intents project. The goal of this project is to collect home automation sentences in every possible language. Since it���s start a month ago, we have had 112 people contribute. The project now supports 22 languages and 14 more are in progress. 
- Assist 
- We have added a new feature to Home Assistant:  Assist. It allow users to use natural language to control Home Assistant. It is powered by Hassil and the sentences from the Home Assistant Intent project. 
-
- We want Assist to be as accessible to as many people as possible. To do this, we made it work without requiring extra hardware ��� just update to Home Assistant 2023.2 and you can start! Through a combination of smart algorithms combined with sheer brute force (we are collecting a lot of sentences), we have been able to make a system that works for most common sentences. Support for more powerful, AI-powered, intent recognizers might come in the future as an opt-in feature. 
- Assist is enabled by default in the Home Assistant 2023.2 release. Tap the new Assist icon  at the top right of the dashboard to use it. 
- Assist documentation. 
-
- Assist on Android Wear 
- We want to make it as easy as possible to use Assist. To enable this for Android users, we have added a new tile to the Android Wear app. A simple swipe from the clock face will show the assist button and allows you to send voice commands. 
- Assist on Android Wear documentation. 
- The new tile is currently available in the Android beta and will be part of the next Android release. 
-  
- Assist via Siri and Apple Shortcuts 
- For Apple devices we have been able to create a fully hands-free experience by integrating with Siri. This is powered by a new Apple Shortcut action called Assist, which is part of the Home Assistant app. This shortcut action can also be manually triggered from your Mac taskbar, iPhone home screen or Apple Watch complication. We have two ready-made shortcuts that users can import from the documentation with a single tap to unlock these features. 
- Assist via Siri and Apple Shortcuts documentation. 
- The Assist shortcut will be available in the Mac and iOS beta channel today and will be part of the next release for iOS and Mac. 
-  
- Custom Sentences 
- With Home Assistant we believe that every home is uniquely yours and that technology should adapt to you, not the other way around. That���s why we have architected Home Assistant to allow users to extensively customize their experience. Our Assist feature is no different. 
- 
- Are you into Game of Thrones and want every response to be ���hodor���? 
- Want to turn on lights in rooms by saying ���Hocus pocus living room���? 
- Want to trigger your party mode script using a custom sentence? 
- 
- Assist includes support for custom sentences, responses and intents, allowing you to achieve all of the above, and more. We���ve designed the custom sentence format in a way that it can be easily shared with the community. 
- Read the documentation on how to get started. 
- In a future release we���re planning on adding a user interface to customize and import sentences. 
- Custom Assist engines 
- By default Assist is powered by our own intent recognizer. It is local but it���s limited to controlling devices. Maybe you want to be able to ask more wide-range queries or you are looking for a conversational AI that will make up responses and present it as the truth. For such cases the Assist feature supports swapping out its engine that handles all Assist interactions. 
- The Home Assistant 2023.2 release includes two alternative Assist engines that you can enable: Google Assistant and OpenAI GPT-3. 
- The Google Assistant Assist engine is able to control your devices if you have linked up your Home Assistant instance to Google Assistant. 
- All ways to intereact with Assist will work, as they are not bound to the the Assist engine that is being used. So if you ever wanted to use Google Assistant on your HomePod, now you can ���� 
-  
- The OpenAI GPT-3 Assist engine will process all your interactions using GPT-3, a sibling of the infamous ChatGPT. It is not able to control your house or help you automate your house. Anything you ask it may or may not be factually correct. But it can be fun! 
- In a future release we���re planning to make it possible to configure multiple Assist engines to handle interactions. 
- What���s next 
- For Year of the Voice - Chapter 1 we focused on building intent recognition into Home Assistant while relying on Google and Apple to do the hard parts (speech recognition). This allowed us the fastest path to get something to the community to play with. 
- We will continue collecting home automation sentences for all languages (anyone can help!). Updates will be included with every major release of Home Assistant. 
- Our next step is integrating Speech-to-Text and Text-to-Speech with Assist. We don���t have a timeline yet when that will be ready. Stay tuned! 
- Credits 
- A lot of people have worked very hard to make all of the above possible. 
- Technology:
-Mike Hansen, Paulus Schoutsen, Daniel Shokouhi, Zac West, Rosemary Orchard, Tronikos 
- Language Leaders:
-@AalianKhan, @Ahmed-farag36, @alpdmrel, @arunshekher, @auanasgheps, @benjaminlecouteux, @bluefoxlee, @cibernox, @cvladan, @davefx, @dinhchinh82, @dsimop, @duhow, @easterapps, @ErnestStaug, @fadamsen, @flexy2dd, @gabimarchidan, @haim-b, @halecivo, @HepoH3, @hertzg, @hristo-atanasov, @huusissa, @joaorgoncalves, @larsdunemark, @leranp, @LubosKadasi, @makstech, @mojikosu, @MTrab, @nagyrobi, @schizza, @Scorpoon, @skynetua, @spuljko, @tetele, @TheFes, @Uriziel01, @xraver, @zubir2k 
- Voice Community:
-@Alexivia, @Atalonica, @AwesomeGuy000, @BossNeo, @CedricFinance, @Davidsoff, @EmilZackrisson, @FragMenthor, @InfiniteBed, @Kalma-House, @Licmeth, @Marlo461, @N3rdix, @Nismonx, @Robin-St, @TaQuangTien, @ThomDietrich, @TomaszPilch, @Wojciechgc, @alessandroias, @bemble, @berendhaan, @dejan2101, @dependabot[@bot], @dobromir-hristov, @frenck, @hugovsky, @iddiek, @jfisbein, @jharrvis, @jorclaret, @kamildoleglo, @kblin, @khymmera, @kroimon, @lellky, @ludeeus, @lukahra, @lunmay, @mardito, @martindybal, @mib1185, @michaelmior, @orrc, @pckahrs, @piitaya, @pmentis, @poltalashka, @rPonuganti, @rechin304, @relust, @rickydg, @rpochot, @rrakso, @rumbu13, @sanyatuning, @tasmin, @thecode, @waltlillyman, @witold-gren, @x15pa3ck15x, @yuvalabou 
+dateadded: 2023-02-02 08:54:04 +0100
+description: "<p>This year is Home Assistant’s <a href="https://www.home-assistant.io/blog/2022/12/20/year-of-voice/">year of the voice</a>. It is our goal for 2023 to let users control Home Assistant in their own language. Today, one month into 2023, we start our first chapter.</p>
+<p>At Home Assistant we believe that technology is meant to be played with, and projects should be usable as soon as possible. Together with the community we can then iterate and refine. That’s why today, we’re delivering a basic experience for 22 languages to interact with Home Assistant. Oh, and we are also releasing some fun stuff that we cooked up along the way.</p>
+<p><em>To watch the video presentation of this blog post, including live demos, check <a href="https://www.youtube.com/live/ixgNT3RETPg">the recording of our live stream</a>.</em></p>
+<h2>Intentions</h2>
+<p>The core of a voice assistant is to be able to understand the intention of a spoken sentence. What is it the user wants to do? To extract these intentions we created our own template sentence matching format and intent recognizer named <a href="https://github.com/home-assistant/hassil">Hassil</a>.</p>
+<p>This new format is used by our new <a href="https://github.com/home-assistant/intents">Home Assistant Intents</a> project. The goal of this project is to collect home automation sentences in every possible language. Since it’s start a month ago, we have had 112 people contribute. The project now supports <a href="https://home-assistant.github.io/intents/">22 languages and 14 more are in progress</a>.</p>
+<h2>Assist</h2>
+<p>We have added a new feature to Home Assistant: <img src='http://www.home-assistant.io/images/assist/assist-icon.svg' alt='Assist icon' style='height: 32px' class='no-shadow'> Assist. It allow users to use natural language to control Home Assistant. It is powered by Hassil and the sentences from the Home Assistant Intent project.</p>
+<!--more-->
+<p>We want Assist to be as accessible to as many people as possible. To do this, we made it work without requiring extra hardware – just update to Home Assistant 2023.2 and you can start! Through a combination of smart algorithms combined with sheer brute force (we are collecting a lot of sentences), we have been able to make a system that works for most common sentences. Support for more powerful, AI-powered, intent recognizers might come in the future as an opt-in feature.</p>
+<p>Assist is enabled by default in the Home Assistant 2023.2 release. Tap the new Assist icon <img src='http://www.home-assistant.io/images/assist/assist-icon.svg' alt='Assist icon' style='height: 32px' class='no-shadow'> at the top right of the dashboard to use it.</p>
+<p><a href="https://next.home-assistant.io/docs/assist/">Assist documentation.</a></p>
+<img src="http://www.home-assistant.io/images/blog/2023-01-26-year-of-the-voice-chapter-1/assist-dialog.png" alt="Screenshot of the Assist dialog" class='no-shadow' />
+<h2>Assist on Android Wear</h2>
+<p>We want to make it as easy as possible to use Assist. To enable this for Android users, we have added a new tile to the Android Wear app. A simple swipe from the clock face will show the assist button and allows you to send voice commands.</p>
+<p><a href="https://next.home-assistant.io/docs/assist/android/">Assist on Android Wear documentation.</a></p>
+<p><em>The tile is available in <a href="https://play.google.com/store/apps/details?id=io.homeassistant.companion.android&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">Home Assistant Companion for Android 2023.1.1</a>.</em></p>
+<p><lite-youtube videoid="Dr_ZCbt8w5k" videotitle="Assist on Android Wear"></lite-youtube></p>
+<h2>Assist via Siri and Apple Shortcuts</h2>
+<p>For Apple devices we have been able to create a fully hands-free experience by integrating with Siri. This is powered by a new Apple Shortcut action called Assist, which is part of the Home Assistant app. This shortcut action can also be manually triggered from your Mac taskbar, iPhone home screen or Apple Watch complication. We have two ready-made shortcuts that users can import from the documentation with a single tap to unlock these features.</p>
+<p><a href="https://next.home-assistant.io/docs/assist/apple/">Assist via Siri and Apple Shortcuts documentation.</a></p>
+<p><em>The Assist shortcut is available in <a href="https://apps.apple.com/us/app/home-assistant/id1099568401?itsct=apps_box_badge&amp;itscg=30200">Home Assistant Companion for iOS 2023.2</a>. Mac version is awaiting approval.</em></p>
+<p><lite-youtube videoid="sQ7X7jz1SrA" videotitle="Assist on Apple HomePod"></lite-youtube></p>
+<h2>Custom Sentences</h2>
+<p>With Home Assistant we believe that every home is uniquely yours and that <a href="https://www.home-assistant.io/blog/2016/01/19/perfect-home-automation/">technology should adapt to you, not the other way around.</a> That’s why we have architected Home Assistant to allow users to extensively customize their experience. Our Assist feature is no different.</p>
+<ul>
+<li>Are you into Game of Thrones and want every response to be “hodor”?</li>
+<li>Want to turn on lights in rooms by saying “Hocus pocus living room”?</li>
+<li>Want to trigger your party mode script using a custom sentence?</li>
+</ul>
+<p>Assist includes support for custom sentences, responses and intents, allowing you to achieve all of the above, and more. We’ve designed the custom sentence format in a way that it can be easily shared with the community.</p>
+<p>Read <a href="https://next.home-assistant.io/docs/assist/custom_sentences">the documentation</a> on how to get started.</p>
+<p><em>In a future release we’re planning on adding a user interface to customize and import sentences.</em></p>
+<h2>Custom Assist engines</h2>
+<p>By default Assist is powered by our own intent recognizer. It is local but it’s limited to controlling devices. Maybe you want to be able to ask more wide-range queries or you are looking for a conversational AI that will make up responses and present it as the truth. For such cases the Assist feature supports <a href="https://developers.home-assistant.io/docs/core/conversation/custom_agent">swapping out its engine</a> that handles all Assist interactions.</p>
+<p>The Home Assistant 2023.2 release includes two alternative Assist engines that you can enable: Google Assistant and OpenAI GPT-3.</p>
+<p>The Google Assistant Assist engine is able to control your devices if you have linked up your Home Assistant instance to Google Assistant.</p>
+<p>All ways to intereact with Assist will work, as they are not bound to the the Assist engine that is being used. So if you ever wanted to use Google Assistant on your HomePod, now you can 🤭</p>
+<p><lite-youtube videoid="orgTMVy0TrI" videotitle="Google Assistant on Apple HomePod"></lite-youtube></p>
+<p>The OpenAI GPT-3 Assist engine will process all your interactions using GPT-3, a sibling of the infamous ChatGPT. It is not able to control your house or <a href="http://www.home-assistant.io/blog/2023/01/23/help-others-leave-ai-at-the-dor/">help you automate your house</a>. Anything you ask it may or may not be factually correct. But it can be fun!</p>
+<p><em>In a future release we’re planning to make it possible to configure multiple Assist engines to handle interactions.</em></p>
+<h2>What’s next</h2>
+<p>For Year of the Voice - Chapter 1 we focused on building intent recognition into Home Assistant while relying on Google and Apple to do the hard parts (speech recognition). This allowed us the fastest path to get something to the community to play with.</p>
+<p>We will continue collecting home automation sentences for all languages (<a href="https://developers.home-assistant.io/docs/voice/intent-recognition/">anyone can help!</a>). Updates will be included with every major release of Home Assistant.</p>
+<p>Our next step is integrating Speech-to-Text and Text-to-Speech with Assist. We don’t have a timeline yet when that will be ready. Stay tuned!</p>
+<h2>Credits</h2>
+<p>A lot of people have worked very hard to make all of the above possible.</p>
+<p><strong>Technology:</strong>
+<a href="https://github.com/synesthesiam">Mike Hansen</a>, <a href="https://github.com/balloob">Paulus Schoutsen</a>, <a href="https://github.com/dshokouhi">Daniel Shokouhi</a>, <a href="https://github.com/zacwest">Zac West</a>, <a href="https://github.com/rosemaryorchard">Rosemary Orchard</a>, <a href="https://github.com/tronikos">Tronikos</a></p>
+<p><strong>Language Leaders:</strong>
+<a href="https://github.com/AalianKhan">@AalianKhan</a>, <a href="https://github.com/Ahmed-farag36">@Ahmed-farag36</a>, <a href="https://github.com/alpdmrel">@alpdmrel</a>, <a href="https://github.com/arunshekher">@arunshekher</a>, <a href="https://github.com/auanasgheps">@auanasgheps</a>, <a href="https://github.com/benjaminlecouteux">@benjaminlecouteux</a>, <a href="https://github.com/bluefoxlee">@bluefoxlee</a>, <a href="https://github.com/cibernox">@cibernox</a>, <a href="https://github.com/cvladan">@cvladan</a>, <a href="https://github.com/davefx">@davefx</a>, <a href="https://github.com/dinhchinh82">@dinhchinh82</a>, <a href="https://github.com/dsimop">@dsimop</a>, <a href="https://github.com/duhow">@duhow</a>, <a href="https://github.com/easterapps">@easterapps</a>, <a href="https://github.com/ErnestStaug">@ErnestStaug</a>, <a href="https://github.com/fadamsen">@fadamsen</a>, <a href="https://github.com/flexy2dd">@flexy2dd</a>, <a href="https://github.com/gabimarchidan">@gabimarchidan</a>, <a href="https://github.com/haim-b">@haim-b</a>, <a href="https://github.com/halecivo">@halecivo</a>, <a href="https://github.com/HepoH3">@HepoH3</a>, <a href="https://github.com/hertzg">@hertzg</a>, <a href="https://github.com/hristo-atanasov">@hristo-atanasov</a>, <a href="https://github.com/huusissa">@huusissa</a>, <a href="https://github.com/joaorgoncalves">@joaorgoncalves</a>, <a href="https://github.com/larsdunemark">@larsdunemark</a>, <a href="https://github.com/leranp">@leranp</a>, <a href="https://github.com/LubosKadasi">@LubosKadasi</a>, <a href="https://github.com/makstech">@makstech</a>, <a href="https://github.com/mojikosu">@mojikosu</a>, <a href="https://github.com/MTrab">@MTrab</a>, <a href="https://github.com/nagyrobi">@nagyrobi</a>, <a href="https://github.com/schizza">@schizza</a>, <a href="https://github.com/Scorpoon">@Scorpoon</a>, <a href="https://github.com/skynetua">@skynetua</a>, <a href="https://github.com/spuljko">@spuljko</a>, <a href="https://github.com/tetele">@tetele</a>, <a href="https://github.com/TheFes">@TheFes</a>, <a href="https://github.com/Uriziel01">@Uriziel01</a>, <a href="https://github.com/xraver">@xraver</a>, <a href="https://github.com/zubir2k">@zubir2k</a></p>
+<p><strong>Voice Community:</strong>
+<a href="https://github.com/Alexivia">@Alexivia</a>, <a href="https://github.com/Atalonica">@Atalonica</a>, <a href="https://github.com/AwesomeGuy000">@AwesomeGuy000</a>, <a href="https://github.com/BossNeo">@BossNeo</a>, <a href="https://github.com/CedricFinance">@CedricFinance</a>, <a href="https://github.com/Davidsoff">@Davidsoff</a>, <a href="https://github.com/EmilZackrisson">@EmilZackrisson</a>, <a href="https://github.com/FragMenthor">@FragMenthor</a>, <a href="https://github.com/InfiniteBed">@InfiniteBed</a>, <a href="https://github.com/Kalma-House">@Kalma-House</a>, <a href="https://github.com/Licmeth">@Licmeth</a>, <a href="https://github.com/Marlo461">@Marlo461</a>, <a href="https://github.com/N3rdix">@N3rdix</a>, <a href="https://github.com/Nismonx">@Nismonx</a>, <a href="https://github.com/Robin-St">@Robin-St</a>, <a href="https://github.com/TaQuangTien">@TaQuangTien</a>, <a href="https://github.com/ThomDietrich">@ThomDietrich</a>, <a href="https://github.com/TomaszPilch">@TomaszPilch</a>, <a href="https://github.com/Wojciechgc">@Wojciechgc</a>, <a href="https://github.com/alessandroias">@alessandroias</a>, <a href="https://github.com/bemble">@bemble</a>, <a href="https://github.com/berendhaan">@berendhaan</a>, <a href="https://github.com/dejan2101">@dejan2101</a>, <a href="https://github.com/dependabot%5B@bot%5D">@dependabot[@bot]</a>, <a href="https://github.com/dobromir-hristov">@dobromir-hristov</a>, <a href="https://github.com/frenck">@frenck</a>, <a href="https://github.com/hugovsky">@hugovsky</a>, <a href="https://github.com/iddiek">@iddiek</a>, <a href="https://github.com/jfisbein">@jfisbein</a>, <a href="https://github.com/jharrvis">@jharrvis</a>, <a href="https://github.com/jorclaret">@jorclaret</a>, <a href="https://github.com/kamildoleglo">@kamildoleglo</a>, <a href="https://github.com/kblin">@kblin</a>, <a href="https://github.com/khymmera">@khymmera</a>, <a href="https://github.com/kroimon">@kroimon</a>, <a href="https://github.com/lellky">@lellky</a>, <a href="https://github.com/ludeeus">@ludeeus</a>, <a href="https://github.com/lukahra">@lukahra</a>, <a href="https://github.com/lunmay">@lunmay</a>, <a href="https://github.com/mardito">@mardito</a>, <a href="https://github.com/martindybal">@martindybal</a>, <a href="https://github.com/mib1185">@mib1185</a>, <a href="https://github.com/michaelmior">@michaelmior</a>, <a href="https://github.com/orrc">@orrc</a>, <a href="https://github.com/pckahrs">@pckahrs</a>, <a href="https://github.com/piitaya">@piitaya</a>, <a href="https://github.com/pmentis">@pmentis</a>, <a href="https://github.com/poltalashka">@poltalashka</a>, <a href="https://github.com/rPonuganti">@rPonuganti</a>, <a href="https://github.com/rechin304">@rechin304</a>, <a href="https://github.com/relust">@relust</a>, <a href="https://github.com/rickydg">@rickydg</a>, <a href="https://github.com/rpochot">@rpochot</a>, <a href="https://github.com/rrakso">@rrakso</a>, <a href="https://github.com/rumbu13">@rumbu13</a>, <a href="https://github.com/sanyatuning">@sanyatuning</a>, <a href="https://github.com/tasmin">@tasmin</a>, <a href="https://github.com/thecode">@thecode</a>, <a href="https://github.com/waltlillyman">@waltlillyman</a>, <a href="https://github.com/witold-gren">@witold-gren</a>, <a href="https://github.com/x15pa3ck15x">@x15pa3ck15x</a>, <a href="https://github.com/yuvalabou">@yuvalabou</a></p>
 "
 link: "https://www.home-assistant.io/blog/2023/01/26/year-of-the-voice-chapter-1/"
 category:
