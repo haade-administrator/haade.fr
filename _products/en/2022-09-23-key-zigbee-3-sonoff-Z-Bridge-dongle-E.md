@@ -14,8 +14,9 @@ image: "SONOFF-Dongle-E-USB-ZB-Zigbee-3-0-passerelle-universelle.jpeg"
 imageshadow: true
 comments: false
 published: true
-aep-item: 1005003756346858
-aep-item-affiliate: "_DDG923N"
+aep-item: 
+aep-item-affiliate: 
+dom-item: "ZBDONGLE-E"
 ---
 
 > Key functional immediately with zigbee2mqtt, openhab and homeassistant**

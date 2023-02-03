@@ -14,8 +14,9 @@ image: "SONOFF-Dongle-E-USB-ZB-Zigbee-3-0-passerelle-universelle.jpeg"
 imageshadow: true
 comments: false
 published: true
-aep-item: 1005003756346858
-aep-item-affiliate: "_DDG923N"
+aep-item: 
+aep-item-affiliate: 
+dom-item: "ZBDONGLE-E"
 redirect_from: 
   - /produit/cle-sniffer-zigbee-cc2531-avec-antenne/amp/
   - /produit/cle-sniffer-zigbee-cc2531-avec-antenne-et-boitier/
