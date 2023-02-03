@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 33053655412
-item-affiliate: "_DEroCaf"
+aep-item: 33053655412
+aep-item-affiliate: "_DEroCaf"
 redirect_from: 
     - /produit/grow-r503-capteur-dempreinte-digitale/
 ---

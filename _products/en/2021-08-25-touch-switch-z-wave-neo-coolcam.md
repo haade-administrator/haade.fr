@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005002782331110
-item-affiliate: "_DDH3gjp"
+aep-item: 1005002782331110
+aep-item-affiliate: "_DDH3gjp"
 redirect_from: /en/produit/interrupteur-tactile-z-wave-neo-coolcam/
 ---
 

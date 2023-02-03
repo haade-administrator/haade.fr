@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 4000552781660
-item-affiliate: "_DlBLvhh"
+aep-item: 4000552781660
+aep-item-affiliate: "_DlBLvhh"
 redirect_from: /en/produit/capteur-temperature/
 ---
 

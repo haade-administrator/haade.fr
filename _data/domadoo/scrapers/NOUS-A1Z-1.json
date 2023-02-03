@@ -4,17 +4,20 @@
         "title": "NOUS - Prise intelligente Zigbee 3.0 + Mesure de consommation",
         "description": "La prise intelligente Zigbee 3.0 NOUS permet de contrôler tout dispositif électrique traditionnel à distance, via son smartphone ou par la voix.",
         "reference": "NOUS-A1Z-1",
-        "productNew": "Nouveau produitNouveau produit",
-        "salePrice": "16.99",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "16.99",
+        "maxsalePrice": "19,99",
         "discount": "-15%",
         "currency": "EUR",
         "originalPrice": "19,99",
+        "quantity": 100,
         "available": "Disponible",
-        "image": "https://cdn1.domadoo.fr/21121-medium_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg"
-    },
-    "ratings": {
-        "totalStar": "",
-        "averageStar": "4.6",
-        "totalStarCount": ""
+        "supply_date": null,
+        "image": "https://cdn1.domadoo.fr/21121-medium_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.6",
+            "totalStarCount": "31"
+        }
     }
 }

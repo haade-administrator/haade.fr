@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 32582384960
-item-affiliate: "_DeFTatl"
+aep-item: 32582384960
+aep-item-affiliate: "_DeFTatl"
 ---
 
 Détecteur de proximité inductif de forme plate TL-W5MC1-5V, 30x18x10, 5mm, DC NPN NO 5VDC, tension de fonctionnement 5V, spécial pour MCU.

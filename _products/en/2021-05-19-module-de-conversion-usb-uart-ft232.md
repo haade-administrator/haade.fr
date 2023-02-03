@@ -11,8 +11,8 @@ image: 'Module-USB-vers-UART-TTL-FT-232.jpg'
 imageshadow: true
 comments: false
 published: true
-item: 4000120687489
-item-affiliate: '_DDMgdcF'
+aep-item: 4000120687489
+aep-item-affiliate: '_DDMgdcF'
 redirect_from: /en/produit/module-de-conversion-usb-uart-ft232/
 ---
 

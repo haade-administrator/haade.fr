@@ -5,23 +5,23 @@
     "description": null,
     "reference": "",
     "minsalePrice": "20.89",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-43%",
     "currency": "USD",
     "originalPrice": "36.65",
-    "quantity": "2184",
+    "quantity": "1529",
     "image": "https://ae01.alicdn.com/kf/H9062ad4261674cb990664c77b38dffc9Q/Zemismart-Tuya-Zigbee-Temperature-and-Humidity-Sensor-with-LCD-Screen-Display-Real-Time-Monitor-Smart-Home.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "zemismart Direct Store",
       "url": "https://www.aliexpress.com/store/1101096743",
       "storeNumber": "1101096743",
       "rating": "96.4%",
-      "followers": "120846"
+      "followers": "120856"
     },
     "ratings": {
       "totalStar": 5,
-      "averageStar": "4.7",
-      "totalStartCount": "15"
+      "averageStar": "4.6",
+      "totalStarCount": "14"
     }
   }
 }

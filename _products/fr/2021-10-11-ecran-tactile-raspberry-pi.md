@@ -17,8 +17,8 @@ image: EVICIV-10-1-pouces-Raspberry-Pi-ecran-tactile.jpg
 imageshadow: true
 comments: false
 published: true
-item: 1005002055766609
-item-affiliate: "_Ddj52MB"
+aep-item: 1005002055766609
+aep-item-affiliate: "_Ddj52MB"
 redirect_from: 
   - /produit/ecran-tactile-raspberry-pi/
 ---

@@ -4,17 +4,20 @@
         "title": "AQARA - Prise connectée Zigbee 3.0 Smart Plug - SP-EUC01",
         "description": "Allumez ou éteignez les appareils connectés manuellement, à distance ou à l'aide d'un scénario horaire, et connaissez leur consommation avec la prise AQARA SP-EUC01.",
         "reference": "SP-EUC01",
-        "productNew": "Nouveau produitNouveau produit",
-        "salePrice": "23.99",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "23.99",
+        "maxsalePrice": "29,99",
         "discount": "-20%",
         "currency": "EUR",
         "originalPrice": "29,99",
+        "quantity": 100,
         "available": "Disponible",
-        "image": "https://cdn1.domadoo.fr/15893-medium_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg"
-    },
-    "ratings": {
-        "totalStar": "",
-        "averageStar": "4.8",
-        "totalStarCount": ""
+        "supply_date": null,
+        "image": "https://cdn1.domadoo.fr/15893-medium_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg",
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.8",
+            "totalStarCount": "29"
+        }
     }
 }

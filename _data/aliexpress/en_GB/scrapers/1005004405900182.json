@@ -5,8 +5,8 @@
     "description": null,
     "reference": "128GB",
     "minsalePrice": "16.99",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-38%",
     "currency": "USD",
     "originalPrice": "27.40",
     "quantity": "19884",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1100489591",
       "storeNumber": "1100489591",
       "rating": "97.4%",
-      "followers": "236516"
+      "followers": "236827"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "522"
+      "totalStarCount": "523"
     }
   }
 }

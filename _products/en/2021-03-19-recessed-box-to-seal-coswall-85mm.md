@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 32221847893
-item-affiliate: "_DnL0OQB"
+aep-item: 32221847893
+aep-item-affiliate: "_DnL0OQB"
 redirect_from: /en/produit/boitier-dencastrement-a-sceller-coswall-85mm/
 ---
 

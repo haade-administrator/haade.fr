@@ -4,9 +4,9 @@
     "title": "SONOFF SNZB-02 ZigBee Temperature Humidity Sensor Smart Home eWeLink Real-time Monitor Work with ZB Bridge-P Alexa Google Home",
     "description": null,
     "reference": "1 PCS",
-    "minsalePrice": "8.37",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "minsalePrice": "8.25",
+    "maxsalePrice": 0,
+    "discount": "-32%",
     "currency": "USD",
     "originalPrice": "12.13",
     "quantity": "2866",
@@ -15,13 +15,13 @@
       "name": "RayX Intelligence Store",
       "url": "https://www.aliexpress.com/store/1101319665",
       "storeNumber": "1101319665",
-      "rating": "93.6%",
+      "rating": "93.7%",
       "followers": "5198"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.7",
-      "totalStartCount": "164"
+      "totalStarCount": "163"
     }
   }
 }

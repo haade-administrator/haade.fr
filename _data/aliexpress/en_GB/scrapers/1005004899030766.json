@@ -5,8 +5,8 @@
     "description": null,
     "reference": "16A Tuya Switch",
     "minsalePrice": "4.38",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-50%",
     "currency": "USD",
     "originalPrice": "8.76",
     "quantity": "992",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1101411173",
       "storeNumber": "1101411173",
       "rating": "97.5%",
-      "followers": "6595"
+      "followers": "6607"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "5"
+      "totalStarCount": "5"
     }
   }
 }

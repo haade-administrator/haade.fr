@@ -13,8 +13,8 @@ image: "Aqara-capteur-zigbee-fenetre-porte.jpg"
 imageshadow: true
 comments: false
 published: true
-item: 4000713894535
-item-affiliate: '_DdxUHDV'
+aep-item: 4000713894535
+aep-item-affiliate: '_DdxUHDV'
 redirect_from: /en/produit/capteur-de-porte-aqara-par-xiaomi-zigbee-3-0/
 ---
 

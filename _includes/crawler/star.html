@@ -1,13 +1,14 @@
 {%- assign rating = scraper.ratings %}
 {%- assign star = rating.averageStar %}
 {%- assign beststar = rating.totalStar %}
-{%- assign totalstar = rating.totalStartCount %}
+{%- assign totalstar = rating.totalStarCount %}
 {%- assign minprice = scraper.minsalePrice %}
 {%- assign maxprice = scraper.maxsalePrice %}
 
 {%- assign originalprice = scraper.originalPrice %}
 {%- assign currency = scraper.currency %}
 {%- assign quantity = scraper.quantity %}
+
 <div itemprop="offers" itemtype="https://schema.org/AggregateOffer" itemscope>
   <meta itemprop="lowPrice" content="{{ minprice }}" />
   <meta itemprop="highPrice" content="{{ maxprice }}" />
@@ -30,7 +31,7 @@
         translate.product.reviews[page.locale] }})</div>
     </div>
     {%- endif %}
-    {%- if scraper.salePrice != empty %}
+    {%- if scraper.minsalePrice != empty %}
     <div class="itemscraper"><strong class="mr-1">{{ translate.product.price[page.locale] }}:</strong> {{ minprice }} {{
       currency }} <div class="originalprice">{{ originalprice }}</div>
     </div>

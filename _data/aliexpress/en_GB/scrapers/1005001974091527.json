@@ -5,8 +5,8 @@
     "description": null,
     "reference": "Option 1 SATA",
     "minsalePrice": "19.72",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-42%",
     "currency": "USD",
     "originalPrice": "34.00",
     "quantity": "8112",
@@ -15,13 +15,13 @@
       "name": "DIYzone Store",
       "url": "https://www.aliexpress.com/store/1100883172",
       "storeNumber": "1100883172",
-      "rating": "97.9%",
-      "followers": "12105"
+      "rating": "98.0%",
+      "followers": "12128"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "22"
+      "totalStarCount": "22"
     }
   }
 }

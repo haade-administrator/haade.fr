@@ -2,26 +2,26 @@
   "product": {
     "productId": 33053655412,
     "title": "GROW R503 nouveau circulaire rond rvb anneau indicateur LED contrôle DC3.3V mx1. 0-6 broches capacitif Module d'empreintes digitales capteur Scanner",
-    "description": "",
+    "description": null,
     "reference": "StandardVersion-19mm",
-    "minsalePrice": "15.10",
-    "maxsalePrice": "15.89",
-    "discount": "",
+    "minsalePrice": "15.05",
+    "maxsalePrice": "15.84",
+    "discount": "-5%",
     "currency": "EUR",
-    "originalPrice": "15.89",
-    "quantity": "1200",
+    "originalPrice": "15.84",
+    "quantity": "1199",
     "image": "https://ae01.alicdn.com/kf/Ha6d9c83d1647421fa2e77ce037676533U/GROW-R503-nouveau-circulaire-rond-rvb-anneau-indicateur-LED-contr-le-DC3-3V-mx1-0-6.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "HZGROW Store",
       "url": "https://fr.aliexpress.com/store/3625094",
       "storeNumber": "3625094",
       "rating": "98.6%",
-      "followers": "1412"
+      "followers": "1413"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "46"
+      "totalStarCount": "46"
     }
   }
 }

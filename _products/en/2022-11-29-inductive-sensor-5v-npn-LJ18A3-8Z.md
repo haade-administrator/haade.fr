@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 32873382856
-item-affiliate: "_DeAkMqX"
+aep-item: 32873382856
+aep-item-affiliate: "_DeAkMqX"
 ---
 
 M18 inductive proximity sensor, 8mm, DC 5V NPN, no cylinder/switch, working voltage 5VDC, special for MCU.

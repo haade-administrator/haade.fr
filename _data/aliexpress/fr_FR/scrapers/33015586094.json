@@ -2,26 +2,26 @@
   "product": {
     "productId": 33015586094,
     "title": "1.44 1.8 2.0 2.2 2.4 2.8 3.2 3.5 pouces SPI TFT LCD écran tactile coloré Module ILI9341 ILI9488 4.0x480 320x240 Drive",
-    "description": "",
+    "description": null,
     "reference": "1.44 inch no touch",
-    "minsalePrice": "3.26",
-    "maxsalePrice": "4.35",
-    "discount": "",
+    "minsalePrice": "3.25",
+    "maxsalePrice": "4.33",
+    "discount": "-25%",
     "currency": "EUR",
-    "originalPrice": "4.35",
-    "quantity": "5946",
+    "originalPrice": "4.33",
+    "quantity": "5945",
     "image": "https://ae01.alicdn.com/kf/H616e8d76d0fa407cb3256ec2f2c81514l/1-44-1-8-2-0-2-2-2-4-2-8-3-2-3-5.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "EC-Buying Ali Store",
       "url": "https://fr.aliexpress.com/store/1762106",
       "storeNumber": "1762106",
       "rating": "98.6%",
-      "followers": "10192"
+      "followers": "10208"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "100"
+      "totalStarCount": "101"
     }
   }
 }

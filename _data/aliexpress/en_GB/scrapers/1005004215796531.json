@@ -4,9 +4,9 @@
     "title": "CC1101 Wireless RF Transceiver Board Module 315/433/868/915MHZ M115 Long Distance Transmission Antenna For FSK GFSK ASK OOK MSK",
     "description": null,
     "reference": "CC1101 433MHZ Green",
-    "minsalePrice": "1.12",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "minsalePrice": "1.09",
+    "maxsalePrice": 0,
+    "discount": "-31%",
     "currency": "USD",
     "originalPrice": "1.58",
     "quantity": "9974",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1102047676",
       "storeNumber": "1102047676",
       "rating": "96.6%",
-      "followers": "433"
+      "followers": "439"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "5"
+      "totalStarCount": "5"
     }
   }
 }

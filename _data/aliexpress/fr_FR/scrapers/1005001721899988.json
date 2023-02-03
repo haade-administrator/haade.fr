@@ -2,26 +2,26 @@
   "product": {
     "productId": 1005001721899988,
     "title": "Raspberry Pi 4B Argon One M.2, boîtier en aluminium avec fente d'extension SATA SSD, couvercle GPIO, ventilateur de refroidissement pour Raspberry Pi 4 modèle B",
-    "description": "",
+    "description": null,
     "reference": "Option 1",
-    "minsalePrice": "44.09",
-    "maxsalePrice": "78.72",
-    "discount": "",
+    "minsalePrice": "43.94",
+    "maxsalePrice": "78.45",
+    "discount": "-44%",
     "currency": "EUR",
-    "originalPrice": "78.72",
-    "quantity": "1459",
+    "originalPrice": "78.45",
+    "quantity": "1458",
     "image": "https://ae01.alicdn.com/kf/Sc015fb49ce6d473ab8d61bdb01b4842et/Raspberry-Pi-4B-Argon-One-M-2-bo-tier-en-aluminium-avec-fente-d-extension-SATA.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "ShenZhen Catda Technology Co.,LTD.",
       "url": "https://fr.aliexpress.com/store/615778",
       "storeNumber": "615778",
       "rating": "96.9%",
-      "followers": "14205"
+      "followers": "14212"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "44"
+      "totalStarCount": "43"
     }
   }
 }

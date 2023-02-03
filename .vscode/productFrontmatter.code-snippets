@@ -77,10 +77,11 @@
 		  "comments: ${16|false,true|}",
 		  "rating: ${17| ,0.0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0|}",
 		  "published: ${18|false,true|}",
-		  "item: $19",
-		  "item-affiliate: \"$20\"",
+		  "aep-item: $19",
+		  "aep-item-affiliate: \"$20\"",
+		  "dom-item: \"$21\"",
 		  "---",
-		  "$21"
+		  "$22"
 		],
 		"description": "producthaade"
 	  },

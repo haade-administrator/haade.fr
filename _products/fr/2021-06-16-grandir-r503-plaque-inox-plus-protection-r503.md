@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005002617485357
-item-affiliate: "_DFpjRJ9"
+aep-item: 1005002617485357
+aep-item-affiliate: "_DFpjRJ9"
 redirect_from: 
     - /produit/grandir-r503-plaque-inox-plus-protection-r503/
 ---

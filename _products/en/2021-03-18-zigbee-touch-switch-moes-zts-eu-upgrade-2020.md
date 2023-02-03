@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005002061590357
-item-affiliate: "_DCXgdBz"
+aep-item: 1005002061590357
+aep-item-affiliate: "_DCXgdBz"
 redirect_from: 
     - /en/produit/interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020/
     - /en/produit/xiaomi-aqara-interrupteur-mural-interrupteur-zigbee/

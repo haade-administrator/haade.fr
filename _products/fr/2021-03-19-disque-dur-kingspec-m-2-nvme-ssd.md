@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005004405900182
-item-affiliate: "_DD02Q83"
+aep-item: 1005004405900182
+aep-item-affiliate: "_DD02Q83"
 redirect_from: 
     - /produit/disque-dur-kingspec-m-2-nvme-ssd/
 ---

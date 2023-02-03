@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 32873382856
-item-affiliate: "_DeAkMqX"
+aep-item: 32873382856
+aep-item-affiliate: "_DeAkMqX"
 ---
 
 Capteur de proximité inductif M18, 8mm, DC 5V NPN, pas de cylindre/interrupteur, tension de fonctionnement 5VDC, spécial pour MCU.

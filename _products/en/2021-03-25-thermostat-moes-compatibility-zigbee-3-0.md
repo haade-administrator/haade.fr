@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 4001326539649
-item-affiliate: "_DESyRwL"
+aep-item: 4001326539649
+aep-item-affiliate: "_DESyRwL"
 redirect_from: /en/produit/thermostat-moes-compatible-zigbee-3-0/
 ---
 

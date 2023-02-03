@@ -5,23 +5,23 @@
     "description": null,
     "reference": "White",
     "minsalePrice": "2.17",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-30%",
     "currency": "USD",
     "originalPrice": "3.10",
-    "quantity": "60181",
+    "quantity": "60162",
     "image": "https://ae01.alicdn.com/kf/HTB1akNoa4z1gK0jSZSgq6yvwpXae/Coswall-Adjustable-Mounting-Box-Internal-Cassette-86mm-85mm-50mm-For-86-Type-Switch-and-Socket-White.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "Coswall Official Store",
       "url": "https://www.aliexpress.com/store/1100655989",
       "storeNumber": "1100655989",
-      "rating": "97.5%",
-      "followers": "52544"
+      "rating": "97.4%",
+      "followers": "52547"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "71"
+      "totalStarCount": "70"
     }
   }
 }

@@ -2,26 +2,26 @@
   "product": {
     "productId": 1005001722303127,
     "title": "Carte de développement wifi ESP32-CAM-MB, tableau Bluetooth avec caméra OV2640 micro USB vers port série CH340G 4,75 V-5,25 V, Nodemcu, accessoire de programmation électronique",
-    "description": "",
+    "description": null,
     "reference": "2.4G antenna",
     "minsalePrice": "0.80",
     "maxsalePrice": "1.14",
-    "discount": "",
+    "discount": "-30%",
     "currency": "EUR",
     "originalPrice": "1.14",
-    "quantity": "12131",
+    "quantity": "12125",
     "image": "https://ae01.alicdn.com/kf/Hf32c1271270d4591bf1590b09b30d23cA/Carte-de-d-veloppement-wifi-ESP32-CAM-MB-tableau-Bluetooth-avec-cam-ra-OV2640-micro-USB.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "PCBFUN Store",
       "url": "https://fr.aliexpress.com/store/910688006",
       "storeNumber": "910688006",
-      "rating": "96.5%",
-      "followers": "3110"
+      "rating": "96.4%",
+      "followers": "3117"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "10"
+      "totalStarCount": "10"
     }
   }
 }

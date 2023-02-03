@@ -5,8 +5,8 @@
     "description": null,
     "reference": "3CH",
     "minsalePrice": "23.86",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-19%",
     "currency": "USD",
     "originalPrice": "29.46",
     "quantity": "999",
@@ -21,7 +21,7 @@
     "ratings": {
       "totalStar": 5,
       "averageStar": 0,
-      "totalStartCount": null
+      "totalStarCount": 0
     }
   }
 }

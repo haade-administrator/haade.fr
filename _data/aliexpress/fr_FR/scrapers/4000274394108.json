@@ -2,26 +2,26 @@
   "product": {
     "productId": 4000274394108,
     "title": "Raspberry Pi 4 modèle B Double ventilateur avec dissipateur de chaleur ultime Double ventilateur de refroidissement refroidisseur en option pour Raspberry Pi 4B/3B +",
-    "description": "",
+    "description": null,
     "reference": "",
-    "minsalePrice": "2.23",
-    "maxsalePrice": "3.53",
-    "discount": "",
+    "minsalePrice": "2.22",
+    "maxsalePrice": "3.51",
+    "discount": "-37%",
     "currency": "EUR",
-    "originalPrice": "3.53",
-    "quantity": "8776",
+    "originalPrice": "3.51",
+    "quantity": "8774",
     "image": "https://ae01.alicdn.com/kf/S6c6e5ce9604642e8a284bed7383aa8del/Raspberry-Pi-4-mod-le-B-Double-ventilateur-avec-dissipateur-de-chaleur-ultime-Double-ventilateur-de.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "RazerZONE Store",
       "url": "https://fr.aliexpress.com/store/2793050",
       "storeNumber": "2793050",
-      "rating": "95.3%",
-      "followers": "74594"
+      "rating": "95.2%",
+      "followers": "74593"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.5",
-      "totalStartCount": "29"
+      "totalStarCount": "28"
     }
   }
 }

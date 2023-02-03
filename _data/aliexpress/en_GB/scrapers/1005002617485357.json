@@ -5,23 +5,23 @@
     "description": null,
     "reference": "Iron Plate 1",
     "minsalePrice": "1.42",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-5%",
     "currency": "USD",
     "originalPrice": "1.50",
-    "quantity": "893",
+    "quantity": "892",
     "image": "https://ae01.alicdn.com/kf/He70009d40c524f12bb54525c6a31f119A/GROW-R503-Iron-Plate-M25-Stainless-Steel-Installation-Iron-Plate-For-R503-Fingerprint-Sensor-Module-Scanner.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "HZGROW Store",
       "url": "https://www.aliexpress.com/store/1101277912",
       "storeNumber": "1101277912",
       "rating": "98.6%",
-      "followers": "1412"
+      "followers": "1413"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "9"
+      "totalStarCount": "9"
     }
   }
 }

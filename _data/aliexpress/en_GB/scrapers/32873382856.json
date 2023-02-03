@@ -5,23 +5,23 @@
     "description": null,
     "reference": "",
     "minsalePrice": "5.55",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-5%",
     "currency": "USD",
     "originalPrice": "5.84",
-    "quantity": "32675",
+    "quantity": "32672",
     "image": "https://ae01.alicdn.com/kf/HTB1tUj0vv5TBuNjSspmq6yDRVXaE/M18-8mm-sensing-DC-5V-NPN-NO-LJ18A3-8-Z-BX-5V-cylinder-inductive-proximity-sensor.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "Shop4198022 Store",
       "url": "https://www.aliexpress.com/store/1101290388",
       "storeNumber": "1101290388",
       "rating": "98.7%",
-      "followers": "7178"
+      "followers": "7193"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "26"
+      "totalStarCount": "26"
     }
   }
 }

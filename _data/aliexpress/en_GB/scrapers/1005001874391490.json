@@ -5,8 +5,8 @@
     "description": null,
     "reference": "Board",
     "minsalePrice": "79.20",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-44%",
     "currency": "USD",
     "originalPrice": "141.42",
     "quantity": "149",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1101333781",
       "storeNumber": "1101333781",
       "rating": "99.0%",
-      "followers": "106542"
+      "followers": "106547"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "13"
+      "totalStarCount": "13"
     }
   }
 }

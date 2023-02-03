@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating: 
 published: true
-item: 1005001388390681
-item-affiliate: "_DBXSkgT"
+aep-item: 1005001388390681
+aep-item-affiliate: "_DBXSkgT"
 redirect_from: 
     - /produit/camera-colorvu-protocol-hikvision/
 ---

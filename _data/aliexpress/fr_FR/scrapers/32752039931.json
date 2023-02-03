@@ -2,26 +2,26 @@
   "product": {
     "productId": 32752039931,
     "title": "Sonoff – interrupteur mural Wifi intelligent NSPanel, Thermostat de température, contrôle tout-en-un, fonctionne avec Alexa Google Home",
-    "description": "",
+    "description": null,
     "reference": "Sonoff NSPanel EU",
-    "minsalePrice": "68.56",
-    "maxsalePrice": "105.47",
-    "discount": "",
+    "minsalePrice": "68.32",
+    "maxsalePrice": "105.12",
+    "discount": "-35%",
     "currency": "EUR",
-    "originalPrice": "105.47",
+    "originalPrice": "105.12",
     "quantity": "112",
     "image": "https://ae01.alicdn.com/kf/Sd7f1a771cea9451fb75ec6f42a552971z/Sonoff-interrupteur-mural-Wifi-intelligent-NSPanel-Thermostat-de-temp-rature-contr-le-tout-en-un-fonctionne.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "Gorelax Life Store",
       "url": "https://fr.aliexpress.com/store/1083560",
       "storeNumber": "1083560",
-      "rating": "97.6%",
-      "followers": "3102"
+      "rating": "97.4%",
+      "followers": "3104"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "6"
+      "totalStarCount": "6"
     }
   }
 }

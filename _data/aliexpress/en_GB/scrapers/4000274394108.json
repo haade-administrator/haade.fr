@@ -5,23 +5,23 @@
     "description": null,
     "reference": "",
     "minsalePrice": "1.94",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-37%",
     "currency": "USD",
     "originalPrice": "3.08",
-    "quantity": "8776",
+    "quantity": "8774",
     "image": "https://ae01.alicdn.com/kf/S6c6e5ce9604642e8a284bed7383aa8del/Raspberry-Pi-4-Model-B-Dual-Fan-with-Heat-Sink-Ultimate-Double-Cooling-Fans-Cooler-Optional.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "RazerZONE Store",
       "url": "https://www.aliexpress.com/store/1101235539",
       "storeNumber": "1101235539",
-      "rating": "95.3%",
-      "followers": "74594"
+      "rating": "95.2%",
+      "followers": "74593"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.5",
-      "totalStartCount": "29"
+      "totalStarCount": "28"
     }
   }
 }

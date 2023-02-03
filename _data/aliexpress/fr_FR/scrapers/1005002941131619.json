@@ -2,26 +2,26 @@
   "product": {
     "productId": 1005002941131619,
     "title": "SONOFF – capteur de température et d'humidité SNZB-02 ZigBee, pour maison intelligente, eWeLink, moniteur en temps réel, fonctionne avec ZBBridge, Alexa et Google Home",
-    "description": "",
+    "description": null,
     "reference": "1 PCS",
-    "minsalePrice": "9.48",
-    "maxsalePrice": "13.73",
-    "discount": "",
+    "minsalePrice": "9.30",
+    "maxsalePrice": "13.68",
+    "discount": "-32%",
     "currency": "EUR",
-    "originalPrice": "13.73",
+    "originalPrice": "13.68",
     "quantity": "2747",
     "image": "https://ae01.alicdn.com/kf/Sb91f35ffe4814db390c40c20c0f01060i/SONOFF-capteur-de-temp-rature-et-d-humidit-SNZB-02-ZigBee-pour-maison-intelligente-eWeLink-moniteur.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "RayX Intelligence Store",
       "url": "https://fr.aliexpress.com/store/4971088",
       "storeNumber": "4971088",
-      "rating": "93.6%",
+      "rating": "93.7%",
       "followers": "5198"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.7",
-      "totalStartCount": "164"
+      "totalStarCount": "163"
     }
   }
 }

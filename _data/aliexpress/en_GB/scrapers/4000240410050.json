@@ -5,8 +5,8 @@
     "description": null,
     "reference": "Option 7",
     "minsalePrice": "20.01",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-23%",
     "currency": "USD",
     "originalPrice": "25.99",
     "quantity": "5367",
@@ -15,13 +15,13 @@
       "name": "DIYzone Store",
       "url": "https://www.aliexpress.com/store/1100883172",
       "storeNumber": "1100883172",
-      "rating": "97.9%",
-      "followers": "12105"
+      "rating": "98.0%",
+      "followers": "12128"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "38"
+      "totalStarCount": "38"
     }
   }
 }

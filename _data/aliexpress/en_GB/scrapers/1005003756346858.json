@@ -5,8 +5,8 @@
     "description": null,
     "reference": "USB Dongle Plus 1pcs",
     "minsalePrice": "22.83",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-27%",
     "currency": "USD",
     "originalPrice": "31.28",
     "quantity": "920",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1100861581",
       "storeNumber": "1100861581",
       "rating": "94.2%",
-      "followers": "34192"
+      "followers": "34189"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "51"
+      "totalStarCount": "51"
     }
   }
 }

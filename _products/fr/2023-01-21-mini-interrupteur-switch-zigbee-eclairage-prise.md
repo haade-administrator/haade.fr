@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005004899030766
-item-affiliate: "_DeThdtt"
+aep-item: 1005004899030766
+aep-item-affiliate: "_DeThdtt"
 ---
 
 Ce micromodule relais ON/OFF ZigBee peut être commandé depuis votre smartphone y compris à distance avec l'application Tuya Smart Life, (via une passerelle ZigBee), ainsi qu'avec Jeedom, eedomus+, Domoticz, Homeassistant, Zigbee2mqtt etc... via les dongles USB ZigBee ZiGate, ConBee II, Sonoff ou autres.

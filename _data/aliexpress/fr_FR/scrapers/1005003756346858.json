@@ -2,13 +2,13 @@
   "product": {
     "productId": 1005003756346858,
     "title": "SONOFF ZB Dongle-E USB Dongle Plus Zigbee 3.0 passerelle universelle Support Assistant à domicile Raspbian Ubuntu macOS",
-    "description": "",
+    "description": null,
     "reference": "USB Dongle Plus 1pcs",
-    "minsalePrice": "24.95",
-    "maxsalePrice": "34.17",
-    "discount": "",
+    "minsalePrice": "24.87",
+    "maxsalePrice": "34.06",
+    "discount": "-27%",
     "currency": "EUR",
-    "originalPrice": "34.17",
+    "originalPrice": "34.06",
     "quantity": "920",
     "image": "https://ae01.alicdn.com/kf/S9316ebb760ac4ea6a6c6ae87cc358e764/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-passerelle-universelle-Support-Assistant-domicile-Raspbian.jpg_Q90.jpg_.webp",
     "storeInfo": {
@@ -16,12 +16,12 @@
       "url": "https://fr.aliexpress.com/store/1232699",
       "storeNumber": "1232699",
       "rating": "94.2%",
-      "followers": "34192"
+      "followers": "34189"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "51"
+      "totalStarCount": "51"
     }
   }
 }

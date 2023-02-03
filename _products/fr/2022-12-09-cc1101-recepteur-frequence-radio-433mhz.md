@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005004215796531
-item-affiliate: "_DEQX5yP"
+aep-item: 1005004215796531
+aep-item-affiliate: "_DEQX5yP"
 ---
 Haute sensibilité, distance de vision fiable distance de transmission jusqu'à 350m. Adopte la modulation FSK, supporte la modulation OOK/ASK/MSK.
 Fréquence porteuse 433MHz, d'autres bandes ISM telles que 315M/868M/915M peuvent être utilisées

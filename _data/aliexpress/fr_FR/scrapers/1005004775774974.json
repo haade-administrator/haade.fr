@@ -2,13 +2,13 @@
   "product": {
     "productId": 1005004775774974,
     "title": "MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google",
-    "description": "",
+    "description": null,
     "reference": "1 gang scene switch",
-    "minsalePrice": "19.47",
-    "maxsalePrice": "32.46",
-    "discount": "",
+    "minsalePrice": "19.41",
+    "maxsalePrice": "32.35",
+    "discount": "-40%",
     "currency": "EUR",
-    "originalPrice": "32.46",
+    "originalPrice": "32.35",
     "quantity": "9999",
     "image": "https://ae01.alicdn.com/kf/S198ef77038e542c79babf52fd5e70557P/MOES-interrupteur-bouton-poussoir-connect-Tuya-Star-Ring-zigbee-3-0-avec-t-l-commande-fonctionne.jpg_Q90.jpg_.webp",
     "storeInfo": {
@@ -16,12 +16,12 @@
       "url": "https://fr.aliexpress.com/store/5492026",
       "storeNumber": "5492026",
       "rating": "95.6%",
-      "followers": "228533"
+      "followers": "228540"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "54"
+      "totalStarCount": "55"
     }
   }
 }

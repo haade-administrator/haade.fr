@@ -5,8 +5,8 @@
     "description": null,
     "reference": "1 piece",
     "minsalePrice": "8.49",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-30%",
     "currency": "USD",
     "originalPrice": "12.13",
     "quantity": "100",
@@ -15,13 +15,13 @@
       "name": "Smart-house Store",
       "url": "https://www.aliexpress.com/store/1101325770",
       "storeNumber": "1101325770",
-      "rating": "93.3%",
-      "followers": "4384"
+      "rating": "93.6%",
+      "followers": "4386"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.6",
-      "totalStartCount": "22"
+      "totalStarCount": "22"
     }
   }
 }

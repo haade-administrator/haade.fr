@@ -5,23 +5,23 @@
     "description": null,
     "reference": "Option 1",
     "minsalePrice": "39.82",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-44%",
     "currency": "USD",
     "originalPrice": "71.10",
-    "quantity": "1459",
+    "quantity": "1458",
     "image": "https://ae01.alicdn.com/kf/Sc015fb49ce6d473ab8d61bdb01b4842et/Raspberry-Pi-4B-Argon-One-M-2-Aluminum-Case-with-SSD-SATA-M2-Expansion-Slot-GPIO.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "ShenZhen Catda Technology Co.,LTD.",
       "url": "https://www.aliexpress.com/store/1100535474",
       "storeNumber": "1100535474",
       "rating": "96.9%",
-      "followers": "14205"
+      "followers": "14212"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "44"
+      "totalStarCount": "43"
     }
   }
 }

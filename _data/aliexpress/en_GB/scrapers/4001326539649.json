@@ -5,23 +5,23 @@
     "description": null,
     "reference": "Gateway",
     "minsalePrice": "19.14",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-33%",
     "currency": "USD",
     "originalPrice": "28.56",
-    "quantity": "104",
+    "quantity": "93",
     "image": "https://ae01.alicdn.com/kf/Sdf179948c21e4adfa409110c6e0389607/ZigBee-Smart-Thermostat-Temperature-Controller-Hub-Required-Water-Electric-floor-Heating-Water-Gas-Boiler-with-Alexa.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "MOES Official Store",
       "url": "https://www.aliexpress.com/store/1101325609",
       "storeNumber": "1101325609",
-      "rating": "95.5%",
-      "followers": "206833"
+      "rating": "95.6%",
+      "followers": "206873"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "114"
+      "totalStarCount": "115"
     }
   }
 }

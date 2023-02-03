@@ -13,8 +13,8 @@ image: 'Raspberry-Pi-4-mod-le-B-Double-ventilateur-avec-dissipateur-de-chaleur-u
 imageshadow: true
 comments: false
 published: true
-item: 4000274394108
-item-affiliate: "_DDCzbsn"
+aep-item: 4000274394108
+aep-item-affiliate: "_DDCzbsn"
 redirect_from: 
   - /produit/ventilateur-pour-raspberry-pi4/
 ---

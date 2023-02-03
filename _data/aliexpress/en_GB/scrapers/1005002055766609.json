@@ -5,8 +5,8 @@
     "description": null,
     "reference": "1366x768 EU",
     "minsalePrice": "141.49",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-50%",
     "currency": "USD",
     "originalPrice": "282.99",
     "quantity": "21",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1101329947",
       "storeNumber": "1101329947",
       "rating": "93.3%",
-      "followers": "96689"
+      "followers": "96681"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "3.0",
-      "totalStartCount": "1"
+      "totalStarCount": "1"
     }
   }
 }

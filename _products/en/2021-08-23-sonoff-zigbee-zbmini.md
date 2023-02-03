@@ -13,8 +13,8 @@ image: 'SONOFF-Zigbee-3-0-ZBBridge-Mini-ZBMINI.jpg'
 imageshadow: true
 comments: false
 published: true
-item: 1005002039563710
-item-affiliate: '_DE3225p'
+aep-item: 1005002039563710
+aep-item-affiliate: '_DE3225p'
 redirect_from: /en/produit/sonoff-zigbee-zbmini/
 ---
 

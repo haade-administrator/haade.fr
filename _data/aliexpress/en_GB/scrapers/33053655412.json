@@ -5,23 +5,23 @@
     "description": null,
     "reference": "StandardVersion-19mm",
     "minsalePrice": "13.20",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-5%",
     "currency": "USD",
     "originalPrice": "13.89",
-    "quantity": "1200",
+    "quantity": "1199",
     "image": "https://ae01.alicdn.com/kf/Ha6d9c83d1647421fa2e77ce037676533U/GROW-R503-New-Circular-Round-RGB-Ring-Indicator-LED-Control-DC3-3V-MX1-0-6pin-Capacitive.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "HZGROW Store",
       "url": "https://www.aliexpress.com/store/1101277912",
       "storeNumber": "1101277912",
       "rating": "98.6%",
-      "followers": "1412"
+      "followers": "1413"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "46"
+      "totalStarCount": "46"
     }
   }
 }

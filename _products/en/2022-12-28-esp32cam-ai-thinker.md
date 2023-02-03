@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001722303127
-item-affiliate: "_DdM3OIj"
+aep-item: 1005001722303127
+aep-item-affiliate: "_DdM3OIj"
 ---
 
 ## Description:

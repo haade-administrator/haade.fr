@@ -5,8 +5,8 @@
     "description": null,
     "reference": "D1 MINI PRO 4M",
     "minsalePrice": "3.42",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-16%",
     "currency": "USD",
     "originalPrice": "4.07",
     "quantity": "6412",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1101551367",
       "storeNumber": "1101551367",
       "rating": "98.4%",
-      "followers": "18013"
+      "followers": "18049"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.6",
-      "totalStartCount": "88"
+      "totalStarCount": "87"
     }
   }
 }

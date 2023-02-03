@@ -2,11 +2,11 @@
   "product": {
     "productId": 32582384960,
     "title": "Capteur de proximité inductif de forme plate, 30x18x10, 5mm, DC NPN PNP, 5V, TL-W5MC1-5V F1-5V, 5VDC, spécial pour MCU",
-    "description": "",
+    "description": null,
     "reference": "C1-5V NPN NO",
-    "minsalePrice": "2.64",
-    "maxsalePrice": "prix introuvable",
-    "discount": "",
+    "minsalePrice": "2.63",
+    "maxsalePrice": 0,
+    "discount": null,
     "currency": "EUR",
     "originalPrice": null,
     "quantity": "565",
@@ -16,12 +16,12 @@
       "url": "https://fr.aliexpress.com/store/1162433",
       "storeNumber": "1162433",
       "rating": "98.0%",
-      "followers": "1645"
+      "followers": "1646"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "6"
+      "totalStarCount": "6"
     }
   }
 }

@@ -5,7 +5,7 @@
     "description": null,
     "reference": "1 Gang Switch",
     "minsalePrice": "7.99",
-    "maxsalePrice": "price not found",
+    "maxsalePrice": 0,
     "discount": "-60%",
     "currency": "USD",
     "originalPrice": "19.98",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1101460544",
       "storeNumber": "1101460544",
       "rating": "95.6%",
-      "followers": "228533"
+      "followers": "228540"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.7",
-      "totalStartCount": "116"
+      "totalStarCount": "116"
     }
   }
 }

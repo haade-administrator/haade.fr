@@ -80,7 +80,7 @@ async function scrapeAliexpress() {
     votes = $('.overview-rating-average').text() || 0;
     // Récupérer les votes
     const stars = {
-      reviews: null,
+      reviews: 0,
     };
     try {
       stars.reviews = $('.product-reviewer-reviews').text().match(/\d+/)[0];
@@ -91,7 +91,7 @@ async function scrapeAliexpress() {
     const globalprice = $('.product-price-value').text().replace(/,/g, ".").replace(/€/g, '').trim();
     const priceArr = globalprice.split(" ");
     const minprice = priceArr[0];
-    const maxprice = priceArr[1] || null;
+    const maxprice = priceArr[1];
     const currency = "EUR";
 
     // récupérer le prix special et la devise
@@ -101,15 +101,22 @@ async function scrapeAliexpress() {
     const maxspecialprice = spriceArr[1];
 
     // passer du prix au prix special automatiquement
-    const minsalePrice = minprice || minspecialprice || 'prix introuvable';
-    const maxsalePrice = maxprice || maxspecialprice || 'prix introuvable';
+    const salePrice = {
+      min: (minprice || minspecialprice || 0),
+      max: (maxprice || maxspecialprice || 0),
+    };
     // récupérer le prix barré
     const globalpricedel = $('.product-price-del').text().replace(",", ".");
     const pricedelArr = globalpricedel.split(" ");
     const pricedel = pricedelArr[1];
     // récupérer le prix spécial barré
     const globalspricedel = $('.uniform-banner-box-discounts span:nth-of-type(1)').text().replace(",", ".");
-    const discount = $('.uniform-banner-box-discounts span:nth-of-type(2)').text();
+
+    // récupérer remise
+    const globaldiscount = $('span.product-price-mark').text();
+    const globalsdiscount = $('.uniform-banner-box-discounts span:nth-of-type(2)').text();
+    const discount = globaldiscount || globalsdiscount || null;
+
     const pricesdelArr = globalspricedel.split(" ");
     const specialpricedel = pricesdelArr[1];
     // passer du prix barré au prix special barré automatiquement
@@ -120,7 +127,7 @@ async function scrapeAliexpress() {
     const description = $('div.product-description').html();
     const reference = $('.sku-title-value').text();
     const sale = {
-      quantity: null,
+      quantity: 0,
     };
     try {
       sale.quantity = $('div.product-quantity-tip').text().match(/\d+/)[0];
@@ -146,8 +153,8 @@ async function scrapeAliexpress() {
         title,
         description,
         reference,
-        minsalePrice,
-        maxsalePrice,
+        minsalePrice: salePrice.min,
+        maxsalePrice: salePrice.max,
         discount,
         currency,
         originalPrice,
@@ -163,7 +170,7 @@ async function scrapeAliexpress() {
         ratings: {
           totalStar: 5,
           averageStar: votes,
-          totalStartCount: stars.reviews,
+          totalStarCount: stars.reviews,
         },
       },
     };

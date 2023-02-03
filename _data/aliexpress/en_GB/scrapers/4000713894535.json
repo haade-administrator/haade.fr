@@ -5,8 +5,8 @@
     "description": null,
     "reference": "1 PCS",
     "minsalePrice": "12.82",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-23%",
     "currency": "USD",
     "originalPrice": "16.65",
     "quantity": "849",
@@ -15,13 +15,13 @@
       "name": "MIJIA-GLOBAL Store",
       "url": "https://www.aliexpress.com/store/1101441185",
       "storeNumber": "1101441185",
-      "rating": "96.8%",
-      "followers": "17589"
+      "rating": "96.9%",
+      "followers": "17616"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "223"
+      "totalStarCount": "225"
     }
   }
 }

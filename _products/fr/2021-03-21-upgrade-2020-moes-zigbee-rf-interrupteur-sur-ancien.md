@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001593033528
-item-affiliate: "_DBXd2r1"
+aep-item: 1005001593033528
+aep-item-affiliate: "_DBXd2r1"
 redirect_from: 
     - /produit/upgrade-2020-moes-zigbee-rf-interrupteur-sur-ancien/
 ---

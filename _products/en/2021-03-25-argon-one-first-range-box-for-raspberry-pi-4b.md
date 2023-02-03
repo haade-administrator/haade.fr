@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 4000240410050
-item-affiliate: "_DCmPkvN"
+aep-item: 4000240410050
+aep-item-affiliate: "_DCmPkvN"
 redirect_from: /en/produit/argon-one-premier-boitier-de-la-gamme-pour-raspberry-pi-4b/
 ---
 

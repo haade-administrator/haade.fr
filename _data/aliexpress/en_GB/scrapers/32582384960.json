@@ -5,8 +5,8 @@
     "description": null,
     "reference": "C1-5V NPN NO",
     "minsalePrice": "2.30",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": null,
     "currency": "USD",
     "originalPrice": null,
     "quantity": "565",
@@ -16,12 +16,12 @@
       "url": "https://www.aliexpress.com/store/1100819105",
       "storeNumber": "1100819105",
       "rating": "98.0%",
-      "followers": "1645"
+      "followers": "1646"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "6"
+      "totalStarCount": "6"
     }
   }
 }

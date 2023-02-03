@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 32582384960
-item-affiliate: "_DeFTatl"
+aep-item: 32582384960
+aep-item-affiliate: "_DeFTatl"
 ---
 
 TL-W5MC1-5V flat shape inductive proximity switch, 30x18x10.5mm, DC NPN NO 5VDC, working voltage 5V, special for MCU.

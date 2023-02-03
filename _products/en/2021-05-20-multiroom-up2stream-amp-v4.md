@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001874391490
-item-affiliate: "_DB0DUH5"
+aep-item: 1005001874391490
+aep-item-affiliate: "_DB0DUH5"
 redirect_from: /en/produit/multiroom-up2stream-amp-v4/
 ---
 

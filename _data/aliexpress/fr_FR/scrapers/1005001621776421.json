@@ -2,13 +2,13 @@
   "product": {
     "productId": 1005001621776421,
     "title": "WEMOS D1 Mini Pro 4M 16M octets connecteur d'antenne externe NodeMCU basé ESP8266 ESP-8266EX CP2104 carte de développement WIFI Micro",
-    "description": "",
+    "description": null,
     "reference": "D1 MINI PRO 4M",
-    "minsalePrice": "3.91",
-    "maxsalePrice": "4.66",
-    "discount": "",
+    "minsalePrice": "3.90",
+    "maxsalePrice": "4.64",
+    "discount": "-16%",
     "currency": "EUR",
-    "originalPrice": "4.66",
+    "originalPrice": "4.64",
     "quantity": "6412",
     "image": "https://ae01.alicdn.com/kf/Hf73d52f24b9c4958918c2e79b60d4b5aV/WEMOS-D1-Mini-Pro-4M-16M-octets-connecteur-d-antenne-externe-NodeMCU-bas-ESP8266-ESP-8266EX.jpg_Q90.jpg_.webp",
     "storeInfo": {
@@ -16,12 +16,12 @@
       "url": "https://fr.aliexpress.com/store/910789017",
       "storeNumber": "910789017",
       "rating": "98.4%",
-      "followers": "18013"
+      "followers": "18049"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.6",
-      "totalStartCount": "88"
+      "totalStarCount": "87"
     }
   }
 }

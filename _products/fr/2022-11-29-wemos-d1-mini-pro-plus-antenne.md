@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001621776421
-item-affiliate: "_DlnD8rh"
+aep-item: 1005001621776421
+aep-item-affiliate: "_DlnD8rh"
 ---
 
 Nouveautés avec ce wemos D1 mini Pro

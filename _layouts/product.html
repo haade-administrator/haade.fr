@@ -9,46 +9,8 @@ layout: default
 {%- include breadcrumbs.html path=page.path title=page.title %}
 
 <div class="shop-single" itemtype="https://schema.org/Product" itemscope>
-
-  {%- include aliexpress/aliexcrap.html %}
-
-  {%- for scraper_hash in localscrapers %}
-  {%- assign scrap = scraper_hash[1] %}
-  {%- assign scraper = scrap.product %}
-  {%- if scraper.productId == page.item %}
-
-  <div class="shop-pictures">
-    <!-- {%- assign images = scraper.images %} -->
-    <!-- Featured Image -->
-    {%- include featured-image.html %}
-    
-    {%- include aliexpress/aliexreseller.html %}
-  </div>
-  <div class="shop-article">
-    {%- assign scraptitle = scraper.title | strip_html %}
-    {%- if page.title != nil %}
-    <h1 class="posttitle" itemprop="name">{{ page.title }}</h1>
-    {%- else %}
-    <h1 class="posttitle" itemprop="name">{{ scraptitle | truncatewords: 9 }}</h1>
-    {%- endif %}
-    {%- include aliexpress/aliexstar.html %}
-
-    {%- include buttonshop.html %}
-
-    <!-- Content -->
-    {%- assign scrapdescription = scraper.description | strip_html | strip %}
-    <meta itemprop="description" content="{{ scrapdescription }}" />
-
-    {%- include article.html %}
-
-    {%- include buttonshop.html %}
-
-  </div>
-  <!-- Comments if not disabled with comments: false -->
-  <!-- {%- include aliexpress/aliexfeed.html %} -->
-
-  {%- endif %}
-  {%- endfor %}
-
+  {%- include crawler/scrap.html %}
+  {%- include crawler/aliexpress.html %}
+  {%- include crawler/domadoo.html %}
   {%- include comments.html %}
 </div>

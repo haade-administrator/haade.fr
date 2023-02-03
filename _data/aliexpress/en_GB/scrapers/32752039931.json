@@ -5,8 +5,8 @@
     "description": null,
     "reference": "Sonoff NSPanel EU",
     "minsalePrice": "59.90",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-35%",
     "currency": "USD",
     "originalPrice": "92.15",
     "quantity": "112",
@@ -15,13 +15,13 @@
       "name": "Gorelax Life Store",
       "url": "https://www.aliexpress.com/store/1100787505",
       "storeNumber": "1100787505",
-      "rating": "97.6%",
-      "followers": "3102"
+      "rating": "97.4%",
+      "followers": "3104"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStartCount": "6"
+      "totalStarCount": "6"
     }
   }
 }

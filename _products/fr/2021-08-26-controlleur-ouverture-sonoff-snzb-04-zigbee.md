@@ -12,8 +12,8 @@ image: SONOFF-SNZB-04.webp
 imageshadow: true
 comments: false
 published: true
-item: 1005002125918926
-item-affiliate: "_DdC2WHD"
+aep-item: 1005002125918926
+aep-item-affiliate: "_DdC2WHD"
 rating: 
 redirect_from: 
   - /produit/controleur-ouverture-porte-sonoff-snzb-04-zigbee/

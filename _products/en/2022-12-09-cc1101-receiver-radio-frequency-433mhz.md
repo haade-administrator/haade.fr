@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005004215796531
-item-affiliate: "_DEQX5yP"
+aep-item: 1005004215796531
+aep-item-affiliate: "_DEQX5yP"
 ---
 High sensitivity, reliable viewing distance transmission distance up to 350m. Adopts FSK modulation, support OOK/ASK/MSK modulation.
 Carrier frequency 433MHz, other ISM bands such as 315M/868M/915M can be used

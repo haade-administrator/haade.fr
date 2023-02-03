@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001974091527
-item-affiliate: "_DloZ2en"
+aep-item: 1005001974091527
+aep-item-affiliate: "_DloZ2en"
 redirect_from: 
     - /produit/carte-dextension-argon-one-m-2/
 ---

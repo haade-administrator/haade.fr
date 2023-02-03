@@ -5,23 +5,23 @@
     "description": null,
     "reference": "White1-GangEU Standard",
     "minsalePrice": "17.99",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-40%",
     "currency": "USD",
     "originalPrice": "29.98",
-    "quantity": "5663",
+    "quantity": "5659",
     "image": "https://ae01.alicdn.com/kf/S7f79fc8cf1404690b120083532e6d4a2T/MOES-ZigBee-Wall-Touch-Smart-Light-Switch-With-Neutral-No-Neutral-No-Capacitor-Needed-Smart-Life.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "MOES Online Store",
       "url": "https://www.aliexpress.com/store/1101460544",
       "storeNumber": "1101460544",
       "rating": "95.6%",
-      "followers": "228533"
+      "followers": "228540"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.6",
-      "totalStartCount": "45"
+      "totalStarCount": "45"
     }
   }
 }

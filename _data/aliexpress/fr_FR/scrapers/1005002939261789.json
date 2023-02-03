@@ -2,13 +2,13 @@
   "product": {
     "productId": 1005002939261789,
     "title": "Module relais WIFI ESP8266, DC 7V - DC 30V, Module réseau 65mm x 40mm x 20mm",
-    "description": "",
+    "description": null,
     "reference": "",
-    "minsalePrice": "5.13",
-    "maxsalePrice": "8.27",
-    "discount": "",
+    "minsalePrice": "5.11",
+    "maxsalePrice": "8.24",
+    "discount": "-38%",
     "currency": "EUR",
-    "originalPrice": "8.27",
+    "originalPrice": "8.24",
     "quantity": "50",
     "image": "https://ae01.alicdn.com/kf/H4581a18431a0469baa7497b1b6b2bcb4e/Module-relais-WIFI-ESP8266-DC-7V-DC-30V-Module-r-seau-65mm-x-40mm-x-20mm.jpg_Q90.jpg_.webp",
     "storeInfo": {
@@ -16,12 +16,12 @@
       "url": "https://fr.aliexpress.com/store/735678",
       "storeNumber": "735678",
       "rating": "98.5%",
-      "followers": "37351"
+      "followers": "37370"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": 0,
-      "totalStartCount": null
+      "totalStarCount": 0
     }
   }
 }

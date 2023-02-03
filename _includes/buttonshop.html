@@ -1,6 +1,9 @@
 <div class="button-shop" role="button">
-  <a href="https://s.click.aliexpress.com/e/{{ page.item-affiliate }}" target="_blank" rel="nofollow noopener">{{
-    translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
-    currency }}{%- endif %}
-  </a>
+  {%- if page.aep-item != nil %}
+  <span class="aliexbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ page.aep-item-affiliate }}" target="_blank" rel="nofollow noopener"><img src="/assets/images/aliexpress-payment.png" width="20" height="20" alt="aliexpress logo payment"> {{ translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
+    currency }}{%- endif %}</a></span>
+  {%- elsif page.dom-item != nil %}
+  <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ scraper.productId }}?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="18" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
+    currency }}{%- endif %}</a></span>
+  {%- endif %}
 </div>

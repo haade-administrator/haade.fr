@@ -11,8 +11,8 @@ image: "SONOFF-SNZB-02.png"
 imageshadow: true
 comments: false
 published: true
-item: 1005002941131619
-item-affiliate: "_DdD7Tc7"
+aep-item: 1005002941131619
+aep-item-affiliate: "_DdD7Tc7"
 redirect_from: /en/produit/capteur-temperature-sonoff-snzb-02-zigbee/
 ---
 

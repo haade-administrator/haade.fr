@@ -5,23 +5,23 @@
     "description": null,
     "reference": "PL2303HX",
     "minsalePrice": "0.68",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": null,
     "currency": "USD",
     "originalPrice": null,
-    "quantity": "8155",
+    "quantity": "8148",
     "image": "https://ae01.alicdn.com/kf/Hacc1205382f14e32a23294c78dd03233z/3pcs-lot-1PCS-PL2303HX-1PCS-CP2102-1PCS-CH340G-USB-TO-TTL-for-arduino-PL2303-CP2102-5PIN.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "IGMOPNRQ module Store",
       "url": "https://www.aliexpress.com/store/1100804306",
       "storeNumber": "1100804306",
       "rating": "98.4%",
-      "followers": "6890"
+      "followers": "6893"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "526"
+      "totalStarCount": "526"
     }
   }
 }

@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005004775774974
-item-affiliate: "_DD0tVR9"
+aep-item: 1005004775774974
+aep-item-affiliate: "_DD0tVR9"
 ---
 MOES – Tuya Star Ring connected push button switch, zigbee 3.0, with remote control, works with Alexa and Google
 

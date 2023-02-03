@@ -14,8 +14,8 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-item: 1005001721899988
-item-affiliate: "_DF1BlFN"
+aep-item: 1005001721899988
+aep-item-affiliate: "_DF1BlFN"
 redirect_from: /en/produit/boitier-alu-raspberrpi-4-argon-avec-disque-nvme-m-2/
 ---
 

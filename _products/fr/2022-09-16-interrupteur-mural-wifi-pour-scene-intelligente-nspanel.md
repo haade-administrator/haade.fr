@@ -12,8 +12,8 @@ image: sonoff-nspanel-presentation.webp
 imageshadow: true
 comments: false
 published: true
-item: 32752039931
-item-affiliate: "_DmxcE1h"
+aep-item: 32752039931
+aep-item-affiliate: "_DmxcE1h"
 ---
 
 L'interrupteur mural de scène intelligent NSPanel est équipé d'un thermostat puissant intégré et de capteurs environnementaux. Vous pouvez régler différentes températures intérieures pour différentes périodes de temps, et NSPanel déclenchera automatiquement l'équipement de chauffage ou de refroidissement en fonction de vos conditions de réglage pour maintenir la pièce à une température confortable. De plus, NSPanel dispose d'une fonction de contrôle basée sur des scénarios, vous pouvez définir différents modes pour le réveil, le travail, le divertissement et le sommeil, et vous pouvez changer de mode à tout moment.

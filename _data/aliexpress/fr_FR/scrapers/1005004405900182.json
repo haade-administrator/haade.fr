@@ -2,26 +2,26 @@
   "product": {
     "productId": 1005004405900182,
     "title": "KingSpec – disque dur interne SSD, M.2 NVMe 128 PCIe, avec capacité de 256 go, 512 go, 2280 go, 1 to, pour ordinateur de bureau et portable",
-    "description": "",
+    "description": null,
     "reference": "128 Go",
-    "minsalePrice": "19.23",
-    "maxsalePrice": "31.01",
-    "discount": "",
+    "minsalePrice": "19.39",
+    "maxsalePrice": "31.28",
+    "discount": "-38%",
     "currency": "EUR",
-    "originalPrice": "31.01",
-    "quantity": "855",
+    "originalPrice": "31.28",
+    "quantity": "832",
     "image": "https://ae01.alicdn.com/kf/Sd285380579824180a5bf791c54b3206aA/KingSpec-disque-dur-interne-SSD-M-2-NVMe-128-PCIe-avec-capacit-de-256-go-512.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "KingSpec Official Store",
       "url": "https://fr.aliexpress.com/store/510887",
       "storeNumber": "510887",
       "rating": "97.4%",
-      "followers": "236516"
+      "followers": "236827"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "522"
+      "totalStarCount": "523"
     }
   }
 }

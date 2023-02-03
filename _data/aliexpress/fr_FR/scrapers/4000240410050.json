@@ -2,26 +2,26 @@
   "product": {
     "productId": 4000240410050,
     "title": "Boîtier Argon One V2 pour Raspberry Pi 4 modèle B, coque métallique en aluminium avec interrupteur, ventilateur de refroidissement, dissipateurs de chaleur",
-    "description": "",
+    "description": null,
     "reference": "Option 7",
-    "minsalePrice": "21.92",
-    "maxsalePrice": "28.46",
-    "discount": "",
+    "minsalePrice": "21.84",
+    "maxsalePrice": "28.36",
+    "discount": "-23%",
     "currency": "EUR",
-    "originalPrice": "28.46",
+    "originalPrice": "28.36",
     "quantity": "5367",
     "image": "https://ae01.alicdn.com/kf/Hcacac61781344b19855e778f1f2b0eceT/Bo-tier-Argon-One-V2-pour-Raspberry-Pi-4-mod-le-B-coque-m-tallique-en.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "DIYzone Store",
       "url": "https://fr.aliexpress.com/store/1270976",
       "storeNumber": "1270976",
-      "rating": "97.9%",
-      "followers": "12105"
+      "rating": "98.0%",
+      "followers": "12128"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "38"
+      "totalStarCount": "38"
     }
   }
 }

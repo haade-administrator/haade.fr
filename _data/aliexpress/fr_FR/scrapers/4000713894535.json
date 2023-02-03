@@ -2,26 +2,26 @@
   "product": {
     "productId": 4000713894535,
     "title": "Aqara – Capteur de fenêtre et porte Zigbee, avec connexion sans fil, mini détecteur intelligent fonctionne avec l'application Mi Home pour Android et iOS, version globale",
-    "description": "",
+    "description": null,
     "reference": "1 PCS",
-    "minsalePrice": "14.66",
-    "maxsalePrice": "19.05",
-    "discount": "",
+    "minsalePrice": "14.61",
+    "maxsalePrice": "18.98",
+    "discount": "-23%",
     "currency": "EUR",
-    "originalPrice": "19.05",
+    "originalPrice": "18.98",
     "quantity": "849",
     "image": "https://ae01.alicdn.com/kf/Sf4382c7dee804c359bfbe22b2c1a3f8dB/Aqara-Capteur-de-fen-tre-et-porte-Zigbee-avec-connexion-sans-fil-mini-d-tecteur-intelligent.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "MIJIA-GLOBAL Store",
       "url": "https://fr.aliexpress.com/store/5064078",
       "storeNumber": "5064078",
-      "rating": "96.8%",
-      "followers": "17589"
+      "rating": "96.9%",
+      "followers": "17616"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStartCount": "223"
+      "totalStarCount": "225"
     }
   }
 }

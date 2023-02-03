@@ -5,23 +5,23 @@
     "description": null,
     "reference": "1.44 inch no touch",
     "minsalePrice": "2.85",
-    "maxsalePrice": "price not found",
-    "discount": "",
+    "maxsalePrice": 0,
+    "discount": "-25%",
     "currency": "USD",
     "originalPrice": "3.80",
-    "quantity": "5946",
+    "quantity": "5945",
     "image": "https://ae01.alicdn.com/kf/H616e8d76d0fa407cb3256ec2f2c81514l/1-44-1-8-2-0-2-2-2-4-2-8-3-2-3-5.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "EC-Buying Ali Store",
       "url": "https://www.aliexpress.com/store/1101052921",
       "storeNumber": "1101052921",
       "rating": "98.6%",
-      "followers": "10192"
+      "followers": "10208"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStartCount": "100"
+      "totalStarCount": "101"
     }
   }
 }

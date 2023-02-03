@@ -137,7 +137,8 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.5)
     rouge (4.0.1)
-    rss (0.2.8)
+    rss (0.2.9)
+      rexml
     ruby-vips (2.0.17)
       ffi (~> 1.9)
     ruby2_keywords (0.0.5)
@@ -145,7 +146,7 @@ GEM
     sanitize (6.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    sass-embedded (1.57.1)
+    sass-embedded (1.58.0)
       google-protobuf (~> 3.21)
       rake (>= 10.0.0)
     sassc (2.4.0)
@@ -197,4 +198,4 @@ DEPENDENCIES
   to_slug
 
 BUNDLED WITH
-   2.3.19
+   2.3.14

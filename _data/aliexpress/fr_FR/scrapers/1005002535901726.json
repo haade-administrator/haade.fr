@@ -2,26 +2,26 @@
   "product": {
     "productId": 1005002535901726,
     "title": "Thermomètre intelligent MOES ZigBee, Bluetooth, maille, luminosité, température, humidité, capteur, Tuya Smart App, contrôle",
-    "description": "",
+    "description": null,
     "reference": "Bluetooth Hub",
-    "minsalePrice": "16.24",
-    "maxsalePrice": "23.20",
-    "discount": "",
+    "minsalePrice": "16.18",
+    "maxsalePrice": "23.12",
+    "discount": "-30%",
     "currency": "EUR",
-    "originalPrice": "23.20",
-    "quantity": "44",
+    "originalPrice": "23.12",
+    "quantity": "34",
     "image": "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/Thermom-tre-intelligent-MOES-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg_.webp",
     "storeInfo": {
       "name": "MOES Official Store",
       "url": "https://fr.aliexpress.com/store/4988128",
       "storeNumber": "4988128",
-      "rating": "95.5%",
-      "followers": "206833"
+      "rating": "95.6%",
+      "followers": "206873"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.4",
-      "totalStartCount": "65"
+      "totalStarCount": "65"
     }
   }
 }

@@ -12,8 +12,8 @@ image: "Coswall-boite-de-doublure-seche-1-Gang-pour-plaques-de-platre-cloisons-p
 imageshadow: true
 comments: false
 published: true
-item: 32958909969
-item-affiliate: '_DDr9CYF'
+aep-item: 32958909969
+aep-item-affiliate: '_DDr9CYF'
 redirect_from: 
     - /produit/boitier-dencastrement-carre-coswall-44-de-reductions/
 ---

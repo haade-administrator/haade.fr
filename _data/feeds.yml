@@ -3,3 +3,6 @@
 
 - name: Homeassistant
   feed: https://www.home-assistant.io/atom.xml
+
+- name: blog Jeedom
+  feed: https://blog.jeedom.com/feed/
