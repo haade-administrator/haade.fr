@@ -14,8 +14,9 @@ imageshadow: true
 comments: false
 rating:  
 published: true
-aep-item:
-dom-item: "M5-2C-86"
+aep-item: 1005004775774974
+aep-item-affiliate: "_DD0tVR9"
+dom-item: 
 ---
 MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, avec télécommande, fonctionne avec Alexa et Google
 
