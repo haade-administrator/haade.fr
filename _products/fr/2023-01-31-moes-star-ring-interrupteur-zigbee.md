@@ -24,7 +24,7 @@ MOES – interrupteur à bouton-poussoir connecté Tuya Star Ring, zigbee 3.0, a
 
 ## Caractéristiques techniques:
 - Nom du produit : Moes Star Ring ZS-SR-EU.
-- Protocole : ZigBee3.0
+- Protocole : ZigBee 3.0
 - Courant maximum：10A
 - Tension de fonctionnement : AC100V-240V 50/60Hz
 - Température de fonctionnement : -10~65℃
