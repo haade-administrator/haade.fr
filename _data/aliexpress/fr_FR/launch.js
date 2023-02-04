@@ -138,8 +138,10 @@ async function scrapeAliexpress() {
     const image = [];
         $('.image-viewer img').each((i, el) => {
           const imageSrc = $(el).attr('src');
-          const modifiedSrc = imageSrc.replace('_50x50', '_Q90').replace('_.webp', '.webp');
-          image.push(modifiedSrc);
+          const modifiedSrc = imageSrc.replace('_50x50.jpg_', '_Q90.jpg').replace('_Q90.jpg_', '_Q90.jpg');
+          if (!image.includes(modifiedSrc)) {
+            image.push(modifiedSrc);
+        }
         });
         if (!image) {
             console.log("Image not found, continuing...");

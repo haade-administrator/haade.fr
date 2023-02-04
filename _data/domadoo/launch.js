@@ -30,7 +30,7 @@ async function scrapeDomadoo() {
         $('.label').remove();
         $('.material-icons').remove();
         const product = {};
-        const productId = link;
+        const linkId = link;
         const title = $('h1').text().trim().replace(/\n|\r/g, '');
         const reference = $('.product-reference').filter(':first').text().trim().replace(/\n|\r/g, '');
         const productNew = $('.product-flag.new').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
@@ -64,7 +64,11 @@ async function scrapeDomadoo() {
         const specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
         const image = [];
         $('.images-container.js-images-container img').each((i, el) => {
-          image.push($(el).attr('src'));
+            const imageSrc = $(el).attr('src');
+            const modifiedSrc = imageSrc.replace('-small_', '-medium_');
+            if (!image.includes(modifiedSrc)) {
+                image.push(modifiedSrc);
+            }
         });
         if (!image) {
             console.log("Image not found, continuing...");
@@ -79,10 +83,9 @@ async function scrapeDomadoo() {
         // Enregistrer les données dans un objet
         const data = {
             product: {
-                productId,
+                productId: reference,
                 title,
                 description,
-                reference,
                 productNew,
                 minsalePrice: salePrice,
                 maxsalePrice: originalPrice || 0,

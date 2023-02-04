@@ -9,9 +9,8 @@
     "discount": "-30%",
     "currency": "EUR",
     "originalPrice": "23.12",
-    "quantity": "33",
+    "quantity": "31",
     "image": [
-      "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/Thermom-tre-intelligent-MOES-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/Thermom-tre-intelligent-MOES-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/S46ea6a92b7164756b820102c4e880666m/Thermom-tre-intelligent-MOES-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/S9f49c990b86e461dba45fb4856a59d2ct/Thermom-tre-intelligent-MOES-ZigBee-Bluetooth-maille-luminosit-temp-rature-humidit-capteur-Tuya-Smart-App-contr.jpg_Q90.jpg.webp",
@@ -24,12 +23,12 @@
       "url": "https://fr.aliexpress.com/store/4988128",
       "storeNumber": "4988128",
       "rating": "95.6%",
-      "followers": "206886"
+      "followers": "206891"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.4",
-      "totalStarCount": "65"
+      "totalStarCount": "66"
     }
   }
 }
