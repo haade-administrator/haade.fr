@@ -197,3 +197,12 @@ function myFunction() {
 }
 
 // end sticky
+
+// add script for imagegallery include
+
+$(document).ready(function(){
+	$('.gallery-image').on('click', function(){
+	  var imgURL = $(this).attr('src');
+	  $('#imageBox').attr('src', imgURL)
+	  });
+	});
