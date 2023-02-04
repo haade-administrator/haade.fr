@@ -10,7 +10,15 @@
     "currency": "USD",
     "originalPrice": "12.13",
     "quantity": "100",
-    "image": "https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg_.webp",
+    "image": [
+      "https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hdb0c05e59c154df29779a6992c17d6116/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hd7188fd80aee4e32bb8e09a06f59cbd1o/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H74fb95b166664e7abb793143e7cbba0aQ/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hb6c2c7e5ab374bf9abe0fc1bcd3cfe96m/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H988480674058432987fc2a91d68bae07t/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hbb43bf54b0ec44158dbe25e76597e1b4Q/SONOFF-Zigbee-SNZB-04-Door-Sensor-Mini-Window-Sensor-Alarm-via-eWelink-APP-Home-Security-Work.jpg_Q90.jpg.webp"
+    ],
     "storeInfo": {
       "name": "Smart-house Store",
       "url": "https://www.aliexpress.com/store/1101325770",

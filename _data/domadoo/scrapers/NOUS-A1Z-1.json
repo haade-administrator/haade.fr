@@ -13,7 +13,20 @@
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
-        "image": "https://cdn1.domadoo.fr/21121-medium_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+        "image": [
+            "https://cdn1.domadoo.fr/21121-medium_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21121-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21120-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21119-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21128-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21122-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21123-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21124-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21125-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21126-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21127-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/21129-small_default/nous-prise-intelligente-zigbee-30-mesure-de-consommation.jpg"
+        ],
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.6",

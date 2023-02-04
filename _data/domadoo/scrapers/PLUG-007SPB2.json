@@ -13,7 +13,15 @@
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
-        "image": "https://cdn1.domadoo.fr/24231-medium_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+        "image": [
+            "https://cdn1.domadoo.fr/24231-medium_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24231-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24229-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24227-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24226-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24228-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg",
+            "https://cdn1.domadoo.fr/24230-small_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg"
+        ],
         "ratings": {
             "totalStar": 5,
             "averageStar": 0,

@@ -4,19 +4,23 @@
     "title": "ESP8266 WIFI relay module DC 7V - DC 30V Network relay 65mmx40mmx20mm Module",
     "description": null,
     "reference": "",
-    "minsalePrice": "5.36",
+    "minsalePrice": "5.27",
     "maxsalePrice": 0,
-    "discount": "-38%",
+    "discount": "-39%",
     "currency": "USD",
     "originalPrice": "8.64",
     "quantity": "50",
-    "image": "https://ae01.alicdn.com/kf/H4581a18431a0469baa7497b1b6b2bcb4e/ESP8266-WIFI-relay-module-DC-7V-DC-30V-Network-relay-65mmx40mmx20mm-Module.jpg_Q90.jpg_.webp",
+    "image": [
+      "https://ae01.alicdn.com/kf/H4581a18431a0469baa7497b1b6b2bcb4e/ESP8266-WIFI-relay-module-DC-7V-DC-30V-Network-relay-65mmx40mmx20mm-Module.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H4581a18431a0469baa7497b1b6b2bcb4e/ESP8266-WIFI-relay-module-DC-7V-DC-30V-Network-relay-65mmx40mmx20mm-Module.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H7b47021ea876482991c09f2b1cf12a2aA/ESP8266-WIFI-relay-module-DC-7V-DC-30V-Network-relay-65mmx40mmx20mm-Module.jpg_Q90.jpg.webp"
+    ],
     "storeInfo": {
       "name": "Eiechip Official Store",
       "url": "https://www.aliexpress.com/store/1100712758",
       "storeNumber": "1100712758",
       "rating": "98.5%",
-      "followers": "37370"
+      "followers": "37380"
     },
     "ratings": {
       "totalStar": 5,

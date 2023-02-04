@@ -134,7 +134,17 @@ async function scrapeAliexpress() {
     } catch (error) {
       console.log(`Erreur le produit ${link} n'a pas de quantité`);
     };
-    const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
+    //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
+    const image = [];
+        $('.image-viewer img').each((i, el) => {
+          const imageSrc = $(el).attr('src');
+          const modifiedSrc = imageSrc.replace('_50x50', '_Q90').replace('_.webp', '.webp');
+          image.push(modifiedSrc);
+        });
+        if (!image) {
+            console.log("Image not found, continuing...");
+            continue;
+        }
     const storeLink = $('.store-name a').attr('href');
     const store = {
       name: $('.store-name').text(),

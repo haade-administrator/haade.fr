@@ -13,11 +13,15 @@
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
-        "image": "https://cdn1.domadoo.fr/15893-medium_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg",
+        "image": [
+            "https://cdn1.domadoo.fr/15893-medium_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg",
+            "https://cdn1.domadoo.fr/15893-small_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg",
+            "https://cdn1.domadoo.fr/15892-small_default/aqara-prise-connectee-zigbee-30-smart-plug-sp-euc01.jpg"
+        ],
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.8",
-            "totalStarCount": "29"
+            "totalStarCount": "30"
         }
     }
 }

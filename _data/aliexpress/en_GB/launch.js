@@ -114,7 +114,7 @@ async function scrapeAliexpress() {
     const globaldiscount = $('span.product-price-mark').text();
     const globalsdiscount = $('.uniform-banner-box-discounts span:nth-of-type(2)').text();
     const discount = globaldiscount || globalsdiscount || null;
-    
+
     const pricesdelArr = globalspricedel.split(" ");
     const specialpricedel = pricesdelArr[1];
     // passer du prix barré au prix special barré automatiquement
@@ -132,7 +132,17 @@ async function scrapeAliexpress() {
     } catch (error) {
       console.log(`Error the product ${link} has not quantity`);
     };
-    const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
+    //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
+    const image = [];
+        $('.image-viewer img').each((i, el) => {
+          const imageSrc = $(el).attr('src');
+          const modifiedSrc = imageSrc.replace('_50x50', '_Q90').replace('_.webp', '.webp');
+          image.push(modifiedSrc);
+        });
+        if (!image) {
+            console.log("Image not found, continuing...");
+            continue;
+        }
     const storeLink = $('.store-name a').attr('href');
     const store = {
       name: $('.store-name').text(),

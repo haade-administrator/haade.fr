@@ -10,7 +10,16 @@
     "currency": "USD",
     "originalPrice": "29.46",
     "quantity": "999",
-    "image": "https://ae01.alicdn.com/kf/H1d16fea16a41485ba35bdd77e6b18888I/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg_.webp",
+    "image": [
+      "https://ae01.alicdn.com/kf/H1d16fea16a41485ba35bdd77e6b18888I/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H1d16fea16a41485ba35bdd77e6b18888I/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H1d16fea16a41485ba35bdd77e6b18888I/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/H62302951b3554a4c95762044a48fa1338/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hddb9c323efc0425fb96ba4558057173dh/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/He2c465ba93bb48b9b074747fbd75381aI/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Hffd5227136ca44d78b6b94f007a72aac0/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Heea0c53fe5fe4006bfb57571f546dfd0z/NEO-COOLCAM-Z-wave-Plus-1-2-3CH-EU-868-4Mhz-Wall-Light-Switch-Home-Automation.jpg_Q90.jpg.webp"
+    ],
     "storeInfo": {
       "name": "Shop3633016 Store",
       "url": "https://www.aliexpress.com/store/1101279981",

@@ -3,20 +3,29 @@
     "productId": 4001326539649,
     "title": "ZigBee – Thermostat intelligent, contrôleur de température, Hub requis, chauffage de l'eau/électrique au sol, chaudière à eau/gaz, avec Alexa Google Home",
     "description": null,
-    "reference": "Gateway",
-    "minsalePrice": "21.84",
-    "maxsalePrice": "32.60",
+    "reference": "",
+    "minsalePrice": "37.77",
+    "maxsalePrice": "56.38",
     "discount": "-33%",
     "currency": "EUR",
-    "originalPrice": "32.60",
-    "quantity": "93",
-    "image": "https://ae01.alicdn.com/kf/Sdf179948c21e4adfa409110c6e0389607/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg_.webp",
+    "originalPrice": "56.38",
+    "quantity": "1",
+    "image": [
+      "https://ae01.alicdn.com/kf/Sdf179948c21e4adfa409110c6e0389607/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Sdf179948c21e4adfa409110c6e0389607/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Sdf179948c21e4adfa409110c6e0389607/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S3ab6234de0744b66a738ec46c6506c50t/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Sc988a0f53d7f48da92d17c76b27d0ca4J/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Sf4c58c9a2af5460ea35c84350e34d8c9x/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S868be792300c409ab9f398c0fa6a099bM/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S1aa46130efaf48e2aa8165babd17eab23/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp"
+    ],
     "storeInfo": {
       "name": "MOES Official Store",
       "url": "https://fr.aliexpress.com/store/4988128",
       "storeNumber": "4988128",
       "rating": "95.6%",
-      "followers": "206873"
+      "followers": "206886"
     },
     "ratings": {
       "totalStar": 5,

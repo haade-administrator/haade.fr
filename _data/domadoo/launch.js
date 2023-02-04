@@ -62,11 +62,16 @@ async function scrapeDomadoo() {
         }
         const description = $('*[id^="product-description-short-"]').text().trim().replace(/\n|\r/g, '');
         const specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
-        const image = await page.evaluate(() => document.querySelector('.js-qv-product-cover.img-fluid').src);
+        const image = [];
+        $('.images-container.js-images-container img').each((i, el) => {
+          image.push($(el).attr('src'));
+        });
+      
+/*         const picture = await page.evaluate(() => document.querySelector('.js-qv-product-cover.img-fluid').src);
         if (!image) {
             console.log("Image not found, continuing...");
             continue;
-        }
+        } */
         // Enregistrer les données dans un objet
         const data = {
             product: {

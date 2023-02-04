@@ -9,14 +9,22 @@
     "discount": "-30%",
     "currency": "USD",
     "originalPrice": "20.28",
-    "quantity": "34",
-    "image": "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg_.webp",
+    "quantity": "33",
+    "image": [
+      "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/See42da30b4784d24aa52a1cf098d8eeaA/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S46ea6a92b7164756b820102c4e880666m/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S9f49c990b86e461dba45fb4856a59d2ct/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/Sf2b111f712034a8d8c459d9d93a4d327N/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S36ff3d57da904931a6e45a142782beedu/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp",
+      "https://ae01.alicdn.com/kf/S4cd0f01cbf634844b8b946d91fd86ed7l/MOES-Smart-ZigBee-Bluetooth-Mesh-Brightness-Thermometer-Light-Temperature-Humidity-Sensor-Tuya-Smart-App-Control.jpg_Q90.jpg.webp"
+    ],
     "storeInfo": {
       "name": "MOES Official Store",
       "url": "https://www.aliexpress.com/store/1101325609",
       "storeNumber": "1101325609",
       "rating": "95.6%",
-      "followers": "206873"
+      "followers": "206886"
     },
     "ratings": {
       "totalStar": 5,
