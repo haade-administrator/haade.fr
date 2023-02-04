@@ -66,6 +66,10 @@ async function scrapeDomadoo() {
         $('.images-container.js-images-container img').each((i, el) => {
           image.push($(el).attr('src'));
         });
+        if (!image) {
+            console.log("Image not found, continuing...");
+            continue;
+        }
       
 /*         const picture = await page.evaluate(() => document.querySelector('.js-qv-product-cover.img-fluid').src);
         if (!image) {
