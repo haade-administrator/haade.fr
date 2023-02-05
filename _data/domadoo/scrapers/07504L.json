@@ -1,0 +1,31 @@
+{
+    "product": {
+        "linkId": "peripheriques/6352-immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65",
+        "productId": "07504L",
+        "title": "IMMAX - Sirène intelligente extérieure Zigbee 3.0 TUYA (IP65)",
+        "description": "La sirène intelligente extérieure Zigbee 3.0 TUYA IMMAX permet d'optimiser la protection de votre logement en émettant une alarme sonore et visuelle dans votre jardin en cas d'anomalie détectée.",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "37.99",
+        "maxsalePrice": "23,99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "23,99",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/23063-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23062-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23064-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23065-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23066-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23067-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg",
+            "https://cdn1.domadoo.fr/23068-medium_default/immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5",
+            "totalStarCount": "1"
+        }
+    }
+}

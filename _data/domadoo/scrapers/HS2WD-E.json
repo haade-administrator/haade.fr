@@ -1,0 +1,29 @@
+{
+    "product": {
+        "linkId": "peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30",
+        "productId": "HS2WD-E",
+        "title": "HEIMAN - Sirène intérieure intelligente Zigbee 3.0",
+        "description": "La sirène intelligente Zigbee 3.0 de Heiman est idéale pour déclencher une alarme en cas d'urgence.",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "25.49",
+        "maxsalePrice": "29,99",
+        "discount": "-15%",
+        "currency": "EUR",
+        "originalPrice": "29,99",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17675-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17676-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17677-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17678-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17679-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.4",
+            "totalStarCount": "17"
+        }
+    }
+}

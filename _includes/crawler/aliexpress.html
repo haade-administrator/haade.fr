@@ -3,9 +3,9 @@
 {%- if scraper.productId == page.aep-item %}
 
 <div class="shop-pictures">
-  {%- assign images = scraper.image %}
+  <!-- {%- assign images = scraper.image %} -->
   <!-- Featured Image -->
-  {%- include imagegallery.html %}
+  {%- include featured-image.html %}
 
 {%- if scraper.productId == page.aep-item %}
   {%- include crawler/reseller.html %}

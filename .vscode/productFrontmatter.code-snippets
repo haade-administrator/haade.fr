@@ -10,7 +10,7 @@
 		  "author: ${4|Nico,Yann,Math67|}",
 		  "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE",
 		  "last_modified_at: $6",
-		  "categories: [${7|Docker,Domotique,Esp,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Test|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Esp,Jeedom,News,Protocoles,Sécurité,Test|}, ${9|Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Esp,Test|}]",
+		  "categories: [${7|Docker,Domotique,Esp,Haade-lab,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Tests,Zigbee|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Esp,Jeedom,Zigbee,News,Protocoles,Sécurité,Tests|}, ${9|Zigbee,Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Esp,Tests|}]",
 		  "tags: [$10]",
 		  "image: '${11:picture.png}'",
 		  "toc: ${12|true,false|}",

@@ -9,7 +9,7 @@
     "discount": "-38%",
     "currency": "EUR",
     "originalPrice": "31.20",
-    "quantity": "811",
+    "quantity": "810",
     "image": [
       "https://ae01.alicdn.com/kf/Sd285380579824180a5bf791c54b3206aA/KingSpec-disque-dur-interne-SSD-M-2-NVMe-128-PCIe-avec-capacit-de-256-go-512.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/S46ae760fe3db40e3bfc41346ae1bf7656/KingSpec-disque-dur-interne-SSD-M-2-NVMe-128-PCIe-avec-capacit-de-256-go-512.jpg_Q90.jpg.webp",
@@ -22,12 +22,12 @@
       "url": "https://fr.aliexpress.com/store/510887",
       "storeNumber": "510887",
       "rating": "97.4%",
-      "followers": "237077"
+      "followers": "237096"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStarCount": "523"
+      "totalStarCount": "522"
     }
   }
 }
