@@ -8,7 +8,7 @@ date: 2023-02-05 11:09
 last_modified_at: 
 categories: [Tests, Haade-lab, Zigbee]
 tags: []
-image: 'immax-test-neo-07504L-smart-siren--exterieur-ip65-zigbee-3-fix-mural.png'
+image: 'immax-neo-07504L-smart-siren-exterieur-ip65-zigbee-3-fix-mural.png'
 toc: true
 beforetoc: ''
 published: true
