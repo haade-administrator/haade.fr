@@ -83,6 +83,7 @@ async function scrapeDomadoo() {
         // Enregistrer les données dans un objet
         const data = {
             product: {
+                linkId,
                 productId: reference,
                 title,
                 description,

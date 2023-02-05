@@ -51,6 +51,8 @@ jobs:
           npm install
           npm run scrap
           echo aliexpress-domadoo scraper OK
+          npm run build:js
+          echo uglify js OK
           vips -v
           echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
           echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc

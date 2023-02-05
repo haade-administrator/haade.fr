@@ -1,5 +1,6 @@
 {
     "product": {
+        "linkId": "interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e",
         "productId": "ZBDONGLE-E",
         "title": "SONOFF - Clé USB Zigbee 3.0 + antenne externe 20dBm (V2) ZBDongle-E",
         "description": "Contrôlez vos dispositifs Zigbee avec la clé USB SONOFF Zigbee compatible Home Assistant et Zigbee2MQTT.",
