@@ -27,17 +27,11 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
-      - name: fr_FR.UTF-8
-        run: |
-          sudo locale-gen fr_FR.UTF-8
-          sudo update-locale LANG=fr_FR.UTF-8
-  
-      - name: date
-        run: |
-          date
     
       - name: Checkout 🛎️
         uses: actions/checkout@v3.1.0
+        with:
+          time: '60s'
 
       - name: Install and Build
         run: |
