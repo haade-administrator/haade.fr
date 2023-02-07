@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "peripheriques/5689-nodon-module-eclairage-onoff-zigbee-3700313925225",
+        "productId": "SIN-4-2-20",
+        "title": "NODON - Module Eclairage ON/OFF Zigbee",
+        "description": "Avec ses deux canaux, le Module Éclairage ON/OFF Zigbee permet de rendre connectés et pilotables à distance via un smartphone, automatiquement ou à la voix un ou deux éclairages.",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "35.92",
+        "maxsalePrice": "44.90",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "44.90",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17555-medium_default/nodon-module-eclairage-onoff-zigbee.jpg",
+            "https://cdn1.domadoo.fr/17556-medium_default/nodon-module-eclairage-onoff-zigbee.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "3.7",
+            "totalStarCount": "3"
+        }
+    }
+}

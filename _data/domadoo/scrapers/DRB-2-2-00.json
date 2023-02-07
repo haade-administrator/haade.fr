@@ -1,0 +1,27 @@
+{
+    "product": {
+        "linkId": "peripheriques/5483-nodon-boitier-rail-din-v2-pour-micromodules-5-pieces-3700313925041",
+        "productId": "DRB-2-2-00",
+        "title": "NODON - Boitier Rail DIN V2 pour micromodules (5 pièces)BOITIER RAIL DIN V2 POUR MODULE CONNECTE ENOCEAN",
+        "description": "Installez directement les modules NodOn au tableau électrique avec le boitier Rail DIN V2 ! Lot de 5 pièces.",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "39.92",
+        "maxsalePrice": "49.90",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "49.90",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/16616-medium_default/nodon-boitier-rail-din-v2-pour-micromodules-5-pieces.jpg",
+            "https://cdn1.domadoo.fr/16615-medium_default/nodon-boitier-rail-din-v2-pour-micromodules-5-pieces.jpg",
+            "https://cdn1.domadoo.fr/16614-medium_default/nodon-boitier-rail-din-v2-pour-micromodules-5-pieces.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5",
+            "totalStarCount": "1"
+        }
+    }
+}

@@ -6,10 +6,10 @@
         "description": "Contrôlez votre logement connecté à l'aide de NSPANEL-EU SONOFF, un interrupteur mural intelligent.",
         "productNew": "",
         "minsalePrice": "56.93",
-        "maxsalePrice": "72,99",
+        "maxsalePrice": "72.99",
         "discount": "-22%",
         "currency": "EUR",
-        "originalPrice": "72,99",
+        "originalPrice": "72.99",
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
@@ -43,8 +43,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4",
-            "totalStarCount": "8"
+            "averageStar": "4.1",
+            "totalStarCount": "9"
         }
     }
 }

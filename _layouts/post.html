@@ -63,7 +63,7 @@ post_class: post-template
 <!-- Rating -->
 {%- if page.rating %}
 <div class="rating mt-4 mb-4 d-flex align-items-center">
-    <strong class="mr-1">Rating:</strong> {%- include star_rating.html %}
+    <strong class="mr-1">{{ translate.product.rating[page.locale] }}:</strong> {%- include star_rating.html %}
 </div>
 {%- endif %}
 

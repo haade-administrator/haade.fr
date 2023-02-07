@@ -34,7 +34,7 @@ async function scrapeDomadoo() {
         const title = $('h1').text().trim().replace(/\n|\r/g, '');
         const reference = $('.product-reference').filter(':first').text().trim().replace(/\n|\r/g, '');
         const productNew = $('.product-flag.new').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
-        const originalPrice = $('.regular-price').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(/ €/, '');
+        const originalPrice = $('.regular-price').first().text().trim().replace(/\n|\r/g, '').replace(",", ".").replace(/\s+/g, ' ').replace(/ €/, '');
         const globalprice = $('.current-price-value').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(",", ".").replace("€", "EUR");
         const priceArr = globalprice.split(" ");
         const salePrice = priceArr[0];

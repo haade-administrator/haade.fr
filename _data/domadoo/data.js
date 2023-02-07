@@ -8,5 +8,7 @@ module.exports = [
     '6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517',                 // Prise Nous A1Z
     'peripheriques/6352-immax-sirene-intelligente-exterieure-zigbee-30-tuya-ip65',                 // Alarme Sirène immax
     'box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30',          // jeedom luna
-    'peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30'                           // Sirène Heiman
+    'peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30',                           // Sirène Heiman
+    'peripheriques/5689-nodon-module-eclairage-onoff-zigbee-3700313925225',                          // module 2141 on/off nodon
+    'peripheriques/5483-nodon-boitier-rail-din-v2-pour-micromodules-5-pieces-3700313925041'          // 2142 boitier rail din nodon
 ]
