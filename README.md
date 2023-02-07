@@ -1,4 +1,4 @@
-![Dernier déploiement]((https://github.com/haade-administrator/haade.fr/actions/workflows/pages/pages-build-deployment/badge.svg)
+![Dernier déploiement](https://github.com/haade-administrator/haade.fr/actions/workflows/pages/pages-build-deployment/badge.svg)
 
 # Haade next generation
 
