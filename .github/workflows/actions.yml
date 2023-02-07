@@ -2,9 +2,9 @@ name: Build and deploy Jekyll H2ade Blog
 
 on:
 
-  push:
-    branches:
-      - 'main'
+#  push:
+#    branches:
+#      - 'main'
 #      - 'releases/**'
 #      - '!releases/**-alpha'
 
@@ -27,6 +27,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
+      - name: Sleep for 30 seconds
+        uses: whatnick/wait-action@master
+        with:
+          time: '30s'
+
       - name: fr_FR.UTF-8
         run: |
           sudo locale-gen fr_FR.UTF-8
@@ -38,8 +43,6 @@ jobs:
     
       - name: Checkout 🛎️
         uses: actions/checkout@v3.1.0
-        with:
-          time: '60s'
 
       - name: Install and Build
         run: |
