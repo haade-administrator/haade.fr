@@ -9,7 +9,7 @@
     "discount": null,
     "currency": "USD",
     "originalPrice": null,
-    "quantity": "8147",
+    "quantity": "8146",
     "image": [
       "https://ae01.alicdn.com/kf/Hacc1205382f14e32a23294c78dd03233z/3pcs-lot-1PCS-PL2303HX-1PCS-CP2102-1PCS-CH340G-USB-TO-TTL-for-arduino-PL2303-CP2102-5PIN.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/H70808ddbd0f542c78294454287707161V/3pcs-lot-1PCS-PL2303HX-1PCS-CP2102-1PCS-CH340G-USB-TO-TTL-for-arduino-PL2303-CP2102-5PIN.jpg_Q90.jpg.webp",
@@ -21,12 +21,12 @@
       "url": "https://www.aliexpress.com/store/1100804306",
       "storeNumber": "1100804306",
       "rating": "98.5%",
-      "followers": "6893"
+      "followers": "6894"
     },
     "ratings": {
       "totalStar": 5,
-      "averageStar": "4.9",
-      "totalStarCount": "526"
+      "averageStar": "4.8",
+      "totalStarCount": "525"
     }
   }
 }

@@ -9,7 +9,7 @@
     "discount": "-27%",
     "currency": "USD",
     "originalPrice": "31.28",
-    "quantity": "917",
+    "quantity": "916",
     "image": [
       "https://ae01.alicdn.com/kf/S9316ebb760ac4ea6a6c6ae87cc358e764/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-Universal-Gateway-Support-Home-Assistant-Zigbee2MQTT.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Sa317a10b308d4688ae278932bb453efcz/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-Universal-Gateway-Support-Home-Assistant-Zigbee2MQTT.jpg_Q90.jpg.webp",
@@ -23,12 +23,12 @@
       "url": "https://www.aliexpress.com/store/1100861581",
       "storeNumber": "1100861581",
       "rating": "94.2%",
-      "followers": "34189"
+      "followers": "34185"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStarCount": "51"
+      "totalStarCount": "52"
     }
   }
 }

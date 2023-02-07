@@ -9,7 +9,7 @@
     "discount": "-30%",
     "currency": "USD",
     "originalPrice": "14.14",
-    "quantity": "833",
+    "quantity": "815",
     "image": [
       "https://ae01.alicdn.com/kf/He90703f690744bb6b95b4a7aa0ebf217F/SONOFF-ZBMINI-Zigbee-3-0-Mini-Smart-Switch-DIY-Two-Way-Module-eWelink-APP-Control-ZBBridge.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/H00af2cc734984648b3d9c94132ed5ab8x/SONOFF-ZBMINI-Zigbee-3-0-Mini-Smart-Switch-DIY-Two-Way-Module-eWelink-APP-Control-ZBBridge.jpg_Q90.jpg.webp",
@@ -23,12 +23,12 @@
       "url": "https://www.aliexpress.com/store/1101325770",
       "storeNumber": "1101325770",
       "rating": "93.7%",
-      "followers": "4387"
+      "followers": "4388"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStarCount": "67"
+      "totalStarCount": "66"
     }
   }
 }
