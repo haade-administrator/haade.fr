@@ -8,7 +8,7 @@ date: 2023-02-07 17:36
 last_modified_at: 
 categories: [Docker, Domotique, Zigbee]
 tags: []
-image: 'picture.png'
+image: 'jeedom-luna-passe-au-crible-box-francaise.png'
 toc: true
 beforetoc: ''
 published: false
