@@ -170,7 +170,10 @@ html {
     scroll-behavior: smooth;
 }
 a {
-    color: darken($primary, 35%);
+    color: $purple;
+    &:hover {
+        color: $primary;
+    }
 }
 img {
     max-width:100%;
