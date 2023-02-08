@@ -808,7 +808,6 @@ $alert-success: #42ae42;
   flex-wrap: nowrap;
   align-items: center;
   max-width: 1440px;
-  width: 100%;
   justify-content: space-between;
   padding: 0 60px;
   background: #eaeaea;
@@ -1444,7 +1443,6 @@ a {
 .secondheader {
   position: relative;
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -1699,7 +1697,6 @@ nav {
 nav .navbar {
   height: 100%;
   max-width: 1440px;
-  width: 100%;
   display: flex;
   align-items: center;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
