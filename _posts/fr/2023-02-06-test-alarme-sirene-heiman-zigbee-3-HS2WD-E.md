@@ -99,7 +99,7 @@ L'alarme **ne possède pas de bouton ON/OFF virtuel ou physique** il faudra dans
 - Intégration uniquement sur prise ( difficile de l'adapter avec un transfo exterme)
 - pas d'alarmes en cas d'effractions ( lorsqu'on la débranche )
 
-# Fonctions :
+# Fonctions
 
 - Sirène Zigbee 3.0 sur prise
 - Signalisation sonore et lumineuse

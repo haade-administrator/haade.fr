@@ -93,13 +93,13 @@ The alarm **does not have a virtual or physical ON/OFF button** it will be neces
 - Powerful sound of **95 dB**
 - Easy to install
 
-# The product **-**{: .red}
+# The **-**{: .red} of the product 
 
 - Siren only intended for the interior of the accommodation
 - Integration only on socket (difficult to adapt it with an external transformer)
 - no alarms in case of break-ins (when unplugged)
 
-# Functions:
+# Functions
 
 - Zigbee 3.0 siren on socket
 - Sound and light signaling
@@ -117,7 +117,7 @@ The alarm **does not have a virtual or physical ON/OFF button** it will be neces
 |Operating temperature| -10°C to +50°C|
 |Working humidity| <95% RH (indicating no condensation)|
 |Protocol| Zigbee 3.0 (2.4Ghz)|
-|Size| 80mm*80mm*32mm|
+|Size| 80mmx80mmx32mm|
 
 {% include doclink.html pdf="heiman-siren-manual-HS2WD-E.pdf" title="Heiman smart siren zigbee 3.0 HS2WD-E installation manual" %}
 
