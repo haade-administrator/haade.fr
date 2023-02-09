@@ -1,0 +1,8 @@
+---
+title: "Stock Alert (US) - RPi 4 Model B - 8GB RAM is In Stock at Adafruit 56 units in stock."
+date: 2023-02-08 16:28:27 +0000
+dateadded: 2023-02-08 19:04:13 +0100
+description: "Stock Alert (US): RPi 4 Model B - 8GB RAM is In Stock at Adafruit 56 units in stock."
+link: "https://rpilocator.com?vendor=adafruit&utm_source=feed&utm_medium=rss"
+category:
+---
