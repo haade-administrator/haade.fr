@@ -1754,7 +1754,8 @@ nav .navbar {
 
 .links li:hover {
 
-  .htmlcss-arrow,
+  .htmlcss-arrow-automation,
+  .htmlcss-arrow-shop,
   .js-arrow {
     transform: rotate(180deg);
   }
@@ -1787,7 +1788,8 @@ nav .navbar .links li {
 
   &:hover {
 
-    .htmlCss-sub-menu,
+    .htmlCss-sub-menu-automation,
+    .htmlCss-sub-menu-shop,
     .js-sub-menu {
       display: block;
     }
@@ -1813,15 +1815,23 @@ nav .navbar .links li {
       font-size: 13px;
       font-weight: 500;
       cursor: default;
-
+      text-transform: uppercase;
+      &:hover {
+        color: $lightblue;
+      }
     }
 
-    .more-arrow {
+    .more-arrow-automation,
+    .more-arrow-shop {
       line-height: 40px;
     }
   }
 
-  .sub-menu .more-sub-menu {
+  .sub-menu {
+    
+    .more-sub-menu-automation,
+    .more-sub-menu-brand,
+    .more-sub-menu-protocol {
     position: absolute;
     top: 0;
     left: 100%;
@@ -1830,9 +1840,14 @@ nav .navbar .links li {
     display: none;
   }
 }
+}
 
-.links li .sub-menu .more:hover .more-sub-menu {
+.links li .sub-menu .more:hover {
+  .more-sub-menu-automation,
+  .more-sub-menu-brand,
+  .more-sub-menu-protocol {
   display: block;
+}
 }
 
 .navbar {
@@ -1956,23 +1971,37 @@ nav .navbar .links li {
     display: none;
   }
 
-  nav .navbar .nav-links.show1 .links .htmlCss-sub-menu {
+  nav .navbar .nav-links.show1 .links .htmlCss-sub-menu-automation {
+    display: block;
+  }
+
+  nav .navbar .nav-links.show11 .links .htmlCss-sub-menu-shop {
     display: block;
   }
 
   .navbar .nav-links {
 
     &.show3 .links .js-sub-menu,
-    &.show2 .links .more .more-sub-menu {
+    &.show2 .links .more .more-sub-menu-automation {
+      display: block;
+    }
+    &.show12 .links .more .more-sub-menu-brand {
+      display: block;
+    }
+    &.show12 .links .more .more-sub-menu-protocol {
       display: block;
     }
 
-    &.show1 .links .htmlcss-arrow,
+    &.show1 .links .htmlcss-arrow-automation,
+    &.show11 .links .htmlcss-arrow-shop,
     &.show3 .links .js-arrow {
       transform: rotate(180deg);
     }
 
-    &.show2 .links .more-arrow {
+    &.show2 .links .more-arrow-automation {
+      transform: rotate(90deg);
+    }
+    &.show12 .links .more-arrow-shop {
       transform: rotate(90deg);
     }
   }
@@ -2126,7 +2155,10 @@ nav .navbar .links li {
     }
   }
 
-  .navbar .links li .sub-menu .more-sub-menu {
+  .navbar .links li .sub-menu { 
+    .more-sub-menu-automation,
+    .more-sub-menu-brand,
+    .more-sub-menu-protocol {
     display: none;
     position: relative;
     left: 0;
@@ -2137,10 +2169,12 @@ nav .navbar .links li {
       justify-content: space-between;
     }
   }
+}
 
   .links li:hover {
 
-    .htmlcss-arrow,
+    .htmlcss-arrow-automation,
+    .htmlcss-arrow-shop,
     .js-arrow {
       transform: rotate(0deg);
     }
@@ -2160,20 +2194,28 @@ nav .navbar .links li {
     }
   }
 
-  .links li .sub-menu .more:hover .more-sub-menu {
+  .links li .sub-menu .more:hover { 
+    .more-sub-menu-automation,
+    .more-sub-menu-brand,
+    .more-sub-menu-protocol {
     display: none;
   }
+}
 
   nav .navbar {
     .links li:hover {
 
-      .htmlCss-sub-menu,
+      .htmlCss-sub-menu-automation,
+      .htmlCss-sub-menu-shop,
       .js-sub-menu {
         display: none;
       }
     }
 
-    .nav-links.show1 .links .htmlCss-sub-menu {
+    .nav-links.show1 .links .htmlCss-sub-menu-automation {
+      display: block;
+    }
+    .nav-links.show11 .links .htmlCss-sub-menu-shop {
       display: block;
     }
   }
@@ -2181,16 +2223,27 @@ nav .navbar .links li {
   .navbar .nav-links {
 
     &.show3 .links .js-sub-menu,
-    &.show2 .links .more .more-sub-menu {
+    &.show2 .links .more .more-sub-menu-automation {
+      display: block;
+    }
+    &.show12 .links .more .more-sub-menu-brand {
+      display: block;
+    }
+    &.show12 .links .more .more-sub-menu-protocol {
       display: block;
     }
 
-    &.show1 .links .htmlcss-arrow,
+    &.show1 .links .htmlcss-arrow-automation,
+    &.show11 .links .htmlcss-arrow-shop,
     &.show3 .links .js-arrow {
       transform: rotate(180deg);
     }
 
-    &.show2 .links .more-arrow {
+    &.show2 .links .more-arrow-automation {
+      transform: rotate(90deg);
+    }
+
+    &.show12 .links .more-arrow-shop {
       transform: rotate(90deg);
     }
   }

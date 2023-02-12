@@ -28,18 +28,30 @@ navLinks.style.left = "-100%";
 
 
 // sidebar submenu open close js code
-let htmlcssArrow = document.querySelector(".htmlcss-arrow");
-htmlcssArrow.onclick = ()=> {
+let AutomationArrow = document.querySelector(".htmlcss-arrow-automation");
+AutomationArrow.onclick = ()=> {
  navLinks.classList.toggle("show1");
 }
-let moreArrow = document.querySelector(".more-arrow");
-moreArrow.onclick = ()=> {
+let AutomationMoreArrow = document.querySelector(".more-arrow-automation");
+AutomationMoreArrow.onclick = ()=> {
  navLinks.classList.toggle("show2");
 }
+
+let ShopArrow = document.querySelector(".htmlcss-arrow-shop");
+ShopArrow.onclick = ()=> {
+ navLinks.classList.toggle("show11");
+}
+let ShopMoreArrow = document.querySelector(".more-arrow-shop");
+ShopMoreArrow.onclick = ()=> {
+ navLinks.classList.toggle("show12");
+}
+
+
 // let jsArrow = document.querySelector(".js-arrow");
 // jsArrow.onclick = ()=> {
 //  navLinks.classList.toggle("show3");
 // }
+
 
 // flags bar open/close
 let navFlags = document.querySelector(".sl-nav");
