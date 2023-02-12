@@ -46,6 +46,21 @@ ShopMoreArrow.onclick = ()=> {
  navLinks.classList.toggle("show12");
 }
 
+// code à exploiter pour dupliquer
+
+// let classes = [".htmlcss-arrow-automation", ".htmlcss-arrow-shop"];
+
+// for (let i = 0; i < classes.length; i++) {
+//   let automationArrows = document.querySelectorAll(classes[i]);
+
+//   for (let j = 0; j < automationArrows.length; j++) {
+//     automationArrows[j].onclick = () => {
+//       navLinks.classList.toggle("show" + (i + 1));
+//     };
+//   }
+// }
+
+
 
 // let jsArrow = document.querySelector(".js-arrow");
 // jsArrow.onclick = ()=> {
