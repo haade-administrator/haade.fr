@@ -138,18 +138,34 @@ shop:
 brand:
   fr_FR:
     name: 'Marque'
-    link: 'fr/categorie/marque'
+    link: 'fr/categorie-produit/marque'
   en_GB:
     name: 'Brand'
-    link: 'en/category/brand'
+    link: 'en/category-product/brand'
 
 protocol:
   fr_FR:
     name: 'Protocole'
-    link: 'fr/categorie/protocole'
+    link: 'fr/categorie-produit/protocole'
   en_GB:
     name: 'Protocol'
-    link: 'en/category/protocol'
+    link: 'en/category-product/protocol'
+
+  zigbee:
+    fr_FR:
+      name: 'Zigbee'
+      link: 'fr/categorie-produit/zigbee'
+    en_GB:
+      name: 'Zigbee'
+      link: 'en/category-product/zigbee'
+ 
+  z-wave:
+    fr_FR:
+      name: 'Z-wave'
+      link: 'fr/categorie-produit/z-wave'
+    en_GB:
+      name: 'Z-wave'
+      link: 'en/category-product/z-wave'
 
 # footer menu
 
