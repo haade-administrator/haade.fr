@@ -70,6 +70,27 @@ giscus:
 collections:
   category:
     output: true
+    en:
+      output: true
+      post:
+        output: true
+      shop:
+        output: true
+        brand:
+          output: true
+        protocol:
+          output: true
+      
+    fr:
+      output: true
+      post:
+        output: true
+      shop:
+        output: true
+        marque:
+          output: true
+        protocole:
+          output: true
   gallery:
     output: false
   products:
