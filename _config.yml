@@ -108,7 +108,7 @@ defaults:
       permalink: en/product/:title
 
   - scope:
-      path: "_category/fr" 
+      path: "_category/fr/post" 
     values:
       layout: "category"
       locale: fr_FR
@@ -116,7 +116,7 @@ defaults:
 
 
   - scope:
-      path: "_category/en" 
+      path: "_category/en/post" 
     values:
       layout: "category"
       locale: en_GB

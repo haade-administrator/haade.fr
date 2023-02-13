@@ -12,8 +12,8 @@ layout: default
 <div class="blog-grid-container">
   <!-- ajout multilingual -->
 {%- assign url = page.url | split: "/" %}
-{%- assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true %}
 {%- assign products = site.products | where: "categories", page.category | where: 'locale', page.locale | where: 'published', true | sort: 'date' | reverse %}
+{%- assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true %}
 
 {%- if url contains "categorie-produit" or url contains "category-product" %}
 {%- for product in products %}
@@ -24,6 +24,5 @@ layout: default
 {%- include postbox.html %}
 {%- endfor %}
 {%- endif %}
-
 </div>
 </div>

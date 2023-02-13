@@ -1,8 +1,8 @@
 ---
 guid: 2013
-title: "Esp"
+title: "Esp32/8266"
 category: Esp
-description: "The ESP8266 is a microcontroller integrated circuit with Wi-Fi connection developed by the Chinese manufacturer Espressif1.
+description: "ESP32 is a series of system-on-a-chip (SoC) type microcontrollers from Espressif Systems, based on Tensilica's Xtensa LX6 architecture, integrating Wi-Fi and Bluetooth management (up to LE 5.0 and 5.11) in dual mode, and a DSP. It is an evolution of ESP8266 which is a microcontroller integrated circuit with Wi-Fi connection developed by the Chinese manufacturer Espressif1. ESP8266 is a microcontroller integrated circuit with Wi-Fi connection developed by the Chinese manufacturer Espressif1.
 
 In August 2014, electronics enthusiasts began to take an interest in the ESP-01 version of this integrated circuit produced by a third-party company, AI-Thinker. This one, of reduced size, makes it possible to connect a microcontroller to a Wi-Fi network and to establish TCP/IP connections with Hayes commands. The progressive translation of the documentation (originally only in Chinese) motivated by the low price of the circuit allowed the development of a community of developers and enthusiasts of the ESP82662.
 

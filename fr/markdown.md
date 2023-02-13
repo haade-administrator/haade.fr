@@ -202,6 +202,14 @@ virer prism
 ajouter _syntax.scss à theme.scss
 ajouter codeblock.js à defaut.html et aussi à package.js
 
+# Exploiter megamenu
+
+Pour rajouter un sous menu il faut modifier navbar.js, menu.html et plugin.scss
+
+dans navbar.js rajouter la class à la ligne 51 les classes " c'est géré comme un tableau, première class = show1 la seconde show 2 etc...
+dans plugin .css faire une recherche par show et rajouter la class ul appel la class i
+exemple la class more-sub-menu-protocol se connect à la class more-arrow-protocol ou htmlCss-sub-menu-shop html-css-arrow-shop
+
 
 
 

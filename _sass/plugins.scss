@@ -1822,7 +1822,8 @@ nav .navbar .links li {
     }
 
     .more-arrow-automation,
-    .more-arrow-shop {
+    .more-arrow-brand,
+    .more-arrow-protocol {
       line-height: 40px;
     }
   }
@@ -1975,33 +1976,36 @@ nav .navbar .links li {
     display: block;
   }
 
-  nav .navbar .nav-links.show11 .links .htmlCss-sub-menu-shop {
+  nav .navbar .nav-links.show3 .links .htmlCss-sub-menu-shop {
     display: block;
   }
 
   .navbar .nav-links {
 
-    &.show3 .links .js-sub-menu,
+    &.show6 .links .js-sub-menu,
     &.show2 .links .more .more-sub-menu-automation {
       display: block;
     }
-    &.show12 .links .more .more-sub-menu-brand {
+    &.show4 .links .more .more-sub-menu-brand {
       display: block;
     }
-    &.show12 .links .more .more-sub-menu-protocol {
+    &.show5 .links .more .more-sub-menu-protocol {
       display: block;
     }
 
     &.show1 .links .htmlcss-arrow-automation,
-    &.show11 .links .htmlcss-arrow-shop,
-    &.show3 .links .js-arrow {
+    &.show3 .links .htmlcss-arrow-shop,
+    &.show6 .links .js-arrow {
       transform: rotate(180deg);
     }
 
     &.show2 .links .more-arrow-automation {
       transform: rotate(90deg);
     }
-    &.show12 .links .more-arrow-shop {
+    &.show4 .links .more-arrow-brand {
+      transform: rotate(90deg);
+    }
+    &.show5 .links .more-arrow-protocol {
       transform: rotate(90deg);
     }
   }
@@ -2215,27 +2219,27 @@ nav .navbar .links li {
     .nav-links.show1 .links .htmlCss-sub-menu-automation {
       display: block;
     }
-    .nav-links.show11 .links .htmlCss-sub-menu-shop {
+    .nav-links.show3 .links .htmlCss-sub-menu-shop {
       display: block;
     }
   }
 
   .navbar .nav-links {
 
-    &.show3 .links .js-sub-menu,
+    &.show6 .links .js-sub-menu,
     &.show2 .links .more .more-sub-menu-automation {
       display: block;
     }
-    &.show12 .links .more .more-sub-menu-brand {
+    &.show4 .links .more .more-sub-menu-brand {
       display: block;
     }
-    &.show12 .links .more .more-sub-menu-protocol {
+    &.show5 .links .more .more-sub-menu-protocol {
       display: block;
     }
 
     &.show1 .links .htmlcss-arrow-automation,
-    &.show11 .links .htmlcss-arrow-shop,
-    &.show3 .links .js-arrow {
+    &.show3 .links .htmlcss-arrow-shop,
+    &.show6 .links .js-arrow {
       transform: rotate(180deg);
     }
 
@@ -2243,7 +2247,10 @@ nav .navbar .links li {
       transform: rotate(90deg);
     }
 
-    &.show12 .links .more-arrow-shop {
+    &.show4 .links .more-arrow-brand {
+      transform: rotate(90deg);
+    }
+    &.show5 .links .more-arrow-protocol {
       transform: rotate(90deg);
     }
   }

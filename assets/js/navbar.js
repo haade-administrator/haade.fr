@@ -26,46 +26,19 @@ menuCloseBtn.onclick = ()=> {
 navLinks.style.left = "-100%";
 }
 
+// Megamenu
 
-// sidebar submenu open close js code
-let AutomationArrow = document.querySelector(".htmlcss-arrow-automation");
-AutomationArrow.onclick = ()=> {
- navLinks.classList.toggle("show1");
+let classes = [".htmlcss-arrow-automation", ".more-arrow-automation", ".htmlcss-arrow-shop", ".more-arrow-brand", ".more-arrow-protocol", ".js-arrow"];
+
+for (let i = 0; i < classes.length; i++) {
+  let automationArrows = document.querySelectorAll(classes[i]);
+
+  for (let j = 0; j < automationArrows.length; j++) {
+    automationArrows[j].onclick = () => {
+      navLinks.classList.toggle("show" + (i + 1));
+    };
+  }
 }
-let AutomationMoreArrow = document.querySelector(".more-arrow-automation");
-AutomationMoreArrow.onclick = ()=> {
- navLinks.classList.toggle("show2");
-}
-
-let ShopArrow = document.querySelector(".htmlcss-arrow-shop");
-ShopArrow.onclick = ()=> {
- navLinks.classList.toggle("show11");
-}
-let ShopMoreArrow = document.querySelector(".more-arrow-shop");
-ShopMoreArrow.onclick = ()=> {
- navLinks.classList.toggle("show12");
-}
-
-// code à exploiter pour dupliquer
-
-// let classes = [".htmlcss-arrow-automation", ".htmlcss-arrow-shop"];
-
-// for (let i = 0; i < classes.length; i++) {
-//   let automationArrows = document.querySelectorAll(classes[i]);
-
-//   for (let j = 0; j < automationArrows.length; j++) {
-//     automationArrows[j].onclick = () => {
-//       navLinks.classList.toggle("show" + (i + 1));
-//     };
-//   }
-// }
-
-
-
-// let jsArrow = document.querySelector(".js-arrow");
-// jsArrow.onclick = ()=> {
-//  navLinks.classList.toggle("show3");
-// }
 
 
 // flags bar open/close
