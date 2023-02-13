@@ -4,10 +4,10 @@ layout: product
 title: "NEO - PRISE INTELLIGENTE ZIGBEE TUYA 16A + MESURE DE CONSOMMATION (FORMAT FR)"
 date: "2023-02-05 16:12"
 description: "Contrôlez votre dispositif électrique à distance, n'importe où dans le monde depuis votre Smartphone et mesurez la consommation électrique en temps réel."
-categories: [Boutique, Zigbee]
+categories: [Boutique, Zigbee, Neo-coolcam]
 tags: []
 locale: fr_FR
-brand: Neo Coolcam
+brand: Neo-coolcam
 ean: 
 image: 'neo-coolcam-007SPB2-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg'
 imageshadow: true

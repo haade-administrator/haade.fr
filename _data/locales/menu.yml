@@ -142,6 +142,55 @@ brand:
   en_GB:
     name: 'Brand'
     link: 'en/category-product/brand'
+  
+  moes:
+    fr_FR:
+      name: 'Moes'
+      link: 'fr/categorie-produit/moes'
+    en_GB:
+      name: 'Moes'
+      link: 'en/category-product/moes'
+
+  sonoff:
+    fr_FR:
+      name: 'Sonoff'
+      link: 'fr/categorie-produit/sonoff'
+    en_GB:
+      name: 'Sonoff'
+      link: 'en/category-product/sonoff'
+
+  neocoolcam:
+    fr_FR:
+      name: 'Neo-Coolcam'
+      link: 'fr/categorie-produit/neo-coolcam'
+    en_GB:
+      name: 'Neo-Coolcam'
+      link: 'en/category-product/neo-coolcam'
+
+  raspberrypi:
+    fr_FR:
+      name: 'Raspberry Pi'
+      link: 'fr/categorie-produit/raspberry-pi'
+    en_GB:
+      name: 'Raspberry-pi'
+      link: 'en/category-product/raspberry-pi'
+
+  zemismart:
+    fr_FR:
+      name: 'Zemismart'
+      link: 'fr/categorie-produit/zemismart'
+    en_GB:
+      name: 'Zemismart'
+      link: 'en/category-product/zemismart'
+
+  xiaomi:
+    fr_FR:
+      name: 'Xiaomi'
+      link: 'fr/categorie-produit/xiaomi'
+    en_GB:
+      name: 'Xiaomi'
+      link: 'en/category-product/xiaomi'
+  
 
 protocol:
   fr_FR:
@@ -150,6 +199,22 @@ protocol:
   en_GB:
     name: 'Protocol'
     link: 'en/category-product/protocol'
+
+  esp:
+    fr_FR:
+      name: 'Esp 32/8266'
+      link: 'fr/categorie-produit/esp'
+    en_GB:
+      name: 'Esp 32/8266'
+      link: 'en/category-product/esp'
+
+  wifi:
+    fr_FR:
+      name: 'Wifi'
+      link: 'fr/categorie-produit/wifi'
+    en_GB:
+      name: 'Wifi'
+      link: 'en/category-product/wifi'
 
   zigbee:
     fr_FR:

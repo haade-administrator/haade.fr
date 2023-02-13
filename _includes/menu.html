@@ -46,13 +46,16 @@
             <i class="fas fa-angle-down htmlcss-arrow-shop arrow"></i>
             <ul class="htmlCss-sub-menu-shop sub-menu">
               <li class="more">
-                <span><a href="{{ site.baseurl }}/{{ menu.brand[page.locale].link }}">{{ menu.brand[page.locale].name }}</a>
+                <span>{{ menu.brand[page.locale].name }}
                 <i class='fas fa-angle-right arrow more-arrow-shop'></i>
               </span>
                 <ul class="more-sub-menu-brand sub-menu">
-                  <li><a href="{{ site.baseurl }}/{{ menu.docker[page.locale].link }}">{{ menu.docker[page.locale].name}}</a></li>
-                  <li><a href="{{ site.baseurl }}/{{ menu.ha[page.locale].link }}">{{ menu.ha[page.locale].name }}</a></li>
-                  <li><a href="{{ site.baseurl }}/{{ menu.jeedom[page.locale].link }}">{{ menu.jeedom[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.moes[page.locale].link }}">{{ menu.brand.moes[page.locale].name}}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.neocoolcam[page.locale].link }}">{{ menu.brand.neocoolcam[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.raspberrypi[page.locale].link }}">{{ menu.brand.raspberrypi[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.sonoff[page.locale].link }}">{{ menu.brand.sonoff[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.xiaomi[page.locale].link }}">{{ menu.brand.xiaomi[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.brand.zemismart[page.locale].link }}">{{ menu.brand.zemismart[page.locale].name }}</a></li>
                 </ul>
               </li>
               <li class="more">
@@ -60,6 +63,8 @@
                 <i class='fas fa-angle-right arrow more-arrow'></i>
               </span>
                 <ul class="more-sub-menu-protocol sub-menu">
+                  <li><a href="{{ site.baseurl }}/{{ menu.protocol.esp[page.locale].link }}">{{ menu.protocol.esp[page.locale].name }}</a></li>
+                  <li><a href="{{ site.baseurl }}/{{ menu.protocol.wifi[page.locale].link }}">{{ menu.protocol.wifi[page.locale].name }}</a></li>
                   <li><a href="{{ site.baseurl }}/{{ menu.protocol.zigbee[page.locale].link }}">{{ menu.protocol.zigbee[page.locale].name }}</a></li>
                   <li><a href="{{ site.baseurl }}/{{ menu.protocol.z-wave[page.locale].link }}">{{ menu.protocol.z-wave[page.locale].name }}</a></li>
                 </ul>
