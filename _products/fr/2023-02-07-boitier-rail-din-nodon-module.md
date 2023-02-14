@@ -4,7 +4,7 @@ layout: product
 title: "NODON - BOITIER RAIL DIN V2 POUR MICROMODULES (5 PIÈCES)"
 date: "2023-02-07 09:57"
 description: "Installez directement les modules NodOn au tableau électrique avec le boitier Rail DIN V2 ! Lot de 5 pièces."
-categories: [Boutique, Zigbee]
+categories: [Boutique, Nodon, Zigbee]
 tags: []
 locale: fr_FR
 brand: Nodon

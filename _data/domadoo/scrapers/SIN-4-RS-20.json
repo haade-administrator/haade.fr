@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "peripheriques/5690-nodon-module-volet-roulant-zigbee-3700313925201",
+        "productId": "SIN-4-RS-20",
+        "title": "NODON - Module Volet Roulant Zigbee",
+        "description": "Le Module Volet Roulant Zigbee rend le volet roulant, le store banne ou le brise-soleil orientable motorisé connecté grâce à une installation simple et sans travaux.",
+        "productNew": "Nouveau produit",
+        "minsalePrice": "44.90",
+        "maxsalePrice": "29.99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "29.99",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17557-medium_default/nodon-module-volet-roulant-zigbee.jpg",
+            "https://cdn1.domadoo.fr/17558-medium_default/nodon-module-volet-roulant-zigbee.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5",
+            "totalStarCount": "2"
+        }
+    }
+}

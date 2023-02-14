@@ -167,6 +167,14 @@ brand:
       name: 'Neo-Coolcam'
       link: 'en/category-product/neo-coolcam'
 
+  nodon:
+    fr_FR:
+      name: 'Nodon'
+      link: 'fr/categorie-produit/nodon'
+    en_GB:
+      name: 'Nodon'
+      link: 'en/category-product/nodon'
+
   raspberrypi:
     fr_FR:
       name: 'Raspberry Pi'
