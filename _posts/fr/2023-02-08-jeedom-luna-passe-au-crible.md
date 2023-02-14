@@ -60,7 +60,31 @@ Sur la face arrière un ensemble de connectique complet:
 
 # Connectique interne
 
+{% picture posts/{{ page.guid }}/jeedom-luna-zigbee-DSM-04B-zwave-ZGM-130S.png --alt Jeedom Luna Zigbee Dusun DSM-04B et z-wave 700 silabs ZGM-130S --img width="940" height="529" %}
 
+
+## Zigbee
+À droite la box jeedom intègre un connecteur **zigbee 3.0 Dusun DSM-04B**.
+C'est un module Zigbee/matière/BLE intégré à faible consommation d'énergie développé par Dusun. Il se compose de la puce de processeur radio sans fil hautement intégrée, série **EFR32MG21**, et de plusieurs périphériques, avec une pile de protocoles réseau 802.15.4 PHY/MAC Zigbee/matter/BLE intégrée et des fonctions de bibliothèque robustes. Prend en charge le protocole Zigbee、matter et BLE (**lorsque vous utilisez le protocole MATTER, le mod ne peut être utilisé que du côté hôte**)
+Ce terminal de données est intégré avec un cœur ARM Cortex-M33 32 bits à faible consommation d'énergie, une mémoire flash de 1024/768 Ko, une mémoire de données RAM de 64 Ko et des ressources périphériques robustes. En outre, il fonctionne sur la plate-forme FreeRTOS qui intègre toutes les fonctions de la bibliothèque Zigbee/matter/BLE MAC. Vous pouvez développer des produits Zigbee/Matter intégrés selon vos besoins.
+
+[**Lien technique Dusun DSM-04B**](https://www.dusuniot.com/product-specification/zigbee-matter-ble-cloud-module/){: target="_blank"}
+
+## Z-wave
+Au centre la box intègre un connecteur **Z-wave 700 Silabs ZGM130S**.
+Ils sont conçus pour répondre aux exigences de la future maison intelligente, de l'hôtellerie et des MDU, où les besoins croissants en plus de capteurs et d'appareils fonctionnant sur batterie nécessitent une longue portée et une faible puissance. Ce module sans fil prend également en charge Z-Wave Long Range. L'utilisation du module ZGM130S nécessite la certification Z-Wave Plus V2 ou V2 Long Range.
+
+## Support vierge
+
+À gauche il y a un emplacement à 28 broches à souder, peut-être est-ce prévu pour une puce 433Mhz, selon moi il pourrait s'agir d'un emplace pour puce BLE à confirmer.
+
+[**Lien technique Silabs ZGM130S**](https://www.silabs.com/wireless/z-wave/700-series-modules){: target="_blank"}
+
+# Sous le capot
+
+{% picture posts/{{ page.guid }}/jeedom-luna-sous-le-capot.png --alt jeedom luna que se cache-t-il sous le capot --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/jeedom-luna-connecteur-ssd-msa-230s-processeur-cortex-a53.png --alt jeedom luna connecteur interne ssd et cortex a53 --img width="940" height="529" %}
 
 # Étape Jeedom start
 
