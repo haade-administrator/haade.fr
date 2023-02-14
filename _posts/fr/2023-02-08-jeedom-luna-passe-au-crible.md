@@ -28,6 +28,7 @@ sourcelink:
   - https://fr.transcend-info.com/product/internal-ssd/msa230s
   - https://www.arm.com/products/silicon-ip-cpu/cortex-a/cortex-a53
   - https://community.arm.com/arm-community-blogs/b/architectures-and-processors-blog/posts/the-top-5-things-to-know-about-cortex-a53
+  - https://community.jeedom.com/t/presentation-akenad/2440/64
 ---
 
 {% include product-embed.html guid="2143" %}
