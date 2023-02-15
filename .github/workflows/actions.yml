@@ -46,9 +46,11 @@ jobs:
 
       - name: Install and Build
         run: |
-          sudo apt install libvips libvips-dev libvips-tools libjpeg-turbo8 libpng16-16 libwebp7 libheif1 libvips-tools imagemagick gvfs poppler-utils ghostscript -y
+          sudo apt install libvips libvips-dev libvips-tools libvips-tools gvfs poppler-utils ghostscript -y
           locale
           node -v
+          npm -v
+          npm install -g npm
           npm -v
           npm install
           npm run scrap

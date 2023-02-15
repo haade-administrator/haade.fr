@@ -129,10 +129,16 @@ async function scrapeAliexpress() {
     const sale = {
       quantity: 0,
     };
+    
     try {
       sale.quantity = $('div.product-quantity-tip').text().match(/\d+/)[0];
+      if (sale.quantity > 0) {
+        // exécuter la suite du script qui utilise la quantité
+      } else {
+        console.log(`La quantité pour le produit ${link} est égale à zéro`);
+      }
     } catch (error) {
-      console.log(`Erreur le produit ${link} n'a pas de quantité`);
+      console.log(`Erreur : le produit ${link} n'a pas de quantité`);
     };
     //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
     const image = [];

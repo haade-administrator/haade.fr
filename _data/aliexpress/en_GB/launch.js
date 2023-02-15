@@ -127,10 +127,16 @@ async function scrapeAliexpress() {
     const sale = {
       quantity: 0,
     };
+    
     try {
       sale.quantity = $('div.product-quantity-tip').text().match(/\d+/)[0];
+      if (sale.quantity > 0) {
+        // exécuter la suite du script qui utilise la quantité
+      } else {
+        console.log(`The quantity of product ${link} is equal to 0`);
+      }
     } catch (error) {
-      console.log(`Error the product ${link} has not quantity`);
+      console.log(`Error : the product ${link} has not quantity`);
     };
     //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
     const image = [];
