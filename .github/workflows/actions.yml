@@ -45,8 +45,9 @@ jobs:
         uses: actions/checkout@v3.3.0
 
       - name: Install and Build
-        run: |
-          sudo apt install libvips libvips-dev libvips-tools libjpeg-turbo8 libpng16-16 libwebp7 libheif1 libvips-tools imagemagick gvfs poppler-utils ghostscript -y
+        run:
+          sudo apt-get -s upgrade | grep -P "\d\K upgraded" 
+          sudo apt install libvips libvips-dev libvips-tools libvips-tools gvfs poppler-utils ghostscript -y
           locale
           node -v
           npm -v
