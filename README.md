@@ -1,4 +1,4 @@
-![Dernier Build](https://github.com/haade-administrator/haade.fr/actions/runs/badge.svg)
+![Dernier Build](https://github.com/haade-administrator/haade.fr/actions/workflows/actions.yml/badge.svg)
 
 ![Dernier déploiement](https://github.com/haade-administrator/haade.fr/actions/workflows/pages/pages-build-deployment/badge.svg)
 
