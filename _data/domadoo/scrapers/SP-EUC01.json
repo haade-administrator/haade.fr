@@ -5,11 +5,11 @@
         "title": "AQARA - Prise connectée Zigbee 3.0 Smart Plug - SP-EUC01",
         "description": "Allumez ou éteignez les appareils connectés manuellement, à distance ou à l'aide d'un scénario horaire, et connaissez leur consommation avec la prise AQARA SP-EUC01.",
         "productNew": "Nouveau produit",
-        "minsalePrice": "23.99",
-        "maxsalePrice": "29.99",
+        "minsalePrice": "29.99",
+        "maxsalePrice": "39.90",
         "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "29.99",
+        "originalPrice": "39.90",
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
@@ -20,7 +20,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.8",
-            "totalStarCount": "30"
+            "totalStarCount": "31"
         }
     }
 }

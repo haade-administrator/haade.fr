@@ -9,7 +9,7 @@
     "discount": null,
     "currency": "EUR",
     "originalPrice": null,
-    "quantity": "8146",
+    "quantity": "8119",
     "image": [
       "https://ae01.alicdn.com/kf/Hacc1205382f14e32a23294c78dd03233z/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/H70808ddbd0f542c78294454287707161V/Module-USB-vers-UART-TTL-5-broches-3-pi-ces-par-lot-pour-arduino-PL2303-1.jpg_Q90.jpg.webp",
@@ -21,12 +21,12 @@
       "url": "https://fr.aliexpress.com/store/1113426",
       "storeNumber": "1113426",
       "rating": "98.5%",
-      "followers": "6894"
+      "followers": "6912"
     },
     "ratings": {
       "totalStar": 5,
-      "averageStar": "4.8",
-      "totalStarCount": "525"
+      "averageStar": "4.9",
+      "totalStarCount": "510"
     }
   }
 }

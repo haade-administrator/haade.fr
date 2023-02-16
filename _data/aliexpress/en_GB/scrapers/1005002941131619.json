@@ -9,7 +9,7 @@
     "discount": "-32%",
     "currency": "USD",
     "originalPrice": "12.13",
-    "quantity": "2866",
+    "quantity": "2864",
     "image": [
       "https://ae01.alicdn.com/kf/Sb91f35ffe4814db390c40c20c0f01060i/SONOFF-SNZB-02-ZigBee-Temperature-Humidity-Sensor-Smart-Home-eWeLink-Real-time-Monitor-Work-with-ZB.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Hd0b10ced90404f5da0dd149a30a1d49eJ/SONOFF-SNZB-02-ZigBee-Temperature-Humidity-Sensor-Smart-Home-eWeLink-Real-time-Monitor-Work-with-ZB.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "RayX Intelligence Store",
       "url": "https://www.aliexpress.com/store/1101319665",
       "storeNumber": "1101319665",
-      "rating": "93.8%",
-      "followers": "5203"
+      "rating": "93.6%",
+      "followers": "5210"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.7",
-      "totalStarCount": "161"
+      "totalStarCount": "171"
     }
   }
 }

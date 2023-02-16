@@ -153,7 +153,7 @@ I made an animated gif of the installation steps of the jeedom Luna, I did not e
 
 With the box Jeedom has made a Luna plugin that allows you to:
 
-- Know the power status
+- Know the power status (full, charging, discharging)
 - control the light ring
 - know the state of the Battery
 - connect/disconnect wifi

@@ -153,9 +153,9 @@ J'ai réalisé un gif animé des étapes d'installations de la jeedom Luna, je n
 
 Avec la box Jeedom a réalisé un plugin Luna qui te permet de:
 
-- Connaître le statut d'alimentation
+- Connaître le statut d'alimentation ( plein, chargé, déchargé )
 - contrôler l'anneau lumineux
-- connaître 'état de la Batterie
+- connaître l'état de la Batterie
 - connecter/déconnecter le wifi
 - contrôler l'état du réseau wifi 
 - connaître la puissance du signal
