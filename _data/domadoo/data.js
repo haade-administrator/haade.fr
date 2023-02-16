@@ -13,5 +13,6 @@ module.exports = [
     'box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30',           // 2143 box jeedom luna
     'peripheriques/5690-nodon-module-volet-roulant-zigbee-3700313925201',                           // 2144 Nodon volet roulant zigbee
     'peripheriques/5688-nodon-module-multifonction-zigbee-3700313925188',                            // 2145 Nodon micromodule multiusage
-    'box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee'                            // 2146 jeedom Atlas zigbee
+    'box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee',                            // 2146 jeedom Atlas zigbee
+    'peripheriques/5587-nodon-pro-module-volet-roulant-zigbee-3700313925287'                        // 2147 Nodon volet roulant pro
 ]

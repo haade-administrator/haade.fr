@@ -4,7 +4,7 @@ layout: product
 title: "KingSpec M.2 NVME ssd hard drive"
 date: "2021-03-19"
 description: "quality Nvme hard drive at an unbeatable price"
-categories: [Shop, Kingspec, Accessories]
+categories: [Shop, Accessories]
 tags: []
 locale: en_GB
 brand: Kingspec
