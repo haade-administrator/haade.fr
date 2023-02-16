@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-02-07 17:36
 last_modified_at: 
-categories: [Automation, Jeedom, Zwave, Zigbee]
+categories: [Automation, Tests, Jeedom, Zwave, Zigbee]
 tags: []
 image: 'jeedom-luna-passe-au-crible-box-francaise.png'
 toc: true
