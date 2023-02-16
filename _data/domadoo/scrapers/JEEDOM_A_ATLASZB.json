@@ -1,0 +1,38 @@
+{
+    "product": {
+        "linkId": "box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee",
+        "productId": "JEEDOM_A_ATLASZB",
+        "title": "JEEDOM - Contrôleur domotique Jeedom Atlas Zigbee",
+        "description": "JEEDOM ATLAS est la nouvelle box domotique intégrant le logiciel Jeedom. Modèle avec contrôleur Zigbee.",
+        "productNew": "",
+        "minsalePrice": "249.00",
+        "maxsalePrice": "39.90",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "39.90",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/20923-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20927-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20924-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20925-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20922-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20926-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/20928-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19041-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19042-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19043-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19044-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19064-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19065-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19066-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.5",
+            "totalStarCount": "43"
+        }
+    }
+}

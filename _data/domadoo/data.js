@@ -12,5 +12,6 @@ module.exports = [
     'peripheriques/5483-nodon-boitier-rail-din-v2-pour-micromodules-5-pieces-3700313925041',        // 2142 boitier rail din nodon
     'box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30',           // 2143 box jeedom luna
     'peripheriques/5690-nodon-module-volet-roulant-zigbee-3700313925201',                           // 2144 Nodon volet roulant zigbee
-    'peripheriques/5688-nodon-module-multifonction-zigbee-3700313925188'                            // 2145 Nodon micromodule multiusage
+    'peripheriques/5688-nodon-module-multifonction-zigbee-3700313925188',                            // 2145 Nodon micromodule multiusage
+    'box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee'                            // 2146 jeedom Atlas zigbee
 ]
