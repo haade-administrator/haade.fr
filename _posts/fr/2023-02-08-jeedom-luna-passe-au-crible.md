@@ -105,13 +105,13 @@ Ils sont conçus pour répondre aux exigences de la future maison intelligente, 
 
 - **À gauche** de la puce z-wave il y a un emplacement à 28 broches à souder, il s'agit d'un module bluetooth 5.2 EFR32BG22 à souder.
 
-- **Au dessus** de la puce zigbee à droite, un autre emplacement libre, il permet d'accueillir un module Lorawan je je l'avoue aurait été un plus pour la box malgré le peut de personnes qui l'utilisent pour l'instant.
+- **Au dessus** de la puce zigbee à droite, un autre emplacement libre, pour l'instant je ne sais pas ce qu'il permet d'accueillir
 
 {% picture posts/{{ page.guid }}/jeedom-luna-zigbee-DSM-04B-zwave-ZGM-130S.png --alt Jeedom Luna Zigbee Dusun DSM-04B et z-wave 700 silabs ZGM-130S --img width="940" height="529" %}
 
-## Support SSD 230S
+## Support Lorawan type 230S
 
-De l'autre côté on peut voir un emplacement prévu pour un SSD de type 230S gros plus si on veut rajouter du stockage supplémentaire.
+De l'autre côté on peut voir un emplacement prévu pour un module Lorawan de type 230S. Pas mal l'intégration pourrait se faire facilement
 
 {% picture posts/{{ page.guid }}/jeedom-luna-connecteur-ssd-msa-230s-processeur-cortex-a53.png --alt jeedom luna connecteur interne ssd et cortex a53 --img width="940" height="529" %}
 
@@ -180,7 +180,7 @@ Après installation du plugin et paramétrage j'ai du redémarrer la Box et ensu
 - équipé par deéfaut des puces wifi, Zigbee et Z-wave
 - équipé d'une batterie de secours
 - intègre une micro Sim ainsi qu'une sdcard
-- possibilité d'une extension ssd nvme interne
+- possibilité d'une extension Lorawan interne
 - supporte le wifi 5Ghz
 
 # Info exclusive

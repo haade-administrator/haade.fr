@@ -105,13 +105,13 @@ They are designed to meet the demands of the future smart home, hospitality and 
 
 - **On the left** of the z-wave chip there is a 28-pin slot to be soldered, it is a bluetooth 5.2 EFR32BG22 module to be soldered.
 
-- **Above** the zigbee chip on the right, another free slot, it can accommodate a Lorawan module I admit it would have been a plus for the box despite the few people who use it for l instant.
+- **Above** the zigbee chip on the right, another free slot.
 
 {% picture posts/{{ page.guid }}/jeedom-luna-zigbee-DSM-04B-zwave-ZGM-130S.png --alt Jeedom Luna Zigbee Dusun DSM-04B and z-wave 700 silabs ZGM-130S --img width="940" height="529" %}
 
-## 230S SSD Bracket
+## 230S Lorawan Bracket
 
-On the other side you can see a slot for a big plus 230S type SSD if you want to add additional storage.
+On the other side you can see a slot for a big plus 230S type Lorawan if you want to add additional storage.
 
 {% picture posts/{{ page.guid }}/jeedom-luna-connecteur-ssd-msa-230s-processeur-cortex-a53.png --alt jeedom luna internal ssd and cortex a53 connector --img width="940 " height="529" %}
 
@@ -170,7 +170,7 @@ After installing the plugin and setting I had to restart the Box and then the ch
 - lack of electrical panel integration
 - absence of an internal port for Google Coral
 - blocked at Cortex A53
-- lack of communication for the internal emmc port
+- lack of communication for the internal Lorawan port
 - lack of bluetooth 5.2
 
 
