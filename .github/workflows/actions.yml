@@ -27,11 +27,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: Sleep for 30 seconds
-        uses: whatnick/wait-action@master
-        with:
-          time: '30s'
-
       - name: fr_FR.UTF-8
         run: |
           sudo locale-gen fr_FR.UTF-8
@@ -49,8 +44,6 @@ jobs:
           sudo apt install libvips libvips-dev libvips-tools libvips-tools gvfs poppler-utils ghostscript -y
           locale
           node -v
-          npm -v
-          npm install -g npm
           npm -v
           npm install
           npm run scrap

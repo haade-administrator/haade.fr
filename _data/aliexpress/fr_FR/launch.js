@@ -139,6 +139,7 @@ async function scrapeAliexpress() {
       }
     } catch (error) {
       console.log(`Erreur : le produit ${link} n'a pas de quantité`);
+      continue;
     };
     //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
     const image = [];

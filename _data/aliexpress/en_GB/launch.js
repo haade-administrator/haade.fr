@@ -137,6 +137,7 @@ async function scrapeAliexpress() {
       }
     } catch (error) {
       console.log(`Error : the product ${link} has not quantity`);
+      continue;
     };
     //  const image = await page.evaluate(() => document.querySelector('.image-view-magnifier-wrap img').src);
     const image = [];
