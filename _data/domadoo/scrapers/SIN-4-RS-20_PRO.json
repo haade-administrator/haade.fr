@@ -6,7 +6,7 @@
         "description": "Le Module Volet Roulant PRO Zigbee rend le volet roulant, le store banne ou le brise-soleil orientable motorisé connecté grâce à une installation simple et sans travaux.",
         "productNew": "",
         "minsalePrice": "64.90",
-        "maxsalePrice": 0,
+        "maxsalePrice": "0",
         "discount": "",
         "currency": "EUR",
         "originalPrice": "",
@@ -23,9 +23,9 @@
             "https://cdn1.domadoo.fr/17094-medium_default/nodon-pro-module-volet-roulant-zigbee.jpg"
         ],
         "ratings": {
-            "totalStar": 5,
-            "averageStar": 0,
-            "totalStarCount": 0
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

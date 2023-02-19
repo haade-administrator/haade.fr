@@ -6,10 +6,10 @@
         "description": "Contrôlez votre dispositif électrique à distance, n'importe où dans le monde depuis votre Smartphone et mesurez la consommation électrique en temps réel.",
         "productNew": "Nouveau produit",
         "minsalePrice": "19.99",
-        "maxsalePrice": "166.80",
-        "discount": "-20%",
+        "maxsalePrice": "72.99",
+        "discount": "-22%",
         "currency": "EUR",
-        "originalPrice": "166.80",
+        "originalPrice": "72.99",
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
@@ -22,9 +22,9 @@
             "https://cdn1.domadoo.fr/24230-medium_default/neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation.jpg"
         ],
         "ratings": {
-            "totalStar": 5,
-            "averageStar": 0,
-            "totalStarCount": 0
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

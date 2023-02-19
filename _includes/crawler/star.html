@@ -15,10 +15,13 @@
   <meta itemprop="offerCount" content="{{ quantity }}" />
   <meta itemprop="priceCurrency" content="{{ currency }}" />
 </div>
+
+{%- unless totalstar == "0" or star == "0" %}
 <div itemprop="aggregateRating" itemtype="https://schema.org/AggregateRating" itemscope>
   <meta itemprop="reviewCount" content="{{ totalstar }}" />
   <meta itemprop="ratingValue" content="{{ star }}" />
 </div>
+{%- endunless %}
 
 <!-- Rating -->
 <div class="mt-4 mb-4 d-flex align-items-center">

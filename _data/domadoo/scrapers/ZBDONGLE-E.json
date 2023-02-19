@@ -5,11 +5,11 @@
         "title": "SONOFF - Clé USB Zigbee 3.0 + antenne externe 20dBm (V2) ZBDongle-E",
         "description": "Contrôlez vos dispositifs Zigbee avec la clé USB SONOFF Zigbee compatible Home Assistant et Zigbee2MQTT.",
         "productNew": "",
-        "minsalePrice": "27.99",
-        "maxsalePrice": "166.80",
-        "discount": "-20%",
+        "minsalePrice": "21.83",
+        "maxsalePrice": "27.99",
+        "discount": "-22%",
         "currency": "EUR",
-        "originalPrice": "166.80",
+        "originalPrice": "27.99",
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
@@ -28,8 +28,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.5",
-            "totalStarCount": "19"
+            "averageStar": "4.6",
+            "totalStarCount": "22"
         }
     }
 }

@@ -4,7 +4,7 @@ title: "Jeedom Luna passé au crible"
 description: "Je vais examiner Jeedom Luna dans le détail, en rechercher les origines, les causes ou encore les avantages, les inconvénients ou les problèmes, bref que se cache-t-il sous la coque de la jeedom Luna"
 layout: post
 author: Nico
-date: 2023-02-07 17:36
+date: 2023-02-15 17:36
 last_modified_at: 
 categories: [Domotique, Tests, Jeedom, Zwave, Zigbee]
 tags: []
@@ -82,7 +82,7 @@ Sur la face arrière un ensemble de connectique complet:
 - un port Wan
 - un port Usb 2.0
 - une entrée alimentation USB-C 5V, 3A
-- un emplacement microcard SD et micro Sim
+- un emplacement microcard SD et nano Sim
 
 # Connectique interne
 
@@ -179,7 +179,7 @@ Après installation du plugin et paramétrage j'ai du redémarrer la Box et ensu
 - Box de bonne facture
 - équipé par deéfaut des puces wifi, Zigbee et Z-wave
 - équipé d'une batterie de secours
-- intègre une micro Sim ainsi qu'une sdcard
+- intègre une nano Sim ainsi qu'une sdcard
 - possibilité d'une extension Lorawan interne
 - supporte le wifi 5Ghz
 

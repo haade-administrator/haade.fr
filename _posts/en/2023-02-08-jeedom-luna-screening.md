@@ -4,7 +4,7 @@ title: "Jeedom Luna scrutinized"
 description: "I will examine Jeedom Luna in detail, look for the origins, the causes or even the advantages, disadvantages or problems, in short what is hidden under the shell of the jeedom Luna"
 layout: post
 author: Nico
-date: 2023-02-07 17:36
+date: 2023-02-15 17:36
 last_modified_at: 
 categories: [Automation, Tests, Jeedom, Zwave, Zigbee]
 tags: []
@@ -82,7 +82,7 @@ On the rear side a complete set of connectors:
 - a Wan port
 - a USB 2.0 port
 - a USB-C 5V, 3A power input
-- a microcard SD and micro Sim slot
+- a microcard SD and nano Sim slot
 
 # Internal connectors
 
@@ -179,7 +179,7 @@ After installing the plugin and setting I had to restart the Box and then the ch
 - Box of good quality
 - equipped by default with wifi, Zigbee and Z-wave chips
 - equipped with a backup battery
-- integrates a micro Sim as well as an sdcard
+- integrates a nano Sim as well as an sdcard
 - possibility of an internal nvme ssd extension
 - support 5Ghz wifi
 

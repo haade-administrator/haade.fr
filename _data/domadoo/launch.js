@@ -89,7 +89,7 @@ async function scrapeDomadoo() {
                 description,
                 productNew,
                 minsalePrice: salePrice,
-                maxsalePrice: originalPrice || 0,
+                maxsalePrice: originalPrice || "0",
                 discount,
                 currency,
                 originalPrice,
@@ -99,9 +99,9 @@ async function scrapeDomadoo() {
                 image,
 
                 ratings: {
-                    totalStar: rating.totalStar || 5,
-                    averageStar: rating.averageStar || 0,
-                    totalStarCount: rating.totalStarCount || 0,
+                    totalStar: rating.totalStar || "5",
+                    averageStar: rating.averageStar || "0",
+                    totalStarCount: rating.totalStarCount || "0",
                 },
             },
         };
