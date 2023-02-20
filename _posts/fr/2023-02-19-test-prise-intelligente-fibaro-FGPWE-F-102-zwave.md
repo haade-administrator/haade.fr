@@ -1,7 +1,7 @@
 ---
 guid: 47
 title: "Test de la prise intelligente Fibaro"
-description: "Malgré un coût élevé que vaut vraiment cette prise intelligente z-wave 700 Fibaro FGPWE/P-102"
+description: "Malgré un coût très élevé pour un tel module, que vaut vraiment cette prise intelligente z-wave 700 Fibaro FGPWE/P-102"
 layout: post
 author: Nico
 date: 2023-02-19 18:06
@@ -20,32 +20,48 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 4.5
+rating: 4.4
 sourcelink:
   - https://www.fibaro.com/fr/products/wall-plug/
 ---
 
+Fibaro est depuis toujours un fabriquant de module Zigbee de très haute qualité, ils savent allier esthétisme et fonctionnalité, il n'y a qu'à regarder les interrupteurs qu'ils fournissent, tout simplement magnifique.
+
+{% picture posts/{{ page.guid }}/qualite-fabrication-prise-intelligente-fibaro-fgpw-102.png --alt qualité de fabrication de la prise intelligente fibaro FGPW-102 --img width="940" height="529" %}
+
+Aujourd'hui je vais tester une prise intelligente Z-wave 700 Nommé FGWPE/F-102 Fibaro, vaut-elle le coût c'est ce que je vais te démontrer 🤔.
+
 {% include product-embed.html guid="2148" %}
-{% include product-embed.html guid="2149" %}
 
 
 {% picture posts/{{ page.guid }}/fibaro-FGPW-102-prise-zwave-intelligente.png --alt présentation fibaro FGPW-102 --img width="940" height="529" %}
 
-# Documents
+# Variantes
 
-{% include doclink.html pdf="Manuel-Fibaro-FGWPEF-102-S-v2.7_web.pdf" title="Notice installation et utilisation prise intelligente z-wave 700 Fibaro FGPWE/P-102" %}
-
-{% include doclink.html pdf="Manuel-instruction-fibaro-FGWPx-10x-EN-SG.pdf" title="Manuel instruction image prise intelligente z-wave 700 Fibaro FGPWE/P-102" %}
-
-{% picture posts/{{ page.guid }}/dimensions-fibaro-wall-plug-E-et-F-102-zwave-700-utility.png --alt dimension fibaro FGPW-102 prise intelligente zwave --img width="320" height="175" %}
+La prise est dispo en version Eu France et Eu Allemand dit Schuco, je vous conseil de prendre la version Schuco si disponible car la rétrocompatibilité est plus grande, tu rencontreras moins de soucis avec tes accessoires annexes.
 
 {% picture posts/{{ page.guid }}/prise-intelligente-fibaro-wall-plug-E-et-F-102-zwave-700.png --alt fibaro FGPW-102 version france et allemanggne schuko --img width="940" height="529" %}
+
+# Le module dans Homeassistant avec ZwaveJS
 
 {% picture posts/{{ page.guid }}/integration-home-assistant-zwavejs.png --alt integration prise intelligente fibaro fgpw-102 dans homeassistant avec zwavejs --img width="940" height="901" %}
 
 ![Paramètre Fibaro fgpw-102- homeassistant-zwavejs]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametre-homeassistant-zwavejs-fibaro-fgpw-102.webp{{ cachebuster }}){: width="940" height="870"}
 
-# connaître l'état de la prise
+# le module dans Jeedom + ZwaveJS
+
+Pour le Bonheur de tous Jeedom utilise aussi l'excellent ZwaveJS
+
+{% picture posts/{{ page.guid }}/integration-jeedom.png --alt integration prise intelligente fibaro fgpw-102 dans Jeedomavec zwavejs --img width="526" height="354" %}
+
+Nous avons aussi accès aux différents paramètres du module
+
+{% picture posts/{{ page.guid }}/integration-jeedom-paramètres.png --alt paramètres prise intelligente fibaro fgpw-102 dans Jeedom avec zwavejs --img width="940" height="668" %}
+
+# connaître l'état de la prise avec des couleurs
+
+Voilà comment Fibaro se démarque de ses concurrents grâce à de la couleur, mais celà justifie-t-il la différence de prix ?
+Après intégration quand tu débranches la prise et que tu la rebranche, si elle s'allume brièvement en vert c'est qu'elle est reconnue dans le réseau, si c'est rouge reprend ton inclusion.
 
 ## dans le réseau
 
@@ -66,6 +82,20 @@ si la conso est de
 - 2000w instantané la couleur sera rouge
 - 2300w instantané la couleur sera violette
 
+{% include product-embed.html guid="2149" %}
+
+# Les **+**{: .blue} du produit
+
+- de très bonne qualité
+- jeux de lumières pour les reconnaissances numériques
+- existe en norme fr et [De Schuco]({% link _products/{{ page.locale | slice: 0,2 }}/2023-02-20-prise-intelligente-fibaro-fgpwf-102-zwave.md %})
+- qualité de fabrication
+- intégration z-wave +
+
+# Les **-**{: .red} du produit
+
+- le prix ( pas loin de 74€ )
+
 # Caractéristiques techniques
 
 |Alimentation|230V AC, 50/60 Hz|
@@ -81,6 +111,8 @@ si la conso est de
 |Portée|jusqu'à 50 m à l'extérieur, jusqu'à 30 m à l'intérieur, jusqu'à 40 m à l'intérieur (firmware 3.2 ou supérieur)|
 |Dimensions|(P x H) 43 x 65 mm|
 
+{% picture posts/{{ page.guid }}/dimensions-fibaro-wall-plug-E-et-F-102-zwave-700-utility.png --alt dimension fibaro FGPW-102 prise intelligente zwave --img width="320" height="175" %}
+
 |Power supply|230V AC, 50/60 Hz|
 |Rated load current|11A|
 |Power consumption|up to 1.6W|
@@ -94,5 +126,14 @@ si la conso est de
 |Range|up to 50 m outdoors, up to 30 m indoors, up to 40 m indoors (firmware 3.2 or higher)|
 |Dimensions|(D x H) 43 x 65mm|
 
+# Documents
+
+{% include doclink.html pdf="Manuel-Fibaro-FGWPEF-102-S-v2.7_web.pdf" title="Notice installation et utilisation prise intelligente z-wave 700 Fibaro FGPWE/P-102" %}
+
+{% include doclink.html pdf="Manuel-instruction-fibaro-FGWPx-10x-EN-SG.pdf" title="Manuel instruction image prise intelligente z-wave 700 Fibaro FGPWE/P-102" %}
+
 {% include product-embed.html guid="2148" %}
-{% include product-embed.html guid="2149" %}
+
+# Conclusion
+
+Si chez toi tu utilises seulement le réseau Z-wave alors tu as l'habitude de dépenser une fortune pour un seul module, alors si c'est ton cas le Fibaro FGPWE/P-102 est fait pour toi sans nulle doute. Pour les autres il y a bien Neo-Coolcam qui fait un module similaire pour moitié prix mais la qualité de fabrication et l'int&gration ne sont pas du tout les mêmes.
