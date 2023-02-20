@@ -57,14 +57,14 @@ Restes appuyé le temps que la prise clignote en violet, ensuite une indication 
 
 ## de la consommation
 
-si la conso est inférieur à 
+si la conso est de
 
 - 80w instantané la couleur sera bleu
 - 210w instantané la couleur sera verte
 - 550w instantané la couleur sera jaune
 - 1250w instantané la couleur sera orange
 - 2000w instantané la couleur sera rouge
-- 2300w instantané la couleur sera violet
+- 2300w instantané la couleur sera violette
 
 # Caractéristiques techniques
 
