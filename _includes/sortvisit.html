@@ -1,7 +1,0 @@
-{% assign sorted_posts = site.posts | sort: 'visits.visits' | reverse %}
-{% for post in sorted_posts limit: 5 %}
-  <div>
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span>{{ post.visits.visits }}</span>
-  </div>
-{% endfor %}

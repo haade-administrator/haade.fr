@@ -1,6 +1,6 @@
 ---
 guid: 3
-title: 'Zigbee, comprendre le protocole et le mailing'
+title: 'Zigbee understand protocol and mesh'
 date: '2020-02-10T13:17:10+00:00'
 last_modified_at:
 author: Nico

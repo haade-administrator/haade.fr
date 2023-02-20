@@ -23,5 +23,7 @@ group :jekyll_plugins do
     gem 'to_slug'
     gem 'sanitize'
     gem 'rss'
+    gem 'json'
+    gem 'open-uri'
 
 end
