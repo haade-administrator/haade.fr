@@ -243,10 +243,10 @@ protocol:
   z-wave:
     fr_FR:
       name: 'Z-wave'
-      link: 'fr/categorie-produit/z-wave'
+      link: 'fr/categorie-produit/zwave'
     en_GB:
       name: 'Z-wave'
-      link: 'en/category-product/z-wave'
+      link: 'en/category-product/zwave'
 
 # footer menu
 

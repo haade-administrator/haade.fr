@@ -14,5 +14,7 @@ module.exports = [
     'peripheriques/5690-nodon-module-volet-roulant-zigbee-3700313925201',                           // 2144 Nodon volet roulant zigbee
     'peripheriques/5688-nodon-module-multifonction-zigbee-3700313925188',                            // 2145 Nodon micromodule multiusage
     'box-domotique/5878-jeedom-controleur-domotique-jeedom-atlas-zigbee',                            // 2146 jeedom Atlas zigbee
-    'peripheriques/5587-nodon-pro-module-volet-roulant-zigbee-3700313925287'                        // 2147 Nodon volet roulant pro
+    'peripheriques/5587-nodon-pro-module-volet-roulant-zigbee-3700313925287',                       // 2147 Nodon volet roulant pro
+    'peripheriques/3905-fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr-5902020528630', // 2148 prise zwave fibaro v fr
+    'peripheriques/3909-fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko-5902020528647' // 2149 prise zwave fibaro v al
 ]
