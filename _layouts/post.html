@@ -60,6 +60,10 @@ post_class: post-template
 {% include sourcelink.html %}
 {%- endif %}
 
+<!-- Récupérer le nombre de visiteurs et trier -->
+<h1>Articles les plus vus</h1>
+{%- include sortvisit.html %}
+
 <!-- Rating -->
 {%- if page.rating %}
 <div class="rating mt-4 mb-4 d-flex align-items-center">
