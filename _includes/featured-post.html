@@ -1,5 +1,12 @@
-{%- assign posts = paginator.posts | where: 'published', true | sort: 'order' | where: 'layout', 'post' %}
-{% for post in posts %}
+{% assign views_data_fr = site.data.views_fr %}
+{% assign views_data_en = site.data.views_en %}
+{% assign sorted_posts = site.posts | where:'locale', page.locale | where: 'published', true | sort: 'views' | reverse %}
+{% for post in sorted_posts limit: 5 %}
+{% if page.locale == "fr_FR" %}
+{% assign post_data = views_data_fr | where: 'guid', post.guid | first %}
+{% elsif page.locale == "en_GB" %}
+{% assign post_data = views_data_en | where: 'guid', post.guid | first %}
+{% endif %}
 <div class="featured-post">
         <div class="featured-picture">
             <a href="{{ site.baseurl }}{{ post.url }}">
