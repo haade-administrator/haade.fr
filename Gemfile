@@ -24,7 +24,6 @@ group :jekyll_plugins do
     gem 'sanitize'
     gem 'rss'
     gem 'json'
-    gem 'open-uri'
     gem 'net-http'
 
 end

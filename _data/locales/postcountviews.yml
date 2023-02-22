@@ -24,7 +24,7 @@ fr_FR:
     title: Zigbee vs Z-wave
     published: true
     image: zigbee-vs-z-wave.png
-    views: 2206
+    views: 2208
     views10days: 0
     views30days: 0
   - guid: 5
@@ -45,7 +45,7 @@ fr_FR:
     title: Intégrations Esphome et Homeassistant
     published: true
     image: esphome-logo-haade-homeassistant.png
-    views: 4200
+    views: 4204
     views10days: 0
     views30days: 0
   - guid: 8
@@ -87,7 +87,7 @@ fr_FR:
     title: Intégrer son compteur électrique ( téléinfo ) dans Home Assistant
     published: true
     image: compteur-electrique-homeassistant.png
-    views: 11475
+    views: 11476
     views10days: 0
     views30days: 0
   - guid: 14
@@ -101,14 +101,14 @@ fr_FR:
     title: Kobol helios 64 c'est terminé !
     published: true
     image: helios64.png
-    views: 2408
+    views: 2409
     views10days: 0
     views30days: 0
   - guid: 16
     title: NAS opensource pour Raspberry pi CM4 le futur!
     published: true
     image: boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png
-    views: 2460
+    views: 2461
     views10days: 0
     views30days: 0
   - guid: 17
@@ -150,7 +150,7 @@ fr_FR:
     title: Home-assistant Amber VS Jeedom Atlas
     published: true
     image: Jeedom-Atlas-vs-Homeassistant-Amber.png
-    views: 2988
+    views: 2989
     views10days: 0
     views30days: 0
   - guid: 23
@@ -171,14 +171,14 @@ fr_FR:
     title: La téléinfo dans le dashboard Energie de Home Assistant
     published: true
     image: integration-dashboard-energie-ha.png
-    views: 4613
+    views: 4616
     views10days: 0
     views30days: 0
   - guid: 26
     title: Test interrupteur zigbee ZTS-EU à bouton poussoir Moes
     published: true
     image: interrupteur-moes-zigbee-zts-eu-2-gang-test.png
-    views: 400
+    views: 401
     views10days: 0
     views30days: 0
   - guid: 27
@@ -213,7 +213,7 @@ fr_FR:
     title: interférence entre zigbee et wifi frequence 2.4ghz
     published: true
     image: interference-zigbee-wifi-freqeunce-2.4ghz.png
-    views: 455
+    views: 456
     views10days: 0
     views30days: 0
   - guid: 32
@@ -227,7 +227,7 @@ fr_FR:
     title: Domotise le compteur d'eau Itron avec esp et cc1101 dans ha pour 10€
     published: true
     image: domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png
-    views: 447
+    views: 448
     views10days: 0
     views30days: 0
   - guid: 34
@@ -248,7 +248,7 @@ fr_FR:
     title: Esp32-cam Ai Thinker et homeassistant
     published: true
     image: integration-esp32cam-esphome-homeassistant.png
-    views: 641
+    views: 650
     views10days: 0
     views30days: 0
   - guid: 37
@@ -269,7 +269,7 @@ fr_FR:
     title: Linkplay et Up2stream le multiroom DIY de qualité
     published: true
     image: multiroom-arylic-linkplay-diy.png
-    views: 115
+    views: 116
     views10days: 0
     views30days: 0
   - guid: 40
@@ -304,14 +304,14 @@ fr_FR:
     title: Test de la sirène Immax Neo 07504L zigbee 3.0
     published: true
     image: immax-neo-07504L-smart-siren-exterieur-ip65-zigbee-3-fix-mural.png
-    views: 99
+    views: 100
     views10days: 0
     views30days: 0
   - guid: 45
     title: Test Sirène Heiman HS2WD-E compatible zigbee 3.0
     published: true
     image: heiman-sirene-alarme-zgbee-3-HS2WD-E.png
-    views: 93
+    views: 96
     views10days: 0
     views30days: 0
   - guid: 46
@@ -325,7 +325,7 @@ fr_FR:
     title: Test de la prise intelligente Fibaro FGPWE-102
     published: true
     image: prise-intelligente-fibaro-wall-plug-fgpwe-f-102-zwave-700.png
-    views: 32
+    views: 33
     views10days: 0
     views30days: 0
 
@@ -369,7 +369,7 @@ en_GB:
     title: Automate your garage door for 5€
     published: true
     image: domotiser-porte-garage-5-euros.png
-    views: 9672
+    views: 9675
     views10days: 0
     views30days: 0
   - guid: 13
@@ -474,21 +474,21 @@ en_GB:
     title: Explanation of zones in Zoneminder
     published: true
     image: zoneminder-the-areas.png
-    views: 100
+    views: 101
     views10days: 0
     views30days: 0
   - guid: 30
     title: ZBDongle-P VS ZBDongle-E
     published: true
     image: dongle-p-vs-dongle-e-zigbee-sonoff.png
-    views: 3011
+    views: 3016
     views10days: 0
     views30days: 0
   - guid: 31
     title: interference between zigbee and wifi frequency 2.4ghz
     published: true
     image: interference-zigbee-wifi-freqeunce-2.4ghz-en.png
-    views: 263
+    views: 264
     views10days: 0
     views30days: 0
   - guid: 32
@@ -523,7 +523,7 @@ en_GB:
     title: Esp32-cam Ai Thinker and homeassistant
     published: true
     image: integration-esp32cam-esphome-homeassistant-en.png
-    views: 333
+    views: 334
     views10days: 0
     views30days: 0
   - guid: 37
