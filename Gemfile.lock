@@ -106,6 +106,8 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2023.0218.1)
     minitest (5.17.0)
+    net-http (0.3.2)
+      uri
     nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     objective_elements (1.1.2)
@@ -203,6 +205,7 @@ DEPENDENCIES
   jekyll_picture_tag
   json
   kramdown
+  net-http
   open-uri
   rouge
   rss

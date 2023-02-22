@@ -1,4 +1,32 @@
-# crééer un fichier structuré avec fr et en sans prise en compte des dates
+=begin require 'json'
+require 'yaml'
+require 'net/http'
+
+module Jekyll
+  class ViewsGenerator < Generator
+    safe true
+    priority :highest
+
+    def generate(site)
+      countapi_namespace = site.config.dig('countapi', 'namespace')
+      return unless countapi_namespace
+
+      # Fetch views for each post
+      site.posts.docs.each do |post|
+        url_encoded = URI.encode_www_form_component(post.url.gsub('/', '-').slice(1, 64))
+        countapi_url = "https://api.countapi.xyz/get/#{countapi_namespace}/#{url_encoded}"
+        puts "CountAPI URL: #{countapi_url}"
+        begin
+          uri = URI.parse(countapi_url)
+          response = Net::HTTP.get_response(uri)
+          views = JSON.parse(response.body)['value']
+          post.data['views'] = views.to_i || 0
+          puts "Views: #{views}"
+        rescue StandardError => e
+          next
+        end
+      end =end
+
 
 require 'json'
 require 'open-uri'
@@ -37,7 +65,19 @@ module Jekyll
           published = post.data['published']
           image = post.data['image']
           views = post.data['views'] || 0
-          { 'guid' => guid, 'title' => title, 'published' => published, 'image' => image, 'views' => views }
+          last_10_days_views = post.data['last_10_days_views'] || [views]
+          last_10_days_views.push(views)
+          last_10_days_views.shift while last_10_days_views.size > 10
+          views10days = last_10_days_views.last - last_10_days_views.first
+          post.data['last_10_days_views'] = last_10_days_views
+
+          last_30_days_views = post.data['last_30_days_views'] || [views]
+          last_30_days_views.push(views)
+          last_30_days_views.shift while last_30_days_views.size > 30
+          views30days = last_30_days_views.last - last_30_days_views.first
+          post.data['last_30_days_views'] = last_30_days_views
+          
+          { 'guid' => guid, 'title' => title, 'published' => published, 'image' => image, 'views' => views, 'views10days' => views10days, 'views30days' => views30days }
         end
         locales_views_data[locale].sort_by! { |data| data['guid'] }
         puts "Updated views data for #{locale} with #{locales_views_data[locale].size} posts"

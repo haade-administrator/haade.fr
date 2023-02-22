@@ -1,4 +1,4 @@
-# crééer un fichier structuré avec fr et en sans prise en compte des dates
+# rattrape à la volée comme view10days.rb mais avec un controle en fin de recherce
 
 require 'json'
 require 'open-uri'
@@ -31,16 +31,28 @@ module Jekyll
       locales_views_data = {}
 
       site.posts.docs.group_by { |post| post.data['locale'] || site.config['default_locale'] }.each do |locale, posts|
-        locales_views_data[locale] = posts.map do |post|
+        locales_views_data[locale] = {}
+        locales_views_data[locale]['date'] = Date.today.strftime('%Y-%m-%d')
+        locales_views_data[locale]['posts'] = posts.map do |post|
           guid = post.data['guid']
           title = post.data['title']
           published = post.data['published']
           image = post.data['image']
           views = post.data['views'] || 0
+
+          # Add views difference for last 10 days
+          views_history = post.data['views_history'] || []
+          views_history << views
+          views_history = views_history.last(10) if views_history.size > 10
+          views_difference = views_history.last.to_i - views_history.first.to_i
+          post.data['views_difference'] = views_difference
+          post.data['views_history'] = views_history
+
+          puts "Views difference for post '#{title}': #{views_difference}"
           { 'guid' => guid, 'title' => title, 'published' => published, 'image' => image, 'views' => views }
         end
-        locales_views_data[locale].sort_by! { |data| data['guid'] }
-        puts "Updated views data for #{locale} with #{locales_views_data[locale].size} posts"
+        locales_views_data[locale]['posts'].sort_by! { |data| data['guid'] }
+        puts "Updated views data for #{locale} with #{locales_views_data[locale]['posts'].size} posts"
       end
 
       data_path = File.join(site.source, '_data', 'locales', 'postcountviews.yml')

@@ -1,5 +1,5 @@
-{% assign views_fr = site.data.views.fr_FR %}
-{% assign views_en = site.data.views.en_GB %}
+{% assign views_fr = site.data.postcountviews.fr_FR %}
+{% assign views_en = site.data.postcountviews.en_GB %}
 {% assign sorted_posts = site.posts | where:'locale', page.locale | where: 'published', true | sort: 'views' | reverse %}
 {% for post in sorted_posts limit: 5 %}
 {% if page.locale == "fr_FR" %}
