@@ -1,3 +1,5 @@
+# créé deux fichiers un pour chaque langue
+
 require 'json'
 require 'open-uri'
 require 'yaml'
@@ -26,10 +28,9 @@ module Jekyll
       end
 
       # Generate views data for each locale
-      locales_views_data = {}
-
-      site.posts.docs.group_by { |post| post.data['locale'] || site.config['default_locale'] }.each do |locale, posts|
-        locales_views_data[locale] = posts.map do |post|
+      posts_by_locale = site.posts.docs.group_by { |post| post.data['locale'] || site.config['default_locale'] }
+      posts_by_locale.each do |locale, posts|
+        views_data = posts.map do |post|
           guid = post.data['guid']
           title = post.data['title']
           published = post.data['published']
@@ -37,17 +38,12 @@ module Jekyll
           views = post.data['views'] || 0
           { 'guid' => guid, 'title' => title, 'published' => published, 'image' => image, 'views' => views }
         end
-        locales_views_data[locale].sort_by! { |data| data['guid'] }
-        puts "Updated views data for #{locale} with #{locales_views_data[locale].size} posts"
+        views_data.sort_by! { |data| data['guid'] }
+        data_path = File.join(site.source, '_data', 'locales', "views_#{locale[0,2]}.yml")
+        File.write(data_path, views_data.to_yaml.gsub(/^---\n/, ''))
+        puts "Updated views data for #{locale} with #{views_data.size} posts"
       end
-
-      data_path = File.join(site.source, '_data', 'locales', 'views.yml')
-      yaml_data = locales_views_data.to_yaml.sub(/^---\n/, '').gsub(/\n/m,"\n  ") # supprime la première ligne et ajoute une indentation de 2
-      yaml_data = yaml_data.gsub(/^(\s*)(\w{2}_\w{2}:)/, "\\2")  # Supprime l'indentation pour fr_FR
-      yaml_data = yaml_data.gsub(/^(\s*)(\w{2}(_\w{2})?:)/, "\n\\2")  # Ajoute une ligne vide pour en_GB
-      yaml_data.strip!  # Supprime les espaces en début et fin de chaîne
-      File.write(data_path, yaml_data)
-      puts "Saved views data to #{data_path}"
     end
   end
 end
+
