@@ -6,6 +6,7 @@
 @import 'bootstrap/variables';
 @import 'bootstrap/mixins';
 @import 'bootstrap/bootstrap';
+@import 'glider';
 @import 'plugins';
 @import 'prism';
 @import 'fontawesome5';
@@ -160,8 +161,6 @@ $badge-purple: #32064a;
   font-family: 'Poppins', sans-serif;
 }
 
-body, input, button, select, optgroup, textarea {
-}
 body {
     line-height:1.7;
     background: #f4f4f4;
@@ -765,8 +764,6 @@ img, img:hover {
     }
 }
 .related-posts {
-    h2 {
-    }
     margin-top:120px;
     .badge {
         font-size: 15px;

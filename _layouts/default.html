@@ -44,7 +44,7 @@ layout: compress
 {%- if jekyll.environment == 'production' %}
 <script src="{{ site.baseurl }}{{ '/assets/js/main.min.js' | cache_buster }}" type="text/javascript"></script>
 {%- elsif jekyll.environment == 'development' %}
-<script src="{{ site.baseurl }}{{ '/assets/js/jquery-3.6.3.min.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/jquery-3.6.3.slim.min.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/flag.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/lazyload.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/vanilla-back-to-top.min.js' | cache_buster }}" type="text/javascript"></script>
@@ -52,6 +52,7 @@ layout: compress
 <script src="{{ site.baseurl }}{{ '/assets/js/theme.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/prism.js' | cache_buster }}" type="text/javascript"></script>
 <script src="{{ site.baseurl }}{{ '/assets/js/btt.js' | cache_buster }}" type="text/javascript"></script>
+<script src="{{ site.baseurl }}{{ '/assets/js/glider.js' | cache_buster }}" type="text/javascript"></script>
 <!-- <script src="{{ site.baseurl }}{{ '/assets/js/codeblock.js' | cache_buster }}" type="text/javascript"></script> -->
 {%- endif %}
 

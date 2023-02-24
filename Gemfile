@@ -25,5 +25,6 @@ group :jekyll_plugins do
     gem 'rss'
     gem 'json'
     gem 'net-http'
+    gem 'date'
 
 end

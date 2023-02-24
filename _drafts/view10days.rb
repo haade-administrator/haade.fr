@@ -2,8 +2,8 @@
 # Dans le code que j'ai proposé, la liste views_last_10_days est initialisée avec 10 zéros, qui représentent le nombre de vues pour les 10 derniers jours. Cette liste est ensuite remplie avec les données réelles de vues pour chaque post à l'aide de la fonction fetch_views_last_10_days.
 # La liste views_last_10_days n'est pas stockée directement dans le fichier YAML, car cela prendrait plus d'espace et rendrait le fichier plus difficile à lire. Au lieu de cela, seule la date de la dernière mise à jour des données est stockée dans le fichier YAML, et la liste views_last_10_days est recalculée à chaque fois que le générateur Jekyll est exécuté. Cela permet de garantir que les données sont à jour et évite d'alourdir inutilement le fichier YAML.
 require 'json'
-require 'open-uri'
 require 'yaml'
+require 'net/http'
 
 module Jekyll
   class ViewsGenerator < Generator
@@ -18,12 +18,15 @@ module Jekyll
       site.posts.docs.each do |post|
         url_encoded = URI.encode_www_form_component(post.url.gsub('/', '-').slice(1, 64))
         countapi_url = "https://api.countapi.xyz/get/#{countapi_namespace}/#{url_encoded}"
-        puts "CountAPI URL: #{countapi_url}"
+   #     puts "CountAPI URL: #{countapi_url}"
         begin
-          views = JSON.parse(URI.open(countapi_url).read)['value']
-          post.data['views'] = views.to_i || 0
-          puts "Views: #{views}"
-        rescue OpenURI::HTTPError, JSON::ParserError => e
+          uri = URI(countapi_url)
+          request = Net::HTTP::Get.new(uri)
+          response = Net::HTTP.start(uri.host, uri.port, use_ssl: uri.scheme == 'https') { |http| http.request(request) }
+          views = JSON.parse(response.body)['value'].to_i rescue 0
+          post_views = post.data['views'] = views
+   #       puts "Views: #{views}"
+        rescue StandardError => e
           next
         end
       end
