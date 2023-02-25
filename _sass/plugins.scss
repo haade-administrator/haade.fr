@@ -2111,6 +2111,8 @@ nav .navbar .links li {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
     z-index: 1000;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   .navbar .nav-links .sidebar-logo {
