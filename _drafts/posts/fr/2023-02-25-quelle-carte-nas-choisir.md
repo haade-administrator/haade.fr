@@ -30,6 +30,7 @@ sourcelink:
   - https://github.com/wiretrustee/cm4-sata-board
   - https://wiki.banana-pi.org/Banana_Pi_BPI-W2
   - https://wiki.radxa.com/News/2019/12/introduce-rockpi-sata-hat
+  - https://www.hardkernel.com/shop/odroid-h3-plus/
   - https://www.jeffgeerling.com/
 ---
 
