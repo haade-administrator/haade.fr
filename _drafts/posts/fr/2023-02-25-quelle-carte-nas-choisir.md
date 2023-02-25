@@ -28,6 +28,8 @@ sourcelink:
   - https://www.kickstarter.com/projects/argonforty/argon-eon-4-bay-network-storage-powered-by-raspberry-pi-4?lang=fr
   - https://wiki.radxa.com/Taco
   - https://github.com/wiretrustee/cm4-sata-board
+  - https://wiki.banana-pi.org/Banana_Pi_BPI-W2
+  - https://wiki.radxa.com/News/2019/12/introduce-rockpi-sata-hat
   - https://www.jeffgeerling.com/
 ---
 
@@ -91,7 +93,9 @@ Le cout total livré: 637$ soit env 610€
 
 # 2 carte Zimaboard
 # 3 rockpi taco
-# 3 Odroid HC3
+# 4 rockpi 4 sata
+# 5 Odroid H3+
 # 4 odroid HC4
 # 5 Raspberry pi 4 + Argon Eon
 # 6 Wiretrustee 
+# 7 Bananapi-bpi-w2
