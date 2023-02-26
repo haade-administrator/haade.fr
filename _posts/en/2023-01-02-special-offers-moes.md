@@ -42,7 +42,7 @@ Brand Day At Moes on Aliexpress -40% on the best Moes products, to this you can 
 
 ## Click on the links below to benefit:
 
-[Moes crazy days](https://s.click.aliexpress.com/e/_DF4SggB){:target="_blank"}
+[Moes crazy days](https://s.click.aliexpress.com/e/_DF4SggB){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt inclusive area in ZM --img width="940" height="529" --link https://s.click.aliexpress.com/e/_DF4SggB %}
 

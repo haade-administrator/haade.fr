@@ -53,4 +53,4 @@ Des accessoires sont également disponibles avec le Grow R503 comme un [support 
 |Intensité de la résistance abrasive|1 million de fois|
 |Débit en bauds des communications (UART) :|(9600 × N) bps où N = 1 ~ 12 (par défaut N = 6, c'est-à-dire 57600bps)|
 
-Documentation technique: [téléchargeable ici](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){:target="_blank"}
+Documentation technique: [téléchargeable ici](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){: target="_blank"}

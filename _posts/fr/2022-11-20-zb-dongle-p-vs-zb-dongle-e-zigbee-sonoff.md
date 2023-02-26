@@ -119,8 +119,8 @@ Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue 
 |**Contrôle de flux**|Hardware|Software|
 |**Dimensions**|63mm|**52mm**{: .blue }|
 |**Puissance du signal**|De 5 à 20dbm max|**+/-20dbm max**{: .blue }|
-|**ZHA Home Assistant**|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|[Supporté](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|
-|**Zigbee2mqtt**|[Supporté](https://www.zigbee2mqtt.io/guide/adapters/#recommended){:target="_blank"}|[**Expérimental**{: .red}](https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){:target="_blank"}|
+|**ZHA Home Assistant**|[Supporté](https://www.home-assistant.io/integrations/zha/){: target="_blank"}|[Supporté](https://www.home-assistant.io/integrations/zha/){: target="_blank"}|
+|**Zigbee2mqtt**|[Supporté](https://www.zigbee2mqtt.io/guide/adapters/#recommended){: target="_blank"}|[**Expérimental**{: .red}](https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){: target="_blank"}|
 |**Openhab**|**Non Supporté**{: .red }|Supporté|
 |**Jeedom**|Supporté|Supporté|
 |**Iobroker**|Supporté|Supporté|
@@ -141,7 +141,7 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 ## Compatibilité avec Matter
 
 Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, **mais il ne peut faire les deux en même temps car les puces CC2652P et EFR32MG21, ne sont pas multi-thread,** vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
-Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){:target="_blank"} elle aussi compatible avec **Zigbee, Matter et Miltithread**{: .red}.
+Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){: target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){: target="_blank"} elle aussi compatible avec **Zigbee, Matter et Miltithread**{: .red}.
 
 ## Firmware flashing
 
@@ -171,7 +171,7 @@ sudo python3 cc2538-bsl.py --bootloader-sonoff-usb -e -w -v --ieee-address 00:00
 python3 cc2538-bsl.py -h
 {% endhighlight %}
 
-Je voulais rédiger un tuto mais il existe ce tuto simple sur le site de Zigbee2mqtt: [zigbee2mqtt.io flash cc2652P avec un terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html#method-without-docker){:target="_blank"} 
+Je voulais rédiger un tuto mais il existe ce tuto simple sur le site de Zigbee2mqtt: [zigbee2mqtt.io flash cc2652P avec un terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html#method-without-docker){: target="_blank"} 
 
 
 ## Tutoriel de configuration de la puissance de transmission ZBDongle-P
@@ -181,7 +181,7 @@ Ci-dessous un document rédigé par Sonoff plutôt bien fait.
 
 {% include doclink.html pdf="Configure-ZBDongle-P-puissance-transmission-signal.pdf" title="configurer la puissance du signal sur ZBDongle-P" %}
 
-> À savoir que le firmware fourni par Zigbee2mqtt est déjà paramétré sur 20dbm [Zigbee2mqtt z-stack firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){:target="_blank"}
+> À savoir que le firmware fourni par Zigbee2mqtt est déjà paramétré sur 20dbm [Zigbee2mqtt z-stack firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){: target="_blank"}
 
 ## CONCLUSION
 

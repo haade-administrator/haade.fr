@@ -67,7 +67,7 @@ l'intégration se fait sans soucis, l'intégration se fait en appuyant 5 seconde
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt.png --alt intégration interrupteur bouton poussoir Moes dans homeassistant-zigbee2mqtt --img width="952" height="70" %}
 
 ### Lien zigbee2mqtt
-[caractéristique de l'intégration dans zigbee2mqtt](https://www.zigbee2mqtt.io/devices/ZTS-EU_2gang.html){:target="_blank"}
+[caractéristique de l'intégration dans zigbee2mqtt](https://www.zigbee2mqtt.io/devices/ZTS-EU_2gang.html){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt-fonction-expose.png --alt réglage de interrupteur bouton poussoir moes dans homeassistant --img width="952" height="601" %}
 

@@ -39,7 +39,7 @@ Il existe le duo **Nginx-letsencrypt** sur hassio mais 5 fois sur 6 tu vas renco
 ## Prérequis:
 
 - homeassistant avec supervisor hassio d’installé
-- installer notre addons FRPc (client): [lien github Haade](https://github.com/haade-administrator/haade-addons){:target="_blank"}
+- installer notre addons FRPc (client): [lien github Haade](https://github.com/haade-administrator/haade-addons){: target="_blank"}
 - un serveur linux de préférence vps connecté en permanence aux réseaux internet
 - accéder à votre serveur en ssh
 - ( Optionnel ) nom de domaine avec zone dns de type A paramétré sur l’adresse ip du vps
@@ -48,7 +48,7 @@ Il existe le duo **Nginx-letsencrypt** sur hassio mais 5 fois sur 6 tu vas renco
 
 pour se faire rendez-vous dans Supervisor &gt;&gt;&gt; Boutique des modules complémentaires &gt;&gt;&gt; **⋮** &gt;&gt;&gt; Dépôts
 
-Colle ce lien [lien github Haade](https://github.com/haade-administrator/haade-addons){:target="_blank"} et clic sur **Ajouter**, ferme la popup et clic à nouveau sur **⋮** et **Recharger**.
+Colle ce lien [lien github Haade](https://github.com/haade-administrator/haade-addons){: target="_blank"} et clic sur **Ajouter**, ferme la popup et clic à nouveau sur **⋮** et **Recharger**.
 
 Si t’as rien compris regarde le gif animé ci-dessous.
 
@@ -72,7 +72,7 @@ capture du paramétrage pour accès à distance grâce à frp et créé pour hom
 11. **domain\_protocol:** sous-domaine ou domaine suivant le paramétrage de votre serveur
 12. **domains:** nom de votre domaine ou nom du sous domaine ( suivant votre serveur vps )
 
-**Pour toutes questions sur le fonctionnement fatedier a rédigé une documentation complète, n’hésitez pas à la consulter:** [Lien github Fatedier frp original](https://github.com/fatedier/frp/blob/dev/README.md){:target="_blank"}
+**Pour toutes questions sur le fonctionnement fatedier a rédigé une documentation complète, n’hésitez pas à la consulter:** [Lien github Fatedier frp original](https://github.com/fatedier/frp/blob/dev/README.md){: target="_blank"}
 
 **IMPORTANT:** à tous ceux qui souhaiteraient suivre ce tutoriel mais qui ne veulent pas investir dans un vps, haade propose ce service **GRATUITEMENT**\*, avec un lien de type **\*.eu.haade.link**, si tu souhaites bénéficier de ce service **GRATUITEMENT** rien de plus simple: laisse un **commentaire** en bas de cet article et fait nous la demande par **[formulaire de contact](https://www.haade.fr/contact/)**
 
@@ -86,7 +86,7 @@ rien de plus simple, on commence par se connecter au serveur à l’aide d’un 
 ssh -p 22 135.122.X.X - l root
 {% endhighlight %}
 
-Rendez-vous sur la dernière release qui nous intéresse dans notre cas un amd64 ( serveur debian 10 ) [release frp Fatedier](https://github.com/fatedier/frp/releases){:target="_blank"}
+Rendez-vous sur la dernière release qui nous intéresse dans notre cas un amd64 ( serveur debian 10 ) [release frp Fatedier](https://github.com/fatedier/frp/releases){: target="_blank"}
 
 {% highlight shell %}
 cd /usr/lib/

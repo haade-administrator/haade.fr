@@ -66,7 +66,7 @@ Le module est reconnu comme interrupteur ewelink zb-sw01 et entièrement fonctio
 
 {% picture posts/{{ page.guid }}/zb-sw01-domotiser-lumière-piscine.png --alt reconnaissance du relais dans zigbee2mqtt ewelink --img width="939" height="686" %}
 
-[Lien de compatibilité Blakkader](https://zigbee.blakadder.com/eWeLink_ZB-SW015.html){:target="_blank"}
+[Lien de compatibilité Blakkader](https://zigbee.blakadder.com/eWeLink_ZB-SW015.html){: target="_blank"}
 
 ## Photo mise en place
 

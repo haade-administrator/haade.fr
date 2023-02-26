@@ -29,8 +29,8 @@ Pour mon premier article sur le blog, je vous propose de voir ensemble comment i
 ### **Prérequis :**
 
 - Home assistant installé avec ESPHome à jour
-- Un module ESP8266 du type [Wemos D1 mini](https://fr.aliexpress.com/item/32651747570.html?spm=a2g0o.productlist.0.0.77694726yRAR17&algo_pvid=cd2ec6ef-58ee-4733-89fd-25627174ac51&algo_exp_id=cd2ec6ef-58ee-4733-89fd-25627174ac51-0){:target="_blank"} et son alimentation
-- Un module [PiTInfo](https://www.tindie.com/products/Hallard/pitinfo/){:target="_blank"}
+- Un module ESP8266 du type [Wemos D1 mini](https://fr.aliexpress.com/item/32651747570.html?spm=a2g0o.productlist.0.0.77694726yRAR17&algo_pvid=cd2ec6ef-58ee-4733-89fd-25627174ac51&algo_exp_id=cd2ec6ef-58ee-4733-89fd-25627174ac51-0){: target="_blank"} et son alimentation
+- Un module [PiTInfo](https://www.tindie.com/products/Hallard/pitinfo/){: target="_blank"}
 
 ### Programmation ESPHome
 

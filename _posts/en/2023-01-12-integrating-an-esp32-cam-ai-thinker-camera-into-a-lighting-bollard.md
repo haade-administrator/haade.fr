@@ -83,7 +83,7 @@ To fix (transformer, antenna and optics of the camera), I used a hot glue gun, i
 
 1. fixing the esp32-cam and the antenna with hot glue
 2. fixing of the transformer 5v, 1A by point of hot glue the Neutral and the phase are connected with cable of 0.75mm flexible wire
-3. **plus**{:.red} and minus are made with [dupont wire, connectors and clamp](https://s.click.aliexpress.com/e/_DDtM9rZ){:target=" _blank"}
+3. **plus**{:.red} and minus are made with [dupont wire, connectors and clamp](https://s.click.aliexpress.com/e/_DDtM9rZ){: target=" _blank"}
 
 > For the moment I put the antenna inside the wall light to see if this integration is viable. Otherwise I will see to deport her.
 

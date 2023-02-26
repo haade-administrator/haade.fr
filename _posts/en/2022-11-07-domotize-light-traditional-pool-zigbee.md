@@ -66,7 +66,7 @@ The module is recognized as an ewelink zb-sw01 switch and fully functional, it i
 
 {% picture posts/{{ page.guid }}/zb-sw01-domotiser-lumière-piscine.png --alt relay recognition in zigbee2mqtt ewelink --img width="939" height="686" %}
 
-[Blkkader compatibility link](https://zigbee.blakadder.com/eWeLink_ZB-SW015.html){:target="_blank"}
+[Blkkader compatibility link](https://zigbee.blakadder.com/eWeLink_ZB-SW015.html){: target="_blank"}
 
 ## Photo set up
 

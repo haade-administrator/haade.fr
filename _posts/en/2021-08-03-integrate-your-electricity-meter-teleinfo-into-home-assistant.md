@@ -26,8 +26,8 @@ For my first post on the blog, I suggest you see together how to integrate the i
 ### Prerequisites:
 
 - Home assistant installed with up-to-date ESPHome
-- An ESP8266 module of the [Wemos D1 mini](https://fr.aliexpress.com/item/32651747570.html?spm=a2g0o.productlist.0.0.77694726yRAR17&algo_pvid=cd2ec6ef-58ee-4733-89fd-25627174ac51&algo_exp_id=cd2ec6ef-58ee-4733-89fd-25627174ac51-0){:target="_blank"} type and its power supply
-- A [PitInfo](https://www.tindie.com/products/Hallard/pitinfo/){:target="_blank"} module
+- An ESP8266 module of the [Wemos D1 mini](https://fr.aliexpress.com/item/32651747570.html?spm=a2g0o.productlist.0.0.77694726yRAR17&algo_pvid=cd2ec6ef-58ee-4733-89fd-25627174ac51&algo_exp_id=cd2ec6ef-58ee-4733-89fd-25627174ac51-0){: target="_blank"} type and its power supply
+- A [PitInfo](https://www.tindie.com/products/Hallard/pitinfo/){: target="_blank"} module
 
 ### ESPHome programming
 

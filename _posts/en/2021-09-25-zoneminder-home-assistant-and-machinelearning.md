@@ -26,7 +26,7 @@ redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/securite/zoneminder-home-assistant-et-machinelearning/5/
 ---
 
-[Dlandon](https://hub.docker.com/r/dlandon/zoneminder.machine.learning){:target="_blank"} this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of day. For less than a year, installation under docker has been greatly simplified. In addition, **machinelearning is very complete** thanks to object detection, facial detection, facial recognition, plate recognition, etc ....
+[Dlandon](https://hub.docker.com/r/dlandon/zoneminder.machine.learning){: target="_blank"} this year released a Docker image complete with Zoneminder and Machinelearning, integration into home assistant is complete. This is why this article absolutely had to see the light of day. For less than a year, installation under docker has been greatly simplified. In addition, **machinelearning is very complete** thanks to object detection, facial detection, facial recognition, plate recognition, etc ....
 
 ## Prerequis:
 
@@ -41,7 +41,7 @@ Zoneminder will be installed on a NAS running Openmediavault with docker. This c
 
 when the home assistant OS, it is installed on a Raspberry pi since can, before I used the home-assistant core which was running in a container on the NAS.
 
-below we find the [docker command that we find in the documentation of the github repository](https://github.com/dlandon/zoneminder.machine.learning){:target="_blank"} .
+below we find the [docker command that we find in the documentation of the github repository](https://github.com/dlandon/zoneminder.machine.learning){: target="_blank"} .
 
 {% highlight docker %}
 docker run -d --name="Zoneminder" \
@@ -81,7 +81,7 @@ dlandon/zoneminder.machine.learning
 
 After launching the image, the installation is done quickly thanks to dlandon's work on the image. Previously with the old image of Zoneminder you had to wait 20 to 40 minutes, the ES and ML part took a lot of time. **Now Zoneminder and The ZMEventnotification package** install **in less than 5 minutes** .
 
-PS: If you want to use a [installation under docker-compose you will find the code here.](https://github.com/dlandon/zoneminder.machine.learning/blob/master/docker-compose.yaml){:target="_blank"}
+PS: If you want to use a [installation under docker-compose you will find the code here.](https://github.com/dlandon/zoneminder.machine.learning/blob/master/docker-compose.yaml){: target="_blank"}
 
 ## 1 - Preparation of Zoneminder for Home assistant and Machinelearning ML
 
@@ -112,7 +112,7 @@ Options >>> Users >> Add users
 
 ## 2 - Machinelearning configuration (ZMEVENTNOTIFICATION)
 
-To begin with, all the documentation is available at this address [https://zmeventnotification.readthedocs.io/](https://zmeventnotification.readthedocs.io/){:target="_blank"}
+To begin with, all the documentation is available at this address [https://zmeventnotification.readthedocs.io/](https://zmeventnotification.readthedocs.io/){: target="_blank"}
 
 For the learning machine we have 3 files to customize for these 3 files there is also a duplicate example. So these are the secret.ini files which contain all the passwords and objectconfig.ini contains each setting for each camera. Basically we indicate what we want Zmeventnotification to analyze according to each camera.
 
@@ -155,7 +155,7 @@ PUSHOVER_USER_KEY=your_pushover_user_key
 
 Next to **objectconfig.ini** which should look like the code below. With the new version of ZMeventnotification, the configuration of monitors has been greatly simplified
 
-[Click here if you want to read the official doc.](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html){:target="_blank"}
+[Click here if you want to read the official doc.](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html){: target="_blank"}
 
 For these settings, do not hesitate to write to me but in the first place it is a question of modifying the **\[monitor-x\]** indeed we do not put the name of its camera but if this is in the first position, we will call it monitor-1 and so on, below is an example of garage monitoring.
 
@@ -174,7 +174,7 @@ object_detection_pattern=(person)
 use_sequence= yes # Important for the support of the new system
 {% endhighlight %}
 
-in order to be able to use the capture of images by person you must create a folder if it does not exist in ... named known\_faces and integrate inside a subfolder named nicolas then integrate photos of you which will be named 1.webp, 2.webp, etc. architecture direct link [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
+in order to be able to use the capture of images by person you must create a folder if it does not exist in ... named known\_faces and integrate inside a subfolder named nicolas then integrate photos of you which will be named 1.webp, 2.webp, etc. architecture direct link [https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){: target="_blank"}
 
 [
 
@@ -200,9 +200,9 @@ and voila if everything went well Zmeventnotification should be functional.
 
 ## 3 - Integration of Zoneminder in Home Assistant
 
-[zmeventnotification known-faces](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"}
+[zmeventnotification known-faces](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){: target="_blank"}
 
-[the lines of codes below are to be entered in the configuration.yaml of home-assistant to know all the parameters consult this official page:](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){:target="_blank"} [Intéegrate Zoneminder and Home assistant](https://www.home-assistant.io/integrations/zoneminder/){:target="_blank"}.
+[the lines of codes below are to be entered in the configuration.yaml of home-assistant to know all the parameters consult this official page:](https://zmeventnotification.readthedocs.io/en/latest/guides/hooks.html?highlight=known#known-faces-images){: target="_blank"} [Intéegrate Zoneminder and Home assistant](https://www.home-assistant.io/integrations/zoneminder/){: target="_blank"}.
 
 {% picture posts/{{ page.guid }}/detail-ha-zm.png --img width="820" height="460" --alt interface zoneminder in home assistant %}
 

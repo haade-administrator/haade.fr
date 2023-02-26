@@ -31,7 +31,7 @@ To better understand the zigbee mesh [I recently created an article on this subj
 
 ### Comparison table zigbee vs z-wave
 
-| | **[ZIGBEE](https://zigbeealliance.org/en/){:target="_blank"}** | **[Z-WAVE](https://z-wavealliance.org/){:target="_blank"}** |
+| | **[ZIGBEE](https://zigbeealliance.org/en/){: target="_blank"}** | **[Z-WAVE](https://z-wavealliance.org/){: target="_blank"}** |
 |---|---|---|
 | **EVOLUTION** | 1.2 – 3.0 | 300 – 500 – 700 |
 | Mesh | yes | yes |
@@ -62,7 +62,7 @@ To better understand the zigbee mesh [I recently created an article on this subj
 
 ### So what is the right protocol!
 
-Personally I had 5 years ago started to automate my habitat in z-wave with the home automation manager **[Jeedom](https://www.jeedom.com/en/)**{:target=" _blank"}.
+Personally I had 5 years ago started to automate my habitat in z-wave with the home automation manager **[Jeedom](https://www.jeedom.com/en/)**{: target=" _blank"}.
 
 > Throughout these years I have been able to form an objective opinion on the matter. From there was born the desire to publish a comparison zigbee vs z-wave.
 
@@ -70,7 +70,7 @@ Personally I had 5 years ago started to automate my habitat in z-wave with the h
 
 Since May 2019 I have decided to change all the modules on z-wave batteries to xiaomi zigbee modules. This awareness for this change came at the same time as the desire to change the jeedom home automation system to homeassistant.
 
-Admittedly, it was tricky, but I don't regret it. Jeedom started developing **openzigbee** which supports [zigbee2mtt](https://www.zigbee2mqtt.io/){:target="_blank"} but dropped it to deal with deconz. *This is one of the reasons that made me leave this system, but that's another debate.* So integration by mqtt is possible but you have to create virtual ones to control the actions and that's not very waf.
+Admittedly, it was tricky, but I don't regret it. Jeedom started developing **openzigbee** which supports [zigbee2mtt](https://www.zigbee2mqtt.io/){: target="_blank"} but dropped it to deal with deconz. *This is one of the reasons that made me leave this system, but that's another debate.* So integration by mqtt is possible but you have to create virtual ones to control the actions and that's not very waf.
 
   Then there is the **cost of the modules** which is currently too expensive for my taste for z-wave, that should change in the second half of 2020 but for the moment I have sold the old modules second-hand on a market place and 5 modules on batteries allowed me to collect enough money to pay me 20 in zigbee it is simply surreal. So should we remove the z-wave I would say no because for now the z-wave modules are more varied than zigbee (but this is changing).
 
@@ -78,6 +78,6 @@ Admittedly, it was tricky, but I don't regret it. Jeedom started developing **op
 
 ### So should we favor Zigbee!
 
-**To conclude, the Zigbee protocol is in my opinion essential** and the z-wave protocol remains complementary or even secondary, but all of this risks changing in 1 to two years with [the arrival of the Home over ip protocol with matter](https://buildwithmatter.com/){:target="_blank"} 😉
+**To conclude, the Zigbee protocol is in my opinion essential** and the z-wave protocol remains complementary or even secondary, but all of this risks changing in 1 to two years with [the arrival of the Home over ip protocol with matter](https://buildwithmatter.com/){: target="_blank"} 😉
 
 In my humble opinion yes it is much more reasonable in terms of cost and maintenance, once you have all the tips to strengthen the mesh it even becomes essential.

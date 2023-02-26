@@ -23,13 +23,13 @@ redirect_from:
 rating: 4.6
 ---
 
-Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the [Atlantic thermostat 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){:target="_blank"} this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.
+Today I will test and install the Zigbee BHT-002 thermostat from the Moes brand, more precisely the electric heating version BHT-002-GBLZBW, this one will be replace with the [Atlantic thermostat 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){: target="_blank"} this thermostat from the years 2005 always costs more than 40 euros per unit with very limited settings.
 
 {% include product-embed.html image="moes-thermostat-intelligent-zigbee-blanc-pour-chaudiere-eaugaz-3a.jpg" title="MOES - INTELLIGENT THERMOSTAT ZIGBEE WHITE FOR WATER/GAS BOILER 3A" brand=" Moes" description="Control the temperature of your home intelligently with the Zigbee MOES thermostat for water or gas boilers." affiliate="_DlTTNnv" domlink="thermostats/5781-moes-black-zigbee-smart-thermostat-for-3a-watergas-boiler.html" %}
 
 {% picture posts/{{ page.guid}}/remplacement-thermostat-atlantic109519-vs-moes-bht-002.png --alt replacement thermostat atlantic electric heating by moes bht-002 --img width="820" height="461" %}
 
-To talk about the Moes brand, this is the second material that I test, both ordered from the Moes Official Store of Aliexpress, and frankly the quality is very well finished. The packaging is professional and the instructions is perfectly detailed. So do not hesitate to order the products of this brand. Moreover, [in a future article Yann says (uncle) will test the brand's new 3 in 1 sensor (thermometer, brightness and humidity) zigbee](https://fr.aliexpress.com/item/1005002522611717.html?spm=a2g0o.productlist.0.0.47147798UjVhU9&algo_pvid=760ce515-952e-453c-bdc1-465c7c3542f7&algo_exp_id=760ce515-952e-453c-bdc1-465c7c3542f7-41){:target="_blank"}. It is already zigbee2mqtt compatible so multiplatform, I'm looking forward to that so it's up to you to play uncle.
+To talk about the Moes brand, this is the second material that I test, both ordered from the Moes Official Store of Aliexpress, and frankly the quality is very well finished. The packaging is professional and the instructions is perfectly detailed. So do not hesitate to order the products of this brand. Moreover, [in a future article Yann says (uncle) will test the brand's new 3 in 1 sensor (thermometer, brightness and humidity) zigbee](https://fr.aliexpress.com/item/1005002522611717.html?spm=a2g0o.productlist.0.0.47147798UjVhU9&algo_pvid=760ce515-952e-453c-bdc1-465c7c3542f7&algo_exp_id=760ce515-952e-453c-bdc1-465c7c3542f7-41){: target="_blank"}. It is already zigbee2mqtt compatible so multiplatform, I'm looking forward to that so it's up to you to play uncle.
 
 {% picture posts/{{ page.guid}}/moes-bht-002-gzb-contenu-paquet-haade.png --alt unboxing moes bht-002 --img width="820" height="461" %}
 
@@ -62,7 +62,7 @@ What a pity that the connection work by dupont wires, a contact system is more p
 
 # Technical Notice BHT-002
 
-[](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){:target="_blank"}
+[](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){: target="_blank"}
 
 Notice officielle du thermostat zigbee Moes BHT-002
 

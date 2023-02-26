@@ -29,14 +29,14 @@ redirect_from:
 rating: 4.6
 ---
 
-Aujourd'hui je vais tester et installer le thermostat zigbee BHT-002 de la marque Moes, plus précisément la version chauffage électrique BHT-002-GBLZBW, celui-ci va être remplacer par le [thermostat Atlantic 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){:target="_blank"} ce thermostat des années 2000 coûte toujours _plus de 40 euro_s l'unité avec des paramétrages très restreints.
+Aujourd'hui je vais tester et installer le thermostat zigbee BHT-002 de la marque Moes, plus précisément la version chauffage électrique BHT-002-GBLZBW, celui-ci va être remplacer par le [thermostat Atlantic 109519](https://www.rexel.fr/frx/Cat%C3%A9gorie/Chauffage-%C3%A9lectrique-climatisation-ventilation/Chauffage-domestique/C%C3%A2ble-chauffant/Plancher-Chauffant-Domocable---Thermostat-digital/ATL109519/p/62427465){: target="_blank"} ce thermostat des années 2000 coûte toujours _plus de 40 euro_s l'unité avec des paramétrages très restreints.
 
 {% include product-embed.html image="moes-thermostat-intelligent-zigbee-blanc-pour-chaudiere-eaugaz-3a.jpg" title="MOES - THERMOSTAT INTELLIGENT ZIGBEE BLANC POUR CHAUDIÈRE EAU/GAZ 3A" brand="Moes" description="Contrôlez la température de votre logement de façon intelligente avec le thermostat Zigbee MOES pour chaudière eau ou gaz." affiliate="_DlTTNnv" domlink="thermostats/5781-moes-thermostat-intelligent-zigbee-blanc-pour-chaudiere-eaugaz-3a.html" %}
 
 
 {% picture posts/{{ page.guid}}/remplacement-thermostat-atlantic109519-vs-moes-bht-002.png --alt remplacement thermostat atlantic chauffage électrique par moes bht-002 --img width="820" height="461" %}
 
-Pour parler de la marque Moes, c'est le second matériel que je test, commandé tous deux chez le revendeur Moes Official Store d'aliexpress, franchement la qualité est très bien fini, l'emballage est pro et [la notice ( en Anglais ) est parfaitement détaillée.](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){:target="_blank"} Alors n'hésitez pas à commander les produits de cette marque. D'ailleurs dans un prochain article Yann va tester [le nouveau capteur 3 en 1 ( thermomètre, luminosité et humidité ) zigbee de la marque](https://fr.aliexpress.com/item/1005002522611717.html?spm=a2g0o.productlist.0.0.47147798UjVhU9&algo_pvid=760ce515-952e-453c-bdc1-465c7c3542f7&algo_exp_id=760ce515-952e-453c-bdc1-465c7c3542f7-41){:target="_blank"}. Il est déjà compatible zigbee2mqtt donc multi-plateforme, j'attends ça avec impatience donc à toi de jouer tonton.
+Pour parler de la marque Moes, c'est le second matériel que je test, commandé tous deux chez le revendeur Moes Official Store d'aliexpress, franchement la qualité est très bien fini, l'emballage est pro et [la notice ( en Anglais ) est parfaitement détaillée.](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){: target="_blank"} Alors n'hésitez pas à commander les produits de cette marque. D'ailleurs dans un prochain article Yann va tester [le nouveau capteur 3 en 1 ( thermomètre, luminosité et humidité ) zigbee de la marque](https://fr.aliexpress.com/item/1005002522611717.html?spm=a2g0o.productlist.0.0.47147798UjVhU9&algo_pvid=760ce515-952e-453c-bdc1-465c7c3542f7&algo_exp_id=760ce515-952e-453c-bdc1-465c7c3542f7-41){: target="_blank"}. Il est déjà compatible zigbee2mqtt donc multi-plateforme, j'attends ça avec impatience donc à toi de jouer tonton.
 
 {% picture posts/{{ page.guid}}/moes-bht-002-gzb-contenu-paquet-haade.png --alt déballage moes bht-002 --img width="820" height="461" %}
 
@@ -69,7 +69,7 @@ Aussi **la sonde NTC de 2,5m est une sonde de température numérique étanche e
 
 # Notice Technique BHT-002
 
-[Notice technique BHT-002](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){:target="_blank"}
+[Notice technique BHT-002](https://drive.google.com/file/d/13ArYq5bkG5xbnuoVv76iHq4Rb2fCYrG5/view?usp=sharing){: target="_blank"}
 
 Notice officielle du thermostat zigbee Moes BHT-002
 

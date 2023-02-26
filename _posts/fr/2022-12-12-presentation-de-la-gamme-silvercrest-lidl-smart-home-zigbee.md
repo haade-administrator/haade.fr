@@ -25,14 +25,14 @@ sourcelink:
   - https://www.lidl.fr/la-variete-lidl/smart-home
 ---
 
-Lidl commercialise depuis un moment des produits connectés fonctionnant en **Zigbee 3.0**, les gammes concernées sont **Silvercrest** mais aussi **Livarno**. [Cliquez ici pour accéder à l'ensemble de la Gamme Zigbee Lidl](https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&brand=silvercrest&brand=livarno+lux&brand=livarno+home&idsOnly=false&productsOnly=false){:target="_blank"}.
+Lidl commercialise depuis un moment des produits connectés fonctionnant en **Zigbee 3.0**, les gammes concernées sont **Silvercrest** mais aussi **Livarno**. [Cliquez ici pour accéder à l'ensemble de la Gamme Zigbee Lidl](https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&brand=silvercrest&brand=livarno+lux&brand=livarno+home&idsOnly=false&productsOnly=false){: target="_blank"}.
 > Produits imposants, emballage de qualité, au premier abord qualitatif, mais qu'en est-il réellement ? pouvons-nous nous fier à ce matériel !
 
 {%- include alert.html type="info" text="Prochaine vente dans vos magasins le <b>18/01/2023</b>" %}
 
 # Modules Zigbee Smart home Lidl Silvercrest
 
-Déjà présenté à de nombreuses reprises, je ne vais pas m'attarder sur ces produits, par contre on peut lire à gauche et à droite qu'ils ne s'utilisent qu'avec la box Smart Home, eh bien ce n'est pas le cas, chez moi ils sont intégrés à Home Assistant par le biais de la passerelle [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
+Déjà présenté à de nombreuses reprises, je ne vais pas m'attarder sur ces produits, par contre on peut lire à gauche et à droite qu'ils ne s'utilisent qu'avec la box Smart Home, eh bien ce n'est pas le cas, chez moi ils sont intégrés à Home Assistant par le biais de la passerelle [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){: target="_blank"}.
 
 **Avantage:**{: .blue}
 1. Le prix de 10 à 30€ pour la multiprise
@@ -133,7 +133,7 @@ Pour une utilisation comme détecteur de mouvement ou pour commander des éclair
 
 # Webshop Belgique
 
-[Boutique en ligne Lidl Livraison Belgique](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){:target="_blank"}
+[Boutique en ligne Lidl Livraison Belgique](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){: target="_blank"}
 
 # Conclusion
 

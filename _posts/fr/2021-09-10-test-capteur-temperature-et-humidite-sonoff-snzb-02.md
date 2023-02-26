@@ -39,7 +39,7 @@ J'ai décidé de mettre en avant en présentant un test du [capteur de températ
 - Protocole sans fil: Zigbee (IEEE 802.15.4)
 - Dimension: 43X43X14mm
 
-Bon si tu suis l'actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peux voir que le module snzb-02 est compatible](https://www.zigbee2mqtt.io/devices/SNZB-02.html){:target="_blank"}. Il suffit d'ouvrir le réseau et de cliquer 5 secondes sur le bouton du dessous, ensuite la led clignote 3 fois ainsi le module se réinitialise et s'intègre dans le réseau homeassistant.
+Bon si tu suis l'actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peux voir que le module snzb-02 est compatible](https://www.zigbee2mqtt.io/devices/SNZB-02.html){: target="_blank"}. Il suffit d'ouvrir le réseau et de cliquer 5 secondes sur le bouton du dessous, ensuite la led clignote 3 fois ainsi le module se réinitialise et s'intègre dans le réseau homeassistant.
 
 ## 5 données remontent du capteur SNZB-02 dans homeassistant:
 
@@ -70,7 +70,7 @@ Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zig
 
 - Package un peut light ( mais c'est pas ce qu'on lui demande )
 - la taille, relativement massive
-- les piles [CR2450](https://amzn.to/3mGXoJA){:target="_blank"} sont plus chères que les [CR2032](https://amzn.to/2WpZ1QB){:target="_blank"} ( comparatif sur la marque VARTA )
+- les piles [CR2450](https://amzn.to/3mGXoJA){: target="_blank"} sont plus chères que les [CR2032](https://amzn.to/2WpZ1QB){: target="_blank"} ( comparatif sur la marque VARTA )
 
 **Rappel:** Dimension sonoff SNZB-02: 42x42x14mm CR2450 3v
 

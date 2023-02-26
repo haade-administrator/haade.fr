@@ -38,7 +38,7 @@ I decided to put forward by presenting a test of the [Sonoff SNZB-02 temperature
 - Wireless protocol: Zigbee (IEEE 802.15.4)
 - Dimension: 43X43X14mm
 
-Well if you follow the news of zigbee2mqtt with more than 1600 integrations, [you can see that the snzb-02 module is compatible](https://www.zigbee2mqtt.io/devices/SNZB-02.html){:target="_blank"}. All you have to do is open the network and click on the button below for 5 seconds, then the led flashes 3 times so the module resets itself and becomes part of the homeassistant network.
+Well if you follow the news of zigbee2mqtt with more than 1600 integrations, [you can see that the snzb-02 module is compatible](https://www.zigbee2mqtt.io/devices/SNZB-02.html){: target="_blank"}. All you have to do is open the network and click on the button below for 5 seconds, then the led flashes 3 times so the module resets itself and becomes part of the homeassistant network.
 
 ## 5 data are sent from the SNZB-02 sensor in homeassistant:
 
@@ -70,7 +70,7 @@ Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 pro
 
 - Package a little light (but that's not what we ask)
 - the size, relatively massive
-- [CR2450](https://amzn.to/3mGXoJA){:target="_blank"} batteries are more expensive than [CR2032](https://amzn.to/2WpZ1QB){:target="_blank"} (comparison on the VARTA brand)
+- [CR2450](https://amzn.to/3mGXoJA){: target="_blank"} batteries are more expensive than [CR2032](https://amzn.to/2WpZ1QB){: target="_blank"} (comparison on the VARTA brand)
 
 **Reminder:** Dimension sonoff SNZB-02: 42x42x14mm CR2450 3v
 

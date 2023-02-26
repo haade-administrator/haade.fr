@@ -55,10 +55,10 @@ parmi les options que je trouve les plus intéressantes de watchtower on peut:
 ### Documentation officielle de Watchtower
 
 Ci joint la documentation officielle de Watchtower   
-[Documentation officielle Watchtower](https://containrrr.github.io/watchtower/){:target="_blank"}
+[Documentation officielle Watchtower](https://containrrr.github.io/watchtower/){: target="_blank"}
 
 Liste des Arguments disponibles  
-[Arguments Watchtower](https://containrrr.github.io/watchtower/arguments/){:target="_blank"}
+[Arguments Watchtower](https://containrrr.github.io/watchtower/arguments/){: target="_blank"}
 
 Le code docker ci-dessous avec l’argument
 `--schedule "0 2 * * *`
@@ -66,7 +66,7 @@ nous permet de programmer la recherche de mise à jour des images à 2h00 du mat
 
 ### Générateur d’horaire Cron
 
-[générateur crontab Watchtower](https://toolki.com/fr/crontab){:target="_blank"}
+[générateur crontab Watchtower](https://toolki.com/fr/crontab){: target="_blank"}
 
 Ce qui pourrait être dérangeant si nous avons un site wordpress par exemple. L’argument `--cleanup` nous permet d’effacer l’ancienne image après une mise à jour réussi. Afin de ne pas saturer notre disque dur inutilement.
 

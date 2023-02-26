@@ -24,7 +24,7 @@ redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip/
 ---
 
-This article is a translation of [the original article available at this address](https://www.connectedhomeip.com/){:target="_blank"} of the future home over ip protocol
+This article is a translation of [the original article available at this address](https://www.connectedhomeip.com/){: target="_blank"} of the future home over ip protocol
 
 ## What is that?
 
@@ -32,7 +32,7 @@ First of all Project Connected Home over IP is a new working group. Who plans to
 
 ## How will it work?
 
-Amazon, Apple, Google and the [Zigbee Alliance](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/protocole/zigbee-comprendre-le-protocole-et- le-maillage/){:target="_blank"} have partnered to promote the formation of the working group. As well as Zigbee Alliance board member companies, IKEA, Legrand, NXP Semiconductors, Resideo, Samsung SmartThings, Schneider Electric, Signify (formerly Philips Lighting), Silicon Labs, Somfy and Wulian are also on board to join the working group and contribute to the project.
+Amazon, Apple, Google and the [Zigbee Alliance](https://www.haade.fr/blog/tutoriel-domotique-electronique/domotique-smarthome-jeedom-homeassistant/protocole/zigbee-comprendre-le-protocole-et- le-maillage/){: target="_blank"} have partnered to promote the formation of the working group. As well as Zigbee Alliance board member companies, IKEA, Legrand, NXP Semiconductors, Resideo, Samsung SmartThings, Schneider Electric, Signify (formerly Philips Lighting), Silicon Labs, Somfy and Wulian are also on board to join the working group and contribute to the project.
 
 The goal of the Home over ip protocol is to simplify development for manufacturers. And increase compatibility for consumers. The project is built around a shared belief that smart home devices should be safe, reliable and seamless to use. Leveraging Internet Protocol (IP), the project aims to enable communication between smart home devices, mobile apps and cloud services. And thus define a specific set of IP networking technologies for device certification.
 
@@ -113,7 +113,7 @@ No. At this time, the task force has no plans to standardize smart home user int
 
 ### I am interested. How to join this effort?
 
-The working group welcomes and invites device manufacturers, silicon vendors, and other smart home industry developers to participate and contribute to the development of this new standard. If you would like to get involved or receive updates, [fill out the form available here](https://www.connectedhomeip.com/){:target="_blank"}
+The working group welcomes and invites device manufacturers, silicon vendors, and other smart home industry developers to participate and contribute to the development of this new standard. If you would like to get involved or receive updates, [fill out the form available here](https://www.connectedhomeip.com/){: target="_blank"}
 
 ## Open source home over ip
 

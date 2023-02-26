@@ -76,7 +76,7 @@ Comes with a Jeedom Luna
 
 Initially scheduled for November 2022, this box is running late, **the release has been postponed to End-December 2022**, at the time of writing these few lines.
 
-You can get this home automation box **at the price of €199 including tax** (excluding options) exclusively from our partner, specialist in the online sale of home automation equipment, [the shop domadoo.fr](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html?domid=39){:target="_blank"}.
+You can get this home automation box **at the price of €199 including tax** (excluding options) exclusively from our partner, specialist in the online sale of home automation equipment, [the shop domadoo.fr](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html?domid=39){: target="_blank"}.
 
 ## Conclusion
 

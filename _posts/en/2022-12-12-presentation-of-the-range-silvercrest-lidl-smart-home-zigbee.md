@@ -24,14 +24,14 @@ rating:
 sourcelink:
   - https://www.lidl.fr/la-variete-lidl/smart-home
 ---
-Lidl has been marketing connected products operating in **Zigbee 3.0** for some time, the ranges concerned are **Silvercrest** but also **Livarno**. [Click here to access the entire Zigbee Lidl range](https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&brand=silvercrest&brand=livarno+lux&brand =livarno+home&idsOnly=false&productsOnly=false){:target="_blank"}.
+Lidl has been marketing connected products operating in **Zigbee 3.0** for some time, the ranges concerned are **Silvercrest** but also **Livarno**. [Click here to access the entire Zigbee Lidl range](https://www.lidl.be/h/fr-BE/maison-connectee/h10005939?pageId=%2F10005756%2F10005939&brand=silvercrest&brand=livarno+lux&brand =livarno+home&idsOnly=false&productsOnly=false){: target="_blank"}.
 > Imposing products, quality packaging, at first glance qualitative, but what is it really? can we trust this material!
 
 {%- include alert.html type="info" text="Next sale in your stores on <b>../../....</b>" %}
 
 # Zigbee Smart home modules Lidl Silvercrest
 
-Already presented on many occasions, I will not dwell on these products, on the other hand we can read on the left and on the right that they are only used with the Smart Home box, well it is not If so, for me they are integrated with Home Assistant through the gateway [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){:target="_blank"}.
+Already presented on many occasions, I will not dwell on these products, on the other hand we can read on the left and on the right that they are only used with the Smart Home box, well it is not If so, for me they are integrated with Home Assistant through the gateway [Zigbee2mqtt](https://www.zigbee2mqtt.io/supported-devices/#v=Lidl){: target="_blank"}.
 
 **Advantage:**{: .blue}
 1. The price of 10 to 30€ for the power strip
@@ -131,7 +131,7 @@ For use as a motion detector or to control lights.
 
 # Webshop Belgium
 
-[Lidl online store Delivery Belgium](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){:target="_blank"}
+[Lidl online store Delivery Belgium](https://www.lidl.be/q/fr-BE/search?offset=24&q=smart%20home){: target="_blank"}
 
 # Conclusion
 

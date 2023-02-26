@@ -25,7 +25,7 @@ redirect_from:
   - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/protocole-connecte-home-over-ip/
 ---
 
-Cet article est une traduction de [l’article original disponible à cette adresse](https://www.connectedhomeip.com/){:target="_blank"} du futur protocole home over ip
+Cet article est une traduction de [l’article original disponible à cette adresse](https://www.connectedhomeip.com/){: target="_blank"} du futur protocole home over ip
 
 ## Qu’Est-ce que c’est?
 
@@ -114,7 +114,7 @@ Non. À l’heure actuelle, le groupe de travail n’a pas l’intention de norm
 
 ### Je suis intéressé. Comment rejoindre cet effort?
 
-Le groupe de travail accueille et invite les fabricants d’appareils, les fournisseurs de silicium et d’autres développeurs de l’industrie de la maison intelligente à participer et à contribuer au développement de cette nouvelle norme. Si vous souhaitez vous impliquer ou recevoir des mises à jour, [remplissez le formulaire disponible à cette adresse](https://www.connectedhomeip.com/){:target="_blank"}
+Le groupe de travail accueille et invite les fabricants d’appareils, les fournisseurs de silicium et d’autres développeurs de l’industrie de la maison intelligente à participer et à contribuer au développement de cette nouvelle norme. Si vous souhaitez vous impliquer ou recevoir des mises à jour, [remplissez le formulaire disponible à cette adresse](https://www.connectedhomeip.com/){: target="_blank"}
 
 ## Open source home over ip
 

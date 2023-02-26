@@ -20,7 +20,7 @@ toc: true
 jekyll serve --drafts
 
 
-[source](https://www.markdownguide.org/tools/jekyll/){:target="_blank"}
+[source](https://www.markdownguide.org/tools/jekyll/){: target="_blank"}
 
 # Nombre de # pour la taille du titre
 ## titre 2 exemple ...
@@ -66,7 +66,7 @@ le retour à la ligne se fait automatiquement.
 # Les Liens
 
 ### Inclure un lien externe
-[Descriptif](https://www.lien.fr){:target="_blank"}
+[Descriptif](https://www.lien.fr){: target="_blank"}
 
 ### créer un lien vers un article du site:
 [intégrer un article interne]({% post_url /en/2021-05-11-esphome-and-homeassistant %})

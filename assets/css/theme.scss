@@ -863,6 +863,7 @@ img:hover {
             text-decoration: none;
             position: relative;
             font-weight: 600;
+            display: inline-block;
             &:hover {
                 color: $purple;
                 &::before {
@@ -872,11 +873,11 @@ img:hover {
             }
             &::before {
                 content: '';
-                background-color: #95e9fe;
+                background-color: rgb(149, 233, 254);
                 position: absolute;
-                left: -2px;
-                bottom: 3px;
-                width: 101%;
+                left: 0;
+                bottom: 7px;
+                width: 100%;
                 height: 6px;
                 z-index: -1;
                 transition: all .3s ease-in-out;

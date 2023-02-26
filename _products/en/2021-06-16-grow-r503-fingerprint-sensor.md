@@ -52,4 +52,4 @@ Accessories are also available with the Grow R503 such as a [stainless steel pla
 |Abrasive resistance intensity|1 million times|
 |Communications baud rate (UART):|(9600 × N) bps where N = 1 ~ 12(default N = 6, ie 57600bps)|
 
-Technical folder: [download here](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){:target="_blank"}
+Technical folder: [download here](https://www.dropbox.com/sh/epucei8lmoz7xpp/AAAmon04b1DiSOeh1q4nAhzAa?dl=0&preview=R503+fingerprint+module+user+manual.pdf){: target="_blank"}

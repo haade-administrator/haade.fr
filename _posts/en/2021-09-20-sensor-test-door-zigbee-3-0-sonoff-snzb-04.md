@@ -38,7 +38,7 @@ That's after the [presentation of the temperature sensor SNZB-02]({% post_url /e
 - Wireless protocol: Zigbee (IEEE 802.15.4)
 - Dimensions: **magnet:** 32 x 15.6 x 13mm, **sensor:** 47 x 27 x 13.5mm
 
-So if you follow zigbee2mqtt news with more than 1600 integrations, [you can see that the snzb-04 module is compatible.](https://www.zigbee2mqtt.io/devices/SNZB-04.html){:target="_blank"} All you have to do is open the network and click the button below for 5 seconds, then the LED flashes 3 times so the module resets itself and becomes part of the home assistant network.
+So if you follow zigbee2mqtt news with more than 1600 integrations, [you can see that the snzb-04 module is compatible.](https://www.zigbee2mqtt.io/devices/SNZB-04.html){: target="_blank"} All you have to do is open the network and click the button below for 5 seconds, then the LED flashes 3 times so the module resets itself and becomes part of the home assistant network.
 
 ## 5 data are sent from the SNZB-04 sensor in the home assistant:
 
@@ -70,7 +70,7 @@ test and compare of open sensor sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
 - Package a little light ( but that's not what we ask )
 - **the size, too massive for my taste**
-- the batteries [CR2450](https://amzn.to/3mGXoJA){:target="_blank"} are more expansives of [CR2032](https://amzn.to/2WpZ1QB){:target="_blank"} ( comparative brand VARTA )
+- the batteries [CR2450](https://amzn.to/3mGXoJA){: target="_blank"} are more expansives of [CR2032](https://amzn.to/2WpZ1QB){: target="_blank"} ( comparative brand VARTA )
 
 **Reminder:** Dimension sonoff SNZB-04:
 

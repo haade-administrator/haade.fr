@@ -32,7 +32,7 @@ But when you want to change the icon of a binary, *example:* a door opening dete
 
 In this case, the customization must be used in the **customize.yaml.**
 
-First of all, you have to add the integration line in the configuration.yaml [click there and you will find all the information about the configuration of the file.](https://www.home-assistant.io/docs/configuration/customizing-devices/){:target="_blank"}
+First of all, you have to add the integration line in the configuration.yaml [click there and you will find all the information about the configuration of the file.](https://www.home-assistant.io/docs/configuration/customizing-devices/){: target="_blank"}
 
 To keep things simple, you have to add this line:
 

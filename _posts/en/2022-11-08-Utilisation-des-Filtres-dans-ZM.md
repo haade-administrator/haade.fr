@@ -32,7 +32,7 @@ By default there are two functional filters:
 
 First, the asterisk at the end of the title indicates to the user that the filter is linked to a cron job in order to operate repeatedly in the background, simply select the &gt;&gt;&gt; run filters in the background.
 
-PurgeWhenFull: [Official Doc](https://wiki.zoneminder.com/PurgeWhenFull){:target="_blank"}, allows you to empty the hard disk
+PurgeWhenFull: [Official Doc](https://wiki.zoneminder.com/PurgeWhenFull){: target="_blank"}, allows you to empty the hard disk
 
 ## Actions to select:
 
@@ -60,4 +60,4 @@ Then we click on **execute** and **list matches** in order to see the *events co
 Well this tutorial is not complete, and I apologize, I waited so long to write this article that now I no longer use Zoneminder, why!
 This software is complete but the management of events, the configuration of the cameras is complex and frankly cannot be optimized.
 > **Furthermore I have decided to stop using ZM.**
-Why this changeover: since zm decided to stop the evolution of the ZMevenvnotification program in November 2021, suddenly it no longer has any real interest, especially since there has been a free NVR for Homeassistant for a while, it is is from **[Frigate](https://frigate.video/)**{:target="_blank"}, **this project is young but already very promising.**
+Why this changeover: since zm decided to stop the evolution of the ZMevenvnotification program in November 2021, suddenly it no longer has any real interest, especially since there has been a free NVR for Homeassistant for a while, it is is from **[Frigate](https://frigate.video/)**{: target="_blank"}, **this project is young but already very promising.**

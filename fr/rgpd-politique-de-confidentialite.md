@@ -32,7 +32,7 @@ L’adresse de notre site Web est : [haade.fr](https://www.haade.fr)
 
 Quand vous laissez un commentaire sur notre site web, les données inscrites dans le formulaire de commentaire, mais aussi votre adresse IP et l’agent utilisateur de votre navigateur sont collectés pour nous aider à la détection des commentaires indésirables.
 
-Une chaîne anonymisée créée à partir de votre adresse de messagerie (également appelée hash) peut être envoyée au service Gravatar pour vérifier si vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont [disponibles en cliquant ici.](https://automattic.com/privacy/){:target="_blank"}
+Une chaîne anonymisée créée à partir de votre adresse de messagerie (également appelée hash) peut être envoyée au service Gravatar pour vérifier si vous utilisez ce dernier. Les clauses de confidentialité du service Gravatar sont [disponibles en cliquant ici.](https://automattic.com/privacy/){: target="_blank"}
 Après validation de votre commentaire, votre photo de profil sera visible publiquement à coté de votre commentaire.
 
 ### Médias
@@ -63,13 +63,13 @@ Ces sites web pourraient collecter des données sur vous, utiliser des cookies, 
 
 ### Statistiques et mesures d’audience
 
-Haade utilise l’outil [Google Analytics](https://analytics.google.com/analytics/web/){:target="_blank"} afin d’établir des statistiques et mesures d’audience. Ces données personnelles sont anonymisés et ne sont pas utilisés à d’autres fins (revente, etc).
+Haade utilise l’outil [Google Analytics](https://analytics.google.com/analytics/web/){: target="_blank"} afin d’établir des statistiques et mesures d’audience. Ces données personnelles sont anonymisés et ne sont pas utilisés à d’autres fins (revente, etc).
 
 ## Utilisation et transmission de vos données personnelles
 
 Les formulaires utilisés pour le guide gratuit contenant votre nom (facultatif) et votre adresse email permet de vous envoyer ce guide gratuit par une série d’email.
 
-Le service utilisé est [Mailchimp](https://mailchimp.com/fr/){:target="_blank"}, ce dernier se conforme aux exigences européennes en matière de protection des données (cf RGPD).
+Le service utilisé est [Mailchimp](https://mailchimp.com/fr/){: target="_blank"}, ce dernier se conforme aux exigences européennes en matière de protection des données (cf RGPD).
 
 Votre adresse email est uniquement utilisé par Haade, à travers des envois d’offres promotionnelles, de contenus autour de la thématique du blog.
 

@@ -146,7 +146,7 @@ the Lidl SAPZ 1 A1 socket has **( 2 functions )** and allows:
 |Temperature sensor|No|No|**Yes**{: .blue}|No|
 |Paper notice|Summary|complete|complete|complete|
 |Operation light|red|orange|blue|white|
-|Price|[**€16.99**](https://www.domadoo.fr/fr/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html? domid=39){:target="_blank"}{:.orange}|[**10.61**](https://uk.aliexpress.com/item/1005003446740203.html){:target="_blank "}{: .blue}~[**€16.99**](https://www.domadoo.fr/fr/peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de -consumption.html?domid=39){: target="_blank"}{: .orange}|[**€23.99**](https://www.domadoo.fr/fr/peripheriques/5385- aqara-plug-connected-zigbee-30-smart-plug-sp-euc01.html?domid=39){: target="_blank"}{: .red}|**€11.99**{: .blue }|
+|Price|[**€16.99**](https://www.domadoo.fr/fr/peripheriques/6165-nous-prise-intelligente-zigbee-30-mesure-de-consommation-5907772033517.html? domid=39){: target="_blank"}{:.orange}|[**10.61**](https://uk.aliexpress.com/item/1005003446740203.html){: target="_blank "}{: .blue}~[**€16.99**](https://www.domadoo.fr/fr/peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de -consumption.html?domid=39){: target="_blank"}{: .orange}|[**€23.99**](https://www.domadoo.fr/fr/peripheriques/5385- aqara-plug-connected-zigbee-30-smart-plug-sp-euc01.html?domid=39){: target="_blank"}{: .red}|**€11.99**{: .blue }|
 
 # Images for the end
 

@@ -24,7 +24,7 @@ redirect_from:
   - /fr/blog/news/nas-opensource-pour-raspberry-pi-cm4-le-futur/
   - /blog/news/nas-opensource-pour-raspberry-pi-cm4-le-futur/
 ---
-Après [la fin annoncée par kobol,]({% post_url /fr/2021-08-26-kobol-helios-64-cest-termine %}) [Wiretrustee](https://wiretrustee.com/){:target="_blank"} annonce l'arrivée imminente d'une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )
+Après [la fin annoncée par kobol,]({% post_url /fr/2021-08-26-kobol-helios-64-cest-termine %}) [Wiretrustee](https://wiretrustee.com/){: target="_blank"} annonce l'arrivée imminente d'une carte SATA compatible avec le Raspberrypi compute module 4 ( CM4 )
 
 {% picture posts/{{ page.guid}}/carte-sata-wiretrustee-raspberrypi-4-1.png --alt carte sata wiretrustee pour raspberrypi --img width="820" height="461" %}
 
@@ -73,4 +73,4 @@ La carte Wiretrustee SATA a été vérifiée pour fonctionner avec le système d
 
 **Tarif** de la carte wiretrustee SATA: **Inconnu ?**
 
-**Pour connaître l'avancée** du projet et investir dès la sortie en précommande inscris-toi en cliquant directement sur le lien [Wiretrustee Crowdsupply](https://www.crowdsupply.com/wiretrustee/wiretrustee-sata){:target="_blank"}. En attendant je vais suivre personnellement l'avancée du projet car en domotique le NAS fait pour moi partie intégrante d'une installation.
+**Pour connaître l'avancée** du projet et investir dès la sortie en précommande inscris-toi en cliquant directement sur le lien [Wiretrustee Crowdsupply](https://www.crowdsupply.com/wiretrustee/wiretrustee-sata){: target="_blank"}. En attendant je vais suivre personnellement l'avancée du projet car en domotique le NAS fait pour moi partie intégrante d'une installation.

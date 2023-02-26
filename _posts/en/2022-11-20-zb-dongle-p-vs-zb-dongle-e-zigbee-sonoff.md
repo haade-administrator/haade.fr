@@ -119,8 +119,8 @@ With sensitivity better than -104 dBm for 802.15.4 and long-range Bluetooth and 
 |**Flow control**|Hardware|Software|
 |**Dimensions**|63mm|**52mm**{: .blue }|
 |**Signal strength**|From 5 to 20dbm max|**+/-20dbm max**{: .blue }|
-|**ZHA Home Assistant**|[Supported](https://www.home-assistant.io/integrations/zha/){:target="_blank"}|[Supported](https://www.home -assistant.io/integrations/zha/){:target="_blank"}|
-|**Zigbee2mqtt**|[Supported](https://www.zigbee2mqtt.io/guide/adapters/#recommended){:target="_blank"}|[**Experimental**{: .red}]( https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){:target="_blank"}|
+|**ZHA Home Assistant**|[Supported](https://www.home-assistant.io/integrations/zha/){: target="_blank"}|[Supported](https://www.home -assistant.io/integrations/zha/){: target="_blank"}|
+|**Zigbee2mqtt**|[Supported](https://www.zigbee2mqtt.io/guide/adapters/#recommended){: target="_blank"}|[**Experimental**{: .red}]( https://www.zigbee2mqtt.io/guide/adapters/#not-recommended){: target="_blank"}|
 |**Openhab**|**Not Supported**{: .red }|Supported|
 |**Jeedom**|Supported|Supported|
 |**Iobroker**|Supported|Supported|
@@ -141,7 +141,7 @@ Inside the CC2652P which runs at 48MHz, has only 300Kb of flash and 8Kb of RAM+2
 ## Compatibility with Matter
 
 Note that Zigbee is not directly compatible with Matter. Instead, Matter uses a "Zigbee-like" radio standard called Thread, which adds IP addressing to the mesh. I'm pretty sure the cc2652 dongle can be configured as either a Zigbee coordinator or a thread edge router, depending on what firmware/software you install, **but it can't do both at the same time because the CC2652P and EFR32MG21 chips are not multi-threaded,** so you'll probably need two: one for your Zigbee devices and one for your Thread devices.
-However Silicon Labs released a new Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){:target="_blank"} this one is compatible **Zigbee , Matter and Multithread**{: .red}, there are also novelties from Texas Instrument which released a chip [CC2652P7](https://www.ti.com/product/CC2652P7){:target= "_blank"} also compatible with **Zigbee, Matter and Miltithread**{: .red}.
+However Silicon Labs released a new Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){: target="_blank"} this one is compatible **Zigbee , Matter and Multithread**{: .red}, there are also novelties from Texas Instrument which released a chip [CC2652P7](https://www.ti.com/product/CC2652P7){: target= "_blank"} also compatible with **Zigbee, Matter and Miltithread**{: .red}.
 
 ## Firmware flashing
 
@@ -172,7 +172,7 @@ sudo python3 cc2538-bsl.py --bootloader-sonoff-usb -e -w -v --ieee-address 00:00
 python3 cc2538-bsl.py -h
 {% endhighlight %}
 
-I wanted to write a tutorial but there is this simple tutorial on the Zigbee2mqtt site: [zigbee2mqtt.io flash cc2652P with a terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html# method-without-docker){:target="_blank"}
+I wanted to write a tutorial but there is this simple tutorial on the Zigbee2mqtt site: [zigbee2mqtt.io flash cc2652P with a terminal](https://www.zigbee2mqtt.io/guide/adapters/flashing/flashing_via_cc2538-bsl.html# method-without-docker){: target="_blank"}
 
 
 ## ZBDongle-P Transmit Power Setup Tutorial
@@ -182,7 +182,7 @@ Below is a document written by Sonoff rather well done.
 
 {%include doclink.html pdf="Configure-ZBDongle-P-power-transmission-signal.pdf" title="configure signal strength on ZBDongle-P" %}
 
-> Note that the firmware provided by Zigbee2mqtt is already set to 20dbm [Zigbee2mqtt z-stack firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x. 0/bin){:target="_blank"}
+> Note that the firmware provided by Zigbee2mqtt is already set to 20dbm [Zigbee2mqtt z-stack firmware](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x. 0/bin){: target="_blank"}
 
 ## CONCLUSION
 

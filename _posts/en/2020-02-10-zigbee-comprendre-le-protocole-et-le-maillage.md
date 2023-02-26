@@ -27,7 +27,7 @@ redirect_from:
 
 I tried to find on the web articles concerning the protocol and the zigbee mesh and the management of its park of modules but none had been able to meet my expectations, this is how the idea of write such an article.
 
-Before starting and in order to better understand the writing of this article, you should know that our test environment is based on [**zigbee2mqtt.**](https://www.zigbee2mqtt.io/){:target= "_blank"} It is installed in a docker container and controlled by [**homeassistant core.**](https://www.home-assistant.io/){:target="_blank"} Which itself is also installed in a container. The two systems communicate together thanks to a communication server [MQTT.](http://mqtt.org/){:target="_blank"} Which acts as a buffer between the systems and is also installed in a container.
+Before starting and in order to better understand the writing of this article, you should know that our test environment is based on [**zigbee2mqtt.**](https://www.zigbee2mqtt.io/){: target= "_blank"} It is installed in a docker container and controlled by [**homeassistant core.**](https://www.home-assistant.io/){: target="_blank"} Which itself is also installed in a container. The two systems communicate together thanks to a communication server [MQTT.](http://mqtt.org/){: target="_blank"} Which acts as a buffer between the systems and is also installed in a container.
 
 ## Why I chose zigbee2mgtt!
 
@@ -42,7 +42,7 @@ Before starting and in order to better understand the writing of this article, y
 
 Zigbee2mqtt has native support for homeassistant and hassio. You can easily create a lovelace map displaying the zigbee protocol and mesh live. In addition every 15 days zigbee modules are supported. At the time of writing this message, there are more than 500 modules.
 
-Zigbee2mqtt.io devotes an entire article to the inclusion of new modules that are not yet supported, it's really within everyone's reach. [We currently find zigbee keys around 20€]({% link _products/{{ page.locale | slice: 0,2 }}/2022-09-23-key-zigbee-3-sonoff-Z-Bridge-dongle-E.md %}), (if you have the programming boxes) otherwise it's 22 € the first order). The cc2531 has the disadvantage of being compatible only with the zigbee-1.2 network, why: because it does not have enough internal memory. If you want a basic network in zigbee 3.0, then you will have to opt for a coordinator [CC26X2R coordinator zigbee 3.0](https://www.ti.com/tool/LAUNCHXL-CC26X2R1){:target="_blank"} with $40 cost. It is also possible to transform a cc2530/31 into a router in order to strengthen its mesh. remembering that for the competition we are between 35-45€.
+Zigbee2mqtt.io devotes an entire article to the inclusion of new modules that are not yet supported, it's really within everyone's reach. [We currently find zigbee keys around 20€]({% link _products/{{ page.locale | slice: 0,2 }}/2022-09-23-key-zigbee-3-sonoff-Z-Bridge-dongle-E.md %}), (if you have the programming boxes) otherwise it's 22 € the first order). The cc2531 has the disadvantage of being compatible only with the zigbee-1.2 network, why: because it does not have enough internal memory. If you want a basic network in zigbee 3.0, then you will have to opt for a coordinator [CC26X2R coordinator zigbee 3.0](https://www.ti.com/tool/LAUNCHXL-CC26X2R1){: target="_blank"} with $40 cost. It is also possible to transform a cc2530/31 into a router in order to strengthen its mesh. remembering that for the competition we are between 35-45€.
 
 ### As a reminder:
 
@@ -81,7 +81,7 @@ Staying in 1.2 has no influence on the inclusion of new generation 3.0 modules b
 2nd case: you have an existing installation with router modules installed and end modules grafted onto the coordinator instead of a router
 
 - Switch to inclusion mode and pair the router module again even if it is already recognized by zigbee2mqtt.
-- Then near this router include/re-include the end modules refresh your Network Card (personally I use [zigbee2mqtt networkmap card](https://github.com/azuwis/zigbee2mqtt-networkmap){:target=" _blank"} ).
+- Then near this router include/re-include the end modules refresh your Network Card (personally I use [zigbee2mqtt networkmap card](https://github.com/azuwis/zigbee2mqtt-networkmap){: target=" _blank"} ).
 - Normally you will see the logic module unhook from the coordinator to be grafted onto the router. **ps:** if it is an existing installation and you want to pair a door opening module, like the xiaomi. No need to take it off if a router or the coordinator is close enough then a simple inclusion will be enough to inject the module into the network.
 
 ## Remove a module from the zigbee network

@@ -20,7 +20,7 @@ toc: false
 redirect_from:
   - /en/blog/news/kobol-helios-64-cest-termine/
 ---
-On Wednesday 25 August, the company [Kobol.io](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){:target="_blank"} **decided to put an end to the adventure** of the open source helios 64 NAS (network attached storage) storage box.
+On Wednesday 25 August, the company [Kobol.io](https://blog.kobol.io/2021/08/25/we-are-pulling-the-plug/){: target="_blank"} **decided to put an end to the adventure** of the open source helios 64 NAS (network attached storage) storage box.
 
 After a **very difficult year 2020** due to soaring prices for electronic components and ever longer delivery times. The 3 friends of the company had decided at the end of April to take a break. First announced at two months, it has grown to over 4 months.
 
@@ -34,7 +34,7 @@ The adventure of the open source NAS (network attached storage) according to Kob
 
 The first Nas of the kobol company, the helios 4
 
-The pre-launch campaign turned out to be auspicious, and the first dedicated NAS-based arm-processor nano computer was born. Not without difficulty, it runs under [Armbian](https://www.armbian.com/helios4/){:target="_blank"}, who supported the project from the start by declining the software for the helios4 and 64. The first NAS delivered as a kit, the helios 4 was very affordable in the face of formidable competition.
+The pre-launch campaign turned out to be auspicious, and the first dedicated NAS-based arm-processor nano computer was born. Not without difficulty, it runs under [Armbian](https://www.armbian.com/helios4/){: target="_blank"}, who supported the project from the start by declining the software for the helios4 and 64. The first NAS delivered as a kit, the helios 4 was very affordable in the face of formidable competition.
 
 {% include youtubePlayer.html id="og2ssRhCrnI" %}
 
@@ -46,7 +46,7 @@ In order to better position itself in the market and following the ever-increasi
 
 NAS data storage module, helios64 by kobol
 
-An always open-source and compatible NAS (debian, OMV, Nextcloud), made up of an uncompromising nano card, with more power, more networks…. But also supplied with a very neat case. For $ 295 we could claim an aluminum case, a UPS battery pack. In fact, the NAS integrated by default an inverter on battery and cables. All this provided with the same [Armbian opensource software for helios64.](https://www.armbian.com/helios64/){:target="_blank"}
+An always open-source and compatible NAS (debian, OMV, Nextcloud), made up of an uncompromising nano card, with more power, more networks…. But also supplied with a very neat case. For $ 295 we could claim an aluminum case, a UPS battery pack. In fact, the NAS integrated by default an inverter on battery and cables. All this provided with the same [Armbian opensource software for helios64.](https://www.armbian.com/helios64/){: target="_blank"}
 
 {% include youtubePlayer.html id="58coL23Bzzw" %}
 

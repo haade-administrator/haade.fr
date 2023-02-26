@@ -20,13 +20,13 @@ toc: true
 redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter/
 ---
-## [Z-Wave](https://z-wavealliance.org/){:target="_blank"}: [Matter](https://buildwithmatter.com/){:target="_blank"} is an opportunity for true interoperability
+## [Z-Wave](https://z-wavealliance.org/){: target="_blank"}: [Matter](https://buildwithmatter.com/){: target="_blank"} is an opportunity for true interoperability
 
 With the power of Big Tech behind it and Project CHIP morphing into the marketing-friendly Matter, we could be looking at one of the biggest ever shake ups in the smart home world.
 
 It might seem, looking from the outside at least, that Z-Wave could be a casualty of this shake up.
 
-Z-Wave is not a communications protocol the new initiative is making use of and, let us not forget, [homeoverip]({% post_url /en/2020-02-11-connected-protocol-home-over-ip-matter %}) ==> [Matter](https://buildwithmatter.com/){:target="_blank"} is an initiative essentially run by Z-Wave’s long term rival Zigbee, under its new guise of the Connectivity Standards Alliance.
+Z-Wave is not a communications protocol the new initiative is making use of and, let us not forget, [homeoverip]({% post_url /en/2020-02-11-connected-protocol-home-over-ip-matter %}) ==> [Matter](https://buildwithmatter.com/){: target="_blank"} is an initiative essentially run by Z-Wave’s long term rival Zigbee, under its new guise of the Connectivity Standards Alliance.
 
 ## Interoperability: the key to Z-wave and Matter protocols
 
@@ -86,4 +86,4 @@ Klein was keen to stress that, while **he sees Matter as a major force** in the 
 
 **Finally**, despite Mitch Klein's announcements, Z-wave is interoperable with Z-wave. I am not criticizing **the protocol which is in my opinion one of the best** and certainly **the most stable** at the mesh level. The arrival of Matter is eagerly awaited by manufacturers and will cast a lot of shadow on Z-Wave. On the other hand, it will shake things up because Mitch Klein had announced the drop in production costs of the protocol and the manufacturers have still not transferred these costs to the sale of final products.
 
-Post inspired by [the-ambient.com](https://www.the-ambient.com/){:target="_blank"}
+Post inspired by [the-ambient.com](https://www.the-ambient.com/){: target="_blank"}

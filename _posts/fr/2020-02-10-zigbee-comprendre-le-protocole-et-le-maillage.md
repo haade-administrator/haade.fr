@@ -26,7 +26,7 @@ redirect_from:
 
 J’ai essayé de trouver sur le web des articles concernant le protocole et le maillage zigbee et la gestion de son parc de modules mais aucun n’avait su répondre à mes attentes, c’est ainsi que m’est venu l’idée de rédiger un tel article.
 
-Avant de commencer et afin de comprendre au mieux la rédaction de cet article, il faut savoir que notre environnement de test est basé sur [**zigbee2mqtt.**](https://www.zigbee2mqtt.io/){:target="_blank"} Il est installé dans un container docker et contrôlé par [**homeassistant core.**](https://www.home-assistant.io/){:target="_blank"} Qui lui même est aussi installé dans un container. Les deux système communiquent ensemble grâce à un serveur de communication [MQTT.](http://mqtt.org/){:target="_blank"} Qui fait tampon entre les systèmes et lui aussi installé dans un container.
+Avant de commencer et afin de comprendre au mieux la rédaction de cet article, il faut savoir que notre environnement de test est basé sur [**zigbee2mqtt.**](https://www.zigbee2mqtt.io/){: target="_blank"} Il est installé dans un container docker et contrôlé par [**homeassistant core.**](https://www.home-assistant.io/){: target="_blank"} Qui lui même est aussi installé dans un container. Les deux système communiquent ensemble grâce à un serveur de communication [MQTT.](http://mqtt.org/){: target="_blank"} Qui fait tampon entre les systèmes et lui aussi installé dans un container.
 
 ## Pourquoi j’ai choisi zigbee2mgtt !
 
@@ -41,7 +41,7 @@ Avant de commencer et afin de comprendre au mieux la rédaction de cet article, 
 
 Zigbee2mqtt a une prise en charge native de homeassistant et hassio. On peut facilement créer une carte lovelace affichant le protocole et maillage zigbee en live. De plus tous les 15 jours des modules zigbee sont pris en charges. À l’heure où j’écris ce message on en comptabilise plus de 500 modules.
 
-Zigbee2mqtt.io consacre un article entier, à l’inclusion de nouveau modules qui ne seraient pas encore pris en charge, c’est vraiment à la portée de tous. [On trouve actuellement des clés zigbee aux alentours de 20€]({% link _products/{{ page.locale | slice: 0,2 }}/2022-09-23-cle-zigbee-3-sonoff-Z-Bridge-dongle-E.md %}), ( si on est en possession des boîtiers de programmation ) sinon c’est 22€ la première commande ). Le cc2531 à l’inconvénient d’être compatible seulement avec le réseau zigbee-1.2, pourquoi: car il n’a pas assez de mémoire interne. Si on veut un réseau de base en zigbee 3.0, il faudra alors opter pour un coordinateur [CC26X2R coordinateur zigbee 3.0](https://www.ti.com/tool/LAUNCHXL-CC26X2R1){:target="_blank"} avec coût de 40$. Il est possible aussi de transformer un cc2530/31 en routeur afin de renforcer son maillage. en rappelant que pour la concurrence on est entre 35-45€.
+Zigbee2mqtt.io consacre un article entier, à l’inclusion de nouveau modules qui ne seraient pas encore pris en charge, c’est vraiment à la portée de tous. [On trouve actuellement des clés zigbee aux alentours de 20€]({% link _products/{{ page.locale | slice: 0,2 }}/2022-09-23-cle-zigbee-3-sonoff-Z-Bridge-dongle-E.md %}), ( si on est en possession des boîtiers de programmation ) sinon c’est 22€ la première commande ). Le cc2531 à l’inconvénient d’être compatible seulement avec le réseau zigbee-1.2, pourquoi: car il n’a pas assez de mémoire interne. Si on veut un réseau de base en zigbee 3.0, il faudra alors opter pour un coordinateur [CC26X2R coordinateur zigbee 3.0](https://www.ti.com/tool/LAUNCHXL-CC26X2R1){: target="_blank"} avec coût de 40$. Il est possible aussi de transformer un cc2530/31 en routeur afin de renforcer son maillage. en rappelant que pour la concurrence on est entre 35-45€.
 
 ### Pour rappel:
 
@@ -80,7 +80,7 @@ De rester en 1.2 n’a aucune influence sur l’inclusion de modules de nouvelle
 2nd cas: vous avec une installation existante avec des modules routeur d’installés et des modules de fin greffés sur le coordinateur au lieu d’un routeur
 
 - Passez en mode inclusion et appairez à nouveau le module routeur même s’il est déjà reconnu par zigbee2mqtt.
-- Ensuite à proximité de ce routeur inclure/ré-inclure les modules de fin rafraîchissez votre Carte réseau ( perso j’utilise [zigbee2mqtt networkmap card](https://github.com/azuwis/zigbee2mqtt-networkmap){:target="_blank"} ).
+- Ensuite à proximité de ce routeur inclure/ré-inclure les modules de fin rafraîchissez votre Carte réseau ( perso j’utilise [zigbee2mqtt networkmap card](https://github.com/azuwis/zigbee2mqtt-networkmap){: target="_blank"} ).
 - Normalement vous verrez le module logique décrocher du coordinateur pour se greffer sur le routeur. **ps:** si c’est une installation existante et que vous souhaitez appairer un module d’ouverture de porte, comme le xiaomi. Pas la peine de le décoller si un routeur ou le coordinateur est suffisamment proche alors une simple inclusion suffiras à injecter le module dans le réseau.
 
 ## Supprimer un module du réseau zigbee

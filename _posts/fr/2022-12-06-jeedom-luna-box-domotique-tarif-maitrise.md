@@ -76,7 +76,7 @@ Livré avec une Jeedom Luna
 
 Prévu initialement pour Novembre 2022, cette box prend du retard, **la sortie est repoussée à Fin-Décembre 2022**, à l'heure ou nous écrivons ces quelques lignes.
 
-Vous pouvez vous procurer cette box domotique **au prix de 199€ TTC** (hors option) exclusivement auprès de notre partenaire, spécialiste de la vente en ligne de matériel domotique, [la boutique domadoo.fr](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html?domid=39){:target="_blank"}.
+Vous pouvez vous procurer cette box domotique **au prix de 199€ TTC** (hors option) exclusivement auprès de notre partenaire, spécialiste de la vente en ligne de matériel domotique, [la boutique domadoo.fr](https://www.domadoo.fr/fr/box-domotique/6280-jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.html?domid=39){: target="_blank"}.
 
 ## Conclusion
 

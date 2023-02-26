@@ -69,7 +69,7 @@ dessous du capteur d’empreinte grow r503 rempli de silicone pour éviter les i
 - Capteur [empreintes digitales GROW R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grow-r503-capteur-dempreinte-digitale.md %}), R307 ou équivalent
 - ( optionnel ): [plaque inox 86mm et support de protection R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %})
 
-Grâce au travail effectué par l’équipe home assistant et esphome v1.18.0 et supérieur tu peux désormais [intégrer facilement un capteur d’empreintes digitales Grow R503](https://esphome.io/components/fingerprint_grow.html){:target="_blank"} et ainsi domotiser un accès grâce à ton petit doigt. dans mon cas ce sera pour utiliser l’accès à la porte de garage c’est pourquoi je me suis orienté vers un GROW R503 avec plaque inx compatible boîte d’encastrement, un projet similaire est déjà diffusé sur la communauté home assistant[ *share your Projects!* Garage fingerprint sensor](https://community.home-assistant.io/t/garage-fingerprint-sensor/312977){:target="_blank"}.
+Grâce au travail effectué par l’équipe home assistant et esphome v1.18.0 et supérieur tu peux désormais [intégrer facilement un capteur d’empreintes digitales Grow R503](https://esphome.io/components/fingerprint_grow.html){: target="_blank"} et ainsi domotiser un accès grâce à ton petit doigt. dans mon cas ce sera pour utiliser l’accès à la porte de garage c’est pourquoi je me suis orienté vers un GROW R503 avec plaque inx compatible boîte d’encastrement, un projet similaire est déjà diffusé sur la communauté home assistant[ *share your Projects!* Garage fingerprint sensor](https://community.home-assistant.io/t/garage-fingerprint-sensor/312977){: target="_blank"}.
 
 Hormis le fait que ce soit un test, c’est aussi la suite d’un article que j’ai rédigé sur le site [domotiser sa porte de garage pour 5€]({% post_url /fr/2021-05-19-domotiser-sa-porte-de-garage-pour-5€ %}), n’hésite pas à le lire.
 
@@ -101,7 +101,7 @@ les enregistrements d’empreintes se font dans Outils de développements &gt;&g
 
 Ci-dessous la liste des 4 services disponibles.
 
-![Branchement wemos D1 mini](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-WeMos-D1-Mini-pinout-gpio-pin.png?w=715&quality=100&strip=all&ssl=1){:target="_blank"}{: width="700" height="394"}
+![Branchement wemos D1 mini](https://i2.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/05/ESP8266-WeMos-D1-Mini-pinout-gpio-pin.png?w=715&quality=100&strip=all&ssl=1){: target="_blank"}{: width="700" height="394"}
 
 Gif animé présentant les services disponibles avec esphome et le capteur d’empreinte Grow R503
 1. **Cancel\_enroll:** stoppe le service enroll ( appairage )

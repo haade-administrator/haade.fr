@@ -25,11 +25,11 @@ redirect_from:
   - /blog/news/z-wave-face-a-matter/
   - /blog/home-automation-smarthome-jeedom-homeassistant/protocoles/z-wave-face-a-matter/
 ---
-## [Z-Wave](https://z-wavealliance.org/){:target="_blank"} + [Matter](https://buildwithmatter.com/){:target="_blank"} est une opportunité pour une véritable interopérabilité.
+## [Z-Wave](https://z-wavealliance.org/){: target="_blank"} + [Matter](https://buildwithmatter.com/){: target="_blank"} est une opportunité pour une véritable interopérabilité.
 
 Le patron de Z-Wave affirme que les utilisateurs bénéficieront d'une approche rationalisée de la maison intelligente.
 
-Avec la puissance de Big Tech derrière elle et le projet CHIP se transformant en un [homeoverip]({% post_url /fr/2020-02-11-protocole-connecte-home-over-ip %}){:target="_blank"} ==> [Matter](https://buildwithmatter.com/){:target="_blank"} conviviale pour le marketing, nous pourrions envisager l'un des plus grands bouleversements jamais réalisés dans le monde de la maison intelligente.
+Avec la puissance de Big Tech derrière elle et le projet CHIP se transformant en un [homeoverip]({% post_url /fr/2020-02-11-protocole-connecte-home-over-ip %}){: target="_blank"} ==> [Matter](https://buildwithmatter.com/){: target="_blank"} conviviale pour le marketing, nous pourrions envisager l'un des plus grands bouleversements jamais réalisés dans le monde de la maison intelligente.
 
 Il pourrait sembler, vu de l'extérieur au moins, que Z-Wave pourrait être une victime de ce bouleversement.
 
@@ -87,4 +87,4 @@ Klein a tenu à souligner que, s'il **considère Matter comme une force majeure*
 
 **Pour finir,** malgré les annonces de Mitch Klein, Z-wave est interopérable qu'avec Z-wave. Je ne critique pas le protocole **qui est selon moi l'un des meilleurs** et certainement **le plus stable** au niveau du maillage. L'arrivée de Matter est très attendu par les constructeurs et va faire beaucoup d'ombres à z-wave. De l'autre côté ça va faire bouger les choses car Mitch Klein avait annoncé la baisse des coûts de productions du protocole. Mais les fabricants n'ont toujours pas reportés ces coûts sur la vente des produits finaux.
 
-Article inspiré par [the-ambient.com](https://www.the-ambient.com/){:target="_blank"}
+Article inspiré par [the-ambient.com](https://www.the-ambient.com/){: target="_blank"}

@@ -35,7 +35,7 @@ Dans cet article, nous allons voir comment intégrer dans le dashboard "Energie"
 - Avoir accès à des données de consommation électrique
 
 ## Création des compteurs
-Dans un premier temps il faudra créer différents compteurs afin de récolter la quantité d'énergie consommée, pour cela nous utiliserons une intégration native d'HA : [Utility Meter](https://www.home-assistant.io/integrations/utility_meter/){:target="_blank"}.
+Dans un premier temps il faudra créer différents compteurs afin de récolter la quantité d'énergie consommée, pour cela nous utiliserons une intégration native d'HA : [Utility Meter](https://www.home-assistant.io/integrations/utility_meter/){: target="_blank"}.
 
 Ayant un abonnement Heures creuses / Heures pleines, j'ai décidé de créer des compteurs pour les deux tarifs, mais vous pouvez simplement n'en créer qu'un seul en fonction de votre contrat.  
 Ci-dessous mon code, à placer dans le fichier configuration.yaml :
@@ -64,7 +64,7 @@ Maintenant que nous avons nos compteurs de consommation, nous allons passer à l
 ## Configuration du dashboard Energie
 
 Rendez-vous dans "Configuration" puis "Energie".  
-Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la consommation, la production ainsi que le stockage de l'énergie (Plus d'infos [dans la doc officielle](https://www.home-assistant.io/docs/energy/electricity-grid/){:target="_blank"}).
+Là vous allez découvrir plusieurs tableaux vous permettant de monitorer la consommation, la production ainsi que le stockage de l'énergie (Plus d'infos [dans la doc officielle](https://www.home-assistant.io/docs/energy/electricity-grid/){: target="_blank"}).
 
 
 Ensuite dans "Réseau électrique", cliquez sur "Ajouter la consommation" et sélectionnez le sensor créé auparavant, dans notre cas : **sensor.heures\_pleines**.  
@@ -74,7 +74,7 @@ Répétez l'opération pour le sensor heures creuses si nécessaire.
 
 Configuration du dashboard Energie
 
-Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/){:target="_blank"}).
+Vous avez la possibilité d'inclure le calcul du coût de votre consommation, soit en indiquant un tarif fixe, soit en faisant appel à une entité indiquant le tarif (ex : [une entrée nombre](https://www.home-assistant.io/integrations/input_number/){: target="_blank"}).
 
 {% picture posts/{{ page.guid }}/ajout-compteur.png --alt Ajouter un compteur --img width="415" height="561" %}
 

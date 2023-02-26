@@ -67,7 +67,7 @@ integration is done without worries, integration is done by pressing a push butt
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt.png --alt integration Moes push button switch in homeassistant-zigbee2mqtt --img width="952" height="70" %}
 
 ### Zigbee2mqtt Link
-[feature of integration in zigbee2mqtt](https://www.zigbee2mqtt.io/devices/ZTS-EU_2gang.html){:target="_blank"}
+[feature of integration in zigbee2mqtt](https://www.zigbee2mqtt.io/devices/ZTS-EU_2gang.html){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/intégration-zts-eu-moes-zigbee2mqtt-fonction-expose.png --alt moes push button switch setting in homeassistant --img width="952" height="601" %}
 

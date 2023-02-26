@@ -59,8 +59,8 @@ if you **have trouble** here is [a complete and fair article](https://www.studio
 The two links below allowed me to set up the camera on esphome
 ***The first*** for the settings in general, ***the second*** for the exposure of the video and images in order to be able to exploit them under HA or via an NVR.
 
-1. [Esphome 32cam](https://esphome.io/components/esp32_camera.html){:target="_blank"}
-2. [Esphome 32cam server](https://esphome.io/components/esp32_camera_web_server.html){:target="_blank"}
+1. [Esphome 32cam](https://esphome.io/components/esp32_camera.html){: target="_blank"}
+2. [Esphome 32cam server](https://esphome.io/components/esp32_camera_web_server.html){: target="_blank"}
 
 # First Flash
 

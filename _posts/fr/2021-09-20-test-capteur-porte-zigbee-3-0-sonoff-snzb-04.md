@@ -41,7 +41,7 @@ Voilà après la [présentation du capteur de température SNZB-02]({% post_url 
 - Protocole sans fil: Zigbee (IEEE 802.15.4)
 - Dimensions: **aimant:** 32 x 15.6 x 13mm, **capteur:** 47 x 27 x 13.5mm
 
-Bon si tu suis l’actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peux voir que le module snzb-04 est compatible](https://www.zigbee2mqtt.io/devices/SNZB-04.html){:target="_blank"}. Il suffit d’ouvrir le réseau et de cliquer 5 secondes sur le bouton du dessous, ensuite la led clignote 3 fois ainsi le module se réinitialise et s’intègre dans le réseau home assistant.
+Bon si tu suis l’actu de zigbee2mqtt avec plus de 1600 intégrations, [tu peux voir que le module snzb-04 est compatible](https://www.zigbee2mqtt.io/devices/SNZB-04.html){: target="_blank"}. Il suffit d’ouvrir le réseau et de cliquer 5 secondes sur le bouton du dessous, ensuite la led clignote 3 fois ainsi le module se réinitialise et s’intègre dans le réseau home assistant.
 
 ## 5 données remontent du capteur SNZB-04 dans home assistant:
 
@@ -73,7 +73,7 @@ test et comparatif du capteur d'ouverture sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
 - Package un peut light ( mais c’est pas ce qu’on lui demande )
 - **la taille, trop massive à mon goût**
-- les piles [CR2450](https://amzn.to/3mGXoJA){:target="_blank"} sont plus chères que les [CR2032](https://amzn.to/2WpZ1QB){:target="_blank"} ( comparatif sur la marque VARTA )
+- les piles [CR2450](https://amzn.to/3mGXoJA){: target="_blank"} sont plus chères que les [CR2032](https://amzn.to/2WpZ1QB){: target="_blank"} ( comparatif sur la marque VARTA )
 
 **Rappel:** Dimension sonoff SNZB-04:
 

@@ -42,7 +42,7 @@ Journée de la marque Chez Moes sur Aliexpress -40% sur les meilleurs produits M
 
 ## Cliquez sur le liens ci-dessous pour en bénéficier:
 
-[Moes Spotlight Plus jours de folies](https://s.click.aliexpress.com/e/_DF4SggB){:target="_blank"}
+[Moes Spotlight Plus jours de folies](https://s.click.aliexpress.com/e/_DF4SggB){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/journee-de-la-marque-moes-jusqua-40%.jpg --alt zone inclusive dans ZM --img width="940" height="529" --link https://s.click.aliexpress.com/e/_DF4SggB %}
 

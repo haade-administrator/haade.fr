@@ -35,7 +35,7 @@ Mais quand tu désires modifier l’icône d’un binaire, *exemple:* un détect
 
 Dans ce cas il faut faire appel à la personnalisation dans le fichier **customize.yaml.**
 
-Tout d’abord il faut rajouter la ligne intégration dans la configuration.yaml [clic là et tu trouvera toutes les infos de la configuration du fichier.](https://www.home-assistant.io/docs/configuration/customizing-devices/){:target="_blank"}
+Tout d’abord il faut rajouter la ligne intégration dans la configuration.yaml [clic là et tu trouvera toutes les infos de la configuration du fichier.](https://www.home-assistant.io/docs/configuration/customizing-devices/){: target="_blank"}
 
 Pour faire simple il faut rajouter cette ligne:
 

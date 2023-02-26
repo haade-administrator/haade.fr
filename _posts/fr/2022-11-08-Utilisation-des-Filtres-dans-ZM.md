@@ -33,7 +33,7 @@ Par défaut il existe deux filtres fonctionnels:
 
 Premièrement l’astérisque en bout de titre indique à l’utilisateur que le filtre est lié à une tâche cron afin de fonctionner de façon répétitive en arrière plan il suffit de sélectionner l’option &gt;&gt;&gt; lancer les filtres en arrière plan.
 
-PurgeWhenFull: [Doc oficielle](https://wiki.zoneminder.com/PurgeWhenFull){:target="_blank"}, permet de vider le disque dur
+PurgeWhenFull: [Doc oficielle](https://wiki.zoneminder.com/PurgeWhenFull){: target="_blank"}, permet de vider le disque dur
 
 ## Actions à sélectionner:
 
@@ -61,4 +61,4 @@ Ensuite on clic sur **executer** et **list matches** afin de voir les *évèneme
 Bon ce tuto n'est pas complet, et je m'en excuse, j'ai tellement attendu pour faire cet article que maintenant je n'utilise plus Zoneminder, pourquoi !
 Ce logiciel est complet mais la gestion des évènements, le paramétrage des caméras est complexe et franchement peut optimisés. 
 > **De plus j'ai décidé d'arrêter d'utiliser ZM.**
-Pourquoi ce basculement: depuis que zm a décidé d'arrêter l'évolution du programme ZMevenvnotification en Novembre 2021, du coup ça n'a plus de réel intérêts surtout qu'il existe depuis un petit moment un NVR gratuit pour Homeassistant, il s'agit de **[Frigate](https://frigate.video/)**{:target="_blank"}, **ce projet est jeune mais déjà très prometteur.**
+Pourquoi ce basculement: depuis que zm a décidé d'arrêter l'évolution du programme ZMevenvnotification en Novembre 2021, du coup ça n'a plus de réel intérêts surtout qu'il existe depuis un petit moment un NVR gratuit pour Homeassistant, il s'agit de **[Frigate](https://frigate.video/)**{: target="_blank"}, **ce projet est jeune mais déjà très prometteur.**
