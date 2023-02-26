@@ -4,13 +4,16 @@
     <!-- Toc if any -->
     {%- if page.toc %}
     {%- if page.beforetoc %}
-        <p><em>{{page.beforetoc}}</em></p>
+    <p><em>{{page.beforetoc}}</em></p>
     {%- endif %}
     <div class="toc mt-4 mb-4 lead">
         <h3 class="font-weight-bold">{{ translate.sommary[page.locale] }}</h3>
-        {%- include toc.html sanitize=true html=content h_min=1 h_max=4 item_class="toc" skip_no_ids=true ordered=false %}
+        {%- include toc.html sanitize=true html=content h_min=1 h_max=4 item_class="toc" skip_no_ids=true ordered=false
+        %}
     </div>
     {%- endif %}
     <!-- End Toc -->
-    {{content}}
+    <div class="content-post">
+        {{content}}
+    </div>
 </div>

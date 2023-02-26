@@ -27,6 +27,8 @@ redirect_from:
 
 In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, **but we could have used any brands of motorizations like Somfy** because **they are all equipped with electric motors operating between 18 and 24v.** In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.
 
+{% include product-embed.html guid="2113" %}
+
 ## Prerequisites to automate your garage door:
 
 - Homeassistant installed with esphome
@@ -124,5 +126,7 @@ Now that our module is ready and functional with homeassistant, we just have to 
 {% include hormann.html %}
 
 All you have to do is put everything together and incorporate it into the garage door motor unit and you can order your garage door for € 5 delivered via wifi via esphome and homeassistant, quite simply magic !.
+
+{% include product-embed.html guid="2113" %}
 
 We are currently experiencing a problem with the distance of the wifi antenna, part of an orange box without an external antenna, the dropout is regular, **to alleviate this problem we are going to integrate an external antenna to the esp8266 chip, an article will be dedicated to This manipulation with earnings tests very soon, do not hesitate to follow us.**

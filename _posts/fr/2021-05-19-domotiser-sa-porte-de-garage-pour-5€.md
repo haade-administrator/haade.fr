@@ -30,6 +30,8 @@ redirect_from:
 
 Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v**. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.
 
+{% include product-embed.html guid="2113" %}
+
 ## Prérequis pour domotiser sa porte de garage:
 
 - Homeassistant installé avec esphome
@@ -126,5 +128,7 @@ Maintenant que notre module est prêt et fonctionnel avec homeassistant il ne no
 {% include hormann.html %}
 
 Il ne reste plus qu’à rassembler le tout et l’incorporer dans le boitier du moteur de porte de garage et vous pouvez pour 5€ livré commander votre porte de garage en wifi via esphome et homeassistant, tout simplement magic !.
+
+{% include product-embed.html guid="2113" %}
 
 Nous rencontrons actuellement un soucis de distance de l’antenne wifi, faisant partie d’une box orange sans antenne externe le décrochage est régulier, **pour pallier à ce soucis nous allons intégrer une antenne externe à la puce esp8266, un article va être dédié à cette manipulation avec des tests de gains très prochainement, n ‘hésitez pas à nous suivre.**

@@ -3,517 +3,431 @@ fr_FR:
     title: Jeedom sur docker
     published: true
     image: installation-jeedom-docker-1.png
-    views: 5460
-    views_diff: 5460
+    views: 5463
   - guid: 2
     title: Automatiser La Mise A Jour Des Images Docker Grace A Watchtower
     published: true
     image: automatiser-mise-a-jour-image-sur-docker-avec-watchtower-1.png
-    views: 1689
-    views_diff: 1689
+    views: 1691
   - guid: 3
     title: Zigbee comprendre le protocole et le maillage
     published: true
     image: maillage-zigbee.png
-    views: 2762
-    views_diff: 2762
+    views: 2769
   - guid: 4
     title: Zigbee vs Z-wave
     published: true
     image: zigbee-vs-z-wave.png
     views: 2211
-    views_diff: 2211
   - guid: 5
     title: Protocole connecté Home over IP
     published: true
     image: homeoverip.png
     views: 2520
-    views_diff: 2520
   - guid: 6
     title: "[TEST] Moes: Interrupteur Zigbee tactile {ZTS-EU} UPGRADE 2020"
     published: true
     image: inter-moes.png
     views: 2691
-    views_diff: 2691
   - guid: 7
     title: Intégrations Esphome et Homeassistant
     published: true
     image: esphome-logo-haade-homeassistant.png
-    views: 4222
-    views_diff: 4222
+    views: 4226
   - guid: 8
     title: Domotiser sa porte de garage pour 5€
     published: true
     image: domotiser-porte-garage-5-euros.png
-    views: 7664
-    views_diff: 7664
+    views: 7674
   - guid: 9
     title: Raccourci automatisations dans Homeassistant Lovelace
     published: true
     image: miniature.jpg
-    views: 616
-    views_diff: 616
+    views: 617
   - guid: 10
     title: Augmenter le signal wifi sur esp8266 esp-12f esp-12s
     published: true
     image: soudure-antenne-exterieur-esp-12f-plus-20db.jpg
-    views: 3031
-    views_diff: 3031
+    views: 3035
   - guid: 11
     title: Frp &#8211; accès à distance pour homeassistant.
     published: true
     image: addons-frp-fatdier-haade-remote-access-reverse-proxy.png
-    views: 1920
-    views_diff: 1920
+    views: 1921
   - guid: 12
     title: Grow R503 Capteur d&#8217;empreintes digital
     published: true
     image: grow-r503-capteur-empreinte-digital.jpg
-    views: 2948
-    views_diff: 2948
+    views: 2949
   - guid: 13
     title: Intégrer son compteur électrique ( téléinfo ) dans Home Assistant
     published: true
     image: compteur-electrique-homeassistant.png
-    views: 11533
-    views_diff: 11533
+    views: 11564
   - guid: 14
     title: "[TEST] et [INSTALL] Thermostat Zigbee Moes BHT-002"
     published: true
     image: thermostat-zigbee-moes-bht-002.png
-    views: 3240
-    views_diff: 3240
+    views: 3242
   - guid: 15
     title: Kobol helios 64 c'est terminé !
     published: true
     image: helios64.png
     views: 2411
-    views_diff: 2411
   - guid: 16
     title: NAS opensource pour Raspberry pi CM4 le futur!
     published: true
     image: boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png
-    views: 2462
-    views_diff: 2462
+    views: 2463
   - guid: 17
     title: Z-wave face à Matter
     published: true
     image: zwave-face-a-matter.jpg
-    views: 2299
-    views_diff: 2299
+    views: 2300
   - guid: 18
     title: Test capteur température et humidité Sonoff SNZB-02
     published: true
     image: sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png
-    views: 2858
-    views_diff: 2858
+    views: 2867
   - guid: 19
     title: Astuce icone home assistant
     published: true
     image: changer-icone-element-binaire-home-assistant.png
-    views: 1745
-    views_diff: 1745
+    views: 1746
   - guid: 20
     title: Test Capteur porte zigbee 3.0 sonoff SNZB-04
     published: true
     image: sonoff-snzb-04-detecteur-porte-zigbee-3.0.png
-    views: 1840
-    views_diff: 1840
+    views: 1843
   - guid: 21
     title: Zoneminder, home assistant et Machinelearning
     published: true
     image: zoneminder_homeassistant-1.png
-    views: 3470
-    views_diff: 3470
+    views: 3473
   - guid: 22
     title: Home-assistant Amber VS Jeedom Atlas
     published: true
     image: Jeedom-Atlas-vs-Homeassistant-Amber.png
-    views: 2990
-    views_diff: 2990
+    views: 2993
   - guid: 23
     title: Box Domotique rail din Home-assistant et Rpi4
     published: true
     image: box-domotique-rail-din-home-assistant.png
-    views: 1968
-    views_diff: 1968
+    views: 1969
   - guid: 24
     title: Test - ZSS-ZK-THL zigbee MOES
     published: true
     image: controleur-intelligent-luminosite-moes.png
-    views: 1828
-    views_diff: 1828
+    views: 1829
   - guid: 25
     title: La téléinfo dans le dashboard Energie de Home Assistant
     published: true
     image: integration-dashboard-energie-ha.png
-    views: 4631
-    views_diff: 4631
+    views: 4643
   - guid: 26
     title: Test interrupteur zigbee ZTS-EU à bouton poussoir Moes
     published: true
     image: interrupteur-moes-zigbee-zts-eu-2-gang-test.png
-    views: 408
-    views_diff: 408
+    views: 410
   - guid: 27
     title: Domotiser simplement l'allumage de la lumière de la piscine
     published: true
     image: domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg
-    views: 116
-    views_diff: 116
+    views: 117
   - guid: 28
     title: Utilisation des Filtres dans ZM
     published: true
     image: utilisation-des-filtres-zoneminder.png
     views: 68
-    views_diff: 68
   - guid: 29
     title: Explication des Zones dans Zoneminder
     published: true
     image: zoneminder-les-zones.png
-    views: 130
-    views_diff: 130
+    views: 132
   - guid: 30
     title: ZBDongle-P VS ZBDongle-E
     published: true
     image: dongle-p-vs-dongle-e-zigbee-sonoff.png
-    views: 1220
-    views_diff: 1220
+    views: 1225
   - guid: 31
     title: interférence entre zigbee et wifi frequence 2.4ghz
     published: true
     image: interference-zigbee-wifi-freqeunce-2.4ghz.png
-    views: 467
-    views_diff: 467
+    views: 470
   - guid: 32
     title: Nouvelle box jeedom Luna
     published: true
     image: jeedom-luna.jpg
-    views: 404
-    views_diff: 404
+    views: 407
   - guid: 33
     title: Domotise le compteur d'eau Itron avec esp et cc1101 dans ha pour 10€
     published: true
     image: domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png
-    views: 460
-    views_diff: 460
+    views: 469
   - guid: 34
     title: Présentation de la gamme zigbee lidl smart home
     published: true
     image: presentation-gamme-lidl-silvercrest-smart-home.png
-    views: 474
-    views_diff: 474
+    views: 476
   - guid: 35
     title: offre special Moes Aliexpress
     published: true
     image: Moes-brand-day-40.jpg
-    views: 98
-    views_diff: 98
+    views: 99
   - guid: 36
     title: Esp32-cam Ai Thinker et homeassistant
     published: true
     image: integration-esp32cam-esphome-homeassistant.png
-    views: 691
-    views_diff: 691
+    views: 709
   - guid: 37
     title: Intégrer une caméra esp32-cam dans une applique lumineuse
     published: true
     image: spycam-esp32cam-ai-thinker-applique-lumineuse.png
-    views: 181
-    views_diff: 181
+    views: 182
   - guid: 38
     title: Test de la prise extérieur Zigbee Ledvance Smartplug+
     published: true
     image: external-wire-ledvance-smartplug-plus-zigbee-ip44-4058075729322-prise-externe.png
-    views: 122
-    views_diff: 122
+    views: 123
   - guid: 39
     title: Linkplay et Up2stream le multiroom DIY de qualité
     published: true
     image: multiroom-arylic-linkplay-diy.png
-    views: 128
-    views_diff: 128
+    views: 134
   - guid: 40
     title: En vente actuellement dans vos magasins Lidl
     published: true
     image: en-vente-chez-lidl.png
-    views: 97
-    views_diff: 97
+    views: 99
   - guid: 41
     title: Comparatif prise zigbee 3.0 laquelle choisir ?
     published: true
     image: comparatif-prise-zigbee-laquelle-choisir-nous-A1Z-neo-007SPB2-aqara-AP007EUW01-lidl-SAPZ1A1.png
-    views: 189
-    views_diff: 189
+    views: 191
   - guid: 42
     title: automatiser un va et vient virtuel avec 2 inter zigbee
     published: true
     image: automatiser-un-va-et-vient-virtuel-avec-blueprint-et-homeassistant.png
-    views: 128
-    views_diff: 128
+    views: 132
   - guid: 43
     title: test du nouvel interrupteur zigbee Moes Star Ring
     published: true
     image: interrupteur-zigbee-moes-star-ring-smart-switch.png
-    views: 100
-    views_diff: 100
+    views: 101
   - guid: 44
     title: Test de la sirène Immax Neo 07504L zigbee 3.0
     published: true
     image: immax-neo-07504L-smart-siren-exterieur-ip65-zigbee-3-fix-mural.png
-    views: 103
-    views_diff: 103
+    views: 104
   - guid: 45
     title: Test Sirène Heiman HS2WD-E compatible zigbee 3.0
     published: true
     image: heiman-sirene-alarme-zgbee-3-HS2WD-E.png
-    views: 107
-    views_diff: 107
+    views: 112
   - guid: 46
     title: Jeedom Luna passé au crible
     published: true
     image: jeedom-luna-passe-au-crible-box-francaise.png
-    views: 85
-    views_diff: 85
+    views: 94
   - guid: 47
     title: Test de la prise intelligente Fibaro FGPWE-102
     published: true
     image: prise-intelligente-fibaro-wall-plug-fgpwe-f-102-zwave-700.png
-    views: 47
-    views_diff: 47
+    views: 52
 
 en_GB:
   - guid: 3
     title: Zigbee understand protocol and mesh
     published: true
     image: maillage-zigbee.png
-    views: 53
-    views_diff: 53
+    views: 54
   - guid: 4
     title: Zigbee vs Z-wave
     published: true
     image: zigbee-vs-z-wave.png
     views: 13
-    views_diff: 13
   - guid: 5
     title: Connected Protocol Home over IP/Matter
     published: true
     image: homeoverip.png
     views: 19
-    views_diff: 19
   - guid: 6
     title: "[TEST] Moes: Touch Zigbee Switch {ZTS-EU} UPGRADE 2020"
     published: true
     image: inter-moes.png
-    views: 40
-    views_diff: 40
+    views: 41
   - guid: 7
     title: Esphome and Homeassistant integrations
     published: true
     image: esphome-logo-haade-homeassistant.png
     views: 111
-    views_diff: 111
   - guid: 8
     title: Automate your garage door for 5€
     published: true
     image: domotiser-porte-garage-5-euros.png
-    views: 9717
-    views_diff: 9717
+    views: 9729
   - guid: 13
     title: Integrate your electricity meter (teleinfo) in Home Assistant
     published: true
     image: compteur-electrique-homeassistant.png
-    views: 7060
-    views_diff: 7060
+    views: 7062
   - guid: 14
     title: "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002"
     published: true
     image: thermostat-zigbee-moes-bht-002.png
-    views: 3059
-    views_diff: 3059
+    views: 3060
   - guid: 15
     title: Kobol helios 64 is done!
     published: true
     image: helios64.png
     views: 2454
-    views_diff: 2454
   - guid: 16
     title: Open source NAS for Raspberry pi CM4 the future!
     published: true
     image: boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png
-    views: 2189
-    views_diff: 2189
+    views: 2190
   - guid: 17
     title: Z-wave VS Matter
     published: true
     image: zwave-face-a-matter.jpg
     views: 2230
-    views_diff: 2230
   - guid: 18
     title: Sonoff SNZB-02 temperature and humidity sensor test
     published: true
     image: sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png
-    views: 2465
-    views_diff: 2465
+    views: 2467
   - guid: 19
     title: home assistant icon tip
     published: true
     image: changer-icone-element-binaire-home-assistant.png
-    views: 1905
-    views_diff: 1905
+    views: 1906
   - guid: 20
     title: Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test
     published: true
     image: sonoff-snzb-04-detecteur-porte-zigbee-3.0.png
     views: 2076
-    views_diff: 2076
   - guid: 21
     title: Zoneminder, home assistant and Machinelearning
     published: true
     image: zoneminder_homeassistant-1.png
-    views: 3310
-    views_diff: 3310
+    views: 3312
   - guid: 22
     title: Home-Assistant Amber VS Jeedom Atlas
     published: true
     image: Jeedom-Atlas-vs-Homeassistant-Amber.png
-    views: 2689
-    views_diff: 2689
+    views: 2690
   - guid: 23
     title: Domotical Box Rail Din Home-assistant and Raspberrypi
     published: true
     image: box-domotique-rail-din-home-assistant.png
     views: 1773
-    views_diff: 1773
   - guid: 26
     title: Moes Push Button Zigbee Switch Test ZTS-EU
     published: true
     image: interrupteur-moes-zigbee-zts-eu-2-gang-test.png
     views: 75
-    views_diff: 75
   - guid: 27
     title: Simply automate the switching on of the pool light
     published: true
     image: automate-light-traditional-pool-zigbee-ewelink.jpg
     views: 22
-    views_diff: 22
   - guid: 28
     title: Use of filters in Zoneminder
     published: true
     image: use-of-filter-zoneminder.png
-    views: 43
-    views_diff: 43
+    views: 45
   - guid: 29
     title: Explanation of zones in Zoneminder
     published: true
     image: zoneminder-the-areas.png
     views: 103
-    views_diff: 103
   - guid: 30
     title: ZBDongle-P VS ZBDongle-E
     published: true
     image: dongle-p-vs-dongle-e-zigbee-sonoff.png
-    views: 3090
-    views_diff: 3090
+    views: 3138
   - guid: 31
     title: interference between zigbee and wifi frequency 2.4ghz
     published: true
     image: interference-zigbee-wifi-freqeunce-2.4ghz-en.png
-    views: 278
-    views_diff: 278
+    views: 284
   - guid: 32
     title: New box jeedom Luna
     published: true
     image: jeedom-luna.jpg
     views: 48
-    views_diff: 48
   - guid: 33
     title: Domotizes the Itron water meter with esp and cc1101 in ha for 10€
     published: true
     image: domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png
-    views: 262
-    views_diff: 262
+    views: 280
   - guid: 34
     title: Presentation of the zigbee lidl smart home range
     published: true
     image: presentation-gamme-lidl-silvercrest-smart-home-en.png
     views: 105
-    views_diff: 105
   - guid: 35
     title: Special Offers Moes Aliexpress
     published: true
     image: Moes-brand-day-40.jpg
     views: 26
-    views_diff: 26
   - guid: 36
     title: Esp32-cam Ai Thinker and homeassistant
     published: true
     image: integration-esp32cam-esphome-homeassistant-en.png
-    views: 355
-    views_diff: 355
+    views: 364
   - guid: 37
     title: Integrate an esp32-cam camera into a light fixture
     published: true
     image: spycam-esp32cam-ai-thinker-light-applied.png
     views: 78
-    views_diff: 78
   - guid: 38
     title: Ledvance Smartplug+ Zigbee outdoor socket test
     published: true
     image: external-wire-ledvance-smartplug-plus-zigbee-ip44-4058075729322-prise-externe.png
     views: 45
-    views_diff: 45
   - guid: 39
     title: Linkplay and Up2stream the quality DIY multiroom
     published: true
     image: multiroom-arylic-linkplay-diy.png
     views: 38
-    views_diff: 38
   - guid: 40
     title: On sale now in your Lidl stores
     published: true
     image: en-vente-chez-lidl.png
     views: 16
-    views_diff: 16
   - guid: 41
     title: Zigbee 3.0 plug comparison, which one to choose ?
     published: true
     image: comparatif-prise-zigbee-laquelle-choisir-nous-A1Z-neo-007SPB2-aqara-AP007EUW01-lidl-SAPZ1A1.png
-    views: 135
-    views_diff: 135
+    views: 137
   - guid: 42
     title: automate a virtual 2 way with 2 switch zigbee
     published: true
     image: automate-a-virtual-back-and-forth-with-blueprint-and-homeassistant.png
     views: 49
-    views_diff: 49
   - guid: 43
     title: test of the new Moes Star Ring zigbee switch
     published: true
     image: interrupteur-zigbee-moes-star-ring-smart-switch.png
-    views: 28
-    views_diff: 28
+    views: 30
   - guid: 44
     title: Immax Neo 07504L zigbee 3.0 siren test
     published: true
     image: immax-neo-07504L-smart-siren-exterieur-ip65-zigbee-3-fix-mural.png
-    views: 22
-    views_diff: 22
+    views: 23
   - guid: 45
     title: Siren test Heiman HS2WD-E compatible zigbee 3.0
     published: true
     image: heiman-sirene-alarme-zgbee-3-HS2WD-E.png
-    views: 29
-    views_diff: 29
+    views: 31
   - guid: 46
     title: Jeedom Luna scrutinized
     published: true
     image: jeedom-luna-passe-au-crible-box-francaise.png
-    views: 21
-    views_diff: 21
+    views: 23
   - guid: 47
     title: Fibaro FGPWE-102 Smart Plug Test
     published: true
     image: prise-intelligente-fibaro-wall-plug-fgpwe-f-102-zwave-700.png
-    views: 13
-    views_diff: 13
+    views: 14
