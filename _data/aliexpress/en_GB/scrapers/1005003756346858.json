@@ -6,10 +6,10 @@
     "reference": "USB Dongle Plus 1pcs",
     "minsalePrice": "22.83",
     "maxsalePrice": 0,
-    "discount": "-27%",
+    "discount": "27% off",
     "currency": "USD",
     "originalPrice": "31.28",
-    "quantity": "98",
+    "quantity": "100",
     "image": [
       "https://ae01.alicdn.com/kf/S9316ebb760ac4ea6a6c6ae87cc358e764/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-Universal-Gateway-Support-Home-Assistant-Zigbee2MQTT.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Sa317a10b308d4688ae278932bb453efcz/SONOFF-ZB-Dongle-E-USB-Dongle-Plus-Zigbee-3-0-Universal-Gateway-Support-Home-Assistant-Zigbee2MQTT.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "E-WELINK Store",
       "url": "https://www.aliexpress.com/store/1100861581",
       "storeNumber": "1100861581",
-      "rating": "94.2%",
-      "followers": "34180"
+      "rating": "94.1%",
+      "followers": "34175"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStarCount": "56"
+      "totalStarCount": "55"
     }
   }
 }

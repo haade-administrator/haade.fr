@@ -3,13 +3,13 @@
     "productId": 32958909969,
     "title": "Coswall – boîte de doublure sèche 1 Gang, pour plaques de plâtre/cloisons sèches/plaques de plâtre de 46mm / 34mm de profondeur, boîte de commutation murale, Cassette de prise murale",
     "description": null,
-    "reference": "CS-86DRY-34DP",
-    "minsalePrice": "2.34",
-    "maxsalePrice": "4.04",
-    "discount": "-42%",
+    "reference": "CS-86DRY-46DP",
+    "minsalePrice": "0.99",
+    "maxsalePrice": 0,
+    "discount": "-77% ",
     "currency": "EUR",
-    "originalPrice": "4.04",
-    "quantity": "997101",
+    "originalPrice": "4.31",
+    "quantity": "1",
     "image": [
       "https://ae01.alicdn.com/kf/Hf95ee5f078dd436ba4e582584f14a872K/Coswall-bo-te-de-doublure-s-che-1-Gang-pour-plaques-de-pl-tre-cloisons-s.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/H5db659ecedbf47ae893f6f10f68c434aN/Coswall-bo-te-de-doublure-s-che-1-Gang-pour-plaques-de-pl-tre-cloisons-s.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "Coswall Official Store",
       "url": "https://fr.aliexpress.com/store/529450",
       "storeNumber": "529450",
-      "rating": "97.4%",
-      "followers": "52594"
+      "rating": "97.2%",
+      "followers": "52633"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStarCount": "116"
+      "totalStarCount": "113"
     }
   }
 }

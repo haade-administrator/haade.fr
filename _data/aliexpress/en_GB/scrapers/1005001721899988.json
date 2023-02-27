@@ -6,10 +6,10 @@
     "reference": "Option 1",
     "minsalePrice": "39.82",
     "maxsalePrice": 0,
-    "discount": "-44%",
+    "discount": "44% off",
     "currency": "USD",
     "originalPrice": "71.10",
-    "quantity": "1455",
+    "quantity": "1451",
     "image": [
       "https://ae01.alicdn.com/kf/Sc015fb49ce6d473ab8d61bdb01b4842et/Raspberry-Pi-4B-Argon-One-M-2-Aluminum-Case-with-SSD-SATA-M2-Expansion-Slot-GPIO.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/H27700096324e4a7dabfea7db995ff2d8E/Raspberry-Pi-4B-Argon-One-M-2-Aluminum-Case-with-SSD-SATA-M2-Expansion-Slot-GPIO.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "ShenZhen Catda Technology Co.,LTD.",
       "url": "https://www.aliexpress.com/store/1100535474",
       "storeNumber": "1100535474",
-      "rating": "96.7%",
-      "followers": "14280"
+      "rating": "96.8%",
+      "followers": "14334"
     },
     "ratings": {
       "totalStar": 5,
-      "averageStar": "4.9",
-      "totalStarCount": "42"
+      "averageStar": "4.8",
+      "totalStarCount": "43"
     }
   }
 }

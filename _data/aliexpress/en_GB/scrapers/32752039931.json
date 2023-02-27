@@ -6,10 +6,10 @@
     "reference": "Sonoff NSPanel EU",
     "minsalePrice": "59.90",
     "maxsalePrice": 0,
-    "discount": "-35%",
+    "discount": "35% off",
     "currency": "USD",
     "originalPrice": "92.15",
-    "quantity": "13",
+    "quantity": "99",
     "image": [
       "https://ae01.alicdn.com/kf/Sd7f1a771cea9451fb75ec6f42a552971z/Sonoff-NSPanel-Smart-Scene-Wall-Switch-Smart-Wifi-Thermostat-Temperature-Switch-All-in-One-Control-Work.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Hde5d16932da64119bd3c1ae9da8b7193P/Sonoff-NSPanel-Smart-Scene-Wall-Switch-Smart-Wifi-Thermostat-Temperature-Switch-All-in-One-Control-Work.jpg_Q90.jpg.webp",
@@ -23,7 +23,7 @@
       "url": "https://www.aliexpress.com/store/1100787505",
       "storeNumber": "1100787505",
       "rating": "97.5%",
-      "followers": "3110"
+      "followers": "3119"
     },
     "ratings": {
       "totalStar": 5,

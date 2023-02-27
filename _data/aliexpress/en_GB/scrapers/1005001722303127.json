@@ -6,10 +6,10 @@
     "reference": "2.4G antenna",
     "minsalePrice": "0.70",
     "maxsalePrice": 0,
-    "discount": "-30%",
+    "discount": "30% off",
     "currency": "USD",
     "originalPrice": "1.00",
-    "quantity": "12122",
+    "quantity": "12099",
     "image": [
       "https://ae01.alicdn.com/kf/Hf32c1271270d4591bf1590b09b30d23cA/ESP32-CAM-MB-WIFI-ESP32-CAM-Bluetooth-Development-Board-with-OV2640-Camera-MICRO-USB-to-Serial.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Hb9f41f0ed5674e0ebb5548cb02cf0a15m/ESP32-CAM-MB-WIFI-ESP32-CAM-Bluetooth-Development-Board-with-OV2640-Camera-MICRO-USB-to-Serial.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "PCBFUN Store",
       "url": "https://www.aliexpress.com/store/1101548335",
       "storeNumber": "1101548335",
-      "rating": "96.1%",
-      "followers": "3168"
+      "rating": "95.9%",
+      "followers": "3197"
     },
     "ratings": {
       "totalStar": 5,
-      "averageStar": "4.6",
-      "totalStarCount": "15"
+      "averageStar": "4.7",
+      "totalStarCount": "19"
     }
   }
 }

@@ -158,10 +158,15 @@ async function scrapeAliexpress() {
     const store = {
       name: $('.store-name').text(),
       url: url.resolve('https://fr.aliexpress.com', storeLink),
-      number: storeLink.match(/\d+/)[0],
+      number: null,
       feedback: $('.h-store-info i').eq(0).text(),
       followers: $('.h-store-info i').eq(1).text(),
     };
+    try {
+      store.number = storeLink.match(/\d+/)[0];
+    } catch (error) {
+      console.log(`An error occurred while processing storeLink ${storeLink}: ${error.message}`);
+    }
 
 
 

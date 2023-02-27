@@ -4,12 +4,12 @@
     "title": "ZigBee – Thermostat intelligent, contrôleur de température, Hub requis, chauffage de l'eau/électrique au sol, chaudière à eau/gaz, avec Alexa Google Home",
     "description": null,
     "reference": "Gateway",
-    "minsalePrice": "20.26",
+    "minsalePrice": "16.54",
     "maxsalePrice": 0,
-    "discount": "-39%",
+    "discount": "-50% ",
     "currency": "EUR",
-    "originalPrice": "33.21",
-    "quantity": "72",
+    "originalPrice": "33.66",
+    "quantity": "1",
     "image": [
       "https://ae01.alicdn.com/kf/S0403c5076c034fa08baabc4b751148f0F/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/S10a0fc5a3e184b1081c3099582a0fd54y/ZigBee-Thermostat-intelligent-contr-leur-de-temp-rature-Hub-requis-chauffage-de-l-eau-lectrique-au.jpg_Q90.jpg.webp",
@@ -23,12 +23,12 @@
       "url": "https://fr.aliexpress.com/store/4988128",
       "storeNumber": "4988128",
       "rating": "95.5%",
-      "followers": "207377"
+      "followers": "208087"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.8",
-      "totalStarCount": "116"
+      "totalStarCount": "104"
     }
   }
 }

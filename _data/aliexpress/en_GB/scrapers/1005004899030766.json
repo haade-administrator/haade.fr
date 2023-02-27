@@ -6,10 +6,10 @@
     "reference": "16A Tuya Switch",
     "minsalePrice": "4.38",
     "maxsalePrice": 0,
-    "discount": "-50%",
+    "discount": "50% off",
     "currency": "USD",
     "originalPrice": "8.76",
-    "quantity": "990",
+    "quantity": "980",
     "image": [
       "https://ae01.alicdn.com/kf/Sfa0ee5ba746144d99182fc92b45edf28b/Tuya-Zigbee-Wifi-Smart-Switch-16A-Mini-DIY-Light-Switches-2-Way-Smart-Home-with-Tuya.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/S034b3e71736040e6a5237589925bf7f6s/Tuya-Zigbee-Wifi-Smart-Switch-16A-Mini-DIY-Light-Switches-2-Way-Smart-Home-with-Tuya.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "QIACHIP Wireless Remote Control Store",
       "url": "https://www.aliexpress.com/store/1101411173",
       "storeNumber": "1101411173",
-      "rating": "97.4%",
-      "followers": "6660"
+      "rating": "97.3%",
+      "followers": "6698"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "5.0",
-      "totalStarCount": "6"
+      "totalStarCount": "7"
     }
   }
 }

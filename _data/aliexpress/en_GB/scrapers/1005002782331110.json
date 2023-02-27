@@ -6,7 +6,7 @@
     "reference": "3CH",
     "minsalePrice": "23.86",
     "maxsalePrice": 0,
-    "discount": "-19%",
+    "discount": "19% off",
     "currency": "USD",
     "originalPrice": "29.46",
     "quantity": "999",
@@ -22,8 +22,8 @@
       "name": "Shop3633016 Store",
       "url": "https://www.aliexpress.com/store/1101279981",
       "storeNumber": "1101279981",
-      "rating": "93.3%",
-      "followers": "311"
+      "rating": "93.9%",
+      "followers": "313"
     },
     "ratings": {
       "totalStar": 5,

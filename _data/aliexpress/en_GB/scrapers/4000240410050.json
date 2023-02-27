@@ -6,10 +6,10 @@
     "reference": "Option 7",
     "minsalePrice": "20.01",
     "maxsalePrice": 0,
-    "discount": "-23%",
+    "discount": "23% off",
     "currency": "USD",
     "originalPrice": "25.99",
-    "quantity": "5364",
+    "quantity": "5363",
     "image": [
       "https://ae01.alicdn.com/kf/Hcacac61781344b19855e778f1f2b0eceT/Argon-One-V2-Case-for-Raspberry-Pi-4-Model-B-Aluminum-Metal-Shell-with-Power-Switch.jpg_Q90.jpg.webp",
       "https://ae01.alicdn.com/kf/Hf21de367f8fe4857bf0e28ecf6a9de6ft/Argon-One-V2-Case-for-Raspberry-Pi-4-Model-B-Aluminum-Metal-Shell-with-Power-Switch.jpg_Q90.jpg.webp",
@@ -22,13 +22,13 @@
       "name": "DIYzone Store",
       "url": "https://www.aliexpress.com/store/1100883172",
       "storeNumber": "1100883172",
-      "rating": "98.0%",
-      "followers": "12236"
+      "rating": "98.1%",
+      "followers": "12310"
     },
     "ratings": {
       "totalStar": 5,
       "averageStar": "4.9",
-      "totalStarCount": "43"
+      "totalStarCount": "44"
     }
   }
 }
