@@ -11,7 +11,7 @@ tags: []
 image: 'picture.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
