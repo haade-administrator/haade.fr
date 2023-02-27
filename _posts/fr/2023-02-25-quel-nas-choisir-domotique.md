@@ -213,13 +213,13 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 
 {% picture posts/{{ page.guid }}/odroid-hc4-nas-2sdcard.png --alt carte Nas odroid HC4  --img width="800" height="378" %}
 
-|A-processeur (Amlogic S905X3)|H-2x indicateurs LED du système|
-|B-Mémoire DDR4 (4 Go)|I-1x UART pour console système|
-|C-2x ports SATA|J-1x récepteur IR|
-|D-1x port Ethernet RJ45 (10/100/1000)|K-5x broches GPIO (pour écran OLED en option)|
-|E-1x HDMI 2.0|L-1x emplacement Micro SD|
-|F-1x port hôte USB 2.0|M-1x ventilateur de refroidissement|
-|G-1x prise d'alimentation CC (diamètre extérieur : 5,5 mm, diamètre intérieur 2,1 mm)|N-1x interrupteur de démarrage|
+|**A** processeur (Amlogic S905X3)|**H** 2x indicateurs LED du système|
+|**B** Mémoire DDR4 (4 Go)|**I** 1x UART pour console système|
+|**C** 2x ports SATA|**J** 1x récepteur IR|
+|**D** 1x port Ethernet RJ45 (10/100/1000)|**K** 5x broches GPIO (pour écran OLED en option)|
+|**E** 1x HDMI 2.0|**L** 1x emplacement Micro SD|
+|**F** 1x port hôte USB 2.0|**M** 1x ventilateur de refroidissement|
+|**G** 1x prise d'alimentation CC (diamètre extérieur : 5,5 mm, diamètre intérieur 2,1 mm)|**N** 1x interrupteur de démarrage|
 
 {% picture posts/{{ page.guid }}/ODROID-HC4-disque-boitier-grille-pain.jpg --alt carte Nas odroid HC4 dd et boitier plus oled  --img width="400" height="400" %}
 
@@ -227,16 +227,16 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 
 {% picture posts/{{ page.guid }}/odroid-h3+-carte-nas.png --alt carte Nas odroid H3+ --img width="940" height="361" %}
 
-|A. Processeur (Intel Pentium Silver N6005)|J. 1 port HDMI 2.0 |
-|B. 2 emplacements SO-DIMM DDR4 (prise en charge de la mémoire double canal)|K. 1 port DisplayPort 1.2 |
-|C. 1 prise de module PCI Express M.2 (NGFF-2280)|L. 2 ports Ethernet RJ45 (10/100/1000/2500) |
-|D. 1 x prise eMMC (carte multimédia intégrée)|M. 5 x indicateurs LED système |
-|E. 2 connecteurs d'alimentation SATA (pas de 2,5 mm, connecteur compatible JST-XH)|N. 1 x connecteur d'extension périphérique (24 broches) |
-|F. 2 x connecteurs de données SATA3 6.0 Gb/s|O. 1 x interrupteur d'alimentation |
-|G. 1 x prise d'alimentation CC|P. 1 x interrupteur de réinitialisation |
-|H. 2 ports USB 3.0|Q. 1 x connecteur de batterie de secours (2 broches) |
-|Je. 2 ports USB 2.0|R. 1 x connecteur de ventilateur de refroidissement actif (4 broches) |
-|S. 1 x sortie audio, 1 x entrée audio, 1 x sortie SPDIF ||
+|**A** Processeur (Intel Pentium Silver N6005)|**J** 1 port HDMI 2.0 |
+|**B** 2 emplacements SO-DIMM DDR4 (prise en charge de la mémoire double canal)|**K** 1 port DisplayPort 1.2 |
+|**C** 1 prise de module PCI Express M.2 (NGFF-2280)|**L** 2 ports Ethernet RJ45 (10/100/1000/2500) |
+|**D** 1 x prise eMMC (carte multimédia intégrée)|**M** 5 x indicateurs LED système |
+|**E** 2 connecteurs d'alimentation SATA (pas de 2,5 mm, connecteur compatible JST-XH)|**N** 1 x connecteur d'extension périphérique (24 broches) |
+|**F** 2 x connecteurs de données SATA3 6.0 Gb/s|**O** 1 x interrupteur d'alimentation |
+|**G** 1 x prise d'alimentation CC|**P** 1 x interrupteur de réinitialisation |
+|**H** 2 ports USB 3.0|**Q** 1 x connecteur de batterie de secours (2 broches) |
+|**I** 2 ports USB 2.0|**R** 1 x connecteur de ventilateur de refroidissement actif (4 broches) |
+|**S** 1 x sortie audio, 1 x entrée audio, 1 x sortie SPDIF ||
 
 # 5 Raspberry pi 4 + Argon Eon
 # 6 Wiretrustee
