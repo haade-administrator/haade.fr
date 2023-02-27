@@ -878,7 +878,12 @@ img:hover {
                 display: inline-block;
             }
         }
-        .gist .gist-meta a:after { display:none;}
+        .gist .gist-meta a:after { 
+            display:none;
+        }
+        .contentlink a:after {
+            display: none;
+        }
     }
     
 }
