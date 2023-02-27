@@ -6,12 +6,12 @@ layout: post
 author: Nico
 date: 2023-02-25 07:34
 last_modified_at: 
-categories: [Haade-lab, Domotique, Securite]
+categories: [Haade-lab, Domotique, Securite, News]
 tags: []
 image: 'choisir-carte-monter-nas-domotique-nvr.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -223,6 +223,8 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 
 {% picture posts/{{ page.guid }}/ODROID-HC4-disque-boitier-grille-pain.jpg --alt carte Nas odroid HC4 dd et boitier plus oled  --img width="400" height="400" %}
 
+{% include youtubePlayer.html id="luQFv4qzQtU" %}
+
 # 6 Odroid H3+
 
 {% picture posts/{{ page.guid }}/odroid-h3+-carte-nas.png --alt carte Nas odroid H3+ --img width="940" height="361" %}
@@ -239,12 +241,21 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 |**S** 1 x sortie audio, 1 x entrée audio, 1 x sortie SPDIF ||
 
 # 5 Raspberry pi 4 + Argon Eon
+
+{% picture posts/{{ page.guid }}/boitier-nas-argon-eon-raspberry-pi.png --alt boitier Nas Argon Eon pour raspberrypi 4 --img width="940" height="529" %}
+
+
+# 6 Raspberrypi 4 à la sauce Radxa
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Sda19c1ef27114e518a1afa6a57e83bf5N/RASPBERRY-PI-4-KIT-de-serveur-de-stockage-r-seau-SATA-QUAD.jpg_Q90.jpg_.webp" title="Nas hat radxa raspberry pi 4" brand="Radxa" description="Kit montage raspberrypi en Nas 4 disques par radxa" affiliate="_DnnkRhR" %}
+
+{% include youtubePlayer.html id="Eix0PCB0byQ" %}
+
 # 6 Wiretrustee
 
 
 # 7 Bananapi-bpi-w2
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/Hd02fb80eb00a40689f5ea759a41ad2764/Banana-Pi-BPI-W2-routeur-NAS-intelligent-RTD1296-conception-de-puce.jpg_Q90.jpg_.webp" title="carte Nas bananapi bpi w2" brand="Radxa" description="Cate pour montage Nas bananapi bpi w2" affiliate="_Dk2cvU9" %}
+{% include product-embed.html image="https://ae01.alicdn.com/kf/Hd02fb80eb00a40689f5ea759a41ad2764/Banana-Pi-BPI-W2-routeur-NAS-intelligent-RTD1296-conception-de-puce.jpg_Q90.jpg_.webp" title="carte Nas bananapi bpi w2" brand="Bananapi" description="Cate pour montage Nas bananapi bpi w2" affiliate="_Dk2cvU9" %}
 
 {% picture posts/{{ page.guid }}/bananapi-bpi-w2.jpg --alt carte Nas bananapi-bpi-w2 --img width="750" height="550" %}
 
