@@ -64,7 +64,9 @@ Below **a gif showing the import steps** of a blueprint in homeassistant.
 
 Copy this link for blueprint import:
 
-[**https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e**](https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e){: target="_blank"}
+[Blueprint 2 switch](https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e){: target="_blank"}
+
+{% gist f48574f3341c1ec5715dd1726177b05e %}
 
 If everything went well, let's move on to automation:
 
@@ -78,11 +80,15 @@ All you have to do is set the two switches in switch 1 and 2 and activate the au
 
 **If you want the blueprint for 3 switches** (which is common) here is the link to paste:
 
-[**https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe**](https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe){: target="_blank"}
+[Blueprint 3 switch](https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe){: target="_blank"}
+
+{% gist f551382802c642d24687bfbcd303f0fe %}
 
 And here the link **to connect 4 switches** back and forth:
 
-[**https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4**](https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4){: target="_blank"}
+[Blueprint 4 switch](https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4){: target="_blank"}
+
+{% gist 8897d84e11d5e505b729d24a535a89e4 %}
 
 # Conclusion
 

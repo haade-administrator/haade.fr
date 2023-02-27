@@ -65,7 +65,9 @@ Ci-dessous **un gif reprenant les étapes d'importations** d'un blueprint dans h
 
 Copie ce lien pour l'importation du blueprint:
 
-[**https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e**](https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e){: target="_blank"}
+[Blueprint 2 switch](https://gist.github.com/haade-administrator/f48574f3341c1ec5715dd1726177b05e){: target="_blank"}
+
+{% gist f48574f3341c1ec5715dd1726177b05e %}
 
 Si tout s'est bien passé passons à l'automatisation:
 
@@ -79,11 +81,15 @@ Il ne te reste plus qu'à paramétrer les deux interrupteurs dans switch 1 et 2 
 
 **Si tu veux le blueprint pour 3 interrupteurs** ( ce qui est courant) voici le lien à coller:
 
-[**https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe**](https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe){: target="_blank"}
+[Blueprint 3 switch](https://gist.github.com/haade-administrator/f551382802c642d24687bfbcd303f0fe){: target="_blank"}
+
+{% gist f551382802c642d24687bfbcd303f0fe %}
 
 Et ici le lien **pour connecter 4 interrupteurs** en va et vient:
 
-[**https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4**](https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4){: target="_blank"}
+[Blueprint 4 switch](https://gist.github.com/haade-administrator/8897d84e11d5e505b729d24a535a89e4){: target="_blank"}
+
+{% gist 8897d84e11d5e505b729d24a535a89e4 %}
 
 # Conclusion
 

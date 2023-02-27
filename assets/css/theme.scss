@@ -860,30 +860,27 @@ img:hover {
 
     .content-post {
         a {
-            text-decoration: none;
-            position: relative;
+            text-decoration-line: underline;
+            text-decoration-thickness: 2px;
+            text-decoration-skip-ink: auto;
+            text-decoration-color: $lightblue;            
             font-weight: 600;
-            display: inline-block;
             &:hover {
-                color: $purple;
-                &::before {
-                    bottom: 0;
-                    height: 100%;
-                }
+            color: $lightblue;
+            text-decoration-color: $purple;
             }
-            &::before {
-                content: '';
-                background-color: rgb(149, 233, 254);
-                position: absolute;
-                left: 0;
-                bottom: 7px;
-                width: 100%;
-                height: 6px;
-                z-index: -1;
-                transition: all .3s ease-in-out;
+            &:after {
+                font-family: 'Font Awesome 5 Free';
+                content: '\f0c1';
+                color: #999;
+                font-size: 15px;
+                margin-left: 5px;
+                display: inline-block;
             }
         }
+        .gist .gist-meta a:after { display:none;}
     }
+    
 }
 
 .c-rating button {
