@@ -127,6 +127,7 @@ ZimaBoard est un serveur monocarte low-cost exclusivement conçu pour les makers
 ## Les **-**{: .red} du produit
 - absence support Nvme ssd
 - absence Nvme ssd A+E M.key
+- absence Poe+
 - accepte deux disques dur max soit 72TB
 - non prévu pour une intégration dans un boitier spécifique
 
@@ -156,17 +157,24 @@ Radxa Taco est une solution NAS/routeur complète conçue sur la base du module 
 
 ## Les **+**{: .blue} du produit:
 - ultra complet 
-- Full support Nvme
+- Full support Nvme, 2 emplacements
 - Support de 5DD
 - Compatible CM4
+- Stockage interne jusqu'à 32gb via le CM4
+- Mémoire jusqu'à 8GB via le CM4
 - compatible Raspberrypi OS
 - Horloge RTC
 
 ## Les **-**{: .red} du produit
 - manque le Poe+
 - absence de boitier d'intégration
+- absence alimentation
 - dépend des dispos Raspberry
 - Le prix 145€ sans CM4
+- impossible de booter sur ssd NVME à confirmer
+- Absence POE+
+
+Si tu choisis cette carte, et que t'es equipé d'une imprimante 3D alors ce lien pourrait t'intéresser pour l'impression d'un [boitier compatible radxa taco](https://www.thingiverse.com/thing:5811612){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/620px-Taco-front.png --alt carte Nas Rockpi Taco  --img width="620" height="599" %}
 
@@ -213,32 +221,73 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 
 {% picture posts/{{ page.guid }}/odroid-hc4-nas-2sdcard.png --alt carte Nas odroid HC4  --img width="800" height="378" %}
 
-|**A** processeur (Amlogic S905X3)|**H** 2x indicateurs LED du système|
-|**B** Mémoire DDR4 (4 Go)|**I** 1x UART pour console système|
-|**C** 2x ports SATA|**J** 1x récepteur IR|
-|**D** 1x port Ethernet RJ45 (10/100/1000)|**K** 5x broches GPIO (pour écran OLED en option)|
-|**E** 1x HDMI 2.0|**L** 1x emplacement Micro SD|
-|**F** 1x port hôte USB 2.0|**M** 1x ventilateur de refroidissement|
-|**G** 1x prise d'alimentation CC (diamètre extérieur : 5,5 mm, diamètre intérieur 2,1 mm)|**N** 1x interrupteur de démarrage|
+**Caractéristiques**
+
+|**A**| processeur (Amlogic S905X3)|**H**| 2x indicateurs LED du système|
+|**B**| Mémoire DDR4 (4 Go)|**I**| 1x UART pour console système|
+|**C**| 2x ports SATA|**J**| 1x récepteur IR|
+|**D**| 1x port Ethernet RJ45 (10/100/1000)|**K**| 5x broches GPIO (pour écran OLED en option)|
+|**E**| 1x HDMI 2.0|**L**| 1x emplacement Micro SD|
+|**F**| 1x port hôte USB 2.0|**M**| 1x ventilateur de refroidissement|
+|**G**| 1x prise d'alimentation CC (diamètre extérieur : 5,5 mm, diamètre intérieur 2,1 mm)|**N**| 1x interrupteur de démarrage|
 
 {% picture posts/{{ page.guid }}/ODROID-HC4-disque-boitier-grille-pain.jpg --alt carte Nas odroid HC4 dd et boitier plus oled  --img width="400" height="400" %}
 
+> Abrège propose un tutoriel pour effectuer un montage d'un Nas avec une carte odroid HC4, pour suivre ce tuto il faudra bienentendu une imprimante 3D
+
 {% include youtubePlayer.html id="luQFv4qzQtU" %}
+
+## Les **+**{: .blue} du produit:
+- support 2 SSD
+- memoire DDR4 intégré
+- le prix
+- compatible debian/openmediavault
+- indépendant des stocks de Raspberry 
+
+## Les **-**{: .red} du produit
+- absence Nvme
+- absence stockage interne
+- absence alimentation
+  
 
 # 6 Odroid H3+
 
+ODROID-H3+ a le même facteur de forme et une efficacité énergétique similaire à son prédécesseur, l'ODROID-H2+. Mais, H3+ est plus puissant, offre des performances plus élevées.
+
+Avec une grande compatibilité, un tout nouvel ordinateur monocarte x86 64 bits ainsi qu'une grande capacité de mémoire et des ports IO avancés.
+
 {% picture posts/{{ page.guid }}/odroid-h3+-carte-nas.png --alt carte Nas odroid H3+ --img width="940" height="361" %}
 
-|**A** Processeur (Intel Pentium Silver N6005)|**J** 1 port HDMI 2.0 |
-|**B** 2 emplacements SO-DIMM DDR4 (prise en charge de la mémoire double canal)|**K** 1 port DisplayPort 1.2 |
-|**C** 1 prise de module PCI Express M.2 (NGFF-2280)|**L** 2 ports Ethernet RJ45 (10/100/1000/2500) |
-|**D** 1 x prise eMMC (carte multimédia intégrée)|**M** 5 x indicateurs LED système |
-|**E** 2 connecteurs d'alimentation SATA (pas de 2,5 mm, connecteur compatible JST-XH)|**N** 1 x connecteur d'extension périphérique (24 broches) |
-|**F** 2 x connecteurs de données SATA3 6.0 Gb/s|**O** 1 x interrupteur d'alimentation |
-|**G** 1 x prise d'alimentation CC|**P** 1 x interrupteur de réinitialisation |
-|**H** 2 ports USB 3.0|**Q** 1 x connecteur de batterie de secours (2 broches) |
-|**I** 2 ports USB 2.0|**R** 1 x connecteur de ventilateur de refroidissement actif (4 broches) |
-|**S** 1 x sortie audio, 1 x entrée audio, 1 x sortie SPDIF ||
+**Caractéristiques**
+
+|**A**| Processeur (Intel Pentium Silver N6005)|**J**| 1 port HDMI 2.0 |
+|**B**| 2 emplacements SO-DIMM DDR4 (prise en charge de la mémoire double canal)|**K**| 1 port DisplayPort 1.2 |
+|**C**| 1 prise de module PCI Express M.2 (NGFF-2280)|**L**| 2 ports Ethernet RJ45 (10/100/1000/2500) |
+|**D**| 1 x prise eMMC (carte multimédia intégrée)|**M**| 5 x indicateurs LED système |
+|**E**| 2 connecteurs d'alimentation SATA (pas de 2,5 mm, connecteur compatible JST-XH)|**N**| 1 x connecteur d'extension périphérique (24 broches) |
+|**F**| 2 x connecteurs de données SATA3 6.0 Gb/s|**O**| 1 x interrupteur d'alimentation |
+|**G**| 1 x prise d'alimentation CC|**P**| 1 x interrupteur de réinitialisation |
+|**H**| 2 ports USB 3.0|**Q**| 1 x connecteur de batterie de secours (2 broches) |
+|**I**| 2 ports USB 2.0|**R**| 1 x connecteur de ventilateur de refroidissement actif (4 broches) |
+|**S**| 1 x sortie audio, 1 x entrée audio, 1 x sortie SPDIF ||
+
+## Les **+**{: .blue} du produit:
+- Intel quad core processeur
+- refroidissement passif
+- 2 emplaccements DDR4
+- 1 emplacement NVME DD
+- horloge rtc incluse
+- 2 emplacement disque dur montage amovible
+- 1 support emmc ( stockage interne )
+- 2 ports rj 45
+
+## Les **-**{: .red} du produit
+- le prix 160€
+- ajout de memoire DDR non incluse
+- absence d'un emplacement NVME secondaire
+- ajout emmc non inclus
+
+> Cette Carte est intéressante pour la création d'un NAS Multimédia c'est la plus puissante du comparatif mais aussi la plus chère si on compte les options.
 
 # 5 Raspberry pi 4 + Argon Eon
 
@@ -258,4 +307,7 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
 {% include product-embed.html image="https://ae01.alicdn.com/kf/Hd02fb80eb00a40689f5ea759a41ad2764/Banana-Pi-BPI-W2-routeur-NAS-intelligent-RTD1296-conception-de-puce.jpg_Q90.jpg_.webp" title="carte Nas bananapi bpi w2" brand="Bananapi" description="Cate pour montage Nas bananapi bpi w2" affiliate="_Dk2cvU9" %}
 
 {% picture posts/{{ page.guid }}/bananapi-bpi-w2.jpg --alt carte Nas bananapi-bpi-w2 --img width="750" height="550" %}
+
+# Projets qui pourrait t'intéresser
+1. [Pinas un Nas à la sauce pi](https://www.instructables.com/PiNAS-the-Raspberry-Pi-NAS/)
 
