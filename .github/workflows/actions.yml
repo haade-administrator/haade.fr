@@ -41,6 +41,7 @@ jobs:
 
       - name: Install and Build
         run: |
+          sudo apt update
           sudo apt install libvips libvips-dev libvips-tools libvips-tools gvfs poppler-utils ghostscript -y
           locale
           node -v
