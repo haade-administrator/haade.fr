@@ -1,17 +1,17 @@
 ---
-guid: 48
-title: "Quelle carte choisir pour monter son nas et sa domotique"
+guid: 50
+title: "Quelle carte choisir pour monter son nas et sa domotique avec nvr"
 description: "Dans cet article je ne cherche pas automatiquement un Nas complet mais plutôt une carte mère adaptée aux besoins d'une maison, alors quelle carte conviendrait le mieux pour un Nas et la domotique en 2023"
 layout: post
 author: Nico
-date: 2023-02-25 07:34
+date: 2023-03-03 07:34
 last_modified_at: 
 categories: [Haade-lab, Domotique, Securite, News]
 tags: []
 image: 'choisir-carte-monter-nas-domotique-nvr.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -38,14 +38,16 @@ J'ai comme projet d'équiper une maison d'un serveur NAS qui servira **essentiel
 
 La question est de savoir sur quel système je vais m'orienter, Installation de home-Assistant sur le disque principal et ainsi utiliser la domotique et le NVR ou l'installation de Openmediavault comme système NAS et ainsi pouvoir utiliser d'autres aspects de ce serveur comme le stockage de documents, audio et Vidéo ?
 
-Les critères d'évaluation:
+**Les critères d'évaluation:**
+
 - l'intégration OMV
 - la disponibilité du matériel
 - le prix
 - la connectique ( Nvme interne, )
 - La connection aux disques supplémentaires
 
-**Mes Besoins**
+**Mes Besoins:**
+
 - minimum deux Disques dur pour le montage Zfs
 - 4 GO de ram Minimum
 - stockage interne de 8GO minimum
@@ -266,8 +268,6 @@ Rock Pi Penta Sata Hat est un accessoire conçu pour Rock Pi 4. Il utilise les b
 **Les - du produit:**{: .red}
 - beaucoup d'options à rajouter
 - généralement vendu sans alim
-
-{% include youtubePlayer.html id="cwWkUQFGdm8" %}
 
 > Si je devais acheter ce produit je le prendrai au complet soit un boitier livré avec le module Penta Sata compatible rockpi 4C+
 
@@ -500,9 +500,18 @@ Comme plus haut argus Eon n'est pas une carte mais un boitier Nas complet accuei
 
 # Conclusion
 
-Vu que mes besoins sont orientés NVR et domotiques je vais probablement m'orienter vers la carte **Taco fabriqué par Radxa** avec une carte CM3, cependant j'ai encore des doutes sur l'installation de debian qui n'est pas encore optimisé pour ce produit même si Radxa y travaille. La seconde carte qui m'intéresse est **l'interceptor carrier board d'axzez** à regarder si son prix va me freiner, le point négatif se situe à l'intégration du google coral, je serais obligé de le connecter à un des ports usb.
+Vu que mes besoins sont orientés NVR et domotiques je vais probablement m'orienter vers la carte [**Taco fabriqué par Radxa**](https://s.click.aliexpress.com/e/_DElzckl){: target="_blank"} avec une carte CM3, cependant j'ai encore des doutes sur l'installation de debian qui n'est pas encore optimisé pour ce produit même si Radxa y travaille. La seconde carte qui m'intéresse est **l'interceptor carrier board d'axzez** à regarder si son prix va me freiner, le point négatif se situe à l'intégration du google coral, je serais obligé de le connecter à un des ports usb.
 
-Pourquoi je n'ai pas retenu les autres solutions:
+**Pourquoi je n'ai pas retenu les autres solutions:**
+
 |Carte|Cause|
 |-----|-----|
-|Odroid hc4|
+|Odroid hc4|Absence de stockage interne<br>Absence de support interne M.2|
+|Odroid H3+|le tarif sans options|
+|Bananapi-bpi-w2|2G memoire DDR|
+|Zimaboard|Trop fermé à l'intégration NAS|
+|Radxa Penta Sata Hat|Le tarif principalement<br>absence nvme|
+|Axzez|Le tarif mais projet complet|
+|wiretrustee|trop de travail|
+|radxa dual|absence nvme|
+|Argus Eon|idem|
