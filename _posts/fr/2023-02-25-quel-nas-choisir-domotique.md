@@ -11,7 +11,7 @@ tags: []
 image: 'choisir-carte-monter-nas-domotique-nvr.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -34,20 +34,31 @@ sourcelink:
   - https://www.jeffgeerling.com/
 ---
 
-J'ai comme projet d'équiper une maison d'un serveur NAS qui servira essentiellement pour la domotique mais aussi de serveur d'enregistreur NVR. La priorité est au tarif avec le maximum de fonctionnalités et d'avoir la main sur le système complet.
+J'ai comme projet d'équiper une maison d'un serveur NAS qui servira **essentiellement pour la domotique** mais aussi de serveur **d'enregistreur NVR**. La priorité est au tarif avec le maximum de fonctionnalités et d'avoir la main sur le système complet.
 
-La question est de savoir sur quel système je vais m'orienter, Installation d'home-Assistant sur le disque principal et ainsi utiliser la domotique et le NVR ou l'installation de Openmediavault comme système NAS et ainsi pouvoir utiliser d'autres aspects de ce serveur comme le stockage de documents, audio et Vidéo ?
+La question est de savoir sur quel système je vais m'orienter, Installation de home-Assistant sur le disque principal et ainsi utiliser la domotique et le NVR ou l'installation de Openmediavault comme système NAS et ainsi pouvoir utiliser d'autres aspects de ce serveur comme le stockage de documents, audio et Vidéo ?
 
 Les critères d'évaluation:
-- l'intégration
+- l'intégration OMV
 - la disponibilité du matériel
 - le prix
 - la connectique ( Nvme interne, )
 - La connection aux disques supplémentaires
 
+**Mes Besoins**
+- minimum deux Disques dur pour le montage Zfs
+- 4 GO de ram Minimum
+- stockage interne de 8GO minimum
+- 1 emplacement A+E pour google coral ( de préférence )
+- 2 ports RJ45
+- 1 emplacement ATX
+
 # Cartes Indépendantes
 
 ## #1 odroid HC4
+
+[Lien wiki odroid hc4](https://wiki.odroid.com/odroid-hc4/odroid-hc4){: target="_blank"}
+
 
 ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeur ARM que l'ODROID-C4. Nous avons adopté un processeur quadricœur Cortex-A55 à 1,8 GHz fabriqué en 12 nm et économe en énergie avec une RAM DDR4 de 4 Go plus rapide. Une puce flash SPI de 16 Mo existe sur la carte pour la fonction utile Petitboot.
 
@@ -83,6 +94,8 @@ ODROID-HC4 est une nouvelle plate-forme Home-Cloud basée sur le même processeu
   
 
 ## #2 Odroid H3+
+
+[Lien wiki odroid h3+](https://wiki.odroid.com/odroid-h3/start){: target="_blank"}
 
 ODROID-H3+ a le même facteur de forme et une efficacité énergétique similaire à son prédécesseur, l'ODROID-H2+. Mais, H3+ est plus puissant, offre des performances plus élevées.
 
@@ -152,6 +165,7 @@ Le Banana Pi BPI-W2 est une carte de développement basée sur un routeur, qui p
 - branchement 2 x ssd
 - le prix 108€
 - branchement pour batteries RTC
+- multi-systeme compatible ( ubuntu, debian, android )
 
 **Les - du produit:**{: .red}
 - 2G de DDR4
@@ -161,6 +175,8 @@ Le Banana Pi BPI-W2 est une carte de développement basée sur un routeur, qui p
 {% include product-embed.html image="https://ae01.alicdn.com/kf/Hd02fb80eb00a40689f5ea759a41ad2764/Banana-Pi-BPI-W2-routeur-NAS-intelligent-RTD1296-conception-de-puce.jpg_Q90.jpg_.webp" title="carte Nas bananapi bpi w2" brand="Bananapi" description="Cate pour montage Nas bananapi bpi w2" affiliate="_Dk2cvU9" %}
 
 ## #4 carte Zimaboard
+
+[Lien Zimaboard](https://www.zimaboard.com/){: target ="_blank"}
 
 **Qu'est-ce que ZimaBoard**
 Serveur monocarte pour les créateurs
@@ -220,44 +236,20 @@ Rock Pi Penta Sata Hat est un accessoire conçu pour Rock Pi 4. Il utilise les b
 
 **Caractéristiques Rockpi 4C+**
 
-|Processeur|64Bits Hexa Core Processeur<br>
-Rockchip rk3399-t, Double cortex-72<br>
-fréquence 1,5 GHz avec Cortex-A53 Qual<br> 
-fréquence 1,0 GHz, GPU Mali T860MP4<br>
-support OpenGL ES 1.1 / 2.0 / 3.0 / 3.1 / 3.2<br> 
-Vulkan 1.0, ouvert CL 1.1 1.2, DX11.|
-|Mémoire|lpddr4 64 bits LPDDR4 à double canal @ 3200 Mo / s, 1 Go / 2 Go / 4 Go Optionel|
-|Connecteur|EMMC de stockage, Carte μSD (emplacement μsd prend en charge jusqu'à 256 Go de carte μsd)|
-|Afficher|un micro HDMI 2K jusqu'à 1440p à 60<br>
-Un micro HDMI 4K 2.0 jusqu'à 4k @ 60<br>
-MIPI DSI 4 LANES via le connecteur FPC<br>
-Seuls deux des HDMI 2K, HDMI 4K et MIPI DSI peuvent fonctionner en même temps.|
-|Audio|3,5 mm Jack HD Codec qui prend en charge l'audio jusqu'à l'audio 24 bits / 96 kHz.|
-|Caméra|MIPI CSI 2 LANES via le connecteur FPC<br>
-prends en charge jusqu'à 800 MP de caméra (connecteur de tangage de 0,3 mm).|
-|Wireless|802.11 AC WiFi<br>
-BT 5.0<br>
-avec une antenne externe|
-|USB|USB 3.0 OTG X1, Upper, logiciel configurable pour être hôte ou OTG<br>
-USB 3.0 hôte x1<br>
-USB 3.0 dédié<br>
-USB 2.0 hôte x2|
-|Ethernet|1 x Gbe Lan avec le soutien au pouvoir sur Ethernet (POE)<br>
-Un module supplémentaire est nécessaire pour l'alimentation de Poe|
-|IO|En-tête d'extension à 40 broches<br>
-2 x uart<br>
-2 x bus SPI<br>
-Bus de 3 x i2c<br>
-1 x PCM / I2<br>
-1 x SPDIF<br>
-2 x PWM<br>
-1 x ADC<br>
-6 x gpio<br>
-2 x 5V CC Power en<br>
-2 x 3,3 V CC Power in|
-|Autres|RTC|
-|Alim|USB C 5V / 3A|
-|Taille|85 mm x 54 mm|
+|**Processeur**|64Bits Hexa Core Processeur<br>Rockchip rk3399-t, Double cortex-72<br>fréquence 1,5 GHz avec Cortex-A53 Quad<br> fréquence 1,0 GHz, GPU Mali T860MP4<br>support OpenGL ES 1.1 / 2.0 / 3.0 / 3.1 / 3.2<br> Vulkan 1.0, ouvert CL 1.1 1.2, DX11.|
+|**Mémoire**|lpddr4 64 bits LPDDR4 à double canal @ 3200 Mo / s, 1 Go / 2 Go / 4 Go Optionel|
+|**Connecteur**|EMMC de stockage<br>Carte μSD (emplacement μsd prend en charge jusqu'à 256 Go de carte μsd)|
+|**Afficher**|un micro HDMI 2K jusqu'à 1440p à 60<br>Un micro HDMI 4K 2.0 jusqu'à 4k @ 60<br>MIPI DSI 4 LANES via le connecteur FPC<br>Seuls deux des HDMI 2K, HDMI 4K et MIPI DSI peuvent fonctionner en même temps.|
+|**Audio**|3,5 mm Jack HD Codec qui prend en charge l'audio jusqu'à l'audio 24 bits / 96 kHz.|
+|**Caméra**|MIPI CSI 2 LANES via le connecteur FPC<br>prends en charge jusqu'à 800 MP de caméra (connecteur de tangage de 0,3 mm).|
+|**Wireless**|802.11 AC WiFi<br>BT 5.0<br>avec une antenne externe|
+|**USB**|USB 3.0 OTG X1, Upper, logiciel configurable pour être hôte ou OTG<br>USB 3.0 hôte x1<br>USB 3.0 dédié<br>USB 2.0 hôte x2|
+|**Ethernet**|1 x Gbe Lan avec le soutien au pouvoir sur Ethernet (POE)<br>Un module supplémentaire est nécessaire pour l'alimentation de Poe|
+|**IO**|En-tête d'extension à 40 broches<br>2 x uart<br>2 x bus SPI<br>Bus de 3 x i2c<br>1 x PCM / I2<br>1 x SPDIF<br>2 x PWM<br>1 x ADC<br>6 x gpio<br>2 x 5V CC Power en<br>2 x 3,3 V CC Power in|
+|**Alim**|USB C 5V / 3A|
+|**Taille**|85 mm x 54 mm|
+
+[Rockpi 4](https://rockpi.org/rockpi4){: target="_blank"}
 
 
 **Les + du produit:**{: .blue}
@@ -279,13 +271,16 @@ Bus de 3 x i2c<br>
 
 > Si je devais acheter ce produit je le prendrai au complet soit un boitier livré avec le module Penta Sata compatible rockpi 4C+
 
-Le kit sans rockpi est vendu environ 205€ ou 330€ avec la carte, si j'étais toi je prendrai la dernière en date la version 4C+, lien d'une alimentation compatible et une [alimentation 12V cc de 40w mini à 10€](https://s.click.aliexpress.com/e/_Ddli1fT){: target="_blank"} soit 163€ l'ensemble hors disque dur.
+Le **kit sans rockpi est vendu environ 205€** ou **330€ avec la carte**, si j'étais toi je prendrai la dernière en date la version 4C+, lien d'une alimentation compatible et une [alimentation 12V cc de 40w mini à 10€](https://s.click.aliexpress.com/e/_Ddli1fT){: target="_blank"} soit **340€** l'ensemble hors disque dur.
 
 
 
 # Cartes basées Raspberry pi CM4
 
 ## #1 Axzez
+
+[Lien de la carte Axzez](https://www.axzez.com/axzez-circuit-boards){: target="_blank"}
+
 Axzez est un fabriquant américain Axzez récemment entré dans l'arène des technologies de surveillance intelligentes. La société prévoit d'offrir des solutions évolutives de la communauté des passionnés aux entreprises de toutes tailles. Fondé par un groupe d'amis avec des décennies d'expérience dans l'industrie, qui ont commencé par griffonner leurs idées sur un morceau de papier, Axzez prévoit de secouer le marché avec des produits beaux, efficaces et innovants.
 
 La carte " Interceptor carrier board " est une carte embarquée accueillant le Rapberry pi compute (cm4), c'est une bonne chose attention aux dispos actuelles, cependant Axzez vend sa carte avec le CM4. Elle est conçu spécialement pour les NAS et NVR pil poil ce que je cherche.
@@ -335,6 +330,8 @@ Le coût total livré: **637$** soit env 610€
 
 ## #2 rockpi taco
 
+[Lien wiki du rockpi taco](https://wiki.radxa.com/Taco){: target="_blank"}
+
 Radxa Taco est une solution NAS/routeur complète conçue sur la base du module de calcul Raspberry Pi CM4. Il utilise les bus PCIe haut débit pour une connectivité réseau et des E/S de stockage ultra-rapides.
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S2edd4d00669f40fea8a80f3e404e8ad40/Radxa-TACO-a-d-velopp-le-fond-de-panier-pour-supporter-raspberry-pie-CM4-afin-de.jpg_Q90.jpg_.webp" title="Carte Nas Radxa Taco" brand="Radxa" description="Carte Nas, domotique Radxa Nas Taco" affiliate="_DDsHRKD" %}
@@ -359,7 +356,7 @@ Radxa Taco est une solution NAS/routeur complète conçue sur la base du module 
 - ultra complet 
 - Full support Nvme, 2 emplacements
 - Support de 5DD
-- Compatible CM4
+- Compatible CM4 ou radxa CM3
 - Stockage interne jusqu'à 32gb via le CM4
 - Mémoire jusqu'à 8GB via le CM4
 - compatible Raspberrypi OS
@@ -370,9 +367,10 @@ Radxa Taco est une solution NAS/routeur complète conçue sur la base du module 
 - absence de boitier d'intégration
 - absence alimentation
 - dépend des dispos Raspberry
-- Le prix 145€ sans CM4
+- Le prix 145€ sans CM4 ou CM3
 - impossible de booter sur ssd NVME à confirmer
 - Absence POE+
+- Un problème connu est que le démarrage à partir du SSD M.2 NVMe n’est pas pris en charge car il n’y a pas de pilote pour le commutateur PCIe dans le chargeur de démarrage Raspberry Pi.
 
 Si tu choisis cette carte, et que t'es equipé d'une imprimante 3D alors ce lien pourrait t'intéresser pour l'impression d'un [boitier compatible radxa taco](https://www.thingiverse.com/thing:5811612){: target="_blank"}
 
@@ -384,6 +382,7 @@ j'ai fait un article à l'époque ou l'entreprise existait toujours, malheureuse
 
 [Nas opensource base CM4]({% post_url /fr/2021-09-01-nas-opensource-pour-raspberry-pi-cm4-le-futur %})
 
+{% picture posts/16/carte-sata-wiretrustee-raspberrypi-4-1.png --alt carte sata wiretrustee pour raspberrypi --img width="820" height="461" %}
 
 Wiretrustee SATA est une carte porteuse Raspberry Pi Compute Module 4 (CM4) pour le stockage en réseau (NAS) DIY. Il s'agit de la première carte de ce type à transférer directement des données via l'interface CM4 PCIe native, et évite ainsi les connexions USB-SATA instables.
 
@@ -495,7 +494,15 @@ Comme plus haut argus Eon n'est pas une carte mais un boitier Nas complet accuei
 {% include youtubePlayer.html id="OI3XfWg9ftA" %}
 
 # Projets qui pourrait t'intéresser
-1. [Pinas un Nas à la sauce pi](https://www.instructables.com/PiNAS-the-Raspberry-Pi-NAS/)
+1. [Pinas un Nas à la sauce pi](https://www.instructables.com/PiNAS-the-Raspberry-Pi-NAS/){: target="_blank"}
+2. [Radxa dual/quad/penta hat](https://www.hackster.io/news/radxa-targets-nas-builders-with-rock-pi-raspberry-pi-compatible-dual-quad-and-penta-sata-hats-2b535cdeddff){: target="_blank"}
+3. [fabriquer un Nas Bananapi petit budget](https://www.hackster.io/news/build-your-own-nas-router-on-a-budget-with-the-banana-pi-df6c4cadb67){: target="_blank"}
 
 # Conclusion
 
+Vu que mes besoins sont orientés NVR et domotiques je vais probablement m'orienter vers la carte **Taco fabriqué par Radxa** avec une carte CM3, cependant j'ai encore des doutes sur l'installation de debian qui n'est pas encore optimisé pour ce produit même si Radxa y travaille. La seconde carte qui m'intéresse est **l'interceptor carrier board d'axzez** à regarder si son prix va me freiner, le point négatif se situe à l'intégration du google coral, je serais obligé de le connecter à un des ports usb.
+
+Pourquoi je n'ai pas retenu les autres solutions:
+|Carte|Cause|
+|-----|-----|
+|Odroid hc4|
