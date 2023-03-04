@@ -439,6 +439,23 @@ $alert-success: #42ae42;
             background-color: #ac90e9;
           }
         }
+        .iteadbutton {
+          img {
+            margin-right: 1em;
+          }
+          a {
+            background-color: #3465a8;
+          }
+
+          :hover,
+          :focus {
+            background-color: #3465a8;
+          }
+
+          :active {
+            background-color: #3465a8;
+          }
+        }
         .amazbutton {
           i {
             margin-right: 1em;

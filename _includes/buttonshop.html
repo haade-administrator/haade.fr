@@ -9,4 +9,8 @@
   <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ scraper.linkId }}.html?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="18" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
     currency }}{%- endif %} - {{ translate.product.outof[page.locale] }} Domadoo{% if disponibility != nil %}<br>date de disponibilité {{ disponibility }}{%- endif %}</a></span>
   {%- endif %}
+  {%- if page.itead-item != nil %}
+  <span class="iteadbutton" role="button"><a href="https://www.itead.cc/product/{{ scraper.linkId }}/ref/122/" target="_blank" rel="nofollow noopener"><img src="/assets/images/itead-payment.png" width="20" height="18" alt="itead logo"> {{ translate.product.buttonbuy[page.locale] }} - {%- if scraper.minsalePrice != empty %} {{ minprice }}{% else %} {{ originalprice }}{% endif %}{%- if currency != '' %} {{
+    currency }}{%- endif %} - {{ translate.product.outof[page.locale] }} Itead{% if disponibility != nil %}<br>date de disponibilité {{ disponibility }}{%- endif %}</a></span>
+  {%- endif %}
 </div>

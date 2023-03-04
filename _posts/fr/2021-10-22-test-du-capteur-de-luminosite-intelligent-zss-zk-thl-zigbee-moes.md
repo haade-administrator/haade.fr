@@ -26,10 +26,9 @@ redirect_from:
   - /en/blog/tests/test-du-capteur-de-luminosite-intelligent-zss-zk-thl-zigbee-moes/
 rating: 3.6
 ---
+J'ai décidé de tester ce capteur de luminosité intelligent pour apporter une lecture directe taux de luminosité, de la température et du taux d'humidité au sein de la maison sans passer par une application tierce.
 
 # TOP ou FLOP ?
-
-J'ai décidé de tester ce capteur de luminosité intelligent pour apporter une lecture directe taux de luminosité, de la température et du taux d'humidité au sein de la maison sans passer par une application tierce.
 
 La marque **Moes** offrant des produits de qualité/prix (~15euros) correcte mais fonctionnel en a fait un atout pour le choix de celui-ci.
 

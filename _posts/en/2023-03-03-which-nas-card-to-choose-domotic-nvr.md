@@ -8,7 +8,7 @@ date: 2023-03-03 07:34
 last_modified_at: 
 categories: [Haade-lab, Automation, Security, News]
 tags: []
-image: 'choisir-carte-monter-nas-domotique-nvr.png'
+image: 'choose-map-mount-nas-domotic-nvr.png'
 toc: true
 beforetoc: ''
 published: true
