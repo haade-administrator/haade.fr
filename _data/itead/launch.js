@@ -32,7 +32,7 @@ async function scrapeItead() {
         const product = {};
         const linkId = link;
         const title = $('h1').text().trim().replace(/\n|\r/g, '');
-        const reference = $('td.woocommerce-product-attributes-item__value p').text().trim();
+        const reference = $('td.woocommerce-product-attributes-item__value p').eq(1).text().trim();
         const productNew = $('.product-flag.new').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
         const originalPrice = $('span.woocommerce-Price-amount').text().trim();
         const globalprice = $('.current-price-value').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(",", ".").replace("€", "EUR");
@@ -40,9 +40,9 @@ async function scrapeItead() {
         const salePrice = priceArr[0];
         const currency = priceArr[1];
         const rating = {
-            averageStar: $('.netreviewsProductWidgetNewRate .ratingValue').text(),
+            averageStar: $('.jdgm-prev-badge__stars').attr('data-score'),
             totalStar: $('.netreviewsProductWidgetNewRate .bestRating').text(),
-            totalStarCount: $('a.netreviewsProductWidgetNewLink span').text(),
+            totalStarCount: $('.jdgm-prev-badge__text').text().trim().split(' ')[0]
         };
         const discount = $('.discount-percentage').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace("Économisez ", "-");
         const available = $('#product-availability').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
@@ -60,7 +60,7 @@ async function scrapeItead() {
         } else if (available === "Indisponible") {
             availabilityValue = 0;
         }
-        const description = $('*[id^="product-description-short-"]').text().trim().replace(/\n|\r/g, '');
+        const description = $('.et_pb_module_inner p').text().trim().replace(/\n|\r/g, '');
         const specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
         const image = [];
         $('.images-container.js-images-container img').each((i, el) => {
@@ -107,8 +107,8 @@ async function scrapeItead() {
         };
 
         // write results to file
-        fs.writeFileSync('./_data/itead/scrapers/' + linkId + ".json", JSON.stringify(data, null, 4));
-        console.log(`Product data saved to file product ${linkId}.json.`);
+        fs.writeFileSync('./_data/itead/scrapers/' + reference + ".json", JSON.stringify(data, null, 4));
+        console.log(`Product data saved to file product ${reference}.json.`);
     }
     await browser.close();
 }
