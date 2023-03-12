@@ -23,6 +23,8 @@ comments: true
 rating: 3.5
 sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
+  - https://www.youtube.com/watch?v=0kjGH9-XQk4
+  - https://blakadder.com/nspanel-pro/
 ---
 
 Aujourd'hui et grâce à Itead qui nous a fourni le module Nspanel pro ainsi que [son support](https://itead.cc/product/enclosure-stand/ref/122/){: target="_blank" }, je vais pouvoir tester cette fameuse centrale de contrôle domotique et vous donner mon avis sur ce module. Est-ce le module à posséder pour avoir un accès Waf, le module est-il au point ? telles sont les questions que je me pose actuellement.
@@ -76,11 +78,26 @@ Une vidéo distribuée par Sonoff illustre bien l'installation de l'addons, je n
 
 > tu l'auras compris c'est vraiment pas terrible.
 
-Colle le [lien du répertoire Github](https://github.com/CoolKit-Technologies/ha-addon){: target="_blank"} pour accéder à l'addons
+Colle le [lien du répertoire Github](https://github.com/CoolKit-Technologies/ha-addon){: target="_blank"} pour accéder à l'addons. Ensuite regarde la vidéo ci-dessous pour une installation complète.
+
+**Avantage:**
+- Ewelink permet l'import des [modules compatibles](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} inclus dans homeassistant
+- import d'un simple clic dans Lovelace
+
+**Inconvénient:**
+- 100% Cloud Chinois
+- très peut de modules reconnus
+- synchronisation avec modules lumières/interrupteur homeassistant limités
+- temps de réponse du switch 1,5 secondes (énorme)
+- Non compatible gestion NSPanel Pro
 
 {% include youtubePlayer.html id="wAMIKhMkSFA" %}
-2. en flashant le module avec android 100% locale
-3. En utilisant le [dépôt Sonofflan](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} ( local et/ou cloud )
+
+### #2 en flashant le module avec android 100% locale
+
+{% include youtubePlayer.html id="0kjGH9-XQk4" %}
+
+### #3 En utilisant le [dépôt Sonofflan](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} ( local et/ou cloud )
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
