@@ -11,7 +11,7 @@ tags: []
 image: 'test-sonoff-nspanel-pro-v154-plus-support.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -50,29 +50,98 @@ Pour le Nspanel pro ainsi que le boitier les plastiques utilisés sont de bonnes
 
 Pour effectuer un premier lancement avec mise à jour du firmware il faudra le téléphone portable avec [l'application Ewelink](https://play.google.com/store/apps/details?id=com.coolkit&hl=fr&gl=US&pli=1){: target="_blank"} d'installé, et une connection wifi 2,4Ghz de disponible.
 
-# Rendu du produit
-1. le boitier
-2. l'écran
-3. la réponse du tactile
-4. 
+
 ## Caractéristiques
 
-**les + du produit**
-- La qualité de fabrication
+|Zigbee| IEEE 802.15.4 (Zigbee 3.0) |
+|Wi-Fi|IEEE 802.11 b 2.4GHz|
+|Entrée|100-240V CA 50/60Hz|
+|Consommation d'énergie maximale|5W MAX ; 150 mA |
+|Taille de l'écran TFT|3,95 pouces (écran capacitif)|
+|Résolution d'écran|480 x 480|
+|MCU|PX30|
+|CPU|4 cœurs Cortex-A35|
+|GPU|Mali-G31GPU|
+|RAM|2 Go, DDR3|
+|ROM|8 Go, eMMC 5.1|
+|Certifications|CE/UKCA/ SRRC/RoHS|
+|Matériaux façade|PC V0+CRS+Verre trempé|
+|Dimension|86x86x39.5mm|
 
-**les - du produit**
+## Spécifications
+
+{% picture posts/{{ page.guid }}/NSPanel-PRO-caracteristique-specification.png --alt caractéristiques et spécifications NSPanel pro --img width="470" height="470" %}
+
+## **les + du produit**
+{: .blue}
+- La qualité de fabrication
+- boitier solide
+- très beau rendu de la dalle
+- Intégration des caméras RTSP
+- Support en option de très bonne qualité
+
+## **les - du produit**
+{: .red}
 - Incompatibilité wifi 5Ghz
 - Ecran tactile capricieux sur le mouvements verticaux
 - Module fermé aux systèmes Sonoff
 - Obligation de passer par un Cloud Chinois
+- les options Lan sans Cloud trop restreint
+- temps de réponse zigbee trop long ( quand on clique sur un interrupteurs la latence est d'environ 1 seconde )
+
+# Les fonctions
+
+### Ajouter un appareil Zigbee
+l'intégration d'un appareil Zigbee compatible NSPanel pro [voir la liste](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} se fait sans soucis il suffit de cliquer sur l'icone ajouter un appareil et ensuite de démarrer l'appairage.
+
+### Manuel
+L'onglet manuel est pour l'instant vide
+
+### Alarme
+L'onglet alarme permet de paramétrer une ou plusieurs alarme, il y a aussi une fonction minuteur. Idéal pour une fonction réveil
+
+### Thème
+L'onglet thème permet de choisir un fond d'écran dynamique ou simple, rien de plus.
+
+### Ajouter caméra
+L'intégration de deux caméras au format RTSP s'est fait sans soucis
+
+![Intégration caméra RTSP dans NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471"}{: target="_blank"}
+
+### Réglage
+**L'onglet réglage permet de:**
+1. choisir le réseau wifi ( uniquement 2,4Ghz )
+2. paramétrer le compte ewelink
+3. définir le fuseau horaire
+4. définir le lieu pour la météo
+5. régler la luminosité et le contraste de l'affichage
+6. choix de la langue
+7. régler le volume du son
+8. à propos permet de voir ( info du module, firmware, ip, device ) mais aussi de redémarrer ou faire un reset
+
+### Côté application Ewelink
+
+**Celle-ci permet de:**
+1. paramétrer un lien d'une pageweb que tu retrouveras sur l'interface NSpanelpro
+2. *passer un appel vocal sur le NSPANEL Pro*
+3. de placer un module zigbee sur un des 3 écrans du Nspanel Pro
+4. Ajouter un scenario
+5. d'associer un module zigbee via le bouton Passerelle
+6. de paramétrer un thermostat via un module sonoff
+7. de paramétrer une interface énergie via un module énergie Sonoff
+
+
+{% picture posts/{{ page.guid }}/application-ewelink-nspanelpro.png --alt Applicationewelink NSPanel pro --img width="434" height="940" %}
+
 
 # Intégration dans Homeassistant
 
-C'est une évidence le NSpanel pro est controlable dans Home-assistant
+C'est une évidence le NSpanel pro est contrôlable dans l'application Home-assistant, 3 choix s'offrent à toi pour l'intégration.
+Tu pourras facilement contrôler ce module via homeassistant mais à ce jour toutes ces options sont soumises à des contraintes contrôlées par l'entreprise Sonoff.
 
-## 3 possibilitées
+> personnellement j'ai choisi l'option SonoffLan qui semble très prometteuse.
 
-### #1 avec le module Ewelink 100% Cloud
+## #1 avec le module Ewelink 100% Cloud
 
 Une vidéo distribuée par Sonoff illustre bien l'installation de l'addons, je ne m'y suis pas penché car c'est du 100% Cloud chinois et oui chaque action réalisée par le module Sonoff ou sur Homeassistant passe par le Web.
 
@@ -80,25 +149,64 @@ Une vidéo distribuée par Sonoff illustre bien l'installation de l'addons, je n
 
 Colle le [lien du répertoire Github](https://github.com/CoolKit-Technologies/ha-addon){: target="_blank"} pour accéder à l'addons. Ensuite regarde la vidéo ci-dessous pour une installation complète.
 
-**Avantage:**
+![Installation Ewelink Nspanel Pro sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/nspanel-pro-ewelink-installation.webp{{ cachebuster }}){: width="940" height="521"}{: target="_blank"}
+
+**Avantages:**{: .blue}
 - Ewelink permet l'import des [modules compatibles](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} inclus dans homeassistant
 - import d'un simple clic dans Lovelace
 
-**Inconvénient:**
-- 100% Cloud Chinois
+**Inconvénient:**{: .red}
+- **100% Cloud Chinois**
 - très peut de modules reconnus
 - synchronisation avec modules lumières/interrupteur homeassistant limités
-- temps de réponse du switch 1,5 secondes (énorme)
-- Non compatible gestion NSPanel Pro
+- **temps de réponse du switch 1,5 secondes (énorme)**
+- *Non compatible gestion NSPanel Pro*
 
 {% include youtubePlayer.html id="wAMIKhMkSFA" %}
 
-### #2 en flashant le module avec android 100% locale
+## #2 en flashant le module avec android 100% locale
+
+Grâce à l'aide Blakkader il est possible de hacker le sonoff pro en installant et en utilisant [Android Debub Bridge ADB](https://developer.android.com/studio/command-line/adb?hl=fr){: target="_blank}. Je n'ai pas testé cette solution car selon moi elle n'a aucuns intérêts, l'installation d'android revient au même que de prendre une tablette android et de l'installer au mur au moins tu aurais un écran plus grand.
+
+1. [Télécharger des applications sur Sonoff NSPanel Pro](https://blakadder.com/nspanel-pro-sideload/){: target="_blank}<br>
+2. [Mettre à jour WebView sur les panneaux NSPanel Pro et Tuya Smart Home](https://blakadder.com/android-panel-webview/){: target="_blank}<br>
+3. [Utilisez le capteur de proximité pour réveiller l'écran sur les panneaux NSPanel Pro et Tuya Smart Home](https://blakadder.com/android-panel-proximity/){:target ="_blank"}
+
+**Avantages:**{: .blue}
+- **Utilise toutes les possibilitées de Homeassistant**
+- Permet d'installer des modules android supplémentaires
+- possibilité d'utiliser les **capteurs de proximités**
+
+**Inconvénients:**{: .red}
+- cette solution revient à installer android sur le NSpanel pro
+- écran trop petit pour ce genre de système
+- **difficile à mettre en place**
+- Hack le système sonoff
+
+Retrouve une vidéo de mise en place ci-dessous
 
 {% include youtubePlayer.html id="0kjGH9-XQk4" %}
 
-### #3 En utilisant le [dépôt Sonofflan](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} ( local et/ou cloud )
+## #3 En utilisant le [dépôt Sonofflan](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} ( local et/ou cloud )
+Entièrement développé par AlexxIT ce module permet de contrôler facilement les produits Sonoff il a l'avantage d'être très facile d'utilisation. Cependant il sera tout de même nécessaire de paramétrer le cloud Ewelink mais sans pour autant être obligé de l'utilisation, enfin ça dépend de la compatibilité Lan de Sonoff
+
+![Installation Nspanel Pro Sonofflan sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height="517"}{: target="_blank"}
+
+**Avantages:**{: .blue}
+- **Intégration parfaite dans Homeassistant**
+- possibilité de choisir le système de fonctionnement (auto, lan ou cloud)
+
+**Inconvénients:**{: .red}
+- Actuellement NsPanel Pro ne remonte que les informations
+- Savoir **installer HACS** sur Homeassistant
+- Tient compte des **compatibilités développés par Sonoff**
+- rechargement de l'interface obligatoire pour synchroniser avec le cloud
+- le rechargement de l'interface n'est pas automatique par défaut il faudra créer une automation
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 # Conclusion
+
+La version actuelle du firmware testé est la dernière en date la **V1.5.4**, la qualité de **fabrication est bonne**, l'interface et la qualité de la dalle son supérieur au NSPANEL mais **à mon sens le module n'est pas au point**, le balayage horizontal fonctionne correctement cependant le *balayage vertical est aléatoire*, il faut s'y prendre à plusieurs fois pour accéder au menu, heureusement ce module prend en charge les autres modules zigbee de la **gamme Sonoff**. *Mais pour l'instant c'est beaucoup trop restreint*, j'aurai préféré une interopérabilité totale avec Homeassistant. Les fonctions incluses ainsi que le paramétrage sont biens pensés. Selon moi ce n'est pas un module indispensable pourt l'instant, mais peut-être le deviendra-t-il le jour ou Sonoff décidera de l'ouvrir aux systèmes Opensource.
+
+> Sonoff annonce sur sa prochaine mise à jour du Firmware une compatibilité Matter
