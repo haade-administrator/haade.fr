@@ -23,7 +23,6 @@ comments: true
 rating: 3.5
 sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
-  - https://www.youtube.com/watch?v=0kjGH9-XQk4
   - https://blakadder.com/nspanel-pro/
 ---
 
@@ -91,8 +90,16 @@ Pour effectuer un premier lancement avec mise à jour du firmware il faudra le t
 
 # Les fonctions
 
+### Dashboard
+
+Après paramétrage d'une caméra tu pourras y avoir accès dès l'interface principale, tu auras aussi accès aux différents modes ( Mode Maison, absent ou Sommeil)
+
+{% picture posts/{{ page.guid }}/mode-nspanel-pro.png --alt accès aux modes NSPanel pro --img width="470" height="470" %}
+
 ### Ajouter un appareil Zigbee
 l'intégration d'un appareil Zigbee compatible NSPanel pro [voir la liste](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} se fait sans soucis il suffit de cliquer sur l'icone ajouter un appareil et ensuite de démarrer l'appairage.
+
+{% picture posts/{{ page.guid }}/appairage-nspanelpro.png --alt onglet appairage NSPanel pro --img width="470" height="470" %}
 
 ### Manuel
 L'onglet manuel est pour l'instant vide
@@ -104,7 +111,7 @@ L'onglet alarme permet de paramétrer une ou plusieurs alarme, il y a aussi une 
 L'onglet thème permet de choisir un fond d'écran dynamique ou simple, rien de plus.
 
 ### Ajouter caméra
-L'intégration de deux caméras au format RTSP s'est fait sans soucis
+> L'intégration de deux caméras au **format RTSP** s'est fait sans soucis
 
 ![Intégration caméra RTSP dans NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471"}{: target="_blank"}
 
@@ -132,6 +139,10 @@ L'intégration de deux caméras au format RTSP s'est fait sans soucis
 
 
 {% picture posts/{{ page.guid }}/application-ewelink-nspanelpro.png --alt Applicationewelink NSPanel pro --img width="434" height="940" %}
+
+**Fonction Appel Ewelink > Nspanel Pro**
+
+{% picture posts/{{ page.guid }}/fonction-appel-nspanel-pro.png --alt fonction appel NSPanel pro via application ewelink --img width="470" height="470" %}
 
 
 # Intégration dans Homeassistant
