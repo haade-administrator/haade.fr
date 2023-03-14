@@ -1,7 +1,7 @@
 ---
 guid: 2150
 layout: product 
-title: "BLM - RECESSING BOX FOR MICROMODULE (DEVICE VERSION)"
+title: "BLM - RECESSING BOX FOR MICROMODULE"
 date: "2023-03-14 15:01"
 description: "This recessed box will allow you to optimize the wiring and installation of your micromodules."
 categories: [Shop, Accessories]
@@ -20,11 +20,11 @@ dom-item: "BLI685500"
 ---
 With this BLM recessed box, you can easily place micromodules behind an existing switch to make your installation invisible. The pocket is a real asset since it will save you the trouble of installing your micromodule. This product has flexible cable/tube entries providing excellent airtightness, thus increasing the building's passive energy efficiency.
 
-{% picture shop/{{ page.guid }}/boitier-encastrement-micromodule-blm-2.jpg --alt integration of BLM special home automation recessed box in a wall --img width="800" height="300" %}
+{% picture shop/2150/boitier-encastrement-micromodule-blm-2.jpg --alt integration of BLM special home automation recessed box in a wall --img width="800" height="300" %}
 
 Two types of installation are possible: **vertical or horizontal**.
 
-{% picture shop/{{ page.guid }}/boitier-encastrement-micromodule-blm.jpg --alt BLM special home automation flush-mounting box integration two types of installation --img width="800" height="337" %}
+{% picture shop/2150/boitier-encastrement-micromodule-blm.jpg --alt BLM special home automation flush-mounting box integration two types of installation --img width="800" height="337" %}
 
 It is also recommended for recessed installation of thermostat probes.
 

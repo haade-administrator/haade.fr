@@ -1,0 +1,25 @@
+{
+    "product": {
+        "linkId": "accessoires-electriques/4117-blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre-2068651000013",
+        "productId": "BLI686510",
+        "title": "BLM - Boitier d'encastrement pour Micromodule (version Point de Centre)",
+        "description": "Ce boîtier d'encastrement vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
+        "productNew": "",
+        "minsalePrice": "9.99",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/9526-medium_default/blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

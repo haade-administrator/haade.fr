@@ -1,0 +1,25 @@
+{
+    "product": {
+        "linkId": "accessoires-electriques/5400-blm-boitier-d-encastrement-double-pour-micromodule-3701217902312",
+        "productId": "BLI685520",
+        "title": "BLM - Boitier d'encastrement double pour Micromodule",
+        "description": "Ce boîtier d'encastrement double vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
+        "productNew": "",
+        "minsalePrice": "5.99",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": 10,
+        "available": "Derniers articles en stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/16227-medium_default/blm-boitier-d-encastrement-double-pour-micromodule.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.5",
+            "totalStarCount": "2"
+        }
+    }
+}
