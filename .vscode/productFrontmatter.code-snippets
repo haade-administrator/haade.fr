@@ -70,7 +70,7 @@
 		  "categories: [${7|Boutique,Esp,Sonoff,Wifi,Zigbee,Zwave,Accessoires,Raspberry-pi|}, ${8|Sonoff,Boutique,Esp,Wifi,Zigbee,Zwave,Accessoires,Raspberry-pi|}, ${9|Wifi,Zigbee,Zwave,Boutique,Sonoff,Accessoires,Esp,Raspberry-pi|}]",
 		  "tags: [$10]",
 		  "locale: ${11|fr_FR,en_GB|}",
-		  "brand: ${12|Moes,Sonoff,Xiaomi,Neo-Coolcam,Fibaro,Zemismart,Nodon,Jeedom,|}",
+		  "brand: ${12|Moes,Sonoff,Xiaomi,Neo-Coolcam,Fibaro,Zemismart,Nodon,Jeedom,BLM|}",
 		  "ean: $13",
 		  "image: '${14:picture.png}'",
 		  "imageshadow: ${15|true,false|}",

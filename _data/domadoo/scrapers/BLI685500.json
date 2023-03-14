@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "accessoires-electriques/4116-blm-boitier-d-encastrement-pour-micromodule-version-appareillage-2068550000015",
+        "productId": "BLI685500",
+        "title": "BLM - Boitier d'encastrement pour Micromodule (version Appareillage)",
+        "description": "Ce boîtier d'encastrement vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
+        "productNew": "",
+        "minsalePrice": "4.60",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/9351-medium_default/blm-boitier-d-encastrement-pour-micromodule-version-appareillage.jpg",
+            "https://cdn1.domadoo.fr/9348-medium_default/blm-boitier-d-encastrement-pour-micromodule-version-appareillage.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.6",
+            "totalStarCount": "33"
+        }
+    }
+}

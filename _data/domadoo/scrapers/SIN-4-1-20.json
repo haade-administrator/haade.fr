@@ -6,13 +6,13 @@
         "description": "Le Module Multifonction Zigbee permet de piloter une porte de garage, un portail, un radiateur, une prise, une chaudière…",
         "productNew": "",
         "minsalePrice": "39.90",
-        "maxsalePrice": "29.99",
-        "discount": "-15%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "29.99",
+        "originalPrice": "",
         "quantity": 0,
         "available": "Actuellement en rupture.",
-        "supply_date": "17-03-2023",
+        "supply_date": "07-04-2023",
         "image": [
             "https://cdn1.domadoo.fr/17553-medium_default/nodon-module-multifonction-zigbee.jpg",
             "https://cdn1.domadoo.fr/17554-medium_default/nodon-module-multifonction-zigbee.jpg"
