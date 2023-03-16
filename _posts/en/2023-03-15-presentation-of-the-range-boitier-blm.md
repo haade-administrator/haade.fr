@@ -24,7 +24,7 @@ rating: 5
 ---
 Here is a short article, concerning the integration of modules behind sockets or switches. As very often we are equipped with recessed boxes 4cm deep. Between electrical wire and the thickness of products already in place, does it quickly become tricky to easily integrate an additional home automation module?
 
-> Fortunately BLM is here! and thanks to [Domadoo](https://www.domadoo.fr/fr/){: target="_blank"} for providing me with this module to test.
+> Fortunately BLM is here! and thanks to [Domadoo](https://www.domadoo.fr/fr/?domid=39){: target="_blank"} for providing me with this module to test.
 
 {% include product-embed.html guid="2150" %}
 

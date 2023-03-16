@@ -24,7 +24,7 @@ rating: 5
 ---
 Voilà un article succinct, concernant l'intégration des modules derrière prises ou interrupteurs. Comme très souvent nous sommes équipés de boitiers d'encastrements de 4cm de profondeur. Entre fil électrique et épaisseurs des produits déjà en place, il devient vite déliquat d'intégrer facilement un module domotique supplémentaire ?
 
-> Heureusement BLM est là ! et merci à [Domadoo](https://www.domadoo.fr/fr/){: target="_blank"} pour m'avoir fourni ce module à tester.
+> Heureusement BLM est là ! et merci à [Domadoo](https://www.domadoo.fr/fr/?domid=39){: target="_blank"} pour m'avoir fourni ce module à tester.
 
 {% include product-embed.html guid="2150" %}
 
