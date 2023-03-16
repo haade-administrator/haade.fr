@@ -880,6 +880,14 @@ img:hover {
                 display: inline-block;
             }
         }
+        .list-authors {
+            a {
+                text-decoration: none
+            }
+            a:after { 
+            display:none;
+        }
+    }
         .gist .gist-meta a:after { 
             display:none;
         }
