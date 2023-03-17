@@ -114,7 +114,7 @@ tests:
 contributors:
   fr_FR:
     name: 'Contributeurs'
-    link: 'fr/authors'
+    link: 'fr/auteurs'
   en_GB:
     name: 'Contributors'
     link: 'en/authors'
