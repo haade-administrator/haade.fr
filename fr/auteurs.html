@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Authors
+title: Auteurs
 comments: false
-locale: en_GB
+locale: fr_FR
 locale_reference: author
 published: true
 sitemap:
@@ -11,9 +11,11 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 redirect_from:
-  - /en/members/
-  - /en/members/jigouze/
-  - /en/members/flo00719/
+  - /members
+  - /members/jybi/
+  - /members/freetronic/comments/
+  - /members/florian/
+  - /fr/authors/
 ---
 
 <div class="list-authors mt-5">
@@ -53,10 +55,12 @@ redirect_from:
 
             </div>
             <div class="col-md-9">
-              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author[1].name | slugify }}">
+              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author[1].name | slugify }}">
                 <h3>{{ author[1].display_name }}</h3>
-                <small class="d-inline-block mt-1 mb-3 font-weight-normal">(Look the Posts)</small>
+                <small class="d-inline-block mt-1 mb-3 font-weight-normal">(Voir les Articles)</small>
+
                 <p class="mt-3 mb-0">{{ author[1].description[page.locale] }}</p>
+              </a>
             </div>
         </div>
     </div>

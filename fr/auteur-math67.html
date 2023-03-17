@@ -1,7 +1,7 @@
 ---
 title: "Math67"
 layout: default
-locale: en_GB
+locale: fr_FR
 locale_reference: mathieuF
 published: true
 sitemap:
@@ -10,21 +10,21 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 redirect_from:
-  - /en/members/math67
-  - /en/members/math67/
-  - /en/members/math67/comments/
-  - /en/members/math67/profile/
-  - /en/members/math67/snax_posts/approved/page/2/
-  - /en/members/math67/snax_items/
-  - /en/members/math67/snax_posts/
-  - /en/members/math67/forums/engagements/
-  - /en/members/math67/forums/engagements/
-  - /en/members/math67/forums/
-  - /en/members/math67/activity/
-  - /en/members/math67/badges/
-  - /en/members/math67/friends/
-  - /en/members/math67/snax_votes/
-  - /en/members/math67/activity/mentions/
+  - /members/math67/
+  - /members/math67/comments/
+  - /members/math67/profile/
+  - /members/math67/snax_posts/approved/page/2/
+  - /members/math67/snax_items/
+  - /members/math67/snax_posts/
+  - /members/math67/forums/engagements/
+  - /members/math67/forums/engagements/
+  - /members/math67/forums/
+  - /members/math67/activity/
+  - /members/math67/badges/
+  - /members/math67/friends/
+  - /members/math67/snax_votes/
+  - /members/math67/activity/mentions/
+  - /fr/author-math67/
 ---
 <div class="container">
 <div class="row justify-content-center">
@@ -48,10 +48,10 @@ redirect_from:
                   {%- endif %}
 
                   {%- if site.data.authors.Math67.email %}
-                      <a class="d-inline-block mx-1 text-dark" aria-label="Math67 email" href="mailto:{{ site.data.authors.Math67.email }}"><i class="fa fa-envelope"></i></a>
+                      <a class="d-inline-block mx-1 text-dark" aria-label="Math67 email"href="mailto:{{ site.data.authors.Math67.email }}"><i class="fa fa-envelope"></i></a>
                   {%- endif %}
                   <p class="excerpt">{{ site.data.authors.Math67.description[page.locale] }}</p>
-                  <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Math67" | where: 'locale', page.locale | size }}</span></p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Math67" | where: 'locale', page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
@@ -62,7 +62,7 @@ redirect_from:
               {%- endif %}
             </div>
         </div>
-        <h4 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h4>
+        <h4 class="font-weight-bold spanborder"><span>Articles Rédigés par {{page.title}}</span></h4>
             {%- assign filtered_posts = site.posts | where:"author","Math67" | where: 'locale', page.locale %}
             {%- for post in filtered_posts %}
             {%- include main-loop-card.html %}

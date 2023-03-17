@@ -1,7 +1,7 @@
 ---
 title: "Yann"
 layout: default
-locale: en_GB
+locale: fr_FR
 locale_reference: yann
 published: true
 sitemap:
@@ -10,21 +10,23 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 redirect_from:
-  - /en/members/tonton/
-  - /en/members/tonton/comments/
-  - /en/members/tonton/profile/
-  - /en/members/tonton/snax_posts/approved/page/2/
-  - /en/members/tonton/snax_items/
-  - /en/members/tonton/snax_posts/
-  - /en/members/tonton/forums/engagements/
-  - /en/members/tonton/forums/engagements/
-  - /en/members/tonton/forums/
-  - /en/members/tonton/activity/
-  - /en/members/tonton/badges/
-  - /en/members/tonton/friends/
-  - /en/members/tonton/snax_votes/
-  - /en/members/tonton/activity/mentions/
-  - /en/members/tonton/activity/6/
+  - /members/tonton/
+  - /members/tonton/comments/
+  - /members/tonton/profile/
+  - /members/tonton/snax_posts/approved/page/2/
+  - /members/tonton/snax_items/
+  - /members/tonton/snax_posts/
+  - /members/tonton/forums/engagements/
+  - /members/tonton/forums/engagements/
+  - /members/tonton/forums/
+  - /members/tonton/activity/
+  - /members/tonton/badges/
+  - /members/tonton/friends/
+  - /members/tonton/snax_votes/
+  - /members/tonton/activity/mentions/
+  - /members/tonton/activity/6/
+  - /fr/author-yann/
+
 ---
 <div class="container">
 <div class="row justify-content-center">
@@ -51,7 +53,7 @@ redirect_from:
                       <a class="d-inline-block mx-1 text-dark" aria-label="Yann email" href="mailto:{{ site.data.authors.Yann.email }}"><i class="fa fa-envelope"></i></a>
                   {%- endif %}
                   <p class="excerpt">{{ site.data.authors.Yann.description[page.locale] }}</p>
-                  <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
@@ -62,7 +64,7 @@ redirect_from:
               {%- endif %}
             </div>
         </div>
-        <h2 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h2>
+        <h2 class="font-weight-bold spanborder"><span>Articles Rédigés par {{page.title}}</span></h2>
             {%- assign filtered_posts = site.posts | where:"author","Yann" | where: 'locale', page.locale %}
             {%- for post in filtered_posts %}
             {%- include main-loop-card.html %}
