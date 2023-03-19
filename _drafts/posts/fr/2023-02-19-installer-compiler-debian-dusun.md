@@ -27,4 +27,5 @@ sourcelink:
   - https://www.dusuniot.com/blog/how-to/how-to-install-application-on-dsgw-210/
   - https://www.dusuniot.com/resources/sdk-quick-start/rk3328-core-board-sdk-quick-start-guide/
   - https://support.dusuniot.com/hc/en-us/articles/11379207916699-DSGW-210
+  - https://sd-card-images.johang.se/boards/rk3328_evb.html
 ---
