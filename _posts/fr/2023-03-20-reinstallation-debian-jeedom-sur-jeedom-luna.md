@@ -78,7 +78,23 @@ Il existe deux types d'utilisateurs **root** et **admin**
 
 **ps:** le mot de pass pour l'utilisateur admin est **admin** (*si tu utilise admin il te faudra mettre sudo devant toutes les commandes ci-dessous)
 
-> Le tuto est réalisé avec l'utilisateur **root** mot de passe: **root**
+> Connecte-toi avec l'utilisateur **root** mot de passe: **root**
+
+Maintenant on va créé un nouvel utilisateur nommé jeedom et mot de pass Mjeedom96
+
+```sh
+useradd jeedom
+passwd jeedom 
+pass: Mjeedom96 
+usermod -aG sudo jeedom
+```
+
+Maintenant change d'utilisateur
+
+```sh
+su -l jeedom
+```
+
 
 commence par changer les paquets debian ( les paquets par défaut sont localisés en chine et trop lent)
 
@@ -111,7 +127,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 ## #2 Change la taille du disque erronné par defaut:
 
 ```sh
-resize2fs /dev/mmcblk2p7
+sudo resize2fs /dev/mmcblk2p7
 ```
 
 ## #3 Contrôle la taille du disque
@@ -119,6 +135,7 @@ resize2fs /dev/mmcblk2p7
 ```sh
 df -h
 ```
+
 tu devrais trouver en réponse:
 ```sh
 /dev/root           15G
@@ -126,39 +143,39 @@ tu devrais trouver en réponse:
 
 ## #4 Change le nom d'hôte du système
 ```sh
-nano /etc/hostname
+sudo nano /etc/hostname
 ```
 
-**remplace Debian par Jeedom**
+**remplace Debian par jeedomluna**
 
 ```sh
-nano /etc/hosts
+sudo nano /etc/hosts
 ```
 **rajoute sous la ligne**
 ```md
 127.0.0.1       localhost
-127.0.0.1       Jeedom
+127.0.0.1       jeedomluna
 ```
 Ctrl+x pour enregistrer
 
 **enregistre le nouveau nom d'hôte**
 ```sh
-hostnamectl set-hostname Jeedom
+sudo hostnamectl set-hostname jeedomluna
 ```
 
 ## #5 Installe le fichier locales
 ```sh
-apt install locales -y
+sudo apt install locales -y
 ```
 
 Paramètre le locale
 ```sh
-locale-gen en_US.UTF-8 fr_FR.UTF-8
+sudo locale-gen en_US.UTF-8 fr_FR.UTF-8
 ```
 
 Install les langues
 ```sh
-dpkg-reconfigure locales
+sudo dpkg-reconfigure locales
 ```
 
 sélectionne en_US UTF8 et fr_FR UTF8 appui sur enter et sélectionne par défaut fr clic sur enter
@@ -166,24 +183,24 @@ sélectionne en_US UTF8 et fr_FR UTF8 appui sur enter et sélectionne par défau
 ## #6 Redémarre le système
 
 ```sh
-reboot
+sudo reboot
 ```
 
 ## #7 remettre à plat les installations en cours (*optionnel)
 
 ```sh
-dpkg --configure -a
+sudo dpkg --configure -a
 ```
 
 fichiers cassés si tel est le cas
 ```sh
-apt --fix-broken install
+sudo apt --fix-broken install
 ```
 
 ## #8 Nettoye l'installation
 ```sh
-apt autoremove
-apt clean
+sudo apt autoremove
+sudo apt clean
 ```
 Désormais l'installation Debian est prête à accueillir Jeedom
 
@@ -191,7 +208,7 @@ Désormais l'installation Debian est prête à accueillir Jeedom
 ```sh
 wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 chmod +x install.sh
-./install.sh
+./install.sh -w /var/www/html -z -m Jeedom
 ```
 
 > **Après 5-10 minutes Jeedom est installé**
@@ -199,7 +216,7 @@ chmod +x install.sh
 Supprime les fichiers non nécessaire à la racine
 ```sh
 ls
-rm -rf install.sh os-agent_1.2.2_linux_aarch64.deb
+sudo rm -rf install.sh os-agent_1.2.2_linux_aarch64.deb
 ```
 
 Pour finir Redémarre la Jeedom Luna
