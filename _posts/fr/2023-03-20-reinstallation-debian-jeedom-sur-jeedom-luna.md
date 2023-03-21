@@ -32,8 +32,10 @@ Après avoir [rédigé un article complet sur Jeedom Luna]({% post_url /fr/2023-
 
 Pour commencer télécharge à l'aide de Bittorrent l'image.
 
-{% include doclink.html torrent="files/DSGW-210-Debian_image_RV1.1.7.img.torrent" title="Image Debian révision 1.1.7" %}
-
+par torrent
+{% include doclink.html torrent="files/HAADE-FR-DSGW-210-Debian_image_RV1.1.7.img.torrent" title="Image Debian révision 1.1.7" %}
+ou par google drive
+[Image Debian rev 1.1.7](https://drive.google.com/file/d/1-rok0WHrsqLUyX3lbEJaPgY-tiiV6s8v/view?usp=sharing){: target="_blank"}
 ## Utilitaires Windows
 
 Voilà deux logiciels complet qui te permettront de transférer le firmware sur Jeedom Luna, dans ce tuto j'utilise **Factorytool**{: .blue} 
