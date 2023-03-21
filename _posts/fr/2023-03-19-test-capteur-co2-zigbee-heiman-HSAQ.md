@@ -27,3 +27,11 @@ sourcelink:
 Aujourd'hui je fais un test d'un capteur de Co2
 
 {% include product-embed.html guid="2153" %}
+
+{% picture posts/{{ page.guid }}/integration-heiman-HSQ3AQ-jeedom-zigbee-3.0.png --alt intégration du capteur de CO2 Heiman HSQ3AQ sur jeedom avec le plugin zigbee --img width="940" height="276" %}
+
+{% picture posts/{{ page.guid }}/integration-heiman-HSQ3AQ-jeedom-commande-zigbee-3.0.png --alt intégration du capteur de CO2 Heiman HSQ3AQ sur jeedom avec le plugin zigbee montre les commandes disponibles --img width="940" height="276" %}
+
+{% picture posts/{{ page.guid }}/integration-heiman-HSQ3AQ-homeassistant-zigbee-3.0.png --alt intégration du capteur de CO2 Heiman HSQ3AQ sur Homeassistant avec le plugin zigbee2mqtt --img width="940" height="692" %}
+
+{% picture posts/{{ page.guid }}/integration-heiman-HSQ3AQ-homeassistant-zigbee-3.0.png --alt intégration du capteur de CO2 Heiman HSQ3AQ sur Homeassistant avec le plugin zigbee2mqtt montre les commandes disponibles --img width="940" height="388" %}
