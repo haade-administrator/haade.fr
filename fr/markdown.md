@@ -140,7 +140,7 @@ ___
 # Les documents
 
 ### inclure un lien static_file
-**préfixe ( pdf, docx, zip, csv, xls )**
+**préfixe ( pdf, docx, zip, csv, xls, torrent )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
 # Les produits

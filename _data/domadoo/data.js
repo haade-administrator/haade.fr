@@ -19,5 +19,6 @@ module.exports = [
     'peripheriques/3909-fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko-5902020528647', // 2149 prise zwave fibaro v al
     'accessoires-electriques/4116-blm-boitier-d-encastrement-pour-micromodule-version-appareillage-2068550000015', //2150 boitier d'encastrement BLM
     'accessoires-electriques/5400-blm-boitier-d-encastrement-double-pour-micromodule-3701217902312',                // 2151 boitier encastrement blm double
-    'accessoires-electriques/4117-blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre-2068651000013'    // 2152 boitier blm encastrement plafonnier
+    'accessoires-electriques/4117-blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre-2068651000013',    // 2152 boitier blm encastrement plafonnier
+    'peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore'   // 2153 capteur co2 Heiman
 ]

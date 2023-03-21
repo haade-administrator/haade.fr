@@ -6,10 +6,10 @@
         "description": "JEEDOM LUNA est la nouvelle box domotique autonome et multiprotocole entrée de gamme intégrant le logiciel Jeedom.",
         "productNew": "",
         "minsalePrice": "199.00",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "19.99",
+        "discount": "-15%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "19.99",
         "quantity": 0,
         "available": "Indisponible",
         "supply_date": "24-03-2023",
@@ -27,8 +27,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.5",
-            "totalStarCount": "11"
+            "averageStar": "4.3",
+            "totalStarCount": "13"
         }
     }
 }
