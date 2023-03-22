@@ -6,12 +6,12 @@ layout: post
 author: Nico
 date: 2023-03-19 16:42
 last_modified_at: 
-categories: [Tests, Zigbee, Home-Assistant]
+categories: [Tests, Zigbee, Home-Assistant, Jeedom]
 tags: []
 image: 'test-capteur-co2-zigbee-heiman-HS3AQ.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -36,7 +36,8 @@ L'appairage se fait en maintenant enfoncé les touches + et - durant 5 secondes,
 
 {% picture posts/{{ page.guid }}/heiman-HS3AQ-rendu-miroir-et-appairage-zigbee.png --alt contenu du carton, effet miroir et appairage heiman HS3AQ --img width="940" height="529" %}
 
-La qualité d'affichage est top, **la barre verte indique la qualité de l'air**,je trouve cette indication bien pensé. Tu pourras même ajuster les valeurs dans la page de configuration du CO2, *point négatif la sonde de capture du CO2 ne fonctionnera que 10 ans au maximum*. On appréciera grandement la mesure d'humidité et de température
+La qualité d'affichage est top, **la barre verte indique la qualité de l'air, orange c'est moyen et rouge médiocre**, je trouve cette indication bien pensé. Tu pourras même ajuster les valeurs dans la page de configuration du CO2, *point négatif la sonde de capture du CO2 ne fonctionnera que 10 ans au maximum*. Il est aussi possible de désactiver le son de l'alarme Co2. On appréciera grandement la mesure d'humidité et de la température. 
+> Le module intègre une batterie de secours, celle-ci tient bien 12 heures.
 
 {% picture posts/{{ page.guid }}/capture-ecran-heiman-HS3AQ-capteur-co2-humidite-temperature-zigbee.png --alt fonctions température humidité heure et co2 du heiman HS3AQ --img width="940" height="529" %}
 
@@ -80,7 +81,7 @@ J'ai aussi intégré le module Heiman HS3AQ dans Homeassistant avec le Plugin Zi
 |Déclenchement d'alarme|Faible >1200ppm<br> peut être ajusté sur la page de configuration du CO2|
 |Dimensions|90 x 90 x 26 mm (sans support)|
 
-## **les + du produit**
+# **les + du produit**
 {: .blue}
 - qualité du produit
 - mise en avant de la mesure du Co2
@@ -89,7 +90,7 @@ J'ai aussi intégré le module Heiman HS3AQ dans Homeassistant avec le Plugin Zi
 - Compatible Box Domotique varié
 - le module agit comme routeur ( répète le signal zigbee )
 
-## **les - du produit**
+# **les - du produit**
 {: .red}
 - absences de certaines remontées d'infos dans les plugins
 - dalle mirroir un peut trop prononcé
