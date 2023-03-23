@@ -97,7 +97,7 @@ ssh -p 22 ton.adresse.ip -l root
 
 > Connecte-toi avec l'utilisateur **root** mot de passe: **root**
 
-Pour être conforme à une installation Jeedom traditionnelle on va créer un nouvel utilisateur nommé **jeedom** et mot de passe **Mjeedom96** ensuite on donnera les droits administrateur à cet utilisateur 
+**(*Optionnel)** Pour être conforme à une installation Jeedom traditionnelle on va créer un nouvel utilisateur nommé **jeedom** et mot de passe **Mjeedom96** ensuite on donnera les droits administrateur à cet utilisateur 
 
 ```sh
 # à l'invite en mot de passe rentre: Mjeedom96
@@ -127,16 +127,16 @@ supprime toutes les ligne avec Ctrl+k et colle les repertoires ci-dessous, termi
 
 ```sh
 deb http://ftp.fr.debian.org/debian bullseye main contrib non-free
-# deb-src http://deb.debian.org/debian bullseye main contrib non-free
+# deb-src http://ftp.fr.debian.org/debian bullseye main contrib non-free
 
 deb http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
-# deb-src http://deb.debian.org/debian-security/ bullseye-security main contrib non-free
+# deb-src http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
 
 deb http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
-# deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
+# deb-src http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
 
 deb http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
-# deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
+# deb-src http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
 ```
 
 ## 3.Met à jour le système
