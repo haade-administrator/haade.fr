@@ -4,7 +4,7 @@ title: "réinstallation complète sur Jeedom Luna"
 description: "tuto complet sur une installation complète après plantage de jeedom basé sur debian sur Jeedom Luna"
 layout: post
 author: Nico
-date: 2023-03-26 12:32
+date: 2023-03-23 12:32
 last_modified_at: 
 categories: [Jeedom, News, Haade-lab]
 tags: []
@@ -24,7 +24,7 @@ rating:
 sourcelink:
   - https://www.dusuniot.com/blog/how-to/how-to-install-application-on-dsgw-210/
 ---
-Après avoir [rédigé un article complet sur Jeedom Luna]({% post_url /fr/2023-02-08-jeedom-luna-passe-au-crible %}) qui montre que cette box tourne sous Debian, Jeedom Luna n'est rien d'autre qu'un Dusun 210, c'est une box relativement fermé qui ne propose pas de solutions simple pour réinstaller en cas de dysfonctionnement du système, **tu n'auras plus besoin de retourner la box chez ton distriguteur, cet article y remédie**. Tu pourras **sous Windows aisément reprendre toute l'installation** de la Jeedom Luna sans trop de difficultés ?
+Après avoir [rédigé un article complet sur Jeedom Luna]({% post_url /fr/2023-02-08-jeedom-luna-passe-au-crible %}) qui montre, que cette box tourne simplement sous Debian, Jeedom Luna n'est rien d'autre qu'un Dusun 210, c'est une box relativement fermé qui ne propose pas de solutions simple pour réinstaller en cas de dysfonctionnement du système, **tu n'auras plus besoin de retourner la box chez ton distriguteur, cet article y remédie**. Tu pourras **sous Windows aisément reprendre toute l'installation** de la Jeedom Luna sans trop de difficultés ?
 
 {% include product-embed.html guid="2143" %}
 
@@ -127,16 +127,16 @@ supprime toutes les ligne avec Ctrl+k et colle les repertoires ci-dessous, termi
 
 ```sh
 deb http://ftp.fr.debian.org/debian bullseye main contrib non-free
-# deb-src http://ftp.fr.debian.org/debian bullseye main contrib non-free
+deb-src http://ftp.fr.debian.org/debian bullseye main contrib non-free
 
 deb http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
-# deb-src http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
+deb-src http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
 
 deb http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
-# deb-src http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
+deb-src http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
 
 deb http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
-# deb-src http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
+deb-src http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
 ```
 
 ## 3.Met à jour le système
