@@ -11,7 +11,7 @@ tags: []
 image: 'hack-jeedom-luna-reinstalle-completement-le-systeme.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -76,12 +76,18 @@ le cercle va passer de rouge à bleu fixe, debian à démarré
 
 ci dessous une animation Gif qui reprend toute l'étape:
 
+![Flash image debian sur jeedom luna avec Factorytool]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/flash-image-debian-jeedom-luna.webp{{ cachebuster }}){: width="940" height="710"}
 
 retrouve sur ton réseau l'adresse ip de la Jeedom Luna
 
 # Préparation du système
 
-connecte toi en ssh avec **putty**
+**linux:** ouvre un terminal et tape
+```sh
+ssh -p 22 ton.adresse.ip -l root
+```
+
+**Windows:** connecte toi en ssh avec **putty** rentre l'ip, le port 22 et le nom d'utilisateur et pass.
 
 ##  1.Connection utilisateurs
 
@@ -94,11 +100,13 @@ connecte toi en ssh avec **putty**
 Pour être conforme à une installation Jeedom traditionnelle on va créer un nouvel utilisateur nommé **jeedom** et mot de passe **Mjeedom96** ensuite on donnera les droits administrateur à cet utilisateur 
 
 ```sh
-useradd jeedom
-passwd jeedom 
-pass: Mjeedom96 
+# à l'invite en mot de passe rentre: Mjeedom96
+adduser jeedom
+
+# donne les droits administrateur
 usermod -aG sudo jeedom
 ```
+
 
 Maintenant change d'utilisateur
 
@@ -118,16 +126,16 @@ sudo nano /etc/apt/sources.list
 supprime toutes les ligne avec Ctrl+k et colle les repertoires ci-dessous, termine par un Ctrl+x puis yes pour enregistrer
 
 ```sh
-deb http://deb.debian.org/debian bullseye main contrib non-free
+deb http://ftp.fr.debian.org/debian bullseye main contrib non-free
 # deb-src http://deb.debian.org/debian bullseye main contrib non-free
 
-deb http://deb.debian.org/debian-security/ bullseye-security main contrib non-free
+deb http://ftp.fr.debian.org/debian-security/ bullseye-security main contrib non-free
 # deb-src http://deb.debian.org/debian-security/ bullseye-security main contrib non-free
 
-deb http://deb.debian.org/debian bullseye-updates main contrib non-free
+deb http://ftp.fr.debian.org/debian bullseye-updates main contrib non-free
 # deb-src http://deb.debian.org/debian bullseye-updates main contrib non-free
 
-deb http://deb.debian.org/debian bullseye-backports main contrib non-free
+deb http://ftp.fr.debian.org/debian bullseye-backports main contrib non-free
 # deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
 ```
 
@@ -140,18 +148,12 @@ sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 ## 4.Change la taille du disque erronné par defaut:
 
 ```sh
+# redimmensionne
 sudo resize2fs /dev/mmcblk2p7
-```
-
-## 5.Contrôle la taille du disque
-
-```sh
+# controle la taille
 df -h
-```
-
-tu devrais trouver en réponse:
-```sh
-/dev/root           15G
+# tu devrais trouver
+# /dev/root           15G
 ```
 
 ## 6.Change le nom d'hôte du système
@@ -160,19 +162,12 @@ C'est le nom du système par défaut, il te permettra de te connecter à jeedom 
 
 ```sh
 sudo nano /etc/hostname
-```
-
-**remplace Debian par jeedomluna**
-
-```sh
+# remplace Debian par jeedomluna et Ctrl+x yes
 sudo nano /etc/hosts
-```
-**rajoute sous la ligne**
-```md
+# rajoute sous localhost la ligne et Ctrl+x yes
 127.0.0.1       localhost
-127.0.0.1       jeedomluna
+127.0.0.1       jeedomluna 
 ```
-Ctrl+x pour enregistrer
 
 **enregistre le nouveau nom d'hôte**
 ```sh
@@ -181,20 +176,15 @@ sudo hostnamectl set-hostname jeedomluna
 
 ## 7.Installe le fichier locales
 ```sh
+# installe les dépendances
 sudo apt install locales -y
-```
-
-Paramètre le locale
-```sh
+# Paramètre le locale
 sudo locale-gen en_US.UTF-8 fr_FR.UTF-8
-```
-
-Install les langues
-```sh
+# Installe les langues
 sudo dpkg-reconfigure locales
 ```
 
-sélectionne en_US UTF8 et fr_FR UTF8 appui sur enter et sélectionne par défaut fr clic sur enter
+sélectionne **en_US.UTF-8 et fr_FR.UTF-8** appui sur enter et sélectionne par défaut **fr_FR.UTF-8** clic sur enter
 
 ## 8.Redémarre le système
 
@@ -204,14 +194,12 @@ sudo reboot
 
 ## 9.Remettre à plat les installations en cours (*optionnel)
 
-Normalement tu ne devrais pas avoir à effectuer ces deux étapes car l'installation de tous les paquets doit s'effectuer sans problème. La première commande dpkg est là pour remettre à plat une installation .deb avortée, et apt --fix-broken install pour réparer toute installation d'extension avortée.
+**Normalement dans ce tuto tu ne devrais pas avoir à effectuer ces deux étapes** car l'installation de tous les paquets doit s'effectuer sans problème. La première commande dpkg est là pour remettre à plat une installation .deb avortée, et apt --fix-broken install pour réparer toute installation d'extension avortée.
 
 ```sh
+# remet à plat dpkg
 sudo dpkg --configure -a
-```
-
-fichiers cassés si tel est le cas
-```sh
+# fix les fichiers cassés
 sudo apt --fix-broken install
 ```
 
@@ -224,8 +212,8 @@ sudo apt clean
 
 # Installation de Jeedom
 ```sh
-wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
-chmod +x install.sh
+sudo wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
+sudo chmod +x install.sh
 sudo ./install.sh -w /var/www/html -z -m Jeedom
 ```
 
