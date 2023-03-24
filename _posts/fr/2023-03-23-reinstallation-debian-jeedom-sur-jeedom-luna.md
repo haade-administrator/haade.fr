@@ -97,6 +97,11 @@ ssh -p 22 ton.adresse.ip -l root
 
 > Connecte-toi avec l'utilisateur **root** mot de passe: **root**
 
+Change le mot de pass root par Mjeedom96
+```sh
+sudo passwd root
+```
+
 **(*Optionnel)** Pour être conforme à une installation Jeedom traditionnelle on va créer un nouvel utilisateur nommé **jeedom** et mot de passe **Mjeedom96** ensuite on donnera les droits administrateur à cet utilisateur 
 
 ```sh
