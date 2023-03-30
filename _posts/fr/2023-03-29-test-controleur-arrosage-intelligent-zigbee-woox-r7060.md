@@ -28,6 +28,8 @@ sourcelink:
 
 Aujourd'hui je vais te présenter un module qui a peut de conccurrence dans le domaine du jardinage et qui te permettra de contrôler ton système d'arrosage/irrigation avec ton système domotique préféré. Woox commercialise depuis peut de temps un controlleur zigbee 3.0 qui se branche directement à la sortie de ton réseau d'eau Nommé R7060. Avant de lancer Haade j'ai travaillé dans le monde des pépinières et je crois pouvoir dire que je connais bien ce type de modules et les contraintes engendrées par les intempéries. Alors le Woox R7060 controlleur d'irrigation intelligent est-il à la hauteur de mes attentes !
 
+{%- include alert.html type="info" text="Le module Woox R7060 est actuellement en promotion jusqu'au 4 Avril 2023 sur le site Domadoo au tarif unique de 26,39€ n'hésite pas" link="https://www.domadoo.fr/fr/peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198.html?domid=39" textlink="Promotion sur Le module Woox R7060 -20%" %}
+
 {% include product-embed.html guid="2154" %}
 
 # À propos de Woox
@@ -157,6 +159,8 @@ Il manque toujours la remontée d'information de la batterie par défaut
 - la protection contre les intempéries du circuit
 - la longévité de la batterie ( max 6 mois )
 - le module Zigbee tuya
+
+{%- include alert.html type="info" text="Le module Woox R7060 est actuellement en promotion jusqu'au 4 Avril 2023 sur le site Domadoo au tarif unique de 26,39€ n'hésite pas" link="https://www.domadoo.fr/fr/peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198.html?domid=39" textlink="Promotion sur Le module Woox R7060 -20%" %}
 
 {% include product-embed.html guid="2154" %}
 
