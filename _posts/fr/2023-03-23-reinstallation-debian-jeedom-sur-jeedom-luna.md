@@ -45,7 +45,7 @@ Voilà deux logiciels complet qui te permettront de transférer le firmware sur 
 
 > je le trouve pratique mais les deux logiciels fonctionnent.
 
-1. Extrait le fichier zip et commence par installer les drivers /FactoryTool-DriverAssitant/DriverAssitant_v5.1.1/DriverInstall.exe
+1. Extrait le fichier zip et commence par installer les drivers<br>/FactoryTool-DriverAssitant/DriverAssitant_v5.1.1/DriverInstall.exe
 2. lance l'application: /FactoryTool-DriverAssitant/FactoryTool/FactoryTool.exe
 3. Change de langue le chinois est par défaut
 4. Clic sur firmware et charge le Firmware DSGW-210-Debian_image_RV1.1.7.img

@@ -143,6 +143,10 @@ ___
 **préfixe ( pdf, docx, zip, csv, xls, torrent )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
+### inclure un lien blueprint
+
+{% include blueprint.html link="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+
 # Les produits
 
 ### inclure produit externe

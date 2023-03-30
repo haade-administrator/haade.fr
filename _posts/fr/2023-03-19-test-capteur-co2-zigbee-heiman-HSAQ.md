@@ -77,8 +77,8 @@ J'ai aussi intégré le module Heiman HS3AQ dans Homeassistant avec le Plugin Zi
 |Lieu d'installation|mur ou support de bureau|
 |Plage de mesure du CO2|400-5000 ppm|
 |Précision CO2|100 ppm ou 10 % des valeurs mesurées, selon la valeur la plus élevée|
-|Qualité de l'air - Concentration de CO2|Bon <600ppm<br>Normal 600~1200ppm<br> Médiocre >1200ppm<br> Les valeurs peuvent être ajustées sur la page de configuration du CO2|
-|Déclenchement d'alarme|Faible >1200ppm<br> peut être ajusté sur la page de configuration du CO2|
+|Qualité de l'air - Concentration de CO2|Bon <600ppm<br>Normal 600~1200ppm<br>Médiocre >1200ppm<br>Les valeurs peuvent être ajustées sur la page de configuration du CO2|
+|Déclenchement d'alarme|Faible >1200ppm<br>peut être ajusté sur la page de configuration du CO2|
 |Dimensions|90 x 90 x 26 mm (sans support)|
 
 # **les + du produit**

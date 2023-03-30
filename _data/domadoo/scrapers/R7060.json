@@ -1,0 +1,30 @@
+{
+    "product": {
+        "linkId": "peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198",
+        "productId": "R7060",
+        "title": "WOOX - Contrôleur d'arrosage intelligent ON/OFF Zigbee 3.0",
+        "description": "Activez ou désactivez votre arrosage en temps réel et n'importe où dans le monde avec le contrôleur d'arrosage intelligent WOOX.",
+        "productNew": "",
+        "minsalePrice": "32.99",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17537-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17538-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17539-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17540-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17541-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg",
+            "https://cdn1.domadoo.fr/17542-medium_default/woox-controleur-d-arrosage-intelligent-onoff-zigbee-30.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.4",
+            "totalStarCount": "30"
+        }
+    }
+}
