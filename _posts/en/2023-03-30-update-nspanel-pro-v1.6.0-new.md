@@ -22,7 +22,7 @@ locale: en_GB
 comments: true
 rating:  
 sourcelink:
-  - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/
+  - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
 ---
 
 Itead has promised us regular updates and it is the case, let's take stock of what's new in **version 1.6.0** of the NSPanel pro command module.

@@ -22,7 +22,7 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/
+  - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
 ---
 
 Itead nous a promis des mises à jours régulières et c'est le cas, faisons le point sur les nouveautées de la **version 1.6.0** du module de commande NSPanel pro.
