@@ -10,9 +10,9 @@
         "discount": "",
         "currency": "EUR",
         "originalPrice": "",
-        "quantity": 0,
-        "available": "Indisponible",
-        "supply_date": "31-03-2023",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/16227-medium_default/blm-boitier-d-encastrement-double-pour-micromodule.jpg"
         ],

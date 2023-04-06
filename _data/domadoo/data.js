@@ -21,5 +21,7 @@ module.exports = [
     'accessoires-electriques/5400-blm-boitier-d-encastrement-double-pour-micromodule-3701217902312',                // 2151 boitier encastrement blm double
     'accessoires-electriques/4117-blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre-2068651000013',    // 2152 boitier blm encastrement plafonnier
     'peripheriques/5882-heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore',   // 2153 capteur co2 Heiman
-    'peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198'   // 2154 Woox irrigation
+    'peripheriques/5685-woox-controleur-d-arrosage-intelligent-onoff-zigbee-30-8435606701198',   // 2154 Woox irrigation
+    'peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-ssm-u02-6970504213302', // 2155 SSM-U02 Aqara sans neutre
+    'peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-ssm-u01-6970504213296' // 2156 SSM-U01 Aqara vec neutre
 ]

@@ -10,9 +10,9 @@
         "discount": "-20%",
         "currency": "EUR",
         "originalPrice": "166.80",
-        "quantity": 100,
-        "available": "Disponible",
-        "supply_date": null,
+        "quantity": 0,
+        "available": "Indisponible",
+        "supply_date": "17-04-2023",
         "image": [
             "https://cdn1.domadoo.fr/15794-medium_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg",
             "https://cdn1.domadoo.fr/15795-medium_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg",
