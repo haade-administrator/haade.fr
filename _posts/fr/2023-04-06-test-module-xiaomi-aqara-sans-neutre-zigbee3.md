@@ -61,7 +61,7 @@ L'intégration dans ZHA **ne s'est pas fait sans mal**, malgré l'antenne extern
 
 {% picture posts/{{ page.guid }}/module-xiaomi-aqara-SSM-U02-avec-ZHA-dans-homeassistant.png --alt module Xiaomi single switch sans neutre SSM-U02 intégration ZHA --img width="940" height="864" %}
 
-## Intégration avec Zigbee2mqtt ( Z2M)
+## Intégration avec Zigbee2mqtt (Z2M)
 
 Avec **Zigbee2mqtt ça ne rigole pas** le module T1 par Aqara remonte:
 - l'état On/Off (normal)

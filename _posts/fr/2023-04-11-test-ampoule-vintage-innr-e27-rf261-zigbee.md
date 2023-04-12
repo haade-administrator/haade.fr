@@ -31,8 +31,35 @@ sourcelink:
 
 {% picture posts/{{ page.guid }}/ampoule-connecte-innr-vitage-globe-zigbee-rf261.png --alt ampoule connectée innr globe vintage variable zigbee rf261 --img width="940" height="525" %}
 
-# Réinitialisation de l'ampoule
 
+{% picture posts/{{ page.guid }}/emballage-innr-rf261-taille-specification.png --alt ampoule connectée innr globe vintage variable zigbee rf261 emballage et taille --img width="940" height="525" %}
+
+
+{% picture posts/{{ page.guid }}/filaments-innr-rf261-ampoule-vintage-connecte.png --alt ampoule connectée innr globe vintage variable zigbee rf261 rendu du filament --img width="940" height="525" %}
+
+# Intégration de l'ampoule Innr rf261
+
+# Intégration Avec Zigbee2mqtt (Z2M)
+
+
+{% picture posts/{{ page.guid }}/innr-rf261-zigbee-ha-integration.png --alt ampoule connectée innr globe vintage variable zigbee rf261 intégration avec Zigbee2mqtt --img width="940" height="725" %}
+
+{% picture posts/{{ page.guid }}/innr-rf261-zigbee-ha-expose-integration.png --alt ampoule connectée innr globe vintage variable zigbee rf261 rendu du filament zigbee2mqtt expose --img width="940" height="275" %}
+
+{% picture posts/{{ page.guid }}/innr-rf261-zigbee-ha-integration-firmware-update.png --alt ampoule connectée innr globe vintage variable zigbee rf261 rendu du filament zigbee2mqtt firmware update --img width="940" height="97" %}
+
+## Intégration dans ZHA
+
+Commençons par le module zigbee ZHA dans homeassistant, l'intégration s'est faite avec succès
+
+
+{% picture posts/{{ page.guid }}/innr-rf261-zigbee-ha-integration-zha.png --alt ampoule connectée innr globe vintage variable zigbee rf261 rendu du filament intégration dans home assistant avec ZHA --img width="940" height="817" %}
+
+## Intégration Dans Jeedom avec le module Zigbee
+
+{% picture posts/{{ page.guid }}/innr-rf261-zigbee-jeedom-integration.png --alt ampoule connectée innr globe vintage variable zigbee rf261 rendu du filament tentative intégration dans Jeedom --img width="940" height="279" %}
+
+# Réinitialisation de l'ampoule
 
 {% include youtubePlayer.html id="4zkpZSv84H4" %}
 
@@ -81,6 +108,16 @@ sourcelink:
 |Déclaration qu’une source lumineuse LED remplace une source lumineuse fluorescente sans ballast intégré d’une puissance en watts particulière|Non|
 |Mesure du papillotement|0,0|
 |Mesure de l’effet stroboscopique|0,0|
+
+{% include doclink.html pdf="Fiche_868086_FR.pdf" title="Notice d'information Innr RF261 Zigbee" %}
+{% include doclink.html pdf="Installation-Manual-Z30-versions-Bulbs-Candles-GU10.pdf" title="Notice d'installation Innr RF261 Zigbee" %}
+
+
+# **les + du produit**
+{: .blue}
+
+# **les - du produit**
+{: .red}
 
 {% include product-embed.html guid="2157" %}
 
