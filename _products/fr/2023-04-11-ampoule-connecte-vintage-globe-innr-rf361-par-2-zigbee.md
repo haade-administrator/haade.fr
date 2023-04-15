@@ -8,12 +8,12 @@ categories: [Boutique, Zigbee]
 tags: []
 locale: fr_FR
 brand: Innr
-ean: 
+ean: 8718781552923
 image: 'innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-vintage-filament-2200-k-type-globe.jpg'
 imageshadow: true
 comments: false
 rating:  
-published: false
+published: true
 aep-item: 
 aep-item-affiliate: ""
 dom-item: "RF261-2"
