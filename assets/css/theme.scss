@@ -227,7 +227,6 @@ $badge-purple: #32064a;
 
 * {
     font-family: 'Poppins', sans-serif;
-    font-display: optional;
 }
 
 body {
@@ -877,7 +876,6 @@ img:hover {
             }
             &:after {
                 font-family: 'Font Awesome 5 Free';
-                font-display: optional;
                 content: '\f0c1';
                 color: #999;
                 font-size: from-font;
