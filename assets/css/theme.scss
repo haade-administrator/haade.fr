@@ -97,48 +97,6 @@ $badge-purple: #32064a;
 
 // Intégration google font into scss https://google-webfonts-helper.herokuapp.com/fonts
 
-/* poppins-200 - latin  généré par https://google-webfonts-helper.herokuapp.com/fonts/poppins?subsets=latin*/
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: optional;
-    font-weight: 200;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.woff') format('woff'),
-    /* Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.svg#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-300 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: optional;
-    font-weight: 300;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.woff') format('woff'),
-    /* Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.svg#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
 /* poppins-regular - latin */
 @font-face {
     font-family: 'Poppins';
@@ -160,73 +118,24 @@ $badge-purple: #32064a;
     /* Legacy iOS */
 }
 
-/* poppins-500 - latin */
+/* montserrat-regular - latin */
 @font-face {
-    font-family: 'Poppins';
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
     font-style: normal;
-    font-display: optional;
-    font-weight: 500;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.woff') format('woff'),
-    /* Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.svg#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-600 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: optional;
-    font-weight: 600;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.woff') format('woff'),
-    /* Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.svg#Poppins') format('svg');
-    /* Legacy iOS */
-}
-
-/* poppins-700 - latin */
-@font-face {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-display: optional;
-    font-weight: 700;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.woff') format('woff'),
-    /* Modern Browsers */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.svg#Poppins') format('svg');
-    /* Legacy iOS */
-}
+    font-weight: 100 900;
+    src: url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
 
 // general
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
