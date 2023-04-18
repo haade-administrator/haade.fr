@@ -28,7 +28,7 @@ sourcelink:
 
 Today and thanks to Itead who provided us with the Nspanel pro module as well as [its support](https://itead.cc/product/enclosure-stand/ref/122/){: target="_blank" }, I will be able to test this famous home automation control unit and give you my opinion on this module. Is this the module to have to have Waf access, is the module ready? These are the questions I am asking myself right now.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 Sonoff has been selling this module for some time, which completes the Nspanel series, this pro version now includes a Zigbee controller in addition to wifi and the touch screen. The two light control buttons are no longer present, however the touch screen is larger and is equipped with two light sensors.
 
@@ -214,7 +214,7 @@ Entirely developed by AlexxIT, this module makes it easy to control Sonoff produ
 - mandatory interface reload to synchronize with the cloud
 - the reloading of the interface is not automatic by default it will be necessary to create an automation
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 # Conclusion
 

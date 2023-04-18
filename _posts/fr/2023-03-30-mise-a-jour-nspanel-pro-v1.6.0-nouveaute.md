@@ -27,7 +27,7 @@ sourcelink:
 
 Itead nous a promis des mises à jours régulières et c'est le cas, faisons le point sur les nouveautées de la **version 1.6.0** du module de commande NSPanel pro.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 Pour commencer, si tu n'as pas lu mon précédent article sur le NSPanel pro je te [remet le lien ici]({% post_url /fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %}), **il pourra peut-être répondre à certaines de tes attentes !**
 
@@ -46,7 +46,7 @@ Pour commencer, si tu n'as pas lu mon précédent article sur le NSPanel pro je 
 1. Optimisez les étapes de connexion, vous pouvez accéder aux paramètres Wi-Fi sur la page du code de numérisation
 2. Modifier l'animation de démarrage
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 # Conclusion
 

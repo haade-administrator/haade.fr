@@ -101,6 +101,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
+    font-display: optional;
     font-weight: 200;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.eot');
     /* IE9 Compat Modes */
@@ -121,7 +122,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
     font-weight: 300;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.eot');
     /* IE9 Compat Modes */
@@ -142,7 +143,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
     font-weight: 400;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-regular.eot');
     /* IE9 Compat Modes */
@@ -163,7 +164,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
     font-weight: 500;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.eot');
     /* IE9 Compat Modes */
@@ -184,7 +185,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
     font-weight: 600;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.eot');
     /* IE9 Compat Modes */
@@ -205,7 +206,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: swap;
+    font-display: optional;
     font-weight: 700;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.eot');
     /* IE9 Compat Modes */

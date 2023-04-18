@@ -27,7 +27,7 @@ sourcelink:
 
 Itead has promised us regular updates and it is the case, let's take stock of what's new in **version 1.6.0** of the NSPanel pro command module.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 To begin with, if you haven't read my previous article on the NSPanel pro, I'll [put the link here]({% post_url /en/2023-03-10-unboxing-test-and-installation-sonoff-nspanel-pro %}), **it may be able to meet some of your expectations!**
 
@@ -46,7 +46,7 @@ To begin with, if you haven't read my previous article on the NSPanel pro, I'll 
 1. Optimize the connection steps, you can access the Wi-Fi settings on the scan code page
 2. Change Boot Animation
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi"  iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 # Conclusion
 

@@ -141,7 +141,7 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 ## Compatibilité avec Matter
 
 Notez que Zigbee n'est pas directement compatible avec Matter. Au lieu de cela, Matter utilise une norme radio "de type Zigbee" appelée Thread, qui ajoute un adressage IP au maillage. Je suis à peu près sûr que le dongle cc2652 peut être configuré en tant que coordinateur Zigbee ou en tant que routeur de bordure de thread, selon le micrologiciel/logiciel que vous installez, **mais il ne peut faire les deux en même temps car les puces CC2652P et EFR32MG21, ne sont pas multi-thread,** vous en aurez donc probablement besoin de deux : un pour vos appareils Zigbee et un pour vos appareils Thread.
-Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){: target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){: target="_blank"} elle aussi compatible avec **Zigbee, Matter et Miltithread**{: .red}.
+Cependant Silicon Labs a sorti un nouveau Soc [EFR32MG24](https://www.silabs.com/wireless/zigbee/efr32mg24-series-2-socs){: target="_blank"} celui-ci est compatible **Zigbee, Matter et Multithread**{: .red}, il y a aussi des nouveautées du côté de Texas instrument qui a sorti une puce [CC2652P7](https://www.ti.com/product/CC2652P7){: target="_blank"} elle aussi compatible avec **Zigbee, Matter et Multithread**{: .red}.
 
 ## Firmware flashing
 
