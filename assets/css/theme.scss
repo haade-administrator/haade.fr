@@ -101,7 +101,7 @@ $badge-purple: #32064a;
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
-    font-display: optional;
+    font-display: swap;
     font-weight: 400;
     src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-regular.eot');
     /* IE9 Compat Modes */
@@ -135,7 +135,7 @@ $badge-purple: #32064a;
 // general
 
 * {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
