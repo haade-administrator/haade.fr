@@ -97,89 +97,22 @@ $badge-purple: #32064a;
 
 // Intégration google font into scss https://google-webfonts-helper.herokuapp.com/fonts
 
-/* poppins-100 - latin */
+/* montserrat-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 100;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-100.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-100.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-200 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-200.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-300 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 300;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-300.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-regular - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-500 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-600 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* poppins-700 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    src: url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/poppins/poppins-v20-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-
-@supports (font-variation-settings: normal){
-
-  /* montserrat-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: optional; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Montserrat';
     font-weight: 100 900;
-    font-stretch: 25% 151%;
     font-style: normal;
-    src: url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.woff2') format('woff2 supports variations'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.woff2') format('woff2-variations'),
-         url('{{ site.baseurl }}/assets/fonts/montserrat/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('{{ site.baseurl }}/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('{{ site.baseurl }}/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff') format('woff'),
+         url('{{ site.baseurl }}/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-}
+
 
 // general
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
