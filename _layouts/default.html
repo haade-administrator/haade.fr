@@ -14,6 +14,8 @@ layout: compress
 {%- capture layout %}{%- if page.layout %}layout-{{ page.layout }}{%- endif %}{%- endcapture %}
 <body>
 
+ {%- include icon_svg.html %}
+
 <header>
 	{%- include header.html %}
 </header>
