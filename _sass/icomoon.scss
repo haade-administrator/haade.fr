@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'icomoon';
+    src: 
+    url('../fonts/icomoon/icomoon.ttf?4fpajq') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?4fpajq') format('woff'),
+    url('../fonts/icomoon/icomoon.woff2?4fpajq') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.icob {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: inherit;
+	font-family: 'icomoon';
+	font-weight: 400;
+}
+
+
+.laugh-solid {
+    &:before {
+        content: "\e900";
+    }
+}
+
+.file-archive-solid {
+    &:before {
+        content: "\e901";
+    }
+}
+
+.file-excel-solid {
+    &:before {
+        content: "\e902";
+    }
+}
+
+.file-csv-solid {
+    &:before {
+        content: "\e903";
+    }
+}
+
+.file-word-solid {
+    &:before {
+        content: "\e904";
+    }
+}
+
+.file-pdf-solid {
+    &:before {
+        content: "\e905";
+    }
+}
+
+.phone-alt-solid {
+    &:before {
+        content: "\e906";
+    }
+}
+
+.map-marker-alt-solid {
+    &:before {
+        content: "\e907";
+    }
+}
+
+.eye-solid {
+    &:before {
+        content: "\e908";
+    }
+}
+
+.external-link-alt-solid {
+    &:before {
+        content: "\e909";
+    }
+}
+
+.angle-right-solid {
+    &:before {
+        content: "\e90a";
+    }
+}
+
+.times-solid {
+    &:before {
+        content: "\e90b";
+    }
+}
+
+.bars-solid {
+    &:before {
+        content: "\e90c";
+    }
+}
+
+.phone-volume-solid {
+    &:before {
+        content: "\e90d";
+    }
+}
+
+.check-circle-solid {
+    &:before {
+        content: "\e90e";
+    }
+}
+
+.times-circle-solid {
+    &:before {
+        content: "\e90f";
+    }
+}
+
+.info-circle-solid {
+    &:before {
+        content: "\e910";
+    }
+}
+
+.question-circle-solid {
+    &:before {
+        content: "\e911";
+    }
+}
+
+.exclamation-circle-solid {
+    &:before {
+        content: "\e912";
+    }
+}
+
+.search-solid {
+    &:before {
+        content: "\e913";
+    }
+}
+
+.facebook-f {
+    &:before {
+        content: "\e914";
+    }
+}
+
+.angle-down-solid {
+    &:before {
+        content: "\e915";
+    }
+}
+
+.envelope-solid {
+    &:before {
+        content: "\e916";
+    }
+}
+
+.link-solid {
+    &:before {
+        content: "\e917";
+    }
+}
+
+.comments-solid {
+    &:before {
+        content: "\e918";
+    }
+}
+
+.github {
+    &:before {
+        content: "\e919";
+    }
+}
+
+.youtube {
+    &:before {
+        content: "\e91a";
+    }
+}
+
+.twitter {
+    &:before {
+        content: "\e91b";
+    }
+}
