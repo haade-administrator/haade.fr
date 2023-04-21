@@ -1,91 +1,127 @@
 @font-face {
     font-family: 'icomoon';
-    src: 
-    url('../fonts/icomoon/icomoon.ttf?4fpajq') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?4fpajq') format('woff'),
-    url('../fonts/icomoon/icomoon.woff2?4fpajq') format('woff2');
+    src:
+        url('../fonts/icomoon/icomoon.ttf?4fpajq') format('truetype'),
+        url('../fonts/icomoon/icomoon.woff?4fpajq') format('woff'),
+        url('../fonts/icomoon/icomoon.woff2?4fpajq') format('woff2');
 
     font-weight: normal;
     font-style: normal;
-    font-display: block;
+    font-display: swap;
+}
+
+.ico {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'icomoon';
+    font-weight: 500;
 }
 
 .icob {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	display: inline-block;
-	font-style: normal;
-	font-variant: normal;
-	text-rendering: auto;
-	line-height: inherit;
-	font-family: 'icomoon';
-	font-weight: 400;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: inherit;
+    font-family: 'icomoon';
+    font-weight: 400;
+}
+
+.icor {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-family: 'icomoon';
+    font-weight: 400;
+}
+
+.icos {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: inherit;
+    font-family: 'icomoon';
+    font-weight: 500;
 }
 
 
 .laugh-solid {
     &:before {
-        content: "\e900";
+        content: "\e91a";
     }
 }
 
-.file-archive-solid {
+.file-archive-regular {
     &:before {
-        content: "\e901";
+        content: "\e90f";
     }
 }
 
-.file-excel-solid {
+.file-excel-regular {
     &:before {
-        content: "\e902";
+        content: "\e911";
     }
 }
 
 .file-csv-solid {
     &:before {
-        content: "\e903";
+        content: "\e910";
     }
 }
 
-.file-word-solid {
+.file-word-regular {
     &:before {
-        content: "\e904";
+        content: "\e913";
     }
 }
 
-.file-pdf-solid {
+.file-pdf-regular {
     &:before {
-        content: "\e905";
+        content: "\e912";
     }
 }
 
 .phone-alt-solid {
     &:before {
-        content: "\e906";
+        content: "\e901";
     }
 }
 
 .map-marker-alt-solid {
     &:before {
-        content: "\e907";
+        content: "\e900";
     }
 }
 
 .eye-solid {
     &:before {
-        content: "\e908";
+        content: "\e917";
     }
 }
 
 .external-link-alt-solid {
     &:before {
-        content: "\e909";
+        content: "\e916";
     }
 }
 
 .angle-right-solid {
     &:before {
-        content: "\e90a";
+        content: "\e90d";
     }
 }
 
@@ -97,79 +133,79 @@
 
 .bars-solid {
     &:before {
-        content: "\e90c";
+        content: "\e90a";
     }
 }
 
 .phone-volume-solid {
     &:before {
-        content: "\e90d";
+        content: "\e903";
     }
 }
 
 .check-circle-solid {
     &:before {
-        content: "\e90e";
+        content: "\e905";
     }
 }
 
 .times-circle-solid {
     &:before {
-        content: "\e90f";
+        content: "\e909";
     }
 }
 
 .info-circle-solid {
     &:before {
-        content: "\e910";
+        content: "\e907";
     }
 }
 
 .question-circle-solid {
     &:before {
-        content: "\e911";
+        content: "\e908";
     }
 }
 
 .exclamation-circle-solid {
     &:before {
-        content: "\e912";
+        content: "\e906";
     }
 }
 
 .search-solid {
     &:before {
-        content: "\e913";
+        content: "\e91c";
     }
 }
 
 .facebook-f {
     &:before {
-        content: "\e914";
+        content: "\e918";
     }
 }
 
 .angle-down-solid {
     &:before {
-        content: "\e915";
+        content: "\e90c";
     }
 }
 
 .envelope-solid {
     &:before {
-        content: "\e916";
+        content: "\e915";
     }
 }
 
 .link-solid {
     &:before {
-        content: "\e917";
+        content: "\e91b";
     }
 }
 
 .comments-solid {
     &:before {
-        content: "\e918";
+        content: "\e90e";
     }
 }
 
@@ -181,12 +217,24 @@
 
 .youtube {
     &:before {
-        content: "\e91a";
+        content: "\e91e";
     }
 }
 
 .twitter {
     &:before {
-        content: "\e91b";
+        content: "\e91d";
+    }
+}
+
+.discord {
+    &:before {
+        content: "\e914";
+    }
+}
+
+.amazon {
+    &:before {
+        content: "\e904";
     }
 }

@@ -29,19 +29,19 @@ redirect_from:
     <div class="contentact">
       <div class="left-side">
         <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
+          <i class="icos map-marker-alt-solid"></i>
           <div class="topic">Addresse</div>
           <div class="text-one">29 rue des greniers à grains</div>
           <div class="text-two">67350 Ettendorf</div>
         </div>
         <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
+          <i class="icos phone-alt-solid"></i>
           <div class="topic">Téléphone</div>
           <div class="text-one">+0033 6 99 40 15 86</div>
           <div class="text-two"></div>
         </div>
         <div class="email details">
-          <i class="fas fa-envelope"></i>
+          <i class="icos envelope-solid"></i>
           <div class="topic">Email</div>
           <div class="text-one">administrateur[@]haade.fr</div>
           <div class="text-two">nico[@]haade.fr</div>

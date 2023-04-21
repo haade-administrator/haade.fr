@@ -32,23 +32,27 @@ redirect_from:
         <div class="row align-items-center mb-5">
             <div class="col-md-9">
                   {%- if site.data.authors.Nico.url %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico website" href="{{ site.data.authors.Nico.url }}"><i class="fa fa-link"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico website" href="{{ site.data.authors.Nico.url }}"><i class="ico link-solid"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.twitter %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico twitter" href="{{ site.data.authors.Nico.twitter }}"><i class="fab fa-twitter"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico twitter" href="{{ site.data.authors.Nico.twitter }}"><i class="icob twitter"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.youtube %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico youtube" href="{{ site.data.authors.Nico.youtube }}"><i class="fab fa-youtube"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico youtube" href="{{ site.data.authors.Nico.youtube }}"><i class="icob youtube"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.discord %}
-                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico discord" href="{{ site.data.authors.Nico.discord }}"><i class="fab fa-discord"></i></a>
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico discord" href="{{ site.data.authors.Nico.discord }}"><i class="icob discord"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.Nico.github %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="Nico github" href="{{ site.data.authors.Nico.github }}"><i class="icob github"></i></a>
                   {%- endif %}
 
                   {%- if site.data.authors.Nico.email %}
-                      <a class="d-inline-block mx-1 text-dark" aria-label="Nico email" href="mailto:{{ site.data.authors.Nico.email }}"><i class="fa fa-envelope"></i></a>
+                      <a class="d-inline-block mx-1 text-dark" aria-label="Nico email" href="mailto:{{ site.data.authors.Nico.email }}"><i class="ico envelope-solid"></i></a>
                   {%- endif %}
                   <p class="excerpt">{{ site.data.authors.Nico.description[page.locale] }}</p>
                   <p>Number of articles written:<span class="badge badge-light posts">{{ site.posts | where:"author","Nico" | where: "locale", page.locale | size }}</span></p>

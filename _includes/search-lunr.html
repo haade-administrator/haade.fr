@@ -1,7 +1,7 @@
 <script src="{{site.baseurl}}{{ '/assets/js/lunr.min.js' | cache_buster }}" type="text/javascript"></script>
 
 <div class="search-box">
-  <i class='fas fa-search'></i>
+  <i class='icos search-solid'></i>
   <div class="input-box">
     <form onSubmit="return lunr_search(document.getElementById('lunrsearch').value);" class="search-form" role="search">
       <input autocomplete="on" id="lunrsearch" class="search-input" name="q" maxlength="200" placeholder="{{ translate.search[page.locale] }}" type="search" value="">

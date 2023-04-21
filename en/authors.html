@@ -30,23 +30,27 @@ redirect_from:
                 <p class="mt-4 mb-0 small text-center">
 
                     {%- if author[1].web %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].web }}"><i class="fa fa-link"></i></a>
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].web }}"><i class="ico link-solid"></i></a>
                     {%- endif %}
 
                     {%- if author[1].twitter %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].twitter }}"><i class="fab fa-twitter"></i></a>
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].twitter }}"><i class="icob twitter"></i></a>
                     {%- endif %}
 
                     {%- if author[1].youtube %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].youtube }}"><i class="fab fa-youtube"></i></a>
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].youtube }}"><i class="icob youtube"></i></a>
                     {%- endif %}
 
                     {%- if author[1].discord %}
-                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].discord }}"><i class="fab fa-discord"></i></a>
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].discord}}"><i class="icob discord"></i></a>
+                    {%- endif %}
+
+                    {%- if author[1].github %}
+                        <a target="_blank" class="d-inline-block mx-1 text-dark" href="{{ author[1].github }}"><i class="icob github"></i></a>
                     {%- endif %}
 
                     {%- if author[1].email %}
-                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author[1].email }}"><i class="fa fa-envelope"></i></a>
+                        <a class="d-inline-block mx-1 text-dark" href="mailto:{{ author[1].email }}"><i class="ico envelope-solid"></i></a>
                     {%- endif %}
 
                 </p>

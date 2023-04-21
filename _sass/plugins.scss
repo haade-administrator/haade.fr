@@ -865,9 +865,12 @@ $alert-success: #42ae42;
     .sl-nav {
       font-size: 12px;
       display: flex;
-      margin-left: 10px;
       align-items: center;
       padding: 0 10px 0 0;
+
+      i {
+        font-size: 10px;
+      }
     }
 
     .sl-nav ul {
@@ -883,7 +886,6 @@ $alert-success: #42ae42;
       cursor: pointer;
       padding-left: 4px;
       transition: all 0.3s ease;
-
     }
 
     .sl-nav li ul {
@@ -1815,13 +1817,12 @@ nav .navbar {
 }
 
 nav .navbar .links li {
-  .arrow {
-    /* background: red; */
-    height: 100%;
-    width: 22px;
-    line-height: 50px;
-    text-align: center;
+  .arrow {    
     display: inline-block;
+    margin-left: 5px;
+    font-weight: 800;
+    font-size: 12px;
+    text-align: center;
     color: $white;
     transition: all 0.3s ease;
   }
@@ -1920,7 +1921,7 @@ nav .navbar .links li {
       text-align: center;
       font-size: 18px;
       color: $purple;
-      font-weight: 600;
+      font-weight: 300;
       cursor: pointer;
       transition: all 0.3s ease;
 
@@ -2011,7 +2012,7 @@ nav .navbar .links li {
 .navbar {
 
   .nav-links .sidebar-logo,
-  .fa-bars {
+  .bars-solid {
     display: none;
   }
 }
@@ -2149,12 +2150,8 @@ nav .navbar .links li {
     position: relative;
   }
 
-  .navbar .fa-bars {
+  .navbar .bars-solid {
     display: block;
-
-    &::before {
-      color: $white;
-    }
   }
 
   nav .navbar .nav-links {
@@ -2186,12 +2183,14 @@ nav .navbar .links li {
     i {
       font-size: 25px;
       color: $white;
+      font-weight: 500;
     }
   }
 
-  .navbar .fa-bars {
+  .navbar .bars-solid {
     font-size: 25px;
     color: $white;
+    font-weight: 500;
   }
 
   nav .navbar .links {

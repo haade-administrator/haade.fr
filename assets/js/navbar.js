@@ -3,22 +3,22 @@
 
 // search-box open close js code
 // let navbar = document.querySelector(".navbar");
-// let searchBox = document.querySelector(".search-box .fa-search");
-// let searchBoxCancel = document.querySelector(".search-box .fa-times");
+// let searchBox = document.querySelector(".search-box .search-solid");
+// let searchBoxCancel = document.querySelector(".search-box .times-solid");
 
 // searchBox.addEventListener("click", ()=>{
 //   navbar.classList.toggle("showInput");
 //   if(navbar.classList.contains("showInput")){
-//     searchBox.classList.replace("fa-search" ,"fa-times");
+//     searchBox.classList.replace("search-solid" ,"times-solid");
 //   }else {
-//     searchBox.classList.replace("fa-times" ,"fa-search");
+//     searchBox.classList.replace("times-solid" ,"search-solid");
 //   }
 // });
 
 // // sidebar open close js code
 // let navLinks = document.querySelector(".nav-links");
-// let menuOpenBtn = document.querySelector(".navbar .fa-bars");
-// let menuCloseBtn = document.querySelector(".nav-links .fa-times");
+// let menuOpenBtn = document.querySelector(".navbar .bars-solid");
+// let menuCloseBtn = document.querySelector(".nav-links .times-solid");
 // menuOpenBtn.onclick = ()=> {
 // navLinks.style.left = "0";
 // }
@@ -52,19 +52,19 @@
 
 // Navbar
 const navbar = document.querySelector(".navbar");
-const searchBox = navbar.querySelector(".search-box .fa-search");
-const searchBoxCancel = navbar.querySelector(".search-box .fa-times");
+const searchBox = navbar.querySelector(".search-box .search-solid");
+const searchBoxCancel = navbar.querySelector(".search-box .times-solid");
 
 searchBox.addEventListener("click", () => {
   navbar.classList.toggle("showInput");
-  searchBox.classList.toggle("fa-search");
-  searchBox.classList.toggle("fa-times");
+  searchBox.classList.toggle("search-solid");
+  searchBox.classList.toggle("times-solid");
 });
 
 // Sidebar open/close
 const navLinks = document.querySelector(".nav-links");
-const menuOpenBtn = navbar.querySelector(".fa-bars");
-const menuCloseBtn = navLinks.querySelector(".fa-times");
+const menuOpenBtn = navbar.querySelector(".bars-solid");
+const menuCloseBtn = navLinks.querySelector(".times-solid");
 
 menuOpenBtn.addEventListener("click", () => {
   navLinks.style.left = "0";

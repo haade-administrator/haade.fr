@@ -3,7 +3,7 @@
     <span class="titlesource">{{ translate.sourcelink[page.locale] }}</span>
     <ol>{% for slink in page.sourcelink %}
         <li class="contentlink">
-            <a rel="canonical" href="{{ slink }}" target="_blank">{{ slink | remove: "https://" | remove: "http://" | replace_first: "?", "/" | split: "/" | slice: "0" }}</a><i class="fas fa-external-link-alt"></i>
+            <a rel="canonical" href="{{ slink }}" target="_blank">{{ slink | remove: "https://" | remove: "http://" | replace_first: "?", "/" | split: "/" | slice: "0" }}</a><i class="icos external-link-alt-solid"></i>
         </li>
         {% endfor %}
     </ol>

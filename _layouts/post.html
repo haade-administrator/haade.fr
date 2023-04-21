@@ -38,7 +38,7 @@ post_class: post-template
         <span>{%- include read-time.html content=content %}</span>
         {%- assign countapi = site.countapi %}
         {%- if countapi.namespace %}
-        <p><i class="fas fa-eye" width="1em" height="1em"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
+        <p><i class="icos eye-solid" width="1em" height="1em"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
         {%- endif %}
         </div>
     </div>
