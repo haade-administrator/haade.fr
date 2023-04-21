@@ -99,7 +99,7 @@ $badge-purple: #32064a;
 
 /* montserrat-regular - latin */
 @font-face {
-    font-display: optional; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Montserrat';
     font-weight: 100 900;
     font-style: normal;
