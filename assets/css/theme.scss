@@ -865,15 +865,17 @@ img:hover {
     background-color: $danger;
     color: #fff;
     position: relative;
-    bottom: 2px;
+    font-size: 7px;
+    bottom: 9px;
     left: 5px;
 }
 
 .badge-light {
     color: #212529;
     border-radius: 20px;
+    padding-top: 6px;
     position: relative;
-    top: 7px;
+    top: 9px;
     left: 5px;
     transform: translateY(-50%);
 }
