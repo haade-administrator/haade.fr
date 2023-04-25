@@ -1515,10 +1515,15 @@ a {
     color: #666;
   }
 
-  .navbar-brand img {
+  .navbar-brand {
+    width: 100%;
+    height: 73px;
+  
+  img {
     width: auto;
     height: auto;
   }
+}
 }
 
 /* Breadcrumbs */
