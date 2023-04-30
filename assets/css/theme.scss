@@ -401,11 +401,10 @@ img:hover {
 // }
 //
 
+
+
 .d-flex {
     margin-bottom: 10px;
-    width: 100%;
-    max-height: 88px;
-
 }
 
 // table of Content
@@ -699,6 +698,10 @@ img:hover {
             border: 2px solid darken($primary, 20%);
             padding: 2px;
         }
+    }
+    .d-flex {
+        width: 100%;
+        max-height: 88px;
     }
 }
 
