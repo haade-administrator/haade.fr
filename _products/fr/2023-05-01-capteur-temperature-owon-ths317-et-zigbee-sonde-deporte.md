@@ -38,7 +38,7 @@ Compatible avec Amazon Echo (intégrant la technologie Zigbee).
 ## CARACTERISTIQUES TECHNIQUES :
 
 |Alimentation|DC 3V **(2X AAA) NON INCLUSES**|
-|NON COMPATIBLE TUYA, SMARTLIFE, LIDL||
+|NON COMPATIBLE|TUYA, SMARTLIFE, LIDL|
 |Affichage|LED 2 couleurs (Rouge, Vert)|
 |Mesure de température|Sonde déportée – 2,5m|
 |Plage de mesure|-17°C à +100°C|

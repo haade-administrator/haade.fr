@@ -38,7 +38,7 @@ Compatible with Amazon Echo (integrating Zigbee technology).
 ## TECHNICAL CHARACTERISTICS :
 
 |Power supply|DC 3V **(2X AAA) NOT INCLUDED**|
-|NOT COMPATIBLE TUYA, SMARTLIFE, LIDL||
+|NOT COMPATIBLE|TUYA, SMARTLIFE, LIDL|
 |Display|2 color LED (Red, Green)|
 |Temperature measurement|Remote probe – 2.5m|
 |Measuring range|-17°C to +100°C|
