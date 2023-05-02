@@ -20,7 +20,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 3,2
+rating: 3.8
 sourcelink:
   - https://www.owon-smart.com/zigbee-temperature-sensor-with-probe-ths-317-et-product/
 ---

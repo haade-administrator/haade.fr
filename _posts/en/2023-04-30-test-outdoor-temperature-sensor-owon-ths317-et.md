@@ -20,7 +20,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
-rating:  
+rating: 3.8
 sourcelink:
   - https://www.owon-smart.com/zigbee-temperature-sensor-with-probe-ths-317-et-product/
 ---
@@ -100,4 +100,4 @@ Personally **I'll put ZHA in mind for this integration**, the fact that it's int
 
 ## Conclusion
 
-Domadoo has decided to market this module in a simple temperature version for less than 20€, this module stands out thanks to the remote probe for the rest everything is ordinary to say the least, depending on your needs it could suit you perfectly, moreover it is fully compatible with HA and Jeedom.
+**Domadoo has decided to market this module in a simple temperature version** for less than 20€, this module stands out thanks to the remote probe for the rest everything is ordinary to say the least, depending on your needs it could suit you perfectly, moreover it is fully compatible with HA and Jeedom.
