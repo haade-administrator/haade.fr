@@ -251,4 +251,4 @@ lovelace:
 
 Voilà si tout s’est bien passé vous allez avoir une interface complète pour gérer votre réseau et module Zigbee
 
-<style class="advgb-styles-renderer">.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li{font-size:16px;}.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li{padding-left:22px;margin-left:0;}.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li:before{font-size:20px;color:#ff6900;line-height:18px;margin:2px;padding:2px;margin-left:-24px}</style>
+<style class="advgb-styles-renderer">.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li{font-size:1em;}.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li{padding-left:22px;margin-left:0;}.wp-block-advgb-list ul.advgblist-ef196ffb-8bc2-447f-8c60-42d9de21b213 > li:before{font-size:1.25em;color:#ff6900;line-height:18px;margin:2px;padding:2px;margin-left:-24px}</style>

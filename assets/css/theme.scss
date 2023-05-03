@@ -218,7 +218,7 @@ th {
 blockquote {
     font-family: Times New Roman;
     font-style: italic;
-    font-size: 20px;
+    font-size: 1.25em;
     position: relative;
     border-left: 1px solid $dark;
     margin-left: 30px;
@@ -390,7 +390,7 @@ img:hover {
 //                 color: #202121;
 //                 border-bottom: 1px solid #e6eaea;
 //                 font-weight: 400;
-//                 font-size: 18px;
+//                 font-size: 1.125em;
 //                 position: relative;
 //             }
 //             a:hover {
@@ -410,23 +410,23 @@ img:hover {
 // table of Content
 .toc {
     li a {
-        font-size: 16px;
+        font-size: 1em;
         font-weight: bolder;
     }
 
     li::marker {
-        font-size: 16px;
+        font-size: 1em;
     }
 }
 
 //reading post
 .readingpost {
-    font-size: 14px;
+    font-size: 0.875em ;
     color: #444;
     margin-left: 15px;
     font-weight: 450;
     i {
-        font-size: 14px;
+        font-size: 0.875em ;
     }
 }
 
@@ -514,7 +514,7 @@ img:hover {
 
     .card-title {
         font-weight: 700;
-        font-size: 20px;
+        font-size: 1.25em ;
         line-height: 1.4;
 
         a {
@@ -532,13 +532,13 @@ img:hover {
 
     .card-text {
         font-weight: 400;
-        font-size: 12px;
+        font-size: 0.75em ;
         line-height: 1.4;
         margin-top: 5px;
     }
 
     .card-footer {
-        font-size: 14px;
+        font-size: 0.875em ;
         border-top: 0;
         padding: 1rem 1.25rem;
 
@@ -656,7 +656,7 @@ img:hover {
 }
 
 .posttitle {
-    font-size: 50px;
+    font-size: 3.125em ;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -710,7 +710,7 @@ img:hover {
     margin-bottom: 50px;
 
     .author-description {
-        font-size: 16px;
+        font-size: 1em;
     }
 
     a:hover {
@@ -727,7 +727,7 @@ img:hover {
 }
 
 .article-post {
-    font-size: 18px;
+    font-size: 1.125em ;
 
     p {
         margin-top: 30px;
@@ -735,13 +735,13 @@ img:hover {
     }
 
     code {
-        font-size: 15px;
+        font-size: 0.938em ;
         color: #94918d;
     }
 
     code[class*="language-"],
     pre[class*="language-"] {
-        // font-size:15px;
+        // font-size:0.938em;
         // margin-bottom:0px;
         // background: #fff;
         color: inherit;
@@ -820,7 +820,7 @@ img:hover {
         background: #222;
         color: #fff;
         display: inline-block;
-        font-size: 13px;
+        font-size: 0.813em ;
         line-height: 1;
         padding: 2px 3px;
         width: 150px;
@@ -853,7 +853,7 @@ img:hover {
     margin-top: 120px;
 
     .badge {
-        font-size: 15px;
+        font-size: 0.938em ;
         padding: 5px 7px;
         display: inline-block;
         margin: 3px 3px;
@@ -871,7 +871,7 @@ img:hover {
     background-color: $danger;
     color: #fff;
     position: relative;
-    font-size: 7px;
+    font-size: 0.438em ;
     bottom: 9px;
     left: 5px;
 }
@@ -958,7 +958,7 @@ img:hover {
         font-weight: 700;
         line-height: 1.2;
         display: block;
-        font-size: 20px;
+        font-size: 1.25em ;
         margin-bottom: 5px;
 
         &:hover {
@@ -978,7 +978,7 @@ img:hover {
         line-height: 1.7;
         display: block;
         margin-bottom: 10px;
-        font-size: 14px;
+        font-size: 0.875em ;
     }
 
     span.tags {
@@ -986,7 +986,7 @@ img:hover {
         line-height: 1.7;
         display: block;
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 0.75em ;
 
         &:hover {
             color: darken($primary, 20%);
@@ -1094,7 +1094,7 @@ body.active-side {
 
 @media (max-width: 768px) {
     .posttitle {
-        font-size: 35px;
+        font-size: 2.188em ;
     }
 
     .blog-grid-container {
@@ -1104,7 +1104,7 @@ body.active-side {
 
     .newsletter {
         span.h4 {
-            font-size: 20px;
+            font-size: 1.25em ;
         }
 
         .mc-field-group input[type="email"] {
@@ -1177,16 +1177,16 @@ body.active-side {
 
 @media (max-width: 480px) {
     .posttitle {
-        font-size: 22px;
+        font-size: 1.375em ;
         text-align: center;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 1.25em ;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 1.125em ;
     }
 
     .newsletter {
@@ -1208,11 +1208,11 @@ body.active-side {
 
     blockquote {
         margin-left: 15px;
-        font-size: 18px;
+        font-size: 1.125em ;
     }
 
     .article-post {
-        font-size: 15px;
+        font-size: 0.938em ;
     }
 
     .wrap-search {
