@@ -1,7 +1,7 @@
 ---
 guid: 64
 title: "Mise à jour automatique Homeassistant"
-description: "Grâce à un Blueprint automatise les mises à jours de Homeassistant en créant une automatisation, ce blueprint permet de paramétrer d'autres mises à jour"
+description: "Grâce à un Blueprint, automatise les mises à jour de Homeassistant en créant une automatisation, ce blueprint permet de paramétrer d'autres mises à jour. Cette manip très intéressante est tout de même à utiliser avec quelques pincettes"
 layout: post
 author: Nico
 date: 2023-05-04 12:26
@@ -11,7 +11,7 @@ tags: []
 image: 'automatiser-les-mises-à-jour-de-homeassistant.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -35,7 +35,7 @@ sourcelink:
 
 ## Mise à jour automatique de Home Assistant
 
-Pour toute question ou suggestion, utilise [ce fil de discussion sur le portail de la communauté Home Assistant](https://community.home-assistant.io/t/scheduled-auto-update-for-home-assistant/459281){: target="_blank"} .
+Pour toute question ou suggestion, utilise [ce fil de discussion sur le portail de la communauté Home Assistant](https://community.home-assistant.io/t/scheduled-auto-update-for-home-assistant/459281){: target="_blank"}.
 
 {% include blueprint.html link="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
 
