@@ -6,14 +6,15 @@
         "description": "Ce boîtier d'encastrement double vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
         "productNew": "",
         "minsalePrice": "5.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "9.99",
+        "discount": "-70%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "9.99",
         "quantity": 100,
         "available": "Disponible",
         "supply_date": null,
         "image": [
+            "https://cdn1.domadoo.fr/16227-large_default/blm-boitier-d-encastrement-double-pour-micromodule.jpg",
             "https://cdn1.domadoo.fr/16227-medium_default/blm-boitier-d-encastrement-double-pour-micromodule.jpg"
         ],
         "ratings": {

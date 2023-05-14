@@ -4,7 +4,7 @@
         "productId": "JEEDOM_A_ATLASZB",
         "title": "JEEDOM - Contrôleur domotique Jeedom Atlas Zigbee",
         "description": "JEEDOM ATLAS est la nouvelle box domotique intégrant le logiciel Jeedom. Modèle avec contrôleur Zigbee.",
-        "productNew": "",
+        "productNew": "Nouveau",
         "minsalePrice": "249.00",
         "maxsalePrice": "19.99",
         "discount": "-15%",
@@ -14,6 +14,7 @@
         "available": "Disponible",
         "supply_date": null,
         "image": [
+            "https://cdn1.domadoo.fr/20923-large_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
             "https://cdn1.domadoo.fr/20923-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
             "https://cdn1.domadoo.fr/20927-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
             "https://cdn1.domadoo.fr/20924-medium_default/jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg",
@@ -32,7 +33,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.4",
-            "totalStarCount": "49"
+            "totalStarCount": "50"
         }
     }
 }

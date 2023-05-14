@@ -4,7 +4,7 @@
         "productId": "SIN-4-2-20",
         "title": "NODON - Module Eclairage ON/OFF Zigbee",
         "description": "Avec ses deux canaux, le Module Éclairage ON/OFF Zigbee permet de rendre connectés et pilotables à distance via un smartphone, automatiquement ou à la voix un ou deux éclairages.",
-        "productNew": "",
+        "productNew": "Nouveau",
         "minsalePrice": "44.90",
         "maxsalePrice": "19.99",
         "discount": "-15%",
@@ -14,6 +14,7 @@
         "available": "Disponible",
         "supply_date": null,
         "image": [
+            "https://cdn1.domadoo.fr/17555-large_default/nodon-module-eclairage-onoff-zigbee.jpg",
             "https://cdn1.domadoo.fr/17555-medium_default/nodon-module-eclairage-onoff-zigbee.jpg",
             "https://cdn1.domadoo.fr/17556-medium_default/nodon-module-eclairage-onoff-zigbee.jpg"
         ],

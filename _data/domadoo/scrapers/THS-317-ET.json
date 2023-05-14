@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee",
+        "productId": "THS-317-ET",
+        "title": "OWON - Sonde de température déportée sur câble Zigbee",
+        "description": "Le module THS-317-ET permet de mesurer avec précision la température, d’un espace, d’une matière ou d’un liquide.",
+        "productNew": "Nouveau",
+        "minsalePrice": "19.99",
+        "maxsalePrice": "32.99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "32.99",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/19894-large_default/owon-sonde-de-temperature-deportee-sur-cable-zigbee.jpg",
+            "https://cdn1.domadoo.fr/19894-medium_default/owon-sonde-de-temperature-deportee-sur-cable-zigbee.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.4",
+            "totalStarCount": "48"
+        }
+    }
+}

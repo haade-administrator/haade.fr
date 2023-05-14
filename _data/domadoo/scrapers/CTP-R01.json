@@ -1,0 +1,33 @@
+{
+    "product": {
+        "linkId": "peripheriques/6413-aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro-6970504217614",
+        "productId": "CTP-R01",
+        "title": "AQARA - Contrôleur intelligent Zigbee 3.0 Aqara Cube T1 Pro",
+        "description": "La version améliorée du contrôleur le plus unique d'Aqara.",
+        "productNew": "Nouveau",
+        "minsalePrice": "22.99",
+        "maxsalePrice": "32.99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "32.99",
+        "quantity": 100,
+        "available": "Disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/23732-large_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23732-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23726-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23725-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23727-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23728-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23729-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23730-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg",
+            "https://cdn1.domadoo.fr/23731-medium_default/aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "3",
+            "totalStarCount": "1"
+        }
+    }
+}
