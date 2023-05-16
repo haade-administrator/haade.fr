@@ -1,0 +1,31 @@
+{
+    "product": {
+        "linkId": "peripheriques/6040-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons",
+        "productId": "SS9400ZB-YA",
+        "title": "LORATAP - Interrupteur mural de scène sans fil Zigbee 3.0 - 4 boutons",
+        "description": "Créez différents automatismes et prenez le contrôle de ceux-ci avec la télécommande Zigbee 4 boutons LORATAP.",
+        "productNew": "Nouveau",
+        "minsalePrice": "16.99",
+        "maxsalePrice": "74.35",
+        "discount": "-60%",
+        "currency": "EUR",
+        "originalPrice": "74.35",
+        "quantity": 10,
+        "available": "Derniers articles en stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/20270-large_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20270-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20265-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20266-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20267-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20268-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
+            "https://cdn1.domadoo.fr/20269-medium_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5",
+            "totalStarCount": "2"
+        }
+    }
+}
