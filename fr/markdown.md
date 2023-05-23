@@ -84,9 +84,13 @@ le retour à la ligne se fait automatiquement.
 **préfixe ( pdf, docx, zip, csv, xls, torrent )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
-### inclure un lien blueprint
-
-{% include blueprint.html link="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+### inclure un lien Homeassistant
+Blueprint:
+{% include homeassistantlink.html bluelink="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+Exemple intégration répertoire Hacs auto backup:
+{% include homeassistantlink.html creator="jcwillox" repertory="hass-auto-backup" %}
+Exemple Intégration Appareil auto_backup:
+{% include homeassistantlink.html integration="auto_backup" %}
 
 # transformer un gif en webp sur le pc
 
