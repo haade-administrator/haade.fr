@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-04-30 18:17
 last_modified_at: 
-categories: [Tests, Zigbee]
+categories: [Tests, Zigbee, Domotique]
 tags: []
 image: 'capteur-temperature-air-fluide-interieur-exterieur-owon-ths317-ET-zigbee.png'
 toc: true

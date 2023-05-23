@@ -110,7 +110,7 @@ By following the very well documented discussion link below you can easily use a
 
 [Blueprint discussion link by Sir_Goodenough](https://community.home-assistant.io/t/zigbee2mqtt-aqara-magic-cube-t1-pro-ctp-r01-xiaomi-lumi-cagl02/525111){: target="_blank"}
 
-{% include blueprint.html link="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/Zigbee2MQTT-Aqara-Magic-Cube-T1-Pro-CTP-R01-Xiaomi-Lumi.yaml" %}
+{% include homeassistantlink.html bluelink="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/Zigbee2MQTT-Aqara-Magic-Cube-T1-Pro-CTP-R01-Xiaomi-Lumi.yaml" %}
 
 ## ZHA
 
@@ -130,7 +130,7 @@ Here too I use the Blueprint provided by Sir_Goodenough and very well documented
 
 [Blueprint discussion link by Sir_Goodenough](https://community.home-assistant.io/t/zha-xiaomi-cube-controller/495975){: target="_blank"}
 
-{% include blueprint.html link="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/ZHA-Xiaomi_Cube_Controller.yaml" %}
+{% include homeassistantlink.html bluelink="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/ZHA-Xiaomi_Cube_Controller.yaml" %}
 
 ### Create a number for the blueprint
 

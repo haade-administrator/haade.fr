@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-04-25 19:45
 last_modified_at: 
-categories: [Domotique, Zigbee, Haade-lab]
+categories: [Haade-lab, Zigbee, Domotique]
 tags: []
 image: 'fabriquer-une-double-prise-zigbee-extérieur-pour-40€.png'
 toc: true

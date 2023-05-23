@@ -97,7 +97,7 @@ L'intégration dans homeassistant à l'aide du module Zigbee2mqtt se fait sans s
 
 Il existe un [Blueprint irrigation](https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e){: target="_blank"} qui te permet de contrôler en fonction de la météo grâce à des capteurs de vents, pluies. J'ai repris le blueprint existant pour la traduction tu trouveras le [fil officiel ici.](https://community.home-assistant.io/t/toggle-irrigation-system-from-local-weather/418551){: target="_blank"}
 
-{% include blueprint.html link="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+{% include homeassistantlink.html bluelink="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
 
 {% picture posts/{{ page.guid }}/blueprint-irrigation-automatisation-homeassistant.png --alt Scenario domotisation du controlleur arrosage intelligent woox R7060 dans homeassistant --img width="940" height="638" %}
 
