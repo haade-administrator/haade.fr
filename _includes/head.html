@@ -7,9 +7,7 @@
 <link href="{{ site.baseurl }}/assets/css/theme.css?v={{ site.time | date: '%s%N' }}" media="screen, projection, print" rel="stylesheet">
 {%- if jekyll.environment == 'production' %}
 <!-- change your GA id in _config.yml -->
-{%- if site.google_analytics.id != empty and site.google_analytics.id %}
-  {%- include google-analytics.html %}
-{%- endif %}
+  {%- include analytics.html %}
 
 {%- endif %}
 <!-- add preload google webfonts -->
