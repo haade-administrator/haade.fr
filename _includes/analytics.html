@@ -11,7 +11,16 @@
 {%- endif %}
 
 {%- if site.goatcounter_analytics.id != empty and site.goatcounter_analytics.id }
-<!-- Goatcounter -->
-<script data-goatcounter="{{ site.goatcounter_analytics.id }}"
+<!-- Goatcouter pageviews website -->
+<script>
+  var t = setInterval(function() {
+      if (window.goatcounter && window.goatcounter.visit_count) {
+          clearInterval(t)
+          window.goatcounter.visit_count({append: 'body'})
+      }
+  }, 100)
+</script>
+<!-- Goatcounter script -->
+<script data-goatcounter="https://{{ site.goatcounter_analytics.id }}.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
 {%- endif %}
