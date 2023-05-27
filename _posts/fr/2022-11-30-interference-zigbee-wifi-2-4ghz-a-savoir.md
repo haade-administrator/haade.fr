@@ -7,7 +7,7 @@ author: Nico
 date: 2022-11-30 22:54
 last_modified_at: 
 categories: [Zigbee, Wifi, Haade-lab]
-tags: []
+tags: [post]
 image: 'interference-zigbee-wifi-freqeunce-2.4ghz.png'
 toc: true
 beforetoc: ''

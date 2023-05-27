@@ -1,6 +1,6 @@
 ---
-title: "Categories"
 layout: default
+title: "Categories"
 ---
 {%- include breadcrumbs.html path=page.path title=page.title %}
 
@@ -12,17 +12,19 @@ layout: default
 <div class="blog-grid-container">
   <!-- ajout multilingual -->
 {%- assign url = page.url | split: "/" %}
-{%- assign products = site.products | where: "categories", page.category | where: 'locale', page.locale | where: 'published', true | sort: 'date' | reverse %}
-{%- assign category = site.categories[page.category] | where: 'locale', page.locale | where: 'published', true %}
-
-{%- if url contains "categorie-produit" or url contains "category-product" %}
-{%- for product in products %}
-{%- include postbox.html %}
-{%- endfor %}
-{%- else %}
+{%- assign category = paginator.posts | where: 'locale', page.locale | where: 'published', true %}
 {%- for post in category %}
 {%- include postbox.html %}
 {%- endfor %}
-{%- endif %}
+
+
 </div>
 </div>
+
+<!-- Pagination
+================================================== -->
+<div class="bottompagination">
+  <span class="navigation" role="navigation">
+      {%- include pagination.html %}
+  </span>
+  </div>

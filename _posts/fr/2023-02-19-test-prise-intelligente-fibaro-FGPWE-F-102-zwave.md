@@ -7,7 +7,7 @@ author: Nico
 date: 2023-02-19 18:06
 last_modified_at: 
 categories: [Domotique, Tests, Zwave]
-tags: []
+tags: [post]
 image: 'prise-intelligente-fibaro-wall-plug-fgpwe-f-102-zwave-700.png'
 toc: true
 beforetoc: ''
@@ -101,7 +101,7 @@ Nous avons aussi accès **aux différents paramètres** du module, le Z-wave c'e
 - de très bonne qualité
 - fait remonter les infos de consommations
 - jeux de lumières pour les reconnaissances numériques
-- existe en norme fr et [**De Schuco**]({% link _products/{{ page.locale | slice: 0,2 }}/2023-02-20-prise-intelligente-fibaro-fgpwf-102-zwave.md %})
+- existe en norme fr et [**De Schuco**]({% post_url /fr/produit/2023-02-20-prise-intelligente-fibaro-fgpwf-102-zwave %})
 - qualité de fabrication
 - intégration z-wave +
 

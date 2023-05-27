@@ -7,7 +7,7 @@ author: Nico
 date: 2022-11-07 22:00
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]
-tags: []
+tags: [post]
 image: 'domotiser-lumière-piscine-traditionnelle-zigbee-ewelink.jpg'
 toc: true
 beforetoc: ''

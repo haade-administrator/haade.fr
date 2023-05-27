@@ -1,6 +1,6 @@
 <!-- begin post -->
 {%- assign author = site.data.authors[post.author] %}
-{%- assign authorshop = site.data.authors[product.author] %}
+{%- assign authorshop = site.data.authors[post.author] %}
 {%- if post.layout == 'post' %}
 <div class="blog-grid-item">
     <div class="card h-100">
@@ -42,31 +42,31 @@
         </div>
     </div>
 </div>
-{%- elsif product.layout == 'product' %}
+{%- elsif post.layout == 'product' %}
 <div class="blog-grid-item">
     <div class="card h-100">
         <div class="maxthumb">
-            <a href="{{ site.baseurl }}{{ product.url }}">
-                {%- if product.image %}
-                        {%- if product.image contains "://" %}{{ product.image }}{%- else %}{% picture box shop/{{ product.guid }}/{{ product.image }} --alt {{ product.title }} %}{%- endif %}
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {%- if post.image %}
+                        {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box shop/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} %}{%- endif %}
                 {%- endif %}
 
             </a>
         </div>
         <div class="card-body">
             <h2 class="card-title">
-                <a class="text-dark" href="{{ site.baseurl }}{{ product.url }}">{{ product.title }}</a>
-                {%- if product.rating %}
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                {%- if post.rating %}
                 <div class="mb-2 mt-2 font-weight-normal">
                   {%- include star_rating_postbox.html %}
                 </div>
                 {%- endif %}
             </h2>
-            <h4 class="card-text">{{ product.excerpt | strip_html | truncatewords:30 }}</h4>
+            <h4 class="card-text">{{ post.excerpt | strip_html | truncatewords:30 }}</h4>
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
-                {%- if product.author %}
+                {%- if post.author %}
                 <span class="meta-footer-thumb">
                 {%- if authorshop.avatar %}
                 {% picture avatar {{ authorshop.avatar }} --alt {{ authorshop.display_name }} --img width="40" height="40" %}
@@ -77,7 +77,33 @@
                 <span class="author-meta">
                 <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ authorshop.name | slugify }}"><span class="post-name font-weight-bold">{{ authorshop.display_name }}</span></a>
                 {%- endif %}
-                <span class="post-date">{%- include date.html date=product.date %}</span>
+                <span class="post-date">{%- include date.html date=post.date %}</span>
+                </span>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{%- elsif page.layout == 'category' %}
+<div class="blog-grid-item">
+    <div class="card h-100">
+        <div class="maxthumb">
+            <a href="{{ site.baseurl }}{{ post.url }}">
+                {%- if post.image %}
+                        {%- if post.image contains "://" %}{{ post.image }}{%- else %}{% picture box category/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} %}{%- endif %}
+                {%- endif %}
+
+            </a>
+        </div>
+        <div class="card-body">
+            <h2 class="card-title">
+                <a class="text-dark" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <h4 class="card-text">{{ post.description | strip_html | truncatewords:30 }}</h4>
+        </div>
+        <div class="card-footer bg-white">
+            <div class="wrapfooter">
                 </span>
                 <div class="clearfix"></div>
             </div>

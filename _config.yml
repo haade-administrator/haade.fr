@@ -70,32 +70,8 @@ giscus:
 collections:
   category:
     output: true
-    en:
-      output: true
-      post:
-        output: true
-      shop:
-        output: true
-        brand:
-          output: true
-        protocol:
-          output: true
-      
-    fr:
-      output: true
-      post:
-        output: true
-      shop:
-        output: true
-        marque:
-          output: true
-        protocole:
-          output: true
   gallery:
     output: false
-  products:
-    output: true
-    sort_by: date
 
 defaults:
   - scope:
@@ -115,14 +91,14 @@ defaults:
       permalink: en/blog/:title
 
   - scope:
-      path: "_products/fr" 
+      path: "_posts/fr/produit" 
     values:
       layout: "product"
       locale: fr_FR
       permalink: fr/produit/:title
 
   - scope:
-      path: "_products/en" 
+      path: "_posts/en/product" 
     values:
       layout: "product"
       locale: en_GB
@@ -149,7 +125,6 @@ defaults:
       layout: "category"
       locale: fr_FR
       permalink: fr/categorie-produit/:name
-
 
   - scope:
       path: "_category/en/shop" 

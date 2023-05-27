@@ -7,7 +7,7 @@ author: Nico
 date: "2021-09-10"
 last_modified_at:
 category: Tests
-tags: Test Zigbee Homeassistant
+tags: post Test Zigbee Homeassistant
 image: "sonoff-snzb-02-zigbee-3.0-capteur-teperature-humidite.png"
 published: true
 noindex: false
@@ -25,7 +25,7 @@ redirect_from:
   - /blog/tests/test-capteur-temperature-et-humidite-sonoff-snzb-02/
 rating: 4.1
 ---
-J'ai décidé de mettre en avant en présentant un test du [capteur de température et humidité Sonoff SNZB-02]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-25-capteur-temperature-sonoff-snzb-02-zigbee.md %}), pour le sérieux et l'éventail de produits de la marque. Ça ne va pas être un gros article c'est pourquoi j'ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.
+J'ai décidé de mettre en avant en présentant un test du [capteur de température et humidité Sonoff SNZB-02]({% post_url /fr/produit/2021-08-25-capteur-temperature-sonoff-snzb-02-zigbee %}), pour le sérieux et l'éventail de produits de la marque. Ça ne va pas être un gros article c'est pourquoi j'ai décidé de le comparer avec le capteur de température aqara WSDCGQ11LM par xiaomi.
 
 **Concernant le déballage rien de fous:**
 
@@ -55,7 +55,7 @@ Et bien tout simplement le prix et le protocole qui est le zigbee **3.0**.
 
 À la base je souhaitais repartir sur du xiaomi aqara mais le tarif a explosé en passant du simple au double. **Le design est plus sympa**, c'est un 3 en 1 avec capteur de pression atmosphérique en plus. Il fonctionne avec des piles cr2032.
 
-Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0.md %})
+Gros **désavantage** le module Xiaomi est toujours **fourni en protocole zigbee 1.2** et c’est loin d’être bon pour le maillage surtout qu’il a tendance à se mettre en veille longuement. De se fait il a tendance à décrocher du réseau. Heureusement la version [rectangulaire Xiaomi MCCGQ12LM est compatible Zigbee 3.0]({%- post_url /fr/produit/2021-03-25-capteur-de-porte-aqara-par-xiaomi-zigbee-3-0 %})
 
 ## Comparatif Sonoff SNZB-02 VS Xiaomi Aqara WSDCGQ11LM
 

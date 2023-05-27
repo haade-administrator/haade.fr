@@ -14,20 +14,12 @@
   <link rel="alternate" hreflang="{{ localized_post.locale | slice: 0,2 }}" href="{{ localized_post.url | absolute_url }}"/>
   {%- endfor %}
 
-{%- elsif page.layout == 'product' %}
-  {%- assign localized_products = site.products
-  | where: 'guid', page.guid
-  | sort: 'locale' %}
-  {%- for localized_product in localized_products %}
-  <link rel="alternate" hreflang="{{ localized_product.locale | slice: 0,2 }}" href="{{ localized_product.url | absolute_url }}"/>
-  {%- endfor %}
-
 {%- elsif page.layout == 'category' %}
   {%- assign localized_categories = site.category
   | where: 'guid', page.guid
   | sort: 'locale' %}
   {%- for localized_category in localized_categories %}
-  <link rel="alternate" hreflang="{{ localized_category.locale | slice: 0,2 }}" href="{{ localized_category.url | absolute_url }}"/>
+  <link rel="alternate" hreflang="{{ localized_category.locale | slice: 0,2  }}" href="{{ localized_category.url | absolute_url }}"/>
   {%- endfor %}
 
 {%- elsif page.url == '/index.html' %}

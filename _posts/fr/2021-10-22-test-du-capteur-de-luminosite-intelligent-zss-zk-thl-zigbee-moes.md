@@ -7,7 +7,7 @@ last_modified_at:
 author: Yann
 layout: post
 categories: Tests
-tags: Test Zigbee Homeassistant
+tags: post Test Zigbee Homeassistant
 image: controleur-intelligent-luminosite-moes.png
 published: true
 noindex: false

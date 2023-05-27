@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-04 12:33
 last_modified_at: 
 categories: [Domotique, Securite]
-tags: []
+tags: [post]
 image: 'integration-esp32cam-esphome-homeassistant.png'
 toc: true
 beforetoc: ''
@@ -31,7 +31,7 @@ Pourquoi lancer cet article alors qu'il en existe déjà plein d'autres. Primo j
 # Prérequis
 - Homeassistant avec Esphome
 - Un Esp32-cam Ai Thinker classic
-- un [connecteur FTDI]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md%})
+- un [connecteur FTDI]({% post_url /fr/produit/2021-05-19-module-de-conversion-usb-uart-ft232%})
 
 {%- include alert.html type="help" text="Si c'est ta première intégration et que tu n'as pas de connecteurs FTDI tu peux acheter depuis peut la caméra esp32-cam avecbranchement par usb il s'agit de la version ch340" link="https://s.click.aliexpress.com/e/_DmTiKkr" textlink="Esp32-cam ch340g" %}
 

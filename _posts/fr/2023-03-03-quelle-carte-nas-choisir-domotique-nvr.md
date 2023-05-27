@@ -7,7 +7,7 @@ author: Nico
 date: 2023-03-03 07:34
 last_modified_at: 
 categories: [Haade-lab, Domotique, Securite, News]
-tags: []
+tags: [post]
 image: 'choisir-carte-monter-nas-domotique-nvr.png'
 toc: true
 beforetoc: ''

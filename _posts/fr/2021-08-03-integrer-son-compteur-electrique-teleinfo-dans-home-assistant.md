@@ -7,7 +7,7 @@ layout: post
 date: "2021-08-03"
 last_modified_at:
 categories: Domotique Haade-lab Home-Assistant
-tags:
+tags: post
 image: compteur-electrique-homeassistant.png
 locale: fr_FR
 published: true

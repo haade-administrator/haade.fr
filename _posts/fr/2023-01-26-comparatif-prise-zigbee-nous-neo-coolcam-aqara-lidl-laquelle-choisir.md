@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-26 13:26
 last_modified_at: 
 categories: [Domotique, Haade-lab, Tests]
-tags: []
+tags: [post]
 image: 'comparatif-prise-zigbee-laquelle-choisir-nous-A1Z-neo-007SPB2-aqara-AP007EUW01-lidl-SAPZ1A1.png'
 toc: true
 beforetoc: ''

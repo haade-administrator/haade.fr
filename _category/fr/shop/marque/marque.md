@@ -1,16 +1,7 @@
 ---
 guid: 2011
-title: "Marque"
-category: Marque
+title: Marque
+tag: product
+published: true
 description: "Retrouvez les plus grandes marques domotiques du moment"
-url: ""
-locale: fr_FR
-sitemap:
-  changefreq: 'monthly'
-  exclude: 'no'
-  priority: 0.5
-  lastmod:  # date to end modification
-redirect_from: 
-  - /categorie-produit/brand/
-  - /fr/category/marque
 ---

@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-05 15:20
 last_modified_at: 
 categories: [Tests]
-tags: []
+tags: [post]
 image: 'external-wire-ledvance-smartplug-plus-zigbee-ip44-4058075729322-prise-externe.png'
 toc: true
 beforetoc: ''

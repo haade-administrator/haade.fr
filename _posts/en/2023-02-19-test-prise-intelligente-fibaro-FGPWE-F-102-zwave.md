@@ -101,7 +101,7 @@ We also have access **to the different parameters** of the module, the Z-wave is
 - very good quality
 - brings up consumption information
 - light effects for digital recognition
-- exists in fr standard and [**De Schuco**]({% link _products/{{ page.locale | slice: 0,2 }}/2023-02-20-smart-plug-fibaro-fgpwf-102-zwave.md %})
+- exists in fr standard and [**De Schuco**]({% post_url /en/product/2023-02-20-smart-plug-fibaro-fgpwf-102-zwave %})
 - build quality
 - z-wave+ integration
 

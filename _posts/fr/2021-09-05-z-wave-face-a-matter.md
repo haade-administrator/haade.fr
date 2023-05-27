@@ -7,7 +7,7 @@ author: Nico
 date: "2021-09-05"
 last_modified_at:
 categories: Domotique Protocoles News
-tags:
+tags: post
 image: "zwave-face-a-matter.jpg"
 published: true
 noindex: false

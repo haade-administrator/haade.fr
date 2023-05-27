@@ -71,8 +71,8 @@ le retour à la ligne se fait automatiquement.
 ### créer un lien vers un article du site:
 [intégrer un article interne]({% post_url /en/2021-05-11-esphome-and-homeassistant %})
 
-### créer un lien vers un produit:
-[Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee.md %})
+### créer un lien vers une collection externe à _posts:
+link _posts/{{ page.locale | slice: 0,2 }}/produit/2021-08-26-controlleur-ouverture-sonoff-snzb-04-zigbee
 
 # créer un lien traditionnel pour les gifs transformés en webp avec gif2webp
 

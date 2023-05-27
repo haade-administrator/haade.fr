@@ -44,6 +44,8 @@
   {%- assign og_type = "article" -%}
 {%- elsif page.layout == 'product' -%}
   {%- assign og_type = "product" -%}
+{%- elsif page.layout == 'category' -%}
+  {%- assign og_type = "category" -%}
 {%- else -%}
   {%- assign og_type = "website" -%}
 {%- endif -%}

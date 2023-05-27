@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-29 15:46
 last_modified_at: 
 categories: [Domotique, Home-Assistant, Haade-lab]
-tags: []
+tags: [post]
 image: 'automatiser-un-va-et-vient-virtuel-avec-blueprint-et-homeassistant.png'
 toc: true
 beforetoc: ''

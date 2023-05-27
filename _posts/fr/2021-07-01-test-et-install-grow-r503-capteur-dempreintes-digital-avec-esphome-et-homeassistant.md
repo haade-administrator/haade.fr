@@ -3,7 +3,7 @@ guid: 12
 title: 'Grow R503 Capteur d&#8217;empreintes digital'
 description: "[TEST] et [INSTALL] Grow R503 Capteur d&#8217;empreintes digital avec esphome et homeassistant"
 categories: Tests
-tags: esphome homeassistant
+tags: post esphome homeassistant
 date: '2021-07-01T19:33:43+00:00'
 last_modified_at:
 author: Nico
@@ -65,9 +65,9 @@ dessous du capteur d’empreinte grow r503 rempli de silicone pour éviter les i
 - home assistant installé et fonctionnel
 - [esphome installé et fonctionnel]({% post_url /fr/2021-05-11-esphome-et-homeassistant %}) version: **1.18.0 mini**
 - Module ESP8266/32 type Wemos D1 mini ou équivalent
-- [Module de conversion usb uart type ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
-- Capteur [empreintes digitales GROW R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grow-r503-capteur-dempreinte-digitale.md %}), R307 ou équivalent
-- ( optionnel ): [plaque inox 86mm et support de protection R503]({% link _products/{{ page.locale | slice: 0,2 }}/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503.md %})
+- [Module de conversion usb uart type ft232]({% post_url /fr/produit/2021-05-19-module-de-conversion-usb-uart-ft232 %})
+- Capteur [empreintes digitales GROW R503]({% post_url /fr/produit/2021-06-16-grow-r503-capteur-dempreinte-digitale %}), R307 ou équivalent
+- ( optionnel ): [plaque inox 86mm et support de protection R503]({% post_url /fr/produit/2021-06-16-grandir-r503-plaque-inox-plus-protection-r503 %})
 
 Grâce au travail effectué par l’équipe home assistant et esphome v1.18.0 et supérieur tu peux désormais [intégrer facilement un capteur d’empreintes digitales Grow R503](https://esphome.io/components/fingerprint_grow.html){: target="_blank"} et ainsi domotiser un accès grâce à ton petit doigt. dans mon cas ce sera pour utiliser l’accès à la porte de garage c’est pourquoi je me suis orienté vers un GROW R503 avec plaque inx compatible boîte d’encastrement, un projet similaire est déjà diffusé sur la communauté home assistant[ *share your Projects!* Garage fingerprint sensor](https://community.home-assistant.io/t/garage-fingerprint-sensor/312977){: target="_blank"}.
 

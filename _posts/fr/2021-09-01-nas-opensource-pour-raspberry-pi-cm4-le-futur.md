@@ -7,7 +7,7 @@ author: Nico
 date: "2021-09-01"
 last_modified_at:
 categories: News
-tags: Raspberry CM4 Projets
+tags: post Raspberry CM4 Projets
 image: "boitier-sata-nas-wiretrustee-raspberrypi-opensource-1.png"
 published: true
 noindex: false

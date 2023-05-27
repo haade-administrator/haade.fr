@@ -7,7 +7,7 @@ author: Nico
 date: 2022-11-06 18:11
 last_modified_at: 
 categories: [Tests, Domotique, Zigbee]
-tags: [Tests, Moes, Zigbee]
+tags: [post, Tests, Moes, Zigbee]
 image: 'interrupteur-moes-zigbee-zts-eu-2-gang-test.png'
 toc: true
 beforetoc: ''

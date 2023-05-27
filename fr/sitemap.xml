@@ -13,31 +13,7 @@ sitemap:
 {%- endif %}
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  {%- assign categories = site.category | where_exp:'category','category.sitemap != false' | where: 'locale', page.locale %}
-    {%- for category in categories %}
-    {%- unless category.sitemap.exclude == "yes" or category.published == "false" %}
-      <url>
-        <loc>{{ category.url | replace:'/index.html','/' | absolute_url | xml_escape }}</loc>
-        {%- if category.sitemap.lastmod %}
-            <lastmod>{{ category.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
-        {%- elsif post.date %}
-            <lastmod>{{ category.date | date_to_xmlschema }}</lastmod>
-        {%- else %}
-            <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
-        {%- endif %}
-        {%- if category.sitemap.changefreq %}
-            <changefreq>{{ category.sitemap.changefreq }}</changefreq>
-        {%- else %}
-            <changefreq>monthly</changefreq>
-        {%- endif %}
-        {%- if category.sitemap.priority %}
-            <priority>{{ category.sitemap.priority }}</priority>
-        {%- else %}
-            <priority>0.5</priority>
-        {%- endif %}
-      </url>
-      {%- endunless %}
-    {%- endfor %}
+
 
 
   {%- assign posts = site.posts | sort: 'date' | where: 'locale', page.locale | where: 'published', true %}

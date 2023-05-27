@@ -23,7 +23,7 @@ comments: true
 rating:  
 sourcelink:
   - https://wiki.radxa.com/Rock3/install/rockchip-flash-tools
-  - https://www.dusuniot.com/resources/developing-resources-for-system-on-module/
+  - https://support.dusuniot.com/hc/en-us/articles/11379207916699-DSGW-210-Pi3
   - https://www.dusuniot.com/blog/how-to/how-to-install-application-on-dsgw-210/
   - https://www.dusuniot.com/resources/sdk-quick-start/rk3328-core-board-sdk-quick-start-guide/
   - https://support.dusuniot.com/hc/en-us/articles/11379207916699-DSGW-210

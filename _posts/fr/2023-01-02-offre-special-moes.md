@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-02 12:06
 last_modified_at: 2023-01-02 12:06
 categories: [News]
-tags: []
+tags: [post]
 image: 'Moes-brand-day-40.jpg'
 toc: true
 beforetoc: ''

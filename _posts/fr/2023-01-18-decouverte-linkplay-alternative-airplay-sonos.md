@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-18 18:46
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]
-tags: []
+tags: [post]
 image: 'multiroom-arylic-linkplay-diy.png'
 toc: true
 beforetoc: ''

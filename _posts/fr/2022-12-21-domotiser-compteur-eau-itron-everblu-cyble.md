@@ -7,7 +7,7 @@ author: Nico
 date: 2022-12-21 13:08
 last_modified_at: 2022-12-28 17:43
 categories: [Haade-lab, Home-Assistant, Esp]
-tags: []
+tags: [post]
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true
 beforetoc: ''
@@ -30,8 +30,8 @@ sourcelink:
 Depuis peu la *version 2022.11 de Homeassistant prend en charge le compteur d'énergie eau*, il est possible de récupérer les données facilement à l'aide d'esp et ça **pour 10€ environs**. Dans mon cas le compteur est équipé d'un émetteur 433Mhz Itron Everblu Cyble 2.1. Ce qui permet de récupérer les données à l'aide d'un récepteur CC1101 accouplé à un esp8266/esp32 facilement. J'ai repris et **modifié** un référentiel complet sur github qui a été édité par *psykokwak*, et je félicite son travail. [Ce référentiel permet de réceptionner les données et de les transférer par mqtt à homeassistant](https://github.com/haade-administrator/watermeter2mqtt.git){: target="_blank"}.
 
 # Prérequis
-- une [carte esp8266]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-wemos-d1-mini-pro-plus-antenne.md %})
-- un [controleur CC1101]({% link _products/{{ page.locale | slice: 0,2 }}/2022-12-09-cc1101-recepteur-frequence-radio-433mhz.md %})
+- une [carte esp8266]({% post_url /fr/produit/2022-11-29-wemos-d1-mini-pro-plus-antenne %})
+- un [controleur CC1101]({% post_url /fr/produit/2022-12-09-cc1101-recepteur-frequence-radio-433mhz %})
 - un compteur d'eau Itron équipé d'un émetteur [Itron Everblu cyble Enhanced](https://www.itron.com/fr/solutions/product-catalog/everblu-cyble-enhanced){: target="_blank"}
 - home assistant [v2022.11.0 mini](https://www.home-assistant.io/blog/2022/11/02/release-202211/#getting-insights-into-water-usage){: target="_blank"}
 
@@ -311,7 +311,7 @@ Votre module émetteur-récepteur n'est peut-être pas calibré correctement, ve
 
 # Conclusion
 
-Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-capteur-inductif-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
+Voilà une méthode simple à mettre en place, pour ceux qui ne seont pas équipés d'un émetteur Itron Everblu Enhanced, il existe une autre méthode qui consiste à mettre un [capteur inductif]({% post_url /fr/produit/2022-11-29-capteur-inductif-5v-npn-LJ18A3-8Z %}){: target="_blank"} directement sur le compteur et de le relier à un esp8266, cette méthode est un peut plus contraignant car il faudra avoir une source d'énergie à proxilmité de ce compteur afin de pouvoir aliment en 5V l'esp et le capteur, le tarif de l'ensemble oscille autour de 10€, un excellent article est disponible ici [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
 
 
 

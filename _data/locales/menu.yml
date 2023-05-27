@@ -146,107 +146,107 @@ brand:
   jeedom:
     fr_FR:
       name: 'Jeedom'
-      link: 'fr/categorie-produit/jeedom'
+      link: 'fr/categorie-produit/marque/jeedom'
     en_GB:
       name: 'Jeedom'
-      link: 'en/category-product/jeedom'
+      link: 'en/category-product/brand/jeedom'
   
   moes:
     fr_FR:
       name: 'Moes'
-      link: 'fr/categorie-produit/moes'
+      link: 'fr/categorie-produit/marque/moes'
     en_GB:
       name: 'Moes'
-      link: 'en/category-product/moes'
+      link: 'en/category-product/brand/moes'
 
   sonoff:
     fr_FR:
       name: 'Sonoff'
-      link: 'fr/categorie-produit/sonoff'
+      link: 'fr/categorie-produit/marque/sonoff'
     en_GB:
       name: 'Sonoff'
-      link: 'en/category-product/sonoff'
+      link: 'en/category-product/brand/sonoff'
 
   neocoolcam:
     fr_FR:
       name: 'Neo-Coolcam'
-      link: 'fr/categorie-produit/neo-coolcam'
+      link: 'fr/categorie-produit/marque/neo-coolcam'
     en_GB:
       name: 'Neo-Coolcam'
-      link: 'en/category-product/neo-coolcam'
+      link: 'en/category-product/brand/neo-coolcam'
 
   nodon:
     fr_FR:
       name: 'Nodon'
-      link: 'fr/categorie-produit/nodon'
+      link: 'fr/categorie-produit/marque/nodon'
     en_GB:
       name: 'Nodon'
-      link: 'en/category-product/nodon'
+      link: 'en/category-product/brand/nodon'
 
   raspberrypi:
     fr_FR:
       name: 'Raspberry Pi'
-      link: 'fr/categorie-produit/raspberry-pi'
+      link: 'fr/categorie-produit/marque/raspberry-pi'
     en_GB:
       name: 'Raspberry-pi'
-      link: 'en/category-product/raspberry-pi'
+      link: 'en/category-product/brand/raspberry-pi'
 
   zemismart:
     fr_FR:
       name: 'Zemismart'
-      link: 'fr/categorie-produit/zemismart'
+      link: 'fr/categorie-produit/marque/zemismart'
     en_GB:
       name: 'Zemismart'
-      link: 'en/category-product/zemismart'
+      link: 'en/category-product/brand/zemismart'
 
   xiaomi:
     fr_FR:
       name: 'Xiaomi'
-      link: 'fr/categorie-produit/xiaomi'
+      link: 'fr/categorie-produit/marque/xiaomi'
     en_GB:
       name: 'Xiaomi'
-      link: 'en/category-product/xiaomi'
+      link: 'en/category-product/brand/xiaomi'
   
 
 protocol:
   fr_FR:
     name: 'Protocole'
-    link: 'fr/categorie-produit/protocole'
+    link: 'fr/categorie-produit/protocoles'
   en_GB:
     name: 'Protocol'
-    link: 'en/category-product/protocol'
+    link: 'en/category-product/protocols'
 
   esp:
     fr_FR:
       name: 'Esp 32/8266'
-      link: 'fr/categorie-produit/esp'
+      link: 'fr/categorie-produit/protocoles/esp'
     en_GB:
       name: 'Esp 32/8266'
-      link: 'en/category-product/esp'
+      link: 'en/category-product/protocols/esp'
 
   wifi:
     fr_FR:
       name: 'Wifi'
-      link: 'fr/categorie-produit/wifi'
+      link: 'fr/categorie-produit/protocoles/wifi'
     en_GB:
       name: 'Wifi'
-      link: 'en/category-product/wifi'
+      link: 'en/category-product/protocols/wifi'
 
   zigbee:
     fr_FR:
       name: 'Zigbee'
-      link: 'fr/categorie-produit/zigbee'
+      link: 'fr/categorie-produit/protocoles/zigbee'
     en_GB:
       name: 'Zigbee'
-      link: 'en/category-product/zigbee'
+      link: 'en/category-product/protocols/zigbee'
  
   z-wave:
     fr_FR:
       name: 'Z-wave'
-      link: 'fr/categorie-produit/zwave'
+      link: 'fr/categorie-produit/protocoles/zwave'
     en_GB:
       name: 'Z-wave'
-      link: 'en/category-product/zwave'
+      link: 'en/category-product/protocols/zwave'
 
 # footer menu
 

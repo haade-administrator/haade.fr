@@ -6,7 +6,7 @@ author: Nico
 categories: Domotique Haade-lab Docker
 layout: post
 image: automatiser-mise-a-jour-image-sur-docker-avec-watchtower-1.png
-tags:
+tags: post
 description: "Rendre automatique les mises à jour des images docker grâce à watchtower"
 locale: fr_FR
 published: true

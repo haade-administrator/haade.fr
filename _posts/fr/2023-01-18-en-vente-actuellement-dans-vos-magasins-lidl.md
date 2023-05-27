@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-19 16:06
 last_modified_at: 
 categories: [News]
-tags: []
+tags: [post]
 image: 'en-vente-chez-lidl.png'
 toc: true
 beforetoc: ''

@@ -7,7 +7,7 @@ author: Nico
 date: "2021-08-12T16:34:23+02:00"
 last_modified_at: "2023-01-15 17:03"
 categories: Tests
-tags:
+tags: post
 image: thermostat-zigbee-moes-bht-002.png
 published: true
 noindex: false

@@ -7,7 +7,7 @@ description: "l'utilisation des filtres dans zoneminder est un paramétrage inco
 date: '2022-11-08 09:25'
 last_modified_at: 
 categories: [Securite, Domotique]
-tags: []
+tags: [post]
 image: 'utilisation-des-filtres-zoneminder.png'
 toc: true
 beforetoc: ''

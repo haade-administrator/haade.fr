@@ -7,7 +7,7 @@ author: Nico
 date: "2021-09-25"
 last_modified_at:
 categories: Domotique Securite
-tags: Tutoriel Zoneminder Homeassistant
+tags: post Tutoriel Zoneminder Homeassistant
 image: "zoneminder_homeassistant-1.png"
 published: true
 noindex: false
@@ -97,7 +97,7 @@ Ensuite dans Options >>> Systèmes
 Cochez les cases comme l'image ci-dessous et rentrez un code Hashsecret pour plus de sécurité
 
 1. OPT-USE\_AUTH: authentification par mot de passe
-2. AUTH\_HASH\_SECRET: Code supplémentaire ( [tu peux générer un code ici](https://www.md5hashgenerator.com/){: target="_blank"} )
+2. AUTH\_HASH\_SECRET: Code supplémentaire ( [tu peux générer un code ici](https://www5hashgenerator.com/){: target="_blank"} )
 3. AUTH\_HASH\_LOGINS: prendre en compte la double sécurisation
 4. OPT\_USE\_API: Activer l'API Zoneminder
 5. OPT\_USE\_LEGACI\_API\_AUTH: activer l'uthentification API

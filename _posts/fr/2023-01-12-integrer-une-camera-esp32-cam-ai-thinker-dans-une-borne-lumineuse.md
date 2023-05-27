@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-12 18:22
 last_modified_at: 
 categories: [Home-Assistant, Securite, Esp]
-tags: []
+tags: [post]
 image: 'spycam-esp32cam-ai-thinker-applique-lumineuse.png'
 toc: true
 beforetoc: ''

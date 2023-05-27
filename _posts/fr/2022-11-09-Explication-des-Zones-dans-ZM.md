@@ -5,7 +5,7 @@ description: "Zoneminder intègre des zones qui permettent d'affiner les faux po
 date: '2022-11-09 19:49'
 last_modified_at: 
 categories: [Securite, Domotique]
-tags: []
+tags: [post]
 image: 'zoneminder-les-zones.png'
 toc: true
 beforetoc: ''

@@ -7,7 +7,7 @@ author: Nico
 date: 2023-03-08 15:05
 last_modified_at: 
 categories: [Zigbee, Tests]
-tags: []
+tags: [post]
 image: 'test-sonoff-zbmini-l2-extreme-end-device.png'
 toc: true
 beforetoc: ''
@@ -109,7 +109,7 @@ Malheureusement je n'ai pas sous la main les 3 modules Sonoff du moment mais j'a
 
 {% include youtubePlayer.html id="jYsCcGI1_DI" %}
 
-Je constate l'arrivée sur le marché, de plus en plus de modules interrupteurs dit "enddevice" probablement lié à l'intégration des nouvelles puces EFR32MG22 de silabs. Ça a l'avantage d'être très pratique car dans la plupart des logements en france l'interrupteur n'est pas raccordé au neutre et souvent absent. Cependant le fait de trouver de plus en plus de modules enddevice allourdi la charge du coordinateur et affaibli la solidité du maillage. Zigbee2mqqt [Propose la mise à jour du Z-stack](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG.md){: target="_blank" } des puces cc2652 TI qui acceptent **désormais plus de 100 modules end devices**. De quoi accepter facilement ce type de produits.
+Je constate l'arrivée sur le marché, de plus en plus de modules interrupteurs dit "enddevice" probablement lié à l'intégration des nouvelles puces EFR32MG22 de silabs. Ça a l'avantage d'être très pratique car dans la plupart des logements en france l'interrupteur n'est pas raccordé au neutre et souvent absent. Cependant le fait de trouver de plus en plus de modules enddevice allourdi la charge du coordinateur et affaibli la solidité du maillage. Zigbee2mqqt [Propose la mise à jour du Z-stack](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG){: target="_blank" } des puces cc2652 TI qui acceptent **désormais plus de 100 modules end devices**. De quoi accepter facilement ce type de produits.
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Module sonoff interrupteur zbmini l2 extreme le plus petit du marché" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" affiliate="_DFMzILF" %}
 

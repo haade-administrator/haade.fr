@@ -30,8 +30,8 @@ sourcelink:
 Recently *version 2022.11 of Homeassistant supports the water energy meter*, it is possible to recover the data easily using esp and that **for around 10€**. In my case the meter is equipped with a 433Mhz Itron Everblu Cyble 2.1 transmitter. This makes it easy to retrieve data using a CC1101 receiver coupled to an esp8266/esp32. I picked up and **modified** a complete repository on github that was edited by *psykokwak*, and I commend his work. [This repository allows data to be received and transferred by mqtt to homeassistant](https://github.com/haade-administrator/watermeter2mqtt.git){: target="_blank"}.
 
 # Prerequisites
-- an [esp8266 card]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-wemos-d1-mini-pro-with-antenna.md %})
-- a [CC1101 controller]({% link _products/{{ page.locale | slice: 0,2 }}/2022-12-09-cc1101-receiver-radio-frequency-433mhz.md %})
+- an [esp8266 card]({% post_url /en/product/2022-11-29-wemos-d1-mini-pro-with-antenna %})
+- a [CC1101 controller]({% post_url /en/product/2022-12-09-cc1101-receiver-radio-frequency-433mhz %})
 - an Itron water meter equipped with an Itron Everblu cyble Enhanced transmitter [Itron Everblu cyble](https://www.itron.com/fr/solutions/product-catalog/everblu-cyble-enhanced){: target="_blank"}
 - home assistant [v2022.11.0 mini](https://www.home-assistant.io/blog/2022/11/02/release-202211/#getting-insights-into-water-usage){: target="_blank"}
 
@@ -308,7 +308,7 @@ Your transceiver module may not be calibrated correctly, please change the frequ
 
 # Conclusion
 
-This is a simple method to set up, for those who are not equipped with an Itron Everblu Enhanced transmitter, there is another method which consists of putting an [inductive sensor]({% link _products/{{ page.locale | slice: 0,2 }}/2022-11-29-inductive-sensor-5v-npn-LJ18A3-8Z.md %}){: target="_blank"} directly on the meter and connect it to an esp8266, this method is a little more restrictive because it will be necessary to have a source of energy near this meter in order to be able to supply the esp and the sensor with 5V, the price of the whole also oscillates around 10€, an excellent article is available here [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
+This is a simple method to set up, for those who are not equipped with an Itron Everblu Enhanced transmitter, there is another method which consists of putting an [inductive sensor]({% post_url /en/product/2022-11-29-inductive-sensor-5v-npn-LJ18A3-8Z %}){: target="_blank"} directly on the meter and connect it to an esp8266, this method is a little more restrictive because it will be necessary to have a source of energy near this meter in order to be able to supply the esp and the sensor with 5V, the price of the whole also oscillates around 10€, an excellent article is available here [pieterbrinkman.com](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"}
 
 
 

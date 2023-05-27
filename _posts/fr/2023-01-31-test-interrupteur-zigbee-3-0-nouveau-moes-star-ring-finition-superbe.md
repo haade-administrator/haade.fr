@@ -7,7 +7,7 @@ author: Nico
 date: 2023-01-31 11:01
 last_modified_at: 
 categories: [Tests, News, Haade-lab]
-tags: []
+tags: [post]
 image: 'interrupteur-zigbee-moes-star-ring-smart-switch.png'
 toc: 
 beforetoc: ''

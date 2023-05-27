@@ -31,7 +31,7 @@ Why start this article when there are already plenty of others. First, I realize
 # Prerequisites
 - Homeassistant with Esphome
 - An Esp32-cam Ai Thinker classic
-- an [FTDI connector]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+- an [FTDI connector]({% post_url /en/product/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 
 {%- include alert.html type="help" text="If this is your first integration and you don't have FTDI connectors, you can buy the esp32-cam camera with usb connection, this is the ch340 version." link="https://s.click.aliexpress.com/e/_DmTiKkr" textlink="Esp32-cam ch340g" %}
 

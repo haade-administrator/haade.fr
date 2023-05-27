@@ -39,17 +39,29 @@ itemtype="http://schema.org/ListItem"><a itemprop="item" href="{{ site.url }}{{ 
 {%- endif %}
 {%- endfor %}
 
+{%- if page.layout == 'page' or page.layout == 'firstheader' or page.layout == 'category' %}
+{% assign crumbs = page.url | split: '/' %}
+{% assign crumbs_total = crumbs | size | minus: 2 %}
+{% for crumb in crumbs offset: 1 %}
+    {% if forloop.index == crumbs_total %}
+    <li><span class="prompt">&nbsp; > &nbsp;</span></li>
+    <li class="breadcrumb-item active" aria-current="page" itemprop="itemListElement" itemscope
+    itemtype="http://schema.org/ListItem"><span itemprop="name">{{page.title}}</span><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
+    {% else %}
+        {% assign crumb_limit = forloop.index | plus: 1 %}
+        {% capture crumb_url %}{% for c in crumbs limit: crumb_limit %}{{ c | append: '/' }}{% endfor %}{% endcapture %}
+        {% capture crumb_with_index %}{{ crumb_url | append: 'index.html' }}{% endcapture %}
+        {% capture current_page %}{{ site.baseurl }}{{ page.url }}{% endcapture %}
+        {% for p in site.pages %}
+            {% if crumb_with_index != current_page and crumb_with_index == p.url %}
+            <li><span class="prompt">&nbsp; > &nbsp;</span></li>
+            <li class="breadcrumb-item" itemprop="itemListElement" itemscope
+            itemtype="http://schema.org/ListItem"><span itemprop="name"><a href="{{ crumb_with_index }}"><span itemprop="name">{{ crumb | replace:'-',' ' | capitalize}}</span></a><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"></li>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
 
-{%- if page.layout == 'page' or page.layout == 'firstheader' %}
-{%- assign crumbs = page.url | split: '/' %}
-{%- assign crumbstotal = crumbs | size %}
-{%- for crumb in crumbs offset:2 %}
-{%- unless crumb == 'index.html' %}
-<li><span class="prompt">&nbsp; > &nbsp;</span> </li>
-<li class="breadcrumb-item" itemprop="itemListElement" itemscope
-itemtype="http://schema.org/ListItem"><span itemprop="name">{{ crumb | remove: '.html' }}</span><meta itemprop="position" content="{{ forloop.index | plus: 1 }}"> </li>
-{%- endunless %}
-{%- endfor %}
 {%- endif %}
 </ol>
 </nav>

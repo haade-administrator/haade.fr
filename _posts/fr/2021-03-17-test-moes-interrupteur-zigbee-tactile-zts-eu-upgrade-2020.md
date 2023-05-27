@@ -8,7 +8,7 @@ author: Nico
 categories: Tests
 layout: post
 image: inter-moes.png
-tags:
+tags: post
 locale: fr_FR
 published: true
 noindex: false
@@ -29,14 +29,14 @@ Alors pourquoi avons nous choisi de vous présenter ce produit, et bien car il a
 
 > L’interrupteur tactile compatible zigbee de Moes ressemble énormément à l’inter de Livolo, cependant l’upgrade 2020 et l’interface tactile font de ce produit un très bon interrupteur et surtout qui sort du lot.
 
-[**Lien Commercial Interrupteur Moes Upgrade 2020**]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020.md %})
+[**Lien Commercial Interrupteur Moes Upgrade 2020**]({% post_url /fr/produit/2021-03-18-interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020 %})
 
 Comme le dit tonton dans la vidéo, l’interrupteur Moes fonctionne sous homeassistant avec le module zigbee2mqtt à partir de la version 1.18.x.
 
 ## Boîte d’encastrement carré Coswall idéal pour le nouveau et l’ancien:
 
-1. [boite à encastrer 83mm matériaux creux]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-boitier-dencastrement-carre-coswall-placo.md %})
-2. [boitier d’encastrement à sceller Coswall 85mm]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-19-boitier-dencastrement-a-sceller-coswall-85mm.md %})
+1. [boite à encastrer 83mm matériaux creux]({% post_url /fr/produit/2021-03-18-boitier-dencastrement-carre-coswall-placo %})
+2. [boitier d’encastrement à sceller Coswall 85mm]({% post_url /fr/produit/2021-03-19-boitier-dencastrement-a-sceller-coswall-85mm %})
 
 ## Alors quels sont ses avantages:
 

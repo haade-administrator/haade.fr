@@ -7,7 +7,7 @@ author: Nico
 date: 2023-03-15 23:27
 last_modified_at: 
 categories: [Domotique, Tests, Haade-lab]
-tags: []
+tags: [post]
 image: 'boitier-encastrable-blm-special-domotique.png'
 toc: true
 beforetoc: ''

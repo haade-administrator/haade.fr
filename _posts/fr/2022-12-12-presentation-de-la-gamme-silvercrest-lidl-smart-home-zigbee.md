@@ -7,7 +7,7 @@ author: Nico
 date: 2022-12-11 18:42
 last_modified_at: 2023-01-18 16:02
 categories: [News, Zigbee]
-tags: []
+tags: [post]
 image: 'presentation-gamme-lidl-silvercrest-smart-home.png'
 toc: true
 beforetoc: ''

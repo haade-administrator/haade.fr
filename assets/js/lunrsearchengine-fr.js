@@ -7,24 +7,13 @@ sitemap: false
 var documents = [  {%- assign searchml_posts = site.posts
   | where: 'locale', 'fr_FR'
   | where: 'published', true %}
-  {%- assign searchml_products = site.products
-    | where: 'locale', 'fr_FR'
-    | where: 'published', true %}
   {%- for searchml_post in searchml_posts %}{
     "id": {{ counter }},
     "url": "{{ site.baseurl }}{{ searchml_post.url }}",
     "title": "{{ searchml_post.title }}",
     "description": "{{ searchml_post.date | date: "%d/%m/%Y" }} - {{ searchml_post.description }}",
     "tags": "{{ searchml_post.tags | join: ' - ' }}"
-    {%- assign counter = counter | plus: 1 %}}{%- if forloop.last %}{%- else %}, {%- endif %}{%- endfor %},
-    {%- for searchml_product in searchml_products %}{
-        "id": {{ counter }},
-        "url": "{{ site.baseurl }}{{ searchml_product.url }}",
-        "title": "{{ searchml_product.title }}",
-        "description": "{{ searchml_product.date | date: "%d/%m/%Y" }} - {{ searchml_product.description }}",
-        "tags": "{{ searchml_product.tags | join: ' - ' }}"
-        {%- assign counter = counter | plus: 1 %}
-        }{%- if forloop.last %}{%- else %}, {%- endif %}{%- endfor %}];
+    {%- assign counter = counter | plus: 1 %}}{%- if forloop.last %}{%- else %}, {%- endif %}{%- endfor %}];
 
 var idx = lunr(function () {
     this.ref('id')

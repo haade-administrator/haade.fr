@@ -6,7 +6,7 @@ date: '2021-06-07T08:06:15+00:00'
 last_modified_at:
 author: Nico
 layout: post
-tags: esp8266 esp12 amélioration
+tags: post esp8266 esp12 amélioration
 categories: Domotique Haade-lab Home-Assistant
 locale: fr_FR
 published: true

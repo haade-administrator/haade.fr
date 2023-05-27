@@ -6,7 +6,7 @@ author: Nico
 date: 2023-02-06 08:06
 last_modified_at: 
 categories: [Domotique, Tests, Zigbee]
-tags: []
+tags: [post]
 image: 'heiman-sirene-alarme-zgbee-3-HS2WD-E.png'
 toc: true
 beforetoc: ''

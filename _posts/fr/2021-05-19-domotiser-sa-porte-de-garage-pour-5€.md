@@ -7,7 +7,7 @@ author: Nico
 categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: domotiser-porte-garage-5-euros.png
-tags: esp8266
+tags: post esp8266
 description: "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266"
 locale: fr_FR
 published: true
@@ -35,8 +35,8 @@ Dans cet article je vais vous montrer tout simplement comment domotiser sa porte
 ## Prérequis pour domotiser sa porte de garage:
 
 - Homeassistant installé avec esphome
-- Un [module usb FT232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
-- un [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
+- Un [module usb FT232]({% post_url /fr/produit/2021-05-19-module-de-conversion-usb-uart-ft232 %})
+- un [module 7/30V Yunshan Lysignal esp8266 esp-12f]({%- post_url /fr/produit/2021-05-17-relais-7-30v-yunshan-lysignal %})
 - Esphome installé sur le système [( voir l’article dédié )]({%- post_url /fr/2021-05-11-esphome-et-homeassistant %})
 - Savoir créer un nouveau Noeud et le paramétrer
 - device type: Espressif ESP-12E module
@@ -67,9 +67,9 @@ D: Optocoupleur ( interrupteur bouton poussoir )
 
 ## Branchement ft232 et esp8266 ESP-12F Yunshan-Lysignal
 
-[ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+[ft232]({% post_url /fr/produit/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 et
-[esp8266 ESP-12F Yunshan-Lysignal]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
+[esp8266 ESP-12F Yunshan-Lysignal]({% post_url /fr/produit/2021-05-17-relais-7-30v-yunshan-lysignal %})
 
 - d’un côté une prise dc universelle paramétré sur 9v il faut 7v au minimum pour la programmation.
 - de l’autre rx sur tx
@@ -79,8 +79,8 @@ et
 
 {% picture posts/{{ page.guid }}/branchement-ft232-yunshan-lysignal-esp8266.jpg --alt Branchement ft 232 yunshan Lysignal --img width="820" height="461" %}
 
-1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- link _products/{{ page.locale | slice: 0,2 }}/2021-05-17-relais-7-30v-yunshan-lysignal.md %})
-2. [Module de conversion usb uart ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+1. [ESP8266 relay 7-30v Yunshan lysignal ESP-12F]({%- post_url /fr/produit/2021-05-17-relais-7-30v-yunshan-lysignal %})
+2. [Module de conversion usb uart ft232]({% post_url /fr/produit/2021-05-19-module-de-conversion-usb-uart-ft232 %})
 
 ## Fichier paramétré pour ESPhome
 

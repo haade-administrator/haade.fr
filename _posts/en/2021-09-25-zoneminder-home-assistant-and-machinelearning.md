@@ -94,7 +94,7 @@ Then in Options >>> Systems
 Check the boxes like the image below and enter a Hashsecret code for more security
 
 1. OPT-USE\_AUTH: password authentication
-2. AUTH\_HASH\_SECRET: Additional code ( [you can generate a code here](https://www.md5hashgenerator.com/) )
+2. AUTH\_HASH\_SECRET: Additional code ( [you can generate a code here](https://www5hashgenerator.com/) )
 3. AUTH\_HASH\_LOGINS: take into account double security
 4. OPT\_USE\_API: Activate the Zoneminder API
 5. OPT\_USE\_LEGACI\_API\_AUTH: enable API authentication

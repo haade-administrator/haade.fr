@@ -7,7 +7,7 @@ last_modified_at:
 layout: post
 author: Nico
 categories: Domotique Haade-lab Home-Assistant Jeedom News
-tags: Comparatif Homeassistant Jeedom
+tags: post Comparatif Homeassistant Jeedom
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png
 published: true
 noindex: false

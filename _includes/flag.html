@@ -41,23 +41,6 @@
           {%- endfor %}
         {%- endif %}
 
-        {%- elsif page.layout == 'product' %}
-        {%- assign navigation_products = site.products
-          | where: 'guid', page.guid
-          | where: 'locale', language[1].slug %}
-        {%- if navigation_products.size == 1 %}
-          {%- for navigation_product in navigation_products %}
-            {%- assign url = site.baseurl | append: navigation_product.url %}
-          {%- endfor %}
-        {%- else %}
-          {%- assign navigation_pages = site.pages
-            | where: 'locale_reference', site.fallback_page
-            | where: 'locale', language[1].slug %}
-          {%- for navigation_page in navigation_pages limit:1 %}
-            {%- assign url = site.baseurl | append: navigation_page.url %}
-          {%- endfor %}
-        {%- endif %}
-
         {%- elsif page.layout == 'category' %}
           {%- assign navigation_categories = site.category
             | where: 'guid', page.guid

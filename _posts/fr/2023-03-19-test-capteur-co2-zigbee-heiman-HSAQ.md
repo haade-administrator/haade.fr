@@ -7,7 +7,7 @@ author: Nico
 date: 2023-03-19 16:42
 last_modified_at: 
 categories: [Tests, Zigbee, Home-Assistant, Jeedom]
-tags: []
+tags: [post]
 image: 'test-capteur-co2-zigbee-heiman-HS3AQ.png'
 toc: true
 beforetoc: ''

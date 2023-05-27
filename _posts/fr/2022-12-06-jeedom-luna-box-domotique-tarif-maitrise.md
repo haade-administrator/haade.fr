@@ -7,7 +7,7 @@ author: Nico
 date: 2022-12-06 07:50
 last_modified_at: "2023-01-15 17:14"
 categories: [Jeedom, News]
-tags: []
+tags: [post]
 image: 'jeedom-luna.jpg'
 toc: true
 beforetoc: ''

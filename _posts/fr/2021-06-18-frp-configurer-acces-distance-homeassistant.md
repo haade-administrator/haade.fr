@@ -3,7 +3,7 @@ guid: 11
 title: 'Frp &#8211; accès à distance pour homeassistant.'
 description: "Configurer simplement un accès à distance sécurisé et gratuit avec Home assistant et notre module frp"
 categories: [Domotique, Securite, Haade-lab, Home-Assistant]
-tags: frp module
+tags: post frp module
 date: '2021-06-18T20:05:56+00:00'
 last_modified_at:
 author: Nico
@@ -72,7 +72,7 @@ capture du paramétrage pour accès à distance grâce à frp et créé pour hom
 11. **domain\_protocol:** sous-domaine ou domaine suivant le paramétrage de votre serveur
 12. **domains:** nom de votre domaine ou nom du sous domaine ( suivant votre serveur vps )
 
-**Pour toutes questions sur le fonctionnement fatedier a rédigé une documentation complète, n’hésitez pas à la consulter:** [Lien github Fatedier frp original](https://github.com/fatedier/frp/blob/dev/README.md){: target="_blank"}
+**Pour toutes questions sur le fonctionnement fatedier a rédigé une documentation complète, n’hésitez pas à la consulter:** [Lien github Fatedier frp original](https://github.com/fatedier/frp/blob/dev/READMe){: target="_blank"}
 
 **IMPORTANT:** à tous ceux qui souhaiteraient suivre ce tutoriel mais qui ne veulent pas investir dans un vps, haade propose ce service **GRATUITEMENT**\*, avec un lien de type **\*.eu.haade.link**, si tu souhaites bénéficier de ce service **GRATUITEMENT** rien de plus simple: laisse un **commentaire** en bas de cet article et fait nous la demande par **[formulaire de contact](https://www.haade.fr/contact/)**
 

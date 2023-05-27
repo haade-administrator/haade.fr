@@ -32,7 +32,7 @@ That's after the [presentation of the temperature sensor SNZB-02]({% post_url /e
 - a manual available in 8 languages
 - a 3M sticker
 
-## Specifications of [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %})
+## Specifications of [Sonoff SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %})
 
 - Battery: 3V (CR2450)
 - Wireless protocol: Zigbee (IEEE 802.15.4)
@@ -48,25 +48,25 @@ So if you follow zigbee2mqtt news with more than 1600 integrations, [you can see
 - voltage
 - linkquality ( lqi )
 
-## What made me buy the opening sensor [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %}):
+## What made me buy the opening sensor [Sonoff SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %}):
 
 Once again the price and still for a big point, the support for zigbee 3.0, I will have stayed on **xiaomi aqara mijia MCCGQ01LM** but the price has exploded from simple to almost twice the price. **The design is much nicer and the size is reduced** , but only **4 data goes back** in zigbee2mqtt (low battery does not go up). It also works with cr2032 batteries.
 
-Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 protocol** and it is far from being good for the mesh especially since it tends to be put long standby. In fact, he tends to drop out of the network. Fortunately the version [rectangular Xiaomi MCCGQ12LM is Zigbee 3.0 compatible]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0.md %})
+Big **disadvantage** the Xiaomi module is always **provided in zigbee 1.2 protocol** and it is far from being good for the mesh especially since it tends to be put long standby. In fact, he tends to drop out of the network. Fortunately the version [rectangular Xiaomi MCCGQ12LM is Zigbee 3.0 compatible]({% post_url /en/product/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0 %})
 
-## [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %}) VS Xiaomi Aqara Mijia MCCGQ01LM
+## [Sonoff SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %}) VS Xiaomi Aqara Mijia MCCGQ01LM
 
 {% picture posts/{{ page.guid}}/sonoff-detecteur-porte-zigbee-vs-xiaomi.png --alt sonoff SNZB-04 vs Xiaomi MCCGQ01LM --img width="820" height="461" %}
 
 test and compare of open sensor sonoff SNZB-04 vs Xiaomi MCCGQ01LM
 
-## Positive point of the temperature sensor [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %})
+## Positive point of the temperature sensor [Sonoff SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %})
 
 - the current price less than 8 €
 - inclusive the protocol zigbee 3.0
 - **Compatibility Zigbee2mqtt**
 
-## Negative point of the opening sensor [Sonoff SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %})
+## Negative point of the opening sensor [Sonoff SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %})
 
 - Package a little light ( but that's not what we ask )
 - **the size, too massive for my taste**
@@ -92,6 +92,6 @@ Sensor: 47 x 27 x 13.5mm
 
 ## In conclusion
 
-If you don't care about design, if you want to save money or if you have a lot of modules to buy, then [the sonoff opening sensor SNZB-04]({% link _products/{{ page.locale | slice: 0,2 }}/2021-08-26-opening-control-sonoff-snzb-04-zigbee.md %}) otherwise if the mesh of the network does not scare you **then switch to Xiaomi**, otherwise [the new one Xiaomi MCCGQ12LM rectangular aperture sensor is Zigbee 3.0 compatibility]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0.md %})
+If you don't care about design, if you want to save money or if you have a lot of modules to buy, then [the sonoff opening sensor SNZB-04]({% post_url /en/product/2021-08-26-opening-control-sonoff-snzb-04-zigbee %}) otherwise if the mesh of the network does not scare you **then switch to Xiaomi**, otherwise [the new one Xiaomi MCCGQ12LM rectangular aperture sensor is Zigbee 3.0 compatibility]({% post_url /en/product/2021-03-25-aqara-door-sensor-by-xiaomi-zigbee-3-0 %})
 
 {% include product-embed.html guid="2123" %}
