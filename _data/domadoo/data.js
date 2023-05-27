@@ -25,5 +25,8 @@ module.exports = [
     'peripheriques/5387-aqara-micromodule-onoff-zigbee-30-1250w-sans-neutre-ssm-u02-6970504213302', // 2155 SSM-U02 Aqara sans neutre
     'peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-ssm-u01-6970504213296', // 2156 SSM-U01 Aqara vec neutre
     'peripheriques/5448-innr-ampoule-connectee-type-e27-zigbee-30-pack-de-2-ampoules-vintage-filament-2200-k-type-globe-8718781552923', // 2157 Ampoule vintage innr rf261
-    'peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee' // 2158 sonde temerature owon ths317
+    'peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee', // 2158 sonde temerature owon ths317
+    'peripheriques/6413-aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro-6970504217614', // 2159 cube aqara t1 pro
+    'peripheriques/6040-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons', // 2160 telecommande loratap 4 touches
+    'peripheriques/6250-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-tringle-6970504216860' // 2161 aqara store controleur rod version
 ]

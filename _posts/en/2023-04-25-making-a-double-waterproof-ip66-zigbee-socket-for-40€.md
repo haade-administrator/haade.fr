@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-04-25 19:45
 last_modified_at: 
-categories: [Automation, Zigbee, Haade-lab]
+categories: [Haade-lab, Zigbee, Automation]
 tags: []
 image: 'make-a-double-outdoor-zigbee-outlet-for-40€.png'
 toc: true

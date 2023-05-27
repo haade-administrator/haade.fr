@@ -78,6 +78,20 @@ le retour à la ligne se fait automatiquement.
 
 ![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394"}{: target="_blank"}
 
+## Les liens pour les documents
+
+### inclure un lien static_file
+**préfixe ( pdf, docx, zip, csv, xls, torrent )**
+{% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
+
+### inclure un lien Homeassistant
+Blueprint:
+{% include homeassistantlink.html bluelink="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+Exemple intégration répertoire Hacs auto backup:
+{% include homeassistantlink.html creator="jcwillox" repertory="hass-auto-backup" %}
+Exemple Intégration Appareil auto_backup:
+{% include homeassistantlink.html integration="auto_backup" %}
+
 # transformer un gif en webp sur le pc
 
 gif2webp -lossy image.gif -o image.webp
@@ -136,16 +150,6 @@ end.
 ---
 ___
 ***
-
-# Les documents
-
-### inclure un lien static_file
-**préfixe ( pdf, docx, zip, csv, xls, torrent )**
-{% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
-
-### inclure un lien blueprint
-
-{% include blueprint.html link="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
 
 # Les produits
 

@@ -9,7 +9,7 @@
       </div>
       <div class="hero-text latest">
       {%- if latest_post.categories != empty %}
-      {%- assign sortedCategories = latest_post.categories %}
+      {%- assign sortedCategories = latest_post.categories | sort: "first" %}
       {%- for category in sortedCategories limit:2 %}
       {%- if page.locale == "fr_FR" %}
       <a class="hero-categories {{category | downcase}}" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
@@ -19,7 +19,7 @@
       {%- endfor %}
       {%- else %}
       {%- unless latest_post.tags == empty %}
-      {%- assign sortedTags = latest_post.tags %}
+      {%- assign sortedTags = latest_post.tags | sort: "first" %}
       {%- for tag in sortedTags limit:2 %}
       <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
       {%- endfor %}
@@ -48,7 +48,7 @@
       </div>
         <div class="hero-text second">
           {%- if second_post.categories != empty %}
-          {%- assign sortedCategories = second_post.categories | sort  %}
+          {%- assign sortedCategories = second_post.categories | sort: "first"  %}
           {%- for category in sortedCategories limit:1 %}
           {%- if page.locale == "fr_FR" %}
           <a class="hero-categories {{category | downcase}}" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
@@ -58,7 +58,7 @@
           {%- endfor %}
           {%- else %}
           {%- unless second_post.tags == empty %}
-          {%- assign sortedTags = second_post.tags | sort %}
+          {%- assign sortedTags = second_post.tags | sort: "first" %}
           {%- for tag in sortedTags limit:1 %}
           <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
           {%- endfor %}
@@ -86,7 +86,7 @@
               </div>
           <div class="hero-text thirdfour">
             {%- if third_post.categories != empty %}
-            {%- assign sortedCategories = third_post.categories | sort %}
+            {%- assign sortedCategories = third_post.categories | sort: "first" %}
             {%- for category in sortedCategories limit:1 %}
             {%- if page.locale == "fr_FR" %}
             <a class="hero-categories {{category | downcase}}" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
@@ -96,7 +96,7 @@
             {%- endfor %}
             {%- else %}
             {%- unless third_post.tags == empty %}
-            {%- assign sortedTags = third_post.tags | sort %}
+            {%- assign sortedTags = third_post.tags | sort: "first" %}
             {%- for tag in sortedTags limit:1 %}
             <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
             {%- endfor %}
@@ -123,7 +123,7 @@
           </div>
           <div class="hero-text thirdfour">
             {%- if four_post.categories != empty %}
-            {%- assign sortedCategories = four_post.categories | sort %}
+            {%- assign sortedCategories = four_post.categories | sort: "first" %}
             {%- for category in sortedCategories limit:1 %}
             {%- if page.locale == "fr_FR" %}
             <a class="hero-categories {{category | downcase}}" href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/categorie/{{ category | slugify }}">{{ category }}</a>
@@ -133,7 +133,7 @@
             {%- endfor %}
             {%- else %}
             {%- unless four_post.tags == empty %}
-            {%- assign sortedTags = four_post.tags | sort %}
+            {%- assign sortedTags = four_post.tags | sort: "first" %}
             {%- for tag in sortedTags limit:1 %}
             <a class="hero-tags" href="{{site.baseurl}}/tags#{{ tag | slugify | replace: " ","-" }}">{{ tag }}</a>
             {%- endfor %}

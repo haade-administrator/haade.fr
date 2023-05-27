@@ -1,0 +1,30 @@
+{%- if site.google_analytics.id != empty and site.google_analytics.id %}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ site.google_analytics.id }}');
+</script>
+{%- endif %}
+
+{%- if site.goatcounter_analytics.id != empty and site.goatcounter_analytics.id %}
+<!-- Goatcouter pageviews website -->
+<script>
+  var t = setInterval(function() {
+      if (window.goatcounter && window.goatcounter.visit_count) {
+          clearInterval(t)
+          window.goatcounter.visit_count({append: '#stats', style: `
+    div { border-color: #fff; background-color: #fff; color: #222; }
+    #gcvc-for { display: none; }
+    #gcvc-by { display: none; }
+`})
+      }
+  }, 100)
+</script>
+<!-- Goatcounter script -->
+<script data-goatcounter="https://{{ site.goatcounter_analytics.id }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+{%- endif %}

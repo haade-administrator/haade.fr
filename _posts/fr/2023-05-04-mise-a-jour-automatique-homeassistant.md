@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-05-04 12:26
 last_modified_at: 
-categories: [Haade-lab, Domotique]
+categories: [Home-Assistant, Haade-lab, Domotique]
 tags: []
 image: 'automatiser-les-mises-à-jour-de-homeassistant.png'
 toc: true
@@ -37,7 +37,7 @@ sourcelink:
 
 Pour toute question ou suggestion, utilise [ce fil de discussion sur le portail de la communauté Home Assistant](https://community.home-assistant.io/t/scheduled-auto-update-for-home-assistant/459281){: target="_blank"}.
 
-{% include blueprint.html link="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
 
 ## Installation
 Rien de plus simple clic sur **l'image import blueprint** ci-dessus ensuite sur **open link**. Ensuite tu retrouveras dans paramètres > automatisations et scènes > Blueprint, un Blueprint nommé **Home Assistant Auto-update on a schedule base** avant de créer une automatisation je te conseil dans un premier temps de créer une planification [voir l'étape schedule ci-dessous](./mise-a-jour-automatique-homeassistant#planification-des-mises-%C3%A0-jour), ensuite lance toi avec l'automatisation et dans planification choisis bien l'entité créé précédemment.
@@ -147,7 +147,7 @@ Tu peux l'utiliser pour conserver vos mises à jour lorsque vous organisez une f
 
 {% picture posts/{{ page.guid }}/suspendre-entite.png --alt suspendre des entités des mises à jour dans homeassistant --img width="940" height="136" %}
 
-{% include blueprint.html link="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
 
 ## Conclusion
 

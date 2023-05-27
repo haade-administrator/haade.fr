@@ -1282,7 +1282,7 @@ a {
       color: #222222;
     }
 
-    &.homeassistant {
+    &.home-assistant {
       background-color: #03a9f4;
       color: #fff;
     }
@@ -1290,6 +1290,14 @@ a {
     &.news {
       background-color: #fff;
       color: #ff0000;
+    }
+    &.domotique {
+      background-color: #27d2b1;
+      color: #fff;
+    }
+    &.tests{
+      background-color: #ff8800;
+      color: #fff;
     }
   }
 
