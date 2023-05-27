@@ -13,14 +13,12 @@
 {%- if site.goatcounter_analytics.id != empty and site.goatcounter_analytics.id %}
 <!-- Goatcouter pageviews website -->
 <script>
-  var t = setInterval(function() {
-      if (window.goatcounter && window.goatcounter.visit_count) {
-          clearInterval(t)
-          window.goatcounter.visit_count({append: '#stats', style: `
-    div { border-color: #fff; background-color: #fff; color: #222; }
-`})
-      }
-  }, 100)
+  var r = new XMLHttpRequest();
+  r.addEventListener('load', function() {
+      document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
+  })
+  r.open('GET', 'https://haade.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+  r.send()
 </script>
 <!-- Goatcounter script -->
 <script data-goatcounter="https://{{ site.goatcounter_analytics.id }}.goatcounter.com/count"
