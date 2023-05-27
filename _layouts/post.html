@@ -17,18 +17,6 @@ post_class: post-template
 
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
-
-    <div>Number of visitors: <div id="stats"></div></div>
-
-    <script>
-        var r = new XMLHttpRequest();
-        r.addEventListener('load', function() {
-            document.querySelector('#stats').innerText = JSON.parse(this.responseText).count
-        })
-        r.open('GET', 'https://haade.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
-        r.send()
-    </script>
-
     <!-- Author & Date  Box -->
     {%- assign author = site.data.authors[page.author] %}
     {%- if page.author %}
