@@ -7,7 +7,7 @@ author: Nico
 date: 2023-03-29 17:07
 last_modified_at: 
 categories: [Domotique, Zigbee, Tests]
-tags: []
+tags: [post]
 image: 'woox-controleur-arrosage-zigbee-r7060-test.png'
 toc: true
 beforetoc: ''
