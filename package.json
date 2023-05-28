@@ -30,7 +30,7 @@
     "puppeteer": ">=17.1.3"
   },
   "scripts": {
-    "uglify": "uglifyjs assets/js/jquery-3.6.3.slim.min.js assets/js/flag.js assets/js/prism.js assets/js/lazyload.js assets/js/btt.js assets/js/lazyload.js assets/js/glider.js assets/js/vanilla-back-to-top.min.js assets/js/navbar.js assets/js/theme.js -c -m -o assets/js/main.min.js",
+    "uglify": "uglifyjs assets/js/jquery-3.6.3.slim.min.js assets/js/analytics.js assets/js/flag.js assets/js/prism.js assets/js/lazyload.js assets/js/btt.js assets/js/lazyload.js assets/js/glider.js assets/js/vanilla-back-to-top.min.js assets/js/navbar.js assets/js/theme.js -c -m -o assets/js/main.min.js",
     "add-banner": "node banner.js",
     "scrap": "node ./_data/aliexpress/fr_FR/launch.js && node ./_data/aliexpress/en_GB/launch.js && node ./_data/domadoo/launch.js && node ./_data/domadoo/launch.js",
     "scrapdom": "node ./_data/domadoo/launch.js",

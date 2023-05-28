@@ -1,25 +1,13 @@
-{%- if site.google_analytics.id != empty and site.google_analytics.id %}
+{%- assign google = site.google_analytics %}
+
+{%- if google.id != empty and google.id %}
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics.id }}"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ google.id }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', '{{ site.google_analytics.id }}');
+  gtag('config', '{{ google.id }}');
 </script>
-{%- endif %}
-
-{%- if site.goatcounter_analytics.id != empty and site.goatcounter_analytics.id %}
-<!-- Goatcouter pageviews website -->
-<script>
-    var t = setInterval(function() {
-        if (window.goatcounter && window.goatcounter.visit_count) {
-            clearInterval(t)
-            window.goatcounter.visit_count({append: '#goatstats'})
-        }
-    }, 100)
-</script>
-<script data-goatcounter="https://{{ site.goatcounter_analytics.id }}.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
 {%- endif %}
