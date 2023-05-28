@@ -63,7 +63,7 @@ Ces sites web pourraient collecter des données sur vous, utiliser des cookies, 
 
 ### Statistiques et mesures d’audience
 
-Haade utilise l’outil [Google Analytics](https://analytics.google.com/analytics/web/){: target="_blank"} afin d’établir des statistiques et mesures d’audience. Ces données personnelles sont anonymisés et ne sont pas utilisés à d’autres fins (revente, etc).
+Haade utilise l’outil [Goatcounter](https://www.goatcounter.com/){: target="_blank"} afin d’établir des statistiques et mesures d’audience. Respect de la vie privée, ne suit pas les utilisateurs avec des identifiants uniques et n'a pas besoin d'avis GDPR. Contrôle précis des données collectées.
 
 ## Utilisation et transmission de vos données personnelles
 

@@ -3,16 +3,7 @@ layout: default
 post_class: post-template
 ---
 
-{%- assign countapi = site.countapi %}
 {%- assign goatcounter = site.goatcounter_analytics %}
-
-{%- if countapi.namespace %}
-<script>
-  function liveViews(response) {
-      document.getElementById('visits').innerText = response.value;
-  }
-</script>
-{%- endif %}
 
 {%- assign translate = site.data.locales.translate %}
 
@@ -41,7 +32,7 @@ post_class: post-template
         {%- endif %}
         <br>
         <span>{%- include read-time.html content=content %}</span>
-        {%- if countapi.namespace or goatcounter.id %}
+        {%- if goatcounter.id %}
         <p><i class="icos eye-solid" width="1em" height="1em"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
         {%- endif %}
         </div>

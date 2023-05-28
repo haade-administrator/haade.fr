@@ -1,5 +1,7 @@
 {%- assign google = site.google_analytics %}
+{%- assign goatcounter = site.goatcounter_analytics %}
 
+{%- if jekyll.environment == 'production' %}
 {%- if google.id != empty and google.id %}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ google.id }}"></script>
@@ -11,3 +13,19 @@
   gtag('config', '{{ google.id }}');
 </script>
 {%- endif %}
+
+
+<!-- Goatcounter tag (count.js) -->
+{%- if goatcounter.id != empty and goatcounter.id %}
+<script data-goatcounter="https://{{ goatcounter.id }}.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+        <script>
+          var r = new XMLHttpRequest();
+          r.addEventListener('load', function() {
+              document.getElementById('visits').innerText = JSON.parse(this.responseText).count
+          })
+          r.open('GET', 'https://haade.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json')
+          r.send()
+      </script>
+{%- endif %}  
+{%- endif %}    

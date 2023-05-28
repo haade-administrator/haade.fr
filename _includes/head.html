@@ -5,19 +5,16 @@
 {%- include seo.html %}
 
 <link href="{{ site.baseurl }}/assets/css/theme.css?v={{ site.time | date: '%s%N' }}" media="screen, projection, print" rel="stylesheet">
-{%- if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
+
+<!-- change your GA or GOATCOUNTER id in _config.yml -->
   {%- include analytics.html %}
 
-{%- endif %}
 <!-- add preload google webfonts -->
 <link rel="preload" href="{{ site.baseurl }}/assets/fonts/montserrat/Montserrat-VariableFont_wght.woff2" as="font" crossorigin>
 <link rel="preload" href="{{ site.baseurl }}/assets/fonts/icomoon/icomoon.woff2?4fpajq" as="font" crossorigin>
 
 <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico" >
 <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/{{ site.favicon }}" >
-
-{%- include countapi.html %}
 
 {%- if page.noindex == true %}
 <META NAME="ROBOTS" CONTENT="NOINDEX,FOLLOW"/>
