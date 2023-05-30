@@ -7,13 +7,23 @@ post_class: post-template
 
 <!-- Goatcounter script -->
 <script>
-  var r = new XMLHttpRequest();
-  r.addEventListener('load', function() {
-    document.getElementById('visits').innerText = JSON.parse(this.responseText).count;
-  });
-  r.open('GET', 'https://{{ goatcounter.id }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
-  r.send();
-</script>
+    var addViews = "{{ page.addViews }}";
+    var addViewsValue = parseInt(addViews);
+  
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+      var visits = parseInt(JSON.parse(this.responseText).count);
+      var totalVisits = visits;
+      
+      if (!isNaN(addViewsValue)) {
+        totalVisits += addViewsValue;
+      }
+      
+      document.getElementById('visits').innerText = totalVisits;
+    });
+    r.open('GET', 'https://{{ goatcounter.id }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
+    r.send();
+  </script>
 
 {%- assign translate = site.data.locales.translate %}
 

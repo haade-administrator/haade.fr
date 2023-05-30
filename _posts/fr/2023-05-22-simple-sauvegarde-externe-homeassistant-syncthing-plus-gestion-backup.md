@@ -13,6 +13,7 @@ toc: true
 beforetoc: ''
 published: true
 noindex: false
+addViews: 33
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
