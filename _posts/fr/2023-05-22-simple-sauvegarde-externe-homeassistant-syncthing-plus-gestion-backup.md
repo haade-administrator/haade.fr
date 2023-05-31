@@ -22,6 +22,8 @@ sitemap:
 locale: fr_FR
 comments: true
 rating:  
+redirect_from:
+  - /fr/blog/simple-sauvegarde-externe-homeassistant-synthing-plus-gestion-backup
 sourcelink:
   - https://community.home-assistant.io/t/syncthing-addon/320452
   - https://github.com/jcwillox/hass-auto-backup
