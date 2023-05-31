@@ -15,6 +15,7 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: en_GB
+addViews: 46
 beforetoc:
 toc: true
 redirect_from: /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/home-assistant/box-domotique-rail-din/
