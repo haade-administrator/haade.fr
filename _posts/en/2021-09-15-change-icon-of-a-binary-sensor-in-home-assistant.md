@@ -16,6 +16,7 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: en_GB
+addViews: 254
 toc: false
 image: changer-icone-element-binaire-home-assistant.png
 redirect_from:
