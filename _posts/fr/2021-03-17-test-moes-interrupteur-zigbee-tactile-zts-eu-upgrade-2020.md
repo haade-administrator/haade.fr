@@ -10,6 +10,7 @@ layout: post
 image: inter-moes.png
 tags:
 locale: fr_FR
+addViews: 595
 published: true
 noindex: false
 sitemap:

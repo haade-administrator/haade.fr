@@ -10,6 +10,7 @@ image: maillage-zigbee.png
 tags:
 description: "Zigbee comprendre le protocole et le maillage de ce standard"
 locale: fr_FR
+addViews: 3085
 published: true
 noindex: false
 sitemap:

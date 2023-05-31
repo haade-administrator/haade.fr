@@ -10,6 +10,7 @@ categories: Domotique Haade-lab Home-Assistant
 layout: post
 image: miniature.jpg
 locale: fr_FR
+addViews: 523
 published: true
 noindex: false
 sitemap:

@@ -10,6 +10,7 @@ image: homeoverip.png
 tags:
 description: "Actu du futur protocole HomeoverIP nommé Matter"
 locale: fr_FR
+addViews: 302
 published: true
 noindex: false
 sitemap:

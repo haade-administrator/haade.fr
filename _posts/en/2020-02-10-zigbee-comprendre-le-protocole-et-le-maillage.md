@@ -10,6 +10,7 @@ image: maillage-zigbee.png
 tags:
 description: "Zigbee comprend le protocole et le mailing de ce standard"
 locale: en_GB
+addViews: 103
 published: true
 noindex: false
 beforetoc:

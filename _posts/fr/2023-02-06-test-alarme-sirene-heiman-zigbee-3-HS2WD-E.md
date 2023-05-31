@@ -18,6 +18,7 @@ sitemap:
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
 locale: fr_FR
+addViews: 308
 comments: true
 rating: 4.6 
 sourcelink:

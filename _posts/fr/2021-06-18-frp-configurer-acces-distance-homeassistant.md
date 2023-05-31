@@ -9,6 +9,7 @@ last_modified_at:
 author: Nico
 layout: post
 locale: fr_FR
+addViews: 1074
 published: true
 noindex: false
 sitemap:

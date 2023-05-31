@@ -10,6 +10,7 @@ image: esphome-logo-haade-homeassistant.png
 tags:
 description: "Discovery of esphome in homeassistant"
 locale: en_GB
+addViews: 270
 published: true
 noindex: false
 sitemap:

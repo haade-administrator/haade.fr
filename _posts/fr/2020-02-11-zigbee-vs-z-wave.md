@@ -9,6 +9,7 @@ categories: Domotique Protocoles
 tags: z-wave zigbee comparaison
 layout: post
 locale: fr_FR
+addViews: 1957
 published: true
 noindex: false
 sitemap:

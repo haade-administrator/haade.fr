@@ -17,6 +17,7 @@ sitemap:
   priority: #between 0.0 to 1.0, 1.0 high priority
   lastmod: # date to end modification
 locale: fr_FR
+addViews: 248
 beforetoc:
 toc: false
 comments: true

@@ -10,6 +10,7 @@ image: installation-jeedom-docker-1.png
 tags:
 description: "OBSOLÈTE! Installation complète et sécurisée de Jeedom sur docker"
 locale: fr_FR
+addViews: 3811
 published: true
 noindex: false
 beforetoc:

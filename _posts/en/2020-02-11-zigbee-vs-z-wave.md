@@ -9,6 +9,7 @@ categories: [Automation, Protocoles]
 tags: [z-wave, zigbee, comparaison]
 layout: post
 locale: en_GB
+addViews: 50
 published: true
 noindex: false
 sitemap:

@@ -10,6 +10,7 @@ image: esphome-logo-haade-homeassistant.png
 tags:
 description: "Découverte d'esphome dans homeassistant"
 locale: fr_FR
+addViews: 1895
 published: true
 noindex: false
 sitemap:
