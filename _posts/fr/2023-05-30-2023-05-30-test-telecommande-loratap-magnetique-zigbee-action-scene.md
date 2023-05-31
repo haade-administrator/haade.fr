@@ -11,7 +11,7 @@ tags: []
 image: 'telecommande-zigbee-loratap-magnetique-4-touches.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
