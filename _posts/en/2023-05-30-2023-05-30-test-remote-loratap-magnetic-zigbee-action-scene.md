@@ -121,7 +121,7 @@ There is an action sensor, which will briefly show the action performed. You can
 
 In ZHA no integration problems, the remote control is as for Zigbee2mqtt recognized as Tuya TS044
 
-{% picture posts/{{page.guid}}/integration-loratap-telecommande-ts044-zha-homeassistant.png --alt remote control SS9400ZB-YA zigbee 3.0 loratap 4 buttons in zha under homeassistant--img width="940" height="28" %}
+{% picture posts/{{page.guid}}/integration-loratap-telecommande-ts044-zha-homeassistant.png --alt remote control SS9400ZB-YA zigbee 3.0 loratap 4 buttons in zha under homeassistant --img width="940" height="28" %}
 
 On the other hand, no action sensors instead of 4 battery diagnostic entities.
 
