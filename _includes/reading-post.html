@@ -1,0 +1,10 @@
+<a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b> - </a> <i class="icos clock" width="1em" height="1em"></i>
+{%- if page.last_modified_at != nil %}
+<time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{%- include date.html date=page.last_modified_at %} - </time>
+{%- else %}
+<span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{%- include date.html date=page.date %} - </time></span>
+{%- endif %}
+<span>{%- include read-time.html content=content %}</span>
+{%- if goatcounter.id %}
+<p><i class="icos eye-solid" width="1em" height="1em"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
+{%- endif %}
