@@ -2,5 +2,5 @@
   <i class="icos history" width="1em" height="1em"></i>
   <strong>
     {%- assign words = include.content | strip_html | number_of_words %}
-    {{ words | divided_by: site.words_per_minute | plus: 1 }} {{ translate.minute[page.locale] }}</strong> {{ translate.of[page.locale] }} {{ translate.reading[page.locale] }}.
+    {{ words | divided_by: site.words_per_minute | plus: 1 }} {{ translate.minute[page.locale] }}</strong> {{ translate.of[page.locale] }} {{ translate.reading[page.locale] }}
 </span>
