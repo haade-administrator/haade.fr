@@ -3,27 +3,7 @@ layout: default
 post_class: post-template
 ---
 
-{%- assign goatcounter = site.goatcounter_analytics %}
-
-<!-- Goatcounter script -->
-<script>
-    var addViews = "{{ page.addViews }}";
-    var addViewsValue = parseInt(addViews);
-  
-    var r = new XMLHttpRequest();
-    r.addEventListener('load', function() {
-      var visits = parseInt(JSON.parse(this.responseText).count);
-      var totalVisits = visits;
-      
-      if (!isNaN(addViewsValue)) {
-        totalVisits += addViewsValue;
-      }
-      
-      document.getElementById('visits').innerText = totalVisits;
-    });
-    r.open('GET', 'https://{{ goatcounter.id }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
-    r.send();
-  </script>
+{%- include goatcounter.html %}
 
 {%- assign translate = site.data.locales.translate %}
 
@@ -45,16 +25,7 @@ post_class: post-template
             {%- endif %}
         </div>
         <div class="readingpost">
-        {{ translate.writting[page.locale] }} <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }},</b></a> {{ translate.the[page.locale] }}
-        <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%d-%m-%Y" }}">{%- include date.html date=page.date %},</time></span>
-        {%- if page.last_modified_at != nil %}
-        <br>{{ translate.update[page.locale] }} {{ translate.the[page.locale] }} <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{%- include date.html date=page.last_modified_at %}</time>
-        {%- endif %}
-        <br>
-        <span>{%- include read-time.html content=content %}</span>
-        {%- if goatcounter.id %}
-        <p><i class="icos eye-solid" width="1em" height="1em"></i> {{ translate.count[page.locale] }} <span id="visits" style="font-weight:bold">...</span> {{ translate.times[page.locale] }}.</p>
-        {%- endif %}
+          {%- include reading-post.html %}
         </div>
     </div>
     {%- endif %}
