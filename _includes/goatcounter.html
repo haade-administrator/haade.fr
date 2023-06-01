@@ -1,0 +1,21 @@
+{%- assign goatcounter = site.goatcounter_analytics %}
+
+<!-- Goatcounter script -->
+<script>
+    var addViews = "{{ page.addViews }}";
+    var addViewsValue = parseInt(addViews);
+  
+    var r = new XMLHttpRequest();
+    r.addEventListener('load', function() {
+      var visits = parseInt(JSON.parse(this.responseText).count);
+      var totalVisits = visits;
+      
+      if (!isNaN(addViewsValue)) {
+        totalVisits += addViewsValue;
+      }
+      
+      document.getElementById('visits').innerText = totalVisits;
+    });
+    r.open('GET', 'https://{{ goatcounter.id }}.goatcounter.com/counter/' + encodeURIComponent(location.pathname) + '.json');
+    r.send();
+  </script>
