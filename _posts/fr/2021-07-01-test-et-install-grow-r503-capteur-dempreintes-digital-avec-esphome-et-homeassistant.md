@@ -2,8 +2,8 @@
 guid: 12
 title: 'Grow R503 Capteur d&#8217;empreintes digital'
 description: "[TEST] et [INSTALL] Grow R503 Capteur d&#8217;empreintes digital avec esphome et homeassistant"
-categories: Tests
-tags: esphome homeassistant
+categories: [Tests, Haade-lab]
+tags: [esphome, homeassistant]
 date: '2021-07-01T19:33:43+00:00'
 last_modified_at:
 author: Nico

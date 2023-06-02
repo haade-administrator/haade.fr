@@ -6,7 +6,7 @@ author: Math67
 layout: post
 date: "2021-08-03"
 last_modified_at:
-categories: Domotique Haade-lab Home-Assistant
+categories: [Domotique, Haade-lab, Home-Assistant]
 tags:
 image: compteur-electrique-homeassistant.png
 locale: fr_FR
