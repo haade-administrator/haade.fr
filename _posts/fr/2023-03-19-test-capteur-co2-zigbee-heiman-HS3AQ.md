@@ -5,7 +5,7 @@ description: "test du capteur de température, humidité, Co2 Heiman Zigbee et i
 layout: post
 author: Nico
 date: 2023-03-19 16:42
-last_modified_at: 
+last_modified_at: 2023-06-03 11:16
 categories: [Tests, Zigbee, Home-Assistant, Jeedom]
 tags: []
 image: 'test-capteur-co2-zigbee-heiman-HS3AQ.png'
@@ -23,6 +23,7 @@ addViews: 87
 comments: true
 rating: 4.2
 sourcelink:
+  - https://www.heimantech.com/product/index.php?type=detail&id=106
 redirect_from:
   - /fr/blog/test-capteur-co2-zigbee-heiman-HSAQ
 ---
