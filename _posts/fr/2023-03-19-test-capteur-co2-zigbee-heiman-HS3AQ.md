@@ -23,6 +23,8 @@ addViews: 87
 comments: true
 rating: 4.2
 sourcelink:
+redirect_from:
+  - /fr/blog/test-capteur-co2-zigbee-heiman-HSAQ
 ---
 
 Aujourd'hui je te présente le capteur de Co2, d'humidité et de température de la marque Heiman HS3AQ, un capteur moderne avec effet mirroir, l'ensemble fonctionnant sous le protocole zigbee 3.0.
@@ -31,7 +33,7 @@ Aujourd'hui je te présente le capteur de Co2, d'humidité et de température de
 
 Comme tu peux le voir sur les différentes photos le produit est très bien fini, l'effet mirroir est présent selon la lumière envirronnante celà peut même devenir gênant. Il faudra absolument le placer dans un endroit ou l'éclairage est faible sinon à part voir ton reflet des beaux jours, tu n'arriveras pas à lire les infos.
 
-**Appairage:**
+## Appairage
 
 L'appairage se fait en maintenant enfoncé les touches + et - durant 5 secondes, suite à ça une indication online apparait il suffira de rappuyer sur la touche + pour activer le décompte d'une minutes pour intégrer le module dans l'assistant domotique.
 
@@ -41,6 +43,8 @@ La qualité d'affichage est top, **la barre verte indique la qualité de l'air, 
 > Le module intègre une batterie de secours, celle-ci tient bien 12 heures.
 
 {% picture posts/{{ page.guid }}/capture-ecran-heiman-HS3AQ-capteur-co2-humidite-temperature-zigbee.png --alt fonctions température humidité heure et co2 du heiman HS3AQ --img width="940" height="529" %}
+
+{% include doclink.html pdf="manuel-utilisateur-sonde-qualite-air-heiman-hs3aq.pdf" title="manuel utilisateur sonde qualité de l'air zigbee heiman HS3AQ" %}
 
 # Intégration dans Jeedom
 

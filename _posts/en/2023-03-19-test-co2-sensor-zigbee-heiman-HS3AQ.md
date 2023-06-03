@@ -23,6 +23,8 @@ addViews: 25
 comments: true
 rating: 4.2
 sourcelink:
+redirect_from:
+  - /en/blog/test-co2-sensor-zigbee-heiman-HSAQ
 ---
 
 Today I present to you the Heiman HS3AQ Co2, humidity and temperature sensor, a modern sensor with mirror effect, all operating under the zigbee 3.0 protocol.
@@ -31,7 +33,7 @@ Today I present to you the Heiman HS3AQ Co2, humidity and temperature sensor, a 
 
 As you can see on the different photos the product is very well finished, the mirror effect is present depending on the surrounding light, it can even become annoying. It will absolutely be necessary to place it in a place where the lighting is weak otherwise apart from seeing your reflection on sunny days, you will not be able to read the news.
 
-**Pairing:**
+## Pairing
 
 The pairing is done by holding down the + and - buttons for 5 seconds, following this an online indication appears, it will suffice to press the + button again to activate the one-minute countdown to integrate the module into the home automation assistant.
 
@@ -41,6 +43,8 @@ The display quality is top, **the green bar indicates the air quality, orange is
 > The module incorporates a backup battery, which lasts well for 12 hours.
 
 {% picture posts/{{ page.guid }}/capture-ecran-heiman-HS3AQ-capteur-co2-humidite-temperature-zigbee.png --alt temperature humidity time and co2 functions of the heiman HS3AQ --img width="940" height="529" %}
+
+{% include doclink.html pdf="manuel-utilisateur-sonde-qualite-air-heiman-hs3aq.pdf" title="user manual air quality sensor zigbee heiman HS3AQ" %}
 
 # Integration in Jeedom
 
