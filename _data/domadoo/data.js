@@ -29,5 +29,6 @@ module.exports = [
     'peripheriques/6413-aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro-6970504217614', // 2159 cube aqara t1 pro
     'peripheriques/6040-loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons', // 2160 telecommande loratap 4 touches
     'peripheriques/6250-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-tringle-6970504216860', // 2161 aqara store controleur rod version
-    'peripheriques/6251-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-rail-6970504215122'  // 2162 aqara curtain driver track version
+    'peripheriques/6251-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-rail-6970504215122',  // 2162 aqara curtain driver track version
+    'objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro' // 2163 NSpanel pro
 ]

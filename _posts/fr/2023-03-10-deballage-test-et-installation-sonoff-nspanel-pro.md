@@ -29,11 +29,11 @@ sourcelink:
 
 Aujourd'hui et grâce à Itead qui nous a fourni le module Nspanel pro ainsi que [son support](https://itead.cc/product/enclosure-stand/ref/122/){: target="_blank" }, je vais pouvoir tester cette fameuse centrale de contrôle domotique et vous donner mon avis sur ce module. Est-ce le module à posséder pour avoir un accès Waf, le module est-il au point ? telles sont les questions que je me pose actuellement.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 Sonoff propose à la vente depuis quelques temps ce module qui vient parfaire la série Nspanel, cette version pro intègre désormais un contrôleur Zigbee en plus du wifi et de l'écran tactile. Les deux boutons de contrôle de lumière ne sont plus présents, cependant l'écran tactile est plus grand et est équipé de deux capteurs de luminosité.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/08/Stand_1000x1000px_01.jpg?fit=1000%2C1000&ssl=1" title="Boitier pour Controleur Nspanel" brand="Sonoff" description="Boitier pour Controleur Sonoff Nspanel Pro, Nspanel en version eu ou us"  iteadlink="enclosure-stand" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/08/Stand_1000x1000px_01.jpg?fit=1000%2C1000&ssl=1" title="Boitier pour Controleur Nspanel" brand="Sonoff" description="Boitier pour Controleur Sonoff Nspanel Pro, Nspanel en version eu ou us" domlink="accessoires-electriques/6616-sonoff-support-de-boitier-de-bureau-pour-nspanel-et-nspanelpro-noir.html" iteadlink="enclosure-stand" %}
 
 # Déballage
 
@@ -215,7 +215,7 @@ Entièrement développé par AlexxIT ce module permet de contrôler facilement l
 - rechargement de l'interface obligatoire pour synchroniser avec le cloud
 - le rechargement de l'interface n'est pas automatique par défaut il faudra créer une automation
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_Dd5b51x" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
 # Conclusion
 
