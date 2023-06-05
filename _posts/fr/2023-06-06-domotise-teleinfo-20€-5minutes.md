@@ -6,7 +6,7 @@ layout: post
 author: Nico
 date: 2023-06-04 21:01
 last_modified_at: 
-categories: [Haade_lab]
+categories: [Haade-lab]
 tags: []
 image: 'picture.png'
 toc: true
