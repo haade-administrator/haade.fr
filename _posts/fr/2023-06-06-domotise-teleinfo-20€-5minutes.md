@@ -11,7 +11,7 @@ tags: []
 image: 'picture.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -24,6 +24,7 @@ rating:
 sourcelink:
   - https://www.tindie.com/stores/hallard/
   - https://github.com/hallard/uTeleinfo/tree/main
+  - https://community.ch2i.eu/category/9/microt%C3%A9l%C3%A9info
 ---
 
 Il y a de nombreuses façons de récupérer la téléinfo du compteur Edf, l'un des derniers modules en date est le Lixee mais il a le désavantage de n'être compatible qu'avec certains compteurs. Je vais te montrer comment faire remonter la téléinfo dans homeassistant pour 20€ sans modules wifi esp32/8266, avec un micro module usb fabriqué par Charles Hallard le dernier en date est le micro téléinfo v3.0 connection par usb.
@@ -98,3 +99,7 @@ Branche le module téléinfo sur ta box domotique
 - récupère le lien exacte de la clé ( voir la capture ci-dessous)
 
 {% picture posts/{{page.guid}}/lien-serie-usb-micro-teleinfo-v3-charles-hallard.png --alt récupération du lien serie de la clé micro téléinfo v3 de charles Hallard dans home assistant --img width="511" height="945" %}
+
+## Parlons du module Micro Téléinfo v3.0 (uteleinfo)
+
+![Transmission iformations led micro Teleinfo v3.0 sur compteur dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/Micro-Teleinfo-v3-charles-hallard-blink.webp{{ cachebuster }}){: width="640" height="430"}{: target="_blank"}
