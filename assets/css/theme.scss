@@ -799,9 +799,12 @@ img:hover {
         .embedproduct a:after {
             display: none;
         }
-        .blueprint a:after {
+        .myhomeassistant {
+            padding-bottom: 20px;
+            a:after {
             display: none;
         }
+    }
     }
     
 }
