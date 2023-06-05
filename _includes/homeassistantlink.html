@@ -1,9 +1,24 @@
+<!-- https://my.home-assistant.io/faq/ -->
 <div class="blueprint">
 {%- if include.bluelink -%}
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url={{ include.bluelink }}" target="_blank"><img src="/assets/images/blueprint_import.svg" class="lazyimg" width="212.5" height="28" alt="Homeassistant Blueprint" /></a>
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url={{ include.bluelink }}" target="_blank"><img src="/assets/images/myhomeassistant/blueprint_import.svg" class="lazyimg" width="212.5" height="28" alt="Homeassistant Blueprint" /></a>
+<!-- Ajout d'un repertoire externe hacs -->
 {%- elsif include.repertory -%}
-<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="/assets/images/hacs-repository.svg" class="lazyimg" width="210.5" height="28" alt="HACS repertoire" /></a>
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="/assets/images/myhomeassistant/hacs-repository.svg" class="lazyimg" width="210.5" height="28" alt="HACS repertoire" /></a>
+<!-- ajout d'une integration homeassistant -->
 {%- elsif include.integration -%}
-<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/ha-integration.svg" class="lazyimg" width="207" height="28" alt="Homeassistant Intégration" /></a>
+<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/myhomeassistant/ha-integration.svg" class="lazyimg" width="207" height="28" alt="Homeassistant Intégration" /></a>
+<!-- Ajout d'un dépot externe dans la boutique des modules complémentaires -->
+{%- elsif include.supervisor_addon_repository -%}
+<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_addon_repository }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon_repository.svg" class="lazyimg" width="197.5" height="28" alt="Homeassistant supervisor add addons repository" /></a>
+<!-- Aller directement dans les paramètres du module présent dans la boutique des modules complémentaires -->
+{%- elsif include.supervisor_addon -%}
+<a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon={{ include.supervisor_addon }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon.svg" class="lazyimg" width="131.5" height="28" alt="Homeassistant supervisor addons" /></a>
+<!-- Aller dans l'onglet utilisateurs -->
+{%- elsif include.users -%}
+<a href="https://my.home-assistant.io/redirect/users/" target="_blank"><img src="/assets/images/myhomeassistant/users.svg" class="lazyimg" width="120" height="28" alt="Homeassistant users" /></a>
+<!-- Aller dans l'onglet paramètres ha -->
+{%- elsif include.settings -%}
+<a href="https://my.home-assistant.io/redirect/config/" target="_blank"><img src="/assets/images/myhomeassistant/settings.svg" class="lazyimg" width="144.5" height="28" alt="Homeassistant settings parameters" /></a>
 {%- endif %}
 </div>
