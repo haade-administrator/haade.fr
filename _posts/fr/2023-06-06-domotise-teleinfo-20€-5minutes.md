@@ -23,6 +23,7 @@ comments: true
 rating:  
 sourcelink:
   - https://www.tindie.com/stores/hallard/
+  - https://github.com/hallard/uTeleinfo/tree/main
 ---
 
 Il y a de nombreuses façons de récupérer la téléinfo du compteur Edf, l'un des derniers modules en date est le Lixee mais il a le désavantage de n'être compatible qu'avec certains compteurs. Je vais te montrer comment faire remonter la téléinfo dans homeassistant pour 20€ sans modules wifi esp32/8266, avec un micro module usb fabriqué par Charles Hallard le dernier en date est le micro téléinfo v3.0 connection par usb.
