@@ -1,7 +1,7 @@
 ---
 guid: 68
 title: "Domotise ton compteur edf pour 20€ en 5 minutes"
-description: "Relève en 5 minutes la téléinfo dans home assistant de n'importe quelle compteur edf avec une clé micro téléinfo v3.0 par charles Hallard à 20€"
+description: "Relève en 5 minutes la téléinfo dans home assistant sur n'importe quel compteur edf avec une clé micro téléinfo v3.0 par charles Hallard à 20€"
 layout: post
 author: Nico
 date: 2023-06-04 21:01
