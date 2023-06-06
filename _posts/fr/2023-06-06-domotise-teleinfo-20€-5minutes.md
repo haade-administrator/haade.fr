@@ -25,6 +25,8 @@ sourcelink:
   - https://www.tindie.com/stores/hallard/
   - https://github.com/hallard/uTeleinfo/tree/main
   - https://community.ch2i.eu/category/9/microt%C3%A9l%C3%A9info
+redirect_from: 
+  - /fr/blog/domotise-teleinfo-20-5minutes
 ---
 
 Il y a de nombreuses façons de récupérer la téléinfo du compteur Edf, l'un des derniers modules en date est le Lixee mais il a le désavantage de n'être compatible qu'avec certains compteurs. Je vais te montrer comment faire remonter la téléinfo dans homeassistant pour 20€ sans modules wifi esp32/8266, avec un micro module usb fabriqué par Charles Hallard le dernier en date est le micro téléinfo v3.0 connection par usb.
@@ -79,12 +81,15 @@ et rajoute ces lignes dans l'onglet logins comme sur la capture d'image ci-desso
 
 ### Module téléinfo2mqtt
 
+[lien github du module téléinfo2mqtt](https://github.com/fmartinou/teleinfo2mqtt){: target="_blank"}
+
 - Installe le module complémentaire téléinfo2mqtt
 
-commence par ajouter le dépôt externe de fmartinu https://github.com/fmartinou/hassio-addons
+commence par ajouter le dépôt externe de fmartinou **https://github.com/fmartinou/hassio-addons**, ou clic directement sur le lien ci-dessous:
+
 {% include homeassistantlink.html supervisor_addon_repository="https://github.com/fmartinou/hassio-addons" %}
 
-- Branche la clé micro téléinvo v3.0 de Charles Hallard sur le raspberry et redémarre homeassistant en haut à droite
+- Branche la clé **micro téléinfo v3.0** de Charles Hallard sur le raspberry et redémarre homeassistant en haut à droite
 
 {% include homeassistantlink.html settings="" %}
 
