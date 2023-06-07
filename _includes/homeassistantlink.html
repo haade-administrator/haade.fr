@@ -20,5 +20,11 @@
 <!-- Aller dans l'onglet paramètres ha -->
 {%- elsif include.settings -%}
 <a href="https://my.home-assistant.io/redirect/config/" target="_blank"><img src="/assets/images/myhomeassistant/settings.svg" class="lazyimg" width="144.5" height="28" alt="Homeassistant settings parameters" /></a>
+<!-- Aller dans l'onglet energie -->
+{%- elsif include.energy -%}
+<a href="https://my.home-assistant.io/redirect/energy/" target="_blank"><img src="/assets/images/myhomeassistant/energy.svg" class="lazyimg" width="129.5" height="28" alt="Homeassistant energy dashboard" /></a>
+<!-- Paramétrer l'onglet energie -->
+{%- elsif include.config_energy -%}
+<a href="https://my.home-assistant.io/redirect/config_energy/" target="_blank"><img src="/assets/images/myhomeassistant/config_energy.svg" class="lazyimg" width="252.5" height="28" alt="Homeassistant settings parameters energy" /></a>
 {%- endif %}
 </div>
