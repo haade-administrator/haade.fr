@@ -5,7 +5,7 @@ description: "Reads the teleinfo in 5 minutes in home assistant on any edf meter
 layout: post
 author: Nico
 date: 2023-06-04 21:01
-last_modified_at: 
+last_modified_at: 2023-06-07 11:17
 categories: [Haade-lab, Tests]
 tags: []
 image: 'micro-teleinfo-v3-homeassistant-teleinfo2mqtt-20€-5minutes.png'
@@ -129,6 +129,31 @@ Once started and the installation complete, by this I mean plugged into the EDF 
 {% include homeassistantlink.html supervisor_addon="9afc8f77_teleinfo2mqtt/logs" %}
 
 {% picture posts/{{page.guid}}/remonte-teleinfo2mqtt-dans-mosquitto.png --alt feedback of tic info in home assistant via mqtt and teleinfo2mqtt --img width="940" height="698" %}
+
+## Raise Power in the Dashboard Home assistant
+
+It is easy to report the total power in the Lovelace dashboard in the form of gauges. Adds a gauge card or gauge in English and adds **the PAPP teleinfo entity**. I have a 12Kv subscription so I made according to my subscription to calibrate the power of the gauge.
+
+{% picture posts/{{page.guid}}/home-assistant-lovelace-gauge-teleinfo-kwh.png --alt PAPP total power setting in Lovelace dashboard of Home assistant --img width="940" height= "674" %}
+
+Do not hesitate to modify the levels according to your electricity subscription.
+
+{% highlight yaml %}
+type: gauge
+name: Volt
+min: 0
+max: 12000
+severity:
+   green: 0
+   yellow: 6000
+   red: 9000
+entity: sensor.teleinfo_XXXXXXXXXXXX_papp
+needle: true
+{% endhighlight %}
+
+> Here is the final result, I find the visual neat and clear.
+
+{% picture posts/{{page.guid}}/lovelace-teleinfo-papp.png --alt PAPP total power boost in Home assistant Lovelace dashboard --img width="482" height="195" %}
 
 ## Energy tab settings
 

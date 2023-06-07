@@ -5,7 +5,7 @@ description: "Relève en 5 minutes la téléinfo dans home assistant sur n'impor
 layout: post
 author: Nico
 date: 2023-06-04 21:01
-last_modified_at: 
+last_modified_at: 2023-06-07 11:17
 categories: [Haade-lab, Tests]
 tags: []
 image: 'micro-teleinfo-v3-homeassistant-teleinfo2mqtt-20€-5minutes.png'
@@ -40,6 +40,13 @@ Il y a de **nombreuses façons** de récupérer la téléinfo du compteur Edf, l
 J'ai pu réaliser cette installation facilement pour un amis qui va domotiser son domicile en montant un raspberry pi 4 dans un boitier rail din directement dans le tableau éléctrique à proximité du compteur EDF.
 
 > cette installation est compatible avec tous les compteurs EDF du marché.
+
+### Liens connexes
+
+[intégrer un compteur éléctrique téléinfo dans home assistant]({% post_url /fr/2021-08-03-integrer-son-compteur-electrique-teleinfo-dans-home-assistant %})
+
+[intégrer la téléinfo au dashboard energie de home assistant]({% post_url /fr/2022-01-03-integrer-la-teleinfo-au-dashboard-energie-dans-home-assistant %})
+
 
 ### Avantage de cette installation:
 {: .blue}
@@ -132,6 +139,31 @@ Une fois démarré et l'installation complète, par là je veux dire branché su
 {% include homeassistantlink.html supervisor_addon="9afc8f77_teleinfo2mqtt/logs" %}
 
 {% picture posts/{{page.guid}}/remonte-teleinfo2mqtt-dans-mosquitto.png --alt remontée des infos tic dans home assistant par le biais mqtt et téléinfo2mqtt --img width="940" height="698" %}
+
+## Remontée Puissance dans le Dashboard Home assistant
+
+Il est facile de faire remonter la pussance totale dans le dashboard Lovelace sous forme de jauges. Ajoute une carte jauge ou gauge en anglais et ajoute **l'entité téléinfo PAPP**. J'ai un abonnement 12Kv donc j'ai fait en fonction de mon abonnement pour calibrer la puissance de la jauge.
+
+{% picture posts/{{page.guid}}/home-assistant-lovelace-gauge-teleinfo-kwh.png --alt paramétrage puissance totale PAPP dans le dashboard Lovelace de Home assistant --img width="940" height="674" %}
+
+N'hésite pas à modifier les pallier suivant ton abonnement éléctrique.
+
+{% highlight yaml %}
+type: gauge
+name: Volt
+min: 0
+max: 12000
+severity:
+  green: 0
+  yellow: 6000
+  red: 9000
+entity: sensor.teleinfo_XXXXXXXXXXXX_papp
+needle: true
+{% endhighlight %}
+
+> Voilà le résultat final, je trouve le visuel net et clair.
+
+{% picture posts/{{page.guid}}/lovelace-teleinfo-papp.png --alt remontée puissance totale PAPP dans le dashboard Lovelace de Home assistant --img width="482" height="195" %}
 
 ## Paramétrage onglet énergie
 
