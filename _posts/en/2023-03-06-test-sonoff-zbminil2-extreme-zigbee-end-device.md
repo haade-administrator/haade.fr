@@ -30,7 +30,7 @@ This is a new module that is worth looking into. **Sonoff** communicates a lot a
 
 First of all I would like to thank [Itead](https://itead.cc/product/sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required/ref/122/){: target="_blank" } for providing me with this module quickly, as well as others that allow me to write this type of article.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" affiliate="_DFMzILF" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DFMzILF" %}
 
 # Unboxing Sonoff ZBMINI L2 Extreme
 
@@ -112,7 +112,7 @@ Unfortunately I don't have the 3 Sonoff modules at hand but I found a video that
 
 I note the arrival on the market of more and more switch modules called "enddevice" probably linked to the integration of the new EFR32MG22 chips from silabs. It has the advantage of being very practical because in most homes in France the switch is not connected to the neutral and is often absent. However, the fact of finding more and more enddevice modules increases the workload of the coordinator and weakens the solidity of the mesh. Zigbee2mqqt [Offers Z-stack update](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG.md){:target ="_blank" } cc2652 TI chips which **now accept more than 100 end devices modules**. What easily accept this type of product.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" affiliate="_DFMzILF" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DFMzILF" %}
 
 # Conclusion
 
