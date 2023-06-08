@@ -20,7 +20,6 @@ group :jekyll_plugins do
     gem 'jekyll_picture_tag'
     gem 'jekyll-redirect-from'
     gem 'jekyll-sass-converter'
-    gem 'sass-embedded', '~> 1.59', '< 1.60.0'
     gem 'feed-normalizer'
     gem 'to_slug'
     gem 'sanitize'
