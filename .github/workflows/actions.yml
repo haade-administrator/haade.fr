@@ -57,7 +57,6 @@ jobs:
           echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
           source ~/.bashrc
           sudo gem install jekyll bundler
-          sass -v
           bundle config set --local path 'vendor/bundle'
           bundle install && bundle update
           bundle exec jekyll clean
