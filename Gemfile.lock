@@ -151,8 +151,8 @@ GEM
     sanitize (6.0.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    sass-embedded (1.63.2)
-      google-protobuf (~> 3.23)
+    sass-embedded (1.62.1)
+      google-protobuf (~> 3.21)
       rake (>= 10.0.0)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -205,6 +205,7 @@ DEPENDENCIES
   rouge
   rss
   sanitize
+  sass-embedded (~> 1.62, <= 1.63)
   to_slug
 
 BUNDLED WITH
