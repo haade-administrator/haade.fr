@@ -45,21 +45,14 @@ async function scrapeDomadoo() {
             totalStarCount: $('a.netreviewsProductWidgetNewLink span').text(),
         };
         const discount = $('.discount-percentage').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace("Économisez ", "-");
-        const available = $('.details-stock-units').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
+        const availabilityValue = $('td.details-stock-units').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
+        const availability = availabilityValue !== '' ? availabilityValue : 'Hors stock';
 
         let availability_date = $('.product-availability-date').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
         const dateRegex = /\d{2}-\d{2}-\d{4}/g;
         const date = dateRegex.exec(availability_date);       
         availability_date = (date) ? date[0] : null;
 
-        let availabilityValue = 0;
-        if (available === "Plus de 20 Produits disponibles") {
-            availabilityValue = 30;
-        } else if (available === "Derniers articles en stock") {
-            availabilityValue = 10;
-        } else if (available === "Indisponible") {
-            availabilityValue = 0;
-        }
         const description = $('*[id^="product-description-short-"]').text().trim().replace(/\n|\r/g, '');
         const specifications = $('#specifications').text().trim().replace(/\n|\r/g, '');
         const image = [];
@@ -93,8 +86,7 @@ async function scrapeDomadoo() {
                 discount,
                 currency,
                 originalPrice,
-                quantity: availabilityValue,
-                available,
+                quantity: availability,
                 supply_date: availability_date,
                 image,
 
