@@ -19,7 +19,7 @@ group :jekyll_plugins do
     gem 'jekyll-gist'
     gem 'jekyll_picture_tag'
     gem 'jekyll-redirect-from'
-    gem "jekyll-sass-converter", "~> 2.0"
+    gem 'jekyll-sass-converter'
     gem 'feed-normalizer'
     gem 'to_slug'
     gem 'sanitize'
