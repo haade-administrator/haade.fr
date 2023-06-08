@@ -32,7 +32,11 @@
       <span class="hero-author">
         <span class="hero-post-author font-weight-bold">{{ latest_post.author }}</span>
         {%- endif %}
+        {%- if latest_post.last_modified_at != nil %}
+        <span class="hero-post-date">-&nbsp;{%- include date.html date=latest_post.last_modified_at %}</span>
+        {%- else %}
         <span class="hero-post-date">-&nbsp;{%- include date.html date=latest_post.date %}</span>
+        {%- endif %}
 </span>
       </div>
       {%- endfor %}
@@ -70,8 +74,12 @@
         <span class="hero-author">
           <span class="hero-post-author font-weight-bold">{{ second_post.author }}</span>
           {%- endif %}
+          {%- if second_post.last_modified_at != nil %}
+          <span class="hero-post-date">-&nbsp;{%- include date.html date=second_post.last_modified_at %}</span>
+          {%- else %}
           <span class="hero-post-date">-&nbsp;{%- include date.html date=second_post.date %}</span>
-          </span>
+          {%- endif %}
+        </span>
         </div>
         {%- endfor %}
       </div>
@@ -108,7 +116,11 @@
           <span class="hero-author">
             <span class="hero-post-author font-weight-bold">{{ third_post.author }}</span>
             {%- endif %}
+            {%- if third_post.last_modified_at != nil %}
+            <span class="hero-post-date">-&nbsp;{%- include date.html date=third_post.last_modified_at %}</span>
+            {%- else %}
             <span class="hero-post-date">-&nbsp;{%- include date.html date=third_post.date %}</span>
+            {%- endif %}
             </span>
         </div>
         {%- endfor %}
@@ -145,7 +157,11 @@
           <span class="hero-author">
             <span class="hero-post-author font-weight-bold">{{ four_post.author }}</span>
             {%- endif %}
+            {%- if four_post.last_modified_at != nil %}
+            <span class="hero-post-date">-&nbsp;{%- include date.html date=four_post.last_modified_at %}</span>
+            {%- else %}
             <span class="hero-post-date">-&nbsp;{%- include date.html date=four_post.date %}</span>
+            {%- endif %}
             </span>
         </div>
         {%- endfor %}

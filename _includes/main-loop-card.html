@@ -17,14 +17,18 @@
 					category }}</a><span class="sep">, </span>
 				{%- elsif page.locale == "en_GB" %}
 				<a class="text-capitalize text-muted smoothscroll"
-				href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}">{{
-				category }}</a><span class="sep">, </span>
+					href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/category/{{ category | downcase }}">{{
+					category }}</a><span class="sep">, </span>
 				{%- endif %}
 				{%- endfor %}
 			</span>
 		</small>
 		<small class="text-muted">
+			{%- if post.last_modified_at != nil %}
+			{%- include date.html date=post.last_modified_at %}
+			{%- else %}
 			{%- include date.html date=post.date %}
+			{%- endif %}
 		</small>
 	</div>
 	{%- if post.image %}
