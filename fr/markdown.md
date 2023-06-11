@@ -134,6 +134,27 @@ def bubble_sort(list).
 end.
 {% endraw %}
 
+avec rendu highlight
+{% highlight yaml %}
+{% raw %}
+def bubble_sort(list).
+  return list if list.size <= 1 # already sorted.
+  swapped = true.
+  while swapped do.
+    swapped = false.
+    0.upto(list.size-2) do |i|.
+      if list[i] > list[i+1].
+        list[i], list[i+1] = list[i+1], list[i] # swap values.
+        swapped = true.
+      end.
+    end.
+  end.
+  list.
+end.
+{% endraw %}
+{% endhighlight %}
+
+
 - [x] #739.
 - [ ] https://github.com/octo-org/octo-repo/issues/740.
 - [ ] Add delight to the experience when all tasks are complete :tada.
