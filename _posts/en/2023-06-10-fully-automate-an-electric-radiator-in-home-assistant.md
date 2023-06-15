@@ -5,7 +5,7 @@ description: "Complete article to automate an electric radiator on a pilot wire 
 layout: post
 author: Nico
 date: 2023-06-10 15:50
-last_modified_at: 
+last_modified_at: 2023-06-15 08:00
 categories: [Haade-lab, Home-Assistant]
 tags: []
 image: 'automate-an-electric-radiator-with-control-inversion-in-home-assistant.png'
