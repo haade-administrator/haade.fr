@@ -1,4 +1,4 @@
-<a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> &nbsp; <i class="icos clock" width="1em" height="1em"></i>
+<a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a> &nbsp; <i class="icos calendar-check" width="1em" height="1em"></i>
 {%- if page.last_modified_at != nil %}
 <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{%- include date.html date=page.last_modified_at %} &nbsp; </time>
 {%- else %}
