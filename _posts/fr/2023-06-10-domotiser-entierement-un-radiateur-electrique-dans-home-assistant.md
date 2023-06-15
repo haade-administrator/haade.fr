@@ -44,9 +44,9 @@ C'est pourquoi je vais détailler la **façon de procéder** pour:
 
 ## Installation du module Zbmini
 
-{% include product-embed.html image="https://www.domadoo.fr/15794-large_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg" title="MICROMODULE COMMUTATEUR CONNECTÉ ZIGBEE - ZBMINI" brand="Sonoff" description="Le micromodule commutateur SONOFF ZBMINI ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison." domlink="peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133.html" %}
+{% include product-embed.html image="sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg" title="MICROMODULE COMMUTATEUR CONNECTÉ ZIGBEE - ZBMINI" brand="Sonoff" description="Le micromodule commutateur SONOFF ZBMINI ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison." domlink="peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133.html" %}
 
-{% include product-embed.html image="https://www.domadoo.fr/36-large_default/diode-de-redressement-1n4007-1-a.jpg" title="DIODE DE REDRESSEMENT 1N4007 (1 A)" brand="" description="La diode de redressement convient pour obtenir un courant unidirectionnel à partir d’un courant alternatif. Cette diode pourra donc vous être utile dans la gestion de chauffage par fil pilote." domlink="accessoires-electriques/108-diode-de-redressement-1n4007-1-a.html" %}
+{% include product-embed.html image="diode-de-redressement-1n4007-1-a.jpg" brand="" description="La diode de redressement convient pour obtenir un courant unidirectionnel à partir d’un courant alternatif. Cette diode pourra donc vous être utile dans la gestion de chauffage par fil pilote." domlink="accessoires-electriques/108-diode-de-redressement-1n4007-1-a.html" %}
 
 {%- include alert.html type="info" text="Si le module est assez loin du routeur zigbee, je te conseil de l'appairer proche de celui-ci avant de l'installer derrière le radiateur" %}
 
@@ -111,7 +111,7 @@ Modifie en fonction de tes entités, le nom de l'entité du zbmini, **dans mon c
 
 Pour pouvoir utiliser la carte générique thermostat, il te faut un thermostat qui soit dans la même pièce que ton radiateur. Pour ce tuto j'ai utilisé un thermostat Orvibo sur pile que j'ai intégré dans Zigbee2mqtt.
 
-{% include product-embed.html image="https://www.domadoo.fr/15452-large_default/orvibo-capteur-de-temperature-et-humidite-zigbee.jpg" title="CAPTEUR DE TEMPÉRATURE ET HUMIDITÉ ZIGBEE" brand="ORVIBO" description="Le capteur ST30 mesure la température et humidité d'une zone de votre logement et informe l'utilisateur par son écran et via une passerelle domotique." domlink="peripheriques/5334-orvibo-capteur-de-temperature-et-humidite-zigbee-6928986703484.html" %}
+{% include product-embed.html image="orvibo-capteur-de-temperature-et-humidite-zigbee.jpg" title="CAPTEUR DE TEMPÉRATURE ET HUMIDITÉ ZIGBEE" brand="ORVIBO" description="Le capteur ST30 mesure la température et humidité d'une zone de votre logement et informe l'utilisateur par son écran et via une passerelle domotique." domlink="peripheriques/5334-orvibo-capteur-de-temperature-et-humidite-zigbee-6928986703484.html" %}
 
 Ci-dessous une capture des commandes exposées du thermostat Orvibo dans Z2M:
 

@@ -44,9 +44,9 @@ That's why I'm going to detail the **how to do it** for:
 
 ## Installing the Zbmini module
 
-{% include product-embed.html image="https://www.domadoo.fr/15794-large_default/sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg" title="ZIGBEE CONNECTED SWITCH MICROMODULE - ZBMINI" brand="Sonoff" description="The SONOFF ZBMINI ZIGBEE switch micromodule offers the possibility of controlling a device/lighting in your home." domlink="peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133.html" %}
+{% include product-embed.html image="sonoff-micromodule-commutateur-connecte-zigbee-zbmini.jpg" title="ZIGBEE CONNECTED SWITCH MICROMODULE - ZBMINI" brand="Sonoff" description="The SONOFF ZBMINI ZIGBEE switch micromodule offers the possibility of controlling a device/lighting in your home." domlink="peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133.html" %}
 
-{% include product-embed.html image="https://www.domadoo.fr/36-large_default/diode-de-redressement-1n4007-1-a.jpg" title="RECTIFIER DIODE 1N4007 (1A)" brand="" description="The rectifier diode is suitable for obtaining unidirectional current from alternating current. This diode may therefore be useful to you in the management of heating by pilot wire." domlink="accessoires-electriques/108-diode-de-redressement-1n4007-1-a.html" %}
+{% include product-embed.html image="diode-de-redressement-1n4007-1-a.jpg" title="RECTIFIER DIODE 1N4007 (1A)" brand="" description="The rectifier diode is suitable for obtaining unidirectional current from alternating current. This diode may therefore be useful to you in the management of heating by pilot wire." domlink="accessoires-electriques/108-diode-de-redressement-1n4007-1-a.html" %}
 
 {%- include alert.html type="info" text="If the module is far enough from the zigbee router, I advise you to pair it close to it before installing it behind the radiator" %}
 
@@ -111,7 +111,7 @@ Modify according to your entities, the name of the zbmini entity, **in my case: 
 
 To be able to use the generic thermostat card, you need a thermostat that is in the same room as your radiator. For this tutorial I used an Orvibo battery-powered thermostat that I integrated into Zigbee2mqtt.
 
-{% include product-embed.html image="https://www.domadoo.fr/15452-large_default/orvibo-capteur-de-temperature-et-humidite-zigbee.jpg" title="ZIGBEE TEMPERATURE AND HUMIDITY SENSOR" brand="ORVIBO" description="The ST30 sensor measures the temperature and humidity of an area of your home and informs the user via its screen and via a home automation gateway." domlink="peripheriques/5334-orvibo-capteur-de-temperature-et-humidite-zigbee-6928986703484.html" %}
+{% include product-embed.html image="orvibo-capteur-de-temperature-et-humidite-zigbee.jpg" title="ZIGBEE TEMPERATURE AND HUMIDITY SENSOR" brand="ORVIBO" description="The ST30 sensor measures the temperature and humidity of an area of your home and informs the user via its screen and via a home automation gateway." domlink="peripheriques/5334-orvibo-capteur-de-temperature-et-humidite-zigbee-6928986703484.html" %}
 
 Below is a capture of the exposed commands of the Orvibo thermostat in Z2M:
 
