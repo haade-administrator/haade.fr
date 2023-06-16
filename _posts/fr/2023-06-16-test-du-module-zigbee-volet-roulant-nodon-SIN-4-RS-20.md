@@ -4,11 +4,11 @@ title: "Test du module zigbee Nodon special volet roulant SIN-4-RS-20"
 description: "Nodon produit plusieurs modules zigbee 3.0 de qualité, dans cet article je vais présenter le module de contrôle de volet roulant SIN-4-RS-20"
 layout: post
 author: Nico
-date: 2023-06-20 08:00
+date: 2023-06-16 10:00
 last_modified_at: 
 categories: [Tests, Zigbee]
 tags: []
-image: 'picture.png'
+image: 'test-module-nodon-zigbee-volet-roulant-SIN-4-RS-20.png'
 toc: true
 beforetoc: ''
 published: false
@@ -41,6 +41,28 @@ Montage sur volet roulant avec ou sans interrupteurs
 Montage sur store bannes avec ou sans interrupteurs
 
 {% picture posts/{{ page.guid }}/Schema_montage_SIN_4-RS-20-Store-Banne-avec-ou-sans-inter.png --alt schéma du module nodon zigbee SIN-4-RS-20 pour store bannes avec ou sans interrupteurs --img width="940" height="470" %}
+
+## Intégration Zibee2mqtt
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zigbee2mqtt.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zigbee2mqtt --img width="940" height="38" %}
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zigbee2mqtt-a-propos.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zigbee2mqtt état --img width="940" height="689" %}
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zigbee2mqtt-expose.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zigbee2mqtt exposition des commandes --img width="940" height="219" %}
+
+## Intégration dans Jeedom avec Zigbee
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-jeedom-zigbee.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans jeedom avec le module zigbee --img width="940" height="270" %}
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-jeedom-zigbee-commande.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans jeedom avec le module zigbee exposition des commandes --img width="940" height="279" %}
+
+## Intégration dans ZHA
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zha.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zha --img width="940" height="33" %}
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zha-a-propos.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zha état du module --img width="940" height="449" %}
+
+{% picture posts/{{ page.guid }}/appairage-nodon-sin-4-rs-20-zha-expose.png --alt intégration du module nodon zigbee SIN-4-RS-20 pour volet roulant dans zha état de entité --img width="604" height="570" %}
 
 
 ## Caractéristiques Techniques
