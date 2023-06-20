@@ -20,7 +20,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
-rating:  
+rating: 5.0
 sourcelink:
   - https://www.tindie.com/stores/hallard/
   - https://github.com/hallard/uTeleinfo/tree/main
