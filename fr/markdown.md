@@ -177,7 +177,9 @@ ___
 # Les produits
 
 ### inclure produit externe
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S88b1ba6506f6436bbccbd8ed76fd711ct/Bo-tier-en-ABS-pour-Raspberry-Pi-4-mod-le-B-montage-sur-Rail-DIN-grand.jpg_Q90.jpg_.webp" title="Boitier rail din raspberry pi 3 ou 4" brand="Waveshare" description="Boîtier en ABS pour Raspberry Pi 4 modèle B, montage sur Rail DIN, grand boîtier de Protection pour RPI 4B Pi4 ou Pi 3B + 3B" affiliate="_DkXxvDl" domlink="" iteadlink="" amazlink="" %}
+
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DFMzILF" iteadlink="" amazlink="" %}
+
 
 ### inclure produit interne à un article
 {% include product-embed.html guid="2123" %}
@@ -190,11 +192,15 @@ ___
 ### inclure images dans article boutique
 **remplacer 2134 par {{ page.guid }}**
 
-{% picture shop/2134/schema-ampoule-branchement.jpg --alt mini interrupteur zigbee tuya compatible prise --img width="790" height="11000" %}
+{% picture shop/2152/boitier-encastrement-micromodule-blm-3.jpg --alt mini interrupteur zigbee tuya compatible prise --img width="800" height="300" %}
 
 ### intégrer une video youtube
 
 {% include youtubePlayer.html id="wAMIKhMkSFA" %}
+
+### intégrer un podcast spotify
+
+{% include spotify-podcast.html id="5AU3GzHiJhrRgUsJ8iEdxZ" %}
 
 ### inclure un message d'alerte
 
