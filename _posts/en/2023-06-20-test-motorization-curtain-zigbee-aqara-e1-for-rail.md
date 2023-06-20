@@ -1,6 +1,6 @@
 ---
 guid: 72
-title: "motorization module test for Aqara curtain driver E1 curtain"
+title: "motorization module test for Aqara curtain driver E1"
 description: "complete test of the module for opening and closing of curtain Aqara E1 rail version with integration in zigbee2mqtt, zha and Jeedom, automates curtains in Zigbee"
 ref: "Aqara curtain driver E1 track version"
 layout: post
