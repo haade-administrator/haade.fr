@@ -5,7 +5,7 @@ description: "complete test of the module for opening and closing of curtain Aqa
 ref: "Aqara curtain driver E1 track version"
 layout: post
 author: Nico
-date: 2023-06-19 13:26
+date: 2023-06-20 13:26
 last_modified_at: 
 categories: [Tests, Zigbee, Home-Assistant]
 tags: []

@@ -5,7 +5,7 @@ description: "test complet du module pour ouverture et fermeture de rideau Aqara
 ref: "Aqara curtain driver E1 rail version"
 layout: post
 author: Nico
-date: 2023-06-19 13:26
+date: 2023-06-20 13:26
 last_modified_at: 
 categories: [Tests, Zigbee, Home-Assistant]
 tags: []
