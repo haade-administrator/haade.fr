@@ -18,6 +18,7 @@ aep-item: 1005001388390681
 aep-item-affiliate: "_DBXSkgT"
 redirect_from: 
     - /produit/camera-colorvu-protocol-hikvision/
+    - /produit/camera-colorvu-protocol-hikvision/amp/
 ---
 
 Les caméra chinoises colorvu intégrant le protocole hikvision sont vraiment impressionnante rapport qualité prix.

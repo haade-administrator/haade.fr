@@ -13,8 +13,15 @@ Disallow: /hot/
 Disallow: /forum/
 Disallow: /forums/
 Disallow: /reaction/
-Disallow: /snax_format/
 Disallow: /wp-content/
+Disallow: /freetronic/
+Disallow: /activite/
+Disallow: /snax_posts/
+Disallow: /snax_items/
+Disallow: /snax_format/
+Disallow: /members/
+Disallow: /fbr1969/
+Disallow: /cmtm78/
 
 Sitemap: https://haade.fr/sitemap.xml
 

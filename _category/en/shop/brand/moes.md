@@ -12,5 +12,6 @@ sitemap:
   lastmod:  # date to end modification
 redirect_from: 
   - /en/categorie-produit/brand/moes/
+  - /en/category/moes/
   - /en/category/moes
 ---

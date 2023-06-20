@@ -13,4 +13,5 @@ sitemap:
 redirect_from: 
   - /en/categorie-produit/protocol/zwave/
   - /en/category/z-wave
+  - /en/category-product/z-wave
 ---

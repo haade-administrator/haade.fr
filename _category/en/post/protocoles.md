@@ -12,4 +12,5 @@ sitemap:
 redirect_from: 
   - /en/blog/category/home-automation-smarthome-jeedom-homeassistant/protocoles/
   - /en/category/protocoles
+  - /en/category/protocol/
 ---

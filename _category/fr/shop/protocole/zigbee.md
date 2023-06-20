@@ -16,4 +16,5 @@ redirect_from:
   - /categorie-produit/zigbee/?amp
   - /categorie-produit/zigbee/
   - /fr/category/zigbee
+  - /categorie-produit/zigbee/feed/
 ---
