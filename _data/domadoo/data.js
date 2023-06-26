@@ -1,6 +1,6 @@
 module.exports = [
     'box/6483-fibaro-controleur-domotique-z-wave-700-home-center-3-lite-5902701702519',
-    'peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133',
+    'peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133',       // 212 sonoff zbmini
     'interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e',
     'objets-connectes/5985-sonoff-interrupteur-mural-nspanel-smart-scene-eu',                       // Sonoff nspanel
     'peripheriques/6473-neo-prise-intelligente-zigbee-tuya-16a-mesure-de-consommation',             // Prise Neo coolcam 007SPB2
@@ -32,5 +32,6 @@ module.exports = [
     'peripheriques/6251-aqara-motorisation-pour-rideau-zigbee-30-aqara-curtain-driver-e1-version-rail-6970504215122',  // 2162 aqara curtain driver track version
     'objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro', // 2163 NSpanel pro
     'peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2', // 2164 sonoff zbminil2
-    'peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133' // 2165 ZBmini
+    'peripheriques/6702-neo-prise-intelligente-wifi-matter-16a-version-francaise', // 2165 neo Matter wr15w6
+    'peripheriques/6476-neo-prise-intelligente-wifi-matter-16a-version-schuko'  // 2166 neo matter wr10w6 schuko
 ]
