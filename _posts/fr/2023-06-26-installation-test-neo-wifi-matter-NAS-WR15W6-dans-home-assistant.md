@@ -1,13 +1,13 @@
 ---
 guid: 73
-title: "test et installation prise neo NAS-WR15W6 Matter dans Home-assistant"
+title: "Test et installation prise neo NAS-WR15W6 Matter dans Home-assistant"
 description: "Une première dans cet article nous allons tester et integrer la prise Neo NAS-WR15W6 protocole Matter dans home assistant, google Home et Tuya"
 ref: "NAS-WR15W6"
 layout: post
 author: Nico
 date: 2023-06-23 14:10
 last_modified_at: 
-categories: [News, Tests, Matter]
+categories: [News, Tests, Matter, Home-Assistant]
 tags: []
 image: 'test-installation-matter-home-assistant-neo-smart-power-plug-NAS-WR15W6.png'
 toc: true
