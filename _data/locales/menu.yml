@@ -92,6 +92,24 @@ jeedom:
     name: 'Jeedom'
     link: 'en/category/jeedom'
 
+protocols:
+  fr_FR:
+    name: 'Protocoles'
+    link: 'fr/categorie/protocoles'
+  
+  en_GB:
+    name: 'Protocols'
+    link: 'en/category/protocols'
+
+matter:
+  fr_FR:
+    name: 'Matter'
+    link: 'fr/categorie/matter'
+
+  en_GB:
+    name: 'Matter'
+    link: 'en/category/matter'
+
 news:
   fr_FR:
     name: 'News'
