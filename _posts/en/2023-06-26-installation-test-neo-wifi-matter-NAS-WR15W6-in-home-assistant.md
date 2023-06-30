@@ -6,7 +6,7 @@ ref: "NAS-WR15W6"
 layout: post
 author: Nico
 date: 2023-06-23 14:10
-last_modified_at: 
+last_modified_at: 2023-06-26 11:00
 categories: [News, Tests, Matter, Home-Assistant]
 tags: []
 image: 'test-installation-matter-home-assistant-neo-smart-power-plug-NAS-WR15W6.png'
