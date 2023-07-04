@@ -102,7 +102,7 @@ The advantage of the up2stream card lies in the fact that you can connect to it 
 
 # Integration in Homeassistant with [HACS](https://github.com/hacs/integration){: target="_blank"}.
 
-Linkplay can be used in Homeassistant with the implementation of the HACS library, to install it follow the official tutorial [HACS](https://github.com/hacs/integration){: target="_blank"}. 
+Linkplay can be used in Homeassistant with the implementation of the HACS library, to install it follow the official tutorial [HACS](https://hacs.xyz/docs/setup/prerequisites){: target="_blank"}. 
 Then just go to HACS > integration > explore and download repositories.
 Search linkplay and install it.
 

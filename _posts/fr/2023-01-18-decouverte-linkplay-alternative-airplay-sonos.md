@@ -102,7 +102,7 @@ L'avantage de la carte up2stream réside dans le fait qu'on puisse s'y connecter
 
 # Intégration dans Homeassistant avec [HACS](https://github.com/hacs/integration){: target="_blank"}.
 
-Linkplay est utilisable dans Homeassistant avec l'implantation de la librairie HACS, pour l'installer suis le tutoriel officiel [HACS](https://github.com/hacs/integration){: target="_blank"}. 
+Linkplay est utilisable dans Homeassistant avec l'implantation de la librairie HACS, pour l'installer suis le tutoriel officiel [HACS](https://hacs.xyz/docs/setup/prerequisites){: target="_blank"}. 
 Ensuite il te suffit d'aller dans HACS > intégration > explorer et télécharger des dépôts.
 Cherche linkplay et installe-le.
 
