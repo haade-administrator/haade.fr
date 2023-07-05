@@ -5,9 +5,12 @@
 <!-- Ajout d'un repertoire externe hacs -->
 {%- elsif include.repertory -%}
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="/assets/images/myhomeassistant/hacs-repository.svg" class="lazyimg" width="210.5" height="28" alt="HACS repertoire" /></a>
+<!-- dashboard intégrration appareil et service -->
+{%- elsif include.dashintegration -%}
+<a href="https://my.home-assistant.io/redirect/integrations/" target="_blank"><img src="/assets/images/myhomeassistant/integrations.svg" class="lazyimg" width="180.5" height="28" alt="Homeassistant Intégration" /></a>
 <!-- ajout d'une integration homeassistant -->
 {%- elsif include.integration -%}
-<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/myhomeassistant/ha-integration.svg" class="lazyimg" width="207" height="28" alt="Homeassistant Intégration" /></a>
+<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/myhomeassistant/config_flow_start.svg" class="lazyimg" width="207" height="28" alt="Homeassistant add Intégration" /></a>
 <!-- Ajout d'un dépot externe dans la boutique des modules complémentaires -->
 {%- elsif include.supervisor_addon_repository -%}
 <a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_addon_repository }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon_repository.svg" class="lazyimg" width="197.5" height="28" alt="Homeassistant supervisor add addons repository" /></a>
