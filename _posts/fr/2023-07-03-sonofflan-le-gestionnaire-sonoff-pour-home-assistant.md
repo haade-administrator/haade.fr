@@ -1,8 +1,8 @@
 ---
 guid: 74
-title: "Sonofflan"
-description: "sonofflan"
-ref: ""
+title: "SonoffLAN intégrer facilement les modules Sonoff wifi"
+description: "SonoffLAN est un module complémentaire qui te permet de façon simple et efficace d'intégrer les modules wifi de la marque Sonoff dans Home Assistant. Je profite de cet article pour te présenter le module Commutateur et compteur d'énergie intelligent wifi Sonoff POW Elite POWR316D compatible rail din"
+ref: "POW Elite POWR316D"
 layout: post
 author: Nico
 date: 2023-07-02 17:53
