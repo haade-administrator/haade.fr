@@ -33,7 +33,7 @@ Cette fois, j'ai décidé de rédiger un **article 2 en 1**, afin de te présent
 
 - Home Assistant
 - Le Gestionnaire de paquet HACS d'installé
-- un module [Sonoff wifi 16/20A commutateur de puissance](https://www.domadoo.fr/fr/peripheriques/6659-sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite.html?domid=39){: target="_blank"v}
+- un module [Sonoff wifi 16/20A commutateur de puissance](https://www.domadoo.fr/fr/peripheriques/6659-sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite.html?domid=39){: target="_blank"}
 - l'application Ewelink d'installé sur ton tél
 
 ## Pourquoi SonoffLAN ?
