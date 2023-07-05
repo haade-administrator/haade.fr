@@ -29,6 +29,8 @@ sourcelink:
 
 Cette fois, j'ai décidé de rédiger un **article 2 en 1**, afin de te présenter l'intégration des modules Sonoff via l'application **SonoffLAN** créé par [AlexxIT](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} qui te permet **simplement et facilement** d'intégrer les modules sonoff dans Home assistant et de choisir selon les modules si tu veux qu'ils fonctionnent **avec ou sans cloud** [(voir la liste des modules compatibles)](https://github.com/AlexxIT/SonoffLAN#tested-devices){: target="_blank"} J'ai choisi en exemple l'intégration du module Sonoff commutateur de puissance 16A {{ page.ref }}, que je vais te présenter ( déballage, test).
 
+{% include product-embed.html guid="2167" %}
+
 ## Prérequis
 
 - Home Assistant

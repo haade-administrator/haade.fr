@@ -29,6 +29,8 @@ sourcelink:
 
 This time, I decided to write a **2 in 1 article**, in order to introduce you to the integration of Sonoff modules via the **SonoffLAN** application created by [AlexxIT](https://github. com/AlexxIT/SonoffLAN){: target="_blank"} which allows you **simply and easily** to integrate sonoff modules in Home assistant and choose according to the modules if you want them to work **with or without cloud** [(see the list of compatible modules)](https://github.com/AlexxIT/SonoffLAN#tested-devices){: target="_blank"} I chose as an example the integration of the module Sonoff 16A power switch {{ page.ref }}, which I will present to you (unpacking, test).
 
+{% include product-embed.html guid="2167" %}
+
 ## Prerequisites
 
 -Home Assistant
