@@ -33,5 +33,7 @@ module.exports = [
     'objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro', // 2163 NSpanel pro
     'peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2', // 2164 sonoff zbminil2
     'peripheriques/6702-neo-prise-intelligente-wifi-matter-16a-version-francaise', // 2165 neo Matter wr15w6
-    'peripheriques/6476-neo-prise-intelligente-wifi-matter-16a-version-schuko'  // 2166 neo matter wr10w6 schuko
+    'peripheriques/6476-neo-prise-intelligente-wifi-matter-16a-version-schuko',  // 2166 neo matter wr10w6 schuko
+    'peripheriques/6659-sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite', // 2167 powr316d sonoff
+    'peripheriques/6660-sonoff-commutateur-de-compteur-de-puissance-intelligent-20a-avec-ecran-pow-elite' // 2168 powr320d sonoff
 ]

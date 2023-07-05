@@ -33,7 +33,7 @@ J'ai décidé de rédiger un article 2 en 1, afin de te présenter l'intégratio
 
 - Home Assistant
 - Le Gestionnaire de paquet HACS d'installé
-- un module Sonoff wifi
+- un module [Sonoff wifi 16/20A commutateur de puissance](https://www.domadoo.fr/fr/peripheriques/6659-sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite.html?domid=39){: target="_blank"v}
 - l'application Ewelink d'installé sur ton tél
 
 ## Pourquoi SonoffLAN ?
@@ -86,6 +86,31 @@ Commme je l'ai dit plus haut je vais utiliser le module sonoff {{ page.ref }} co
 
 ### Petit tour d'horizon du module
 
+{% picture posts/{{ page.guid }}/sonoff-smart-power-meter-wifi-powr316d.png --alt integration sonoff powr316d smart meter avec sonofflan dans home assistant --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite.png --alt présentation du module pow elite 16A sonoff --img width="940" height="529" %}
+
+Après un redémarrage de Home Assistant
+
+{% picture posts/{{ page.guid }}/appareils-sonofflan-homeassistant.png --alt remontée de appareil dans sonofflan --img width="263" height="123" %}
+
+{% picture posts/{{ page.guid }}/entité-appareil-sonofflan.png --alt états des appareils Sonoff dans Sonofflan --img width="940" height="441" %}
+
+{% picture posts/{{ page.guid }}/sonofflan-configurer-lan-cloud.png --alt paramétrage de Sonofflan en mode auto, cloud ou local --img width="940" height="682" %}
+
+## Conclusion
+
+
+
+
+
+
+Version 16A
+{% include product-embed.html guid="2167" %}
+
+Version 20A
+{% include product-embed.html guid="2168" %}
+
 Franchement c'est un module de qualité, l'emballage aux couleurs turquoises signe de la marque sont propres. livré sans fioriture avec une notice et deux visses pour verrouiller le clapet de conncetions.
 
 La connectique et épaisse et de qualité, le branchement simple à réaliser.
@@ -93,6 +118,32 @@ La connectique et épaisse et de qualité, le branchement simple à réaliser.
 Passons à l'inclusion
 
 Il faudra l'inclure en mode bluetooth pas en wifi
+
+![remontée d'info ecran digital sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/sonoff-smart-power-meter-powr316d-display.webp{{ cachebuster }}){: width="250" height="400"}
+
+integration-module-sonoff-app-ewelink.webp
+
+![inclusion ewelink app sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/integration-module-sonoff-app-ewelink.webp{{ cachebuster }}){: width="300" height="650"}
+
+![entité découvert dans home assistant sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/entité-powr316d.webp{{ cachebuster }}){: width="940" height="789"}
+
+### **les + du produit**
+{: .blue}
+- la qualité de fabrication
+- intégration facile et complète avec sonofflan
+- le prix moins de 20€ ( version 16A)
+- compatible rail din
+- retour d'énergie
+- idéal pour chauffe eau (20A)
+- fonctionne en mode lan
+
+### **les - du produit**
+{: .red}
+- compatible wifi 802.11 bgn
+- la taille
+
+## Conclusion
+
 
 
 
