@@ -5,7 +5,7 @@ description: "SonoffLAN is an add-on that allows you to easily and effectively i
 ref: "POW Elite POWR316D"
 layout: post
 author: Nico
-date: 2023-07-02 17:53
+date: 2023-07-05 17:53
 last_modified_at: 
 categories: [Haade-lab, Tests, Home-Assistant]
 tags: []

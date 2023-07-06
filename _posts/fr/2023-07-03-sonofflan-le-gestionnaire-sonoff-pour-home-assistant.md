@@ -5,7 +5,7 @@ description: "SonoffLAN est un module complémentaire qui te permet de façon si
 ref: "POW Elite POWR316D"
 layout: post
 author: Nico
-date: 2023-07-02 17:53
+date: 2023-07-05 17:53
 last_modified_at: 
 categories: [Haade-lab, Tests, Home-Assistant]
 tags: []
@@ -41,7 +41,7 @@ Cette fois, j'ai décidé de rédiger un **article 2 en 1**, afin de te présent
 ## Pourquoi SonoffLAN ?
 
 **Car il est simple d'utilisation**, l'intégration dans Home Assistant est nickel. Mais ce n'est pas ça le plus important, tu pourras choisir si tu veux oui ou non te passer du cloud chinois d'ewelink. 
-> Parce que oui, si tu choisi d'acheter un module wifi Sonoff il fonctionnera par défaut sur le Cloud.
+> Parce que oui, si tu choisis d'acheter un module wifi Sonoff, il fonctionnera par défaut sur le **Cloud**.
 
 D'ailleurs Ewelink a développé un module fonctionnel sous home Assistant, il te faudra home assistant version OS et ajouter le dépot suivant:
 
@@ -78,7 +78,7 @@ Ou alors tu clic directement sur le liens ci-dessous pour ajouter l'intégration
 
 {%- include homeassistantlink.html integration="sonoff" %}
 
-> Voilà il ne te reste plus qu'à rentrer le login et mot de passe ewelink et de valider.
+> Voilà il ne te reste plus qu'à rentrer le login et mot de passe **ewelink** et valider.
 
 {% picture posts/{{ page.guid }}/sonofflan-integration.png --alt integration sonofflan dans home assistant --img width="410" height="325" %}
 
