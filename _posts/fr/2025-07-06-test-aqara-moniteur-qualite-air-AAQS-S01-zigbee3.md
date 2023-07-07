@@ -25,4 +25,5 @@ rating:
 sourcelink:
   - https://www.aqara.com/eu/product/tvoc-air-quality-monitor
   - https://www.domadoo.fr/fr/peripheriques/5751-aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs-s01-6970504214644.html?domid=39
+  - https://zigbee.blakadder.com/Aqara_AAQS-S01.html
 ---
