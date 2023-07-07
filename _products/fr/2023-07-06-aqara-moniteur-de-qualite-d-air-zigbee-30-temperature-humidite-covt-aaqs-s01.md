@@ -13,7 +13,7 @@ image: 'aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs
 imageshadow: true
 comments: false
 rating:  
-published: false
+published: true
 aep-item: 
 aep-item-affiliate: ""
 dom-item: "AAQS-S01"
