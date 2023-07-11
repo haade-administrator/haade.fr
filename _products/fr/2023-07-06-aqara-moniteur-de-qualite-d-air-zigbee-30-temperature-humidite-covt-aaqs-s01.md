@@ -7,7 +7,7 @@ description: "Le moniteur de qualité d'air Aqara AAQS-S01 peut détecter la con
 categories: [Boutique, Aqara, Zigbee]
 tags: []
 locale: fr_FR
-brand: Moes
+brand: Aqara
 ean: 
 image: 'aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs-s01.jpg'
 imageshadow: true
