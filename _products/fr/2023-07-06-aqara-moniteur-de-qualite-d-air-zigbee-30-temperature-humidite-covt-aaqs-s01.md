@@ -44,15 +44,15 @@ Automatisations intelligentes utilisant une passerelle compatible
 
 ## CARACTERISTIQUES TECHNIQUES :
 
-Alimentation: 2 piles CR2450
-Durée de vie de la batterie: 1 an
-Communication: Zigbee 3.0 IEEE 802.15.4
-Plage de détection de température: -20 - 60 ° C
-Résolution de température: 0,1 ° C
-Plage de détection d'humidité: 0-100% HR
-Résolution d'humidité: 1%
-Plage de détection TVOC: 0 ~ 25 mg / m³
-Résolution TVOC: 1ppb ou 0,01 mg / m³
-Température de fonctionnement: 0-50 ° C
-Dimensions: 41,6 × 76,0 × 14 mm
-Poids: 56 g
+|Alimentation|2 piles CR2450|
+|Durée de vie de la batterie|1 an|
+|Communication|Zigbee 3.0 IEEE 802.15.4|
+|Plage de détection de température|-20 - 60 ° C|
+|Résolution de température|0,1 ° C|
+|Plage de détection d'humidité|0-100% HR|
+|Résolution d'humidité|1%|
+|Plage de détection COV|0 ~ 25 mg / m³|
+|Résolution COV|1ppb ou 0,01 mg / m³|
+|Température de fonctionnement|0-50 ° C|
+|Dimensions|41,6 × 76,0 × 14 mm|
+|Poids|56 g|
