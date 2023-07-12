@@ -28,7 +28,42 @@ sourcelink:
   - https://zigbee.blakadder.com/Aqara_AAQS-S01.html
 ---
 
-Le moniteur de qualité d'air Aqara AAQS-S01 peut détecter la concentration et le niveau de COVT dans l'air, ainsi que la température et l'humidité
+Voilà un module niche qui n'a pas vraiment de concurrence signé Aqara et prêté par Domadoo, le module {{ page.ref }} permet de relever en temps réel la qualité de l'air mais pas que !
+
+Le moniteur de qualité d'air Aqara AAQS-S01 peut détecter la concentration et le niveau de COVT dans l'air, ainsi que la température et l'humidité.
+
+{% picture posts/{{ page.guid }}/aqara-AS029GL-AAQS-S01-TVOC-moniteur-qualité-air-zigbee-boite.png --alt qualité emballage aqara qualité air {{ page.ref }} --img width="940" height="529" %}
+
+Aqara signe là un module de granqe qualité comme pour l'ensemble de la gamme l'emballage est digne des plus grand, il ne manque rien.
+
+{% picture posts/{{ page.guid }}/aqara-AS029GL-AAQS-S01-TVOC-moniteur-qualité-air-zigbee-deballage.png --alt contenu du module aqara qualité air {{ page.ref }} --img width="940" height="529" %}
+
+Le module est fabriqué dans un plastique solide et l'ecran lcd est de **type epaper** autant dire que la visibilité des données est au rendez-vous.
+
+**Il est livré avec:**
+- la notice
+- un magnet
+- un double face
+
+> Pour éviter que les piles s'usent les contacts sont protégés par un ruban en plastique ( à retirer lors de la première utilisation ).
+
+**L'ecran epaper:** je trouve que pour ce type de module l'affichage lcd epaper est parfait, la lisibilité est extra quelque soit l'angle de vision, un gros plus merci Aqara.
+
+{% picture posts/{{ page.guid }}/aqara-AS029GL-AAQS-S01-TVOC-moniteur-qualité-air-zigbee-visibilite-ecran-epaper.png --alt ecran epaper du module aqara qualité air {{ page.ref }} --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/aqara-AS029GL-AAQS-S01-TVOC-moniteur-qualité-air-pile-et-divers-ecran.png --alt differents affichage decran du module aqara qualité air {{ page.ref }} --img width="940" height="529" %}
+
+Tu remarqueras que le module Aqara {{ page.ref }} fonctionne avec 2 piles CR2450 de marque Panasonic. C'est un bon point pour la qualité des piles mais ça presage un module à forte consommation de pile. Par défaut Aqara garantie la durée de vie des piles de 1 an max. L'ecran plus les diverses sondes sont probablemant énergivore.
+
+Un double clic sur le bouton du dessus te permet de passer d'un affichage à l'autre. Aqara {{ page.ref }} peut se paramétrer en 3 affichages différents.
+
+> ps: en haut à droite un rectangle apparait lors de l'appairage dans un réseau zigbee.
+
+**Affichage 1:** température et humidité
+**Affichage 2:** Cov en ppg, température et humidité
+**Affichage 3:** Cov en bargraph, température et humidité
+
+> Perso je préfère l'affichage 3, le fait d'afficher une qualité de l'air en noté sur 5 est plus lisible et beaucoup plus parlant.
 
 {% include product-embed.html guid="2169" %}
 
