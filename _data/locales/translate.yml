@@ -226,3 +226,14 @@ footer:
   submit:
     fr_FR: Envoyer
     en_GB: Send
+
+# ezsp.html
+
+ezsp:
+  note:
+    fr_FR: "**REMARQUE:** Assurez-vous de fermer tout ce qui utilise le port série de votre appareil"
+    en_GB: "**NOTE:** Make sure to close anything using your devices serial port"
+
+  supported:
+    fr_FR: "Votre navigateur ne prend pas en charge l'API WebSerial. Essayez les navigateurs Chrome ou Edge."
+    en_GB: "Your browser does not support the WebSerial API. Try Chrome or Edge browsers."

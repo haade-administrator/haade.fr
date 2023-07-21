@@ -27,9 +27,16 @@ sourcelink:
   - https://sonoff.tech/wp-content/uploads/2023/02/SONOFF-Zigbee-3.0-USB-dongle-plus-firmware-flashing.pdf
   - https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E/NCP
   - https://skyconnect.home-assistant.io/documentation/
+  - https://github.com/darkxst/silabs-firmware-builder
 ---
 
 Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de Sonoff ZBDongle-E, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de 1024k de RAM, et ce n'est pas le cas pour la Skyconnect de Nabu Casa. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+
+{% include flashfirmware/ezsp.html hub="zbdongle-e" %}
+{% include flashfirmware/ezsp.html hub="zb-gw04-11" %}
+{% include flashfirmware/ezsp.html hub="zb-gw04-12" %}
+{% include flashfirmware/ezsp.html hub="skyconnect" %}
+
 
 {% include product-embed.html guid="2128" %}
 {% include product-embed.html guid="2170" %}

@@ -1,0 +1,29 @@
+<!-- https://github.com/darkxst/silabs-firmware-builder -->
+<!-- https://github.com/darkxst/sl-test -->
+
+{%- assign translate = site.data.locales.translate.ezsp %}
+
+<script type="module" src="https://unpkg.com/@nabucasa/sl-web-tools@0.10.0/dist/web/nabucasa-zigbee-flasher.js?module">
+</script>
+
+{%- if include.hub == "zbdongle-e" %}
+<nabucasa-zigbee-flasher manifest="/assets/manifests/zbdongle-e.json"><span slot="button">Connect ZBDongle-E</span></nabucasa-zigbee-flasher>
+{%- elsif include.hub == "zb-gw04-11" %}
+<nabucasa-zigbee-flasher manifest="/assets/manifests/zb-gw04-v1.1.json"><span slot="button">Connect ZB-GW04 v1.1</span></nabucasa-zigbee-flasher>
+{%- elsif include.hub == "zb-gw04-12" %}
+<nabucasa-zigbee-flasher manifest="/assets/manifests/zb-gw04-v1.2.json"><span slot="button">Connect ZB-GW04 v1.2</span></nabucasa-zigbee-flasher>
+{%- elsif include.hub == "skyconnect" %}
+<nabucasa-zigbee-flasher manifest="/assets/manifests/skyconnect.json"><span slot="button">Connect Skyconnect</span></nabucasa-zigbee-flasher>
+{%- endif %}
+
+<span>{{ translate.note[page.locale] }}</span>
+
+<div id="notSupported" style="display: none;">
+    {{ translate.supported[page.locale] }}
+</div>
+
+<script>
+    if (!navigator.serial) {
+        document.getElementById("notSupported").style.display = 'block';
+    }
+</script>
