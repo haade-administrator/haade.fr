@@ -1,7 +1,7 @@
 ---
 guid: 76
-title: "EFR32MG21 compatible Zigbee/Matter ?"
-description: "Dans un précédent article je mettais en garde sur la faisabilité d'utiliser les deux protocoles Zigbee/Matter en même temps sur une clé à base de puce EFR32MG21, avons nous de nouvelles infos à ce sujet ?"
+title: "EFR32MG21 compatible Zigbee et Matter"
+description: "Flasher le Sonoff zbdongle-e, skyconnect pour activer Matter thread et zigbee en même temps basé sur la puce Silabs EFR32MG21 est désormais faisable. En parcourant cet article tu découvriras la manip ultra simple à réaliser en cliquant simplement sur un bouton pour activer le multi-protocole et l'utiliser dans home assistant."
 ref: ""
 layout: post
 author: Nico
@@ -28,14 +28,58 @@ sourcelink:
   - https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/tree/master/Dongle-E/NCP
   - https://skyconnect.home-assistant.io/documentation/
   - https://github.com/darkxst/silabs-firmware-builder
+  - https://dialedin.com.au/blog/sonoff-zbdongle-e-rcp-firmware
 ---
 
-Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de Sonoff ZBDongle-E, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de 1024k de RAM, et ce n'est pas le cas pour la Skyconnect de Nabu Casa. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+**Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané** pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de Sonoff ZBDongle-E, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de 1024k de RAM, et ce n'est pas le cas pour la Skyconnect de Nabu Casa. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+
+## Tableau de prise en charge
+
+|Cas d'utilisation|Protocoles|Image OTA|EFR32MG21<br>1024 ko Flash<br>96 ko RAM|EFR32MG24<br>1536 ko Flash<br>256 ko RAM|
+|-----------------|----------|---------|---------------------------------------|----------------------------------------|
+|Passerelle Matter -> thread|Mode RCP à protocole unique|Flash externe (hôte)|✔|✔|
+|Passerelle Matter -> Zigbee/Thread|**Zigbee simultané/thread**<br>dynamique 802.15.4/Bluetooth LE¹|Flash externe (hôte)|✔|✔|
+|Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash externe||✔|
+|Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash interne||✔|
+
+**Mieux encore grâce au travail de Nabu Casa et darkxst** il est désormais possible de flasher dans ton navigateur la liste des clés ci-dessous par simple clic sur un bouton et de choisir le firmware à installer. Le tout sans avoir à accéder au circuit imprimé de la clé.
+
+## Installation des nouveaux firmwares
+
+### liste des clés
+
+1. Skyconnect de Home Assistant (nabu casa)
+2. ITead Sonoff Zigbee 3.0 USB Dongle Plus V2 model "ZBDongle-E"
+3. CoolKit ZB-GW04 USB dongle (a.k.a. easyiot stick)
+4. Z-Wave.Me Z-Station dual Zigbee & Z-Wave
+
+### Liste des firmwares dispo
+
+- Zigbee ezsp ( v7.3.0.0 )
+- Multi-protocole rcp (MULTI-PAN v4.3.0) 
+- Openthread ( v2.3.0.0 )
+- choisir un firmware **personnalisé**
+
+### Flash Nabu Casa Skyconnect
+
+{% include flashfirmware/ezsp.html hub="skyconnect" %}
+
+### Flash Sonoff ZBDongle-E
 
 {% include flashfirmware/ezsp.html hub="zbdongle-e" %}
+
+[Lien du firmware original Sonoff ZBDongle-e](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/raw/master/Dongle-E/NCP/ncp-uart-sw_EZNet6.10.3_V1.0.1.gbl)
+
 {% include flashfirmware/ezsp.html hub="zb-gw04-11" %}
+
+
+
 {% include flashfirmware/ezsp.html hub="zb-gw04-12" %}
-{% include flashfirmware/ezsp.html hub="skyconnect" %}
+
+
+
+
+
 
 
 {% include product-embed.html guid="2128" %}
@@ -58,14 +102,7 @@ Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue 
 [Silabs firmware nabu casa](https://github.com/NabuCasa/silabs-firmware/tree/main){: target="_blank"}
 [Prise en charge multi protocole Home Assistant](){: target="_blank"}
 
-## Tableau de prise en charge
 
-|Cas d'utilisation|Protocoles|Image OTA|EFR32MG21<br>1024 ko Flash<br>96 ko RAM|EFR32MG24<br>1536 ko Flash<br>256 ko RAM|
-|-----------------|----------|---------|---------------------------------------|----------------------------------------|
-|Passerelle Matter -> thread|Mode RCP à protocole unique|Flash externe (hôte)|✔|✔|
-|Passerelle Matter -> Zigbee/Thread|**Zigbee simultané/thread**<br>dynamique 802.15.4/Bluetooth LE¹|Flash externe (hôte)|✔|✔|
-|Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash externe||✔|
-|Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash interne||✔|
 
 ## Clé à base de puce EFR32MG21
 
