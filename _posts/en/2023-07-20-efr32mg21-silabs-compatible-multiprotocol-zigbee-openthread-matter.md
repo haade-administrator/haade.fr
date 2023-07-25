@@ -145,7 +145,9 @@ and installs the **Silicon Labs Multiprotocol** add-on. On the **configuration**
 
 If you have an existing ZHA configuration, you will need to remove it entirely. **Make sure before making a backup of the Zigbee network**.
 
-Go to **Settings -> Devices and services and click on Add Integration**. ZHA will now ask you which device you would like to connect to, make sure to select the Multiprotocol add-on device as shown in the image below.
+Go to **Settings -> Devices and services and click on Add Integration**, or click on the button below:
+{% include homeassistantlink.html integration="zha" %}
+ZHA will now ask you which device you would like to connect to, make sure to select the Multiprotocol add-on device as shown in the image below.
 
 {% picture posts/{{ page.guid }}/Silabs-multiprotocole-zha-configuration-flash-zbdongle.png --alt configuration silabs multiprotocol zigbee matter in home assistant by ZHA interface --img width="600" height="395" %}
 

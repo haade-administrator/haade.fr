@@ -145,7 +145,9 @@ et installe le module complémentaire **Silicon Labs Multiprotocol**. Sur la pag
 
 Si tu as configuration ZHA existante, tu devras la supprimer entièrement. **Assures-toi avant de faire une sauvegarde du réseau Zigbee**.
 
-Allez à Paramètres -> Appareils et services et clique sur Ajout Integration. ZHA te demandera maintenant à quel appareil tusouhaitez veux te connecter, assures-toi de sélectionner l'appareil complémentaire multiprotocole comme indiqué sur l'image ci-dessous.
+Allez à Paramètres -> Appareils et services et clique sur Ajout Integration ou clic sur le bouton ci-dessous:
+{% include homeassistantlink.html integration="zha" %}
+ZHA te demandera maintenant à quel appareil tusouhaitez veux te connecter, assures-toi de sélectionner l'appareil complémentaire multiprotocole comme indiqué sur l'image ci-dessous.
 
 {% picture posts/{{ page.guid }}/Silabs-multiprotocole-zha-configuration-flash-zbdongle.png --alt configuration silabs multiprotocole zigbee matter dans home assistant par inteface ZHA --img width="600" height="395" %}
 
