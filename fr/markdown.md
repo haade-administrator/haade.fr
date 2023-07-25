@@ -194,9 +194,19 @@ ___
 
 {% picture shop/2152/boitier-encastrement-micromodule-blm-3.jpg --alt mini interrupteur zigbee tuya compatible prise --img width="800" height="300" %}
 
+ou déjà transformé: 
+
+![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421"}
+
 ### intégrer une video youtube
 
 {% include youtubePlayer.html id="wAMIKhMkSFA" %}
+
+### intégrer une vidéo
+
+transformer avec l'outil https://cloudconvert.com/
+
+<iframe width="940" height="596" src="{{ site.baseurl}}/assets/images/posts/{{ page.guid }}/flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee-940.webm{{ cachebuster }}" frameborder="0" allowfullscreen></iframe>
 
 ### intégrer un podcast spotify
 

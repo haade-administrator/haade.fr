@@ -1,7 +1,7 @@
 ---
 guid: 76
 title: "EFR32MG21 compatible Zigbee et Matter"
-description: "Flasher le Sonoff zbdongle-e, skyconnect pour activer Matter thread et zigbee en même temps basé sur la puce Silabs EFR32MG21 est désormais faisable. En parcourant cet article tu découvriras la manip ultra simple à réaliser en cliquant simplement sur un bouton pour activer le multi-protocole et l'utiliser dans home assistant."
+description: "Flasher le Sonoff zbdongle-e ou nabu casa skyconnect pour activer Matter openthread et zigbee en mode multi-protocole (multi pan) en même temps basé sur la puce Silabs EFR32MG21 est désormais possible. En parcourant cet article tu découvriras la manip ultra simple à réaliser en cliquant simplement sur un bouton pour activer le multi-protocole et l'utiliser dans home assistant."
 ref: ""
 layout: post
 author: Nico
@@ -12,7 +12,7 @@ tags: []
 image: 'efr32mg21-compatible-zigbee-et-thread-matter-silabs-confirme.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -31,7 +31,9 @@ sourcelink:
   - https://dialedin.com.au/blog/sonoff-zbdongle-e-rcp-firmware
 ---
 
-**Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané** pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de Sonoff ZBDongle-E, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de 1024k de RAM, et ce n'est pas le cas pour la Skyconnect de Nabu Casa. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+**Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané** pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de [Sonoff ZBDongle-E](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de **1024k de RAM**, et ce n'est pas le cas pour la **Skyconnect de Nabu Casa qui possède 512Kb et zbdongle-e 768kb**. Pourtant des firmwares multi-protocoles existe, nous allons pouvoir commencer à les tester. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+
+{% include product-embed.html guid="2128" %}
 
 ## Tableau de prise en charge
 
@@ -42,85 +44,133 @@ sourcelink:
 |Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash externe||✔|
 |Dispositif d'extrémité de fil de Matter|Dynamique 802.15.4/Bluetooth LE SoC<br>Mode²|Flash interne||✔|
 
-**Mieux encore grâce au travail de Nabu Casa et darkxst** il est désormais possible de flasher dans ton navigateur la liste des clés ci-dessous par simple clic sur un bouton et de choisir le firmware à installer. Le tout sans avoir à accéder au circuit imprimé de la clé.
+## Puces Silabs EFR32 infos
+
+### SoC sans fil multiprotocole EFR32MG21 série 2
+Les appareils EFR32MG21 apportent des solutions hautes performances, basse consommation et sécurisées à l'IoT. Conçus pour augmenter la capacité de traitement, améliorer les performances RF et réduire le courant actif, les dispositifs EFR32MG21 sont des SoC sans fil 2,4 GHz optimisés pour les applications de maillage Zigbee, Thread et Bluetooth alimentées par la ligne, y compris l'éclairage connecté, les passerelles, les assistants vocaux et les compteurs intelligents.
+
+### SoC sans fil multiprotocole EFR32MG24 série 2
+Les SoC sans fil **EFR32MG24 sont idéaux pour la connectivité sans fil IoT maillé à l'aide des protocoles Matter, OpenThread et Zigbee pour la domotique**. Avec des fonctionnalités clés telles que la haute performance RF 2,4 GHz, une faible consommation de courant, unIA/MLaccélérateur matériel etCoffre-fort sécurisé™. Un ARM Cortex®-M33 fonctionnant jusqu'à 78 MHz et jusqu'à 1,5 Mo de mémoire Flash et 256 Ko de RAM fournit des ressources pour les applications exigeantes tout en laissant de la place pour une croissance future.
+<cite>Silabs.com/wireless/matter</cite>
+
+[Silabs compatibilité Matter](https://www.silabs.com/wireless/matter?tab=start#thread){: target="_blank"}<br>
+[Silabs firmware nabu casa](https://github.com/NabuCasa/silabs-firmware/tree/main){: target="_blank"}<br>
+[Prise en charge multi protocole Home Assistant](){: target="_blank"}
 
 ## Installation des nouveaux firmwares
 
-### liste des clés
+**Mieux encore grâce au travail de Nabu Casa et darkxst** il est désormais possible de flasher dans ton navigateur la liste des clés ci-dessous par simple clic sur un bouton et de choisir le firmware à installer. Le tout sans avoir à accéder au circuit imprimé de la clé.
+Nabu Casa tien à jour [SL Web Tools](https://github.com/NabuCasa/sl-web-tools){: target="_blank"}, un logiciel permettant de faire l'ensemble de la manipulation directement du navigateur, qui nécessite tout de même l'utilisation des navigateurs Chrome ou Edge et devrait fonctionner sous Linux, Mac et Windows.
 
-1. Skyconnect de Home Assistant (nabu casa)
-2. ITead Sonoff Zigbee 3.0 USB Dongle Plus V2 model "ZBDongle-E"
-3. CoolKit ZB-GW04 USB dongle (a.k.a. easyiot stick)
-4. Z-Wave.Me Z-Station dual Zigbee & Z-Wave
+### Types de micrologiciels
+
+Traditionnellement, les dongles Zigbee Coordinator utilisent un micrologiciel basé sur un **coprocesseur réseau (NCP)**. Dans ce cas, **l'application Zigbee s'exécute sur le dongle**, qui gère la majorité de la gestion du réseau Zigbee. Votre intégration Zigbee communique avec le dongle pour simplement envoyer/recevoir des données aux appareils finaux Zigbee.
+
+Plus récemment, des micrologiciels basés sur **Remote Co-Processor (RCP)** sont devenus disponibles. Dans ce cas, l'application Zigbee est **déchargée sur votre serveur (Home Assistant dans ce cas via le module Silabs Multiprotocole), et le dongle ne fournit que la prise en charge radio au niveau matériel**. Lors de l'utilisation d'un micrologiciel RCP, l'option de configuration **MultiPAN** permet la prise en charge de plusieurs réseaux, ce qui offre un avantage unique dans la mesure où vous pouvez désormais faire fonctionner simultanément les réseaux Zigbee et Thread sur le même dongle.
+
+> Le ZBDongle-E est livré de l'usine avec un firmware NCP v6.10.3, si vous souhaitez simplement utiliser Zigbee, nous vous recommandons de vous en tenir à ce firmware.
+
+### liste des clés upgradeables
+
+1. [Skyconnect](https://www.seeedstudio.com/Home-Assistant-SkyConnect-p-5479.html?gad=1&gclid=Cj0KCQjw5f2lBhCkARIsAHeTvlgGnbZzINesrbPTZj5SiCLenfzJfYvwXqyTlbqMNr4a_IjCzTFpLhAaAmnjEALw_wcB){: target="_blank"} de Home Assistant (nabu casa)
+2. ITead Sonoff Zigbee 3.0 USB [Dongle Plus V2 model "ZBDongle-E"](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}
+3. CoolKit [ZB-GW04 USB dongle](https://zigbee.blakadder.com/easyiot_ZB-GW04.html){: target="_blank"} (a.k.a. easyiot stick)
 
 ### Liste des firmwares dispo
 
-- Zigbee ezsp ( v7.3.0.0 )
-- Multi-protocole rcp (MULTI-PAN v4.3.0) 
+- Zigbee ezsp NCP ( v7.3.0.0 )
+- Multi-protocole RCP (MULTI-PAN v4.3.0) 
 - Openthread ( v2.3.0.0 )
 - choisir un firmware **personnalisé**
 
-### Flash Nabu Casa Skyconnect
+### Vidéo d'un flash de clé ZBDongle-E
+
+**Rien de mieux qu'une vidéo** pour voir le principe de fonctionnement d'un flash de firmware d'une clé ZBDongle-E ou skyconnect qui montre **l'installation du firmware multiprotocole Zigbee/Matter/Openthread**.
+
+<iframe width="854" height="480" src="{{ site.baseurl}}/assets/images/posts/{{ page.guid }}/flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm{{ cachebuster }}" frameborder="0" allowfullscreen></iframe>
+
+### Flash firmware Nabu Casa Skyconnect
+
+Le dongle Skyconnect est basé sur la puce Silabs [EFR32MG21A020F512IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f512im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 512 Kb** et une Ram de 64 Kb
 
 {% include flashfirmware/ezsp.html hub="skyconnect" %}
 
-### Flash Sonoff ZBDongle-E
+### Flash firmware Sonoff [ZBDongle-E](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}
+
+{% include product-embed.html guid="2128" %}
+
+Le dongle Sonoff est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f768im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 768 Kb **et une Ram de 64 Kb
 
 {% include flashfirmware/ezsp.html hub="zbdongle-e" %}
 
 [Lien du firmware original Sonoff ZBDongle-e](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/raw/master/Dongle-E/NCP/ncp-uart-sw_EZNet6.10.3_V1.0.1.gbl)
+[Instruction flash officielle Sonoff](https://sonoff.tech/wp-content/uploads/2022/08/SONOFF-Zigbee-3.0-USB-dongle-plus-firmware-flashing-.pdf){: target="_blank"}
+
+### flash firmware ZB-GW04 (v1.1)
+
+**Easyiot ZB-GW04 Revision v1.1 - No flow control** est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f768im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 768 Kb **et une Ram de 64 Kb au même titre que le [ZBDongle-E de Sonoff](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}
 
 {% include flashfirmware/ezsp.html hub="zb-gw04-11" %}
 
+### flash firmware ZB-GW04 (v1.2)
 
+**Easyiot ZB-GW04 Revision v1.2 - Hardware flow control** est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f768im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 768 Kb **et une Ram de 64 Kb au même titre que le [ZBDongle-E de Sonoff](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}
 
 {% include flashfirmware/ezsp.html hub="zb-gw04-12" %}
 
+### flash firmware [Zvidar Z-DG-Z01](https://www.domadoo.fr/fr/interface-domotique/6500-zvidar-controleur-usb-zigbee-30-chipset-efr32mg21.html?domid=39){: target="_blank"}
+
+{% include product-embed.html guid="2170" %}
+
+À venir ...
+
+## Activation du multi-protocole dans Home Assistant
+
+Comme écris plus haut les protocoles RCP déchargent l'application zigbee sur un serveur et non plus sur la clé. C'est pourquoi il te faudra installer le module compémentaire multiprotocole Silabs, qui agit comme la passerelle entre ton dongle et Home Assistant. Il exécute également les serveurs spécifiques au protocole, pour coordonner vos réseaux Zigbee et/ou Thread. Les intégrations **ZHA ou Zigbee2MQTT** *communiqueront avec cet addon plutôt que directement avec le dongle*. Il te permet également d'exécuter Thread simultanément.
 
 
 
+Clic sur le bouton ci-dessous
+{% include homeassistantlink.html supervisor_addon="core_silabs_multiprotocol" %}
+et installe le module complémentaire **Silicon Labs Multiprotocol**. Sur la page de **configuration**, sélectionne l'appareil, puis définis les paramètres suivants pour le micrologiciel lié ci-dessus. Si tu utilises un firmware différent, ajuste les valeurs en conséquence.
 
+**Skyconnect, débit en bauds 115 200**, désactive le contrôle de flux matériel et désactive les mises à jour automatiques du micrologiciel.
+**ZBDongle-E, débit en bauds 460 800**, désactive le contrôle de flux matériel et désactive les mises à jour automatiques du micrologiciel.
+**ZB-GW04 v1.2, débit en bauds 230 400**, activation du contrôle de flux matériel et désactivation des mises à jour automatiques du micrologiciel.
 
+{% picture posts/{{ page.guid }}/Silabs-multiprotocole-configuration-flash-zbdongle.png --alt configuration silabs multiprotocole zigbee matter dans home assistant --img width="940" height="881" %}
+
+### Zigbee et Matter dans ZHA
+
+Si tu as configuration ZHA existante, tu devras la supprimer entièrement. **Assures-toi avant de faire une sauvegarde du réseau Zigbee**.
+
+Allez à Paramètres -> Appareils et services et clique sur Ajout Integration. ZHA te demandera maintenant à quel appareil tusouhaitez veux te connecter, assures-toi de sélectionner l'appareil complémentaire multiprotocole comme indiqué sur l'image ci-dessous.
+
+{% picture posts/{{ page.guid }}/Silabs-multiprotocole-zha-configuration-flash-zbdongle.png --alt configuration silabs multiprotocole zigbee matter dans home assistant par inteface ZHA --img width="600" height="395" %}
+
+Sur l'écran suivant, il est recommandé de commencer avec un réseau vide, puis de coupler tous tes appareils Zigbee. Si tu avais une configuration précédente, tu peux essayer d'importer la sauvegarde réseau précédente, **ZHA essaiera alors de migrer les appareils vers le nouveau réseau**, ce qui peut ou non fonctionner, **certains appareils peuvent encore nécessiter un réappairement s'ils ne fonctionnent pas correctement**.
+
+### Zigbee et Matter dans Zigbee2mqtt
+
+Si tu utilises Zigbee2mqtt là aussi il est possible d'utiliser le multi protocole Zigbee/Matter/Openthread. **N'oublie pas de faire une sauvegarde du maillage au préalable.**
+
+Pour modifier le lien de la clé clic sur le bouton ci-dessous
+{% include homeassistantlink.html supervisor_addon="45df7312_zigbee2mqtt" %}
+
+vas dans la configuration du module et modifie l'onglet serial comme ceci:
+
+{% highlight yaml %}
+port: tcp://core-silabs-multiprotocol:9999
+adapter: ezsp
+{% endhighlight %}
+
+{% picture posts/{{ page.guid }}/modifie-serial-zigbee2mqtt-pour-multiprotocole-zigbee-matter.png --alt modification du port série dans zigbee2mqtt pour intégrer le multi protocole Zigbee et Matter --img width="940" height="134" %}
+
+Une fois réalisé tu peux redémarrer le module et vérifier les journaux afin de contrôler l'absence d'erreurs ensuite il te sera possible de réinjecter ta sauvegarde zigbee, mais pour l'instant je ne l'ai pas testé. Il est préférable de partir d'un nouvea réseau.
 
 {% include product-embed.html guid="2128" %}
 {% include product-embed.html guid="2170" %}
-
-## Performances supérieures et connectivité sans faille
-
-### SoC sans fil multiprotocole EFR32MG24 série 2
-Les SoC sans fil EFR32MG24 sont idéaux pour la connectivité sans fil IoT maillé à l'aide des protocoles Matter, OpenThread et Zigbee pour la domotique. Avec des fonctionnalités clés telles que la haute performance RF 2,4 GHz, une faible consommation de courant, unIA/MLaccélérateur matériel etCoffre-fort sécurisé™. Un ARM Cortex®-M33 fonctionnant jusqu'à 78 MHz et jusqu'à 1,5 Mo de mémoire Flash et 256 Ko de RAM fournit des ressources pour les applications exigeantes tout en laissant de la place pour une croissance future.
-<cite>Silabs.com/wireless/matter</cite>
-
-## SoC sans fil multiprotocole EFR32MG21 série 2
-Les appareils EFR32MG21 apportent des solutions hautes performances, basse consommation et sécurisées à l'IoT. Conçus pour augmenter la capacité de traitement, améliorer les performances RF et réduire le courant actif, les dispositifs EFR32MG21 sont des SoC sans fil 2,4 GHz optimisés pour les applications de maillage Zigbee, Thread et Bluetooth alimentées par la ligne, y compris l'éclairage connecté, les passerelles, les assistants vocaux et les compteurs intelligents.
-
-La famille de SoC EFR32MG21 comprend un sous-système de sécurité intégré et des dispositifs qui peuvent tirer parti des technologies Secure Vault. Secure Vault fournit des fonctionnalités logicielles de sécurité de pointe avec une technologie matérielle à fonction physique non clonable (PUF) pour réduire considérablement le risque de failles de sécurité IoT et de compromission de la propriété intellectuelle
-
-Avec une sensibilité supérieure à -104 dBm pour 802.15.4 et Bluetooth longue portée et une puissance de sortie jusqu'à +20 dBm, l'EFR32MG21 fournit une liaison RF robuste pour assurer des communications fiables. EFR32MG21 utilise les outils de développement Simplicity Studio 5, offrant une migration facile et une mise sur le marché rapide avec des kits de développement, des SDK, des applications mobiles et notre analyseur de réseau breveté.
-
-[Silabs compatibilité Matter](https://www.silabs.com/wireless/matter?tab=start#thread){: target="_blank"}
-[Silabs firmware nabu casa](https://github.com/NabuCasa/silabs-firmware/tree/main){: target="_blank"}
-[Prise en charge multi protocole Home Assistant](){: target="_blank"}
-
-
-
-## Clé à base de puce EFR32MG21
-
-
-1. Skyconnect de Home Assistant (nabu casa)
-2. ITead Sonoff Zigbee 3.0 USB Dongle Plus V2 model "ZBDongle-E"
-3. CoolKit ZB-GW04 USB dongle (a.k.a. easyiot stick)
-4. Z-Wave.Me Z-Station dual Zigbee & Z-Wave
-
-
-[Comparatif ZBDongle Sonoff CC2652 Et EFR32]({% post_url /fr/2022-11-20-zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff %})
-
-
-## SoC sans fil multiprotocole EFR32MG24 série 2
-Les SoC sans fil EFR32MG24 sont idéaux pour la connectivité sans fil IoT maillé à l'aide des protocoles Matter, OpenThread et Zigbee pour les produits de maison intelligente, d'éclairage et d'automatisation des bâtiments. Avec des fonctionnalités clés telles que la haute performance RF 2,4 GHz, une faible consommation de courant, unIA/MLaccélérateur matériel etCoffre-fort sécurisé™, les fabricants d'appareils IoT peuvent créer des produits intelligents, robustes et économes en énergie qui sont protégés contre les cyberattaques à distance et locales. Un ARM Cortex®-M33 fonctionnant jusqu'à 78 MHz et jusqu'à 1,5 Mo de mémoire Flash et 256 Ko de RAM fournit des ressources pour les applications exigeantes tout en laissant de la place pour une croissance future. Les applications cibles incluent les passerelles et les hubs,capteurs,commutateurs,serrures de porte,Éclairage LED, luminaires, services de localisation, maintenance prédictive, détection de bris de verre, détection de mot d'activation, etc.
 
 ## Conclusion
 
-{% include product-embed.html guid="2128" %}
-{% include product-embed.html guid="2170" %}
-
+**Voilà une bonne nouvelle**, les puces **EFR32MG21 permettent de faire du Multiprotocole** Zigbee/Matter/Openthread. Le flash du firmware multi pan est des plus pratiques et super simple d'utilisations. Attention tout de même le multiprotocole est en phase de test sur Home Assistant, l'installation d'une sauvegarde de réseau Zigbee n'a pas encore été testée. **Pour terminer Silabs met en garde sur la capacité des puces EFR32MG21 à gérer convenablement plusieurs réseaux** car la RAM des clés actuelles disponibles sur le marché sont inférieur à 1024KB qui serait le minimum à avoir pour la gestion du Multi Pan, toujours selon Silabs, qui d'ailleurs oriente les fabriquants à utiliser une puce EFR32MG24.
