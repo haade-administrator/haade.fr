@@ -31,7 +31,9 @@ sourcelink:
   - https://dialedin.com.au/blog/sonoff-zbdongle-e-rcp-firmware
 ---
 
-**Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et thread en simultané** pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de [Sonoff ZBDongle-E](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de **1024k de RAM**, et ce n'est pas le cas pour la **Skyconnect de Nabu Casa qui possède 512Kb et zbdongle-e 768kb**. Pourtant des firmwares multi-protocoles existe, nous allons pouvoir commencer à les tester. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+**Ça y est ! Silabs confirme la prise en charge de la passerelle Matter vers zigbee et openthread en simultané** pour les puces EFR32MG21, qui équipent diverses clés du marché comme la clé de [Sonoff ZBDongle-E](https://www.domadoo.fr/fr/interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.html?domid=39){: target="_blank"}, pour ne citer qu'elle. Mais il y a un mais cette prise en charge est conseillé pour les proc avec un minimum de **1024k de RAM**, et ce n'est pas le cas pour la **Skyconnect de Nabu Casa qui possède 512Kb et zbdongle-e 768kb**. Pourtant des firmwares multi-protocoles existe, nous allons pouvoir commencer à les tester. Pour aller plus loin **Silabs conseil d'utiliser la puce EFR32MG24 pour faire du multiprotocole.**
+
+> Bonne nouvelle les clés EFR32MG21 Sonoff ZBDongle-E et NabuCasa Skyconnect pour ne citer qu'elles sont désormais compatibles multi-protocoles ( MultiPan ), zigbee et Matter/Openthread.
 
 {% include product-embed.html guid="2128" %}
 
@@ -55,14 +57,13 @@ Les SoC sans fil **EFR32MG24 sont idéaux pour la connectivité sans fil IoT mai
 
 [Silabs compatibilité Matter](https://www.silabs.com/wireless/matter?tab=start#thread){: target="_blank"}<br>
 [Silabs firmware nabu casa](https://github.com/NabuCasa/silabs-firmware/tree/main){: target="_blank"}<br>
-[Prise en charge multi protocole Home Assistant](){: target="_blank"}
 
 ## Installation des nouveaux firmwares
 
 **Mieux encore grâce au travail de Nabu Casa et darkxst** il est désormais possible de flasher dans ton navigateur la liste des clés ci-dessous par simple clic sur un bouton et de choisir le firmware à installer. Le tout sans avoir à accéder au circuit imprimé de la clé.
 Nabu Casa tien à jour [SL Web Tools](https://github.com/NabuCasa/sl-web-tools){: target="_blank"}, un logiciel permettant de faire l'ensemble de la manipulation directement du navigateur, qui nécessite tout de même l'utilisation des navigateurs Chrome ou Edge et devrait fonctionner sous Linux, Mac et Windows.
 
-### Types de micrologiciels
+### Types de micrologiciels NCP/RCP
 
 Traditionnellement, les dongles Zigbee Coordinator utilisent un micrologiciel basé sur un **coprocesseur réseau (NCP)**. Dans ce cas, **l'application Zigbee s'exécute sur le dongle**, qui gère la majorité de la gestion du réseau Zigbee. Votre intégration Zigbee communique avec le dongle pour simplement envoyer/recevoir des données aux appareils finaux Zigbee.
 
@@ -99,7 +100,7 @@ Le dongle Skyconnect est basé sur la puce Silabs [EFR32MG21A020F512IM32](https:
 
 {% include product-embed.html guid="2128" %}
 
-Le dongle Sonoff est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f768im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 768 Kb **et une Ram de 64 Kb
+Le dongle Sonoff est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://www.silabs.com/wireless/zigbee/efr32mg21-series-2-socs/device.efr32mg21a020f768im32?tab=specs){: target="_blank"} contenant une mémoire **flash de 768 Kb** et une Ram de 64 Kb
 
 {% include flashfirmware/ezsp.html hub="zbdongle-e" %}
 
