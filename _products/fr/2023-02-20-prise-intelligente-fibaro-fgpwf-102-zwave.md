@@ -29,7 +29,7 @@ Ce module offre également une fonction unique : la possibilité de tester la co
 
 **Bien que disposant d'une prise Allemande (Schuko), ce module peut être utilisé en France.**{: .red}
 
-{% include videoPlayer.html youtube="Ke3ztDIUMhU" %}
+{% include videoPlayer.html youtubeId="Ke3ztDIUMhU" %}
 
 # FONCTIONS :
 

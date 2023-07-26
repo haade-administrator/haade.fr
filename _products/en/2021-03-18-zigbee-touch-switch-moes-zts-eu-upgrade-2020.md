@@ -41,4 +41,4 @@ You want to choose a good tactile switch then do not hesitate any more. Tested b
 
 #### **Youtube presentation video**
 
-{% include videoPlayer.html youtube="cq0ZeT6K1uY" %}
+{% include videoPlayer.html youtubeId="cq0ZeT6K1uY" %}

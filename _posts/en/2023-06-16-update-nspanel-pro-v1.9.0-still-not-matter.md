@@ -39,7 +39,7 @@ At the beginning of May, this version was released, it brings **guest mode and u
 4. **Optimized firmware update mechanism** – When new firmware is detected, you can check the firmware download process via the download progress bar.
 5. Added **S40TPA and S40TPB** modules as thermostat executive devices.
 
-{% include videoPlayer.html youtube="mETiHM2_XKs" %}
+{% include videoPlayer.html youtubeId="mETiHM2_XKs" %}
 
 ## New v1.9.0 of NSpanel Pro
 

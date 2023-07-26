@@ -57,7 +57,7 @@ The Moes range offers all of its switches with a neutral connection, but it is n
 
 In the video below, a quick presentation of the operation of the push button to get an idea of the quality of the materials.
 
-{% include videoPlayer.html youtube="s00Nmu8DW5s" %}
+{% include videoPlayer.html youtubeId="s00Nmu8DW5s" %}
 
 > **For the price the quality is there** I would say it's a bit below Legrand switches, however for the same price you can buy 2 to 3 switches.
 

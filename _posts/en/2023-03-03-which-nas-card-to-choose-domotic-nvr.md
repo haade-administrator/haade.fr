@@ -81,7 +81,7 @@ ODROID-HC4 is a new Home-Cloud platform based on the same ARM processor as ODROI
 
 > Abrège offers a tutorial to mount a Nas with an odroid HC4 card, to follow this tutorial you will of course need a 3D printer
 
-{% include videoPlayer.html youtube="luQFv4qzQtU" %}
+{% include videoPlayer.html youtubeId="luQFv4qzQtU" %}
 
 **Product advantages:**{: .blue}
 - supports 2 SSDs
@@ -452,7 +452,7 @@ If I had to buy this product I would take it in full, i.e. a box delivered with 
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/Sda19c1ef27114e518a1afa6a57e83bf5N/RASPBERRY-PI-4-KIT-de-serveur-de-stockage-r-seau-SATA-QUAD.jpg_Q90.jpg_.webp" title="Nas hat radxa raspberry pi 4" brand="Radxa" description="Raspberrypi mounting kit in Nas 4 discs by radxa" affiliate="_DnnkRhR" %}
 
-{% include videoPlayer.html youtube="Eix0PCB0byQ" %}
+{% include videoPlayer.html youtubeId="Eix0PCB0byQ" %}
 
 If I had to buy this product I would take the complete kit for rasberrypi 4gb it currently costs €177 to that you have to add a raspberrypi 4b at €76 and a [mini 40w 12V DC power supply at €10](https://s.click.aliexpress.com/e/_Ddli1fT){: target="_blank"} i.e. €163 for the set excluding hard drive.
 
@@ -489,7 +489,7 @@ As above argus Eon is not a card but a complete Nas box hosting a raspberrypi 4
 - lack of internal storage
 - the price 190€
 
-{% include videoPlayer.html youtube="OI3XfWg9ftA" %}
+{% include videoPlayer.html youtubeId="OI3XfWg9ftA" %}
 
 # Projets qui pourrait t'intéresser
 1. [Pinas a Nas with pi sauce](https://www.instructables.com/PiNAS-the-Raspberry-Pi-NAS/){: target="_blank"}

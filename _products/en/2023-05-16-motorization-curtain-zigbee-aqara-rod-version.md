@@ -57,7 +57,7 @@ Connect the device to the Aqara Home app and you can forget about operating the 
 **Adjustable opening speed**
 The motor speed can be adjusted, so it will work quieter and open the curtain slowly to make your wake up more comfortable.
 
-{% include videoPlayer.html youtube="LepBCr3F8g8" %}
+{% include videoPlayer.html youtubeId="LepBCr3F8g8" %}
 
 ## FUNCTIONS:
 

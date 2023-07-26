@@ -39,7 +39,7 @@ Début Mai, cette version est sortie elle apporte le **mode invité et le déver
 4. **Optimisation du mécanisme de mise à jour du micrologiciel** – Lorsqu'un nouveau micrologiciel est détecté, tu peux vérifier le processus de téléchargement du micrologiciel via la barre de progression du téléchargement.
 5. Ajout des modules **S40TPA et S40TPB** en tant que dispositifs exécutifs de thermostat.
 
-{% include videoPlayer.html youtube="mETiHM2_XKs" %}
+{% include videoPlayer.html youtubeId="mETiHM2_XKs" %}
 
 ## Nouveautées v1.9.0 du NSpanel Pro
 

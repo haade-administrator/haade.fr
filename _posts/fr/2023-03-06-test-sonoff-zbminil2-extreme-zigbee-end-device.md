@@ -108,7 +108,7 @@ Le module est bel et bien reconnu dans Z2M, comme tu peux le voir, la quantité 
 
 Malheureusement je n'ai pas sous la main les 3 modules Sonoff du moment mais j'ai trouvé une vidéo qui fait un comparatif sur les tailles actuelles
 
-{% include videoPlayer.html youtube="jYsCcGI1_DI" %}
+{% include videoPlayer.html youtubeId="jYsCcGI1_DI" %}
 
 Je constate l'arrivée sur le marché, de plus en plus de modules interrupteurs dit "enddevice" probablement lié à l'intégration des nouvelles puces EFR32MG22 de silabs. Ça a l'avantage d'être très pratique car dans la plupart des logements en france l'interrupteur n'est pas raccordé au neutre et souvent absent. Cependant le fait de trouver de plus en plus de modules enddevice allourdi la charge du coordinateur et affaibli la solidité du maillage. Zigbee2mqqt [Propose la mise à jour du Z-stack](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG.md){: target="_blank" } des puces cc2652 TI qui acceptent **désormais plus de 100 modules end devices**. De quoi accepter facilement ce type de produits.
 

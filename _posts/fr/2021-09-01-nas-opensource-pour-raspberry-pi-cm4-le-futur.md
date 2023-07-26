@@ -70,7 +70,7 @@ La carte Wiretrustee SATA a été vérifiée pour fonctionner avec le système d
 
 ## Vidéo de présentation
 
-{% include videoPlayer.html youtube="ahrdx3TYxZc" %}
+{% include videoPlayer.html youtubeId="ahrdx3TYxZc" %}
 
 **Tarif** de la carte wiretrustee SATA: **Inconnu ?**
 

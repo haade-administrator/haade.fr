@@ -57,7 +57,7 @@ La gamme Moes propose tous ses interrupteurs avec un branchement du neutre mais 
 
 Dans la vidéo ci-dessous, une présentation rapide du fonctionnement du bouton poussoir afin de se faire une idée de la qualité des matériaux.
 
-{% include videoPlayer.html youtube="s00Nmu8DW5s" %}
+{% include videoPlayer.html youtubeId="s00Nmu8DW5s" %}
 
 > **Pour le prix la qualité est au rendez-vous** je dirais que c'est un poil au dessous des interrupteurs legrand cependant pour le même tarif on peut acheter 2 à 3 interupteurs.
 

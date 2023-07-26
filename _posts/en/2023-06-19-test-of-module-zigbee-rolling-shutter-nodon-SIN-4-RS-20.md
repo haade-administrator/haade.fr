@@ -47,7 +47,7 @@ On the image presented below you will be able to realize the size of the module 
 
 The video presents the installation of the module and the connection with a wired shutter switch, and finally the integration into Jeedom which is probably the most used home automation system in France.
 
-{% include videoPlayer.html youtube="cujMkYiD-f8" %}
+{% include videoPlayer.html youtubeId="cujMkYiD-f8" %}
 
 ## Assembly diagrams
 

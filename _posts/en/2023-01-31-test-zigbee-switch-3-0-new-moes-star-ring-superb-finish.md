@@ -63,7 +63,7 @@ The ignition control works very well, the feel to the touch is extra, plus the s
 
 # Official Video
 
-{% include videoPlayer.html youtube="MCr4eaLHaZ4" %}
+{% include videoPlayer.html youtubeId="MCr4eaLHaZ4" %}
 
 # Smart ring features:
 

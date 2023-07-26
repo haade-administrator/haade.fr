@@ -42,4 +42,4 @@ Vous désirez choisir un bon interrupteur tactile alors n'hésitez plus. Testé 
 
 #### **Vidéo de présentation Youtube**
 
-{% include videoPlayer.html youtube="cq0ZeT6K1uY" %}
+{% include videoPlayer.html youtubeId="cq0ZeT6K1uY" %}

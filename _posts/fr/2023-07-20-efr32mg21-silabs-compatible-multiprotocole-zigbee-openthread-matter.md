@@ -88,7 +88,7 @@ Plus récemment, des micrologiciels basés sur **Remote Co-Processor (RCP)** son
 
 **Rien de mieux qu'une vidéo** pour voir le principe de fonctionnement d'un flash de firmware d'une clé ZBDongle-E ou skyconnect qui montre **l'installation du firmware multiprotocole Zigbee/Matter/Openthread**.
 
-{% include videoPlayer.html local="flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm" %}
+{% include videoPlayer.html localId="flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm" %}
 
 ### Flash firmware Nabu Casa Skyconnect
 

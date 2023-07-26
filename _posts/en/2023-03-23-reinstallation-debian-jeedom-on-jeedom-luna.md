@@ -63,7 +63,7 @@ Here are two complete software that will allow you to transfer the firmware to J
 2. Release the **reset button** wait 2-3 seconds and release the **boot button**
 
 ### The video below shows the manipulation
-{% include videoPlayer.html youtube="6r2R_ED0J_Q" %}
+{% include videoPlayer.html youtubeId="6r2R_ED0J_Q" %}
 
 
 Now a line appears in the list, select it

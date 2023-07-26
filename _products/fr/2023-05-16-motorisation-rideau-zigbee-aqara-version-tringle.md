@@ -57,7 +57,7 @@ Connectez l'appareil à l'application Aqara Home et vous pourrez oublier de fair
 **Vitesse d'ouverture réglable**
 La vitesse du moteur peut être ajustée, il fonctionnera donc plus silencieusement et ouvrira le rideau lentement pour rendre votre réveil plus confortable.
 
-{% include videoPlayer.html youtube="LepBCr3F8g8" %}
+{% include videoPlayer.html youtubeId="LepBCr3F8g8" %}
 
 ## FONCTIONS :
 

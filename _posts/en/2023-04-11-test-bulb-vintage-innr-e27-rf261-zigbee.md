@@ -110,7 +110,7 @@ For the Zigbee module under Jeedom, we will go back to use the Zigbee2mqtt modul
 
 Resetting the bulb is capricious, it turns the bulb on and off in less than 0.5 seconds and does it 6 times, below is the official Innr video that shows you the procedure.
 
-{% include videoPlayer.html youtube="4zkpZSv84H4" %}
+{% include videoPlayer.html youtubeId="4zkpZSv84H4" %}
 
 # General Information
 

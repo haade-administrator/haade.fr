@@ -110,7 +110,7 @@ Pour le module Zigbee sous Jeedom on repasseras il faudra utiliser le module Zig
 
 La réinitialisation de l'ampoule est capricieuse il allumer et éteindre l'ampoule en moins de 0,5 secondes et le faire 6 fois, ci-dessous la vidéo officielle Innr qui te montre la procédure.
 
-{% include videoPlayer.html youtube="4zkpZSv84H4" %}
+{% include videoPlayer.html youtubeId="4zkpZSv84H4" %}
 
 # Informations Générale
 

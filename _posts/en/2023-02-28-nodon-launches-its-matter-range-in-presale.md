@@ -56,4 +56,4 @@ Matter will act as an application layer above Thread. The Thread protocol is ide
 
 # Video presentation
 
-{% include videoPlayer.html youtube="ZdjCGJ933u0" %}
+{% include videoPlayer.html youtubeId="ZdjCGJ933u0" %}

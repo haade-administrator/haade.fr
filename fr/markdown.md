@@ -200,9 +200,9 @@ ou déjà transformé:
 
 ### intégrer une video
 youtube:
-{% include videoPlayer.html youtube="wAMIKhMkSFA" %}
+{% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
 local:
-{% include videoPlayer.html local="nom.webm" %}
+{% include videoPlayer.html localId="nom.webm" %}
 
 ### intégrer une vidéo
 

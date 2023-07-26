@@ -1,18 +1,18 @@
 <!-- https://github.com/nathancy/jekyll-embed-video/tree/master/_includes -->
 
 <div class="embed-container lazyimg">
-    {%- if include.youtube %}
+    {%- if include.youtubeId != nil %}
     <iframe style="border-radius:15px"
-        data-src="https://www.youtube.com/embed/{{ include.youtube }}"
+        data-src="https://www.youtube.com/embed/{{ include.youtubeId }}"
         width="700"
         height="480"
         title="{{ page.title }}"
         frameborder="0"
         allowfullscreen="true">
     </iframe>
-    {%- elsif include.local %}
+    {%- elsif include.localId != nil %}
     <iframe style="border-radius:15px"
-        data-src="/assets/images/posts/{{ page.guid }}/{{ include.local }}"
+        data-src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}"
         width="700"
         height="480"
         title="{{ page.title }}"

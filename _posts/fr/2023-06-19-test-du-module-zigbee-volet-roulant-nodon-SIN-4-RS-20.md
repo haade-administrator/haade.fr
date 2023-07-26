@@ -47,7 +47,7 @@ Sur l'image présentée ci-dessous tu pourras te rendre compte de la taille du m
 
 La vidéo présente la mise en place du module et le branchement avec un interrupteur filaire volet, et pour finir l'intégration dans Jeedom qui est probablement le système domotique le plus utilisé en france.
 
-{% include videoPlayer.html youtube="cujMkYiD-f8" %}
+{% include videoPlayer.html youtubeId="cujMkYiD-f8" %}
 
 ## Schémas de montage
 
