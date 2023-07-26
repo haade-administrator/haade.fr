@@ -203,6 +203,12 @@ youtube:
 {% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
 local:
 {% include videoPlayer.html localId="nom.webm" %}
+twitch:
+{% include videoPlayer.html twitchId="" twitchDomain="" %}
+instagram:
+{% include videoPlayer.html instagramId="" %}
+tiktok:
+{% include videoPlayer.html tiktokIdId="" %}
 
 ### intégrer une vidéo
 
