@@ -137,7 +137,7 @@ Le CPU de l'EFR est un ARM Cortex-M33 qui fonctionne à 80Mhz avec 1Mb de flash 
 
 > Vous pouvez voir dans ce test video, que la puissance et la qualité du lien sont bien meilleures avec les nouveaux dongles Zigbee incluant le Soc EFR32MG21.
 
-{% include youtubePlayer.html id="iaP6Cu3XrLU" %}
+{% include videoPlayer.html youtube="iaP6Cu3XrLU" %}
 
 ## Compatibilité avec Matter
 

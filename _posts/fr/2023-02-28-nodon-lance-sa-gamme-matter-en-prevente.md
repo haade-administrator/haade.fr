@@ -56,4 +56,4 @@ Matter va jouer le rôle de couche applicative au-dessus de Thread. Le protocole
 
 # Présentation en vidéo
 
-{% include youtubePlayer.html id="ZdjCGJ933u0" %}
+{% include videoPlayer.html youtube="ZdjCGJ933u0" %}

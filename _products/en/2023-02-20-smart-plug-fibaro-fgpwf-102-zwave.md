@@ -29,7 +29,7 @@ This module also offers a unique function: the possibility of testing the Z-Wave
 
 **Although it has a German plug (Schuko), this module can be used in France.**{: .red}
 
-{% include youtubePlayer.html id="Ke3ztDIUMhU" %}
+{% include videoPlayer.html youtube="Ke3ztDIUMhU" %}
 
 # FUNCTIONS:
 

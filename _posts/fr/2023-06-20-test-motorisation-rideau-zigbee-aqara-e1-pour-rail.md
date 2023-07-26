@@ -58,7 +58,7 @@ ou **compatible avec les rail en I**{: .blue} **dont la base et >= à 10mm**, tu
 
 {% picture posts/{{ page.guid }}/Aqara-motorisation-rideau-version-rail-i.png --alt compatibilité du module de motorisation zigbee aqara curtain driver E1 version rail modèle I --img width="940" height="529" %}
 
-{% include youtubePlayer.html id="HNYChqU5A58" %}
+{% include videoPlayer.html youtube="HNYChqU5A58" %}
 
 ## fonctionnement et caractéristique de L'{{ page.ref }}
 

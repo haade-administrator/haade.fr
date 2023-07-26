@@ -63,7 +63,7 @@ La commande d'allumage fonctionne très bien, le ressentis au touché est extra,
 
 # Vidéo officielle
 
-{% include youtubePlayer.html id="MCr4eaLHaZ4" %}
+{% include videoPlayer.html youtube="MCr4eaLHaZ4" %}
 
 # Caractéristiques des Smart ring:
 

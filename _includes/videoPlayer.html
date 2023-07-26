@@ -1,0 +1,24 @@
+<!-- https://github.com/nathancy/jekyll-embed-video/tree/master/_includes -->
+
+<div class="embed-container lazyimg">
+    {%- if include.youtube %}
+    <iframe style="border-radius:15px"
+        data-src="https://www.youtube.com/embed/{{ include.youtube }}"
+        width="700"
+        height="480"
+        title="{{ page.title }}"
+        frameborder="0"
+        allowfullscreen="true">
+    </iframe>
+    {%- elsif include.local %}
+    <iframe style="border-radius:15px"
+        data-src="/assets/images/posts/{{ page.guid }}/{{ include.local }}"
+        width="700"
+        height="480"
+        title="{{ page.title }}"
+        frameborder="0"
+        allowfullscreen="true"
+        autoplay="false">
+    </iframe>
+    {%- endif %}
+  </div>

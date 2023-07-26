@@ -59,7 +59,7 @@ The motor speed can be adjusted, so it will work quieter and open the curtain sl
 
 **Note: This model only supports U and I type rails.**{: .red }
 
-{% include youtubePlayer.html id="LepBCr3F8g8" %}
+{% include videoPlayer.html youtube="LepBCr3F8g8" %}
 
 ## FUNCTIONS:
 

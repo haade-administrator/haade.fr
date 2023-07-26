@@ -63,7 +63,7 @@ Voilà deux logiciels complet qui te permettront de transférer le firmware sur 
 2. Relâche le **bouton reset** attend 2-3 secondes et relâche le **bouton boot**
 
 ### La vidéo ci-dessous reprend la manipulation
-{% include youtubePlayer.html id="6r2R_ED0J_Q" %}
+{% include videoPlayer.html youtube="6r2R_ED0J_Q" %}
 
 
 Maintenant une ligne apparait dans la liste, selectionne là

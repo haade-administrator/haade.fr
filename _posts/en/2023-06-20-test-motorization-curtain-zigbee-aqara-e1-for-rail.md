@@ -58,7 +58,7 @@ or **compatible with I-rails**{: .blue} **whose base is >= 10mm**, you can use t
 
 {% picture posts/{{ page.guid }}/Aqara-motorisation-rideau-version-rail-i.png --alt compatibility of the motorization module zigbee aqara curtain driver E1 rail version model I --img width="940" height="529" %}
 
-{% include youtubePlayer.html id="HNYChqU5A58" %}
+{% include videoPlayer.html youtube="HNYChqU5A58" %}
 
 ## functioning and characteristics of the {{ page.ref }}
 

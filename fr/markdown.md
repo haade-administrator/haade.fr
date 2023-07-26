@@ -198,9 +198,11 @@ ou déjà transformé:
 
 ![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421"}
 
-### intégrer une video youtube
-
-{% include youtubePlayer.html id="wAMIKhMkSFA" %}
+### intégrer une video
+youtube:
+{% include videoPlayer.html youtube="wAMIKhMkSFA" %}
+local:
+{% include videoPlayer.html local="nom.webm" %}
 
 ### intégrer une vidéo
 

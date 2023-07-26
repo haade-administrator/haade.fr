@@ -27,7 +27,7 @@ The Fibaro Wall Plug has the power consumption measurement function. Thus, the i
 
 This module also offers a unique function: the possibility of testing the Z-Wave network coverage. All you have to do is press the module button for a few seconds, the light purple LED informs you that the network is in test mode and allows you to see the current coverage by the color displayed.
 
-{% include youtubePlayer.html id="Ke3ztDIUMhU" %}
+{% include videoPlayer.html youtube="Ke3ztDIUMhU" %}
 
 # FUNCTIONS:
 

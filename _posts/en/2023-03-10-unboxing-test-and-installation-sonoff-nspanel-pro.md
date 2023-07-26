@@ -174,7 +174,7 @@ Paste the [Github repository link](https://github.com/CoolKit-Technologies/ha-ad
 - **switch response time 1.5 seconds (huge)**
 - *Not compatible NSPanel Pro management*
 
-{% include youtubePlayer.html id="wAMIKhMkSFA" %}
+{% include videoPlayer.html youtube="wAMIKhMkSFA" %}
 
 ## #2 by flashing the module with 100% local android
 
@@ -197,7 +197,7 @@ Thanks to Blakkader help it is possible to hack sonoff pro by installing and usi
 
 Watch an installation video below.
 
-{% include youtubePlayer.html id="0kjGH9-XQk4" %}
+{% include videoPlayer.html youtube="0kjGH9-XQk4" %}
 
 ## #3 Using the [Sonofflan repository](https://github.com/AlexxIT/SonoffLAN){:target="_blank"} (local and/or cloud)
 Entirely developed by AlexxIT, this module makes it easy to control Sonoff products. It has the advantage of being very easy to use. However it will still be necessary to configure the Ewelink cloud but without being obliged to use it, finally it depends on Sonoff's Lan compatibility

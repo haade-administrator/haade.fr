@@ -59,7 +59,7 @@ La vitesse du moteur peut être ajustée, il fonctionnera donc plus silencieusem
 
 **Note : Ce modèle ne supporte que les rails de type U et I.**{: .red }
 
-{% include youtubePlayer.html id="LepBCr3F8g8" %}
+{% include videoPlayer.html youtube="LepBCr3F8g8" %}
 
 ## FONCTIONS:
 

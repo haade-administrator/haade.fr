@@ -108,7 +108,7 @@ The module is well and truly recognized in Z2M, as you can see, the quantity of 
 
 Unfortunately I don't have the 3 Sonoff modules at hand but I found a video that compares the current sizes
 
-{% include youtubePlayer.html id="jYsCcGI1_DI" %}
+{% include videoPlayer.html youtube="jYsCcGI1_DI" %}
 
 I note the arrival on the market of more and more switch modules called "enddevice" probably linked to the integration of the new EFR32MG22 chips from silabs. It has the advantage of being very practical because in most homes in France the switch is not connected to the neutral and is often absent. However, the fact of finding more and more enddevice modules increases the workload of the coordinator and weakens the solidity of the mesh. Zigbee2mqqt [Offers Z-stack update](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG.md){:target ="_blank" } cc2652 TI chips which **now accept more than 100 end devices modules**. What easily accept this type of product.
 

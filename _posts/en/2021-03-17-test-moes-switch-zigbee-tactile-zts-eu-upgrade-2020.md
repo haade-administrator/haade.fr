@@ -66,7 +66,7 @@ Do not hesitate, you can go for it and buy it, it is really a very good product.
 
 ## Official Video Moes switch presentation by Tonton
 
-{% include youtubePlayer.html id="cq0ZeT6K1uY" %}
+{% include videoPlayer.html youtube="cq0ZeT6K1uY" %}
 
 
 Tonton Alias ​​Yann has made available a video concerning the test of the Moes ZTS-EU tactile switch.

@@ -137,7 +137,7 @@ Inside the CC2652P which runs at 48MHz, has only 300Kb of flash and 8Kb of RAM+2
 
 > You can see in this video test, that the power and the quality of the link are much better with the new Zigbee dongles including the Soc EFR32MG21.
 
-{% include youtubePlayer.html id="iaP6Cu3XrLU" %}
+{% include videoPlayer.html youtube="iaP6Cu3XrLU" %}
 
 ## Compatibility with Matter
 

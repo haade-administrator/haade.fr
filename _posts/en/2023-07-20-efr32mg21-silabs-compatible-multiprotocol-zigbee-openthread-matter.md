@@ -39,12 +39,12 @@ sourcelink:
 
 ## Support table
 
-|Use Cases|Protocols|OTA Image|EFR32MG21<br>1024 KB Flash<br>96 KB RAM|EFR32MG24<br>1536 KB Flash<br>256 KB RAM|
-|-----------------|----------|-----------------------|------------------------|-------------------------|
-|Matter gateway -> thread|RCP single protocol mode|External flash (host)|✔|✔|
-|Matter Gateway -> Zigbee/Thread|**Concurrent Zigbee/Thread**<br>Dynamic 802.15.4/Bluetooth LE¹|External Flash (Host)|✔|✔|
-|Matter Wire End Device|Dynamic 802.15.4/Bluetooth LE SoC<br>Mode²|External Flash||✔|
-|Matter Wire End Device|Dynamic 802.15.4/Bluetooth LE SoC<br>Mode²|Internal Flash||✔|
+|Use Cases|Protocols|EFR32 MG21<br>1024 KB Flash<br>96 KB RAM|EFR32 MG24<br>1536 KB Flash<br>256 KB RAM|
+|---------|---------|----------------------------------------------------------------------------------|
+|Matter gateway -> thread|RCP single protocol mode|✔|✔|
+|Matter Gateway -> Zigbee / Thread|**Concurrent Zigbee / Thread**<br>Dynamic 802.15.4 / Bluetooth LE¹|✔|✔|
+|Matter Thread End Device|Dynamic 802.15.4 / Bluetooth LE SoC<br>Mode²||✔|
+|Matter Thread End Device|Dynamic 802.15.4 / Bluetooth LE SoC<br>Mode²||✔|
 
 ## Silabs EFR32 chips info
 
@@ -88,7 +88,7 @@ More recently firmware based on **Remote Co-Processor (RCP)** has become availab
 
 **Nothing better than a video** to see the operating principle of a firmware flash of a ZBDongle-E or skyconnect key which shows **the installation of Zigbee/Matter/Openthread multiprotocol firmware**.
 
-<iframe width="854" height="480" src="{{ site.baseurl}}/assets/images/posts/{{ page.guid }}/flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm{{ cachebuster }}" frameborder="0" allowfullscreen></iframe>
+{% include videoPlayer.html local="flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm" %}
 
 ### Flash firmware Nabu Casa Skyconnect
 
