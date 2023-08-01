@@ -9,7 +9,7 @@ date: 2023-07-31 17:43
 last_modified_at: 
 categories: [Tests, Zigbee]
 tags: []
-image: 'picture.png'
+image: 'test-micromodule-multifonction-nodon-zigbee-sin-4-1-20-telerupteur.png'
 toc: true
 beforetoc: ''
 published: false
