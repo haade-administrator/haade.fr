@@ -87,6 +87,12 @@ Le module doit être installé à proximité de votre VMC ou à tout endroit où
 
 {% picture posts/{{ page.guid }}/Cablage-DIN-Tableau-Electrique-Telerupteur-ZigBee-2-ou-3-fils-boutons-au-neutre-Nodon-SIN-4-1-20.png --alt schéma de cablage du {{ page.ref }} comme télérupteur dans le tableau éléctrique avec 2 ou 3 fils --img width="940" height="830" %}
 
+> J'ai testé le fonctionnement du module {{ page.ref }} avec le schéma de fonctionnement à deux fils et le mode télérupteur fonctionne parfaitement.
+
+{% picture posts/{{ page.guid }}/test-nodon-multifonctions-sin-4-1-20-telerupteur-tableau-ok.png --alt test du module multifonction {{ page.ref }} comme télérupteur branchement 2 fils --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/integration-nodon-multifonctions-sin-4-1-20-telerupteur.png --alt intégration dans un tableau du {{ page.ref }} comme télérupteur --img width="940" height="529" %}
+
 ## Comparaison avec le module télérupteur legrand 412170 Netatmo
 
 {% picture posts/{{ page.guid }}/comparatif-telerupteur-nodon-multifonctionsin-4-1-20-avec-legrand-netatmo-412170-image-presentation.png --alt comparatif du {{ page.ref }} comme télérupteur avec legrand netatmo 412170 --img width="940" height="529" %}
