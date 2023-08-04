@@ -121,8 +121,15 @@ Le **module Legrand** possède un bouton en façade pour le fonctionnement et un
 
 **Chez Nodon** il faudra réaliser l'inclusion du module avant de l'instégrer dans le boitier rail din à moins qu'il s'agisse de la première utilisation. Sinon mis à part ça le boîtier est relativement bien fait mais il prendra 1 emplacement et demi dans le tableau électrique. Tu n'auras pas accès au bouton d'inclusion et à l'allumage physique des lumières
 
+Le nombre de fonctions est différente d'un module à l'autre, tu pourras te rendre compte sur la capture ci-dessous que Legrand propose en plus le relevé de consommation en W.
+
+> Au final je ne sais ps si la différence de prix est si exagéré ?
+
+{% picture posts/{{ page.guid }}/expose-fonction-zigbee2mqtt-telerupteur-nodon-multifonctionsin-4-1-20-avec-legrand-netatmo-412170.png --alt exposition dans z2m des fonctions du {{ page.ref }} et du legrand netatmo 412170 --img width="940" height="529" %}
+
+
 > Bon l'exemple n'est pas très parlant, partons du principe que tu désires en acheter 5.
-> 
+
 - 5 x Legrand 412170 reviendrais à **346,92€** livré à [comptoirélectriquedunet](https://www.comptoirelectriquedunet.fr/telerupteur-connecte-with-netatmo/?gclid=CjwKCAjw_aemBhBLEiwAT98FMnKmWDZLe24qzEX38NdOJEO971d91Mh19jROy2lj6i086LhpU1y5dxoCsZQQAvD_BwE){: target="_blank"}
 - 5 x modules multifonctions + rail reviendrait à **249,4€** chez domadoo 
 

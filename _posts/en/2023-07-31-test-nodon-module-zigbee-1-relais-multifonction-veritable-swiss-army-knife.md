@@ -121,6 +121,12 @@ The **Legrand module** has a button on the front for operation and another for i
 
 **At Nodon** it will be necessary to include the module before integrating it into the din rail box unless it is the first use. Otherwise apart from that the box is relatively well made but it will take up 1 and a half slots in the electrical panel. You will not have access to the inclusion button and the physical switching on of the lights
 
+The number of functions is different from one module to another, you can see from the capture below that Legrand also offers the consumption statement in W.
+
+> In the end I don't know if the price difference is so exaggerated ?
+
+{% picture posts/{{ page.guid }}/expose-fonction-zigbee2mqtt-telerupteur-nodon-multifonctionsin-4-1-20-avec-legrand-netatmo-412170.png --alt exposure in z2m of the functions of the {{ page.ref }} and the legrand netatmo 412170 --img width="940" height="529" %}
+
 > Well the example is not very telling, let's assume that you want to buy 5.
 
 - 5 x Legrand 412170 would cost **€346.92** delivered to[comptoirélectriquedunet](https://www.comptoirelectriquedunet.fr/telerupteur-connecte-with-netatmo/?gclid=CjwKCAjw_aemBhBLEiwAT98FMnKmWDZLe24qzEX38NdOJEO971d91Mh19jROy2lj6i086LhpU1y5dxoCsZQQAvD_BwE){: target="_blank"}
