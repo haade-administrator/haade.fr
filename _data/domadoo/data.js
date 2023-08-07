@@ -37,5 +37,6 @@ module.exports = [
     'peripheriques/6659-sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite', // 2167 powr316d sonoff
     'peripheriques/6660-sonoff-commutateur-de-compteur-de-puissance-intelligent-20a-avec-ecran-pow-elite', // 2168 powr320d sonoff
     'peripheriques/5751-aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs-s01-6970504214644', // 2169 capteur qualité air aqara tvoc AAQS-S01
-    'interface-domotique/6500-zvidar-controleur-usb-zigbee-30-chipset-efr32mg21' // 2170 clé zvidar
+    'interface-domotique/6500-zvidar-controleur-usb-zigbee-30-chipset-efr32mg21', // 2170 clé zvidar
+    'peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran' // 2171 capteur temp sonoff snzb-02d
 ]
