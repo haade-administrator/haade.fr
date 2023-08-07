@@ -4,7 +4,7 @@
 {%- for product in products %}
 <div class="embedproduct">
     <div class="embedproduct-picture">
-        {% picture shop/{{ include.guid }}/{{ product.image }} 1:1 center --alt {{ product.description }} --img width="250" height="250" %}
+        {% picture shop shop/{{ include.guid }}/{{ product.image }} 1:1 center --alt {{ product.description }} --img width="250" height="250" %}
     </div>
     <div class="text">
         <div class="embedproduct-info">

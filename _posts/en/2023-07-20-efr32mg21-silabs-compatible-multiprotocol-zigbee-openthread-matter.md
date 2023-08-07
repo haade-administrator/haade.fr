@@ -5,7 +5,7 @@ description: "Flashing the Sonoff zbdongle-e or nabu casa skyconnect to activate
 ref: ""
 layout: post
 author: Nico
-date: 2023-07-20 09:16
+date: 2023-08-07 10:20
 last_modified_at: 
 categories: [Haade-lab, Automation, Zigbee]
 tags: []
@@ -79,16 +79,16 @@ More recently firmware based on **Remote Co-Processor (RCP)** has become availab
 
 ### List of firmwares dispo
 
-- Zigbee ezsp NCP ( v7.3.0.0 )
-- Multi-protocole RCP (MULTI-PAN v4.3.0) 
-- Openthread ( v2.3.0.0 )
+- Zigbee ezsp NCP **( v7.3.1.0 )**{: .red}
+- Multi-protocole RCP **(MULTI-PAN v4.3.1)**{: .red}
+- Openthread **( v2.3.1.0 )**{: .red}
 - choose a firmware **personnalisé**
 
 ### Video of a ZBDongle-E key flash
 
 **Nothing better than a video** to see the operating principle of a firmware flash of a ZBDongle-E or skyconnect key which shows **the installation of Zigbee/Matter/Openthread multiprotocol firmware**.
 
-{% include videoPlayer.html localId="flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm" %}
+{% include videoPlayer.html youtubeId="6un46ohP0WU" %}
 
 ### Flash firmware Nabu Casa Skyconnect
 

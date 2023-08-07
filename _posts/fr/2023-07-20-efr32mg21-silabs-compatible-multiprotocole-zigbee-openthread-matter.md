@@ -6,7 +6,7 @@ ref: ""
 layout: post
 author: Nico
 date: 2023-07-20 09:16
-last_modified_at: 
+last_modified_at: 2023-08-07 10:20
 categories: [Haade-lab, Domotique, Zigbee]
 tags: []
 image: 'efr32mg21-compatible-zigbee-et-thread-matter-silabs-confirme.png'
@@ -79,16 +79,16 @@ Plus récemment, des micrologiciels basés sur **Remote Co-Processor (RCP)** son
 
 ### Liste des firmwares dispo
 
-- Zigbee ezsp NCP ( v7.3.0.0 )
-- Multi-protocole RCP (MULTI-PAN v4.3.0) 
-- Openthread ( v2.3.0.0 )
+- Zigbee ezsp NCP **( v7.3.1.0 )**{: .red}
+- Multi-protocole RCP **(MULTI-PAN v4.3.1)**{: .red}
+- Openthread **( v2.3.1.0 )**{: .red}
 - choisir un firmware **personnalisé**
 
 ### Vidéo d'un flash de clé ZBDongle-E
 
 **Rien de mieux qu'une vidéo** pour voir le principe de fonctionnement d'un flash de firmware d'une clé ZBDongle-E ou skyconnect qui montre **l'installation du firmware multiprotocole Zigbee/Matter/Openthread**.
 
-{% include videoPlayer.html localId="flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee.webm" %}
+{% include videoPlayer.html youtubeId="6un46ohP0WU" %}
 
 ### Flash firmware Nabu Casa Skyconnect
 
