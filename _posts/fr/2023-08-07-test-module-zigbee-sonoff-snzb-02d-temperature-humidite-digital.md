@@ -1,7 +1,7 @@
 ---
 guid: 78
-title: "test"
-description: "test"
+title: "Test du capteur Sonoff SNZB-02D"
+description: "test du capteur digitale de température et d'humidité zigbee 3.0 Sonoff SNZB-02D"
 ref: "SNZB-02D"
 layout: post
 author: Nico
@@ -24,6 +24,7 @@ comments: true
 rating:  
 sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.html?domid=39
+  - https://sonoff.tech/product/gateway-and-sensors/snzb-2d/
 ---
 
 {% include product-embed.html guid="2171" %}
@@ -37,8 +38,6 @@ sourcelink:
 {% picture posts/{{ page.guid }}/module-zigbee-temperature-humidite-sonoff-snzb-02d-circuit-imprime-silabs-efr32mg22.png --alt circuit imprimé du module zigbee Sonoff {{ page.ref }} puce zigee Silabs EFR32MG22 --img width="940" height="529" %}
 
 ![image animée du support mural aimanté du module zigbe sonoff {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D.webp{{ cachebuster }}){: width="356" height="360"}
-
-![image animée du support mural aimanté du module zigbe sonoff {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240"}
 
 {% picture posts/{{ page.guid }}/qualité-ecran-lcd-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt côté écran lcd du module zigbee Sonoff {{ page.ref }} --img width="940" height="529" %}
 
@@ -57,6 +56,8 @@ sourcelink:
 {% picture posts/{{ page.guid }}/integration-jeedom-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans Jeedom avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="437" %}
 
 ## Caractéristiques Techniques
+
+{% picture posts/{{ page.guid }}/Sonoff-SNZB-2D-size-dimension.png --alt Dimension du module zigbee Sonoff {{ page.ref }} --img width="940" height="441" %}
 
 |Marque|SONOFF|
 |------|------|
