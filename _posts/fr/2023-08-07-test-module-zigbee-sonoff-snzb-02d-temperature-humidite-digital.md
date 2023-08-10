@@ -12,7 +12,7 @@ tags: []
 image: 'test-module-zigbee-temperature-humidite-sonoff-snzb-02d.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -21,13 +21,13 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 5 
 sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.html?domid=39
   - https://sonoff.tech/product/gateway-and-sensors/snzb-2d/
 ---
 
-Pour débuter cet article je tenais à remercier Domadoo de m'avoir fournis ce produit qui me permet de te faire un retour de plus sur les modules de la gamme Sonoff. Comme tu auras pu le lire sur ce blog, j'ai déjà testé divers produit de cette marque et je dois dire que je n'ai jamais été déçu, qu'il s'agisse de module incluant le protocole wifi ou Zigbee, alors qu'en est-il de ce module Sonoff {{ page.ref }}, est-il de bonne facture et dans quel but à-il été développé ?
+Pour débuter cet article **je tenais à remercier Domadoo** de m'avoir fourni ce produit qui me permet de te faire un retour de plus sur les modules de la gamme Sonoff. Comme tu auras pu le lire sur ce blog, j'ai déjà testé divers produits de cette marque et **je dois dire que je n'ai jamais été déçu**, qu'il s'agisse de module incluant le protocole wifi ou Zigbee, alors qu'en est-il de ce module Sonoff {{ page.ref }}, est-il de bonne facture et dans quel but a-t-il été développé ?
 
 ## Liste des articles Cognitifs
 
@@ -54,21 +54,22 @@ Une fois en main le **produit présente très bien** la dalle LCD est grande, le
 
 {% picture posts/{{ page.guid }}/presentation-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt présentation du module zigbee Sonoff {{ page.ref }} --img width="940" height="529" %}
 
-Le module est accompagné d'un support mural recouvert d'un double face de la marque 3M, le module et le support sont magnétiques, l'emboitement se fait par le haut et s'oriente automatiquement dans le support. Vraiment très bien pensé. Surtout que c'est dans le module que se trouve les aimants du coup tu pourras aussi le poser contre une surface métallique de type réfrigérateur.
+Le module est accompagné d'un support mural recouvert d'un double face **de la marque 3M**. Le module {{ page.ref }} et le support sont magnétiques, l'emboitement se fait par le haut et s'oriente automatiquement dans le support. **Vraiment très bien pensé.** Important les aimants se trouvent côté module, **du coup tu pourras aussi le poser contre une surface métallique de type réfrigérateur**.
 
 ![image animée du support mural aimanté du module zigbe sonoff {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240"}
 
-Pour finir le module Sonoff {{page.ref}} dispose d'un support de table qui est orientble et intégré à l'ensemble.
+**Pour finir** le module Sonoff {{page.ref}} dispose d'un support de table qui est orientable et intégré à l'ensemble.
 
 {% picture posts/{{ page.guid }}/divers-support-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt image présentant les différents supports du module zigbee Sonoff {{ page.ref }} --img width="940" height="428" %}
 
-Passons à l'affichage, il présente très très bien, d'une diagonale supérieur à 7cm, rien que ça, avant même de l'avoir démonté j'ai senti que l'écran LCD du Sonoff {{page.ref}} était de qualité.
+Passons à l'affichage, **il présente très très bien**, d'une diagonale supérieur à 7cm, rien que ça, avant même de l'avoir démonté j'ai senti que l'écran LCD du Sonoff {{page.ref}} était de qualité.
 
 {% picture posts/{{ page.guid }}/qualité-ecran-lcd-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt côté écran lcd du module zigbee Sonoff {{ page.ref }} --img width="940" height="529" %}
 
-L'affichage est très lisible, même quand la surface est réfléchis par la lumière ambiante.
+**L'affichage est très lisible, même quand la surface est réfléchi par la lumière ambiante.**
 
 On y retrouve la température paramétrable en °C ou °F, ainsi que la teneur en humidité de l'air exprimée en %, mais pas que:
+
 1. le voyant d'appairage au réseau ( une fois appairé il restera visible )
 2. le niveau des batteries
 3. les voyants humidité ou sécheresse ( en fonction du taux d'humidité )
@@ -81,7 +82,9 @@ L'humidité varie par pallier de 2%
 
 {% picture posts/{{ page.guid }}/affichage-info-lcd-module-zigbee-temperature-humidite-sonoff-snzb-02d-suite.png --alt affichage des infos du module zigbee Sonoff {{ page.ref }} --img width="940" height="529" %}
 
-L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant
+L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant une sonde, une puce Silabs EFR32MG22 (identique au zbmini extrême) et les aimants sur le contr couvercle.
+
+> Le circuit est bien réalisé.
 
 {% picture posts/{{ page.guid }}/module-zigbee-temperature-humidite-sonoff-snzb-02d-circuit-imprime-silabs-efr32mg22.png --alt circuit imprimé du module zigbee Sonoff {{ page.ref }} puce zigee Silabs EFR32MG22 --img width="940" height="529" %}
 
@@ -92,15 +95,23 @@ L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant
 
 ### Intégration dans ZHA (HomeAssistant)
 
+L'intégration dans ZHA ne pose aucun Soucis et tant mieux.
+
 {% picture posts/{{ page.guid }}/integration-zha-homeassistant-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans ZHA et HomeAssistant avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="664" %}
 
 ### Intégration dans ZIGBEE2MQTT ( HA et Jeedom )
 
+Dans Zigbee2mqtt même constat
+
 {% picture posts/{{ page.guid }}/integration-zigbee2mqtt-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="1050" %}
+
+Tu noteras tout de même que dans Z2M il est faclie de calibrer les sondes, **mais elles sont d'origines bien calibrées.**
 
 {% picture posts/{{ page.guid }}/zigbee2mqtt-parametre-supplementaire-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt paramètre supplémentaire des calibrations dans dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="252" %}
 
 ### Intégratiion dans JEEDOM (module zigbee)
+
+Dans Jeedom avec le module zigbee l'intégration se fait aussi sans broncher, c'est top.
 
 {% picture posts/{{ page.guid }}/integration-jeedom-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans Jeedom avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="437" %}
 
@@ -131,14 +142,17 @@ L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant
 - la qualité de fabrication
 - certifié zigbee 3.0
 - les nombreuses compatibilitées
-- l'adaptation aux produits du marché
+- à peine plus cher q'un module sans écran
+- les divers support
 
 ## **les - du produit** {{ page.ref }}
 {: .red}
 
-- le prix
+- rien
 
 {% include product-embed.html guid="2171" %}
 
 ## Conclusion
+
+Encore une fois Sonoff signe fort, même très fort car ce module **coûte un peu plus de 1€ plus cher que son grand frêre sans écran !**, tu le trouveras à moins de 12€ chez ton marchand préféré, autant dire que c'est une pépite, si tu cherches un module avec écran LCD alors autant te dire que le Sonoff {{ page.ref }} est, ce que tu cherches.
 
