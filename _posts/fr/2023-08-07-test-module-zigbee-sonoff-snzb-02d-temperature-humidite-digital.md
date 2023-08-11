@@ -107,7 +107,7 @@ Dans Zigbee2mqtt même constat
 
 {% picture posts/{{ page.guid }}/integration-zigbee2mqtt-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="1050" %}
 
-Tu noteras tout de même que dans Z2M il est facile de calibrer les sondes, **mais elles sont d'origines bien calibrées.**
+Tu noteras tout de même que dans Z2M il est facile de calibrer les sondes. La sonde de température n'a pas besoin d'être calibrée, **La mesure de l'humidité** doit être **compensée de 5 à 6% ce calibrage** est absolument nécessaire. Les utilisateurs de Zigbee2MQTT peuvent créer un décalage directement dans l'interface utilisateur, sous le menu Paramètres (spécifiques). Les utilisateurs de ZHA peuvent créer des modèles de capteurs avec le décalage.
 
 {% picture posts/{{ page.guid }}/zigbee2mqtt-parametre-supplementaire-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt paramètre supplémentaire des calibrations dans dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="252" %}
 
