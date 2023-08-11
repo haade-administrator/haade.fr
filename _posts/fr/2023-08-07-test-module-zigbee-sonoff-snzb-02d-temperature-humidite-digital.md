@@ -31,11 +31,11 @@ Pour débuter cet article **je tenais à remercier Domadoo** de m'avoir fourni c
 
 ## Liste des articles Cognitifs
 
-[Test capteur température et humidité Sonoff SNZB-02]({% post_url /fr/2021-09-10-test-capteur-temperature-et-humidite-sonoff-snzb-02 %})
-[Test capteur porte Sonoff SNZB-04]({% post_url /fr/2021-09-20-test-capteur-porte-zigbee-3-0-sonoff-snzb-04 %})
-[Test interrupteur ZBMINI-L2 Extrême]({% post_url /fr/2023-03-06-test-sonoff-zbminil2-extreme-zigbee-end-device %})
-[Test Nspanel Pro]({% post_url /fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %})
-[Zbdongle-P vs Zbdongle-E]({% post_url /fr/2022-11-20-zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff %})
+- [Test capteur température et humidité Sonoff SNZB-02]({% post_url /fr/2021-09-10-test-capteur-temperature-et-humidite-sonoff-snzb-02 %})
+- [Test capteur porte Sonoff SNZB-04]({% post_url /fr/2021-09-20-test-capteur-porte-zigbee-3-0-sonoff-snzb-04 %})
+- [Test interrupteur ZBMINI-L2 Extrême]({% post_url /fr/2023-03-06-test-sonoff-zbminil2-extreme-zigbee-end-device %})
+- [Test Nspanel Pro]({% post_url /fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %})
+- [Zbdongle-P vs Zbdongle-E]({% post_url /fr/2022-11-20-zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff %})
 
 {% include product-embed.html guid="2171" %}
 
@@ -82,7 +82,7 @@ L'humidité varie par pallier de 2%
 
 {% picture posts/{{ page.guid }}/affichage-info-lcd-module-zigbee-temperature-humidite-sonoff-snzb-02d-suite.png --alt affichage des infos du module zigbee Sonoff {{ page.ref }} --img width="940" height="529" %}
 
-L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant une sonde, une puce Silabs EFR32MG22 (identique au zbmini extrême) et les aimants sur le contr couvercle.
+L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant une sonde de **température et humidité modèle SH60 AD1AFU** fabriqué par Sensirion, une société Suisse, une puce Zigbee **Silabs EFR32MG22** (identique au zbmini extrême) et les aimants sur le contre couvercle.
 
 > Le circuit est bien réalisé.
 
@@ -97,6 +97,8 @@ L'ensemble se démonte facilement tu y trouveras un circuit imprimé embarquant 
 
 L'intégration dans ZHA ne pose aucun Soucis et tant mieux.
 
+> L'inclusion se fait en restant appuyé 5 secondes sur le bouton dédié
+
 {% picture posts/{{ page.guid }}/integration-zha-homeassistant-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans ZHA et HomeAssistant avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="664" %}
 
 ### Intégration dans ZIGBEE2MQTT ( HA et Jeedom )
@@ -105,11 +107,11 @@ Dans Zigbee2mqtt même constat
 
 {% picture posts/{{ page.guid }}/integration-zigbee2mqtt-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt intégration dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="1050" %}
 
-Tu noteras tout de même que dans Z2M il est faclie de calibrer les sondes, **mais elles sont d'origines bien calibrées.**
+Tu noteras tout de même que dans Z2M il est facile de calibrer les sondes, **mais elles sont d'origines bien calibrées.**
 
 {% picture posts/{{ page.guid }}/zigbee2mqtt-parametre-supplementaire-module-zigbee-temperature-humidite-sonoff-snzb-02d.png --alt paramètre supplémentaire des calibrations dans dans Zigbee2mqtt avec le module Zigbee du module zigbee Sonoff {{ page.ref }} --img width="940" height="252" %}
 
-### Intégratiion dans JEEDOM (module zigbee)
+### Intégration dans JEEDOM (module zigbee)
 
 Dans Jeedom avec le module zigbee l'intégration se fait aussi sans broncher, c'est top.
 
