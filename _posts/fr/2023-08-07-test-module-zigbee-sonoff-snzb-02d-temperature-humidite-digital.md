@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 5 
+rating: 4.7
 sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.html?domid=39
   - https://sonoff.tech/product/gateway-and-sensors/snzb-2d/
@@ -37,7 +37,7 @@ Pour débuter cet article **je tenais à remercier Domadoo** de m'avoir fourni c
 - [Test Nspanel Pro]({% post_url /fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %})
 - [Zbdongle-P vs Zbdongle-E]({% post_url /fr/2022-11-20-zb-dongle-p-vs-zb-dongle-e-zigbee-sonoff %})
 
-{% include product-embed.html guid="2171" %}
+{% include product-embed.html image="sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.jpg" title="Sonoff SNZB-02D" brand="Sonoff" description="Capteur de température et humidité avec écran Zigbee" iteadlink="sonoff-snzb-02d-zigbee-lcd-smart-temperature-humidity-sensor" domlink="peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.html" affiliate="_DlxqGhv" %}
 
 La sphère des modules Sonoff Zigbee s'agrandit de mois en mois, actuellement l'entreprise développe plusieurs controlleurs domotiques comme le ihost, zBbridge pro, [Nspanel pro]({% post_url /fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %}). On sent que l'entreprise créé tout un univers autour des modules de la marque. Alors c'est bien ça prouve que la société se porte bien par contre **c'est très dommage que ces produits ne soit pas développés multi-marques et là je parle du NSpanel Pro qui selon moi perd de sons sens**.
 
@@ -150,7 +150,7 @@ Dans Jeedom avec le module zigbee l'intégration se fait aussi sans broncher, c'
 ## **les - du produit** {{ page.ref }}
 {: .red}
 
-- rien
+- reprise de l'étalonnage de l'humidité
 
 {% include product-embed.html guid="2171" %}
 

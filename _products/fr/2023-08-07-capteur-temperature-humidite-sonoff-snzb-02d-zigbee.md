@@ -15,7 +15,7 @@ comments: false
 rating:  
 published: true
 aep-item: 
-aep-item-affiliate: ""
+aep-item-affiliate: "_DlxqGhv"
 dom-item: "SNZB-02D"
 ---
 
@@ -27,11 +27,11 @@ Le capteur prend en charge 3 méthodes de montage - dessus de table et / dos mag
 
 ## FONCTIONS:
 
-Surveillance à distance en temps réel : le capteur SNZB-02D surveille la température et l'humidité en temps réel sur l'APP à distance ou sur l'écran d'affichage, avec une couverture jusqu'à 120 m/400 ft.
-Haute précision et amp ; Rafraîchissement rapide 5 s : capteur d'hygromètre intelligent fabriqué en Suisse qui vous donne des lectures plus précises en maintenant une précision de ± 0,2 °C/± 0,4 °F en température et une précision de ± 2 % HR en humidité, actualise les lectures toutes les 5 secondes.</li >
-Grand écran LCD : utilisez un grand écran LCD pour afficher les valeurs en temps réel de la température et de l'humidité de manière claire et dynamique, les icônes d'affichage intuitives vous permettent de vérifier les conditions de la pièce et l'état de la batterie encore plus facilement que jamais.
-Notifications de l'application : vous recevrez des alertes instantanées de votre téléphone lorsque la température ou l'humidité dépasse le niveau de confort défini.
-Stockage des données et amp ; Exportation : Jusqu'à six mois de stockage gratuit dans le cloud, et suffisamment précis pour afficher les données horaires. Vous pouvez également vérifier les valeurs les plus élevées et les plus basses à n'importe quelle heure ou jour et les données peuvent être exportées sous forme de fichiers.
+- Surveillance à distance en temps réel : le capteur SNZB-02D surveille la température et l'humidité en temps réel sur l'APP à distance ou sur l'écran d'affichage, avec une couverture jusqu'à 120 m/400 ft.
+- Haute précision et Rafraîchissement rapide 5 s : capteur d'hygromètre intelligent fabriqué en Suisse qui vous donne des lectures plus précises en maintenant une précision de ± 0,2 °C/± 0,4 °F en température et une précision de ± 2 % HR en humidité, actualise les lectures toutes les 5 secondes.
+- Grand écran LCD : utilisez un grand écran LCD pour afficher les valeurs en temps réel de la température et de l'humidité de manière claire et dynamique, les icônes d'affichage intuitives vous permettent de vérifier les conditions de la pièce et l'état de la batterie encore plus facilement que jamais.
+- Notifications de l'application : vous recevrez des alertes instantanées de votre téléphone lorsque la température ou l'humidité dépasse le niveau de confort défini.
+- Stockage des données et Exportation : Jusqu'à six mois de stockage gratuit dans le cloud, et suffisamment précis pour afficher les données horaires. Vous pouvez également vérifier les valeurs les plus élevées et les plus basses à n'importe quelle heure ou jour et les données peuvent être exportées sous forme de fichiers.
 
 ## CARACTÉRISTIQUES TECHNIQUES:
 
