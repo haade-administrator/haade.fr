@@ -4,6 +4,9 @@ docs_list_title:
 
 docs:
   fr_FR:
+    - title: Offres Itead Sonoff
+      url: https://itead.cc/sonoff-mid-year-sale/ref/122/
+  
     - title: Home-assistant.io Atom
       url: https://www.home-assistant.io/atom.xml
 
@@ -20,6 +23,9 @@ docs:
       url: https://buildwithmatter.com/
 
   en_GB:
+    - title: Itead Sonoff Offers
+      url: https://itead.cc/sonoff-mid-year-sale/ref/122/
+
     - title: Home-assistant.io Atom
       url: https://www.home-assistant.io/atom.xml
     
