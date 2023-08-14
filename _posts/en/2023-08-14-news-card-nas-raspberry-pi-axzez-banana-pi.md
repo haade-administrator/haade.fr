@@ -5,7 +5,7 @@ description: "The Axzez Interceptor embedded board is a Raspberry PI CM4 and now
 ref: ""
 layout: post
 author: Nico
-date: 2023-08-14 14:57
+date: 2023-08-14 10:00
 last_modified_at: 
 categories: [News]
 tags: []
