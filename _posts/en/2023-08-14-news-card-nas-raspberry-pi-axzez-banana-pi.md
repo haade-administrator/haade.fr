@@ -1,6 +1,6 @@
 ---
 guid: 80
-title: "Axzez Interceptor map update"
+title: "Axzez Interceptor board update"
 description: "The Axzez Interceptor embedded board is a Raspberry PI CM4 and now Banana PI CM4 compatible board, ideal for creating a NAS, NVR and HOME AUTOMATION at the same time. Some news about this little gem"
 ref: ""
 layout: post
