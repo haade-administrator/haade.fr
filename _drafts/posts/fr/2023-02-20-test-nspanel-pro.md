@@ -1,6 +1,6 @@
 ---
 guid: 20
-title: ""
+title: "NsPanel Pro wallpanel"
 description: ""
 layout: post
 author: Nico
@@ -22,6 +22,10 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - https://www.youtube.com/watch?v=0kjGH9-XQk4
-  - https://blakadder.com/nspanel-pro/
+  - https://community.home-assistant.io/t/nspanel-pro-with-wallpanel-on-fully-kiosk-browser/526964
+  - https://github.com/piitaya/lovelace-mushroom
+  - https://github.com/UI-Lovelace-Minimalist
+  - https://github.com/j-a-n/lovelace-wallpanel
+  - https://blakadder.com/nspanel-pro-sideload/
+  - https://blakadder.com/nspanel-pro-secrets/
 ---
