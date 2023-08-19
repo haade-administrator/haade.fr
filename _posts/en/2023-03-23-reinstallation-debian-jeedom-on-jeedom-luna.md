@@ -35,10 +35,16 @@ As a prerequisite, you will need to download the corresponding Debian image as w
 
 ## Jeedom Luna compatible debian image
 
+### Installation from the official Jeedom image
+
 **Update:** Jeedom offers the image compatible with the Dusun on their own servers, at the time of writing the update the image **update.img** end date July 2023, download there at this address [https://images.jeedom.com/luna/](https://images.jeedom.com/luna/){: target="_blank"}. The other Jeedom images (jeeboard, freebox, etc.) are available at this address [https://images.jeedom.com/](https://images.jeedom.com/){: target="_blank" }
 
-~~To start download the image, the file is stored on Google drive.~~
-~~[Debian image rev 1.1.7](https://drive.google.com/file/d/1-rok0WHrsqLUyX3lbEJaPgY-tiiV6s8v/view?usp=sharing){: target="_blank"}~~
+> With this image follow the **windows utilities** and **firmware upgrade** steps and the installation will be complete
+
+### Installation 100% manual
+
+To start download the image, the file is stored on Google drive.
+[Debian image rev 1.1.7](https://drive.google.com/file/d/1-rok0WHrsqLUyX3lbEJaPgY-tiiV6s8v/view?usp=sharing){: target="_blank"}
 
 ## Windows Utilities
 
