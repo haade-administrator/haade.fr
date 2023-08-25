@@ -12,7 +12,7 @@ tags: []
 image: 'nouveautees-carte-axzez-interceptor-nas-nvr-automation-raspberry-banana-pi.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 4.8 
+rating:
 sourcelink:
   - https://www.axzez.com/
   - https://www.axzez.com/software-downloads
