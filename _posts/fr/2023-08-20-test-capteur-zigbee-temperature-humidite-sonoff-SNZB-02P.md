@@ -12,7 +12,7 @@ tags: []
 image: 'test-nouveau-capteur-temperature-humidite-sonoff-snzb-02p-zigbee-qualite-design-ameliore.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.8
 sourcelink:
   - https://itead.cc/product/sonoff-zigbee-temperature-and-humidity-sensor-snzb-02p/ref/122/
   - https://s.click.aliexpress.com/e/_DkB333v
