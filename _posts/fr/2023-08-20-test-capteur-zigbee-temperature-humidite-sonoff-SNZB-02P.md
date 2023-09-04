@@ -12,7 +12,7 @@ tags: []
 image: 'test-nouveau-capteur-temperature-humidite-sonoff-snzb-02p-zigbee-qualite-design-ameliore.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
