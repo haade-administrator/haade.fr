@@ -49,6 +49,30 @@ Sur les photos ci dessous tu pourras  te rendre compte de la taille et de la qua
 
 {% picture posts/{{ page.guid }}/differente-face-et-taille-sonoff-snzb-02P-nouveautee.png --alt plan de coupe du nouveau capteur de température et humidité Sonoff {{ page.ref }} --img width="940" height="428" %}
 
+{% picture posts/{{ page.guid }}/boitier-sonoff-snzb-02p-interieur-pile-magnet.png --alt ouverture du module Sonoff snzb-02p et pile peu commune cr2477 {{ page.ref }} --img width="940" height="529" %}
+
+
+## Intégration dans Zigbee2mqtt ( ha et jeedom )
+
+L'intégration dans Z2M se fait sans soucis et le module est bien reconnu et déjaà inclus dans la base Z2M, c'est une bonne chose mais ça ne m'étonne pas Sonoff est tout de même réputé.
+
+{% picture posts/{{ page.guid }}/integration-apropos-zigbee2mqtt-sonoff-snzb-02p.png --alt intégration du module sonoff zigbee efr32mg21 {{ page.ref }} dans zigbee2mqtt à propos --img width="940" height="731" %}
+
+> Toutes les infos remontent correctement. Ne t'inquiète pas pour la batterie **elle fonctionne** aussi seulement j'ai pris la capture trop rapidement après l'intégration.
+
+{% picture posts/{{ page.guid }}/remonte-information-expose-zigbee2mqtt-sonoff-snzb-02p.png --alt exposition des commandes du module sonoff zigbee efr32mg21 {{ page.ref }} dans zigbee2mqtt --img width="940" height="475" %}
+
+## Comparatifs des mesures du {{ page.ref }}
+
+J'ai voulu tester et comparer les mesures du Sonoff SNZB-02P au [module SNZB-02D ]({% post_url /fr/2023-08-07-test-module-zigbee-sonoff-snzb-02d-temperature-humidite-digital %}) et [Xiaomi Aqara VOCKQJK11LM]({% post_url /fr/2023-07-06-test-aqara-moniteur-qualite-air-AAQS-S01-zigbee3 %})
+
+25.6, 25.4, 25.91
+43.4, 42.6, 47.41
+
+{% picture posts/{{ page.guid }}/comparatifs-donnees-temperature-sonoff-snzb-02P.png --alt comparatif des mesures du sonoff snzb-02d, {{ page.ref }} et du xiaomi Aqara VOCKQJK11LM --img width="940" height="529" %}
+
+![Comparatif relevé de température et d'humidité Sonoff SNZB-02D, SNZB-02P et Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884"}
+
 ## **les + du produit** {{ page.ref }}
 {: .blue}
 - la qualité de fabrication
