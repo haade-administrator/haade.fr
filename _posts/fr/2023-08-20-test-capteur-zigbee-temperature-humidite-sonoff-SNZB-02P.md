@@ -25,6 +25,7 @@ rating: 4.8
 sourcelink:
   - https://itead.cc/product/sonoff-zigbee-temperature-and-humidity-sensor-snzb-02p/ref/122/
   - https://s.click.aliexpress.com/e/_DkB333v
+  - https://sonoff.tech/product-document/gateway-and-sensors-doc/snzb-02p-doc/
 ---
 
 Voilà plus de deux semaines que je n'ai pas publié d'articles, congés d'été oblige ... la coupure à fait du bien. Désormais nous sommes déjà début Septembre et pour cette rentrée je te propose en test un nouveau module Sonoff {{ page.ref }} capteur de température et d'humidité fonctionnant avec une puce Silabs EFR32MG21.
@@ -49,6 +50,10 @@ Sur les photos ci dessous tu pourras  te rendre compte de la taille et de la qua
 
 {% picture posts/{{ page.guid }}/differente-face-et-taille-sonoff-snzb-02P-nouveautee.png --alt plan de coupe du nouveau capteur de température et humidité Sonoff {{ page.ref }} --img width="940" height="428" %}
 
+{% picture posts/{{ page.guid }}/image-fixation-murale-sonoff-snzb-02p.png --alt type de fixation murale du capteur de température et humidité Sonoff {{ page.ref }} --img width="940" height="980" %}
+
+> Étonnant le module intègre une pile CR2477 assez rare en utilisation mais qui permet à Sonoff de garantir la **durée de fonctionnement à 4 ans** rien que ça ?
+
 {% picture posts/{{ page.guid }}/boitier-sonoff-snzb-02p-interieur-pile-magnet.png --alt ouverture du module Sonoff snzb-02p et pile peu commune cr2477 {{ page.ref }} --img width="940" height="529" %}
 
 
@@ -72,6 +77,14 @@ J'ai voulu tester et comparer les mesures du Sonoff SNZB-02P au [module SNZB-02D
 {% picture posts/{{ page.guid }}/comparatifs-donnees-temperature-sonoff-snzb-02P.png --alt comparatif des mesures du sonoff snzb-02d, {{ page.ref }} et du xiaomi Aqara VOCKQJK11LM --img width="940" height="529" %}
 
 ![Comparatif relevé de température et d'humidité Sonoff SNZB-02D, SNZB-02P et Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884"}
+
+## Caractéristiques techniques
+
+{% picture posts/{{ page.guid }}/caracteristique-technique-sonoff-snzb-02p.png --alt caracteristique technique sonoff {{ page.ref }} --img width="940" height="316" %}
+
+## Notice d'utilisation {{ page.ref }}
+
+{% include doclink.html pdf="manuel-utilisation-sonoff-SNZB-02P-V1.0.pdf" title="manuel utilisation sonoff snzb-02p" %}
 
 ## **les + du produit** {{ page.ref }}
 {: .blue}
