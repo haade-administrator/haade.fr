@@ -39,7 +39,21 @@ Alors pourquoi ai-je choisis UI Lovelace Minimalist plutôt que [Mushroom Card e
 
 ## Installation UI Lovelace Minimalist
 
-Rien de plus simple il te suffit de lire le tuto officiel
+Rien de plus [simple il te suffit de lire le tuto officiel](https://ui-lovelace-minimalist.github.io/UI/setup/installation/#install-integration){: target="_blank"}
+
+J'ai opté pour une installation manuelle **des intégrations supplémentaires** car je rencontrais régulièrement des messages d'erreurs de non reconnaissances
+
+**Intégration requise**
+- [browser_mod](https://github.com/thomasloven/hass-**browser_mod**){: target="_blank"} par Thomas Loven
+
+**Ressources Lovelace requises**
+- [carte-bouton](https://github.com/custom-cards/button-card){: target="_blank"} par RomRider
+- [carte-mod](https://github.com/thomasloven/lovelace-card-mod){: target="_blank"} par Thomas Loven
+- [mini-carte graphique](https://github.com/kalkih/mini-graph-card){: target="_blank"} de Karl Kihlström
+- [Mini lecteur multimédia](https://github.com/kalkih/mini-media-player){: target="_blank"} par Karl Kihlström
+- [Mon pack de cartes](https://github.com/AnthonMS/my-cards){: target="_blank"} par AnthonMS** ( nécessite d'installer un répertoire supplémentaire de HACS)
+- [Carte d'entité légère](https://github.com/ljmerza/light-entity-card){: target="_blank"} par Leonardo Merza
+- [auto-entités](https://github.com/thomasloven/lovelace-auto-entities){: target="_blank"} par Thomas Loven
 
 PS: Après avoir rencontré des soucis avec l'installation des modules complémentaires automatisés je te conseil de les installer manuellement dans Hacs. J'avais constemment des erreurs de modules non installés d'un support à l'autre.
 
