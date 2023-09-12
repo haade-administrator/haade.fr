@@ -27,6 +27,7 @@ sourcelink:
   - https://github.com/UI-Lovelace-Minimalist/UI
   - https://community.home-assistant.io/t/lovelace-ui-minimalist/322687
   - https://ui-lovelace-minimalist.netlify.app/index
+  - https://github.com/benmac7/Home-Assistant
 ---
 
 Comme tout le monde le sait Home-Assistant est probablement le meilleur logiciel domotique actuel. Enfin c'est ce que je pense. Dans ce tuto je vais te montrer comment personnaliser un tableau de bord avec thème ultra design nommé ... **UI Lovelace Minimalist**.
