@@ -1,6 +1,6 @@
 ---
 guid: 82
-title: "Dessine un tableau pour téléphon dans HA avec UI Minimalist"
+title: "Construit un envirronnement pour Smartphone dans HA avec UI Minimalist"
 description: "tutoriel simple et rapide pour mettre en place un tableau de bord sous Home Assistant design pour téléphone grâce à UI Lovelace Minimalist"
 ref: "UI Lovelace Minimalist"
 layout: post
@@ -12,7 +12,7 @@ tags: []
 image: 'tutos-tableaux-themes-telephone-home-assistant-ui-lovelace-minimalist.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
