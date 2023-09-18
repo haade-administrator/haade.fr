@@ -30,7 +30,7 @@ sourcelink:
   - https://github.com/benmac7/Home-Assistant
 ---
 
-Comme tout le monde le sait Home-Assistant est probablement le meilleur logiciel domotique actuel. Enfin c'est ce que je pense. Dans ce tuto je vais te montrer comment personnaliser un tableau de bord avec thème ultra design nommé ... **UI Lovelace Minimalist**.
+Comme tout le monde le sait Home-Assistant est selon moi le meilleur logiciel domotique actuel. Enfin c'est ce que je pense. Dans ce tuto je vais te montrer comment personnaliser un tableau de bord avec thème ultra design nommé ... **UI Lovelace Minimalist**.
 
 Alors pourquoi ai-je choisis UI Lovelace Minimalist plutôt que [Mushroom Card et thème](https://github.com/piitaya/lovelace-mushroom){: target="_blank"}. Et bien simplement parce que Ui Minimalist propose plus de cartes et chips que Mushroom.
 
