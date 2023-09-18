@@ -12,7 +12,7 @@ tags: []
 image: 'tutos-tableaux-themes-telephone-home-assistant-ui-lovelace-minimalist.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
