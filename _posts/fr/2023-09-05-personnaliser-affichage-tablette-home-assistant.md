@@ -1,6 +1,6 @@
 ---
 guid: 82
-title: "Dessine un tableau pour téléphon dans HA avec UI Minimalist"
+title: "Construit un envirronnement pour Smartphone dans HA avec UI Minimalist"
 description: "tutoriel simple et rapide pour mettre en place un tableau de bord sous Home Assistant design pour téléphone grâce à UI Lovelace Minimalist"
 ref: "UI Lovelace Minimalist"
 layout: post
@@ -30,7 +30,7 @@ sourcelink:
   - https://github.com/benmac7/Home-Assistant
 ---
 
-Comme tout le monde le sait Home-Assistant est probablement le meilleur logiciel domotique actuel. Enfin c'est ce que je pense. Dans ce tuto je vais te montrer comment personnaliser un tableau de bord avec thème ultra design nommé ... **UI Lovelace Minimalist**.
+Comme tout le monde le sait Home-Assistant est selon moi l'un des meilleurs logiciels domotiques du moment. Enfin c'est ce que je pense. Dans ce tuto je vais te montrer comment personnaliser un tableau de bord avec thème ultra design nommé ... **UI Lovelace Minimalist**.
 
 Alors pourquoi ai-je choisis UI Lovelace Minimalist plutôt que [Mushroom Card et thème](https://github.com/piitaya/lovelace-mushroom){: target="_blank"}. Et bien simplement parce que Ui Minimalist propose plus de cartes et chips que Mushroom.
 
