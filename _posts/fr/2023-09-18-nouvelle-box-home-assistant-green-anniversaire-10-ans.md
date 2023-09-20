@@ -12,7 +12,7 @@ tags: []
 image: 'home-assistant-green-nouvelle-box-domotique.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -28,13 +28,23 @@ sourcelink:
   - https://green.home-assistant.io/
 ---
 
+{% picture posts/{{ page.guid }}/histoire-creation-home-assistant-paulus-schoutzen.png --alt creation home-assistant 10 ans déjà --img width="940" height="529" %}
+
 Voilà déjà 10 ans que Home-Assistant existe, je n'en reviens pas, Paulus Schoutsen nous annonçait une nouveauté **qui a été dévoilé hier à la fin du live youtube**. Il s'agit d'une nouvelle box vendu à moins de 100€ la **{{ page.ref }}**
 
 {% include videoPlayer.html youtubeId="EmLV6lJLzSU" %}
 
 **Home Assistant Green**  offre une configuration sans effort et vous permet de contrôler tous les appareils intelligents avec un seul système, où toutes les **données sont stockées localement** par défaut. Cet appareil bénéficie de l’écosystème  de Home-Assistant.
 
-## Fonctionnalité
+**{{ page.ref }}** intègre une carte mère conçue en collaboration avec [l'entreprise Seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){: target="_blank"}, point intéressant processeur 4 coeurs ARM-Cortex A55 et 4Gb de ram embarquées et 32GB de stockage emmc, tout ce qu'il faut pour faire tourner Home-Assistant OS.
+
+{% picture posts/{{ page.guid }}/home-assistant-new-logo.png --alt pour ses 10 ans home assistant s'offre un nouveau logo --img width="940" height="133" %}
+
+{% picture posts/{{ page.guid }}/caracteristiques-nouvelle-box-green-home-assistant.png --alt caractéristiques de la nouvelle box home-assistant green à 93€ --img width="940" height="529" %}
+
+> En constante amélioration en ajoutant une Nouvelle box l'entreprise Nabu Casa se diversifie, pour ses 10 ans Home-assistant revoit aussi le logo, c'est une bonne chose, Félicitation
+
+## Fonctionnalité {{ page.ref }}
 
 - **{{ page.ref }} est prêt à l'emploi:** branche les câbles d'alimentation, réseau et c'est parti !
 - **Un seul système pour tout contrôler:** combinez vos appareils Apple, Google, Samsung et Amazon avec la prise en charge de centaines de milliers d'autres appareils intelligents, tous regroupés dans une seule application.
@@ -44,7 +54,7 @@ Voilà déjà 10 ans que Home-Assistant existe, je n'en reviens pas, Paulus Scho
 
 {% picture posts/{{ page.guid }}/box-home-assistant-green-capture.png --alt différentes captures d'écran de la nouvelle box home-assistant green à moins de 100€ --img width="940" height="529" %}
 
-## Caractéristiques Techniques
+## Caractéristiques Techniques {{ page.ref }}
 
 |Caractéristique|Valeur|
 |-------------|------|
@@ -97,4 +107,6 @@ Comme rien n'est fait à moitié chez Home-Assistant, un site complet à été c
 - dispo uniquement en vente sur une plateforme chinoise **(seeedstudio)**
 
 ## Conclusion
+
+Voilà une belle surprise que nous offre Home-assistant, un boitier de bonne qualité, une carte mère bien pensée surtout compte tenu du prix, un plug&play efficace, il ne te restera plus qu'à acheter une clé Skyconnect à 28€ pour bénéficier du Maillage Zigbee. ***L'ensemble te reviendra à environ 121€ quoi rêver de plus pour débuter correctement dans le monde de la domotique !***
 
