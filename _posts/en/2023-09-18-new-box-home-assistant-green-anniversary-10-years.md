@@ -1,6 +1,6 @@
 ---
 guid: 84
-title: "New Green Box by Home-Assistant"
+title: "New Box Home-Assistant Green"
 description: "Home-assistant has existed for 10 years already, for this event they are showing us their new Home-assistant green box for less than $100"
 ref: "Home-Assistant Green"
 layout: post

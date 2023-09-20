@@ -1,6 +1,6 @@
 ---
 guid: 84
-title: "Nouvelle Box Green par Home-Assistant"
+title: "Nouvelle Box Home-Assistant Green"
 description: "10 ans déjà que home-assistant existe, pour cet événement ils nous font découvrir leur nouvelle box Home-assistant green à moins de 100€"
 ref: "Home-Assistant Green"
 layout: post
