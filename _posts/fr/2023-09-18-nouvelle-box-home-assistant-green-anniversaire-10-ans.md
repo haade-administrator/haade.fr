@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-09-18 19:41
 last_modified_at: 
-categories: [Home-Assistant, Haade-lab, News]
+categories: [Home-Assistant, News]
 tags: []
 image: 'home-assistant-green-nouvelle-box-domotique.png'
 toc: true
