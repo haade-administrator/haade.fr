@@ -9,7 +9,7 @@ date: 2023-09-18 19:41
 last_modified_at: 
 categories: [Home-Assistant, Haade-lab]
 tags: []
-image: 'picture.png'
+image: 'home-assistant-green-nouvelle-box-domotique.png'
 toc: true
 beforetoc: ''
 published: false
