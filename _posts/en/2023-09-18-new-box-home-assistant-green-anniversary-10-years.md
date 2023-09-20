@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-09-18 19:41
 last_modified_at: 
-categories: [Home-Assistant, Haade-lab]
+categories: [Home-Assistant, Haade-lab, News]
 tags: []
 image: 'home-assistant-green-new-domotical-box.png'
 toc: true
@@ -28,9 +28,13 @@ sourcelink:
   - https://green.home-assistant.io/
 ---
 
+Home-Assistant has existed for 10 years already, I can't believe it, Paulus Schoutsen announced something new to us **which was revealed yesterday at the end of the YouTube live**. This is a new box sold for less than $100 per **{{ page.ref }}**
+
 {% picture posts/{{ page.guid }}/history-creation-home-assistant-paulus-schoutzen.png --alt creation home-assistant 10 years already --img width="940" height="529" %}
 
-Home-Assistant has existed for 10 years already, I can't believe it, Paulus Schoutsen announced something new to us **which was revealed yesterday at the end of the YouTube live**. This is a new box sold for less than $100 per **{{ page.ref }}**
+## 10th anniversary video
+
+Watch this video, well it lasts 1h30, but for the 10th anniversary, I made the effort!
 
 {% include videoPlayer.html youtubeId="EmLV6lJLzSU" %}
 

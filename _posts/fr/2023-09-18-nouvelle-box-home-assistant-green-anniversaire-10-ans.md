@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-09-18 19:41
 last_modified_at: 
-categories: [Home-Assistant, Haade-lab]
+categories: [Home-Assistant, Haade-lab, News]
 tags: []
 image: 'home-assistant-green-nouvelle-box-domotique.png'
 toc: true
@@ -28,9 +28,13 @@ sourcelink:
   - https://green.home-assistant.io/
 ---
 
+Voilà déjà 10 ans que Home-Assistant existe, je n'en reviens pas, Paulus Schoutsen nous annonçait une nouveauté **qui a été dévoilé hier à la fin du live youtube**. Il s'agit d'une nouvelle box vendu à moins de 100€ la **{{ page.ref }}**
+
 {% picture posts/{{ page.guid }}/histoire-creation-home-assistant-paulus-schoutzen.png --alt creation home-assistant 10 ans déjà --img width="940" height="529" %}
 
-Voilà déjà 10 ans que Home-Assistant existe, je n'en reviens pas, Paulus Schoutsen nous annonçait une nouveauté **qui a été dévoilé hier à la fin du live youtube**. Il s'agit d'une nouvelle box vendu à moins de 100€ la **{{ page.ref }}**
+## Vidéo des 10 ans
+
+Parcours cette vidéo, bon elle dure 1h30, mais pour les 10 ans, j'ai fait l'effort !
 
 {% include videoPlayer.html youtubeId="EmLV6lJLzSU" %}
 
