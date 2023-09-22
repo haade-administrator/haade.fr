@@ -31,7 +31,7 @@ Après des mises à jour et des optimisations continues, NSPanel Pro a enfin att
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_DCgKVON" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
-## Nouvelles mises à jour :
+## Nouvelles mises à jour
 
 1. **Prise en charge en tant que hub Matter** pour ajouter des appareils compatibles Matter à l'application eWeLink. Prend actuellement en charge les commutateurs et les prises.
 2. Prend en charge la **connexion Bluetooth** des appareils externes **tels que des haut-parleurs** et diffuse de la musique ou une alarme via des haut-parleurs externes.
@@ -39,7 +39,7 @@ Après des mises à jour et des optimisations continues, NSPanel Pro a enfin att
 4. **ZBMINI-L et ZBMINIL2** peuvent être sélectionnés comme dispositifs **d'exécution de thermostat**.
 
 
-## Optimisation:
+## Optimisation
 
 1. **Optimisation de la fonction du thermostat.** Précision améliorée du contrôle de la température, bonne nouvelle l'unité minimale réglable est de 0,5, ajout des boutons « + » et « - » ; interface de thermostat optimisée.
 

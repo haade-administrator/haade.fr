@@ -31,7 +31,7 @@ After continuous updates and optimizations, NSPanel Pro has finally reached vers
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_DCgKVON" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
-## New updates:
+## New updates
 
 1. **Support as a Matter hub** to add Matter-enabled devices to the eWeLink app. Currently supports switches and sockets.
 2. Support **Bluetooth connection** of external devices **such as speakers** and play music or alarm through external speakers.
@@ -39,7 +39,7 @@ After continuous updates and optimizations, NSPanel Pro has finally reached vers
 4. **ZBMINI-L and ZBMINIL2** can be selected as **thermostat execution** devices.
 
 
-## Optimization:
+## Optimization
 
 1. **Optimization of thermostat function.** Improved accuracy of temperature control, good news the minimum adjustable unit is 0.5, added “+” and “-” buttons; optimized thermostat interface.
 
