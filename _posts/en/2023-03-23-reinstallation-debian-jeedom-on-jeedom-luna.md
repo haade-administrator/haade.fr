@@ -5,7 +5,7 @@ description: "complete tutorial on a complete installation after crash of jeedom
 layout: post
 author: Nico
 date: 2023-03-23 12:32
-last_modified_at: 2023-08-19 08:00
+last_modified_at: 2023-09-25 08:00
 categories: [Jeedom, News, Haade-lab]
 tags: []
 image: 'hack-jeedom-luna-completely-reinstalls-the-system.png'
@@ -25,28 +25,24 @@ rating:
 sourcelink:
   - https://www.dusuniot.com/blog/how-to/how-to-install-application-on-dsgw-210/
 ---
-After having [wrote a complete article on Jeedom Luna]({% post_url /en/2023-02-08-jeedom-luna-screening %}) which shows, that this box simply runs under Debian, Jeedom Luna n It's nothing but a Dusun 210, it's a relatively closed box that does not offer simple solutions to reinstall in the event of a system malfunction, ** you will no longer need to return the box to your distributor , this article fixes it**. You will be able **under Windows easily to resume all the installation** of the Jeedom Luna without too much difficulty?
+After having [wrote a complete article on Jeedom Luna]({% post_url /en/2023-02-08-jeedom-luna-screening %}) which shows, that this box simply runs under Debian, Jeedom Luna n It's nothing but a Dusun 210, it's a relatively closed box that does not offer simple solutions to reinstall in the event of a system malfunction, **you will no longer need to return the box to your distributor , this article fixes it**. You will be able **under Windows easily to resume all the installation** of the Jeedom Luna without too much difficulty?
 
 {% include product-embed.html guid="2143" %}
 
-# Download
-
 As a prerequisite, you will need to download the corresponding Debian image as well as the utility and driver to send the data to the Jeedom Luna
 
-## Jeedom Luna compatible debian image
-
-### Installation from the official Jeedom image
+## Installation from the official Jeedom image
 
 **Update:** Jeedom offers the image compatible with the Dusun on their own servers, at the time of writing the update the image **update.img** end date July 2023, download there at this address [https://images.jeedom.com/luna/](https://images.jeedom.com/luna/){: target="_blank"}. The other Jeedom images (jeeboard, freebox, etc.) are available at this address [https://images.jeedom.com/](https://images.jeedom.com/){: target="_blank" }
 
-> With this image follow the **windows utilities** and **firmware upgrade** steps and the installation will be complete
+> With this image follow the [windows utilities](#windows-utilities) and [firmware upgrade](#firmware-upgrade) steps and the installation will be complete
 
-### Installation 100% manual
+## Installation 100% manual
 
 To start download the image, the file is stored on Google drive.
 [Debian image rev 1.1.7](https://drive.google.com/file/d/1-rok0WHrsqLUyX3lbEJaPgY-tiiV6s8v/view?usp=sharing){: target="_blank"}
 
-## Windows Utilities
+### Windows Utilities
 
 Here are two complete software that will allow you to transfer the firmware to Jeedom Luna, in this tutorial I use **Factorytool**{: .blue}
 
@@ -62,7 +58,7 @@ Here are two complete software that will allow you to transfer the firmware to J
 
 {% include doclink.html zip="files/RKDevTool-DriverAssistant.zip" title="RKDevTool + driver" %}
 
-# Firmware upgrade
+### Firmware upgrade
 
 **Connect the Jeedom Luna** to the PC using the **usb cable provided** and put it in **MASKROM mode** in order to be able to upgrade the firmware.
 
@@ -89,7 +85,7 @@ Below is a GIF animation showing the whole step:
 
 find on your network the ip address of the Jeedom Luna
 
-# System preparation
+### System preparation
 
 **linux:** open a terminal and type
 ```sh
@@ -98,7 +94,7 @@ ssh -p 22 your.address.ip -l root
 
 **Windows:** connect in ssh with **putty** enter the ip, port 22 and username and pass.
 
-## 1.User login
+#### 1.User login
 
 FYI, there are two default user types on the debian image **root** and **admin**
 
@@ -123,7 +119,7 @@ Now change user
 su -l jeedom
 ```
 
-## 2.Image Enhancement
+#### 2.Image Enhancement
 
 
 start by changing the debian packages (the default packages are localized in china and too slow)
@@ -148,13 +144,13 @@ deb http://deb.debian.org/debian bullseye-backports main contrib non-free
 deb-src http://deb.debian.org/debian bullseye-backports main contrib non-free
 ```
 
-## 3.Update the system
+#### 3.Update the system
 
 ```sh
 sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 ```
 
-## 4.Change default wrong disk size:
+#### 4.Change default wrong disk size:
 
 ```sh
 # resize
@@ -165,7 +161,7 @@ df -h
 # /dev/root 15G
 ```
 
-## 6.Change the system hostname
+#### 5.Change the system hostname
 
 This is the name of the default system, it will allow you to connect to jeedom without knowing the ip address, in our example which is the default of the jeedom luna we will call it jeedomluna so you can connect later on [http://jeedomluna.local](http://jeedomluna.local){: target="_blank"}
 
@@ -183,7 +179,7 @@ sudo nano /etc/hosts
 sudo hostnamectl set-hostname jeedomluna
 ```
 
-## 7.Install the locales file
+#### 6.Install the locales file
 ```sh
 # install dependencies
 sudo apt install locales -y
@@ -195,13 +191,13 @@ sudo dpkg-reconfigure locales
 
 select **en_US.UTF-8 and fr_FR.UTF-8** press enter and select by default **fr_FR.UTF-8** click enter
 
-## 8.Reboot the system
+#### 7.Reboot the system
 
 ```sh
 sudo reboot
 ```
 
-## 9.Reset current installations (*optional)
+#### 8.Reset current installations (*optional)
 
 **Normally in this tutorial you shouldn't have to perform these two steps** because the installation of all the packages should be done without problems. The first dpkg command is there to fix a failed .deb install, and apt --fix-broken install to repair any failed extension installs.
 
@@ -212,14 +208,14 @@ sudo dpkg --configure -a
 sudo apt --fix-broken install
 ```
 
-## #8 Clean the installation
+#### 9.Clean the installation
 ```sh
 sudo apt autoremove
 sudo apt clean
 ```
 > Now the Debian installation is ready to host Jeedom
 
-# Installing Jeedom
+#### 10.Installing Jeedom
 ```sh
 sudo wget https://raw.githubusercontent.com/jeedom/core/master/install/install.sh
 sudo chmod +x install.sh
@@ -243,6 +239,6 @@ All you have to do is connect to [http://jeedomluna.local](http://jeedomluna.loc
 
 {% include product-embed.html guid="2143" %}
 
-# Conclusion
+## Conclusion
 
 This is a manipulation that will delight more than one and carried out in less than 30 minutes. You hold in your hands **the secret to resurrecting a Jeedom Luna?** If you encounter a problem, don't hesitate to let me know.

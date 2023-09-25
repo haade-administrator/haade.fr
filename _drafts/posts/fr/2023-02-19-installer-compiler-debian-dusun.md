@@ -28,4 +28,10 @@ sourcelink:
   - https://www.dusuniot.com/resources/sdk-quick-start/rk3328-core-board-sdk-quick-start-guide/
   - https://support.dusuniot.com/hc/en-us/articles/11379207916699-DSGW-210
   - https://www.youtube.com/@brainyourhome
+  - https://www.dusuniot.com/product/dsgw-210-home-assistant-zigbee-gateway/
 ---
+
+[Téléchargement de l'image Home-assistant](https://www.dusuniot.com/product/dsgw-210-home-assistant-zigbee-gateway/){: target="_blank"}
+
+[https://drive.google.com/file/d/182nadRFk9xI2dNOwz-2VL-n8gPPA0Xr1/view](https://drive.google.com/file/d/182nadRFk9xI2dNOwz-2VL-n8gPPA0Xr1/view)
+
