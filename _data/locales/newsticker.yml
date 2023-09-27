@@ -4,11 +4,8 @@ docs_list_title:
 
 docs:
   fr_FR:
-    - title: Offres Itead Sonoff
-      url: https://itead.cc/sonoff-mid-year-sale/ref/122/
-  
-    - title: Home-assistant.io Atom
-      url: https://www.home-assistant.io/atom.xml
+    - title: Moes Automne -25%
+      url: https://moeshouse.com/
 
     - title: Jeedom Luna
       url: https://blog.jeedom.com/6842-destination-jeedom-luna/
@@ -23,11 +20,8 @@ docs:
       url: https://buildwithmatter.com/
 
   en_GB:
-    - title: Itead Sonoff Offers
-      url: https://itead.cc/sonoff-mid-year-sale/ref/122/
-
-    - title: Home-assistant.io Atom
-      url: https://www.home-assistant.io/atom.xml
+    - title: Moes Autumn -25%
+      url: https://moeshouse.com/
     
     - title: Sonoff Nspanel Pro
       url: https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/

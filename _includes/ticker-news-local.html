@@ -4,7 +4,7 @@
 
 	<ul class="news-ticker-h">
 		{%- for item in translate.docs[page.locale] %}
-		<li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title | join: ' | ' }}</a></li>
+		<li><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a></li>
 		{%- endfor %}
 	</ul>
 </div>
