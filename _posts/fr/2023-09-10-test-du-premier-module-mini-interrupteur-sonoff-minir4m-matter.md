@@ -36,6 +36,8 @@ sourcelink:
 
 {% picture posts/{{ page.guid }}/Dimensions-spécifications-sonoff-miniR4M-matter.png --alt spécifications et dimensions du nouveau sonoff mini intérrupteur matter {{ page.ref }} --img width="940" height="600" %}
 
+{% picture posts/{{ page.guid }}/branchement-sonoff-matter-miniR4M.png --alt branchement du nouveau sonoff mini intérrupteur matter {{ page.ref }} --img width="940" height="470" %}
+
 {% include doclink.html pdf="guide-rapide-sonoff-minir4m-matter.pdf" title="guide rapide sonoff miniR4M matter" %}
 {% include doclink.html pdf="manuel-utilisateur-mini-r4-matter-sonoff.pdf" title="Manuel utilisateur du sonoff miniR4M Matter" %}
 {% include doclink.html pdf="specification-produit-MINIR4M-V1.0.pdf" title="Document spécification produit sonoff matter miniR4M" %}
