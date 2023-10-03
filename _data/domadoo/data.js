@@ -39,5 +39,6 @@ module.exports = [
     'peripheriques/5751-aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs-s01-6970504214644', // 2169 capteur qualité air aqara tvoc AAQS-S01
     'interface-domotique/6500-zvidar-controleur-usb-zigbee-30-chipset-efr32mg21', // 2170 clé zvidar
     'peripheriques/6614-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran', // 2171 capteur temp sonoff snzb-02d
-    'chauffage-clim/6732-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-support-snzb-02p' // 2172 sonoff snzb-02p
+    'chauffage-clim/6732-sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-support-snzb-02p', // 2172 sonoff snzb-02p
+    'produits/6783-sonoff-module-connecte-onoff-matter-10a-minir4m' // 2173 sonoff miniR4M
 ]

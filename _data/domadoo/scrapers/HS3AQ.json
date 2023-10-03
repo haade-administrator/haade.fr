@@ -6,11 +6,11 @@
         "description": "Mesurez en temps réel la qualité de l'air de votre environnement et soyez alerté lors d'un niveau anormalement élevé de CO2.",
         "productNew": "",
         "minsalePrice": "59.99",
-        "maxsalePrice": "19.99",
-        "discount": "-25%",
+        "maxsalePrice": "79.99",
+        "discount": "-5%",
         "currency": "EUR",
-        "originalPrice": "19.99",
-        "quantity": "Plus de 20 Produits disponibles",
+        "originalPrice": "79.99",
+        "quantity": "19 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://www.domadoo.fr/19098-large_default/heiman-capteur-de-qualite-d-air-co2-temperature-humidite-zigbee-30-alarme-visuelle-et-sonore.jpg",
@@ -25,8 +25,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.3",
-            "totalStarCount": "6"
+            "averageStar": "4",
+            "totalStarCount": "9"
         }
     }
 }

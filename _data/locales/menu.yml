@@ -266,6 +266,15 @@ protocol:
       name: 'Z-wave'
       link: 'en/category-product/zwave'
 
+  matter:
+    fr_FR:
+      name: 'Matter'
+      link: 'fr/categorie-produit/matter'
+
+    en_GB:
+      name: 'Matter'
+      link: 'en/category-product/matter'
+
 # footer menu
 
 legalnotice:
