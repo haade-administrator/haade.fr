@@ -1,7 +1,7 @@
 ---
 guid: 83
 title: "Test du premier module Matter miniR4M de Sonoff"
-description: "En avant première je vais tester le premier module Matter de Sonoff le miniR4M"
+description: "En avant première je vais tester le premier module Matter de Sonoff le miniR4M et une intégration dans Home Assistant"
 ref: "miniR4M"
 layout: post
 author: Nico
@@ -12,7 +12,7 @@ tags: []
 image: 'sonoff-minir4m-matter-minicontrol-test-haade.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -26,7 +26,9 @@ sourcelink:
   - https://itead.cc/product/sonoff-mini-extreme-wi-fi-smart-switch-matter-enabled/ref/122/
 ---
 
-Voilà c'est fait Sonoff a sorti son premier mini module Matter le {{ page.ref }}, grâce à [itead](https://itead.cc/product/sonoff-mini-extreme-wi-fi-smart-switch-matter-enabled/ref/122/){: target="_blank"} qui m'a fourni ce module je vais pouvoir tester l'intégration dans Home-Assistant et faire un retour sur ce module vendu à **moins de 12€**.
+Voilà c'est fait Sonoff a sorti son premier mini module Matter le {{ page.ref }}, grâce à [itead](https://itead.cc/product/sonoff-mini-extreme-wi-fi-smart-switch-matter-enabled/ref/122/){: target="_blank"} qui m'a fourni ce module je vais pouvoir **tester l'intégration dans Home-Assistant** et faire un retour sur ce module vendu à **moins de 12€**.
+
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2023/04/MINIR4-matter-1000px_01.jpg?fit=1000%2C1257&ssl=1" title="Sonoff Matter miniR4M" brand="Sonoff" description="Nouveau module Sonoff interrupteur mini le miniM" iteadlink="sonoff-mini-extreme-wi-fi-smart-switch-matter-enabled" %}
 
 ## Déballage
 
@@ -41,6 +43,8 @@ Pour commencer l'emballage est quasimment identique à celui du [zbminil2]({% po
 ## Comparatif image Sonoff {{ page.ref }} et ZBMiniL2
 
 On sent que la plateforme de fabrication du {{ page.ref }} et du ZBminiL2 et très similaire, il n'y a qu'à regarder la capture d'image ci-dessous.
+
+{% picture posts/{{ page.guid }}/comparatif-zbminil2-minir4m.png --alt comparatif du nouveau sonoff mini intérrupteur matter {{ page.ref }} avec le sonoff zbminil2 --img width="940" height="529" %}
 
 ## Un module aux options indéniables
 
@@ -59,7 +63,7 @@ le sonoff {{ page.ref }} possède pas mal d'options importantes
 *Comme tu peux le voir sur le gif animé ci-dessous je n'ai eu aucune difficulté à l'intégrer dans Home-Assistant.* Avant de pouvoir ajouter l'appareil dans Home-Assistant il faudra au préalable installer Matter dans le superviseur. Pour se faire tu peux suivre les étapes d'installations [en te rendant directement ici](installation-test-neo-wifi-matter-NAS-WR15W6-dans-home-assistant#1-installation-serveur-matter), il te suffira de cliquer sur les liens pour l'installation et l'intégration Matter. *J'ai rédigé le processus d'installation dans un précédent article dédié au module Neo NAS-WR15W6*.
 **Ensuite suis les étapes du processus et à l'invite scan le qrcode situé à l'arrière du module.**
 
-![Setting up a report in zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-sonoff-minir4m-matter-homeassistant.webp{{ cachebuster }}){: width="320" height="693"}
+![Intégration du module Sonoff miniR4M dans home-assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-sonoff-minir4m-matter-homeassistant.webp{{ cachebuster }}){: width="320" height="693"}
 
 Une fois intégré tu pourras te rendre dans le panneau du module  et ainsi tester le fonctionnement du module. Une seule commande de disponible pour allumer et éteindre le module, à mon sens c'est un peu maigre **mais bon on est au prémisse du protocole, les prochains modules devraient peu à peu s'étoffer de nouvelles fonction.**
 
@@ -78,6 +82,11 @@ Comme dit précedemment le module à presque la même taille que le [zbminil2]({
 **MINIR4M dispose d'un mode « relais détaché »**, ce qui signifie que les états des commutateurs externes et du relais sont séparés, donc l'actionnement du bouton de commutation externe n'affectera pas l'état du relais. Par exemple, si tu ouvres le mode "relais de détachement", lorsque tu éteins la lumière, l'ampoule connectée ne sera pas hors ligne et tu pourras toujours utiliser l'application pour contrôler les lumières intelligentes.
 
 {% picture posts/{{ page.guid }}/Dimensions-spécifications-sonoff-miniR4M-matter.png --alt spécifications et dimensions du nouveau sonoff mini intérrupteur matter {{ page.ref }} --img width="940" height="600" %}
+
+## Particularités du {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/MINIR4-matter-sonoff-particularite.png --alt particularités du nouveau sonoff mini intérrupteur matter {{ page.ref }} --img width="940" height="548" %}
+
 
 ## Documents {{ page.ref }}
 
@@ -100,7 +109,9 @@ Comme dit précedemment le module à presque la même taille que le [zbminil2]({
 - Nécessite le neutre pour fonctionner
 - Nécessite le neutre à l'interrupteur et le neutre de l'interrupteur à la lumière
 
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2023/04/MINIR4-matter-1000px_01.jpg?fit=1000%2C1257&ssl=1" title="Sonoff Matter miniR4M" brand="Sonoff" description="Nouveau module Sonoff interrupteur mini le miniM" iteadlink="sonoff-mini-extreme-wi-fi-smart-switch-matter-enabled" %}
+
 ## Conclusion
 
-Sonoff fait une entrée réussi dans le monde du nouveau protocole Matter. Le {{ page.ref }} possède de nombreux atouts indéniables et l'intégration dans Home Assistant s'est faite sans difficulté un bon point selon Haade. Si tu désires t'équiper de modules Matter alors le Sonoff {{ page.ref }} est fait pour toi 👌.
+Sonoff **fait une entrée réussi** dans le monde du nouveau protocole Matter. Le {{ page.ref }} possède de nombreux atouts indéniables et l'intégration dans Home Assistant s'est faite sans difficulté un bon point selon Haade. Si tu désires t'équiper de modules Matter **alors le Sonoff {{ page.ref }} est fait pour toi** 👌.
 
