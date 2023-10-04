@@ -5,15 +5,18 @@
 <!-- Ajout d'un repertoire externe hacs -->
 {%- elsif include.repertory -%}
 <a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="/assets/images/myhomeassistant/hacs-repository.svg" class="lazyimg" width="210.5" height="28" alt="HACS repertoire" /></a>
+<!-- Configurer un appareil / integration -->
+{%- elsif include.configure_integration -%}
+<a href="https://my.home-assistant.io/redirect/integration/?domain={{ include.configure_integration }}" target="_blank"><img src="/assets/images/myhomeassistant/integration.svg" class="lazyimg" width="311.5" height="48" alt="Homeassistant configure integration" /></a>
 <!-- dashboard intégrration appareil et service -->
 {%- elsif include.dashintegration -%}
 <a href="https://my.home-assistant.io/redirect/integrations/" target="_blank"><img src="/assets/images/myhomeassistant/integrations.svg" class="lazyimg" width="180.5" height="28" alt="Homeassistant Intégration" /></a>
 <!-- ajout d'une integration homeassistant -->
 {%- elsif include.integration -%}
-<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/myhomeassistant/config_flow_start.svg" class="lazyimg" width="207" height="28" alt="Homeassistant add Intégration" /></a>
+<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="/assets/images/myhomeassistant/config_flow_start.svg" class="lazyimg" width="291.5" height="48" alt="Homeassistant add Intégration" /></a>
 <!-- Ajout d'un dépot externe dans la boutique des modules complémentaires -->
 {%- elsif include.supervisor_addon_repository -%}
-<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_addon_repository }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon_repository.svg" class="lazyimg" width="197.5" height="28" alt="Homeassistant supervisor add addons repository" /></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_add_addon_repository }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon_repository.svg" class="lazyimg" width="357" height="48" alt="Homeassistant supervisor add addons repository" /></a>
 <!-- Aller directement dans les paramètres du module présent dans la boutique des modules complémentaires -->
 {%- elsif include.supervisor_addon -%}
 <a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon={{ include.supervisor_addon }}" target="_blank"><img src="/assets/images/myhomeassistant/supervisor_addon.svg" class="lazyimg" width="131.5" height="28" alt="Homeassistant supervisor addons" /></a>
@@ -30,6 +33,6 @@
 {%- elsif include.config_energy -%}
 <a href="https://my.home-assistant.io/redirect/config_energy/" target="_blank"><img src="/assets/images/myhomeassistant/config_energy.svg" class="lazyimg" width="252.5" height="28" alt="Homeassistant settings parameters energy" /></a>
 {%- elsif include.add_matter_device -%}
-<a href="https://my.home-assistant.io/redirect/add_matter_device/" target="_blank"><img src="/assets/images/myhomeassistant/add_matter_device.svg" class="lazyimg" width="220" height="28" alt="Homeassistant add matter device" /></a>
+<a href="https://my.home-assistant.io/redirect/add_matter_device/" target="_blank"><img src="/assets/images/myhomeassistant/add_matter_device.svg" class="lazyimg" width="310" height="48" alt="Homeassistant add matter device" /></a>
 {%- endif %}
 </div>
