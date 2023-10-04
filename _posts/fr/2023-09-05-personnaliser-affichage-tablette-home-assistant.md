@@ -170,7 +170,7 @@ l'affichage sur tablette se fait sur 2 colonnes verticales, pour se faire il fau
 
 {% picture posts/{{ page.guid }}/configuration-chips-tablette-telephone-ui-minimalist.png --alt configuration des entêtes dans ui minimalist pour tablette et smartphone --img width="940" height="593" %}
 
-### Il te faut
+**Il te faut:**
 1. le bouton revenir en arrière: [bouton chips back](https://ui-lovelace-minimalist.github.io/UI/usage/chips/chip_back/){: target="_blank"}
 2. le bouton température: [bouton chips température](https://ui-lovelace-minimalist.github.io/UI/usage/chips/chip_temperature/){: target="_blank"}
 3. le bouton alarme: [bouton chips alarm](https://ui-lovelace-minimalist.github.io/UI/usage/chips/chip_alarm/){: target="_blank"}
