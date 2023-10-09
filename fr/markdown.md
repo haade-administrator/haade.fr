@@ -88,7 +88,7 @@ commande: gif2webp -lossy nom.gif -o nom.webp
 
 ### inclure un lien Homeassistant
 Blueprint:
-{% include homeassistantlink.html bluelink="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
+{% include homeassistantlink.html blueprint_import="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
 Exemple intégration répertoire Hacs auto backup:
 {% include homeassistantlink.html creator="jcwillox" repertory="hass-auto-backup" %}
 Exemple Intégration Appareil auto_backup:

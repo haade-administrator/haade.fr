@@ -127,11 +127,11 @@ auto_backup.purged_backups
 
 **Example of Blueprint integration for generating backups:**
 
-{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/automatic_backups.yaml" %}
+{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/automatic_backups.yaml" %}
 
 **Blueprint integration example for generating a notification:**
 
-{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/notify_auto_backup.yaml" %}
+{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/notify_auto_backup.yaml" %}
 
 But **auto_backup** is also full documentation available, [just click on this link](https://jcwillox.github.io/hass-auto-backup/){: target="_blank "}.
 You will easily find examples of automations and notifications in the form of Blueprint.

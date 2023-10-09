@@ -38,7 +38,7 @@ sourcelink:
 
 For any questions or suggestions, use [this thread on the Home Assistant Community Portal](https://community.home-assistant.io/t/scheduled-auto-update-for-home-assistant/459281){: target="_blank"}.
 
-{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
 
 ## Facility
 Nothing could be simpler: click on **the import blueprint image** above then on **open link**. Then you will find in settings > automations and scenes > Blueprint, a Blueprint named **Home Assistant Auto-update on a schedule base** before creating an automation I advise you first to create a schedule [see the schedule step below](./automatic-update-homeassistant#schedule-updates), then launch yourself with the automation and in planning choose the entity created previously.
@@ -148,7 +148,7 @@ You can use it to keep your updates when you have a house party or when you are 
 
 {% picture posts/{{ page.guid }}/pause-update-entity.png --alt suspend entities from updates in homeassistant --img width="940" height="115" %}
 
-{% include homeassistantlink.html bluelink="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
 
 ## Conclusion
 
