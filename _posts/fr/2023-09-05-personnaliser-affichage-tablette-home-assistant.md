@@ -1,18 +1,18 @@
 ---
 guid: 82
-title: "Construit un envirronnement pour Smartphone dans HA avec UI Minimalist"
+title: "Construit un environnement pour Smartphone dans HA avec UI Minimalist"
 description: "tutoriel simple et rapide pour mettre en place un tableau de bord sous Home Assistant design pour téléphone grâce à UI Lovelace Minimalist"
 ref: "UI Lovelace Minimalist"
 layout: post
 author: Nico
-date: 2023-10-03 16:06
+date: 2023-10-08 16:06
 last_modified_at: 
 categories: [Domotique, Haade-lab]
 tags: []
 image: 'tutos-tableaux-themes-telephone-home-assistant-ui-lovelace-minimalist.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -34,19 +34,11 @@ Comme tout le monde le sait Home-Assistant est selon moi l'un des meilleurs logi
 
 Alors pourquoi ai-je choisis UI Lovelace Minimalist plutôt que [Mushroom Card et thème](https://github.com/piitaya/lovelace-mushroom){: target="_blank"}. Et bien simplement parce que **Ui Minimalist propose plus de cartes et chips** que Mushroom.
 
-> Le but de Mushroom n'est pas de fournir une carte personnalisée pour une personnalisation approfondie.
+**Le but de Mushroom n'est pas de fournir une carte personnalisée pour une personnalisation approfondie.**
 
-Au départ j'ai voulu me contenter de Mushroom car très pratique ne serais-ce de part l'installation, mais je me suis vite confronter à des problèmes une fois que j'ai voulu personnaliser les cartes.
+> Au départ j'ai voulu me contenter de Mushroom car très pratique ne serais-ce de part l'installation, mais je me suis vite confronter à des problèmes une fois que j'ai voulu personnaliser les cartes.
 
-## Comment fonctionne {{ page.ref }}
-
-Tout d'abord {{ page.ref }} installe 4 thèmes que tu pourras et devras sélectionner facilement
-1. minimalist-desktop ( pour utilisation dans un environnement bureau )
-2. minimalist-ios-tapbar (pour un environnement Ios avec **uniquement le menu des "vues"** en pied de page  )
-3. minimalist-mobile ( pour environnement mobile sans **aucun menu**)
-4. minimalist-mobile-tapbar ( pour environnement mobile avec uniquement le menu des "vues" )
-
-Ensuite vient tout le reste
+> Ensuite vient tout le reste
 
 ## Prérequis
 - Hacs d'installé
@@ -96,6 +88,15 @@ J'ai opté pour une installation semi-manuelle **des intégrations supplémentai
 - [auto-entités](https://github.com/thomasloven/lovelace-auto-entities){: target="_blank"} par Thomas Loven
 
 PS: Après avoir rencontré des soucis avec l'installation des modules complémentaires automatisés je te conseil de les installer manuellement dans Hacs. J'avais constemment des erreurs de modules non installés d'un support à l'autre.
+
+### Les thèmes fournis par Minimalist UI
+
+**Un point fort de cette intégration** sont les thèmes fournis avec minimalist UI, pas moins de **4 thèmes**, *il faudra en sélectionner un par défaut*, si tu ne le fait pas l'affichage des carte Minimalist ne se fera pas correctement.
+
+1. minimalist-desktop ( pour utilisation dans un environnement bureau )
+2. minimalist-ios-tapbar (pour un environnement Ios avec **uniquement le menu des "vues"** en pied de page  )
+3. minimalist-mobile ( pour environnement mobile sans **aucun menu**)
+4. minimalist-mobile-tapbar ( pour environnement mobile avec uniquement le menu des "vues" )
 
 ## configurer les custom card
 
@@ -611,7 +612,7 @@ pour créer la seconde colonne il faut repartir sur un nouveau vertical-stack
         cards:
           - type: horizontal-stack
             cards:
-{% endhighlight %}            
+{% endhighlight %}  
 
 {% picture posts/{{ page.guid }}/configuration-2rd-column-tablette-telephone-ui-minimalist.png --alt configuration d'une seconde colonne dans ui minimalist pour tablette et smartphone --img width="940" height="593" %}
 
@@ -620,7 +621,319 @@ Dans la seconde colonne on aura:
 2. 4 x [Room Card](https://ui-lovelace-minimalist.github.io/UI/usage/cards/card_room/){: target="_blank"}
 3. Un [carte light](https://ui-lovelace-minimalist.github.io/UI/usage/cards/card_light/){: target="_blank"}
 
+### 1. Mise en place du titre
+{% highlight yaml %}
+      - type: vertical-stack # création seconde colonne
+        cards:
+          - type: horizontal-stack # mise en place du titre
+            cards:
+              - type: "custom:button-card"
+                template: card_title
+                name: Lumières
+                label: "Contrôle les lumières par pièce"
+{% endhighlight %}  
+
+### 2. Mise en place de la Room Card
+
+{% highlight yaml %}
+          - type: horizontal-stack # mise en place de la roomcard
+            cards:
+              - type: "custom:button-card"
+                template:
+                  - card_room
+                  - red_no_state
+                name: Cuisine
+                entity: light.all_cuisine # création d'un entité regroupant toutes les lumières de la cuisine
+                icon: mdi:countertop
+                tap_action:
+                  action: navigate
+                  navigation_path: "/ui-lovelace-minimalist/bathroom"
+                variables:
+                  label_use_temperature: false
+                  label_use_brightness: true
+                  entity_1:
+                    entity_id: light.all_cuisine
+                    templates:
+                      - yellow_on
+                    tap_action:
+                      action: toggle
+                  entity_2:
+                    entity_id: binary_sensor.toutes_portes_cuisine
+                    templates:
+                      - blue_on
+                    tap_action:
+                      action: none
+{% endhighlight %} 
+
+### 3. Ajout d'une carte light
+
+{% highlight yaml %}
+          - type: horizontal-stack
+            cards:
+              - type: "custom:button-card"
+                template: card_light_slider_horizontal
+                entity: light.lumiere_ambiance_salon
+                variables:
+                  ulm_card_light_enable_slider: true
+                  ulm_card_light_enable_color: true
+                  ulm_card_light_force_background_color: true
+{% endhighlight %} 
+
+### Exemple de dashboard Minimalist UI
+
+Voilà tu pourras te rendre compte que le thème Minimalist UI est relativement puissant pour trouver des astuces tu pourras suivre le fil: [Communauté Minimalit UI](https://community.home-assistant.io/t/lovelace-ui-minimalist/322687/2418){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/exemple-integration-minimalist-ui.png --alt exemple de dashboard paramétrable avec minimalist UI --img width="940" height="407" %}
+
+{% picture posts/{{ page.guid }}/exemple-integration-minimalist-ui-2.png --alt exemple de dashboard paramétrable avec minimalist UI --img width="940" height="407" %}
+
+
 ## Bonus vue Adaptative
+
+{%- include alert.html type="warning" text="le module <strong>state-switch</strong> doit être installé en <strong>version 1.9.3</strong>, sinon la popup adaptive ne fonctionnera pas correctement, pour en savoir plus tu peux consulter le post qui en parle" link="https://community.home-assistant.io/t/lovelace-ui-minimalist/322687/2418" textlink="lovelace Ui Minimalist Community" %}
+
+### Architecture du dossier
+
+{% highlight shell %}
+config
+└── ui_lovelace_minimalist
+    ├── custom_cards
+    └── dashboard
+        └── ui-lovelace.yaml
+        └── adaptive-dash
+            └── adaptive-ui.yaml
+            └── popup
+                └── popup.yaml
+            └── views
+                └── livingroom.yaml
+                └── main.yaml
+{% endhighlight %}
+
+### Infos {{ page.ref }} Adaptive
+
+La vue adaptative est un bonus extra surtout dédié aux affichages sur tablette. Il faudra installer deux modules supplémentaires, il te suffit de consulter la notice officielle qui est très bien détaillée.
+
+[notice d'installation de la vue adaptative](https://ui-lovelace-minimalist.github.io/UI/setup/adaptive_dash/#add-adaptive-dashboard){: target="_blank"}
+
+![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/minimalist_adaptive_dash.webp{{ cachebuster }}){: width="480" height="270"}
+
+[exemple code dashboard adaptive par Basbruss](https://github.com/basbruss/Minimalist-Dashboards){: target="_blank"}
+
+{%- include alert.html type="info" text="Actuellement minimalist UI adaptive supporte les types d'appareils suivant: <strong>lights, mediaplayers, thermostats, sensors</strong>" %}
+
+### Activation
+
+L'activation de cette vue se fait dans la configuration du module
+
+{% picture posts/{{ page.guid }}/hacs_adaptive_dashboard.png --alt paramétrage de la vue adaptative dans ui minimalist pour tablette et smartphone --img width="400" height="622" %}
+
+###  pour commencer: 3 fichiers à modifier
+
+#### configuration.yaml
+
+ajoute un input_select aux noms que tu auras choisi
+
+{% highlight yaml %}
+# Minimalist UI adaptative dashboard
+input_select:
+  adaptive_dashboard:
+    name: Select popup/view
+    options:
+      - light 1
+      - light 2
+      - mediaplayer 1
+      - mediaplayer 2
+      - climate 1
+      - climate 2
+      - power 1
+      - power 2
+      - livingroom
+{% endhighlight %} 
+
+ensuite il faudra adapter les codes générés **main.yaml, popup.yaml**
+
+**pour moi le main.yaml donne ce résultat:**
+
+{% highlight yaml %}
+---
+type: "custom:layout-card"
+layout_type: "custom:grid-layout"
+layout:
+  # Tablet portrait
+  grid-template-columns: "1fr 1fr 1fr 1fr 1fr 1fr"
+  grid-template-areas: |
+    "text text text weather weather weather"
+    "welcome welcome welcome welcome welcome welcome"
+    "title1 title1 title1 title1 title1 title1"
+    "card1 card1 card2 card2 card3 card3"
+    "title2 title2 title2 title2 title2 title2"
+    "card4 card4 card5 card5 card6 card6"
+  mediaquery:
+    # Mobile
+    "(max-width: 800px)":
+      grid-template-columns: "1fr 1fr"
+      grid-template-areas: |
+        "welcome welcome"
+        "person person"
+        "title1 title1"
+        "card1 card2"
+        "card3 card4"
+        "title2 title2"
+        "card5 card6"
+        "card7 card8"
+view_layout:
+  grid-area: "main"
+cards:
+  - view_layout:
+      grid-area: "text"
+    type: "custom:button-card"
+    template: "card_title"
+    name: "Bienvenue Chez Nous"
+    label: "Estamos Locos"
+
+  - view_layout:
+      grid-area: "weather"
+    type: "custom:button-card"
+    template: card_weather
+    entity: weather.maison
+    variables:
+      ulm_card_weather_name: "Meteo Maison"
+      ulm_card_weather_backdrop:
+        fade: true
+      ulm_card_weather_custom:
+        - temp: sensor.netatmo_exterieur_temperature
+    label: "grid-area: weather"
+
+  - view_layout:
+      grid-area: "welcome"
+    type: "custom:button-card"
+    template: "card_welcome_scenes"
+    #triggers_update: input_boolean.<Your_boolean>
+    #entity: input_boolean.<Your_boolean>
+    variables:
+      #  ulm_card_welcome_scenes_collapse: input_boolean.collapse_card
+      ulm_weather: "weather.maison"
+      entity_1:
+        entity_id: "person.rodriguez_nicolas"
+        name: "Nicolas" #OPTIONAL
+        color: "blue"
+      entity_2:
+        entity_id: "person.audrey"
+        name: "Audrey" #OPTIONAL
+        color: "red"
+      entity_3:
+        entity_id: "person.leane"
+        name: "Léane" #OPTIONAL
+        color: "green"
+      entity_4:
+        entity_id: "person.lola"
+        name: "Lola" #OPTIONAL
+        color: "purple"
+
+  - view_layout:
+      grid-area: "title1"
+    type: "custom:button-card"
+    template: "card_title"
+    name: "Contrôle la maison"
+    label: "tu Esta"
+
+  - view_layout:
+      grid-area: "card1"
+    type: "custom:button-card"
+    template: card_light
+    label: "grid-area: card1"
+    entity: light.lumiere_ambiance_salon
+    variables:
+      ulm_icon_tap_action: "adaptive"
+      ulm_card_light_enable_slider: true
+      ulm_card_light_enable_color: true
+      ulm_card_light_enable_popup: true
+      ulm_input_select_option: light 1
+      ulm_input_select: input_select.adaptive_dashboard
+
+  - view_layout:
+      grid-area: "card2"
+    type: "custom:button-card"
+    template: card_thermostat
+    label: "grid-area: card2"
+    entity: climate.bureau_ac
+    variables:
+      ulm_icon_tap_action: "adaptive"
+      ulm_card_thermostat_enable_collapse: true
+      ulm_card_thermostat_enable_controls: true
+      ulm_card_thermostat_enable_hvac_modes: true
+      ulm_card_thermostat_enable_popup: true
+      ulm_input_select_option: climate 1
+      ulm_input_select: input_select.adaptive_dashboard
+
+  - view_layout:
+      grid-area: "card3"
+    type: "custom:button-card"
+    template: card_media_player
+    entity: media_player.spotify_nicoxygen
+    label: "grid-area: card3"
+    variables:
+      ulm_icon_tap_action: "adaptive"
+      ulm_card_media_player_name: Spotify
+      ulm_card_media_player_enable_popup: true
+      ulm_card_media_player_enable_controls: true
+      ulm_card_media_player_enable_art: true
+      ulm_card_media_player_enable_volume_slider: true
+      ulm_input_select_option: mediaplayer 1
+      ulm_input_select: input_select.adaptive_dashboard
+
+{% endhighlight %} 
+
+**et le popup.yaml**
+
+{% highlight yaml %}
+---
+type: "custom:state-switch"
+view_layout:
+  grid-area: "popup"
+  show:
+    # only show when screen-width is larger than 1100px
+    mediaquery: "(min-width: 810px)"
+# add your input_select
+entity: input_select.adaptive_dashboard
+default: "default"
+transition: "slide-down"
+transition_time: 500
+# options set in the input_select
+states:
+  #Devices
+  ##  Lights
+  light 1: &popup_light
+    type: "custom:button-card"
+    template: "popup_light_brightness"
+    entity: light.lumiere_ambiance_salon
+
+  light 2:
+    <<: *popup_light
+    entity: light.luminaire_plante_salix
+
+  ###  Mediaplayers
+  mediaplayer 1:
+    type: "custom:button-card"
+    template: "popup_media_player_infos"
+    entity: media_player.spotify_nicoxygen
+
+  ### Thermostats
+  climate 1:
+    type: "custom:button-card"
+    template: "popup_thermostat_temperature"
+    entity: climate.bureau_ac
+
+{% endhighlight %} 
+
+> pour **rafraichir le frontend** il te faudra forcer la page **adaptive_ui.yaml** en y apportant une modif et en enregistrant
+
+### Résultat
+![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui adaptive]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/capture-minimalist-ui-adaptive-dashboard.webp{{ cachebuster }}){: width="940" height="479"}
+
+## Conclusion {{ page.ref }} 
+
+{{ page.ref }} apporte une interface frontend complète et assez simple à mettre en place. Moins simple que Mushroom mais beaucoup plus personnalisable et ça grâce aux cartes supplémentaires fournis par la communauté. Une fois que tu auras compris le mécanisme, {{ page.ref }} te paraitra comme une évidence.
 
 
 

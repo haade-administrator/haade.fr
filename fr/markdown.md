@@ -107,6 +107,10 @@ Basic command line usage:
 gif2webp input.gif -o output.webp
 {% endhighlight %}
 
+## convertir une video en gif
+
+[https://image.online-convert.com/fr/convertir/mp4-en-gif](https://image.online-convert.com/fr/convertir/mp4-en-gif){: target="_blank"}
+
 ## Spoiler
 
 <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span>
