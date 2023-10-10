@@ -7,5 +7,5 @@
       event.preventDefault();
       
       // Redirigez vers l'URL souhaitée (remplacez "URL_DE_REDIRECTION" par l'URL de votre choix)
-      window.location.href = "{{https://github.com/haade-administrator/haade.fr/blob/main/assets/images/logo.png}}";
+      window.location.href = "https://github.com/haade-administrator/haade.fr/blob/main/assets/images/logo.png";
     });
