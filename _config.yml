@@ -7,6 +7,7 @@ logo:
   width: 250
   height: 63
   alt: 'Logo officiel du site domotique Haade'
+  id: 'logoIImage'
 favicon: 'assets/images/favicon.png'
 url: https://haade.fr
 baseurl: 
