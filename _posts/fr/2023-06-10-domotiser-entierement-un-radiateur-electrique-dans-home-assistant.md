@@ -19,11 +19,13 @@ sitemap:
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
 locale: fr_FR
+addViews: 1057
 comments: true
 rating:  
 sourcelink:
   - https://programmation.surleweb-france.fr/home-assistant-utiliser-le-thermostat-generique/
 ---
+
 Au début je voulais rédiger **un article tout simple concernant la création d'une entité sous home assistant** qui permettait d'inverser une commande switch on/off, particulièrement pratique dans la domotisation des radiateurs éléctriques d'une maison. Ensuite je me suis dit pourquoi pas rédiger un article plus complet sur l'intégration et la domotisation complète de ce type de radiateur. Le coût d'une telle installation te reviendra entre 20 et 30€ par radiateurs selon les modules utilisés.
 
 C'est pourquoi je vais détailler la **façon de procéder** pour:
