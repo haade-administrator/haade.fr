@@ -26,6 +26,7 @@ sourcelink:
   - https://community.home-assistant.io/t/itead-sonoff-zigbee-bridge-pro-zbbridge-p-new-cc2652p-and-esp32-based-zigbee-gateway-to-wifi-bridge/378924/22
   - https://jonasled.dev/jonasled/sonoff-zigbee-bridge-pro-esphome/-/blob/master/zigbee_bridge.yaml?ref_type=heads
   - https://github.com/Giancky79/ZB-Bridge-P
+  - https://itead.cc/product/sonoff-zigbee-bridge-pro/ref/122/
 ---
 
 source:
@@ -89,4 +90,17 @@ external_components:
 socket://[your_address_ip]:6638
 baudrate: 115200
 target: sofware
+
+ou 
+
+socket://[devicename.local]:6638 // remplace le device name par le nom de substitution dans mon cas zbbridge
+baudrate: 115200
+target: software
 {% endhighlight %}
+
+|Sonoff ZB Bridge PRO|FTDI programmer|
+|3V3|Vcc/3.3v|
+|GND|GND|
+|RX|TX|
+|TX|RX|
+|GPIO00|GND (on power on)|
