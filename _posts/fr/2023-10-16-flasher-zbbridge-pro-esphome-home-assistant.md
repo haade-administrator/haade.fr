@@ -29,7 +29,7 @@ sourcelink:
   - https://itead.cc/product/sonoff-zigbee-bridge-pro/ref/122/
 ---
 
-Il n'est plus à présenter, le Sonoff {{ page.ref }} une box de contrôle de produits exclusivement de la marque Sonoff. Tu trouveras sur internet plusieurs discussions qui te permettront de faire fonctionner le {{ page.ref }} dans Home Assistant, mais, il y a un mais en installant un firmware Tasmota. Après quelques recherches j'ai pu hacker le {{ page.ref }} directement avec un Firmware Esphome et ainsi faire fonctionner la clé Zigbee cc2652 avec ZHA ou Zigbee2mqtt le tout très facilement.
+Il n'est plus à présenter, le Sonoff {{ page.ref }} est une passerelle de contrôle de produits exclusivement de la marque Sonoff. Tu trouveras sur internet plusieurs discussions qui te permettront de faire fonctionner le {{ page.ref }} dans Home Assistant, **mais en installant un firmware Tasmota**. Après quelques recherches j'ai pu hacker le {{ page.ref }} directement avec un Firmware Esphome et ainsi faire fonctionner **la clé Zigbee cc2652 avec ZHA ou Zigbee2mqtt** le tout très facilement.
 
 ## Prérequis
 - Home-assistant installé
@@ -38,10 +38,14 @@ Il n'est plus à présenter, le Sonoff {{ page.ref }} une box de contrôle de pr
 
 ## Présentation du {{ page.ref }}
 
-Merci à Itead de m'avoir fournis ce module, tu pourras te rendre compte que ce module dispose d'un emballage tout à fait ordinaire et aux couleurs utilisées par Sonoff.
+Merci à Itead de m'avoir fournis ce module, tu pourras te rendre compte que le {{ page.ref }} dispose d'un emballage tout à fait ordinaire et aux couleurs utilisées par Sonoff.
+
+{% picture posts/{{ page.guid }}/presentation-sonoff-passerelle-zbbridge-pro-esphome-home-assistant.png --alt présentation du Sonoff {{ page.ref }} et présentation du circuit imprimé --img width="940" height="529" %}
 
 ## Injection du code Esphome
 Commence par connecter le {{ page.ref }} en usb à l'aide d'un module Uart/ftdi. Pour accéder au circuit imprimé afin de pouvoir connecter le Ftdi il faudra enlever les 4 mini-pads qui cachent les visses. Ensuite rien de plus simple connecte le ftdi suivant le tableau ci-dessous:
+
+{% picture posts/{{ page.guid }}/branchement-ftdi-uart-connection-esphome-sonoff-zbbridge-pro.png --alt branchement ftdi sur Sonoff {{ page.ref }} pour esphome --img width="940" height="582" %}
 
 |Sonoff ZB Bridge PRO|FTDI programmer|
 |3V3|Vcc/3.3v|
@@ -63,7 +67,7 @@ Une fois uploadé dernière étape d'intégration Esphome, rendez-vous dans les 
 
 {% include homeassistantlink.html integrations="" %}
 
-Rendu du module dans esphome:
+**Rendu du module dans esphome:**
 
 {% picture posts/{{ page.guid }}/integration-sonoff-zbbridge-pro-esphome-commande.png --alt rendu de la passerelle Sonoff {{ page.ref }} dans esphome --img width="940" height="948" %}
 
@@ -89,7 +93,36 @@ baudrate: 115200
 target: software
 {% endhighlight %}
 
+J'ai fait une vidéo d'intégration de la clé zigbee dans zha avec un défaut d'intégration. Pour ce faire prépare l'adresse de la clé, ensuite enclanche le switch fx dans esphome et configure la clé rapidement, sinon relance l'opération et ça le feras.
+
 ![Méthode de connection et de fonctionnement de la clé cc2652 zigbee du zbbridge-pro dans ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384"}
+
+Ci-dessous le fonctionnement lumineux après activation du switch, tu pourras modifier les paramètres en modifiant les lignes de code suivant:
+
+{% highlight yaml %}
+  - platform: template
+    name: "${friendly_name} fw update"
+    id: fwupdate
+    turn_on_action:
+      - light.turn_off: blue
+      - delay: 1s 
+      - switch.turn_on: zigbee_bsl
+      - delay: 1s
+      - switch.turn_on: zigbee_rst
+      - delay: 1s
+      - switch.turn_off: zigbee_rst
+      - logger.log: "wait for fw update"
+      - delay: 12s
+      - light.turn_on: green
+      - switch.turn_off: zigbee_bsl 
+      - logger.log: "please try to write fw on ip:6638, if a error of Timeout waiting for ACK/NACK after 'Synch (0x55 0x55)' repeat with fw update"
+      - delay: 15s
+      - light.turn_off: green
+      - delay: 5s
+      - light.turn_on: blue
+{% endhighlight %}
+
+![Fonctionnement du switch firmware zigbee dans esphome]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-firmware-update-esphome-sonoff-zbbridge-pro.webp{{ cachebuster }}){: width="400" height="275"}
 
 ## Configuration zigbee2mqtt
 
@@ -102,6 +135,10 @@ serial:
 {% endhighlight %}
 
 ## Documents Sonoff {{ page.ref }}
-{% include doclink.html pdf="ZB-Bridge-pro-specification-product.pdf" title="Spécifications produits Sonoff {{page.ref}}" %}
-{% include doclink.html pdf="ZB-Bridge-Pro-quick-install.pdf" title="Guide rapide Sonoff {{ page.ref }}" %}
-{% include doclink.html pdf="ZB-Bridge-Pro-user-manual.pdf" title="Manuel complet Sonoff {{ page.ref }}" %}
+{% include doclink.html pdf="ZB-Bridge-pro-specification-product.pdf" title="Spécifications produits Sonoff Zbbridge-pro" %}
+{% include doclink.html pdf="ZB-Bridge-Pro-quick-install.pdf" title="Guide rapide Sonoff Zbbridge-pro" %}
+{% include doclink.html pdf="ZB-Bridge-Pro-user-manual.pdf" title="Manuel complet Sonoff Zbbridge-pro" %}
+
+## Conclusion
+
+Voilà un moyen simple de faire une intégration d'une clé {{ page.ref }} dans home-assistant avec un firmware Esphome. L'avantage de cette clé zigbee est facilement déportable car liée en wifi, tu pourras utiliser le sniffer BLE ( bluetooth 4.2) et la fameuse clé cc2652 zigbee 3.0, un tout en un.

@@ -1,0 +1,22 @@
+{
+    "product": {
+        "linkId": "sonoff-zigbee-bridge-pro",
+        "productId": "5V DC 1A",
+        "title": "SONOFF Zigbee Bridge Pro",
+        "description": "$24.90【Supports adding up to 128 sub-devices】Zigbee Bridge Pro supports adding sub-devices increased from 32 to 128.【Smart Home Security】Set up home security modes, such as home mode, away mode, and sleep mode. The bridge can be used as a local alarm.【Local Smart Scene】Timing and scene linkage between Zigbee devices can be executed normally even if the network is disconnected.【Wi-Fi & Zigbee Dual-protocol Support】Make communication between Zigbee devices and WiFi devices.【Strong Connectivity, Limitless Possibility 】The Bridge supports to add ZigBee devices that SONOFF has released, like ZBMINI-L smart switch and S26R2ZB smart plug, making your home smarter.NOTE: ZB Bridge-P can connect 26 sub-devices directly (10 end devices + 16 routers, or 26 routers). If you want to connect to 128 sub-devices, routers are required, and one router-device can expand to connect 20-32 sub-devices.SONOFF Zigbee Bridge Pro can work with the devices below:Router: ZBMINI smart switch,S40 Lite ZB smart plug, S31 Lite ZB smart plug, S26R2ZB smart plugEnd Device: ZBMINI-L smart switch, SNZB-01 switch, SNZB-02 Temp. and Hum. sensor, SNZB-03 motion sensor, SNZB-04 door/window sensor— OR —",
+        "productNew": "",
+        "minsalePrice": "",
+        "maxsalePrice": "$24.90$13.99$12.99$8.49$9.49$13.99$12.90$26.90$10.90$16.90$14.90$6.99$4.85$10.90$8.49$9.90$24.90",
+        "discount": "",
+        "originalPrice": "$24.90$13.99$12.99$8.49$9.49$13.99$12.90$26.90$10.90$16.90$14.90$6.99$4.85$10.90$8.49$9.90$24.90",
+        "quantity": 0,
+        "available": "",
+        "supply_date": null,
+        "image": [],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5.00",
+            "totalStarCount": "9"
+        }
+    }
+}

@@ -6,10 +6,10 @@
         "description": "Le moniteur de qualité d'air Aqara AAQS-S01 peut détecter la concentration et le niveau de COVT dans l'air, ainsi que la température et l'humidité.",
         "productNew": "",
         "minsalePrice": "44.99",
-        "maxsalePrice": "39.99",
-        "discount": "-15%",
+        "maxsalePrice": "62.40",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "39.99",
+        "originalPrice": "62.40",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -27,7 +27,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.4",
-            "totalStarCount": "16"
+            "totalStarCount": "17"
         }
     }
 }

@@ -2,14 +2,14 @@
     "product": {
         "linkId": "peripheriques/6413-aqara-controleur-intelligent-zigbee-30-aqara-cube-t1-pro-6970504217614",
         "productId": "CTP-R01",
-        "title": "AQARA - Contrôleur intelligent Zigbee 3.0 Aqara Cube T1 Pro",
+        "title": "Contrôleur intelligent Zigbee 3.0 Aqara Cube T1 Pro - AQARA",
         "description": "La version améliorée du contrôleur le plus unique d'Aqara.",
         "productNew": "",
         "minsalePrice": "22.99",
-        "maxsalePrice": "57.00",
-        "discount": "-10%",
+        "maxsalePrice": "74.40",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "57.00",
+        "originalPrice": "74.40",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -25,8 +25,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "3",
-            "totalStarCount": "1"
+            "averageStar": "4",
+            "totalStarCount": "2"
         }
     }
 }

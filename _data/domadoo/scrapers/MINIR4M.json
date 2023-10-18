@@ -2,14 +2,14 @@
     "product": {
         "linkId": "produits/6783-sonoff-module-connecte-onoff-matter-10a-minir4m",
         "productId": "MINIR4M",
-        "title": "SONOFF - Module connecté ON/OFF MATTER 10A MINIR4M",
+        "title": "Module connecté ON/OFF MATTER 10A MINIR4M - SONOFF",
         "description": "Contrôlez votre éclairage ou un dispositif électrique depuis Alexa, Google Home, Apple Home et plus grâce au module connecté ON/OFF Matter Sonoff.",
         "productNew": "Nouveau",
         "minsalePrice": "15.99",
-        "maxsalePrice": "89.99",
-        "discount": "-20%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "89.99",
+        "originalPrice": "",
         "quantity": "Hors stock",
         "supply_date": null,
         "image": [
