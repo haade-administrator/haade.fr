@@ -155,7 +155,7 @@ This step is unfortunately necessary to be able to use the Sonoff {{ page.ref }}
 Once restarted, go to:
 **Settings > Devices and Services** or click directly on the link *below*:
 
-{% include homeassistantlink.html dashintegration="" %}
+{% include homeassistantlink.html integrations="" %}
 
 You should see **appear the Sonoff integration with the rise of a device the POWR316D**, if you already have the Ewelink application with several sonoff modules they will also appear in the SonoffLAN integration of Home Assistant. Be careful to choose the operating mode of the integration, see below.
 

@@ -155,7 +155,7 @@ Cette étape est malheureusement nécessaire pour pouvoir utiliser le module Son
 Une fois redémarré rendez toi dans:
 **Paramètre > Appareils et Services** ou clic directement sur le lien *ci-dessous*:
 
-{% include homeassistantlink.html dashintegration="" %}
+{% include homeassistantlink.html integrations="" %}
 
 Tu devrais voir **apparaître l'intégration Sonoff avec la remontée d'un appareil le POWR316D**, si tu possèdes déjà l'application Ewelink avec plusieurs modules sonoff ils apparaitront aussi dans l'intégration SonoffLAN de Home Assistant. Attetntion à bien choisir le mode de fonctionnement de l'intégration voir plus bas.
 
