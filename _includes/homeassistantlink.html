@@ -30,7 +30,7 @@
 {%- elsif include.automations -%}
 <a href="https://my.home-assistant.io/redirect/automations/" target="_blank"><img src="https://my.home-assistant.io/badges/automations.svg" class="lazyimg" width="318" height="48" alt="Homeassistant automations list" /></a>
 <!-- accès à l'onglet des sauvegardes' -->
-{%- elsif include.automations -%}
+{%- elsif include.backup -%}
 <a href="https://my.home-assistant.io/redirect/backup/" target="_blank"><img src="https://my.home-assistant.io/badges/backup.svg" class="lazyimg" width="180" height="48" alt="Homeassistant backup" /></a>
 <!-- accès à l'onglet des blueprints' -->
 {%- elsif include.blueprints -%}
@@ -51,7 +51,7 @@ ici
 {%- elsif include.configure_integration -%}
 <a href="https://my.home-assistant.io/redirect/integration/?domain={{ include.configure_integration }}" target="_blank"><img src="https://my.home-assistant.io/badges/integration.svg" class="lazyimg" width="311.5" height="48" alt="Homeassistant configure integration" /></a>
 <!-- dashboard intégrration appareil et service -->
-{%- elsif include.dashintegration -%}
+{%- elsif include.integrations -%}
 <a href="https://my.home-assistant.io/redirect/integrations/" target="_blank"><img src="https://my.home-assistant.io/badges/integrations.svg" class="lazyimg" width="318.5" height="48" alt="Homeassistant Intégration" /></a>
 <!-- ajout d'une integration homeassistant -->
 {%- elsif include.integration -%}
