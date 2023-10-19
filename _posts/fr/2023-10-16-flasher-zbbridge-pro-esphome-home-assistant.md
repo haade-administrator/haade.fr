@@ -12,7 +12,7 @@ tags: []
 image: 'hack-sonoff-zbbridge-pro-esphome-home-assistant-cle-deporte-zigbee-wifi-bluetooth.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -31,7 +31,7 @@ sourcelink:
 
 Il n'est plus à présenter, déjà deux ans que le **Sonoff {{ page.ref }}** est sortie, c'est une passerelle de contrôle tout en un (zigbee-wifi-bluetooth), exclusivement dédiés aux produits de la marque Sonoff. Mais grâce à ce tuto tu pourras **l'utiliser avec ZHA ou Zigbee2mqtt**. Tu trouveras sur internet plusieurs discussions qui te permettront de faire fonctionner le **{{ page.ref }}** dans Home Assistant, **mais en installant un firmware Tasmota**. Après quelques recherches j'ai pu hacker le {{ page.ref }} directement avec un Firmware Esphome et ainsi faire fonctionner **la clé Zigbee cc2652 avec ZHA ou Zigbee2mqtt** le tout très facilement.
 
-{% include product-embed.html guid="2174" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/04/Zigbee-bridge-pro.jpg?fit=1000%2C1000&ssl=1" title="ZBBridge Pro" brand="Sonoff" description="Passerelle déportée zigbee 3.0 cc2652p, wifi et bluetooth" iteadlink="sonoff-zigbee-bridge-pro" domlink="peripheriques/6321-sonoff-box-domotique-zigbee-30-wifi-pro.html" %}
 
 ## Prérequis
 - Home-assistant installé
@@ -202,8 +202,8 @@ Si tu n'y arrives pas n'hésite pas à m'écrire
 {% include doclink.html pdf="ZB-Bridge-Pro-quick-install.pdf" title="Guide rapide Sonoff Zbbridge-pro" %}
 {% include doclink.html pdf="ZB-Bridge-Pro-user-manual.pdf" title="Manuel complet Sonoff Zbbridge-pro" %}
 
-{% include product-embed.html guid="2174" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/04/Zigbee-bridge-pro.jpg?fit=1000%2C1000&ssl=1" title="ZBBridge Pro" brand="Sonoff" description="Passerelle déportée zigbee 3.0 cc2652p, wifi et bluetooth" iteadlink="sonoff-zigbee-bridge-pro" domlink="peripheriques/6321-sonoff-box-domotique-zigbee-30-wifi-pro.html" %}
 
 ## Conclusion
 
-Voilà un moyen simple de faire une intégration d'une clé {{ page.ref }} dans home-assistant avec un firmware Esphome. L'avantage de cette clé zigbee est facilement déportable car liée en wifi, tu pourras utiliser le sniffer BLE ( bluetooth 4.2) et la fameuse clé cc2652 zigbee 3.0, un tout en un.
+Voilà un moyen simple de faire une intégration d'une clé {{ page.ref }} dans home-assistant avec un firmware Esphome. L'avantage de cette clé zigbee est facilement déportable car liée en wifi, tu pourras utiliser le sniffer BLE ( bluetooth 4.2) et la fameuse clé cc2652 zigbee 3.0, **un tout en un**.
