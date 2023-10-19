@@ -81,8 +81,9 @@
 		  "aep-item: $19",
 		  "aep-item-affiliate: \"$20\"",
 		  "dom-item: \"$21\"",
+		  "itead-item: \"$22\"",
 		  "---",
-		  "$22"
+		  "$23"
 		],
 		"description": "producthaade"
 	  },
