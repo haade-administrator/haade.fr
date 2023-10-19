@@ -16,7 +16,7 @@ rating:
 published: true
 aep-item: 
 aep-item-affiliate: ""
-dom-item: "ZB-BRIDGE-P"
+dom-item:
 itead-item: "5V DC 1A"
 ---
 
