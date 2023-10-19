@@ -6,7 +6,7 @@ ref: ""
 layout: post
 author: Nico
 date: 2023-07-20 09:16
-last_modified_at: 2023-08-07 10:20
+last_modified_at: 2023-10-19 10:20
 categories: [Haade-lab, Domotique, Zigbee]
 tags: []
 image: 'efr32mg21-compatible-zigbee-et-thread-matter-silabs-confirme.png'
@@ -79,9 +79,9 @@ Plus récemment, des micrologiciels basés sur **Remote Co-Processor (RCP)** son
 
 ### Liste des firmwares dispo
 
-- Zigbee ezsp NCP **( v7.3.1.0 )**{: .red}
-- Multi-protocole RCP **(MULTI-PAN v4.3.1)**{: .red}
-- Openthread **( v2.3.1.0 )**{: .red}
+- Zigbee ezsp NCP **( v7.3.2.0 )**{: .red}
+- Multi-protocole RCP **(MULTI-PAN v4.3.2)**{: .red}
+- Openthread **( v2.3.2.0 )**{: .red}
 - choisir un firmware **personnalisé**
 
 ### Vidéo d'un flash de clé ZBDongle-E
@@ -106,6 +106,8 @@ Le dongle Sonoff est basé sur la puce Silabs [EFR32MG21A020F768IM32](https://ww
 
 [Lien du firmware original Sonoff ZBDongle-e](https://github.com/itead/Sonoff_Zigbee_Dongle_Firmware/raw/master/Dongle-E/NCP/ncp-uart-sw_EZNet6.10.3_V1.0.1.gbl)
 [Instruction flash officielle Sonoff](https://sonoff.tech/wp-content/uploads/2022/08/SONOFF-Zigbee-3.0-USB-dongle-plus-firmware-flashing-.pdf){: target="_blank"}
+
+**MISE À JOUR:** Si tu veux flasher facilement la clé zbdongle-e avec n'importe quel firmware et revenir en arrière facilement utilise le [répertoire github Elelabs officiel](https://github.com/Elelabs/elelabs-zigbee-ezsp-utility/){: target="_blank"}
 
 ### flash firmware ZB-GW04 (v1.1)
 

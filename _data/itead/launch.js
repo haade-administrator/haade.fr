@@ -34,7 +34,7 @@ async function scrapeItead() {
         const title = $('h1').text().trim().replace(/\n|\r/g, '');
         const reference = $('td.woocommerce-product-attributes-item__value p').eq(1).text().trim();
         const productNew = $('.product-flag.new').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');
-        const originalPrice = $('span.woocommerce-Price-amount').text().trim();
+        const originalPrice = $('span.woocommerce-Price-amount').first().text().trim();
         const globalprice = $('.current-price-value').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace(",", ".").replace("€", "EUR");
         const priceArr = globalprice.split(" ");
         const salePrice = priceArr[0];
