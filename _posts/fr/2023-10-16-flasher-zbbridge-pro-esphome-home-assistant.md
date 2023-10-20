@@ -12,7 +12,7 @@ tags: []
 image: 'hack-sonoff-zbbridge-pro-esphome-home-assistant-cle-deporte-zigbee-wifi-bluetooth.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
