@@ -189,7 +189,7 @@ serial:
 
 ## Update du firmware zigbee 3.0
 
-**Pour l'instant l'upgrade du firmware n'est pas possible avec cet outil**
+**Pour l'instant ne réalise pas l'upgrade du firmware, l'installation avorte suite à une coupure du socket, donc ce n'est pas possible avec cet outil**
 {: .red}
 
 Par défaut le firmware date de septembre 2022. Tu trouveras le firmware sur le github Zigbee2mqtt prend bien la version launchpad
