@@ -189,6 +189,9 @@ serial:
 
 ## Update du firmware zigbee 3.0
 
+**Pour l'instant l'upgrade du firmware n'est pas possible avec cet outil**
+{: .red}
+
 Par défaut le firmware date de septembre 2022. Tu trouveras le firmware sur le github Zigbee2mqtt prend bien la version launchpad
 
 [Z-stack zigbee2mqtt firmware launchpad cc2652p](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){: target="_blank"}
