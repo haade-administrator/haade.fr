@@ -123,7 +123,8 @@ Une fois uploadé dernière étape d'intégration Esphome, rendez-vous dans les 
 
 {% highlight yaml %}
 esp32_ble_tracker:
-  active: false
+  scan_parameters:
+    active: false
 {% endhighlight %}
 
 {% picture posts/{{ page.guid }}/integration-sonoff-zbbridge-pro-esphome-commande.png --alt rendu de la passerelle Sonoff {{ page.ref }} dans esphome --img width="940" height="948" %}
