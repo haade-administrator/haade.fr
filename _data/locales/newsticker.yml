@@ -4,7 +4,7 @@ docs_list_title:
 
 docs:
   fr_FR:
-    - title: Moes Automne -25%
+    - title: Moes Halloween -25%
       url: https://moeshouse.com/
 
     - title: Jeedom Luna
@@ -20,7 +20,7 @@ docs:
       url: https://buildwithmatter.com/
 
   en_GB:
-    - title: Moes Autumn -25%
+    - title: Moes Halloween -25%
       url: https://moeshouse.com/
     
     - title: Sonoff Nspanel Pro
