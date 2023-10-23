@@ -36,7 +36,7 @@ Il n'est plus à présenter, déjà deux ans que le **Sonoff {{ page.ref }}** es
 ## Prérequis
 - Home-assistant installé
 - Esphome installé
-- Module de [conversion usb uart ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %})
+- Module de [conversion usb uart ft232]({% link _products/{{ page.locale | slice: 0,2 }}/2021-05-19-module-de-conversion-usb-uart-ft232.md %}){: target="_blank"}
 
 ## Présentation du {{ page.ref }}
 
@@ -189,6 +189,9 @@ serial:
 
 ## Update du firmware zigbee 3.0
 
+**Pour l'instant ne réalise pas l'upgrade du firmware, l'installation avorte suite à une coupure du socket, donc ce n'est pas possible avec cet outil**
+{: .red}
+
 Par défaut le firmware date de septembre 2022. Tu trouveras le firmware sur le github Zigbee2mqtt prend bien la version launchpad
 
 [Z-stack zigbee2mqtt firmware launchpad cc2652p](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){: target="_blank"}
@@ -204,6 +207,8 @@ Si tu n'y arrives pas n'hésite pas à m'écrire
 {% include doclink.html pdf="ZB-Bridge-Pro-user-manual.pdf" title="Manuel complet Sonoff Zbbridge-pro" %}
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/04/Zigbee-bridge-pro.jpg?fit=1000%2C1000&ssl=1" title="ZBBridge Pro" brand="Sonoff" description="Passerelle déportée zigbee 3.0 cc2652p, wifi et bluetooth" iteadlink="sonoff-zigbee-bridge-pro" domlink="peripheriques/6321-sonoff-box-domotique-zigbee-30-wifi-pro.html" %}
+
+{% picture posts/{{ page.guid }}/specification-sonoff-zbbridge-pro.png --alt specification du Sonoff {{ page.ref }} --img width="940" height="940" %}
 
 ## Conclusion
 

@@ -151,7 +151,7 @@ and paste the code below
   # the target temperature
   target_temp: 18
   # this is the low temperature tolerance for the heater activation
-  cold_tolerance: 10
+  cold_tolerance: 1
   # temperature tolerance before the heater is activated
   hot_tolerance: 0.3
   # this is the mode in which the thermostat first starts

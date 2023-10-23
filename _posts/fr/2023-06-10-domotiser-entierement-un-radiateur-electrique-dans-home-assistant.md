@@ -152,7 +152,7 @@ et colle le code ci-dessous
   # la température cible
   target_temp: 18
   # il s'agit de la tolérance de température basse pour l'activation de la chauffe
-  cold_tolerance: 10
+  cold_tolerance: 1
   # tolérance de la température avant que la chauffe ne soit activer
   hot_tolerance: 0.3
   # il s'agit du mode dans lequel le thermostat démarre la première fois
