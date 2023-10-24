@@ -7,9 +7,9 @@ layout: post
 author: Nico
 date: 2023-10-23 09:22
 last_modified_at: 
-categories: [Domotique, Zigbee]
+categories: [Tests, Zigbee]
 tags: []
-image: 'picture.png'
+image: 'test-detecteur-fumee-frient-zigbee-3-smszb-120.png'
 toc: true
 beforetoc: ''
 published: false
