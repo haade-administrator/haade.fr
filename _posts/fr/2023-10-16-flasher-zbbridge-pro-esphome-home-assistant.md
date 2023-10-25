@@ -195,7 +195,7 @@ Par défaut le firmware date de septembre 2022. Tu trouveras le firmware sur le 
 [Z-stack zigbee2mqtt firmware launchpad cc2652p](https://github.com/Koenkk/Z-Stack-firmware/tree/master/coordinator/Z-Stack_3.x.0/bin){: target="_blank"}
 
 Pour mettre à jour le firmware de la clé zigbee cc2652p **suis le readme du dépot Haade dédié à ce tuto**
-[installation du dernier firmware Zigbee](https://github.com/haade-administrator/zbbridge-pro)
+[installation du dernier firmware Zigbee](https://github.com/haade-administrator/zbbridge-pro#upgrade-firmware-z-stack-zigbee-to-zbbridge-p)
 
 Si tu n'y arrives pas n'hésite pas à m'écrire
 
