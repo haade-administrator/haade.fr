@@ -163,7 +163,8 @@ baudrate: 115200
 target: software
 {% endhighlight %}
 
-J'ai fait une vidéo d'intégration de la clé zigbee dans zha avec un défaut d'intégration. Pour ce faire prépare l'adresse de la clé, ensuite enclanche le switch fx dans esphome et configure la clé rapidement, sinon relance l'opération et ça le feras.
+J'ai fait une vidéo d'intégration de la clé zigbee dans zha avec un défaut d'intégration. Pour ce faire prépare l'adresse de la clé, ensuite enclanche le switch fx dans esphome et configure la clé rapidement, sinon relance l'opération et ça le fera. " uniquement valable avec le firmware d'origine.
+> Si tu upgrades avec le [dernier firmware](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20230507.zip){: target="_blank"} la découverte dans ZHA se fera sans avoir besoin de cliquer sur le switch fw.
 
 ![Méthode de connection et de fonctionnement de la clé cc2652 zigbee du zbbridge-pro dans ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384"}
 
@@ -187,10 +188,7 @@ serial:
   adapter: auto
 {% endhighlight %}
 
-## Update du firmware zigbee 3.0
-
-**Pour l'instant ne réalise pas l'upgrade du firmware, l'installation avorte suite à une coupure du socket, donc ce n'est pas possible avec cet outil**
-{: .red}
+## Upgrade du firmware zigbee 3.0
 
 Par défaut le firmware date de septembre 2022. Tu trouveras le firmware sur le github Zigbee2mqtt prend bien la version launchpad
 

@@ -165,6 +165,8 @@ target: software
 
 I made a video integrating the zigbee key into zha with an integration fault. To do this, prepare the address of the key, then activate the fx switch in esphome and configure the key quickly, otherwise restart the operation and that will do it.
 
+> If you upgrade with the [latest firmware](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20230507.zip){: target ="_blank"} discovery in ZHA will be done without needing to click on the fw switch.
+
 ![Connection and operation method of zbbridge-pro cc2652 zigbee key in ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384"}
 
 Below is the light operation after activating the switch. **The green light lets you know when to integrate** or update the firmware:
@@ -187,10 +189,7 @@ serial:
   adapter: auto
 {% endhighlight %}
 
-## Zigbee 3.0 firmware update
-
-**For the moment does not perform the firmware upgrade, the installation aborts following a socket cut, so it is not possible with this tool**
-{: .red}
+## Zigbee 3.0 firmware upgrade
 
 By default the firmware dates from September 2022. You will find the firmware on the github Zigbee2mqtt takes the launchpad version
 
