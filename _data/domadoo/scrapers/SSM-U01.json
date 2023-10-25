@@ -10,7 +10,7 @@
         "discount": "-20%",
         "currency": "EUR",
         "originalPrice": "40.00",
-        "quantity": "1 Produit disponible",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://www.domadoo.fr/15896-large_default/aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-ssm-u01.jpg",
