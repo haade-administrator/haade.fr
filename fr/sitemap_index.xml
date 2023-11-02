@@ -1,8 +1,8 @@
 ---
 layout: none
-title: English Sitemap
-locale: en_GB
-locale_reference: sitemap
+title: French Sitemap
+locale: fr_FR
+locale_reference: sitemap_index
 sitemap:
   exclude: 'yes'
 ---
@@ -12,6 +12,7 @@ sitemap:
   <?xml-stylesheet type="text/xsl" href="{{ "/sitemap.xsl" | absolute_url }}"?>
 {%- endif %}
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   {%- assign categories = site.category | where_exp:'category','category.sitemap != false' | where: 'locale', page.locale %}
     {%- for category in categories %}
     {%- unless category.sitemap.exclude == "yes" or category.published == "false" %}
@@ -38,10 +39,11 @@ sitemap:
       {%- endunless %}
     {%- endfor %}
 
+
   {%- assign posts = site.posts | sort: 'date' | where: 'locale', page.locale | where: 'published', true %}
 
   {%- for post in posts reversed %}
-    {%- unless post.published == "false" or post.sitemap.exclude == "yes" %}
+    {%- unless post.published == "false" or post.sitemap.exclude == "yes"  %}
     <url>
       <loc>{{ post.url | absolute_url }}</loc>
 
@@ -76,7 +78,7 @@ sitemap:
   {%- assign pages = site.pages | where: 'locale', page.locale %}
 
   {%- for page in pages %}
-    {%- unless page.sitemap.exclude == "yes" or page.published == "false" or page.url contains "assets" or page.name == "feed.xml" %}
+    {%- unless page.sitemap.exclude == "yes" or page.published == "false" or page.url contains "assets" or page.name == "feed.xml"  %}
     <url>
       <loc>{{ page.url | remove: 'index.html' | absolute_url }}</loc>
 
