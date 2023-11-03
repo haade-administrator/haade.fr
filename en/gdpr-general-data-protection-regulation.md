@@ -45,13 +45,7 @@ It does not store any information in the database, the information is only trans
 
 ### Cookies
 
-If you leave a comment on our site, you will be offered to save your name, email address and website in cookies. This is only for your convenience so that you do not have to enter this information if you leave another comment later. These cookies expire after one year.
-
-If you have an account and you connect to this site, a temporary cookie will be created to determine if your browser accepts cookies. It does not contain personal data and will be deleted automatically when you close your browser.
-
-When you log in, we will set a number of cookies to save your login details and screen preferences. The lifetime of a connection cookie is two days, that of a screen option cookie is one year. If you check “Remember me”, your login cookie will be kept for two weeks. If you log out of your account, the login cookie will be erased.
-
-By editing or publishing an article, an additional cookie will be saved in your browser. This cookie does not include any personal data. It simply indicates the identifier of the article that you have just modified. It expires after one day.
+**Our site does not use Cookies.** Setting up a cookieless site allows us to guarantee that your data is respected.
 
 ### Embedded content from other sites
 
