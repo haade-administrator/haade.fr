@@ -15,9 +15,9 @@ beforetoc: ''
 published: true
 noindex: false
 sitemap:
-  changefreq: 'monthly'
+  changefreq: 'weekly'
   exclude: 'no'
-  priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
+  priority: 0.8 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
