@@ -6,8 +6,6 @@ locale_reference: sitemap_news
 sitemap:
   exclude: 'yes'
 ---
-<!-- timeframe actuel de 7 jours, par défaut 2jours représente 172800 -->
-
 <?xml version="1.0" encoding="UTF-8"?>
   {%- assign timeframe = 604800 %}
   {%- assign posts = site.posts | where_exp:'doc','doc.sitemap != false' | where: 'locale', page.locale | where: 'published', true %}
