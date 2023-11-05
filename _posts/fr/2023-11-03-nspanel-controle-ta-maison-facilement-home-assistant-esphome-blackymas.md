@@ -28,7 +28,11 @@ sourcelink:
   - https://github.com/Blackymas/NSPanel_HA_Blueprint
 ---
 
-Il y a peu de temps j'ai eu l'occasion de visiter une nouvelle école, celle-ci comme tu te doutes est entièrement équipée du **protocole knx**. À l'entrée de chaque classe un **écran digitale de la taille d'un NSPanel contrôle l'ensemble des équipements** (lumière, volet, chauffage). Avec un affichage intuitif mais pas trop travaillé. Quand je suis rentré à la maison et par curiosité j'ai regardé le prix d'un tel équipement et là je suis tombé à la renverse, **305€ l'ecran tactile Zennio** chez [domomat](https://www.domomat.com/61791-ecran-tactile-couleur-capacitif-41-knx-zennio-zviz40a-anthracite-zennio-zviz40a.html?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_mysoxT-9LObWx5DgIv0aWkKWDYBfmzagr4HXdLGoKIgpc10omSnYIaAot4EALw_wcB){: target="_blank"}. 
+Il y a peu de temps j'ai eu l'occasion de visiter une nouvelle école, celle-ci comme tu te doutes est entièrement équipée du **protocole knx**. À l'entrée de chaque classe un **écran digitale de la taille d'un NSPanel contrôle l'ensemble des équipements** (lumière, volet, chauffage). 
+
+{% picture posts/{{ page.guid }}/nspanel-controle-gestion-home-assistant-blueprint-github-blackymas.png --alt controle et paramétrage nspanel avec homeassistant esphome et blueprint grace au dépot github blackymas --img width="940" height="529" %}
+
+Avec un affichage intuitif mais pas trop travaillé. Quand je suis rentré à la maison et par curiosité j'ai regardé le prix d'un tel équipement et là je suis tombé à la renverse, **305€ l'ecran tactile Zennio** chez [domomat](https://www.domomat.com/61791-ecran-tactile-couleur-capacitif-41-knx-zennio-zviz40a-anthracite-zennio-zviz40a.html?gclid=Cj0KCQjwtJKqBhCaARIsAN_yS_mysoxT-9LObWx5DgIv0aWkKWDYBfmzagr4HXdLGoKIgpc10omSnYIaAot4EALw_wcB){: target="_blank"}. 
 
 {% picture posts/{{ page.guid }}/ecran-tactile-zennio-z35-knx.png --alt ecran tactile knx Zennio --img width="940" height="361" %}
 
@@ -76,8 +80,6 @@ Je vois deux gros avantages d'intégrer le firmware Esphome pour le {{ page.ref 
 
 > L'inconvénient du NSPanel est qu'il fonction avec le protocole Wifi mais Esphome est là pour améliorer les liaisons.
 
-{% picture posts/{{ page.guid }}/affichage-accueil-nspanel-blackymas-controle-lumiere.png --alt affichage accueil nspanel blackymasvpar blueprint et controle des lumières --img width="940" height="529" %}
-
 ## Avantage du Blueprint
 
 Le blueprint fournis peut être déroutant vu le nombre de paramétrages disponible, mais une fois que tu as fait le tour, **c'est tellement gratifiant d'y apporter une modification et de voir que après enregistrement et de façon quasi instantanée l'interface mise à jour sur le NSPanel.**
@@ -85,6 +87,8 @@ Le blueprint fournis peut être déroutant vu le nombre de paramétrages disponi
 ## Que permet de contrôler le référentiel Blackymas
 
 Depuis peu, **presque tout**, merci à [Edwardtfn](https://github.com/Blackymas/NSPanel_HA_Blueprint/commits?author=edwardtfn){: target="_blank"} qui continue à développer cette interface pour le plus grand plaisir des utilisateurs.
+
+{% picture posts/{{ page.guid }}/affichage-accueil-nspanel-blackymas-controle-lumiere.png --alt affichage accueil nspanel blackymasvpar blueprint et controle des lumières --img width="940" height="529" %}
 
 1. les boutons ( de façon physique ou virtuel ).
 2. connaître la météo
@@ -106,6 +110,8 @@ Bientôt le [NSPanel pourra](https://github.com/Blackymas/NSPanel_HA_Blueprint/i
 2. Afficher un système de notification amélioré
 3. contrôler plusieurs alarmes
 4. etc...
+
+{% picture posts/{{ page.guid }}/affichage-parametrage-nspanel-climatisation-qrcodewifi-github-blackymas-blueprint.png --alt affichage nspanel paramétrage, qrcode et climatisation en gestion --img width="940" height="529" %}
 
 ## {{ page.ref }} en image
 
