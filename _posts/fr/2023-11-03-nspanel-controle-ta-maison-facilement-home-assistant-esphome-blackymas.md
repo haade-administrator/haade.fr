@@ -9,7 +9,7 @@ date: 2023-11-03 12:06
 last_modified_at: 
 categories: [Haade-Lab, Tests]
 tags: []
-image: 'picture.png'
+image: 'controle-nspanel-blueprint-home-assistant-blackymas.png'
 toc: true
 beforetoc: ''
 published: false
@@ -39,6 +39,8 @@ Mais en contrepartie il ne possède pas d'interrupteurs physiques qui peut être
 > Là tu te dit pourquoi ne parle-t-il pas du NSPanel Pro qui se rapproche plus du Zennio que le NSPanel.
 
 Je trouve le [**NSPanel Pro beaucoup trop bridé**]({% post_url fr/2023-03-10-deballage-test-et-installation-sonoff-nspanel-pro %}) et il est actuellement difficile et long de transformer le NSPanel Pro même sous HA afin d'avoir une interface WAF. **De plus le fait de tourner sous Android me laisse plus que perplexe.**
+
+> Merci à Domadoo pour ce prêt sans eux je n'aurai pu tester le {{ page.ref }}
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S9242a718ab714f0496e47c63c258156e9/SONOFF-panneau-de-commande-pour-maison-connect-e-NSPanel-Pro-avec-cran-tactile-TFT-3-95.jpg_640x640.jpg_.webp" title="Sonoff NSPanel" brand="Sonoff" description="Nspanel interrupteur mural wifi" iteadlink="sonoff-nspanel-smart-scene-wall-switch" domlink="objets-connectes/5985-sonoff-interrupteur-mural-nspanel-smart-scene-eu.html" affiliate="_DdoJuth" %}
 
@@ -74,13 +76,15 @@ Je vois deux gros avantages d'intégrer le firmware Esphome pour le {{ page.ref 
 
 > L'inconvénient du NSPanel est qu'il fonction avec le protocole Wifi mais Esphome est là pour améliorer les liaisons.
 
+{% picture posts/{{ page.guid }}/affichage-accueil-nspanel-blackymas-controle-lumiere.png --alt affichage accueil nspanel blackymasvpar blueprint et controle des lumières --img width="940" height="529" %}
+
 ## Avantage du Blueprint
 
 Le blueprint fournis peut être déroutant vu le nombre de paramétrages disponible, mais une fois que tu as fait le tour, **c'est tellement gratifiant d'y apporter une modification et de voir que après enregistrement et de façon quasi instantanée l'interface mise à jour sur le NSPanel.**
 
 ## Que permet de contrôler le référentiel Blackymas
 
-Depuis peu, presque tout, merci à [Edwardtfn](https://github.com/Blackymas/NSPanel_HA_Blueprint/commits?author=edwardtfn){: target="_blank"} qui continue à développer cette interface pour le plus grand plaisir des utilisateurs.
+Depuis peu, **presque tout**, merci à [Edwardtfn](https://github.com/Blackymas/NSPanel_HA_Blueprint/commits?author=edwardtfn){: target="_blank"} qui continue à développer cette interface pour le plus grand plaisir des utilisateurs.
 
 1. les boutons ( de façon physique ou virtuel ).
 2. connaître la météo
@@ -105,7 +109,7 @@ Bientôt le [NSPanel pourra](https://github.com/Blackymas/NSPanel_HA_Blueprint/i
 
 ## {{ page.ref }} en image
 
-## Avec un peu d'imaginations
+*Et un avec un peu d'imaginations ...*
 
 Grâce à **Home Assistant et au NSPanel** tu pourrais contrôler facilement dans chaque pièces plus particulièrement dans chaque chambres la lumière, le chauffage, les volets, les medias avec un seul NSPanel, **ça laisse rêveur mais tellement simple à réaliser.**
 
