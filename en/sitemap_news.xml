@@ -7,7 +7,7 @@ sitemap:
   exclude: 'yes'
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-  {%- assign timeframe = 604800 %}
+  {%- assign timeframe = 864000 %}
   {%- assign posts = site.posts | where_exp:'doc','doc.sitemap != false' | where: 'locale', page.locale | where: 'published', true %}
   {%- for post in posts %}
     {%- assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
