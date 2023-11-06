@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-11-03 12:06
 last_modified_at: 
-categories: [Haade-Lab, Tests]
+categories: [Haade-lab, Tests]
 tags: []
 image: 'control-nspanel-blueprint-home-assistant-blackymas.png'
 toc: true
