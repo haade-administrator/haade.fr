@@ -12,7 +12,7 @@ tags: []
 image: 'controle-nspanel-blueprint-home-assistant-blackymas.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -84,11 +84,13 @@ Je vois deux gros avantages d'intégrer le firmware Esphome pour le {{ page.ref 
 
 Le blueprint fournis peut être déroutant vu le nombre de paramétrages disponible, mais une fois que tu as fait le tour, **c'est tellement gratifiant d'y apporter une modification et de voir que après enregistrement et de façon quasi instantanée l'interface mise à jour sur le NSPanel.**
 
+![Options blueprint Nspanel github blackymas]({{ site.baseurl }}/assets/images/posts/90/blueprint-option-nspanel-blackymas.webp{{ cachebuster }}){: width="620" height="320"}{: target="_blank"}
+
 ## Que permet de contrôler le référentiel Blackymas
 
 Depuis peu, **presque tout**, merci à [Edwardtfn](https://github.com/Blackymas/NSPanel_HA_Blueprint/commits?author=edwardtfn){: target="_blank"} qui continue à développer cette interface pour le plus grand plaisir des utilisateurs.
 
-{% picture posts/{{ page.guid }}/affichage-accueil-nspanel-blackymas-controle-lumiere.png --alt affichage accueil nspanel blackymasvpar blueprint et controle des lumières --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/affichage-accueil-nspanel-blackymas-controle-lumiere.png --alt affichage accueil nspanel blackymas par blueprint et controle des lumières --img width="940" height="529" %}
 
 1. les boutons ( de façon physique ou virtuel ).
 2. connaître la météo
