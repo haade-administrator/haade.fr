@@ -36,7 +36,7 @@ Pour l'instant Haade n'est rien d'autre qu'un site internet sans but lucratif, c
 
 > **Je suis actuellement le principal éditeur du blog et de ce fait je suis à la recherche de nouveaux collaborateurs !**
 
-Si ça t'intéresse tu auras comme tâche la rédaction de nouveaux articles sous forme de tutoriels ou tu pourras apporter ton expérience. Afin d'avoir un petit retour sur investissement **tu pourras y incorporer tes propres liens publicitaires** ( sous forme de bloc produit ), comme c'est déjà le cas sur le site. Si tu n'as pas de partenariat nous pourrons probablement trouver une solution ensemble. **De plus je pourrai te fournir les modules de ton choix ( dispo sur Domadoo ou Itead )** afin de pouvoir créer des articles de tests Produits, voir la [page tests de produits](../categorie/tests/){: target="_blank"}
+Si ça t'intéresse tu auras comme tâche la rédaction de nouveaux articles sous forme de tutoriels ou tu pourras apporter ton expérience. Afin d'avoir un petit retour sur investissement **tu pourras y incorporer tes propres liens publicitaires** ( sous forme de bloc produit ), comme c'est déjà le cas sur le site. Si tu n'as pas de partenariat nous pourrons probablement trouver une solution ensemble. **De plus je pourrai te fournir les modules de ton choix ( dispo sur Domadoo ou Itead )** afin de pouvoir créer des articles de tests Produits, voir la [page tests de produits](../categorie/tests){: target="_blank"}
 
 **Collaborateurs recherchés:**
 - utilisateurs de Jeedom, Home-Assistant, Openhab ...
