@@ -6,11 +6,11 @@
         "description": "La sirène intelligente Zigbee 3.0 de Heiman est idéale pour déclencher une alarme en cas d'urgence.",
         "productNew": "",
         "minsalePrice": "29.99",
-        "maxsalePrice": "19.99",
-        "discount": "-20%",
+        "maxsalePrice": "16.00",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "19.99",
-        "quantity": "14 Produits disponibles",
+        "originalPrice": "16.00",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://www.domadoo.fr/17675-large_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
@@ -23,7 +23,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.5",
-            "totalStarCount": "23"
+            "totalStarCount": "24"
         }
     }
 }

@@ -6,10 +6,10 @@
         "description": "La box domotique ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF permet d'avoir le contrôle de sa maison connectée à distance et de créer des scènes.",
         "productNew": "",
         "minsalePrice": "33.99",
-        "maxsalePrice": "14.99",
-        "discount": "-15%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "14.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -34,7 +34,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "5",
-            "totalStarCount": "1"
+            "totalStarCount": "2"
         }
     }
 }
