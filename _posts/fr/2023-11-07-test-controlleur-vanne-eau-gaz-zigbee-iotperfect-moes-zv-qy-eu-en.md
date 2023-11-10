@@ -28,7 +28,15 @@ sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/6671-moes-vanne-motorisee-zigbee-tuya.html
 ---
 
+Aujourd'hui je vais tester un module bien particulié, souvent associé aux problèmes d'inondations il peut être utile pour contrôler l'arrosage de plantes et du gazon à condition de trouver les vannes 1/4 de tours protégées des intempéries. Je veux parler du controlleur de vannes intelligent zigbee {{ page.ref }} fabriqué par iotperfect et vendu en parque blanche par Moes entre autre. mais ce produit permet-il de controler de façon sûre des vannes 1/4 de tours ?
+
 {% include product-embed.html guid="2176" %}
+
+## Petit tour d'horizon du {{ page.ref }}
+
+Le module est fournis assemblé avec un adapteateur secteur, un kit de fixation et les notices explicatives. **L'emballage et le contenu fait bonne impression.**
+
+
 
 {% picture posts/{{ page.guid }}/capture-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt presentation du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
 
