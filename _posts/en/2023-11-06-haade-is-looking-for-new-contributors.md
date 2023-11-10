@@ -36,7 +36,7 @@ For the moment Haade is nothing more than a non-profit website, however I would 
 
 > **I am currently the main editor of the blog and therefore I am looking for new collaborators!**
 
-If you're interested, your task will be to write new articles in the form of tutorials where you can contribute your experience. In order to have a small return on investment **you can incorporate your own advertising links** (in the form of a product block), as is already the case on the site. If you don't have a partnership we can probably find a solution together. **In addition, I can provide you with the modules of your choice (available on Domadoo or Itead)** in order to be able to create Product test articles, see the [product testing page](../category/tests/){: target="_blank"}
+If you're interested, your task will be to write new articles in the form of tutorials where you can contribute your experience. In order to have a small return on investment **you can incorporate your own advertising links** (in the form of a product block), as is already the case on the site. If you don't have a partnership we can probably find a solution together. **In addition, I can provide you with the modules of your choice (available on Domadoo or Itead)** in order to be able to create Product test articles, see the [product testing page](../category/tests){: target="_blank"}
 
 **Sought collaborators:**
 - users of Jeedom, Home-Assistant, Openhab ...
