@@ -1,15 +1,15 @@
 ---
 guid: 92
-title: ""
-description: ""
+title: "Test du controlleur de Vanne Zigbee PF-PM02D-TYZ par Moes"
+description: "Aujourd'hui nous allons tester le controlleur de vanne intelligente iotperfect et revendu par Moes, nous allons voir que la qualité de fabrication ne fait pas tout"
 ref: "PF-PM02D-TYZ"
 layout: post
 author: Nico
 date: 2023-11-07 16:43
 last_modified_at: 
-categories: [Docker, Domotique, Zigbee]
+categories: [Tests, Domotique, Zigbee]
 tags: []
-image: 'picture.png'
+image: 'test-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png'
 toc: true
 beforetoc: ''
 published: false
@@ -27,3 +27,59 @@ sourcelink:
   - https://www.zigbee2mqtt.io/devices/PF-PM02D-TYZ.html
   - https://www.domadoo.fr/fr/peripheriques/6671-moes-vanne-motorisee-zigbee-tuya.html
 ---
+
+{% include product-embed.html guid="2176" %}
+
+{% picture posts/{{ page.guid }}/capture-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt presentation du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/taille-alerte-inclusion-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt particularité du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
+
+## Compatibilité
+
+- Zigbee2mqtt
+- deconz
+- zigbee Domoticz
+- **zigbee Jeedom**
+- Homey
+- Homely
+- Smartthings
+- Eva
+- futurhome
+- Nimly
+- Hubitat
+
+## Inclusion dans ZHA
+
+## Inclusion dans Zigbee2mqtt
+
+## Caractéristiques {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/dimension-controlleur-vanne-zigbee-pf-pm02d-tyz.png --alt dimension du controlleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ tuya --img width="600" height="600" %}
+
+## Documents {{ page.ref }}
+
+{% include doclink.html pdf="ZV-QY-US-EN English Manual.pdf" title="guide d'installation du controlleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ" %}
+
+## **les + du produit** {{ page.ref }}
+{: .blue}
+
+- la qualité de fabrication
+- Une énorme compatibilité
+- le nombre de fonctions disponibles
+- Une pile Duracel
+- Une taille réduite
+- Un design réussi
+- Durée de la pile de 3 ans
+
+
+## **les - du produit** {{ page.ref }}
+{: .red}
+
+- Le prix (50€ environ)
+- la puce zigbee cc2530
+- Incompatible avec ZHA
+- le choix d'une pile onéreuse CR123
+
+{% include product-embed.html guid="2176" %}
+
+## Conclusion
