@@ -1,7 +1,7 @@
 ---
 guid: 92
-title: "Test du controlleur de Vanne Zigbee PF-PM02D-TYZ par Moes"
-description: "Aujourd'hui nous allons tester le controlleur de vanne intelligente iotperfect et revendu par Moes, nous allons voir que la qualité de fabrication ne fait pas tout"
+title: "Test du contrôleur de Vanne Zigbee PF-PM02D-TYZ par Moes"
+description: "Aujourd'hui nous allons tester le contrôleur de vanne intelligente iotperfect et revendu par Moes, nous allons voir que la qualité de fabrication ne fait pas tout"
 ref: "PF-PM02D-TYZ"
 layout: post
 author: Nico
@@ -9,7 +9,7 @@ date: 2023-11-07 16:43
 last_modified_at: 
 categories: [Tests, Zigbee]
 tags: []
-image: 'test-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png'
+image: 'test-contrôleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png'
 toc: true
 beforetoc: ''
 published: true
@@ -29,7 +29,7 @@ sourcelink:
   - http://www.iotperfect.com/?m=home&c=View&a=index&aid=84&lang=en
 ---
 
-Aujourd'hui je vais tester **un module bien particulié**, souvent associé aux problèmes d'inondations il peut être utile pour contrôler l'arrosage de plantes et du gazon à condition de trouver les vannes 1/4 de tours protégées des intempéries. Je veux parler du **controlleur de vannes intelligent zigbee {{ page.ref }}** fabriqué par [iotperfect](http://www.iotperfect.com/?m=home&c=View&a=index&aid=84&lang=en){: target="_blank"} et entre autre vendu en **marque blanche par Moes**. 
+Aujourd'hui je vais tester **un module bien particulié**, souvent associé aux problèmes d'inondations il peut être utile pour contrôler l'arrosage de plantes et du gazon à condition de trouver les vannes 1/4 de tours protégées des intempéries. Je veux parler du **contrôleur de vannes intelligent zigbee {{ page.ref }}** fabriqué par [iotperfect](http://www.iotperfect.com/?m=home&c=View&a=index&aid=84&lang=en){: target="_blank"} et entre autre vendu en **marque blanche par Moes**. 
 
 > alors ce produit permet-il de controler de façon sûre des vannes 1/4 de tours ?
 
@@ -39,12 +39,12 @@ Aujourd'hui je vais tester **un module bien particulié**, souvent associé aux 
 
 Le module est fourni assemblé avec un adaptateur secteur, un kit de fixation et les notices explicatives. **L'emballage et le contenu fait bonne impression.**
 
-{% picture posts/{{ page.guid }}/capture-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt presentation du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/capture-contrôleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt presentation du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
 
 L'ensemble à l'air solide et de bonne facture, le bouton d'allumage/interrupteur/appairage et petit et hermétique, au centre se trouve un **bouton physique nommé "push"** il permet en appuyant dessus la déssolidarisation du moteur et de la vanne et ainsi pivoter le levier de façon manuel, idéal pour la mise en place du produit. Le levier est fait en acier de 1.5mm d'épaisseur et le tout est assemblé avec une visse nilstop.
 Les éléments de fixations sont de bonnes factures mais **le principe de montage de la fixation ne sera pas suffisant pour les manoeuvres sur des leviers dures à manipuler. Voir plus bas.**
 
-{% picture posts/{{ page.guid }}/taille-alerte-inclusion-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt particularité du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/taille-alerte-inclusion-contrôleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png --alt particularité du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="529" %}
 
 ## Compatibilité
 
@@ -71,7 +71,7 @@ Commence par inclure le module dans zha
 
 Ensuite récupère l'adresse ieee du module, rien de plus simple va dans ZHA et sur la configuration du module
 
-{% picture posts/{{ page.guid }}/recuperation-ieee-zha-iotperfect-vanne.png --alt récupération ieee du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="493" %}
+{% picture posts/{{ page.guid }}/recuperation-ieee-zha-iotperfect-vanne.png --alt récupération ieee du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 --img width="940" height="493" %}
 
 #### étape 3 Création Dossier
 
@@ -186,32 +186,32 @@ Et voici le résultat une fois la manip réalisée, le {{ page.ref }} sera recon
 
 > Ce n'est pas parfait mais ça fera le job.
 
-{% picture posts/{{ page.guid }}/vanne-iotperfect-pf-pm02D-tyz-fonctionnel-zha.png --alt résultat de fonctionnement du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zha --img width="940" height="493" %}
+{% picture posts/{{ page.guid }}/vanne-iotperfect-pf-pm02D-tyz-fonctionnel-zha.png --alt résultat de fonctionnement du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zha --img width="940" height="493" %}
 
 ## Inclusion dans Zigbee2mqtt
 
 Comme toujours la vanne est reconnu sous **Zigbee2mqtt** et c'est une très bonne chose car Z2M **fonctionne sous Home Assistant, Jeedom, Openhab, Majordomo et même Gladys.**
 
-{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt.png --alt integration du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt --img width="940" height="39" %}
+{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt.png --alt integration du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt --img width="940" height="39" %}
 
-{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt-a-propos.png --alt information du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt à propos --img width="940" height="644" %}
+{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt-a-propos.png --alt information du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt à propos --img width="940" height="644" %}
 
 Malheureusement ce module ( pour le prix ) ne fait remonter que le controle On/Off et la qualité du lien, le fait d'être branché sur le **secteur il agira comme routeur**.
 
-{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt-a-expose.png --alt information du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt expose --img width="940" height="193" %}
+{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-zigbee2mqtt-a-expose.png --alt information du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans zigbee2mqtt expose --img width="940" height="193" %}
 
-{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-home-assistant-z2m.png --alt rendu du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans Home assistant avec zigbee2mqtt --img width="940" height="514" %}
+{% picture posts/{{ page.guid }}/integration-vanne-zigbee-intelligente-PF-PM02D-TYZ-home-assistant-z2m.png --alt rendu du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 dans Home assistant avec zigbee2mqtt --img width="940" height="514" %}
 
 ## Mise en situation du {{ page.ref }}
 
 J'ai voulu tester sur une vanne d'arrivée d'eau située au sous-sol. Cette vanne est une 1/4 de tours, parfait, **mais elle s'ouvre difficilement.** La pose s'est effectuée sans problème. J'étais étonné que ce module réussisse à l'ouvrir c'est bel et bien le cas, pour rappel la **force d'ouverture est de 30-60kg/cm.** Par contre le **support de fixation est insuffisant**, tu te rendras compte sur la photo que le module a pivoté et n'est pas resté en place.
 **Dans ce cas il ne faudra pas longtemps pour flinguer la vanne {{ page.ref }}**
 
-{% picture posts/{{ page.guid }}/mouvement-tete-vanne-robinet-hard-intelligent-valve-PF-PM02D-TYZ.png --alt rendu du controlleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 sur robinet difficile à ouvrir --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/mouvement-tete-vanne-robinet-hard-intelligent-valve-PF-PM02D-TYZ.png --alt rendu du contrôleur de vanne 1/4 de tour moes PF-PM02D-TYZ zigbee 3.0 sur robinet difficile à ouvrir --img width="940" height="529" %}
 
 ## Caractéristiques {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/dimension-controlleur-vanne-zigbee-pf-pm02d-tyz.png --alt dimension du controlleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ tuya --img width="600" height="600" %}
+{% picture posts/{{ page.guid }}/dimension-contrôleur-vanne-zigbee-pf-pm02d-tyz.png --alt dimension du contrôleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ tuya --img width="600" height="600" %}
 
 |Température|-10-65|
 |Humidité|<95 %|
@@ -232,7 +232,7 @@ J'ai voulu tester sur une vanne d'arrivée d'eau située au sous-sol. Cette vann
 
 ## Documents {{ page.ref }}
 
-{% include doclink.html pdf="ZV-QY-US-EN English Manual.pdf" title="guide d'installation du controlleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ" %}
+{% include doclink.html pdf="ZV-QY-US-EN English Manual.pdf" title="guide d'installation du contrôleur de vanne gaz ou eau zigbee moes PF-PM02D-TYZ" %}
 
 ## **Les + du produit** {{ page.ref }}
 {: .blue}
