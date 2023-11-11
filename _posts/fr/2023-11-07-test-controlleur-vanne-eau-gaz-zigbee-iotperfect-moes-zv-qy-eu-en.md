@@ -9,7 +9,7 @@ date: 2023-11-07 16:43
 last_modified_at: 
 categories: [Tests, Zigbee]
 tags: []
-image: 'test-contrôleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png'
+image: 'test-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png'
 toc: true
 beforetoc: ''
 published: true
