@@ -17,7 +17,8 @@ on:
     paths-ignore:
       - .gitignore
       - README.md
-      - LICENSE.txt  
+      - LICENSE.txt
+      - _drafts/  
 
 env:
   LANG: "fr_FR.UTF-8"
