@@ -25,7 +25,7 @@ rating:
 sourcelink:
   - https://www.domadoo.fr/fr/190-single-day-domotique?domid=39
 ---
-Ne râtez pas ces **offres ultra intéressantes** chez [Domadoo](ttps://www.domadoo.fr/fr/190-single-day-domotique?domid=39){: target="_blank"} qui ne dureront que ce week-end .**La Single Day est le nom donné à la date du 11 Novembre** de chaque année, et c'est une fête très importante en Chine, et qui donne lieu à des promotions hallucinantes. **Les prix sont généralement même bien plus intéressants que lors du Black Friday**, c'est pour dire ! On trouve pour l'occasion de nombreux offres très alléchantes sur les boutiques asiatiques, mais également dans notre boutique française préférée: **Domadoo**. Elle se joint donc à la fête pour profiter de belles, offres, avec notamment une promotion sur **les box domotiques Jeedom.**
+Ne râtez pas ces **offres ultra intéressantes** chez [Domadoo](https://www.domadoo.fr/fr/190-single-day-domotique?domid=39){: target="_blank"} qui ne dureront que ce week-end .**La Single Day est le nom donné à la date du 11 Novembre** de chaque année, et c'est une fête très importante en Chine, et qui donne lieu à des promotions hallucinantes. **Les prix sont généralement même bien plus intéressants que lors du Black Friday**, c'est pour dire ! On trouve pour l'occasion de nombreux offres très alléchantes sur les boutiques asiatiques, mais également dans notre boutique française préférée: **Domadoo**. Elle se joint donc à la fête pour profiter de belles, offres, avec notamment une promotion sur **les box domotiques Jeedom.**
 
 #### Box Jeedom Luna -10%
 
