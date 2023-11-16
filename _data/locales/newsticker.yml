@@ -4,11 +4,12 @@ docs_list_title:
 
 docs:
   fr_FR:
+
+    - title: Black Friday Domadoo
+      url: https://www.domadoo.fr/fr/73-black-friday-domotique?domid=39
+
     - title: Moes Black Friday -30%
       url: https://moeshouse.com/
-
-    - title: Jeedom Luna
-      url: https://blog.jeedom.com/6842-destination-jeedom-luna/
     
     - title: Sonoff Nspanel Pro
       url: https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/
@@ -23,6 +24,10 @@ docs:
       url: http://en.smartpanle.com/
 
   en_GB:
+
+    - title: Black Friday Domadoo
+      url: https://www.domadoo.fr/en/73-black-friday-domotique?domid=39
+
     - title: Moes Black Friday -30%
       url: https://moeshouse.com/
     
