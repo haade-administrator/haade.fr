@@ -1,6 +1,6 @@
 ---
 guid: 95
-title: "Vendredi Noir chez itead Sonoff et Nextion"
+title: "Vendredi Noir chez itead, Sonoff et Nextion"
 description: "Black friday sur le site itead marque sonoff et Nextion à prix cassé"
 ref: ""
 layout: post

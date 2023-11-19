@@ -1,7 +1,7 @@
 ---
 guid: 95
-title: "Black Friday at itead Sonoff and Nextion"
-description: "Black friday on the itead site sonoff and Nextion brand at reduced prices"
+title: "Black Friday at itead, Sonoff and Nextion"
+description: "Black friday on the itead site, sonoff and Nextion brand at reduced prices"
 ref: ""
 layout: post
 author: Nico
