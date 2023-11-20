@@ -1,16 +1,40 @@
 <div class="contentlink">
 {%- if include.pdf -%}
+{%- if include.pdf contains '://' -%}
+<a href="{{ include.pdf }}" target="_blank">{{ include.title }}</a><i class="icor file-pdf-regular"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.pdf }}" target="_blank">{{ include.title }}</a><i class="icor file-pdf-regular"></i>
+{%- endif -%}
 {%- elsif include.docx -%}
+{%- if include.docx contains '://' -%}
+<a href="{{ include.docx }}" target="_blank">{{ include.title }}</a><i class="icor file-word-regular"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.docx }}" target="_blank">{{ include.title }}</a><i class="icor file-word-regular"></i>
+{%- endif -%}
 {%- elsif include.csv -%}
+{%- if include.csv contains '://' -%}
+<a href="{{ include.csv }}" target="_blank">{{ include.title }}</a><i class="icor file-csv-solid"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.csv }}" target="_blank">{{ include.title }}</a><i class="icor file-csv-solid"></i>
+{%- endif -%}
 {%- elsif include.xls -%}
+{%- if include.xls contains '://' -%}
+<a href="{{ include.xls }}" target="_blank">{{ include.title }}</a><i class="icor file-excel-regular"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.xls }}" target="_blank">{{ include.title }}</a><i class="icor file-excel-regular"></i>
+{%- endif -%}
 {%- elsif include.zip -%}
+{%- if include.zip contains '://' -%}
+<a href="{{ include.zip }}" target="_blank">{{ include.title }}</a><i class="icor file-archive-regular"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.zip }}" target="_blank">{{ include.title }}</a><i class="icor file-archive-regular"></i>
+{%- endif -%}
 {%- elsif include.torrent -%}
+{%- if include.torrent contains '://' -%}
+<a href="{{ include.torrent }}" target="_blank">{{ include.title }}</a><i class="icor laugh-solid"></i>
+{%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.torrent }}" target="_blank">{{ include.title }}</a><i class="icor laugh-solid"></i>
+{%- endif -%}
 {%- endif -%}
 </div>
 
