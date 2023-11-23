@@ -5,11 +5,11 @@ description: "Esp32-korvo est le microphone complet pour contrôler la domotique
 ref: "ESP32-korvo wroover-e"
 layout: post
 author: Nico
-date: 2023-11-20 12:00
+date: 2023-11-22 12:00
 last_modified_at: 
 categories: [Tests, Home-Assistant]
 tags: []
-image: 'picture.png'
+image: 'esp32-korvo-microphone-array-assist-esphome-homeassistant.png'
 toc: true
 beforetoc: ''
 published: false
