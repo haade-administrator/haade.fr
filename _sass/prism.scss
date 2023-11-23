@@ -1,4 +1,5 @@
 /* généré avec https://www.cssportal.com/css-to-scss/ */
+$color_0: #1B1C37;
 $color_1: #f8f8f2;
 $color_2: #8292a2;
 $color_3: #f92672;
@@ -71,11 +72,11 @@ pre[class*=language-] {
 	margin: .5em 0;
 	overflow: auto;
 	border-radius: 1.1em;
-	background: #272822;
+	background: $color_0;
 }
 :not(pre) {
 	>code[class*=language-] {
-		background: #272822;
+		background: $color_0;
 		padding: .1em;
 		border-radius: 1.1em;
 		white-space: normal;
