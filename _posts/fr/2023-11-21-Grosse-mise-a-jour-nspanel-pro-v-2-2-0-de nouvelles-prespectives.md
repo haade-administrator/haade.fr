@@ -35,7 +35,7 @@ Jusqu'à présent je ne trouvais pas de **réels intérêts** concernant le NSPa
 
 En effet depuis la version 2.2.0 il est possible de **configurer la puce zigbee EFR32MG21 comme coordinateur ou comme routeur**. Ce qui permettra à terme de la rendre compatible avec Zigbee2mqtt ou ZHA et donc de l'intégrer facilement dans son réseau opensource Home-assistant, Jeedom, Gladys, openhab, etc... Et ça c'est un grand plus. D'ailleurs une demande d'intégration sur le github zigbee2mqtt est en cours, voir le lien ci-dessous.
 
-[https://github.com/Koenkk/zigbee2mqtt/issues/19721](https://github.com/Koenkk/zigbee2mqtt/issues/19721){: target="_blank"}
+[Z2M issues github](https://github.com/Koenkk/zigbee2mqtt/issues/19721){: target="_blank"}
 
 ## Nouveautées Version 2.1.0 et 2.2.0
 

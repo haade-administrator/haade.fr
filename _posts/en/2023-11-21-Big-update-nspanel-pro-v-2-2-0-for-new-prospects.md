@@ -35,7 +35,7 @@ Until now I did not find any **real interests** concerning the NSPanel Pro which
 
 Indeed since version 2.2.0 it is possible to **configure the EFR32MG21 zigbee chip as a coordinator or as a router**. Which will ultimately make it compatible with Zigbee2mqtt or ZHA and therefore easily integrate it into its opensource network Home-assistant, Jeedom, Gladys, openhab, etc... And that's a big plus. Moreover, an integration request on the zigbee2mqtt github is in progress, see the link below.
 
-[https://github.com/Koenkk/zigbee2mqtt/issues/19721](https://github.com/Koenkk/zigbee2mqtt/issues/19721){: target="_blank"}
+[Z2M issues Github](https://github.com/Koenkk/zigbee2mqtt/issues/19721){: target="_blank"}
 
 ## What’s new Version 2.1.0 and 2.2.0
 
