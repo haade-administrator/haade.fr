@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.6 
 sourcelink:
   - https://www.home-assistant.io/voice_control/voice_remote_local_assistant/
   - https://www.home-assistant.io/docs/blueprint/
@@ -67,7 +67,30 @@ Le {{ page.ref }}, est un assemblage de deux cartes, la carte supérieur est com
 {% include doclink.html pdf="https://dl.espressif.com/dl/schematics/ESP32-KORVO_V1.1_schematics.pdf" title="Schema connection gpio esp32-korvo" %}
 
 
+{% highlight yaml %}
+substitutions:
 
+##### WIFI SETUP #####
+###### CHANGE ME START ######
+  device_name: "esp32korvo_mic" 
+  wifi_ssid: !secret wifi_ssid
+  wifi_password: !secret wifi_password
+  apikey: !secret enc_key_esp32korvo_mic
+
+##### CHANGE ME END #####
+
+##### DO NOT CHANGE ANYTHING! #####
+
+packages:
+  ##### download esp32-korvo for esphome code from Github
+  remote_package:
+    url: https://github.com/haade-administrator/korvo-esphome
+    ref: main
+    files: [esp32korvo_esphome.yaml]
+    refresh: 300s
+
+##### DO NOT CHANGE ANYTHING! ##### 
+{% endhighlight %}
 
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/H986d1437c3244ad5aad6045e7bab4913b/ESP32-Korvo-ESP32-AI-Conseil-de-D-veloppement-Vocal-Tech-Multi-iler-ESP32-WROVER-E-WIFI.jpg_.webp" title="Micro array esp32-korvo" brand="Espressif" description="Microphone array esp32-korvo esp-wroover-e avec esphome et home-assistant" affiliate="_DnPsmnt" %}
