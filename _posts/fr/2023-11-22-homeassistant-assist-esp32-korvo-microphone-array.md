@@ -139,9 +139,13 @@ Voici les fonctions disponibles:
 - status de connection
 - et l'état du signal
 
+{% picture posts/{{ page.guid }}/esp32-korvo-esphome-fonctions-disponibles.png --alt fonctions disponibles du microphone esp32-korvo-wroover-b dans esphome --img width="940" height="811" %}
+
 > Dans la future mise à jour sera disponible une fonction lumineuse supplémentaire qui te permettra de choisir un réglage lumineux pour le wakeword ( étein,jour,nuit)
 
-{% picture posts/{{ page.guid }}/esp32-korvo-esphome-fonctions-disponibles.png --alt fonctions disponibles du microphone esp32-korvo-wroover-b dans esphome --img width="940" height="811" %}
+Tu peux dors et déjà tester ces fonctions il te suffit d'intégrer dans le code esphome ```ref: dev```
+
+{% picture posts/{{ page.guid }}/esp32-korvo-esphome-prochaines-fonctions-disponibles.png --alt prochaines fonctions disponibles du microphone esp32-korvo-wroover-b dans esphome --img width="332" height="491" %}
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/H986d1437c3244ad5aad6045e7bab4913b/ESP32-Korvo-ESP32-AI-Conseil-de-D-veloppement-Vocal-Tech-Multi-iler-ESP32-WROVER-E-WIFI.jpg_.webp" title="Micro array esp32-korvo" brand="Espressif" description="Microphone array esp32-korvo esp-wroover-e avec esphome et home-assistant" affiliate="_DnPsmnt" %}
 
