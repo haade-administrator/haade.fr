@@ -214,10 +214,6 @@ instagram:
 tiktok:
 {% include videoPlayer.html tiktokIdId="" %}
 
-### intégrer une vidéo
-
-transformer avec l'outil https://cloudconvert.com/
-
 <iframe width="940" height="596" src="{{ site.baseurl}}/assets/images/posts/{{ page.guid }}/flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee-940.webm{{ cachebuster }}" frameborder="0" allowfullscreen></iframe>
 
 ### intégrer un podcast spotify
