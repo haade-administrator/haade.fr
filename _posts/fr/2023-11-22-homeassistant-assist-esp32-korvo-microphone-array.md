@@ -57,15 +57,41 @@ Le {{ page.ref }}, est un assemblage de deux cartes, la carte supérieur est com
 
 2 x Amic 55mm *Mic_Bias12*
 
+{% picture posts/{{ page.guid }}/esp32-korvo-v1.1-wroover-e-mainboard-add-microphone-array.png --alt emplacement supplémentaire esp32-korvo microphone array home assistant --img width="940" height="529" %}
+
 **PS:** Malgré les photos fournis sur le Github, La carte supérieur est identique sur les deux versions disponibles et fabriqués par Espressif.
 
 ### Que trouve-t-on sur la carte inférieur:
 
 {% picture posts/{{ page.guid }}/esp32-korvo-v1.1-wroover-e-mainboard.png --alt particularité de la carte principale esp32-korvo wroover-e --img width="750" height="635" %}
 
+Là tu te rends compte que pour le prix la carte est très complète:
+
+- bouton on/off
+- connecteur casque audio
+- connecteur hp externe
+- micro sdcard
+- usb uart
+- usb 5v
+- connecteur pour batterie 5v
+
 
 {% include doclink.html pdf="https://dl.espressif.com/dl/schematics/ESP32-KORVO_V1.1_schematics.pdf" title="Schema connection gpio esp32-korvo" %}
 
+## Intégrer {{ page.ref }} dans esphome
+
+### upload du premier firmware
+
+afin d'envoyer le code plus bas en mode UART il te faudra:
+- connecter 2 cables usb sur les deux ports usb. (l'usb power peut être alimenter par un transfo 5v ou connecté sur un port alimenté de ton pc).
+- le second port usb-uart doit être connecté au pc 
+- localiser le bouton boot
+
+**Appui sur le bouton boot sans le relacher, ensuite connecte les deux cables usb, et pour terminer relâche le bouton boot**
+
+![Envoi du firmware esphome sur un esp32-korvo]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esp32-korvo-esphome-flash-firmware.webp{{ cachebuster }}){: width="940" height="529"}
+
+Grâce au code ci-dessous tu pourras intégrer facilement le microphone {{ page.ref }} dans esphome et ainsi l'utiliser dans home assistant.
 
 {% highlight yaml %}
 substitutions:
@@ -92,6 +118,30 @@ packages:
 ##### DO NOT CHANGE ANYTHING! ##### 
 {% endhighlight %}
 
+## Paramétrage {{ page.ref }} et esphome
+
+Afin de paramétrer ton nouveau microphone dans home-assistant je t'invite à cliquer sur ce lien ci-dessous, et normalement une nouvelle instant esphome est découverte, il te suffit de cliquezr sur configurer et de redémarrer homeassistant.
+
+{% include homeassistantlink.html integration="esphome" %}
+
+### états des fonctions du {{ page.ref }}
+
+Voici les fonctions disponibles:
+- contrôles des Led du {{ page.ref }}
+- états du wakeword
+- états des boutons physiques du {{ page.ref }}
+- réglage de la détection de fin de parole
+- état du firmware
+- choix du pipeline ( par défaut homeassistant )
+- bouton de redémarrage
+- état du mot de réveil
+- adresse ip
+- status de connection
+- et l'état du signal
+
+> Dans la future mise à jour sera disponible une fonction lumineuse supplémentaire qui te permettra de choisir un réglage lumineux pour le wakeword ( étein,jour,nuit)
+
+{% picture posts/{{ page.guid }}/esp32-korvo-esphome-fonctions-disponibles.png --alt fonctions disponibles du microphone esp32-korvo-wroover-b dans esphome --img width="940" height="811" %}
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/H986d1437c3244ad5aad6045e7bab4913b/ESP32-Korvo-ESP32-AI-Conseil-de-D-veloppement-Vocal-Tech-Multi-iler-ESP32-WROVER-E-WIFI.jpg_.webp" title="Micro array esp32-korvo" brand="Espressif" description="Microphone array esp32-korvo esp-wroover-e avec esphome et home-assistant" affiliate="_DnPsmnt" %}
 
