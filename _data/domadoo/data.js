@@ -43,5 +43,6 @@ module.exports = [
     'produits/6783-sonoff-module-connecte-onoff-matter-10a-minir4m', // 2173 sonoff miniR4M
     'peripheriques/6321-sonoff-box-domotique-zigbee-30-wifi-pro', // 2174 zbbridge pro
     'peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330', // 2175 frient CF smszb-120
-    'peripheriques/6671-moes-vanne-motorisee-zigbee-tuya' // 2176 vanne motorisée Moes
+    'peripheriques/6671-moes-vanne-motorisee-zigbee-tuya', // 2176 vanne motorisée Moes
+    'peripheriques/6733-sonoff-bouton-connecte-sans-fil-zigbee-30-compatible-alexa-snzb-01p' // 2177 Sonoff SNZB-01P
 ]
