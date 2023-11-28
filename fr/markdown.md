@@ -94,6 +94,9 @@ Exemple intégration répertoire Hacs auto backup:
 Exemple Intégration Appareil auto_backup:
 {% include homeassistantlink.html integration="auto_backup" %}
 
+#### Générer un lien bouton
+[https://my.home-assistant.io/create-link/](https://my.home-assistant.io/create-link/)
+
 # transformer un gif en webp sur le pc
 
 gif2webp -lossy image.gif -o image.webp
