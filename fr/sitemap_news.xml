@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+      <url>
+        <loc>https://haade.fr/fr/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2023-11-25T12:00:00+00:00</news:publication_date>
+          <news:title>Esp32-Korvo Le micro qu'il te faut !</news:title>
+        </news:news>
+      </url>
+    </urlset>
+
+
+  

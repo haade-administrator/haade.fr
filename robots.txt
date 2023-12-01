@@ -1,0 +1,27 @@
+User-agent: * 
+Disallow: /cgi-bin/
+Disallow: /go/
+Disallow: /main/
+Disallow: /?p=/
+Disallow: /etiquette-produit/
+Disallow: /ajout-d-articles/
+Disallow: /community/
+Disallow: /features/
+Disallow: /tag/
+Disallow: /feed/
+Disallow: /hot/
+Disallow: /forum/
+Disallow: /forums/
+Disallow: /reaction/
+Disallow: /wp-content/
+Disallow: /freetronic/
+Disallow: /activite/
+Disallow: /snax_posts/
+Disallow: /snax_items/
+Disallow: /snax_format/
+Disallow: /members/
+Disallow: /fbr1969/
+Disallow: /cmtm78/
+
+Sitemap: https://haade.fr/sitemap.xml
+

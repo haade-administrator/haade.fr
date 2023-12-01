@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+>
+  <channel>
+    <title>Haade</title>
+    <description>Home Assistance Alsace domotique et électronique.</description>
+    <sy:updatePeriod>daily</sy:updatePeriod>
+    <sy:updateFrequency>1</sy:updateFrequency>
+    <link>https://haade.fr/</link>
+    <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 01 Dec 2023 15:27:12 +0000</pubDate>
+    <lastBuildDate>Sat, 25 Nov 2023 12:00:00 +0000</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Esp32-Korvo Le micro qu&apos;il te faut !</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Home-assistant a annoncé début 2023, &lt;strong&gt;l’année de la voix&lt;/strong&gt;. En embauchant Michael Hansen, pseudo &lt;strong&gt;synesthesiam&lt;/strong&gt; qui n’est autre que le créateur du software &lt;a href=&quot;https://github.com/rhasspy&quot; target=&quot;_blank&quot;&gt;Rhasspy&lt;/a&gt;, l’entreprise Nabu Casa creuse cette brèche dans le monde du contrôle par la voix qui fait tant de défaut aux assistants actuels.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 25 Nov 2023 12:00:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</guid>
+      <category>Tests</category>
+      <category>Home-Assistant</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Mise à jour Nspanel Pro V2.2.0 Zigbee</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Jusqu’à présent je ne trouvais pas de &lt;strong&gt;réels intérêts&lt;/strong&gt; concernant le NSPanel Pro qui est, &lt;strong&gt;il faut l’avouer difficilement malléable&lt;/strong&gt;, je ne parle pas là du firmware original, mais la &lt;strong&gt;possibilité de hacker&lt;/strong&gt; afin de le rendre compatible avec son assistant domotique préféré. NspanelPro comme beaucoup d’autres écran de contrôle, tourne sous android et il faut l’admettre c’est loin d’être le système d’exploitation à choisir pour faire de l’opensource domotique. De plus la puce zigbee jusqu’à présent fonctionnait en mode &lt;strong&gt;coordinateur&lt;/strong&gt;. Ce qui bridait encore plus le système. &lt;strong&gt;Mais tout ceci est sur le point de changer.&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 21 Nov 2023 01:00:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/Grosse-mise-a-jour-nspanel-pro-v-2-2-0-de-nouvelles-prespectives</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/Grosse-mise-a-jour-nspanel-pro-v-2-2-0-de-nouvelles-prespectives</guid>
+      <category>News</category>
+      <category>Zigbee</category>
+      <category>Matter</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/95/black-friday-itead-sonoff-2023.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Vendredi Noir chez itead, Sonoff et Nextion</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Ne manque pas les Blackfriday sur le site officiel du fabriquant Sonoff, je veux parler de &lt;a href=&quot;https://itead.cc/sonoff-black-friday-sale-2023/ref/122/?utm_source=itead&amp;amp;utm_medium=topbanner&amp;amp;utm_campaign=blackfriday&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Itead&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+      <pubDate>Sun, 19 Nov 2023 11:33:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/blackfriday-chez-itead-sonoff-2023</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/blackfriday-chez-itead-sonoff-2023</guid>
+      <category>News</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/94/truenas-scale-23-10-cobia.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Attendu avec impatience Truenas &apos;Cobia&apos; est là !</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;&lt;strong&gt;TrueNAS comme Openmediavault&lt;/strong&gt; fait partie du milieu très restreint des logiciels dédiés à la gestion d’un NAS. Depuis deux ans l’équipe TrueNAS a décidé de créer une version tournant sous debian, à l’instar de TrueNAS Core qui lui tourne sur FreeBSD. Ce qui fait de TrueNAS Scale la seule version concurrente de Openmediavault.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 12 Nov 2023 12:26:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/truenas-scale-cobia-23-10-enfin-sorti</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/truenas-scale-cobia-23-10-enfin-sorti</guid>
+      <category>Haade-lab</category>
+      <category>Securite</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/93/domadoo-single-day-offre-unique.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Single Day chez Domadoo</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Ne râtez pas ces &lt;strong&gt;offres ultra intéressantes&lt;/strong&gt; chez &lt;a href=&quot;https://www.domadoo.fr/fr/190-single-day-domotique?domid=39&quot; target=&quot;_blank&quot;&gt;Domadoo&lt;/a&gt; qui ne dureront que ce week-end .&lt;strong&gt;La Single Day est le nom donné à la date du 11 Novembre&lt;/strong&gt; de chaque année, et c’est une fête très importante en Chine, et qui donne lieu à des promotions hallucinantes. &lt;strong&gt;Les prix sont généralement même bien plus intéressants que lors du Black Friday&lt;/strong&gt;, c’est pour dire ! On trouve pour l’occasion de nombreux offres très alléchantes sur les boutiques asiatiques, mais également dans notre boutique française préférée: &lt;strong&gt;Domadoo&lt;/strong&gt;. Elle se joint donc à la fête pour profiter de belles, offres, avec notamment une promotion sur &lt;strong&gt;les box domotiques Jeedom.&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Sat, 11 Nov 2023 18:06:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/domadoo-offre-a-ne-pas-rater-single-day</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domadoo-offre-a-ne-pas-rater-single-day</guid>
+      <category>News</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/92/test-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test du contrôleur de Vanne Zigbee PF-PM02D-TYZ par Moes</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Aujourd’hui je vais tester &lt;strong&gt;un module bien particulié&lt;/strong&gt;, souvent associé aux problèmes d’inondations il peut être utile pour contrôler l’arrosage de plantes et du gazon à condition de trouver les vannes 1/4 de tours protégées des intempéries. Je veux parler du &lt;strong&gt;contrôleur de vannes intelligent zigbee PF-PM02D-TYZ&lt;/strong&gt; fabriqué par &lt;a href=&quot;http://www.iotperfect.com/?m=home&amp;amp;c=View&amp;amp;a=index&amp;amp;aid=84&amp;amp;lang=en&quot; target=&quot;_blank&quot;&gt;iotperfect&lt;/a&gt; et entre autre vendu en &lt;strong&gt;marque blanche par Moes&lt;/strong&gt;.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 07 Nov 2023 16:43:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-controlleur-vanne-eau-gaz-zigbee-iotperfect-moes-zv-qy-eu-en</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-controlleur-vanne-eau-gaz-zigbee-iotperfect-moes-zv-qy-eu-en</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/91/recherche-contributeurs-haade.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Haade recherche des contributeurs</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;&lt;strong&gt;Haade est un blog de pationnés de domotiques&lt;/strong&gt; et d’informatiques. Le site a pour but de &lt;strong&gt;diffuser des tutos simples et efficaces avec un minimum de publicité&lt;/strong&gt; afin de ne pas faire fuir les lecteurs.&lt;/p&gt;
+</description>
+      <pubDate>Mon, 06 Nov 2023 14:46:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</guid>
+      <category>News</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/90/controle-nspanel-blueprint-home-assistant-blackymas.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>NSPanel contrôle ta maison facilement</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Il y a peu de temps j’ai eu l’occasion de visiter une nouvelle école, celle-ci comme tu te doutes est entièrement équipée du &lt;strong&gt;protocole knx&lt;/strong&gt;. À l’entrée de chaque classe un &lt;strong&gt;écran digitale de la taille d’un NSPanel contrôle l’ensemble des équipements&lt;/strong&gt; (lumière, volet, chauffage).&lt;/p&gt;
+</description>
+      <pubDate>Fri, 03 Nov 2023 12:06:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/nspanel-controle-ta-maison-facilement-home-assistant-esphome-blackymas</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/nspanel-controle-ta-maison-facilement-home-assistant-esphome-blackymas</guid>
+      <category>Haade-lab</category>
+      <category>Tests</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/89/garantie-memoire-corsair-ddr4-a-vie-j-ai-teste.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>J&apos;ai testé la garantie à Vie Corsair</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Je voulais te faire partager un retour d’expérience concernant &lt;strong&gt;la garantie à vie proposée&lt;/strong&gt; par corsair sur la défailance d’une mémoire Corsair Vengeance LPX.
+&lt;strong&gt;Les faits:&lt;/strong&gt; En 2018 j’ai acheté sur Aliexpress un lot de deux barrettes ddr4 2x8GB 2666MHZ, elles ont été installées sur un NAS Diy monté par mes soins. Il y a peu de temps j’ai rencontré des instabilités sur le NAS, après un rapide test avec memtest86+ je me suis rendu compte qu’une des deux barrettes avait lâché. Et là je me suis dit, &lt;strong&gt;mais biensûre Corasir garantie les barrettes Vengance LPX à vie …&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 01 Nov 2023 15:40:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/memoire-corsair-ddr4-garantie-j-ai-teste</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/memoire-corsair-ddr4-garantie-j-ai-teste</guid>
+      <category>Tests</category>
+      <category>Haade-lab</category>
+    </item>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/88/jeedom-sas-termine-bienvenue-domadoo.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Jeedom Sas c&apos;est terminé</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Ces dernières semaines un certain nombre d’inquiétudes et de questionnements ont été exprimés sur le &lt;a href=&quot;https://community.jeedom.com/t/ou-va-jeedom/110870/226&quot; target=&quot;_blank&quot;&gt;forum Jeedom&lt;/a&gt; quant à l’avenir et l’orientation de la &lt;strong&gt;solution Jeedom&lt;/strong&gt; tout en pointant un manque de communication de la part de l’équipe.&lt;/p&gt;
+</description>
+      <pubDate>Sun, 29 Oct 2023 08:00:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/jeedom-c-est-termine-bienvenue-domadoo-suite-aventure</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/jeedom-c-est-termine-bienvenue-domadoo-suite-aventure</guid>
+      <category>News</category>
+      <category>Jeedom</category>
+    </item>
+  </channel>
+</rss>
