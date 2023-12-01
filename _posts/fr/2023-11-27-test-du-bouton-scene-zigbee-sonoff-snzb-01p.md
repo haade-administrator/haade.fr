@@ -57,7 +57,7 @@ Pour créer une autolatisation et utiliser l'ensemble des 3 fonctions du Sonoff 
 ## **les - du produit** {{ page.ref }}
 {: .red}
 
-- rien
+- Mode de liaison ( binding non fonctionnel ).
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2023/05/SNZB-01P.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Bouton scene intelligent SNZB-01P" brand="Sonoff" description="Bouton de scene intelligent 3 fonctions zigbee Sonoff SNZB-01P" iteadlink="sonoff-zigbee-wireless-switch-snzb-01p" domlink="peripheriques/6733-sonoff-bouton-connecte-sans-fil-zigbee-30-compatible-alexa-snzb-01p.html" affiliate="_DBdcwQL" %}
 
