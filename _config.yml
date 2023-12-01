@@ -5,7 +5,7 @@ name: "Haade"
 logo:
   path: 'logo.png'
   width: 250
-  height: 63
+  height: 94
   alt: 'Logo officiel du site domotique Haade'
   id: 'logoIImage'
 favicon: 'assets/images/favicon.png'
