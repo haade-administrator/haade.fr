@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Dec 2023 02:26:26 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Nov 2023 12:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 02 Dec 2023 17:33:27 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 16:07:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test of Sonoff SNZB-01P</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;After testing the Sonoff SNZB-02P temperature and humidity sensor a short time ago, it is now time to test the SNZB-01P intelligent scene button. &lt;strong&gt;I could have presented both at the same time&lt;/strong&gt; but I preferred to do it separately. Following on from what &lt;strong&gt;Sonoff offers, does this push button do the job for the price!&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 28 Nov 2023 16:07:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/scene-button-test-of-zigbee-sonoff-snzb-01p</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/scene-button-test-of-zigbee-sonoff-snzb-01p</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en.png</url>
@@ -175,25 +193,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/jeedom-is-over-welcome-domadoo-suite-aventure</guid>
       <category>News</category>
       <category>Jeedom</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/87/test-smoke-sensor-frient-zigbee-3-smszb-120.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Frient SMSZB-120 zigbee 3.0 smoke detector review</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Today I am going to test a very important item for home fire safety. Domadoo graciously lent me this product, the first test of the Frient brand for me.
-&lt;strong&gt;We expect this type of article to be simple and reliable&lt;/strong&gt; in order to get us out of a bad situation. So does the Frient SMSZB-120 keep its promises, I will also try to find out if it is compatible with commercial opensource boxes.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 23 Oct 2023 09:22:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-smoke-detector-zigbee-frient-SMSZB-120</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-smoke-detector-zigbee-frient-SMSZB-120</guid>
-      <category>Tests</category>
-      <category>Zigbee</category>
     </item>
   </channel>
 </rss>

@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 02 Dec 2023 02:26:26 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Nov 2023 12:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 02 Dec 2023 17:33:27 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Nov 2023 16:07:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test du Sonoff SNZB-01P</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Après avoir testé il y a peu de temps le capteur de temérature et d’humidité Sonoff SNZB-02P, il est maintenant l’heure de tester le bouton de scène intelligente SNZB-01P. &lt;strong&gt;J’aurai pu présenter les deux en même temps&lt;/strong&gt; mais j’ai préféré le faire séparément. Dans la continuité de ce que propose &lt;strong&gt;Sonoff ce bouton poussoir fait-il le job pour le prix !&lt;/strong&gt;&lt;/p&gt;
+</description>
+      <pubDate>Tue, 28 Nov 2023 16:07:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-du-bouton-scene-zigbee-sonoff-snzb-01p</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-bouton-scene-zigbee-sonoff-snzb-01p</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant.png</url>
@@ -174,24 +192,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/memoire-corsair-ddr4-garantie-j-ai-teste</guid>
       <category>Tests</category>
       <category>Haade-lab</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/88/jeedom-sas-termine-bienvenue-domadoo.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Jeedom Sas c&apos;est terminé</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Ces dernières semaines un certain nombre d’inquiétudes et de questionnements ont été exprimés sur le &lt;a href=&quot;https://community.jeedom.com/t/ou-va-jeedom/110870/226&quot; target=&quot;_blank&quot;&gt;forum Jeedom&lt;/a&gt; quant à l’avenir et l’orientation de la &lt;strong&gt;solution Jeedom&lt;/strong&gt; tout en pointant un manque de communication de la part de l’équipe.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 29 Oct 2023 08:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/jeedom-c-est-termine-bienvenue-domadoo-suite-aventure</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/jeedom-c-est-termine-bienvenue-domadoo-suite-aventure</guid>
-      <category>News</category>
-      <category>Jeedom</category>
     </item>
   </channel>
 </rss>
