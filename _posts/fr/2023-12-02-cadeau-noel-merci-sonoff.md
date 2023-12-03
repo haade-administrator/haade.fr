@@ -12,7 +12,7 @@ tags: []
 image: 'cadeau-de-noel-sonoff-merci.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -23,8 +23,14 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - 
+  - https://itead.cc/ref/122
 ---
+
+Il y a une semaine j'ai reçu un mail de la part de l'équipe Sonoff, m'annonçant un envoi d'un cadeau de leur part pour les fêtes de fin d'années. Quelques jour plus tard j'ai réceptionné un colis et quelle fut ma surprise !
+Je profite de ce post pour remercier le geste de la part de l'équipe et je te fais un retour sur ce qui m'a été envoyé.
+
+
+> De bonne humeur à l’approche des fêtes de fin d’année. En tant que partenaire précieux dans nos efforts de promotion à l’étranger, nous souhaitons exprimer notre sincère gratitude pour votre soutien indéfectible à SONOFF. **Dans l'esprit de Noël** et en guise de remerciement, nous vous avons préparé un cadeau spécial pour les fêtes. Nous espérons qu'il apportera joie et chaleur à vos célébrations. <cite>— Equipe Sonoff/Itead</cite>
 
 {% picture posts/{{ page.guid }}/valise-cadeau-noel-2023.png --alt Cadeau de Noel de la part de Itead Sonoff 2023 valise orange --img width="940" height="529" %}
 
