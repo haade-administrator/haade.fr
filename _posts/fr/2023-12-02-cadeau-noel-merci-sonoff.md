@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-12-02 14:39
 last_modified_at: 
-categories: [Domotique, Zigbee]
+categories: [News]
 tags: []
 image: 'cadeau-de-noel-sonoff-merci.png'
 toc: true
