@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Dec 2023 15:42:02 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 16:07:00 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2023 17:33:16 +0000</pubDate>
+    <lastBuildDate>Sat, 02 Dec 2023 14:39:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/99/christmas-gift-sonoff-thank-you.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Thank you Sonoff 🎅🏻</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;A week ago I received an email from the Sonoff team, announcing a shipment &lt;strong&gt;of a gift from them&lt;/strong&gt; for the end of year holidays. A few days later I received a package and &lt;strong&gt;what was my surprise!&lt;/strong&gt;
+I will take advantage of this post to thank the gesture on the part of the team and I will give you feedback on what was sent to me.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 02 Dec 2023 14:39:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/christmas-gift-thank-you-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/christmas-gift-thank-you-sonoff</guid>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p.png</url>
@@ -175,24 +193,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-lifetime-warranty-corsair-memory</guid>
       <category>Tests</category>
       <category>Haade-lab</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/88/jeedom-sas-termine-bienvenue-domadoo.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Jeedom Sas is over</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;In recent weeks a certain number of concerns and questions have been expressed about the&lt;a href=&quot;https://community.jeedom.com/t/ou-va-jeedom/110870/226&quot; target=&quot;_blank&quot;&gt;forum Jeedom&lt;/a&gt; regarding the future and direction of the &lt;strong&gt;Jeedom solution&lt;/strong&gt; while pointing out a lack of communication on the part of the team.&lt;/p&gt;
-</description>
-      <pubDate>Sun, 29 Oct 2023 08:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/jeedom-is-over-welcome-domadoo-suite-aventure</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/jeedom-is-over-welcome-domadoo-suite-aventure</guid>
-      <category>News</category>
-      <category>Jeedom</category>
     </item>
   </channel>
 </rss>

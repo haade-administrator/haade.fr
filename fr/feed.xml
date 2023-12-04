@@ -11,9 +11,27 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Dec 2023 15:42:02 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Nov 2023 16:07:00 +0000</lastBuildDate>
+    <pubDate>Mon, 04 Dec 2023 17:33:16 +0000</pubDate>
+    <lastBuildDate>Sat, 02 Dec 2023 14:39:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/99/cadeau-de-noel-sonoff-merci.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Merci Sonoff 🎅🏻</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Il y a une semaine j’ai reçu un mail de la part de l’équipe Sonoff, m’annonçant un envoi &lt;strong&gt;d’un cadeau de leur part&lt;/strong&gt; pour les fêtes de fin d’années. Quelques jour plus tard j’ai réceptionné un colis et &lt;strong&gt;quelle fut ma surprise !&lt;/strong&gt;
+Je profite de ce post pour remercier le geste de la part de l’équipe et je te fais un retour sur ce qui m’a été envoyé.&lt;/p&gt;
+</description>
+      <pubDate>Sat, 02 Dec 2023 14:39:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/cadeau-noel-merci-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/cadeau-noel-merci-sonoff</guid>
+      <category>News</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p.png</url>
@@ -173,25 +191,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/nspanel-controle-ta-maison-facilement-home-assistant-esphome-blackymas</guid>
       <category>Haade-lab</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/89/garantie-memoire-corsair-ddr4-a-vie-j-ai-teste.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>J&apos;ai testé la garantie à Vie Corsair</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Je voulais te faire partager un retour d’expérience concernant &lt;strong&gt;la garantie à vie proposée&lt;/strong&gt; par corsair sur la défailance d’une mémoire Corsair Vengeance LPX.
-&lt;strong&gt;Les faits:&lt;/strong&gt; En 2018 j’ai acheté sur Aliexpress un lot de deux barrettes ddr4 2x8GB 2666MHZ, elles ont été installées sur un NAS Diy monté par mes soins. Il y a peu de temps j’ai rencontré des instabilités sur le NAS, après un rapide test avec memtest86+ je me suis rendu compte qu’une des deux barrettes avait lâché. Et là je me suis dit, &lt;strong&gt;mais biensûre Corasir garantie les barrettes Vengance LPX à vie …&lt;/strong&gt;&lt;/p&gt;
-</description>
-      <pubDate>Wed, 01 Nov 2023 15:40:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/memoire-corsair-ddr4-garantie-j-ai-teste</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/memoire-corsair-ddr4-garantie-j-ai-teste</guid>
-      <category>Tests</category>
-      <category>Haade-lab</category>
     </item>
   </channel>
 </rss>
