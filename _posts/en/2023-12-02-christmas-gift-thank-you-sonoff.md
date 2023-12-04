@@ -64,4 +64,4 @@ But also to work on my next posts an ergonomic pad in order to best manage the r
 
 ## Conclusion
 
-As you can see, Sonoff takes good care of its affiliates by offering practical gifts in order to work in the best conditions but also with a preview of the addition of products from their latest creations **in order to introduce them to you.* *
+As you can see, Sonoff takes good care of its affiliates by offering practical gifts in order to work in the best conditions but also with a preview of the addition of products from their latest creations **in order to introduce them to you.**
