@@ -210,6 +210,8 @@ youtube:
 {% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
 local:
 {% include videoPlayer.html localId="nom.webm" %}
+external:
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
 twitch:
 {% include videoPlayer.html twitchId="" twitchDomain="" %}
 instagram:

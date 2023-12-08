@@ -22,6 +22,18 @@
         autoplay="false">
     </iframe>
 </div>
+{%- elsif include.externalId != nil %}
+<div class="embed-container lazyimg">
+    <iframe style="border-radius:15px"
+        data-src="{{ include.externalId }}"
+        width="700"
+        height="480"
+        title="{{ page.title }}"
+        frameborder="0"
+        allowfullscreen="true"
+        autoplay="false">
+    </iframe>
+</div>
 {%- elsif include.twitchId != nil %}
 <div class="embed-container lazyimg">
     <iframe
