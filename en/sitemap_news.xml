@@ -12,17 +12,6 @@
           <news:title>Thank you Sonoff 🎅🏻</news:title>
         </news:news>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/scene-button-test-of-zigbee-sonoff-snzb-01p</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2023-11-28T16:07:00+00:00</news:publication_date>
-          <news:title>Test of Sonoff SNZB-01P</news:title>
-        </news:news>
-      </url>
     </urlset>
 
 
