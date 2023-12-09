@@ -26,12 +26,49 @@ sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
 ---
 
+Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la v1.12.0 porte ses fruits. Dans un second temps nous allon Hacker la box et installer Home Assistant OS tout en faisant une sauvegarde du système initial.
+
+## Déballage
+
+### Caractéristiques technique de l'{{page.ref}}
+
+|Modèle|**Albridge**|
+|Produit|RV1109 DDR4 2 Go, **RV1126 DDR4 4 Go**|
+|Module Zigbee|SoC Silicon Labs EFR32MG21|
+|Module Wi-Fi|Module sans fil Wi-Fi 2,4 G et BLE RTL8723|
+|Méthodes de stockage|Carte USB et TF (Max. 256 Go pour la carte TF)|
+|Alimentation|5V 2A|
+|Type d'interface d'alimentation|Type-C|
+|Boitier|ABS|
+|Type d'interface réseau|RJ45|
+|Connexion sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, Zigbee 3.0|
+|Couleur|Blanc|
+|Taille|120mm X 41mm X135mm|
+
+## Soft du {{ page.ref }}
+
+Avant de commencer ce tour d'horizon, Sonoff à développé une très bonnne documentation disponible à cette adresse: [guide utilisateur](https://sonoff.tech/ihost-user-guides/){: target="_blank"}, n'hésite pas à la consulter car elle est très bien docuentée et accompagnée de vidéos explicatives.
+
+## Compatibilité Zigbee
+
+J'ai pu lire ici et là des avis négatifs sur la compatibilité matérielle de cette box. Mais depuis la sortie de zigbee2CUBE pour la box {{ page.ref }} il en est tout autre. Tu pourras trouver la [liste des modules compatibles](https://bit.ly/3pFFN8I){: target="_blank"} sur leurs sites, et elle ne cesse de s'agrandir de semaine en semaine. C'est une très bonne chose.
+
+{% include doclink.html docx="https://docs.google.com/spreadsheets/d/1VLuhpznuQzMkMwKJWO9L87Y7wX5Nw-DUdhUmIAhVgY4/edit#gid=0" title="Liste matérielle zigbee ihost pris en charge format google spreedsheet" %}
+
+Si tu souhaites participer à l'évolution des compatibilités matérielles, un [fil de discussion dédiée existe sur le forum Ewelink](https://forum.ewelink.cc/t/discussion-about-zigbee2cube-and-non-zigbee-3-0-devices-compatibility/17848/87){: target="_blank"}
+
+## Compatibilité Matter
+
+Grande nouveautée, la version 1.12.0 sortie en Novembre 2023 prend en charge les produits Matter et ajoute la fonction Pilot > Bluetooth. J'ai testé pour toi l'intégration des produits Matter et je dois te dire que pour l'instant c'est loin d'être parfait.
+
+Premièrement la fonction Matter ne fonctionne que avec les applications Google Home, Apple Home, Alexa et Smartthings.
+
+Il faudra en premier temps lier l'une des applications citées ci-dessus avec Ihost et en second temps il faudra intégrer le produit Matter dans mon cas dans google home.
+
 {% picture posts/{{ page.guid }}/test-box-sonoff-ihost.png --alt Contenu de la box ihost de Sonoff --img width="940" height="529" %}
 
 
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
-
-[guide utilisateur](https://sonoff.tech/ihost-user-guides/){: target="_blank"}
 
 [liste zigbee compatible](https://bit.ly/3pFFN8I)
 
