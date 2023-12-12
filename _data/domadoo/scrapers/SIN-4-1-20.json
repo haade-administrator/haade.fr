@@ -6,10 +6,10 @@
         "description": "Le Module Multifonction Zigbee permet de piloter une porte de garage, un portail, un radiateur, une prise, une chaudière…",
         "productNew": "",
         "minsalePrice": "39.90",
-        "maxsalePrice": "24.99",
-        "discount": "-10%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "24.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -19,8 +19,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.6",
-            "totalStarCount": "5"
+            "averageStar": "4.7",
+            "totalStarCount": "6"
         }
     }
 }

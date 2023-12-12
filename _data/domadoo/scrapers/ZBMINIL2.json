@@ -6,11 +6,11 @@
         "description": "Le micromodule commutateur sans neutre SONOFF ZBMINIL2 ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison.",
         "productNew": "",
         "minsalePrice": "14.99",
-        "maxsalePrice": "59.99",
+        "maxsalePrice": "69.99",
         "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "59.99",
-        "quantity": "Plus de 20 Produits disponibles",
+        "originalPrice": "69.99",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://www.domadoo.fr/25209-large_default/sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.jpg",
@@ -35,7 +35,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.6",
-            "totalStarCount": "22"
+            "totalStarCount": "27"
         }
     }
 }

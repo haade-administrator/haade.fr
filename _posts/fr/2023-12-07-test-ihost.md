@@ -21,28 +21,60 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 5.0 
 sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
 ---
 
 Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la v1.12.0 porte ses fruits. Dans un second temps nous allons Hacker la box et installer Home Assistant OS tout en faisant une sauvegarde du système initial.
 
+{% include product-embed.html guid="2178" %}
+
 {% picture posts/{{ page.guid }}/test-box-sonoff-ihost.png --alt Contenu de la box ihost de Sonoff --img width="940" height="529" %}
 
 ## Déballage et présentation du Sonoff {{ page.ref }}
 
+Le colis est soigné, la passerelle {{ page.ref }} est fournie avec un cable rj45, un cable usb-c, une notice et une clé pour enclancher la fonction reset. 
+> Bref pas de fioritures juste l'essentiel !
+
 {% picture posts/{{ page.guid }}/effet-lumiere-sonoff-ihost.png --alt La passerelle sonoff ihost à un rendu visuel intéressant bleu, rouge et jaune --img width="940" height="529" %}
+
+Le plastique est d'effet Glossy, l'assemblage est de bonne qualité, le rendu visuel des LED est très réussi.
 
 {% picture posts/{{ page.guid }}/face-arriere-sonoff-gateway-ihost.png --alt la face arrière du sonoff ihost présente un bouton reset, insert carte sd, port usb, port alim usbc et rj45 --img width="940" height="529" %}
 
+**Sur la face arrière tu trouveras:**
+- le bouton reset
+- un insert pour carte sd idéal pour stockage externe et indispensable pour installer des addons de l'instance docker.
+- un port USB là aussi pour le stockage externe ( dommage il n'est pas compatible UART )
+- un port d'alimentation USB-C
+- et enfin un port rj 45
+
+{% include product-embed.html guid="2179" %}
+
+
 {% picture posts/{{ page.guid }}/bouton-dessus-sonoff-passerelle-ihost.png --alt au dessus tu trouve un bouton on/off, un bouton d'appairage zigbee, un bouton pour couper le micro et un pour armer la présence et un micro --img width="940" height="529" %}
+
+Il faut savoir que les touches sont rétroéclairés en bleu
+Sur le dessus:
+- un bouton on/off
+- un bouton d'appairage Zigbee
+- un bouton mute ( afin de couper le **micro** )
+- un bouton pour armer la présence/absence.
 
 {% picture posts/{{ page.guid }}/rendu-taille-sonoff-gateway-ihost.png --alt le sonoff ihost est de taille relativement contenu --img width="940" height="529" %}
 
+La taille du Sonoff {{ page.ref }} est correcte, elle intègre pas mal de choses du coup certain qu'elle ne peut être plus petite.
+
 {% picture posts/{{ page.guid }}/acces-processeur-sonoff-passerelle-ihost.png --alt véritable processeur ihost sonoff --img width="940" height="529" %}
 
+Sonoff ne rigole pas et met en place un processeur rckchip .....
+
 {% picture posts/{{ page.guid }}/puce-zigbee-bluetooth-wifi-sonoff-passerelle-ihost.png --alt puce zigbee et wifi sonoff gateway ihost --img width="940" height="529" %}
+
+sous le capot on trouve un module:
+- zigbee Silabs efr32mg21 ( non tuya )
+- une puce RTL8723 qui distribue du wifi b/g/n
 
 ### Caractéristiques technique de l'{{page.ref}}
 
@@ -128,3 +160,23 @@ S'il n'est pas répertorié, veuillez attendre les mises à jour périodiques pe
 {% include doclink.html pdf="sonoff-ihost-specification.pdf" title="Spécifications de la box Sonoff Ihost" %}
 {% include doclink.html pdf="sonoff-ihost-manuel-utilisateur.pdf" title="Manuel complet de la box Ihost" %}
 {% include doclink.html pdf="sonoff-ihost-guide-rapide.pdf" title="guide d'utilisation rapide de la box Ihost" %}
+
+{% include product-embed.html guid="2178" %}
+
+## **les + du produit** {{ page.ref }}
+{: .blue}
+
+- la qualité de fabrication
+- certifié zigbee 3.0 puce **EFR32MG21**
+- **le prix (99€ ou 109€ environ) selon la version**
+- les nombreuses compatibilitées
+- les divers support
+
+## **les - du produit** {{ page.ref }}
+{: .red}
+
+- Absence de wifi 5Ghz
+
+{% include product-embed.html guid="2179" %}
+
+## Conclusion

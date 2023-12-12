@@ -44,5 +44,7 @@ module.exports = [
     'peripheriques/6321-sonoff-box-domotique-zigbee-30-wifi-pro', // 2174 zbbridge pro
     'peripheriques/5409-frient-detecteur-de-fumee-intelligent-zigbee-30-5713594002330', // 2175 frient CF smszb-120
     'peripheriques/6671-moes-vanne-motorisee-zigbee-tuya', // 2176 vanne motorisée Moes
-    'peripheriques/6733-sonoff-bouton-connecte-sans-fil-zigbee-30-compatible-alexa-snzb-01p' // 2177 Sonoff SNZB-01P
+    'peripheriques/6733-sonoff-bouton-connecte-sans-fil-zigbee-30-compatible-alexa-snzb-01p', // 2177 Sonoff SNZB-01P
+    'box-domotique/6714-box-domotique-ihost-local-zigbee-30-wifi-2gb-sonoff', // Sonoff ihost 2gb
+    'box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff' // Sonoff ihost 2179
 ]
