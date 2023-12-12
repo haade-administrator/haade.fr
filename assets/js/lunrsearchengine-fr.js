@@ -934,6 +934,12 @@ var documents = [{
         "title": "BOUTON CONNECTÉ SANS FIL ZIGBEE 3.0 - SNZB-01P - SONOFF",
         "description": "28/11/2023 - Contrôlez vos dispositifs domotiques avec le bouton connecté sans fil SONOFF SNZB-01P Zigbee 3.0.",
         "tags": ""
+        },{
+        "id": 172,
+        "url": "/fr/produit/Itead-Sonoff-airbridge-passerelle-ihost-rv1109-2gb",
+        "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 2GB - SONOFF",
+        "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
