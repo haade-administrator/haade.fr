@@ -26,9 +26,23 @@ sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
 ---
 
-Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la v1.12.0 porte ses fruits. Dans un second temps nous allon Hacker la box et installer Home Assistant OS tout en faisant une sauvegarde du système initial.
+Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la v1.12.0 porte ses fruits. Dans un second temps nous allons Hacker la box et installer Home Assistant OS tout en faisant une sauvegarde du système initial.
 
-## Déballage
+{% picture posts/{{ page.guid }}/test-box-sonoff-ihost.png --alt Contenu de la box ihost de Sonoff --img width="940" height="529" %}
+
+## Déballage et présentation du Sonoff {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/effet-lumiere-sonoff-ihost.png --alt La passerelle sonoff ihost à un rendu visuel intéressant bleu, rouge et jaune --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/face-arriere-sonoff-gateway-ihost.png --alt la face arrière du sonoff ihost présente un bouton reset, insert carte sd, port usb, port alim usbc et rj45 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/bouton-dessus-sonoff-passerelle-ihost.png --alt au dessus tu trouve un bouton on/off, un bouton d'appairage zigbee, un bouton pour couper le micro et un pour armer la présence et un micro --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/rendu-taille-sonoff-gateway-ihost.png --alt le sonoff ihost est de taille relativement contenu --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/acces-processeur-sonoff-passerelle-ihost.png --alt véritable processeur ihost sonoff --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/puce-zigbee-bluetooth-wifi-sonoff-passerelle-ihost.png --alt puce zigbee et wifi sonoff gateway ihost --img width="940" height="529" %}
 
 ### Caractéristiques technique de l'{{page.ref}}
 
@@ -44,6 +58,8 @@ Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{
 |Connexion sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, Zigbee 3.0|
 |Couleur|Blanc|
 |Taille|120mm X 41mm X135mm|
+
+{% picture posts/{{ page.guid }}/dimension-sonoff-ihost-en-image.png --alt dimension en image du sonoff gateway ihost --img width="940" height="529" %}
 
 ## Soft du {{ page.ref }}
 
@@ -65,27 +81,33 @@ Premièrement la fonction Matter ne fonctionne que avec les applications Google 
 
 Il faudra en premier temps lier l'une des applications citées ci-dessus avec Ihost et en second temps il faudra intégrer le produit Matter dans mon cas dans google home.
 
-{% picture posts/{{ page.guid }}/test-box-sonoff-ihost.png --alt Contenu de la box ihost de Sonoff --img width="940" height="529" %}
-
+## Automatisation (Smart Scene {{ page.ref }})
 
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
 
-[liste zigbee compatible](https://bit.ly/3pFFN8I)
-
-## ## Premier démarrage et Mise à jour
+## Premier démarrage et Mise à jour
 
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/x.mp4" %}
 
-### Connection au compte ewelink
-redémarrage
 
-## Ajout de Zigbee
+## Appairage Zigbee Sonoff {{ page.ref }}
+
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost添加子设备教学视频.mp4" %}
+
+## Installation Apli Addons {{ page.ref }}
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-Addon介绍视频.mp4" %}
+
+## Utilisation des Casts
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/cast.mp4" %}
+
+
 
 
 ## HAOS sur ihost
 
-[image HAOS pour ihost](https://github.com/darkxst/ha-operating-system/pkgs/container/haos-builder)
+[image HAOS pour ihost](https://github.com/darkxst/ha-operating-system/pkgs/container/haos-builder){: target="_blank"}
 
 ## Zigbee2cube
 

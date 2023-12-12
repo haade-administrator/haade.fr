@@ -63,11 +63,11 @@ Sous la main j'avais un qubino Z-wave et un module chinois KR2303 réputé pour 
 {% picture posts/{{ page.guid }}/zbmini-l2-extreme-end-device-encastrement.png --alt Intégration boite dérivation Sonoff Zbmini L2 Extreme  --img width="940" height="529" %}
 
 Comme je l'ai annoncé plus haut, pour le bien de l'article, je teste l'intégration dans une boite de dérivation d'une profondeur de 40mm. Il s'agit d'un interrupteur simple à deux positions, la première étape consiste à inclure le module dans son maillage zigbee après avoir branché les phases je branche le courant la led verte clignote, mon réseau Zigbee2mqtt activé en intégration, le module est reconnu avec succès. 
-Ensuite je branche suivant le schéma ci-dessous phase in sur l'interrupter et L out sur S2
+Ensuite je branche suivant le schéma ci-dessous phase in sur l'interrupteur et L out sur S2
 
 {% picture posts/{{ page.guid }}/branchement-instruction-zbmini-L2-extreme.png --alt schéma de branchement du module ZBmini L2 extreme  --img width="940" height="820" %}
 
-Comme mentionné plus haut l'épaisseur de 18,4mm ne pose pas de soucis pour mettre en place l'interrupteur, le faite que la taille soit minime ça nou laisse le loisir de positionner les cables éléctriquesau dessus du module, du coup rien ne s'interpose entre le module et l'interrupteur.
+Comme mentionné plus haut l'épaisseur de 18,4mm ne pose pas de soucis pour mettre en place l'interrupteur, le faite que la taille soit minime ça nou laisse le loisir de positionner les cables éléctriques au dessus du module, du coup rien ne s'interpose entre le module et l'interrupteur.
 
 > Je peux dire que c'est la première fois que j'arrive à intégrer un tel module sans forcer sur la prise pour la remettre en place 👌.
 
