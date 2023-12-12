@@ -936,6 +936,12 @@ var documents = [{
         "tags": ""
         },{
         "id": 172,
+        "url": "/fr/produit/sonoff-gateway-ihost-airbridge-rv1126-4gb",
+        "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 4GB - SONOFF",
+        "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
+        "tags": ""
+        },{
+        "id": 173,
         "url": "/fr/produit/Itead-Sonoff-airbridge-passerelle-ihost-rv1109-2gb",
         "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 2GB - SONOFF",
         "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
