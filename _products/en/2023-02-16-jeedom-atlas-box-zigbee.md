@@ -13,7 +13,7 @@ image: 'jeedom-controleur-domotique-jeedom-atlas-zigbee.jpg'
 imageshadow: true
 comments: false
 rating:  
-published: true
+published: false
 aep-item: 
 aep-item-affiliate: ""
 dom-item: "JEEDOM_A_ATLASZB"

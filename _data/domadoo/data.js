@@ -1,5 +1,5 @@
 module.exports = [
-    'box/6483-fibaro-controleur-domotique-z-wave-700-home-center-3-lite-5902701702519',
+    'box/5504-fibaro-controleur-domotique-z-wave-700-home-center-3-lite-5902701702519',
     'peripheriques/5375-sonoff-micromodule-commutateur-connecte-zigbee-zbmini-6920075776133',       // 212 sonoff zbmini
     'interface-domotique/6315-sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e',
     'objets-connectes/5985-sonoff-interrupteur-mural-nspanel-smart-scene-eu',                       // Sonoff nspanel
