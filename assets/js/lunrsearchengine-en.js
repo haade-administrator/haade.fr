@@ -669,192 +669,186 @@ var documents = [{
         "tags": ""
         },{
         "id": 126,
-        "url": "/en/product/jeedom-atlas-box-zigbee",
-        "title": "JEEDOM - JEEDOM ATLAS ZIGBEE HOME AUTOMATION CONTROLLER",
-        "description": "16/02/2023 - JEEDOM ATLAS is the new home automation box integrating Jeedom software. Model with Zigbee controller.",
-        "tags": ""
-        },{
-        "id": 127,
         "url": "/en/product/nodon-pro-module-rolling-shutter-zigbee",
         "title": "NODON PRO - ZIGBEE ROLLER SHUTTER MODULE ",
         "description": "16/02/2023 - The Roller Shutter PRO Zigbee Module makes the roller shutter, the awning or the motorized adjustable sunscreen connected thanks to a simple installation and without work.",
         "tags": ""
         },{
-        "id": 128,
+        "id": 127,
         "url": "/en/product/smart-plug-fibaro-fgpwe-102-zwave",
         "title": "FIBARO - WALL PLUG FGWPE-102 ZW5, FR",
         "description": "20/02/2023 - The Fibaro Wall Plug is an intelligent and extremely compact plug module, which allows you to control lighting or any other device.",
         "tags": ""
         },{
-        "id": 129,
+        "id": 128,
         "url": "/en/product/smart-plug-fibaro-fgpwf-102-zwave",
         "title": "FIBARO - WALL PLUG FGWPE-102 ZW5, SCHUCO",
         "description": "20/02/2023 - The Fibaro Wall Plug is an intelligent and extremely compact plug module, which allows you to control lighting or any other device.",
         "tags": ""
         },{
-        "id": 130,
+        "id": 129,
         "url": "/en/product/recessed-box-blm-ceiling-lamp-special-home-automation",
         "title": "BLM - RECESSING CEILING LAMP BOX FOR MICROMODULE",
         "description": "14/03/2023 - This recessed box for ceiling lamp will allow you to optimize the wiring and installation of your micromodules.",
         "tags": ""
         },{
-        "id": 131,
+        "id": 130,
         "url": "/en/product/recessed-box-blm-dual-special-home-automation",
         "title": "BLM - RECESSING BOX DUAL FOR MICROMODULE",
         "description": "14/03/2023 - This recessed dual box will allow you to optimize the wiring and installation of your micromodules.",
         "tags": ""
         },{
-        "id": 132,
+        "id": 131,
         "url": "/en/product/recessed-box-blm-special-home-automation",
         "title": "BLM - RECESSING BOX FOR MICROMODULE",
         "description": "14/03/2023 - This recessed box will allow you to optimize the wiring and installation of your micromodules.",
         "tags": ""
         },{
-        "id": 133,
+        "id": 132,
         "url": "/en/product/co2-sensor-zigbee-heiman-hs3aq",
         "title": "HEIMAN - AIR QUALITY SENSOR",
         "description": "19/03/2023 - Measure the air quality of your environment in real time and be alerted when there is an abnormally high level of CO2.",
         "tags": ""
         },{
-        "id": 134,
+        "id": 133,
         "url": "/en/product/smart-watering-controller-woox-r7060",
         "title": "WOOX - INTELLIGENT WATERING CONTROLLER ON/OFF ZIGBEE 3.0",
         "description": "29/03/2023 - Activate or deactivate your irrigation in real time and anywhere in the world with the WOOX smart irrigation controller.",
         "tags": ""
         },{
-        "id": 135,
+        "id": 134,
         "url": "/en/product/xiaomi-aqara-micromodule-without-neutral-1250w-ssm-u02",
         "title": "AQARA - MICROMODULE ON/OFF ZIGBEE 3.0 1250W SANS NEUTRE - SSM-U02",
         "description": "06/04/2023 - The Aqara SSM-U02 Single Switch Module is a Zigbee 3.0 relay used to control lamps or appliances. No neutral wire needed.",
         "tags": "product"
         },{
-        "id": 136,
+        "id": 135,
         "url": "/en/product/micromodule-xiaomi-aqara-ssm-u01-with-neutral-zigbee",
         "title": "AQARA - MICROMODULE ON/OFF ZIGBEE 3.0 2500W WITH NEUTRAL - SSM-U01",
         "description": "06/04/2023 - The Aqara SSM-U01 Single Switch Module is a Zigbee 3.0 relay used to control lamps or appliances. It has real-time power consumption monitoring.",
         "tags": ""
         },{
-        "id": 137,
+        "id": 136,
         "url": "/en/product/bulb-connecte-vintage-globe-innr-rf361-par-2-zigbee",
         "title": "INNR - E27 CONNECTED BULB - ZIGBEE 3.0 - PACK OF 2 BULBS - VINTAGE FILAMENT - 2200 K - GLOBE TYPE",
         "description": "11/04/2023 - Control your smart lighting by voice or remotely from your smartphone or computer.",
         "tags": "product"
         },{
-        "id": 138,
+        "id": 137,
         "url": "/en/product/temperature-sensor-owon-ths317-and-zigbee-remote-probe",
         "title": "OWON - REMOTE TEMPERATURE PROBE ON ZIGBEE CABLE",
         "description": "01/05/2023 - The THS-317-ET module makes it possible to accurately measure the temperature of a space, a material or a liquid.",
         "tags": ""
         },{
-        "id": 139,
+        "id": 138,
         "url": "/en/product/aqara-cube-t1-pro-zigbee-ctpr01",
         "title": "AQARA - AQARA CUBE T1 PRO ZIGBEE 3.0 SMART CONTROLLER",
         "description": "14/05/2023 - The Cube T1 Pro has incorporated all the benefits of the iconic Cube Controller while being even easier to use. No more memorizing all 7 actions: now you can use each side to control different scenes or devices.",
         "tags": ""
         },{
-        "id": 140,
+        "id": 139,
         "url": "/en/product/remote-control-4-functions-loratap-zigbee",
         "title": "LORATAP - ZIGBEE 3.0 WIRELESS STAGE WALL SWITCH - 4 BUTTONS",
         "description": "16/05/2023 - Create different automations and take control of them with the LORATAP 4-button Zigbee remote control.",
         "tags": ""
         },{
-        "id": 141,
+        "id": 140,
         "url": "/en/product/motorization-curtain-zigbee-aqara-rod-version",
         "title": "AQARA - MOTORIZATION FOR CURTAIN ZIGBEE 3.0 AQARA CURTAIN DRIVER E1 (ROD VERSION)",
         "description": "16/05/2023 - Aqara Curtain Driver E1 curtain motor is a Zigbee 3.0 smart product which can help you control your curtain and turn your existing curtain into a smart curtain.",
         "tags": ""
         },{
-        "id": 142,
+        "id": 141,
         "url": "/en/product/aqara-motorisation-curtain-zigbee-curtain-driver-e1-track-version",
         "title": "AQARA - MOTORIZATION FOR CURTAIN ZIGBEE 3.0 AQARA CURTAIN DRIVER E1 (TRACK VERSION)",
         "description": "30/05/2023 - Aqara Curtain Driver E1 curtain motor is a Zigbee 3.0 smart product which can help you control your curtain and turn your existing curtain into a smart curtain. Model for track only.",
         "tags": ""
         },{
-        "id": 143,
+        "id": 142,
         "url": "/en/product/sonoff-nspanel-pro-black",
         "title": "SONOFF - BLACK ZIGBEE 3.0 NSPANEL PRO WALL SWITCH",
         "description": "03/06/2023 - Control your connected home using NSPANEL PRO from SONOFF, a Zigbee 3.0 smart wall switch.",
         "tags": ""
         },{
-        "id": 144,
+        "id": 143,
         "url": "/en/product/sonoff-zbminil2-micro-module-smart-switch",
         "title": "SONOFF - INTELLIGENT SWITCH WITHOUT NEUTRAL ZIGBEE 3.0 ZBMINIL2",
         "description": "08/06/2023 - The SONOFF ZBMINIL2 ZIGBEE switch without neutral micromodule offers the possibility of controlling a device/lighting in your home.",
         "tags": ""
         },{
-        "id": 145,
+        "id": 144,
         "url": "/en/product/neo-matter-smart-power-plug-en-NAS-WR15W6",
         "title": "NEO - WIFI MATTER 16A SMART SOCKET (ENGLISH VERSION)",
         "description": "26/06/2023 - Control your electrical device remotely, anywhere in the world from your Smartphone with the WIFI MATTER 16A NEO smart socket.",
         "tags": ""
         },{
-        "id": 146,
+        "id": 145,
         "url": "/en/product/neo-matter-smart-power-plug-schuko-NAS-WR15W6",
         "title": "NEO - WIFI MATTER 16A SMART SOCKET (SCHUKO VERSION)",
         "description": "26/06/2023 - Control your electrical device remotely, anywhere in the world from your Smartphone with the WIFI MATTER 16A NEO smart socket.",
         "tags": ""
         },{
-        "id": 147,
+        "id": 146,
         "url": "/en/product/sonoff-20a-smart-power-meter-switch-with-pow-elite-display",
         "title": "SONOFF - 20A SMART POWER METER SWITCH WITH POW ELITE DISPLAY",
         "description": "05/07/2023 - Measure and monitor the consumption of an electrical device in real time and activate or deactivate it remotely.",
         "tags": ""
         },{
-        "id": 148,
+        "id": 147,
         "url": "/en/product/sonoff-consomm%C3%A8tre-intelligent-wifi-powr316d",
         "title": "SONOFF - 16A SMART POWER METER SWITCH WITH POW ELITE DISPLAY",
         "description": "05/07/2023 - Measure and monitor the consumption of an electrical device in real time and activate or deactivate it remotely.",
         "tags": ""
         },{
-        "id": 149,
+        "id": 148,
         "url": "/en/product/aqara-air-quality-monitor-zigbee-30-temperature-humidity-covt-aaqs-s01",
         "title": "AQARA - ZIGBEE 3.0 AIR QUALITY MONITOR (TEMPERATURE, HUMIDITY, TVOC) - AAQS-S01",
         "description": "06/07/2023 - The Aqara AAQS-S01 Air Quality Monitor can detect the concentration and level of TVOC in the air, as well as temperature and humidity.",
         "tags": ""
         },{
-        "id": 150,
+        "id": 149,
         "url": "/en/product/zigbee-key-zvidar-Z-DG-Z01-efr32mg21",
         "title": "ZVIDAR - HUB USB ZIGBEE 3.0 (CHIPSET EFR32MG21)",
         "description": "21/07/2023 - Zigbee 3.0 USB dongle compatible with Jeedom and Home Assistant.",
         "tags": ""
         },{
-        "id": 151,
+        "id": 150,
         "url": "/en/product/temperature-humidity-sensor-sonoff-snzb-02d-zigbee",
         "title": "SONOFF - ZIGBEE 3.0 TEMPERATURE AND HUMIDITY SENSOR WITH DISPLAY",
         "description": "07/08/2023 - SONOFF SNZB-02D temperature and humidity sensor informs you about temperature and humidity.",
         "tags": ""
         },{
-        "id": 152,
+        "id": 151,
         "url": "/en/product/sensor-temperature-humidity-sonoff-snzb-02p",
         "title": "SONOFF - ZIGBEE 3.0 TEMPERATURE AND HUMIDITY SENSOR WITH BRACKET - SNZB-02P",
         "description": "04/09/2023 - The SONOFF SNZB-02P temperature and humidity sensor informs you of the temperature and humidity.",
         "tags": ""
         },{
-        "id": 153,
+        "id": 152,
         "url": "/en/product/sonoff-matter-minir4m",
         "title": "SONOFF - ON/OFF CONNECTED MODULE MATTER 10A MINIR4M",
         "description": "03/10/2023 - Control your lighting or an electrical device from Alexa, Google Home, Apple Home and more thanks to the Sonoff Matter ON/OFF connected module.",
         "tags": ""
         },{
-        "id": 154,
+        "id": 153,
         "url": "/en/product/sonoff-zbbridge-pro-zigbee-bluetooth-wifi",
         "title": "SONOFF - ZIGBEE 3.0 HOME AUTOMATION BOX / WIFI PRO",
         "description": "18/10/2023 - The ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF home automation box allows you to control your connected home remotely and create scenes.",
         "tags": ""
         },{
-        "id": 155,
+        "id": 154,
         "url": "/en/product/fire-detector-frient-smszb-120",
         "title": "FRIENT - ZIGBEE 3.0 INTELLIGENT SMOKE DETECTOR (DIN EN 14604 AND DIN 14676) + SIREN FUNCTION",
         "description": "25/10/2023 - The FRIENT intelligent smoke detector can alert you remotely and in real time in the event of a fire in your home.",
         "tags": ""
         },{
-        "id": 156,
+        "id": 155,
         "url": "/en/product/motorized-gas-water-valve-zigbee-tuya",
         "title": "MOTORIZED ZIGBEE TUYA VALVE - MOES",
         "description": "08/11/2023 - Control your valve anywhere in the world with the MOES Zigbee motorized valve.",
         "tags": ""
         },{
-        "id": 157,
+        "id": 156,
         "url": "/en/product/bouton-scene-intelligent-sonoff-snzb-01p",
         "title": "ZIGBEE 3.0 WIRELESS CONNECTED BUTTON - SNZB-01P - SONOFF",
         "description": "28/11/2023 - Control your home automation devices with the SONOFF SNZB-01P Zigbee 3.0 wireless connected button.",

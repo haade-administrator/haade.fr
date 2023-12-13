@@ -744,204 +744,198 @@ var documents = [{
         "tags": ""
         },{
         "id": 140,
-        "url": "/fr/produit/jeedom-atlas-box-zigbee",
-        "title": "JEEDOM - CONTRÔLEUR DOMOTIQUE JEEDOM ATLAS ZIGBEE",
-        "description": "16/02/2023 - JEEDOM ATLAS est la nouvelle box domotique intégrant le logiciel Jeedom. Modèle avec contrôleur Zigbee.",
-        "tags": ""
-        },{
-        "id": 141,
         "url": "/fr/produit/nodon-pro-module-volet-roulant-zigbee",
         "title": "NODON PRO - MODULE VOLET ROULANT ZIGBEE ",
         "description": "16/02/2023 - Le Module Volet Roulant PRO Zigbee rend le volet roulant, le store banne ou le brise-soleil orientable motorisé connecté grâce à une installation simple et sans travaux.",
         "tags": ""
         },{
-        "id": 142,
+        "id": 141,
         "url": "/fr/produit/prise-intelligente-fibaro-fgpwe-102-zwave",
         "title": "FIBARO - WALL PLUG FGWPE-102 ZW5, FR",
         "description": "20/02/2023 - Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "tags": ""
         },{
-        "id": 143,
+        "id": 142,
         "url": "/fr/produit/prise-intelligente-fibaro-fgpwf-102-zwave",
         "title": "FIBARO - WALL PLUG FGWPE-102 ZW5, SCHUCO",
         "description": "20/02/2023 - Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "tags": ""
         },{
-        "id": 144,
+        "id": 143,
         "url": "/fr/produit/boitier-encastrement-blm-double-special-domotique",
         "title": "BLM - BOITIER D'ENCASTREMENT DOUBLE POUR MICROMODULE",
         "description": "14/03/2023 - Ce boîtier d'encastrement double vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
         "tags": ""
         },{
-        "id": 145,
+        "id": 144,
         "url": "/fr/produit/boitier-encastrement-blm-plafonnier-special-domotique",
         "title": "BLM - BOITIER D'ENCASTREMENT PLAFONNIER POUR MICROMODULE",
         "description": "14/03/2023 - Ce boîtier d'encastrement pour plafonnier vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
         "tags": ""
         },{
-        "id": 146,
+        "id": 145,
         "url": "/fr/produit/boitier-encastrement-blm-special-domotique",
         "title": "BLM - BOITIER D'ENCASTREMENT POUR MICROMODULE",
         "description": "14/03/2023 - Ce boîtier d'encastrement double vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
         "tags": ""
         },{
-        "id": 147,
+        "id": 146,
         "url": "/fr/produit/capteur-co2-zigbee-heiman-hs3aq",
         "title": "HEIMAN - CAPTEUR DE QUALITÉ D'AIR",
         "description": "19/03/2023 - Mesurez en temps réel la qualité de l'air de votre environnement et soyez alerté lors d'un niveau anormalement élevé de CO2.",
         "tags": ""
         },{
-        "id": 148,
+        "id": 147,
         "url": "/fr/produit/controleur-arrosage-intelligent-woox-r7060",
         "title": "WOOX - CONTRÔLEUR D'ARROSAGE INTELLIGENT ON/OFF ZIGBEE 3.0",
         "description": "29/03/2023 - Activez ou désactivez votre arrosage en temps réel et n'importe où dans le monde avec le contrôleur d'arrosage intelligent WOOX.",
         "tags": ""
         },{
-        "id": 149,
+        "id": 148,
         "url": "/fr/produit/xiaomi-aqara-micromodule-sans-neutre-1250w-ssm-u02",
         "title": "AQARA - MICROMODULE ON/OFF ZIGBEE 3.0 1250W SANS NEUTRE - SSM-U02",
         "description": "06/04/2023 - Le Single Switch Module Aqara SSM-U02 est un relais Zigbee 3.0 utilisé pour contrôler des lampes ou des appareils. Pas besoin du fil de neutre.",
         "tags": "product"
         },{
-        "id": 150,
+        "id": 149,
         "url": "/fr/produit/micromodule-xiaomi-aqara-ssm-u01-avec-neutre-zigbee",
         "title": "AQARA - MICROMODULE ON/OFF ZIGBEE 3.0 2500W AVEC NEUTRE - SSM-U01",
         "description": "06/04/2023 - Le Single Switch Module Aqara SSM-U01 est un relais Zigbee 3.0 utilisé pour contrôler des lampes ou des appareils. Il dispose d'un suivi de la consommation électrique en temps réel.",
         "tags": ""
         },{
-        "id": 151,
+        "id": 150,
         "url": "/fr/produit/ampoule-connecte-vintage-globe-innr-rf361-par-2-zigbee",
         "title": "INNR - AMPOULE CONNECTÉE TYPE E27 - ZIGBEE 3.0 - PACK DE 2 AMPOULES - VINTAGE FILAMENT - 2200 K - TYPE GLOBE",
         "description": "11/04/2023 - Contrôlez votre éclairage intelligent par la voix ou à distance depuis votre smartphone ou ordinateur.",
         "tags": ""
         },{
-        "id": 152,
+        "id": 151,
         "url": "/fr/produit/capteur-temperature-owon-ths317-et-zigbee-sonde-deporte",
         "title": "OWON - SONDE DE TEMPÉRATURE DÉPORTÉE SUR CÂBLE ZIGBEE",
         "description": "01/05/2023 - Le module THS-317-ET permet de mesurer avec précision la température, d’un espace, d’une matière ou d’un liquide.",
         "tags": ""
         },{
-        "id": 153,
+        "id": 152,
         "url": "/fr/produit/aqara-cube-t1-pro-zigbee-ctpr01",
         "title": "AQARA - CONTRÔLEUR INTELLIGENT ZIGBEE 3.0 AQARA CUBE T1 PRO",
         "description": "14/05/2023 - Le Cube T1 Pro a intégré tous les avantages de l'emblématique Cube Controller tout en étant encore plus simple à utiliser. Plus besoin de mémoriser les 7 actions : vous pouvez désormais utiliser chaque côté pour contrôler différentes scènes ou appareils.",
         "tags": ""
         },{
-        "id": 154,
+        "id": 153,
         "url": "/fr/produit/telecommande-4-fonctions-loratap-zigbee",
         "title": "LORATAP - INTERRUPTEUR MURAL DE SCÈNE SANS FIL ZIGBEE 3.0 - 4 BOUTONS",
         "description": "16/05/2023 - Créez différents automatismes et prenez le contrôle de ceux-ci avec la télécommande Zigbee 4 boutons LORATAP.",
         "tags": ""
         },{
-        "id": 155,
+        "id": 154,
         "url": "/fr/produit/motorisation-rideau-zigbee-aqara-version-tringle",
         "title": "AQARA - MOTORISATION POUR RIDEAU ZIGBEE 3.0 AQARA CURTAIN DRIVER E1 (VERSION TRINGLE)",
         "description": "16/05/2023 - La motorisation pour rideau Aqara Curtain Driver E1 est un produit intelligent Zigbee 3.0 qui peut vous aider à contrôler votre rideau et à transformer votre rideau existant en un rideau intelligent.",
         "tags": ""
         },{
-        "id": 156,
+        "id": 155,
         "url": "/fr/produit/aqara-motorisation-rideau-zigbee-curtain-driver-e1-version-rail",
         "title": "AQARA - MOTORISATION POUR RIDEAU ZIGBEE 3.0 AQARA CURTAIN DRIVER E1 (VERSION RAIL)",
         "description": "30/05/2023 - La motorisation pour rideau Aqara Curtain Driver E1 est un produit intelligent Zigbee 3.0 qui peut vous aider à contrôler votre rideau et à transformer votre rideau existant en un rideau intelligent. Modèle pour rail uniquement.",
         "tags": ""
         },{
-        "id": 157,
+        "id": 156,
         "url": "/fr/produit/sonoff-nspanel-pro-noir",
         "title": "SONOFF - INTERRUPTEUR MURAL NOIR ZIGBEE 3.0 NSPANEL PRO",
         "description": "03/06/2023 - Contrôlez votre logement connecté à l'aide de NSPANEL PRO de SONOFF, un interrupteur mural intelligent Zigbee 3.0.",
         "tags": ""
         },{
-        "id": 158,
+        "id": 157,
         "url": "/fr/produit/sonoff-zbminil2-micro-module-commutateur-intelligent",
         "title": "SONOFF - COMMUTATEUR INTELLIGENT SANS NEUTRE ZIGBEE 3.0 ZBMINIL2",
         "description": "08/06/2023 - Le micromodule commutateur sans neutre SONOFF ZBMINIL2 ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison.",
         "tags": ""
         },{
-        "id": 159,
+        "id": 158,
         "url": "/fr/produit/neo-matter-smart-power-plug-fr-NAS-WR15W6",
         "title": "NEO - PRISE INTELLIGENTE WIFI MATTER 16A (VERSION FRANÇAISE)",
         "description": "26/06/2023 - Contrôlez votre dispositif électrique à distance, n'importe où dans le monde depuis votre Smartphone avec la prise intelligente WIFI MATTER 16A NEO.",
         "tags": ""
         },{
-        "id": 160,
+        "id": 159,
         "url": "/fr/produit/neo-matter-smart-power-plug-schuko-NAS-WR15W6",
         "title": "NEO - PRISE INTELLIGENTE WIFI MATTER 16A (VERSION SCHUKO)",
         "description": "26/06/2023 - Contrôlez votre dispositif électrique à distance, n'importe où dans le monde depuis votre Smartphone avec la prise intelligente WIFI MATTER 16A NEO.",
         "tags": ""
         },{
-        "id": 161,
+        "id": 160,
         "url": "/fr/produit/sonoff-commutateur-de-compteur-de-puissance-intelligent-16a-avec-ecran-pow-elite-powr316d",
         "title": "SONOFF - COMMUTATEUR DE COMPTEUR DE PUISSANCE INTELLIGENT 16A AVEC ÉCRAN POW ELITE",
         "description": "05/07/2023 - Mesurez et surveillez la consommation d'un dispositif électrique en temps réel et activez ou désactivez celui-ci à distance.",
         "tags": ""
         },{
-        "id": 162,
+        "id": 161,
         "url": "/fr/produit/sonoff-commutateur-de-compteur-de-puissance-intelligent-20a-avec-ecran-pow-elite",
         "title": "SONOFF - COMMUTATEUR DE COMPTEUR DE PUISSANCE INTELLIGENT 20A AVEC ÉCRAN POW ELITE",
         "description": "05/07/2023 - Mesurez et surveillez la consommation d'un dispositif électrique en temps réel et activez ou désactivez celui-ci à distance.",
         "tags": ""
         },{
-        "id": 163,
+        "id": 162,
         "url": "/fr/produit/aqara-moniteur-de-qualite-d-air-zigbee-30-temperature-humidite-covt-aaqs-s01",
         "title": "AQARA - MONITEUR DE QUALITÉ D'AIR ZIGBEE 3.0 (TEMPÉRATURE, HUMIDITÉ, COVT) - AAQS-S01",
         "description": "06/07/2023 - Le moniteur de qualité d'air Aqara AAQS-S01 peut détecter la concentration et le niveau de COVT dans l'air, ainsi que la température et l'humidité.",
         "tags": ""
         },{
-        "id": 164,
+        "id": 163,
         "url": "/fr/produit/cle-zigbee-zvidar-Z-DG-Z01-efr32mg21",
         "title": "ZVIDAR - CONTRÔLEUR USB ZIGBEE 3.0 (CHIPSET EFR32MG21)",
         "description": "21/07/2023 - Dongle USB Zigbee 3.0 compatible Jeedom et Home Assistant.",
         "tags": ""
         },{
-        "id": 165,
+        "id": 164,
         "url": "/fr/produit/capteur-temperature-humidite-sonoff-snzb-02d-zigbee",
         "title": "SONOFF - CAPTEUR DE TEMPÉRATURE ET D'HUMIDITÉ ZIGBEE 3.0 AVEC ÉCRAN",
         "description": "07/08/2023 - Le capteur de température et d'humidité SONOFF SNZB-02D vous informe de la température et l'humidité.",
         "tags": ""
         },{
-        "id": 166,
+        "id": 165,
         "url": "/fr/produit/capteur-temperature-humidite-sonoff-snzb-02p",
         "title": "SONOFF - CAPTEUR DE TEMPÉRATURE ET D'HUMIDITÉ ZIGBEE 3.0 AVEC SUPPORT - SNZB-02P",
         "description": "04/09/2023 - Le capteur de température et d'humidité SONOFF SNZB-02P vous informe de la température et l'humidité.",
         "tags": ""
         },{
-        "id": 167,
+        "id": 166,
         "url": "/fr/produit/sonoff-matter-minir4m",
         "title": "SONOFF - MODULE CONNECTÉ ON/OFF MATTER 10A MINIR4M",
         "description": "03/10/2023 - Contrôlez votre éclairage ou un dispositif électrique depuis Alexa, Google Home, Apple Home et plus grâce au module connecté ON/OFF Matter Sonoff.",
         "tags": ""
         },{
-        "id": 168,
+        "id": 167,
         "url": "/fr/produit/sonoff-zbbridge-pro-zigbee-bluetooth-wifi",
         "title": "SONOFF - BOX DOMOTIQUE ZIGBEE 3.0 / WIFI PRO",
         "description": "18/10/2023 - La box domotique ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF permet d'avoir le contrôle de sa maison connectée à distance et de créer des scènes.",
         "tags": ""
         },{
-        "id": 169,
+        "id": 168,
         "url": "/fr/produit/detecteur-incendie-frient-smszb-120",
         "title": "FRIENT - DÉTECTEUR DE FUMÉE INTELLIGENT ZIGBEE 3.0 (DIN EN 14604 ET DIN 14676) + FONCTION SIRÈNE",
         "description": "25/10/2023 - Le détecteur de fumée intelligent FRIENT permet de vous alerter à distance et en temps réel en cas de début d'incendie dans votre logement.",
         "tags": ""
         },{
-        "id": 170,
+        "id": 169,
         "url": "/fr/produit/vanne-motorisee-gaz-eau-zigbee-tuya",
         "title": "VANNE MOTORISÉE ZIGBEE TUYA - MOES",
         "description": "08/11/2023 - Contrôlez votre vanne partout dans le monde avec la vanne motorisée Zigbee MOES.",
         "tags": ""
         },{
-        "id": 171,
+        "id": 170,
         "url": "/fr/produit/bouton-scene-intelligent-sonoff-snzb-01p",
         "title": "BOUTON CONNECTÉ SANS FIL ZIGBEE 3.0 - SNZB-01P - SONOFF",
         "description": "28/11/2023 - Contrôlez vos dispositifs domotiques avec le bouton connecté sans fil SONOFF SNZB-01P Zigbee 3.0.",
         "tags": ""
         },{
-        "id": 172,
+        "id": 171,
         "url": "/fr/produit/sonoff-gateway-ihost-airbridge-rv1126-4gb",
         "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 4GB - SONOFF",
         "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
         "tags": ""
         },{
-        "id": 173,
+        "id": 172,
         "url": "/fr/produit/Itead-Sonoff-airbridge-passerelle-ihost-rv1109-2gb",
         "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 2GB - SONOFF",
         "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
