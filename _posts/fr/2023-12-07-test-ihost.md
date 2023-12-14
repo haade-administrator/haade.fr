@@ -26,7 +26,7 @@ sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
 ---
 
-Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la v1.12.0 porte ses fruits. Dans un second temps nous allons Hacker la box et installer Home Assistant OS tout en faisant une sauvegarde du système initial.
+Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la **v1.12.0 porte ses fruits.** Dans un second temps nous allons Hacker la box et installer Home Assistant OS sur SDCARD sans toucher au firmware d'origine mais en réalisant une petite manip sur le matériel.
 
 {% include product-embed.html guid="2178" %}
 
@@ -97,51 +97,51 @@ sous le capot on trouve un module:
 
 Avant de commencer ce tour d'horizon, Sonoff à développé une très bonnne documentation disponible à cette adresse: [guide utilisateur](https://sonoff.tech/ihost-user-guides/){: target="_blank"}, n'hésite pas à la consulter car elle est très bien docuentée et accompagnée de vidéos explicatives.
 
-## Compatibilité Zigbee
+## Premier démarrage et Mise à jour
 
-J'ai pu lire ici et là des avis négatifs sur la compatibilité matérielle de cette box. Mais depuis la sortie de zigbee2CUBE pour la box {{ page.ref }} il en est tout autre. Tu pourras trouver la [liste des modules compatibles](https://bit.ly/3pFFN8I){: target="_blank"} sur leurs sites, et elle ne cesse de s'agrandir de semaine en semaine. C'est une très bonne chose.
+Pour commencer si tu lis la documentation officielle, Sonoff t'indique de brancher en usb et rj45, d'attendre l'affichage bleu et ensuite de te connecter à l'adresse [ihost.local](htt://ihost.local){: target="_blank"}, ben chez moi ça n'a jamais fonctionné je me suis démerdé en allant sur le routeur et cherché manuellement l'adresse ip, n'hésite pas à paramétrer en adresse ip fixe sinon tu risque comme moi de voir celle-ci changer régulièrement. Ensuite connecte toi à l'invite:
+
+{% picture posts/{{ page.guid }}/page-connection-passerelle-sonoff-ihost.png --alt page de connection du sonoff gateway ihost --img width="940" height="611" %}
+
+Pour commencer après le premier démarrage il faudra te connecter à l'application ewelink afin de pouvoir bénéficier des mises à jours. Ma version initiale était en v1.5 alors que nous sommes déjà à la version 1.12.0.
+
+**Ewelink annonce un fonctionnement en local** mais il se trouve que la mise à jour du firmware en OTA ne fonctionne que par l'application Ewelink officielle, qui utilise le cloud. Bref pour faire simple Ewelink connait l'état de fonctionnement de la gateway {{ page.ref }} mais pas ce qui s'y passe à l'intérieur, en espérant que ce soit le cas.
+
+Pour celà il te suffit de regarder la vidéo oficielle:
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/x.mp4" %}
+
+Après le redémarrage rendez-vous dans la page setting et tu verras un bouton apparaitre pour la première mise à jour.
+
+{% picture posts/{{ page.guid }}/page-parametrage-gateway-sonoff-ihost.png --alt paramétrage de la première mise à jour du sonoff gateway ihost --img width="940" height="603" %}
+
+## Appairage Zigbee Sonoff {{ page.ref }}
+
+Sur la homepage tu pourras utiliser le réseau zigbee ainsi que des boutons d'appairages, je te laisse regarder le fonctionnement en vidéo
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost添加子设备教学视频.mp4" %}
+
+### Compatibilité Zigbee
+
+J'ai pu lire ici et là des avis négatifs sur la compatibilité matérielle de cette box. Mais depuis la sortie de **zigbee2CUBE** pour la box {{ page.ref }} il en est tout autre. Tu pourras trouver la [liste des modules compatibles](https://bit.ly/3pFFN8I){: target="_blank"} sur leurs sites, et elle ne cesse de s'agrandir de semaine en semaine. C'est une très bonne chose.
+
+Pour avoir accès à une multitude de modules zigbee reconnus il te faudra activer zigbee2CUBE pour celà rendez-vous dans **Pilot > Zigbee2CUBE**
+
+{% picture posts/{{ page.guid }}/page-activation-zigbee2CUBE-sonoff-ihost.png --alt activation du pilote zigbee2CUBE du sonoff gateway ihost --img width="940" height="411" %}
+
+À partir de maintenant je te conseil d'appairer tes modules et tu te rendras **compte d'une très bonne compatibilité ainsi qu'une fluidité exceptionnelle à l'appairage. Franchement rien à redire.**
+
+> J'ai installé toutes sortes de modules et aucun n'a été laissé pour compte.
+
+Je pense qu'à terme ce sera la base la plus importante après Zigbee2mqtt
 
 {% include doclink.html docx="https://docs.google.com/spreadsheets/d/1VLuhpznuQzMkMwKJWO9L87Y7wX5Nw-DUdhUmIAhVgY4/edit#gid=0" title="Liste matérielle zigbee ihost pris en charge format google spreedsheet" %}
 
 Si tu souhaites participer à l'évolution des compatibilités matérielles, un [fil de discussion dédiée existe sur le forum Ewelink](https://forum.ewelink.cc/t/discussion-about-zigbee2cube-and-non-zigbee-3-0-devices-compatibility/17848/87){: target="_blank"}
 
-## Compatibilité Matter
+### Zigbee2cube
 
-Grande nouveautée, la version 1.12.0 sortie en Novembre 2023 prend en charge les produits Matter et ajoute la fonction Pilot > Bluetooth. J'ai testé pour toi l'intégration des produits Matter et je dois te dire que pour l'instant c'est loin d'être parfait.
-
-Premièrement la fonction Matter ne fonctionne que avec les applications Google Home, Apple Home, Alexa et Smartthings.
-
-Il faudra en premier temps lier l'une des applications citées ci-dessus avec Ihost et en second temps il faudra intégrer le produit Matter dans mon cas dans google home.
-
-## Automatisation (Smart Scene {{ page.ref }})
-
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
-
-## Premier démarrage et Mise à jour
-
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/x.mp4" %}
-
-
-## Appairage Zigbee Sonoff {{ page.ref }}
-
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost添加子设备教学视频.mp4" %}
-
-## Installation Apli Addons {{ page.ref }}
-
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-Addon介绍视频.mp4" %}
-
-## Utilisation des Casts
-
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/cast.mp4" %}
-
-
-
-
-## HAOS sur ihost
-
-[image HAOS pour ihost](https://github.com/darkxst/ha-operating-system/pkgs/container/haos-builder){: target="_blank"}
-
-## Zigbee2cube
+**Message du contructeur:**
 
 Comme vous le savez peut-être, le problème de compatibilité avec les appareils ZigBee est un projet complexe et chronophage. Nous ne pouvons pas garantir la compatibilité avec tous les appareils ZigBee disponibles sur le marché, mais nous ferons continuellement de notre mieux pour améliorer la compatibilité d'iHost avec les appareils ZigBee, en particulier les appareils au protocole standard NON-ZigBee 3.0, n'hésitez pas à rejoindre la discussion ici.
 
@@ -154,6 +154,128 @@ En bref, les appareils ZigBee, en particulier les appareils NON-ZigBee 3.0, pour
 Nous avons trié une liste d'appareils (vérifiez ci-dessous) qui devraient théoriquement être pris en charge par iHost Zigbee2CUBE, mais nous ne pouvons pas tous les tester. Si votre appareil ZigBee n'apparaît pas comme prévu dans iHost, assurez-vous de Vérifiez d'abord s'il est inclus dans la liste prise en charge fournie ci-dessous.
 
 S'il n'est pas répertorié, veuillez attendre les mises à jour périodiques pendant que nous continuons à élargir la liste des appareils pris en charge.
+
+## Automatisation (Smart Scene {{ page.ref }})
+
+La passerelle {{ page.ref }} propose un onglet Smart scene, il s'agit rien de plus qu'un onglet automatisation.
+
+{% picture posts/{{ page.guid }}/page-parametrage-scene-automatisation-passerelle-sonoff-ihost.png --alt paramétrage des smart scenes automatisations du sonoff gateway ihost --img width="940" height="578" %}
+
+Alors à ce stade la version 1.12.0 n'ajoute pas de nouveautées dans ce domaine et c'est dommage car on est loin de ce que peut proposer Home Assistant ou Jeedom et c'est dommage. **Il ne propose que les conditions de déclenchements et les actions c'est trop léger pour faire de l'automatisation.**
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
+
+### Les Modes dans {{ page.ref }} Smart security
+
+Par défaut la gateway sonoff {{ page.ref }} propose 3 modes de fonctionnement, la fonction Home, absence et Sommeil. L'activation d'un des modes est du plus bel effet visuel et sonore, franchement c'est très sympa. **Il te permet de déclencher l'alarme sonore de la box et visuel par clignotement.** *Point faible sur cette version tu ne pourras créer d'autre modes.*
+
+{% picture posts/{{ page.guid }}/page-mode-home-away-sonoff-ihost-gateway.png --alt les modes Home/absence/sommeil du sonoff gateway ihost --img width="940" height="470" %}
+
+## Utilisation des Casts
+
+Les casts sont tout simplement des tableaux de bords à personnaliser, et franchement c'est très bien fait à tel point que je pense que home assistant devrait s'en inspirer, en trois coup de clics tu crée une interface que tu peux partager à un membre de ta famille.
+
+> Ajouter un cast n'a jamais été aussi simple
+
+{% picture posts/{{ page.guid }}/page-cast-sonoff-ihost.png --alt page paramétrage des casts du sonoff gateway ihost --img width="864" height="939" %}
+
+une fois sur le cast créé il te suffit de:
+- sélectionner les modules concernés
+- sélectionner les scènes
+- paramétrer l'interface graphique
+- et choisir les paramètres de configurations comme un mot de passe par exemple.
+
+{% picture posts/{{ page.guid }}/page-parametrage-cast-sonoff-ihost.png --alt page paramétrage des casts options du sonoff gateway ihost --img width="940" height="535" %}
+
+Voilà un rendu créé en 2 minutes disponible sur le dashboard d'un pc.
+
+{% picture posts/{{ page.guid }}/rendu-cast-sonoff-ihost.png --alt rendu des casts du sonoff gateway ihost --img width="940" height="535" %}
+
+**Vidéo de présentation des casts.**
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/cast.mp4" %}
+
+## Docker dans {{ page.ref }}
+
+L'intégration de Docker est un point très important, car tu pourras paramétrer des containers tenu officiellement par Ewelink mais aussi des container comme Zigbee2mqtt. À ce stade je n'ai testé que les containers officiels qui sont déjà préparamétré pour fonctionner avec la passerelle {{ page.ref }}. 
+
+{%- include alert.html type="info" text="Chose importante le stockage des données se fait sur carte SD, sans carte SD tu ne pourras accéder à cette fonction." link="https://sonoff.tech/ihost-user-guides/add-on/#Add-on" textlink="Doc officielle add-ons" %}
+
+Chez Sonoff comme pour Home-Assistant cette fonction est appelé Add-ons
+
+{% picture posts/{{ page.guid }}/page-docker-sonoff-ihost.png --alt page paramétrage des add-ons options du sonoff gateway ihost --img width="940" height="299" %}
+
+On retrouve entre autre:
+
+- [Homebridge](https://sonoff.tech/ihost-user-guides/add-on/#Homebridge-Add-on){: target="_blank"}
+- Ewelink smarthome ( permet de faire fonctionner les sonoff en LAN )
+- [NodeRed](https://sonoff.tech/ihost-user-guides/add-on/#Node-Red-Add-on){: target="_blank"}
+- [Paral sync](https://sonoff.tech/ihost-user-guides/add-on/#eWeLink-Smart-Home-Add-on){: target="_blank"} ( synchronisation des modules zigbee d'un Nspanel pro avec {{ page.ref }}) **Nouveautée V.1.12.0**
+- Une Api meteo
+- mqtt2tasmota
+- tts2cube pico ( faire du tts avec le micro du {{ page.ref }})
+
+{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-Addon介绍视频.mp4" %}
+
+##  Matter Firmware V1.12.0
+
+**Grande nouveautée**, la version 1.12.0 sortie en Novembre 2023 prend en charge les produits Matter et ajoute la fonction Pilot > Bluetooth. J'ai testé pour toi l'intégration des produits Matter et **je dois te dire que pour l'instant c'est loin d'être parfait.**
+
+Premièrement la fonction Matter ne fonctionne que avec les applications Google Home, Apple Home, Alexa et Smartthings.
+
+Il faudra en premier temps lier l'une des applications citées ci-dessus avec Ihost et en second temps il faudra intégrer le module Matter, dans mon cas comme j'utilise Android, **dans google home**. 
+
+À l'heure actuelle **je possède 2 produits Matter** et contrairement à Home-Assistant où j'ai réussi à les intégrer, pour **le Sonoff {{ page.ref }} il en est tout autre chose**. D'abord une fois sur deux la liaison entre le {{ page.ref }} et **google home est tenu en échec**. Et l'intégration des modules dans google home fonctionne mais sont mis hors service une fois intégré.
+
+Donc avec la **sortie de le V1.12.0 Matter n'est pas fonctionnel** du moins chez moi, peut-être que je néalise pas correctement les manips.
+
+## Home Assistant OS sur ihost
+
+Tu lis bien, et oui tu peux utiliser Home Assistant ( HAOS ) dans Ihost et ce en réalisant une simple manipulation et tout ça grâce aux image de [Darkxst](https://github.com/darkxst){: target="_blank"}
+
+[image HAOS pour ihost](https://github.com/darkxst/ha-operating-system/wiki/HAOS-on-Sonoff-iHost){: target="_blank"}
+
+Rien de plus simple pour Hacker Home Assistant sur le Sonoff {{ page.ref }}, pour celà il te suffit de faire le choix, soit:
+
+1. d'une installation de l'image sur une carte sd sans toucher au firmware et au maskrom
+2. ou d'une installation permanente sur le disque emmc de l'{{ pagge.ref }}. 
+
+### Installation sur carte SD
+**Avantage:** 
+- ne touche pas au firmware d'origine
+- nul besoin de transférer l'image via un logiciel dédié maskrom comme le RKdeveloptool par exemple.
+
+**Inconvénient:**
+- ouvrir la box
+- souder un pont entre les deux points du Maskrom afin de démarrer sur carte SD
+- Indication Led non fonctionnelle lors de l'installation
+
+### Installation permanente sur emmc
+
+**Avantage:**
+- tu utilises toute la puissance du Hardware
+- pas besoin de souder de ponts sur le maskrom
+
+**Inconvénient:**
+- ouvrir la box
+- perte totale du firmware du Sonoff {{ page.ref }}
+- indication LED partielles lors de l'installation
+
+### Installation
+
+J'ai choisi la première méthode car je n'ai pas trouvé le moyen de faire une sauvegarde du firmware d'origine et je voudrais tester à l'avenir les futures versions proposées par la team Ewelink.
+
+Copie l'image [haos_ihost-11.1.x.img.xz](https://github.com/darkxst/ha-operating-system/releases){: target="_blank"} sur SDCARD avec ton utilitaire favoris **Balena Etcher or Rufus**
+
+Soude un pont sur le maskrom de la carte ( perso j'utilise un cavalier )
+Insert la carte dans l'{{page.ref}} branche à l'aide du cable-usb la box et patiente
+au bout de quelques minutes tu auras la page homeassistant sur ton navigateur.
+
+**Installation des indicateurs lumineus dans HAOS**
+
+Fourni aussi par Darkxst, cette intégration te permettra de faire fonctionner les LED de la box
+
+[Ihost indicator](https://github.com/darkxst/ihost_indicator){: target="_blank"}
 
 ## Manuels {{ page.ref }}
 
@@ -171,11 +293,17 @@ S'il n'est pas répertorié, veuillez attendre les mises à jour périodiques pe
 - **le prix (99€ ou 109€ environ) selon la version**
 - les nombreuses compatibilitées
 - les divers support
+- intégration d'un micro et haut parleur
+- intégration Addons via docker
+- compatibilité matérielle Zigbee
+- puissance du proccesseur Rockchip
 
 ## **les - du produit** {{ page.ref }}
 {: .red}
 
 - Absence de wifi 5Ghz
+- Matter instable
+- connection à l'application Ewelink obligatoire
 
 {% include product-embed.html guid="2179" %}
 
