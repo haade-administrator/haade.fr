@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-12-14 14:22
 last_modified_at: 
-categories: [Tests, Home-Assistant, Haade-lab]
+categories: [Tests, Haade-lab]
 tags: []
 image: 'test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png'
 toc: true
