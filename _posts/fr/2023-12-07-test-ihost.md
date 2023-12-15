@@ -9,7 +9,7 @@ date: 2023-12-07 14:22
 last_modified_at: 
 categories: [Tests, Home-Assistant, Haade-lab]
 tags: []
-image: 'test-sonoff-ihost-v1-12-0-hack-home-assistant-os.png'
+image: 'test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png'
 toc: true
 beforetoc: ''
 published: false
