@@ -44,16 +44,15 @@ Fonctionne avec d'autres appareils intelligents certifiés par ZigBee Alliance.
 
 ## SPÉCIFICATION :
 
-Modèle|Albridge
-Produit|RV11264GB DDR4 4 Go
-Module Zigbee|SoC Silicon Labs EFR32MG21
-Module Wi-Fi|2.4G Wi-Fi et module sans fil BLE RTL8723
-Méthodes de stockage|USB et carte TF (max. 256 Go pour la carte TF)
-Entrée|5 V 2 A
-Type d'interface d'alimentation|Type-C
-Matériau du boîtier|ABS
-Type d'interface réseau|RJ45
-Connexion sans fil
-Wi-Fi IEEE 802.11 b/g/n 2,4 GHZ, Zigbee 3.0
-Couleur|Blanc
-Taille|120 mm X 41 mm X 135 mm
+|Modèle|Albridge|
+|Produit|RV11264GB DDR4 4 Go|
+|Module Zigbee|SoC Silicon Labs EFR32MG21|
+|Module Wi-Fi|2.4G Wi-Fi et module sans fil BLE RTL8723|
+|Méthodes de stockage|USB et carte TF (max. 256 Go pour la carte TF)|
+|Entrée|5 V 2 A|
+|Type d'interface d'alimentation|Type-C|
+|Matériau du boîtier|ABS|
+|Type d'interface réseau|RJ45|
+|Connexion sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHZ, Zigbee 3.0|
+|Couleur|Blanc|
+|Taille|120 mm X 41 mm X 135 mm|

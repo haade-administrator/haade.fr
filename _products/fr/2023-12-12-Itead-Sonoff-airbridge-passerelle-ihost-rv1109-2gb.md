@@ -53,7 +53,6 @@ Fonctionne avec d'autres appareils intelligents certifiés par ZigBee Alliance.
 |Type d'interface d'alimentation|Type-C|
 |Matériau du boîtier|ABS|
 |Type d'interface réseau|RJ45|
-|Connexion sans fil|
-|Wi-Fi IEEE 802.11 b/g/n 2,4 GHZ, Zigbee 3.0|
+|Connexion sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHZ, Zigbee 3.0|
 |Couleur|Blanc|
 |Taille|120 mm X 41 mm X 135 mm|

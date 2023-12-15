@@ -1,18 +1,18 @@
 ---
 guid: 100
-title: "test Ihost"
-description: "test"
-ref: "Ihost"
+title: "test de la box Sonoff Ihost"
+description: "La box Sonoff Ihost vaut le détour, avec une compatibilité matérielle impressionnante, une qualité de fabrication exceptionnelle, Sonoff signe une fois de plus un produit incontournable."
+ref: "iHost"
 layout: post
 author: Nico
-date: 2023-12-07 14:22
+date: 2023-12-14 14:22
 last_modified_at: 
 categories: [Tests, Home-Assistant, Haade-lab]
 tags: []
 image: 'test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -26,7 +26,7 @@ sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
 ---
 
-Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la **v1.12.0 porte ses fruits.** Dans un second temps nous allons Hacker la box et installer Home Assistant OS sur SDCARD sans toucher au firmware d'origine mais en réalisant une petite manip sur le matériel.
+Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la **v1.12.0 porte ses fruits.** Dans un second article **je te montrerai comment Hacker la box** et installer Home Assistant OS sur SDCARD sans toucher au firmware d'origine mais en réalisant tout de même une petite manip sur le matériel.
 
 {% include product-embed.html guid="2178" %}
 
@@ -34,12 +34,12 @@ Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{
 
 ## Déballage et présentation du Sonoff {{ page.ref }}
 
-Le colis est soigné, la passerelle {{ page.ref }} est fournie avec un cable rj45, un cable usb-c, une notice et une clé pour enclancher la fonction reset. 
+Le **colis est soigné**, la passerelle {{ page.ref }} est fournie avec un cable rj45, un cable usb-c, une notice et une clé pour enclancher la fonction reset. 
 > Bref pas de fioritures juste l'essentiel !
 
 {% picture posts/{{ page.guid }}/effet-lumiere-sonoff-ihost.png --alt La passerelle sonoff ihost à un rendu visuel intéressant bleu, rouge et jaune --img width="940" height="529" %}
 
-Le plastique est d'effet Glossy, l'assemblage est de bonne qualité, le rendu visuel des LED est très réussi.
+**Le plastique est d'effet Glossy, l'assemblage est de bonne qualité, le rendu visuel des LED est très réussi.**
 
 {% picture posts/{{ page.guid }}/face-arriere-sonoff-gateway-ihost.png --alt la face arrière du sonoff ihost présente un bouton reset, insert carte sd, port usb, port alim usbc et rj45 --img width="940" height="529" %}
 
@@ -68,11 +68,11 @@ La taille du Sonoff {{ page.ref }} est correcte, elle intègre pas mal de choses
 
 {% picture posts/{{ page.guid }}/acces-processeur-sonoff-passerelle-ihost.png --alt véritable processeur ihost sonoff --img width="940" height="529" %}
 
-Sonoff ne rigole pas et met en place un processeur rckchip .....
+> Sonoff ne rigole pas et met en place un processeur rockchip RV1109 ou RV1126 .....
 
 {% picture posts/{{ page.guid }}/puce-zigbee-bluetooth-wifi-sonoff-passerelle-ihost.png --alt puce zigbee et wifi sonoff gateway ihost --img width="940" height="529" %}
 
-sous le capot on trouve un module:
+**sous le capot on trouve un module:**
 - zigbee Silabs efr32mg21 ( non tuya )
 - une puce RTL8723 qui distribue du wifi b/g/n
 
@@ -107,7 +107,7 @@ Pour commencer après le premier démarrage il faudra te connecter à l'applicat
 
 **Ewelink annonce un fonctionnement en local** mais il se trouve que la mise à jour du firmware en OTA ne fonctionne que par l'application Ewelink officielle, qui utilise le cloud. Bref pour faire simple Ewelink connait l'état de fonctionnement de la gateway {{ page.ref }} mais pas ce qui s'y passe à l'intérieur, en espérant que ce soit le cas.
 
-Pour celà il te suffit de regarder la vidéo oficielle:
+**Pour celà il te suffit de regarder la vidéo oficielle:**
 
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/x.mp4" %}
 
@@ -229,54 +229,6 @@ Il faudra en premier temps lier l'une des applications citées ci-dessus avec Ih
 
 Donc avec la **sortie de le V1.12.0 Matter n'est pas fonctionnel** du moins chez moi, peut-être que je néalise pas correctement les manips.
 
-## Home Assistant OS sur ihost
-
-Tu lis bien, et oui tu peux utiliser Home Assistant ( HAOS ) dans Ihost et ce en réalisant une simple manipulation et tout ça grâce aux image de [Darkxst](https://github.com/darkxst){: target="_blank"}
-
-[image HAOS pour ihost](https://github.com/darkxst/ha-operating-system/wiki/HAOS-on-Sonoff-iHost){: target="_blank"}
-
-Rien de plus simple pour Hacker Home Assistant sur le Sonoff {{ page.ref }}, pour celà il te suffit de faire le choix, soit:
-
-1. d'une installation de l'image sur une carte sd sans toucher au firmware et au maskrom
-2. ou d'une installation permanente sur le disque emmc de l'{{ pagge.ref }}. 
-
-### Installation sur carte SD
-**Avantage:** 
-- ne touche pas au firmware d'origine
-- nul besoin de transférer l'image via un logiciel dédié maskrom comme le RKdeveloptool par exemple.
-
-**Inconvénient:**
-- ouvrir la box
-- souder un pont entre les deux points du Maskrom afin de démarrer sur carte SD
-- Indication Led non fonctionnelle lors de l'installation
-
-### Installation permanente sur emmc
-
-**Avantage:**
-- tu utilises toute la puissance du Hardware
-- pas besoin de souder de ponts sur le maskrom
-
-**Inconvénient:**
-- ouvrir la box
-- perte totale du firmware du Sonoff {{ page.ref }}
-- indication LED partielles lors de l'installation
-
-### Installation
-
-J'ai choisi la première méthode car je n'ai pas trouvé le moyen de faire une sauvegarde du firmware d'origine et je voudrais tester à l'avenir les futures versions proposées par la team Ewelink.
-
-Copie l'image [haos_ihost-11.1.x.img.xz](https://github.com/darkxst/ha-operating-system/releases){: target="_blank"} sur SDCARD avec ton utilitaire favoris **Balena Etcher or Rufus**
-
-Soude un pont sur le maskrom de la carte ( perso j'utilise un cavalier )
-Insert la carte dans l'{{page.ref}} branche à l'aide du cable-usb la box et patiente
-au bout de quelques minutes tu auras la page homeassistant sur ton navigateur.
-
-**Installation des indicateurs lumineus dans HAOS**
-
-Fourni aussi par Darkxst, cette intégration te permettra de faire fonctionner les LED de la box
-
-[Ihost indicator](https://github.com/darkxst/ihost_indicator){: target="_blank"}
-
 ## Manuels {{ page.ref }}
 
 {% include doclink.html pdf="sonoff-ihost-specification.pdf" title="Spécifications de la box Sonoff Ihost" %}
@@ -307,4 +259,8 @@ Fourni aussi par Darkxst, cette intégration te permettra de faire fonctionner l
 
 {% include product-embed.html guid="2179" %}
 
+> Gros avantage la box {{ page.ref }} est **équipée d'un micro et de hauts parleurs** qui te permettront dans un futur proche de pouvoir commander ta box par la voix un réel plus pour les années à venir.
+
 ## Conclusion
+
+J'ai mis 5 étoiles pour cette box, **car la qualité de fabrication pour un prix dérisoire en font une box de contrôle incontournable**, la perspective d'évolution régulière des firmwares Sonoff règleront la plupart des problèmes il suffit d'être patient. Bref pour 100€ tu auras une box qui fera le Job.
