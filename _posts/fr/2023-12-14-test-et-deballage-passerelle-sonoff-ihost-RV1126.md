@@ -24,6 +24,7 @@ comments: true
 rating: 5.0 
 sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
+  - https://sonoff.tech/ihost-user-guides/
 ---
 
 Tout d'abord je voulais **remercier Itead** pour le prêt de cette box Sonoff {{ page.ref }} version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d'horizon de l'application embarquée eet ainsi voir si la **v1.12.0 porte ses fruits.** Dans un second article **je te montrerai comment Hacker la box** et installer Home Assistant OS sur SDCARD sans toucher au firmware d'origine mais en réalisant tout de même une petite manip sur le matériel.
