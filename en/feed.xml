@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Dec 2023 06:59:05 +0000</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2023 14:39:00 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2023 13:48:11 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2023 14:22:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>test of the Sonoff Ihost box</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;First of all I wanted to &lt;strong&gt;thank Itead&lt;/strong&gt; for the loan of this Sonoff box iHost version RV1126 of 4gb. First we will take an overview of the embedded application and see if &lt;strong&gt;v1.12.0 bears fruit.&lt;/strong&gt; In a second article &lt;strong&gt;I will show you how to Hack the box&lt;/strong&gt; and install Home Assistant OS on SDCARD without touching the original firmware but still carrying out a small manipulation on the hardware.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 14 Dec 2023 14:22:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/test-and-unpack-sonoff-ihost-RV1126-gateway</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-and-unpack-sonoff-ihost-RV1126-gateway</guid>
+      <category>Tests</category>
+      <category>Home-Assistant</category>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/99/christmas-gift-sonoff-thank-you.png</url>
@@ -174,25 +193,6 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <guid isPermaLink="true">https://haade.fr/en/blog/nspanel-control-your-home-easily-home-assistant-esphome-blackymas</guid>
       <category>Haade-lab</category>
       <category>Tests</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/89/lifetime-warranty-corsair-memory-ddr4-i-tested.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>I tested the Corsair Lifetime Warranty</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;I wanted to share with you some feedback regarding &lt;strong&gt;the lifetime warranty offered&lt;/strong&gt; by Corsair on the failure of a Corsair Vengeance LPX memory.
-&lt;strong&gt;The facts:&lt;/strong&gt; In 2018 I purchased a set of two 2x8GB 2666MHZ ddr4 sticks on Aliexpress, they were installed on a DIY NAS assembled by me. A short time ago I encountered instabilities on the NAS, after a quick test with memtest86+ I realized that one of the two strips had failed. And then I said to myself, &lt;strong&gt;but of course Corasir guarantees the Vengance LPX bars for life…&lt;/strong&gt;&lt;/p&gt;
-</description>
-      <pubDate>Wed, 01 Nov 2023 15:40:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-lifetime-warranty-corsair-memory</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-lifetime-warranty-corsair-memory</guid>
-      <category>Tests</category>
-      <category>Haade-lab</category>
     </item>
   </channel>
 </rss>

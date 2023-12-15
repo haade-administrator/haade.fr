@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 15 Dec 2023 06:59:05 +0000</pubDate>
-    <lastBuildDate>Sat, 02 Dec 2023 14:39:00 +0000</lastBuildDate>
+    <pubDate>Fri, 15 Dec 2023 13:48:11 +0000</pubDate>
+    <lastBuildDate>Thu, 14 Dec 2023 14:22:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>test de la box Sonoff Ihost</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Tout d’abord je voulais &lt;strong&gt;remercier Itead&lt;/strong&gt; pour le prêt de cette box Sonoff iHost version RV1126 de 4gb. Dans un premier temps nous allons faire un tour d’horizon de l’application embarquée eet ainsi voir si la &lt;strong&gt;v1.12.0 porte ses fruits.&lt;/strong&gt; Dans un second article &lt;strong&gt;je te montrerai comment Hacker la box&lt;/strong&gt; et installer Home Assistant OS sur SDCARD sans toucher au firmware d’origine mais en réalisant tout de même une petite manip sur le matériel.&lt;/p&gt;
+</description>
+      <pubDate>Thu, 14 Dec 2023 14:22:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-et-deballage-passerelle-sonoff-ihost-RV1126</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-et-deballage-passerelle-sonoff-ihost-RV1126</guid>
+      <category>Tests</category>
+      <category>Home-Assistant</category>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/99/cadeau-de-noel-sonoff-merci.png</url>
@@ -173,24 +192,6 @@ Je profite de ce post pour remercier le geste de la part de l’équipe et je te
       <link>https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</guid>
       <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/90/controle-nspanel-blueprint-home-assistant-blackymas.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>NSPanel contrôle ta maison facilement</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Il y a peu de temps j’ai eu l’occasion de visiter une nouvelle école, celle-ci comme tu te doutes est entièrement équipée du &lt;strong&gt;protocole knx&lt;/strong&gt;. À l’entrée de chaque classe un &lt;strong&gt;écran digitale de la taille d’un NSPanel contrôle l’ensemble des équipements&lt;/strong&gt; (lumière, volet, chauffage).&lt;/p&gt;
-</description>
-      <pubDate>Fri, 03 Nov 2023 12:06:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/nspanel-controle-ta-maison-facilement-home-assistant-esphome-blackymas</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/nspanel-controle-ta-maison-facilement-home-assistant-esphome-blackymas</guid>
-      <category>Haade-lab</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
