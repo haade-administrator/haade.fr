@@ -96,7 +96,7 @@ Le module est bel et bien reconnu dans Z2M, comme tu peux le voir, la quantité 
 2. **Prise en charge des interrupteurs du marché** Compatible avec tous les interrupteurs filaires du marché, qu'ils soient à bouton poussoir ou autres, il sera fonctionner en conséquence.
 3. **Simple et fiable** En tant que commutateur Zigbee 3.0, ZBMINI Extreme peut se combiner avec des concentrateurs Zigbee pour former un réseau local domestique. Ne vous inquiétez plus de l'absence d'Internet, vous pouvez contrôler librement les appareils normalement, même si la lumière est aussi faible que 3W, non un module anti-scintillement est requis.
 4. **L'intégration** à Zigbee2mqtt se fait sans soucis
-5. **Le prix** le ZBMINI l2 extrêmen est vendu aux alentours de 13€
+5. **Le prix**, ZBMINI l2 extrême est vendu aux alentours de 13€
 
 ## Les - du produit
 {: .red}
