@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2023-12-14 14:22
 last_modified_at: 
-categories: [Tests, Home-Assistant, Haade-lab]
+categories: [Tests, Haade-lab]
 tags: []
 image: 'test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png'
 toc: true
@@ -24,6 +24,7 @@ comments: true
 rating: 5.0 
 sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/ihost/
+  - https://sonoff.tech/ihost-user-guides/
 ---
 
 First of all I wanted to **thank Itead** for the loan of this Sonoff box {{ page.ref }} version RV1126 of 4gb. First we will take an overview of the embedded application and see if **v1.12.0 bears fruit.** In a second article **I will show you how to Hack the box** and install Home Assistant OS on SDCARD without touching the original firmware but still carrying out a small manipulation on the hardware.
