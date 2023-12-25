@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-      <url>
-        <loc>https://haade.fr/fr/blog/test-et-deballage-passerelle-sonoff-ihost-RV1126</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2023-12-14T14:22:00+00:00</news:publication_date>
-          <news:title>test de la box Sonoff Ihost</news:title>
-        </news:news>
-      </url>
     </urlset>
 
 
