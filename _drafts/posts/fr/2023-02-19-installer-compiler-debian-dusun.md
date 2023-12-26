@@ -31,6 +31,7 @@ sourcelink:
   - https://www.dusuniot.com/product/dsgw-210-home-assistant-zigbee-gateway/
   - https://community.dusuniot.com/t/dsgw-210-ha-home-assistant-iot-gateway-operating-system-upgrade-to-debian-12/996
   - https://www.dusuniot.com/news/dsgw-210-home-assistant-debian-gateway-hub/
+  - https://www.dusuniot.com/blog/how-to-add-and-configure-dusun-ble-mesh-add-on-on-dsgw-210-ha/
 ---
 
 [Téléchargement de l'image Home-assistant](https://www.dusuniot.com/product/dsgw-210-home-assistant-zigbee-gateway/){: target="_blank"}
