@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Dec 2023 15:00:50 +0000</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2023 14:22:00 +0000</lastBuildDate>
+    <pubDate>Wed, 27 Dec 2023 15:02:41 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Dec 2023 10:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Installation HAOS avec Armbian Bookworm 12</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Nous sommes bientôt en 2024 et il est toujours aussi difficile d’installer Home Assistant OS sur des cartes non prises en charges. Pour le bien des test produits j’ai comme besoin d’installer HAOS sur une carte dédiée. Ça tombe bien il me reste dans les cartons une vieille carte Cubietruck donc je vais pouvoir faire des économies et ne pas investir dans un Raspberry pi.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 26 Dec 2023 10:54:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/installation-home-assistant-os-armbian-cubietruck-facile-2024</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/installation-home-assistant-os-armbian-cubietruck-facile-2024</guid>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png</url>
@@ -174,23 +191,6 @@ Je profite de ce post pour remercier le geste de la part de l’équipe et je te
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-controlleur-vanne-eau-gaz-zigbee-iotperfect-moes-zv-qy-eu-en</guid>
       <category>Tests</category>
       <category>Zigbee</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/91/recherche-contributeurs-haade.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Haade recherche des contributeurs</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;&lt;strong&gt;Haade est un blog de pationnés de domotiques&lt;/strong&gt; et d’informatiques. Le site a pour but de &lt;strong&gt;diffuser des tutos simples et efficaces avec un minimum de publicité&lt;/strong&gt; afin de ne pas faire fuir les lecteurs.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 06 Nov 2023 14:46:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/haade-est-a-la-recherche-de-nouveaux-contributeurs</guid>
-      <category>News</category>
     </item>
   </channel>
 </rss>

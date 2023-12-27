@@ -11,9 +11,26 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Dec 2023 15:00:50 +0000</pubDate>
-    <lastBuildDate>Thu, 14 Dec 2023 14:22:00 +0000</lastBuildDate>
+    <pubDate>Wed, 27 Dec 2023 15:02:41 +0000</pubDate>
+    <lastBuildDate>Tue, 26 Dec 2023 10:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Installing HAOS with Armbian Bookworm 12</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;It’s almost 2024 and it’s still difficult to install Home Assistant OS on unsupported cards. For the sake of product testing I need to install HAOS on a dedicated card. That’s good, I still have an old Cubietruck card in the boxes so I’ll be able to save money and not invest in a Raspberry pi.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 26 Dec 2023 10:54:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/easy-installation-home-assistant-os-armbian-cubietruck-2024</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/easy-installation-home-assistant-os-armbian-cubietruck-2024</guid>
+      <category>Haade-lab</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png</url>
@@ -174,24 +191,6 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <link>https://haade.fr/en/blog/haade-is-looking-for-new-contributors</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/haade-is-looking-for-new-contributors</guid>
       <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/90/control-nspanel-blueprint-home-assistant-blackymas.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>NSPanel controls your home easily</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Not long ago I had the opportunity to visit a new school, this one, as you can imagine, is fully equipped with the &lt;strong&gt;knx protocol&lt;/strong&gt;. At the entrance to each class a &lt;strong&gt;digital screen the size of an NSPanel controls all the equipment&lt;/strong&gt; (lights, shutters, heating).&lt;/p&gt;
-</description>
-      <pubDate>Fri, 03 Nov 2023 12:06:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/nspanel-control-your-home-easily-home-assistant-esphome-blackymas</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/nspanel-control-your-home-easily-home-assistant-esphome-blackymas</guid>
-      <category>Haade-lab</category>
-      <category>Tests</category>
     </item>
   </channel>
 </rss>
