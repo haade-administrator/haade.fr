@@ -12,7 +12,7 @@ tags: []
 image: 'installation-haos-armbian-cubietruck-2024.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
