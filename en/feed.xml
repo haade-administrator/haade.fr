@@ -11,7 +11,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Dec 2023 15:02:41 +0000</pubDate>
+    <pubDate>Wed, 27 Dec 2023 16:46:07 +0000</pubDate>
     <lastBuildDate>Tue, 26 Dec 2023 10:54:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
     <item>
@@ -47,7 +47,6 @@
       <link>https://haade.fr/en/blog/test-and-unpack-sonoff-ihost-RV1126-gateway</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-and-unpack-sonoff-ihost-RV1126-gateway</guid>
       <category>Tests</category>
-      <category>Haade-lab</category>
     </item>
     <item>
       <!-- <image>
