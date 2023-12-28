@@ -11,9 +11,9 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Dec 2023 16:46:07 +0000</pubDate>
+    <pubDate>Thu, 28 Dec 2023 02:25:19 +0000</pubDate>
     <lastBuildDate>Tue, 26 Dec 2023 10:54:00 +0000</lastBuildDate>
-    <generator>Jekyll v4.3.2</generator>
+    <generator>Jekyll v4.3.3</generator>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
