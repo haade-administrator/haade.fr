@@ -950,6 +950,12 @@ var documents = [{
         "title": "BOX DOMOTIQUE IHOST LOCAL ZIGBEE 3.0 WIFI 2GB - SONOFF",
         "description": "12/12/2023 - SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
         "tags": ""
+        },{
+        "id": 175,
+        "url": "/fr/produit/sirene-zigbee-exterieur-neo-nas-ab06b2",
+        "title": "NEO - SIRÈNE INTELLIGENTE EXTÉRIEURE ZIGBEE TUYA (ALIMENTATION 5V/1A OU BATTERIE + PANNEAU SOLAIRE)",
+        "description": "03/01/2024 - Soyez alerté en temps réel lors d'une tentative d'intrusion d'un éventuel cambrioleur ou autre anomalie détectée dans votre jardin grâce à la sirène Zigbee NEO.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

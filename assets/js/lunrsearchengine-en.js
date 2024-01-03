@@ -875,6 +875,12 @@ var documents = [{
         "title": "LOCAL IHOST HOME AUTOMATION BOX ZIGBEE 3.0 WIFI 2GB - SONOFF",
         "description": "12/12/2023 - SONOFF offers a home automation box operating locally to make your home automation faster, reliable and secure.",
         "tags": ""
+        },{
+        "id": 161,
+        "url": "/en/product/zigbee-siren-outdoor-neo-nas-ab06b2",
+        "title": "NEO - ZIGBEE TUYA OUTDOOR SMART SIREN (5V/1A POWER SUPPLY OR BATTERY + SOLAR PANEL)",
+        "description": "03/01/2024 - Be alerted in real time during an intrusion attempt by a possible burglar or other anomaly detected in your garden thanks to the Zigbee NEO siren.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
