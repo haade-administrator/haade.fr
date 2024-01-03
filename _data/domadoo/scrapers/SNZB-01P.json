@@ -4,12 +4,12 @@
         "productId": "SNZB-01P",
         "title": "Bouton connecté sans fil Zigbee 3.0 - SNZB-01P - SONOFF",
         "description": "Contrôlez vos dispositifs domotiques avec le bouton connecté sans fil SONOFF SNZB-01P Zigbee 3.0.",
-        "productNew": "",
-        "minsalePrice": "10.13",
-        "maxsalePrice": "12.99",
-        "discount": "-22%",
+        "productNew": "Nouveau",
+        "minsalePrice": "12.99",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "12.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -34,8 +34,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "0",
-            "totalStarCount": "0"
+            "averageStar": "5",
+            "totalStarCount": "1"
         }
     }
 }

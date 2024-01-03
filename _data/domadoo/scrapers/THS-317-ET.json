@@ -2,24 +2,24 @@
     "product": {
         "linkId": "peripheriques/5998-owon-sonde-de-temperature-deportee-sur-cable-zigbee",
         "productId": "THS-317-ET",
-        "title": "OWON - Sonde de température déportée sur câble Zigbee",
-        "description": "Le module THS-317-ET permet de mesurer avec précision la température, d’un espace, d’une matière ou d’un liquide.",
+        "title": "OWON - Capteur de température connecté extérieur sur câble Zigbee",
+        "description": "Le capteur de température connecté extérieur THS-317-ET permet de mesurer avec précision la température d’un espace (réfrigérateur, congélateur ou autre), d’une matière ou d’un liquide (piscine ou autre).",
         "productNew": "",
         "minsalePrice": "19.99",
-        "maxsalePrice": "3.99",
-        "discount": "-22%",
+        "maxsalePrice": "69.99",
+        "discount": "-40%",
         "currency": "EUR",
-        "originalPrice": "3.99",
+        "originalPrice": "69.99",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
-            "https://www.domadoo.fr/19894-large_default/owon-sonde-de-temperature-deportee-sur-cable-zigbee.jpg",
-            "https://www.domadoo.fr/19894-medium_default/owon-sonde-de-temperature-deportee-sur-cable-zigbee.jpg"
+            "https://www.domadoo.fr/19894-large_default/owon-capteur-de-temperature-connecte-exterieur-sur-cable-zigbee.jpg",
+            "https://www.domadoo.fr/19894-medium_default/owon-capteur-de-temperature-connecte-exterieur-sur-cable-zigbee.jpg"
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.3",
-            "totalStarCount": "67"
+            "averageStar": "4.4",
+            "totalStarCount": "70"
         }
     }
 }

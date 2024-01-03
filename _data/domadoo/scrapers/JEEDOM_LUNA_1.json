@@ -4,12 +4,12 @@
         "productId": "JEEDOM_LUNA_1",
         "title": "JEEDOM - Contrôleur domotique Jeedom Luna Z-Wave+ 700 et Zigbee 3.0",
         "description": "JEEDOM LUNA est la nouvelle box domotique autonome et multiprotocole entrée de gamme intégrant le logiciel Jeedom.",
-        "productNew": "",
+        "productNew": "Nouveau",
         "minsalePrice": "199.00",
-        "maxsalePrice": "170.40",
-        "discount": "-25%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "170.40",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -27,8 +27,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.4",
-            "totalStarCount": "31"
+            "averageStar": "4.3",
+            "totalStarCount": "35"
         }
     }
 }

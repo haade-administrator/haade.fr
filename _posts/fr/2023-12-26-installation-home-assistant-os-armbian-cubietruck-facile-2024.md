@@ -87,7 +87,7 @@ armbian-config
 
 {% include videoPlayer.html youtubeId="i9KyATAmfwQ?si=v0E-ELgtGnr9IuUZ" %}
 
-Si tu as la [possibilité d'installer le système sur une mémoire interne de type emmc](https://docs.armbian.com/User-Guide_Getting-Started/#how-to-install-to-emmc-sata-nvme-usb){: target="_blank"} fait le, ce n'est pas mon cas, car le cubietruck utilise une **mémoire NAND** et je devrais mettre un **très très vieux kernel** pour que celà fonctionne.
+Si tu as la [possibilitée d'installer le système sur une mémoire interne de type emmc](https://docs.armbian.com/User-Guide_Getting-Started/#how-to-install-to-emmc-sata-nvme-usb){: target="_blank"} fait le, ce n'est pas mon cas, car le cubietruck utilise une **mémoire NAND** et je devrais mettre un **très très vieux kernel** pour que celà fonctionne.
 
 ### les étapes Armbian-config
 
