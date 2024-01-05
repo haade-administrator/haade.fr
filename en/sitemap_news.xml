@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+      <url>
+        <loc>https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-01-02T16:17:00+00:00</news:publication_date>
+          <news:title>Zigbee Neo NAS-AB06B2 Outdoor Siren Review</news:title>
+        </news:news>
+      </url>
     </urlset>
 
 

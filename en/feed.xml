@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Jan 2024 11:09:24 +0000</pubDate>
+    <pubDate>Fri, 05 Jan 2024 17:32:05 +0000</pubDate>
     <lastBuildDate>Tue, 02 Jan 2024 16:17:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Zigbee Neo NAS-AB06B2 Outdoor Siren Review</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;This is an area where zigbee modules &lt;strong&gt;are rare&lt;/strong&gt;, you can find zigbee sirens here and there for indoors but when it comes to outdoors there are no crowds. And this is where &lt;strong&gt;Tuya stands out&lt;/strong&gt; thanks to the NAS-AB06B2 white label for Europe by Neo. But let’s not forget the fact that this is a Tuya product.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 02 Jan 2024 16:17:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+      <category>Security</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
@@ -173,23 +192,6 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <guid isPermaLink="true">https://haade.fr/en/blog/test-controller-water-gas-valve-zigbee-iotperfect-moes-zv-qy-eu-en</guid>
       <category>Tests</category>
       <category>Zigbee</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/91/research-contributors-haade.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Haade is looking for contributors</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;&lt;strong&gt;Haade is a blog for home automation&lt;/strong&gt; and IT enthusiasts. The site aims to &lt;strong&gt;distribute simple and effective tutorials with a minimum of advertising&lt;/strong&gt; so as not to scare away readers.&lt;/p&gt;
-</description>
-      <pubDate>Mon, 06 Nov 2023 14:46:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/haade-is-looking-for-new-contributors</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/haade-is-looking-for-new-contributors</guid>
-      <category>News</category>
     </item>
   </channel>
 </rss>
