@@ -4,7 +4,7 @@ layout: product
 title: "NEO - ZIGBEE TUYA OUTDOOR SMART SIREN (5V/1A POWER SUPPLY OR BATTERY + SOLAR PANEL)"
 date: "2024-01-03 20:37"
 description: "Be alerted in real time during an intrusion attempt by a possible burglar or other anomaly detected in your garden thanks to the Zigbee NEO siren."
-categories: [Shop, Neo, Zigbee]
+categories: [Shop, Neo-coolcam, Zigbee]
 tags: []
 locale: en_GB
 brand: Neo

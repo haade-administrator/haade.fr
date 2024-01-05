@@ -4,7 +4,7 @@ layout: product
 title: "NEO - SIRÈNE INTELLIGENTE EXTÉRIEURE ZIGBEE TUYA (ALIMENTATION 5V/1A OU BATTERIE + PANNEAU SOLAIRE)"
 date: "2024-01-03 20:37"
 description: "Soyez alerté en temps réel lors d'une tentative d'intrusion d'un éventuel cambrioleur ou autre anomalie détectée dans votre jardin grâce à la sirène Zigbee NEO."
-categories: [Boutique, Neo, Zigbee]
+categories: [Boutique, Neo-coolcam, Zigbee]
 tags: []
 locale: fr_FR
 brand: Neo
