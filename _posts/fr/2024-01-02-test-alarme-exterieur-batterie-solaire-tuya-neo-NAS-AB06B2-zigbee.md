@@ -65,7 +65,7 @@ Niveau des caractéritiques, tu pourras te rendre compte en image que ce boitier
 
 {% picture posts/{{ page.guid }}/dimension-sirene-exterieur-neo-nas-ab06b2-zigbee.png --alt caractéristiques techniques de la sirène d'extérieur Zigbe Neo NAS-AB06B2 --img width="940" height="642" %}
 
-Peitit tour d'horizon sur les emplacements d'appareils du NEO {{ page.ref }}, l'ouverture des buzzers permettras à la sirène de développer 100db en cas de déclenchements d'alarmes.
+Petit tour d'horizon sur les emplacements d'appareils du NEO {{ page.ref }}, l'ouverture des buzzers permettras à la sirène de développer 100db en cas de déclenchements d'alarmes.
 
 {% picture posts/{{ page.guid }}/caracteristiques-sirene-exterieur-neo-nas-ab06b2-zigbee.png --alt emplacement des infos de la sirène d'extérieur Zigbe Neo NAS-AB06B2 --img width="940" height="854" %}
 
@@ -97,7 +97,7 @@ La liste de compatibilité de la sirène Neo {{ page.ref }} est limitée mais **
 - Tuya
 - Smartlife
 
-## Compatible avec Zigbee2mqtt
+### Compatible avec Zigbee2mqtt
 
 Heureusement pour moi le Neo {{ page.ref }} est compatible Zigbee2mqtt mais pas dans sa totalité, du moins pour l'instant.
 
@@ -107,7 +107,7 @@ Le **niveau de batterie ne remonte pas**, on pourrait même rajouter un onglet b
 
 {% picture posts/{{ page.guid }}/z2m-expose-sirene-exterieur-neo-nas-ab06b2-zigbee.png --alt exposition des commandes dans zigbee2mqtt de la sirène d'extérieur Zigbee Neo NAS-AB06B2 --img width="940" height="615" %}
 
-### à propos des fonctions
+**à propos des fonctions**
 
 Comme très très souvent, l'état de **remontées des fonctions dans Zigbee2mqtt est impressionante**, alors qu'est-ce qu'on y trouve:
 
@@ -122,7 +122,7 @@ Comme très très souvent, l'état de **remontées des fonctions dans Zigbee2mqt
 - niveau de la batterie ( non fonctionnel pour le moment )
 - et pour finir qualité du lien dans le maillage.
 
-## Compatible avec ZHA
+### Compatible avec ZHA
 
 Ben dans ZHA le Neo {{ page.ref }} est reconnu mais ne **remonte aucune fonctions**, parce qu'il est tout simplement incompatible à l'heure actuelle.
 
