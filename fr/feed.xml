@@ -11,9 +11,28 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Jan 2024 02:30:49 +0000</pubDate>
-    <lastBuildDate>Tue, 26 Dec 2023 10:54:00 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 11:09:24 +0000</pubDate>
+    <lastBuildDate>Tue, 02 Jan 2024 16:17:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <!-- <image>
+         <url>https://haade.fr/assets/images/posts/102/sirene-neo-nas-ab06b2-zigbee-exterieur.png</url>
+          <title>Haade.fr</title>
+           <link>https://haade.fr</link>
+            <width>944</width>
+             <height>531</height>
+           </image> -->
+      <title>Test de la sirène d&apos;extérieur Zigbee Neo NAS-AB06B2</title>
+      <dc:creator>Nico</dc:creator>
+      <description>&lt;p&gt;Voilà un domaine ou les modules zigbee &lt;strong&gt;se font rares&lt;/strong&gt;, tu peux trouver ici et là des sirènes zigbee pour intérieur mais en ce qui concerne l’extérieur il n’y a pas foule. Et c’est là que &lt;strong&gt;Tuya se démarque&lt;/strong&gt; grâce au NAS-AB06B2 repris en marque blanche pour l’Europe par Neo. Mais n’oublions pas le fait que ce soit un produit Tuya.&lt;/p&gt;
+</description>
+      <pubDate>Tue, 02 Jan 2024 16:17:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-alarme-exterieur-batterie-solaire-tuya-neo-NAS-AB06B2-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-alarme-exterieur-batterie-solaire-tuya-neo-NAS-AB06B2-zigbee</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+      <category>Sécurité</category>
+    </item>
     <item>
       <!-- <image>
          <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
@@ -172,24 +191,6 @@ Je profite de ce post pour remercier le geste de la part de l’équipe et je te
       <link>https://haade.fr/fr/blog/domadoo-offre-a-ne-pas-rater-single-day</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/domadoo-offre-a-ne-pas-rater-single-day</guid>
       <category>News</category>
-    </item>
-    <item>
-      <!-- <image>
-         <url>https://haade.fr/assets/images/posts/92/test-controlleur-vanne-intelligente-zigbee-moes-PF-PM02D-TYZ.png</url>
-          <title>Haade.fr</title>
-           <link>https://haade.fr</link>
-            <width>944</width>
-             <height>531</height>
-           </image> -->
-      <title>Test du contrôleur de Vanne Zigbee PF-PM02D-TYZ par Moes</title>
-      <dc:creator>Nico</dc:creator>
-      <description>&lt;p&gt;Aujourd’hui je vais tester &lt;strong&gt;un module bien particulié&lt;/strong&gt;, souvent associé aux problèmes d’inondations il peut être utile pour contrôler l’arrosage de plantes et du gazon à condition de trouver les vannes 1/4 de tours protégées des intempéries. Je veux parler du &lt;strong&gt;contrôleur de vannes intelligent zigbee PF-PM02D-TYZ&lt;/strong&gt; fabriqué par &lt;a href=&quot;http://www.iotperfect.com/?m=home&amp;amp;c=View&amp;amp;a=index&amp;amp;aid=84&amp;amp;lang=en&quot; target=&quot;_blank&quot;&gt;iotperfect&lt;/a&gt; et entre autre vendu en &lt;strong&gt;marque blanche par Moes&lt;/strong&gt;.&lt;/p&gt;
-</description>
-      <pubDate>Tue, 07 Nov 2023 16:43:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-controlleur-vanne-eau-gaz-zigbee-iotperfect-moes-zv-qy-eu-en</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-controlleur-vanne-eau-gaz-zigbee-iotperfect-moes-zv-qy-eu-en</guid>
-      <category>Tests</category>
-      <category>Zigbee</category>
     </item>
   </channel>
 </rss>
