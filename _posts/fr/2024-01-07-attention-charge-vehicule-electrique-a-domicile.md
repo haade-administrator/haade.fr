@@ -7,7 +7,7 @@ layout: post
 author: Nico
 date: 2024-01-06 10:13
 last_modified_at: 
-categories: [Domotique, Zigbee]
+categories: [Sécurité, News]
 tags: []
 image: 'attention-risque-incendie-charge-ve-domicile.png'
 toc: true
