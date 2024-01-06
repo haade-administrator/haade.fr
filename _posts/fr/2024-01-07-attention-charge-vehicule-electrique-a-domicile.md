@@ -1,0 +1,57 @@
+---
+guid: 103
+title: "Attention à la charge des véhicules électriques à domicile"
+description: "Retour d'expérience sur les risques d'incendies des recharges des véhicules électriques à domicile et surveiller le problème grâce à la domotique."
+ref: "TO-Q-SY2-JZT"
+layout: post
+author: Nico
+date: 2024-01-06 10:13
+last_modified_at: 
+categories: [Domotique, Zigbee]
+tags: []
+image: 'picture.png'
+toc: true
+beforetoc: ''
+published: false
+noindex: false
+sitemap:
+  changefreq: 'monthly'
+  exclude: 'no'
+  priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
+  lastmod:  # date to end modification
+locale: fr_FR
+comments: true
+rating:  
+sourcelink:
+  - https://fr.elcb.net/Les-produits/disjoncteur-intelligent-zigbee-protection-contre-les-surintensit%C3%A9s-sous-tension-%C3%A0-q-sy2-jzt/
+---
+
+Comme de plus en plus de personnes sur cette planète je possède un véhicule éléctrique que je charge exclusivement depuis plus de 5ans à domicile à l'aide d'un chargeur EV de marque [VE-tronic](http://ve-tronic.fr/store/wallbox){: target="_blank"}.
+
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
+
+J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un disjoncteur diférentiel de 40A et reliée à un disjoncteur Legrand de 40A
+
+Durant 5 ans je n'ai rencontré aucun soucis, la wallbox étant équipée de la téléinformation la surcharge du domicile est évitée.
+
+Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brulé emportant le différentiel et fort heureusement une disjonction du compteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
+
+> Alors que s'est-il passé et comment y remédier.
+
+Pour commencer j'ai remplacé ce qui a brulé (disjoncteur/différentiel), j'ai baissé à la wallbox l'ampérage de charge maximal. Si j'ai baissé l'ampérage de charge c'est pour éviter la chaleur au niveau du compteur car je pense qu'une surchauffe est à l'origine de cette anomalie. 
+avant de domotiser le système de charge j'ai mesuré la température lors de charges prolongées. **En chargant au maximum 32A la température s'élève à 55°C** dans tout le circuit de charge ( disjoncteur/cable/cablot de charge ).
+
+Mais voilà je n'ai plus confiance en la marque Legrand alors que faire pour surveiller ce type de risque et éviter l'incendie du logement, surtout qhe le logement est tout électrique et que je charge la plupart du temps le véhicule la nuit.
+
+Premièrement j'ai installé à proximité du tableau électrique une sirène zigbee à incendie.
+
+{% include product-embed.html guid="2175" %}
+
+J'ai séparé le disjoncteur du différentiel afin de mieux dissiper la chaleur accumulée entre les deux modules
+J'ai changé le disjoncteur Legrand 40A par un disjoncteur intelligent zigbbe avec de nombreuses fonctions le Tongou {{ page.ref }}.
+
+> A là tu te dis, il n'a pas confiance en Legrand et il prend une marque chinoise !
+
+Effectivement tu n'as pas tort, pour respecter j'ai d'abord cherché du côté des grandes marques mais je n'ai pas trouvé un disjoncteur de 40A et qui mesure la chaleur. Alors je me suis tourné vers Aliexpress et j'ai vu ce disjoncteur {{ page.ref }} qui fonctionne sous le protocole Tuya. Pour me rassurer j'ai fait des recherches sur le Net et le Tongou {{ page.ref }} est [fabriqué par la société ELCB](https://fr.elcb.net/faq/){: target="_blank"}, elle fabrique du matériel éléctrique depuis 30 ans et travail entre autre avec les marques (Thyssenkrupp, Haski, STD, HL, Vistar...).
+
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
