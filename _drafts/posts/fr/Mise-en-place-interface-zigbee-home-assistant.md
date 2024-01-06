@@ -17,14 +17,11 @@ Crée un fichier nommé zigbee2mqtt.yaml
 
 coller dans ce fichier le code ci-dessous adapté aux version 0.110+ d’homeassistant:
 
-{% endhighlight %}
-<pre class="wp-block-code" title="test">{% highlight docker %}
+{% highlight yaml %}
 docker exec -it zoneminder sh
 {% endhighlight %}
-{% endhighlight %}
 
-{% endhighlight %}
-<pre class="wp-block-code" title="code zigbee2mqtt.yaml personnalisé en français">{% highlight yaml %}
+{% highlight yaml %}
 # Input select for Zigbee2mqtt debug level
 input_select:
   zigbee2mqtt_log_level:
@@ -164,23 +161,22 @@ automation:
                     Description: {{trigger.payload_json.meta.description}}"
 
 {% endhighlight %}
-{% endhighlight %}
+
 
 Ensuite intégrer la redirection du package dans le fichier configuration.yaml
 
-{% endhighlight %}
-<pre class="wp-block-code" title="lien de prise en compte du fichier zigbee2mqtt.yaml">{% highlight yaml %}
+{% highlight yaml %}
 homeassistant:
   customize: !include customize.yaml
   packages:
     zigbee2mqtt: !include packages/zigbee2mqtt.yaml
 {% endhighlight %}
-{% endhighlight %}
+
 
 Intégration d’un onglet zigbee dans lovelace après title: …
 
-{% endhighlight %}
-<pre class="wp-block-code" title="code à intégrer dans lovelace">{% highlight yaml %}
+
+{% highlight yaml %}
   - badges:
       - entity: sensor.bridge_state
       - entity: sensor.zigbee2mqtt_version
@@ -215,12 +211,11 @@ Intégration d’un onglet zigbee dans lovelace après title: …
     path: mqtt
     title: Mqtt
 {% endhighlight %}
-{% endhighlight %}
+
 
 Intégrer l’affichage de la carte [zigbee2mqtt network map](https://github.com/azuwis/zigbee2mqtt-networkmap/) dans hassio, il y a deux façons de faire soit par l’intégration du playstore communautaire HACS que je conseil fortement soit directement comme suit: premièrement collez ce code dans configuration.yaml dans la sous catégorie sensor:
 
-{% endhighlight %}
-<pre class="wp-block-code" title="intégration du map dans configuration.yaml">{% highlight yaml %}
+{% highlight yaml %}
 sensor:
   - platform: mqtt
     name: Zigbee2mqtt Networkmap
@@ -231,7 +226,7 @@ sensor:
     # again, if you change base_topic of Zigbee2mqtt, change json_attributes_topic accordingly
     json_attributes_topic: zigbee2mqtt/bridge/networkmap/raw
 {% endhighlight %}
-{% endhighlight %}
+
 
 Téléchargez [zigbee2mqtt-networkmap.js](https://github.com/azuwis/zigbee2mqtt-networkmap/releases/download/v0.6.0/zigbee2mqtt-networkmap.js)
 
@@ -239,15 +234,14 @@ Collez ce fichier dans le dossier `www/`
 
 Collez ce lien dans le fichier configuration.yaml sous lovelace: ( cette étape n’est pas à suivre si intégration par HACS )
 
-{% endhighlight %}
-<pre class="wp-block-code" title="intégration networkmap dans configuration.yaml">{% highlight yaml %}
+{% highlight yaml %}
 lovelace:
   mode: yaml
   resources:
     - url: /local/zigbee2mqtt-networkmap.js?v=0.6.0
       type: module
 {% endhighlight %}
-{% endhighlight %}
+
 
 Voilà si tout s’est bien passé vous allez avoir une interface complète pour gérer votre réseau et module Zigbee
 
