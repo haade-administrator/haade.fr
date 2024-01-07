@@ -30,13 +30,13 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
 
-J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un interrupteur diférentiel de 40A **type AC**{: .red} et reliée à un disjoncteur Legrand de 40A en courbe C.
+J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un interrupteur diférentiel de 40A **type A**{: .blue} et reliée à un disjoncteur Legrand de 40A en courbe C.
 
-> Mon erreur avoir mis un iterrrupteur différentiel de type AC au lieu de **type A**{: .ble}
+
 
 Durant 5 ans je n'ai rencontré aucun soucis, la wallbox étant équipée de la téléinformation la surcharge d'intensité du domicile est évitée.
 
-Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brulé emportant le différentiel et fort heureusement une disjonction du différentiel ducompteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
+Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brûlé emportant le différentiel et fort heureusement une disjonction du différentiel du compteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
 
 > Alors que s'est-il passé et comment y remédier.
 
