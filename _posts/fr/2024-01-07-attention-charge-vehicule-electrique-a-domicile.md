@@ -30,36 +30,93 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
 
-J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un disjoncteur diférentiel de 40A et reliée à un disjoncteur Legrand de 40A
+J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un interrupteur diférentiel de 40A **type AC**{: .red} et reliée à un disjoncteur Legrand de 40A en courbe C.
 
-Durant 5 ans je n'ai rencontré aucun soucis, la wallbox étant équipée de la téléinformation la surcharge du domicile est évitée.
+> Mon erreur avoir mis un iterrrupteur différentiel de type AC au lieu de **type A**{: .ble}
 
-Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brulé emportant le différentiel et fort heureusement une disjonction du compteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
+Durant 5 ans je n'ai rencontré aucun soucis, la wallbox étant équipée de la téléinformation la surcharge d'intensité du domicile est évitée.
+
+Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brulé emportant le différentiel et fort heureusement une disjonction du différentiel ducompteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
 
 > Alors que s'est-il passé et comment y remédier.
 
-Pour commencer j'ai remplacé ce qui a brulé (disjoncteur/différentiel), j'ai baissé sur la wallbox l'ampérage de charge maximal. Si j'ai baissé l'ampérage de charge c'est pour éviter la chaleur au niveau du disjoncteur car je pense qu'une surchauffe est à l'origine de cette anomalie. 
+Pour commencer j'ai remplacé ce qui a brûlé **(différentiel type A/disjoncteur courbe C)**, j'ai baissé sur la wallbox l'ampérage de charge maximal. 
+Si j'ai baissé l'ampérage de charge c'est pour éviter la chaleur au niveau du disjoncteur car je pense qu'une surchauffe est à l'origine de cette anomalie. 
 
 avant de domotiser le système de charge j'ai mesuré la température lors de charges prolongées. **En chargant au maximum 32A la température s'élève à 55°C** dans tout le circuit de charge ( disjoncteur 40A Legrand/cable/cablot de charge ).
 
 **A 26A la température relevée est de 39°C**
 
-Mais voilà je n'ai plus confiance en **la marque Legrand** du moins pour la charge du véhicule. Alors que faire pour surveiller ce type de risque et éviter l'incendie du logement, surtout qhe le logement est tout électrique et que je charge la plupart du temps le véhicule la nuit.
+Mais voilà je n'ai plus confiance en cette méthode de branchement **Legrand** du moins pour la charge du véhicule. Alors que faire pour surveiller ce type de risque et éviter l'incendie du logement, surtout qhe le logement est tout électrique et que je charge la plupart du temps le véhicule la nuit.
 
 Premièrement j'ai installé à proximité du tableau électrique une sirène zigbee à incendie.
 
 {% include product-embed.html guid="2175" %}
 
-J'ai séparé le disjoncteur du différentiel afin de mieux dissiper la chaleur accumulée entre les deux modules.
-J'ai changé le disjoncteur Legrand 40A par un disjoncteur intelligent zigbee avec de nombreuses fonctions le Tongou {{ page.ref }}.
+J'ai rajouté au différentiel/disjoncteur 40A un commutateur intelligent zigbee avec de nombreuses fonctions le Tongou {{ page.ref }}.
 
-> A là tu te dis, il n'a pas confiance en Legrand et il prend une marque chinoise !
+> A là tu te dis, il n'a pas confiance en Legrand et il rajoute au circuit une marque chinoise !
 
 Effectivement tu n'as pas tort, pour respecter j'ai d'abord cherché du côté des grandes marques mais **je n'ai pas trouvé un disjoncteur de 40A et qui mesure la chaleur.** Alors je me suis tourné vers Aliexpress et j'ai vu ce disjoncteur {{ page.ref }} qui fonctionne sous le protocole Zigbee et Tuya. Pour me rassurer j'ai fait des recherches sur le Net et le Tongou {{ page.ref }} est [fabriqué par la société ELCB](https://fr.elcb.net/faq/){: target="_blank"}, elle fabrique du matériel éléctrique depuis 30 ans et travail entre autre avec les marques (Thyssenkrupp, Haski, STD, HL, Vistar...).
 
+## Rappel
+Un différentiel est là pour protéger les personnes en cas de fuites de courants supérieur à 30ma
+Un disjoncteur protège le matériel contre les surintensités ou les court-circuits
+
+## Quel intérêt du Tongou {{ page.ref }}
+
+Pour moi l'intérêt est de mesurer la température à l'intérieur des composants et de domotiser une coupoure en fonction d'une éventuelle surchauffe.
+
+## Le commutateur intelligent Tongou {{ page.ref }} protège:
+
+- le circuit contre les surcharges
+- le circuit contre les surtensions
+- le circuit contre les soutensions
+- le circuit contre les surintensités
+- le circuit contre les températures élevées
+
+## Contrôle par la domotique
+
+Et c'est là que le module est fort intéressant, ça concerne le nombre de fonctionnalités paramétrables et controlables à distance grâce à ton assistant préféré.
+
+Tu pourras contrôler das ZHA, Zigbee2mqtt, Tuya et smartlife
+
+- contrôler l'allumage
+- la mémoire en cas de coupure du courant
+- paramétrer le mode de léclairage de l'indicateur de fonctionnement
+- mesurer la puissance instantanée
+- mesurer l'ampérage en instantané
+- faire remonter dans le dashboard l'énergie cumulée ( home assistant )
+- la température interne
+- la coupure en cas de température élevée ainsi que le seuil de cette température
+- la coupure en cas de surcharges ainsi que le seuil de surcharge
+- la coupure en cas de surintensité ainsi que le seuil d'ampérage
+- la coupure en cas de surtension ainsi que le seuil
+- la coupure en cas de soutension ainsi que le seuil
+- la qualité du lien zigbee (Z2M et Tuya)
+
+> Alors là c'est très impressionnant surtout que j'ai acheté ce commutateur 15€ et il est garantie 2ans.
+
 {% include videoPlayer.html youtubeId="XdC2B13nKRg?si=U1b3yoDo5KX1b4sd" %}
 
-[Norme Ce des disjoncteurs pour la France](https://fr.electrical-installation.org/frwiki/Normes_et_description_des_disjoncteurs#:~:text=Les%20disjoncteurs%20industriels%20doivent%20%C3%AAtre,conformes%20aux%20normes%20CEI%2060898.){: target="_blank"}
+## Intégration dans Zigbee2mqtt
+
+[Info Norme Ce des disjoncteurs pour la France](https://fr.electrical-installation.org/frwiki/Normes_et_description_des_disjoncteurs#:~:text=Les%20disjoncteurs%20industriels%20doivent%20%C3%AAtre,conformes%20aux%20normes%20CEI%2060898.){: target="_blank"}
+
+## Qu'est-ce qui aurait pu être amélioré
+
+Mise à part la partie du visuel hardware qui aurait pu être plus conforme aux standards Legrand/hager, ce qui me dérange le plus se situe au niveau de l'éclairage de la Led d'affichage de la connectivité Zigbee.
+
+Après inclusion dans ton système préféré la Led reste bleu et d'ailleurs assez intense. La gestion aurais-pu être moins voyante par exemple chez Legrand Netatmo.
+Le voyant est:
+- rouge quand le module est hors réseau
+- vert quand le module est intégré
+- s'éteint après intégration totale du module
+- se rallume en vert quand tu met ton système en mode inclusion
+
+Mais bon un tel module coûte entre 55 et _à€
+
+Deuxième chose qui aurait pu être amélioré est le rajout d'entrées pour paramétrer **ton système d'éclairage de type télérupteur.** Le Tongou {{ page.ref }}
 
 ## Documents Tongou {{ page.ref }}
 
@@ -116,13 +173,14 @@ Effectivement tu n'as pas tort, pour respecter j'ai d'abord cherché du côté d
 - Google Assistant
 - Amazon Alexa
 - **Très Nombreuses fonctions**
-- Normes CEI 60947-1 disjoncteur industriel
+- Normes CEI 60947-1
 - Garantie 2 ans
 
 
 ## **les - du produit** {{ page.ref }}
 {: .red}
 
-- décallage neutre/phase partie supérieur pour peigne
-- norme CEI 60898 disjoncteur domestique non trouvé
+- n'assure pas le rôle de court-circuit
+- n'est pas considéré comme un disjoncteur
+- la gestion de la Led de connectivité Zigbee
 
