@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 5.0 
 sourcelink:
   - https://fr.elcb.net/Les-produits/disjoncteur-intelligent-zigbee-protection-contre-les-surintensit%C3%A9s-sous-tension-%C3%A0-q-sy2-jzt/
 ---
@@ -32,9 +32,9 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
 
 J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du 3G10 protégé par un interrupteur diférentiel de 40A **type A**{: .blue} et reliée à un disjoncteur Legrand de 40A en courbe C.
 
-
-
 Durant 5 ans je n'ai rencontré aucun soucis, la wallbox étant équipée de la téléinformation la surcharge d'intensité du domicile est évitée.
+
+{% picture posts/{{ page.guid }}/disjoncteur-differentiel-legrand-brule-wallbox-garage.png --alt attention branchement wallbox disjoncteur 40A legrand a brulé suite à une surchauffe --img width="940" height="529" %}
 
 Et pourtant ce mois de Novembre 2023 le Disjoncteur 40A de marque Legrand a brûlé emportant le différentiel et fort heureusement une disjonction du différentiel du compteur principal a eu lieu, le feu ne s'est pas propagé dans le tableau électrique.
 
