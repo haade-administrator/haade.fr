@@ -7,12 +7,12 @@ layout: post
 author: Nico
 date: 2024-01-06 10:13
 last_modified_at: 
-categories: [Sécurité, News]
+categories: [Securite, Tests, News]
 tags: []
 image: 'attention-risque-incendie-charge-ve-domicile.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -25,11 +25,15 @@ rating: 4.4
 sourcelink:
   - https://fr.elcb.net/Les-produits/disjoncteur-intelligent-zigbee-protection-contre-les-surintensit%C3%A9s-sous-tension-%C3%A0-q-sy2-jzt/
   - https://forum.hacf.fr/t/disjoncteur-en-zigbee-vos-retours/28150/11
+  - https://hackaday.com/2021/04/18/diy-wireless-serial-adapter-speaks-true-rs-232/
 ---
+**Attention ! risque d'incendie des Wallbox sur les recharges à domiciles des véhicules éléctriques !**
 
 Comme de plus en plus de personnes sur cette planète je possède un véhicule éléctrique que je charge exclusivement depuis plus de 5ans à domicile à l'aide d'un chargeur EV de marque [VE-tronic](http://ve-tronic.fr/store/wallbox){: target="_blank"}.
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
+
+## Mésaventure
 
 J'ai bientendu respecté la notice de pose sachant que l'ensemble fait passer 7200w, alors la liaison au tableau éléctrique est réalisée avec du **3G10** protégé par un interrupteur diférentiel de 40A **type A**{: .blue} et reliée à un disjoncteur Legrand de 40A en courbe C.
 
@@ -147,7 +151,7 @@ Dans cet article j'ai repris que l'intégration dans Zigbee2mqtt pour éviter de
 
 Pour commencer l'inclusion est simple, rapide et stable. Le commutateur et bien reconnu **comme routeur**.
 
-{% picture posts/{{ page.guid }}/comparatif-bornier-tongou-TO-Q-SY2-JZT-legrand-disjoncteur.png --alt comparatif façade du switch rail-din tongou TO-Q-SY2-JZT et disjoncteur NF Legrand face bornier --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/tongou-TO-Q-SY2-JZT-onglet-infos-fonction-zigbee2mqtt.png --alt intégration zigbee2mqtt onglet info façade du switch rail-din tongou TO-Q-SY2-JZT --img width="940" height="647" %}
 
 Au niveau des expositions des commandes, je sais la liste est longue rien de mieux qu'une image pour les énumérer.
 - J'ai inversé l'indicateur du bouton physique
@@ -156,10 +160,10 @@ Au niveau des expositions des commandes, je sais la liste est longue rien de mie
 
 - température supérieur à 60°C
 - si la puissance est supérieur à 8kw
-- si l'ampérage est supérieur à 40A
+- si l'ampérage est supérieur à 33A
 - si le voltage est inférieur à 215 ou supérieur à 245V
 
-{% picture posts/{{ page.guid }}/comparatif-bornier-tongou-TO-Q-SY2-JZT-legrand-disjoncteur.png --alt comparatif façade du switch rail-din tongou TO-Q-SY2-JZT et disjoncteur NF Legrand face bornier --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/tongou-TO-Q-SY2-JZT-onglet-expose-fonction-zigbee2mqtt.png --alt intégration zigbee2mqtt onglet fonctions dispos du switch rail-din tongou TO-Q-SY2-JZT --img width="940" height="1022" %}
 
 ## Qu'est-ce qui aurait pu être amélioré
 
@@ -172,30 +176,35 @@ Le voyant est:
 - s'éteint après intégration totale du module
 - se rallume en vert quand tu met ton système en mode inclusion
 
-Mais bon un tel module coûte entre 55 et 80€
+**Mais bon un tel module coûte entre 55 et 80€**
 
-Deuxième chose qui aurait pu être amélioré est le rajout d'entrées pour paramétrer **ton système d'éclairage de type télérupteur.** 
+Deuxième chose qui aurait pu être amélioré est le rajout d'entrées pour paramétrer **ton système d'éclairage de type télérupteur** 
 
 > Enfin Le Tongou {{ page.ref }} aurait pu être un disjoncteur et non un commutateur afin d'éviter la surcharge de module dans le tableau éléctrique
 
 ## Mesure des températures
 
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
+
 ### Branchement sans disjoncteur
 
 Pour réaliser ce test le temps de relever la température j'ai branché le différentiel et directement le commutateur {{ page.ref }} en laissant un espace entre les deux.
-Lors d'une phase de charge du véhicule à 32A Le Tongou {{ page.ref }} passe de 20°C à 38°C maximum comme le montre le graphique ci-dessous.
+Lors d'une phase de charge du véhicule à 32A Le Tongou {{ page.ref }} passe de 20°C à 37°C maximum comme le montre le graphique ci-dessous.
 
-{% picture posts/{{ page.guid }}/mesure-charge-temperature-tongou-seul-sans-disjoncteur.png --alt mesure des températures lors d'une charge ve du tongou TO-Q-SY2-JZT --img width="940" height="368" %}
+{% picture posts/{{ page.guid }}/mesure-charge-temperature-tongou-seul-sans-disjoncteur.png --alt mesure des températures lors d'une charge ve du tongou TO-Q-SY2-JZT --img width="940" height="250" %}
+
+### Branchement avec disjoncteur
 
 Ensuite j'ai branché le **disjoncteur** en plus du différentiel et du commutateur le tout accolé dans le tableau éléctrique ( pour rappel la température mesurée sur le disjoncteur Legrand branché sans le Tongou s'élevait à **55°C**{: .red} en pleine charge )
-Lors d'une phase de charge du véhicule à 32A la température passe de à comme le montre le graphique ci-dessous.
+Lors d'une phase de charge du véhicule à 32A la température passe de 22 à **46°C**{: .orange} comme le montre le graphique ci-dessous.
 
-{% picture posts/{{ page.guid }}/mesure-charge-temperature-tongou-seul-sans-disjoncteur.png --alt mesure des températures lors d'une charge ve du tongou TO-Q-SY2-JZT --img width="940" height="368" %}
+{% picture posts/{{ page.guid }}//mesure-charge-temperature-tongou-avec-disjoncteur.png --alt mesure des températures lors d'une charge ve du tongou TO-Q-SY2-JZT accolé disjoncteur --img width="940" height="230" %}
 
-**récap:**
-1. différentiel accolé à disjoncteur **55°C**{: .red}
-2. différentiel séparé commutateur tongou 38°C{: .blue}
-3. différentiel accolé disjoncteur accolé commutateur ..°C
+### Récap
+
+1. différentiel + disjoncteur **55°C**{: .red}
+2. différentiel + commutateur tongou **37°C**{: .blue}
+3. différentiel + disjoncteur + commutateur **46°C**{: .orange}
 
 ## Documents Tongou {{ page.ref }}
 
@@ -206,22 +215,6 @@ Lors d'une phase de charge du véhicule à 32A la température passe de à comme
 {% include doclink.html pdf="SY1-SY2-wi-fi-Smart-Switch-CE-RED-LVD-EMC-certificate.pdf" title="Certification CE RED LVD disjoncteur Tongou TO-Q-SY2-JZT" %}
 
 ## Caractéristiques techniques {{ page.ref }}
-
-|Product or component type|TO-Q-SY2-JZT|
-|Application|Smart Life, Smart Electric, Tuya|
-|Third party support|Home Assistant, Zigbee2MQTT|
-|Poles description|1P+N (Direct N Pole)|
-|Function|Timing, Countdown, Loop timing, Metering, Over Current, Under Voltage, Over Voltage, Over Power, High Temperature Protection.|
-|Rated Current (In)|1 – 63A|
-|Operating voltage Range|AC 90V – 280V|
-|Rated Frequency|50Hz/60Hz|
-|Control Type|Remote, Manual|
-|Communication Protocol|Zigbee 3.0|
-|Operating system support|Android, iOS, HarmonyOS|
-|Gateway	Zigbee|(Wireless / Wired)|
-|Operating Language|With system language|
-|App Language|Follow the operating system language|
-|Voice Support|Amazon Alexa, Yandex Alice, Google Assistant..|
 
 |Type de produit ou de composant|TO-Q-SY2-JZT|
 |Application|Vie intelligente, électrique intelligent, Tuya|
@@ -239,8 +232,6 @@ Lors d'une phase de charge du véhicule à 32A la température passe de à comme
 |Langue de l'application|Suivez la langue du système d'exploitation|
 |Assistance vocale|Amazon Alexa, Yandex Alice, Google Assistant..|
 
-{% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
-
 ## **les + du produit** {{ page.ref }}
 {: .blue}
 
@@ -249,6 +240,7 @@ Lors d'une phase de charge du véhicule à 32A la température passe de à comme
 - compatible Zigbee2mqtt (Home Assistant, Gladys, Jeedom)
 - compatible ZHA
 - compatible Tuya/Smartlife
+- ne surchauffe pas
 - Google Assistant
 - Amazon Alexa
 - **Très Nombreuses fonctions**
@@ -265,13 +257,17 @@ Lors d'une phase de charge du véhicule à 32A la température passe de à comme
 - n'assure pas le rôle de télérupteur
 - en amont doit être branché un différentiel et un disjoncteur dédié par circuit.
 
-## Prochaine étape
+## Prochaine étape domotiser la Wallbox ve-tronic
 
-La Wallbox à 5 ans et elle n'est pas par défaut domotisable, mais j'ai une possibilité de le faire en RS232 et je vais m'y atteler ainsi je pourrais commander l'allumage ou l'extinction, mais aussi modifier l'ampérage, ainsi en cas de surchauffe au lieu de couper le courant de la Wallbox je n'aurai qu'à demander à abaisser l'ampérage et ce sera top.
+**La Wallbox à 5 ans et elle n'est pas par défaut domotisable**, mais j'ai une possibilité de le faire en RS232 et je vais m'y atteler ainsi je pourrais commander l'allumage ou l'extinction, mais aussi modifier l'ampérage, ainsi en cas de surchauffe au lieu de couper le courant de la Wallbox je n'aurai qu'à demander à abaisser l'ampérage et ce sera top.
 
-## Gros coup de gueules
+Depuis peu **C4Software** à sorti un répertoire pour pouvoir domotiser la Wallbox ce-tronic avec un RS232 et esp8266, [il est consultable ici](https://github.com/c4software/vetronic-esphome){: target="_blank"}
 
-On nous rabachent constemment que Legrand c'est de la qualité, suivant certains c'est le top NF, mais là je ne peux qu'exploser rien que le prix totalement démentiel et un disjoncteur qui n'est même pas capable de maintenir une température décente alors qu'un module chinois sait le faire
+## Gros coup de gueule
+
+**On nous rabâche constamment que Legrand, c'est de la qualité**, suivant certains c'est le top NF, mais là je ne peux qu'exploser, rien que le prix totalement démentiel de plus ces disjoncteur ne sont même pas capable de maintenir une température décente **alors qu'un module chinois fait mieux**.
+
+{% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Disjoncteur intelligent Tongou" brand="Tongou" description="Disjoncteur intelligent Tuya MCB, mesure de la puissance, interrupteur intelligent, protection contre les surintensités et les sous-tensions, WiFi, Zigbee, 1-63A, protection contre la surchaleur" affiliate="_DddSzXJ" %}
 
 ## Conclusion
 
