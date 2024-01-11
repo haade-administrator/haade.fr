@@ -1,9 +1,11 @@
 <!-- Comments
+https://developers.google.com/search/docs/appearance/structured-data/discussion-forum?hl=fr#comment
 ================================================== -->
 {%- if page.comments != false %}
 <div class="comments mt-5">
     <button class="btn btn-outline-dark py-2 px-5 d-block w-100 show-comments"><i class="ico comments-solid text-muted"></i> &nbsp; {{ translate.giscus.load[page.locale] }}</button>
-    <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment">
+    <div id="comments">
+    <!-- <div id="comments" itemprop="comment" itemscope itemtype="https://schema.org/Comment"> -->
         <h4 class="mb-4">{{ translate.giscus.title[page.locale] }}</h4>
         {%- assign provider = site.comments.provider | default:"giscus" %}
         {%- if provider == "giscus" %}
