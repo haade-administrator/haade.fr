@@ -29,7 +29,7 @@ sourcelink:
 ---
 **Attention ! risk of fire from Wallbox when recharging electric vehicles at home!**
 
-Like more and more people on this planet, I own an electric vehicle that I have been charging exclusively for over 5 years at home using a [VE-tronic] brand EV charger (http://ve-tronic.fr/store/wallbox){: target="_blank"}.
+Like more and more people on this planet, I own an electric vehicle that I have been charging exclusively for over 5 years at home using a brand EV charger [VE-tronic](http://ve-tronic.fr/store/wallbox){: target="_blank"}.
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Tongou smart circuit breaker" brand="Tongou" description="Tuya MCB Smart Circuit Breaker, Power Metering, Smart Switch, Overcurrent and Undervoltage Protection, WiFi, Zigbee, 1-63A, Overheat Protection" affiliate="_DddSzXJ" %}
 
