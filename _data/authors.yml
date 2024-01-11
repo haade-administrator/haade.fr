@@ -14,21 +14,6 @@
       fr_FR: "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens."
       en_GB: "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well."
 
-  Yann:
-    name: Yann
-    display_name: Yann
-    avatar: 'yann.jpg'
-    email: tonton@haade.fr
-    web:
-    url:
-    youtube: https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w
-    facebook: https://www.facebook.com/Haade-104508121049333
-    discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Goreskull#9386
-    github:
-    description:
-      fr_FR: "Newbie en domotique j'aide Nico et Math dans l'intégration visuelle des articles"
-      en_GB: "Newbie in home automation I help Nico and Math in the visual integration of articles"
-
   Math67:
     name: Math67
     display_name: Math67
@@ -43,3 +28,33 @@
     description:
       fr_FR: "Passionné par la bidouille et l'électricité"
       en_GB: "Passionate about tinkering and electricity"
+  
+  Paulo:
+    name: Paulo
+    display_name: Paulo Debière
+    avatar: 'paulo.png'
+    email: 
+    web:
+    url:
+    youtube: https://www.youtube.com/@lesfreresopak
+    facebook:
+    discord:
+    github:
+    description:
+      fr_FR: ""
+      en_GB: ""
+
+  Yann:
+    name: Yann
+    display_name: Yann
+    avatar: 'yann.jpg'
+    email: tonton@haade.fr
+    web:
+    url:
+    youtube: https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w
+    facebook: https://www.facebook.com/Haade-104508121049333
+    discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Goreskull#9386
+    github:
+    description:
+      fr_FR: "Newbie en domotique j'aide Nico et Math dans l'intégration visuelle des articles"
+      en_GB: "Newbie in home automation I help Nico and Math in the visual integration of articles"
