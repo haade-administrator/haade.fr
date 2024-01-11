@@ -10,6 +10,9 @@ docs:
 
     - title: Panlee
       url: http://en.smartpanle.com/
+    
+    - title: Kincony
+      url: https://www.kincony.com/product
 
   en_GB:
 
@@ -18,3 +21,6 @@ docs:
 
     - title: Panlee
       url: http://en.smartpanle.com/
+
+    - title: Kincony
+      url: https://www.kincony.com/product
