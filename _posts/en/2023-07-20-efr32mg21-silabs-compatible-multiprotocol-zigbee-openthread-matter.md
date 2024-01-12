@@ -6,7 +6,7 @@ ref: ""
 layout: post
 author: Nico
 date: 2023-08-07 10:20
-last_modified_at: 
+last_modified_at: 2024-01-12 10:52
 categories: [Haade-lab, Automation, Zigbee]
 tags: []
 image: 'efr32mg21-compatible-zigbee-et-thread-matter-silabs-confirme-en.png'
@@ -79,9 +79,9 @@ More recently firmware based on **Remote Co-Processor (RCP)** has become availab
 
 ### List of firmwares dispo
 
-- Zigbee ezsp NCP **( v7.3.1.0 )**{: .red}
-- Multi-protocole RCP **(MULTI-PAN v4.3.1)**{: .red}
-- Openthread **( v2.3.1.0 )**{: .red}
+- Zigbee ezsp NCP **( v7.4.0.0 )**{: .red}
+- Multi-protocole RCP **(MULTI-PAN v4.4.0)**{: .red}
+- Openthread **( v2.4.0.0 )**{: .red}
 - choose a firmware **personnalisé**
 
 ### Video of a ZBDongle-E key flash
