@@ -15,34 +15,45 @@ sitemap:
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 >
   <channel>
+  {%- assign translate = site.data.locales.translate %}
     <title>{{ site.name | xml_escape }}</title>
-    <description>{%- if site.description %}{{ site.description | xml_escape }}{%- endif %}</description>
+    <description>{%- if site.description %}{{ translate.site.description[page.locale] | xml_escape }}{%- endif %}</description>
     <sy:updatePeriod>{{ site.feed_update_period | default: 'daily' | xml_escape }}</sy:updatePeriod>
     <sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <link>{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/</link>
     <atom:link href="{{ site.url }}{{ site.baseurl }}/{{ page.path }}" rel="self" type="application/rss+xml" />
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{%- for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{%- endfor %}</lastBuildDate>
+    <image>
+        <url>{{ site.url }}{{ site.baseurl }}/assets/images/favicon.png</url>
+        <title>{{ site.title | xml_escape }}</title>
+          <link>{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/</link>
+          <width>32</width>
+            <height>32</height>
+    </image>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {%- assign posts = site.posts | where: 'locale', page.locale %}
     {%- for post in posts limit: 10 %}
     <item>
-      <image>
-         <url>{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}</url>
-          <title>{{ site.title | xml_escape }}</title>
-           <link>{{ site.url }}{{ site.baseurl }}</link>
-            <width>944</width>
-             <height>531</height>
-           </image>
       <title>{{ post.title | xml_escape }}</title>
       {%- assign author = site.data.authors[post.author] %}
       {%- if post.author %}
       <dc:creator>{{ post.author | xml_escape }}</dc:creator>
       {%- endif %}
-      {%- if post.excerpt %}
-      <description>{{ post.excerpt | xml_escape }}</description>
-      {%- else %}
-      <description>{{ post.content | xml_escape }}</description>
+      {%- if post.description %}
+      <description>
+      <![CDATA[
+      <p>{{ post.description | xml_escape }}</p>
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
+      <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      ]]>
+      </description>
+      {%- elsif post.excerpt %}
+      <description><![CDATA[
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
+      <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      ]]>
+      </description>
       {%- endif %}
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <link>{{ site.url }}{{ post.url }}</link>
