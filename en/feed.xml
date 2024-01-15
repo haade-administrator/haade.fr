@@ -11,8 +11,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Jan 2024 13:41:55 +0000</pubDate>
-    <lastBuildDate>Sat, 06 Jan 2024 10:13:00 +0000</lastBuildDate>
+    <pubDate>Mon, 15 Jan 2024 15:14:05 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2024 11:24:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade.fr</title>
@@ -21,6 +21,22 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Aeotec finally releases its Zigbee controller</title>
+      <dc:creator>Nico</dc:creator>
+      <description>
+      <![CDATA[
+      <p>that&apos;s it Aeotec is getting into zigbee, the famous brand known for its quality modules is finally releasing a zigbee controller, the zi-stick</p>
+      <img src="https://haade.fr/assets/images/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008.png" alt="Aeotec finally releases its Zigbee controller">
+      <p>Ah Finally Aeotec releases its Zigbee 3.0 compatible dongle, this manufacturer of quality modules has decided to market a zigbee usb adapter zi-stick ZGA008 to the Silabs protocol with a Chipset almost similar to Skyconnect or Zbdongle-e. But it has the distinction of being the smallest efficient dongle on the [...]</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 12 Jan 2024 11:24:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</guid>
+      <category>Tests</category>
+      <category>Zigbee</category>
+    </item>
     <item>
       <title>Be careful when charging electric vehicles at home</title>
       <dc:creator>Nico</dc:creator>
@@ -166,23 +182,6 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <link>https://haade.fr/en/blog/blackfrday-to-itead-sonoff-2023</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/blackfrday-to-itead-sonoff-2023</guid>
       <category>News</category>
-    </item>
-    <item>
-      <title>Eagerly awaited Truenas &apos;Cobia&apos; is here!</title>
-      <dc:creator>Nico</dc:creator>
-      <description>
-      <![CDATA[
-      <p>We have been waiting for a long time for a new version of the free NAS management system Truenas scale version which runs under Debian, Truenas v23.10 Cobia</p>
-      <img src="https://haade.fr/assets/images/posts/94/truenas-scale-23-10-cobia.png" alt="Eagerly awaited Truenas 'Cobia' is here!">
-      <p>TrueNAS like Openmediavault is part of the very restricted world of software dedicated to managing a NAS. For two years the TrueNAS team decided to create a version running on Debian, like TrueNAS Core which runs on FreeBSD. Which makes TrueNAS Scale the only competing version of Openmediavault.
-</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 12 Nov 2023 12:26:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/truenas-scale-cobia-23-10-finally-released</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/truenas-scale-cobia-23-10-finally-released</guid>
-      <category>Haade-lab</category>
-      <category>Security</category>
     </item>
   </channel>
 </rss>
