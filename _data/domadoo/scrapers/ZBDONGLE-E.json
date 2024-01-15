@@ -6,30 +6,30 @@
         "description": "Contrôlez vos dispositifs Zigbee avec la clé USB SONOFF Zigbee compatible Home Assistant et Zigbee2MQTT.",
         "productNew": "Nouveau",
         "minsalePrice": "27.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "69.00",
+        "discount": "-5%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "69.00",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
-            "https://www.domadoo.fr/22637-large_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22637-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22647-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22638-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22639-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22640-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22641-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22642-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22643-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22644-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22645-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
-            "https://www.domadoo.fr/22646-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg"
+            "https://cdn1.domadoo.fr/22637-large_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22637-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22647-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22638-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22639-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22640-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22641-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22642-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22643-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22644-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22645-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg",
+            "https://cdn1.domadoo.fr/22646-medium_default/sonoff-cle-usb-zigbee-30-antenne-externe-20dbm-v2-zbdongle-e.jpg"
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.6",
-            "totalStarCount": "58"
+            "averageStar": "4.7",
+            "totalStarCount": "60"
         }
     }
 }

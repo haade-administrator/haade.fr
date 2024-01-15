@@ -1,0 +1,28 @@
+{
+    "product": {
+        "linkId": "controleurs-adaptateurs/6777-controleur-usb-zigbee-zi-stick-aeotec-1220000017191",
+        "productId": "AEO_ZGA008",
+        "title": "Contrôleur USB Zigbee Zi-Stick - AEOTEC",
+        "description": "Votre passerelle pour créer votre propre box domotique Zigbee.",
+        "productNew": "",
+        "minsalePrice": "29.99",
+        "maxsalePrice": "34.96",
+        "discount": "-10%",
+        "currency": "EUR",
+        "originalPrice": "34.96",
+        "quantity": "3 Produits disponibles",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/27010-large_default/controleur-usb-zigbee-zi-stick-aeotec.jpg",
+            "https://cdn1.domadoo.fr/27010-medium_default/controleur-usb-zigbee-zi-stick-aeotec.jpg",
+            "https://cdn1.domadoo.fr/27011-medium_default/controleur-usb-zigbee-zi-stick-aeotec.jpg",
+            "https://cdn1.domadoo.fr/27012-medium_default/controleur-usb-zigbee-zi-stick-aeotec.jpg",
+            "https://cdn1.domadoo.fr/27013-medium_default/controleur-usb-zigbee-zi-stick-aeotec.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

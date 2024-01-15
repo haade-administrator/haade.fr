@@ -6,18 +6,18 @@
         "description": "Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "productNew": "",
         "minsalePrice": "73.20",
-        "maxsalePrice": "359.00",
-        "discount": "-50%",
+        "maxsalePrice": "49.99",
+        "discount": "-10%",
         "currency": "EUR",
-        "originalPrice": "359.00",
+        "originalPrice": "49.99",
         "quantity": "Hors stock",
         "supply_date": null,
         "image": [
-            "https://www.domadoo.fr/18495-large_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
-            "https://www.domadoo.fr/18495-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
-            "https://www.domadoo.fr/8456-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
-            "https://www.domadoo.fr/8457-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
-            "https://www.domadoo.fr/8569-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg"
+            "https://cdn1.domadoo.fr/18495-large_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
+            "https://cdn1.domadoo.fr/18495-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
+            "https://cdn1.domadoo.fr/8456-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
+            "https://cdn1.domadoo.fr/8457-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg",
+            "https://cdn1.domadoo.fr/8569-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpf-102-zw5-schuko.jpg"
         ],
         "ratings": {
             "totalStar": "5",

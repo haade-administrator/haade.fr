@@ -6,15 +6,15 @@
         "description": "Ce boîtier d'encastrement vous permettra d'optimiser le câblage et l'installation de vos micromodules.",
         "productNew": "",
         "minsalePrice": "10.00",
-        "maxsalePrice": "0.99",
-        "discount": "-50%",
+        "maxsalePrice": "16.68",
+        "discount": "-10%",
         "currency": "EUR",
-        "originalPrice": "0.99",
+        "originalPrice": "16.68",
         "quantity": "14 Produits disponibles",
         "supply_date": null,
         "image": [
-            "https://www.domadoo.fr/9526-large_default/blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre.jpg",
-            "https://www.domadoo.fr/9526-medium_default/blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre.jpg"
+            "https://cdn1.domadoo.fr/9526-large_default/blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre.jpg",
+            "https://cdn1.domadoo.fr/9526-medium_default/blm-boitier-d-encastrement-pour-micromodule-version-point-de-centre.jpg"
         ],
         "ratings": {
             "totalStar": "5",
