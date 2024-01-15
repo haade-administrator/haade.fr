@@ -50,14 +50,14 @@ sitemap:
       <p>{{ post.description | xml_escape }}</p>
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
-      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}.</p>
+      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}</a>.</p>
       ]]>
       </description>
       {%- elsif post.excerpt %}
       <description><![CDATA[
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
-      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}.</p>
+      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}</a>.</p>
       ]]>
       </description>
       {%- endif %}

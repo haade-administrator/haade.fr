@@ -49,14 +49,14 @@ locale: fr_FR
       <p>{{ post.description | xml_escape }}</p>
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
-      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}.</p>
+      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}</a>.</p>
       ]]>
       </description>
       {%- elsif post.excerpt %}
       <description><![CDATA[
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
-      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}.</p>
+      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}</a>.</p>
       ]]>
       </description>
       {%- endif %}
