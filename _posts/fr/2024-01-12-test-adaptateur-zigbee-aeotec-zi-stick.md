@@ -29,6 +29,61 @@ sourcelink:
 
 Ah **Enfin Aeotec** sort son dongle compatible Zigbee 3.0, ce fabriquant de modules de qualités a décidé de commercialiser un adaptateur usb zigbee le **Zi-Stick** au protocole Silabs avec un Chipset quasi similaire au Skyconnect ou Zbdongle-e **mais il a la particularité d'être le plus petit dongle performant du marché**, t'as bien entendu encore plus petit que le Skyconnect fourni par Home Assistant.
 
+{% picture posts/{{ page.guid }}/presentation-zi-stick-ZGA008-aeotec-dongle-zigbee.png --alt présentation du dongle aeotec zi-stick ZGA008 adaptateur mini zigbee 3.0 --img width="940" height="529" %}
+
+## Déballage
+
+Rien de plus simple une belle boite bleue aux couleurs de la marque Aeotec renferme ce micro dongle zigbee, il est soigneusement protégé dans une boite blanche. À l'intérieur tu y trouveras une notice et une fiche de sécurité.
+
+> rien de plus, rien de moins.
+ 
+{% picture posts/{{ page.guid }}/deballage-dongle-aeotect-zi-stick-zigbee-3-ZGA008.png --alt déballage du dongle aeotec zi-stick ZGA008 adaptateur mini zigbee 3.0 --img width="940" height="529" %}
+
+Le zi-stick est actuellement le plus petit dongle zigbee du marché, même plus petit que le skyconnect, il se pare d'une enveloppe blanche à la face plate et un dos arrondi, très bonne qualité de fabrication.
+
+{% picture posts/{{ page.guid }}/rendu-taille-adaptateur-aeotec-zi-stick-dongle-zigbee.png --alt rendu du dongle aeotec zi-stick ZGA008 adaptateur mini zigbee 3.0 tenu dans la main --img width="940" height="529" %}
+
+Et une petite photo du dos de l'adaptateur {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/face-arriere-arrondie-dongle-aeotec-zi-stick-zga008.png --alt rendu du dos arrondi du dongle aeotec zi-stick ZGA008 adaptateur mini zigbee 3.0 tenu dans la main --img width="940" height="529" %}
+
+## Intégration dans Zigbee2mqtt
+
+l'intégration du dongle Aeotec {{ page.ref }} s'est fait sans aucun soucis dans zigbee2mqtt, mais il subsite une erreur, z2m crée 2 bridges du dongle dans l'appli, ce qui est bizarre mais pas redondant. 
+
+{% picture posts/{{ page.guid }}/integration-vue-creation-2-bridge-aeotec-zi-stick-zigbee2mqtt-bridge.png --alt création de deux bridges du zi-stick dans zigbee2mqtt --img width="940" height="57" %}
+
+je m'explique:
+- le premier bridge remonte le capteur de connection avec un firmware v12
+- le second fait apparaitre l'ensemble des fonctions de fonctionnement du dongle et un firmware différent du précédent bridge.
+
+**Vue du bridge 1 créé**
+
+{% picture posts/{{ page.guid }}/integration-aeotec-zi-stick-zigbee2mqtt-bridge1.png --alt vue du bridge 1 créé dans zigbee2mqtt du zi-stick dans zigbee2mqtt --img width="940" height="704" %}
+
+> Bizarre.
+
+**Vue du bridge 2 créé**
+
+{% picture posts/{{ page.guid }}/integration-aeotec-zi-stick-zigbee2mqtt-bridge2.png --alt vue du bridge 2 créé dans zigbee2mqtt du zi-stick dans zigbee2mqtt --img width="940" height="487" %}
+
+Cependant l'intégration des modules se fait sans soucis, du coup il est utilisable. 
+
+> Cette erreur provient sois de zigbee2mqtt mais je pense que ça pourrait provenir directement du firmware injecté dans la clé, une erreur est possible.
+
+## Intégration dans ZHA
+
+L'intégration dans ZHA ne pose aucun soucis il suffit simplement de sélectionner la destination de la clé ```/dev/ttyUSB0``` et le reste se fait automatiquement.
+
+{% picture posts/{{ page.guid }}/integration-aeotec-zi-stick-zha-home-assistant.png --alt intégration dans zha du zi-stick dans zigbee2mqtt --img width="940" height="658" %}
+
+L'intégration d'un module se fait sans aucune difficulté la clé Aeotec {{ page.ref }} et ZHAfont le Job.
+
+{% picture posts/{{ page.guid }}/resultat-appairage-module-zi-stick-zha-aeotec.png --alt appairage dans zha d'un module zigbee avec le zi-stick dans zigbee2mqtt --img width="422" height="494" %}
+
+![Intégration du dongle aeotec zi-stick dans ZHA home assistant]({{ site.baseurl }}/assets/images/posts/104/integration-dongle-zi-stick-aeotec-zha-home-assistant.webp{{ cachebuster }}){: width="600" height="482"}{: target="_blank"}
+
+
 ## Caractéristiques techniques
 
 |Name|Zi-Stick|
