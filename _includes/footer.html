@@ -37,10 +37,12 @@
          <input type="text" placeholder="{{ translate.footer.inputmail[page.locale] }}">
          <input type="submit" name="" value="{{ translate.footer.submit[page.locale] }}">
          <div class="media-icons">
-           <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="{{ menu.share.twitter[page.locale].name }}"><i class="icob twitter" aria-hidden="true" title="twitter"></i></a>
+           <!-- <a target="_blank" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" aria-label="{{ menu.share.twitter[page.locale].name }}"><i class="icob twitter" aria-hidden="true" title="twitter"></i></a> -->
+           <a href="https://github.com/haade-administrator/haade.fr/discussions" target="_blank" alt="github discussion link" aria-label="{{ menu.share.github[page.locale].name }}"><i class="icob github" aria-hidden="true" title="github discussion"></i></a>
            <a target="_blank" href="https://www.youtube.com/channel/UCcXJ1ZsjEvQxuWJy7gH-A6w/?sub_confirmation=1" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="{{ menu.share.youtube[page.locale].name }}"><i class="icob youtube" aria-hidden="true" title="youtube"></i></a>
            <a target="_blank" href="https://discord.gg/FaK6MuZ2" onclick="window.open(this.href, 'width=550,height=435');return false;" aria-label="{{ menu.share.discord[page.locale].name }}"><i class="icob discord" aria-hidden="true" title="discord"></i></a>
-           <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="{{ menu.share.facebook[page.locale].name }}"><i class="icob facebook-f" aria-hidden="true" title="facebook"></i></a>
+           <a href="{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/feed.xml" target="_blank" alt="feed rss" aria-label="{{ menu.share.rss[page.locale].name }}"><i class="icob rss" aria-hidden="true" title="feed rss haade"></i></a>
+           <!-- <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url }}" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;" aria-label="{{ menu.share.facebook[page.locale].name }}"><i class="icob facebook-f" aria-hidden="true" title="facebook"></i></a> -->
          </div>
        </form>
      </div>
