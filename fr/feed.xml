@@ -10,9 +10,13 @@ locale: fr_FR
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:media="http://search.yahoo.com/mrss/" 
 >
   <channel>
     <title>{{ site.name | xml_escape }}</title>
@@ -45,12 +49,15 @@ locale: fr_FR
       <p>{{ post.description | xml_escape }}</p>
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      <br />
+      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}.</p>
       ]]>
       </description>
       {%- elsif post.excerpt %}
       <description><![CDATA[
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}.</p>
       ]]>
       </description>
       {%- endif %}

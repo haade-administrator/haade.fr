@@ -10,9 +10,13 @@ sitemap:
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
   xmlns:atom="http://www.w3.org/2005/Atom"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:media="http://search.yahoo.com/mrss/" 
 >
   <channel>
   {%- assign translate = site.data.locales.translate %}
@@ -46,12 +50,14 @@ sitemap:
       <p>{{ post.description | xml_escape }}</p>
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}.</p>
       ]]>
       </description>
       {%- elsif post.excerpt %}
       <description><![CDATA[
       <img src="{{ site.url }}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}" alt="{{ post.title }}">
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
+      <p>Read the full article: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> on the blog <a href="{{site.url}}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/">{{ site.title }}.</p>
       ]]>
       </description>
       {%- endif %}
