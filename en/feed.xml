@@ -11,17 +11,17 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Jan 2024 07:16:15 +0000</pubDate>
+    <pubDate>Mon, 15 Jan 2024 08:15:36 +0000</pubDate>
     <lastBuildDate>Sat, 06 Jan 2024 10:13:00 +0000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/103/attention-risk-fire-charge-ve-domicile.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Attention à la charge des véhicules électriques à domicile</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;&lt;strong&gt;Attention ! risk of fire from Wallbox when recharging electric vehicles at home!&lt;/strong&gt;&lt;/p&gt;
@@ -34,13 +34,13 @@
       <category>News</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Zigbee Neo NAS-AB06B2 Outdoor Siren Review</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;This is an area where zigbee modules &lt;strong&gt;are rare&lt;/strong&gt;, you can find zigbee sirens here and there for indoors but when it comes to outdoors there are no crowds. And this is where &lt;strong&gt;Tuya stands out&lt;/strong&gt; thanks to the NAS-AB06B2 white label for Europe by Neo. But let’s not forget the fact that this is a Tuya product.&lt;/p&gt;
@@ -53,13 +53,13 @@
       <category>Security</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/101/installation-haos-armbian-cubietruck-2024.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Installing HAOS with Armbian Bookworm 12</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;It’s almost 2024 and it’s still difficult to install Home Assistant OS on unsupported cards. For the sake of product testing I need to install HAOS on a dedicated card. That’s good, I still have an old Cubietruck card in the boxes so I’ll be able to save money and not invest in a Raspberry pi.&lt;/p&gt;
@@ -70,13 +70,13 @@
       <category>Haade-lab</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>test of the Sonoff Ihost box</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;First of all I wanted to &lt;strong&gt;thank Itead&lt;/strong&gt; for the loan of this Sonoff box iHost version RV1126 of 4gb. First we will take an overview of the embedded application and see if &lt;strong&gt;v1.12.0 bears fruit.&lt;/strong&gt; In a second article &lt;strong&gt;I will show you how to Hack the box&lt;/strong&gt; and install Home Assistant OS on SDCARD without touching the original firmware but still carrying out a small manipulation on the hardware.&lt;/p&gt;
@@ -87,13 +87,13 @@
       <category>Tests</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/99/christmas-gift-sonoff-thank-you.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Thank you Sonoff 🎅🏻</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;A week ago I received an email from the Sonoff team, announcing a shipment &lt;strong&gt;of a gift from them&lt;/strong&gt; for the end of year holidays. A few days later I received a package and &lt;strong&gt;what was my surprise!&lt;/strong&gt;
@@ -105,13 +105,13 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <category>News</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Test of Sonoff SNZB-01P</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;After testing the Sonoff SNZB-02P temperature and humidity sensor a short time ago, it is now time to test the SNZB-01P intelligent scene button. &lt;strong&gt;I could have presented both at the same time&lt;/strong&gt; but I preferred to do it separately. Following on from what &lt;strong&gt;Sonoff offers, does this push button do the job for the price!&lt;/strong&gt;&lt;/p&gt;
@@ -123,13 +123,13 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <category>Zigbee</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Esp32-Korvo The microphone you need !</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;Home-assistant announced at the beginning of 2023, &lt;strong&gt;the year of the voice&lt;/strong&gt;. By hiring Michael Hansen, nickname &lt;strong&gt;synesthesiam&lt;/strong&gt; who is none other than the creator of the software &lt;a href=&quot;https://github.com/rhasspy&quot; target=&quot;_blank&quot;&gt;Rhasspy&lt;/a&gt;, the company Nabu Casa is digging this breach in the world of voice control which is so lacking in current assistants.&lt;/p&gt;
@@ -141,13 +141,13 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <category>Home-Assistant</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Nspanel Pro V2.2.0 Zigbee Update</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;Until now I did not find any &lt;strong&gt;real interests&lt;/strong&gt; concerning the NSPanel Pro which is, &lt;strong&gt;it must be admitted, difficult to malleable&lt;/strong&gt;, I am not talking about the original firmware, but the &lt;strong&gt;possibility of hacking ** in order to make it compatible with your favorite home automation assistant. NspanelPro like many other control screens, runs on Android and it must be admitted that it is far from being the operating system to choose for open source home automation. In addition, the Zigbee chip until now worked in **coordinator&lt;/strong&gt; mode. Which restricted the system even more. &lt;strong&gt;But all this is about to change.&lt;/strong&gt;&lt;/p&gt;
@@ -160,13 +160,13 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <category>Matter</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/95/black-friday-itead-sonoff-2023.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Black Friday at itead, Sonoff and Nextion</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;Don’t miss Black Friday on the official website of the manufacturer Sonoff, I’m talking about &lt;a href=&quot;https://itead.cc/sonoff-black-friday-sale-2023/ref/122/?utm_source=itead&amp;amp;utm_medium=topbanner&amp;amp;utm_campaign=blackfriday&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Itead&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
@@ -177,13 +177,13 @@ I will take advantage of this post to thank the gesture on the part of the team 
       <category>News</category>
     </item>
     <item>
-      <!-- <image>
+      <image>
          <url>https://haade.fr/assets/images/posts/94/truenas-scale-23-10-cobia.png</url>
           <title>Haade.fr</title>
            <link>https://haade.fr</link>
             <width>944</width>
              <height>531</height>
-           </image> -->
+           </image>
       <title>Eagerly awaited Truenas &apos;Cobia&apos; is here!</title>
       <dc:creator>Nico</dc:creator>
       <description>&lt;p&gt;&lt;strong&gt;TrueNAS like Openmediavault&lt;/strong&gt; is part of the very restricted world of software dedicated to managing a NAS. For two years the TrueNAS team decided to create a version running on Debian, like TrueNAS Core which runs on FreeBSD. Which makes TrueNAS Scale the only competing version of Openmediavault.&lt;/p&gt;
