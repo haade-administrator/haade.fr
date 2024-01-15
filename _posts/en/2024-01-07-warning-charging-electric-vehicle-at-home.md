@@ -1,7 +1,7 @@
 ---
 guid: 103
-title: "Attention à la charge des véhicules électriques à domicile"
-description: "Retour d'expérience sur les risques d'incendies des recharges des véhicules électriques à domicile et surveiller le problème grâce à la domotique."
+title: "Be careful when charging electric vehicles at home"
+description: "Feedback on the fire risks of charging electric vehicles at home and monitoring the problem using home automation."
 ref: "TO-Q-SY2-JZT"
 layout: post
 author: Nico
@@ -28,7 +28,6 @@ sourcelink:
   - https://hackaday.com/2021/04/18/diy-wireless-serial-adapter-speaks-true-rs-232/
 ---
 **Attention ! risk of fire from Wallbox when recharging electric vehicles at home!**
-
 Like more and more people on this planet, I own an electric vehicle that I have been charging exclusively for over 5 years at home using a brand EV charger [VE-tronic](http://ve-tronic.fr/store/wallbox){: target="_blank"}.
 
 {% include product-embed.html image="https://ae01.alicdn.com/kf/S8baef31dc3a5412982ec410791e4e5f2J/Disjoncteur-intelligent-Tuya-MCB-mesure-de-la-puissance-interrupteur-de-t-l-commande-protection-contre-les.jpg_.webp" title="Tongou smart circuit breaker" brand="Tongou" description="Tuya MCB Smart Circuit Breaker, Power Metering, Smart Switch, Overcurrent and Undervoltage Protection, WiFi, Zigbee, 1-63A, Overheat Protection" affiliate="_DddSzXJ" %}
