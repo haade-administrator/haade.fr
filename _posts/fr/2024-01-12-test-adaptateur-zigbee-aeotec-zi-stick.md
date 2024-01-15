@@ -81,7 +81,27 @@ L'intégration d'un module se fait sans aucune difficulté la clé Aeotec {{ pag
 
 {% picture posts/{{ page.guid }}/resultat-appairage-module-zi-stick-zha-aeotec.png --alt appairage dans zha d'un module zigbee avec le zi-stick dans zigbee2mqtt --img width="422" height="494" %}
 
+> Tu pourras te rendre compte en visonnant le gif animé, que l'intégration de la clé dans ZHA ne pose aucun socis.
+
 ![Intégration du dongle aeotec zi-stick dans ZHA home assistant]({{ site.baseurl }}/assets/images/posts/104/integration-dongle-zi-stick-aeotec-zha-home-assistant.webp{{ cachebuster }}){: width="600" height="482"}{: target="_blank"}
+
+## **les + du produit** {{ page.ref }}
+{: .blue}
+
+- le **prix** moins de 30€
+- compatible zigbee 3.0
+- compatible Z2M
+- compatible ZHA home assistant
+- compatible openhab
+- la taille
+
+
+## **les - du produit** {{ page.ref }}
+{: .red}
+
+- Pas d'infos concernant la mise à jour du firmware
+- intégration perfectible dans Zigbee2mqtt
+- **compatibilité limitée**
 
 
 ## Caractéristiques techniques
