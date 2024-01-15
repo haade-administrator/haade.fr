@@ -6,12 +6,12 @@
 >
   <channel>
     <title>Haade</title>
-    <description>Home Assistance Alsace domotique &amp; électronique.</description>
+    <description>Home Assistance Alsace domotique et électronique.</description>
     <sy:updatePeriod>daily</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Jan 2024 13:20:47 +0000</pubDate>
+    <pubDate>Mon, 15 Jan 2024 13:41:55 +0000</pubDate>
     <lastBuildDate>Sat, 06 Jan 2024 10:13:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
