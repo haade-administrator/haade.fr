@@ -2,8 +2,8 @@
 var documents = [{
     "id": 0,
     "url": "/en/blog/warning-charging-electric-vehicle-at-home",
-    "title": "Attention à la charge des véhicules électriques à domicile",
-    "description": "06/01/2024 - Retour d'expérience sur les risques d'incendies des recharges des véhicules électriques à domicile et surveiller le problème grâce à la domotique.",
+    "title": "Be careful when charging electric vehicles at home",
+    "description": "06/01/2024 - Feedback on the fire risks of charging electric vehicles at home and monitoring the problem using home automation.",
     "tags": ""},{
     "id": 1,
     "url": "/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee",
