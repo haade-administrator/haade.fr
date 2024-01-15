@@ -28,6 +28,20 @@ share:
     en_GB:
       name: 'Invitation to our Discord network'
 
+  github:
+    fr_FR: 
+      name: 'Continue la discussion sur le forum github'
+
+    en_GB:
+      name: 'Continue the discussion on the github forum'
+
+  rss:
+    fr_FR:
+      name: 'partage le flux rss avec tes amis'
+
+    en_GB:
+      name: 'share the rss feed with your friends'
+
 # megamenu
 
 home:
