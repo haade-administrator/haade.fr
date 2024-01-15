@@ -17,7 +17,7 @@ locale: fr_FR
   <channel>
   {%- assign translate = site.data.locales.translate %}
     <title>{{ site.name | xml_escape }}</title>
-    <description>{%- if site.description %}{{ translate.site.description[page.locale] }}{%- endif %}</description>
+    <description>{%- if site.description %}{{ translate.site.description[page.locale] | xml_escape }}{%- endif %}</description>
     <sy:updatePeriod>{{ site.feed_update_period | default: 'daily' | xml_escape }}</sy:updatePeriod>
     <sy:updateFrequency>{{ site.feed_update_frequency | default: 1 | xml_escape }}</sy:updateFrequency>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
