@@ -12,17 +12,6 @@
           <news:title>Aeotec finally releases its Zigbee controller</news:title>
         </news:news>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/warning-charging-electric-vehicle-at-home</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-01-06T10:13:00+00:00</news:publication_date>
-          <news:title>Be careful when charging electric vehicles at home</news:title>
-        </news:news>
-      </url>
     </urlset>
 
 
