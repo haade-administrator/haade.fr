@@ -155,6 +155,28 @@ presets:
     dimension_attributes: false
     fallback_width: 940
 
+  feed:
+    widths: [ 300, 400, 500, 600, 700 ]
+    formats: [webp, original]
+    media_widths:
+      mobile: [300]
+      tablet: [400, 500]
+      laptop: [600]
+      wide: [700]
+    sizes:
+      mobile: 300px
+      tablet: 400px
+      laptop: 600px
+      wide: 700px
+    size: calc(100vw - 30px)
+    format_quality:
+      jpg: 85
+      png: 85
+      webp: 85
+    dimension_attributes: false
+    fallback_width: 600
+    fallback_format: webp
+
   box:
     widths: [ 300, 400, 500, 600, 700, 800 ]
     formats: [webp, original]
