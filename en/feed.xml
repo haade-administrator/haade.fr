@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 19 Jan 2024 11:30:46 +0000</pubDate>
+    <pubDate>Fri, 19 Jan 2024 15:27:24 +0000</pubDate>
     <lastBuildDate>Fri, 12 Jan 2024 11:24:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -31,9 +31,9 @@
       <description>
       <![CDATA[
       <p>that&apos;s it Aeotec is getting into zigbee, the famous brand known for its quality modules is finally releasing a zigbee controller, the zi-stick</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-300-710ac0e35.webp 300w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-400-710ac0e35.webp 400w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-500-710ac0e35.webp 500w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-600-710ac0e35.webp 600w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-700-710ac0e35.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-300-710ac0e35.png 300w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-400-710ac0e35.png 400w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-500-710ac0e35.png 500w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-600-710ac0e35.png 600w, /assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-700-710ac0e35.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-600-710ac0e35.webp" alt="Aeotec finally releases its Zigbee controller">
+  <source srcset="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.webp" alt="Aeotec finally releases its Zigbee controller">
 </picture>
 
       <p>Ah Finally Aeotec releases its Zigbee 3.0 compatible dongle, this manufacturer of quality modules has decided to market a zigbee usb adapter zi-stick ZGA008 to the Silabs protocol with a Chipset almost similar to Skyconnect or Zbdongle-e. But it has the distinction of being the smallest efficient dongle on the [...]</p>
@@ -52,9 +52,9 @@
       <description>
       <![CDATA[
       <p>Feedback on the fire risks of charging electric vehicles at home and monitoring the problem using home automation.</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-300-fbaeb6d0b.webp 300w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-400-fbaeb6d0b.webp 400w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-500-fbaeb6d0b.webp 500w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-600-fbaeb6d0b.webp 600w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-700-fbaeb6d0b.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-300-fbaeb6d0b.png 300w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-400-fbaeb6d0b.png 400w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-500-fbaeb6d0b.png 500w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-600-fbaeb6d0b.png 600w, /assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-700-fbaeb6d0b.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-600-fbaeb6d0b.webp" alt="Be careful when charging electric vehicles at home">
+  <source srcset="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.webp" alt="Be careful when charging electric vehicles at home">
 </picture>
 
       <p>Attention ! risk of fire from Wallbox when recharging electric vehicles at home!
@@ -76,9 +76,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>Test of the zigbee tuya Neo NAS-AB06B2 solar siren designed for outdoors, in home assistant for less than €40. For this price is it worth the cost?</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-300-c6bc05861.webp 300w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-400-c6bc05861.webp 400w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-500-c6bc05861.webp 500w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-600-c6bc05861.webp 600w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-700-c6bc05861.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-300-c6bc05861.png 300w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-400-c6bc05861.png 400w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-500-c6bc05861.png 500w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-600-c6bc05861.png 600w, /assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-700-c6bc05861.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-600-c6bc05861.webp" alt="Zigbee Neo NAS-AB06B2 Outdoor Siren Review">
+  <source srcset="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.webp" alt="Zigbee Neo NAS-AB06B2 Outdoor Siren Review">
 </picture>
 
       <p>This is an area where zigbee modules are rare, you can find zigbee sirens here and there for indoors but when it comes to outdoors there are no crowds. And this is where Tuya stands out thanks to the NAS-AB06B2 white label for Europe by Neo. But let’s not forget [...]</p>
@@ -98,9 +98,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>2024 - Tutorials installing home assistant OS on a cubietruck armv7 with Armbian version Debian 12 Bookworm all easily and without errors</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-300-609e8ea1a.webp 300w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-400-609e8ea1a.webp 400w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-500-609e8ea1a.webp 500w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-600-609e8ea1a.webp 600w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-700-609e8ea1a.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-300-609e8ea1a.png 300w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-400-609e8ea1a.png 400w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-500-609e8ea1a.png 500w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-600-609e8ea1a.png 600w, /assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-700-609e8ea1a.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-600-609e8ea1a.webp" alt="Installing HAOS with Armbian Bookworm 12">
+  <source srcset="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.webp" alt="Installing HAOS with Armbian Bookworm 12">
 </picture>
 
       <p>It’s almost 2024 and it’s still difficult to install Home Assistant OS on unsupported cards. For the sake of product testing I need to install HAOS on a dedicated card. That’s good, I still have an old Cubietruck card in the boxes so I’ll be able to save money and [...]</p>
@@ -118,9 +118,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>The Sonoff Ihost box is worth the detour, with impressive hardware compatibility and exceptional manufacturing quality, Sonoff has once again created an essential product.</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-300-df493bd42.webp 300w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-400-df493bd42.webp 400w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-500-df493bd42.webp 500w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-600-df493bd42.webp 600w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-700-df493bd42.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-300-df493bd42.png 300w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-400-df493bd42.png 400w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-500-df493bd42.png 500w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-600-df493bd42.png 600w, /assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-700-df493bd42.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-600-df493bd42.webp" alt="test of the Sonoff Ihost box">
+  <source srcset="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-720-df493bd42.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-720-df493bd42.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/100/test-passerelle-hub-gateway-sonoff-ihost-v1-12-0-720-df493bd42.webp" alt="test of the Sonoff Ihost box">
 </picture>
 
       <p>First of all I wanted to thank Itead for the loan of this Sonoff box iHost version RV1126 of 4gb. First we will take an overview of the embedded application and see if v1.12.0 bears fruit. In a second article I will show you how to Hack the box and [...]</p>
@@ -138,9 +138,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>À l&apos;approche des fêtes je reçois un sompteur cadeau de Noel de la part de Sonoff</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-300-b11b43a38.webp 300w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-400-b11b43a38.webp 400w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-500-b11b43a38.webp 500w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-600-b11b43a38.webp 600w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-700-b11b43a38.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-300-b11b43a38.png 300w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-400-b11b43a38.png 400w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-500-b11b43a38.png 500w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-600-b11b43a38.png 600w, /assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-700-b11b43a38.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-600-b11b43a38.webp" alt="Thank you Sonoff 🎅🏻">
+  <source srcset="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-720-b11b43a38.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-720-b11b43a38.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/99/christmas-gift-sonoff-thank-you-720-b11b43a38.webp" alt="Thank you Sonoff 🎅🏻">
 </picture>
 
       <p>A week ago I received an email from the Sonoff team, announcing a shipment of a gift from them for the end of year holidays. A few days later I received a package and what was my surprise! I will take advantage of this post to thank the gesture on [...]</p>
@@ -158,9 +158,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>Sonoff SNZB-01P Zigbee 3.0 Smart Scene Button Review</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-300-aaee6d84b.webp 300w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-400-aaee6d84b.webp 400w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-500-aaee6d84b.webp 500w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-600-aaee6d84b.webp 600w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-700-aaee6d84b.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-300-aaee6d84b.png 300w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-400-aaee6d84b.png 400w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-500-aaee6d84b.png 500w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-600-aaee6d84b.png 600w, /assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-700-aaee6d84b.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-600-aaee6d84b.webp" alt="Test of Sonoff SNZB-01P">
+  <source srcset="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-720-aaee6d84b.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-720-aaee6d84b.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/98/test-bouton-scene-intelligent-sonoff-snzb-01p-720-aaee6d84b.webp" alt="Test of Sonoff SNZB-01P">
 </picture>
 
       <p>After testing the Sonoff SNZB-02P temperature and humidity sensor a short time ago, it is now time to test the SNZB-01P intelligent scene button. I could have presented both at the same time but I preferred to do it separately. Following on from what Sonoff offers, does this push button [...]</p>
@@ -179,9 +179,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>Esp32-korvo woover-e is the complete microphone to control home automation by voice in home-assistant thanks to esphome and wifi all for less than €30</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-300-a4892fad6.webp 300w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-400-a4892fad6.webp 400w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-500-a4892fad6.webp 500w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-600-a4892fad6.webp 600w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-700-a4892fad6.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-300-a4892fad6.png 300w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-400-a4892fad6.png 400w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-500-a4892fad6.png 500w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-600-a4892fad6.png 600w, /assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-700-a4892fad6.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-600-a4892fad6.webp" alt="Esp32-Korvo The microphone you need !">
+  <source srcset="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.webp" alt="Esp32-Korvo The microphone you need !">
 </picture>
 
       <p>Home-assistant announced at the beginning of 2023, the year of the voice. By hiring Michael Hansen, nickname synesthesiam who is none other than the creator of the software Rhasspy, the company Nabu Casa is digging this breach in the world of voice control which is so lacking in current assistants. [...]</p>
@@ -200,9 +200,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>This is an update that will not go unnoticed, now with V2.2.0 The Nspanel Pro can be configured as a coordinator or router, a very very interesting function.</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-300-8c03184db.webp 300w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-400-8c03184db.webp 400w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-500-8c03184db.webp 500w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-600-8c03184db.webp 600w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-700-8c03184db.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-300-8c03184db.png 300w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-400-8c03184db.png 400w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-500-8c03184db.png 500w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-600-8c03184db.png 600w, /assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-700-8c03184db.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-600-8c03184db.webp" alt="Nspanel Pro V2.2.0 Zigbee Update">
+  <source srcset="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.webp" alt="Nspanel Pro V2.2.0 Zigbee Update">
 </picture>
 
       <p>Until now I did not find any real interests concerning the NSPanel Pro which is, it must be admitted, difficult to malleable, I am not talking about the original firmware, but the possibility of hacking ** in order to make it compatible with your favorite home automation assistant. NspanelPro like [...]</p>
@@ -222,9 +222,9 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <description>
       <![CDATA[
       <p>Black friday on the itead site, sonoff and Nextion brand at reduced prices</p><picture>
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-300-41c32faac.webp 300w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-400-41c32faac.webp 400w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-500-41c32faac.webp 500w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-600-41c32faac.webp 600w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-700-41c32faac.webp 700w" type="image/webp">
-  <source sizes="(max-width: 480px) 300px, (max-width: 768px) 400px, (max-width: 1024px) 600px, (min-width: 1025px) 700px, calc(100vw - 30px)" srcset="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-300-41c32faac.png 300w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-400-41c32faac.png 400w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-500-41c32faac.png 500w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-600-41c32faac.png 600w, /assets/images/generated/posts/95/black-friday-itead-sonoff-2023-700-41c32faac.png 700w" type="image/png">
-  <img width="600" height="338" src="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-600-41c32faac.webp" alt="Black Friday at itead, Sonoff and Nextion">
+  <source srcset="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.webp 720w" type="image/webp">
+  <source srcset="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.png 720w" type="image/png">
+  <img width="720" height="405" src="/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.webp" alt="Black Friday at itead, Sonoff and Nextion">
 </picture>
 
       <p>Don’t miss Black Friday on the official website of the manufacturer Sonoff, I’m talking about Itead
