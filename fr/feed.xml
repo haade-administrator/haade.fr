@@ -47,14 +47,14 @@ locale: fr_FR
       <description>
       <![CDATA[
       <p>{{ post.description | xml_escape }}</p>
-      {%- if post.image contains "://" %}{{ post.image }}{%- else %}{%- picture feed posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} --img width="600" height="338" %}{%- endif %}
+      {%- if post.image contains "://" %}{{ post.image }}{%- else %}{%- picture feed posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} --img width="720" height="405" %}{%- endif %}
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
       <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}</a>.</p>
       ]]>
       </description>
       {%- elsif post.excerpt %}
       <description><![CDATA[
-      {%- if post.image contains "://" %}{{ post.image }}{%- else %}{%- picture feed posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} --img width="600" height="338" %}{%- endif %}
+      {%- if post.image contains "://" %}{{ post.image }}{%- else %}{%- picture feed posts/{{ post.guid }}/{{ post.image }} --alt {{ post.title }} --img width="720" height="405" %}{%- endif %}
       <p>{{ post.excerpt | strip_html | truncatewords: 50, " [...]" }}</p>
       <p>Lire l'article complet: <a href="{{ post.url | absolute_url }}">{{ post.title }}</a> sur le blog <a href="{{site.url}}{{ site.baseurl }}">{{ site.title }}</a>.</p>
       ]]>
