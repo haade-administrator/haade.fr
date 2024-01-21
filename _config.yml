@@ -273,7 +273,7 @@ picture:
   source: "assets/images"
   output: "assets/images/generated"
   suppress_warnings: true
-  relative_url: true
+  relative_url: false
   ignore_missing_images: true
   nomarkdown: false
 
