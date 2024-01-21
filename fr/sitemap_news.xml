@@ -10,7 +10,8 @@ sitemap:
   {%- assign timeframe = 864000 %}
   {%- assign posts = site.posts | where_exp:'doc','doc.sitemap != false' | where: 'locale', page.locale | where: 'published', true %}
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   {%- for post in posts %}
     {%- assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
     {%- assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
@@ -34,6 +35,9 @@ sitemap:
           <news:publication_date>{{ lastmod }}</news:publication_date>
           <news:title>{{ post.title }}</news:title>
         </news:news>
+        <image:image>
+          <image:loc>{%- if post.image contains "://" %}{{ post.image }}{%- else %}{{site.url}}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}{{ cachebuster }}{%- endif %}</image:loc>
+        </image:image>
       </url>
     {%- endif %}
   {%- endfor %}
