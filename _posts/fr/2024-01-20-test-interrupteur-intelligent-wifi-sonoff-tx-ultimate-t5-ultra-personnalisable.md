@@ -12,7 +12,7 @@ tags: []
 image: 'test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -32,7 +32,9 @@ Après les interrupteurs Sonoff de la gamme TX (T0, T1, T2 et T3 ), le fabriquan
 
 ## Déballage du Sonoff {{ page.ref }}
 
-Un emballage exceptionnel de niveau européen :), à l'intérieur tu y trouveras l'interrupteur mural (domadoo m'a fourni un double interrupteur T5-C2-86) sous blister avec un film de protection sur la face avant de l'inter. La première impression qui ressort de ce produit est une qualité exceptionnelle, le produit est très bien fini et la coque du dessus ( blanche ) est d'un touché satiné. La bande Led sous l'interrupteur est très bien intégré.
+{% picture posts/{{ page.guid }}/deballage-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt déballage du Sonoff du tx ultimate T5-C3-86 par Sonoff version européenne --img width="940" height="529" %}
+
+Un emballage exceptionnel de niveau européen :), à l'intérieur tu y trouveras l'interrupteur mural (domadoo m'a fourni un double interrupteur T5-2C-86) sous blister avec un film de protection sur la face avant de l'inter. La première impression qui ressort de ce produit est une qualité exceptionnelle, le produit est très bien fini et la coque du dessus ( blanche ) est d'un touché satiné. La bande Led sous l'interrupteur est très bien intégré.
 
 ## Mise en service du Sonoff {{ page.ref }}
 
@@ -45,17 +47,31 @@ Bon comme le reste de la gamme Wifi si tu veux utiliser ce produit il te faudra 
 
 ## Caractéristiques du Sonoff {{ page.ref }}
 
-**L'interrupteur t'en mettras plein les yeux et les oreilles**, premièrement la réactivité des touches est sensationnelle et **sur toute la surface**, très réactive, il te suffit d'éffleurer la touche pour que celle-ci s'enclanche, *bruit*, *vibration* et *lumière led* s'activeront rien que ça, point négatif tu ne pourras pas désactiver ces options elles sont pour le moment indissociables.
+{% include videoPlayer.html localId="fonctionnement-slide-gauche-droite-sonoff-tx-ultimate.webm" %}
 
-Second point **tu peux paramétrer l'affichage LED** en dehors du fonctionnement des interrupteurs, et ainsi illuminer le module en permanence. Cette option propose 8 thèmes différents: **(Veilleuse, Fête, Loisirs, Couleur, Enfance, Essuie-glace, Fée,Étoile éclatante)**, tu y trouveras à coup sûre un éclairage à ta convenance.
+**L'interrupteur t'en mettra plein les yeux et les oreilles**, premièrement la réactivité des touches est sensationnelle et **sur toute la surface**, très réactive, il te suffit d'éffleurer la touche pour que celle-ci s'enclanche, *bruit*, *vibration* et *lumière led* s'activeront rien que ça, point négatif tu ne pourras pas désactiver ces options elles sont pour le moment indissociables.
+
+{% picture posts/{{ page.guid }}/sonoff-tx-ultimate-cartoon-eclairage-led-presentation.png --alt Cartoon et ambiance light du tx ultimate par Sonoff version européenne --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/sonoff-tx-ultimate-star-eclairage-led-presentation.png --alt Star et ambiance light du tx ultimate par Sonoff version européenne --img width="940" height="529" %}
+
+Second point **tu peux paramétrer l'affichage LED** en dehors du fonctionnement des interrupteurs, et ainsi illuminer le module en permanence. Cette option propose 8 thèmes différents: **(Veilleuse, Fête, Loisirs, Couleur, Enfance, Essuie-glace, Féerique,Étoile éclatante)**, tu y trouveras à coup sûre un éclairage à ta convenance.
 
 Seule, **la version 3 touches** permet de contrôler un moteur ou chauffe eau à condition que le dernier firmware Min:1.3.1 soit installé sur l'interrupteur.
 
+{% include videoPlayer.html localId="fonctionnement-interrupteur-sonoff-tx-ultimate.webm" %}
+
 {% picture posts/{{ page.guid }}/schema-branchement-sonoff-tx-ultimate-3-inter-moteur-chauffe-eau.png --alt schéma de branchement du tx ultimate T5-C3-86 par Sonoff version européenne --img width="940" height="739" %}
+
+{% picture posts/{{ page.guid }}/8-effets-led-Sonofflan-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt 8 effets LED du tx-ultimate par Sonoff version européenne --img width="940" height="99" %}
 
 ## Coques Interchangeables
 
 {% picture posts/{{ page.guid }}/interrupteur-sonoff-tx-ultimate-plus-coque-cartoon-et-star-version-europeenne.png --alt présentation des coques tx ultimate par Sonoff version européenne --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/coque-interchangeable-cartoon-sonoff-tx-ultimate-eu-86.png --alt présentation de la coque interchangeable cartoon tx ultimate par Sonoff version européenne --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/coque-interchangeable-star-sonoff-tx-ultimate-eu-86.png --alt présentation de la coque interchangeable star tx ultimate par Sonoff version européenne --img width="940" height="529" %}
 
 Point supplémentaire, le Sonoff {{ page.ref }} est vendu avec une coque blanche mais il est **possible de l'interchanger**, la customisation n'a presque plus de limite, la version européenne propose deux coques en options [Cartoon ou Star](https://itead.cc/product/sonoff-tx-ultimate-smart-touch-wall-switch-cover/ref/122/){: target="_blank"}, je regrette cependant la version américaine du cartoon représentant baleine et corail, qui n'est pas disponible pour la version européenne, le bleu correspondrait mieux aux jeunes garçons.
 
@@ -99,7 +115,22 @@ tu pourras te fournir en TX Ultimate 1, 2 ou 3 touches **mais pas de coques inte
 
 ## Sonoff {{ page.ref }} et Home Assistant
 
-L'interrupteur est controlable via HomeAssistant grâce à l'intégration **SonoffLAN** et HACS, [j'ai rédigé un article à ce sujet]({% post_url /fr/2023-07-03-sonofflan-le-gestionnaire-sonoff-pour-home-assistant %}){: target="_blank"}, lis le et tu réussiras à coup sûre l'intégration. Cependant le Sonoff {{ page.ref }} utilisera tout de même **le cloud chinois** car celui-ci fonctionne en mode (LAN et Cloud), mais au moins tu ne seras pas obligé d'ouvrir **l'application Ewelink** pour contrôler l'interrupteur.
+{% picture posts/{{ page.guid }}/controle-homeassistant-sonofflan-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt Controle dans Home-Assistant avec Hacs et SonoffLan du Sonoff du tx ultimate T5-C3-86 par Sonoff version européenne --img width="940" height="529" %}
+
+L'interrupteur est controlable via HomeAssistant grâce à l'intégration **SonoffLAN** et HACS, [j'ai rédigé un article à ce sujet]({% post_url /fr/2023-07-03-sonofflan-le-gestionnaire-sonoff-pour-home-assistant %}){: target="_blank"}, lis le et tu réussiras à coup sûre l'intégration.
+
+Bonne nouvelle Le Sonoff TX-Ultimate **fonctionne à 95% sans le Cloud**, en mode **Lan** tout est controlable **sauf le slide 1 et 2**
+En mode **Auto ou Cloud** le Sonoff {{ page.ref }} **fonctionne à 100%**
+
+{% picture posts/{{ page.guid }}/activation-led-Sonofflan-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt Activation LED SonoffLan du Sonoff du tx ultimate T5-C3-86 par Sonoff version européenne --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/fonctionnemment-action-slide-Sonofflan-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt fonctionnemment Slide action SonoffLan mode auto et cloud du Sonoff du tx ultimate T5-C3-86 par Sonoff version européenne --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/choix-effet-led-Sonofflan-interrupteur-sonoff-tx-ultimate-t5-2C-86.png --alt choix effets du tx-ultimate par Sonoff version européenne --img width="940" height="529" %}
+
+
+
+
 
 ## Caractéristiques techniques
 
