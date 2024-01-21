@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
         <loc>https://haade.fr/fr/blog/test-adaptateur-zigbee-aeotec-zi-stick</loc>
         <news:news>
@@ -11,6 +12,9 @@
           <news:publication_date>2024-01-12T11:24:00+00:00</news:publication_date>
           <news:title>Aeotec sort enfin son controlleur Zigbee</news:title>
         </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008.png</image:loc>
+        </image:image>
       </url>
     </urlset>
 
