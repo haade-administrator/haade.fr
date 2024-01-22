@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Jan 2024 08:37:07 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Jan 2024 11:24:00 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Jan 2024 14:55:37 +0000</pubDate>
+    <lastBuildDate>Sat, 20 Jan 2024 15:39:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,22 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test Sonoff TX Ultimate</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test de l&apos;interrupteur intelligent wifi Sonoff Tx ultimate son et lumière au rendez-vous ultra personnalisable grâce aux coques interchangeables.</p><img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png" alt="Test Sonoff TX Ultimate" srcset="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png 720w">
+
+      <p>Après les interrupteurs Sonoff de la gamme TX ( T0, T1, T2 et T3 ), le fabriquant chinois a sorti en 2023 la série TX Ultimate, plus rien à voir avec le reste de la Gamme. Un produit très très bien fini avec un panel d’options et de customisations exceptionnelles. [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable">Test Sonoff TX Ultimate</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 20 Jan 2024 15:39:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable</guid>
+      <category><![CDATA[Tests]]></category>
+    </item>
     <item>
       <title>Aeotec sort enfin son controlleur Zigbee</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -180,23 +196,6 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
       <category><![CDATA[News]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Matter]]></category>
-    </item>
-    <item>
-      <title>Vendredi Noir chez itead, Sonoff et Nextion</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Black friday sur le site itead marque sonoff et Nextion à prix cassé</p><img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.png" alt="Vendredi Noir chez itead, Sonoff et Nextion" srcset="https://haade.fr/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.png 720w">
-
-      <p>Ne manque pas les Blackfriday sur le site officiel du fabriquant Sonoff, je veux parler de Itead
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/blackfriday-chez-itead-sonoff-2023">Vendredi Noir chez itead, Sonoff et Nextion</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 19 Nov 2023 11:33:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/blackfriday-chez-itead-sonoff-2023</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/blackfriday-chez-itead-sonoff-2023</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
