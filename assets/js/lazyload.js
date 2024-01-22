@@ -6,10 +6,10 @@
  */
 
 (function (root, factory) {
-  if (typeof define === 'function' && define.amd) {
+  if (typeof define === "function" && define.amd) {
     // AMD. Register as an anonymous module.
     define([], factory);
-  } else if (typeof exports === 'object') {
+  } else if (typeof exports === "object") {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
@@ -18,12 +18,12 @@
     // Browser globals (root is window)
     root.lazyLoad = factory();
   }
-}(this, function () {
-
+})(this, function () {
   var options = {
-    pageUpdatedEventName: 'page:updated', // how your app tells the rest of the app an update happened
-    elements: 'img[data-src], img[data-srcset], source[data-srcset], iframe[data-src], video[data-src], [data-lazyload]', // maybe you just want images?
-    rootMargin: '0px', // IntersectionObserver option
+    pageUpdatedEventName: "page:updated", // how your app tells the rest of the app an update happened
+    elements:
+      "img[data-src], img[data-srcset], source[data-srcset], iframe[data-src], video[data-src], [data-lazyload]", // maybe you just want images?
+    rootMargin: "0px", // IntersectionObserver option
     threshold: 0, // IntersectionObserver option
     maxFrameCount: 10, // 60fps / 10 = 6 times a second
   };
@@ -45,7 +45,7 @@
   function _htmlCollectionToArray(collection) {
     var a = [];
     var i = 0;
-    for (a = [], i = collection.length; i;) {
+    for (a = [], i = collection.length; i; ) {
       a[--i] = collection[i];
     }
     return a;
@@ -58,9 +58,14 @@
    * @returns {Boolean} true/false.
    */
   function _elInViewport(el) {
-    el = (el.tagName === 'SOURCE') ? el.parentNode : el;
+    el = el.tagName === "SOURCE" ? el.parentNode : el;
     var rect = el.getBoundingClientRect();
-    return rect.bottom > 0 && rect.right > 0 && rect.left < (window.innerWidth || document.documentElement.clientWidth) && rect.top < (window.innerHeight || document.documentElement.clientHeight);
+    return (
+      rect.bottom > 0 &&
+      rect.right > 0 &&
+      rect.left < (window.innerWidth || document.documentElement.clientWidth) &&
+      rect.top < (window.innerHeight || document.documentElement.clientHeight)
+    );
   }
 
   /**
@@ -69,9 +74,9 @@
    * @param {Node} element to update
    */
   function _removeDataAttrs(el) {
-    el.removeAttribute('data-src');
-    el.removeAttribute('data-srcset');
-    el.removeAttribute('data-lazyload');
+    el.removeAttribute("data-src");
+    el.removeAttribute("data-srcset");
+    el.removeAttribute("data-lazyload");
   }
 
   /**
@@ -79,7 +84,7 @@
    * @private
    */
   function _loaded() {
-    this.removeEventListener('load', _loaded);
+    this.removeEventListener("load", _loaded);
     _removeDataAttrs(this);
   }
 
@@ -89,16 +94,16 @@
    * @param {Node} element to update
    */
   function _updateEl(el) {
-    var srcset = el.getAttribute('data-srcset');
-    var src = el.getAttribute('data-src');
-    var dlazyload = el.getAttribute('data-lazyload') !== null;
+    var srcset = el.getAttribute("data-srcset");
+    var src = el.getAttribute("data-src");
+    var dlazyload = el.getAttribute("data-lazyload") !== null;
     //
     if (srcset) {
       // if source set, update and try picturefill
-      el.setAttribute('srcset', srcset);
+      el.setAttribute("srcset", srcset);
       if (window.picturefill) {
         window.picturefill({
-          elements: [el]
+          elements: [el],
         });
       }
     }
@@ -107,8 +112,8 @@
       el.src = src;
     }
     if (dlazyload) {
-      el.setAttribute('data-lazyloaded','');
-      el.removeEventListener('load', _loaded);
+      el.setAttribute("data-lazyloaded", "");
+      el.removeEventListener("load", _loaded);
       _removeDataAttrs(el);
     }
   }
@@ -131,7 +136,7 @@
         elsLength--;
         // Stop watching this and load the image
         observer.unobserve(entry.target);
-        entry.target.addEventListener('load', _loaded, false);
+        entry.target.addEventListener("load", _loaded, false);
         _updateEl(entry.target);
       }
     }
@@ -144,7 +149,7 @@
   function _setSrcs() {
     var i;
     // browser capability check
-    if (checkType === 'really-old') {
+    if (checkType === "really-old") {
       elsLength = els.length;
       for (i = 0; i < elsLength; i++) {
         if (els[i]) {
@@ -153,14 +158,18 @@
         }
       }
       els = [];
-    } else if (checkType === 'old') {
+    } else if (checkType === "old") {
       // debounce checking
       if (frameCount === options.maxFrameCount) {
         // update cache of this for the loop
         elsLength = els.length;
         for (i = 0; i < elsLength; i++) {
           // check if this array item exists, hasn't been loaded already and is in the viewport
-          if (els[i] && els[i].lazyloaded === undefined && _elInViewport(els[i])) {
+          if (
+            els[i] &&
+            els[i].lazyloaded === undefined &&
+            _elInViewport(els[i])
+          ) {
             // cache this array item
             var thisEl = els[i];
             // set this array item to be undefined to be cleaned up later
@@ -168,7 +177,7 @@
             // give this element a property to stop us running twice on one thing
             thisEl.lazyloaded = true;
             // add an event listener to remove data- attributes on load
-            thisEl.addEventListener('load', _loaded, false);
+            thisEl.addEventListener("load", _loaded, false);
             // update
             _updateEl(thisEl);
           }
@@ -190,7 +199,7 @@
         frameCount++;
         frameLoop = window.requestAnimationFrame(_setSrcs);
       }
-    } else if (checkType === 'new') {
+    } else if (checkType === "new") {
       observer = new IntersectionObserver(_intersection, {
         rootMargin: options.rootMargin,
         threshold: options.threshold,
@@ -210,14 +219,14 @@
    */
   function _init() {
     // kill any old loops if there are any
-    if (checkType === 'old') {
+    if (checkType === "old") {
       try {
         cancelAnimationFrame(frameLoop);
-      } catch(err) {}
-    } else if (checkType === 'new') {
+      } catch (err) {}
+    } else if (checkType === "new") {
       try {
         observer.disconnect();
-      } catch(err) {}
+      } catch (err) {}
     }
     // grab elements to lazy load
     els = _htmlCollectionToArray(document.querySelectorAll(options.elements));
@@ -232,18 +241,22 @@
    * @public
    * @param {object} options (see readme)
    */
-  var lazyLoad = function(opts) {
-    for(var item in opts) {
-      if(opts.hasOwnProperty(item)) {
+  var lazyLoad = function (opts) {
+    for (var item in opts) {
+      if (opts.hasOwnProperty(item)) {
         options[item] = opts[item];
       }
     }
-    if(!('addEventListener' in window) || !window.requestAnimationFrame || typeof document.body.getBoundingClientRect === undefined) {
-      checkType = 'really-old';
-    } else if ('IntersectionObserver' in window) {
-      checkType = 'new';
+    if (
+      !("addEventListener" in window) ||
+      !window.requestAnimationFrame ||
+      typeof document.body.getBoundingClientRect === undefined
+    ) {
+      checkType = "really-old";
+    } else if ("IntersectionObserver" in window) {
+      checkType = "new";
     } else {
-      checkType = 'old';
+      checkType = "old";
     }
     _init();
     if (options.pageUpdatedEventName) {
@@ -252,7 +265,6 @@
   };
 
   return lazyLoad;
-}));
+});
 
 lazyLoad();
-

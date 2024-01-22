@@ -1,15 +1,13 @@
 media_queries:
-  mobile: 'max-width: 480px'
-  mobile-wide: 'max-width: 524px'
-  tablet: 'max-width: 768px'
-  laptop: 'max-width: 1024px'
-  wide: 'min-width: 1025px'
-
+  mobile: "max-width: 480px"
+  mobile-wide: "max-width: 524px"
+  tablet: "max-width: 768px"
+  laptop: "max-width: 1024px"
+  wide: "min-width: 1025px"
 
 presets:
-
   default:
-    widths: [ 240, 300, 400, 480, 698, 820 ]
+    widths: [240, 300, 400, 480, 698, 820]
     formats: [webp, original]
     sizes:
       mobile: 480px
@@ -27,7 +25,7 @@ presets:
       webp: 85
     fallback_width: 240
 
-  herofirst:  
+  herofirst:
     markup: auto
     widths: [300, 400, 500, 600, 700, 800, 900, 1000]
     formats: [webp, original]
@@ -50,7 +48,7 @@ presets:
       webp: 85
     dimension_attributes: true
     fallback_width: 1000
-  
+
   herotwo:
     markup: auto
     widths: [300, 400, 500, 600]
@@ -85,7 +83,7 @@ presets:
       laptop: [400, 500]
       wide: [200, 300]
     sizes:
-      mobile-wide: calc(50vw - 15px) 
+      mobile-wide: calc(50vw - 15px)
       tablet: calc(50vw - 15px)
       laptop: calc(50vw - 15px)
       wide: 19vw
@@ -99,9 +97,8 @@ presets:
     dimension_attributes: true
     fallback_width: 600
 
-
   logo:
-    widths: [ 150, 250 ]
+    widths: [150, 250]
     formats: [webp, original]
     sizes:
       mobile-wide: 150px
@@ -110,7 +107,7 @@ presets:
     dimension_attributes: true
 
   shop:
-    widths: [ 250, 350, 400, 444 ]
+    widths: [250, 350, 400, 444]
     formats: [webp, original]
     media_widths:
       mobile: [250]
@@ -133,7 +130,7 @@ presets:
     fallback_width: 400
 
   post:
-    widths: [ 300, 400, 500, 600, 700, 800, 900, 940 ]
+    widths: [300, 400, 500, 600, 700, 800, 900, 940]
     formats: [webp, original]
     media_widths:
       mobile: [300, 400, 500]
@@ -166,7 +163,7 @@ presets:
     fallback_width: 720
 
   box:
-    widths: [ 300, 400, 500, 600, 700, 800 ]
+    widths: [300, 400, 500, 600, 700, 800]
     formats: [webp, original]
     media_widths:
       mobile: [300, 400, 500]
@@ -188,9 +185,8 @@ presets:
       webp: 85
     dimension_attributes: true
 
-
   avatar:
-    crop: '1:1'
+    crop: "1:1"
     base_width: 40
     pixel_ratios: [1]
     fallback_width: 40
@@ -200,7 +196,7 @@ presets:
     dimension_attributes: false
 
   avatar70:
-    crop: '1:1'
+    crop: "1:1"
     base_width: 60
     pixel_ratios: [1]
     fallback_width: 60
@@ -210,7 +206,7 @@ presets:
     dimension_attributes: false
 
   avatar120:
-    crop: '1:1'
+    crop: "1:1"
     base_width: 110
     pixel_ratios: [1]
     fallback_width: 110
@@ -220,7 +216,7 @@ presets:
     dimension_attributes: false
 
   avatar150:
-    crop: '1:1'
+    crop: "1:1"
     base_width: 140
     pixel_ratios: [1]
     fallback_width: 140

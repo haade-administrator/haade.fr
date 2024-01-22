@@ -1,259 +1,255 @@
 @font-face {
-    font-family: 'icomoon';
-    src:
-        url('../fonts/icomoon/icomoon.woff2?4fpajq') format('woff2'),
-        url('../fonts/icomoon/icomoon.woff?4fpajq') format('woff');
-        
-        
+  font-family: "icomoon";
+  src: url("../fonts/icomoon/icomoon.woff2?4fpajq") format("woff2"),
+    url("../fonts/icomoon/icomoon.woff?4fpajq") format("woff");
 
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .ico {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    font-family: 'icomoon';
-    font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "icomoon";
+  font-weight: 500;
 }
 
 .icob {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: inherit;
-    font-family: 'icomoon';
-    font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: inherit;
+  font-family: "icomoon";
+  font-weight: 400;
 }
 
 .icor {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: 1;
-    font-family: 'icomoon';
-    font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "icomoon";
+  font-weight: 400;
 }
 
 .icos {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    line-height: inherit;
-    font-family: 'icomoon';
-    font-weight: 500;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: inherit;
+  font-family: "icomoon";
+  font-weight: 500;
 }
 
-
 .laugh-solid {
-    &:before {
-        content: "\e91a";
-    }
+  &:before {
+    content: "\e91a";
+  }
 }
 
 .file-archive-regular {
-    &:before {
-        content: "\e90f";
-    }
+  &:before {
+    content: "\e90f";
+  }
 }
 
 .file-excel-regular {
-    &:before {
-        content: "\e911";
-    }
+  &:before {
+    content: "\e911";
+  }
 }
 
 .file-csv-solid {
-    &:before {
-        content: "\e910";
-    }
+  &:before {
+    content: "\e910";
+  }
 }
 
 .file-word-regular {
-    &:before {
-        content: "\e913";
-    }
+  &:before {
+    content: "\e913";
+  }
 }
 
 .file-pdf-regular {
-    &:before {
-        content: "\e912";
-    }
+  &:before {
+    content: "\e912";
+  }
 }
 
 .phone-alt-solid {
-    &:before {
-        content: "\e901";
-    }
+  &:before {
+    content: "\e901";
+  }
 }
 
 .map-marker-alt-solid {
-    &:before {
-        content: "\e900";
-    }
+  &:before {
+    content: "\e900";
+  }
 }
 
 .eye-solid {
-    &:before {
-        content: "\e917";
-    }
+  &:before {
+    content: "\e917";
+  }
 }
 
 .external-link-alt-solid {
-    &:before {
-        content: "\e916";
-    }
+  &:before {
+    content: "\e916";
+  }
 }
 
 .angle-right-solid {
-    &:before {
-        content: "\e90d";
-    }
+  &:before {
+    content: "\e90d";
+  }
 }
 
 .times-solid {
-    &:before {
-        content: "\e90b";
-    }
+  &:before {
+    content: "\e90b";
+  }
 }
 
 .bars-solid {
-    &:before {
-        content: "\e90a";
-    }
+  &:before {
+    content: "\e90a";
+  }
 }
 
 .phone-volume-solid {
-    &:before {
-        content: "\e903";
-    }
+  &:before {
+    content: "\e903";
+  }
 }
 
 .check-circle-solid {
-    &:before {
-        content: "\e905";
-    }
+  &:before {
+    content: "\e905";
+  }
 }
 
 .times-circle-solid {
-    &:before {
-        content: "\e909";
-    }
+  &:before {
+    content: "\e909";
+  }
 }
 
 .info-circle-solid {
-    &:before {
-        content: "\e907";
-    }
+  &:before {
+    content: "\e907";
+  }
 }
 
 .question-circle-solid {
-    &:before {
-        content: "\e908";
-    }
+  &:before {
+    content: "\e908";
+  }
 }
 
 .exclamation-circle-solid {
-    &:before {
-        content: "\e906";
-    }
+  &:before {
+    content: "\e906";
+  }
 }
 
 .search-solid {
-    &:before {
-        content: "\e91c";
-    }
+  &:before {
+    content: "\e91c";
+  }
 }
 
 .facebook-f {
-    &:before {
-        content: "\e918";
-    }
+  &:before {
+    content: "\e918";
+  }
 }
 
 .angle-down-solid {
-    &:before {
-        content: "\e90c";
-    }
+  &:before {
+    content: "\e90c";
+  }
 }
 
 .envelope-solid {
-    &:before {
-        content: "\e915";
-    }
+  &:before {
+    content: "\e915";
+  }
 }
 
 .link-solid {
-    &:before {
-        content: "\e91b";
-    }
+  &:before {
+    content: "\e91b";
+  }
 }
 
 .comments-solid {
-    &:before {
-        content: "\e90e";
-    }
+  &:before {
+    content: "\e90e";
+  }
 }
 
 .github {
-    &:before {
-        content: "\e919";
-    }
+  &:before {
+    content: "\e919";
+  }
 }
 
 .youtube {
-    &:before {
-        content: "\e91e";
-    }
+  &:before {
+    content: "\e91e";
+  }
 }
 
 .twitter {
-    &:before {
-        content: "\e91d";
-    }
+  &:before {
+    content: "\e91d";
+  }
 }
 
 .discord {
-    &:before {
-        content: "\e914";
-    }
+  &:before {
+    content: "\e914";
+  }
 }
 
 .amazon {
-    &:before {
-        content: "\e904";
-    }
+  &:before {
+    content: "\e904";
+  }
 }
 
 .history {
-    &:before {
-        content: "\e91f";
-    }
+  &:before {
+    content: "\e91f";
+  }
 }
 
 .calendar-check {
-    &:before {
-        content: "\e902";
-    }
+  &:before {
+    content: "\e902";
+  }
 }
 
 .rss {
-    &:before {
-        content: "\e920";
-    }
+  &:before {
+    content: "\e920";
+  }
 }

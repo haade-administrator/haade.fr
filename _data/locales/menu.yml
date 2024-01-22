@@ -2,315 +2,313 @@
 share:
   twitter:
     fr_FR:
-      name: 'Partage cette page sur Twitter'
+      name: "Partage cette page sur Twitter"
 
     en_GB:
-      name: 'Share this page on Twitter'
+      name: "Share this page on Twitter"
 
   facebook:
     fr_FR:
-      name: 'Partage cette page sur Facebook'
-    
+      name: "Partage cette page sur Facebook"
+
     en_GB:
-      name: 'Share this page on Facebook'
-  
+      name: "Share this page on Facebook"
+
   youtube:
     fr_FR:
-      name: 'Abonne toi à notre chaine youtube'
-    
+      name: "Abonne toi à notre chaine youtube"
+
     en_GB:
-      name: 'Subscribe to our youtube channel'
-  
+      name: "Subscribe to our youtube channel"
+
   discord:
     fr_FR:
-      name: 'Invitation sur notre réseau Discord'
+      name: "Invitation sur notre réseau Discord"
 
     en_GB:
-      name: 'Invitation to our Discord network'
+      name: "Invitation to our Discord network"
 
   github:
-    fr_FR: 
-      name: 'Continue la discussion sur le forum github'
+    fr_FR:
+      name: "Continue la discussion sur le forum github"
 
     en_GB:
-      name: 'Continue the discussion on the github forum'
+      name: "Continue the discussion on the github forum"
 
   rss:
     fr_FR:
-      name: 'partage le flux rss avec tes amis'
+      name: "partage le flux rss avec tes amis"
 
     en_GB:
-      name: 'share the rss feed with your friends'
+      name: "share the rss feed with your friends"
 
 # megamenu
 
 home:
   fr_FR:
-    name: 'Accueil'
-    link: ''
+    name: "Accueil"
+    link: ""
 
   en_GB:
-    name: 'Home'
-    link: 'en/'
+    name: "Home"
+    link: "en/"
 
 automation:
   fr_FR:
-    name: 'Domotique'
-    link: 'fr/categorie/domotique'
+    name: "Domotique"
+    link: "fr/categorie/domotique"
   en_GB:
-    name: 'Automation'
-    link: 'en/category/automation'
+    name: "Automation"
+    link: "en/category/automation"
 
 security:
   fr_FR:
-    name: 'Sécurité'
-    link: 'fr/categorie/securite'
+    name: "Sécurité"
+    link: "fr/categorie/securite"
 
   en_GB:
-    name: 'Security'
-    link: 'en/category/security'
+    name: "Security"
+    link: "en/category/security"
 
 tutorials:
   fr_FR:
-    name: 'Tutos'
-    link: 'fr/categorie/haade-lab'
+    name: "Tutos"
+    link: "fr/categorie/haade-lab"
 
   en_GB:
-    name: 'Tutos'
-    link: 'en/category/haade-lab'
+    name: "Tutos"
+    link: "en/category/haade-lab"
 
 docker:
   fr_FR:
-    name: 'Docker'
-    link: 'fr/categorie/docker'
+    name: "Docker"
+    link: "fr/categorie/docker"
 
   en_GB:
-    name: 'Docker'
-    link: 'en/category/docker'
+    name: "Docker"
+    link: "en/category/docker"
 
 ha:
   fr_FR:
-    name: 'Home-Assistant'
-    link: 'fr/categorie/home-assistant'
+    name: "Home-Assistant"
+    link: "fr/categorie/home-assistant"
 
   en_GB:
-    name: 'Home-Assistant'
-    link: 'en/category/home-assistant'
+    name: "Home-Assistant"
+    link: "en/category/home-assistant"
 
 jeedom:
   fr_FR:
-    name: 'Jeedom'
-    link: 'fr/categorie/jeedom'
+    name: "Jeedom"
+    link: "fr/categorie/jeedom"
 
   en_GB:
-    name: 'Jeedom'
-    link: 'en/category/jeedom'
+    name: "Jeedom"
+    link: "en/category/jeedom"
 
 protocols:
   fr_FR:
-    name: 'Protocoles'
-    link: 'fr/categorie/protocoles'
-  
+    name: "Protocoles"
+    link: "fr/categorie/protocoles"
+
   en_GB:
-    name: 'Protocols'
-    link: 'en/category/protocols'
+    name: "Protocols"
+    link: "en/category/protocols"
 
 matter:
   fr_FR:
-    name: 'Matter'
-    link: 'fr/categorie/matter'
+    name: "Matter"
+    link: "fr/categorie/matter"
 
   en_GB:
-    name: 'Matter'
-    link: 'en/category/matter'
+    name: "Matter"
+    link: "en/category/matter"
 
 news:
   fr_FR:
-    name: 'News'
-    link: 'fr/categorie/news'
+    name: "News"
+    link: "fr/categorie/news"
 
   en_GB:
-    name: 'News'
-    link: 'en/category/news'
+    name: "News"
+    link: "en/category/news"
 
 tests:
   fr_FR:
-    name: 'Tests'
-    link: 'fr/categorie/tests'
+    name: "Tests"
+    link: "fr/categorie/tests"
 
   en_GB:
-    name: 'Tests'
-    link: 'en/category/tests'
-
+    name: "Tests"
+    link: "en/category/tests"
 
 contributors:
   fr_FR:
-    name: 'Contributeurs'
-    link: 'fr/auteurs'
+    name: "Contributeurs"
+    link: "fr/auteurs"
   en_GB:
-    name: 'Contributors'
-    link: 'en/authors'
+    name: "Contributors"
+    link: "en/authors"
 
 community:
-  fr_FR:  
-    name: 'Forum'
-    link: 'https://github.com/haade-administrator/haade.fr/discussions'
+  fr_FR:
+    name: "Forum"
+    link: "https://github.com/haade-administrator/haade.fr/discussions"
   en_GB:
-    name: 'Forum'
-    link: 'https://github.com/haade-administrator/haade.fr/discussions'
+    name: "Forum"
+    link: "https://github.com/haade-administrator/haade.fr/discussions"
 
 shop:
   fr_FR:
-    name: 'Boutique'
-    link: 'fr/categorie-produit/boutique'
+    name: "Boutique"
+    link: "fr/categorie-produit/boutique"
   en_GB:
-    name: 'Shop'
-    link: 'en/category-product/shop'
+    name: "Shop"
+    link: "en/category-product/shop"
 
 brand:
   fr_FR:
-    name: 'Marque'
-    link: 'fr/categorie-produit/marque'
+    name: "Marque"
+    link: "fr/categorie-produit/marque"
   en_GB:
-    name: 'Brand'
-    link: 'en/category-product/brand'
+    name: "Brand"
+    link: "en/category-product/brand"
 
   jeedom:
     fr_FR:
-      name: 'Jeedom'
-      link: 'fr/categorie-produit/jeedom'
+      name: "Jeedom"
+      link: "fr/categorie-produit/jeedom"
     en_GB:
-      name: 'Jeedom'
-      link: 'en/category-product/jeedom'
-  
+      name: "Jeedom"
+      link: "en/category-product/jeedom"
+
   moes:
     fr_FR:
-      name: 'Moes'
-      link: 'fr/categorie-produit/moes'
+      name: "Moes"
+      link: "fr/categorie-produit/moes"
     en_GB:
-      name: 'Moes'
-      link: 'en/category-product/moes'
+      name: "Moes"
+      link: "en/category-product/moes"
 
   sonoff:
     fr_FR:
-      name: 'Sonoff'
-      link: 'fr/categorie-produit/sonoff'
+      name: "Sonoff"
+      link: "fr/categorie-produit/sonoff"
     en_GB:
-      name: 'Sonoff'
-      link: 'en/category-product/sonoff'
+      name: "Sonoff"
+      link: "en/category-product/sonoff"
 
   neocoolcam:
     fr_FR:
-      name: 'Neo-Coolcam'
-      link: 'fr/categorie-produit/neo-coolcam'
+      name: "Neo-Coolcam"
+      link: "fr/categorie-produit/neo-coolcam"
     en_GB:
-      name: 'Neo-Coolcam'
-      link: 'en/category-product/neo-coolcam'
+      name: "Neo-Coolcam"
+      link: "en/category-product/neo-coolcam"
 
   nodon:
     fr_FR:
-      name: 'Nodon'
-      link: 'fr/categorie-produit/nodon'
+      name: "Nodon"
+      link: "fr/categorie-produit/nodon"
     en_GB:
-      name: 'Nodon'
-      link: 'en/category-product/nodon'
+      name: "Nodon"
+      link: "en/category-product/nodon"
 
   raspberrypi:
     fr_FR:
-      name: 'Raspberry Pi'
-      link: 'fr/categorie-produit/raspberry-pi'
+      name: "Raspberry Pi"
+      link: "fr/categorie-produit/raspberry-pi"
     en_GB:
-      name: 'Raspberry-pi'
-      link: 'en/category-product/raspberry-pi'
+      name: "Raspberry-pi"
+      link: "en/category-product/raspberry-pi"
 
   zemismart:
     fr_FR:
-      name: 'Zemismart'
-      link: 'fr/categorie-produit/zemismart'
+      name: "Zemismart"
+      link: "fr/categorie-produit/zemismart"
     en_GB:
-      name: 'Zemismart'
-      link: 'en/category-product/zemismart'
+      name: "Zemismart"
+      link: "en/category-product/zemismart"
 
   xiaomi:
     fr_FR:
-      name: 'Xiaomi'
-      link: 'fr/categorie-produit/xiaomi'
+      name: "Xiaomi"
+      link: "fr/categorie-produit/xiaomi"
     en_GB:
-      name: 'Xiaomi'
-      link: 'en/category-product/xiaomi'
-  
+      name: "Xiaomi"
+      link: "en/category-product/xiaomi"
 
 protocol:
   fr_FR:
-    name: 'Protocole'
-    link: 'fr/categorie-produit/protocole'
+    name: "Protocole"
+    link: "fr/categorie-produit/protocole"
   en_GB:
-    name: 'Protocol'
-    link: 'en/category-product/protocol'
+    name: "Protocol"
+    link: "en/category-product/protocol"
 
   esp:
     fr_FR:
-      name: 'Esp 32/8266'
-      link: 'fr/categorie-produit/esp'
+      name: "Esp 32/8266"
+      link: "fr/categorie-produit/esp"
     en_GB:
-      name: 'Esp 32/8266'
-      link: 'en/category-product/esp'
+      name: "Esp 32/8266"
+      link: "en/category-product/esp"
 
   wifi:
     fr_FR:
-      name: 'Wifi'
-      link: 'fr/categorie-produit/wifi'
+      name: "Wifi"
+      link: "fr/categorie-produit/wifi"
     en_GB:
-      name: 'Wifi'
-      link: 'en/category-product/wifi'
+      name: "Wifi"
+      link: "en/category-product/wifi"
 
   zigbee:
     fr_FR:
-      name: 'Zigbee'
-      link: 'fr/categorie-produit/zigbee'
+      name: "Zigbee"
+      link: "fr/categorie-produit/zigbee"
     en_GB:
-      name: 'Zigbee'
-      link: 'en/category-product/zigbee'
- 
+      name: "Zigbee"
+      link: "en/category-product/zigbee"
+
   z-wave:
     fr_FR:
-      name: 'Z-wave'
-      link: 'fr/categorie-produit/zwave'
+      name: "Z-wave"
+      link: "fr/categorie-produit/zwave"
     en_GB:
-      name: 'Z-wave'
-      link: 'en/category-product/zwave'
+      name: "Z-wave"
+      link: "en/category-product/zwave"
 
   matter:
     fr_FR:
-      name: 'Matter'
-      link: 'fr/categorie-produit/matter'
+      name: "Matter"
+      link: "fr/categorie-produit/matter"
 
     en_GB:
-      name: 'Matter'
-      link: 'en/category-product/matter'
+      name: "Matter"
+      link: "en/category-product/matter"
 
 # footer menu
 
 legalnotice:
   fr_FR:
-    name: 'Mentions legales'
-    link: 'fr/mentions-legales'
+    name: "Mentions legales"
+    link: "fr/mentions-legales"
   en_GB:
-    name: 'Legal notice'
-    link: 'en/legal-notice'
+    name: "Legal notice"
+    link: "en/legal-notice"
 
 gdpr:
   fr_FR:
-    name: 'Politique de confidentialité'
-    link: 'fr/rgpd'
+    name: "Politique de confidentialité"
+    link: "fr/rgpd"
   en_GB:
-    name: 'Privacy Policy'
-    link: 'en/gdpr'
+    name: "Privacy Policy"
+    link: "en/gdpr"
 
 contact:
   fr_FR:
-    name: 'Formulaire de contact'
-    link: 'fr/contact'
+    name: "Formulaire de contact"
+    link: "fr/contact"
   en_GB:
-    name: 'Confact form'
-    link: 'en/contact'
+    name: "Confact form"
+    link: "en/contact"

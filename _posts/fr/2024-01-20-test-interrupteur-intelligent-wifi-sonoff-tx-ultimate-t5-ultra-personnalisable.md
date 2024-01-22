@@ -12,7 +12,7 @@ tags: []
 image: 'test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'

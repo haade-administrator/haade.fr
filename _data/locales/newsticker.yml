@@ -4,18 +4,16 @@ docs_list_title:
 
 docs:
   fr_FR:
-
     - title: Matter
       url: https://buildwithmatter.com/
 
     - title: Panlee
       url: http://en.smartpanle.com/
-    
+
     - title: Kincony
       url: https://www.kincony.com/product
 
   en_GB:
-
     - title: Matter
       url: https://buildwithmatter.com/
 

@@ -23,7 +23,6 @@ languages:
     value: English
     slug: en_GB
 
-
 #Index
 
 morepost:
@@ -166,8 +165,8 @@ product:
     en_GB: Reviews
 
   shopinfo:
-    fr_FR: 'Boutique info'
-    en_GB: 'Shop info'
+    fr_FR: "Boutique info"
+    en_GB: "Shop info"
 
   reseller:
     fr_FR: Revendeur
