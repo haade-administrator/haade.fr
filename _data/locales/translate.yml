@@ -236,3 +236,16 @@ ezsp:
   supported:
     fr_FR: "Votre navigateur ne prend pas en charge l'API WebSerial. Essayez les navigateurs Chrome ou Edge."
     en_GB: "Your browser does not support the WebSerial API. Try Chrome or Edge browsers."
+
+# video embed
+
+videoplayer:
+  text:
+    fr_FR: "Votre navigateur ne prend pas en charge les vidéos HTML5. Voici"
+    en_GB: "Your browser does not support HTML5 videos. Here is"
+
+  link:
+    fr_FR: "un lien pour télécharger la vidéo"
+    en_GB: "a link to download the video"
+
+

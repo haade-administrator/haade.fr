@@ -1,4 +1,5 @@
 <!-- https://github.com/nathancy/jekyll-embed-video/tree/master/_includes -->
+{%- assign translate = site.data.locales.translate.videoplayer %}
 {%- if include.youtubeId != nil %}
 <div class="embed-container lazyimg">
     <iframe style="border-radius:15px"
@@ -12,27 +13,23 @@
 </div>
 {%- elsif include.localId != nil %}
 <div class="embed-container lazyimg">
-    <iframe style="border-radius:15px"
-        data-src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}"
-        width="700"
-        height="480"
-        title="{{ page.title }}"
-        frameborder="0"
-        allowfullscreen="true"
-        autoplay="false">
-    </iframe>
+    <video controls preload="auto" width="100%" height="auto" type="video/webm" style="border-radius:15px">
+        <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" />
+        <p>
+            {{ translate.text[page.locale] }}
+            <a href="{{site.url}}{{site.baseurl}}/assets/images/posts/{{ page.guid }}/{{ include.localId }}">{{ translate.link[page.locale] }}</a>.
+          </p>
+    </video>
 </div>
 {%- elsif include.externalId != nil %}
 <div class="embed-container lazyimg">
-    <iframe style="border-radius:15px"
-        data-src="{{ include.externalId }}"
-        width="700"
-        height="480"
-        title="{{ page.title }}"
-        frameborder="0"
-        allowfullscreen="true"
-        autoplay="false">
-    </iframe>
+    <video controls preload="auto" width="100%" height="auto" style="border-radius:15px">
+        <source src="{{ include.externalId }}" />
+        <p>
+            {{ translate.text[page.locale] }}
+            <a href="{{ include.externalId }}">{{ translate.link[page.locale] }}</a>.
+          </p>
+    </video>
 </div>
 {%- elsif include.twitchId != nil %}
 <div class="embed-container lazyimg">
