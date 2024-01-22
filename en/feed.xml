@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Jan 2024 15:20:40 +0000</pubDate>
-    <lastBuildDate>Sat, 20 Jan 2024 15:39:00 +0000</lastBuildDate>
+    <pubDate>Mon, 22 Jan 2024 15:38:01 +0000</pubDate>
+    <lastBuildDate>Fri, 12 Jan 2024 11:24:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,27 +25,6 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
-    <item>
-      <title>Sonoff TX Ultimate review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the Sonoff Tx ultimate sound and light wifi smart switch, ultra customizable thanks to the interchangeable shells.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png" alt="Sonoff TX Ultimate review">
-</picture>
-
-      <p>After the Sonoff switches in the TX range ( T0, T1, T2 and T3), the Chinese manufacturer released the TX Ultimate series in 2023, nothing to do with the rest of the range. A very, very well finished product with a range of exceptional options and customizations.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable">Sonoff TX Ultimate review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 20 Jan 2024 15:39:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</guid>
-      <category><![CDATA[Tests]]></category>
-    </item>
     <item>
       <title>Aeotec finally releases its Zigbee controller</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -236,6 +215,27 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <category><![CDATA[News]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Matter]]></category>
+    </item>
+    <item>
+      <title>Black Friday at itead, Sonoff and Nextion</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Black friday on the itead site, sonoff and Nextion brand at reduced prices</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/95/black-friday-itead-sonoff-2023-720-41c32faac.png" alt="Black Friday at itead, Sonoff and Nextion">
+</picture>
+
+      <p>Don’t miss Black Friday on the official website of the manufacturer Sonoff, I’m talking about Itead
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/blackfrday-to-itead-sonoff-2023">Black Friday at itead, Sonoff and Nextion</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 19 Nov 2023 11:33:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/blackfrday-to-itead-sonoff-2023</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/blackfrday-to-itead-sonoff-2023</guid>
+      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>

@@ -2,178 +2,172 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
       <url>
         <loc>https://haade.fr/en/category/automation</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/docker</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/haade-lab</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/home-assistant</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/jeedom</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/matter</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/news</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/protocoles</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/security</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/tests</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category/zigbee</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/accessories</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/brand</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/jeedom</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/moes</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/neo-coolcam</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/nodon</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/raspberry-pi</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/sonoff</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/xiaomi</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/zemismart</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/esp</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/matter</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/protocol</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/wifi</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/zigbee</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/zwave</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
       <url>
         <loc>https://haade.fr/en/category-product/shop</loc>
-            <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+            <lastmod>2024-01-22T15:38:01+00:00</lastmod>
             <changefreq>monthly</changefreq>
             <priority>0.5</priority>
       </url>
-    <url>
-      <loc>https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</loc>
-      <lastmod>2024-01-20T15:39:00+00:00</lastmod>
-      <changefreq>monthly</changefreq>
-      <priority>0.5</priority>
-    </url>
     <url>
       <loc>https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</loc>
       <lastmod>2024-01-12T11:24:00+00:00</lastmod>
@@ -734,139 +728,139 @@
     </url>
     <url>
       <loc>https://haade.fr/en/author-math67/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/author-nico/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/author-yann/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/authors/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/contact/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/gdpr-general-data-protection-regulation/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/legal-notice/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/tags/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/2/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/3/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/4/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/5/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/6/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/7/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/8/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/9/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/10/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/11/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/12/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/13/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/14/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
     <url>
       <loc>https://haade.fr/en/page/15/</loc>
-      <lastmod>2024-01-22T15:20:40+00:00</lastmod>
+      <lastmod>2024-01-22T15:38:01+00:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.3</priority>
     </url>
