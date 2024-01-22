@@ -23,7 +23,7 @@
 </div>
 {%- elsif include.externalId != nil %}
 <div class="embed-container lazyimg">
-    <video controls preload="auto" width="100%" height="auto" style="border-radius:15px">
+    <video controls preload="auto" width="100%" height="auto" type="video" style="border-radius:15px">
         <source src="{{ include.externalId }}" />
         <p>
             {{ translate.text[page.locale] }}
