@@ -5,7 +5,7 @@ description: "Test de l'interrupteur intelligent wifi Sonoff Tx ultimate son et 
 ref: "TX Ultimate T5-86"
 layout: post
 author: Nico
-date: 2024-01-22 15:39
+date: 2024-01-22 15:30
 last_modified_at: 
 categories: [Tests]
 tags: []
