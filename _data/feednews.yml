@@ -1,0 +1,36 @@
+- name: les-Alexiens
+  feed: https://lesalexiens.fr/feed/
+  lang: fr_FR
+
+- name: Blog-Domadoo
+  feed: https://blog.domadoo.fr/feed/
+  lang: fr_FR
+
+- name: Blog-Nord-Domotique
+  feed: https://blog.nord-domotique.com/feed/
+  lang: fr_FR
+
+- name: Abavala
+  feed: https://www.abavala.com/feed/
+  lang: fr_FR
+
+- name: Domo&Geek
+  feed: https://domoandgeek.fr/feed/
+  lang: fr_FR
+
+- name: Maison-et-domotique
+  feed: https://www.maison-et-domotique.com/feed/
+  lang: fr_FR
+
+- name: Home-Assistant
+  feed: https://home-assistant.io/atom.xml
+  lang: en_GB
+  reverse-time: true
+
+- name: Matter
+  feed: https://csa-iot.org/feed/
+  lang: en_GB
+
+- name: Kincony
+  feed: https://www.kincony.com/feed/
+  lang: en_GB

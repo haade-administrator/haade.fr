@@ -1516,10 +1516,24 @@ a {
     padding-left: 20px;
 
     a {
-      font-size: 0.9em;
+      font-size: 1em;
       color: #212529;
-      font-weight: bold;
+      font-weight: normal;
+      margin-right: 4px;
     }
+
+    b {margin-right:4px}
+
+    .resized-image {
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+      margin:0 4px 0 4px;
+    }
+
+    &:not(:last-child):after {
+      content: " | ";
+    } 
   }
 }
 
