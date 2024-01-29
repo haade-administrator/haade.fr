@@ -24,8 +24,11 @@
 
 - name: Home-Assistant
   feed: https://home-assistant.io/atom.xml
+  lang: fr_FR
+
+- name: Home-Assistant
+  feed: https://home-assistant.io/atom.xml
   lang: en_GB
-  reverse-time: true
 
 - name: Matter
   feed: https://csa-iot.org/feed/

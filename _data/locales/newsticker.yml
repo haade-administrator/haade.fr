@@ -17,9 +17,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Netgear Orbi 960, la puissance du Wi-Fi 6E
-    url: https://blog.nord-domotique.com/test-du-netgear-orbi-960/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/11/netgear-orbi-960-4596.jpg?fit=300%2C225&ssl=1
+    title: Test de Nuki Smart lock Pro (4éme génération)
+    url: https://blog.nord-domotique.com/test-nuki-smart-lock-pro-4eme-generation/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/12/nuki-smart-lock-pro-4eme-generation-4782.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -41,11 +41,16 @@ Maison-et-domotique:
     url: https://www.maison-et-domotique.com/145828-debrief-md-ces-2024/
     image: https://www.maison-et-domotique.com/wp-content/uploads/2022/01/debrief-ces-702x395.png
 Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: The State of Matter
+    url: https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/
+    image: http://www.home-assistant.io/images/blog/2024-01-matter/matter-diagram.png
   en_GB:
   - name: Home-Assistant
-    title: 2023.10 - New looks and more tile card features!
-    url: https://www.home-assistant.io/blog/2023/10/04/release-202310/
-    image: http://www.home-assistant.io/images/blog/2023-10/social.png
+    title: The State of Matter
+    url: https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/
+    image: http://www.home-assistant.io/images/blog/2024-01-matter/matter-diagram.png
 Matter:
   en_GB:
   - name: Matter
