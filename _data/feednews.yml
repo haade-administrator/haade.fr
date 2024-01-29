@@ -1,3 +1,11 @@
+- name: Home-Assistant
+  feed: https://home-assistant.io/atom.xml
+  lang: fr_FR
+
+- name: Home-Assistant
+  feed: https://home-assistant.io/atom.xml
+  lang: en_GB
+
 - name: les-Alexiens
   feed: https://lesalexiens.fr/feed/
   lang: fr_FR
@@ -21,14 +29,6 @@
 - name: Maison-et-domotique
   feed: https://www.maison-et-domotique.com/feed/
   lang: fr_FR
-
-- name: Home-Assistant
-  feed: https://home-assistant.io/atom.xml
-  lang: fr_FR
-
-- name: Home-Assistant
-  feed: https://home-assistant.io/atom.xml
-  lang: en_GB
 
 - name: Matter
   feed: https://csa-iot.org/feed/
