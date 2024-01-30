@@ -2,6 +2,17 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: Companion app for iOS 2024.1 - CarPlay is here!
+    url: https://www.home-assistant.io/blog/2024/01/29/companion-app-for-ios-20241-carplay/
+    image: http://www.home-assistant.io/images/blog/2024-01-ios-carplay/dxspark.png
+  en_GB:
+  - name: Home-Assistant
+    title: Companion app for iOS 2024.1 - CarPlay is here!
+    url: https://www.home-assistant.io/blog/2024/01/29/companion-app-for-ios-20241-carplay/
+    image: http://www.home-assistant.io/images/blog/2024-01-ios-carplay/dxspark.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
@@ -40,17 +51,6 @@ Maison-et-domotique:
       Aqara, Roborock, Ecovacs, Withings, etc.
     url: https://www.maison-et-domotique.com/145828-debrief-md-ces-2024/
     image: https://www.maison-et-domotique.com/wp-content/uploads/2022/01/debrief-ces-702x395.png
-Home-Assistant:
-  fr_FR:
-  - name: Home-Assistant
-    title: The State of Matter
-    url: https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/
-    image: http://www.home-assistant.io/images/blog/2024-01-matter/matter-diagram.png
-  en_GB:
-  - name: Home-Assistant
-    title: The State of Matter
-    url: https://www.home-assistant.io/blog/2024/01/25/matter-livestream-blog/
-    image: http://www.home-assistant.io/images/blog/2024-01-matter/matter-diagram.png
 Matter:
   en_GB:
   - name: Matter
