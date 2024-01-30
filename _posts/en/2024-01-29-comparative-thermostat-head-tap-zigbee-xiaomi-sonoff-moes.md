@@ -36,7 +36,7 @@ This test aims to **compare 3 thermostatic faucets and help you choose according
 
 1. Understand home automation
 2. a Home-Assistant home automation box with zigbee key
-3. a [dry-contact micromodule]({% post_url /fr/2023-07-31-test-nodon-module-zigbee-1-multifunction-relay-veritable-swiss-knife %}) (to control the boiler)
+3. a [dry-contact micromodule]({% post_url /en/2023-07-31-test-nodon-module-zigbee-1-relais-multifonction-veritable-swiss-army-knife %}) (to control the boiler)
 4. Zigbee thermostatic faucets
 
 ## Comparison
