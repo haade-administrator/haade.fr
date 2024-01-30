@@ -834,6 +834,7 @@ $alert-success: #42ae42;
       var(--star-background) var(--percent),
       var(--star-color) var(--percent)
     );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

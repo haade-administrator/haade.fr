@@ -98,7 +98,7 @@ GEM
       sass-embedded (~> 1.54)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    jekyll_picture_tag (2.0.4)
+    jekyll_picture_tag (2.1.0)
       addressable (~> 2.6)
       jekyll (~> 4.0)
       mime-types (~> 3.0)
