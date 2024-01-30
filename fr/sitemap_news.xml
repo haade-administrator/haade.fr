@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/comparatif-tete-thermostatique-robinet-zigbee-xiaomi-sonoff-moes</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-01-29T00:05:00+00:00</news:publication_date>
+          <news:title>Comparatif têtes thermostatiques Zigbee</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/106/comparatif-tete-thermostatique-xiaomi-sonoff-moes-zigbee.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable</loc>
         <news:news>
           <news:publication>

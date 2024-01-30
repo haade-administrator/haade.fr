@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Jan 2024 15:17:41 +0000</pubDate>
-    <lastBuildDate>Mon, 22 Jan 2024 15:30:00 +0000</lastBuildDate>
+    <pubDate>Tue, 30 Jan 2024 22:51:20 +0000</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2024 00:05:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Comparatif têtes thermostatiques Zigbee</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Présentation de 3 têtes thermostatiques Zigbee Xiaomi Aqara SRTS-A01, Sonoff TRVZB et Moes ZTRV-BY-100, un comparatif pour savoir quel est le meilleur robinet du contest</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/106/comparatif-tete-thermostatique-xiaomi-sonoff-moes-zigbee-720-38f9b07e5.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/106/comparatif-tete-thermostatique-xiaomi-sonoff-moes-zigbee-720-38f9b07e5.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/106/comparatif-tete-thermostatique-xiaomi-sonoff-moes-zigbee-720-38f9b07e5.png" alt="Comparatif têtes thermostatiques Zigbee">
+</picture>
+
+      <p>Depuis l’année dernière le gouvernement nous conseille de chauffer notre habitat à 19°C par soucis d’économies d’énergies. Plus récent encore une subvention est proposée, et comme c’est souvent le cas pour en bénéficier il faut que ce soit posé par un professionnel. Malheureusement ce type de pose est souvent honéreuse. [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/comparatif-tete-thermostatique-robinet-zigbee-xiaomi-sonoff-moes">Comparatif têtes thermostatiques Zigbee</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 29 Jan 2024 00:05:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/comparatif-tete-thermostatique-robinet-zigbee-xiaomi-sonoff-moes</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/comparatif-tete-thermostatique-robinet-zigbee-xiaomi-sonoff-moes</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+      <category><![CDATA[Domotique]]></category>
+    </item>
     <item>
       <title>Test Sonoff TX Ultimate</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -214,28 +236,6 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
       <guid isPermaLink="true">https://haade.fr/fr/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Mise à jour Nspanel Pro V2.2.0 Zigbee</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Désormais avec la V2.2.0 Le Nspanel Pro est configurable en coordinateur ou routeur une fonction très très intéressante, pour une intégration universelle.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/96/v2.2.0-nspanel-pro-zigbee-coordinateur-routeur-720-8c03184db.png" alt="Mise à jour Nspanel Pro V2.2.0 Zigbee">
-</picture>
-
-      <p>Jusqu’à présent je ne trouvais pas de réels intérêts concernant le NSPanel Pro qui est, il faut l’avouer difficilement malléable, je ne parle pas là du firmware original, mais la possibilité de hacker afin de le rendre compatible avec son assistant domotique préféré. NspanelPro comme beaucoup d’autres écran de contrôle, [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/Grosse-mise-a-jour-nspanel-pro-v-2-2-0-de-nouvelles-prespectives">Mise à jour Nspanel Pro V2.2.0 Zigbee</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 21 Nov 2023 01:00:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/Grosse-mise-a-jour-nspanel-pro-v-2-2-0-de-nouvelles-prespectives</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/Grosse-mise-a-jour-nspanel-pro-v-2-2-0-de-nouvelles-prespectives</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Zigbee]]></category>
-      <category><![CDATA[Matter]]></category>
     </item>
   </channel>
 </rss>
