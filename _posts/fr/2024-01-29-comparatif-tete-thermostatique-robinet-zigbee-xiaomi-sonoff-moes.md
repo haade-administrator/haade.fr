@@ -25,8 +25,9 @@ rating:
 sourcelink:
 ---
 
-Depuis l'année dernière le gouvernement nous conseille de chauffer **notre habitat à 19°C** par soucis d'économies d'énergies. Plus récent encore une subvention est proposée, et comme c'est souvent le cas pour en bénéficier il faut que ce soit **posé par un professionnel**. Malheureusement ce type de pose est souvent honéreuse.
-**En attendant je te propose un tuto sur le fonctionnement de 3 robinets thermostatiques** au protocole zigbee. À combien revient de domotiser son chauffage en Zigbee ?
+Depuis l'année dernière le gouvernement nous conseille de chauffer **notre habitat à 19°C** par soucis d'économies d'énergies. Plus récent encore une subvention est proposée, et comme c'est souvent le cas pour en bénéficier il faut que ce soit **posé par un professionnel**. Malheureusement ce type de pose est souvent honéreux.
+**En attendant je te propose un tuto sur le fonctionnement de 3 robinets thermostatiques** au protocole zigbee. 
+À combien revient de domotiser son chauffage en Zigbee ?
 
 [Une aide financière pour installer un thermostat connecté et réduire vos dépenses en énergie](https://www.service-public.fr/particuliers/actualites/A16968){: target="_blank"}
 
