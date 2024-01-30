@@ -16,7 +16,7 @@ rating:
 published: true
 aep-item: 
 aep-item-affiliate: 
-dom-item: "TRVZB"
+dom-item: TRVZB
 itead-item: 
 ---
 

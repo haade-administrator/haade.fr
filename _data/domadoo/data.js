@@ -49,5 +49,6 @@ module.exports = [
     'box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff', // Sonoff ihost 2179
     'sirene/6532-neo-sirene-intelligente-exterieure-zigbee-tuya-alimentation-5v1a-ou-batterie-panneau-solaire', // 2180 Neo sirène solaire
     'controleurs-adaptateurs/6777-controleur-usb-zigbee-zi-stick-aeotec-1220000017191', // 2181 zi-stick aeotec
-    'chauffage-clim/6776-sonoff-tete-thermostatique-connectee-zigbee-30' // 2182 thermostat Sonoff
+    'chauffage-clim/6776-sonoff-tete-thermostatique-connectee-zigbee-30', // 2182 thermostat Sonoff
+    'peripheriques/6286-tete-thermostatique-zigbee-30-aqara-radiator-thermostat-e1-aqara-6970504217058' // 2183 aqara thermostat srts-a01
 ]
