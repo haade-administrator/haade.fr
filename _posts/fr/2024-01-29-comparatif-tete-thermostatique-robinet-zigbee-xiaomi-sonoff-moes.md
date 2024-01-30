@@ -267,3 +267,5 @@ Il m'a fallut faire un choix, qui n'a pas été si facile à prendre car malgré
 Voilà un test grandeur nature qui pourrait être plus complet, **garde à l'esprit** que le Xiaomi Aqara SRTS-A01 **est difficilement contrôlable** par automatisation donc le retour sur investissement certainement plus long. La qualité de fabrication du Moes laisse un peu à désirer l'absence du mode d'extinction rendra ce module plus énergivore.
 
 Et pour terminer **notre grand gagnant du contest le Sonoff TRVZB** une bonne qualité de fabrication, un visuel vertical entièrement paramétrable et contrôlable dans Home Assistant pour **un max d'économies pour les années à venir.**
+
+{% include product-embed.html image="sonoff-tete-thermostatique-connectee-zigbee-30.jpg" title="Sonoff TRVZB" brand="Sonoff" description="La tête thermostatique connectée SONOFF Zigbee vous permet de contrôler la température plus précisément avec moins d'énergie, vous offrant ainsi une maison plus confortable." domlink="chauffage-clim/6776-sonoff-tete-thermostatique-connectee-zigbee-30.html" iteadlink="sonoff-zigbee-thermostatic-radiator-valve" affiliate="_DFB4iQZ" %}
