@@ -4,13 +4,13 @@
         "productId": "SNZB-02D",
         "title": "SONOFF - Capteur de température et d'humidité Zigbee 3.0 avec écran",
         "description": "Le capteur de température et d'humidité SONOFF SNZB-02D vous informe de la température et l'humidité.",
-        "productNew": "Nouveau",
-        "minsalePrice": "13.99",
-        "maxsalePrice": "12.99",
-        "discount": "-5%",
+        "productNew": "",
+        "minsalePrice": "11.19",
+        "maxsalePrice": "13.99",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "12.99",
-        "quantity": "Plus de 20 Produits disponibles",
+        "originalPrice": "13.99",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/25146-large_default/sonoff-capteur-de-temperature-et-d-humidite-zigbee-30-avec-ecran.jpg",
@@ -32,7 +32,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.5",
-            "totalStarCount": "59"
+            "totalStarCount": "60"
         }
     }
 }
