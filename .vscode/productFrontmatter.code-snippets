@@ -80,7 +80,7 @@
       "published: ${18|false,true|}",
       "aep-item: $19",
       "aep-item-affiliate: $20",
-      "dom-item: \"$21\"",
+      "dom-item: $21",
       "itead-item: $22",
       "---",
       "$23"
