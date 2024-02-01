@@ -30,6 +30,15 @@ sourcelink:
   - https://docs.frigate.video/configuration/hardware_acceleration
 ---
 
+DÉFINITION DE L'INFÉRENCE DANS L'IA
+Dans le monde de l'IA (intelligence artificielle), l'inférence est l'art de tirer des conclusions et de prendre des décisions en utilisant la puissance des informations ou des données disponibles. Il s'agit d'un processus cognitif qui va au-delà de la simple interprétation des données et qui permet de générer de nouvelles idées et conclusions à partir de connaissances ou d'ensembles de données existants.
+
+L'inférence dans l'IA (intelligence artificielle) se présente sous deux formes principales : déductive et inductive. L'inférence déductive implique l'application de principes généraux pour parvenir à des conclusions spécifiques, tandis que l'inférence inductive fonctionne à l'inverse, décodant des principes généraux ou des règles à partir d'observations spécifiques ou de modèles de données.
+
+L'inférence joue un rôle essentiel dans la recherche d'applications dans divers domaines. Par exemple, dans le traitement du langage naturel, elle aide à comprendre le sens des phrases grâce au contexte et aux connaissances préalables. Dans le domaine de la vision artificielle, elle permet aux machines de reconnaître des objets dans des images, en identifiant des modèles et des caractéristiques. En outre, en robotique, l'inférence est l'acteur clé de la planification et de l'exécution d'actions basées sur la compréhension de l'environnement.
+
+En bref, l'inférence est l'élément fondamental de la capacité de l'IA (intelligence artificielle) à raisonner, à apprendre et à prendre des décisions en connaissance de cause, ce qui lui confère les capacités de base nécessaires à la mise en œuvre de diverses caractéristiques des applications.
+
 ```
 version: "3.9"
 services:
