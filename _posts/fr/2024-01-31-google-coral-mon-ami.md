@@ -151,3 +151,7 @@ La décompression des flux vidéo nécessite une quantité importante de puissan
 YES! The Coral does not help with decoding video streams.
 
 Decompressing video streams takes a significant amount of CPU power. Video compression uses key frames (also known as I-frames) to send a full frame in the video stream. The following frames only include the difference from the key frame, and the CPU has to compile each frame by merging the differences with the key frame. More detailed explanation. Higher resolutions and frame rates mean more processing power is needed to decode the video stream, so try and set them on the camera to avoid unnecessary decoding work.
+
+## Conclusion
+
+Il ne suffi pas d'installer un NVR de paramétrer ses caméras et de laisser tourner, surtout si comme moi tu possèdes un NAS Diy. Si tu décides de faire en plus des captures vidéos et snapshot du contrôle d'objet alors il te faudra t'équiper d'un google Coral, et d'utiliser l'accélération matérielle ainsi tu économiseras énormément de CPU et allongera la vie de ton processeur.
