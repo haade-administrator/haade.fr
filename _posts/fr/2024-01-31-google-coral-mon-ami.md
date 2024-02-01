@@ -29,7 +29,10 @@ sourcelink:
   - https://docs.frigate.video/frigate/hardware/#google-coral-tpu
   - https://docs.frigate.video/configuration/hardware_acceleration
 ---
-Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. Avec une vitesse d'inférence de 10, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
+
+Un petit tuto pour te montrer les bienfaits d'un google coral dans ton NAS. J'utilise le NVR frigate qui traite par l'ia les images afin d'interpréter une détection d'objet et en redre l'état. C'est sympa, pratique, mais quand tu n'utilises pas google Coral ça consomme du CPU et mémoire RAM supplémzntaire.
+
+Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. **Avec une vitesse d'inférence de 10**, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
 
 ==========================================
 
@@ -47,7 +50,30 @@ Dans le domaine de la vision artificielle, elle permet aux machines de reconnaî
 
 Pour résumer, l'inférence est l'élément fondamental de la capacité de l'IA (intelligence artificielle) à raisonner, à apprendre et à prendre des décisions en connaissance de cause, ce qui lui confère les capacités de base nécessaires à la mise en œuvre de diverses caractéristiques des applications.
 
-{ù highlight yaml %}
+## Installation et paramétrage d'un google Coral
+
+### étape 1 installation du software sur ton système
+
+j'utilise un coral M.2 pci sur debian, [donc je suis l'intallation préconisée par Google](https://coral.ai/docs/m2/get-started/#1-connect-the-module){: target="_blank"}
+
+{% highlight shell %}
+uname -r # version kernel
+lsmod | grep apex
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+sudo apt install curl
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt update
+sudo apt install gasket-dkms libedgetpu1-std
+lspci -nn | grep 089a # réponse 03:00.0 System peripheral: Device 1ac1:089a
+reboot
+ls /dev/apex_0 # réponse /dev/apex_0
+{% endhighlight %}
+
+## étape 2 frigate
+
+J'utilise frigate sur un docker n'oublie pas de renseigner le device /dev/apex_0:/dev/apex_0 comme dans le docker-compose.yaml ci-dessous
+
+{% highlight yaml %}
 version: "3.9"
 services:
   frigate:
@@ -60,8 +86,8 @@ services:
       - /dev/apex_0:/dev/apex_0
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /zfspool/Appdata/Frigate/config:/config
-      - /zfspool/Sécurité/Télésurveillance/Frigate:/media/frigate
+      - /..../..../Frigate/config:/config
+      - /..../..../Frigate:/media/frigate
       - type: tmpfs
         target: /tmp/cache
         tmpfs:
@@ -75,23 +101,29 @@ services:
       FRIGATE_RTSP_PASSWORD: "password"
 {% endhighlight %}
 
-{% highlight %}
+dans le fichier config.yaml de frigate rajoute je detecteur google Coral comme le fichier ci-dessous et redémarre frigate. 
+
+{% highlight yaml %}
 # Google coral m2
 detectors:
   coral:
     type: edgetpu
-    device: pci
+    device: pci # ou usb selon ton matériel
 {% endhighlight %}
 
 [erreur google coral](https://docs.frigate.video/troubleshooting/edgetpu/#pcie-coral-not-detected)
 
+Voilà c'est terminé vérifie dans les logs que le google coral est bien reconnu dans frigate.
+
+{% picture posts/{{ page.guid }}/google-coral-found-on-frigate.png --alt les logs de l'interface ui de frigate te permettent de vérifier la bonn prise en charge de google coral --img width="940" height="432" %}
+
 ## Google Coral TPU
 
-Il est fortement recommandé d'utiliser un Google Coral. Un appareil à 60 $ surpassera un processeur à 2 000 $. Frigate devrait fonctionner avec n'importe quel appareil Coral pris en charge sur https://coral.ai
+Il est fortement recommandé d'utiliser un Google Coral. Un appareil à 50€ surpassera un processeur à 1800€. Frigate devrait fonctionner avec n'importe quel appareil Coral pris en charge sur https://coral.ai
 
 La version USB est compatible avec la plus grande variété de matériels et ne nécessite pas de pilote sur la machine hôte. Cependant, il lui manque les fonctionnalités de limitation automatique des autres versions.
 
-Les versions PCIe et M.2 nécessitent l'installation d'un pilote sur l'hôte. Suivez les instructions pour votre version sur https://coral.ai
+## Contrôler l'inférence dans Frigate
 
 Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. Avec une vitesse d'inférence de 10, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
 
@@ -107,6 +139,11 @@ A single Coral can handle many cameras and will be sufficient for the majority o
 
 ## Les arguments hwaccel sont-ils utiles si j'utilise un Coral ?
 OUI! Le Coral n'aide pas au décodage des flux vidéo.
+
+{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-frigate.png --alt relevé puissance après installation d'un google Coral mais avant l'accélération matériel --img width="940" height="309" %}
+
+{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-et-cpu-intel-accelerator-frigate.png --alt relevé puissance après installation d'un google Coral intel Vaapiet avec l'accélération matérielle  l'accélération matériel --img width="940" height="311" %}
+
 
 La décompression des flux vidéo nécessite une quantité importante de puissance CPU. La compression vidéo utilise des images clés (également appelées images I) pour envoyer une image complète dans le flux vidéo. Les images suivantes incluent uniquement la différence par rapport à l'image clé, et le processeur doit compiler chaque image en fusionnant les différences avec l'image clé. Explication plus détaillée. Des résolutions et des fréquences d'images plus élevées signifient qu'une plus grande puissance de traitement est nécessaire pour décoder le flux vidéo, alors essayez de les régler sur la caméra pour éviter un travail de décodage inutile.
 
