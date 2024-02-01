@@ -7,9 +7,9 @@ layout: post
 author: Nico
 date: 2024-01-31 12:24
 last_modified_at: 
-categories: [Docker, Domotique, Zigbee]
+categories: [Securite, Tests, Domotique]
 tags: []
-image: 'picture.png'
+image: 'test-google-coral-frigate-home-assistant-ai-fait-il-le-job.png'
 toc: true
 beforetoc: ''
 published: false

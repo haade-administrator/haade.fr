@@ -1,24 +1,24 @@
-  ---
-  guid: 2184
-  layout: product 
-  title: "MOES - TÊTE THERMOSTATIQUE INTELLIGENTE ZIGBEE 3.0 TUYA - BLANC"
-  date: "2024-01-30 23:56"
-  description: "Contrôlez la température d'une zone de votre logement de façon intelligente avec la tête thermostatique Zigbee MOES."
-  categories: [Boutique, Sonoff, Zigbee]
-  tags: []
-  locale: fr_FR
-  brand: Moes
-  ean: 
-  image: 'moes-tete-thermostatique-intelligente-zigbee-30-blanc.jpg'
-  imageshadow: true
-  comments: false
-  rating:  
-  published: true
-  aep-item: 
-  aep-item-affiliate: 
-  dom-item: ZTRV-BY-100-WH-FR
-  itead-item: 
-  ---
+---
+guid: 2184
+layout: product 
+title: "MOES - TÊTE THERMOSTATIQUE INTELLIGENTE ZIGBEE 3.0 TUYA - BLANC"
+date: "2024-01-30 23:56"
+description: "Contrôlez la température d'une zone de votre logement de façon intelligente avec la tête thermostatique Zigbee MOES."
+categories: [Boutique, Sonoff, Zigbee]
+tags: []
+locale: fr_FR
+brand: Moes
+ean: 
+image: 'moes-tete-thermostatique-intelligente-zigbee-30-blanc.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+aep-item: 
+aep-item-affiliate: 
+dom-item: ZTRV-BY-100-WH-FR
+itead-item: 
+---
 
 Avec **JEEDOM**, seul le mode "MANUEL" de la tête thermostatique doit être utilisé. Vous pouvez créez vos modes "ECO" et "CONFORT" via le plugin Mode et programmer des scénarios ou utiliser le plugin Thermostat.
 

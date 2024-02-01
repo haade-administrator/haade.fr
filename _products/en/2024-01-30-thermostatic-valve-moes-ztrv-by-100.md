@@ -1,24 +1,24 @@
-  ---
-  guid: 2184
-  layout: product 
-  title: "MOES - ZIGBEE 3.0 TUYA SMART THERMOSTATIC HEAD - WHITE"
-  date: "2024-01-30 23:56"
-  description: "Control the temperature of an area of your home intelligently with the Zigbee MOES thermostatic head."
-  categories: [Shop, Sonoff, Zigbee]
-  tags: []
-  locale: en_GB
-  brand: Moes
-  ean: 
-  image: 'moes-tete-thermostatique-intelligente-zigbee-30-blanc.jpg'
-  imageshadow: true
-  comments: false
-  rating:  
-  published: true
-  aep-item: 
-  aep-item-affiliate: 
-  dom-item: ZTRV-BY-100-WH-FR
-  itead-item: 
-  ---
+---
+guid: 2184
+layout: product 
+title: "MOES - ZIGBEE 3.0 TUYA SMART THERMOSTATIC HEAD - WHITE"
+date: "2024-01-30 23:56"
+description: "Control the temperature of an area of your home intelligently with the Zigbee MOES thermostatic head."
+categories: [Shop, Sonoff, Zigbee]
+tags: []
+locale: en_GB
+brand: Moes
+ean: 
+image: 'moes-tete-thermostatique-intelligente-zigbee-30-blanc.jpg'
+imageshadow: true
+comments: false
+rating:  
+published: true
+aep-item: 
+aep-item-affiliate: 
+dom-item: ZTRV-BY-100-WH-FR
+itead-item: 
+---
 
 With **JEEDOM**, only the "MANUAL" mode of the thermostatic head must be used. You can create your "ECO" and "COMFORT" modes via the Mode plugin and program scenarios or use the Thermostat plugin.
 

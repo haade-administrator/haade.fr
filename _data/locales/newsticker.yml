@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Ring Stick Up Cam Pro  - une caméra de surveillance premium et polyvalente
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-ring-stick-up-cam-pro-camera-surveillance/#utm_source=rss&utm_medium=rss&utm_campaign=test-ring-stick-up-cam-pro-camera-surveillance
+    title: Amazon recrute pour concevoir son nouveau Fire TV sans Android
+    url: https://www.lesalexiens.fr/actualites/amazon-recrute-pour-concevoir-son-nouveau-fire-tv-sans-android/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-recrute-pour-concevoir-son-nouveau-fire-tv-sans-android
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,10 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D CES 2024 - montée en puissance de Matter, nouveautés Shelly,
-      Aqara, Roborock, Ecovacs, Withings, etc.
-    url: https://www.maison-et-domotique.com/145828-debrief-md-ces-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2022/01/debrief-ces-702x395.png
+    title: Oui, la domotique fait aussi le café !
+    url: https://www.maison-et-domotique.com/145838-la-domotique-fait-le-cafe/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/01/domotique-cafe-702x393.png
 Matter:
   en_GB:
   - name: Matter
