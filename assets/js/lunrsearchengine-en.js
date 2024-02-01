@@ -924,6 +924,12 @@ var documents = [{
         "title": "THERMOSTATIC HEAD ZIGBEE 3.0 AQARA RADIATOR THERMOSTAT E1 - AQARA",
         "description": "30/01/2024 - A smarter, more comfortable heating control experience for your home.",
         "tags": ""
+        },{
+        "id": 170,
+        "url": "/en/product/thermostatic-valve-moes-ztrv-by-100",
+        "title": "MOES - ZIGBEE 3.0 TUYA SMART THERMOSTATIC HEAD - WHITE",
+        "description": "30/01/2024 - Control the temperature of an area of your home intelligently with the Zigbee MOES thermostatic head.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

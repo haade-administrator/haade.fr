@@ -999,6 +999,12 @@ var documents = [{
         "title": "TÊTE THERMOSTATIQUE ZIGBEE 3.0 AQARA RADIATOR THERMOSTAT E1 - AQARA",
         "description": "30/01/2024 - Une expérience de contrôle de chauffage plus intelligente et plus confortable pour votre maison.",
         "tags": ""
+        },{
+        "id": 184,
+        "url": "/fr/produit/robinet-thermostatique-moes-ztrv-by-100",
+        "title": "MOES - TÊTE THERMOSTATIQUE INTELLIGENTE ZIGBEE 3.0 TUYA - BLANC",
+        "description": "30/01/2024 - Contrôlez la température d'une zone de votre logement de façon intelligente avec la tête thermostatique Zigbee MOES.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
