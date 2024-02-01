@@ -1,13 +1,13 @@
 ---
 guid: 107
-title: ""
-description: ""
-ref: ""
+title: "Google Coral AI et Frigate"
+description: "Sur mon NAS privé j'utilise comme NVR frigate, et il est fortement recommandé d'utiliser Google Coral AI, comment agit ce composant sur la puissance du NVR"
+ref: "Google Coral AI"
 layout: post
 author: Nico
 date: 2024-01-31 12:24
 last_modified_at: 
-categories: [Securite, Tests, Domotique]
+categories: [Securite, Domotique, Tests]
 tags: []
 image: 'test-google-coral-frigate-home-assistant-ai-fait-il-le-job.png'
 toc: true
@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 5.0
 sourcelink:
   - https://coral.ai/
   - https://coral.ai/docs/m2/get-started/#requirements

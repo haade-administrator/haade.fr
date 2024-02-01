@@ -34,10 +34,9 @@ Blog-Nord-Domotique:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: La Home Connectivity Alliance annonce la spécification de l’Interface de
-      Gestion de l’Énergie HCA 1.0 lors du CES 2024
-    url: https://www.abavala.com/la-home-connectivity-alliance-annonce-la-specification-de-l-interface-de-gestion-de-l-energie-hca-1-0-lors-du-ces-2024/
-    image: https://www.abavala.com/wp-content/uploads/HCA_Wireframe-150x150.jpg
+    title: SmartThings, Tesla, Ballie, … les nouveautés de Samsung au CES 2024
+    url: https://www.abavala.com/smartthings-tesla-ballie-les-nouveautes-de-samsung-au-ces-2024/
+    image: https://www.abavala.com/wp-content/uploads/CES-2024-Samsung-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -47,9 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Oui, la domotique fait aussi le café !
-    url: https://www.maison-et-domotique.com/145838-la-domotique-fait-le-cafe/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/01/domotique-cafe-702x393.png
+    title: Test de Beem On - la station solaire la plus puissante et polyvalente du
+      moment ?
+    url: https://www.maison-et-domotique.com/145849-test-beem-on-station-solaire-puissante-polyvalente/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/01/test-beem-one-21-667x500.jpg
 Matter:
   en_GB:
   - name: Matter
