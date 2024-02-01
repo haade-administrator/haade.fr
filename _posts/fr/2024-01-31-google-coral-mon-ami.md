@@ -29,17 +29,25 @@ sourcelink:
   - https://docs.frigate.video/frigate/hardware/#google-coral-tpu
   - https://docs.frigate.video/configuration/hardware_acceleration
 ---
+Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. Avec une vitesse d'inférence de 10, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
 
-DÉFINITION DE L'INFÉRENCE DANS L'IA
-Dans le monde de l'IA (intelligence artificielle), l'inférence est l'art de tirer des conclusions et de prendre des décisions en utilisant la puissance des informations ou des données disponibles. Il s'agit d'un processus cognitif qui va au-delà de la simple interprétation des données et qui permet de générer de nouvelles idées et conclusions à partir de connaissances ou d'ensembles de données existants.
+==========================================
+
+A single Coral can handle many cameras and will be sufficient for the majority of users. You can calculate the maximum performance of your Coral based on the inference speed reported by Frigate. With an inference speed of 10, your Coral will top out at 1000/10=100, or 100 frames per second. If your detection fps is regularly getting close to that, you should first consider tuning motion masks. If those are already properly configured, a second Coral may be needed.
+
+## Qu'est-ce que l'inférence dals le monde de l'IA
+
+**Dans le monde de l'IA (intelligence artificielle), l'inférence** est l'art de tirer des conclusions et de prendre des décisions en utilisant la puissance des informations ou des données disponibles. Il s'agit d'un processus cognitif qui va au-delà de la simple interprétation des données et qui permet de générer de nouvelles idées et conclusions à partir de connaissances ou d'ensembles de données existants.
+
+Dans le domaine de la vision artificielle, elle permet aux machines de reconnaître des objets dans des images, en identifiant des modèles et des caractéristiques.
 
 L'inférence dans l'IA (intelligence artificielle) se présente sous deux formes principales : déductive et inductive. L'inférence déductive implique l'application de principes généraux pour parvenir à des conclusions spécifiques, tandis que l'inférence inductive fonctionne à l'inverse, décodant des principes généraux ou des règles à partir d'observations spécifiques ou de modèles de données.
 
-L'inférence joue un rôle essentiel dans la recherche d'applications dans divers domaines. Par exemple, dans le traitement du langage naturel, elle aide à comprendre le sens des phrases grâce au contexte et aux connaissances préalables. Dans le domaine de la vision artificielle, elle permet aux machines de reconnaître des objets dans des images, en identifiant des modèles et des caractéristiques. En outre, en robotique, l'inférence est l'acteur clé de la planification et de l'exécution d'actions basées sur la compréhension de l'environnement.
+Dans le domaine de la vision artificielle, elle permet aux machines de reconnaître des objets dans des images, en identifiant des modèles et des caractéristiques.
 
-En bref, l'inférence est l'élément fondamental de la capacité de l'IA (intelligence artificielle) à raisonner, à apprendre et à prendre des décisions en connaissance de cause, ce qui lui confère les capacités de base nécessaires à la mise en œuvre de diverses caractéristiques des applications.
+Pour résumer, l'inférence est l'élément fondamental de la capacité de l'IA (intelligence artificielle) à raisonner, à apprendre et à prendre des décisions en connaissance de cause, ce qui lui confère les capacités de base nécessaires à la mise en œuvre de diverses caractéristiques des applications.
 
-```
+{ù highlight yaml %}
 version: "3.9"
 services:
   frigate:
@@ -65,19 +73,30 @@ services:
       - "8555:8555/udp" # WebRTC over udp
     environment:
       FRIGATE_RTSP_PASSWORD: "password"
-```
+{% endhighlight %}
 
-```
+{% highlight %}
 # Google coral m2
 detectors:
   coral:
     type: edgetpu
     device: pci
-```
+{% endhighlight %}
 
 [erreur google coral](https://docs.frigate.video/troubleshooting/edgetpu/#pcie-coral-not-detected)
 
-**Google Coral TPU**
+## Google Coral TPU
+
+Il est fortement recommandé d'utiliser un Google Coral. Un appareil à 60 $ surpassera un processeur à 2 000 $. Frigate devrait fonctionner avec n'importe quel appareil Coral pris en charge sur https://coral.ai
+
+La version USB est compatible avec la plus grande variété de matériels et ne nécessite pas de pilote sur la machine hôte. Cependant, il lui manque les fonctionnalités de limitation automatique des autres versions.
+
+Les versions PCIe et M.2 nécessitent l'installation d'un pilote sur l'hôte. Suivez les instructions pour votre version sur https://coral.ai
+
+Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. Avec une vitesse d'inférence de 10, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
+
+==================================
+
 It is strongly recommended to use a Google Coral. A $60 device will outperform $2000 CPU. Frigate should work with any supported Coral device from https://coral.ai
 
 The USB version is compatible with the widest variety of hardware and does not require a driver on the host machine. However, it does lack the automatic throttling features of the other versions.
@@ -85,6 +104,11 @@ The USB version is compatible with the widest variety of hardware and does not r
 The PCIe and M.2 versions require installation of a driver on the host. Follow the instructions for your version from https://coral.ai
 
 A single Coral can handle many cameras and will be sufficient for the majority of users. You can calculate the maximum performance of your Coral based on the inference speed reported by Frigate. With an inference speed of 10, your Coral will top out at 1000/10=100, or 100 frames per second. If your detection fps is regularly getting close to that, you should first consider tuning motion masks. If those are already properly configured, a second Coral may be needed.
+
+## Les arguments hwaccel sont-ils utiles si j'utilise un Coral ?
+OUI! Le Coral n'aide pas au décodage des flux vidéo.
+
+La décompression des flux vidéo nécessite une quantité importante de puissance CPU. La compression vidéo utilise des images clés (également appelées images I) pour envoyer une image complète dans le flux vidéo. Les images suivantes incluent uniquement la différence par rapport à l'image clé, et le processeur doit compiler chaque image en fusionnant les différences avec l'image clé. Explication plus détaillée. Des résolutions et des fréquences d'images plus élevées signifient qu'une plus grande puissance de traitement est nécessaire pour décoder le flux vidéo, alors essayez de les régler sur la caméra pour éviter un travail de décodage inutile.
 
 **Do hwaccel args help if I am using a Coral?**
 YES! The Coral does not help with decoding video streams.
