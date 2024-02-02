@@ -27,7 +27,7 @@
 		},
 		{
 			"name": "OpenThread",
-			"url": "https://raw.githubusercontent.com/darkxst/silabs-firmware-builder/main/firmware_builds/zbdonglee/ot-rcp-v2.4.0.0-zbdonglee-460800.gbl",
+			"url": "https://github.com/darkxst/silabs-firmware-builder/raw/main/firmware_builds/zbdonglee/ot-rcp-v2.4.0.0-zbdonglee-460800.gbl",
 			"type": "ot-rcp",
 			"version": "2.4.0.0"
 		}
