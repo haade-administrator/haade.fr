@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Petits prix sur les appareils Alexa, Echo et Fire TV pour la Saint-Valentin
-    url: https://www.lesalexiens.fr/actualites/petits-prix-sur-les-appareils-alexa-echo-et-fire-tv-pour-la-saint-valentin/#utm_source=rss&utm_medium=rss&utm_campaign=petits-prix-sur-les-appareils-alexa-echo-et-fire-tv-pour-la-saint-valentin
+    title: Husqvarna présente deux nouveaux robots Automower Nera
+    url: https://www.lesalexiens.fr/actualites/husqvarna-nouveaux-automower-nera-2024/#utm_source=rss&utm_medium=rss&utm_campaign=husqvarna-nouveaux-automower-nera-2024
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,10 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test de Beem On - la station solaire la plus puissante et polyvalente du
-      moment ?
-    url: https://www.maison-et-domotique.com/145849-test-beem-on-station-solaire-puissante-polyvalente/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/01/test-beem-one-21-667x500.jpg
+    title: BLUETTI lance sa plus petite station électrique portable AC2A pour des
+      aventures en plein air illimitées
+    url: https://www.maison-et-domotique.com/145908-bluetti-lance-ac2a/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/bluetti-ac2a-1-702x468.jpg
 Matter:
   en_GB:
   - name: Matter

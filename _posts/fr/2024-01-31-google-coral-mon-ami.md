@@ -30,9 +30,15 @@ sourcelink:
   - https://docs.frigate.video/configuration/hardware_acceleration
 ---
 
-Un petit tuto pour te montrer les bienfaits d'un google coral dans ton NAS. J'utilise le NVR frigate qui traite par l'ia les images afin d'interpréter une détection d'objet et en redre l'état. C'est sympa, pratique, mais quand tu n'utilises pas google Coral ça consomme du CPU et mémoire RAM supplémzntaire.
+Un petit tuto pour te montrer les bienfaits d'un google coral dans ton NAS. J'utilise le NVR frigate qui traite par l'ia les images afin d'interpréter une détection d'objet et rendre une conclusion sur l'état. C'est sympa, pratique, mais quand tu n'utilises pas google Coral ça consomme du CPU et mémoire RAM supplémentaires.
 
-Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. **Avec une vitesse d'inférence de 10**, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
+Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. **Avec une vitesse d'inférence de 10**, votre Coral atteindra **1000/10=100, soit 100 images par seconde**. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
+
+{% picture posts/{{ page.guid }}/calcul-fps-ensemble-camera-google-coral.png --alt calcul total du nombre de fps sur 5 images pour contrôler si google coral suffit --img width="940" height="493" %}
+
+{% picture posts/{{ page.guid }}/affichages-systeme-frigate-google-coral-detector.png --alt affichage dans la cofig du google coral et du nombre de fps. --img width="548" height="259" %}
+
+Le google coral a une inférence de **6,2**, d'après le calcul ci-dessus il pourrait traiter: 1000/6.2= 161 images par secondes, nous sommes actuellement sur  images à 83,4 images par seconde, exactement à la moitié des capacités de traitemnt du google coral.
 
 ==========================================
 
@@ -84,6 +90,8 @@ services:
     shm_size: "88mb" # update for your cameras based on calculation above
     devices:
       - /dev/apex_0:/dev/apex_0
+      - /dev/dri/renderD128
+      - /dev/dri/card0
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /..../..../Frigate/config:/config
@@ -123,6 +131,34 @@ Il est fortement recommandé d'utiliser un Google Coral. Un appareil à 50€ su
 
 La version USB est compatible avec la plus grande variété de matériels et ne nécessite pas de pilote sur la machine hôte. Cependant, il lui manque les fonctionnalités de limitation automatique des autres versions.
 
+## Installation Frigate
+
+L'installation Frigate comprends 5 caméras en détection et en enregistrements
+
+{% picture posts/{{ page.guid }}/capture-ecran-gestion-home-assistant-frigate-enregistrement-5-cameras.png --alt installation frigate de 5 caméras en détections et enregistrements. --img width="940" height="584" %}
+
+## Relevé Puissance avant Google coral et accélération matérielle
+
+Comme tu peux le constater ci-dessous sans google coral et sans l'optimisation matérielle j'atteint une moyenne de consommations de mémoires RAM de 1.4GB, quand à l'usage CPU la moyenne est de 450%, c'est énorme
+
+{% picture posts/{{ page.guid }}/releve-conso-avant-google-coral-cpu-hwaccel-frigate.png --alt relevé puissance avant l'installation de google coral et l'accélération matérielle intel-vaapi. --img width="940" height="306" %}
+
+## Relevé puissance avec Google Coral et sans l'accélération matérielle
+
+Une fois le Google Coral installé la consommation mémoire RAM oscille à 1,3GB et la consommation de l'usage CPU est aux alentours de 180%, je rappelle que seule le google Coral AI est installé il n'y a toujours pas d'accélération matérielle
+
+{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-frigate.png --alt relevé puissance après installation d'un google Coral mais avant l'accélération matériel --img width="940" height="309" %}
+
+## Relevé puissance Google Coral + accélération matérielle
+
+Une fois l'accélération matérielle intel-vaapi installé plus le fonctionnement du Google Coral la consommation de la mémoire RAM passe à 0,8GB et la consommation de l'usage CPU passe à 30%.
+
+{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-et-cpu-intel-accelerator-frigate.png --alt relevé puissance après installation d'un google Coral intel Vaapiet avec l'accélération matérielle  l'accélération matériel --img width="940" height="311" %}
+
+## Conclusion
+
+
+
 ## Contrôler l'inférence dans Frigate
 
 Un seul Coral peut gérer plusieurs caméras et sera suffisant pour la majorité des utilisateurs. Vous pouvez calculer les performances maximales de votre Coral en fonction de la vitesse d'inférence signalée par Frigate. Avec une vitesse d'inférence de 10, votre Coral atteindra 1000/10=100, soit 100 images par seconde. Si votre fps de détection s'en rapproche régulièrement, vous devez d'abord envisager de régler les masques de mouvement. Si ceux-ci sont déjà correctement configurés, un deuxième Coral peut être nécessaire.
@@ -140,9 +176,7 @@ A single Coral can handle many cameras and will be sufficient for the majority o
 ## Les arguments hwaccel sont-ils utiles si j'utilise un Coral ?
 OUI! Le Coral n'aide pas au décodage des flux vidéo.
 
-{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-frigate.png --alt relevé puissance après installation d'un google Coral mais avant l'accélération matériel --img width="940" height="309" %}
-
-{% picture posts/{{ page.guid }}/releve-conso-apres-google-coral-et-cpu-intel-accelerator-frigate.png --alt relevé puissance après installation d'un google Coral intel Vaapiet avec l'accélération matérielle  l'accélération matériel --img width="940" height="311" %}
+{% picture posts/{{ page.guid }}/affichages-systeme-frigate-google-coral-detector-hwacell-intel-vaapi.png --alt relevé système frigate avec installation d'un google Coral plus l'accélération matériel intel-vaapi --img width="548" height="634" %}
 
 
 La décompression des flux vidéo nécessite une quantité importante de puissance CPU. La compression vidéo utilise des images clés (également appelées images I) pour envoyer une image complète dans le flux vidéo. Les images suivantes incluent uniquement la différence par rapport à l'image clé, et le processeur doit compiler chaque image en fusionnant les différences avec l'image clé. Explication plus détaillée. Des résolutions et des fréquences d'images plus élevées signifient qu'une plus grande puissance de traitement est nécessaire pour décoder le flux vidéo, alors essayez de les régler sur la caméra pour éviter un travail de décodage inutile.
