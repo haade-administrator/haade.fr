@@ -155,7 +155,7 @@ Once the Google Coral is installed, the memory consumption **RAM oscillates at 1
 ### Are hwaccel arguments useful if I'm using a Coral?
 YES! The Coral does not help with decoding video streams.
 
-{% picture posts/{{ page.guid }}/displays-systeme-frigate-google-coral-detector-hwacell-intel-vaapi.png --alt frigate system survey with installation of a Google Coral plus hardware acceleration intel-vaapi --img width="548" height="634" %}
+{% picture posts/{{ page.guid }}/affichages-systeme-frigate-google-coral-detector-hwacell-intel-vaapi.png --alt frigate system survey with installation of a google Coral plus intel-vaapi hardware acceleration --img width="548" height="634" %}
 
 **Decompressing video streams requires a significant amount of CPU power**. Video compression uses keyframes (also called I-frames) to send a complete frame in the video stream. Subsequent frames only include the difference from the keyframe, and the processor must compile each frame by merging the differences with the keyframe. More detailed explanation. **Higher resolutions and frame rates mean more processing power is needed to decode the video stream**, so try setting these on-camera to avoid unnecessary decoding work.
 
