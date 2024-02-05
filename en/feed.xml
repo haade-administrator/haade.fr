@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Feb 2024 02:35:30 +0000</pubDate>
-    <lastBuildDate>Mon, 29 Jan 2024 00:05:00 +0000</lastBuildDate>
+    <pubDate>Mon, 05 Feb 2024 07:49:57 +0000</pubDate>
+    <lastBuildDate>Mon, 05 Feb 2024 06:20:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Google Coral AI and Frigate</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>On my private NAS I use as a frigate NVR, and it is strongly recommended to use Google Coral AI, how does this component act on the power of the NVR</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png" alt="Google Coral AI and Frigate">
+</picture>
+
+      <p>A little tutorial to show you the benefits of a Google Coral in your NAS. I use the NVR frigate which processes images using AI in order to interpret object detection and render a conclusion on the state. It’s nice, practical, but when you don’t use Google Coral it consumes [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration">Google Coral AI and Frigate</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 05 Feb 2024 06:20:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</guid>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Tests]]></category>
+    </item>
     <item>
       <title>Comparison of Zigbee thermostatic heads</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -215,27 +237,6 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <guid isPermaLink="true">https://haade.fr/en/blog/scene-button-test-of-zigbee-sonoff-snzb-01p</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Esp32-Korvo The microphone you need !</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Esp32-korvo woover-e is the complete microphone to control home automation by voice in home-assistant thanks to esphome and wifi all for less than €30</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/97/esp32-korvo-microphone-array-assist-esphome-homeassistant-en-720-a4892fad6.png" alt="Esp32-Korvo The microphone you need !">
-</picture>
-
-      <p>Home-assistant announced at the beginning of 2023, the year of the voice. By hiring Michael Hansen, nickname synesthesiam who is none other than the creator of the software Rhasspy, the company Nabu Casa is digging this breach in the world of voice control which is so lacking in current assistants. [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array">Esp32-Korvo The microphone you need !</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 25 Nov 2023 12:00:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/homeassistant-assist-esphome-esp32-korvo-wroover-e-microphone-array</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
