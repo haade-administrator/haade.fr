@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Husqvarna présente deux nouveaux robots Automower Nera
-    url: https://www.lesalexiens.fr/actualites/husqvarna-nouveaux-automower-nera-2024/#utm_source=rss&utm_medium=rss&utm_campaign=husqvarna-nouveaux-automower-nera-2024
+    title: Connecter Tuya à Home Assistant facilement – Édition 2024
+    url: https://www.lesalexiens.fr/actualites/connecter-tuya-home-assistant-facilement-2024/#utm_source=rss&utm_medium=rss&utm_campaign=connecter-tuya-home-assistant-facilement-2024
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,9 +28,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de Nuki Smart lock Pro (4éme génération)
-    url: https://blog.nord-domotique.com/test-nuki-smart-lock-pro-4eme-generation/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/12/nuki-smart-lock-pro-4eme-generation-4782.jpg?fit=300%2C225&ssl=1
+    title: Test Muggo Cup – Une innovation technologique pour un Café toujours Parfait
+    url: https://blog.nord-domotique.com/test-muggo-cup/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/12/muggo-cup-4817.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -46,10 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: BLUETTI lance sa plus petite station électrique portable AC2A pour des
-      aventures en plein air illimitées
-    url: https://www.maison-et-domotique.com/145908-bluetti-lance-ac2a/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/bluetti-ac2a-1-702x468.jpg
+    title: La salle de bain connectée  - une réalité qui s’installe peu à peu
+    url: https://www.maison-et-domotique.com/145917-salle-de-bain-connectee-ces-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/ces-2024-salle-de-bain-5-702x466.jpg
 Matter:
   en_GB:
   - name: Matter
