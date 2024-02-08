@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/comparative-thermostat-head-tap-zigbee-xiaomi-sonoff-moes</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-01-29T00:05:00+00:00</news:publication_date>
-          <news:title>Comparison of Zigbee thermostatic heads</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/106/comparison-thermostat-head-xiaomi-sonoff-moes-zigbee.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
