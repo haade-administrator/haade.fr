@@ -12,7 +12,7 @@ tags: []
 image: 'test-box-home-assistant-green-cle-zigbee-skyconnect.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
