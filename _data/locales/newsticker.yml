@@ -5,26 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Companion app for iOS 2024.1 - CarPlay is here!
-    url: https://www.home-assistant.io/blog/2024/01/29/companion-app-for-ios-20241-carplay/
-    image: http://www.home-assistant.io/images/blog/2024-01-ios-carplay/dxspark.png
+    title: 2024.2 - More voice, more icons, more integrations, more... everything!
+    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
+    image: http://www.home-assistant.io/images/blog/2024-02/social.png
   en_GB:
   - name: Home-Assistant
-    title: Companion app for iOS 2024.1 - CarPlay is here!
-    url: https://www.home-assistant.io/blog/2024/01/29/companion-app-for-ios-20241-carplay/
-    image: http://www.home-assistant.io/images/blog/2024-01-ios-carplay/dxspark.png
+    title: 2024.2 - More voice, more icons, more integrations, more... everything!
+    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
+    image: http://www.home-assistant.io/images/blog/2024-02/social.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Samsung supprime Google Assistant de ses téléviseurs
-    url: https://www.lesalexiens.fr/actualites/samsung-supprime-google-assistant-de-ses-televiseurs/#utm_source=rss&utm_medium=rss&utm_campaign=samsung-supprime-google-assistant-de-ses-televiseurs
+    title: Amazon dévoile Rufus, son assistant shopping alimenté par l’IA
+    url: https://www.lesalexiens.fr/actualites/amazon-devoile-rufus-assistant-shopping-ia/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-devoile-rufus-assistant-shopping-ia
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du compteur électrique Zigbee 3.0 OWON PC321
-    url: https://blog.domadoo.fr/104495-compteur-electrique-zigbee-owon-pc321/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/01/Compteur-electrique-Owon-pc321-zigbee-2048x1032-PRESS-1024x516.png
+    title: Comment configurer une caméra connectée ONVIF avec Jeedom
+    url: https://blog.domadoo.fr/104232-configurer-camera-connectee-onvif-jeedom/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/Onvif-camera-Jeedom-art-blog.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -46,14 +46,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: La vérité sur le prix des panneaux solaires - attention aux arnaques !
-    url: https://www.maison-et-domotique.com/145833-verite-prix-des-panneaux-solaires-arnaques/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/titre-arnaque-solaire-702x455.png
+    title: Nouveau lifting pour l’application Home + Security de Netatmo
+    url: https://www.maison-et-domotique.com/146033-maj-application-home-security-netatmo/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/new-netatmo-665x500.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Zigbee Ecosystem
-    url: https://csa-iot.org/newsroom/zigbee-ecosystem/
+    title: Transforming Lives -  Extending Health Span through Connected Devices
+    url: https://csa-iot.org/newsroom/transforming-lives-extending-health-span-through-connected-devices/
     image: 
 Kincony:
   en_GB:
