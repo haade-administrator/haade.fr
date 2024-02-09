@@ -28,3 +28,13 @@ sourcelink:
 ---
 
 Je suis loin d'être le premier à tester cette box, pour les besoins d'une installation chez Paulo, j'ai commandé une Box Home Assistant Green et une clé Skyconnect
+
+{% picture posts/{{ page.guid }}/presentation-box-home-assistant-green-99$.png --alt Présentation de la box home-assistant Green --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/tour-horizon-carton-emballage-home-assistant-green.png --alt déballage de la box home-assistant Green --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/contenu-deballage-box-home-assistant-green.png --alt contenu du déballage de la box home-assistant Green --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/detail-box-home-assistant-green.png --alt détail de la box home-assistant Green --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/detail-circuit-home-assistant-green.png --alt détail du circuit de la box home-assistant Green --img width="940" height="529" %}
