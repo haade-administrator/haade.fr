@@ -29,6 +29,8 @@ sourcelink:
 
 Je suis loin d'être le premier à tester cette box, pour les besoins d'une installation chez Paulo, j'ai commandé une Box Home Assistant Green et une clé Skyconnect
 
+## Présentation Box Home-assistant Green
+
 {% picture posts/{{ page.guid }}/presentation-box-home-assistant-green-99$.png --alt Présentation de la box home-assistant Green --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/tour-horizon-carton-emballage-home-assistant-green.png --alt déballage de la box home-assistant Green --img width="940" height="529" %}
@@ -38,3 +40,23 @@ Je suis loin d'être le premier à tester cette box, pour les besoins d'une inst
 {% picture posts/{{ page.guid }}/detail-box-home-assistant-green.png --alt détail de la box home-assistant Green --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/detail-circuit-home-assistant-green.png --alt détail du circuit de la box home-assistant Green --img width="940" height="529" %}
+
+## Présentation dongle Zigbee Skyconnect
+
+{% picture posts/{{ page.guid }}/dongle-zigbee-home-assistant-skyconnect.png --alt dongle zigbee skyconnect par home-assistant --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/detail-dongle-zigbee-skyconnect-home-assistant-green.png --alt détail de la clé zigbee Skyconnect de home Assistant --img width="940" height="529" %}
+
+
+## Intégration dans Home Assistant
+
+
+{% picture posts/{{ page.guid }}/premier-demarrage-home-assistant-green.png --alt premier démarrage plug n play de la box home-assistant Green --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/integration-totale-home-assistant-green-et-skyconnect-avec-full-controle.png --alt intégration dans home-assistant de la box green et skyconnect toutes options disponibles --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/puissance-processeur-memoire-home-assistant-green.png --alt consommation puissance processeur et mémoire ram de la box green avec zigbee2mqtt et le dongle skyconnect --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/fonctionnement-ensemble-home-assistant-green-et-dongle-skyconnect.png --alt fonctionnement final de la box green et de la clé skyconnect par Home-Assistant --img width="940" height="529" %}
+
+## Conclusion
