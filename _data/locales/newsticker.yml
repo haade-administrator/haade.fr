@@ -2,3 +2,63 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: 2024.2 - More voice, more icons, more integrations, more... everything!
+    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
+    image: http://www.home-assistant.io/images/blog/2024-02/social.png
+  en_GB:
+  - name: Home-Assistant
+    title: 2024.2 - More voice, more icons, more integrations, more... everything!
+    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
+    image: http://www.home-assistant.io/images/blog/2024-02/social.png
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Amazon dévoile Rufus, son assistant shopping alimenté par l’IA
+    url: https://www.lesalexiens.fr/actualites/amazon-devoile-rufus-assistant-shopping-ia/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-devoile-rufus-assistant-shopping-ia
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Comment configurer une caméra connectée ONVIF avec Jeedom
+    url: https://blog.domadoo.fr/104232-configurer-camera-connectee-onvif-jeedom/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/Onvif-camera-Jeedom-art-blog.jpg
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Test de la Cafetière Jura E6  - L’Art de l’Excellence Caféinée
+    url: https://blog.nord-domotique.com/test-cafetiere-jura-e6/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/12/jura-e6-2292.jpg?fit=300%2C225&ssl=1
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: SmartThings, Tesla, Ballie, … les nouveautés de Samsung au CES 2024
+    url: https://www.abavala.com/smartthings-tesla-ballie-les-nouveautes-de-samsung-au-ces-2024/
+    image: https://www.abavala.com/wp-content/uploads/CES-2024-Samsung-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Batterie UGREEN Nexode 145W  - la PowerBank 25 000 mAh pour smartphones,
+      tablettes, et même ordinateur !
+    url: https://www.maison-et-domotique.com/145928-test-batterie-ugreen-nexode-145w/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/test-ugreen-nexode-145w-2-702x495.jpg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Transforming Lives -  Extending Health Span through Connected Devices
+    url: https://csa-iot.org/newsroom/transforming-lives-extending-health-span-through-connected-devices/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: 30 Channel ESP32 energy monitor – KinCony M30 released
+    url: https://www.kincony.com/30-channel-esp32-energy-monitor-kincony-m30-released.html
+    image:
