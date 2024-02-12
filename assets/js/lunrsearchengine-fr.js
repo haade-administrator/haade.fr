@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite",
     "title": "Test Box Home Assistant Green et Skyconnect",
-    "description": "06/02/2024 - Test de la box Home assistant Green à 99$ et du dongle Skyconnect zigbee à 29,99$, stabilité, performance au rendez-vous",
+    "description": "12/02/2024 - Test de la box Home assistant Green à 99$ et du dongle Skyconnect zigbee à 29,99$, stabilité, performance au rendez-vous",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/frigate-nvr-google-coral-ai-acceleration-materielle",
