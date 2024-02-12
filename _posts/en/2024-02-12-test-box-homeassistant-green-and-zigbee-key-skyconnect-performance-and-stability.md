@@ -5,7 +5,7 @@ description: "Test of the Home assistant Green box at $99 and the Skyconnect zig
 ref: "Home Assistant"
 layout: post
 author: Nico
-date: 2024-02-06 13:16
+date: 2024-02-12 07:26
 last_modified_at: 
 categories: [Tests, Zigbee]
 tags: []
