@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-02-06T13:16:00+00:00</news:publication_date>
+          <news:title>Box Home Assistant Green and Skyconnect test</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/108/box-test-home-assistant-green-key-zigbee-skyconnect.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</loc>
         <news:news>
           <news:publication>
