@@ -16,15 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon dévoile Rufus, son assistant shopping alimenté par l’IA
-    url: https://www.lesalexiens.fr/actualites/amazon-devoile-rufus-assistant-shopping-ia/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-devoile-rufus-assistant-shopping-ia
+    title: Le réseau Amazon Sidewalk sera-t-il un jour déployé en France ?
+    url: https://www.lesalexiens.fr/actualites/le-reseau-amazon-sidewalk-bientot-deploye-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=le-reseau-amazon-sidewalk-bientot-deploye-en-france
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Comment configurer une caméra connectée ONVIF avec Jeedom
-    url: https://blog.domadoo.fr/104232-configurer-camera-connectee-onvif-jeedom/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/Onvif-camera-Jeedom-art-blog.jpg
+    title: Découverte de la box domotique iHost de SonOff
+    url: https://blog.domadoo.fr/103274-box-domotique-ihost-sonoff-reseau-local/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/iHost-blog-1024x550.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -46,10 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Batterie UGREEN Nexode 145W  - la PowerBank 25 000 mAh pour smartphones,
-      tablettes, et même ordinateur !
-    url: https://www.maison-et-domotique.com/145928-test-batterie-ugreen-nexode-145w/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/test-ugreen-nexode-145w-2-702x495.jpg
+    title: On a testé Starlink - la connexion internet haut débit par satellite, où
+      qu’on soit !
+    url: https://www.maison-et-domotique.com/145943-test-starlink-internet-haut-debit-satellite/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/test-starlink-16-667x500.jpg
 Matter:
   en_GB:
   - name: Matter

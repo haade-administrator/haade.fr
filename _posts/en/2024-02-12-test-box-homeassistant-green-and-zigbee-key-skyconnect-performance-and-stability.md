@@ -27,7 +27,10 @@ sourcelink:
   - https://skyconnect.home-assistant.io/
 ---
 
-**I am far from being the first** to test this box, for the needs of an installation at Paulo's, I ordered a Home Assistant Green Box and a Skyconnect key on [seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html?queryID=c7f3fcf4f7354a2c4d56fdee4eab971d&objectID=5792&indexName=bazaar_retailer_products){: target="_blank"}, now it's time to test this box and see if ** she is stable**!
+**I am far from being the first** to test this box, for the needs of an installation at Paulo's, I ordered a Home Assistant Green Box and a Skyconnect key on [seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html?queryID=c7f3fcf4f7354a2c4d56fdee4eab971d&objectID=5792&indexName=bazaar_retailer_products){: target="_blank"}, now it's time to test this box and see if **she is stable**!
+
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
+
 
 ## Presentation Box Home-assistant Green
 
@@ -110,6 +113,8 @@ A **standard installation will take 10GB** of storage space, so you will have **
 > All hardware information is available in the HAOS settings in the Hardware section.
 
 {% picture posts/{{ page.guid }}/fonctionnement-ensemble-home-assistant-green-et-dongle-skyconnect.png --alt final operation of the green box and the skyconnect key by Home-Assistant --img width="940" height="529" %}
+
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
 
 ## Conclusion
 

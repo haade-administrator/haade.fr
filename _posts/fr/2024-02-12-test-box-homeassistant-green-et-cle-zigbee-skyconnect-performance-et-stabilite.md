@@ -29,6 +29,8 @@ sourcelink:
 
 **Je suis loin d'être le premier** à tester cette box, pour les besoins d'une installation chez Paulo, j'ai commandé une Box Home Assistant Green et une clé Skyconnect sur [seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html?queryID=c7f3fcf4f7354a2c4d56fdee4eab971d&objectID=5792&indexName=bazaar_retailer_products){: target="_blank"}, maintenant il est l'heure de tester cette box et de voir si **elle est stable** !
 
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Clé dongle zigbee Skyconnect" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
+
 ## Présentation Box Home-assistant Green
 
 {% picture posts/{{ page.guid }}/presentation-box-home-assistant-green-99$.png --alt Présentation de la box home-assistant Green --img width="940" height="529" %}
@@ -110,6 +112,8 @@ Une **installation standard de prendra 10GB** d'espace de stockage, il te rester
 > Toutes les infos matériel sont dispos dans les paramètres de HAOS rubrique Matériel.
 
 {% picture posts/{{ page.guid }}/fonctionnement-ensemble-home-assistant-green-et-dongle-skyconnect.png --alt fonctionnement final de la box green et de la clé skyconnect par Home-Assistant --img width="940" height="529" %}
+
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Clé dongle zigbee Skyconnect" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
 
 ## Conclusion
 
