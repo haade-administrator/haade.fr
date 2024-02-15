@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Feb 2024 02:27:18 +0000</pubDate>
+    <pubDate>Thu, 15 Feb 2024 11:45:54 +0000</pubDate>
     <lastBuildDate>Mon, 12 Feb 2024 07:26:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -36,7 +36,7 @@
   <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/108/box-test-home-assistant-green-key-zigbee-skyconnect-720-8ac16c407.png" alt="Box Home Assistant Green and Skyconnect test">
 </picture>
 
-      <p>I am far from being the first to test this box, for the needs of an installation at Paulo’s, I ordered a Home Assistant Green Box and a Skyconnect key on seeedstudio, now it’s time to test this box and see if ** she is stable**!
+      <p>I am far from being the first to test this box, for the needs of an installation at Paulo’s, I ordered a Home Assistant Green Box and a Skyconnect key on seeedstudio, now it’s time to test this box and see if she is stable!
 </p>
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability">Box Home Assistant Green and Skyconnect test</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
