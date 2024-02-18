@@ -25,4 +25,5 @@ rating:
 sourcelink:
   - https://www.zigbee2mqtt.io/devices/WXKG15LM.html#aqara-wxkg15lm
   - https://www.zigbee2mqtt.io/devices/WS-EUK03.html#aqara-ws-euk03
+  - https://www.domadoo.fr/fr/peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023.html?domid=39
 ---
