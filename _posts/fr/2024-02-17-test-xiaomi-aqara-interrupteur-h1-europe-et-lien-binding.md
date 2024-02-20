@@ -149,6 +149,12 @@ L'intégration de l'aqara WS-EUK03 est complète mais en ce qui concerne la tél
 
 ## Mise en liaison de l'{{page.ref}}
 
-## Produits conccurrent du marché
+Après une mise ne liaison direct je me rend compte que l'Aqara WXKG15LM n'arrive pas à traiter la différence entre l'interrupteur gauche ou droite, les deux commandent l'Aqara WS-EUK03 et c'est dommage car ça rend inutilisable ce double interrupteur. Pas de mise à jour OTA Côté firmware.
+
+[xiaomi.js todo bug aqara WXKG15LM](https://github.com/Koenkk/zigbee-herdsman-converters/blob/eed5fde987891f996c428339569dbff1893e62a1/devices/xiaomi.js#L2370){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/erreur-binding-aqara-interrupteur-sans-fil-WXKG15LM-zigbee2mqtt.png --alt Bug binding zigbee2mqtt et aqara WXKG15LM --img width="940" height="695" %}
+
+## Produits concurrent du marché
 
 ## Conclusion
