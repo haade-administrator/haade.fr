@@ -42,6 +42,8 @@ J'ai choisi de te présenter ce combo car je vais tester le fonctionnement du du
 
 [Présentation site officiel](https://www.aqara.com/en/product/smart-wall-switch-h1-eu-with-neutral/){: target="_blank"}
 
+{% picture posts/{{ page.guid }}/presentation-aqara-interrupteur-h1-eu-WS-EUK03-avec-neutre.png --alt présentation de l'interrupteur zigbee Aqara WS-EUK03 --img width="940" height="529" %}
+
 Personnellement j'ai opté pour la version avec neutre qui a un gros avantage comme quasi tout interrupteurs du marché, **il fonctionne en mode routeur** et *renforce ainsi le maillage du marché*, quant aux autres versions elles sont similaires **au WS-EUK03 sans neutre**.
 
 **Retrouve toutes les fonctions intéressantes de cet interrupteur dans le tableau ci-dessous:**
@@ -53,6 +55,14 @@ Personnellement j'ai opté pour la version avec neutre qui a un gros avantage co
 |**Surveillance de l'alimentation**{: .blue}|Vérifiez les rapports de consommation d'énergie et les statistiques d'utilisation pour suivre l'efficacité de vos appareils électriques.|
 |Télécommande très pratique|Compatible avec les assistants vocaux et les écosystèmes les plus populaires : HomeKit, Alexa, Google, IFTTT* tels que G2H, M1S et M2, Zigbee2mqtt et ZHA|
 |**Prise en charge de la configuration bidirectionnelle**{: .blue}|avec le commutateur sans fil H1 Mettez à niveau votre configuration bidirectionnelle existante à l'aide du commutateur mural H1 EU avec le commutateur sans fil H1, qui peut être placé au-dessus du boîtier mural existant utilisé pour le commutateur bidirectionnel secondaire.|
+
+{% picture posts/{{ page.guid }}/mise-a-nu-aqara-interrupteur-h1-eu-WS-EUK03-avec-neutre.png --alt sous la hotte du module zigbee Aqara WS-EUK03 --img width="940" height="529" %}
+
+Aqara a équipé ce module d'une puce NXP JN5189 qui a l'avantage d'être haute performance avec très faible consommation d'énergie qui intègre le protocole Zigbee et Thread et prend en charge le NFC
+
+[Puce NXP JN5189](https://www.nxp.com/products/wireless-connectivity/thread/jn5189-88-t-high-performance-and-ultra-low-power-mcus-for-zigbee-and-thread-with-built-in-nfc-option:JN5189_88_T){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/puce-nxp-aqara-interrupteur-h1-eu-WS-EUK03-avec-neutre.png --alt zoom circuit puce nxp du module zigbee Aqara WS-EUK03 --img width="940" height="529" %}
 
 |Support of Round Wall Boxes|Apart from 86 mm square wall boxes, the H1 EU also supports round European wall boxes.|
 |Premium Build and Metal Frame|The H1 EU uses our award-winning, cleaner design preferred by the majority of our users. The metal frame makes it more rigid and durable.|
@@ -72,6 +82,8 @@ Personnellement j'ai opté pour la version avec neutre qui a un gros avantage co
 ### Aqara WXKG15LM
 
 [Présentation site officiel](https://www.aqara.com/en/product/wireless-remote-switch-h1/){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/presentation-aqara-interrupteur-h1-eu-sans-fil-WXKG15LM.png --alt présentation de l'interrupteur zigbee Aqara WXKG15LM sans fil --img width="940" height="529" %}
 
 |**Durée de vie de la batterie de 5 ans**{: .blue}|Consomme très peu d'énergie et peut durer 5 ans sans changer les piles.|
 |Mode clic haute vitesse|Pour un contrôle transparent, le temps de réponse diminue jusqu'à 50 ms.|
@@ -148,6 +160,10 @@ L'intégration de l'aqara WS-EUK03 est complète mais en ce qui concerne la tél
 [Aqara WXCJKG12LM](https://www.zigbee2mqtt.io/devices/WXCJKG12LM.html)
 
 ## Mise en liaison de l'{{page.ref}}
+
+{%- include alert.html type="info" text="Il est important de garder éveiller l'Aqara WXKG15LM télécommande sur pile éveillé tout le temps de l'inclusion , paramétrage du mode commande et du paramétrage des liens binding en appuyant toutes les secondes sur l'interupteur sinon l'appareil va se mettre rapidement en veille par soucis d'économies d'énergies" %}
+
+{% include videoPlayer.html localId="binding-h1-aqara.mp4" %}
 
 Après une mise ne liaison direct je me rend compte que l'Aqara WXKG15LM n'arrive pas à traiter la différence entre l'interrupteur gauche ou droite, les deux commandent l'Aqara WS-EUK03 et c'est dommage car ça rend inutilisable ce double interrupteur. Pas de mise à jour OTA Côté firmware.
 

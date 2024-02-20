@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Nous A4Z  - une double prise ZigBee pour l’extérieur
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-nous-a4z-une-double-prise-zigbee-pour-lexterieur/#utm_source=rss&utm_medium=rss&utm_campaign=test-nous-a4z-une-double-prise-zigbee-pour-lexterieur
+    title: L’ampoule connectée Tapo L510E à moins de 7 euros aujourd’hui
+    url: https://www.lesalexiens.fr/actualites/lampoule-connectee-tapo-l510e-a-moins-de-7-euros-aujourdhui/#utm_source=rss&utm_medium=rss&utm_campaign=lampoule-connectee-tapo-l510e-a-moins-de-7-euros-aujourdhui
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,9 +28,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de la Cafetière Jura E6  - L’Art de l’Excellence Caféinée
-    url: https://blog.nord-domotique.com/test-cafetiere-jura-e6/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/12/jura-e6-2292.jpg?fit=300%2C225&ssl=1
+    title: Test Echo Show 10 (3e génération) la Révolution de la Maison Connectée
+    url: https://blog.nord-domotique.com/test-echo-show-10-3e-generation/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2023/08/img-2393.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -46,9 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Accueillir avec style  - chambre d’amis ou clic clac ?
-    url: https://www.maison-et-domotique.com/146108-chambre-amis-ou-clic-clac/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/a-bright-and-welcoming-guest-room-with-a-modern-sofa-b-0c5b6faf-9063-4138-a306-4b7c5eda18b3-702x393.png
+    title: Ventes flash domotique sur le chauffage connecté !
+    url: https://www.maison-et-domotique.com/146120-ventes-flash-domotique-chauffage-connecte/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/offresflash-667x500.jpeg
 Matter:
   en_GB:
   - name: Matter
