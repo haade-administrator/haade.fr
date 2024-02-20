@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.2 - More voice, more icons, more integrations, more... everything!
-    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
-    image: http://www.home-assistant.io/images/blog/2024-02/social.png
+    title: Voice - Chapter 6 Livestream
+    url: https://www.home-assistant.io/blog/2024/02/16/voice-chapter-6-livestream/
+    image: 
   en_GB:
   - name: Home-Assistant
-    title: 2024.2 - More voice, more icons, more integrations, more... everything!
-    url: https://www.home-assistant.io/blog/2024/02/07/release-20242/
-    image: http://www.home-assistant.io/images/blog/2024-02/social.png
+    title: Voice - Chapter 6 Livestream
+    url: https://www.home-assistant.io/blog/2024/02/16/voice-chapter-6-livestream/
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Le réseau Amazon Sidewalk sera-t-il un jour déployé en France ?
-    url: https://www.lesalexiens.fr/actualites/le-reseau-amazon-sidewalk-bientot-deploye-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=le-reseau-amazon-sidewalk-bientot-deploye-en-france
+    title: Test Nous A4Z  - une double prise ZigBee pour l’extérieur
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-nous-a4z-une-double-prise-zigbee-pour-lexterieur/#utm_source=rss&utm_medium=rss&utm_campaign=test-nous-a4z-une-double-prise-zigbee-pour-lexterieur
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,10 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: On a testé Starlink - la connexion internet haut débit par satellite, où
-      qu’on soit !
-    url: https://www.maison-et-domotique.com/145943-test-starlink-internet-haut-debit-satellite/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/test-starlink-16-667x500.jpg
+    title: Accueillir avec style  - chambre d’amis ou clic clac ?
+    url: https://www.maison-et-domotique.com/146108-chambre-amis-ou-clic-clac/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/a-bright-and-welcoming-guest-room-with-a-modern-sofa-b-0c5b6faf-9063-4138-a306-4b7c5eda18b3-702x393.png
 Matter:
   en_GB:
   - name: Matter
