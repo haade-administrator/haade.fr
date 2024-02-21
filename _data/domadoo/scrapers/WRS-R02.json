@@ -1,0 +1,27 @@
+{
+    "product": {
+        "linkId": "peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023",
+        "productId": "WRS-R02",
+        "title": "AQARA - Interrupteur mural double sans fil H1 ZigBee 3.0 - WRS-R02",
+        "description": "L'interrupteur mural double sans fil Aqara H1 (WRS-R02) est un appareil Zigbee et un interrupteur à faible consommation d'énergie.",
+        "productNew": "",
+        "minsalePrice": "25.00",
+        "maxsalePrice": "56.40",
+        "discount": "-25%",
+        "currency": "EUR",
+        "originalPrice": "56.40",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17716-large_default/aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02.jpg",
+            "https://cdn1.domadoo.fr/17716-medium_default/aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02.jpg",
+            "https://cdn1.domadoo.fr/17714-medium_default/aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02.jpg",
+            "https://cdn1.domadoo.fr/17715-medium_default/aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.3",
+            "totalStarCount": "14"
+        }
+    }
+}

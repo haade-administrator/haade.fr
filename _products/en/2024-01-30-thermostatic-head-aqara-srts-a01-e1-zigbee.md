@@ -4,7 +4,7 @@ layout: product
 title: "THERMOSTATIC HEAD ZIGBEE 3.0 AQARA RADIATOR THERMOSTAT E1 - AQARA"
 date: "2024-01-30 22:09"
 description: "A smarter, more comfortable heating control experience for your home."
-categories: [Shop, Sonoff, Zigbee]
+categories: [Shop, Xiaomi, Zigbee]
 tags: []
 locale: en_GB
 brand: Xiaomi

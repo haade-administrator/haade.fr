@@ -22,9 +22,10 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la box domotique iHost de SonOff
-    url: https://blog.domadoo.fr/103274-box-domotique-ihost-sonoff-reseau-local/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/iHost-blog-1024x550.jpg
+    title: Découverte de la caméra PTZ extérieure Wifi à panneau solaire Tuya Woox
+      R3569
+    url: https://blog.domadoo.fr/103706-camera-ptz-exterieure-wifi-tuya-r3569/
+    image: https://blog.domadoo.fr/wp-content/uploads/2023/11/woox-r3569-camera-exterieure-rotative-wifi-tuya-panneau-solaire-2048x1032-PRESS-1024x516.jpeg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -34,9 +35,10 @@ Blog-Nord-Domotique:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: SmartThings, Tesla, Ballie, … les nouveautés de Samsung au CES 2024
-    url: https://www.abavala.com/smartthings-tesla-ballie-les-nouveautes-de-samsung-au-ces-2024/
-    image: https://www.abavala.com/wp-content/uploads/CES-2024-Samsung-150x150.jpg
+    title: Le créateur de Home Assistant fait un pas étonnant vis-à-vis du protocole
+      Z-Wave
+    url: https://www.abavala.com/le-createur-de-home-assistant-fait-un-pas-etonnant-vis-a-vis-du-protocole-z-wave/
+    image: https://www.abavala.com/wp-content/uploads/nabucasa-zwave-entete-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek

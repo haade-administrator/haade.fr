@@ -4,7 +4,7 @@ layout: product
 title: "TÊTE THERMOSTATIQUE ZIGBEE 3.0 AQARA RADIATOR THERMOSTAT E1 - AQARA"
 date: "2024-01-30 22:09"
 description: "Une expérience de contrôle de chauffage plus intelligente et plus confortable pour votre maison."
-categories: [Boutique, Sonoff, Zigbee]
+categories: [Boutique, Xiaomi, Zigbee]
 tags: []
 locale: fr_FR
 brand: Xiaomi

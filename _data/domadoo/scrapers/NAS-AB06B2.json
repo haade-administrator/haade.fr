@@ -5,11 +5,11 @@
         "title": "NEO - Sirène intelligente extérieure Zigbee Tuya (alimentation 5V/1A ou batterie + panneau solaire)",
         "description": "Soyez alerté en temps réel lors d'une tentative d'intrusion d'un éventuel cambrioleur ou autre anomalie détectée dans votre jardin grâce à la sirène Zigbee NEO.",
         "productNew": "",
-        "minsalePrice": "29.74",
-        "maxsalePrice": "34.99",
-        "discount": "-15%",
+        "minsalePrice": "34.99",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "34.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -30,8 +30,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.5",
-            "totalStarCount": "2"
+            "averageStar": "4.7",
+            "totalStarCount": "3"
         }
     }
 }

@@ -2,25 +2,36 @@
     "product": {
         "linkId": "peripheriques/5688-nodon-module-multifonction-zigbee-3700313925188",
         "productId": "SIN-4-1-20",
-        "title": "NODON - Module Multifonction Zigbee",
-        "description": "Le Module Multifonction Zigbee permet de piloter une porte de garage, un portail, un radiateur, une prise, une chaudière…",
+        "title": "NodOn - Module Multifonction Zigbee NodOn SIN-4-1-20 (ON/OFF, Contact sec)",
+        "description": "Le Module NodOn Zigbee SIN-4-1-20 multifonctions permet de piloter une porte de garage, un portail électrique, un radiateur électrique, une prise, une chaudière, une VMC, une climatisation et bien plus.",
         "productNew": "",
-        "minsalePrice": "31.92",
-        "maxsalePrice": "39.90",
-        "discount": "-20%",
+        "minsalePrice": "39.90",
+        "maxsalePrice": "74.40",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "39.90",
+        "originalPrice": "74.40",
         "quantity": "Hors stock",
         "supply_date": null,
         "image": [
-            "https://cdn1.domadoo.fr/17553-large_default/nodon-module-multifonction-zigbee.jpg",
-            "https://cdn1.domadoo.fr/17553-medium_default/nodon-module-multifonction-zigbee.jpg",
-            "https://cdn1.domadoo.fr/17554-medium_default/nodon-module-multifonction-zigbee.jpg"
+            "https://cdn1.domadoo.fr/17553-large_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/17553-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/17554-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28551-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28550-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28543-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28544-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28545-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28546-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28547-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28548-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28549-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28600-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg",
+            "https://cdn1.domadoo.fr/28601-medium_default/nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec.jpg"
         ],
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.7",
-            "totalStarCount": "9"
+            "totalStarCount": "10"
         }
     }
 }

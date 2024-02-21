@@ -1,0 +1,28 @@
+{
+    "product": {
+        "linkId": "peripheriques/5728-aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03-6970504214798",
+        "productId": "WS-EUK03",
+        "title": "AQARA - Interrupteur mural intelligent H1 ZigBee 3.0 (avec neutre) - WS-EUK03",
+        "description": "L'interrupteur mural intelligent Aqara H1 (WS-EUK03) est un interrupteur mural intégrant un relais et basé sur le protocole de communication sans fil Zigbee 3.0. Version avec Neutre.",
+        "productNew": "",
+        "minsalePrice": "35.99",
+        "maxsalePrice": "33.99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "33.99",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/17728-large_default/aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03.jpg",
+            "https://cdn1.domadoo.fr/17728-medium_default/aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03.jpg",
+            "https://cdn1.domadoo.fr/17727-medium_default/aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03.jpg",
+            "https://cdn1.domadoo.fr/17725-medium_default/aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03.jpg",
+            "https://cdn1.domadoo.fr/17726-medium_default/aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "4.8",
+            "totalStarCount": "8"
+        }
+    }
+}

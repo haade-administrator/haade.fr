@@ -51,5 +51,10 @@ module.exports = [
     'controleurs-adaptateurs/6777-controleur-usb-zigbee-zi-stick-aeotec-1220000017191', // 2181 zi-stick aeotec
     'chauffage-clim/6776-sonoff-tete-thermostatique-connectee-zigbee-30', // 2182 thermostat Sonoff
     'peripheriques/6286-tete-thermostatique-zigbee-30-aqara-radiator-thermostat-e1-aqara-6970504217058', // 2183 aqara thermostat srts-a01
-    'peripheriques/5783-moes-tete-thermostatique-intelligente-zigbee-30-blanc' // 2184 Moes robinet thermostatic ZTRV-BY-100-WH-FR
+    'peripheriques/5783-moes-tete-thermostatique-intelligente-zigbee-30-blanc', // 2184 Moes robinet thermostatic ZTRV-BY-100-WH-FR
+    'peripheriques/5729-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-avec-neutre-ws-euk04-6970504214804', // 2185 Aqara WS-EUK04
+    'peripheriques/5728-aqara-interrupteur-mural-intelligent-h1-zigbee-30-avec-neutre-ws-euk03-6970504214798', // 2186 Aqara WS-EUK03
+    'peripheriques/5727-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-ws-euk02-6970504214781', // 2187 Aqara WS-EUK02
+    'peripheriques/5726-aqara-interrupteur-mural-intelligent-h1-zigbee-30-sans-neutre-ws-euk01-6970504214774', // 2188 Aqara WS-EUK01
+    'peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023' // 2189 Aqara WRS-R02
 ]
