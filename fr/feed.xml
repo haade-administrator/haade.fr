@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Feb 2024 02:23:41 +0000</pubDate>
-    <lastBuildDate>Mon, 12 Feb 2024 07:26:00 +0000</lastBuildDate>
+    <pubDate>Wed, 21 Feb 2024 14:59:50 +0000</pubDate>
+    <lastBuildDate>Wed, 21 Feb 2024 13:09:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Tests interrupteurs Aqara H1 et binding</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>test de l&apos;interrupteur aqara h1 version europe avec télécommande h1 et initiation à la liaison zigbee bindings</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/109/test-bindings-aqara-h1-interrupteur-intelligent-720-0d85321d0.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/109/test-bindings-aqara-h1-interrupteur-intelligent-720-0d85321d0.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/109/test-bindings-aqara-h1-interrupteur-intelligent-720-0d85321d0.png" alt="Tests interrupteurs Aqara H1 et binding">
+</picture>
+
+      <p>Aujourd’hui je vais te parler de deux produits Xiaomi Aqara destinés au marché Européen, Il s’agit de l’interrupteur intelligent Aqara H1 double interrupteur WS-EUK03 et de l’interrupteur sur pile Aqara H1 WXKG15LM ( WRS-R02 ) **. D’après Xiaomi il s’agit d’interrupteurs haut de gamme et compatible à la liaison Binding, [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding">Tests interrupteurs Aqara H1 et binding</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 21 Feb 2024 13:09:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Test Box Home Assistant Green et Skyconnect</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -217,26 +238,6 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
       <link>https://haade.fr/fr/blog/test-et-deballage-passerelle-sonoff-ihost-RV1126</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-et-deballage-passerelle-sonoff-ihost-RV1126</guid>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Merci Sonoff 🎅🏻</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>À l&apos;approche des fêtes je reçois un sompteur cadeau de Noel de la part de Sonoff</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/99/cadeau-de-noel-sonoff-merci-720-d09c3cd89.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/99/cadeau-de-noel-sonoff-merci-720-d09c3cd89.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/99/cadeau-de-noel-sonoff-merci-720-d09c3cd89.png" alt="Merci Sonoff 🎅🏻">
-</picture>
-
-      <p>Il y a une semaine j’ai reçu un mail de la part de l’équipe Sonoff, m’annonçant un envoi d’un cadeau de leur part pour les fêtes de fin d’années. Quelques jour plus tard j’ai réceptionné un colis et quelle fut ma surprise ! Je profite de ce post pour remercier [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/cadeau-noel-merci-sonoff">Merci Sonoff 🎅🏻</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 02 Dec 2023 14:39:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/cadeau-noel-merci-sonoff</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/cadeau-noel-merci-sonoff</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
