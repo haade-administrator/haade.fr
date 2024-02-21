@@ -28,7 +28,7 @@ sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023.html?domid=39
   - https://blog.domadoo.fr/87774-nouveaux-interrupteurs-zigbee-aqara/
 ---
-Aujourd'hui je vais te parler de deux produits Xiaomi Aqara destinés au marché Européen, Il s'agit de l'interrupteur intelligent Aqara **H1 double interrupteur WS-EUK03** et de l'interrupteur sur pile **Aqara H1 WXKG15LM ( WRS-R02 ) **. D'après Xiaomi il s'agit d'interrupteurs haut de gamme et compatible à la liaison Binding, **alors sont-ils à la hauteur ?**
+Aujourd'hui je vais te parler de deux produits Xiaomi Aqara destinés au marché Européen, Il s'agit de l'interrupteur intelligent Aqara **H1 double interrupteur WS-EUK03** et de l'interrupteur sur pile **Aqara H1 WXKG15LM (WRS-R02)**. D'après Xiaomi il s'agit d'interrupteurs haut de gamme et compatible à la liaison Binding, **alors sont-ils à la hauteur ?**
 
 {% include product-embed.html guid="2189" %}
 
@@ -75,13 +75,13 @@ Aqara a équipé ce module d'une puce NXP JN5189 qui a l'avantage d'être haute 
 
 {% include doclink.html pdf="Smart-Wall-Switch-H1-With-Neutral_Manual_EN.pdf" title="Manuel utiliseateur interrupteur Aqara H1" %}
 
-### Aqara WXKG15LM ( WRS-R02 ) 
+### Aqara WXKG15LM (WRS-R02) 
 
 [Présentation site officiel](https://www.aqara.com/en/product/wireless-remote-switch-h1/){: target="_blank"}
 
 {% include product-embed.html guid="2189" %}
 
-{% picture posts/{{ page.guid }}/presentation-aqara-interrupteur-h1-eu-sans-fil-WXKG15LM.png --alt présentation de l'interrupteur zigbee Aqara WXKG15LM ( WRS-R02 ) sans fil --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/presentation-aqara-interrupteur-h1-eu-sans-fil-WXKG15LM.png --alt présentation de l'interrupteur zigbee Aqara WXKG15LM (WRS-R02) sans fil --img width="940" height="529" %}
 
 |**Durée de vie de la batterie de 5 ans**{: .blue}|Consomme très peu d'énergie et peut durer 5 ans sans changer les piles.|
 |Mode clic haute vitesse|Pour un contrôle transparent, le temps de réponse diminue jusqu'à 50 ms.|
@@ -89,7 +89,7 @@ Aqara a équipé ce module d'une puce NXP JN5189 qui a l'avantage d'être haute 
 |Installation flexible|Posez directement sur une surface horizontale, collez sur une surface plane à l'aide du tampon adhésif fourni ou vissez à la place du boîtier mural existant.|
 |**Prise en charge de la configuration du commutateur bidirectionnel avec le commutateur mural H1 EU**{: .blue}|Mettez à niveau votre configuration bidirectionnelle existante à l'aide du commutateur mural H1 EU avec le commutateur sans fil H1, qui peut être placé au-dessus du boîtier mural existant utilisé pour le commutateur bidirectionnel secondaire|
 
-{% picture posts/{{ page.guid }}/mise-a-nu-aqara-interrupteur-h1-eu-sans-fil-WXKG15LM.png --alt sous la hotte du module zigbee Aqara WXKG15LM ( WRS-R02 ) --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/mise-a-nu-aqara-interrupteur-h1-eu-sans-fil-WXKG15LM.png --alt sous la hotte du module zigbee Aqara WXKG15LM (WRS-R02) --img width="940" height="529" %}
 
 Là aussi Aqara a équipé ce module d'une puce NXP JN5189 qui a les mêmes avantages que l'interrupteur Aqara WS-EUK03.
 
@@ -98,7 +98,7 @@ Là aussi Aqara a équipé ce module d'une puce NXP JN5189 qui a les mêmes avan
 - le nombre d'actions disponibles par interrupteur
 - la fonction liaison bindings par Zigbee
 
-{% picture posts/{{ page.guid }}/puce-nxp-aqara-interrupteur-h1-eu-WXKG15LM.png --alt zoom circuit puce nxp du module zigbee Aqara WXKG15LM ( WRS-R02 ) --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/puce-nxp-aqara-interrupteur-h1-eu-WXKG15LM.png --alt zoom circuit puce nxp du module zigbee Aqara WXKG15LM (WRS-R02) --img width="940" height="529" %}
 
 ## Caractéristiques de l'{{page.ref}}
 
@@ -116,7 +116,7 @@ Là aussi Aqara a équipé ce module d'une puce NXP JN5189 qui a les mêmes avan
 |Humidité de fonctionnement|0 % ~ 95 % RH, sans condensation|
 |Contenu de la boîte|Interrupteur mural intelligent H1 EU × 1, guide de démarrage rapide × 1, vis × 2|
 
-### Aqara WXKG15LM ( WRS-R02 )
+### Aqara WXKG15LM (WRS-R02)
 
 {% include product-embed.html guid="2189" %}
 
@@ -134,7 +134,7 @@ L'intégration de l'{{page.ref}} **est complète**, toutes les fonctions remonte
 
 Capture d'image ci-dessous prise sous Jeedom 👌
 
-{% picture posts/{{ page.guid }}/integration-aqara-WS-EUK03-et-WXKG15LM-zigbee2mqtt-jeedom.png --alt integration du module zigbee Aqara WXKG15LM ( WRS-R02 ) et WS-EUK03 dans zigbee2mqtt sous jeedom --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/integration-aqara-WS-EUK03-et-WXKG15LM-zigbee2mqtt-jeedom.png --alt integration du module zigbee Aqara WXKG15LM (WRS-R02) et WS-EUK03 dans zigbee2mqtt sous jeedom --img width="940" height="529" %}
 
 ### Fonctionnalités disponibles WS-EUK03
 
@@ -153,9 +153,9 @@ pour le module Aqara WS-EUK03 tu pourras accéder aux fonctions:
 
 {% picture posts/{{ page.guid }}/fonctionnalites-disponibles-zigbee2mqtt-ws-euk03.png --alt fonctionnalités disponibles dans z2m du module zigbee Aqara WS-EUK03 --img width="561" height="873" %}
 
-### Fonctionnalités disponibles WXKG15LM ( WRS-R02 )
+### Fonctionnalités disponibles WXKG15LM (WRS-R02)
 
-pour le module Aqara WXKG15LM ( WRS-R02 ) tu pourras accéder aux fonctions:
+pour le module Aqara WXKG15LM (WRS-R02) tu pourras accéder aux fonctions:
 - l'état de la batterie
 - le voltage de la batterie
 - l'action sur clic
@@ -163,11 +163,11 @@ pour le module Aqara WXKG15LM ( WRS-R02 ) tu pourras accéder aux fonctions:
 - le mode direct ou évènement
 - la qualité du lien
 
-{% picture posts/{{ page.guid }}/fonctionnalites-disponibles-zigbee2mqtt-aqara-wrs-r02.png --alt fonctionnalités disponibles dans z2m du module zigbee Aqara WXKG15LM ( WRS-R02 ) --img width="511" height="557" %}
+{% picture posts/{{ page.guid }}/fonctionnalites-disponibles-zigbee2mqtt-aqara-wrs-r02.png --alt fonctionnalités disponibles dans z2m du module zigbee Aqara WXKG15LM (WRS-R02) --img width="511" height="557" %}
 
 ## Intégration ZHA
 
-L'intégration de l'aqara **WS-EUK03 est complète** mais en ce qui concerne la télécommande sans fil **Aqara WXKG15LM ( WRS-R02 )  elle n'est pour l'instant pas reconnu**{: .red} et donc inutilisable pour la suite du test en liaison binding et c'est bien dommage.
+L'intégration de l'aqara **WS-EUK03 est complète** mais en ce qui concerne la télécommande sans fil **Aqara WXKG15LM (WRS-R02)  elle n'est pour l'instant pas reconnu**{: .red} et donc inutilisable pour la suite du test en liaison binding et c'est bien dommage.
 
 ### Intégration WS-EUK03
 
@@ -175,11 +175,11 @@ Fonctionne sans soucis
 
 {% picture posts/{{ page.guid }}/integration-aqara-WS-EUK03-zha.png --alt integration du module zigbee Aqara WS-EUK03 dans ZHA sous Home Assistant --img width="940" height="529" %}
 
-### Intégration WXKG15LM ( WRS-R02 )
+### Intégration WXKG15LM (WRS-R02)
 
 Inopérant pour l'instant.
 
-{% picture posts/{{ page.guid }}/integration-aqara-WXKG15LM-zha-non-reconnu.png --alt integration du module zigbee Aqara WXKG15LM ( WRS-R02 )  dans ZHA sous Home Assistant mais non reconnu --img width="940" height="499" %}
+{% picture posts/{{ page.guid }}/integration-aqara-WXKG15LM-zha-non-reconnu.png --alt integration du module zigbee Aqara WXKG15LM (WRS-R02)  dans ZHA sous Home Assistant mais non reconnu --img width="940" height="499" %}
 
 ## Le Binding, pourqoi est-ce si intéressant !
 
@@ -196,7 +196,7 @@ La fonction Binding est très intéressante car elle permet un fonctionnement au
 
 ## Mise en liaison de l'{{page.ref}}
 
-{%- include alert.html type="info" text="Il est important de garder éveillé l'Aqara WXKG15LM ( WRS-R02 )  télécommande sur pile le temps du process , paramétrage du mode commande et du paramétrage des liens binding en appuyant toutes les secondes sur l'interupteur sinon l'appareil va se mettre rapidement en veille par soucis d'économies d'énergies" %}
+{%- include alert.html type="info" text="Il est important de garder éveillé l'Aqara WXKG15LM (WRS-R02)  télécommande sur pile le temps du process , paramétrage du mode commande et du paramétrage des liens binding en appuyant toutes les secondes sur l'interupteur sinon l'appareil va se mettre rapidement en veille par soucis d'économies d'énergies" %}
 
 ### Vidéos Liens Bindings de l'{{page.ref}}
 
@@ -204,7 +204,7 @@ Regarde la vidéo ci-dessous, j'ai inclus ces deux produits plus la liaison en B
 
 {% include videoPlayer.html localId="bindings-aqara-h1-manipulation.mp4" %}
 
-Après une mise en liaison direct **je me rend compte que l'Aqara WXKG15LM ( WRS-R02 )  n'arrive pas à traiter la différence entre l'interrupteur gauche ou droite**, les deux commandent l'Aqara WS-EUK03 et c'est dommage car ça rend inutilisable ce double interrupteur. Pas de mise à jour OTA Côté firmware.
+Après une mise en liaison direct **je me rend compte que l'Aqara WXKG15LM (WRS-R02)  n'arrive pas à traiter la différence entre l'interrupteur gauche ou droite**, les deux commandent l'Aqara WS-EUK03 et c'est dommage car ça rend inutilisable ce double interrupteur. Pas de mise à jour OTA Côté firmware.
 
 **Pour réussir le Binding n'oublie pas de:**
 - après intégration régler sur control_relay l'interrupteur filaire
@@ -215,9 +215,9 @@ Après une mise en liaison direct **je me rend compte que l'Aqara WXKG15LM ( WRS
 
 > Point intéressant la liaison entre les deux appareils est instantanée, il n'y a pas de délai important > 50ms entre le moment ou l'on clic sur la télécommande et la réception sur l'interrupteur.
 
-[xiaomi.js todo bug aqara WXKG15LM ( WRS-R02 ) ](https://github.com/Koenkk/zigbee-herdsman-converters/blob/eed5fde987891f996c428339569dbff1893e62a1/devices/xiaomi.js#L2370){: target="_blank"}
+[xiaomi.js todo bug aqara WXKG15LM (WRS-R02)](https://github.com/Koenkk/zigbee-herdsman-converters/blob/eed5fde987891f996c428339569dbff1893e62a1/devices/xiaomi.js#L2370){: target="_blank"}
 
-{% picture posts/{{ page.guid }}/erreur-binding-aqara-interrupteur-sans-fil-WXKG15LM-zigbee2mqtt.png --alt Bug binding zigbee2mqtt et aqara WXKG15LM ( WRS-R02 )  --img width="940" height="695" %}
+{% picture posts/{{ page.guid }}/erreur-binding-aqara-interrupteur-sans-fil-WXKG15LM-zigbee2mqtt.png --alt Bug binding zigbee2mqtt et aqara WXKG15LM (WRS-R02) --img width="940" height="695" %}
 
 ## WAF ( Women acceptance factor )
 
@@ -228,5 +228,5 @@ Elégant, compact, formes discrètes et couleurs attrayantes sont généralement
 
 ## Conclusion
 
-**Aqara signe un produit intéressant sur le papier**, cependant le tarif **parait excessif** pour une qualité qui ne sort pas du lot. De plus la liaison en direct **Bindings** fonctionne mais la télécommande Aqara WXKG15LM ( WRS-R02 ) ne permet pas pour l'instant de dissocier l'interrupteur droite/gauche et c'est bien dommage **car le déclenchement est instantané** ce qui rend la fonction forte intéressante mais **rend cet appareil à moitié fonctionnel**. J'attends un bridge Xiaomi afin de voir si une mise à jour est susceptible d'être disponible et ainsi l'intégrer dans le système Zigbee2mqtt. 
+**Aqara signe un produit intéressant sur le papier**, cependant le tarif **parait excessif** pour une qualité qui ne sort pas du lot. De plus la liaison en direct **Bindings** fonctionne mais la télécommande Aqara WXKG15LM (WRS-R02) ne permet pas pour l'instant de dissocier l'interrupteur droite/gauche et c'est bien dommage **car le déclenchement est instantané** ce qui rend la fonction forte intéressante mais **rend cet appareil à moitié fonctionnel**. J'attends un bridge Xiaomi afin de voir si une mise à jour est susceptible d'être disponible et ainsi l'intégrer dans le système Zigbee2mqtt. 
 > Si pour **toi le mode Bindings est incontournable** et que tu dois installer des interrupteurs dans une construction neuve je te conseil soit d'attendre, soit de passer **sur du Legrand** mais ce seras **deux fois plus cher**. *Et pour ce tarif tu ne pourras pas mesure la mesure de consommation.* À toi de voir.

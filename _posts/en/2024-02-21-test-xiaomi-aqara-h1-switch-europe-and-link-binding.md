@@ -28,7 +28,7 @@ sourcelink:
   - https://www.domadoo.fr/fr/peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023.html?domid=39
   - https://blog.domadoo.fr/87774-nouveaux-interrupteurs-zigbee-aqara/
 ---
-Today I am going to tell you about two Xiaomi Aqara products intended for the European market, These are the Aqara smart switch **H1 double switch WS-EUK03** and the battery-powered switch **Aqara H1 WXKG15LM ( WRS-R02 ) **. According to Xiaomi, these are high-end switches and compatible with Binding, **so are they up to par?**
+Today I am going to tell you about two Xiaomi Aqara products intended for the European market, These are the Aqara smart switch **H1 double switch WS-EUK03** and the battery-powered switch **Aqara H1 WXKG15LM (WRS-R02)**. According to Xiaomi, these are high-end switches and compatible with Binding, **so are they up to par?**
 
 {% include product-embed.html guid="2189" %}
 
@@ -75,7 +75,7 @@ Aqara has equipped this module with an NXP JN5189 chip which has the advantage o
 
 {% include doclink.html pdf="Smart-Wall-Switch-H1-With-Neutral_Manual_EN.pdf" title="Aqara H1 switch user manual" %}
 
-### Aqara WXKG15LM ( WRS-R02 ) 
+### Aqara WXKG15LM (WRS-R02) 
 
 [Official website presentation](https://www.aqara.com/en/product/wireless-remote-switch-h1/){: target="_blank"}
 
@@ -116,7 +116,7 @@ Here too Aqara has equipped this module with an NXP JN5189 chip which has the sa
 |Operating Humidity|0%~95% RH, Non-condensing|
 |What＇s in the box|Smart Wall Switch H1 EU × 1, Quick Start Guide × 1, Screw × 2|
 
-### Aqara WXKG15LM ( WRS-R02 )
+### Aqara WXKG15LM (WRS-R02)
 
 {% include product-embed.html guid="2189" %}
 
@@ -215,7 +215,7 @@ After a direct connection **I realize that the Aqara WXKG15LM (WRS-R02) cannot p
 
 > Interestingly, the connection between the two devices is instantaneous, there is no significant delay > 50ms between the moment you click on the remote control and reception on the switch.
 
-[xiaomi.js todo bug aqara WXKG15LM ( WRS-R02 ) ](https://github.com/Koenkk/zigbee-herdsman-converters/blob/eed5fde987891f996c428339569dbff1893e62a1/devices/xiaomi.js#L2370){: target="_blank"}
+[xiaomi.js todo bug aqara WXKG15LM (WRS-R02) ](https://github.com/Koenkk/zigbee-herdsman-converters/blob/eed5fde987891f996c428339569dbff1893e62a1/devices/xiaomi.js#L2370){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/erreur-binding-aqara-interrupteur-sans-fil-WXKG15LM-zigbee2mqtt.png --alt Bug binding zigbee2mqtt and aqara WXKG15LM (WRS-R02) --img width="940" height="695" %}
 
