@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Feb 2024 14:59:50 +0000</pubDate>
+    <pubDate>Wed, 21 Feb 2024 16:09:26 +0000</pubDate>
     <lastBuildDate>Wed, 21 Feb 2024 13:09:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -36,7 +36,7 @@
   <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/109/test-bindings-aqara-h1-interrupteur-intelligent-720-0d85321d0.png" alt="Tests interrupteurs Aqara H1 et binding">
 </picture>
 
-      <p>Aujourd’hui je vais te parler de deux produits Xiaomi Aqara destinés au marché Européen, Il s’agit de l’interrupteur intelligent Aqara H1 double interrupteur WS-EUK03 et de l’interrupteur sur pile Aqara H1 WXKG15LM ( WRS-R02 ) **. D’après Xiaomi il s’agit d’interrupteurs haut de gamme et compatible à la liaison Binding, [...]</p>
+      <p>Aujourd’hui je vais te parler de deux produits Xiaomi Aqara destinés au marché Européen, Il s’agit de l’interrupteur intelligent Aqara H1 double interrupteur WS-EUK03 et de l’interrupteur sur pile Aqara H1 WXKG15LM (WRS-R02). D’après Xiaomi il s’agit d’interrupteurs haut de gamme et compatible à la liaison Binding, alors sont-ils à [...]</p>
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding">Tests interrupteurs Aqara H1 et binding</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
