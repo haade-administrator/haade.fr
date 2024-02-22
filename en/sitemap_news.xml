@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/109/bindings-test-aqara-h1-smart-switch.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-02-12T07:26:00+00:00</news:publication_date>
-          <news:title>Box Home Assistant Green and Skyconnect test</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/108/box-test-home-assistant-green-key-zigbee-skyconnect.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
