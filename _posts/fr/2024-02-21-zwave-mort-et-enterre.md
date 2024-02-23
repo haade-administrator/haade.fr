@@ -1,8 +1,8 @@
 ---
 guid: 111
-title: ""
-description: ""
-ref: ""
+title: "Z-wave mort et enterré"
+description: "Depuis l'arrivée du protocole Zigbee sur le marché, le protocole Z-wave semble être au point mort, faisons le point sur cette situation."
+ref: "z-wave"
 layout: post
 author: Nico
 date: 2024-02-21 17:49
