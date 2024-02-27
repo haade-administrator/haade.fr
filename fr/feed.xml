@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Feb 2024 16:32:15 +0000</pubDate>
-    <lastBuildDate>Sat, 24 Feb 2024 20:47:00 +0000</lastBuildDate>
+    <pubDate>Tue, 27 Feb 2024 18:42:31 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2024 16:48:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,30 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Offre d&apos;emploi : Technicien(ne) en Domotique et Réseaux</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/112/offre-emploi-dimatique-colmar-technicien-reseaux-et-domotique-720-5d9b865dd.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/112/offre-emploi-dimatique-colmar-technicien-reseaux-et-domotique-720-5d9b865dd.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/112/offre-emploi-dimatique-colmar-technicien-reseaux-et-domotique-720-5d9b865dd.png" alt="Offre d'emploi : Technicien(ne) en Domotique et Réseaux">
+</picture>
+
+      <p>offre d'emploi, Dimatique recherche sur Colmar un technicien réseaux et domotique
+
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar">Offre d'emploi : Technicien(ne) en Domotique et Réseaux</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 27 Feb 2024 16:48:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Z-wave mort et enterré</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -219,26 +243,6 @@ Comme de plus en plus de personnes sur cette planète je possède un véhicule �
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Sécurité]]></category>
-    </item>
-    <item>
-      <title>Installation HAOS avec Armbian Bookworm 12</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>2024 - Tutos installation de home assistant OS sur un cubietruck armv7 avec Armbian version Debian 12 Bookworm le tout facilement et sans erreurs</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.png" alt="Installation HAOS avec Armbian Bookworm 12">
-</picture>
-
-      <p>Nous sommes bientôt en 2024 et il est toujours aussi difficile d’installer Home Assistant OS sur des cartes non prises en charges. Pour le bien des test produits j’ai comme besoin d’installer HAOS sur une carte dédiée. Ça tombe bien il me reste dans les cartons une vieille carte Cubietruck [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installation-home-assistant-os-armbian-cubietruck-facile-2024">Installation HAOS avec Armbian Bookworm 12</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 26 Dec 2023 10:54:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/installation-home-assistant-os-armbian-cubietruck-facile-2024</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/installation-home-assistant-os-armbian-cubietruck-facile-2024</guid>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
