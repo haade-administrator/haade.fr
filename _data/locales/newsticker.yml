@@ -5,14 +5,16 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: What about Grace? Tune in to our special livestream next week!
-    url: https://www.home-assistant.io/blog/2024/02/22/what-about-grace-live-stream/
-    image: 
+    title: Raspberry Pi 5 support and more in Home Assistant OS release 12 & Supervisor
+      update
+    url: https://www.home-assistant.io/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/
+    image: http://www.home-assistant.io/images/blog/2024-02-haos12/haos12.png
   en_GB:
   - name: Home-Assistant
-    title: What about Grace? Tune in to our special livestream next week!
-    url: https://www.home-assistant.io/blog/2024/02/22/what-about-grace-live-stream/
-    image: 
+    title: Raspberry Pi 5 support and more in Home Assistant OS release 12 & Supervisor
+      update
+    url: https://www.home-assistant.io/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/
+    image: http://www.home-assistant.io/images/blog/2024-02-haos12/haos12.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
@@ -49,19 +51,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - retour sur 6 mois avec Starlink, test station solaire
-      Solaris Go, calculer son talon électrique, assurer ses panneaux solaires, etc.
-    url: https://www.maison-et-domotique.com/146157-debrief-md-semaine-8-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Ventes flash domotique Xiaomi, Aqara, SonOff, Moes, Frient, etc.
+    url: https://www.maison-et-domotique.com/146163-ventes-flash-domotique-xiaomi-aqara-sonoff-moes-frient/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/domadooflash2702-667x500.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: What is Zigbee? (Chinese)
-    url: https://csa-iot.org/newsroom/what-is-zigbee-chinese/
+    title: Alliance Member Map – Embedded World 2024
+    url: https://csa-iot.org/newsroom/alliance-member-map-embedded-world-2024/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: PCF8574 io expansion i2c relay board – KinCony DO8 released
-    url: https://www.kincony.com/pcf8574-io-expansion-i2c-relay-board.html
+    title: i2c io expander input board – DI8
+    url: https://www.kincony.com/i2c-io-expander-input-board.html
     image:
