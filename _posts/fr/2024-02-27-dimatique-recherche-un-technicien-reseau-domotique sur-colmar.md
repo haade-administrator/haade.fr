@@ -40,8 +40,9 @@ Une expertise spécifique dans **Home Assistant**, une connaissance des switchs 
 
 **Dimatique est spécialisée dans l'informatique pour les cabinets médicaux**, les appareils connectés, la domotique et la sécurité, offrant des solutions logicielles pour Médecins libéraux sur Macintosh, l'installation de réseaux informatiques, maisons et entreprises connectées,vidéo-surveillances et alarmes connectées.
 
-|**Missions**|**Installation et configuration** de systèmes de vidéosurveillance et de contrôle d'accès (Ubiquiti), domotique (Home-Assistant), objets connectés, alarmes(Ajax).<br>**Maintenance** des outils informatiques (3cx, Web).<br>**Assistance technique** aux utilisateurs.<br>Installation et configuration d'équipements informatiques Apple, NAS, switches & routeurs.<br>Interventions chez les clients pour l'installation et la formation.|
-|**Profil recherché**|**BAC + 3** (Alternance MASTER possible)<br>**Autonomie, organisation**, passion pour les nouvelles technologies.<br>Bonne compréhension de **l'anglais.**<br>**Curiosité intellectuelle** et ouverture d'esprit.<br>Esprit d'équipe et ponctualité.|
+| **Missions** | **- Installation et configuration** de systèmes de vidéosurveillance et de contrôle d'accès (Ubiquiti), domotique (Home-Assistant), objets connectés, alarmes(Ajax).<br>**- Maintenance** des outils informatiques (3cx, Web).<br>**- Assistance technique** aux utilisateurs.<br>- Installation et configuration d'équipements informatiques Apple, NAS, switches & routeurs.<br>**- Interventions chez les clients** pour l'installation et la formation. |
+
+| **Profil recherché** | **- BAC+3**(Alternance MASTER possible).<br>**- Autonomie, organisation,** passion pour les nouvelles technologies.<br>- Bonne compréhension de l'anglais.<br>**- Curiosité intellectuelle** et ouverture d'esprit.<br>**- Esprit d'équipe** et ponctualité. |
 
 {%- include alert.html type="info" text="Envoyez votre CV et lettre de motivation par mail pour postuler à cette opportunité passionnante" link="mailto:md@dimatique.fr" textlink="md[@]dimatique.fr" %}
 
