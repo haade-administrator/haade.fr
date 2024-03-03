@@ -1,7 +1,7 @@
 
 var documents = [{
     "id": 0,
-    "url": "/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar",
+    "url": "/fr/blog/offre-emploi-technicien-ne-en-domotique-reseaux",
     "title": "Offre d'emploi : Technicien(ne) en Domotique et Réseaux",
     "description": "27/02/2024 - La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux",
     "tags": ""},{
