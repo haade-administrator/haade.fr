@@ -1,29 +1,33 @@
 ---
 guid: 112
 title: "Offre d'emploi : Technicien(ne) en Domotique et Réseaux"
-description: "La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux"
+description: La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux
 ref: ""
 layout: post
 author: Nico
 date: 2024-02-27 16:48
-last_modified_at: 
-categories: [News, Domotique, Home-Assistant]
+last_modified_at: null
+categories:
+  - News
+  - Domotique
+  - Home-Assistant
 tags: []
-image: 'offre-emploi-dimatique-colmar-technicien-reseaux-et-domotique.png'
+image: offre-emploi-dimatique-colmar-technicien-reseaux-et-domotique.png
 toc: true
-beforetoc: ''
+beforetoc: ""
 published: true
 noindex: false
 sitemap:
-  changefreq: 'monthly'
-  exclude: 'no'
-  priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
-  lastmod:  # date to end modification
+  changefreq: monthly
+  exclude: no
+  priority: 0.5
+  lastmod: null
 locale: fr_FR
 comments: false
-rating:  
+rating: null
 sourcelink:
   - https://dimatique.fr/demande-de-contact/
+slug: offre-emploi-technicien-ne-en-domotique-reseaux
 ---
 
 {% include doclink.html pdf="Recherche poste technicien Final.pdf" title="offre d'emploi, Dimatique recherche sur Colmar un technicien réseaux et domotique" %}
