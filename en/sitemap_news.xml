@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/111/why-z-wave-is-dead.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-02-21T13:09:00+00:00</news:publication_date>
-          <news:title>Tests Aqara h1 switch and bindings</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/109/bindings-test-aqara-h1-smart-switch.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
