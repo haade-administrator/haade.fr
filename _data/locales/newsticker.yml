@@ -5,43 +5,41 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Raspberry Pi 5 support and more in Home Assistant OS release 12 & Supervisor
-      update
-    url: https://www.home-assistant.io/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/
-    image: http://www.home-assistant.io/images/blog/2024-02-haos12/haos12.png
+    title: A Home-Approved Dashboard chapter 1 - Drag-and-drop, Sections view, and
+      a new grid system design!
+    url: https://www.home-assistant.io/blog/2024/03/04/dashboard-chapter-1/
+    image: http://www.home-assistant.io/images/blog/2024-03-dashboard-chapter-1/layout-types.png
   en_GB:
   - name: Home-Assistant
-    title: Raspberry Pi 5 support and more in Home Assistant OS release 12 & Supervisor
-      update
-    url: https://www.home-assistant.io/blog/2024/02/26/home-assistant-os-12-support-for-raspberry-pi-5/
-    image: http://www.home-assistant.io/images/blog/2024-02-haos12/haos12.png
+    title: A Home-Approved Dashboard chapter 1 - Drag-and-drop, Sections view, and
+      a new grid system design!
+    url: https://www.home-assistant.io/blog/2024/03/04/dashboard-chapter-1/
+    image: http://www.home-assistant.io/images/blog/2024-03-dashboard-chapter-1/layout-types.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test PetKit Pura Max  - une litière automatique pour vous faire aimer les
-      chats
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-petkit-pura-max-une-litiere-automatique-pour-vous-faire-aimer-les-chats/#utm_source=rss&utm_medium=rss&utm_campaign=test-petkit-pura-max-une-litiere-automatique-pour-vous-faire-aimer-les-chats
+    title: LIFX lance une gamme outdoor pour illuminer les jardins connectés
+    url: https://www.lesalexiens.fr/actualites/lifx-lance-une-gamme-outdoor-pour-illuminer-les-jardins-connectes/#utm_source=rss&utm_medium=rss&utm_campaign=lifx-lance-une-gamme-outdoor-pour-illuminer-les-jardins-connectes
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du module chauffage fil pilote Zigbee 3.0 NodOn
-    url: https://blog.domadoo.fr/105115-decouverte-du-module-chauffage-fil-pilote-zigbee-3-0-nodon/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/Fil-pilote-Nodon-SIN-4-FP-21-2048x1032-PRESS-2-1024x516.jpg
+    title: Aqara lance sa serrure connectée Smart Lock U200 sur Kickstarter
+    url: https://blog.domadoo.fr/103463-aqara-smart-lock-u200-kickstarter/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/aqara-smart-lock-u200-29-02-2024.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Expérience Audio Inégalée - Découvrez la Nouvelle Enceinte In-Ceiling 8
-      Pouces de Sonos
-    url: https://blog.nord-domotique.com/decouvrez-in-ceiling-8-pouces-de-sonos/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/02/e471-123456-sonos-sidecar-lv-multi-room-0956-v01-hr-sbs-8-inch.jpg?fit=300%2C200&ssl=1
+    title: Test de la caméra d’intérieure HELO W-IN de Strong
+    url: https://blog.nord-domotique.com/test-camera-helo-w-in-strong/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/02/00.jpg?fit=225%2C300&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Le créateur de Home Assistant fait un pas étonnant vis-à-vis du protocole
-      Z-Wave
-    url: https://www.abavala.com/le-createur-de-home-assistant-fait-un-pas-etonnant-vis-a-vis-du-protocole-z-wave/
-    image: https://www.abavala.com/wp-content/uploads/nabucasa-zwave-entete-150x150.jpg
+    title: Avec la nouvelle série i, Segway Navimow  bouscule technologiquement et
+      budgétairement le secteur des robots tondeuses
+    url: https://www.abavala.com/avec-la-nouvelle-serie-i-segway-navimow-bouscule-technologiquement-et-budgetairement-le-secteur-des-robots-tondeuses/
+    image: https://www.abavala.com/wp-content/uploads/Navimow_serie_i_entete-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -51,9 +49,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Ventes flash domotique Xiaomi, Aqara, SonOff, Moes, Frient, etc.
-    url: https://www.maison-et-domotique.com/146163-ventes-flash-domotique-xiaomi-aqara-sonoff-moes-frient/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/02/domadooflash2702-667x500.jpeg
+    title: Offres flash domotique - Fibaro, Aqara, SonOff, etc. jusqu’à -25% !
+    url: https://www.maison-et-domotique.com/146218-offres-flash-domotique-fibaro-aqara-sonoff/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/flashdomadoo05032024-667x500.jpeg
 Matter:
   en_GB:
   - name: Matter
