@@ -11,7 +11,7 @@ categories:
   - Tests
   - Zigbee
 tags: []
-image: detecteur-movement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p.png
+image: detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p.png
 toc: true
 beforetoc: ""
 published: true
