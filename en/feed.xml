@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Mar 2024 02:26:32 +0000</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2024 16:48:00 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Mar 2024 19:28:28 +0000</pubDate>
+    <lastBuildDate>Tue, 27 Feb 2024 18:43:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Sonoff zigbee SNZB-03P and SNZB-06P sensor tests</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>test of sonoff SNZB-03P and SNZB-06P zigbee movement and human presence sensors what differences, are they well recognized in our assistants.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.png" alt="Sonoff zigbee SNZB-03P and SNZB-06P sensor tests">
+</picture>
+
+      <p>As usual I thank Domadoo and itead for the loan of these two Sonoff Zigbee modules which are the SNZB-03P and SNZB-06P, these are two presence detection modules that are completely opposed, and yet quite similar. In this article I will test the operation and integration in Zigbee2mqtt and ZHA. [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests">Sonoff zigbee SNZB-03P and SNZB-06P sensor tests</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 27 Feb 2024 18:43:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Z-wave dead and buried</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,26 +241,6 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Security]]></category>
-    </item>
-    <item>
-      <title>Installing HAOS with Armbian Bookworm 12</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>2024 - Tutorials installing home assistant OS on a cubietruck armv7 with Armbian version Debian 12 Bookworm all easily and without errors</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/101/installation-haos-armbian-cubietruck-2024-720-609e8ea1a.png" alt="Installing HAOS with Armbian Bookworm 12">
-</picture>
-
-      <p>It’s almost 2024 and it’s still difficult to install Home Assistant OS on unsupported cards. For the sake of product testing I need to install HAOS on a dedicated card. That’s good, I still have an old Cubietruck card in the boxes so I’ll be able to save money and [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/easy-installation-home-assistant-os-armbian-cubietruck-2024">Installing HAOS with Armbian Bookworm 12</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 26 Dec 2023 10:54:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/easy-installation-home-assistant-os-armbian-cubietruck-2024</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/easy-installation-home-assistant-os-armbian-cubietruck-2024</guid>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
