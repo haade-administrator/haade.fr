@@ -18,15 +18,17 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: LIFX lance une gamme outdoor pour illuminer les jardins connectés
-    url: https://www.lesalexiens.fr/actualites/lifx-lance-une-gamme-outdoor-pour-illuminer-les-jardins-connectes/#utm_source=rss&utm_medium=rss&utm_campaign=lifx-lance-une-gamme-outdoor-pour-illuminer-les-jardins-connectes
+    title: Avec Project Grace, Home Assistant simplifie la création de tableaux de
+      bord
+    url: https://www.lesalexiens.fr/actualites/project-grace-home-assistant-simplifie-tableaux-de-bord/#utm_source=rss&utm_medium=rss&utm_campaign=project-grace-home-assistant-simplifie-tableaux-de-bord
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara lance sa serrure connectée Smart Lock U200 sur Kickstarter
-    url: https://blog.domadoo.fr/103463-aqara-smart-lock-u200-kickstarter/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/02/aqara-smart-lock-u200-29-02-2024.png
+    title: La Z-Wave Alliance annonce la disponibilité de la spécification Z-Wave
+      Long Range pour l’Europe
+    url: https://blog.domadoo.fr/105213-specification-z-wave-long-range-europe/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/WHY-Z-WAVE-LONG-RANGE-1.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -49,14 +51,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Offres flash domotique - Fibaro, Aqara, SonOff, etc. jusqu’à -25% !
-    url: https://www.maison-et-domotique.com/146218-offres-flash-domotique-fibaro-aqara-sonoff/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/flashdomadoo05032024-667x500.jpeg
+    title: Godeal24 organise une journée spéciale pour les femmes avec l’activation
+      à vie de Windows et Office à partir de 10€ !
+    url: https://www.maison-et-domotique.com/146212-godeal24-journee-speciale-femmes/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/journeefemme-702x394.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Alliance Member Map – Embedded World 2024
-    url: https://csa-iot.org/newsroom/alliance-member-map-embedded-world-2024/
+    title: Alliance Member Map – ISC West 2024
+    url: https://csa-iot.org/newsroom/alliance-member-map-isc-west-2024/
     image: 
 Kincony:
   en_GB:

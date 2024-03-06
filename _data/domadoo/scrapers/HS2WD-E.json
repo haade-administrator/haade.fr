@@ -4,12 +4,12 @@
         "productId": "HS2WD-E",
         "title": "HEIMAN - Sirène intérieure intelligente Zigbee 3.0",
         "description": "La sirène intelligente Zigbee 3.0 de Heiman est idéale pour déclencher une alarme en cas d'urgence.",
-        "productNew": "Nouveau",
+        "productNew": "",
         "minsalePrice": "29.99",
-        "maxsalePrice": "67.20",
-        "discount": "-25%",
+        "maxsalePrice": "64.90",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "67.20",
+        "originalPrice": "64.90",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -23,7 +23,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.5",
-            "totalStarCount": "24"
+            "totalStarCount": "25"
         }
     }
 }

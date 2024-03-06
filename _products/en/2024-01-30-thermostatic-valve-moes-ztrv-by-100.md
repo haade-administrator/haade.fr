@@ -4,7 +4,7 @@ layout: product
 title: "MOES - ZIGBEE 3.0 TUYA SMART THERMOSTATIC HEAD - WHITE"
 date: "2024-01-30 23:56"
 description: "Control the temperature of an area of your home intelligently with the Zigbee MOES thermostatic head."
-categories: [Shop, Sonoff, Zigbee]
+categories: [Shop, Moes, Zigbee]
 tags: []
 locale: en_GB
 brand: Moes

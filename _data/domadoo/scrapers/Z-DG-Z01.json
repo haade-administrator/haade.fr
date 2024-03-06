@@ -6,10 +6,10 @@
         "description": "Dongle USB Zigbee 3.0 compatible Jeedom et Home Assistant.",
         "productNew": "",
         "minsalePrice": "29.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "89.00",
+        "discount": "-10%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "89.00",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -22,7 +22,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.5",
-            "totalStarCount": "2"
+            "totalStarCount": "4"
         }
     }
 }

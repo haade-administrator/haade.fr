@@ -6,10 +6,10 @@
         "description": "Le capteur de température et d'humidité SONOFF SNZB-02D vous informe de la température et l'humidité.",
         "productNew": "Nouveau",
         "minsalePrice": "13.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "13.99",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "13.99",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -31,8 +31,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.6",
-            "totalStarCount": "64"
+            "averageStar": "4.5",
+            "totalStarCount": "68"
         }
     }
 }

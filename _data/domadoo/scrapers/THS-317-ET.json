@@ -4,12 +4,12 @@
         "productId": "THS-317-ET",
         "title": "OWON - Capteur de température connecté extérieur sur câble Zigbee (V2)",
         "description": "Le capteur de température connecté extérieur THS-317-ET permet de mesurer avec précision la température d’un espace (réfrigérateur, congélateur ou autre), d’une matière ou d’un liquide (piscine ou autre).",
-        "productNew": "Nouveau",
+        "productNew": "",
         "minsalePrice": "19.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "73.20",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "73.20",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -19,7 +19,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.4",
-            "totalStarCount": "79"
+            "totalStarCount": "83"
         }
     }
 }

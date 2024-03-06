@@ -4,7 +4,7 @@ layout: product
 title: "MOES - TÊTE THERMOSTATIQUE INTELLIGENTE ZIGBEE 3.0 TUYA - BLANC"
 date: "2024-01-30 23:56"
 description: "Contrôlez la température d'une zone de votre logement de façon intelligente avec la tête thermostatique Zigbee MOES."
-categories: [Boutique, Sonoff, Zigbee]
+categories: [Boutique, Moes, Zigbee]
 tags: []
 locale: fr_FR
 brand: Moes
