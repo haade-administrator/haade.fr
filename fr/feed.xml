@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 Mar 2024 19:28:28 +0000</pubDate>
+    <pubDate>Wed, 06 Mar 2024 20:14:17 +0000</pubDate>
     <lastBuildDate>Tue, 27 Feb 2024 18:43:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -31,9 +31,9 @@
       <description>
       <![CDATA[
       <p>test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-movement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-9f73096d8.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-movement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-9f73096d8.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/110/detecteur-movement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-9f73096d8.png" alt="Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P">
+  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p-720-b5bd9de08.png" alt="Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P">
 </picture>
 
       <p>Comme d’habitude je remercie Domadoo et itead pour le prêt de ces deux modules Sonoff Zigbee que sont les SNZB-03P et SNZB-06P, ce sont deux modules de détections de présences que tout oppose, et pourtant assez similaire. Dans cet article je vais tester le fonctionnement et l’intégration dans Zigbee2mqtt et [...]</p>
