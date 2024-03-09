@@ -1,7 +1,7 @@
 
 var documents = [{
     "id": 0,
-    "url": "/en/blog/sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests",
+    "url": "/en/blog/test-human-presence-motion-sensor-snzb-03-snzb-06-sonoff-zigbee",
     "title": "Sonoff zigbee SNZB-03P and SNZB-06P sensor tests",
     "description": "27/02/2024 - test of sonoff SNZB-03P and SNZB-06P zigbee movement and human presence sensors what differences, are they well recognized in our assistants.",
     "tags": ""},{

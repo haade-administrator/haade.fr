@@ -6,7 +6,7 @@ var documents = [{
     "description": "27/02/2024 - test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.",
     "tags": ""},{
     "id": 1,
-    "url": "/fr/blog/offre-emploi-technicien-ne-en-domotique-reseaux",
+    "url": "/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar",
     "title": "Offre d'emploi : Technicien(ne) en Domotique et Réseaux",
     "description": "27/02/2024 - La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux",
     "tags": ""},{
