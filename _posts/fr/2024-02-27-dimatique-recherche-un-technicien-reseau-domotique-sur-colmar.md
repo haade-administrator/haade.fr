@@ -25,9 +25,11 @@ sitemap:
 locale: fr_FR
 comments: false
 rating: null
+addViews: 39
+redirect_from:
+  - /fr/blog/offre-emploi-technicien-ne-en-domotique-reseaux
 sourcelink:
   - https://dimatique.fr/demande-de-contact/
-slug: offre-emploi-technicien-ne-en-domotique-reseaux
 ---
 
 {% include doclink.html pdf="Recherche poste technicien Final.pdf" title="offre d'emploi, Dimatique recherche sur Colmar un technicien réseaux et domotique" %}

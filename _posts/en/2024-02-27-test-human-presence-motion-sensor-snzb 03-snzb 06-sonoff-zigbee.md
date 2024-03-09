@@ -24,10 +24,12 @@ sitemap:
 locale: en_GB
 comments: true
 rating: 4
+addViews: 7
+redirect_from:
+  - /en/blog/sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests
 sourcelink:
   - https://sonoff.tech/product/gateway-and-sensors/snzb-03p/
   - https://sonoff.tech/product/gateway-and-sensors/snzb-06p/
-slug: sonoff-zigbee-snzb-03p-snzb-06p-sensor-tests
 ---
 
 As usual **I thank Domadoo and itead** for the loan of these two **Sonoff** Zigbee modules which are the {{ page.ref }}, these are two presence detection modules that are completely opposed, and yet quite similar. In this article I will test the operation and integration in Zigbee2mqtt and ZHA.
