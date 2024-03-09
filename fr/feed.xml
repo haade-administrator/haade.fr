@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 09 Mar 2024 07:23:20 +0000</pubDate>
+    <pubDate>Sat, 09 Mar 2024 11:45:10 +0000</pubDate>
     <lastBuildDate>Tue, 27 Feb 2024 18:43:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -37,12 +37,12 @@
 </picture>
 
       <p>Comme d’habitude je remercie Domadoo et itead pour le prêt de ces deux modules Sonoff Zigbee que sont les SNZB-03P et SNZB-06P, ce sont deux modules de détections de présences que tout oppose, et pourtant assez similaire. Dans cet article je vais tester le fonctionnement et l’intégration dans Zigbee2mqtt et [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/tests-capteurs-sonoff-zigbee-snzb-03p-snzb-06p">Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee">Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
       <pubDate>Tue, 27 Feb 2024 18:43:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/tests-capteurs-sonoff-zigbee-snzb-03p-snzb-06p</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/tests-capteurs-sonoff-zigbee-snzb-03p-snzb-06p</guid>
+      <link>https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
     </item>
