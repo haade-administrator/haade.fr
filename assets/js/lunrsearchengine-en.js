@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/en/blog/test-human-presence-motion-sensor-snzb-03-snzb-06-sonoff-zigbee",
     "title": "Sonoff zigbee SNZB-03P and SNZB-06P sensor tests",
-    "description": "27/02/2024 - test of sonoff SNZB-03P and SNZB-06P zigbee movement and human presence sensors what differences, are they well recognized in our assistants.",
+    "description": "03/03/2024 - test of sonoff SNZB-03P and SNZB-06P zigbee movement and human presence sensors what differences, are they well recognized in our assistants.",
     "tags": ""},{
     "id": 1,
     "url": "/en/blog/zwave-dead-and-buried",

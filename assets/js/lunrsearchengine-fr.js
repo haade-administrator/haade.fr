@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee",
     "title": "Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P",
-    "description": "27/02/2024 - test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.",
+    "description": "03/03/2024 - test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar",
