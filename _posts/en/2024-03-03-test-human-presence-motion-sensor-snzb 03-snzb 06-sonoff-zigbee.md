@@ -5,7 +5,7 @@ description: test of sonoff SNZB-03P and SNZB-06P zigbee movement and human pres
 ref: SNZB-03P and SNZB-06P
 layout: post
 author: Nico
-date: 2024-02-27 18:43
+date: 2024-03-03 18:43
 last_modified_at: null
 categories:
   - Tests
