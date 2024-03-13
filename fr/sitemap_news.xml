@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/113/z-wave-800-lr-silabs-relance-le-protocole.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-03-03T18:43:00+00:00</news:publication_date>
-          <news:title>Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/110/detecteur-mouvement-et-presence-humaine-zigbee-sonoff-snzb-03p-snzb-06p.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
