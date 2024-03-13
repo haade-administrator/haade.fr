@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Mar 2024 02:23:24 +0000</pubDate>
-    <lastBuildDate>Sun, 03 Mar 2024 18:43:00 +0000</lastBuildDate>
+    <pubDate>Wed, 13 Mar 2024 14:14:18 +0000</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2024 12:47:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,26 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Z-wave 800LR Silabs relaunches z-wave</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.png" alt="Z-wave 800LR Silabs relaunches z-wave">
+</picture>
+
+      <p>Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market. Last month I wrote an article on the end of Z-wave, where I explained that this protocol almost disappeared, especially in Europe because of [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal">Z-wave 800LR Silabs relaunches z-wave</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 13 Mar 2024 12:47:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</guid>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Sonoff zigbee SNZB-03P and SNZB-06P sensor tests</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -219,28 +239,6 @@ Like more and more people on this planet, I own an electric vehicle that I have 
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Zigbee Neo NAS-AB06B2 Outdoor Siren Review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the zigbee tuya Neo NAS-AB06B2 solar siren designed for outdoors, in home assistant for less than €40. For this price is it worth the cost?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/102/sirene-neo-nas-ab06b2-zigbee-outdoor-720-c6bc05861.png" alt="Zigbee Neo NAS-AB06B2 Outdoor Siren Review">
-</picture>
-
-      <p>This is an area where zigbee modules are rare, you can find zigbee sirens here and there for indoors but when it comes to outdoors there are no crowds. And this is where Tuya stands out thanks to the NAS-AB06B2 white label for Europe by Neo. But let’s not forget [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee">Zigbee Neo NAS-AB06B2 Outdoor Siren Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 02 Jan 2024 16:17:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-outdoor-alarm-solar-battery-tuya-neo-NAS-AB06B2-zigbee</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
-      <category><![CDATA[Security]]></category>
     </item>
   </channel>
 </rss>
