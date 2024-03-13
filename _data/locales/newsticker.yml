@@ -1,0 +1,65 @@
+docs_list_title:
+  fr_FR: Dernières Nouvelles
+  en_GB: Breaking News
+
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: 2024.3 - Drag 'n Drop it like it's hot! -
+    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
+    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+  en_GB:
+  - name: Home-Assistant
+    title: 2024.3 - Drag 'n Drop it like it's hot! -
+    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
+    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Govee dévoile son Neon Rope Light 2 boosté à l’IA et compatible Matter
+    url: https://www.lesalexiens.fr/actualites/govee-devoile-son-neon-rope-light-2-booste-a-lia-et-compatible-matter/#utm_source=rss&utm_medium=rss&utm_campaign=govee-devoile-son-neon-rope-light-2-booste-a-lia-et-compatible-matter
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Découverte de la clé Zigbee Conbee 3 compatible Matter over Thread
+    url: https://blog.domadoo.fr/105052-conbee-3-zigbee-matter-over-thread/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Phoscon-Conbee3-2048x1032-PRESS-2-1024x516.jpg
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Découvrez le nouveau programme Ambassadeur Husqvarna
+    url: https://blog.nord-domotique.com/decouvrez-programme-ambassadeur-husqvarna/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/03/capture-decran-2024-03-12-a-21.52.15.jpg?fit=300%2C224&ssl=1
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: Z-Wave Long Range, la version dopée du Z-Wave arrive en Europe
+    url: https://www.abavala.com/z-wave-long-range-la-version-dopee-du-z-wave-arrive-en-europe/
+    image: https://www.abavala.com/wp-content/uploads/zwlr_entete-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Mise à jour Home Assistant 2024.3 - arrivée du glisser déposer sur les
+      tableaux de bord !
+    url: https://www.maison-et-domotique.com/146235-mise-a-jour-home-assistant-2024-3/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/ha20243-702x395.png
+Matter:
+  en_GB:
+  - name: Matter
+    title: The Connectivity Standards Alliance Releases Green Power 1.1.2 for Zigbee-based
+      Energy-harvesting Technology
+    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-releases-green-power-1-1-2-for-zigbee-based-energy-harvesting-technology/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: i2c io expander input board – DI8
+    url: https://www.kincony.com/i2c-io-expander-input-board.html
+    image:
