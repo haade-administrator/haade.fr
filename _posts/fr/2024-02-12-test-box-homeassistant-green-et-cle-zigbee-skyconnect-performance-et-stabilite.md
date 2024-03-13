@@ -37,6 +37,8 @@ sourcelink:
 
 Commençons par un déballage de la box home-assistant green, comme tu peux le voir **l'emballage est super bien fait** et apporte une petite touche d'écolo, elle n'est pas Green pour rien. Très bien présentée j'ai vraiment rien à redire sur le packaging de la home assistant Green.
 
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
+
 {% picture posts/{{ page.guid }}/tour-horizon-carton-emballage-home-assistant-green.png --alt déballage de la box home-assistant Green --img width="940" height="529" %}
 
 À l'intérieur tu y trouveras une notice succinte qui te renverra vers une page web dédiée à [l'installation de la Home Assistant Green](https://green.home-assistant.io/){: target="_blank"}. Aussi la box est fournis avec un macaron autocollant aux couleurs de Home Assistant **du plus bel effet**, un cable rj45 ainsi qu'une alimentation avec adapteurs internationaux, parfait pour un branchement sur toute la planète.
@@ -56,6 +58,8 @@ En façade arrière on pourra la connecter par **rj45 au réseau mais pas en wif
 Pour rappel la box est livrée avec une **ram 4GB** et un stockage interne **emmc 32GB** et il s'avère que c'est suffisant au bon fonctionnement de la box, voir plus bas dans [notre test intégration](#int%C3%A9gration-dans-home-assistant).
 
 **Grâce à l'interrupteur situé lui aussi sur la face arrière** tu pourras **soit éteindre la box** en toute sécurité en appuyant 6 secondes ou **forcer l'arrêt** complet en appuyant 12 secondes.
+
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
 
 ### Caractéristique technique
 
@@ -112,6 +116,8 @@ Une **installation standard de prendra 10GB** d'espace de stockage, il te rester
 > Toutes les infos matériel sont dispos dans les paramètres de HAOS rubrique Matériel.
 
 {% picture posts/{{ page.guid }}/fonctionnement-ensemble-home-assistant-green-et-dongle-skyconnect.png --alt fonctionnement final de la box green et de la clé skyconnect par Home-Assistant --img width="940" height="529" %}
+
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
 
 {% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Clé dongle zigbee Skyconnect" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
 
