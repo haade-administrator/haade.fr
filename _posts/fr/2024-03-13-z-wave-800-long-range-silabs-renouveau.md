@@ -92,9 +92,9 @@ J'ai voulu reprendre la liste des produits certifiés par la z-wave alliance, ma
 
 **Philio**: semble être au point mort depuis quelques années pas de nouveaux produits, ruptures de stocks chez les revendeurs, c'est bien dommage car il fabriquaient des modules robustes et bien pensé.
 
-[**Shelly ( Qubino )**](https://www.domadoo.fr/fr/111-produits?q=Marque-Shelly+Qubino#domid=39){: target="_blank"}: depuis le rachat de qubino par Shelly la société ne perd pas de temps et **développe une série de modules au dernier chipset 800 LR** que l'on retrouve sur le marché.
+[**Shelly ( Qubino )**](https://www.domadoo.fr/fr/111-produits?q=Marque-Shelly+Qubino&domid=39){: target="_blank"}: depuis le rachat de qubino par Shelly la société ne perd pas de temps et **développe une série de modules au dernier chipset 800 LR** que l'on retrouve sur le marché.
 
-[**Zooz**](https://www.domadoo.fr/fr/111-produits?q=Marque-Zooz#domid=39){: target="_blank"}: Comme Shelly Zooz **emboîte le pas des modules z-wave serie 800** et ils ont bien raison.
+[**Zooz**](https://www.domadoo.fr/fr/111-produits?q=Marque-Zooz&domid=39){: target="_blank"}: Comme Shelly Zooz **emboîte le pas des modules z-wave serie 800** et ils ont bien raison.
 
 **Popp**: le fabriquant Allemand ne propose rien en série 800 pour le moment
 
