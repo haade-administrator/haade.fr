@@ -84,7 +84,7 @@ Plus récemment [Zooz à sorti son premier contrôleur z-wave 800](https://www.d
 
 J'ai voulu reprendre la liste des produits certifiés par la z-wave alliance, mais j'ai l'impression que cette liste est incomplète ou pas encore à jour. Car en faisant le tour directement sur le site des fabriquants j'ai pu trouver des infos complémentaires:
 
- **Fibaro**: ( pas pour l'instant je n'ai rien trouvé sur leurs sites ).
+ **Fibaro**: lance un [module volet roulant](https://www.domadoo.fr/fr/peripheriques/7040-fibaro-micromodule-pour-volet-roulant-z-wave-800-fibaro-roller-shutter-4-fgr-224-5902701703899.html?domid=39){: target ="_blank"}, à 84€, beaucoup trop cher, ils n'ont pas l'air de vouloir baisser les prix.
 
 **MCO Home**: la sortie de nouveaux produits est en cours on trouve l'interrupteur [f-series](https://www.mcohome.com/F-series-Switch-PG7454227){: target="_blank"} et les [interrupteurs mechaniques U-series](https://www.mcohome.com/U-series-smart-switch-PG7454301){: target="_blank"}
 
