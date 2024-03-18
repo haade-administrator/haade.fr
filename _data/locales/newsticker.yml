@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.3 - Drag 'n Drop it like it's hot! -
-    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
-    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+    title: And the winners of our voice assistant community contest are - ...
+    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
   en_GB:
   - name: Home-Assistant
-    title: 2024.3 - Drag 'n Drop it like it's hot! -
-    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
-    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+    title: And the winners of our voice assistant community contest are - ...
+    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
@@ -46,9 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Promotions domotiques - SonOff, Loratap, Owon, Bitua Technik, etc.
-    url: https://www.maison-et-domotique.com/146297-promotions-domotiques-sonoff-loratap-owon-bitua-technik/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/78d354ac171e44afe616cb0a461e9dc559de2cc6-promos-we-15-18-03-2024-s-fr-1-426x500.png
+    title: Mise à jour de la box eedomus - support des radars de présence ZigBee,
+      et nouveaux périphériques Zwave !
+    url: https://www.maison-et-domotique.com/146302-mise-a-jour-box-eedomus-mars-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2020/12/mise-a-jour-eedomus-702x367.png
 Matter:
   en_GB:
   - name: Matter
