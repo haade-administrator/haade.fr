@@ -67,7 +67,7 @@ Il permet de gérer tous les abonnements en mono ou triphasé et le mode product
 
 {% picture posts/{{ page.guid }}/lixee-module-tic-vers-zigbee-30-pour-compteur-zlinky-tic.png --alt nomenclatures en images du Lixee zlinky_tic téléinformation pour systèmes domotiques zigbee --img width="777" height="502" %}
 
-## Caractéristiques techniques du {{ page.ref }}
+## Caractéristiques techniques du {{ page.ref }}
 
 |-------------|--------------|
 |Communication|ZigBee® 2.4Ghz|
