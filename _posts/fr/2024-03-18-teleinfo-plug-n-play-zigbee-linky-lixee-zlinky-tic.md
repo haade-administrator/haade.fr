@@ -25,7 +25,9 @@ rating:
 sourcelink:
   - https://lixee.fr/produits/37-73-zigate-usb-ttl-3770014375148.html#/27-antenneexterne-non
   - https://www.domadoo.fr/fr/box-domotique/5914-lixee-module-tic-vers-zigbee-30-pour-compteur-linky-lixee-zlinky-3770014375148.html?domid=39
+  - https://faire-ca-soi-meme.fr/domotique/2023/09/06/edito-de-la-rentree-2023-2024-part-1/
   - https://github.com/fairecasoimeme/Zlinky_TIC
+  - https://www.nxp.com/products/wireless-connectivity/thread/jn5189-88-t-high-performance-and-ultra-low-power-mcus-for-zigbee-and-thread-with-built-in-nfc-option:JN5189_88_T
 ---
 
 Acutellement il y a de nombreuses façons de relever la téléinformation, j'en ai déjà testé quelques unes, aujourd'hui je vais te parler du Lixee, je sais ce que tu te dit, il vient en retard d'autres l'ont déjà fait. Pour ma défense je ne possède pas de Linky, mais depuis l'arrivée D'august la donne à changé. Alors ee Zlinky_tic est-il à la hauteur ?

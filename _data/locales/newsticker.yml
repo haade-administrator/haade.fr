@@ -16,27 +16,29 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Publicité sur Echo Show  - les utilisateurs d’Alexa s’inquiètent sur Reddit
-    url: https://www.lesalexiens.fr/actualites/publicites-echo-show-utilisateurs-alexa-reddit/#utm_source=rss&utm_medium=rss&utm_campaign=publicites-echo-show-utilisateurs-alexa-reddit
+    title: Notre sélection de Mini PC pour Home Assistant et Proxmox à saisir cette
+      semaine
+    url: https://www.lesalexiens.fr/actualites/notre-selection-de-mini-pc-pour-home-assistant-et-proxmox-a-saisir-cette-semaine/#utm_source=rss&utm_medium=rss&utm_campaign=notre-selection-de-mini-pc-pour-home-assistant-et-proxmox-a-saisir-cette-semaine
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la clé Zigbee Conbee 3 compatible Matter over Thread
-    url: https://blog.domadoo.fr/105052-conbee-3-zigbee-matter-over-thread/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Phoscon-Conbee3-2048x1032-PRESS-2-1024x516.jpg
+    title: Comment utiliser le bouton connecté rotatif Zigbee Tuya MOES ZT-SY-RD
+    url: https://blog.domadoo.fr/104197-confiurer-bouton-connecte-moes-zigbee-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/01/bouton-connecte-rotatif-moes-tuya-zigbee-1.jpeg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez le nouveau programme Ambassadeur Husqvarna
-    url: https://blog.nord-domotique.com/decouvrez-programme-ambassadeur-husqvarna/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/03/capture-decran-2024-03-12-a-21.52.15.jpg?fit=300%2C224&ssl=1
+    title: Test de la caméra CAMINI CARE de chez Konyks
+    url: https://blog.nord-domotique.com/test-camera-camini-care-konyks/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/02/camini-care-5095.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Z-Wave Long Range, la version dopée du Z-Wave arrive en Europe
-    url: https://www.abavala.com/z-wave-long-range-la-version-dopee-du-z-wave-arrive-en-europe/
-    image: https://www.abavala.com/wp-content/uploads/zwlr_entete-150x150.jpg
+    title: Mise à jour eedomus du 18 mars 2024  - compatibilité avec les détecteurs
+      de présence radar
+    url: https://www.abavala.com/mise-a-jour-eedomus-du-18-mars-2024-compatibilite-avec-les-detecteurs-de-presence-radar/
+    image: https://www.abavala.com/wp-content/uploads/eedomsu_tablette_main-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -46,20 +48,20 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Mise à jour de la box eedomus - support des radars de présence ZigBee,
-      et nouveaux périphériques Zwave !
-    url: https://www.maison-et-domotique.com/146302-mise-a-jour-box-eedomus-mars-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2020/12/mise-a-jour-eedomus-702x367.png
+    title: Promotions domotiques de printemps - jusqu’à 20% sur InnR, Nous, Moes,
+      Saswell, Neo, etc.
+    url: https://www.maison-et-domotique.com/146329-promotions-domotiques-printemps/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/promotions-domotiques-426x500.png
 Matter:
   en_GB:
   - name: Matter
-    title: STMicroelectronics reveals high-performance, state-of-the-art wireless
-      microcontrollers ready for incoming cyber-protection regulations
-    url: https://newsroom.st.com/media-center/press-item.html/p4611.html
+    title: The Connectivity Standards Alliance and the Cyber Security Agency of Singapore
+      Sign Mutual Recognition Arrangement on Cybersecurity Labels for Consumer IoT
+    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-and-the-cyber-security-agency-of-singapore-sign-mutual-recognition-arrangement-on-cybersecurity-labels-for-consumer-iot/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: i2c io expander input board – DI8
-    url: https://www.kincony.com/i2c-io-expander-input-board.html
+    title: ESP32 Tuya IoT Adapter V2
+    url: https://www.kincony.com/esp32-tuya-iot-adapter-v2.html
     image:
