@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Mar 2024 11:31:52 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 12:47:00 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 17:04:25 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 12:00:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test Lixee Zlinky plug&apos;n play teleinfo</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test of the Zlinky module for the feedback of special linky teleinformation manufactured by Lixee and plug&apos;n play, compatible with all opensource boxes</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.png" alt="Test Lixee Zlinky plug'n play teleinfo">
+</picture>
+
+      <p>Actuellement il y a de nombreuses façons de relever la téléinformation, j’en ai déjà testé quelques unes, aujourd’hui je vais te parler du Lixee, je sais ce que tu te dit, il vient en retard ! d’autres l’ont déjà fait. Pour ma défense je ne possède pas de Linky, mais [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic">Test Lixee Zlinky plug'n play teleinfo</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Z-wave 800LR Silabs relaunches z-wave</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -215,30 +237,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Be careful when charging electric vehicles at home</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Feedback on the fire risks of charging electric vehicles at home and monitoring the problem using home automation.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/103/attention-risk-fire-charge-ve-domicile-720-fbaeb6d0b.png" alt="Be careful when charging electric vehicles at home">
-</picture>
-
-      <p>Attention ! risk of fire from Wallbox when recharging electric vehicles at home!
-Like more and more people on this planet, I own an electric vehicle that I have been charging exclusively for over 5 years at home using a brand EV charger VE-tronic.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/warning-charging-electric-vehicle-at-home">Be careful when charging electric vehicles at home</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 06 Jan 2024 10:13:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/warning-charging-electric-vehicle-at-home</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/warning-charging-electric-vehicle-at-home</guid>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>

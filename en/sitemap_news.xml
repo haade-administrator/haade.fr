@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-03-20T12:00:00+00:00</news:publication_date>
+          <news:title>Test Lixee Zlinky plug'n play teleinfo</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</loc>
         <news:news>
           <news:publication>

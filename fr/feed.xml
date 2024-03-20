@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 20 Mar 2024 11:31:52 +0000</pubDate>
-    <lastBuildDate>Wed, 13 Mar 2024 12:47:00 +0000</lastBuildDate>
+    <pubDate>Wed, 20 Mar 2024 17:04:25 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Mar 2024 12:00:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test Lixee Zlinky la téléinfo plug&apos;n play</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test du module Zlinky pour la remontée de la téléinformation spécial linky fabriqué par Lixee et plug&apos;n play, compatible toutes box opensource</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/114/lixee-zlinky-tic-teleinformation-linky-france-zigbee-plug-n-play-720-7478b707b.png" alt="Test Lixee Zlinky la téléinfo plug'n play">
+</picture>
+
+      <p>Actuellement il y a de nombreuses façons de relever la téléinformation, j’en ai déjà testé quelques unes, aujourd’hui je vais te parler du Lixee, je sais ce que tu te dit, il vient en retard ! d’autres l’ont déjà fait. Pour ma défense je ne possède pas de Linky, mais [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic">Test Lixee Zlinky la téléinfo plug'n play</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
+      <link>https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Z-wave 800LR Silabs relance z-wave</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -217,27 +239,6 @@
       <link>https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-interrupteur-intelligent-wifi-sonoff-tx-ultimate-t5-ultra-personnalisable</guid>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Aeotec sort enfin son controlleur Zigbee</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>ça y est Aeotec se met au zigbee, la célèbre marque connue pour ses modules de qualités sort enfin un controlleur zigbee le zi-stick</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008-720-50cd01f42.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008-720-50cd01f42.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008-720-50cd01f42.png" alt="Aeotec sort enfin son controlleur Zigbee">
-</picture>
-
-      <p>Ah Enfin Aeotec sort son dongle compatible Zigbee 3.0, ce fabriquant de modules de qualités a décidé de commercialiser un adaptateur usb zigbee le zi-stick ZGA008 au protocole Silabs avec un Chipset quasi similaire au Skyconnect ou Zbdongle-e. Mais il a la particularité d’être le plus petit dongle performant du [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-adaptateur-zigbee-aeotec-zi-stick">Aeotec sort enfin son controlleur Zigbee</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 12 Jan 2024 11:24:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/test-adaptateur-zigbee-aeotec-zi-stick</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-adaptateur-zigbee-aeotec-zi-stick</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
