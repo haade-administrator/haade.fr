@@ -29,11 +29,11 @@ Math67:
     fr_FR: "Passionné par la bidouille et l'électricité"
     en_GB: "Passionate about tinkering and electricity"
 
-Paulo:
-  name: Paulo
-  display_name: Paulo Debière
+August:
+  name: August
+  display_name: August
   avatar: "paulo.png"
-  email:
+  email: paul.bossut@gmail.com
   web:
   url:
   youtube: https://www.youtube.com/@lesfreresopak
@@ -41,8 +41,8 @@ Paulo:
   discord:
   github:
   description:
-    fr_FR: ""
-    en_GB: ""
+    fr_FR: "fan de montages vidéos, je n'y connait rien du moins en domotique, mais je ne demande qu'à apprendre"
+    en_GB: "fan of video editing, I don't know anything about home automation, but I just want to learn"
 
 Yann:
   name: Yann

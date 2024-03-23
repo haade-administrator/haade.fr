@@ -16,9 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Notre sélection de Mini PC pour Home Assistant et Proxmox à saisir cette
-      semaine
-    url: https://www.lesalexiens.fr/actualites/notre-selection-de-mini-pc-pour-home-assistant-et-proxmox-a-saisir-cette-semaine/#utm_source=rss&utm_medium=rss&utm_campaign=notre-selection-de-mini-pc-pour-home-assistant-et-proxmox-a-saisir-cette-semaine
+    title: Amazon ajoute une nouvelle caméra Blink Mini 2 à son catalogue
+    url: https://www.lesalexiens.fr/actualites/amazon-ajoute-une-nouvelle-camera-blink-mini-2-a-son-catalogue/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-ajoute-une-nouvelle-camera-blink-mini-2-a-son-catalogue
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -48,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Promotions domotiques de printemps - jusqu’à 20% sur InnR, Nous, Moes,
-      Saswell, Neo, etc.
-    url: https://www.maison-et-domotique.com/146329-promotions-domotiques-printemps/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/promotions-domotiques-426x500.png
+    title: Le Debrief M&D - nouveautés Zwave, Home Assistant, eedomus, Ikea, formation
+      vidéo en domotique, maison Amazon à 20 000€, promos de printemps, etc.
+    url: https://www.maison-et-domotique.com/146357-debrief-md-semaine-12-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
