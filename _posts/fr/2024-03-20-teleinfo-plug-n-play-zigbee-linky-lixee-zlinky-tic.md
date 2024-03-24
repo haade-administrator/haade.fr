@@ -76,7 +76,7 @@ Il permet de gérer tous les abonnements en mono ou triphasé et le mode product
 |Dimensions Du Paquet|110 x 110 x 20mm|
 |Température De Fonctionnement|0°C - 60°C|
 
-## {{ page.ref }} compatibilité
+## {{ page.ref }} compatibilité
 
 **Jeedom**
 - plugin JeeZigbee (officiel)
