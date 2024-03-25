@@ -84,7 +84,7 @@ More recently [Zooz released its first z-wave 800 controller](https://www.domado
 
 I wanted to use the list of products certified by the z-wave alliance, but I have the impression that this list is incomplete or not yet up to date. Because by looking directly on the manufacturers' website I was able to find additional information.
 
-**Fibaro**: (not yet I haven't found anything on their sites).
+**Fibaro**: launches a [roller shutter module](https://www.domadoo.fr/en/devices/7040-fibaro-roller-shutter-4-fgr-224-z-wave-800-5902701703899.html?domid=39){: target ="_blank"}, at 84€, way too expensive, they don't seem to want to lower the prices.
 
 **MCO Home**: the release of new products is in progress we find the switch [f-series](https://www.mcohome.com/F-series-Switch-PG7454227){: target="_blank"} and [U-series mechanical switches](https://www.mcohome.com/U-series-smart-switch-PG7454301){: target="_blank"}
 
@@ -92,9 +92,9 @@ I wanted to use the list of products certified by the z-wave alliance, but I hav
 
 **Philio**: seems to have been at a standstill for several years, no new products, stock shortages at resellers, it's a shame because they manufactured robust and well thought-out modules.
 
-[**Shelly ( Qubino )**](https://www.domadoo.fr/fr/111-produits?q=Marque-Shelly+Qubino#domid=39){: target="_blank"}: Since the acquisition of Qubino by Shelly, the company has wasted no time and is **developing a series of modules using the latest chipset 800** found on the market.
+[**Shelly ( Qubino )**](https://www.domadoo.fr/en/111-products?q=Brand-Shelly+Qubino&domid=39){: target="_blank"}: Since the acquisition of Qubino by Shelly, the company has wasted no time and is **developing a series of modules using the latest chipset 800** found on the market.
 
-[**Zooz**](https://www.domadoo.fr/fr/111-produits?q=Marque-Zooz#domid=39){: target="_blank"}: Like Shelly Zooz **is following in the footsteps of the z-wave 800** series modules and they are right.
+[**Zooz**](https://www.domadoo.fr/en/111-products?q=Brand-Zooz&domid=39){: target="_blank"}: Like Shelly Zooz **is following in the footsteps of the z-wave 800** series modules and they are right.
 
 **Popp**: the German manufacturer does not offer anything in the 800 series at the moment
 

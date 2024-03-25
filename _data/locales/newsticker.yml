@@ -5,38 +5,39 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.3 - Drag 'n Drop it like it's hot! -
-    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
-    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+    title: And the winners of our voice assistant community contest are - ...
+    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
   en_GB:
   - name: Home-Assistant
-    title: 2024.3 - Drag 'n Drop it like it's hot! -
-    url: https://www.home-assistant.io/blog/2024/03/06/release-20243/
-    image: http://www.home-assistant.io/images/blog/2024-03/social.png
+    title: And the winners of our voice assistant community contest are - ...
+    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Govee dévoile son Neon Rope Light 2 boosté à l’IA et compatible Matter
-    url: https://www.lesalexiens.fr/actualites/govee-devoile-son-neon-rope-light-2-booste-a-lia-et-compatible-matter/#utm_source=rss&utm_medium=rss&utm_campaign=govee-devoile-son-neon-rope-light-2-booste-a-lia-et-compatible-matter
+    title: Domotique Alexa  - 20 appareils avec minimum 40% de remise
+    url: https://www.lesalexiens.fr/actualites/domotique-alexa-20-appareils-avec-minimum-40-de-remise/#utm_source=rss&utm_medium=rss&utm_campaign=domotique-alexa-20-appareils-avec-minimum-40-de-remise
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la clé Zigbee Conbee 3 compatible Matter over Thread
-    url: https://blog.domadoo.fr/105052-conbee-3-zigbee-matter-over-thread/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Phoscon-Conbee3-2048x1032-PRESS-2-1024x516.jpg
+    title: Comment utiliser le bouton connecté rotatif Zigbee Tuya MOES ZT-SY-RD
+    url: https://blog.domadoo.fr/104197-confiurer-bouton-connecte-moes-zigbee-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/01/bouton-connecte-rotatif-moes-tuya-zigbee-1.jpeg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez le nouveau programme Ambassadeur Husqvarna
-    url: https://blog.nord-domotique.com/decouvrez-programme-ambassadeur-husqvarna/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/03/capture-decran-2024-03-12-a-21.52.15.jpg?fit=300%2C224&ssl=1
+    title: Test de la caméra CAMINI CARE de chez Konyks
+    url: https://blog.nord-domotique.com/test-camera-camini-care-konyks/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/02/camini-care-5095.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Z-Wave Long Range, la version dopée du Z-Wave arrive en Europe
-    url: https://www.abavala.com/z-wave-long-range-la-version-dopee-du-z-wave-arrive-en-europe/
-    image: https://www.abavala.com/wp-content/uploads/zwlr_entete-150x150.jpg
+    title: Mise à jour eedomus du 18 mars 2024  - compatibilité avec les détecteurs
+      de présence radar
+    url: https://www.abavala.com/mise-a-jour-eedomus-du-18-mars-2024-compatibilite-avec-les-detecteurs-de-presence-radar/
+    image: https://www.abavala.com/wp-content/uploads/eedomsu_tablette_main-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -46,20 +47,20 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Mise à jour Home Assistant 2024.3 - arrivée du glisser déposer sur les
-      tableaux de bord !
-    url: https://www.maison-et-domotique.com/146235-mise-a-jour-home-assistant-2024-3/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/ha20243-702x395.png
+    title: Le Debrief M&D - nouveautés Zwave, Home Assistant, eedomus, Ikea, formation
+      vidéo en domotique, maison Amazon à 20 000€, promos de printemps, etc.
+    url: https://www.maison-et-domotique.com/146357-debrief-md-semaine-12-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
-    title: The Connectivity Standards Alliance Releases Green Power 1.1.2 for Zigbee-based
-      Energy-harvesting Technology
-    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-releases-green-power-1-1-2-for-zigbee-based-energy-harvesting-technology/
+    title: The Connectivity Standards Alliance and the Cyber Security Agency of Singapore
+      Sign Mutual Recognition Arrangement on Cybersecurity Labels for Consumer IoT
+    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-and-the-cyber-security-agency-of-singapore-sign-mutual-recognition-arrangement-on-cybersecurity-labels-for-consumer-iot/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: i2c io expander input board – DI8
-    url: https://www.kincony.com/i2c-io-expander-input-board.html
+    title: ESP32 Tuya IoT Adapter V2
+    url: https://www.kincony.com/esp32-tuya-iot-adapter-v2.html
     image:

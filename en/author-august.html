@@ -1,0 +1,61 @@
+---
+title: "August"
+layout: default
+locale: en_GB
+locale_reference: august
+published: true
+comments: true
+sitemap:
+  changefreq: #always hourly daily weekly monthly yearly never
+  exclude: #'yes' or 'no'
+  priority: #between 0.0 to 1.0, 1.0 high priority
+  lastmod: # date to end modification
+---
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                  {%- if site.data.authors.August.url %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="August website" href="{{ site.data.authors.August.url }}"><i class="ico link-solid"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.August.twitter %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="August twitter"href="{{ site.data.authors.August.twitter }}"><i class="icob twitter"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.August.youtube %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="August youtube" href="{{ site.data.authors.August.youtube }}"><i class="icob youtube"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.August.discord %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="August discord" href="{{ site.data.authors.August.discord }}"><i class="icob discord"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.August.github %}
+                      <a target="_blank" class="d-inline-block mx-1 text-dark" aria-label="August github" href="{{ site.data.authors.August.github }}"><i class="icob github"></i></a>
+                  {%- endif %}
+
+                  {%- if site.data.authors.August.email %}
+                      <a class="d-inline-block mx-1 text-dark" aria-label="August mail" href="mailto:{{ site.data.authors.August.email }}"><i class="ico envelope-solid"></i></a>
+                  {%- endif %}
+                  <p class="excerpt">{{ site.data.authors.August.description[page.locale] }}</p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","August" | where: "locale", page.locale | size }}</span></p>
+
+            </div>
+            <div class="authorbox col-md-3 text-right">
+              {%- if site.data.authors.August.gravatar %}
+              <img class="author-thumb-xl" src="https://www.gravatar.com/avatar/{{ site.data.authors.August.gravatar }}?s=120&d=mm&r=x" alt="{{ site.data.authors.August.display_name }}">
+              {%- else %}
+              {% picture avatar150 {{ site.data.authors.August.avatar }} --alt {{ site.data.authors.August.display_name }} --img width="140" height="140" %}
+              {%- endif %}
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts written by {{page.title}}</span></h4>
+            {%- assign filtered_posts = site.posts | where:"author","August" | where: 'locale', page.locale %}
+            {%- for post in filtered_posts %}
+            {%- include main-loop-card.html %}
+            {%- endfor %}
+    </div>
+</div>
+</div>
