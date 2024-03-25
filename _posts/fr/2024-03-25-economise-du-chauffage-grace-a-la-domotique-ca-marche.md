@@ -5,7 +5,7 @@ description: "Dans le cadre d'un nouveau concept vidéo présenté par August su
 ref: ""
 layout: post
 author: Nico
-date: 2024-03-24 11:09
+date: 2024-03-25 11:09
 last_modified_at: 
 categories: [Haade-lab, Domotique, Zigbee]
 tags: []
@@ -25,11 +25,26 @@ rating:
 sourcelink:
   - https://community.home-assistant.io/t/trv-calibrator-calibrate-your-valve-with-an-external-sensor-probably-trv-agnostic/451424
 ---
+Voilà un article dédié à la domotisation d'une chaudière traditionnelle au gaz avec des radiateurs branchés sur circuits d'eau. La domotisation t'apporteras confort, économie financières et adaptabilité à toute épreuve. Cet article est rédigé pour compléter la vidéo tournée par August et Lulu sur le sujet. Deux compères qui découvrent la domotique et qui te font partager leurs ressentis.
+Pour terminer tu pourras te rendre compte que pour un coût minime tu arriveras à faire un retour sur investissement sur deux ans Maximum.
 
 ## Prérequis
-- une box domotique Home Assistant Green ou Sonoff Ihost
-- des modules thermostatiques TRV Sonoff
+- une **box domotique** Home Assistant Green ou Sonoff Ihost
+- des modules thermostatiques TRV Sonoff de pref
 - des thermostats ( marque Sonoff de préférence )
+- des compétences si t'en as c'est mieux
+
+Il faut savois qu'en domotique il y a plusieurs façons de faire comme on dit:
+
+> Tous les chemins mènent à Rome
+
+Je vais te détailler les produits utilisés, ainsi que la mise en place sur Home Assistant. À travers une installation des plus limpides, j'ai agrémenté ce mécanisme à l'aide d'automatisations, templates et Blueprint. Ne t'inquiètes pas ce n'est pas si compliqué surtout qu'au fil du temps Home Assistant à su s'adapter et rendre son interface utilisable même aux plus novices d'entres vous.
+
+## Le matériel
+
+Chez August comme il le dit si bien dans sa vidéo nous avons décidé de partir sur une box Home Assistant avec un dongle zigbee Skyconnect pour contrôler les modules zigbee. Mais tu pourrais aussi partir sur une box sonoff ihost si tu désires domotiser certains aspects de ton logement. En effet la box Home assistant green est compatible avec le gigantesque univers Home assistant et de plus tu participes au projet opensource en investissant dans leurs Box, et je trouve ça sympa.
+
+
 
 ## centraliser les thermostats
 
