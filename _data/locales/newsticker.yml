@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Domotique Alexa  - 20 appareils avec minimum 40% de remise
-    url: https://www.lesalexiens.fr/actualites/domotique-alexa-20-appareils-avec-minimum-40-de-remise/#utm_source=rss&utm_medium=rss&utm_campaign=domotique-alexa-20-appareils-avec-minimum-40-de-remise
+    title: Test de la bouilloire Swan Kettle  - un amour bouillant pour Alexa ?
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-de-la-bouilloire-swan-kettle-un-amour-bouillant-pour-alexa/#utm_source=rss&utm_medium=rss&utm_campaign=test-de-la-bouilloire-swan-kettle-un-amour-bouillant-pour-alexa
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - nouveautés Zwave, Home Assistant, eedomus, Ikea, formation
-      vidéo en domotique, maison Amazon à 20 000€, promos de printemps, etc.
-    url: https://www.maison-et-domotique.com/146357-debrief-md-semaine-12-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Tap Trap - le piège facile et pas cher pour les guêpes et les frelons (asiatiques
+      inclus !)
+    url: https://www.maison-et-domotique.com/143677-tap-trap-piege-guepes-frelons-asiatiques/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2023/09/trampa-avispas-637x500.jpg
 Matter:
   en_GB:
   - name: Matter

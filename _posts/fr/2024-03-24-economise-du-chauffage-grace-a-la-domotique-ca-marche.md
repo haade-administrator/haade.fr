@@ -1,5 +1,5 @@
 ---
-guid: 114
+guid: 116
 title: "Économise du chauffage grâce à la domotique ça marche !"
 description: "Dans le cadre d'un nouveau concept vidéo présenté par August sur youtube, je vais te détailler l'installation d'une chaudière au gaz domotisée avec Home Assistant et Sonoff"
 ref: ""
