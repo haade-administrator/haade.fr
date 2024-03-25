@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Mar 2024 02:24:29 +0000</pubDate>
-    <lastBuildDate>Wed, 20 Mar 2024 12:00:00 +0000</lastBuildDate>
+    <pubDate>Mon, 25 Mar 2024 09:54:36 +0000</pubDate>
+    <lastBuildDate>Sun, 24 Mar 2024 07:34:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,26 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Haade-lab Youtube channel by August</title>
+      <dc:creator><![CDATA[August]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Presentation of August and Lulu, new hosts of the Haade-Lab channel, presenting home automation tutorials and tests</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.png" alt="Haade-lab Youtube channel by August">
+</picture>
+
+      <p>I introduce myself August host of the Haade Channel on youtube, helped by Lulu we will feed the channel Haade-lab section by presenting tutorials and tests in home automation in a different and rather fun way. This channel is primarily dedicated to the general public. A novice in this field, [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab">Haade-lab Youtube channel by August</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 24 Mar 2024 07:34:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</guid>
+      <category><![CDATA[Automation]]></category>
+    </item>
     <item>
       <title>Test Lixee Zlinky plug&apos;n play teleinfo</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -216,27 +236,6 @@
       <link>https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</guid>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Aeotec finally releases its Zigbee controller</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>that&apos;s it Aeotec is getting into zigbee, the famous brand known for its quality modules is finally releasing a zigbee controller, the zi-stick</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/104/test-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-adapter-ZGA008-720-710ac0e35.png" alt="Aeotec finally releases its Zigbee controller">
-</picture>
-
-      <p>Ah Finally Aeotec releases its Zigbee 3.0 compatible dongle, this manufacturer of quality modules has decided to market a zigbee usb adapter zi-stick ZGA008 to the Silabs protocol with a Chipset almost similar to Skyconnect or Zbdongle-e. But it has the distinction of being the smallest efficient dongle on the [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick">Aeotec finally releases its Zigbee controller</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 12 Jan 2024 11:24:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-zigbee-adaptor-aeotec-zi-stick</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
