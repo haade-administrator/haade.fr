@@ -16,8 +16,9 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test de la bouilloire Swan Kettle  - un amour bouillant pour Alexa ?
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-de-la-bouilloire-swan-kettle-un-amour-bouillant-pour-alexa/#utm_source=rss&utm_medium=rss&utm_campaign=test-de-la-bouilloire-swan-kettle-un-amour-bouillant-pour-alexa
+    title: La TV d’Orange sera bientôt disponible sur Fire TV, Android TV et Apple
+      TV
+    url: https://www.lesalexiens.fr/actualites/la-tv-orange-bientot-disponible-fire-tv-android-apple/#utm_source=rss&utm_medium=rss&utm_campaign=la-tv-orange-bientot-disponible-fire-tv-android-apple
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,9 +29,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de la caméra CAMINI CARE de chez Konyks
-    url: https://blog.nord-domotique.com/test-camera-camini-care-konyks/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2024/02/camini-care-5095.jpg?fit=300%2C225&ssl=1
+    title: Roomba Combo i5+  - notre avis complet sur cet aspirateur laveur
+    url: https://blog.nord-domotique.com/test-roomba-combo-i5/
+    image: 
 Abavala:
   fr_FR:
   - name: Abavala
@@ -47,10 +48,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Tap Trap - le piège facile et pas cher pour les guêpes et les frelons (asiatiques
-      inclus !)
-    url: https://www.maison-et-domotique.com/143677-tap-trap-piege-guepes-frelons-asiatiques/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2023/09/trampa-avispas-637x500.jpg
+    title: Test AFERIY P210 2400W - le générateur électrique puissant, endurant, et
+      économique !
+    url: https://www.maison-et-domotique.com/145930-test-aferiy-p210-2400w/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/aferiyp2102400w2048whportablepowerstation-2-702x351.jpg
 Matter:
   en_GB:
   - name: Matter
