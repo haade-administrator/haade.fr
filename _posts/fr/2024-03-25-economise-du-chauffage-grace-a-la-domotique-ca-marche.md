@@ -139,7 +139,7 @@ termine en démarrant l'installation avant de quitter la page sélectionne l'opt
 Pour inclure un module lire la notice du module et avant de procéder à l'inclusion permettre l'appairage dans ZHA ou Z2M. 
 Pour ZHA clic sur le bouton ci-dessous
 
-{% include homeassistantlink.html add_zigbee_device %}
+{% include homeassistantlink.html add_zigbee_device="" %}
 
 Ensuite tu as deux minutes pour réaliser la manip sur les modules zigbee, je te conseil toujours de commencer par inclure les modules branchés sur le secteur comme le Nodon, et ensuite connecter les modules sur piles.
 
