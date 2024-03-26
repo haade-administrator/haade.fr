@@ -36,15 +36,13 @@ Pour terminer tu pourras te rendre compte que pour un coût minime tu arriveras 
 - un module multifonction [Nodon SIN-4-1-20](https://www.domadoo.fr/fr/peripheriques/5688-nodon-module-multifonction-zigbee-nodon-sin-4-1-20-onoff-contact-sec-3700313925188.html?domid=39){: target="_blank"} contact sec (afin de contrôler l'allumage et l'extinction de la chaudière)
 - des compétences si t'en as c'est mieux
 
-Il faut savoir qu'en domotique il y a plusieurs façons de faire comme on dit:
+Il faut savoir qu'en domotique il y a plusieurs façons de faire comme on dit: tous les chemins mènent à Rome.
 
-> Tous les chemins mènent à Rome
-
-Je vais te détailler les produits utilisés, ainsi que la mise en place sur Home Assistant. À travers une installation des plus limpides, j'ai agrémenté ce mécanisme à l'aide d'automatisations, templates et Blueprint. Ne t'inquiètes pas ce n'est pas si compliqué surtout qu'au fil du temps Home Assistant à su s'adapter et rendre son interface utilisable même aux plus novices d'entres vous.
+Je **vais te détailler les produits utilisés**, ainsi que la mise en place sur Home Assistant. À travers une installation des plus limpides, j'ai agrémenté ce mécanisme à l'aide d'automatisations, templates et Blueprint. Ne t'inquiètes pas ce n'est pas si compliqué surtout qu'au fil du temps Home Assistant à su s'adapter et rendre son interface utilisable même aux plus novices d'entres vous.
 
 ## Le matériel
 
-Chez August comme il le dit si bien dans sa vidéo, nous avons décidé de partir sur une [box Home Assistant Green](https://www.domadoo.fr/fr/box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html?domid=39){: target="_blank"} avec un [dongle zigbee Skyconnect](https://www.domadoo.fr/fr/box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html?domid=39){: target="_blank"} pour contrôler les modules zigbee. Mais tu pourrais aussi partir sur une [box sonoff ihost avec clé zigbee intégré](https://www.domadoo.fr/fr/box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.html?domid=39){: target="_blank"} si tu désires domotiser certains aspects de ton logement, attention tout de même aux automatisations qui seront plus délicates à paramétrer. **En effet la box Home assistant green** est compatible avec le gigantesque **univers Home assistant** et de plus tu participes au projet opensource en investissant dans leurs Box et clés, et je trouve ça sympa.
+Chez August, nous avons décidé de partir sur une [box Home Assistant Green](https://www.domadoo.fr/fr/box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html?domid=39){: target="_blank"} avec un [dongle zigbee Skyconnect](https://www.domadoo.fr/fr/box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html?domid=39){: target="_blank"} pour contrôler les modules zigbee. Mais tu pourrais aussi partir sur une [box sonoff ihost avec clé zigbee intégré](https://www.domadoo.fr/fr/box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.html?domid=39){: target="_blank"} si tu désires domotiser certains aspects de ton logement, attention tout de même aux automatisations qui seront plus délicates à paramétrer. **En effet la box Home assistant green** est compatible avec le gigantesque **univers Home assistant** et de plus tu participes au projet opensource en investissant dans leurs Box et clés, et je trouve ça sympa.
 
 {%- include alert.html type="info" text="Pour info il existe aussi la box <b>Home Assistant Yellow</b> qui inclus la clé Zigbee mais le tarif est plus cher, pour le taf ça reste le même." link="https://www.home-assistant.io/yellow/" textlink="Home Assistant Yellow" %}
 
@@ -66,7 +64,7 @@ Tu verras plus bas qu'à l'aide d'un **simple Blueprint** tu pourras demander à
 
 {%- include alert.html type="info" text="Pour Info Chez Itead fournisseur officiel Sonoff bénéficie de <b>10%</b> de remises supplémentaires avec le code <b>HAADESONOFF</b>" link="https://itead.cc/product/sonoff-zigbee-temperature-and-humidity-sensor-snzb-02p/ref/122/" textlink="Module Température Sonoff SNZB-02P" %}
 
-## Le coût de reviens chez August
+### Le coût de reviens chez August
 
 1. la box Home-Assistant Green à 99,99€
 2. la clé skyconnect à 39,99€
@@ -82,12 +80,74 @@ Commence par insérer la clé Skyconnect sur la box Home Assistant Green branche
 
 **Pour plus d'infos** sur ces manipulations j'ai [rédigé un article sur la Home Assistant Green et la clé Skyconnect]({% post_url /fr/2024-02-12-test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite %}){: target="_blank"}
 
-Ensuite tu as le choix pour la configuration de la clé zigbee soit tu passes par le module ZHA intégré à Home Assistant soit par le module complémentaire Zigbee2mqtt, ça dépend de ta vision des choses en tous cas pour la rédaction de cet article avec les modules mentionnés ZHA et Zigbee2mqtt fonctionnent. Perso j'ai une préférence pour Zigbee2mqtt qui intègre énormément de modules.
+Ensuite **tu as le choix** pour la configuration de la clé zigbee soit tu passes par le module ZHA intégré à Home Assistant soit par le module complémentaire Zigbee2mqtt, ça dépend de ta vision des choses en tous cas pour la rédaction de cet article avec les modules mentionnés ZHA et Zigbee2mqtt fonctionnent. Perso j'ai une préférence pour Zigbee2mqtt qui intègre énormément de modules.
 
-Pour l'installer rien de plus simple clic sur le bouton ci-dessous
+### Paramétrage ZHA
 
-Et pour paramétrer ta clé va sur les [infos d'installations officielles](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation).
+rien de plus simple Va dans Paramètres > Appareils et services > Ajouter une intégration et tape ZHA clic sur Zigbee Automation, et normalement ZHA devrait trouver ta clé et même être sélectionnée par défaut:
+[x] /dev/ttyUSB0 - SkyConnect v1.0, s/n: ae253a5057e2ed119602f45162c613ac - Nabu Casa
 
+### Paramétrage Zigbee2mqtt
+
+Là c'est un peu plus compliqué, Z2M a besoin d'un broker MQTT pour communiquer avec Home assistant donc il faut dans premier temps installer le module officiel Mosquitto.
+
+Paramètres > Modules complémentaires > Boutique des modules complémentaires > Mosquitto Broker > Installer
+
+Une fois installé va dans Mosquitto Broker > configuration
+
+Dans la partie Logins colle ce bout de code
+
+{% highlight yaml %}
+- username: un-nom-utilisateur
+  password: un-mot-de-passe
+{% endhighlight %}
+
+Dernière étape copie l'username et le pass tu en auras besoin dans z2M, va dans info puis démarrer, laisse le temps à Mosquitto broker de démarrer.
+
+Installons zigbee2mqtt
+
+Première étape installe le dépôt supplémentaire pour les modules complémentaires, clic sur le lien ci-dessous:
+
+{% include homeassistantlink.html supervisor_addon_repository="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt" %}
+
+Ajoute le et ferme le popup. Actualise la page Boutique des modules complémentaires avec un petit F5 du clavier. Descend jusqu'à trouver les répertoires Zigbee2mqtt et installe simplement Zigbee2mqtt
+
+Ensuite dans le module Zigbee2mqtt va dans l'onglet configuration ajoute
+
+**onglet mqtt:**
+{% highlight shell %}
+server: mqtt://core-mosquitto:1883
+user: nom utilisateur mosquitto
+password: pass mosquitto
+{% endhighlight %}
+
+**onglet serial:** 
+retrouve le port série exacte de ta clé dans Paramètres > Systèmes > matériel > tout le matériel
+
+{% highlight shell %}
+port: >-
+  /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_ae253a5057e2ed119602f45162c613ac-if00-port0
+adapter: ezsp
+{% endhighlight %}
+
+termine en démarrant l'installation avant de quitter la page sélectionne l'option "afficher dans la barre latérale"
+
+[infos d'installations officielles](https://github.com/zigbee2mqtt/hassio-zigbee2mqtt#installation).
+
+## Inclusion des modules Zigbee
+
+Pour inclure un module lire la notice du module et avant de procéder à l'inclusion permettre l'appairage dans ZHA ou Z2M. 
+Pour ZHA clic sur le bouton ci-dessous
+
+{% include homeassistantlink.html add_zigbee_device %}
+
+Ensuite tu as deux minutes pour réaliser la manip sur les modules zigbee, je te conseil toujours de commencer par inclure les modules branchés sur le secteur comme le Nodon, et ensuite connecter les modules sur piles.
+
+TRVSonoff:
+
+SNZB-02P: appuyer 5 secondes sur le bouton
+
+Nodon SIN-4-1-20:
 
 ## centraliser les thermostats
 
