@@ -149,6 +149,17 @@ SNZB-02P: appuyer 5 secondes sur le bouton
 
 Nodon SIN-4-1-20:
 
+## Adaptation confort
+
+À ce stade tu as les modules dans ton réseau Zigbee d'opérationnels, mais rien n'est encore optimisé, il va falloir créér dès maintenant des virtuels et automatisations.
+
+Commençons par les mode de chauffage.
+
+Pour le bien du logement August à voulu créé des modes en listes déroulantes donc nous allons créer un virtuel liste déroulante avec les options Eco, confort et confort+
+PS: j'aurai pu créé un mode boost mais j'ai décidé de l'intégrer différemment dans une des automatisations.
+
+Maintenant créons ces automatisations
+
 ## centraliser les thermostats
 
 {% include homeassistantlink.html blueprint_import="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
