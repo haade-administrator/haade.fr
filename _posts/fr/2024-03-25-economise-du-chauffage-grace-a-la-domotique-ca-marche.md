@@ -189,6 +189,19 @@ En plus de créer ce groupe on va laisser l'option *Toutes les entités* sur <in
 
 ![création d'un groupe template en binaire pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406"}
 
+### Créer des moyennes de températures
+Cette fonction est pas mal si tu veux contrôler tes températures dans les automatisations sans surcharger les fonctions
+
+{% highlight yaml %}
+{% raw %}
+{% set salon = state_attr('climate.th_salon', 'current_temperature') | float %}
+{% set bureau = state_attr('climate.th_bureau', 'current_temperature') | float %}
+{{ ((salon + bureau) / 2) | round(2, default=0) }}
+{% endraw %}
+{% endhighlight %}
+
+![création d'une moyenne de température avec les templates]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-moyenne-temperature-template.webp{{ cachebuster }}){: width="940" height="397"}
+
 ## Automatisations
 
 > Dans ce chapitre je vais créer 3 automatisations
@@ -199,7 +212,70 @@ Lorsque le mode passe à Eco tous les thermostats se calibrent à 17°C
 
 ![création d'une automatisation mode éco]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395"}
 
-## centraliser les thermostats
+### Mode Confort avec fonction Boost
+
+En plus de la fonction Eco, le mode confort intègre une condition Boost de 7 minutes au lancement du chauffage afin de permettre une montée rapie de la température et de stabiliser le tout à 20°C. J'ai mis une condition au mode boost, il ne s'enclanche que si lam oyenne des pièces à vivres est inférieur à 19° si ce n'est pas le cas il passera directement sur la température cible à 20°C
+
+{% highlight yaml %}
+alias: Mode Confort
+description: passage au mode confort avec fonction boost en fonction de la moyenne
+trigger:
+  - platform: state
+    entity_id:
+      - input_select.mode_chauffage
+    to: Confort
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 0
+    from: null
+condition: []
+action:
+  - if:
+      - condition: numeric_state
+        entity_id: sensor.moyenne_piece_a_vivre
+        below: 19
+    then:
+      - service: climate.set_temperature
+        target:
+          area_id:
+            - salon
+            - cuisine
+            - chambre
+        data:
+          temperature: 30
+      - delay:
+          hours: 0
+          minutes: 7
+          seconds: 0
+          milliseconds: 0
+      - service: climate.set_temperature
+        target:
+          area_id:
+            - salon
+            - cuisine
+            - chambre
+            - salle_de_bain
+        data:
+          temperature: 20
+    else:
+      - service: climate.set_temperature
+        target:
+          area_id:
+            - salon
+            - cuisine
+            - chambre
+            - salle_de_bain
+        data:
+          temperature: 20
+mode: single
+{% endhighlight %}
+
+### Activation Chaudière
+
+### Désactivation Chaudière
+
+## Centraliser les thermostats
 
 {% include homeassistantlink.html blueprint_import="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
 
