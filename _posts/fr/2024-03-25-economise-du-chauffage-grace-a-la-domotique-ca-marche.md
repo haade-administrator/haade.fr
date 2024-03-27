@@ -84,8 +84,7 @@ Ensuite **tu as le choix** pour la configuration de la clé zigbee soit tu passe
 
 ### Paramétrage ZHA
 
-rien de plus simple Va dans Paramètres > Appareils et services > Ajouter une intégration et tape ZHA clic sur Zigbee Automation, et normalement ZHA devrait trouver ta clé et même être sélectionnée par défaut:
-[x] /dev/ttyUSB0 - SkyConnect v1.0, s/n: ae253a5057e2ed119602f45162c613ac - Nabu Casa
+rien de plus simple Va dans Paramètres > Appareils et services > Ajouter une intégration et tape ZHA clic sur Zigbee Automation, et normalement ZHA devrait trouver ta clé et même être sélectionnée par défaut: */dev/ttyUSB0 - SkyConnect v1.0, s/n: ae253a5057e2ed119602f45162c613ac - Nabu Casa*
 
 ### Paramétrage Zigbee2mqtt
 
@@ -143,22 +142,62 @@ Pour ZHA clic sur le bouton ci-dessous
 
 Ensuite tu as deux minutes pour réaliser la manip sur les modules zigbee, je te conseil toujours de commencer par inclure les modules branchés sur le secteur comme le Nodon, et ensuite connecter les modules sur piles.
 
-TRVSonoff:
+**TRV Sonoff:** Pour appairer l'appareil, tu dois d'abord l'alimenter, le fixer à la valve et afficher la température. Si l'appareil affiche ```FS``` ou ```RD```, appuis sur le bouton situé sur le côté de l'appareil et il devrait maintenant afficher ```,,7```. Une fois que cela cesse de clignoter, maintiens le bouton pendant environ **5 secondes**, auquel cas l'appareil devrait maintenant afficher la température. Continue à tourner le cadran dans le sens inverse des aiguilles d'une montre jusqu'à ce que l'écran affiche ```OF``` et enfin maintiens le bouton du haut enfoncé ***pendant 3 secondes***. T devrais maintenant voir une icône de signal clignotante et il va essayer de s'associer.
 
-SNZB-02P: appuyer 5 secondes sur le bouton
+***SNZB-02P:*** Appuis 5 secondes sur le bouton
 
-Nodon SIN-4-1-20:
+**Nodon SIN-4-1-20:** Appuis sur le bouton press à l'aide d'une aiguille 5 secondes
 
-## Adaptation confort
+## Virtualisation et préparation
 
-À ce stade tu as les modules dans ton réseau Zigbee d'opérationnels, mais rien n'est encore optimisé, il va falloir créér dès maintenant des virtuels et automatisations.
+À ce stade tu as les modules **dans ton réseau Zigbee d'opérationnels**, mais rien n'est encore optimisé, il va falloir créér dès maintenant des virtuels et automatisations.
 
-Commençons par les mode de chauffage.
+### Commençons par les mode de chauffage.
 
-Pour le bien du logement August à voulu créé des modes en listes déroulantes donc nous allons créer un virtuel liste déroulante avec les options Eco, confort et confort+
-PS: j'aurai pu créé un mode boost mais j'ai décidé de l'intégrer différemment dans une des automatisations.
+Pour le bien du logement August à voulu créé des modes en listes déroulantes donc nous allons créer un **virtuel liste déroulante** avec les options **Eco, confort et confort+**
 
-Maintenant créons ces automatisations
+![création d'une entrée liste déroulante dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-virtuel-liste-deroulante-home-assistant.webp{{ cachebuster }}){: width="940" height="395"}
+
+**PS:** j'aurai pu créé un mode boost mais j'ai décidé de l'intégrer différemment dans une des automatisations.
+
+### Continuons créations des virtuels 
+
+pour chaque thermostats ainsi je pourrais créer un groupe de virtuel sous forme de template de l'ensemble des thermostats ce sera plus simple pour la gestion futures des automatisations. **À première vue ça paraît fastidieux mais ça simplifiera la suite**.
+
+Donc créons un template en capteur binaire "ON/OFF" pour le thermostat salon en surveillant l'attribut running_state qui nous indique quand le thermostat est en mode chauffe ```Heat``` ou en mode éteint ```Ìdle```. J'en profite pour transformer *Heat* en fonction *ON ou Activé* et *Idle* en *OFF ou désactivé*. Regarde le gif animé et copie ce bout de code en adaptant ```climate.th_salon```
+
+{% highlight yaml %}
+{% raw %}
+{%- set result = state_attr('climate.th_salon', 'running_state') %}
+{%- if result == 'heat' %}
+{%- set result = 'on' %}
+{{ result }}
+{%- else %}
+{%- set result = 'off' %}
+{{ result }}
+{%- endif %}
+{% endraw %}
+{% endhighlight %}
+
+![création d'un template en binaire on off pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-template-virtuel-binary-sensor-trv-sonoff-home-assistant.webp{{ cachebuster }}){: width="940" height="395"}
+
+> Crée un template pour chaque Robinet Thermostatique Sonoff TRV.
+
+**Passons au groupe des entrées binaire** créé précédemment. Toujours pareil dans un soucis de création des automatisations nous centralisons toutes ces commandes dans un groupe de gestion de robinet thermostatiques trv Sonoff.
+
+En plus de créer ce groupe on va laisser l'option *Toutes les entités* sur <ins>désactivé</ins> ainsi ce groupe passera à activé si un des thermostats se met à chauffer comme ça on pourra envoyer la bonne commande au contacteur qui commandera la chaudière dans notre cas le **Nodon SIN-4-1-20**
+
+![création d'un groupe template en binaire pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406"}
+
+## Automatisations
+
+> Dans ce chapitre je vais créer 3 automatisations
+
+### Mode Eco
+
+Lorsque le mode passe à Eco tous les thermostats se calibrent à 17°C
+
+![création d'une automatisation mode éco]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395"}
 
 ## centraliser les thermostats
 
@@ -178,18 +217,7 @@ Maintenant créons ces automatisations
 
 ## Uniformiser le fonctionnement
 
-{% highlight yaml %}
-{% raw %}
-{%- set result = state_attr('climate.th_salon', 'running_state') %}
-{%- if result == 'heat' %}
-{%- set result = 'on' %}
-{{ result }}
-{%- else %}
-{%- set result = 'off' %}
-{{ result }}
-{%- endif %}
-{% endraw %}
-{% endhighlight %}
+
 
 ## Automatisation
 

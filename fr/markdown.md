@@ -107,7 +107,7 @@ sudo apt-get install webp
 
 Basic command line usage:
 
-gif2webp input.gif -o output.webp
+gif2webp -lossy input.gif -o output.webp
 {% endhighlight %}
 
 ## convertir une video en gif

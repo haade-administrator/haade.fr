@@ -23,9 +23,9 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Comment utiliser le bouton connecté rotatif Zigbee Tuya MOES ZT-SY-RD
-    url: https://blog.domadoo.fr/104197-confiurer-bouton-connecte-moes-zigbee-tuya/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/01/bouton-connecte-rotatif-moes-tuya-zigbee-1.jpeg
+    title: Découverte du capteur de température et d’humidité Zigbee SonOff SNZB-02P
+    url: https://blog.domadoo.fr/101418-snzb-02p-sonoff-capteur-temperature-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2023/06/DECOUVERTE-DU-SONOFF-SNZB-02P-UN-CAPTEUR-DE-TEMPERATURE-ET-DHUMIDITE-SENSOR.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -35,10 +35,9 @@ Blog-Nord-Domotique:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Mise à jour eedomus du 18 mars 2024  - compatibilité avec les détecteurs
-      de présence radar
-    url: https://www.abavala.com/mise-a-jour-eedomus-du-18-mars-2024-compatibilite-avec-les-detecteurs-de-presence-radar/
-    image: https://www.abavala.com/wp-content/uploads/eedomsu_tablette_main-150x150.jpg
+    title: Qiara, partenaire de Free pour la sécurité connectée de la maison
+    url: https://www.abavala.com/qiara-partenaire-de-free-pour-la-securite-connectee-de-la-maison/
+    image: https://www.abavala.com/wp-content/uploads/qiara-solution-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -48,9 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Ventes flash domotique - Jeedom, Aqara, SonOff, etc.
-    url: https://www.maison-et-domotique.com/146399-ventes-flash-domotique-jeedom-aqara-sonoff/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/promo-2603-702x396.png
+    title: Free dévoile son nouveau système d’alarme Connecté en partenariat avec
+      Qiara
+    url: https://www.maison-et-domotique.com/146403-free-devoile-systeme-alarme-connecte-qiara/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/screenshot-20240326-092042-brave-702x398.jpg
 Matter:
   en_GB:
   - name: Matter
