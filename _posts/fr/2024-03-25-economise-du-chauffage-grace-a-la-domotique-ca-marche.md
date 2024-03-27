@@ -185,12 +185,12 @@ Donc créons un template en capteur binaire "ON/OFF" pour le thermostat salon en
 
 **Passons au groupe des entrées binaire** créé précédemment. Toujours pareil dans un soucis de création des automatisations nous centralisons toutes ces commandes dans un groupe de gestion de robinet thermostatiques trv Sonoff.
 
-En plus de créer ce groupe on va laisser l'option *Toutes les entités* sur <ins>désactivé</ins> ainsi ce groupe passera à activé si un des thermostats se met à chauffer comme ça on pourra envoyer la bonne commande au contacteur qui commandera la chaudière dans notre cas le **Nodon SIN-4-1-20**
+En plus de créer ce groupe on va laisser l'option **Toutes les entités** sur <ins>désactivé</ins> ainsi ce groupe passera à activé si un des thermostats se met à chauffer comme ça on pourra envoyer la bonne commande au contacteur qui commandera la chaudière dans notre cas le **Nodon SIN-4-1-20**
 
 ![création d'un groupe template en binaire pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406"}
 
 ### Créer des moyennes de températures
-Cette fonction est pas mal si tu veux contrôler tes températures dans les automatisations sans surcharger les fonctions
+Cette fonction est pas mal si tu veux contrôler plus facilement températures dans les automatisations sans surcharger les fonctions. Dans le script ci-dessous j'enregistre les attributs sondes de températures des modules et j'affiche la moyenne avec un arrondi de deux chiffres après la virgule.
 
 {% highlight yaml %}
 {% raw %}
@@ -275,7 +275,11 @@ mode: single
 
 ### Désactivation Chaudière
 
-## Centraliser les thermostats
+## Fonctions intéressantes
+
+Dans notre cas il s'agit de robinets thermostatiques, situés directement à côté du corps de chauffes, tu penses bien que la mesure de température du robinet est faussée du fait de sa proximité. Pour éviter ces désagréments nous avons mis un thermostat Sonoff SNZB-02P dans chaque pièce et grâce au blueprint ci-dessous on demande à home Assistant de calibrer la température du thermostat en fonction du thermostat central de la pièce ainsi nous avons une température conforme un réel plus. Pour installer le Blueprint rien dde plus simple, clic sur le bouton ci-dessous.
+
+**PS:** Un **blueprint** est un script qui va te généré une automatisation personnalisée et tu n'auras plus qu'à paramétrer ! Idéal !
 
 {% include homeassistantlink.html blueprint_import="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
 
