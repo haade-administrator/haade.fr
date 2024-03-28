@@ -16,9 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: La TV d’Orange sera bientôt disponible sur Fire TV, Android TV et Apple
-      TV
-    url: https://www.lesalexiens.fr/actualites/la-tv-orange-bientot-disponible-fire-tv-android-apple/#utm_source=rss&utm_medium=rss&utm_campaign=la-tv-orange-bientot-disponible-fire-tv-android-apple
+    title: Xiaomi dévoiles ses lunettes connectées Mijia Smart Audio Glasses
+    url: https://www.lesalexiens.fr/actualites/xiaomi-devoiles-ses-lunettes-connectees-mijia-smart-audio-glasses/#utm_source=rss&utm_medium=rss&utm_campaign=xiaomi-devoiles-ses-lunettes-connectees-mijia-smart-audio-glasses
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,10 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Free dévoile son nouveau système d’alarme Connecté en partenariat avec
-      Qiara
-    url: https://www.maison-et-domotique.com/146403-free-devoile-systeme-alarme-connecte-qiara/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/screenshot-20240326-092042-brave-702x398.jpg
+    title: Connectez vos panneaux solaires à votre smartphone pour optimiser votre
+      consommation énergétique !
+    url: https://www.maison-et-domotique.com/146432-connecte-panneaux-solaires-au-smartphone/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/titre-suivi-solaire-smartphone-702x367.png
 Matter:
   en_GB:
   - name: Matter
