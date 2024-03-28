@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 28 Mar 2024 02:27:22 +0000</pubDate>
-    <lastBuildDate>Sun, 24 Mar 2024 07:34:00 +0000</lastBuildDate>
+    <pubDate>Thu, 28 Mar 2024 16:38:55 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Mar 2024 11:09:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Save on heating thanks to home automation, it works!</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>As part of a new video concept presented by August on YouTube, I will detail the installation of a home gas boiler.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/116/save-energy-by-automating-your-heating-installation-720-29bd4333f.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/116/save-energy-by-automating-your-heating-installation-720-29bd4333f.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/116/save-energy-by-automating-your-heating-installation-720-29bd4333f.png" alt="Save on heating thanks to home automation, it works!">
+</picture>
+
+      <p>This is an article dedicated to the home automation of a traditional gas boiler with radiators connected to water circuits. Home automation will bring you comfort, financial savings and foolproof adaptability. This article is written to complement the video shot by August and Lulu on the subject. Two friends who [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works">Save on heating thanks to home automation, it works!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 28 Mar 2024 11:09:00 +0000</pubDate>
+      <link>https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Haade-lab Youtube channel by August</title>
       <dc:creator><![CDATA[August]]></dc:creator>
@@ -215,27 +237,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Automation]]></category>
-    </item>
-    <item>
-      <title>Sonoff TX Ultimate review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the Sonoff Tx ultimate sound and light wifi smart switch, ultra customizable thanks to the interchangeable shells.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/105/test-interrupteur-intelligent-sonoff-wifi-tx-ultimate-light-ambiance-720-3ac9f8a94.png" alt="Sonoff TX Ultimate review">
-</picture>
-
-      <p>After the Sonoff switches in the TX range ( T0, T1, T2 and T3), the Chinese manufacturer released the TX Ultimate series in 2023, nothing to do with the rest of the range. A very, very well finished product with a range of exceptional options and customizations.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable">Sonoff TX Ultimate review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 22 Jan 2024 15:30:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-intelligent-switch-wifi-sonoff-tx-ultimate-t5-ultra-customisable</guid>
-      <category><![CDATA[Tests]]></category>
     </item>
   </channel>
 </rss>
