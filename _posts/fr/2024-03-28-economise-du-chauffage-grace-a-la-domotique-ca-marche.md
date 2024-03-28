@@ -29,7 +29,7 @@ sourcelink:
 Voilà un article dédié à la domotisation d'une chaudière traditionnelle au gaz avec des radiateurs branchés sur circuits d'eau. La domotisation t'apporteras confort, économies financières et adaptabilité à toute épreuve. **Cet article est rédigé pour compléter la vidéo tournée par [August](/fr/auteur-august/){: target="_blank"} et Lulu sur le sujet**. Deux compères qui découvrent la domotique et qui te font partager leurs ressentis.
 **Pour terminer** tu pourras te rendre compte que pour un coût minime tu arriveras à faire un retour sur investissement sur deux ans Maximum.
 
-{% include videoPlayer.html youtubeId="Cl7h8QwLl5A?si=jIczzt7mqtBs2pAA" %}
+{% include videoPlayer.html youtubeId="Cl7h8QwLl5A" %}
 
 ## Prérequis
 - une **box domotique** [Home Assistant Green](https://www.domadoo.fr/fr/box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html?domid=39){: target="_blank"} ou [Sonoff Ihost](https://www.domadoo.fr/fr/box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.html?domid=39){: target="_blank"}
