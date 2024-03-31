@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Mar 2024 02:27:17 +0000</pubDate>
+    <pubDate>Sun, 31 Mar 2024 09:29:19 +0000</pubDate>
     <lastBuildDate>Thu, 28 Mar 2024 11:09:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -27,7 +27,6 @@
     <generator>Jekyll v4.3.3</generator>
     <item>
       <title>Save on heating thanks to home automation, it works!</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>As part of a new video concept presented by August on YouTube, I will detail the installation of a home gas boiler.</p><picture>
@@ -49,7 +48,6 @@
     </item>
     <item>
       <title>Haade-lab Youtube channel by August</title>
-      <dc:creator><![CDATA[August]]></dc:creator>
       <description>
       <![CDATA[
       <p>Presentation of August and Lulu, new hosts of the Haade-Lab channel, presenting home automation tutorials and tests</p><picture>
@@ -69,7 +67,6 @@
     </item>
     <item>
       <title>Test Lixee Zlinky plug&apos;n play teleinfo</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Test of the Zlinky module for the feedback of special linky teleinformation manufactured by Lixee and plug&apos;n play, compatible with all opensource boxes</p><picture>
@@ -91,7 +88,6 @@
     </item>
     <item>
       <title>Z-wave 800LR Silabs relaunches z-wave</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market</p><picture>
@@ -111,7 +107,6 @@
     </item>
     <item>
       <title>Sonoff zigbee SNZB-03P and SNZB-06P sensor tests</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>test of sonoff SNZB-03P and SNZB-06P zigbee movement and human presence sensors what differences, are they well recognized in our assistants.</p><picture>
@@ -132,7 +127,6 @@
     </item>
     <item>
       <title>Z-wave dead and buried</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Since the arrival of the Zigbee protocol on the market, the Z-wave protocol seems to be at a standstill, let&apos;s take stock of this situation.</p><picture>
@@ -153,7 +147,6 @@
     </item>
     <item>
       <title>Tests Aqara h1 switch and bindings</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>test the aqara h1 switch europe version with h1 remote control and initiation to the zigbee bindings connection</p><picture>
@@ -174,7 +167,6 @@
     </item>
     <item>
       <title>Box Home Assistant Green and Skyconnect test</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Test of the Home assistant Green box at $99 and the Skyconnect zigbee dongle at $29.99, stability, performance there</p><picture>
@@ -196,7 +188,6 @@
     </item>
     <item>
       <title>Google Coral AI and Frigate</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>On my private NAS I use as a frigate NVR, and it is strongly recommended to use Google Coral AI, how does this component act on the power of the NVR</p><picture>
@@ -218,7 +209,6 @@
     </item>
     <item>
       <title>Comparison of Zigbee thermostatic heads</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Showing of 3 Zigbee thermostatic heads Xiaomi Aqara SRTS-A01, Sonoff TRVZB and Moes ZTRV-BY-100, a comparison to find out which is the best faucet in the contest</p><picture>
