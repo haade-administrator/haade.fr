@@ -1,13 +1,3 @@
-{%- if page.authors %}
-{%- for author_name in page.authors %}
-{%- assign author = site.data.authors[author_name] %}
-{%- if page.locale == "en_GB" %}    
-<a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b>,</a>
-{%- elsif page.locale == "fr_FR" %}    
-<a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><b>{{ author.display_name }}</b>,</a>
-{%- endif %}
-{%- endfor %}
-{%- endif %}
 &nbsp;<i class="icos calendar-check" width="1em" height="1em"></i>
 {%- if page.last_modified_at != nil %}
 <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{%- include date.html date=page.last_modified_at %} &nbsp; </time>

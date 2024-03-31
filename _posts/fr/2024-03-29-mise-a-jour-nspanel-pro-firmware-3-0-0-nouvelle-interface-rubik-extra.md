@@ -4,7 +4,7 @@ title: "Mise à jour Nspanel Pro 3.0 Rubik Design"
 description: "Présentation de Rubik la nouvelle interface du Nspanel Pro pour une nouvelle expérience prend des aires de quadrillage et permet d'ajouter du piment dans cette architecture"
 ref: "NSPanel Pro"
 layout: post
-authors: Nico
+authors: [Nico]
 date: 2024-03-30 16:19
 last_modified_at: 
 categories: [News, Zigbee]

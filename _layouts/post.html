@@ -21,15 +21,15 @@ post_class: post-template
             {%- assign author = site.data.authors[author_name] %}
             {%- if page.locale == "fr_FR" %}
               {%- if author.avatar %}
-              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }} --img width="60" height="60" %}
+              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }} --img width="60" height="60" %}Écris par <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a>
               {%- else %}
-              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>Écris par <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a>
               {%- endif %}
             {%- elsif page.locale == "en_GB" %}
               {%- if author.avatar %}
-              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }} --img width="60" height="60" %}
+              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }} --img width="60" height="60" %}Writing by <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a>
               {%- else %}
-              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>Writing by <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><b>{{ author.display_name }}</b></a>
               {%- endif %}
               {%- endif %}
               {%- endfor %}

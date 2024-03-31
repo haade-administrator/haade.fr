@@ -492,15 +492,24 @@ img:hover {
 
 //reading post
 .readingpost {
-  font-size: 0.875em;
+  font-size: 0.813em;
   color: #444;
-  margin-left: 15px;
   font-weight: 450;
+  top: 25px;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 20px 0px 20px;
+  position: relative;
+  background-color: #f4f4f4;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   i {
     font-size: 0.875em;
   }
   .reading-time {
     display: inline-block;
+  }
+  p {
+    margin: initial;
   }
 }
 
@@ -763,16 +772,24 @@ img:hover {
 
 .entry-header {
   .authorpost {
+    font-size: 0.75em;
 
     .author-thumb {
       border-radius: 50%;
       border: 2px solid darken($primary, 20%);
-      padding: 2px;
     }
+    img.author-thumb {
+      width: 40px;
+      height: auto;
+    }
+    
   }
   .d-flex {
     width: 100%;
     max-height: 88px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 }
 
