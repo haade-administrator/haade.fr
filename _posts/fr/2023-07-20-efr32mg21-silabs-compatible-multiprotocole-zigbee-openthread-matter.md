@@ -4,7 +4,7 @@ title: "EFR32MG21 compatible Zigbee et Matter"
 description: "Flasher le Sonoff zbdongle-e ou nabu casa skyconnect pour activer Matter openthread et zigbee en mode multi-protocole (multi pan) en même temps basé sur la puce Silabs EFR32MG21 est désormais possible. En parcourant cet article tu découvriras la manip ultra simple à réaliser en cliquant simplement sur un bouton pour activer le multi-protocole et l'utiliser dans home assistant."
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-20 09:16
 last_modified_at: 2024-01-12 10:20
 categories: [Haade-lab, Domotique, Zigbee]

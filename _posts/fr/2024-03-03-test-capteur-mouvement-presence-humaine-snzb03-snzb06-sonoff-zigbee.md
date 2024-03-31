@@ -4,7 +4,7 @@ title: Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P
 description: test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.
 ref: SNZB-03P et SNZB-06P
 layout: post
-author: Nico
+authors: Nico
 date: 2024-03-03 18:43
 last_modified_at: null
 categories:

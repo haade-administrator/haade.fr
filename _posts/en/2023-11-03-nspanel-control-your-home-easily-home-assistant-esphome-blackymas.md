@@ -4,7 +4,7 @@ title: "NSPanel controls your home easily"
 description: "Thanks to Home Assistant, Esphome, and the Blackymas repository, you can easily configure and control the Sonoff NSPanel at a lower cost. Makes every room intuitive and eliminates remote controls."
 ref: "NSPanel"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-03 12:06
 last_modified_at: 
 categories: [Haade-lab, Tests]

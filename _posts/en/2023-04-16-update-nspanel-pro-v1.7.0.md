@@ -3,7 +3,7 @@ guid: 61
 title: "Nspanel Pro V1.7.0 Update"
 description: "The days pass and the updates of the Nspanel pro follow one another"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-16 11:53
 last_modified_at: 
 categories: [Automation, News]

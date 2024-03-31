@@ -3,7 +3,7 @@ guid: 18
 title: "Test capteur température et humidité Sonoff SNZB-02"
 description: "Test du capteur de tempérture SONOFF SNZB-02 et intégration dans homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-10"
 last_modified_at:
 category: Tests

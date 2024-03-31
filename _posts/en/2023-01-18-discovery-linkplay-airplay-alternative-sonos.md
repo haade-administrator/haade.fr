@@ -3,7 +3,7 @@ guid: 39
 title: "Linkplay and Up2stream the quality DIY multiroom"
 description: "Discovery of the linkplay protocol, probably the most interesting quality-price alternative for multiroom with airplay and sonos, among others, all integrated into homeassistant."
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-18 18:46
 last_modified_at: 
 categories: [Automation, Haade-lab, Home-Assistant]

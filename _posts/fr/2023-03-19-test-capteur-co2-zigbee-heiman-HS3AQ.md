@@ -3,7 +3,7 @@ guid: 55
 title: "Test du Capteur Co2 Heiman HS3AQ"
 description: "test du capteur de température, humidité, Co2 Heiman Zigbee et intégration dans homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-19 16:42
 last_modified_at: 2023-06-03 11:16
 categories: [Tests, Zigbee]

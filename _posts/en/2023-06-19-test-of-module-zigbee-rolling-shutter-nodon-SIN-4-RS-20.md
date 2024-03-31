@@ -3,7 +3,7 @@ guid: 71
 title: "Test of the zigbee module Nodon special roller shutter SIN-4-RS-20"
 description: "Nodon produces several quality zigbee 3.0 modules, in this article I will introduce the SIN-4-RS-20 roller shutter control module"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-19 08:00
 last_modified_at: 
 categories: [Tests, Zigbee]

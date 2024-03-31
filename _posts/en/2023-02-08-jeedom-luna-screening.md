@@ -3,7 +3,7 @@ guid: 46
 title: "Jeedom Luna scrutinized"
 description: "I will examine Jeedom Luna in detail, look for the origins, the causes or even the advantages, disadvantages or problems, in short what is hidden under the shell of the jeedom Luna"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-15 17:36
 last_modified_at: 
 categories: [Automation, Tests, Jeedom, Zwave, Zigbee]

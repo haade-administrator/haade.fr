@@ -4,7 +4,7 @@ title: "Jeedom Sas c'est terminé"
 description: "Jeedom Sas a été racheté par Domadoo, la crainte grandissante des utilisateurs du système opensource Jeedom se fait ressentir"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-29 08:00
 last_modified_at: 
 categories: [News, Jeedom]

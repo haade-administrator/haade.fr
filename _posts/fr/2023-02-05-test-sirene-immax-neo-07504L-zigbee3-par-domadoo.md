@@ -3,7 +3,7 @@ guid: 44
 title: "Test de la sirène Immax Neo 07504L zigbee 3.0"
 description: "Test et déballage de la sirène Immax Neo zigbee 3.0 07504L quels sont ses atouts ?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-05 11:09
 last_modified_at: 
 categories: [Tests, Haade-lab, Zigbee]

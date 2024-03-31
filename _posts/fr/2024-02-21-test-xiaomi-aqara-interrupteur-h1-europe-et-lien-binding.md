@@ -4,7 +4,7 @@ title: "Tests interrupteurs Aqara H1 et binding"
 description: "test de l'interrupteur aqara h1 version europe avec télécommande h1 et initiation à la liaison zigbee bindings"
 ref: "Aqara WS-EUK03 et WXKG15LM"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-21 13:09
 last_modified_at: 
 categories: [Tests, Zigbee]

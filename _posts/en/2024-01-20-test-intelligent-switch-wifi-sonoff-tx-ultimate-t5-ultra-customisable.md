@@ -4,7 +4,7 @@ title: "Sonoff TX Ultimate review"
 description: "Test of the Sonoff Tx ultimate sound and light wifi smart switch, ultra customizable thanks to the interchangeable shells."
 ref: "TX Ultimate T5-86"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-22 15:30
 last_modified_at: 
 categories: [Tests]

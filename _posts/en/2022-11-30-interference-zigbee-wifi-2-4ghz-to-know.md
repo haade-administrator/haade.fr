@@ -3,7 +3,7 @@ guid: 31
 title: "interference between zigbee and wifi frequency 2.4ghz"
 description: "to take into account, the zigbee and the wifi are calibrated on the 2.4ghz frequency, some advice to take into account when setting the channels in order to improve the quality of the mesh"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-11-30 22:54
 last_modified_at: 
 categories: [Zigbee, Wifi, Haade-lab]

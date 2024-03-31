@@ -6,7 +6,7 @@ categories: [Domotique, Securite, Haade-lab, Home-Assistant]
 tags: frp module
 date: '2021-06-18T20:05:56+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 layout: post
 locale: fr_FR
 addViews: 1074

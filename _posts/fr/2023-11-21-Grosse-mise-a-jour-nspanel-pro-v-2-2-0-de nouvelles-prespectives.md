@@ -4,7 +4,7 @@ title: "Mise à jour Nspanel Pro V2.2.0 Zigbee"
 description: "Désormais avec la V2.2.0 Le Nspanel Pro est configurable en coordinateur ou routeur une fonction très très intéressante, pour une intégration universelle."
 ref: "NSPanel Pro"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-21 01:00
 last_modified_at: 
 categories: [News, Zigbee, Matter]

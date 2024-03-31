@@ -4,7 +4,7 @@ title: "Testing new Sonoff SNZB-02P temperature and humidity sensor"
 description: "Test of the new temperature and humidity sensor based on a Silabs EFR32MG22 chip with a reworked design and impeccable quality in bright orange colors from the Sonoff brand, nothing to do with the big brother SNZB-02, Sonoff improves its image as a premium Chinese brand"
 ref: "SNZB-02P"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-09-04 14:59
 last_modified_at: 
 categories: [Tests, Zigbee]

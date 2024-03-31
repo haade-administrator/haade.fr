@@ -3,7 +3,7 @@ guid: 57
 title: "Woox R7060 Irrigation Controller Test"
 description: "Woox Zigbee 3.0 R7060 Smart Controller Review Automates Your Garden Irrigation"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-29 17:07
 last_modified_at: 
 categories: [Automation, Zigbee, Tests]

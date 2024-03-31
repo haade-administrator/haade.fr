@@ -3,7 +3,7 @@ guid: 62
 title: "fabriquer une double prise étanche zigbee pour 40€"
 description: "grâce à un super boitier étanche et deux micromodules zigbee KR2303 je vais vous montrer comment fabriquer une double prise ip66 pour l'extérieur et commandable dans ton assistant préféré"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-25 19:45
 last_modified_at: 
 categories: [Haade-lab, Zigbee, Domotique]

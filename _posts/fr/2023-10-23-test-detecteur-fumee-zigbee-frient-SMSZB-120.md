@@ -4,7 +4,7 @@ title: "Test du détecteur de fumée zigbee 3.0 Frient SMSZB-120"
 description: "test est intégration dans zha et zigbee2mqtt du module détecteur de fumée Frient smszb-120 zigbee 3.0"
 ref: "SMSZB-120"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-23 09:22
 last_modified_at: 
 categories: [Tests, Zigbee]

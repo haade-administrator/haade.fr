@@ -4,7 +4,7 @@ title: "Single Day chez Domadoo"
 description: "Offre à ne pas manquer chez Domadoo ce week-end"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-11 18:06
 last_modified_at: 
 categories: [News]

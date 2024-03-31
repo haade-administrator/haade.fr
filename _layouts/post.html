@@ -14,21 +14,31 @@ post_class: post-template
     <!-- Post Title -->
     <h1 class="posttitle">{{ page.title }}</h1>
     <!-- Author & Date  Box -->
-    {%- assign author = site.data.authors[page.author] %}
-    {%- if page.author %}
-    <div class="d-flex align-items-start mt-4">
-        <div class="authorpost">
-            {%- if author.avatar %}
-            {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }} --img width="60" height="60" %}
-            {%- else %}
-            <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
-            {%- endif %}
-        </div>
-        <div class="readingpost">
-          {%- include reading-post.html %}
-        </div>
-    </div>
-    {%- endif %}
+      <div class="d-flex align-items-start mt-4">
+          <div class="authorpost">
+            {%- if page.authors %}
+            {%- for author_name in page.authors %}
+            {%- assign author = site.data.authors[author_name] %}
+            {%- if page.locale == "fr_FR" %}
+              {%- if author.avatar %}
+              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }} --img width="60" height="60" %}
+              {%- else %}
+              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+              {%- endif %}
+            {%- elsif page.locale == "en_GB" %}
+              {%- if author.avatar %}
+              {% picture avatar70 {{ author.avatar }} --alt {{ author.display_name }} --link {{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }} --img width="60" height="60" %}
+              {%- else %}
+              <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=50&d=mm&r=x" alt="{{ author.display_name }}"></a>
+              {%- endif %}
+              {%- endif %}
+              {%- endfor %}
+              {%- endif %}
+          </div>
+          <div class="readingpost">
+            {%- include reading-post.html %}
+          </div>
+      </div>
 </div>
 
 <!-- Adsense under title if enabled from _config.yml (change your pub id and slot) -->

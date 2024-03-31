@@ -3,7 +3,7 @@ guid: 18
 title: "Sonoff SNZB-02 temperature and humidity sensor test"
 description: "SONOFF SNZB-02 temperature sensor test and integration in homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-10"
 last_modified_at:
 category: Tests

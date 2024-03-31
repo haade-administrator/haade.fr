@@ -3,7 +3,7 @@ guid: 67
 title: "Télécommande Loratap 4 boutons Zigbee"
 description: "Test de la télécommande Loratap SS9400ZB-YA magnétique compatible zigbee 3.0 sans fil pour scène, action, interrupteur"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-30 20:29
 last_modified_at: 
 categories: [Tests, Zigbee, Haade-lab]

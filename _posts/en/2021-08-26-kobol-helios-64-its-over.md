@@ -2,7 +2,7 @@
 guid: 15
 title: "Kobol helios 64 is done!"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-08-26"
 last_modified_at:
 category: News

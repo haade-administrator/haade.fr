@@ -4,7 +4,7 @@ title: "Mise à jour Nspanel Pro V2.0 compatible Matter"
 description: "Ils l'avaient promis, j'avais du mal à y croire, Nspanel pro est désormais compatible Matter avec la mise à jour du firmware 2.0, maintenant quelles sont les conditions à voir"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-09-21 08:28
 last_modified_at: 
 categories: [News, Zigbee, Matter]

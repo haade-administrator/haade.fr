@@ -3,7 +3,7 @@ guid: 37
 title: "Intégrer une caméra esp32-cam dans une applique lumineuse"
 description: "Tuto pour intégrer une caméra ai-thinker esp32-cam dans une applique lumineuse de garage en mode spycam pour moins de 10€"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-12 18:22
 last_modified_at: 
 categories: [Home-Assistant, Securite, Esp]

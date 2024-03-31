@@ -4,7 +4,7 @@ title: "Be careful when charging electric vehicles at home"
 description: "Feedback on the fire risks of charging electric vehicles at home and monitoring the problem using home automation."
 ref: "TO-Q-SY2-JZT"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-06 10:13
 last_modified_at: 
 categories: [Security, Tests, News]

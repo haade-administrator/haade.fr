@@ -1,6 +1,6 @@
 ---
 guid: 28
-author: Nico
+authors: Nico
 layout: post
 title: 'Utilisation des Filtres dans ZM'
 description: "l'utilisation des filtres dans zoneminder est un paramétrage incontournable pour ne pas stocjer trop d'évènements"

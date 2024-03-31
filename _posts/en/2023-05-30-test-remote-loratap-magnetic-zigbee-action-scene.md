@@ -3,7 +3,7 @@ guid: 67
 title: "Loratap 4 button Zigbee remote control"
 description: "Testing Loratap SS9400ZB-YA magnetic remote control compatible zigbee 3.0 wireless for stage, action, switch"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-30 20:29
 last_modified_at: 
 categories: [Tests, Zigbee, Haade-lab]

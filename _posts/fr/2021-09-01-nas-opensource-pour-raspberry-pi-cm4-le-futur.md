@@ -3,7 +3,7 @@ guid: 16
 title: "NAS opensource pour Raspberry pi CM4 le futur!"
 description: "Depuis la sortie du CM4 par Raspberry des projets sortent de terre à foison, ici découverte d'un NAS opensource"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-01"
 last_modified_at:
 categories: News

@@ -6,7 +6,7 @@ categories: [Tests, Haade-lab]
 tags: [esphome, homeassistant]
 date: '2021-07-01T19:33:43+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 layout: post
 locale: fr_FR
 addViews: 789

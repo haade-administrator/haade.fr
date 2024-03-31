@@ -4,7 +4,7 @@ title: "Économise du chauffage grâce à la domotique ça marche !"
 description: "Dans le cadre d'un nouveau concept vidéo présenté par August sur youtube, je vais te détailler l'installation d'une chaudière au gaz domotisée."
 ref: ""
 layout: post
-author: Nico
+authors: [Nico, August]
 date: 2024-03-28 11:09
 last_modified_at: 
 categories: [Haade-lab, News, Home-Assistant]

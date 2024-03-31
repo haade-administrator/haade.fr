@@ -4,7 +4,7 @@ title: "New Box Home-Assistant Green"
 description: "Home-assistant has existed for 10 years already, for this event they are showing us their new Home-assistant green box for less than $100"
 ref: "Home-Assistant Green"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-09-18 19:41
 last_modified_at: 
 categories: [Home-Assistant, News]

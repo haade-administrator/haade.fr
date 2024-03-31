@@ -4,7 +4,7 @@ title: "Vendredi Noir chez itead, Sonoff et Nextion"
 description: "Black friday sur le site itead marque sonoff et Nextion à prix cassé"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-19 11:33
 last_modified_at: 
 categories: [News]

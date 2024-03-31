@@ -4,7 +4,7 @@ title: "Comparison of Zigbee thermostatic heads"
 description: "Showing of 3 Zigbee thermostatic heads Xiaomi Aqara SRTS-A01, Sonoff TRVZB and Moes ZTRV-BY-100, a comparison to find out which is the best faucet in the contest"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-29 00:05
 last_modified_at: 
 categories: [Tests, Zigbee, Automation]

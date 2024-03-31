@@ -3,7 +3,7 @@ guid: 47
 title: "Fibaro FGPWE-102 Smart Plug Test"
 description: "Despite a very high cost for such a module, what is this z-wave 700 Fibaro FGPWE/P-102 smart socket really worth?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-19 18:06
 last_modified_at: 
 categories: [Automation, Tests, Zwave]

@@ -3,7 +3,7 @@ guid: 63
 title: "Owon THS317-ET remote temperature sensor test"
 description: "The Multi-sensor is used to measure the ambient temperature & humidity with built-in sensor and external temperature with remote probe. It is available to detect motion, vibration and allows you to receive notifications from mobile app. The above functions can be customized, please use this guide according to your customized functions."
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-30 18:17
 last_modified_at: 
 categories: [Tests, Zigbee, Automation]

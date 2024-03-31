@@ -4,7 +4,7 @@ title: "Offre d'emploi : Technicien(ne) en Domotique et Réseaux"
 description: La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-27 16:48
 last_modified_at: null
 categories:

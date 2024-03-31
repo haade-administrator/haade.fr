@@ -4,7 +4,7 @@ title: "Haade-lab Youtube channel by August"
 description: "Presentation of August and Lulu, new hosts of the Haade-Lab channel, presenting home automation tutorials and tests"
 ref: ""
 layout: post
-author: August
+authors: August
 date: 2024-03-24 07:34
 last_modified_at: 
 categories: [Automation]

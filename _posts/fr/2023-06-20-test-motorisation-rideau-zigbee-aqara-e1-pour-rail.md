@@ -4,7 +4,7 @@ title: "test du module de motorisation pour rideau Aqara curtain driver E1"
 description: "test complet du module pour ouverture et fermeture de rideau Aqara E1 version rail avec intégration dans zigbee2mqtt, zha et Jeedom, domotise les rideaux en Zigbee"
 ref: "Aqara curtain driver E1 rail version"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-20 13:26
 last_modified_at: 
 categories: [Tests, Zigbee]

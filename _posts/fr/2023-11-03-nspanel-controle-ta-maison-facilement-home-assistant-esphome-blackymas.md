@@ -4,7 +4,7 @@ title: "NSPanel contrôle ta maison facilement"
 description: "Grâce à Home Assistant, Esphome, et le référentiel Blackymas, paramètre et contrôle facilement le Sonoff NSPanel à moindre coût. Rend chaque pièce intuitive et supprime les télécommandes."
 ref: "NSPanel"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-03 12:06
 last_modified_at: 
 categories: [Haade-lab, Tests]

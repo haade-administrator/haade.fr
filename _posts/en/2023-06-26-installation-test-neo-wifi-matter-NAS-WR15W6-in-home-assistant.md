@@ -4,7 +4,7 @@ title: "Test and installation taken neo NAS-WR15W6 Matter in Home-assistant"
 description: "A first in this article we will test and integrate the Neo NAS-WR15W6 Matter protocol socket in home assistant, google Home and Tuya"
 ref: "NAS-WR15W6"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-23 14:10
 last_modified_at: 2023-06-26 11:00
 categories: [News, Tests, Matter, Home-Assistant]

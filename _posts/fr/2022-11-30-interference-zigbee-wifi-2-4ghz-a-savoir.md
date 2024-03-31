@@ -3,7 +3,7 @@ guid: 31
 title: "interférence entre zigbee et wifi frequence 2.4ghz"
 description: "a prendre en compte, le zigbee et le wifi sont étalonés sur la frequence 2.4ghz, quelques conseils à prendre en compte lors du paramétrage des canaux afin d'améliorer la qualité du maillage"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-11-30 22:54
 last_modified_at: 
 categories: [Zigbee, Wifi, Haade-lab]

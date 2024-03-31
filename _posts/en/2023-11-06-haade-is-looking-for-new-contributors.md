@@ -4,7 +4,7 @@ title: "Haade is looking for contributors"
 description: "In full expansion we are looking for new contributors"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-06 14:46
 last_modified_at: 
 categories: [News]

@@ -3,7 +3,7 @@ guid: 30
 title: "ZBDongle-P VS ZBDongle-E"
 description: "Comparatif des clés zigbee sonoff dongle-p et dongle-e quel SOC choisir pour l'avenir de la gestion du protocole"
 layout: post
-author: Nico
+authors: Nico
 image: 'dongle-p-vs-dongle-e-zigbee-sonoff.png'
 date: 2022-11-20 17:20
 last_modified_at: 

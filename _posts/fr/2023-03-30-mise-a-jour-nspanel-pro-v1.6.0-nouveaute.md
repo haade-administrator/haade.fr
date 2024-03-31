@@ -3,7 +3,7 @@ guid: 58
 title: "Mise à jour NSpanel Pro"
 description: "Mise à jour du programme NSpanel Pro V.1.6.0 quels sont les nouveautés"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-30 15:23
 last_modified_at: 
 categories: [News, Zigbee]

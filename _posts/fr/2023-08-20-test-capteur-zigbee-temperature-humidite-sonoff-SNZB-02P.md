@@ -4,7 +4,7 @@ title: "Test nouveau capteur de température et humidité Sonoff SNZB-02P"
 description: "Test du nouveau dapteur de température et humidité à base de puce Silabs EFR32MG22 au design retravaillé et à une qualité irréprochable aux couleurs orange pétante de la marque Sonoff, rien à voir avec le grand frère SNZB-02, sonoff améliore son image de marque chinoise premium"
 ref: "SNZB-02P"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-09-04 14:59
 last_modified_at: 
 categories: [Tests, Zigbee]

@@ -4,7 +4,7 @@ title: "I tested the Corsair Lifetime Warranty"
 description: "I tested the support for the lifetime warranty of Corsair DDR4 Vengeance memories, feedback"
 ref: "Vengeance LPX"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-01 15:40
 last_modified_at: 
 categories: [Tests, Haade-lab]

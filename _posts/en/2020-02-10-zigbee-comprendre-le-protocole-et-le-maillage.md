@@ -3,7 +3,7 @@ guid: 3
 title: 'Zigbee understand protocol and mesh'
 date: '2020-02-10T13:17:10+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 categories: [Automation, Protocoles]
 layout: post
 image: maillage-zigbee.png
@@ -14,7 +14,6 @@ addViews: 103
 published: true
 noindex: false
 beforetoc:
-toc: false
 sitemap:
   changefreq: #always hourly daily weekly monthly yearly never
   exclude: #'yes' or 'no'

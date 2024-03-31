@@ -33,7 +33,11 @@
                 {%- endif %}
                 </span>
                 <span class="author-meta">
+                {%- if page.locale == "en_GB" %}    
                 <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
+                {%- elsif page.locale == "fr_FR" %}
+                <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
+                {%- endif %}
                 {%- endif %}
                 {%- if post.last_modified_at != nil %}
                 <span class="post-date">{%- include date.html date=post.last_modified_at %}</span>
@@ -79,7 +83,11 @@
                 {%- endif %}
                 </span>
                 <span class="author-meta">
+                {%- if page.locale == "en_GB" %}    
                 <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/author-{{ authorshop.name | slugify }}"><span class="post-name font-weight-bold">{{ authorshop.display_name }}</span></a>
+                {%- elsif page.locale == "fr_FR" %}  
+                <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ authorshop.name | slugify }}"><span class="post-name font-weight-bold">{{ authorshop.display_name }}</span></a>
+                {%- endif %}
                 {%- endif %}
                 <span class="post-date">{%- include date.html date=product.date %}</span>
                 </span>

@@ -2,7 +2,7 @@
 guid: 21
 title: "Zoneminder, home assistant and Machinelearning"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-25"
 last_modified_at:
 categories: [Security, Haade-lab]

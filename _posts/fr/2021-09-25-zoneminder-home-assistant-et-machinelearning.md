@@ -3,7 +3,7 @@ guid: 21
 title: "Zoneminder, home assistant et Machinelearning"
 description: "Intégration du système de gestion de caméra Zoneminder dans homeassistant avece activation du machinelearning"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-25"
 last_modified_at:
 categories: Domotique Securite

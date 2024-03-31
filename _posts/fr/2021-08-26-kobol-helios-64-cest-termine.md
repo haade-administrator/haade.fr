@@ -3,7 +3,7 @@ guid: 15
 title: "Kobol helios 64 c'est terminé !"
 description: "l'aventure Helios le NAS à faible coût est bel et bien terminé dommage!"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-08-26"
 last_modified_at:
 categories: News

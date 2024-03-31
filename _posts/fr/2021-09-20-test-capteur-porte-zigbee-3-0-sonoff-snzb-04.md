@@ -3,7 +3,7 @@ guid: 20
 title: "Test Capteur porte zigbee 3.0 sonoff SNZB-04"
 description: "Test d'un capteur de porte Sonoff SNZB-04 zigbee et intégration dans homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-20"
 last_modified_at:
 categories: Tests

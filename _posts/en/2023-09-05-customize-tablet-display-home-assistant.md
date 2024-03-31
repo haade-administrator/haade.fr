@@ -4,7 +4,7 @@ title: "Built a Smartphone environment in HA with UI Minimalist"
 description: "simple and quick tutorial to set up a dashboard under Home Assistant design for phone using UI Lovelace Minimalist"
 ref: "UI Lovelace Minimalist"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-08 16:06
 last_modified_at: 
 categories: [Automation, Haade-lab, Home-Assistant]

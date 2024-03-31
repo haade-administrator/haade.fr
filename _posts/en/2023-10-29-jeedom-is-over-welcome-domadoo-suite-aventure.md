@@ -4,7 +4,7 @@ title: "Jeedom Sas is over"
 description: "Jeedom Sas was bought by Domadoo, the growing fear of users of the Jeedom opensource system is felt"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-29 08:00
 last_modified_at: 
 categories: [News, Jeedom]

@@ -4,7 +4,7 @@ title: "Hack Sonoff Zbbridge-pro and Esphome"
 description: "How to easily hack the Sonoff Zbbridge-pro easily on Esphome and Home-Assistant and make it a Zigbee, wifi and Bluetooth remote control"
 ref: "ZBbridge-pro"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-15 20:16
 last_modified_at: 
 categories: [Haade-lab, Zigbee]

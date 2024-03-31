@@ -2,7 +2,7 @@
 guid: 45
 title: "Test Sirène Heiman HS2WD-E compatible zigbee 3.0"
 description: "Sirène intelligente de la marque Heiman HS2WD-E compatible zigbee 3.0, que vaut-elle ?"   
-author: Nico
+authors: Nico
 date: 2023-02-06 08:06
 last_modified_at: 
 categories: [Domotique, Tests, Zigbee]

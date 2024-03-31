@@ -3,7 +3,7 @@ guid: 61
 title: "Mise à jour Nspanel Pro V1.7.0"
 description: "Les jours passent et les mises à jours du Nspanel pro s'enchainent"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-16 11:53
 last_modified_at: 
 categories: [Domotique, News]

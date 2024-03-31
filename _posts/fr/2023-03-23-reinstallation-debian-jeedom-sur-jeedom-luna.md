@@ -3,7 +3,7 @@ guid: 56
 title: "réinstallation complète sur Jeedom Luna"
 description: "tuto complet sur une installation complète après plantage de jeedom basé sur debian sur Jeedom Luna"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-23 12:32
 last_modified_at: 2023-09-25 08:00
 categories: [Jeedom, News, Haade-lab]

@@ -3,7 +3,7 @@ guid: 33
 title: "Domotise le compteur d'eau Itron avec esp et cc1101 dans ha pour 10€"
 description: "Domotiser pas à pas son compteur d'eau itron équipé d'un capteur 433mhz everblu cyble avec arduino dans homeassistant grâce un un module esp8266/esp32 et un émetteur/récepteur TI cc1101"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-21 13:08
 last_modified_at: 2022-12-28 17:43
 categories: [Haade-lab, Home-Assistant, Esp]

@@ -3,7 +3,7 @@ guid: 51
 title: "Sonoff ZBMINI-L2 Extreme Switch Test"
 description: "Test of the new zigbee switch from Sonoff the ZBMINI-L2 extreme without neutral, is it so small? What is it worth?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-08 15:05
 last_modified_at: 
 categories: [Zigbee, Tests]

@@ -3,7 +3,7 @@ guid: 36
 title: "Esp32-cam Ai Thinker et homeassistant"
 description: "Installation complète et facile de la caméra Esp32-cam Ai-thinker dans homeassistant via esphome"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-04 12:33
 last_modified_at: 
 categories: [Domotique, Securite]

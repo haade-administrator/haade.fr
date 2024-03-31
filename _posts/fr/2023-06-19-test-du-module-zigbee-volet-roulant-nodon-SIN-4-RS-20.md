@@ -3,7 +3,7 @@ guid: 71
 title: "Test du module zigbee Nodon special volet roulant SIN-4-RS-20"
 description: "Nodon produit plusieurs modules zigbee 3.0 de qualité, dans cet article je vais présenter le module de contrôle de volet roulant SIN-4-RS-20"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-19 08:00
 last_modified_at: 
 categories: [Tests, Zigbee]

@@ -3,7 +3,7 @@ guid: 43
 title: "test of the new Moes Star Ring zigbee switch"
 description: "Moes star ring ZS-SR-EU recently launched on the market does the new smart switch live up to our expectations?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-31 11:01
 last_modified_at: 
 categories: [Tests, News, Haade-lab]

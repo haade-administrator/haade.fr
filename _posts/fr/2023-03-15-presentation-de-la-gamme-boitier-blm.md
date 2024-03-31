@@ -3,7 +3,7 @@ guid: 53
 title: "Boitiers d'encastrements BLM special domotique"
 description: "présentation des boitiers d'encastrements BLM specialement conçu pour intégrer des modules domotiques dans les habitations anciennes ou nouvelles"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-15 23:27
 last_modified_at: 
 categories: [Domotique, Tests, Haade-lab]

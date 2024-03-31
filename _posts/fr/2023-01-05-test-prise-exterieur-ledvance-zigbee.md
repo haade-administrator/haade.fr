@@ -3,7 +3,7 @@ guid: 38
 title: "Test de la prise extérieur Zigbee Ledvance Smartplug+"
 description: "Test et unboxing de la prise SMART+ Compact Outdoor Plug | Prise extérieure connectée compacte pour contrôler des appareils conventionnels avec la technologie Zigbee"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-05 15:20
 last_modified_at: 
 categories: [Tests]

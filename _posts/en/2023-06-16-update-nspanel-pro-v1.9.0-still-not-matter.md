@@ -3,7 +3,7 @@ guid: 70
 title: "Nspanel Pro v1.9.0 Update Still Not Matter"
 description: "Update of Nspanel pro retrospection on version 1.8 and novelty of 1.9, itead has still not integrated Matter, Is it possible? Will version 2.0 come with zigbee/matter compatibility"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-16 08:21
 last_modified_at: 
 categories: [News, Zigbee]

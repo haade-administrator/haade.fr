@@ -2,7 +2,7 @@
 guid: 16
 title: "Open source NAS for Raspberry pi CM4 the future!"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-01"
 last_modified_at:
 category: News

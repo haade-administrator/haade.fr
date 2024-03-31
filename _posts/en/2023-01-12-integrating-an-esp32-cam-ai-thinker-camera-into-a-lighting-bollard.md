@@ -3,7 +3,7 @@ guid: 37
 title: "Integrate an esp32-cam camera into a light fixture"
 description: "Tutorial to integrate an ai-thinker esp32-cam camera into a garage light in spycam mode for less than 10€"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-12 18:22
 last_modified_at: 
 categories: [Home-Assistant, Security, Esp]

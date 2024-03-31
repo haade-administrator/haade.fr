@@ -4,7 +4,7 @@ title: "Sonoff SNZB-02D Sensor Test"
 description: "Sonoff SNZB-02D zigbee 3.0 digital temperature and humidity sensor test"
 ref: "SNZB-02D"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-08-07 12:27
 last_modified_at: 
 categories: [Tests, Zigbee]

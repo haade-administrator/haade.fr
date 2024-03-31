@@ -3,7 +3,7 @@ guid: 32
 title: "Nouvelle box jeedom Luna"
 description: "Jeedom Luna est évolutive, multi-protocoles et autonome. En effet, de par ses spécificités techniques hors normes, elle est aussi bien en mesure de gérer les petites à moyennes installations domotiques que de servir d’antenne déportée pour les projets de plus grande envergure, ce qui en fait par essence, le satellite naturel de la box Jeedom Atlas.."
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-06 07:50
 last_modified_at: "2023-01-15 17:14"
 categories: [Jeedom, News]

@@ -1,6 +1,6 @@
 ---
 guid: 28
-author: Nico
+authors: Nico
 layout: post
 title: 'Use of filters in Zoneminder'
 description: "the use of filters in zoneminder is an essential setting so as not to store too many events"

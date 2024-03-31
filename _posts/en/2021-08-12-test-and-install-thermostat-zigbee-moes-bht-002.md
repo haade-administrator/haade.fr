@@ -2,7 +2,7 @@
 guid: 14
 title: "[TEST] and [INSTALL] Zigbee Thermostat Moes BHT-002"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-08-12"
 last_modified_at: "2023-01-15 17:03"
 categories: [Home-Assistant, Tests, Haade-lab]

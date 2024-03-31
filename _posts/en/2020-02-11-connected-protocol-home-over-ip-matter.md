@@ -3,7 +3,7 @@ guid: 5
 title: 'Connected Protocol Home over IP/Matter'
 date: '2020-02-11T14:45:38+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 categories: [Automation, Protocoles]
 layout: post
 image: homeoverip.png

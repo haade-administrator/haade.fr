@@ -3,7 +3,7 @@ guid: 66
 title: "Gestion des Sauvegardes dans Homeassistant"
 description: "Sauvegarde facilement Homeassistant sur n'importe quel support externe grâce à Syncthing et automatisation de la génération de sauvegardes très facilement dans Homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-22 15:58
 last_modified_at: 
 categories: [Home-Assistant, Haade-lab, Domotique]

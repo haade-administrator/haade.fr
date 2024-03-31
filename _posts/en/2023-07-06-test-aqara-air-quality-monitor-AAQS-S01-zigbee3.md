@@ -4,7 +4,7 @@ title: "Aqara AAQS-S01 Air Quality Sensor Test"
 description: "Here is a sensor that deserves to be interested in it Aqara has just released the AAQS-S01 VOC, temperature and humidity sensor module with epaper screen, all running on the Zigbee 3.0 protocol"
 ref: "AAQS-S01"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-12 10:06
 last_modified_at: 
 categories: [Tests, Automation, Zigbee]

@@ -4,7 +4,7 @@ title: "Black Friday at itead, Sonoff and Nextion"
 description: "Black friday on the itead site, sonoff and Nextion brand at reduced prices"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-19 11:33
 last_modified_at: 
 categories: [News]

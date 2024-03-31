@@ -3,7 +3,7 @@ guid: 60
 title: "Innr Vintage RF261 Bulb Test"
 description: "In an ever more modern accommodation we include vintage objects! will understand, today I test an Innr E27 zigbee RF261 bulb so is it worth the cost?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-11 15:37
 last_modified_at: 
 categories: [Automation, Zigbee, Tests]

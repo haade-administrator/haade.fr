@@ -4,7 +4,7 @@ title: "Test Box Home Assistant Green et Skyconnect"
 description: "Test de la box Home assistant Green à 99$ et du dongle Skyconnect zigbee à 29,99$, stabilité, performance au rendez-vous"
 ref: "Home Assistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-12 07:26
 last_modified_at: 
 categories: [Tests, Zigbee]

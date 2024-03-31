@@ -3,7 +3,7 @@ guid: 32
 title: "New box jeedom Luna"
 description: "Jeedom Luna is scalable, multi-protocol and autonomous. Indeed, due to its exceptional technical specificities, it is just as well able to manage small to medium-sized home automation installations as to serve as a remote antenna for larger-scale projects, which makes it, in essence, the natural satellite. of the box Jeedom Atlas.."
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-06 07:50
 last_modified_at: "2023-01-15 17:14"
 categories: [Jeedom, News]

@@ -4,7 +4,7 @@ title: "J'ai testé la garantie à Vie Corsair"
 description: "j'ai testé la prise en charge de la garantie à vie des mémoires corsair ddr4 vengeance, retour d'expérience"
 ref: "Vengeance LPX"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-01 15:40
 last_modified_at: 
 categories: [Tests, Haade-lab]

@@ -3,7 +3,7 @@ guid: 57
 title: "Test Controlleur arrosage Woox R7060"
 description: "Test du contrôleur intelligent Woox Zigbee 3.0 R7060 domostise ton irrigation de jardin"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-29 17:07
 last_modified_at: 
 categories: [Domotique, Zigbee, Tests]

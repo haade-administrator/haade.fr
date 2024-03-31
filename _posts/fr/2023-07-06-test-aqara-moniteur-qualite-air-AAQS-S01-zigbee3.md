@@ -4,7 +4,7 @@ title: "Test du capteur de qualité d'air Aqara AAQS-S01"
 description: "Voilà un capteur qui mérite de s'y intéresser Aqara vient de sortir le module AAQS-S01 capteur COV, température et humidité avec écran epaper le tout fonctionnant sur le protocole Zigbee 3.0"
 ref: "AAQS-S01"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-12 10:06
 last_modified_at: 
 categories: [Tests, Domotique, Zigbee]

@@ -5,7 +5,7 @@ description: "Comparatif des deux nouvelles box domotique du moment Homeassistan
 date: "2021-10-01"
 last_modified_at:
 layout: post
-author: Nico
+authors: Nico
 categories: Domotique Haade-lab Home-Assistant Jeedom News
 tags: Comparatif Homeassistant Jeedom
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png

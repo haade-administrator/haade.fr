@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Xiaomi dévoiles ses lunettes connectées Mijia Smart Audio Glasses
-    url: https://www.lesalexiens.fr/actualites/xiaomi-devoiles-ses-lunettes-connectees-mijia-smart-audio-glasses/#utm_source=rss&utm_medium=rss&utm_campaign=xiaomi-devoiles-ses-lunettes-connectees-mijia-smart-audio-glasses
+    title: Domotique Wi-Fi et Zigbee  - les meilleures offres de Pâques
+    url: https://www.lesalexiens.fr/actualites/domotique-wi-fi-et-zigbee-les-meilleures-offres-de-paques/#utm_source=rss&utm_medium=rss&utm_campaign=domotique-wi-fi-et-zigbee-les-meilleures-offres-de-paques
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,20 +46,20 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Connectez vos panneaux solaires à votre smartphone pour optimiser votre
-      consommation énergétique !
-    url: https://www.maison-et-domotique.com/146432-connecte-panneaux-solaires-au-smartphone/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/titre-suivi-solaire-smartphone-702x367.png
+    title: Le Debrief M&D - test powerstation Aferiy 2400w, nouvelle alarme Free,
+      robot Karcher, la guerre aux frelons asiatiques, etc.
+    url: https://www.maison-et-domotique.com/146448-debrief-md-semaine-13-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
-    title: The Connectivity Standards Alliance and the Cyber Security Agency of Singapore
-      Sign Mutual Recognition Arrangement on Cybersecurity Labels for Consumer IoT
-    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-and-the-cyber-security-agency-of-singapore-sign-mutual-recognition-arrangement-on-cybersecurity-labels-for-consumer-iot/
+    title: DEKRA contributes to the IoT Device Security Specification and CSA Certification
+      Program
+    url: https://www.dekra.com/en/dekra-contributor-iot-device-security-specification-csa-certification-program/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: ESP32 Tuya IoT Adapter V2
-    url: https://www.kincony.com/esp32-tuya-iot-adapter-v2.html
+    title: Raspberry Pi iot gateway – KinCony Server16
+    url: https://www.kincony.com/raspberry-pi-iot-gateway.html
     image:

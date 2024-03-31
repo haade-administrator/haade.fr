@@ -3,7 +3,7 @@ guid: 34
 title: "Présentation de la gamme zigbee lidl smart home"
 description: "voilà quelques temps que lidl a sorti la gamme smart home silvercrest mais que vaut-elle réellement?"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-11 18:42
 last_modified_at: 2023-01-18 16:02
 categories: [News, Zigbee]

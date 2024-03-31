@@ -4,7 +4,7 @@ title: "Google Coral AI and Frigate"
 description: "On my private NAS I use as a frigate NVR, and it is strongly recommended to use Google Coral AI, how does this component act on the power of the NVR"
 ref: "Google Coral AI"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-05 06:20
 last_modified_at: 
 categories: [Security, Automation, Tests]

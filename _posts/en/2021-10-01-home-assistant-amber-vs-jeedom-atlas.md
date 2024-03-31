@@ -5,7 +5,7 @@ description:
 date: "2021-10-01"
 last_modified_at:
 layout: post
-author: Nico
+authors: Nico
 categories: [Jeedom, News, Home-Assistant]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png

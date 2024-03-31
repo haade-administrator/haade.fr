@@ -3,7 +3,7 @@ guid: 47
 title: "Test de la prise intelligente Fibaro FGPWE-102"
 description: "Malgré un coût très élevé pour un tel module, que vaut vraiment cette prise intelligente z-wave 700 Fibaro FGPWE/P-102"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-19 18:06
 last_modified_at: 
 categories: [Domotique, Tests, Zwave]

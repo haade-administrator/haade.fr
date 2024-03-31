@@ -2,7 +2,7 @@
 guid: 45
 title: "Siren test Heiman HS2WD-E compatible zigbee 3.0"
 description: "Heiman HS2WD-E smart siren compatible with zigbee 3.0, what is it worth?"   
-author: Nico
+authors: Nico
 date: 2023-02-06 08:06
 last_modified_at: 
 categories: [Automation, Tests, Zigbee]

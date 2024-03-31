@@ -4,7 +4,7 @@ title: "Test Lixee Zlinky la téléinfo plug'n play"
 description: "Test du module Zlinky pour la remontée de la téléinformation spécial linky fabriqué par Lixee et plug'n play, compatible toutes box opensource"
 ref: "Zlinky_TIC"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-03-20 12:00
 last_modified_at: 
 categories: [Tests, Zigbee, Haade-lab]

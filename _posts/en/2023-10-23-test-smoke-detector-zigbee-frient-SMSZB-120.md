@@ -4,7 +4,7 @@ title: "Frient SMSZB-120 zigbee 3.0 smoke detector review"
 description: "test is integration in zha and zigbee2mqtt of the smoke detector module Frient smszb-120 zigbee 3.0"
 ref: "SMSZB-120"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-23 09:22
 last_modified_at: 
 categories: [Tests, Zigbee]

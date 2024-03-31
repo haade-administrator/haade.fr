@@ -3,7 +3,7 @@ guid: 41
 title: "Zigbee 3.0 plug comparison, which one to choose ?"
 description: "complete comparison of 4 zigbee 3.0 sockets, Nous Smart zigbee socket A1Z, Neo Plug-007SPB2, Aqara Smart plug SP-EUC01 and lidl SAPZ 1 A1, in a world where manufacturers have no shortage of innovations in smart sockets"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-26 13:26
 last_modified_at: 
 categories: [Automation, Haade-lab, Tests]

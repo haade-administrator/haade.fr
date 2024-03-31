@@ -3,7 +3,7 @@ guid: 33
 title: "Domotizes the Itron water meter with esp and cc1101 in ha for 10€"
 description: "Automate your itron water meter step by step equipped with a 433mhz everblu cyble sensor with arduino in homeassistant thanks to an esp8266/esp32 module and a TI cc1101 transmitter/receiver"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-21 13:08
 last_modified_at: 2022-12-28 17:43
 categories: [Haade-lab, Home-Assistant, Esp]

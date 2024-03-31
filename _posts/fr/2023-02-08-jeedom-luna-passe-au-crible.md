@@ -3,7 +3,7 @@ guid: 46
 title: "Jeedom Luna passé au crible"
 description: "Je vais examiner Jeedom Luna dans le détail, en rechercher les origines, les causes ou encore les avantages, les inconvénients ou les problèmes, bref que se cache-t-il sous la coque de la jeedom Luna"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-15 17:36
 last_modified_at: 
 categories: [Domotique, Tests, Jeedom, Zwave, Zigbee]

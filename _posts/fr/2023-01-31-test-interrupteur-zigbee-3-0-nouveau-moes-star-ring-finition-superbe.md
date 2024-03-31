@@ -3,7 +3,7 @@ guid: 43
 title: "test du nouvel interrupteur zigbee Moes Star Ring"
 description: "moes star ring ZS-SR-EU lancé récemment sur le marché le nouvel interrupteur smart switch est-il à la hauteur de nos attentes ?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-31 11:01
 last_modified_at: 
 categories: [Tests, News, Haade-lab]

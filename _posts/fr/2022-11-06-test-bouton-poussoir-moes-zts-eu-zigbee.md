@@ -3,7 +3,7 @@ guid: 26
 title: "Test interrupteur zigbee ZTS-EU à bouton poussoir Moes"
 description: "Après le test de l'interrupteur tactile Moes, pour des raisons personnelles j'ai commandé le même à bouton poussoir"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-11-06 18:11
 last_modified_at: 
 categories: [Tests, Domotique, Zigbee]

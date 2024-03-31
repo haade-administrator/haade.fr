@@ -4,7 +4,7 @@ title: "Attention à la charge des véhicules électriques à domicile"
 description: "Retour d'expérience sur les risques d'incendies des recharges des véhicules électriques à domicile et surveiller le problème grâce à la domotique."
 ref: "TO-Q-SY2-JZT"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-06 10:13
 last_modified_at: 
 categories: [Securite, Tests, News]

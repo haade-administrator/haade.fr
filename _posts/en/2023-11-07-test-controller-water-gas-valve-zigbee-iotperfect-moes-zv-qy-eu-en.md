@@ -4,7 +4,7 @@ title: "Test of the PF-PM02D-TYZ Zigbee Valve Controller by Moes"
 description: "Today we are going to test the iot perfect intelligent valve controller and resold by Moes, we are going to see that manufacturing quality is not everything"
 ref: "PF-PM02D-TYZ"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-07 16:43
 last_modified_at: 
 categories: [Tests, Zigbee]

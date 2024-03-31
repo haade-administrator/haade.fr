@@ -3,7 +3,7 @@ guid: 62
 title: "make a double waterproof zigbee socket for 40€"
 description: "thanks to a super waterproof box and two zigbee KR2303 micromodules, I'm going to show you how to make a double ip66 socket for outdoors and controllable in your favorite assistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-25 19:45
 last_modified_at: 
 categories: [Haade-lab, Zigbee, Automation]

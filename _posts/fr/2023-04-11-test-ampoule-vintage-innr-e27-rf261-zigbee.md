@@ -3,7 +3,7 @@ guid: 60
 title: "Test de l'ampoule Innr Vintage RF261"
 description: "Dans un logement toujours plus moderne nous incluons des objets vintage ! va comprendre, aujourd'hui je test une ampoule Innr E27 zigbee RF261 alors vaut-elle le coût ?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-11 15:37
 last_modified_at: 
 categories: [Domotique, Zigbee, Tests]

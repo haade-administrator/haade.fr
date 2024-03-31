@@ -4,7 +4,7 @@ title: "Z-wave mort et enterré"
 description: "Depuis l'arrivée du protocole Zigbee sur le marché, le protocole Z-wave semble être au point mort, faisons le point sur cette situation."
 ref: "z-wave"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-24 20:47
 last_modified_at: 
 categories: [News, Domotique]

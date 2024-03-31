@@ -4,7 +4,7 @@ title: "Merci Sonoff 🎅🏻"
 description: "À l'approche des fêtes je reçois un sompteur cadeau de Noel de la part de Sonoff"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-12-02 14:39
 last_modified_at: 
 categories: [News]

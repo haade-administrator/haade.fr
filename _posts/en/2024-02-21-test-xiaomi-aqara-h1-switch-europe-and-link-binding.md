@@ -4,7 +4,7 @@ title: "Tests Aqara h1 switch and bindings"
 description: "test the aqara h1 switch europe version with h1 remote control and initiation to the zigbee bindings connection"
 ref: "Aqara WS-EUK03 and WXKG15LM"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-21 13:09
 last_modified_at: 
 categories: [Tests, Zigbee]

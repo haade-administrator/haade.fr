@@ -4,7 +4,7 @@ title: "Save on heating thanks to home automation, it works!"
 description: "As part of a new video concept presented by August on YouTube, I will detail the installation of a home gas boiler."
 ref: ""
 layout: post
-author: Nico
+authors: [Nico, August]
 date: 2024-03-28 11:09
 last_modified_at: 
 categories: [Haade-lab, News, Home-Assistant]

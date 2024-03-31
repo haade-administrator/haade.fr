@@ -3,7 +3,7 @@ guid: 40
 title: "On sale now in your Lidl stores"
 description: "Lidl silvercrest Zigbee home automation back on the shelves is currently on sale in your Lidl stores"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-19 16:06
 last_modified_at: 
 categories: [News]

@@ -2,7 +2,7 @@
 guid: 20
 title: "Sonoff SNZB-04 Zigbee 3.0 Door Sensor Test"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-20"
 last_modified_at:
 category: Tests

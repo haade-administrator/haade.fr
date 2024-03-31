@@ -4,7 +4,7 @@ title: "Test du Sonoff SNZB-01P"
 description: "Test du bouton de scène intelligent Zigbee 3.0 Sonoff SNZB-01P"
 ref: "SNZB-01P"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-28 16:07
 last_modified_at: 
 categories: [Tests, Zigbee]

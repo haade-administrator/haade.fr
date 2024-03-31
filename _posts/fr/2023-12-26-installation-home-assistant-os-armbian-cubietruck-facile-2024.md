@@ -4,7 +4,7 @@ title: "Installation HAOS avec Armbian Bookworm 12"
 description: "2024 - Tutos installation de home assistant OS sur un cubietruck armv7 avec Armbian version Debian 12 Bookworm le tout facilement et sans erreurs"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-12-26 10:54
 last_modified_at: 
 categories: [Haade-lab]

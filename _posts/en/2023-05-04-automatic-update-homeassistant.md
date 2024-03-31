@@ -3,7 +3,7 @@ guid: 64
 title: "Homeassistant automatic update"
 description: "Thanks to a Blueprint, automates Homeassistant updates by creating an automation, this blueprint allows you to configure other updates. This very interesting manipulation is still to be used with a few tweezers"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-04 12:26
 last_modified_at: 
 categories: [Home-Assistant, Haade-lab, Automation]

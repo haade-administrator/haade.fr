@@ -3,7 +3,7 @@ guid: 17
 title: "Z-wave face à Matter"
 description: "Après le comparatif du z-wave face à zigbee, voici un comparatif face à Matter"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-09-05"
 last_modified_at:
 categories: Domotique Protocoles News

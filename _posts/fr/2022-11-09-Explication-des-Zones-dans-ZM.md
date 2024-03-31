@@ -9,7 +9,7 @@ tags: []
 image: 'zoneminder-les-zones.png'
 toc: true
 beforetoc: ''
-author: Nico
+authors: Nico
 layout: post
 published: true
 noindex: false

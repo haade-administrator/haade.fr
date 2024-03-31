@@ -3,7 +3,7 @@ guid: 59
 title: "Test Xiaomi Aqara T1 dlkzmk12lm - SSM-U02"
 description: "Nouveau venu sur le marché xiaomimi présente son micro module T1 sans neutre SSM-U02 et compatible zigbee 3.0"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-05 18:14
 last_modified_at: 
 categories: [Zigbee, Tests]

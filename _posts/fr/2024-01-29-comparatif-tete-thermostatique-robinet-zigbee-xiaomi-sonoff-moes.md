@@ -4,7 +4,7 @@ title: "Comparatif têtes thermostatiques Zigbee"
 description: "Présentation de 3 têtes thermostatiques Zigbee Xiaomi Aqara SRTS-A01, Sonoff TRVZB et Moes ZTRV-BY-100, un comparatif pour savoir quel est le meilleur robinet du contest"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-29 00:05
 last_modified_at: 
 categories: [Tests, Zigbee, Domotique]

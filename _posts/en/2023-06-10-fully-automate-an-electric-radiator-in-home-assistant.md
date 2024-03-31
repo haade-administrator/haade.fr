@@ -3,7 +3,7 @@ guid: 69
 title: "Fully automate an electric radiator in Home assistant"
 description: "Complete article to automate an electric radiator on a pilot wire and control the comfort/frost protection and shutdown order with on/off control inversion and integration into lovelace of a generic thermostat, the set will allow you to make real savings in energies"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-10 15:50
 last_modified_at: 2023-06-15 08:00
 categories: [Haade-lab, Home-Assistant]

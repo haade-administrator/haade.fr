@@ -4,7 +4,7 @@ title: "Esp32-Korvo The microphone you need !"
 description: "Esp32-korvo woover-e is the complete microphone to control home automation by voice in home-assistant thanks to esphome and wifi all for less than €30"
 ref: "ESP32-korvo wroover-e"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-25 12:00
 last_modified_at: 
 categories: [Tests, Home-Assistant]

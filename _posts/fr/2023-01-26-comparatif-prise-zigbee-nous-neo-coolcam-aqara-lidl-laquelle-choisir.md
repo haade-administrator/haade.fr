@@ -3,7 +3,7 @@ guid: 41
 title: "Comparatif prise zigbee 3.0 laquelle choisir ?"
 description: "comparatif complet de 4 prises zigbee 3.0, Nous Smart zigbee socket A1Z, Neo Plug-007SPB2, Aqara Smart plug SP-EUC01 et lidl SAPZ 1 A1, dans un monde ou les constructeurs ne manque pas d'innovations dans les prises intelligentes"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-26 13:26
 last_modified_at: 
 categories: [Domotique, Haade-lab, Tests]

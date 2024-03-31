@@ -4,7 +4,7 @@ title: "Mise à jour carte Axzez Interceptor"
 description: "La carte embarquée Axzez Interceptor est une carte compatible Raspberry PI CM4 et maintenant Banana PI CM4, idéal pour créer un NAS, NVR et DOMOTIQUE en même temps. Quelques nouveautées concernant ce petit bijoux"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-08-14 10:00
 last_modified_at: 
 categories: [News]

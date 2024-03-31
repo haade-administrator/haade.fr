@@ -4,7 +4,7 @@ title: "SonoffLAN easily integrate Sonoff wifi modules"
 description: "SonoffLAN is an add-on that allows you to easily and effectively integrate Sonoff brand wifi modules into Home Assistant. I take advantage of this article to introduce you to the Sonoff POW Elite POWR316D wifi smart switch and energy meter module compatible with din rail"
 ref: "POW Elite POWR316D"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-05 17:53
 last_modified_at: 
 categories: [Haade-lab, Tests, Home-Assistant]

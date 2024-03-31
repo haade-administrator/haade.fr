@@ -3,7 +3,7 @@ guid: 63
 title: "Test du capteur de température déporté Owon THS317-ET"
 description: "Le multi-capteur est utilisé pour mesurer la température et l'humidité ambiantes avec un capteur intégré et la température extérieure avec une sonde à distance. Il est disponible pour détecter les mouvements, les vibrations et vous permet de recevoir des notifications de l'application mobile. Les fonctions ci-dessus peuvent être personnalisées, veuillez utiliser ce guide en fonction de vos fonctions personnalisées."
 layout: post
-author: Nico
+authors: Nico
 date: 2023-04-30 18:17
 last_modified_at: 
 categories: [Tests, Zigbee, Domotique]

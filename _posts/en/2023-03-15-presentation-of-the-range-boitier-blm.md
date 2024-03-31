@@ -3,7 +3,7 @@ guid: 53
 title: "BLM special home automation recessed boxes"
 description: "presentation of BLM recessed boxes specially designed to integrate home automation modules in old or new homes"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-15 23:27
 last_modified_at: 
 categories: [Automation, Tests, Haade-lab]

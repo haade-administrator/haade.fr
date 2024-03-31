@@ -3,7 +3,7 @@ guid: 8
 title: 'Automate your garage door for 5€'
 date: '2021-05-19T22:26:35+00:00'
 last_modified_at: '2022-11-12 08:48'
-author: Nico
+authors: Nico
 categories: [Automation, Home-Assistant, Haade-lab]
 layout: post
 image: domotiser-porte-garage-5-euros.png

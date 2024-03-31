@@ -4,7 +4,7 @@ title: 'Augmenter le signal wifi sur esp8266 esp-12f esp-12s'
 description: "Amélioration du signal wifi d'un module esp8266/esp12 en soudant facilement une antenne externe"
 date: '2021-06-07T08:06:15+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 layout: post
 tags: esp8266 esp12 amélioration
 categories: Domotique Haade-lab Home-Assistant

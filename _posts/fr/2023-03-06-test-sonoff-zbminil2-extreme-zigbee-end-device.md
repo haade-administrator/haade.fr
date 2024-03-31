@@ -3,7 +3,7 @@ guid: 51
 title: "Test Interrupteur Sonoff ZBMINI-L2 extrême"
 description: "Test du nouvel interrupteur zigbee de chez Sonoff le ZBMINI-L2 extrême sans neutre, est-il si petit ? Que vaut-il ?"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-08 15:05
 last_modified_at: 
 categories: [Zigbee, Tests]

@@ -3,7 +3,7 @@ guid: 42
 title: "automate a virtual 2 way with 2 switch zigbee"
 description: "we will simply automate thanks to blueprint and homeassistant a virtual 2 way between 2 single-way zigbee switches"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-29 15:46
 last_modified_at: 
 categories: [Automation, Home-Assistant, Haade-lab]

@@ -4,7 +4,7 @@ title: "Zigbee Neo NAS-AB06B2 Outdoor Siren Review"
 description: "Test of the zigbee tuya Neo NAS-AB06B2 solar siren designed for outdoors, in home assistant for less than €40. For this price is it worth the cost?"
 ref: "NAS-AB06B2"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-02 16:17
 last_modified_at: 
 categories: [Tests, Zigbee, Security]

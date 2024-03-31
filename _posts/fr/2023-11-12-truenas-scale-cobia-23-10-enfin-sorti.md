@@ -4,7 +4,7 @@ title: "Attendu avec impatience Truenas 'Cobia' est là !"
 description: "Voilà un long moment qu'on attendait une nouvelle version du système de gestion pour NAS gratuit Truenas version scale qui tourne sous debian, Truenas v23.10 Cobia"
 ref: "Truenas 'Cobia'"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-12 12:26
 last_modified_at: 
 categories: [Haade-lab, Securite]

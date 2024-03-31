@@ -3,7 +3,7 @@ guid: 56
 title: "complete reinstallation on Jeedom Luna"
 description: "complete tutorial on a complete installation after crash of jeedom based on debian on Jeedom Luna"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-23 12:32
 last_modified_at: 2023-09-25 08:00
 categories: [Jeedom, News, Haade-lab]

@@ -4,7 +4,7 @@ title: "Z-wave 800LR Silabs relance z-wave"
 description: "Depuis le rachat de la fabrication des puces Z-wave, et l'avancée significative sur le marché, Silabs s'apprête à rescussiter le Z-wave sur le marché Européen"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2024-03-13 12:47
 last_modified_at: 
 categories: [News]

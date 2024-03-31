@@ -4,7 +4,7 @@ title: "Test du premier module Matter miniR4M de Sonoff"
 description: "En avant première je vais tester le premier module Matter de Sonoff le miniR4M et une intégration dans Home Assistant"
 ref: "miniR4M"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-09-27 18:05
 last_modified_at: 
 categories: [Tests, Matter]

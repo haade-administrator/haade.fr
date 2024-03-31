@@ -3,7 +3,7 @@ guid: 69
 title: "Domotiser entièrement un radiateur éléctrique dans Home assistant"
 description: "Article complet pour domotiser un radiateur électrique sur fil pilote et contrôler l'ordre confort/hors gel et arrêt avec inversion de commande on/off et intégration dans lovelace d'un thermostat générique, l'ensemble te permettra de faire de réels économies d'énergies"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-10 15:50
 last_modified_at: 2023-06-15 08:00
 categories: [Haade-lab, Home-Assistant]

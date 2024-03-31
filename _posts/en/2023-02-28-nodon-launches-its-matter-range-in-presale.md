@@ -3,7 +3,7 @@ guid: 49
 title: "Nodon launches its matter range in presale"
 description: "Today, NodOn is finalizing its first compatible products and offering a Matter demo kit with its flagship products to allow manufacturers to discover the products, their capabilities and to test Matter interoperability with their own ecosystem."
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-28 13:11
 last_modified_at: 
 categories: [Automation, Protocoles, News, Matter]

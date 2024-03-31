@@ -3,7 +3,7 @@ guid: 38
 title: "Ledvance Smartplug+ Zigbee outdoor socket test"
 description: "Testing and unboxing the SMART+ Compact Outdoor Plug | Compact connected outdoor socket to control conventional devices with Zigbee technology"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-05 15:20
 last_modified_at: 
 categories: [Tests]

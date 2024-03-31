@@ -4,7 +4,7 @@ title: "Test Sonoff TX Ultimate"
 description: "Test de l'interrupteur intelligent wifi Sonoff Tx ultimate son et lumière au rendez-vous ultra personnalisable grâce aux coques interchangeables."
 ref: "TX Ultimate T5-86"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-22 15:30
 last_modified_at: 
 categories: [Tests]

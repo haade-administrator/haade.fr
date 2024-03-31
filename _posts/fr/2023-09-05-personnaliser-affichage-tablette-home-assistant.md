@@ -4,7 +4,7 @@ title: "Construit un environnement pour Smartphone dans HA avec UI Minimalist"
 description: "tutoriel simple et rapide pour mettre en place un tableau de bord sous Home Assistant design pour téléphone grâce à UI Lovelace Minimalist"
 ref: "UI Lovelace Minimalist"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-10-08 16:06
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]

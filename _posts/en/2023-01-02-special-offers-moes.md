@@ -3,7 +3,7 @@ guid: 35
 title: "Special Offers Moes Aliexpress"
 description: "Moes special offer on aliexpress a maximum of discount coupons"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-02 12:06
 last_modified_at: 2023-01-02 12:06
 categories: [News]

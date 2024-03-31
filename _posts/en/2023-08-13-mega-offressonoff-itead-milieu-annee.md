@@ -4,7 +4,7 @@ title: "Sonoff Extra Price Offers"
 description: "Mid-year offers at Itead up to 15% extra discounts on Sonoff and Nextion products, get the best price for the NSPanel or NSPanel PRO"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-08-13 13:27
 last_modified_at: 
 categories: [News]

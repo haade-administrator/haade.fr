@@ -3,7 +3,7 @@ guid: 27
 title: "Domotiser simplement l'allumage de la lumière de la piscine"
 description: "Ewelink propose un module à 11€ avec puce zigbee qui nous permet de domotiser la lumière traditionnelle d'une piscine"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-11-07 22:00
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]

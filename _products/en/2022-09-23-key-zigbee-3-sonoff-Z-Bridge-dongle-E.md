@@ -2,7 +2,7 @@
 guid: 2128
 layout: product
 rating: 4.5
-author: Nico
+authors: Nico
 brand: Sonoff
 title: "zigbee key 3.0 Sonoff zbridge Dongle-E"
 date: "2022-09-23"

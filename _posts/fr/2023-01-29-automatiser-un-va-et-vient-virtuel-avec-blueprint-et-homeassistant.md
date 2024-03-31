@@ -3,7 +3,7 @@ guid: 42
 title: "automatiser un va et vient virtuel avec 2 inter zigbee"
 description: "nous allons automatiser simplement grâce à blueprint et homeassistant un va et vient virtuel entre 2 interrupteurs simple voie zigbee"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-01-29 15:46
 last_modified_at: 
 categories: [Domotique, Home-Assistant, Haade-lab]

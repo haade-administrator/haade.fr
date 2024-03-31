@@ -4,7 +4,7 @@ title: "Comparatif et Test du Module Multifonction Nodon"
 description: "test du micromodule multifonction Nodon Sin-4-1-20 véritable couteau suisse et comparatif avec le module Legrand Netatmo 412170 en fonctionnement télérupteur dans un tableau électrique"
 ref: "Nodon SIN-4-1-20"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-31 17:43
 last_modified_at: 
 categories: [Tests, Zigbee]

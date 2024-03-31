@@ -4,7 +4,7 @@ title: "Comparison and Test of the Nodon Multifunction Module"
 description: "test of the Nodon Sin-4-1-20 multifunction micromodule, a veritable Swiss army knife and comparison with the Legrand Netatmo 412170 module in remote control operation in an electrical panel"
 ref: "Nodon SIN-4-1-20"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-07-31 17:43
 last_modified_at: 
 categories: [Tests, Zigbee]

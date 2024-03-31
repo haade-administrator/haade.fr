@@ -3,7 +3,7 @@ guid: 58
 title: "NSpanel Pro Update"
 description: "NSpanel Pro V.1.6.0 program update what's new"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-30 15:23
 last_modified_at: 
 categories: [News, Zigbee]

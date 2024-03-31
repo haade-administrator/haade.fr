@@ -4,7 +4,7 @@ title: 'Zigbee vs Z-wave'
 description: "Let's compare the two most used home automation protocols z-wave against zigbee"
 date: '2020-02-11T14:05:00+00:00'
 last_modified_at: '2022-12-15'
-author: Nico
+authors: Nico
 categories: [Automation, Protocoles]
 tags: [z-wave, zigbee, comparaison]
 layout: post

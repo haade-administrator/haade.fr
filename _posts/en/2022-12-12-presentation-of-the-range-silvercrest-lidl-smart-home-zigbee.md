@@ -3,7 +3,7 @@ guid: 34
 title: "Presentation of the zigbee lidl smart home range"
 description: "lidl has been releasing the silvercrest smart home range for some time now, but what is it worth?"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-12-11 18:42
 last_modified_at: 
 categories: [News, Zigbee]

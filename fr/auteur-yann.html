@@ -58,7 +58,7 @@ redirect_from:
                       <a class="d-inline-block mx-1 text-dark" aria-label="Yann email" href="mailto:{{ site.data.authors.Yann.email }}"><i class="ico envelope-solid"></i></a>
                   {%- endif %}
                   <p class="excerpt">{{ site.data.authors.Yann.description[page.locale] }}</p>
-                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"author","Yann" | where: 'locale', page.locale | size }}</span></p>
+                  <p>Nombre d'articles rédigés:<span class="badge badge-light posts">{{ site.posts | where:"authors","Yann" | where: 'locale', page.locale | size }}</span></p>
 
             </div>
             <div class="authorbox col-md-3 text-right">
@@ -70,7 +70,7 @@ redirect_from:
             </div>
         </div>
         <h2 class="font-weight-bold spanborder"><span>Articles Rédigés par {{page.title}}</span></h2>
-            {%- assign filtered_posts = site.posts | where:"author","Yann" | where: 'locale', page.locale %}
+            {%- assign filtered_posts = site.posts | where:"authors", "Yann" | where: 'locale', page.locale %}
             {%- for post in filtered_posts %}
             {%- include main-loop-card.html %}
             {%- endfor %}

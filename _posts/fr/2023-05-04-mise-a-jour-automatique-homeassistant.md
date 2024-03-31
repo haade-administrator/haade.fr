@@ -3,7 +3,7 @@ guid: 64
 title: "Mise à jour automatique Homeassistant"
 description: "Grâce à un Blueprint, automatise les mises à jour de Homeassistant en créant une automatisation, ce blueprint permet de paramétrer d'autres mises à jour. Cette manip très intéressante est tout de même à utiliser avec quelques pincettes"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-04 12:26
 last_modified_at: 
 categories: [Home-Assistant, Haade-lab, Domotique]

@@ -3,7 +3,7 @@ guid: 26
 title: "Moes Push Button Zigbee Switch Test ZTS-EU"
 description: "After testing the Moes touch switch, for personal reasons I ordered the same push button"
 layout: post
-author: Nico
+authors: Nico
 date: 2022-11-06 18:11
 last_modified_at: 
 categories: [Tests, Automation, Zigbee]

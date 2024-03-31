@@ -3,7 +3,7 @@ guid: 50
 title: "Quelle carte choisir pour monter son nas et sa domotique avec nvr"
 description: "Dans cet article je ne cherche pas automatiquement un Nas complet mais plutôt une carte mère adaptée aux besoins d'une maison, alors quelle carte conviendrait le mieux pour un Nas et la domotique en 2023"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-03 07:34
 last_modified_at: 
 categories: [Haade-lab, Domotique, Securite, News]

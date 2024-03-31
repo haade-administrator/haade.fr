@@ -3,7 +3,7 @@ guid: 55
 title: "Heiman HS3AQ Co2 Sensor Test"
 description: "Heiman Zigbee temperature, humidity, Co2 sensor test and integration in homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-19 16:42
 last_modified_at: 2023-06-03 11:16
 categories: [Tests, Zigbee]

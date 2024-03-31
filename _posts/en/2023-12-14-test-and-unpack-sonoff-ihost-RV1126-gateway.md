@@ -4,7 +4,7 @@ title: "test of the Sonoff Ihost box"
 description: "The Sonoff Ihost box is worth the detour, with impressive hardware compatibility and exceptional manufacturing quality, Sonoff has once again created an essential product."
 ref: "iHost"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-12-14 14:22
 last_modified_at: 
 categories: [Tests]

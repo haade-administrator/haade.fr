@@ -3,7 +3,7 @@ guid: 52
 title: "Testing the Nspanel Pro V1.5.4 sonoff module"
 description: "unpacking, testing and installation on homeassistant of the sonoff nspanel pro module without flashing the system"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-10 15:50
 last_modified_at: 
 categories: [Haade-lab, Zigbee, Tests]

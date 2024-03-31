@@ -4,7 +4,7 @@ title: "Z-wave 800LR Silabs relaunches z-wave"
 description: "Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market"
 ref: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2024-03-13 12:47
 last_modified_at: 
 categories: [News]

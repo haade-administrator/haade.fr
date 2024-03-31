@@ -4,7 +4,7 @@ title: "Test du contrôleur de Vanne Zigbee PF-PM02D-TYZ par Moes"
 description: "Aujourd'hui nous allons tester le contrôleur de vanne intelligente iotperfect et revendu par Moes, nous allons voir que la qualité de fabrication ne fait pas tout"
 ref: "PF-PM02D-TYZ"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-11-07 16:43
 last_modified_at: 
 categories: [Tests, Zigbee]

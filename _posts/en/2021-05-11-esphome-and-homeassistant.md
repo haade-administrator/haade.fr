@@ -3,7 +3,7 @@ guid: 7
 title: 'Esphome and Homeassistant integrations'
 date: '2021-05-11T14:28:47+00:00'
 last_modified_at:
-author: Nico
+authors: Nico
 categories: [Automation, Haade-lab, Home-Assistant]
 layout: post
 image: esphome-logo-haade-homeassistant.png

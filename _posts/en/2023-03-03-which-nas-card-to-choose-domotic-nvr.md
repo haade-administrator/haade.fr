@@ -3,7 +3,7 @@ guid: 50
 title: "Which card to choose to mount your nas and home automation with nvr"
 description: "In this article I am not automatically looking for a complete Nas but rather a motherboard adapted to the needs of a house, so which card would be best for a Nas and home automation in 2023"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-03 07:34
 last_modified_at: 
 categories: [Haade-lab, Automation, Security, News]

@@ -4,7 +4,7 @@ title: "Z-wave dead and buried"
 description: "Since the arrival of the Zigbee protocol on the market, the Z-wave protocol seems to be at a standstill, let's take stock of this situation."
 ref: "z-wave"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-02-24 20:47
 last_modified_at: 
 categories: [News, Automation]

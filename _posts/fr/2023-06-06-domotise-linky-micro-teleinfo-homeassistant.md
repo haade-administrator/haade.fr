@@ -3,7 +3,7 @@ guid: 68
 title: "Domotise n'importe quel compteur edf pour 20€ en 5 minutes"
 description: "Relève en 5 minutes la téléinfo dans home assistant sur n'importe quel compteur edf (ancien et linky) avec une clé micro téléinfo v3.0 par charles Hallard à 20€, par l'intermédiaire des modules mqtt et téléinfo2mqtt"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-04 21:01
 last_modified_at: 2023-06-07 11:17
 categories: [Haade-lab, Tests]

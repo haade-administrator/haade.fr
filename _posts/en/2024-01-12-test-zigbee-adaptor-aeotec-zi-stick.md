@@ -4,7 +4,7 @@ title: "Aeotec finally releases its Zigbee controller"
 description: "that's it Aeotec is getting into zigbee, the famous brand known for its quality modules is finally releasing a zigbee controller, the zi-stick"
 ref: "zi-stick ZGA008"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-01-12 11:24
 last_modified_at: 
 categories: [Tests, Zigbee]

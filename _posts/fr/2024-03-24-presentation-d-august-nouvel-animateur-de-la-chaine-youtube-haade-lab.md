@@ -4,7 +4,7 @@ title: "Chaîne Youtube Haade-lab par August"
 description: "Présentation de August et Lulu nouveaux animateurs de la chaîne Haade-Lab, présentant des tutos et tests en domotiques"
 ref: ""
 layout: post
-author: August
+authors: August
 date: 2024-03-24 07:34
 last_modified_at: 
 categories: [Domotique]

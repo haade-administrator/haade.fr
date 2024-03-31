@@ -3,7 +3,7 @@ guid: 65
 title: "Test du Cube Aqara T1 Pro"
 description: "test du cube t1 pro multifonction Aqara et intégration complète avec zigbee2mqtt et Zha, un indispensable de la domotique et une qalité irréprochable pour Aqara"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-14 18:41
 last_modified_at: 
 categories: [Tests, Zigbee, Domotique]

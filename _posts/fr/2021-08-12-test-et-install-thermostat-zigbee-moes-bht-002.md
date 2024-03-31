@@ -3,7 +3,7 @@ guid: 14
 title: "[TEST] et [INSTALL] Thermostat Zigbee Moes BHT-002"
 description: "test d'un thermostat zigbee par Moes le BHT-002"
 layout: post
-author: Nico
+authors: Nico
 date: "2021-08-12T16:34:23+02:00"
 last_modified_at: "2023-01-15 17:03"
 categories: Tests

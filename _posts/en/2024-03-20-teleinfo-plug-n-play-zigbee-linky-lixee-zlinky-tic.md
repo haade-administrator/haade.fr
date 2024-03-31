@@ -4,7 +4,7 @@ title: "Test Lixee Zlinky plug'n play teleinfo"
 description: "Test of the Zlinky module for the feedback of special linky teleinformation manufactured by Lixee and plug'n play, compatible with all opensource boxes"
 ref: "Zlinky_TIC"
 layout: post
-author: Nico
+authors: Nico
 date: 2024-03-20 12:00
 last_modified_at: 
 categories: [Tests, Zigbee, Haade-lab]

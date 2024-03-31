@@ -3,7 +3,7 @@ guid: 68
 title: "Automatizes any edf meter for 20€ in 5 minutes"
 description: "Reads the teleinfo in 5 minutes in home assistant on any edf meter (old and linky) with a teleinfo v3.0 micro key by charles Hallard at 20€, via the mqtt and teleinfo2mqtt modules"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-06-04 21:01
 last_modified_at: 2023-06-07 11:17
 categories: [Haade-lab, Tests]

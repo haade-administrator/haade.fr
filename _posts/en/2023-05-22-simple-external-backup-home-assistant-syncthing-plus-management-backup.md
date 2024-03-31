@@ -3,7 +3,7 @@ guid: 66
 title: "Managing Backups in Homeassistant"
 description: "Easily backup Homeassistant to any external media with Syncthing and automate backup generation very easily in Homeassistant"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-05-22 15:58
 last_modified_at: 
 categories: [Home-Assistant, Haade-lab, Automation]

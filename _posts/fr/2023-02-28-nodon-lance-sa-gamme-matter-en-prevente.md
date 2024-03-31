@@ -3,7 +3,7 @@ guid: 49
 title: "Nodon lance sa gamme matter en prévente"
 description: "Aujourd’hui, NodOn finalise ses premiers produits compatibles et propose un démo kit Matter avec ses produits phares afin de permettre aux industriels de découvrir les produits, leurs capacités et de tester l’interopérabilité Matter avec leur propre écosystème."
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-28 13:11
 last_modified_at: 
 categories: [Domotique, Protocoles, News, Matter]

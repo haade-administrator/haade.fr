@@ -4,7 +4,7 @@ title: "test de la box Sonoff Ihost"
 description: "La box Sonoff Ihost vaut le détour, avec une compatibilité matérielle impressionnante, une qualité de fabrication exceptionnelle, Sonoff signe une fois de plus un produit incontournable."
 ref: "iHost"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-12-14 14:22
 last_modified_at: 
 categories: [Tests]
