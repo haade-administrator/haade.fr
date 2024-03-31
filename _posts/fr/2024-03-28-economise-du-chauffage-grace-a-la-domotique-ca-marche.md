@@ -258,7 +258,7 @@ Pour installer le Blueprint rien dde plus simple, clic sur le bouton ci-dessous.
 
 **PS:** Un **blueprint** est un script qui va te généré une automatisation personnalisée et tu n'auras plus qu'à paramétrer ! Idéal !
 
-{% include homeassistantlink.html blueprint_import="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
+{% include homeassistantlink.html blueprint_import="https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
 
 {% picture posts/{{ page.guid }}/blueprint-trv-sonoff.png --alt blueprint calibration thermostat externe sur robinet thermostatique trv --img width="940" height="388" %}
 
