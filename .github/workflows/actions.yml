@@ -27,6 +27,11 @@ jobs:
   github-pages:
     runs-on: ubuntu-latest
     steps:
+    
+      - name: Time/zone
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: "Europe/Paris"
 
       - name: fr_FR.UTF-8
         run: |
