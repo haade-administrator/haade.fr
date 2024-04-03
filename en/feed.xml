@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Apr 2024 17:58:17 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Mar 2024 11:09:00 +0000</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2024 20:46:57 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2024 18:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Nspanel Pro 3.0 Rubik Design Update</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Presentation of Rubik the new user interface of Nspanel Pro for a new experience takes areas of Rbuki&apos;s cube.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png" alt="Nspanel Pro 3.0 Rubik Design Update">
+</picture>
+
+      <p>Sonoff evolves the user interface (UI) of NSPanel Pro, version 3.0.0 integrates Rubik an interface module which opens up the fields of possibility for you. The company continues to upgrade the firmware of Zigbee modules, and this proves that this company is serious.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/nspanel-pro-firmware-3-0-0-new-interface-rubik-extra">Nspanel Pro 3.0 Rubik Design Update</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 03 Apr 2024 18:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/nspanel-pro-firmware-3-0-0-new-interface-rubik-extra</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/nspanel-pro-firmware-3-0-0-new-interface-rubik-extra</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Save on heating thanks to home automation, it works!</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -41,7 +63,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works">Save on heating thanks to home automation, it works!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Thu, 28 Mar 2024 11:09:00 +0000</pubDate>
+      <pubDate>Thu, 28 Mar 2024 11:09:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/saves-on-heating-thanks-to-home-automation-it-works</guid>
       <category><![CDATA[Haade-lab]]></category>
@@ -63,7 +85,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab">Haade-lab Youtube channel by August</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sun, 24 Mar 2024 07:34:00 +0000</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:34:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</guid>
       <category><![CDATA[Automation]]></category>
@@ -83,7 +105,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic">Test Lixee Zlinky plug'n play teleinfo</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2024 12:00:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</guid>
       <category><![CDATA[Tests]]></category>
@@ -105,7 +127,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal">Z-wave 800LR Silabs relaunches z-wave</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 13 Mar 2024 12:47:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 12:47:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</guid>
       <category><![CDATA[News]]></category>
@@ -125,7 +147,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-human-presence-motion-sensor-snzb-03-snzb-06-sonoff-zigbee">Sonoff zigbee SNZB-03P and SNZB-06P sensor tests</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sun, 03 Mar 2024 18:43:00 +0000</pubDate>
+      <pubDate>Sun, 03 Mar 2024 18:43:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/test-human-presence-motion-sensor-snzb-03-snzb-06-sonoff-zigbee</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-human-presence-motion-sensor-snzb-03-snzb-06-sonoff-zigbee</guid>
       <category><![CDATA[Tests]]></category>
@@ -146,7 +168,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/zwave-dead-and-buried">Z-wave dead and buried</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sat, 24 Feb 2024 20:47:00 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2024 20:47:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/zwave-dead-and-buried</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/zwave-dead-and-buried</guid>
       <category><![CDATA[News]]></category>
@@ -167,7 +189,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding">Tests Aqara h1 switch and bindings</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 21 Feb 2024 13:09:00 +0000</pubDate>
+      <pubDate>Wed, 21 Feb 2024 13:09:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding</guid>
       <category><![CDATA[Tests]]></category>
@@ -189,7 +211,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability">Box Home Assistant Green and Skyconnect test</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 12 Feb 2024 07:26:00 +0000</pubDate>
+      <pubDate>Mon, 12 Feb 2024 07:26:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability</guid>
       <category><![CDATA[Tests]]></category>
@@ -210,34 +232,12 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration">Google Coral AI and Frigate</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 05 Feb 2024 06:20:00 +0000</pubDate>
+      <pubDate>Mon, 05 Feb 2024 06:20:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</guid>
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Comparison of Zigbee thermostatic heads</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Showing of 3 Zigbee thermostatic heads Xiaomi Aqara SRTS-A01, Sonoff TRVZB and Moes ZTRV-BY-100, a comparison to find out which is the best faucet in the contest</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/106/comparison-thermostat-head-xiaomi-sonoff-moes-zigbee-720-ad5811000.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/106/comparison-thermostat-head-xiaomi-sonoff-moes-zigbee-720-ad5811000.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/106/comparison-thermostat-head-xiaomi-sonoff-moes-zigbee-720-ad5811000.png" alt="Comparison of Zigbee thermostatic heads">
-</picture>
-
-      <p>Since last year the government has been advising us to heat our homes to 19°C to save energy. Even more recently, a subsidy is offered, and as is often the case to benefit from it, it must be applied by a professional. Unfortunately this type of installation is often expensive. [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/comparative-thermostat-head-tap-zigbee-xiaomi-sonoff-moes">Comparison of Zigbee thermostatic heads</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 29 Jan 2024 00:05:00 +0000</pubDate>
-      <link>https://haade.fr/en/blog/comparative-thermostat-head-tap-zigbee-xiaomi-sonoff-moes</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/comparative-thermostat-head-tap-zigbee-xiaomi-sonoff-moes</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
-      <category><![CDATA[Automation]]></category>
     </item>
   </channel>
 </rss>

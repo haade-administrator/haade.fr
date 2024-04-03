@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Apr 2024 17:58:17 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Mar 2024 11:09:00 +0000</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2024 20:46:57 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2024 18:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Mise à jour Nspanel Pro 3.0 Rubik Design</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rbuki&apos;s cube.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png" alt="Mise à jour Nspanel Pro 3.0 Rubik Design">
+</picture>
+
+      <p>Sonoff fait évoluer l’interface utilisateur (UI) du NSPanel Pro, la version 3.0.0 intègre Rubik un module d’interface qui t’ouvres les champs du possible. L’entreprise ne cesse de faire évoluer les firmwares des modules Zigbee, et ça prouve que cette société est sérieuse.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra">Mise à jour Nspanel Pro 3.0 Rubik Design</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 03 Apr 2024 18:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Économise du chauffage grâce à la domotique ça marche !</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -41,7 +63,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche">Économise du chauffage grâce à la domotique ça marche !</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Thu, 28 Mar 2024 11:09:00 +0000</pubDate>
+      <pubDate>Thu, 28 Mar 2024 11:09:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche</guid>
       <category><![CDATA[Haade-lab]]></category>
@@ -63,7 +85,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/presentation-d-august-nouvel-animateur-de-la-chaine-youtube-haade-lab">Chaîne Youtube Haade-lab par August</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sun, 24 Mar 2024 07:34:00 +0000</pubDate>
+      <pubDate>Sun, 24 Mar 2024 07:34:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/presentation-d-august-nouvel-animateur-de-la-chaine-youtube-haade-lab</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-d-august-nouvel-animateur-de-la-chaine-youtube-haade-lab</guid>
       <category><![CDATA[Domotique]]></category>
@@ -83,7 +105,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic">Test Lixee Zlinky la téléinfo plug'n play</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 20 Mar 2024 12:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2024 12:00:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/teleinfo-plug-n-play-zigbee-linky-lixee-zlinky-tic</guid>
       <category><![CDATA[Tests]]></category>
@@ -105,7 +127,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/z-wave-800-long-range-silabs-renouveau">Z-wave 800LR Silabs relance z-wave</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 13 Mar 2024 12:47:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 12:47:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/z-wave-800-long-range-silabs-renouveau</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/z-wave-800-long-range-silabs-renouveau</guid>
       <category><![CDATA[News]]></category>
@@ -125,7 +147,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee">Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sun, 03 Mar 2024 18:43:00 +0000</pubDate>
+      <pubDate>Sun, 03 Mar 2024 18:43:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-capteur-mouvement-presence-humaine-snzb03-snzb06-sonoff-zigbee</guid>
       <category><![CDATA[Tests]]></category>
@@ -148,7 +170,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar">Offre d'emploi : Technicien(ne) en Domotique et Réseaux</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Tue, 27 Feb 2024 16:48:00 +0000</pubDate>
+      <pubDate>Tue, 27 Feb 2024 16:48:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/dimatique-recherche-un-technicien-reseau-domotique-sur-colmar</guid>
       <category><![CDATA[News]]></category>
@@ -170,7 +192,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/zwave-mort-et-enterre">Z-wave mort et enterré</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Sat, 24 Feb 2024 20:47:00 +0000</pubDate>
+      <pubDate>Sat, 24 Feb 2024 20:47:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/zwave-mort-et-enterre</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/zwave-mort-et-enterre</guid>
       <category><![CDATA[News]]></category>
@@ -191,7 +213,7 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding">Tests interrupteurs Aqara H1 et binding</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 21 Feb 2024 13:09:00 +0000</pubDate>
+      <pubDate>Wed, 21 Feb 2024 13:09:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-xiaomi-aqara-interrupteur-h1-europe-et-lien-binding</guid>
       <category><![CDATA[Tests]]></category>
@@ -213,33 +235,11 @@
       <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite">Test Box Home Assistant Green et Skyconnect</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 12 Feb 2024 07:26:00 +0000</pubDate>
+      <pubDate>Mon, 12 Feb 2024 07:26:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Google Coral AI et Frigate</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Sur mon NAS privé j&apos;utilise comme NVR frigate, et il est fortement recommandé d&apos;utiliser Google Coral AI, comment agit ce composant sur la puissance du NVR</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png" alt="Google Coral AI et Frigate">
-</picture>
-
-      <p>Un petit tuto pour te montrer les bienfaits d’un google coral dans ton NAS. J’utilise le NVR frigate qui traite par l’ia les images afin d’interpréter une détection d’objet et rendre une conclusion sur l’état. C’est sympa, pratique, mais quand tu n’utilises pas google Coral ça consomme un MAX de [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/frigate-nvr-google-coral-ai-acceleration-materielle">Google Coral AI et Frigate</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 05 Feb 2024 06:20:00 +0000</pubDate>
-      <link>https://haade.fr/fr/blog/frigate-nvr-google-coral-ai-acceleration-materielle</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/frigate-nvr-google-coral-ai-acceleration-materielle</guid>
-      <category><![CDATA[Securite]]></category>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Tests]]></category>
     </item>
   </channel>
 </rss>
