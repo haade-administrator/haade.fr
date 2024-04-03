@@ -27,7 +27,7 @@
   {%- assign seo_description = seo_description | markdownify | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | escape_once | strip -%}
 {%- endif -%}
 
-{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
+{%- assign author = page.authors | first | default: page.authors[0] | default: site.author -%}
 {%- assign author = site.data.authors[author] | default: author -%}
 
 {%- if author.twitter -%}
@@ -125,17 +125,16 @@
     "inLanguage": "{{ page.locale | replace: "_", "-" }}",
     "author": {
       "@type": "Person",
-      {%- assign author = page.author -%}
-      "name": {{ site.data.authors[author].name | jsonify }},
-      "alternateName": {{ site.data.authors[author].display_name | jsonify }},
-      "description": {{ site.data.authors[author].description[page.locale] | jsonify }},
-      "url": {{ site.data.authors[author].url | jsonify }},
-      {%- if site.data.authors[author].gravatar -%}
-      "image": {{ "https://www.gravatar.com/avatar/{{ site.data.authors[author].gravatar }}?s=70&d=mm&r=x" | absolute_url | jsonify }},
+      "name": {{ author.name | jsonify }},
+      "alternateName": {{ author.display_name | jsonify }},
+      "description": {{ author.description[page.locale] | jsonify }},
+      "url": {{ author.url | jsonify }},
+      {%- if author.gravatar -%}
+      "image": {{ "https://www.gravatar.com/avatar/{{ author.gravatar }}?s=70&d=mm&r=x" | absolute_url | jsonify }},
       {%- else -%}
-      "image": {{ site.data.authors[author].avatar | absolute_url | jsonify }},
+      "image": {{ author.avatar | absolute_url | jsonify }},
       {%- endif -%}
-      "email": {{ site.data.authors[author].email | jsonify }}
+      "email": {{ author.email | jsonify }}
     },
     "publisher": {
       "@type": "Organization",

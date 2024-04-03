@@ -1219,14 +1219,18 @@ span.header_title {
 }
 
 .hero-author {
-  display: block;
+  display: inline-block;
   color: $white;
   text-shadow: 1px 1px #333;
-}
 
-.hero-post-author,
+.hero-post-author {
+  font-size: 0.75em;
+  font-weight: 700 !important;
+}
 .hero-post-date {
   font-size: 0.75em;
+  font-weight: normal;
+}
 }
 
 .right {

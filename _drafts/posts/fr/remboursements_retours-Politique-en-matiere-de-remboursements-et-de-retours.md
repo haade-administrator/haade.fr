@@ -2,7 +2,7 @@
 id: 9562
 title: 'Politique en matière de remboursements et de retours'
 date: '2021-08-19T09:11:35+00:00'
-author: Administrateur
+authors: Administrateur
 layout: page
 guid: 'https://www.haade.fr/?page_id=9562'
 ---

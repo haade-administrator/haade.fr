@@ -16,20 +16,20 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon Alexa  - les nouveautés du premier trimestre 2024
-    url: https://www.lesalexiens.fr/actualites/amazon-alexa-nouveautes-premier-trimestre-2024/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-nouveautes-premier-trimestre-2024
+    title: IKEA double la luminosité de son ampoule connectée TRÅDFRI
+    url: https://www.lesalexiens.fr/actualites/ikea-double-la-luminosite-de-son-ampoule-connectee-tradfri/#utm_source=rss&utm_medium=rss&utm_campaign=ikea-double-la-luminosite-de-son-ampoule-connectee-tradfri
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du capteur de température et d’humidité Zigbee SonOff SNZB-02P
-    url: https://blog.domadoo.fr/101418-snzb-02p-sonoff-capteur-temperature-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2023/06/DECOUVERTE-DU-SONOFF-SNZB-02P-UN-CAPTEUR-DE-TEMPERATURE-ET-DHUMIDITE-SENSOR.jpg
+    title: Découverte de la Clé Zigbee 3.0 SkyConnect pour Home Assistant
+    url: https://blog.domadoo.fr/105243-cle-zigbee-skyconnect-home-assistant/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Nabu-casa-SkyConnect-2048x1032-PRESS-2-1024x516.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Roomba Combo i5+  - notre avis complet sur cet aspirateur laveur
-    url: https://blog.nord-domotique.com/test-roomba-combo-i5/
+    title: Test Amazon Fire TV Stick 4K (2e gen)
+    url: https://blog.nord-domotique.com/test-fire-tv-stick-4k-2e-gen/
     image: 
 Abavala:
   fr_FR:
@@ -46,16 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - test powerstation Aferiy 2400w, nouvelle alarme Free,
-      robot Karcher, la guerre aux frelons asiatiques, etc.
-    url: https://www.maison-et-domotique.com/146448-debrief-md-semaine-13-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Test du Acemagic S1 - le mini pc Nuc complet et polyvalent, parfait pour
+      une box domotique !
+    url: https://www.maison-et-domotique.com/146450-test-acemagic-s1-mini-pc-nuc-box-domotique/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/71cf6lt06ol--ac-sl1500--608x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: DEKRA contributes to the IoT Device Security Specification and CSA Certification
-      Program
-    url: https://www.dekra.com/en/dekra-contributor-iot-device-security-specification-csa-certification-program/
+    title: Aliro Executive Overview
+    url: https://csa-iot.org/wp-content/uploads/2024/03/Aliro-Executive-Overview.pdf
     image: 
 Kincony:
   en_GB:

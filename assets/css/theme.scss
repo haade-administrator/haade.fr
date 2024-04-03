@@ -575,11 +575,16 @@ img:hover {
   align-items: center;
 
   .author-thumb {
-    width: 40px;
+    width: 35px;
     height: auto;
     border-radius: 50%;
-    margin-right: 7px;
+    margin-right: 4px;
   }
+.author-meta {
+  .post-name {
+    font-size:0.75em;
+  }
+}
 
   .card {
     border: 0;
@@ -628,7 +633,7 @@ img:hover {
   }
   .post-date {
     float: right;
-    margin-top: 10px;
+    margin-top: 8px;
   }
 
   .img-thumb {
@@ -778,10 +783,17 @@ img:hover {
       border-radius: 50%;
       border: 2px solid darken($primary, 20%);
     }
+
+    a {
+      display: inline-block;
+      width: fit-content;
+
     img.author-thumb {
       width: 40px;
       height: auto;
+      pointer-events: none;
     }
+  }
     
   }
   .d-flex {

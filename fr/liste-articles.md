@@ -1,7 +1,7 @@
 ---
 title: "liste d'articles"
 date: '2022-10-28T17:17:17+00:00'
-author: Nico
+authors: Nico
 layout: page
 comments: false
 locale: fr_FR

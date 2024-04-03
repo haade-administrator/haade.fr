@@ -1,6 +1,4 @@
 <!-- begin post -->
-{%- assign author = site.data.authors[post.author] %}
-{%- assign authorshop = site.data.authors[product.author] %}
 {%- if post.layout == 'post' %}
 <div class="blog-grid-item">
     <div class="card h-100">
@@ -24,7 +22,10 @@
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
-                {%- if post.author %}
+                {%- if post.authors %}
+                {%- assign authors_count = post.authors | size %}
+                {%- for author_id in post.authors %}
+                {%- assign author = site.data.authors[author_id] %}
                 <span class="meta-footer-thumb">
                 {%- if author.avatar %}
                 {% picture avatar {{ author.avatar }} --alt {{ author.display_name }} --img width="40" height="40" %}
@@ -38,6 +39,7 @@
                 {%- elsif page.locale == "fr_FR" %}
                 <a href="{{site.baseurl}}/{{ page.locale | slice: 0,2 }}/auteur-{{ author.name | slugify }}"><span class="post-name font-weight-bold">{{ author.display_name }}</span></a>
                 {%- endif %}
+                {%- endfor %}
                 {%- endif %}
                 {%- if post.last_modified_at != nil %}
                 <span class="post-date">{%- include date.html date=post.last_modified_at %}</span>
@@ -74,7 +76,8 @@
         </div>
         <div class="card-footer bg-white">
             <div class="wrapfooter">
-                {%- if product.author %}
+                {%- if product.authors %}
+                {%- assign authorshop = site.data.authors[product.authors] %}
                 <span class="meta-footer-thumb">
                 {%- if authorshop.avatar %}
                 {% picture avatar {{ authorshop.avatar }} --alt {{ authorshop.display_name }} --img width="40" height="40" %}

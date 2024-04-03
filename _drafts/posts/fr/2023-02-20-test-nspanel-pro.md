@@ -3,7 +3,7 @@ guid: 20
 title: "NsPanel Pro wallpanel"
 description: ""
 layout: post
-author: Nico
+authors: Nico
 date: 2023-02-20 19:02
 last_modified_at: 
 categories: [Docker, Domotique, Zigbee]

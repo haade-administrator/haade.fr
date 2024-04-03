@@ -27,10 +27,14 @@
       {%- endif %}
       <br />
       <a href="{{site.baseurl}}{{latest_post.url}}"><span class="header_title latest">{{ latest_post.title | truncate: 100 }}</span></a>
-      {%- if latest_post.author %}
-      {%- assign latest_post.author = author.name %}
+      {%- if latest_post.authors %}     
+      {%- for author in latest_post.authors %}
       <span class="hero-author">
-        <span class="hero-post-author font-weight-bold">{{ latest_post.author }}</span>
+        <span class="hero-post-author">{{ author }}</span>
+        {%- unless forloop.last %}
+            -
+          {%- endunless %}
+        {%- endfor %}
         {%- endif %}
         {%- if latest_post.last_modified_at != nil %}
         <span class="hero-post-date">-&nbsp;{%- include date.html date=latest_post.last_modified_at %}</span>
@@ -70,9 +74,14 @@
           {%- endif %}
           <br />
         <a href="{{site.baseurl}}{{second_post.url}}"><span class="header_title second">{{ second_post.title | truncate: 60 }}</span></a>
-        {%- if second_post.author %}
+        {%- if second_post.authors %}
+        {%- for author in second_post.authors %}
         <span class="hero-author">
-          <span class="hero-post-author font-weight-bold">{{ second_post.author }}</span>
+          <span class="hero-post-author">{{ author }}</span>
+          {%- unless forloop.last %}
+            -
+          {%- endunless %}
+        {%- endfor %}
           {%- endif %}
           {%- if second_post.last_modified_at != nil %}
           <span class="hero-post-date">-&nbsp;{%- include date.html date=second_post.last_modified_at %}</span>
@@ -112,10 +121,15 @@
             {%- endif %}
             <br />
         <a href="{{site.baseurl}}{{third_post.url}}"><span class="header_title thirdfour">{{ third_post.title | truncate: 60 }}</span></a>
-          {%- if third_post.author %}
+          {%- if third_post.authors %}
+          {%- for author in third_post.authors %}
           <span class="hero-author">
-            <span class="hero-post-author font-weight-bold">{{ third_post.author }}</span>
-            {%- endif %}
+            <span class="hero-post-author">{{ author }}</span>
+            {%- unless forloop.last %}
+            -
+          {%- endunless %}
+        {%- endfor %}
+          {%- endif %}
             {%- if third_post.last_modified_at != nil %}
             <span class="hero-post-date">-&nbsp;{%- include date.html date=third_post.last_modified_at %}</span>
             {%- else %}
@@ -153,10 +167,15 @@
             {%- endif %}
             <br />
           <a href="{{site.baseurl}}{{four_post.url}}"><span class="header_title thirdfour">{{ four_post.title | truncate: 60 }}</span></a>
-          {%- if four_post.author %}
+          {%- if four_post.authors %}
+          {%- for author in four_post.authors %}
           <span class="hero-author">
-            <span class="hero-post-author font-weight-bold">{{ four_post.author }}</span>
-            {%- endif %}
+            <span class="hero-post-author">{{ author }}</span>
+            {%- unless forloop.last %}
+            -
+          {%- endunless %}
+        {%- endfor %}
+          {%- endif %}
             {%- if four_post.last_modified_at != nil %}
             <span class="hero-post-date">-&nbsp;{%- include date.html date=four_post.last_modified_at %}</span>
             {%- else %}

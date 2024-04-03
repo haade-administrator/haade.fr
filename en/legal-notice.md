@@ -1,7 +1,7 @@
 ---
 title: 'Legal notice'
 date: '2019-12-05T17:17:17+00:00'
-author: Nico
+authors: Nico
 layout: page
 locale: en_GB
 locale_reference: legalnotice

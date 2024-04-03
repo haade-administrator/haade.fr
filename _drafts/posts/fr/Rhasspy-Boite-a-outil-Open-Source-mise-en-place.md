@@ -2,7 +2,7 @@
 id: 8507
 title: 'Rhasspy Boite à outil Open Source mise en place'
 date: '2021-07-08T13:58:36+00:00'
-author: Nicolas
+authors: Nicolas
 layout: post
 guid: 'https://www.haade.fr/?p=8507'
 ---

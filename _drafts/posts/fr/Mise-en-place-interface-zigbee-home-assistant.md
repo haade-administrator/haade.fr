@@ -2,7 +2,7 @@
 guid: 8601
 title: 'Mise en place interface zigbee home assistant'
 date: '2020-05-31T11:08:54+00:00'
-author: Nico
+authors: Nico
 layout: post
 ---
 

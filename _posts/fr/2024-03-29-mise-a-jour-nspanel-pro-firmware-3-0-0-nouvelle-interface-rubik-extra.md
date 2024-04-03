@@ -24,4 +24,10 @@ comments: true
 rating:  
 sourcelink:
   - https://sonoff.tech/nspanelpro-api/
+  - https://sonoff.tech/product-review/product-insight/sonoff-nspanel-pro-version-update-information-and-faq/
+  - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
 ---
+
+Sonoff fait évoluer l'interface du {{ page.ref }}, la version 3.0.0 intègre Rubik un moduler d'interface qui t'ouvre les champs du possible. L'entreprise ne cesse de faire évoluer les firmwares des modules Zigbee, et ça prouve que cette société est sérieuse.
+
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Controleur Sonoff Nspanel Pro" brand="Sonoff" description="Controleur Sonoff Nspanel Pro avec zigbee 3.0 et wifi intégré" affiliate="_DCgKVON" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}

@@ -3,7 +3,7 @@ guid: 54
 title: "Conseil sur la domotisation d'une nouvelle maison"
 description: "Afin de m'aider dans mes recherches je vais tenter de rédiger un article complet sur les conseils afin de ne rien oublier de domotiser quand on constrit une nouvelle maison, plus qu'un article un mémoire sur la construction et la domotique"
 layout: post
-author: Nico
+authors: Nico
 date: 2023-03-14 16:35
 last_modified_at: 
 categories: [Domotique, Haade-lab]

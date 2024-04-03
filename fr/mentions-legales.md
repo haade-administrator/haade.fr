@@ -1,7 +1,7 @@
 ---
 title: 'Mentions légales'
 date: '2019-12-05T17:17:17+00:00'
-author: Nico
+authors: Nico
 layout: page
 locale: fr_FR
 locale_reference: legalnotice
