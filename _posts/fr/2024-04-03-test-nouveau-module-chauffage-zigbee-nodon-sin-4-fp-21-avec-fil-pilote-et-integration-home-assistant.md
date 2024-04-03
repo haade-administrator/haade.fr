@@ -36,6 +36,7 @@ switch: !include switch.yaml
 climate: !include thermostat.yaml
 {% endhighlight %}
 
+creation d'un [switch](https://www.home-assistant.io/integrations/switch/) dans homeassistant
 /homeassistant switch.yaml
 
 {% highlight yaml %}
@@ -61,7 +62,7 @@ climate: !include thermostat.yaml
                   - select.radiateur_salon_pilot_wire_mode
 {% endhighlight %}
 
-Création d'un thermostat générique thermostat.yaml
+Création d'un [thermostat générique](https://www.home-assistant.io/integrations/generic_thermostat/) thermostat.yaml
 
 {% highlight yaml %}
 
