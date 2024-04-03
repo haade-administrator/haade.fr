@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/en/blog/nspanel-pro-firmware-3-0-0-new-interface-rubik-extra",
     "title": "Nspanel Pro 3.0 Rubik Design Update",
-    "description": "03/04/2024 - Presentation of Rubik the new user interface of Nspanel Pro for a new experience takes areas of Rbuki's cube.",
+    "description": "03/04/2024 - Presentation of Rubik the new user interface of Nspanel Pro for a new experience takes areas of Rubik's cube.",
     "tags": ""},{
     "id": 1,
     "url": "/en/blog/saves-on-heating-thanks-to-home-automation-it-works",

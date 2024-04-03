@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra",
     "title": "Mise à jour Nspanel Pro 3.0 Rubik Design",
-    "description": "03/04/2024 - Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rbuki's cube.",
+    "description": "03/04/2024 - Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rubik's cube.",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche",
