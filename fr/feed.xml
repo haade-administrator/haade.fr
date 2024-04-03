@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Apr 2024 02:25:18 +0000</pubDate>
+    <pubDate>Wed, 03 Apr 2024 15:10:40 +0000</pubDate>
     <lastBuildDate>Thu, 28 Mar 2024 11:09:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -27,6 +27,8 @@
     <generator>Jekyll v4.3.3</generator>
     <item>
       <title>Économise du chauffage grâce à la domotique ça marche !</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <dc:creator><![CDATA[August]]></dc:creator>
       <description>
       <![CDATA[
       <p>Dans le cadre d&apos;un nouveau concept vidéo présenté par August sur youtube, je vais te détailler l&apos;installation d&apos;une chaudière au gaz domotisée.</p><picture>
@@ -48,6 +50,7 @@
     </item>
     <item>
       <title>Chaîne Youtube Haade-lab par August</title>
+      <dc:creator><![CDATA[August]]></dc:creator>
       <description>
       <![CDATA[
       <p>Présentation de August et Lulu nouveaux animateurs de la chaîne Haade-Lab, présentant des tutos et tests en domotiques</p><picture>
@@ -67,6 +70,7 @@
     </item>
     <item>
       <title>Test Lixee Zlinky la téléinfo plug&apos;n play</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Test du module Zlinky pour la remontée de la téléinformation spécial linky fabriqué par Lixee et plug&apos;n play, compatible toutes box opensource</p><picture>
@@ -88,6 +92,7 @@
     </item>
     <item>
       <title>Z-wave 800LR Silabs relance z-wave</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Depuis le rachat de la fabrication des puces Z-wave, et l&apos;avancée significative sur le marché, Silabs s&apos;apprête à rescussiter le Z-wave sur le marché Européen</p><picture>
@@ -107,6 +112,7 @@
     </item>
     <item>
       <title>Tests capteurs Sonoff zigbee SNZB-03P et SNZB-06P</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>test des capteurs de mouvements et présences humaines sonoff SNZB-03P et SNZB-06P zigbee quelles différences, sont-ils bien reconnus dans nos assistants.</p><picture>
@@ -127,6 +133,7 @@
     </item>
     <item>
       <title>Offre d&apos;emploi : Technicien(ne) en Domotique et Réseaux</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>La société Dimatique situé à Colmar cherche un technicien en Domotique et Réseaux</p><picture>
@@ -150,6 +157,7 @@
     </item>
     <item>
       <title>Z-wave mort et enterré</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Depuis l&apos;arrivée du protocole Zigbee sur le marché, le protocole Z-wave semble être au point mort, faisons le point sur cette situation.</p><picture>
@@ -170,6 +178,7 @@
     </item>
     <item>
       <title>Tests interrupteurs Aqara H1 et binding</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>test de l&apos;interrupteur aqara h1 version europe avec télécommande h1 et initiation à la liaison zigbee bindings</p><picture>
@@ -190,6 +199,7 @@
     </item>
     <item>
       <title>Test Box Home Assistant Green et Skyconnect</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Test de la box Home assistant Green à 99$ et du dongle Skyconnect zigbee à 29,99$, stabilité, performance au rendez-vous</p><picture>
@@ -211,6 +221,7 @@
     </item>
     <item>
       <title>Google Coral AI et Frigate</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>Sur mon NAS privé j&apos;utilise comme NVR frigate, et il est fortement recommandé d&apos;utiliser Google Coral AI, comment agit ce composant sur la puissance du NVR</p><picture>
