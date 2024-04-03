@@ -1,7 +1,7 @@
 ---
 guid: 117
 title: "Mise à jour Nspanel Pro 3.0 Rubik Design"
-description: "Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rbuki's cube."
+description: "Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rubik's cube."
 ref: "NSPanel Pro"
 layout: post
 authors: [Nico]
