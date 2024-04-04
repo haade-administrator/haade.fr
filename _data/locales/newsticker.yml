@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: And the winners of our voice assistant community contest are - ...
-    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
-    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
+    title: 2024.4 - Organize all the things!
+    url: https://www.home-assistant.io/blog/2024/04/03/release-20244/
+    image: http://www.home-assistant.io/images/blog/2024-04/social.png
   en_GB:
   - name: Home-Assistant
-    title: And the winners of our voice assistant community contest are - ...
-    url: https://www.home-assistant.io/blog/2024/03/16/voice-assistant-community-contest-winners-annoucement/
-    image: http://www.home-assistant.io/images/blog/2024-01-11-voice-assistant-contest/banner.png
+    title: 2024.4 - Organize all the things!
+    url: https://www.home-assistant.io/blog/2024/04/03/release-20244/
+    image: http://www.home-assistant.io/images/blog/2024-04/social.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: IKEA double la luminosité de son ampoule connectée TRÅDFRI
-    url: https://www.lesalexiens.fr/actualites/ikea-double-la-luminosite-de-son-ampoule-connectee-tradfri/#utm_source=rss&utm_medium=rss&utm_campaign=ikea-double-la-luminosite-de-son-ampoule-connectee-tradfri
+    title: Les widgets Philips Hue débarquent sur iPhone et iPad
+    url: https://www.lesalexiens.fr/actualites/les-widgets-philips-hue-debarquent-sur-iphone-et-ipad/#utm_source=rss&utm_medium=rss&utm_campaign=les-widgets-philips-hue-debarquent-sur-iphone-et-ipad
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,8 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test Amazon Fire TV Stick 4K (2e gen)
-    url: https://blog.nord-domotique.com/test-fire-tv-stick-4k-2e-gen/
+    title: Découvrez la nouvelle application Home + Security
+    url: https://blog.nord-domotique.com/nouvelle-application-home-security/
     image: 
 Abavala:
   fr_FR:
@@ -46,10 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Acemagic S1 - le mini pc Nuc complet et polyvalent, parfait pour
-      une box domotique !
-    url: https://www.maison-et-domotique.com/146450-test-acemagic-s1-mini-pc-nuc-box-domotique/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/71cf6lt06ol--ac-sl1500--608x500.jpg
+    title: Mon Petit Placement propose un plan B au Livret A !
+    url: https://www.maison-et-domotique.com/146394-mon-petit-placement-plan-b/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/704a9eb3-nouveaute-2023-mon-petit-placement-lance-son-premier-portefeuille-anti-inflation--908-512--0-220-6720-4009-702x396.webp
 Matter:
   en_GB:
   - name: Matter
