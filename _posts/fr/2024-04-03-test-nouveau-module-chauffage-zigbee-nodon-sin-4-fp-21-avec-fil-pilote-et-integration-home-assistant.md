@@ -65,6 +65,12 @@ https://www.zigbee2mqtt.io/devices/064882.html
 
 ## Intégration home assistant
 
+### Prérequis
+
+Afin de pouvoir créer les deux fichiers ci dessous et modifier la configuration.yaml il te faudra installer une application supplémentaire soit:
+1. File Editor
+2. Visual Studio Code
+
 ### configuration.yaml
 
 {% highlight yaml %}
