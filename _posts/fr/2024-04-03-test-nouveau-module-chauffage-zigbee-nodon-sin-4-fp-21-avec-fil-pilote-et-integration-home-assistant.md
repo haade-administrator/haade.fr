@@ -25,7 +25,9 @@ rating:
 sourcelink:
   - https://nodon.fr/nodon/module-chauffage-fil-pilote-zigbee/
 ---
+Nouvel arrivé sur le marché du contrôle de radiateur par fil pilote le Nodon {{ page.ref }}, fidèle à la qualité de fabrication de la marque, nous promet une gestion simplifiée des radiateurs avec gestion par fil pilote.
 
+Le Nodon {{ page.ref }} démontre une intégration avec Zigbee2mqtt et une gestion simplifiée des radiateurs qui est des plus logiques. Mais voilà l'intégration dans Home Assistant avec une gestion par thermostat est nativement impossible. Pouurquoi ? tout simplement parce qu'il n'intègre pas d'interrupteurs on/off qui est indispensable dans l'intégration des [thermostats génériques](https://www.home-assistant.io/integrations/generic_thermostat/){: target="_blank"}.
 
 
 Dédié aux radiateurs électriques fil pilote, le Module Chauffage Fil Pilote Zigbee permet de les rendre connectés et d’automatiser la gestion du chauffage pour réaliser des économies d’énergie. Il permet de gérer jusqu’à six modes et à minima : Confort, Eco, Hors Gel et Arrêt. Appairé à une centrale domotique compatible, la gestion du chauffage devient intelligente et automatique.
