@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.0
 sourcelink:
   - https://nodon.fr/nodon/module-chauffage-fil-pilote-zigbee/
 ---
