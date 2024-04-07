@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Les widgets Philips Hue débarquent sur iPhone et iPad
-    url: https://www.lesalexiens.fr/actualites/les-widgets-philips-hue-debarquent-sur-iphone-et-ipad/#utm_source=rss&utm_medium=rss&utm_campaign=les-widgets-philips-hue-debarquent-sur-iphone-et-ipad
+    title: Nice adapte la domotique aux camping-cars
+    url: https://www.lesalexiens.fr/actualites/nice-adapte-la-domotique-aux-camping-cars/#utm_source=rss&utm_medium=rss&utm_campaign=nice-adapte-la-domotique-aux-camping-cars
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,9 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Mon Petit Placement propose un plan B au Livret A !
-    url: https://www.maison-et-domotique.com/146394-mon-petit-placement-plan-b/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/03/704a9eb3-nouveaute-2023-mon-petit-placement-lance-son-premier-portefeuille-anti-inflation--908-512--0-220-6720-4009-702x396.webp
+    title: Le Debrief M&D - test mini pc Acemagic S1 sous Proxmox, nouveau Plan B
+      au Livret A, kits solaires, etc.
+    url: https://www.maison-et-domotique.com/146612-debrief-md-semaine-14-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
@@ -58,6 +59,6 @@ Matter:
 Kincony:
   en_GB:
   - name: Kincony
-    title: Raspberry Pi iot gateway – KinCony Server16
-    url: https://www.kincony.com/raspberry-pi-iot-gateway.html
+    title: KinCony Server16 Raspberry Pi IoT gateway released
+    url: https://www.kincony.com/raspberry-cm4-iot-gateway.html
     image:
