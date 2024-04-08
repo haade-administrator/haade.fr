@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Apr 2024 04:27:11 +0200</pubDate>
-    <lastBuildDate>Wed, 03 Apr 2024 18:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 08 Apr 2024 17:23:05 +0200</pubDate>
+    <lastBuildDate>Mon, 08 Apr 2024 17:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Testing the new Nodon SIN-4-FP-21 heating module</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>I will test this nodon pilot wire module and above all show you how to integrate and control it in home assistant with the thermostat interface</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-wire-driver-sin-4fp-21-control-in-home-assistant-720-918ff62dd.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-wire-driver-sin-4fp-21-control-in-home-assistant-720-918ff62dd.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-wire-driver-sin-4fp-21-control-in-home-assistant-720-918ff62dd.png" alt="Testing the new Nodon SIN-4-FP-21 heating module">
+</picture>
+
+      <p>A new arrival on the market for radiator control by pilot wire, the Nodon SIN-4-FP-21, faithful to the manufacturing quality of the brand, promises simplified management of radiators with management by pilot wire.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-new-zigbee-nodon-sin-4-fp-21-heating-module-with-pilot-wire-and-home-assistant-integration">Testing the new Nodon SIN-4-FP-21 heating module</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 08 Apr 2024 17:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-new-zigbee-nodon-sin-4-fp-21-heating-module-with-pilot-wire-and-home-assistant-integration</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-new-zigbee-nodon-sin-4-fp-21-heating-module-with-pilot-wire-and-home-assistant-integration</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Nspanel Pro 3.0 Rubik Design Update</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -216,28 +238,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-box-homeassistant-green-and-zigbee-key-skyconnect-performance-and-stability</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Google Coral AI and Frigate</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>On my private NAS I use as a frigate NVR, and it is strongly recommended to use Google Coral AI, how does this component act on the power of the NVR</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/107/test-google-coral-frigate-home-assistant-ai-fait-il-le-job-720-8c2c1743b.png" alt="Google Coral AI and Frigate">
-</picture>
-
-      <p>A little tutorial to show you the benefits of a Google Coral in your NAS. I use the NVR frigate which processes images using AI in order to interpret object detection and render a conclusion on the state. It’s nice, practical, but when you don’t use Google Coral it consumes [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration">Google Coral AI and Frigate</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 05 Feb 2024 06:20:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/frigate-nvr-google-coral-ai-hardware-acceleration</guid>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Tests]]></category>
     </item>
   </channel>
 </rss>
