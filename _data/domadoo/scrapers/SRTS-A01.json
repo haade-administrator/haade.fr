@@ -5,11 +5,11 @@
         "title": "Tête thermostatique Zigbee 3.0 Aqara Radiator Thermostat E1 - AQARA",
         "description": "Une expérience de contrôle de chauffage plus intelligente et plus confortable pour votre maison.",
         "productNew": "",
-        "minsalePrice": "41.24",
-        "maxsalePrice": "54.99",
-        "discount": "-25%",
+        "minsalePrice": "54.99",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "54.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -27,8 +27,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.2",
-            "totalStarCount": "23"
+            "averageStar": "4.3",
+            "totalStarCount": "26"
         }
     }
 }

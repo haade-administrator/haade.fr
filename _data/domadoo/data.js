@@ -58,5 +58,6 @@ module.exports = [
     'peripheriques/5726-aqara-interrupteur-mural-intelligent-h1-zigbee-30-sans-neutre-ws-euk01-6970504214774', // 2188 Aqara WS-EUK01
     'peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023', // 2189 Aqara WRS-R02
     'securite/6827-capteur-de-presence-humaine-zigbee-30-technologie-radar-sonoff', // 2190 Sonoff snzb-06p
-    'securite/6923-sonoff-detecteur-de-mouvement-zigbee-30' // 2191 sonoff snzb-03p
+    'securite/6923-sonoff-detecteur-de-mouvement-zigbee-30', // 2191 sonoff snzb-03p
+    'chauffage-clim/6828-nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21' // 2192 nodon fil-pilote
 ]

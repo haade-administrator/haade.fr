@@ -46,10 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - test mini pc Acemagic S1 sous Proxmox, nouveau Plan B
-      au Livret A, kits solaires, etc.
-    url: https://www.maison-et-domotique.com/146612-debrief-md-semaine-14-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Mise à jour Home Assistant Core 2024.4 - nouvelle organisation des éléments,
+      nouveaux tableaux de bord, et ajouts Matter…
+    url: https://www.maison-et-domotique.com/146574-mise-a-jour-home-assistant-mars-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/20244-702x395.png
 Matter:
   en_GB:
   - name: Matter

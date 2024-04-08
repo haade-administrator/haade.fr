@@ -6,10 +6,10 @@
         "description": "Le micromodule commutateur sans neutre SONOFF ZBMINIL2 ZIGBEE offre la possibilité de contrôler un appareil/éclairage de sa maison.",
         "productNew": "Nouveau",
         "minsalePrice": "14.99",
-        "maxsalePrice": "79.20",
-        "discount": "-25%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "79.20",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -35,7 +35,7 @@
         "ratings": {
             "totalStar": "5",
             "averageStar": "4.6",
-            "totalStarCount": "35"
+            "totalStarCount": "36"
         }
     }
 }
