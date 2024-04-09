@@ -28,8 +28,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez la nouvelle application Home + Security
-    url: https://blog.nord-domotique.com/nouvelle-application-home-security/
+    title: Découvrez la Nouvelle Gamme Gardena ClickUp!  - Un Jardin d’Exception à
+      Portée de Main
+    url: https://blog.nord-domotique.com/decouvrez-gardena-clickup/
     image: 
 Abavala:
   fr_FR:
@@ -46,15 +47,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Mise à jour Home Assistant Core 2024.4 - nouvelle organisation des éléments,
-      nouveaux tableaux de bord, et ajouts Matter…
-    url: https://www.maison-et-domotique.com/146574-mise-a-jour-home-assistant-mars-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/20244-702x395.png
+    title: Test du module Nodon fil pilote SIN-4-FP-21 - contrôle du radiateur électrique
+      en ZigBee avec suivi de consommation !
+    url: https://www.maison-et-domotique.com/146502-test-module-nodon-fil-pilote-sin-4-fp-21/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/sin4-fp-lifestyle1-702x468.png
 Matter:
   en_GB:
   - name: Matter
-    title: Aliro Executive Overview
-    url: https://csa-iot.org/wp-content/uploads/2024/03/Aliro-Executive-Overview.pdf
+    title: Matter Expands Opportunities for Smart Home Product Developers
+    url: https://www.epdtonthenet.net/article/204738/Matter-Expands-Opportunities-for-Smart-Home-Product-Developers.aspx
     image: 
 Kincony:
   en_GB:
