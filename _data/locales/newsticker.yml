@@ -16,15 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Nice adapte la domotique aux camping-cars
-    url: https://www.lesalexiens.fr/actualites/nice-adapte-la-domotique-aux-camping-cars/#utm_source=rss&utm_medium=rss&utm_campaign=nice-adapte-la-domotique-aux-camping-cars
+    title: Amazon Alexa  - le mot de réveil Ziggy enfin disponible en France
+    url: https://www.lesalexiens.fr/actualites/amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la Clé Zigbee 3.0 SkyConnect pour Home Assistant
-    url: https://blog.domadoo.fr/105243-cle-zigbee-skyconnect-home-assistant/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Nabu-casa-SkyConnect-2048x1032-PRESS-2-1024x516.jpg
+    title: TasmotaConfig, l’application qui facilite l’installation des produits Tasmota
+    url: https://blog.domadoo.fr/105445-tasmotaconfig-application-produits-tasmota/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/Tasmota-config-2048-1024x516.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -47,10 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du module Nodon fil pilote SIN-4-FP-21 - contrôle du radiateur électrique
-      en ZigBee avec suivi de consommation !
-    url: https://www.maison-et-domotique.com/146502-test-module-nodon-fil-pilote-sin-4-fp-21/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/sin4-fp-lifestyle1-702x468.png
+    title: Comment Nice adapte la domotique aux camping-cars
+    url: https://www.maison-et-domotique.com/146603-nice-domotique-camping-cars/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/nice-01-702x311.jpeg
 Matter:
   en_GB:
   - name: Matter
