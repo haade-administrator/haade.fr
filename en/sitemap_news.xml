@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/home-assistant-Template-make-averages-of-multiple-entities</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-04-11T12:30:00+02:00</news:publication_date>
+          <news:title>Template - Create an average on entities</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/119/create-an-average-on-entities-template-home-assistant.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/test-new-zigbee-nodon-sin-4-fp-21-heating-module-with-pilot-wire-and-home-assistant-integration</loc>
         <news:news>
           <news:publication>
