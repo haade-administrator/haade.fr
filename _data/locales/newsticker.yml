@@ -47,9 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Comment Nice adapte la domotique aux camping-cars
-    url: https://www.maison-et-domotique.com/146603-nice-domotique-camping-cars/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/nice-01-702x311.jpeg
+    title: Guide - Intégrer Starlink dans Home Assistant
+    url: https://www.maison-et-domotique.com/146556-guide-integrer-starlink-dans-home-assistant/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-starlink-home-assistant-702x367.png
 Matter:
   en_GB:
   - name: Matter
