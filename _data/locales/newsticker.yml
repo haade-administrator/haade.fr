@@ -47,18 +47,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Guide - Intégrer Starlink dans Home Assistant
-    url: https://www.maison-et-domotique.com/146556-guide-integrer-starlink-dans-home-assistant/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-starlink-home-assistant-702x367.png
+    title: Domotique Ikea - Matter est enfin là !
+    url: https://www.maison-et-domotique.com/146633-domotique-ikea-matter-est-enfin-la/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/ikea-matter-702x474.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Matter Expands Opportunities for Smart Home Product Developers
-    url: https://www.epdtonthenet.net/article/204738/Matter-Expands-Opportunities-for-Smart-Home-Product-Developers.aspx
+    title: A New Specification Pulls Global IoT Security Under One Standard
+    url: https://www.allaboutcircuits.com/news/a-new-specification-pulls-global-iot-security-under-one-standard/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony Server16 Raspberry Pi IoT gateway released
-    url: https://www.kincony.com/raspberry-cm4-iot-gateway.html
+    title: KinCony A32 Pro 32 Channel ESP32 Relay Board released
+    url: https://www.kincony.com/32-channel-esp32-relay-board.html
     image:
