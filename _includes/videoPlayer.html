@@ -13,7 +13,7 @@
 </div>
 {%- elsif include.localId != nil %}
 <div class="embed-container lazyimg">
-    <video controls width="100%" height="auto" type="video/webm" style="border-radius:15px">
+    <video controls width="100%" height="auto" type="video" style="border-radius:15px">
         <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" />
         <p>
             {{ translate.text[page.locale] }}
