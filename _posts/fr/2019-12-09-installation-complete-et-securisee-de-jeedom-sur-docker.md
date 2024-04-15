@@ -4,7 +4,7 @@ title: 'Jeedom sur docker'
 date: '2019-12-09T10:17:14+00:00'
 last_modified_at:
 authors: Nico
-categories: [Domotique, Haade-lab, Docker, Jeedom]
+categories: [Domotique, Haade-lab, Jeedom]
 layout: post
 image: installation-jeedom-docker-1.png
 tags:

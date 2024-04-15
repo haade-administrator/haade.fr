@@ -16,20 +16,21 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Nice adapte la domotique aux camping-cars
-    url: https://www.lesalexiens.fr/actualites/nice-adapte-la-domotique-aux-camping-cars/#utm_source=rss&utm_medium=rss&utm_campaign=nice-adapte-la-domotique-aux-camping-cars
+    title: Amazon Alexa  - le mot de réveil Ziggy enfin disponible en France
+    url: https://www.lesalexiens.fr/actualites/amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la Clé Zigbee 3.0 SkyConnect pour Home Assistant
-    url: https://blog.domadoo.fr/105243-cle-zigbee-skyconnect-home-assistant/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Nabu-casa-SkyConnect-2048x1032-PRESS-2-1024x516.jpg
+    title: TasmotaConfig, l’application qui facilite l’installation des produits Tasmota
+    url: https://blog.domadoo.fr/105445-tasmotaconfig-application-produits-tasmota/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/Tasmota-config-2048-1024x516.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez la nouvelle application Home + Security
-    url: https://blog.nord-domotique.com/nouvelle-application-home-security/
+    title: Découvrez la Nouvelle Gamme Gardena ClickUp!  - Un Jardin d’Exception à
+      Portée de Main
+    url: https://blog.nord-domotique.com/decouvrez-gardena-clickup/
     image: 
 Abavala:
   fr_FR:
@@ -46,15 +47,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - test mini pc Acemagic S1 sous Proxmox, nouveau Plan B
-      au Livret A, kits solaires, etc.
-    url: https://www.maison-et-domotique.com/146612-debrief-md-semaine-14-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Guide - Intégrer Starlink dans Home Assistant
+    url: https://www.maison-et-domotique.com/146556-guide-integrer-starlink-dans-home-assistant/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-starlink-home-assistant-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: Aliro Executive Overview
-    url: https://csa-iot.org/wp-content/uploads/2024/03/Aliro-Executive-Overview.pdf
+    title: Matter Expands Opportunities for Smart Home Product Developers
+    url: https://www.epdtonthenet.net/article/204738/Matter-Expands-Opportunities-for-Smart-Home-Product-Developers.aspx
     image: 
 Kincony:
   en_GB:

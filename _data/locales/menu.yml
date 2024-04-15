@@ -79,14 +79,14 @@ tutorials:
     name: "Tutos"
     link: "en/category/haade-lab"
 
-docker:
+mini-tutos:
   fr_FR:
-    name: "Docker"
-    link: "fr/categorie/docker"
+    name: "Mini-tutos"
+    link: "fr/categorie/mini-tutos"
 
   en_GB:
-    name: "Docker"
-    link: "en/category/docker"
+    name: "Mini-tutorials"
+    link: "en/category/mini-tutorials"
 
 ha:
   fr_FR:

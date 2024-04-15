@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "chauffage-clim/6828-nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21",
+        "productId": "SIN-4-FP-21",
+        "title": "NODON - Module chauffage connecté Fil Pilote Zigbee 3.0 SIN-4-FP-21",
+        "description": "Dédié aux radiateurs électriques fil pilote, le Module Chauffage Fil Pilote Zigbee 3.0 permet de les rendre connectés et d’automatiser la gestion du chauffage pour réaliser des économies d’énergie.",
+        "productNew": "",
+        "minsalePrice": "39.90",
+        "maxsalePrice": "39.99",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "39.99",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/27368-large_default/nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21.jpg",
+            "https://cdn1.domadoo.fr/27368-medium_default/nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21.jpg",
+            "https://cdn1.domadoo.fr/28599-medium_default/nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "5",
+            "totalStarCount": "9"
+        }
+    }
+}
