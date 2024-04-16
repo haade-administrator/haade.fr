@@ -205,11 +205,11 @@ ou déjà transformé:
 
 ![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421"}
 
-### intégrer une video
+### intégrer une video webm non compatible apple
 youtube:
 {% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
 local:
-{% include videoPlayer.html localId="nom.webm" %}
+{% include videoPlayer.html localId="nom.mp4" %}
 external:
 {% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
 twitch:
