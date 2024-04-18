@@ -716,7 +716,7 @@ The adaptive view is an extra bonus especially dedicated to tablet displays. You
 
 [adaptive view installation instructions](https://ui-lovelace-minimalist.github.io/UI/setup/adaptive_dash/#add-adaptive-dashboard){: target="_blank"}
 
-![Capturing an image of minimalist.ui's adaptive display]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/minimalist_adaptive_dash.webp{{ cachebuster }}){: width="480" height="270" class="lazy"}
+![Capturing an image of minimalist.ui's adaptive display]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/minimalist_adaptive_dash.webp{{ cachebuster }}){: width="480" height="270" class="lazyload"}
 
 [example adaptive dashboard code by Basbruss](https://github.com/basbruss/Minimalist-Dashboards){: target="_blank"}
 
@@ -930,7 +930,7 @@ states:
 > to **refresh the frontend** you will need to force the page **adaptive_ui.yaml** by making a modification and saving
 
 ### Result
-![Capture an image of minimalist.ui adaptive display]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/capture-minimalist-ui-adaptive-dashboard.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
+![Capture an image of minimalist.ui adaptive display]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/capture-minimalist-ui-adaptive-dashboard.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
 
 ## Conclusion {{ page.ref }}
 

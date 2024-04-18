@@ -83,7 +83,7 @@ Tout est fonctionnel, cependant une coquille au niveau du Firmware est reconnu c
 
 > Plus toute une batterie de Paramètres et Diagnostiques bref que du Bonheur.
 
-![Paramètre Fibaro fgpw-102 homeassistant-zwavejs]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametre-homeassistant-zwavejs-fibaro-fgpw-102.webp{{ cachebuster }}){: width="940" height="870" class="lazy"}
+![Paramètre Fibaro fgpw-102 homeassistant-zwavejs]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametre-homeassistant-zwavejs-fibaro-fgpw-102.webp{{ cachebuster }}){: width="940" height="870" class="lazyload"}
 
 # le module dans Jeedom + ZwaveJS
 

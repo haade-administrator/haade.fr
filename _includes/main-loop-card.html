@@ -33,14 +33,14 @@
 	</div>
 	<div class="col-md-3 pr-0 text-right">
 		<a href="{{site.baseurl}}{{post.url}}">
-			{%- if post.youtubevideo %}
-			<div class="img-thumb">
-				<iframe data-src="https://www.youtube.com/embed/{{ post.youtubevideo }}" class="lazy" width="275"
+			{%- if post.youtubevideo != nil %}
+			<div class="embed-container">
+				<iframe data-src="https://www.youtube.com/embed/{{ post.youtubevideo }}" class="lazyload" width="275"
 					height="100%" title="{{ post.title }}" frameborder="0" allowfullscreen="true">
 				</iframe>
 			</div>
-			{%- elsif post.image %}
-			<img class="img-thumb lazy"
+			{%- elsif post.image != nil %}
+			<img class="img-thumb"
 				src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII="
 				data-src="{%- if post.image contains " ://" %}assets/images/posts/{{ post.guid }}{{ post.image }}{{
 				cachebuster }}{%- else %}{{ site.baseurl }}/assets/images/posts/{{ post.guid }}/{{ post.image }}{{

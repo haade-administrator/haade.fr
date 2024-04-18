@@ -166,11 +166,11 @@ target: software
 J'ai fait une vidéo d'intégration de la clé zigbee dans zha avec un défaut d'intégration. Pour ce faire prépare l'adresse de la clé, ensuite enclanche le switch fx dans esphome et configure la clé rapidement, sinon relance l'opération et ça le fera. " uniquement valable avec le firmware d'origine.
 > Si tu upgrades avec le [dernier firmware](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20230507.zip){: target="_blank"} la découverte dans ZHA se fera sans avoir besoin de cliquer sur le switch fw.
 
-![Méthode de connection et de fonctionnement de la clé cc2652 zigbee du zbbridge-pro dans ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384" class="lazy"}
+![Méthode de connection et de fonctionnement de la clé cc2652 zigbee du zbbridge-pro dans ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384" class="lazyload"}
 
 Ci-dessous le fonctionnement lumineux après activation du switch. **Le voyant vert te permet de savoir quand intégrer** ou faire la mise à jour du firmware:
 
-![Fonctionnement du switch firmware zigbee dans esphome]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-firmware-update-esphome-sonoff-zbbridge-pro.webp{{ cachebuster }}){: width="400" height="275" class="lazy"}
+![Fonctionnement du switch firmware zigbee dans esphome]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-firmware-update-esphome-sonoff-zbbridge-pro.webp{{ cachebuster }}){: width="400" height="275" class="lazyload"}
 
 ## Configuration zigbee2mqtt
 La configuration dans Z2M est légèrement différente cor tu feras un appel par tcp et non par socket

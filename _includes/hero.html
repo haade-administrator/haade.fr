@@ -6,7 +6,7 @@
       <a href="{{site.baseurl}}{{latest_post.url}}">
         {% if latest_post.youtubevideo != nil %}
         <div class="hero-image">
-          <iframe data-src="https://www.youtube.com/embed/{{ latest_post.youtubevideo }}" class="lazy" width="100%"
+          <iframe data-src="https://www.youtube.com/embed/{{ latest_post.youtubevideo }}" class="lazyload" width="100%"
             height="100%" title="{{ latest_post.title }}" frameborder="0" allowfullscreen="true">
           </iframe>
         </div>
@@ -61,7 +61,7 @@
         <a href="{{site.baseurl}}{{second_post.url}}">
           {%- if second_post.youtubevideo != nil %}
           <div class="hero-image">
-            <iframe data-src="https://www.youtube.com/embed/{{ second_post.youtubevideo }}" class="lazy" width="100%"
+            <iframe data-src="https://www.youtube.com/embed/{{ second_post.youtubevideo }}" class="lazyload" width="100%"
               height="100%" title="{{ second_post.title }}" frameborder="0" allowfullscreen="true">
             </iframe>
           </div>
@@ -116,7 +116,7 @@
               <a href="{{site.baseurl}}{{third_post.url}}">
                 {%- if third_post.youtubevideo != nil %}
                 <div class="hero-image">
-                  <iframe data-src="https://www.youtube.com/embed/{{ third_post.youtubevideo }}" class="lazy"
+                  <iframe data-src="https://www.youtube.com/embed/{{ third_post.youtubevideo }}" class="lazyload"
                     height="100%" title="{{ third_post.title }}" frameborder="0" allowfullscreen="true">
                   </iframe>
                 </div>
@@ -170,7 +170,7 @@
               <a href="{{site.baseurl}}{{four_post.url}}">
                 {%- if four_post.youtubevideo != nil %}
                 <div class="hero-image">
-                  <iframe data-src="https://www.youtube.com/embed/{{ four_post.youtubevideo }}" class="lazy"
+                  <iframe data-src="https://www.youtube.com/embed/{{ four_post.youtubevideo }}" class="lazyload"
                     height="100%" title="{{ four_post.title }}" frameborder="0" allowfullscreen="true">
                   </iframe>
                 </div>

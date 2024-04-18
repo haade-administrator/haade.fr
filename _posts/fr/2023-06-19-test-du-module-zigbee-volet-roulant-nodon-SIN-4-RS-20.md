@@ -106,7 +106,7 @@ La mise en page de l'entité dans Home assistant est top. Tu pourras retrouver l
 |Type d'identifiant de l'appareil|Dispositif de couverture de fenêtre (0x0202)|
 |Dimensions|40 mm (l) x 44 mm (L) x 16.9 mm (h)|
 
-![Capture d'image 3D Nodon SIN-4-RS-20]({{ site.baseurl }}/assets/images/posts/71/SIN-4-RS-20-360.webp{{ cachebuster }}){: width="400" height="319" class="lazy"}{: target="_blank"}
+![Capture d'image 3D Nodon SIN-4-RS-20]({{ site.baseurl }}/assets/images/posts/71/SIN-4-RS-20-360.webp{{ cachebuster }}){: width="400" height="319" class="lazyload"}{: target="_blank"}
 
 ## Compatibilité
 

@@ -77,7 +77,7 @@ For instance the integration with zigbee2mqtt and homeassistant is very easy. We
 
 Above all the homeassistant part is relatively complete unfortunately the programming of the hourly / day periods is not possible. You found in the attributes, it is already not bad. Everything else is configurable via the wizard.
 
-![test lovelace thermostat bht-002 by Moes]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/integration-thermostat-moes-bht-002-home-assistant.webp{{ cachebuster }}){: width="504" height="545" class="lazy"} 
+![test lovelace thermostat bht-002 by Moes]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/integration-thermostat-moes-bht-002-home-assistant.webp{{ cachebuster }}){: width="504" height="545" class="lazyload"} 
 
 # Concluse
 

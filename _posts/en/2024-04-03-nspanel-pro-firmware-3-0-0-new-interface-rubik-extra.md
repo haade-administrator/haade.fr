@@ -89,7 +89,7 @@ The reminder screen allows you to **write a text when you call** you can simply 
 
 Finally I created an animated navigation gif on the **Ewelink** application, like that, you will avoid any questions about the operation of Sonoff {{ page.ref }} v3.0.0.
 
-![Navigation on Ewelink for Rubik nspanel pro v3.0.0 settings]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/nspanel-pro-v3-ewelink-rubik.webp{{ cachebuster }}){: width="388" height="690" class="lazy"}
+![Navigation on Ewelink for Rubik nspanel pro v3.0.0 settings]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/nspanel-pro-v3-ewelink-rubik.webp{{ cachebuster }}){: width="388" height="690" class="lazyload"}
 
 ## Updated from version 2.2.0
 

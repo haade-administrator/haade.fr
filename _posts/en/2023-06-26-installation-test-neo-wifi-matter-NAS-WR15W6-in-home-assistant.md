@@ -128,7 +128,7 @@ Once these two integrations are done, all you have to do is click on **add a Mat
 
 **As a video is worth ten words**, see the image of the Neo {{ page.ref }} module integration below.
 
-![Integration of neo matter socket in home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/video-integration-switch-neo-dans-home-assistant-avec-matter.webp{{ cachebuster }}){: width="300" height="649" class="lazy"}{: target="_blank"}
+![Integration of neo matter socket in home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/video-integration-switch-neo-dans-home-assistant-avec-matter.webp{{ cachebuster }}){: width="300" height="649" class="lazyload"}{: target="_blank"}
 
 And now you can finally use the neo module {{ page.ref }} in home assistant, and you can see below that the control of this module is limited to the on/off switch, a bit light in my opinion .
 

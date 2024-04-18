@@ -85,7 +85,7 @@ L'alarme **ne possède pas de bouton ON/OFF virtuel ou physique** il faudra dans
 
 ## Animation en mode en intégration utilisateur
 
-![intégration utilisateur de l'alarme Heiman Zigbee HS2WD-E dans une automatisation avec Home-Assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/heiman-sirene-hs2wd-e-integration-action-ha.webp{{ cachebuster }}){: width="940" height="885" class="lazy"}
+![intégration utilisateur de l'alarme Heiman Zigbee HS2WD-E dans une automatisation avec Home-Assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/heiman-sirene-hs2wd-e-integration-action-ha.webp{{ cachebuster }}){: width="940" height="885" class="lazyload"}
 
 # Les **+**{: .blue} du produit
 

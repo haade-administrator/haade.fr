@@ -114,7 +114,7 @@ L'onglet thème permet de choisir un fond d'écran dynamique ou simple, rien de 
 ### Ajouter caméra
 > L'intégration de deux caméras au **format RTSP** s'est fait sans soucis
 
-![Intégration caméra RTSP dans NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471" class="lazy"}{: target="_blank"}
+![Intégration caméra RTSP dans NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471" class="lazyload"}{: target="_blank"}
 
 ### Réglage
 **L'onglet réglage permet de:**
@@ -161,7 +161,7 @@ Une vidéo distribuée par Sonoff illustre bien l'installation de l'addons, je n
 
 Colle le [lien du répertoire Github](https://github.com/CoolKit-Technologies/ha-addon){: target="_blank"} pour accéder à l'addons. Ensuite regarde la vidéo ci-dessous pour une installation complète.
 
-![Installation Ewelink Nspanel Pro sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/nspanel-pro-ewelink-installation.webp{{ cachebuster }}){: width="940" height="521" class="lazy"}{: target="_blank"}
+![Installation Ewelink Nspanel Pro sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/nspanel-pro-ewelink-installation.webp{{ cachebuster }}){: width="940" height="521" class="lazyload"}{: target="_blank"}
 
 **Avantages:**{: .blue}
 - Ewelink permet l'import des [modules compatibles](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} inclus dans homeassistant
@@ -202,7 +202,7 @@ Retrouve une vidéo de mise en place ci-dessous
 ## #3 En utilisant le [dépôt Sonofflan](https://github.com/AlexxIT/SonoffLAN){: target="_blank"} ( local et/ou cloud )
 Entièrement développé par AlexxIT ce module permet de contrôler facilement les produits Sonoff il a l'avantage d'être très facile d'utilisation. Cependant il sera tout de même nécessaire de paramétrer le cloud Ewelink mais sans pour autant être obligé de l'utilisation, enfin ça dépend de la compatibilité Lan de Sonoff
 
-![Installation Nspanel Pro Sonofflan sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height="517" class="lazy"}{: target="_blank"}
+![Installation Nspanel Pro Sonofflan sur Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height="517" class="lazyload"}{: target="_blank"}
 
 **Avantages:**{: .blue}
 - **Intégration parfaite dans Homeassistant**

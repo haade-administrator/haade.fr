@@ -110,7 +110,7 @@ Tu pourras vite te rendre compte que le module est de bonne facture et pourtant 
 
 Le module est livré avec une notice, un support mural/rail din ainsi que deux visses qui te permettront de verouiller le clapet d'accès aux cables électriques.
 
-![remontée d'info ecran digital sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/sonoff-smart-power-meter-powr316d-display.webp{{ cachebuster }}){: width="250" height="400" class="lazy"}
+![remontée d'info ecran digital sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/sonoff-smart-power-meter-powr316d-display.webp{{ cachebuster }}){: width="250" height="400" class="lazyload"}
 
 L'écran LCD est relativement grand, les infos sont claires, tu pourras voir en direct les consos **( Volt, Ampère, Kwh et W), franchement pas mal.**
 
@@ -140,7 +140,7 @@ L'écran LCD est relativement grand, les infos sont claires, tu pourras voir en 
 
 Cette étape est malheureusement nécessaire pour pouvoir utiliser le module Sonoff {{ page.ref }}, une fois inclus SonoffLAN récupère les infos et peut ainsi les traiter en local sans passer par le cloud Ewelink.
 
-![inclusion ewelink app sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/integration-module-sonoff-app-ewelink.webp{{ cachebuster }}){: width="300" height="650" class="lazy"}
+![inclusion ewelink app sonoff smart meter powr316d]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/integration-module-sonoff-app-ewelink.webp{{ cachebuster }}){: width="300" height="650" class="lazyload"}
 
 > Bizarrement je n'ai pas réussi à l'inclure en scannant le QRCode.
 
@@ -175,7 +175,7 @@ Si tu clic sur:
 
 Enfin si tu clic sur l'appareil tu auras accès à la page des 9 entités de cet appareil rien que ça, le contrôle on/off est instantané malgré la distance de l'antenne wifi. Tu auras accès à l'ensemble des commandes.
 
-![entité découvert dans home assistant sonoff smart meter powr316d]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/entité-powr316d.webp{{ cachebuster }}){: width="940" height="789" class="lazy"}
+![entité découvert dans home assistant sonoff smart meter powr316d]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/entité-powr316d.webp{{ cachebuster }}){: width="940" height="789" class="lazyload"}
 
 ## Conclusion
 

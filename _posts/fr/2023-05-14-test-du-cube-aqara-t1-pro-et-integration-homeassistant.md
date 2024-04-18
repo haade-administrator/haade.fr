@@ -135,7 +135,7 @@ Là aussi j'utilise le Blueprint fournis par Sir_Goodenough et très bien docume
 
 ### Créer un nombre pour le blueprint
 
-![Créer un nombre dans Homeassistant afin de créer les 6 faces du cube]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creer-nombre-ha-cube-t1-pro.webp{{ cachebuster }}){: width="820" height="409" class="lazy"}{: target="_blank"}
+![Créer un nombre dans Homeassistant afin de créer les 6 faces du cube]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creer-nombre-ha-cube-t1-pro.webp{{ cachebuster }}){: width="820" height="409" class="lazyload"}{: target="_blank"}
 
 ## Conclusion intégration
 

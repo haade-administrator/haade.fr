@@ -57,7 +57,7 @@ Commençons par installer la librairie de gestion des cartes esp8266 et esp32:
 
 - Fichier > Préférences et collez l'url ci-dessus dans URL de gestionnaire de carte supplémentaire
 
-![Installations des librairies de cartes]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/add-preference-card-arduino.webp{{ cachebuster }}){: width="796" height="533" class="lazy"}
+![Installations des librairies de cartes]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/add-preference-card-arduino.webp{{ cachebuster }}){: width="796" height="533" class="lazyload"}
 
 - Outils > carte > gestionnaires de carte, cherchez **esp8266 et esp32** et installez la dernière version Espressif
 
@@ -194,7 +194,7 @@ Il suffit de décommenter le code ligne 272-291
 }
   {% endhighlight %}
 
-![Trouver la bonne fréquence correspondant au module Everblu]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/frequence-found.webp{{ cachebuster }}){: width="838" height="613" class="lazy"}
+![Trouver la bonne fréquence correspondant au module Everblu]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/frequence-found.webp{{ cachebuster }}){: width="838" height="613" class="lazyload"}
 
 Poussez le code sur votre module ensuite sélectionne Monitor série:
 
@@ -224,7 +224,7 @@ configTzTime("CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", "pool.ntp.org");
 
 Commençons par reprendre [le schéma dispo plus haut]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/domotiser-compteur-eau-itron-everblu-cyble#connection-esp866-au-cc011-dans-mon-cas-un-wemos-d1-mini), tu pourras te rendre compte que sur un Wemos D1 par exemple que SCK correspond au GPIO14, Miso 12 etc... sachant que ça modifie les lignes 94 à 100 du code dispo dans ce fichier. Voir le Gif animé ci-dessous:
 
-![Paramétrer les branchements du CC1101 au Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298" class="lazy"}
+![Paramétrer les branchements du CC1101 au Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298" class="lazyload"}
 
 #### Fichier everblu_meters.h 
 
@@ -282,7 +282,7 @@ Hard resetting via RTS pin...
 2. Ajouter une source d'eau
 3. Sélectionne Water meter index
 
-![Paramétrer Consommation eau dans ha energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parameter-watermeter-energy-ha.webp{{ cachebuster }}){: width="657" height="287" class="lazy"}
+![Paramétrer Consommation eau dans ha energie]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parameter-watermeter-energy-ha.webp{{ cachebuster }}){: width="657" height="287" class="lazyload"}
 
 ### Résultat final dans conso Energie
 

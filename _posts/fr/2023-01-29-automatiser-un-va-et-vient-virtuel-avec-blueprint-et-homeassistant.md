@@ -62,7 +62,7 @@ Partons du principe que tu as correctement connecté tes interrupteurs et qu'ils
 
 Ci-dessous **un gif reprenant les étapes d'importations** d'un blueprint dans homeassistant.
 
-![étape d'importation d'un blueprint dans homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/parametrage-blueprint-va-et-vient-virtuel-2-way.webp{{ cachebuster }}){: width="939" height="528" class="lazy"}
+![étape d'importation d'un blueprint dans homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/parametrage-blueprint-va-et-vient-virtuel-2-way.webp{{ cachebuster }}){: width="939" height="528" class="lazyload"}
 
 Copie ce lien pour l'importation du blueprint:
 

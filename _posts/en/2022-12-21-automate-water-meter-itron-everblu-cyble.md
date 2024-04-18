@@ -55,7 +55,7 @@ Let's start by installing the esp8266 and esp32 card management library:
 
 - File > Preferences and paste the above url in Additional Map Manager URL
 
-![Map library installations]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/add-preference-card-arduino.webp{{ cachebuster }}){: width="796" height="533" class="lazy"}
+![Map library installations]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/add-preference-card-arduino.webp{{ cachebuster }}){: width="796" height="533" class="lazyload"}
 
 - Tools > map > map managers, search for **esp8266 and esp32** and install the latest Espressif version
 {% picture posts/{{ page.guid }}/add-esp8266-card.png --alt Installer librairies cartes esp8266 --img width="796" height="533" %}
@@ -192,7 +192,7 @@ Just uncomment the code line 272-291
 }
 {% endhighlight %}
 
-![Find the right frequency corresponding to the Everblu module]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/frequence-found.webp{{ cachebuster }}){: width="838" height="613" class="lazy"}
+![Find the right frequency corresponding to the Everblu module]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/frequence-found.webp{{ cachebuster }}){: width="838" height="613" class="lazyload"}
 
 Push the code to your module then select Serial Monitor:
 
@@ -222,7 +222,7 @@ Important step, match the connections of the CC1001 to the GPIO of the esp modul
 
 Let's start by going back to [the diagram available above]({{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/blog/automate-water-meter-itron-everblu-cyble#connection-esp866-to-cc011-in-my-case-a-wemos-d1-mini), you will be able to realize that on a Wemos D1 for example that SCK corresponds to the GPIO14, Miso 12 etc... knowing that modifies lines 94 to 100 of the code available in this file. See the animated GIF below:
 
-![Configure the connections of the CC1101 to the Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298" class="lazy"}
+![Configure the connections of the CC1101 to the Wemos]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/define-pin-cc1101-esp8266.webp{{ cachebuster }}){: width="529" height="298" class="lazyload"}
 
 #### everblu_meters.h file
 
@@ -281,7 +281,7 @@ Hard resetting via RTS pin...
 2. Add a water source
 3. Select Water meter index
 
-![Configure Water consumption in ha energy]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parameter-watermeter-energy-ha.webp{{ cachebuster }}){: width="657" height="287" class="lazy"}
+![Configure Water consumption in ha energy]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parameter-watermeter-energy-ha.webp{{ cachebuster }}){: width="657" height="287" class="lazyload"}
 
 ### Final result in energy consumption
 

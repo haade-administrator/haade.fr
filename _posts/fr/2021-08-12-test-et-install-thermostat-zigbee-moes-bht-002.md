@@ -84,7 +84,7 @@ quand à l'intégration avec zigbee2mqtt et homeassistant est très simple. On o
 
 la partie homeassistant est relativement complète malheureusement la programmation des périodes horaires/jour n'est pas possible. Elle s'affiche dans les attributs c'est déjà pas mal. Tout le reste est paramétrable via l'assistant.
 
-![Intégration moes bht-002 thermostat zigbee dans home-assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/integration-thermostat-moes-bht-002-home-assistant.webp{{ cachebuster }}){: width="504" height="545" class="lazy"} 
+![Intégration moes bht-002 thermostat zigbee dans home-assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/integration-thermostat-moes-bht-002-home-assistant.webp{{ cachebuster }}){: width="504" height="545" class="lazyload"} 
 
 # Conclusion
 
