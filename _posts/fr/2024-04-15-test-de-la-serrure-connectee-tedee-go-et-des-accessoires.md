@@ -9,11 +9,11 @@ date: 2024-04-15 20:22
 last_modified_at: 
 categories: [Tests, Securite, Wifi]
 tags: []
-youtubevideo: 'yDM6gbcIBWk?si=-DE5oE-TEnbXWdoe'
+youtubevideo: yDM6gbcIBWk?si=-DE5oE-TEnbXWdoe
 image: 'test-serrure-connectee-tedee-go-plus-bridge-clavier-code-relais-blebox.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -58,11 +58,26 @@ La Poignée de protection du système est teintée d'un gris aluminium, mais je 
 
 {% picture posts/{{ page.guid }}/qualite-coque-plastique-tedee-go.png --alt qualité de la coque tedee Go en ABS pas ce qu'il y a de mieux --img width="940" height="529" %}
 
-## Le bruit
+## Parlons des produits
 
-### Tedee Go
+**L'application Tedee est très bien faite**, l'intégration des produits de la marque ne prend que quelques secondes et le paramétrage est simplifié. tout se passe par QRCode et une connection Bluetooth à part la bridge ou un paramétrage wifi est nécessaire ( compatible 2,4 et 5Ghz ), là aussi je n'ai rencontré aucun soucis
+
+> franchement j'ai rarement vu une application aussi optimisée et simple d'utilisation
+
+Comme montré dans diverses vidéos l'installation sur une serrure européenne ne prends pas plus de 2 minutes si tu es maladroit.
+
+### Le bruit
+
+{% include videoPlayer.html youtubeId="8JQ87AqHA74?si=jta7TXpiGcscEfBU" %}
+
 
 #### Les avantage de la {{ page.ref }}
+
+**Les + du produit:**{: .blue}
+- 
+
+**Les - du produit:**{: .red}
+- 
 
 1. **Conservez votre matériel actuel:** Vous installerez votre Tedee GO en quelques minutes, sur votre cylindre actuel, sans avoir à remplacer la quincaillerie. Vous n’avez même pas besoin de demander la permission à votre propriétaire.
 2. **Conservez vos clés:** Tedee GO est un tourne-clés, vous n’avez donc pas à remplacer vos clés – votre serrure connectée n’en a qu’une, à l’intérieur de votre domicile. De l’extérieur, vous pouvez toujours déverrouiller la porte avec une clé.
