@@ -13,7 +13,7 @@ video:
 image: 'test-serrure-connectee-tedee-go-plus-bridge-clavier-code-relais-blebox.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -33,14 +33,13 @@ Une première pour Haade, je vais te présenter une serrure connectée fabriqué
 
 > Je trouve ça dommage car elle dispose d'une batterie rechargeable qui possède une autonomie plus importante !
 
+**Merci à l'entreprise Tedee** pour m'avoir fourni une bonne partie de la gamme afin de pouvoir effectuer les test dans de bonnes conditions
+
 {% picture posts/{{ page.guid }}/test-de-la-gamme-tedee-go-bridge-relais-et-clavier-a-code.png --alt test de l'ensemble de la gamme tedee --img width="940" height="529" %}
 
-## Dimension
+## La serrure {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/comparatif-dimension-serrure-connecte-du-marche.png --alt comparatif dimension de la serrure tedee go face à la concurrence --img width="940" height="267" %}
-
-
-## Déballage
+### Déballage
 
 On ne va pas s'étaler sur le sujet car tu trouveras facilement toutes les infos sur le net, Le module tedee go est bien emballé et tu trouveras:
 - une serrure connectée avec les piles
@@ -52,39 +51,7 @@ On ne va pas s'étaler sur le sujet car tu trouveras facilement toutes les infos
 
 {% picture posts/{{ page.guid }}/contenu-boite-tedee-go.png --alt contenu de la boite de la serrure connectée Tedee Go --img width="940" height="529" %}
 
-{% picture posts/{{ page.guid }}/deballage-digicode-pour-serrure-connectee-tedee-go.png --alt contenu de la boite du digicode Tedee Go --img width="940" height="529" %}
-
-## Caractéristique
-
-La Poignée de protection du système est teintée d'un gris aluminium, mais je suis un peu déçu car ça n'en est pas, c'est bel est bien du plastique ABS, probablement un choix pris à cause du poids de l'ensemble.
-
-{% picture posts/{{ page.guid }}/qualite-coque-plastique-tedee-go.png --alt qualité de la coque tedee Go en ABS pas ce qu'il y a de mieux --img width="940" height="529" %}
-
-## Parlons des produits
-
-**L'application Tedee est très bien faite**, l'intégration des produits de la marque ne prend que quelques secondes et le paramétrage est simplifié. tout se passe par QRCode et une connection Bluetooth à part la bridge ou un paramétrage wifi est nécessaire ( compatible 2,4 et 5Ghz ), là aussi je n'ai rencontré aucun soucis
-
-> franchement j'ai rarement vu une application aussi optimisée et simple d'utilisation
-
-Comme montré dans diverses vidéos l'installation sur une serrure européenne ne prends pas plus de 2 minutes si tu es maladroit.
-
-### Le bruit
-
-{% include videoPlayer.html youtubeId="8JQ87AqHA74?si=jta7TXpiGcscEfBU" %}
-
-
-#### Les avantage de la {{ page.ref }}
-
-**Les + du produit:**{: .blue}
-- 
-
-**Les - du produit:**{: .red}
-- 
-
-1. **Conservez votre matériel actuel:** Vous installerez votre Tedee GO en quelques minutes, sur votre cylindre actuel, sans avoir à remplacer la quincaillerie. Vous n’avez même pas besoin de demander la permission à votre propriétaire.
-2. **Conservez vos clés:** Tedee GO est un tourne-clés, vous n’avez donc pas à remplacer vos clés – votre serrure connectée n’en a qu’une, à l’intérieur de votre domicile. De l’extérieur, vous pouvez toujours déverrouiller la porte avec une clé.
-3. **Clés virtuelles:** Partagez l’accès à votre maison avec votre famille et vos amis. Facilitez les accès avec des clés virtuelles dans l’application Tedee, en contrôlant qui entre et quand
-4. **Votre portier personel:** Détendez-vous avec nos fonctionnalités simples – réglez votre Tedee GO pour qu’elle se verrouille automatiquement lorsque vous quittez ou rentrez chez vous. Appréciez le plaisir de rentrer chez vous et de découvrir une porte ouverte.
+### Dimensions et Caractéristiques
 
 {% picture posts/{{ page.guid }}/rendu-face-avant-arriere-alu-tedee-go.png --alt rendu et qualité de la serrure connectée Tedee Go --img width="940" height="529" %}
 
@@ -100,6 +67,77 @@ Comme montré dans diverses vidéos l'installation sur une serrure européenne n
 |Peut être couplé avec|Bridge Tedee, Clavier Tedee|
 |Peut être installé sur|cylindres à profil européen, équipés d'un double embrayage (d'urgence)|
 
+**Face à la concurrence**
+
+Niveau dimension ( de face ) je tiens à le préciser, Tedee Go est très petite, si tu es prêt à mettre la main au portefeuille la Tedee Pro est encore plus petite. Gros point positif pour la marque cependant la profondeur est assez importante ce qui offre tout de même une bonne prise en main.
+
+{% picture posts/{{ page.guid }}/comparatif-dimension-serrure-connecte-du-marche.png --alt comparatif dimension de la serrure tedee go face à la concurrence --img width="940" height="267" %}
+
+### Installation et Avantage
+
+Bon yu trouveras toutes les infos sur le web et sur la futur vidéo qui verra le jour prochainement.
+
+> Elle s'installe rapidement et sans effort je te le garantie 👍
+
+{% include videoPlayer.html externalId="https://tedee.com/app/uploads/2023/06/Tedee-GO-Installation-guide-with-and-without-adapter-1-3.mp4?_=1" %}
+
+1. **Conserve ton matériel actuel:** Tu intalleras la Tedee GO en quelques minutes, sur le cylindre actuel, **sans avoir à remplacer la quincaillerie, et le tout sans faire un seul trou.**
+2. **Conserve les clés:** Tedee GO est un tourne-clés, **tu n'as pas à remplacer la clé ni à la sciller**, la serrure Tedee GO vient s'emboiter sur la clé. Tu pourras bienentendu ouvrir de l'extérieur avec ta clé traditionnelle.
+3. **Clés virtuelles:** Partage l’accès à la maison avec Famille, amis ou locataires. Facilite les accès avec des clés virtuelles dans l’application Tedee, en contrôlant qui entre, quand, combien de temps et à quelle heure.
+4. **Votre portier personel:** Détend toi avec des fonctionnalités simples – régle le Tedee GO pour qu’elle se verrouille automatiquement lorsque tu pars ou rentre chez toi.
+
+### les options de la clé
+1. verrouiller automatiquement la porte lorsque la serrure est déverouillée
+2. verrouiller automatiquement la porte lorsque la serrure est semi verouillée
+3. déverouillage automatique lorsque tu es à proximité de la porte ( bluetooth )
+
+### Qualité de la {{ page.ref }}
+
+La Poignée de protection du système est teintée d'un gris aluminium, **mais je suis un peu déçu** car ça n'en est pas, **c'est bel est bien du plastique** ABS, probablement un choix pris à cause du poids de l'ensemble.
+
+{% picture posts/{{ page.guid }}/qualite-coque-plastique-tedee-go.png --alt qualité de la coque tedee Go en ABS pas ce qu'il y a de mieux --img width="940" height="529" %}
+
+### Le bruit dans tout ça 💩
+
+Alors j'ai un peu regardé sur le web il y a des vidéos ou tu peux entendre cette serrure en fonctionnement, mais personne n'en parle vraiment, pourtant cette serrure est bruyante.
+
+> Si comme moi t'as des ados à la maison, la serrure va déclencher en toi de l'eczema ...
+
+La vidéo a été prise à environ 60cm de la serrure avec le smartphone, les décibels montent à 70, **chauffe marcel ...**
+
+{% include videoPlayer.html youtubeId="8JQ87AqHA74?si=jta7TXpiGcscEfBU" %}
+
+### La conso des piles
+
+Le module fonctionne avec 3 piles cr123, ce sont des piles lithium qui sont relativement onéreuses. Tu les trouves sur internet entre 2 et 4€ selon la qualité/marque. 
+Je suis à 3 jours de fonctionnement, l'autonomie chute de 1% par jour avec les piles d'origines, il me reste 97% 
+Le fabriquant donne une durée de vie de 6 à 8 mois pour une moyenne de 8 fonctionnements par jour sois 4 ouvertures/fermetures.
+Mis à part le premier jour je suis en dessous de 8 à raison de 1% par jour, nous serions à 100 jours d'autonomies soit 3 mois et une semaine.
+
+> Si tu fais de la location saisonnière tu as intérêt à les changer fin Mai pour espérer qu'elles tiennent jusqu'à Septembre !
+
+**Les + du produit:**{: .blue}
+- L'application ( difficile de faire mieux )
+- la connectivité Bluetooth
+- la qualité de fabrication
+
+**Les - du produit:**{: .red}
+- Module sur pile 3 x CR123
+- energivore
+- poignée en plastique
+- très bruyant
+- Bridge obligatoire pour la connecter à ta domotique
+
+## Tedee Clavier code d'accès
+
+{% picture posts/{{ page.guid }}/deballage-digicode-pour-serrure-connectee-tedee-go.png --alt contenu de la boite du digicode Tedee Go --img width="940" height="529" %}
+
+## L'application Tedee
+
+**L'application Tedee est très bien faite**, l'intégration des produits de la marque ne prend que quelques secondes et le paramétrage est simplifié. tout se passe par QRCode et une connection Bluetooth à part la bridge ou un paramétrage wifi est nécessaire ( compatible 2,4 et 5Ghz ), là aussi je n'ai rencontré aucun soucis. À peine ton module reconnu que l'application de propose déjà une mise à jour qui ne prend que quelques secondes et le tout transféré par bluetooth.
+
+> franchement j'ai rarement vu une application aussi optimisée et simple d'utilisation
+
 ### Tedee Bridge
 
 Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connectée Tedee via Internet, où que vous soyez.
@@ -108,7 +146,7 @@ Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connect
 
 Faites l’expérience d’un confort et d’une sécurité de pointe, et entrez dans la nouvelle ère de l’accès à la maison. Tedee Bridge ne se contente pas d’améliorer votre confort avec des avantages supplémentaires, il transforme également la façon dont vous gérez la sécurité de votre propriété, même lorsque vous êtes loin de chez vous.
 
-### Tedee Clavier code d'accès
+
 ### Tedee Module relais
 
 ## Notices
@@ -144,10 +182,6 @@ La [marque affiche une compatibilité](https://tedee.com/fr/integrations-domotiq
 ### avec bridge
 - home-assistant
 - jeedom (plugin 4€)
-
-## Installation
-
-{% include videoPlayer.html externalId="https://tedee.com/app/uploads/2023/06/Tedee-GO-Installation-guide-with-and-without-adapter-1-3.mp4?_=1" %}
 
 ## Integration Home Assistant
 
