@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/119/creer-moyenne-etat-entite-template-home-assistant.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-nouveau-module-chauffage-zigbee-nodon-sin-4-fp-21-avec-fil-pilote-et-integration-home-assistant</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-04-08T17:00:00+02:00</news:publication_date>
-          <news:title>Test du nouveau module de chauffage Nodon SIN-4-FP-21</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/118/test-nodon-module-fil-pilote-sin-4fp-21-controle-dans-home-assistant.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 

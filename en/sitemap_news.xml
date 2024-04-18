@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/119/create-an-average-on-entities-template-home-assistant.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-new-zigbee-nodon-sin-4-fp-21-heating-module-with-pilot-wire-and-home-assistant-integration</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-04-08T17:00:00+02:00</news:publication_date>
-          <news:title>Testing the new Nodon SIN-4-FP-21 heating module</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/118/test-nodon-module-wire-driver-sin-4fp-21-control-in-home-assistant.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
