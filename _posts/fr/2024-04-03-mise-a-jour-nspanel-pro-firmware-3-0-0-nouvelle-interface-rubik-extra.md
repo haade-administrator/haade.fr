@@ -9,6 +9,7 @@ date: 2024-04-03 18:00
 last_modified_at: 
 categories: [News, Zigbee]
 tags: []
+youtubevideo:
 image: 'nspanel-pro-firmware-upgrade-v3-0-0-rubik-design.png'
 toc: true
 beforetoc: ''

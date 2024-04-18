@@ -1,43 +1,43 @@
 <!-- https://my.home-assistant.io/faq/ -->
 <div class="myhomeassistant">
 {%- if include.add_matter_device -%}
-<a href="https://my.home-assistant.io/redirect/add_matter_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_matter_device.svg" class="lazyimg" width="310" height="48" alt="Homeassistant add matter device" /></a>
+<a href="https://my.home-assistant.io/redirect/add_matter_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_matter_device.svg" class="lazyload" width="310" height="48" alt="Homeassistant add matter device" /></a>
 <!-- Ajout d'un dépot externe dans la boutique des modules complémentaires -->
 {%- elsif include.supervisor_addon_repository -%}
-<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_add_addon_repository }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg" class="lazyimg" width="357" height="48" alt="Homeassistant supervisor add addons repository" /></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url={{ include.supervisor_add_addon_repository }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg" class="lazyload" width="357" height="48" alt="Homeassistant supervisor add addons repository" /></a>
 <!-- Ajout d'un module z-wave -->
 {%- elsif include.add_zwave_device -%}
-<a href="https://my.home-assistant.io/redirect/add_zwave_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_zwave_device.svg" class="lazyimg" width="309.5" height="48" alt="Homeassistant add zwave device" /></a>
+<a href="https://my.home-assistant.io/redirect/add_zwave_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_zwave_device.svg" class="lazyload" width="309.5" height="48" alt="Homeassistant add zwave device" /></a>
 <!-- Ajout d'un module zigbee -->
 {%- elsif include.add_zigbee_device -%}
-<a href="https://my.home-assistant.io/redirect/add_zigbee_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_zigbee_device.svg" class="lazyimg" width="302" height="48" alt="Homeassistant add zigbee device" /></a>
+<a href="https://my.home-assistant.io/redirect/add_zigbee_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_zigbee_device.svg" class="lazyload" width="302" height="48" alt="Homeassistant add zigbee device" /></a>
 <!-- direction store module complémentaire -->
 {%- elsif include.supervisor_store -%}
-<a href="https://my.home-assistant.io/redirect/supervisor_store/" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_store.svg" class="lazyimg" width="316" height="48" alt="Homeassistant supervisor store" /></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_store/" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_store.svg" class="lazyload" width="316" height="48" alt="Homeassistant supervisor store" /></a>
 <!-- Ajout d'un module complémentaire en indiquant le nom -->
 {%- elsif include.supervisor_addon -%}
-<a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon={{ include.supervisor_addon }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" class="lazyimg" width="265.5" height="48" alt="Homeassistant supervisor addons" /></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_addon/?addon={{ include.supervisor_addon }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_addon.svg" class="lazyload" width="265.5" height="48" alt="Homeassistant supervisor addons" /></a>
 <!-- Accès direct dans l'interface de configuration du module exemple terminal zigbee2mqtt -->
 {%- elsif include.supervisor_ingress -%}
-<a href="https://my.home-assistant.io/redirect/supervisor_ingress/?addon={{ include.supervisor_ingress }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_ingress.svg" class="lazyimg" width="371" height="48" alt="Homeassistant supervisor addons ingress" /></a>
+<a href="https://my.home-assistant.io/redirect/supervisor_ingress/?addon={{ include.supervisor_ingress }}" target="_blank"><img src="https://my.home-assistant.io/badges/supervisor_ingress.svg" class="lazyload" width="371" height="48" alt="Homeassistant supervisor addons ingress" /></a>
 <!-- Accès direct dans les paramètres ha des analyses à cocher -->
 {%- elsif include.analytics -%}
-<a href="https://my.home-assistant.io/redirect/analytics/" target="_blank"><img src="https://my.home-assistant.io/badges/analytics.svg" class="lazyimg" width="374.5" height="48" alt="Homeassistant analytics" /></a>
+<a href="https://my.home-assistant.io/redirect/analytics/" target="_blank"><img src="https://my.home-assistant.io/badges/analytics.svg" class="lazyload" width="374.5" height="48" alt="Homeassistant analytics" /></a>
 <!-- Accès direct aux paramétrages de Pièces -->
 {%- elsif include.areas -%}
-<a href="https://my.home-assistant.io/redirect/areas/" target="_blank"><img src="https://my.home-assistant.io/badges/areas.svg" class="lazyimg" width="248" height="48" alt="Homeassistant areas" /></a>
+<a href="https://my.home-assistant.io/redirect/areas/" target="_blank"><img src="https://my.home-assistant.io/badges/areas.svg" class="lazyload" width="248" height="48" alt="Homeassistant areas" /></a>
 <!-- accès à la liste des automatisations -->
 {%- elsif include.automations -%}
-<a href="https://my.home-assistant.io/redirect/automations/" target="_blank"><img src="https://my.home-assistant.io/badges/automations.svg" class="lazyimg" width="318" height="48" alt="Homeassistant automations list" /></a>
+<a href="https://my.home-assistant.io/redirect/automations/" target="_blank"><img src="https://my.home-assistant.io/badges/automations.svg" class="lazyload" width="318" height="48" alt="Homeassistant automations list" /></a>
 <!-- accès à l'onglet des sauvegardes' -->
 {%- elsif include.backup -%}
-<a href="https://my.home-assistant.io/redirect/backup/" target="_blank"><img src="https://my.home-assistant.io/badges/backup.svg" class="lazyimg" width="180" height="48" alt="Homeassistant backup" /></a>
+<a href="https://my.home-assistant.io/redirect/backup/" target="_blank"><img src="https://my.home-assistant.io/badges/backup.svg" class="lazyload" width="180" height="48" alt="Homeassistant backup" /></a>
 <!-- accès à l'onglet des blueprints' -->
 {%- elsif include.blueprints -%}
-<a href="https://my.home-assistant.io/redirect/blueprints/" target="_blank"><img src="https://my.home-assistant.io/badges/blueprints.svg" class="lazyimg" width="294.5" height="48" alt="Homeassistant show blueprints" /></a>
+<a href="https://my.home-assistant.io/redirect/blueprints/" target="_blank"><img src="https://my.home-assistant.io/badges/blueprints.svg" class="lazyload" width="294.5" height="48" alt="Homeassistant show blueprints" /></a>
 <!-- import d'une url blueprint -->
 {%- elsif include.blueprint_import -%}
-<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url={{ include.blueprint_import }}" target="_blank"><img src="https://my.home-assistant.io/badges/blueprint_import.svg" class="lazyimg" width="296" height="48" alt="Homeassistant Blueprint" /></a>
+<a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url={{ include.blueprint_import }}" target="_blank"><img src="https://my.home-assistant.io/badges/blueprint_import.svg" class="lazyload" width="296" height="48" alt="Homeassistant Blueprint" /></a>
 
 <!-- continuer après blueprint: start import
 ===
@@ -46,27 +46,27 @@ ici
 
 <!-- Ajout d'un repertoire externe hacs -->
 {%- elsif include.repertory -%}
-<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" class="lazyimg" width="348.5" height="48" alt="HACS repertoire" /></a>
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner={{ include.creator }}&repository={{ include.repertory }}&category=integration" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" class="lazyload" width="348.5" height="48" alt="HACS repertoire" /></a>
 <!-- Configurer un appareil / integration -->
 {%- elsif include.configure_integration -%}
-<a href="https://my.home-assistant.io/redirect/integration/?domain={{ include.configure_integration }}" target="_blank"><img src="https://my.home-assistant.io/badges/integration.svg" class="lazyimg" width="311.5" height="48" alt="Homeassistant configure integration" /></a>
+<a href="https://my.home-assistant.io/redirect/integration/?domain={{ include.configure_integration }}" target="_blank"><img src="https://my.home-assistant.io/badges/integration.svg" class="lazyload" width="311.5" height="48" alt="Homeassistant configure integration" /></a>
 <!-- dashboard intégrration appareil et service -->
 {%- elsif include.integrations -%}
-<a href="https://my.home-assistant.io/redirect/integrations/" target="_blank"><img src="https://my.home-assistant.io/badges/integrations.svg" class="lazyimg" width="318.5" height="48" alt="Homeassistant Intégration" /></a>
+<a href="https://my.home-assistant.io/redirect/integrations/" target="_blank"><img src="https://my.home-assistant.io/badges/integrations.svg" class="lazyload" width="318.5" height="48" alt="Homeassistant Intégration" /></a>
 <!-- ajout d'une integration homeassistant -->
 {%- elsif include.integration -%}
-<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="https://my.home-assistant.io/badges/config_flow_start.svg" class="lazyimg" width="291.5" height="48" alt="Homeassistant add Intégration" /></a>
+<a href="https://my.home-assistant.io/redirect/config_flow_start/?domain={{ include.integration }}" target="_blank"><img src="https://my.home-assistant.io/badges/config_flow_start.svg" class="lazyload" width="291.5" height="48" alt="Homeassistant add Intégration" /></a>
 <!-- Aller dans l'onglet utilisateurs -->
 {%- elsif include.users -%}
-<a href="https://my.home-assistant.io/redirect/users/" target="_blank"><img src="https://my.home-assistant.io/badges/users.svg" class="lazyimg" width="246" height="48" alt="Homeassistant users" /></a>
+<a href="https://my.home-assistant.io/redirect/users/" target="_blank"><img src="https://my.home-assistant.io/badges/users.svg" class="lazyload" width="246" height="48" alt="Homeassistant users" /></a>
 <!-- Aller dans l'onglet paramètres ha -->
 {%- elsif include.settings -%}
-<a href="https://my.home-assistant.io/redirect/config/" target="_blank"><img src="https://my.home-assistant.io/badges/config.svg" class="lazyimg" width="274.5" height="48" alt="Homeassistant settings parameters" /></a>
+<a href="https://my.home-assistant.io/redirect/config/" target="_blank"><img src="https://my.home-assistant.io/badges/config.svg" class="lazyload" width="274.5" height="48" alt="Homeassistant settings parameters" /></a>
 <!-- Aller dans l'onglet energie -->
 {%- elsif include.energy -%}
-<a href="https://my.home-assistant.io/redirect/energy/" target="_blank"><img src="https://my.home-assistant.io/badges/energy.svg" class="lazyimg" width="320.5" height="48" alt="Homeassistant energy dashboard" /></a>
+<a href="https://my.home-assistant.io/redirect/energy/" target="_blank"><img src="https://my.home-assistant.io/badges/energy.svg" class="lazyload" width="320.5" height="48" alt="Homeassistant energy dashboard" /></a>
 <!-- Paramétrer l'onglet energie -->
 {%- elsif include.config_energy -%}
-<a href="https://my.home-assistant.io/redirect/config_energy/" target="_blank"><img src="https://my.home-assistant.io/badges/config_energy.svg" class="lazyimg" width="331.5" height="48" alt="Homeassistant settings parameters energy" /></a>
+<a href="https://my.home-assistant.io/redirect/config_energy/" target="_blank"><img src="https://my.home-assistant.io/badges/config_energy.svg" class="lazyload" width="331.5" height="48" alt="Homeassistant settings parameters energy" /></a>
 {%- endif %}
 </div>

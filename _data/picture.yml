@@ -15,8 +15,7 @@ presets:
       laptop: 820px
       wide: 820px
     attributes:
-      img: 'class="pictinpost"'
-      parent: 'class="lazyimg"'
+      img: 'class="pictinpost lazyload"'
     dimension_attributes: false
     nomarkdown: true
     format_quality:
@@ -41,7 +40,7 @@ presets:
       wide: 38vw
     size: calc(100vw - 30px)
     attributes:
-      parent: 'class="lazyimg"'
+      img: 'class="lazyload"'
     format_quality:
       jpg: 85
       png: 85
@@ -65,7 +64,7 @@ presets:
       wide: 38vw
     size: calc(100vw - 30px)
     attributes:
-      parent: 'class="lazyimg"'
+      img: 'class="lazyload"'
     format_quality:
       jpg: 85
       png: 85
@@ -89,7 +88,7 @@ presets:
       wide: 19vw
     size: calc(50vw - 15px)
     attributes:
-      parent: 'class="lazyimg"'
+      img: 'class="lazyload"'
     format_quality:
       jpg: 85
       png: 85
@@ -121,7 +120,7 @@ presets:
       wide: 30vw
     size: calc(100vw - 30px)
     attributes:
-      parent: 'class="lazyimg"'
+      img: 'class="lazyload"'
     format_quality:
       jpg: 85
       png: 85
@@ -144,7 +143,7 @@ presets:
       wide: 940px
     size: calc(100vw - 30px)
     attributes:
-      parent: 'class="lazyimg"'
+      img: 'class="lazyload"'
     format_quality:
       jpg: 85
       png: 85
@@ -178,8 +177,7 @@ presets:
       wide: 25vw
     size: calc(100vw - 30px)
     attributes:
-      img: 'class="img-thumb"'
-      parent: 'class="lazyimg"'
+      img: 'class="img-thumb lazyload"'
     format_quality:
       jpg: 85
       png: 85

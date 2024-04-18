@@ -4,7 +4,15 @@
     {%- for latest_post in latest_posts limit:1 %}
     <div class="pickgradient">
       <a href="{{site.baseurl}}{{latest_post.url}}">
+        {% if latest_post.youtubevideo %}
+        <div class="hero-image">
+          <iframe data-src="https://www.youtube.com/embed/{{ latest_post.youtubevideo }}" class="lazyload" width="100%"
+            height="100%" title="{{ latest_post.title }}" frameborder="0" allowfullscreen="true">
+          </iframe>
+        </div>
+        {% else %}
         {% picture herofirst posts/{{ latest_post.guid }}/{{ latest_post.image }} --alt {{ latest_post.description }} --img class="hero-image" %}
+        {% endif %}
       </a>
       </div>
       <div class="hero-text latest">
@@ -51,7 +59,15 @@
       {%- for second_post in second_posts limit:1 offset:1 %}
       <div class="pickgradient">
         <a href="{{site.baseurl}}{{second_post.url}}">
+          {%- if second_post.youtubevideo %}
+          <div class="hero-image">
+            <iframe data-src="https://www.youtube.com/embed/{{ second_post.youtubevideo }}" class="lazyload" width="100%"
+              height="100%" title="{{ second_post.title }}" frameborder="0" allowfullscreen="true">
+            </iframe>
+          </div>
+          {%- else %}
           {% picture herotwo posts/{{ second_post.guid }}/{{ second_post.image }} --alt {{ second_post.description }} --img class="hero-image" %}        
+       {%- endif %}
         </a>
       </div>
         <div class="hero-text second">
@@ -98,7 +114,15 @@
         {%- for third_post in third_posts limit:1 offset:2 %}
         <div class="pickgradient">
               <a href="{{site.baseurl}}{{third_post.url}}">
+                {%- if third_post.youtubevideo %}
+                <div class="hero-image">
+                  <iframe data-src="https://www.youtube.com/embed/{{ third_post.youtubevideo }}" class="lazyload"
+                    height="100%" title="{{ third_post.title }}" frameborder="0" allowfullscreen="true">
+                  </iframe>
+                </div>
+                {%- else %}
                 {% picture heroend posts/{{ third_post.guid }}/{{ third_post.image }} --alt {{ third_post.description }} --img class="hero-image" %}        
+              {%- endif %}
               </a>
               </div>
           <div class="hero-text thirdfour">
@@ -144,8 +168,16 @@
         {%- for four_post in four_posts limit:1 offset:3 %}
         <div class="pickgradient">
               <a href="{{site.baseurl}}{{four_post.url}}">
+                {%- if four_post.youtubevideo %}
+                <div class="hero-image">
+                  <iframe data-src="https://www.youtube.com/embed/{{ four_post.youtubevideo }}" class="lazyload"
+                    height="100%" title="{{ four_post.title }}" frameborder="0" allowfullscreen="true">
+                  </iframe>
+                </div>
+                {%- else %}
                 {% picture heroend posts/{{ four_post.guid }}/{{ four_post.image }} --alt {{ four_post.description }}  --img class="hero-image" %}        
-          </a>
+         {%- endif %}
+              </a>
           </div>
           <div class="hero-text thirdfour">
             {%- if four_post.categories != empty %}

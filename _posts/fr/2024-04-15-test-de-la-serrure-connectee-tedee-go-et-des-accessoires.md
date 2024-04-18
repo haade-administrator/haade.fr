@@ -9,6 +9,7 @@ date: 2024-04-15 20:22
 last_modified_at: 
 categories: [Tests, Securite, Wifi]
 tags: []
+youtubevideo:
 image: 'test-serrure-connectee-tedee-go-plus-bridge-clavier-code-relais-blebox.png'
 toc: true
 beforetoc: ''
@@ -51,9 +52,13 @@ On ne va pas s'étaler sur le sujet car tu trouveras facilement toutes les infos
 
 {% picture posts/{{ page.guid }}/contenu-boite-tedee-go.png --alt contenu de la boite de la serrure connectée Tedee Go --img width="940" height="529" %}
 
-
-
 ## Caractéristique
+
+La Poignée de protection du système est teintée d'un gris aluminium, mais je suis un peu déçu car ça n'en est pas, c'est bel est bien du plastique ABS, probablement un choix pris à cause du poids de l'ensemble.
+
+{% picture posts/{{ page.guid }}/qualite-coque-plastique-tedee-go.png --alt qualité de la coque tedee Go en ABS pas ce qu'il y a de mieux --img width="940" height="529" %}
+
+## Le bruit
 
 ### Tedee Go
 

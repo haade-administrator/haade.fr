@@ -9,6 +9,7 @@ date: 2024-04-08 17:00
 last_modified_at: 
 categories: [Tests, Home-Assistant]
 tags: []
+youtubevideo:
 image: 'test-nodon-module-fil-pilote-sin-4fp-21-controle-dans-home-assistant.png'
 toc: true
 beforetoc: ''

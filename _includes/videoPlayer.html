@@ -1,8 +1,9 @@
 <!-- https://github.com/nathancy/jekyll-embed-video/tree/master/_includes -->
 {%- assign translate = site.data.locales.translate.videoplayer %}
 {%- if include.youtubeId != nil %}
-<div class="embed-container lazyimg">
+<div class="embed-container">
     <iframe style="border-radius:15px"
+        class="lazyload"
         data-src="https://www.youtube.com/embed/{{ include.youtubeId }}"
         width="700"
         height="480"
@@ -12,7 +13,7 @@
     </iframe>
 </div>
 {%- elsif include.localId != nil %}
-<div class="embed-container lazyimg">
+<div class="embed-container">
     <video controls width="100%" height="auto" type="video" style="border-radius:15px">
         <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" />
         <p>
@@ -22,7 +23,7 @@
     </video>
 </div>
 {%- elsif include.externalId != nil %}
-<div class="embed-container lazyimg">
+<div class="embed-container">
     <video controls width="100%" height="auto" type="video" style="border-radius:15px">
         <source src="{{ include.externalId }}" />
         <p>
@@ -32,9 +33,10 @@
     </video>
 </div>
 {%- elsif include.twitchId != nil %}
-<div class="embed-container lazyimg">
+<div class="embed-container">
     <iframe
         src="https://clips.twitch.tv/embed?clip={{ include.twitchId }}&parent={{ include.twitchDomain }}"
+        class="lazyload"
         width="700"
         height="480"
         frameborder="0"
