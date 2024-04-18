@@ -22,9 +22,9 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: TasmotaConfig, l’application qui facilite l’installation des produits Tasmota
-    url: https://blog.domadoo.fr/105445-tasmotaconfig-application-produits-tasmota/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/Tasmota-config-2048-1024x516.png
+    title: Découverte du contrôleur USB Zigbee Aeotec Zi-Stick
+    url: https://blog.domadoo.fr/105376-controleur-usb-zigbee-aeotec-zi-stick/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Aeotec-Zi-Stick-zigbee-2048x1032-PRESS-1024x516.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -47,9 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Sunology PLAYMax - le panneau solaire qui produit aussi la nuit !
-    url: https://www.maison-et-domotique.com/146690-test-sunology-playmax-solaire-batterie/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/6-1920x-702x468.webp
+    title: Comment choisir le bon portail pour votre propriété ?
+    url: https://www.maison-et-domotique.com/146762-comment-choisir-le-bon-portail-pour-votre-propriete/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-choix-portail-702x401.webp
 Matter:
   en_GB:
   - name: Matter
