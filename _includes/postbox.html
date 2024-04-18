@@ -4,7 +4,7 @@
     <div class="card h-100">
         <div class="maxthumb">
             <a href="{{ site.baseurl }}{{ post.url }}">
-                {%- if post.youtubevideo %}
+                {%- if post.youtubevideo !=nil %}
                 <div class="embed-container">
                     <iframe data-src="https://www.youtube.com/embed/{{ post.youtubevideo }}"
                     class="lazyload"
