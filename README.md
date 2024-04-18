@@ -29,5 +29,4 @@
 16. [listmonk mailinglist](https://github.com/knadh/listmonk)
 17. Carousel: [comparatif](https://itnext.io/javascript-sliders-will-kill-your-website-performance-5e4925570e2b)
 18. [remplacement countapi.xyz par hits](https://hits.sh)
-19. vérifier lazy load soit remplace par loading="lazy" pour img et iframes soit encore plus rapide par le scriptjs [lazysizes](https://github.com/aFarkas/lazysizes) 
-20. [imagekit.io optipise image et test website](https://imagekit.io)
+19. [imagekit.io optipise image et test website](https://imagekit.io)

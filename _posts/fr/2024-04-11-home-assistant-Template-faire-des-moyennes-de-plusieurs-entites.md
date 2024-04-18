@@ -79,6 +79,6 @@ Le module de téléinfo que j'utilises ainsi que mon abonnement font remonter l'
 
 > La classe de l'appareil et la classe d'état s'afficheront en rouge s'il y a une discordance avec l'entité choisi, c'est plutôt bien fait.
 
-![Création d'un template sur les moyennes des entité dans home-assistant en gif animé]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-template-moyenne-sur-entite.webp{{ cachebuster }}){: width="940" height="534" class="lazyload"}
+![Création d'un template sur les moyennes des entité dans home-assistant en gif animé]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-template-moyenne-sur-entite.webp{{ cachebuster }}){: width="940" height="534" class="lazy"}
 
 > Tu pourras vérifier en direct les données remontées avant la validation du template.

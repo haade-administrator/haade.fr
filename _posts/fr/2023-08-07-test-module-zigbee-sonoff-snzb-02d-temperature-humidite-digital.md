@@ -56,7 +56,7 @@ Une fois en main le **produit présente très bien** la dalle LCD est grande, le
 
 Le module est accompagné d'un support mural recouvert d'un double face **de la marque 3M**. Le module {{ page.ref }} et le support sont magnétiques, l'emboitement se fait par le haut et s'oriente automatiquement dans le support. **Vraiment très bien pensé.** Important les aimants se trouvent côté module, **du coup tu pourras aussi le poser contre une surface métallique de type réfrigérateur**.
 
-![image animée du support mural aimanté du module zigbe sonoff {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240" class="lazyload"}
+![image animée du support mural aimanté du module zigbe sonoff {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240" class="lazy"}
 
 **Pour finir** le module Sonoff {{page.ref}} dispose d'un support de table qui est orientable et intégré à l'ensemble.
 

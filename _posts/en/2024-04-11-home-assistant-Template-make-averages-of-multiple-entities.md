@@ -78,6 +78,6 @@ The teleinfo module that I use as well as my subscription provide off-peak/peak 
 
 > The device class and the state class will be displayed in red if there is a mismatch with the chosen entity, it's pretty well done.
 
-![Creation of a template on entity averages in home-assistant in animated gif]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-template-moyenne-sur-entite.webp{{ cachebuster }}){: width="940" height="534" class="lazyload"}
+![Creation of a template on entity averages in home-assistant in animated gif]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-template-moyenne-sur-entite.webp{{ cachebuster }}){: width="940" height="534" class="lazy"}
 
 > You will be able to check the data provided directly before validating the template.

@@ -56,7 +56,7 @@ Once in hand the **product presents very well** the LCD panel is large, the weig
 
 The module is accompanied by a wall bracket covered with a double-sided **3M brand**. The {{ page.ref }} module and the support are magnetic, the interlocking is done from the top and is automatically oriented in the support. **Really very well thought out.** Important the magnets are on the module side, **so you can also place it against a metal surface such as a refrigerator**.
 
-![animated image of the magnetic wall support of the zigbe sonoff module {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240" class="lazyload"}
+![animated image of the magnetic wall support of the zigbe sonoff module {{page.ref}}]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/Sonoff SNZB-02D-237.webp{{ cachebuster }}){: width="237" height="240" class="lazy"}
 
 **To finish** the Sonoff {{page.ref}} module has a table support that is adjustable and integrated into the whole.
 

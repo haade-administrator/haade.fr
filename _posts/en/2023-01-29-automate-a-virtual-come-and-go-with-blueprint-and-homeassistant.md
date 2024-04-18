@@ -61,7 +61,7 @@ Let's assume that you have correctly connected your switches and that they have 
 
 Below **a gif showing the import steps** of a blueprint in homeassistant.
 
-![step of importing a blueprint in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/parametrage-blueprint-va-et-vient-virtuel-2-way.webp{{ cachebuster }}){: width="939" height="528" class="lazyload"}
+![step of importing a blueprint in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/parametrage-blueprint-va-et-vient-virtuel-2-way.webp{{ cachebuster }}){: width="939" height="528" class="lazy"}
 
 Copy this link for blueprint import:
 

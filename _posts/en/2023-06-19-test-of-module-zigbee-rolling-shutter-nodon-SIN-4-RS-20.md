@@ -106,7 +106,7 @@ The entity layout in Home assistant is top notch. You can find the same with Z2M
 |Device ID Type|Window Cover Device (0x0202)|
 |Dimensions|40mm (w) x 44mm (l) x 16.9mm (h)|
 
-![Nodon SIN-4-RS-20 3D Image Capture]({{ site.baseurl }}/assets/images/posts/71/SIN-4-RS-20-360.webp{{ cachebuster }}){: width="400" height="319" class="lazyload"}{: target="_blank"}
+![Nodon SIN-4-RS-20 3D Image Capture]({{ site.baseurl }}/assets/images/posts/71/SIN-4-RS-20-360.webp{{ cachebuster }}){: width="400" height="319" class="lazy"}{: target="_blank"}
 
 ## Compatibility
 

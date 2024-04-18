@@ -172,7 +172,7 @@ Customize it according to your needs, it is commented to make your task easier. 
 
 Last step create a thermostat map in Lovelace. Nothing could be simpler, go to Lovelace and select the thermostat card, and select the entity created in my case **"Kitchen and Living Room Heating"**
 
-![Setting up generic thermostat in home assistant]({{ site.baseurl }}/assets/images/posts/69/mise-en-place-generic-thermostat-lovelace-home-assistant.webp{{ cachebuster }}){: width="800" height="472" class="lazyload"}{: target="_blank"}
+![Setting up generic thermostat in home assistant]({{ site.baseurl }}/assets/images/posts/69/mise-en-place-generic-thermostat-lovelace-home-assistant.webp{{ cachebuster }}){: width="800" height="472" class="lazy"}{: target="_blank"}
 
 ## Conclusion
 

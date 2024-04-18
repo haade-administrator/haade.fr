@@ -85,7 +85,7 @@ The alarm **does not have a virtual or physical ON/OFF button** it will be neces
 
 ## Animation in user integration mode
 
-![user integration of the Heiman Zigbee HS2WD-E alarm in an automation with Home-Assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/heiman-sirene-hs2wd-e-integration-action-ha.webp{{ cachebuster }}){: width="940" height="885" class="lazyload"}
+![user integration of the Heiman Zigbee HS2WD-E alarm in an automation with Home-Assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/heiman-sirene-hs2wd-e-integration-action-ha.webp{{ cachebuster }}){: width="940" height="885" class="lazy"}
 
 # The **+**{: .blue} of the product
 

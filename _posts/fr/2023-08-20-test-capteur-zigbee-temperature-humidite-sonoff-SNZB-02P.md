@@ -106,7 +106,7 @@ En regardant le **gif animé** ci-dessous tu pourras te rendre compte que les do
 |**température**|25.6|25.4|25.91|
 |**humidité**|43.4|42.6|47.41|
 
-![Comparatif relevé de température et d'humidité Sonoff SNZB-02D, SNZB-02P et Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884" class="lazyload"}
+![Comparatif relevé de température et d'humidité Sonoff SNZB-02D, SNZB-02P et Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884" class="lazy"}
 
 ## Caractéristiques techniques
 

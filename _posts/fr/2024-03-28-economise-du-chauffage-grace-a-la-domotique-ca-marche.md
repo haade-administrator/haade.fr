@@ -9,7 +9,7 @@ date: 2024-03-28 11:09
 last_modified_at: 
 categories: [Haade-lab, News, Home-Assistant]
 tags: []
-youtubevideo: 
+youtubevideo: 'Cl7h8QwLl5A?si=Ar2SGFX_EbhYX5bN'
 image: 'fais-des-economies-d-energies-en-domotisant-ton-installation-de-chauffage.png'
 toc: true
 beforetoc: ''
@@ -168,7 +168,7 @@ Ensuite tu as deux minutes pour réaliser la manip sur les modules zigbee, je te
 
 Pour le bien du logement [August](/fr/auteur-august/){: target="_blank"} à voulu créé des modes en listes déroulantes donc nous allons créer un **virtuel liste déroulante** avec les options **Eco et confort**
 
-![création d'une entrée liste déroulante dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-virtuel-liste-deroulante-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![création d'une entrée liste déroulante dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-virtuel-liste-deroulante-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 **PS:** j'aurai pu créé un **mode boost** mais j'ai décidé de l'intégrer différemment dans une des automatisations.
 
@@ -191,7 +191,7 @@ Donc créons un template en capteur binaire "ON/OFF" pour le thermostat salon en
 {% endraw %}
 {% endhighlight %}
 
-![création d'un template en binaire on off pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-template-virtuel-binary-sensor-trv-sonoff-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![création d'un template en binaire on off pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-template-virtuel-binary-sensor-trv-sonoff-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 > Crée un template pour chaque Robinets Thermostatiques Sonoff TRV.
 
@@ -201,7 +201,7 @@ En plus de créer ce groupe on va laisser l'option **Toutes les entités** sur <
 
 {% include product-embed.html guid="2145" %}
 
-![création d'un groupe template en binaire pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406" class="lazyload"}
+![création d'un groupe template en binaire pour trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406" class="lazy"}
 
 ### Créer des moyennes de températures
 
@@ -216,7 +216,7 @@ Dans le script ci-dessous **j'enregistre les attributs sondes de températures**
 {% endraw %}
 {% endhighlight %}
 
-![création d'une moyenne de température avec les templates]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-moyenne-temperature-template.webp{{ cachebuster }}){: width="940" height="397" class="lazyload"}
+![création d'une moyenne de température avec les templates]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-moyenne-temperature-template.webp{{ cachebuster }}){: width="940" height="397" class="lazy"}
 
 ## Automatisations
 
@@ -228,13 +228,13 @@ Comme expliqué plus haut il y a d'autres façons de faire avec des modules comm
 
 Lorsque le mode passe à Eco tous les thermostats se **calibrent à 17°C**
 
-![création d'une automatisation mode éco]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![création d'une automatisation mode éco]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 ### Mode Confort avec fonction Boost
 
 En plus de la **fonction Eco**, le mode confort intègre une **condition Boost** de 7 minutes au lancement du chauffage afin de permettre une montée rapide de la température et de stabiliser le tout à 20°C. J'ai mis une condition au mode boost, il ne s'enclanche que si la **moyenne des pièces à vivres est inférieur à 19°** si ce n'est pas le cas il passera directement sur la température cible à 20°C
 
-![création d'une automatisation mode confort avec fonction boost sous conditions de température interne]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/mode-confort-condition-temperature-automatisation.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![création d'une automatisation mode confort avec fonction boost sous conditions de température interne]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/mode-confort-condition-temperature-automatisation.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ### Activation Chaudière
 
@@ -244,13 +244,13 @@ Avant de pouvoir créer les **modes activations** chaudières et **désactivatio
 
 Voilà quand un des robinets s'enclanche l'automatisation se lance et active le contact de la chaudière si la **température extérieur de la maison est inférieur à 16°C**
 
-![Activation chaudière avec condition température extérieur]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-activation-chaudiere-sur-contacteur.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![Activation chaudière avec condition température extérieur]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-activation-chaudiere-sur-contacteur.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ### Désactivation Chaudière
 
 Quand le template **groupe thermostat** créé précédemment passe à **désactivé** ( aucun robinets en demande ) alors le contacteur passe sur désactivé et éteins la chaudière, simple non!
 
-![Désactivation chaudière quand tous les thermostats sont éteins]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-contacteur-chaudiere-desactive.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![Désactivation chaudière quand tous les thermostats sont éteins]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-contacteur-chaudiere-desactive.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ## Fonctions intéressantes
 

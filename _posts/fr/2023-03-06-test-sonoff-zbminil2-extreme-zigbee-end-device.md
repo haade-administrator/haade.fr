@@ -75,7 +75,7 @@ Comme mentionné plus haut l'épaisseur de 18,4mm ne pose pas de soucis pour met
 
 Le module est bel et bien reconnu dans Z2M, comme tu peux le voir, la quantité d'option est assez pauvre, en bref le module est contrôlable pour la fonction on/off.
 
-![Intégration de ZBMINI L2 Extrême dans zigbee2mqtt Z2m]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zbmini-l2-extreme-zigbee2mqtt.webp{{ cachebuster }}){: width="940" height="798" class="lazyload"}
+![Intégration de ZBMINI L2 Extrême dans zigbee2mqtt Z2m]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zbmini-l2-extreme-zigbee2mqtt.webp{{ cachebuster }}){: width="940" height="798" class="lazy"}
 
 # Caractéristiques
 

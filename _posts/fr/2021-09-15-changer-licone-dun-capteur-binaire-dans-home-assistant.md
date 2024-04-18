@@ -54,6 +54,6 @@ Configuration &gt;&gt; Personnalisation &gt;&gt; Choisi une entité
 
 Visualise ce magnifique GIF animé qui reprend bien tout ça.
 
-![modification une icone par défaut d'un device dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/modification-icone-device_class-element-binaire-personnalisation.webp{{ cachebuster }}){: width="820" height="404" class="lazyload"} 
+![modification une icone par défaut d'un device dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/modification-icone-device_class-element-binaire-personnalisation.webp{{ cachebuster }}){: width="820" height="404" class="lazy"} 
 
 Modification d’une icône d’un capteur binaire dans home assistant grâce à la personnalisation des entités device\_class. Pour finir, *on peut dire qu’ home assistant à une fois de plus pensé à tout.*

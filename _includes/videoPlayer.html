@@ -3,7 +3,7 @@
 {%- if include.youtubeId != nil %}
 <div class="embed-container">
     <iframe style="border-radius:15px"
-        class="lazyload"
+        class="lazy"
         data-src="https://www.youtube.com/embed/{{ include.youtubeId }}"
         width="700"
         height="480"
@@ -36,7 +36,7 @@
 <div class="embed-container">
     <iframe
         src="https://clips.twitch.tv/embed?clip={{ include.twitchId }}&parent={{ include.twitchDomain }}"
-        class="lazyload"
+        class="lazy"
         width="700"
         height="480"
         frameborder="0"

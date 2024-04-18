@@ -117,7 +117,7 @@ in order to send the code above in UART mode **you will need**:
 
 **Press the boot button without releasing it, then connect the two USB cables, and finally release the boot button**
 
-![Sending esphome firmware to an esp32-korvo]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esp32-korvo-esphome-flash-firmware.webp{{ cachebuster }}){: width="940" height="529" class="lazyload"}
+![Sending esphome firmware to an esp32-korvo]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esp32-korvo-esphome-flash-firmware.webp{{ cachebuster }}){: width="940" height="529" class="lazy"}
 
 {%- include alert.html type="info" text="Important! Once the firmware has been sent by UART, it is important to disconnect the esp32-korvo from the mains, <b>once reconnected, press the reset button for 1 second to launch it</b>" %}
 

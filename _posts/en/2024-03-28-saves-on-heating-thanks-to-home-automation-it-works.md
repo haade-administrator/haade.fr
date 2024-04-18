@@ -167,7 +167,7 @@ At this stage you have the modules **in your operational Zigbee network**, but n
 
 For the good of housing [August](/en/author-august/){: target="_blank"} wanted to create modes in drop-down lists so we will create a **virtual drop-down list** with the options **Eco and comfort**
 
-![creating a drop-down list entry in home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-virtuel-liste-deroulante-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![creating a drop-down list entry in home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-virtuel-liste-deroulante-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 **PS:** I could have created a **boost mode** but I decided to integrate it differently in one of the automations.
 
@@ -190,7 +190,7 @@ So let's create a binary "ON/OFF" sensor template for the living room thermostat
 {% endraw %}
 {% endhighlight %}
 
-![creation of a binary on off template for trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-template-virtuel-binary-sensor-trv-sonoff-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![creation of a binary on off template for trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-template-virtuel-binary-sensor-trv-sonoff-home-assistant.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 > Create a template for each Sonoff TRV Thermostatic Faucets.
 
@@ -200,7 +200,7 @@ In addition to creating this group we will leave the option **All entities** on 
 
 {% include product-embed.html guid="2145" %}
 
-![creation of a template group in binary for trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406" class="lazyload"}
+![creation of a template group in binary for trv Sonoff]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-groupe-de-binaires-gestion-chauffage-home-assistant.webp{{ cachebuster }}){: width="940" height="406" class="lazy"}
 
 ### Create temperature averages
 
@@ -215,7 +215,7 @@ In the script below **I record the temperature probe attributes** of the modules
 {% endraw %}
 {% endhighlight %}
 
-![creating an average temperature with templates]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-moyenne-temperature-template.webp{{ cachebuster }}){: width="940" height="397" class="lazyload"}
+![creating an average temperature with templates]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/creation-moyenne-temperature-template.webp{{ cachebuster }}){: width="940" height="397" class="lazy"}
 
 ## Automations
 
@@ -227,13 +227,13 @@ As explained above there are other ways of doing things with modules like [Versa
 
 When the mode changes to Eco all thermostats **calibrate to 17°C**
 
-![creation of eco mode automation]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395" class="lazyload"}
+![creation of eco mode automation]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-mode-eco.webp{{ cachebuster }}){: width="940" height="395" class="lazy"}
 
 ### Comfort mode with Boost function
 
 In addition to the **Eco function**, comfort mode includes a 7-minute **Boost condition** when heating is started to allow the temperature to rise quickly and stabilize everything at 20°C. I put a condition on the boost mode, it only turns on if the **average of the living rooms is less than 19°** if this is not the case it will go directly to the target temperature at 20°C
 
-![creation of comfort mode automation with boost function under internal temperature conditions]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/mode-confort-condition-temperature-automatisation.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![creation of comfort mode automation with boost function under internal temperature conditions]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/mode-confort-condition-temperature-automatisation.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ### Boiler activation
 
@@ -243,13 +243,13 @@ Before you can create the **boiler activation** and **deactivation** modes, you 
 
 This is when one of the taps turns on, the automation starts and activates the boiler contact if the **temperature outside the house is lower than 16°C**
 
-![Boiler activation with outside temperature condition]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-activation-chaudiere-sur-contacteur.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![Boiler activation with outside temperature condition]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-activation-chaudiere-sur-contacteur.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ### Boiler deactivation
 
 When the **thermostat group** template created previously changes to **disabled** (no taps required) then the contactor switches to disabled and turns off the boiler, simple no!
 
-![Boiler deactivation when all thermostats are off]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-contacteur-chaudiere-desactive.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![Boiler deactivation when all thermostats are off]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/automatisation-contacteur-chaudiere-desactive.webp{{ cachebuster }}){: width="940" height="479" class="lazy"}
 
 ## Interesting functions
 
