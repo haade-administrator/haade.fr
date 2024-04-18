@@ -9,7 +9,7 @@ date: 2024-03-28 11:09
 last_modified_at: 
 categories: [Haade-lab, News, Home-Assistant]
 tags: []
-youtubevideo: 'Cl7h8QwLl5A?si=Ar2SGFX_EbhYX5bN'
+youtubevideo:
 image: 'fais-des-economies-d-energies-en-domotisant-ton-installation-de-chauffage.png'
 toc: true
 beforetoc: ''
