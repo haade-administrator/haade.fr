@@ -4,7 +4,7 @@
 {%- for product in products %}
 <div class="embedproduct">
     <div class="embedproduct-picture">
-        {% picture shop shop/{{ include.guid }}/{{ product.image }} 1:1 center --alt {{ product.description }} --img width="250" height="250" %}
+        {% picture shop shop/{{ include.guid }}/{{ product.image }} 1:1 center --alt {{ product.description }} --img width="250" height="250" class="lazyload" %}
     </div>
     <div class="text">
         <div class="embedproduct-info">
@@ -40,16 +40,16 @@
             {%- endif %}
             <div class="embedaffiliate">
             {%- if include.affiliate %}
-            <span class="aliexbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ include.affiliate }}" target="_blank" rel="nofollow noopener"><img src="/assets/images/aliexpress-payment.png" width="20" height="20" alt="aliexpress logo payment"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Aliexpress</a></span>
+            <span class="aliexbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ include.affiliate }}" target="_blank" rel="nofollow noopener"><img src="/assets/images/aliexpress-payment.png" width="20" height="20" class="lazyload" alt="aliexpress logo payment"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Aliexpress</a></span>
             {%- endif %}
             {% if include.domlink %}
-            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ page.locale | slice: 0,2 }}/{{ include.domlink }}?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="20" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
+            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ page.locale | slice: 0,2 }}/{{ include.domlink }}?domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="20" class="lazyload" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
             {%- endif %}
             {% if include.dombrand %}
-            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ page.locale | slice: 0,2 }}/{{ include.dombrand }}&domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="20" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
+            <span class="dombutton" role="button"><a href="https://www.domadoo.fr/{{ page.locale | slice: 0,2 }}/{{ include.dombrand }}&domid=39" target="_blank" rel="nofollow noopener"><img src="/assets/images/domadoo.png" width="20" height="20" class="lazyload" alt="domadoo logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Domadoo</a></span>
             {%- endif %}
             {% if include.iteadlink %}
-            <span class="iteadbutton" role="button"><a href="https://itead.cc/product/{{ include.iteadlink }}/ref/122/" target="_blank" rel="nofollow noopener"><img src="/assets/images/itead-payment.png" width="20" height="20" alt="itead logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Itead</a></span>
+            <span class="iteadbutton" role="button"><a href="https://itead.cc/product/{{ include.iteadlink }}/ref/122/" target="_blank" rel="nofollow noopener"><img src="/assets/images/itead-payment.png" width="20" height="20" class="lazyload" alt="itead logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Itead</a></span>
             {%- endif %}
             {% if include.amazlink %}
             <span class="amazbutton" role="button"><a href="https://amzn.to/{{ include.amazlink }}" target="_blank" rel="nofollow noopener"><i class="icob amazon"></i>{{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Amazon</a></span>

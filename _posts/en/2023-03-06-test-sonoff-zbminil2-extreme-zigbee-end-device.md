@@ -75,7 +75,7 @@ As mentioned above, the thickness of 18.4mm does not pose any problem for settin
 
 The module is well and truly recognized in Z2M, as you can see, the quantity of option is quite poor, in short the module is controllable for the on/off function.
 
-![Integration of ZBMINI L2 Extreme in zigbee2mqtt Z2m]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zbmini-l2-extreme-zigbee2mqtt.webp{{ cachebuster }}){: width="940" height="798"}
+![Integration of ZBMINI L2 Extreme in zigbee2mqtt Z2m]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zbmini-l2-extreme-zigbee2mqtt.webp{{ cachebuster }}){: width="940" height="798" class="lazyload"}
 
 # Features
 

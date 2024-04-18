@@ -128,7 +128,7 @@ Une fois ces deux intégrations effectuées il te suffira de cliquer sur **ajout
 
 **Comme une vidéo vaut mieux que dix mots**, regarde en image l'intégration du module Neo {{ page.ref }} ci-dessous.
 
-![Intégration prise neo matter dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/video-integration-switch-neo-dans-home-assistant-avec-matter.webp{{ cachebuster }}){: width="300" height="649"}{: target="_blank"}
+![Intégration prise neo matter dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/video-integration-switch-neo-dans-home-assistant-avec-matter.webp{{ cachebuster }}){: width="300" height="649" class="lazyload"}{: target="_blank"}
 
 Et voilà tu peux enfin utiliser le module neo {{ page.ref }} dans home assistant, et tu pourras t'apercevoir ci-dessous que le contrôle de ce module se limite à l'interrupteur on/off, un peu léger selon moi.
 

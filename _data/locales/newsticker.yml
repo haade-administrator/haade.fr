@@ -47,9 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Comment choisir le bon portail pour votre propriété ?
-    url: https://www.maison-et-domotique.com/146762-comment-choisir-le-bon-portail-pour-votre-propriete/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-choix-portail-702x401.webp
+    title: Ecoflow lance une batterie étanche pour son système solaire Powerstream
+      !
+    url: https://www.maison-et-domotique.com/146676-ecoflow-lance-batterie-etanche-solaire-powerstream/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/kit-solaire-pour-balcon-ecoflow-powerstream-avec-une-batterie-etanche-54264032297307-2000x-500x500.webp
 Matter:
   en_GB:
   - name: Matter
@@ -59,6 +60,6 @@ Matter:
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony A32 Pro 32 Channel ESP32 Relay Board released
-    url: https://www.kincony.com/32-channel-esp32-relay-board.html
+    title: KinCony ATF ESP32 SD Card Module released
+    url: https://www.kincony.com/esp32-tf-card.html
     image:

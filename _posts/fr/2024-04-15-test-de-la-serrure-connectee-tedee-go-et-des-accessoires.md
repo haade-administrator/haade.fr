@@ -9,11 +9,11 @@ date: 2024-04-15 20:22
 last_modified_at: 
 categories: [Tests, Securite, Wifi]
 tags: []
-youtubevideo:
+youtubevideo: ''
 image: 'test-serrure-connectee-tedee-go-plus-bridge-clavier-code-relais-blebox.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'

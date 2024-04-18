@@ -148,7 +148,7 @@ Once these steps are done if everything went well, go to: [**http://jeedomluna.l
 
 I made an animated gif of the installation steps of the jeedom Luna, I did not encounter any particular problems I hope it will be the same for you :)
 
-![Jeedom Luna installation step]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/etape-installation-box-jeedom-luna.webp{{ cachebuster }}){: width="940" height="474"}
+![Jeedom Luna installation step]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/etape-installation-box-jeedom-luna.webp{{ cachebuster }}){: width="940" height="474" class="lazyload"}
 
 ## Dedicated Luna plugin
 
@@ -161,7 +161,7 @@ With the box Jeedom has made a Luna plugin that allows you to:
 - check wifi network status
 - know the strength of the signal
 
-![App Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom-luna-app.webp{{ cachebuster }}){: width="242" height="477"}
+![App Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom-luna-app.webp{{ cachebuster }}){: width="242" height="477" class="lazyload"}
 
 After installing the plugin and setting I had to restart the Box and then the changes were taken into account, I don't know if it's a problem with the box or if I went too fast.
 

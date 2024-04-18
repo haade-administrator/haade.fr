@@ -199,7 +199,7 @@ L 55mm x l 14mm x P 1mm
 Must say that v3.0 of µtéléinfo illuminates, you will not be able to miss the data transfer.
 > maybe a bit too bright for my taste.
 
-![Transmission of information led micro Teleinfo v3.0 on meter in home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/Micro-Teleinfo-v3-charles-hallard-blink.webp{{ cachebuster }}){: width="420" height="282"}{: target="_blank"}
+![Transmission of information led micro Teleinfo v3.0 on meter in home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/Micro-Teleinfo-v3-charles-hallard-blink.webp{{ cachebuster }}){: width="420" height="282" class="lazyload"}{: target="_blank"}
 
 ## Conclusion
 

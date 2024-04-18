@@ -90,7 +90,7 @@ L'écran reminder te permet de **rédiger un texte tu téléphone** tu pourras l
 
 Enfin j'ai créé un gif animé de navigation sur l'application **Ewelink**, comme ça, ça t'éviteras toutes questions sur le fonctionnement du Sonoff {{ page.ref }} v3.0.0.
 
-![Navigation sur Ewelink pour le paramétrage Rubik nspanel pro v3.0.0]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/nspanel-pro-v3-ewelink-rubik.webp{{ cachebuster }}){: width="388" height="690"}
+![Navigation sur Ewelink pour le paramétrage Rubik nspanel pro v3.0.0]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/nspanel-pro-v3-ewelink-rubik.webp{{ cachebuster }}){: width="388" height="690" class="lazyload"}
 
 ## Mise à jour depuis la version 2.2.0
 

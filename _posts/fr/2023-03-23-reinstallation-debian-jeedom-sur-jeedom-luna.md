@@ -83,7 +83,7 @@ le cercle va passer de rouge à bleu fixe, debian à démarré
 
 ci dessous une animation Gif qui reprend toute l'étape:
 
-![Flash image debian sur jeedom luna avec Factorytool]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/flash-image-debian-jeedom-luna.webp{{ cachebuster }}){: width="940" height="710"}
+![Flash image debian sur jeedom luna avec Factorytool]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/flash-image-debian-jeedom-luna.webp{{ cachebuster }}){: width="940" height="710" class="lazyload"}
 
 retrouve sur ton réseau l'adresse ip de la Jeedom Luna
 

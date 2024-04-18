@@ -98,7 +98,7 @@ D: Optocoupler (push button switch)
 
 ## Final rendering in Homeassistant
 
-![intégration module yunshan-lysignal homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/yunshan-homeassistant.webp{{ cachebuster }}){: width="499" height="369"}
+![intégration module yunshan-lysignal homeassistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/yunshan-homeassistant.webp{{ cachebuster }}){: width="499" height="369" class="lazyload"}
 
 animated gif image on the operation of the yunshan 7-30v module integrated with esphome and homeassistant
 

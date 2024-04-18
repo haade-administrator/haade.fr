@@ -114,7 +114,7 @@ The theme tab allows you to choose a dynamic or simple wallpaper, nothing more.
 ### Add Camera
 > The integration of two cameras in **RTSP format** was done without worries
 
-![RTSP camera integration in NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471"}{: target="_blank"}
+![RTSP camera integration in NSPanel Pro]({{ site.baseurl }}/assets/images/posts/52/integration-camera-nspanelpro.webp{{ cachebuster }}){: width="470" height="471" class="lazyload"}{: target="_blank"}
 
 ### Setting
 **The adjustment tab allows you to:**
@@ -161,7 +161,7 @@ A video distributed by Sonoff illustrates the installation of the addons well, I
 
 Paste the [Github repository link](https://github.com/CoolKit-Technologies/ha-addon){:target="_blank"} to access the addons. Then watch the video below for a complete installation.
 
-![Installing Ewelink Nspanel Pro on Homeassistant]({{ site.baseurl }}/assets/images/posts/52/nspanel-pro-ewelink-installation.webp{{ cachebuster }}){: width="940" height="521"}{: target="_blank"}
+![Installing Ewelink Nspanel Pro on Homeassistant]({{ site.baseurl }}/assets/images/posts/52/nspanel-pro-ewelink-installation.webp{{ cachebuster }}){: width="940" height="521" class="lazyload"}{: target="_blank"}
 
 **Benefits:**{: .blue}
 - Ewelink allows import of [compatible modules](https://appcms.coolkit.cn/home-assistant/push-home-assistant/14492.html){: target="_blank"} included in homeassistant
@@ -202,7 +202,7 @@ Watch an installation video below.
 ## #3 Using the [Sonofflan repository](https://github.com/AlexxIT/SonoffLAN){:target="_blank"} (local and/or cloud)
 Entirely developed by AlexxIT, this module makes it easy to control Sonoff products. It has the advantage of being very easy to use. However it will still be necessary to configure the Ewelink cloud but without being obliged to use it, finally it depends on Sonoff's Lan compatibility
 
-![Nspanel Pro Sonofflan installation on Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height= "517"}{:target="_blank"}
+![Nspanel Pro Sonofflan installation on Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height= "517" class="lazyload"}{:target="_blank"}
 
 **Benefits:**{: .blue}
 - **Perfect integration in Homeassistant**

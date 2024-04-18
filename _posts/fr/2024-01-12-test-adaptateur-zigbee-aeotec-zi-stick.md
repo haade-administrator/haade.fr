@@ -72,7 +72,7 @@ l'intégration du dongle Aeotec {{ page.ref }} s'est fait sans aucun soucis dans
 
 **Cependant l'intégration des modules se fait sans soucis**, du coup il est utilisable. 
 
-![Inclusion d'un module avec le zi-stick aeotec et zigbee2mqtt]({{ site.baseurl }}/assets/images/posts/104/inclusion-module-zigbee-dans-zigbee2mqtt-zi-stic-aeotec.webp{{ cachebuster }}){: width="600" height="173"}{: target="_blank"}
+![Inclusion d'un module avec le zi-stick aeotec et zigbee2mqtt]({{ site.baseurl }}/assets/images/posts/104/inclusion-module-zigbee-dans-zigbee2mqtt-zi-stic-aeotec.webp{{ cachebuster }}){: width="600" height="173" class="lazyload"}{: target="_blank"}
 
 > Cette erreur provient sois de zigbee2mqtt mais je pense que ça pourrait provenir directement du firmware injecté dans la clé, une erreur est possible.
 
@@ -90,7 +90,7 @@ L'intégration **dans ZHA ne pose aucun soucis** il suffit simplement de sélect
 
 > Tu pourras te rendre compte en visonnant le gif animé, que **l'intégration de la clé dans ZHA n'oppose aucune résistance**.
 
-![Intégration du dongle aeotec zi-stick dans ZHA home assistant]({{ site.baseurl }}/assets/images/posts/104/integration-dongle-zi-stick-aeotec-zha-home-assistant.webp{{ cachebuster }}){: width="600" height="482"}{: target="_blank"}
+![Intégration du dongle aeotec zi-stick dans ZHA home assistant]({{ site.baseurl }}/assets/images/posts/104/integration-dongle-zi-stick-aeotec-zha-home-assistant.webp{{ cachebuster }}){: width="600" height="482" class="lazyload"}{: target="_blank"}
 
 ## Caractéristiques techniques {{ page.ref }}
 

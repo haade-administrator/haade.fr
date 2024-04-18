@@ -173,7 +173,7 @@ Personnalise le selon tes besoins, il est commenté pour te faciliter la tâche.
 
 Dernière étape créer une carte thermostat dans Lovelace. Là rien de plus simple, va dans Lovelace et séléctionne la carte thermostat, et sélectionne l'entité créé dans mon cas **"Chauffage cuisine et Salon"**
 
-![Mise en place thermostat generic dans home assistant]({{ site.baseurl }}/assets/images/posts/69/mise-en-place-generic-thermostat-lovelace-home-assistant.webp{{ cachebuster }}){: width="800" height="472"}{: target="_blank"}
+![Mise en place thermostat generic dans home assistant]({{ site.baseurl }}/assets/images/posts/69/mise-en-place-generic-thermostat-lovelace-home-assistant.webp{{ cachebuster }}){: width="800" height="472" class="lazyload"}{: target="_blank"}
 
 ## Conclusion
 

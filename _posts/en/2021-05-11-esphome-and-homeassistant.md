@@ -37,7 +37,7 @@ Thanks to the integration in Esphome's Homeassistant it is now very easy to inje
 
 Nothing could be simpler in homeassistant (hassio), **tab** Supervisor &gt;&gt;&gt; Shop additional modules search for **esphome** and install it. There is nothing to touch in the configuration tab of the module, once installed, do not forget to select **Show in the sidebar.** In order to be able to control the injection.
 
-![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421"}
+![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421" class="lazyload"}
 
 ## Use:
 
@@ -48,7 +48,7 @@ Now all you have to do is press the little ******** at the bottom right and foll
 - 3 – fill in the coordinates of your wifi in the local network **2.4Ghz** (ota not mandatory)
 - 4 – finish
 
-![add esphome module in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-ajout.webp{{ cachebuster }}){: width="820" height="466"}
+![add esphome module in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-ajout.webp{{ cachebuster }}){: width="820" height="466" class="lazyload"}
 
 
 animated gif when adding a module in esphome Now you have to integrate the inputs (relay, contactor, optocoupler, led, etc.), you can find a lot of them on the esphome.io site

@@ -106,7 +106,7 @@ By looking at the **animated gif** below you will see that the data from SNZB-02
 |**temperature**|25.6|25.4|25.91|
 |**humidity**|43.4|42.6|47.41|
 
-![Comparison of temperature and humidity reading Sonoff SNZB-02D, SNZB-02P and Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884"}
+![Comparison of temperature and humidity reading Sonoff SNZB-02D, SNZB-02P and Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/comparatif-mesure-temperature-humidite-sonoff-snzb-02P.webp{{ cachebuster }}){: width="940" height="884" class="lazyload"}
 
 ## Technical characteristics
 

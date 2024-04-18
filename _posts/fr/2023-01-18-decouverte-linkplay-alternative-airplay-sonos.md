@@ -71,7 +71,7 @@ Spotify, Tidal, Airplay, Airplay 2, Tunein, Deezer, Napster, Dlna, Qobuz, etc...
 
 Parlons de l'application qui est nécessaire pour la mise à jour du firmware, pour le reste tu peux contrôler ton système directement dans Homeassistant.
 
-![image animée de l'application 4stream par linkplay]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/4stream.webp{{ cachebuster }}){: width="242" height="525"}
+![image animée de l'application 4stream par linkplay]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/4stream.webp{{ cachebuster }}){: width="242" height="525" class="lazyload"}
 
 [lien direct application companion google play **noté 2,9**](https://play.google.com/store/apps/details?id=com.wifiaudio.Stream&hl=fr&gl=US&pli=1){: target="_blank"}
 
