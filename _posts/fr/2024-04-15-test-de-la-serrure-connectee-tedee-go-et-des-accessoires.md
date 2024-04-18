@@ -9,7 +9,7 @@ date: 2024-04-15 20:22
 last_modified_at: 
 categories: [Tests, Securite, Wifi]
 tags: []
-youtubevideo: yDM6gbcIBWk?si=-DE5oE-TEnbXWdoe
+video:
 image: 'test-serrure-connectee-tedee-go-plus-bridge-clavier-code-relais-blebox.png'
 toc: true
 beforetoc: ''
@@ -51,6 +51,8 @@ On ne va pas s'étaler sur le sujet car tu trouveras facilement toutes les infos
 - le guide en carton avec QRcode
 
 {% picture posts/{{ page.guid }}/contenu-boite-tedee-go.png --alt contenu de la boite de la serrure connectée Tedee Go --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/deballage-digicode-pour-serrure-connectee-tedee-go.png --alt contenu de la boite du digicode Tedee Go --img width="940" height="529" %}
 
 ## Caractéristique
 
@@ -102,6 +104,8 @@ Comme montré dans diverses vidéos l'installation sur une serrure européenne n
 
 Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connectée Tedee via Internet, où que vous soyez.
 
+{% picture posts/{{ page.guid }}/deballage-module-bridge-pour-serrure-connectee-tedee.png --alt Présentation et déballage du bridge pour ouvrir l'accès vers l'extérieur au tedee go --img width="940" height="529" %}
+
 Faites l’expérience d’un confort et d’une sécurité de pointe, et entrez dans la nouvelle ère de l’accès à la maison. Tedee Bridge ne se contente pas d’améliorer votre confort avec des avantages supplémentaires, il transforme également la façon dont vous gérez la sécurité de votre propriété, même lorsque vous êtes loin de chez vous.
 
 ### Tedee Clavier code d'accès
@@ -130,6 +134,8 @@ Je suis pas fan de domotiser son habitation à travers de multiples applications
 
 Une API en [perpetuelle évolution disponible ici](https://api.tedee.com/swagger/index.html#/)
 
+{% picture posts/{{ page.guid }}/parametres-bridge-app-tedee-go-et-acces-api.png --alt Accès à l'api sur l'appli pour paramétrer Tedee Go et les logiciels sources externes comme home assistant --img width="940" height="509" %}
+
 La [marque affiche une compatibilité](https://tedee.com/fr/integrations-domotique/?utm_term=&utm_source=adwords&utm_campaign=Reklamy+produktowe+(Francja)&utm_medium=ppc&hsa_acc=3229275490&hsa_cam=17745495747&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjww_iwBhApEiwAuG6ccPTO6PYLs8TsvjS_pwlJDUcOecnh8vRsJgiHe4mjfkhCQ_X4k1uJaBoCnccQAvD_BwE#technology-section-1){: target="_blank"} avec Google Home, Amazon Alexa, Apple HomeKit ou Homey mais aussi Fibaro, eedomus, Loxone, neuronhouse, Jeedom, Ampio et **Home-Assistant**
 
 > Il vous faudra dans tous ces cas le Tedee Bridge
@@ -150,3 +156,10 @@ Et oui le tedee est compatible avec home assistant mais pour se faire il te faud
 ### avec le bridge
 
 ### avec Homekit
+
+## Partage d'accès invité
+
+L'application est bien faite pour généraer un accès avec divers paramétrages ainsi que l'envoi de mails automatiques, mais je suis déçu car la personne doit télécharger l'appli pour pouvoir utiliser cet accès, un lien sous formes de boutons à cliquer aurait été plus simple car si tu fais de la location saisonnière le client sera peut être réticent à installer ce type d'applis.
+
+{% picture posts/{{ page.guid }}/exemple-mail-invitation-serrure-connectee-tedee-go.png --alt mail de partage d'accès à la serrure Tedee Go --img width="940" height="529" %}
+

@@ -9,7 +9,7 @@ date: 2024-04-11 12:30
 last_modified_at: 
 categories: [Haade-lab, Mini-tutos]
 tags: []
-youtubevideo:
+video:
 image: 'creer-moyenne-etat-entite-template-home-assistant.png'
 toc: true
 beforetoc: ''

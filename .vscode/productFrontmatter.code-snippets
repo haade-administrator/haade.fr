@@ -13,7 +13,7 @@
       "last_modified_at: $6",
       "categories: [${7|Domotique,Esp,Haade-lab,Mini-tutos,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Tests,Zigbee|}, ${8|Domotique,Docker,Haade-lab,Home-Assistant,Esp,Jeedom,Zigbee,News,Protocoles,Sécurité,Tests|}, ${9|Zigbee,Haade-lab,Docker,Domotique,Home-Assistant,Jeedom,News,Protocoles,Sécurité,Esp,Tests|}]",
       "tags: [$10]",
-      "youtubevideo: $11",
+      "video: $11",
       "image: '${12:picture.png}'",
       "toc: ${13|true,false|}",
       "beforetoc: '$14'",

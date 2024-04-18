@@ -1,17 +1,5 @@
 {%- if page.guid <= 999 %}
-{%- if page.youtubevideo %}
-<div class="entry-featured-image embed-container">
-<iframe style="border-radius:15px"
-data-src="https://www.youtube.com/embed/{{ page.youtubevideo }}"
-class="lazyload"
-width="560"
-height="315"
-title="{{ page.title }}"
-frameborder="0"
-allowfullscreen="true">
-</iframe>
-</div>
-{%- elsif page.image %}
+{%- if page.image %}
 <div class="entry-featured-image">
     {%- if page.imageshadow %}
     {%- if page.image contains "://" %}{{ page.image }}{%- else %}{% picture post posts/{{ page.guid }}/{{ page.image }} --alt {{ page.title }} --img class="featured-image-post image-shadow" width="940" height="529" itemprop="image" %}{%- endif %}
