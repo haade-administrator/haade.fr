@@ -1,4 +1,4 @@
-<!-- https://my.home-assistant.io/faq/ -->
+<!-- https://my.home-assistant.io/faq/ ou à génerer https://my.home-assistant.io/create-link/ -->
 <div class="myhomeassistant">
 {%- if include.add_matter_device -%}
 <a href="https://my.home-assistant.io/redirect/add_matter_device/" target="_blank"><img src="https://my.home-assistant.io/badges/add_matter_device.svg" class="lazyload" width="310" height="48" alt="Homeassistant add matter device" /></a>
@@ -38,7 +38,9 @@
 <!-- import d'une url blueprint -->
 {%- elsif include.blueprint_import -%}
 <a href="https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url={{ include.blueprint_import }}" target="_blank"><img src="https://my.home-assistant.io/badges/blueprint_import.svg" class="lazyload" width="296" height="48" alt="Homeassistant Blueprint" /></a>
-
+<!-- integration par marque -->
+{%- elsif include.integration_brand -%}
+<a href="https://my.home-assistant.io/redirect/brand/?brand={{ include.integration_brand }}" target="_blank"><img src="https://my.home-assistant.io/badges/brand.svg" class="lazyload" width="243" height="40" alt="Homeassistant Integration par marque" /></a>
 <!-- continuer après blueprint: start import
 ===
 ici

@@ -86,10 +86,19 @@ Bon yu trouveras toutes les infos sur le web et sur la futur vidéo qui verra le
 3. **Clés virtuelles:** Partage l’accès à la maison avec Famille, amis ou locataires. Facilite les accès avec des clés virtuelles dans l’application Tedee, en contrôlant qui entre, quand, combien de temps et à quelle heure.
 4. **Votre portier personel:** Détend toi avec des fonctionnalités simples – régle le Tedee GO pour qu’elle se verrouille automatiquement lorsque tu pars ou rentre chez toi.
 
-### les options de la clé
+### les options de la serrure {{ page.ref }}
 1. verrouiller automatiquement la porte lorsque la serrure est déverouillée
 2. verrouiller automatiquement la porte lorsque la serrure est semi verouillée
 3. déverouillage automatique lorsque tu es à proximité de la porte ( bluetooth )
+4. Loquet ( sans poignée exterieur choisis d'ouvrir la porte entièrement)
+5. paramètre le bouton physique de la serrure ( déverouiller/verrouiller, fermeture automatique avec délai, temporisation )
+6. calibrage
+7. Alerte sur serrure déverouillée
+8. Option déverouillage d'urgence
+
+{% picture posts/{{ page.guid }}/option-appli-tedee-go-verrouillage-loquet.png --alt option de la tedee go verrouillage, déverrouillage et loquet --img width="940" height="509" %}
+
+{% picture posts/{{ page.guid }}/option-appli-tedee-go-bouton-urgence-alerte.png --alt option de la tedee go parametrage bouton, option d'urgence et notification d'alerte --img width="940" height="509" %}
 
 ### Qualité de la {{ page.ref }}
 
@@ -147,7 +156,9 @@ Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connect
 Faites l’expérience d’un confort et d’une sécurité de pointe, et entrez dans la nouvelle ère de l’accès à la maison. Tedee Bridge ne se contente pas d’améliorer votre confort avec des avantages supplémentaires, il transforme également la façon dont vous gérez la sécurité de votre propriété, même lorsque vous êtes loin de chez vous.
 
 
-### Tedee Module relais
+### Tedee Module relais Blebox doorbox V2
+
+Tedee m'a aussi fourni un module relais mais je dois t'avouer que je suis assez déçu ? Je m'explique
 
 ## Notices
 
@@ -156,6 +167,13 @@ Faites l’expérience d’un confort et d’une sécurité de pointe, et entrez
 {% include doclink.html pdf="installation-utilisation-manuel-bridge-tedee-FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee Bridge" %}
 
 {% include doclink.html pdf="installation-utilisation-code-acces-tedee-FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee clavier à code d'accès" %}
+
+{% include doclink.html pdf="BleBox_Installation_FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee blebox doorbox" %}
+
+
+## Appairage Tedee
+
+Les modules Tedee sont équipés du Bluetooth ainsi que de qrcode sur le produit et sur la notice pour l'appairage, seul le digicode ne possède pas de qrcode sur le produit raison de sécurité oblique. À la demande de l'appli scan le qrcode du nouveau produit et il s'intègrera immediatement, si une mise à jour est disponible elle se fera directement à la vitesse de l'éclair.
 
 
 ## Application Tedee
@@ -178,18 +196,35 @@ La [marque affiche une compatibilité](https://tedee.com/fr/integrations-domotiq
 
 > Il vous faudra dans tous ces cas le Tedee Bridge
 
-
 ### avec bridge
-- home-assistant
-- jeedom (plugin 4€)
+- Home-assistant
+- Jeedom (plugin 4€)
+- Fibaro
+- Eedomus
+- Loxone
+- etc...
 
 ## Integration Home Assistant
 
-Et oui le tedee est compatible avec home assistant mais pour se faire il te faudra idéalement le bridge mais pas obligatoire, tu pourrais utiliser directement la {{ page.ref }} avec HApar le biais de homekit en utilisant le bluetooth mais tu n'auras pas accès à toute les fonctions.
+Et oui la serrure {{ page.ref }} est partiellement compatible avec home assistant mais pour se faire il te faudra idéalement le bridge mais pas obligatoire, tu pourrais utiliser directement la {{ page.ref }} avec HA par **le biais de homekit si tu possèdes déjà un bridge homekit** mais tu n'auras pas accès à toute les fonctions.
 
 ### avec le bridge
 
-### avec Homekit
+Une fois le bridge paramétré via l'application officielle Tedee, va dans les paramètres et active l'API. Une fois activée rends toi dans les infos de l'API et récupère la clé Token ainsi que l'adresse IP, [voir la capture ci-dessus](#api-tedee)
+
+Ensuite le reste se passe dans Home-Assistant d'une manière plus que simple clic directement sur le bouton ci-dessous
+
+{% include homeassistantlink.html integration_brand="tedee" %}
+
+Renseigne l'adresse IP ainsi que le token et tu auras directement toutes les infos qui remonteront dans Home assistant ( pour l'instant seul la serrure et le bridge remonteront ), je n'ai pas trop d'inquiétude pour l'intégration des autres composants car l'API est très complète. Tu peux par ailleurs participer au projet d'intégration car il existe une [librairie python](https://pypi.org/project/pytedee-async/){: target="_blank"} d'intégration et le [github correspondant](https://github.com/zweckj/pytedee_async){: target="_blank"}
+
+### rendu homeassistant
+
+{% picture posts/{{ page.guid }}/integration-bridget-et-tedee-go-home-assistant.png --alt integration tedee go et bridge dans home assistant --img width="940" height="113" %}
+
+{% picture posts/{{ page.guid }}/fonctions-disponibles-tedee-go-home-assistant.png --alt fonctions disponibles dans home assistant de la serrure connectée tedee go --img width="940" height="623" %}
+
+![Fonctionnement de la serrure connectée tedee go dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctionnement-home-assistant.webp{{ cachebuster }}){: width="597" height="679" class="lazyload"}
 
 ## Partage d'accès invité
 

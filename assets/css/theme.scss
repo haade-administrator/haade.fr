@@ -580,11 +580,11 @@ img:hover {
     border-radius: 50%;
     margin-right: 4px;
   }
-.author-meta {
-  .post-name {
-    font-size:0.75em;
+  .author-meta {
+    .post-name {
+      font-size: 0.75em;
+    }
   }
-}
 
   .card {
     border: 0;
@@ -793,13 +793,12 @@ img:hover {
       display: inline-block;
       width: fit-content;
 
-    img.author-thumb {
-      width: 40px;
-      height: auto;
-      pointer-events: none;
+      img.author-thumb {
+        width: 40px;
+        height: auto;
+        pointer-events: none;
+      }
     }
-  }
-    
   }
   .d-flex {
     width: 100%;
@@ -902,6 +901,11 @@ img:hover {
         display: none;
       }
     }
+    .ha-badges {
+      a:after {
+        display: none;
+        }
+      }
   }
 }
 

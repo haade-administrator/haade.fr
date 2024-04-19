@@ -28,9 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test le la prise connectée Smart Wi-Fi Plug Mini MSS315 de Meross compatible
-      matter
-    url: https://blog.nord-domotique.com/test-mini-mss315-meross/
+    title: Test de la box de domotique Jeedom Luna
+    url: https://blog.nord-domotique.com/test-de-la-box-de-domotique-jeedom-luna/
     image: 
 Abavala:
   fr_FR:
@@ -47,10 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Ecoflow lance une batterie étanche pour son système solaire Powerstream
-      !
-    url: https://www.maison-et-domotique.com/146676-ecoflow-lance-batterie-etanche-solaire-powerstream/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/kit-solaire-pour-balcon-ecoflow-powerstream-avec-une-batterie-etanche-54264032297307-2000x-500x500.webp
+    title: Vrai prix d’une installation photovoltaïque - l’exemple de Hello Watt
+    url: https://www.maison-et-domotique.com/146678-vrai-prix-installation-photovoltaique-hello-watt/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-solaire-hello-watt-702x367.png
 Matter:
   en_GB:
   - name: Matter

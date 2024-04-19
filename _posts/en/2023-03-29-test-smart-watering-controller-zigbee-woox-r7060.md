@@ -100,6 +100,8 @@ There is an [Irrigation Blueprint](https://gist.github.com/haade-administrator/6
 
 {% include homeassistantlink.html blueprint_import="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
 
+[![Importe directement le blueprint rédigé par l'équipe Hadde dans ton instance HA](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgist.github.com%2Fhaade-administrator%2F61d839c20a79643c4ceefe52fd85336e)
+
 {% picture posts/{{ page.guid }}/blueprint-irrigation-automatisation-homeassistant.png --alt Automation scenario of the woox R7060 smart irrigation controller in home assistant --img width="940" height="638" %}
 
 **You can find other automations and cards on the HACS repository:**
