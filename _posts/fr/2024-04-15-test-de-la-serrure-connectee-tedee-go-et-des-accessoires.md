@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 3.5
 sourcelink:
   - https://www.youtube.com/@tedee5282/videos
   - https://tedee.com/fr/product-info/tedee-go/
@@ -137,17 +137,7 @@ Mis à part le premier jour je suis en dessous de 8 à raison de 1% par jour, no
 - très bruyant
 - Bridge obligatoire pour la connecter à ta domotique
 
-## Tedee Clavier code d'accès
-
-{% picture posts/{{ page.guid }}/deballage-digicode-pour-serrure-connectee-tedee-go.png --alt contenu de la boite du digicode Tedee Go --img width="940" height="529" %}
-
-## L'application Tedee
-
-**L'application Tedee est très bien faite**, l'intégration des produits de la marque ne prend que quelques secondes et le paramétrage est simplifié. tout se passe par QRCode et une connection Bluetooth à part la bridge ou un paramétrage wifi est nécessaire ( compatible 2,4 et 5Ghz ), là aussi je n'ai rencontré aucun soucis. À peine ton module reconnu que l'application de propose déjà une mise à jour qui ne prend que quelques secondes et le tout transféré par bluetooth.
-
-> franchement j'ai rarement vu une application aussi optimisée et simple d'utilisation
-
-### Tedee Bridge
+## Tedee Bridge
 
 Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connectée Tedee via Internet, où que vous soyez.
 
@@ -155,10 +145,74 @@ Le routeur sans fil Tedee Bridge vous permet de contrôler votre serrure connect
 
 Faites l’expérience d’un confort et d’une sécurité de pointe, et entrez dans la nouvelle ère de l’accès à la maison. Tedee Bridge ne se contente pas d’améliorer votre confort avec des avantages supplémentaires, il transforme également la façon dont vous gérez la sécurité de votre propriété, même lorsque vous êtes loin de chez vous.
 
+|Model|TBV1.0|
+|Weight|51.6g|
+|Dimensions|64.5mm x 63.5mm x 28mm|
+|Operating temperature|10-40°C (indoor only)|
+|Operating humidity|max. 65%|
+|Made in|Poland, EU|
+|Power supply|5V = 300mA|
+|Power connection|Socket plug (included) or micro USB (cable not included)|
+|Wi-Fi communication|2,4 GHz|
+|Bluetooth communication|BLE 5.0 2,4GHz|
+|Security protocol|TLS 1.3|
+|Recommended setup|max. 2 m from tedee lock; 1-10 m from Wi-Fi router|
+|Works with smart home systems|Google Assistant, Amazon Alexa, Homey, Fibaro,<br> Grenton, eeDomus, Consolomio<br>Jeedom, Home-Assistant, etc...|
 
-### Tedee Module relais Blebox doorbox V2
+**Les + du produit:**{: .blue}
+- test
 
-Tedee m'a aussi fourni un module relais mais je dois t'avouer que je suis assez déçu ? Je m'explique
+**Les - du produit:**{: .red}
+- test
+
+## Tedee Clavier code d'accès
+
+> Certe ce clavier n'est pas donné, 99€ rien que le prix laisse songeur
+
+{% picture posts/{{ page.guid }}/deballage-digicode-pour-serrure-connectee-tedee-go.png --alt contenu de la boite du digicode Tedee Go --img width="940" height="529" %}
+
+Mais franchement ça reste une belle découverte, d'une qualité remarquable, il fait ce qu'on lui demande, avec une intégrration dans l'application aussi simple que la Tedee Go et Bridge. Il fonctionne en bluetooth donc il devra être à une certaine distance max de la {{ page.ref }} pour des raisons de couvertures et de sécurité. Le produit est de très bonne fabrication avec des plastiques épais et moulé sur la face arrière.
+
+### Détails du fonctionnement
+
+{% picture posts/{{ page.guid }}/détail-des-fonctions-du-digicode-tedee.png --alt détail de fonctionnement des touches du digicode Tedee Go --img width="940" height="346" %}
+
+- Déverrouillez la porte sans smartphone à l'aide d'un code PIN
+- Installation en quelques minutes, alimentation via 3 piles AAA VARTA. Installation avec de la colle ou des vis, même en extérieur.
+- Choisis un code de 5 à 8 chiffres et définis, modifie et assigne des codes PIN via l’appli mobile.
+- Gére jusqu’à 100 codes PIN actifs et assignes des codes uniques aux utilisateurs pour un contrôle intégral des accès et de l’historique des activités.
+- Enfin Partage les accès simplement en donnant le code PIN logique ! NON !.
+
+Aucune prise de risque
+Aucune donnée n’est stockée dans le clavier. Il se connecte uniquement à la serrure connectée tedee qui fonctionne au moyen d’un cloud sécurisé.
+
+### Caractéristiques
+
+|Modèle|TKV 1.0|
+|Poids|120 g (sans piles), 155 g (avec 3 piles AAA)|
+|Dimensions|48mm x 135mm x 28mm|
+|Alimentation électrique|3 piles AAA incluses|
+|Autonomie des piles|selon les indications du fabricant des piles|
+|Communication Bluetooth|Bluetooth BLE 5.0 2,4 Ghz|
+|Indice de protection IP|IP65|
+
+**Les + du produit:**{: .blue}
+- test
+
+**Les - du produit:**{: .red}
+- test
+
+## Tedee Module relais Blebox doorbox V2
+
+{% picture posts/{{ page.guid }}/blebox-doorbox-tedee.png --alt contenu de la boite du relais Blebox pour Tedee Go --img width="940" height="529" %}
+
+Tedee m'a aussi fourni un module relais mais je dois t'avouer **que je suis assez déçu ?** Je m'explique:
+Ce module ne fonctionne pas du tout dans l'environnement Tedee mais dans un environnement de la marque Blebox. On retourne dans un univers d'appairage **wifi approximatif** ou **l'appli Blebox** n'est pas des plus intuitive, simpliste certe mais sans le bon sens. Si tu n'utilises pas de box domotique il te faudra donc deux applications pour utiliser les produits **Tedee et Blebox**, et franchement ce n'est pas très waf.
+Ce module est vendu plus de 60€ pour faire du contact sec et limité à une tension d'entrée allant de 12 à 24v. C'est franchement cher surtout que la concurrence comme Tuya peut te vendre ça 2 à 3 fois moins cher en wifi ou Zigbee.
+
+> **Le module relais te sera d'aucun intérêt dans l'environnement Tedee**
+
+{% picture posts/{{ page.guid }}/blebox-doorbox-tedee-taille-dans-la-main.png --alt rendu dans la main du relais Blebox pour Tedee Go --img width="940" height="529" %}
 
 ## Notices
 
@@ -170,19 +224,21 @@ Tedee m'a aussi fourni un module relais mais je dois t'avouer que je suis assez 
 
 {% include doclink.html pdf="BleBox_Installation_FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee blebox doorbox" %}
 
-
-## Appairage Tedee
-
-Les modules Tedee sont équipés du Bluetooth ainsi que de qrcode sur le produit et sur la notice pour l'appairage, seul le digicode ne possède pas de qrcode sur le produit raison de sécurité oblique. À la demande de l'appli scan le qrcode du nouveau produit et il s'intègrera immediatement, si une mise à jour est disponible elle se fera directement à la vitesse de l'éclair.
-
-
-## Application Tedee
+## L'application Tedee
 
 Google playstore: [Tedee](https://play.google.com/store/apps/details?id=tedee.mobile&hl=fr&gl=US)
 
 Apple AppStore: [Tedee](https://apps.apple.com/fr/app/tedee/id1481874162)
 
 Je suis pas fan de domotiser son habitation à travers de multiples applications, mais plutôt pour le tout en un c'est d'ailleurs pour ça que des systèmes comme Jeedom ou Home-assistant existent, heureusement il y a des solutions mais elles ne sont pas aussi complètes que l'application
+
+**L'application Tedee est très bien faite**, l'intégration des produits de la marque ne prend que quelques secondes et le paramétrage est simplifié. tout se passe par QRCode et une connection Bluetooth à part la bridge ou un paramétrage wifi est nécessaire ( compatible 2,4 et 5Ghz ), là aussi je n'ai rencontré aucun soucis. À peine ton module reconnu que l'application de propose déjà une mise à jour qui ne prend que quelques secondes et le tout transféré par bluetooth.
+
+> franchement j'ai rarement vu une application aussi optimisée et simple d'utilisation
+
+### Appairage Tedee
+
+Les modules Tedee sont équipés du Bluetooth ainsi que de qrcode sur le produit et sur la notice pour l'appairage, seul le digicode ne possède pas de qrcode sur le produit raison de sécurité oblique. À la demande de l'appli scan le qrcode du nouveau produit et il s'intègrera immediatement, si une mise à jour est disponible elle se fera directement à la vitesse de l'éclair. ⚡
 
 ## Compatibilité
 
