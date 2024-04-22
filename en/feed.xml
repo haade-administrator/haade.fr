@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2024 04:27:52 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Apr 2024 12:30:00 +0200</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2024 11:14:42 +0200</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2024 11:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test of the Tedee Go connected lock + accessories</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Complete test and integration into the home-assistant of the Tedee Go lock with the Tedee wifi bridge and the Tedee access code keyboard</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-lock-connected-tedee-go-plus-bridge-keypad-720-36edcfa7c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-lock-connected-tedee-go-plus-bridge-keypad-720-36edcfa7c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/120/test-lock-connected-tedee-go-plus-bridge-keypad-720-36edcfa7c.png" alt="Test of the Tedee Go connected lock + accessories">
+</picture>
+
+      <p>A first for Haade, I’m going to present to you a connected lock made in Eastern countries, the Tedee Go with the Tedee bridge which goes well and finally, the ** Tedee** digicode. For the record, I asked Tedee to provide me with the Pro version which looks more attractive, [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-tedee-go-connected-lock-and-accessories">Test of the Tedee Go connected lock + accessories</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 22 Apr 2024 11:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-of-the-tedee-go-connected-lock-and-accessories</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-tedee-go-connected-lock-and-accessories</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Wifi]]></category>
+    </item>
     <item>
       <title>Template - Create an average on entities</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -216,27 +238,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/zwave-dead-and-buried</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Automation]]></category>
-    </item>
-    <item>
-      <title>Tests Aqara h1 switch and bindings</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>test the aqara h1 switch europe version with h1 remote control and initiation to the zigbee bindings connection</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/109/bindings-test-aqara-h1-smart-switch-720-485fa037e.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/109/bindings-test-aqara-h1-smart-switch-720-485fa037e.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/109/bindings-test-aqara-h1-smart-switch-720-485fa037e.png" alt="Tests Aqara h1 switch and bindings">
-</picture>
-
-      <p>Today I am going to tell you about two Xiaomi Aqara products intended for the European market, These are the Aqara smart switch H1 double switch WS-EUK03 and the battery-powered switch Aqara H1 WXKG15LM (WRS-R02). According to Xiaomi, these are high-end switches and compatible with Binding, so are they up [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding">Tests Aqara h1 switch and bindings</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 21 Feb 2024 13:09:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-xiaomi-aqara-h1-switch-europe-and-link-binding</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 22 Apr 2024 04:27:52 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Apr 2024 12:30:00 +0200</lastBuildDate>
+    <pubDate>Mon, 22 Apr 2024 11:14:42 +0200</pubDate>
+    <lastBuildDate>Mon, 22 Apr 2024 11:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test de la serrure connectée Tedee Go + accessoires</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test complet et integration dans home-assistant de la serrure Tedee Go avec le bridge wifi Tedee et le clavier code accès Tedee</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.png" alt="Test de la serrure connectée Tedee Go + accessoires">
+</picture>
+
+      <p>Une première pour Haade, je vais te présenter une serrure connectée fabriqué dans les pays de l’est, la Tedee Go avec le bridge Tedee qui va bien et pour finir, le digicode Tedee. Pour la petite histoire j’ai demandé à Tedee de me fournir la version Pro qui à l’air [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires">Test de la serrure connectée Tedee Go + accessoires</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 22 Apr 2024 11:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Wifi]]></category>
+    </item>
     <item>
       <title>Template - Créer une moyenne sur entités</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -219,27 +241,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Z-wave mort et enterré</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Depuis l&apos;arrivée du protocole Zigbee sur le marché, le protocole Z-wave semble être au point mort, faisons le point sur cette situation.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/111/z-wave-est-mort-pourquoi-720-32696b61f.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/111/z-wave-est-mort-pourquoi-720-32696b61f.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/111/z-wave-est-mort-pourquoi-720-32696b61f.png" alt="Z-wave mort et enterré">
-</picture>
-
-      <p>J’avoue, le titre est un peu gros, il s’agit tout de même de faire une rétrospection objective de ce protocole qui semble disparaître des radars des revendeurs Européens. Depuis l’arrivée du Zigbee avec son protocole libre, des tarifs prohibitifs des modules Z-wave, et une consommation de piles élevées ont laissé [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/zwave-mort-et-enterre">Z-wave mort et enterré</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 24 Feb 2024 20:47:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/zwave-mort-et-enterre</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/zwave-mort-et-enterre</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Domotique]]></category>
     </item>
   </channel>
 </rss>
