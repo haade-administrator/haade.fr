@@ -28,8 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de la box de domotique Jeedom Luna
-    url: https://blog.nord-domotique.com/test-de-la-box-de-domotique-jeedom-luna/
+    title: Decouvrez la nouvelle application TaHoma de Somfy
+    url: https://blog.nord-domotique.com/nouvelle-application-tahoma/
     image: 
 Abavala:
   fr_FR:
@@ -46,9 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Vrai prix d’une installation photovoltaïque - l’exemple de Hello Watt
-    url: https://www.maison-et-domotique.com/146678-vrai-prix-installation-photovoltaique-hello-watt/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/titre-solaire-hello-watt-702x367.png
+    title: Test Diffuseur Prodifa - fini les moustiques et les mouches dans la maison
+      !
+    url: https://www.maison-et-domotique.com/143709-test-diffuseur-prodifa-anti-moustiques-mouches/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2023/09/pack-repousse-moustique-prodifa-500x500.jpg
 Matter:
   en_GB:
   - name: Matter

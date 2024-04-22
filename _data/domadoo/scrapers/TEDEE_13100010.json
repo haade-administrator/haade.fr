@@ -1,0 +1,27 @@
+{
+    "product": {
+        "linkId": "controle-d-acces/6469-tedee-clavier-a-code-5907720713263",
+        "productId": "TEDEE_13100010",
+        "title": "TEDEE - Clavier à code Bluetooth",
+        "description": "Créez des codes d’accès uniques de cinq à huit chiffres et ouvrez les portes sans utiliser votre smartphone.",
+        "productNew": "",
+        "minsalePrice": "99.00",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/24180-large_default/tedee-clavier-a-code.jpg",
+            "https://cdn1.domadoo.fr/24180-medium_default/tedee-clavier-a-code.jpg",
+            "https://cdn1.domadoo.fr/24181-medium_default/tedee-clavier-a-code.jpg",
+            "https://cdn1.domadoo.fr/24182-medium_default/tedee-clavier-a-code.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

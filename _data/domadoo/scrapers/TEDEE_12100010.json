@@ -1,0 +1,27 @@
+{
+    "product": {
+        "linkId": "controle-d-acces/6470-tedee-bridge-bluetoothwi-fi-5907720713010",
+        "productId": "TEDEE_12100010",
+        "title": "TEDEE - Bridge Bluetooth/Wi-Fi",
+        "description": "Le bridge tedee connecte votre serrure à Internet et permet des fonctions avancées à distance.",
+        "productNew": "",
+        "minsalePrice": "108.99",
+        "maxsalePrice": "0",
+        "discount": "",
+        "currency": "EUR",
+        "originalPrice": "",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/24186-large_default/tedee-bridge-bluetoothwi-fi.jpg",
+            "https://cdn1.domadoo.fr/24186-medium_default/tedee-bridge-bluetoothwi-fi.jpg",
+            "https://cdn1.domadoo.fr/24187-medium_default/tedee-bridge-bluetoothwi-fi.jpg",
+            "https://cdn1.domadoo.fr/24188-medium_default/tedee-bridge-bluetoothwi-fi.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

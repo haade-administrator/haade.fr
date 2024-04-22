@@ -6,11 +6,11 @@
         "description": "JEEDOM LUNA est la nouvelle box domotique autonome et multiprotocole entrée de gamme intégrant le logiciel Jeedom.",
         "productNew": "",
         "minsalePrice": "199.00",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "27.99",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "",
-        "quantity": "Plus de 20 Produits disponibles",
+        "originalPrice": "27.99",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/22879-large_default/jeedom-controleur-domotique-jeedom-luna-z-wave-700-et-zigbee-30.jpg",
@@ -27,8 +27,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.4",
-            "totalStarCount": "40"
+            "averageStar": "4.3",
+            "totalStarCount": "41"
         }
     }
 }

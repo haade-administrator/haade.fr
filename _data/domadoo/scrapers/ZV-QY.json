@@ -6,11 +6,11 @@
         "description": "Contrôlez votre vanne partout dans le monde avec la vanne motorisée Zigbee MOES.",
         "productNew": "",
         "minsalePrice": "36.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "19.99",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "",
-        "quantity": "9 Produits disponibles",
+        "originalPrice": "19.99",
+        "quantity": "8 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/26060-large_default/moes-vanne-motorisee-zigbee-tuya.jpg",
@@ -30,8 +30,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4",
-            "totalStarCount": "1"
+            "averageStar": "4.5",
+            "totalStarCount": "2"
         }
     }
 }

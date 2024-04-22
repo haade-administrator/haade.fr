@@ -59,5 +59,9 @@ module.exports = [
     'peripheriques/5725-aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02-6970504215023', // 2189 Aqara WRS-R02
     'securite/6827-capteur-de-presence-humaine-zigbee-30-technologie-radar-sonoff', // 2190 Sonoff snzb-06p
     'securite/6923-sonoff-detecteur-de-mouvement-zigbee-30', // 2191 sonoff snzb-03p
-    'chauffage-clim/6828-nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21' // 2192 nodon fil-pilote
+    'chauffage-clim/6828-nodon-module-chauffage-connecte-fil-pilote-zigbee-30-sin-4-fp-21', // 2192 nodon fil-pilote
+    'controle-d-acces/6725-serrure-connectee-tedee-go-grise-tedee-5907720713850', // 2193 serrure tedee go grise
+    'controle-d-acces/6734-serrure-connectee-tedee-go-noire-tedee-5907720713867', // 2194 serrure tedee go noire
+    'controle-d-acces/6470-tedee-bridge-bluetoothwi-fi-5907720713010', // 2195 tedee Bridge wifi
+    'controle-d-acces/6469-tedee-clavier-a-code-5907720713263' // 2196 tedee digicode
 ]

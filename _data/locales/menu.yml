@@ -198,6 +198,14 @@ brand:
       name: "Sonoff"
       link: "en/category-product/sonoff"
 
+  tedee:
+    fr_FR:
+      name: "Tedee"
+      link: "fr/categorie-produit/tedee"
+    en_GB:
+      name: "Tedee"
+      link: "en/category-product/tedee"
+
   neocoolcam:
     fr_FR:
       name: "Neo-Coolcam"
