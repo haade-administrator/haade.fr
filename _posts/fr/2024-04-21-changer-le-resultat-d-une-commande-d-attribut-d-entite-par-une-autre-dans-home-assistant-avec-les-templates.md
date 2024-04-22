@@ -40,7 +40,13 @@ Bref lors de l'installation chez August de robinets thermostatiques de différen
 
 Ce que j'ai fait, je récupère l'attribut d'état **running state** de l'entité **climate.thermostat_salon** et je met une condition si le resultat est ```heat``` le transformer en résultat ```on``` sinon ```off```
 
-ci-dessous le dode tu n'es pas obligé de mettre la balise ```{{ result }}``` qui est là surtout pour **lire le résultat de la commande.**
+## Template et entité
+
+Pour créer un template rien de plus simple rends-tois dans home assistant
+
+> Paramètres/entrées/créer une entrée/template/Modéliser un capteur
+
+ci-dessous le code tu n'es pas obligé de mettre la balise **{{ result }}** qui est là surtout pour **lire le résultat de la commande.**
 
 {% highlight yaml %}
 {% raw %}
