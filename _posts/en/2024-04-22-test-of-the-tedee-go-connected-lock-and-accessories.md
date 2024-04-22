@@ -30,7 +30,7 @@ sourcelink:
   - https://www.domadoo.fr/en/380_tedee?domid=39
 ---
 
-A first for Haade, I'm going to present to you a **connected lock** made in Eastern countries, **the Tedee Go** with the **Tedee bridge** which goes well and finally, the ** Tedee** digicode. For the record, I asked Tedee to provide me with the **Pro version** which looks more attractive, **but soon it will not be offered for sale to the general public**.
+A first for Haade, I'm going to present to you a **connected lock** made in Eastern countries, **the Tedee Go** with the **Tedee bridge** which goes well and finally, the **Tedee** digicode. For the record, I asked Tedee to provide me with the **Pro version** which looks more attractive, **but soon it will not be offered for sale to the general public**.
 
 {% include product-embed.html guid="2193" %}
 
@@ -309,7 +309,7 @@ The [brand shows compatibility](https://tedee.com/smart-home-integrations/){: ta
 
 ## Home Assistant integration
 
-And yes the {{ page.ref }} lock is partially compatible with home assistant but to do so you will ideally need the bridge but not obligatory, you could use the {{ page.ref }} directly with HA through ** of homekit if you already have a homekit bridge** but you will not have access to all the functions.
+And yes the {{ page.ref }} lock is partially compatible with home assistant but to do so you will ideally need the bridge but not obligatory, you could use the {{ page.ref }} directly with HA through **of homekit if you already have a homekit bridge** but you will not have access to all the functions.
 
 ### With the Tedee bridge
 
