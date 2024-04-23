@@ -4,7 +4,7 @@ layout: product
 title: "JEEDOM - CONTRÔLEUR DOMOTIQUE JEEDOM ATLAS ZIGBEE"
 date: "2023-02-16 13:11"
 description: "JEEDOM ATLAS est la nouvelle box domotique intégrant le logiciel Jeedom. Modèle avec contrôleur Zigbee."
-categories: [Boutique, Jeedom, Zigbee]
+categories: [Boutique, Jeedom, Bluetooth, Wifi, Zigbee]
 tags: []
 locale: fr_FR
 brand: Jeedom

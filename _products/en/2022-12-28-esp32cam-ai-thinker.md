@@ -4,7 +4,7 @@ layout: product
 title: "camera esp32 ai-thinker"
 date: "2022-12-28 17:57"
 description: "Camera esp32cam ai-thinker, create a low cost camera"
-categories: [Shop, Wifi, Esp]
+categories: [Shop, Bluetooth, Wifi, Esp]
 tags: []
 locale: en_GB
 brand: Ai-thinker

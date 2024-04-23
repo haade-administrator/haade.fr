@@ -4,7 +4,7 @@ layout: product
 title: "TEDEE - BRIDGE BLUETOOTH/WI-FI"
 date: "2024-04-22 10:13"
 description: "La nouvelle serrure intelligente de Tedee. Rapide à installer. Facile à aimer. Modèle gris."
-categories: [Boutique, Tedee, Wifi]
+categories: [Boutique, Tedee, Wifi, Bluetooth]
 tags: []
 locale: fr_FR
 brand: Tedee

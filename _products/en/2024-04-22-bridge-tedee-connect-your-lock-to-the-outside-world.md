@@ -4,7 +4,7 @@ layout: product
 title: "TEDEE - BRIDGE BLUETOOTH/WI-FI"
 date: "2024-04-22 10:13"
 description: "Tedee's new smart lock. Quick to install. Easy to like. Gray model."
-categories: [Shop, Tedee, Wifi]
+categories: [Shop, Tedee, Wifi, Bluetooth]
 tags: []
 locale: en_GB
 brand: Tedee

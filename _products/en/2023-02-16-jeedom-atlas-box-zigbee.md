@@ -4,7 +4,7 @@ layout: product
 title: "JEEDOM - JEEDOM ATLAS ZIGBEE HOME AUTOMATION CONTROLLER"
 date: "2023-02-16 13:11"
 description: "JEEDOM ATLAS is the new home automation box integrating Jeedom software. Model with Zigbee controller."
-categories: [Shop, Jeedom, Zigbee]
+categories: [Shop, Jeedom, Bluetooth, Wifi, Zigbee]
 tags: []
 locale: en_GB
 brand: Jeedom

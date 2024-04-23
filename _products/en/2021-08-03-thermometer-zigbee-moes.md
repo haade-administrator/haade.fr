@@ -4,7 +4,7 @@ layout: product
 title: "Zigbee Moes 3 in 1 Thermometer"
 date: "2021-08-03 13:43"
 description: "zigbee 3.0 thermometer by Moes"
-categories: [Shop, Moes, Zigbee]
+categories: [Shop, Moes, Zigbee, Bluetooth]
 tags: []
 locale: en_GB
 brand: Moes

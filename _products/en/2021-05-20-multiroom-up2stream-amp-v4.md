@@ -4,7 +4,7 @@ layout: product
 title: "Multiroom upstream anp v4"
 date: "2021-05-20 14:09"
 description: ""
-categories: [Shop, Accessories, Up2stream]
+categories: [Shop, Bluetooth, Wifi, Accessories, Up2stream]
 tags: []
 locale: en_GB
 brand: Up2stream

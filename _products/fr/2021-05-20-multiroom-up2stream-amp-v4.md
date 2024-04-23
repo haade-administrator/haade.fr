@@ -4,7 +4,7 @@ layout: product
 title: "Multiroom Up2stream amp v4"
 date: "2021-05-20 14:09"
 description: ""
-categories: [Boutique, Accessoires, Up2stream]
+categories: [Boutique, Accessoires, Up2stream, Bluetooth, Wifi]
 tags: []
 locale: fr_FR
 brand: Up2stream

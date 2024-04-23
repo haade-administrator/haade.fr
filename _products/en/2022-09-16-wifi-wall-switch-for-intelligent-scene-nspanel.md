@@ -5,7 +5,7 @@ brand: Sonoff
 title: "Sonoff NSPANEL"
 description: "wifi wall switch for smart stage NSPanel"
 date: "2022-09-16 18:05:07 +0200"
-categories: [Shop, Sonoff, Wifi]
+categories: [Shop, Sonoff, Bluetooth, Wifi]
 locale: en_GB
 ean:
 image: sonoff-nspanel-presentation.webp

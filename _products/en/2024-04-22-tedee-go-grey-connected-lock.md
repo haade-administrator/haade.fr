@@ -4,7 +4,7 @@ layout: product
 title: "TEDEE GO CONNECTED LOCK (GREY) - TEDEE"
 date: "2024-04-22 09:59"
 description: "Tedee's new smart lock. Quick to install. Easy to like. Black model."
-categories: [Shop, Tedee]
+categories: [Shop, Tedee, Bluetooth]
 tags: []
 locale: en_GB
 brand: Tedee

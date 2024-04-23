@@ -4,7 +4,7 @@ layout: product
 title: "SONOFF - BOX DOMOTIQUE ZIGBEE 3.0 / WIFI PRO"
 date: "2023-10-18 20:36"
 description: "La box domotique ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF permet d'avoir le contrôle de sa maison connectée à distance et de créer des scènes."
-categories: [Boutique, Sonoff, Zigbee, Wifi]
+categories: [Boutique, Sonoff, Bluetooth, Wifi, Zigbee]
 tags: []
 locale: fr_FR
 brand: Sonoff

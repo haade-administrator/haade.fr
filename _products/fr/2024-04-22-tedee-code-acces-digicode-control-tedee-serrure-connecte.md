@@ -4,7 +4,7 @@ layout: product
 title: "TEDEE - CLAVIER À CODE BLUETOOTH"
 date: "2024-04-22 10:17"
 description: "Créez des codes d’accès uniques de cinq à huit chiffres et ouvrez les portes sans utiliser votre smartphone."
-categories: [Boutique, Tedee]
+categories: [Boutique, Tedee, Bluetooth]
 tags: []
 locale: fr_FR
 brand: Tedee

@@ -4,7 +4,7 @@ layout: product
 title: "SERRURE CONNECTÉE TEDEE GO (GRISE) - TEDEE"
 date: "2024-04-22 09:59"
 description: "La nouvelle serrure intelligente de Tedee. Rapide à installer. Facile à aimer. Modèle noir."
-categories: [Boutique, Tedee]
+categories: [Boutique, Tedee, Bluetooth]
 tags: []
 locale: fr_FR
 brand: Tedee

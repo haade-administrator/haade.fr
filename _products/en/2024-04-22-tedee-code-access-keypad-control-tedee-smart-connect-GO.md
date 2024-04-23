@@ -4,7 +4,7 @@ layout: product
 title: "TEDEE - BLUETOOTH CODE KEYPAD"
 date: "2024-04-22 10:17"
 description: "Create unique five- to eight-digit access codes and open doors without using your smartphone."
-categories: [Shop, Tedee]
+categories: [Shop, Tedee, Bluetooth]
 tags: []
 locale: en_GB
 brand: Tedee

@@ -4,7 +4,7 @@ layout: product
 title: "SERRURE CONNECTÉE TEDEE GO (NOIRE) - TEDEE"
 date: "2024-04-22 09:59"
 description: "Le bridge tedee connecte votre serrure à Internet et permet des fonctions avancées à distance."
-categories: [Boutique, Tedee]
+categories: [Boutique, Tedee, Bluetooth]
 tags: []
 locale: fr_FR
 brand: Tedee

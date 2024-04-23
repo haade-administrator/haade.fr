@@ -4,7 +4,7 @@ layout: product
 title: "SONOFF - ZIGBEE 3.0 HOME AUTOMATION BOX / WIFI PRO"
 date: "2023-10-18 20:36"
 description: "The ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF home automation box allows you to control your connected home remotely and create scenes."
-categories: [Shop, Sonoff, Zigbee, Wifi]
+categories: [Shop, Sonoff, Bluetooth, Wifi, Zigbee]
 tags: []
 locale: en_GB
 brand: Sonoff
