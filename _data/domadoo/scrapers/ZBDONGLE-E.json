@@ -6,10 +6,10 @@
         "description": "Contrôlez vos dispositifs Zigbee avec la clé USB SONOFF Zigbee compatible Home Assistant et Zigbee2MQTT.",
         "productNew": "",
         "minsalePrice": "27.99",
-        "maxsalePrice": "15.99",
-        "discount": "-20%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "15.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [

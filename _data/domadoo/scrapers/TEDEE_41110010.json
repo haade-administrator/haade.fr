@@ -1,0 +1,27 @@
+{
+    "product": {
+        "linkId": "controle-d-acces/6735-module-relais-connecte-tedee-5900168580251",
+        "productId": "TEDEE_41110010",
+        "title": "Module relais connecté - TEDEE",
+        "description": "Porte de l’immeuble. Porte d’entrée. Porte de garage. Une seule application.",
+        "productNew": "",
+        "minsalePrice": "69.00",
+        "maxsalePrice": "189.00",
+        "discount": "-20%",
+        "currency": "EUR",
+        "originalPrice": "189.00",
+        "quantity": "1 Produit disponible",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/26599-large_default/module-relais-connecte-tedee.jpg",
+            "https://cdn1.domadoo.fr/26598-medium_default/module-relais-connecte-tedee.jpg",
+            "https://cdn1.domadoo.fr/26599-medium_default/module-relais-connecte-tedee.jpg",
+            "https://cdn1.domadoo.fr/26600-medium_default/module-relais-connecte-tedee.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

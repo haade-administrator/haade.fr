@@ -6,10 +6,10 @@
         "description": "Soyez alerté en temps réel lors d'une tentative d'intrusion d'un éventuel cambrioleur ou autre anomalie détectée dans votre jardin grâce à la sirène Zigbee NEO.",
         "productNew": "Nouveau",
         "minsalePrice": "34.99",
-        "maxsalePrice": "17.99",
-        "discount": "-20%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "17.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [

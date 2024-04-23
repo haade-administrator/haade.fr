@@ -6,10 +6,10 @@
         "description": "Le capteur de température et d'humidité SONOFF SNZB-02P vous informe de la température et l'humidité.",
         "productNew": "Nouveau",
         "minsalePrice": "13.99",
-        "maxsalePrice": "22.99",
-        "discount": "-20%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "22.99",
+        "originalPrice": "",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
