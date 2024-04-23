@@ -1147,6 +1147,12 @@ var documents = [{
         "title": "TEDEE - CLAVIER À CODE BLUETOOTH",
         "description": "22/04/2024 - Créez des codes d’accès uniques de cinq à huit chiffres et ouvrez les portes sans utiliser votre smartphone.",
         "tags": ""
+        },{
+        "id": 211,
+        "url": "/fr/produit/module-contact-sec-wifi-blebox-doorbox-v2-compatible-tedee",
+        "title": "MODULE RELAIS CONNECTÉ - BLEBOX compatible TEDEE",
+        "description": "23/04/2024 - Porte de l’immeuble. Porte d’entrée. Porte de garage. Une seule application. ",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

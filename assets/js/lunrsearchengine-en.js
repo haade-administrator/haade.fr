@@ -1067,6 +1067,12 @@ var documents = [{
         "title": "TEDEE - BLUETOOTH CODE KEYPAD",
         "description": "22/04/2024 - Create unique five- to eight-digit access codes and open doors without using your smartphone.",
         "tags": ""
+        },{
+        "id": 196,
+        "url": "/en/product/dry-contact-module-wifi-blebox-doorbox-v2-compatibility-tedee",
+        "title": "CONNECTED RELAY MODULE - BLEBOX compatible TEDEE",
+        "description": "23/04/2024 - Door of the building. Front door. Garage door. Just one app.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
