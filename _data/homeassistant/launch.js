@@ -3,7 +3,12 @@ const cheerio = require('cheerio');
 const fs = require('fs');
 
 async function scrapeHAblog() {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+        headless: 'new',
+        // `headless: true` (default) enables old Headless;
+        // `headless: 'new'` enables new Headless;
+        // `headless: false` enables "headful" mode.
+      });
     const page = await browser.newPage();
     await page.goto('https://www.home-assistant.io/blog/');
     const html = await page.content();

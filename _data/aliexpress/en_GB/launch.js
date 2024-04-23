@@ -8,7 +8,12 @@ const url = require('url');
 let invalidLinkCount = 0;
 
 async function scrapeAliexpress() {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: 'new',
+    // `headless: true` (default) enables old Headless;
+    // `headless: 'new'` enables new Headless;
+    // `headless: false` enables "headful" mode.
+  });
   const page = await browser.newPage();
 
   // Ajouter les cookies nécessaires si nécessaire

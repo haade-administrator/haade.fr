@@ -6,7 +6,12 @@ const links = require('./data');
 let invalidLinkCount = 0;
 
 async function scrapeItead() {
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+        headless: 'new',
+        // `headless: true` (default) enables old Headless;
+        // `headless: 'new'` enables new Headless;
+        // `headless: false` enables "headful" mode.
+      });
     const page = await browser.newPage();
     for (const link of links) {
         if (!(/^https?:\/\//.test(`https://www.itead.cc/product/${link}/`))) {
