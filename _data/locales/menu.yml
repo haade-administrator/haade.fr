@@ -254,6 +254,14 @@ protocol:
     name: "Protocol"
     link: "en/category-product/protocol"
 
+  bluetooth:
+    fr_FR:
+      name: "Bluetooth"
+      link: "fr/categorie-produit/bluetooth"
+    en_GB:
+      name: "Bluetooth"
+      link: "en/category-product/bluetooth"   
+
   esp:
     fr_FR:
       name: "Esp 32/8266"
@@ -261,6 +269,15 @@ protocol:
     en_GB:
       name: "Esp 32/8266"
       link: "en/category-product/esp"
+
+  matter:
+    fr_FR:
+      name: "Matter"
+      link: "fr/categorie-produit/matter"
+
+    en_GB:
+      name: "Matter"
+      link: "en/category-product/matter"
 
   wifi:
     fr_FR:
@@ -285,15 +302,6 @@ protocol:
     en_GB:
       name: "Z-wave"
       link: "en/category-product/zwave"
-
-  matter:
-    fr_FR:
-      name: "Matter"
-      link: "fr/categorie-produit/matter"
-
-    en_GB:
-      name: "Matter"
-      link: "en/category-product/matter"
 
 # footer menu
 
