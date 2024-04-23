@@ -6,7 +6,7 @@ ref: "Tedee Go"
 layout: post
 authors: [Nico]
 date: 2024-04-22 11:00
-last_modified_at: 
+last_modified_at: 2024-04-23 13:55
 categories: [Tests, Security, Wifi]
 tags: []
 video:
@@ -30,7 +30,7 @@ sourcelink:
   - https://www.domadoo.fr/en/380_tedee?domid=39
 ---
 
-A first for Haade, I'm going to present to you a **connected lock** made in Eastern countries, **the Tedee Go** with the **Tedee bridge** which goes well and finally, the **Tedee** digicode. For the record, I asked Tedee to provide me with the **Pro version** which looks more attractive, **but soon it will not be offered for sale to the general public**.
+A first for Haade, I'm going to present to you a **connected lock** made in Eastern countries, **the Tedee Go** with the **Tedee bridge** which goes well and finally, the **Tedee** digicode. For the record, I asked Tedee to provide me with the **Pro version** which looks more attractive, **but the brand favors this range for installation by professionals** and found it more relevant to send me the Tedee Go aimed at the general public.
 
 {% include product-embed.html guid="2193" %}
 
@@ -129,13 +129,15 @@ The video was taken about 60cm from the lock with the smartphone, the decibels r
 
 ### Battery consumption
 
+**This tab will be modified throughout the month to have more real data smoothing**{: .red}
+
 The module works with 3 CR123 batteries, these are lithium batteries which are relatively **expensive**. You find them on the internet between 2 and 4€ depending on the quality/brand.
-I am at **5 days of operation**, the autonomy drops by 1% per day with the original batteries, **I have 95% left**
+I am at **9 days of operation**, the autonomy **is 94%** with the original batteries.
 The manufacturer gives a lifespan of **6 to 8 months** for an average of 8 operations per day or 4 openings/closings.
 
-Apart from the first day I am below 8 at a rate of 1% per day, we would have 100 days of autonomy or 3 months and a week.
+Apart from the first day I am below 8 operations, according to the data collected **we would be at 150 days of autonomy** which represents 5 months of operation on battery
 
-> If you do seasonal rentals, you better change them at the end of May to hope that they last until September!
+> If you rent seasonally, don't forget to change the batteries regularly to hope that they last all season or train the concierge to know how to change them. !
 
 **Product advantages:**{: .blue}
 - The application (difficult to do better)
@@ -281,9 +283,11 @@ The Tedee modules (Go, Bridge and digicode) are equipped with **Bluetooth** as w
 
 ### Guest Access Sharing
 
-The application is well designed to generate access with various settings as well as **sending automatic emails**, but *I am disappointed* because the person **must download the app** to be able to use this access, a link in the form of buttons to click would have been simpler *because if you do seasonal rental the customer may be reluctant to install this type of app.* *Well there is still the Tedee Digicode which will lighten your workload a little more. wallet*.
+The **Smartphone Application** is well designed to generate access with various settings as well as **sending automatic emails**, but *I am disappointed* because the person **must download the app** to be able to use this access, a link in the form of buttons to click would have been simpler *because if you do seasonal rental the customer may be reluctant to install this type of app.* *Well there is still the Tedee Digicode which will lighten your workload a little more. wallet*.
 
 {% picture posts/{{ page.guid }}/exemple-mail-invitation-serrure-connectee-tedee-go.png --alt email sharing access to the Tedee Go lock --img width="940" height="529" %}
+
+**But this is not inevitable, the web portal** of [Tedee](https://portal.tedee.com/){: target="_blank"} will allow you to refine the management of links or codes access depending on one or more locks but also depending on various organizations and reservation applications, it seems complete so I will write an article specifically on the management of connected locks from the Tedee brand.
 
 {% include product-embed.html guid="2194" %}
 

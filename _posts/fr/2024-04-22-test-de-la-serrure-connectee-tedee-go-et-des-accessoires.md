@@ -6,7 +6,7 @@ ref: "Tedee Go"
 layout: post
 authors: [Nico]
 date: 2024-04-22 11:00
-last_modified_at: 
+last_modified_at: 2024-04-23 13:55
 categories: [Tests, Securite, Wifi]
 tags: []
 video:
@@ -30,7 +30,7 @@ sourcelink:
   - https://www.domadoo.fr/fr/380_tedee?domid=39
 ---
 
-Une première pour Haade, je vais te présenter une **serrure connectée** fabriqué dans les pays de l'est, **la Tedee Go** avec le **bridge Tedee** qui va bien et pour finir, le **digicode Tedee**. Pour la petite histoire j'ai demandé à Tedee de me fournir la **version Pro** qui à l'air plus alléchante, **mais d'ici peu elle ne sera proposée à la vente pour le grand public**. 
+Une première pour Haade, je vais te présenter une **serrure connectée** fabriqué dans les pays de l'est, **la Tedee Go** avec le **bridge Tedee** qui va bien et pour finir, le **digicode Tedee**. Pour la petite histoire j'ai demandé à Tedee de me fournir la **version Pro** qui a l'air plus alléchante, **mais la marque privilégie cette gamme pour une installation par des professionnels** et trouvait plus pertinent de m'envoyer la Tedee Go orientée grand public. 
 
 {% include product-embed.html guid="2193" %}
 
@@ -129,13 +129,15 @@ La vidéo a été prise à environ 60cm de la serrure avec le smartphone, les d�
 
 ### La conso des piles
 
+**Cet onglet est amené à être modifié au fil du mois pour avoir un lissage des données plus réels**{: .red}
+
 Le module fonctionne avec 3 piles cr123, ce sont des piles lithium qui sont relativement **onéreuses**. Tu les trouves sur internet entre 2 et 4€ selon la qualité/marque. 
-Je suis à **5 jours de fonctionnement**, l'autonomie chute de 1% par jour avec les piles d'origines, **il me reste 95%**
+Je suis à **9 jours de fonctionnement**, l'autonomie **est de 94%** avec les piles d'origines.
 Le fabriquant donne une durée de vie de **6 à 8 mois** pour une moyenne de 8 fonctionnements par jour sois 4 ouvertures/fermetures.
 
-Mis à part le premier jour je suis en dessous de 8 à raison de 1% par jour, nous serions à 100 jours d'autonomies soit 3 mois et une semaine.
+Mis à part le premier jour je suis en dessous de 8 fonctionnements, d'après les données recueillies **nous serions à 150 jours d'autonomies** ce qui représente 5 mois de fonctionnements sur pile
 
-> Si tu fais de la location saisonnière tu as intérêt à les changer fin Mai pour espérer qu'elles tiennent jusqu'à Septembre !
+> Si tu fais de la location saisonnière n'oubli pas de changer régulièrement les piles  pour espérer qu'elles tiennent toute la saison ou forme la conciergerie afin de savoir les changer. !
 
 **Les + du produit:**{: .blue}
 - L'application ( difficile de faire mieux )
@@ -281,9 +283,13 @@ Les modules Tedee ( Go, Bridge et digicode ) sont équipés du **Bluetooth** ain
 
 ### Partage d'accès invité
 
-L'application est bien faite pour générer un accès avec divers paramétrages ainsi que **l'envoi de mails automatiques**, mais *je suis déçu* car la personne **doit télécharger l'appli** pour pouvoir utiliser cet accès, un lien sous formes de boutons à cliquer aurait été plus simple *car si tu fais de la location saisonnière le client sera peut être réticent à installer ce type d'applis.* *Bon il reste toujours le Digicode Tedee qui allègera un peu plus ton poertefeuille*.
+**L'Application sur Smartphone** est bien faite pour générer un accès avec divers paramétrages ainsi que **l'envoi de mails automatiques**, mais *je suis déçu* car la personne **doit télécharger l'appli** pour pouvoir utiliser cet accès, un lien sous formes de boutons à cliquer aurait été plus simple *car si tu fais de la location saisonnière le client sera peut être réticent à installer ce type d'applis.* *Bon il reste toujours le Digicode Tedee qui allègera un peu plus ton portefeuille*.
 
 {% picture posts/{{ page.guid }}/exemple-mail-invitation-serrure-connectee-tedee-go.png --alt mail de partage d'accès à la serrure Tedee Go --img width="940" height="529" %}
+
+**Mais ce n'est pas inéluctable, le portail web** de [Tedee](https://portal.tedee.com/){: target="_blank"} te permettra de peaufiner la gestion des liens ou des code d'accès en fonction d'une ou plusieurs serrures mais aussi en fonctions de diverses organisations et applications de réservations, ça à l'air complet du coup je rédigerai un article spécialement sur la gestion des serrures connectées de la marque Tedee.
+
+
 
 {% include product-embed.html guid="2194" %}
 
