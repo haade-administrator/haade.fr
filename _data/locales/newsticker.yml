@@ -5,31 +5,32 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.4 - Organize all the things!
-    url: https://www.home-assistant.io/blog/2024/04/03/release-20244/
-    image: http://www.home-assistant.io/images/blog/2024-04/social.png
+    title: Thinking Bigger - State of the Open Home 2024
+    url: https://www.home-assistant.io/blog/2024/04/24/state-of-the-open-home-2024/
+    image: 
   en_GB:
   - name: Home-Assistant
-    title: 2024.4 - Organize all the things!
-    url: https://www.home-assistant.io/blog/2024/04/03/release-20244/
-    image: http://www.home-assistant.io/images/blog/2024-04/social.png
+    title: Thinking Bigger - State of the Open Home 2024
+    url: https://www.home-assistant.io/blog/2024/04/24/state-of-the-open-home-2024/
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon Alexa  - le mot de réveil Ziggy enfin disponible en France
-    url: https://www.lesalexiens.fr/actualites/amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-le-mot-de-reveil-ziggy-enfin-disponible-en-france
+    title: Test Garmin Vivoactive 5  - une montre sportive et polyvalente
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-garmin-vivoactive-5-une-montre-sportive-et-polyvalente/#utm_source=rss&utm_medium=rss&utm_campaign=test-garmin-vivoactive-5-une-montre-sportive-et-polyvalente
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du contrôleur USB Zigbee Aeotec Zi-Stick
-    url: https://blog.domadoo.fr/105376-controleur-usb-zigbee-aeotec-zi-stick/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/03/Aeotec-Zi-Stick-zigbee-2048x1032-PRESS-1024x516.jpg
+    title: Intégration de la sonde de piscine connectée Yago dans la box domotique
+      eedomus via le cloud Tuya
+    url: https://blog.domadoo.fr/105730-sonde-de-piscine-connectee-yago-eedomus-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/Yago-Eedomus-Tuya-art-blog.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Decouvrez la nouvelle application TaHoma de Somfy
-    url: https://blog.nord-domotique.com/nouvelle-application-tahoma/
+    title: Test du Tapis de Douche Moonstone  - Révolution Hygiénique en Diatomite
+    url: https://blog.nord-domotique.com/test-tapis-de-douche-moonstone/
     image: 
 Abavala:
   fr_FR:
