@@ -7,7 +7,7 @@ layout: post
 authors: [Nico, August]
 date: 2024-04-26 08:40
 last_modified_at: 
-categories: [Haade-lab, News]
+categories: [Videos, Haade-lab, News]
 tags: []
 video: 
 image: 'youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara.png'

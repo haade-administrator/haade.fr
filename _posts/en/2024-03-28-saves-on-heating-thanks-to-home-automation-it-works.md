@@ -7,8 +7,9 @@ layout: post
 authors: [Nico, August]
 date: 2024-03-28 11:09
 last_modified_at: 
-categories: [Haade-lab, News, Home-Assistant]
+categories: [Videos, Haade-lab, News, Home-Assistant]
 tags: []
+video: Cl7h8QwLl5A?si=dYqZlA_yt5mDcbmU
 image: 'save-energy-by-automating-your-heating-installation.png'
 toc: true
 beforetoc: ''
@@ -28,8 +29,6 @@ sourcelink:
 ---
 This is an article dedicated to the home automation of a traditional gas boiler with radiators connected to water circuits. Home automation will bring you comfort, financial savings and foolproof adaptability. **This article is written to complement the video shot by [August](/en/author-august/){: target="_blank"} and Lulu on the subject**. Two friends who are discovering home automation and who share their feelings with you.
 **To finish** you will be able to realize that for a minimal cost you will be able to make a return on investment over two years Maximum.
-
-{% include videoPlayer.html youtubeId="Cl7h8QwLl5A" %}
 
 ## Prérequis
 - a **home automation box** [Home Assistant Green](https://www.domadoo.fr/en/smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html?domid=39){: target="_blank"} or [Sonoff Ihost](https://www.domadoo.fr/en/smart-home-gateway/6715-zigbee-30-wifi-home-automation-gateway-ihost-local-4gb-sonoff.html?domid=39){: target="_blank"}

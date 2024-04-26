@@ -7,9 +7,9 @@ layout: post
 authors: [Nico, August]
 date: 2024-04-26 08:40
 last_modified_at: 
-categories: [Haade-lab, News]
+categories: [Videos, Haade-lab, News]
 tags: []
-video: 
+video: yDM6gbcIBWk?si=3pIbojULYJmEkzTI
 image: 'youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara.png'
 toc: true
 beforetoc: ''
@@ -31,8 +31,6 @@ Suite à la vidéo [économise du chauffage grâce à la domotique ça marche]({
 ## Vidéo Haade-lab
 
 Pour cette **seconde présentation**, [August](/fr/auteur-august/){: target="_blank"} n'hésite pas et compare sans langue de bois 3 robinets thermostatiques du marché, [Moes ZTRV-BY-100]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-robinet-thermostatique-moes-ztrv-by-100.md %}), [Aqara SRTS-A01]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-tete-thermostatique-aqara-srts-a01-e1-zigbee.md %}) et [Sonoff TRVZB]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-tete-thermostatique-sonoff-trvzb-zigbee.md %}). Comme pour l'article comparatif rédigé début d'année (voir plus bas), le résultat est similaire mais pas toujours pour les mêmes raisons, ***tu devrais trouver ça intéressant !***
-
-{% include videoPlayer.html youtubeId="yDM6gbcIBWk?si=3pIbojULYJmEkzTI" %}
 
 **Fin janvier 2024** j'avais aussi fait de mon côté un [test comparatif de ces 3 robinets thermostatiques]({% post_url /fr/2024-01-29-comparatif-tete-thermostatique-robinet-zigbee-xiaomi-sonoff-moes %}) mais tu pourras te rendre compte que **la vidéo présente d'autre aspects intéressants** à prendre en compte.
 

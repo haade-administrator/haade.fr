@@ -7,9 +7,9 @@ layout: post
 authors: [Nico, August]
 date: 2024-03-28 11:09
 last_modified_at: 
-categories: [Haade-lab, News, Home-Assistant]
+categories: [Videos, Haade-lab, News, Home-Assistant]
 tags: []
-video:
+video: Cl7h8QwLl5A?si=dYqZlA_yt5mDcbmU
 image: 'fais-des-economies-d-energies-en-domotisant-ton-installation-de-chauffage.png'
 toc: true
 beforetoc: ''
@@ -29,8 +29,6 @@ sourcelink:
 ---
 Voilà un article dédié à la domotisation d'une chaudière traditionnelle au gaz avec des radiateurs branchés sur circuits d'eau. La domotisation t'apporteras confort, économies financières et adaptabilité à toute épreuve. **Cet article est rédigé pour compléter la vidéo tournée par [August](/fr/auteur-august/){: target="_blank"} et Lulu sur le sujet**. Deux compères qui découvrent la domotique et qui te font partager leurs ressentis.
 **Pour terminer** tu pourras te rendre compte que pour un coût minime tu arriveras à faire un retour sur investissement sur deux ans Maximum.
-
-{% include videoPlayer.html youtubeId="Cl7h8QwLl5A" %}
 
 ## Prérequis
 - une **box domotique** [Home Assistant Green](https://www.domadoo.fr/fr/box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html?domid=39){: target="_blank"} ou [Sonoff Ihost](https://www.domadoo.fr/fr/box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.html?domid=39){: target="_blank"}

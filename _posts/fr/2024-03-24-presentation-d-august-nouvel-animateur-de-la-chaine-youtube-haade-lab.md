@@ -8,8 +8,9 @@ authors:
   - August
 date: 2024-03-24 07:34
 last_modified_at: 
-categories: [Domotique]
+categories: [Videos, Domotique]
 tags: []
+video: JnZGn6F9XlI?si=6ZPmN8xCuYO9gYsZ
 image: 'presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab.png'
 toc: true
 beforetoc: ''
@@ -29,8 +30,6 @@ sourcelink:
 
 Je me présente **August** animateur de la Chaîne Haade sur **youtube**, aidé de *Lulu* nous allons alimenter la chaîne **rubrique Haade-lab** en présentant des <ins>tutos et tests</ins> en domotique d'une manière différente et de façon plutôt ludique. Cette chaîne est avant tout dédié au grand publique. 
 Novice en la matière, **Nico** est là pour nous guider et rendre non seulement la maison intelligente mais aussi permettre au logement de le rendre **autonome** et **économique** en énergie.
-
-{% include videoPlayer.html youtubeId="JnZGn6F9XlI?si=6ZPmN8xCuYO9gYsZ" %}
 
 Les **produits testés** seront en grande partie distribués par [Domadoo](https://www.domadoo.fr/fr/?domid=39&id_campaign=31){: target="_blank} que nous remercions, mais aussi par [Itead.cc](https://itead.cc/ref/122/){: target="_blank"} et d'autres distributeurs.
 

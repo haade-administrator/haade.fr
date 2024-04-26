@@ -106,6 +106,15 @@ jeedom:
     name: "Jeedom"
     link: "en/category/jeedom"
 
+videos:
+  fr_FR:
+    name: "Vidéos"
+    link: "fr/categorie/videos"
+
+  en_GB:
+    name: "Videos"
+    link: "en/category/videos"
+
 protocols:
   fr_FR:
     name: "Protocoles"
