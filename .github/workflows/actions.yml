@@ -51,6 +51,8 @@ jobs:
         with:
           node-version: 20
           cache: 'npm'
+        run: npm ci
+        run: npm test
 
       - name: Install and Build
         run: |
