@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Apr 2024 10:04:58 +0200</pubDate>
+    <pubDate>Fri, 26 Apr 2024 12:08:18 +0200</pubDate>
     <lastBuildDate>Fri, 26 Apr 2024 08:40:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -32,9 +32,9 @@
       <description>
       <![CDATA[
       <p>August presents a test on our Haade-lab youtube channel, a comparison of Moes ZTRV-BY-100, Aqara SRTS-A01 and Sonoff TRVZB thermostatic faucets</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-b7b694639.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-b7b694639.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-b7b694639.png" alt="Video comparison of Moes, Aqara and Sonoff thermostatic faucets">
+  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.png" alt="Video comparison of Moes, Aqara and Sonoff thermostatic faucets">
 </picture>
 
       <p>Following the video saving heating thanks to home automation it works, August returns with a comparison of thermostatic faucets Moes ZTRV-BY-100, Aqara SRTS-A01 and Sonoff TRVZB, interestingly his vision as a novice will offer an interesting experience to those who want to discover the world of home automation, all without [...]</p>
