@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 26 Apr 2024 12:08:18 +0200</pubDate>
+    <pubDate>Fri, 26 Apr 2024 17:39:17 +0200</pubDate>
     <lastBuildDate>Fri, 26 Apr 2024 08:40:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -44,6 +44,7 @@
       <pubDate>Fri, 26 Apr 2024 08:40:00 +0200</pubDate>
       <link>https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara</guid>
+      <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
     </item>
@@ -153,6 +154,7 @@
       <pubDate>Thu, 28 Mar 2024 11:09:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/economise-du-chauffage-grace-a-la-domotique-ca-marche</guid>
+      <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
@@ -175,6 +177,7 @@
       <pubDate>Sun, 24 Mar 2024 07:34:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/presentation-d-august-nouvel-animateur-de-la-chaine-youtube-haade-lab</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-d-august-nouvel-animateur-de-la-chaine-youtube-haade-lab</guid>
+      <category><![CDATA[Videos]]></category>
       <category><![CDATA[Domotique]]></category>
     </item>
     <item>
