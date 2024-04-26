@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-04-26T08:40:00+02:00</news:publication_date>
+          <news:title>Comparatif Vidéo robinets thermostatiques Moes, Aqara et Sonoff</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires</loc>
         <news:news>
           <news:publication>
