@@ -4,10 +4,11 @@ title: '[TEST] Moes: Touch Zigbee Switch {ZTS-EU} UPGRADE 2020'
 description: "Moes tact switch test reference zts-eu"
 date: '2021-03-17T20:40:48+00:00'
 last_modified_at:
-authors: Nico
-categories: [Tests]
+authors: [Nico, Yann]
+categories: [Videos, Tests]
 layout: post
-image: inter-moes.png
+video: cq0ZeT6K1uY?si=sl5gm-Wa6Yw_-b5j
+image: inter-moes-videos-zts-eu.png
 tags:
 locale: en_GB
 addViews: 34
@@ -30,9 +31,15 @@ So why did we choose to present this product to you, and well because it has onl
 
 > Moes' zigbee-compatible touch switch looks a lot like Livolo's switch, however the 2020 upgrade and the touch interface make this product a very good switch and above all it stands out.
 
+{% picture posts/{{ page.guid }}/inter-moes.png --alt discovery of Moes Zigbee ZTS-EU tactile switches --img width="940" height="529" %}
+
 [**Commercial Link Moes Upgrade 2020 Switch**]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-zigbee-touch-switch-moes-zts-eu-upgrade-2020.md %})
 
-As uncle says in the video, the Moes switch works under homeassistant with the zigbee2mqtt module from version 1.18.x.
+## Official Video Moes switch presentation by Tonton
+
+Tonton Alias ​​Yann has made available a video concerning the test of the Moes ZTS-EU tactile switch.
+
+As Tonton says in the video, the Moes switch works under homeassistant with the zigbee2mqtt module from version 1.18.x.
 
 ## Coswall square recessed box ideal for new and old:
 
@@ -63,10 +70,3 @@ As uncle says in the video, the Moes switch works under homeassistant with the z
 ## In conclusion
 
 Do not hesitate, you can go for it and buy it, it is really a very good product.
-
-## Official Video Moes switch presentation by Tonton
-
-{% include videoPlayer.html youtubeId="cq0ZeT6K1uY" %}
-
-
-Tonton Alias ​​Yann has made available a video concerning the test of the Moes ZTS-EU tactile switch.

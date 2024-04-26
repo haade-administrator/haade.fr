@@ -3,10 +3,11 @@ guid: 8
 title: 'Automate your garage door for 5€'
 date: '2021-05-19T22:26:35+00:00'
 last_modified_at: '2022-11-12 08:48'
-authors: Nico
-categories: [Automation, Home-Assistant, Haade-lab]
+authors: [Nico, Yann]
+categories: [Videos, Domotique, Haade-lab, Home-Assistant]
 layout: post
-image: domotiser-porte-garage-5-euros.png
+video: Lkk9KqjRDU8?si=QNfr17BS3B1e_HZ7
+image: domotiser-porte-garage-5-euros-videos.png
 tags: []
 description: "a simple way to automate your garage door at a lower cost"
 published: true
@@ -26,7 +27,11 @@ redirect_from:
   - /en/blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/3/
 ---
 
-In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, **but we could have used any brands of motorizations like Somfy** because **they are all equipped with electric motors operating between 18 and 24v.** In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.
+In this article I will simply show you how to automate your garage door for 5 € with homeassistant and an esp8266 7-30V module. The domotized motor is a hormann supramatic e3, **but we could have used any brands of motorizations like Somfy** because **they are all equipped with electric motors operating between 18 and 24v.** 
+
+{% picture posts/{{ page.guid }}/domotiser-porte-garage-5-euros.png --alt easily automate your garage door for €5 --img width="940" height="529" %}
+
+In addition, they are almost all equipped with inputs for an external push button. The most difficult in this tutorial is to find a DC power supply to power our esp 8266 7-30V relay module, which obviously works in this electrical range.
 
 {% include product-embed.html guid="2113" %}
 

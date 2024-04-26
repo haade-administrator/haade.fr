@@ -4,10 +4,11 @@ title: '[TEST] Moes: Interrupteur Zigbee tactile {ZTS-EU} UPGRADE 2020'
 description: "Test de l'interrupteur tactile Moes référence zts-eu"
 date: '2021-03-17T20:40:48+00:00'
 last_modified_at:
-authors: Nico
-categories: Tests
+authors: [Nico, Yann]
+categories: [Videos, Tests]
 layout: post
-image: inter-moes.png
+video: cq0ZeT6K1uY?si=sl5gm-Wa6Yw_-b5j
+image: inter-moes-videos-zts-eu.png
 tags:
 locale: fr_FR
 addViews: 595
@@ -30,7 +31,13 @@ Alors pourquoi avons nous choisi de vous présenter ce produit, et bien car il a
 
 > L’interrupteur tactile compatible zigbee de Moes ressemble énormément à l’inter de Livolo, cependant l’upgrade 2020 et l’interface tactile font de ce produit un très bon interrupteur et surtout qui sort du lot.
 
+{% picture posts/{{ page.guid }}/inter-moes.png --alt découverte des interrupteurs tactiles Moes Zigbee ZTS-EU --img width="940" height="529" %}
+
 [**Lien Commercial Interrupteur Moes Upgrade 2020**]({% link _products/{{ page.locale | slice: 0,2 }}/2021-03-18-interrupteur-zigbee-tactile-moes-zts-eu-upgrade-2020.md %})
+
+## Vidéos
+
+Tonton Alias Yann a mis à disposition une vidéo concernant le test de l’interrupteur Moes tactile ZTS-EU.
 
 Comme le dit tonton dans la vidéo, l’interrupteur Moes fonctionne sous homeassistant avec le module zigbee2mqtt à partir de la version 1.18.x.
 
@@ -63,9 +70,3 @@ Comme le dit tonton dans la vidéo, l’interrupteur Moes fonctionne sous homeas
 ## En Conclusion
 
 N’hésitez pas, vous pouvez foncer et l’acheter c’est vraiment un très bon produit.
-
-## Vidéo Officielle Moes interrupteur de présentation par Tonton
-
-{% include videoPlayer.html youtubeId="cq0ZeT6K1uY" %}
-
-Tonton Alias Yann a mis à disposition une vidéo concernant le test de l’interrupteur Moes tactile ZTS-EU.

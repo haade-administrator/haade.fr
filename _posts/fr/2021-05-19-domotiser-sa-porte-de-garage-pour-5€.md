@@ -3,10 +3,11 @@ guid: 8
 title: 'Domotiser sa porte de garage pour 5€'
 date: '2021-05-19T22:26:35+00:00'
 last_modified_at: '2022-11-12 08:48'
-authors: Nico
-categories: Domotique Haade-lab Home-Assistant
+authors: [Nico, Yann]
+categories: [Videos, Domotique, Haade-lab, Home-Assistant]
 layout: post
-image: domotiser-porte-garage-5-euros.png
+video: Lkk9KqjRDU8?si=QNfr17BS3B1e_HZ7
+image: domotiser-porte-garage-5-euros-videos.png
 tags: esp8266
 description: "une façon simple de domotiser sa porte de garage à moindre coût grâce à un module esp8266"
 locale: fr_FR
@@ -29,7 +30,11 @@ redirect_from:
   - /blog/home-automation-smarthome-jeedom-homeassistant/tutos-haade-lab/domotiser-sa-porte-de-garage-pour-5e/3/
 ---
 
-Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v**. De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.
+Dans cet article je vais vous montrer tout simplement comment domotiser sa porte de garage pour 5€ avec homeassistant et un module esp8266 7-30V. Le moteur domotisé est un hormann supramatic e3, **mais nous aurions pu utiliser n’importe quelles marques de motorisations** comme Somfy car **elles sont toutes équipées de moteurs électriques fonctionnant entre 18 et 24v**. 
+
+{% picture posts/{{ page.guid }}/domotiser-porte-garage-5-euros.png --alt domotise facilement ta porte de garage pour 5€ --img width="940" height="529" %}
+
+De plus elles sont quasiment toutes équipées d’entrées pour bouton poussoir externe. Le plus difficile dans ce tutoriel est de trouver une alimentation en continu pour alimenter notre module relais esp 8266 7-30V, qui fonctionne bien évidemment dans cette plage électrique.
 
 {% include product-embed.html guid="2113" %}
 
