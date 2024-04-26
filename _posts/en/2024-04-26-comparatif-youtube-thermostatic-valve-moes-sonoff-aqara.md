@@ -5,7 +5,7 @@ description: "August presents a test on our Haade-lab youtube channel, a compari
 ref: ""
 layout: post
 authors: [Nico, August]
-date: 2024-04-25 23:45
+date: 2024-04-26 08:40
 last_modified_at: 
 categories: [Haade-lab, News]
 tags: []
@@ -26,11 +26,12 @@ rating:
 sourcelink:
   - https://youtu.be/yDM6gbcIBWk?feature=shared
 ---
-Following the video [saving heating thanks to home automation it works]({% post_url /en/2024-03-28-saves-on-heating-thanks-to-home-automation-it-works %}), **August** returns with a comparison of thermostatic faucets [Moes ZTRV-BY-100]({% link _products/{{ page.locale | slice: 0.2 }}/2024-01-30-thermostatic-valve-moes-ztrv-by-100.md %}), [Aqara SRTS-A01]({% link _products/{{ page.locale | slice: 0.2 }}/2024-01-30-thermostatic-head-aqara-srts-a01-e1-zigbee.md %}) and [Sonoff TRVZB]({% link _products/{{ page.locale | slice: 0.2 }}/2024-01-30-thermostat-head-sonoff-trvzb-zigbee.md %}), interestingly his vision as a novice will offer an interesting experience to those who want to discover the world of home automation, **all without frills.**
+
+Following the video [saving heating thanks to home automation it works]({% post_url /en/2024-03-28-saves-on-heating-thanks-to-home-automation-it-works %}), **August** returns with a comparison of thermostatic faucets [Moes ZTRV-BY-100]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostatic-valve-moes-ztrv-by-100.md %}), [Aqara SRTS-A01]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostatic-head-aqara-srts-a01-e1-zigbee.md %}) and [Sonoff TRVZB]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostat-head-sonoff-trvzb-zigbee.md %}), interestingly his vision as a novice will offer an interesting experience to those who want to discover the world of home automation, **all without frills.**
 
 ## Haade-lab video
 
-For this **second presentation**, [August](/en/author-august/){: target="_blank"} does not hesitate and compares without tongue in cheek 3 thermostatic faucets on the market, [Moes ZTRV-BY -100]({% link _products/{{ page.locale | slice: 0.2 }}//2024-01-30-thermostatic-valve-moes-ztrv-by-100.md %}), [Aqara SRTS- A01]({% link _products/{{ page.locale | slice: 0.2 }}/2024-01-30-thermostatic-head-aqara-srts-a01-e1-zigbee.md %}) and [Sonoff TRVZB ]({% link _products/{{ page.locale | slice: 0.2 }}/2024-01-30-thermostat-head-sonoff-trvzb-zigbee.md %}). As for the comparative article written at the beginning of the year (see below), the result is similar but not always for the same reasons, ***you should find it interesting!***
+For this **second presentation**, [August](/en/author-august/){: target="_blank"} does not hesitate and compares without tongue in cheek 3 thermostatic faucets on the market, [Moes ZTRV-BY-100]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostatic-valve-moes-ztrv-by-100.md %}), [Aqara SRTS-A01]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostatic-head-aqara-srts-a01-e1-zigbee.md %}) and [Sonoff TRVZB ]({% link _products/{{ page.locale | slice: 0,2 }}/2024-01-30-thermostat-head-sonoff-trvzb-zigbee.md %}). As for the comparative article written at the beginning of the year (see below), the result is similar but not always for the same reasons, ***you should find it interesting!***
 
 {% include videoPlayer.html youtubeId="yDM6gbcIBWk?si=3pIbojULYJmEkzTI" %}
 

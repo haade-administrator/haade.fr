@@ -289,8 +289,6 @@ Les modules Tedee ( Go, Bridge et digicode ) sont équipés du **Bluetooth** ain
 
 **Mais ce n'est pas inéluctable, le portail web** de [Tedee](https://portal.tedee.com/){: target="_blank"} te permettra de peaufiner la gestion des liens ou des code d'accès en fonction d'une ou plusieurs serrures mais aussi en fonctions de diverses organisations et applications de réservations, ça à l'air complet du coup je rédigerai un article spécialement sur la gestion des serrures connectées de la marque Tedee.
 
-
-
 {% include product-embed.html guid="2194" %}
 
 ## Compatibilité Tedee
