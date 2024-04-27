@@ -5,7 +5,7 @@ date: "2021-10-05 14:40:45"
 last_modified_at: "2022-11-07 14:13"
 layout: post
 authors: Nico
-categories: [Haade-lab, Home-Assistant] 
+categories: [Automation, Haade-lab, Home-Assistant] 
 image: box-domotique-rail-din-home-assistant.png
 published: true
 noindex: false

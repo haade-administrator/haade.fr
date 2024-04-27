@@ -4,7 +4,7 @@ title: 'Domotiser sa porte de garage pour 5€'
 date: '2021-05-19T22:26:35+00:00'
 last_modified_at: '2022-11-12 08:48'
 authors: [Nico, Yann]
-categories: [Videos, Domotique, Haade-lab, Home-Assistant]
+categories: [Domotique, Haade-lab, Videos, Home-Assistant]
 layout: post
 video: Lkk9KqjRDU8?si=QNfr17BS3B1e_HZ7
 image: domotiser-porte-garage-5-euros-videos.png

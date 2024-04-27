@@ -7,7 +7,7 @@ layout: post
 authors: [Nico, August]
 date: 2024-03-28 11:09
 last_modified_at: 
-categories: [Videos, Haade-lab, News, Home-Assistant]
+categories: [Haade-lab, Videos, News, Home-Assistant]
 tags: []
 video: Cl7h8QwLl5A?si=dYqZlA_yt5mDcbmU
 image: 'save-energy-by-automating-your-heating-installation.png'

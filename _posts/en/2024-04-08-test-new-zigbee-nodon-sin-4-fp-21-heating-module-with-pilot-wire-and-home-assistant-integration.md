@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2024-04-08 17:00
 last_modified_at: 
-categories: [Tests, Home-Assistant]
+categories: [Automation, Tests, Home-Assistant]
 tags: []
 image: 'test-nodon-module-wire-driver-sin-4fp-21-control-in-home-assistant.png'
 toc: true

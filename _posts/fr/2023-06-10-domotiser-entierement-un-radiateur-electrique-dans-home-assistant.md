@@ -6,7 +6,7 @@ layout: post
 authors: Nico
 date: 2023-06-10 15:50
 last_modified_at: 2023-06-15 08:00
-categories: [Haade-lab, Home-Assistant]
+categories: [Domotique, Haade-lab, Home-Assistant]
 tags: []
 image: 'domotiser-un-radiateur-electrique-avec-inversion-de-commande-dans-home-assistant.png'
 toc: true

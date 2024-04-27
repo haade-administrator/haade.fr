@@ -6,7 +6,7 @@ date: "2021-10-05"
 last_modified_at: "2022-11-07 14:13"
 layout: post
 authors: Nico
-categories: [Tests, Home-Assistant]
+categories: [Domotique, Tests, Home-Assistant]
 tags: Test Raspberry Homeassistant
 image: box-domotique-rail-din-home-assistant.png
 published: true

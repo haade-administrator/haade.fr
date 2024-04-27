@@ -7,7 +7,7 @@ layout: post
 authors: Nico
 date: 2023-11-25 12:00
 last_modified_at: 
-categories: [Tests, Home-Assistant]
+categories: [Domotique, Tests, Home-Assistant]
 tags: []
 image: 'esp32-korvo-microphone-array-assist-esphome-homeassistant.png'
 toc: true

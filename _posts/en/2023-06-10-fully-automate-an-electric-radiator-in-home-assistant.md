@@ -6,7 +6,7 @@ layout: post
 authors: Nico
 date: 2023-06-10 15:50
 last_modified_at: 2023-06-15 08:00
-categories: [Haade-lab, Home-Assistant]
+categories: [Automation, Haade-lab, Home-Assistant]
 tags: []
 image: 'automate-an-electric-radiator-with-control-inversion-in-home-assistant.png'
 toc: true

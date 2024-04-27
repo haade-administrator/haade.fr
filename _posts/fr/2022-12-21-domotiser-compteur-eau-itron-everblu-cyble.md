@@ -6,7 +6,7 @@ layout: post
 authors: Nico
 date: 2022-12-21 13:08
 last_modified_at: 2022-12-28 17:43
-categories: [Haade-lab, Home-Assistant, Esp]
+categories: [Domotique, Haade-lab, Home-Assistant, Esp]
 tags: []
 image: 'domotize-water-meter-itron-everblu-energy-homeassistant-mqtt.png'
 toc: true

@@ -6,7 +6,7 @@ date: "2021-10-01"
 last_modified_at:
 layout: post
 authors: Nico
-categories: [Jeedom, News, Home-Assistant]
+categories: [Automation, Jeedom, News, Home-Assistant]
 tags: []
 image: Jeedom-Atlas-vs-Homeassistant-Amber.png
 published: true
