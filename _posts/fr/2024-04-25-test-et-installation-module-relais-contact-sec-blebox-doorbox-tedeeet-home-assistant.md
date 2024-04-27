@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2024-04-25 08:46
 last_modified_at: 
-categories: [Tests, Haade-lab, Wifi]
+categories: [Domotique, Tests, Haade-lab, Wifi]
 tags: []
 video: 
 image: 'test-blebox-doorbox-v2-integration-tedee-home-assistant.png'
@@ -29,16 +29,15 @@ sourcelink:
   - https://blebox.eu/en/manuals/
 ---
 
-## Tedee Module relais Blebox doorbox V2
+Tedee m'a aussi fourni un module relais {{ page.ref }}, il s'agit d'un module NO/NC de la marque Blebox. Fabriquant Polonais de micro module wifi, je dois avouer qu'ils sont qualitatifs et il y a plutôt intérêt car il est vendu 69€ quand la conccurence fait la mêmche chose pour moitié prix !.
 
 {% picture posts/{{ page.guid }}/blebox-doorbox-tedee.png --alt contenu de la boite du relais Blebox pour Tedee Go --img width="940" height="529" %}
 
-Tedee m'a aussi fourni un module relais mais je dois t'avouer **que je suis assez déçu ?** Je m'explique:
-Ce module ne fonctionne pas du tout dans l'environnement Tedee mais dans un environnement de la marque Blebox. On retourne dans un univers d'appairage **wifi approximatif** ou **l'appli Blebox** n'est pas des plus intuitive, simpliste certe mais sans le bon sens. Si tu n'utilises pas de box domotique il te faudra donc deux applications pour utiliser les produits **Tedee et Blebox**, et franchement ce n'est pas très waf.
+Pourquoi m'avoir fourni ce module, et bien tu dois t'en douter il est compatible avec l'envirronnement Tedee et par la même occasion Home Assistant. Enfin compatible avec l'envirronnement Tedee oui [mais via le portail](https://portal.tedee.com/){: target="_blank"}, car sur l'application Smartphone Tedee tu pourras simplement actionner le relais NO/NC.
 
 {% include product-embed.html guid="2197" %}
 
-Ce module est vendu plus de 60€ pour faire du contact sec et limité à une tension d'entrée allant de 12 à 24v. C'est franchement cher surtout que la concurrence comme Tuya peut te vendre ça 2 à 3 fois moins cher en wifi ou Zigbee.
+Ce module est vendu environ 69€ pour faire du contact NO/NC et limité à une tension d'entrée allant de 12 à 24v. C'est franchement cher surtout que la concurrence comme Tuya peut te vendre ça 2 à 3 fois moins cher en wifi ou Zigbee.
 
 > **Le module relais te sera d'aucun intérêt dans l'environnement Tedee**
 
