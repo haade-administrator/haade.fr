@@ -489,7 +489,7 @@ var documents = [{
     "url": "/en/blog/test-sensor-temperature-and-humidity-sonoff-snzb-02",
     "title": "Sonoff SNZB-02 temperature and humidity sensor test",
     "description": "10/09/2021 - SONOFF SNZB-02 temperature sensor test and integration in homeassistant",
-    "tags": "Test - Zigbee - Home-assistant"},{
+    "tags": "Automation - Tests - Zigbee - Home-assistant"},{
     "id": 98,
     "url": "/en/blog/z-wave-vs-matter",
     "title": "Z-wave VS Matter",
