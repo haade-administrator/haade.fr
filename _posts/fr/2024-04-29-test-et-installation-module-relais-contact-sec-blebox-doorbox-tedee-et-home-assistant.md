@@ -5,7 +5,7 @@ description: "Dans cet article je vais te présenter le micro module wifi doorbo
 ref: "doorbox v2"
 layout: post
 authors: [Nico]
-date: 2024-04-25 08:46
+date: 2024-04-29 08:46
 last_modified_at: 
 categories: [Domotique, Tests, Haade-lab, Wifi]
 tags: []
