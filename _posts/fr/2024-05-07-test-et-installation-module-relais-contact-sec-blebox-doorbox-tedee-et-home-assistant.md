@@ -5,15 +5,15 @@ description: "Dans cet article je vais te présenter le micro module wifi doorbo
 ref: "doorbox v2"
 layout: post
 authors: [Nico]
-date: 2024-04-29 08:46
+date: 2024-05-07 23:00
 last_modified_at: 
-categories: [Domotique, Tests, Haade-lab, Wifi]
+categories: [Tests, Domotique, Wifi]
 tags: []
 video: 
 image: 'test-blebox-doorbox-v2-integration-tedee-home-assistant.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -22,14 +22,14 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 3 
 sourcelink:
   - https://blebox.eu/en/product/doorbox/
   - https://blebox.eu/en/control-devices-blebox-system/
   - https://blebox.eu/en/manuals/
 ---
 
-Tedee **m'a aussi fourni un module relais {{ page.ref }}**, il s'agit d'un module **NO/NC de la marque Blebox**. Fabriquant Polonais de micro module wifi, je dois avouer qu'ils sont qualitatifs et il y a plutôt intérêt car il est vendu **69€** quand la conccurence fait la mêmche chose pour moitié prix !.
+[Suite à l'article sur la serrure connectée Tedee GO]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}). Le fabriquant Tedee **m'a aussi fourni un module relais {{ page.ref }}**, il s'agit d'un module **NO/NC de la marque Blebox**. Fabriquant Polonais de micro module wifi, je dois avouer qu'ils sont qualitatifs et il y a plutôt intérêt car il est vendu **69€** quand la conccurence fait la mêmche chose pour moitié prix !.
 
 {% picture posts/{{ page.guid }}/blebox-doorbox-tedee.png --alt contenu de la boite du relais Blebox pour Tedee Go --img width="940" height="529" %}
 
@@ -81,26 +81,6 @@ C'est la première fois que j'ai à faire à cette marque et d'ailleurs je tiens
 |Type de sortie de contrôle|relais NC/NO|
 |Puissance maximale|144 VA à 24 V CA 144 W à 24 V CC |
 
-|Supply voltage|12-24V AC / DC|
-|Power consumption|less than 1W|
-|Outputs number|1|
-|Outputs type|relay|
-|Max load|6A 24V AC 6A 24V DC|
-|Inputs voltage|12 - 24V AC / DC|
-|Galvanic isolation|Yes, optical|
-|Inputs polarization|detected automatically|
-|Housing|made of polyurethane composition not containing halogens, self-extinguishing for thermal class B (130 °C)|
-|Protection Rating|IP20|
-|Mounting|in the flush-mounted box (deepen or double) in the receiver case.|
-|Transmission|bi-directional, encrypted|
-|Transmission frequency|2.4GHz|
-|Communication standard|μWiFi, compatible with WiFi|
-|Communication mode|direct connection (as access point), Wi-Fi connection via a standard router, connection with access from any location in the world (requires access to the Internet)|
-|Control with|Apple iPhone, Apple iPad, iPad Mini, Android, computers and mobile devices operating a fully HTML5|
-|Encryption|WPA2-PSK and authenticated encryption with associated data (AEAD)|
-|Control output type|relay NC/NO|
-|Maximum power|144VA @ 24V AC 144W @ 24V DC|
-
 ### Documents à télécharger
 
 {% include doclink.html pdf="BleBox_Installation_FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee blebox doorbox" %}
@@ -137,21 +117,35 @@ Dernière étape, je vais te montrer comment désactiver le point d'accès wifi 
 
 ## WebUI
 
-**Chaque modules Blebox disposent d'une interface Web** afin de paramétrer les réglages du module, pour y accéder il te suffit de récupérer l'adresse ip du module présentée dans l'appli Smartphone wBox. Tu auras accès *à l'ensemble des données et plus encore* et tu pourras ainsi modifier n'importe quel paramètres du module. Génial !
+**Chaque modules Blebox disposent directement d'une interface Web** afin de paramétrer les réglages du module, pour y accéder il te suffit de récupérer **l'adresse ip du module** présentée dans l'appli Smartphone **wBox**. Tu auras accès *à l'ensemble des données et plus encore* et tu pourras ainsi modifier n'importe quel paramètres du module. Génial !
 
 ![accès direct au paramétrage wifi sans application des modules Blebox Doorbox v2]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-webui-blebox-doorbox-v2-online.webp{{ cachebuster }}){: width="940" height="517" class="lazyload"}
 
 ## Paramétrage dans l'Application Tedee
 
+Maintenant intégrons le module Blebox {{ page.ref}} dans l'application pour smartphone Tedee. Rien de plus simple rends toi dans paramètres > intégration > Blebox, autorise Tedee à avoir l'accès à Blebox, *et c'est tout !*
+
 {% picture posts/{{ page.guid }}/integration-blebox-doorbox-v2-tedee-application.png --alt intégration du module Blebox doorbox v2 dans l'univers Tedee --img width="940" height="509" %}
+
+Maintenant sur la page principale de l'application tu auras le ou les modules Blebox de remonté.
 
 {% picture posts/{{ page.guid }}/parametrage-blebox-doorbox-v2-tedee-application.png --alt paramétrage du module Blebox doorbox v2 dans l'univers Tedee --img width="940" height="509" %}
 
+> Tu pourras contrôler de l'application l'ouverture ou la fermture du relais doorbox v2, pas mal !
+
 ## Intégration des modules Blebox dans Home Assistant
+
+Dans HA c'est tout aussi simple, clic sur le lien ci-dessous et dans les appareils tu devrais voir apparaître le module Blebox.
+
+{% include homeassistantlink.html integrations="" %}
 
 {% picture posts/{{ page.guid }}/configure-blebox-home-assistant.png --alt remontée automoatique et configuration du module Blebox doorbox v2 dans l'univers Home assistant --img width="327" height="206" %}
 
+Reste à cliquer sur configurer et le {{ page.ref }} pourra être commandé via Home Assistant ''Royal,,
+
 {% picture posts/{{ page.guid }}/rendu-blebox-doorbox-home-assistant.png --alt rendu du module Blebox doorbox v2 dans l'univers Home assistant --img width="940" height="458" %}
+
+L'interface est correctement reconnu dans Home Assistant si les commandes ne concordent pas avec Home Assistant n'hésite pas à contrôler les réglages du Blebox {{ page.ref }} en accédant directement à la WebUi
 
 {% picture posts/{{ page.guid }}/controle-du-blebox-doorbox-v2-dans-home-assitant.png --alt controle d'ouverture du module Blebox doorbox v2 dans l'univers Home assistant --img width="592" height="568" %}
 
@@ -159,19 +153,21 @@ Dernière étape, je vais te montrer comment désactiver le point d'accès wifi 
 
 **Les + du produit:**{: .blue}
 - Module de qualité
-- contrôle par Webui
-- contrôlable dans l'univers Tedee
+- contrôle par **Webui**
+- contrôlable dans l'univers **Tedee**
 - intégrable à Home Assistant
 - paramétrable à souhait (NO/NC)
 
 **Les - du produit:**{: .red}
-- le prix ( 60€ )
+- le **prix ( 69€ )**
 - absence d'alimentation
-- alimentable en 12-24v
+- alimentable en **12-24v**
 
 {% include product-embed.html guid="2197" %}
 
 ## Conclusion
+
+Le Blebox {{ page.ref }} est un module complémentaire à l'univers de la serrure connectée et te permettras en plus de contrôler la porte d'entrée, de contrôler aussi une porte de garage ou un portail. **Intégrable à souhait dans l'application Tedee et dans Home Assistant**, rendent ce module complet. Point négatif, **le tarif, il est vendu 69€,** c'est cher pour un micro module de ce type, si tu utilises Home Assistant tu pourras facilement t'orienter vers un [Nodon multifonctions à 49€]({% link _products/{{ page.locale | slice: 0,2 }}/2023-02-14-nodon-micromodule-multifonctions-zigbee.md %}) ou autres.
 
 
 
