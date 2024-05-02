@@ -30,7 +30,7 @@ Voilà un nouveau module qui vaut le coup de s'y attarder. **Sonoff** communique
 
 Tout d'abord je voudrais remercier [Itead](https://itead.cc/product/sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required/ref/122/){: target="_blank" } de m'avoir fourni ce module rapidement, ainsi que d'autres qui me permettent de rédiger ce type d'article.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Module sonoff interrupteur zbmini l2 extreme le plus petit du marché" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DFMzILF" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Module sonoff interrupteur zbmini l2 extreme le plus petit du marché" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DkilCPV" %}
 
 # Déballage du Sonoff ZBMINI L2 Extrême
 
@@ -112,7 +112,7 @@ Malheureusement je n'ai pas sous la main les 3 modules Sonoff du moment mais j'a
 
 Je constate l'arrivée sur le marché, de plus en plus de modules interrupteurs dit "enddevice" probablement lié à l'intégration des nouvelles puces EFR32MG22 de silabs. Ça a l'avantage d'être très pratique car dans la plupart des logements en france l'interrupteur n'est pas raccordé au neutre et souvent absent. Cependant le fait de trouver de plus en plus de modules enddevice allourdi la charge du coordinateur et affaibli la solidité du maillage. Zigbee2mqqt [Propose la mise à jour du Z-stack](https://github.com/Koenkk/Z-Stack-firmware/blob/master/coordinator/Z-Stack_3.x.0/CHANGELOG.md){: target="_blank" } des puces cc2652 TI qui acceptent **désormais plus de 100 modules end devices**. De quoi accepter facilement ce type de produits.
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Module sonoff interrupteur zbmini l2 extreme le plus petit du marché" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DFMzILF" %}
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Module sonoff interrupteur zbmini l2 extreme le plus petit du marché" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html" affiliate="_DkilCPV" %}
 
 # Conclusion
 
