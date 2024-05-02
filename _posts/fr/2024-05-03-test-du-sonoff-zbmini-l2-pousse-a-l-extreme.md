@@ -1,6 +1,6 @@
 ---
 guid: 124
-title: "Test Sonoff zbmini-l2 poussé à l'extreme"
+title: "Test Sonoff zbmini-l2 poussé à l'extrême"
 description: "Test du Sonoff Zbmini-L2 comme tu ne l'as jamais vu, garanti 100000 clics c'est ce que nous allons voir"
 ref: "Zbmini-L2"
 layout: post
