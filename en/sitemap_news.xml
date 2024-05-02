@@ -30,20 +30,6 @@
           <image:loc>https://haade.fr/assets/images/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-of-the-tedee-go-connected-lock-and-accessories</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-04-23T13:55:00+02:00</news:publication_date>
-          <news:title>Test of the Tedee Go connected lock + accessories</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/120/test-lock-connected-tedee-go-plus-bridge-keypad.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
