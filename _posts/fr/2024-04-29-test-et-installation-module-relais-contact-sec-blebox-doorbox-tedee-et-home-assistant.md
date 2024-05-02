@@ -29,21 +29,19 @@ sourcelink:
   - https://blebox.eu/en/manuals/
 ---
 
-Tedee m'a aussi fourni un module relais {{ page.ref }}, il s'agit d'un module NO/NC de la marque Blebox. Fabriquant Polonais de micro module wifi, je dois avouer qu'ils sont qualitatifs et il y a plutôt intérêt car il est vendu 69€ quand la conccurence fait la mêmche chose pour moitié prix !.
+Tedee **m'a aussi fourni un module relais {{ page.ref }}**, il s'agit d'un module **NO/NC de la marque Blebox**. Fabriquant Polonais de micro module wifi, je dois avouer qu'ils sont qualitatifs et il y a plutôt intérêt car il est vendu **69€** quand la conccurence fait la mêmche chose pour moitié prix !.
 
 {% picture posts/{{ page.guid }}/blebox-doorbox-tedee.png --alt contenu de la boite du relais Blebox pour Tedee Go --img width="940" height="529" %}
 
-Pourquoi m'avoir fourni ce module, et bien tu dois t'en douter il est compatible avec l'envirronnement Tedee et par la même occasion Home Assistant. Enfin compatible avec l'envirronnement Tedee oui [mais via le portail](https://portal.tedee.com/){: target="_blank"}, car sur l'application Smartphone Tedee tu pourras simplement actionner le relais NO/NC.
+Pourquoi m'avoir fourni ce module, et bien tu dois t'en douter il est compatible avec **l'environnement Tedee** et par la même occasion **Home Assistant**. Enfin compatible avec l'environnement Tedee oui [mais surtout via le portail](https://portal.tedee.com/){: target="_blank"}, *car sur l'application Smartphone Tedee tu pourras simplement actionner le relais NO/NC.*
 
 {% include product-embed.html guid="2197" %}
 
-Ce module est vendu environ 69€ pour faire du contact NO/NC et limité à une tension d'entrée allant de 12 à 24v. C'est franchement cher surtout que la concurrence comme Tuya peut te vendre ça 2 à 3 fois moins cher en wifi ou Zigbee.
-
-> **Le module relais te sera d'aucun intérêt dans l'environnement Tedee**
+Ce module est **vendu environ 69€** pour faire du contact NO/NC et limité à une tension d'entrée allant de 12 à 24v. C'est **franchement cher** surtout que la concurrence comme Tuya peut te vendre ça 2 à 3 fois moins cher en wifi ou Zigbee.
 
 {% picture posts/{{ page.guid }}/blebox-doorbox-tedee-taille-dans-la-main.png --alt rendu dans la main du relais Blebox pour Tedee Go --img width="940" height="529" %}
 
-{% include doclink.html pdf="BleBox_Installation_FR.pdf" title="Notice d'installation et manuel d'utilisation du Tedee blebox doorbox" %}
+> Pour ce prix j'espère que ce module Blebox {{ page.ref }} est de qualité
 
 ## Prérequis
 
@@ -57,11 +55,13 @@ Je trouve comme toi que ça fait beaucoup d'applications à installer, mais si t
 
 ## Présentation Blebox {{ page.ref }}
 
-C'est la première fois que j'ai affaire à cette marque et d'ailleurs je tiens à remercier Tedee de me l'avoir fourni. Je dois dire que le produit est d'excellente qualité vu le prix ( vendu aux alentours de 60€ ) c'est le moins que l'on en attendait !
+C'est la première fois que j'ai à faire à cette marque et d'ailleurs je tiens à remercier Tedee de me l'avoir fourni. Je dois dire que le **produit est d'excellente qualité** vu le prix ( vendu aux alentours de 70€ ) c'est le moins que l'on en attendait !
 
 {% picture posts/{{ page.guid }}/face-arriere-blebox-doorbox-v2.png --alt face arrière du module Blebox doorbox v2 --img width="940" height="529" %}
 
-|Tension d'alimentation|12-24 V AC / DC|
+## Caractéristiques Techniques Blebox {{ page.ref }}
+
+|Tension d'alimentation|12-24V AC / DC|
 |Consommation électrique|moins de 1W|
 |Numéro de sorties|1|
 |Type de sorties|relais|
@@ -111,17 +111,27 @@ C'est la première fois que j'ai affaire à cette marque et d'ailleurs je tiens 
 
 ## Paramétrage du Wifi
 
-Rends toi dans l'application wBox par Blebox.eu et enregistre-toi 
+Rends toi dans l'application wBox par Blebox.eu et enregistre-toi. Et oui pour ce tuto il faudra installer wBox en plus de Tedee sur ton Smartphone *mais c'est provisoire.*
 
 {% picture posts/{{ page.guid }}/first-connection-app-blebox-doorbox-v2.png --alt première connection à l'application Blebox pour paramétrer le module doorbox v2 --img width="940" height="509" %}
 
+Commence par te connecter à l'application afin de pouvoir l'utiliser.
+
 {% picture posts/{{ page.guid }}/connection-accesspoint-app-blebox-doorbox-v2.png --alt connection à l'application Blebox pour paramétrer le point d'accès du module doorbox v2 --img width="940" height="509" %}
+
+Ensuite connecte toi au module en sélectionnant dans les paramétrages wifi de ton smartphone le réseau wifi nommé **doorBox_v.....**.
 
 {% picture posts/{{ page.guid }}/connection-wifi-reseau-domestique-app-blebox-doorbox-v2.png --alt connection à l'application Blebox pour paramétrer la connection wifi du module doorbox v2 --img width="940" height="509" %}
 
+Une fois connecté au module paramétrons le sur le wifi de ton réseau domestique. Va dans **Connection** ensuite clic sur le réseau wifi dans **Available WIFI Networks** et rentre **le mot de passe** de ton réseau.
+
 {% picture posts/{{ page.guid }}/ajouter-nouveau-module-reseau-domestique-app-blebox-doorbox-v2.png --alt ajoute le module doorbox v2 dans l'application wbox par blebox.eu --img width="940" height="509" %}
 
+Étape suivante il va falloir rajouter ce module dans l'application, retour sur la page d'accueil, sélectionne add new devices et Add device already connected to wifi Network. À cette étape le module Blebox {{ page.ref }} est dans l'application.
+
 {% picture posts/{{ page.guid }}/desactive-accesspoint-app-blebox-doorbox-v2.png --alt désactive le point d'accès du module doorbox v2 --img width="940" height="509" %}
+
+Dernière étape, je vais te montrer comment désactiver le point d'accès wifi initial nommé **doorBox_v...**. Retourne dans les **paramètres du module**, ensuite clic sur **service connection (AP)** et désactive **Access point**.
 
 > **Désormais** tu n'as plus besoin de l'application sur téléphone wBox par Blebox.eu
 

@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Thinking Bigger - State of the Open Home 2024
-    url: https://www.home-assistant.io/blog/2024/04/24/state-of-the-open-home-2024/
-    image: 
+    title: 2024.5 - Just a little bit smaller
+    url: https://www.home-assistant.io/blog/2024/05/01/release-20245/
+    image: http://www.home-assistant.io/images/blog/2024-05/social.png
   en_GB:
   - name: Home-Assistant
-    title: Thinking Bigger - State of the Open Home 2024
-    url: https://www.home-assistant.io/blog/2024/04/24/state-of-the-open-home-2024/
-    image: 
+    title: 2024.5 - Just a little bit smaller
+    url: https://www.home-assistant.io/blog/2024/05/01/release-20245/
+    image: http://www.home-assistant.io/images/blog/2024-05/social.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Yale renouvelle sa gamme sécurité pour la maison connectée
-    url: https://www.lesalexiens.fr/actualites/yale-renouvelle-sa-gamme-securite-pour-la-maison-connectee/#utm_source=rss&utm_medium=rss&utm_campaign=yale-renouvelle-sa-gamme-securite-pour-la-maison-connectee
+    title: Home Assistant 2024.5  - les nouveautés du mois de mai
+    url: https://www.lesalexiens.fr/actualites/nouveautes-home-assistant-2024-5/#utm_source=rss&utm_medium=rss&utm_campaign=nouveautes-home-assistant-2024-5
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -29,8 +29,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez mon installation photovoltaique avec Montelec
-    url: https://blog.nord-domotique.com/decouvrez-installation-photovoltaique-montelec/
+    title: Test du Meural Canvas II de NETGEAR
+    url: https://blog.nord-domotique.com/test-du-meural-canvas-ii-de-netgear/
     image: 
 Abavala:
   fr_FR:
@@ -47,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: "#FrenchDays  - promotions sur la domotique ZigBee, Hue, Somfy, SonOff,
-      Aqara, Shelly, etc."
-    url: https://www.maison-et-domotique.com/146811-frenchdays-printemps-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/french-days-domotique-042024-702x369.png
+    title: État des lieux de la performance photovoltaïque en France  - un aperçu
+      basé sur 4 000 Installations
+    url: https://www.maison-et-domotique.com/146784-infographie-performance-photovoltaique-france/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/dalle-2024-04-27-12-41-29-702x401.webp
 Matter:
   en_GB:
   - name: Matter
