@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 May 2024 23:00:41 +0200</pubDate>
-    <lastBuildDate>Mon, 29 Apr 2024 23:45:00 +0200</lastBuildDate>
+    <pubDate>Fri, 03 May 2024 04:30:38 +0200</pubDate>
+    <lastBuildDate>Fri, 03 May 2024 02:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,30 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Sonoff zbmini-l2 test taken to the extreme</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <dc:creator><![CDATA[August]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test of the Sonoff Zbmini-L2 like you&apos;ve never seen it, guaranteed 100,000 clicks, that&apos;s what we&apos;re going to see</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.png" alt="Sonoff zbmini-l2 test taken to the extreme">
+</picture>
+
+      <p>Here’s a video where you might have a laugh, with the band August and Lulu we all 3 decided to test the Sonoff Zbmini-L2 in a most extreme way by pushing it back to its limits.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme">Sonoff zbmini-l2 test taken to the extreme</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 03 May 2024 02:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme</guid>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Change the result of an entity&apos;s state attribute</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,26 +249,6 @@ Today is different, I’m going to show you how to work with entity state attrib
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Z-wave 800LR Silabs relaunches z-wave</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/113/z-wave-800-lr-silabs-relance-le-protocole-720-9831b0c48.png" alt="Z-wave 800LR Silabs relaunches z-wave">
-</picture>
-
-      <p>Since the acquisition of the manufacturing of Z-wave chips, and the significant progress on the market, Silabs is preparing to resuscitate Z-wave on the European market. Last month I wrote an article on the end of Z-wave, where I explained that this protocol almost disappeared, especially in Europe because of [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal">Z-wave 800LR Silabs relaunches z-wave</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 13 Mar 2024 12:47:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-800-long-range-silabs-renewal</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>

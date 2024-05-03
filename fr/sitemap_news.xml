@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/test-du-sonoff-zbmini-l2-pousse-a-l-extreme</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-05-03T02:00:00+02:00</news:publication_date>
+          <news:title>Test Sonoff zbmini-l2 poussé à l'extrême</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/changer-le-resultat-d-une-commande-d-attribut-d-etat-d-entite-par-une-autre-dans-home-assistant-avec-les-templates</loc>
         <news:news>
           <news:publication>
