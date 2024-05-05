@@ -16,16 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Blink Mini 2  - la nouvelle caméra d’Amazon est disponible en France
-    url: https://www.lesalexiens.fr/actualites/blink-mini-2-la-nouvelle-camera-damazon-est-disponible-en-france/#utm_source=rss&utm_medium=rss&utm_campaign=blink-mini-2-la-nouvelle-camera-damazon-est-disponible-en-france
+    title: Intégrer un bot Telegram à Home Assistant facilement
+    url: https://www.lesalexiens.fr/actualites/integrer-un-bot-telegram-a-home-assistant-facilement/#utm_source=rss&utm_medium=rss&utm_campaign=integrer-un-bot-telegram-a-home-assistant-facilement
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du module multifonction avec mesure de consommation Zigbee 3.0
-      de NodOn
-    url: https://blog.domadoo.fr/105817-module-multifonction-zigbee-nodon/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/Nodon-Multifonction-SIN-4-1-21-1080x675-PRESS-1024x640.jpg
+    title: Augmentez la portée Zigbee avec le Routeur Zigbee Smlight SZLB-06 / SLZB-06M
+    url: https://blog.domadoo.fr/105875-routeur-zigbee-smlight-slzb-06-slzb-06m/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/slzb-06m-routeur-zigbee-ameliorer-portee-domotique-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -47,10 +46,11 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: État des lieux de la performance photovoltaïque en France  - un aperçu
-      basé sur 4 000 Installations
-    url: https://www.maison-et-domotique.com/146784-infographie-performance-photovoltaique-france/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/04/dalle-2024-04-27-12-41-29-702x401.webp
+    title: Le Debrief M&D - test Sunology PLAYMax, point sur le photovoltaique, nouvelle
+      batterie Ecoflow étanche, association Home Assistant, en finir avec les mouches,
+      etc.
+    url: https://www.maison-et-domotique.com/146857-debrief-md-semaine-18-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
