@@ -30,20 +30,6 @@
           <image:loc>https://haade.fr/assets/images/posts/122/home-assistant-mini-tutos-haade-lab-create-an-average-on-entities-with-template.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/comparatif-youtube-thermostatic-valve-moes-sonoff-aqara</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-04-26T08:40:00+02:00</news:publication_date>
-          <news:title>Video comparison of Moes, Aqara and Sonoff thermostatic faucets</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
