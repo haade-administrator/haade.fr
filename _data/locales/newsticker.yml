@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Home Assistant propose des widgets pour iPhone très pratiques
-    url: https://www.lesalexiens.fr/actualites/home-assistant-propose-des-widgets-pour-iphone-tres-pratiques/#utm_source=rss&utm_medium=rss&utm_campaign=home-assistant-propose-des-widgets-pour-iphone-tres-pratiques
+    title: Xiaomi dévoile une poussette connectée compatible iPhone et iPad
+    url: https://www.lesalexiens.fr/actualites/xiaomi-devoile-une-poussette-connectee-compatible-iphone-et-ipad/#utm_source=rss&utm_medium=rss&utm_campaign=xiaomi-devoile-une-poussette-connectee-compatible-iphone-et-ipad
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -54,8 +54,8 @@ Maison-et-domotique:
 Matter:
   en_GB:
   - name: Matter
-    title: Empowering the Smart Home Revolution - The Matter Standard
-    url: https://my.avnet.com/silica/solutions/markets/smart-city/building-home-automation/matter/
+    title: Zigbee Security and Privacy Fundamentals
+    url: https://csa-iot.org/wp-content/uploads/2024/05/Zigbee-Security-and-Privacy-Fundamentals.pdf
     image: 
 Kincony:
   en_GB:
