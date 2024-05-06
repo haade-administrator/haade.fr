@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Intégrer un bot Telegram à Home Assistant facilement
-    url: https://www.lesalexiens.fr/actualites/integrer-un-bot-telegram-a-home-assistant-facilement/#utm_source=rss&utm_medium=rss&utm_campaign=integrer-un-bot-telegram-a-home-assistant-facilement
+    title: Home Assistant propose des widgets pour iPhone très pratiques
+    url: https://www.lesalexiens.fr/actualites/home-assistant-propose-des-widgets-pour-iphone-tres-pratiques/#utm_source=rss&utm_medium=rss&utm_campaign=home-assistant-propose-des-widgets-pour-iphone-tres-pratiques
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,11 +46,11 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - test Sunology PLAYMax, point sur le photovoltaique, nouvelle
-      batterie Ecoflow étanche, association Home Assistant, en finir avec les mouches,
+    title: Mise à jour Home Assistant 2024.5 - nouvelles fonctions pour les tables,
+      créer un assistant en un clic, renommer les appareils sur le dashboard Energie,
       etc.
-    url: https://www.maison-et-domotique.com/146857-debrief-md-semaine-18-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    url: https://www.maison-et-domotique.com/146844-maj-home-assistant-2024-5/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/maj-ha-mai-2024-702x395.png
 Matter:
   en_GB:
   - name: Matter
