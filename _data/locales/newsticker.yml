@@ -22,9 +22,9 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Augmentez la portée Zigbee avec le Routeur Zigbee Smlight SZLB-06 / SLZB-06M
-    url: https://blog.domadoo.fr/105875-routeur-zigbee-smlight-slzb-06-slzb-06m/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/slzb-06m-routeur-zigbee-ameliorer-portee-domotique-1024x576.png
+    title: Shelly Plus Plug S  - La prise intelligente pour la domotique connectée
+    url: https://blog.domadoo.fr/105688-shelly-plus-plug-s-prise-wifi-intelligente/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/20240427_112800-1024x640.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -46,11 +46,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Mise à jour Home Assistant 2024.5 - nouvelles fonctions pour les tables,
-      créer un assistant en un clic, renommer les appareils sur le dashboard Energie,
-      etc.
-    url: https://www.maison-et-domotique.com/146844-maj-home-assistant-2024-5/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/maj-ha-mai-2024-702x395.png
+    title: Amazon dévoile la Blink Mini 2  - la nouvelle caméra de sécurité à prix
+      très serré
+    url: https://www.maison-et-domotique.com/146832-amazon-blink-mini-2/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/blink-mini27-702x395.jpg
 Matter:
   en_GB:
   - name: Matter

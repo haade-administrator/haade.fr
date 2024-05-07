@@ -2,7 +2,7 @@
 guid: 125
 title: "Découverte Gamme coordinateur SMLIGHT"
 description: "SMLight nous fourni une gamme complète de coordinateurs Zigbee déporté et très complet, une installation facile et compatible Zigbee2mqtt"
-ref: "SLZB-06"
+ref: "SLZB-06*"
 layout: post
 authors: [Nico]
 date: 2024-05-04 18:29
@@ -37,6 +37,14 @@ La série slzb-07 est à la fois totalement différente de la série slzb-06 mai
 
 {% include product-embed.html image="SMLIGHT-SLZB-06-series.png" title="Coordinateur Zigbee slzb-06* poe rj45 séries" brand="Smlight" description="SMLIGHT SLZB-06-Un adaptateur Zigbee 3.0 vers Ethernet, USB et WiFi avec prise en charge PoE, fonctionne avec Zigbee2MQTT, ZHA,Home Assistant" domlink="box-domotique/7042-smlight-adaptateur-usb-ethernet-poe-zigbee-30-cc2652p-zigbee2mqtt-et-zha.html" affiliate="_DcZxVaj" %}
 
+## Déballage SMLight {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/deballage-coordinateur-zigbee-rj45-smlight-slzb-06*.png  --alt déballage de la série de coordinateurs zigbee Matter smlight slzb-06* --img width="940" height="529" %}
+
+## Démontage SMLight {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/demontage-smlight-slzb06*.png  --alt démontage en un tour de main de la série de coordinateurs zigbee Matter smlight slzb-06* --img width="940" height="529" %}
+
 ## SMLight SLZB-06 un tout en un
 
 Alors oui tu vas me dire que c'est un sacré engin, tellement grand que ça m'a fait pensé à la baguette de sorcier d'harry Potter ? 🦸‍♂️ 
@@ -46,12 +54,16 @@ Mais mis à part ça, ce coordinateur SMLight {{ page.ref }} est un vrai régal,
 
 ![interface configuration coordinateur smlight slzb06 series firmware 2.0.18]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-configuration-smlight-slzb-06.webp{{ cachebuster }}){: width="940" height="467" class="lazyload"}
 
+## Liens d'affiliations
+
 |SMLIGHT|Domadoo|Aliexpress|
 |-------|-------|----------|
-|SLZB-06|[Liens](https://www.domadoo.fr/fr/box-domotique/7042-smlight-adaptateur-usb-ethernet-poe-zigbee-30-cc2652p-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[Liens](#){: target="_blank"}|
-|SLZB-06 sans POE| - |[Liens](#){: target="_blank"}|
-|SLZB-06P7|[Liens](#){: target="_blank"}|[Liens](#){: target="_blank"}|
-|SLZB-06M|[Liens](https://www.domadoo.fr/fr/box-domotique/7043-smlight-adaptateur-usb-ethernet-poe-zigbee-30-efr32mg21-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[Liens](#){: target="_blank"}|
+|SLZB-06|[Liens](https://www.domadoo.fr/fr/box-domotique/7042-smlight-adaptateur-usb-ethernet-poe-zigbee-30-cc2652p-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[Liens](https://s.click.aliexpress.com/e/_DdgR27h){: target="_blank"}|
+|SLZB-06 sans POE| - |[Liens](https://s.click.aliexpress.com/e/_DdgR27h){: target="_blank"}|
+|SLZB-06P7| - |[Liens](https://s.click.aliexpress.com/e/_DdgR27h){: target="_blank"}|
+|SLZB-06M|[Liens](https://www.domadoo.fr/fr/box-domotique/7043-smlight-adaptateur-usb-ethernet-poe-zigbee-30-efr32mg21-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[Liens](https://s.click.aliexpress.com/e/_DdgR27h){: target="_blank"}|
+|SLZB-07|[liens](https://www.domadoo.fr/fr/interface-domotique/7044-smlight-dongle-usb-zigbee-efr32mg21-cp2102n-soc-antenne-3db-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[liens](https://s.click.aliexpress.com/e/_DdW00eJ){: target="_blank"}|
+|SLZB-07P7|[liens](https://www.domadoo.fr/fr/interface-domotique/7045-smlight-dongle-usb-zigbee-cc2652p7-soc-antenne-3db-zigbee2mqtt-et-zha.html?domid=39){: target="_blank"}|[liens](https://s.click.aliexpress.com/e/_DdW00eJ){: target="_blank"}|
 
 {% picture posts/{{ page.guid }}/tableau-comparatif-gamme-coordinateurs-zigbee-poe-smlight.png --alt tableau comparatif des coordinateurs zigbee rj45 poe de la gamme smlight --img width="850" height="1051" %}
 
@@ -62,6 +74,7 @@ Mais mis à part ça, ce coordinateur SMLight {{ page.ref }} est un vrai régal,
 ## Documentation
 
 [SLZB-06*](https://smlight.tech/manual/slzb-06/guide/getting-started/){: target="_blank"}
+
 [SLZB-07*](https://smlight.tech/manual-slzb-07/){: target="_blank"}
 
 ## Outil flash firmware online ( interface )
