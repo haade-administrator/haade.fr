@@ -39,20 +39,22 @@ La série slzb-07 est à la fois totalement différente de la série slzb-06 mai
 
 ## Déballage SMLight {{ page.ref }}
 
+Que tu choisisses n'importe quelle variante du module {{ page.ref }}, celui-ci est fourni dans un écrin aux couleurs différentes mais qui affiche fièrement la compatibilité avec les divers systèmes opensources du marché. SMLight démontre son envie de développer des produits compatibles open source et rien que pour ça je rajoute un point 👌.
+
 {% picture posts/{{ page.guid }}/deballage-coordinateur-zigbee-rj45-smlight-slzb-06*.png  --alt déballage de la série de coordinateurs zigbee Matter smlight slzb-06* --img width="940" height="529" %}
 
 ## Démontage SMLight {{ page.ref }}
 
+Les coordinateurs SMLight {{ page.ref }} ont une conception simple mais robluste, le démontage s'effectuen en un tour de main
+
 {% picture posts/{{ page.guid }}/demontage-smlight-slzb06*.png  --alt démontage en un tour de main de la série de coordinateurs zigbee Matter smlight slzb-06* --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/circuit-imprime-slzb.png  --alt récapitulatif circuit imprimé de la série de coordinateurs zigbee Matter smlight slzb-06* --img width="940" height="490" %}
 
 ## SMLight SLZB-06 un tout en un
 
 Alors oui tu vas me dire que c'est un sacré engin, tellement grand que ça m'a fait pensé à la baguette de sorcier d'harry Potter ? 🦸‍♂️ 
-Oui l'assemblage est simpliste mais tout de même fonctionnel et entièrement fabriqué en Ukraine il faut le souligner ça reste un exploit.
-
-Mais mis à part ça, ce coordinateur SMLight {{ page.ref }} est un vrai régal, en effet il est disponible avec une interface de gestion Webui
-
-![interface configuration coordinateur smlight slzb06 series firmware 2.0.18]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-configuration-smlight-slzb-06.webp{{ cachebuster }}){: width="940" height="467" class="lazyload"}
+Oui l'assemblage est simpliste mais tout de même fonctionnel et entièrement fabriqué en Ukraine 🇺🇦 il faut le souligner ça reste un exploit.
 
 ## Liens d'affiliations
 
@@ -71,11 +73,110 @@ Mais mis à part ça, ce coordinateur SMLight {{ page.ref }} est un vrai régal,
 
 {% picture posts/{{ page.guid }}/presentation-gamme-coordinateurs-smlight-10-unites-differentes.png --alt présentation de la gamme des10 coordinateurs zigbee vendu par smlight --img width="940" height="490" %}
 
-## Documentation
+## Pourquoi choisir le SMLight {{ page.ref }}
+
+Franchement avant de recevoir ces coordinateurs j'étais dubitatif et je me disais encore un coordinateur de plus à tester qui est compatible Zigbee-Matter-Thread, de plus je voyais bien que les dimensions seraient hors normes.
+Ensuite j'ai reçu ces produits et j'ai commencé à imaginer toutes les perspectives que pouvait engager ce genre de coordinateurs et là je me suis lancé dans des tests sous Zigbee2mqtt et ZHA.
+
+> Pourquoi prendre ce module et bien c'est un tout en un
+
+### Interface de Gestion
+
+Mais mis à part ça, ce coordinateur SMLight {{ page.ref }} est un vrai régal, en effet il est disponible avec une interface de **gestion Webui**. Rien que ça tu pourras tout paramétrer ou accéder aux infos d'un simple clic. Ouaouh SMLight rend la gestion du coordinateur ultra simple pour quiconque étant novice.
+par défaut une fois connecté à ton réseau en rj45 connecte toi à l'interface:
+- [SLZB-06](http://slzb-06.lan){: target="_blank"}
+- [SLZB-06M](http://slzb-06m.lan){: target="_blank"}
+- [SLZB-06p7](http://slzb-06p7.lan){: target="_blank"} ( à l'heure ou j'écris ces lignes divers bugs sont énumérés sur la [série slzb-06P7](https://smlight.tech/product/slzb-06p7/){: target="_blank"})
+
+![interface configuration coordinateur smlight slzb06 series firmware 2.0.18]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-configuration-smlight-slzb-06.webp{{ cachebuster }}){: width="940" height="467" class="lazyload"}
+
+tu pourras d'un simple clic accéder à l'ensemble des fonctions et SMLight à même prévu l'envoi de rapports de bugs ou de demande de contacts via cette interface, bref que du bonheur.
+
+- changer de modes Zigbee (rj45, usb, )
+
+### Compatibilité {{ page.ref }}
+
+Pour faire simple ce module est ultra complet et ouvre des perspectives incroyables.
+
+- Zigbee (Texas Instrument ou Silabs)
+- Matter/Thread ( en changeant le firmware )
+- Esphome ( grâce à la puce esp32s3 ) 
+- wifi
+- bluetooth
+- rj45 ( poe ou non suivant version )
+- usb
+
+En ce qui concerne la compatibilité aux softwares, l'annonce est clair toute la gamme est compatible home assistant.
+
+- Home-assistant
+- Zha
+- Zigbee2mqtt
+- Mqtt
+- Homeseer
+- Openhab
+- Jeedom
+- Gladys
+
+La série est très complète et je n'ai nulle doute qu'ils ajouteront d'avantages de compatibilités il n'y a qu'à voir la collaboration étroite avec ces systèmes opensources.
+
+**Bien plus encore**
+Grâce au wifi ou rj45 tu pourras déporter la clé de ta centrale domotique afin d'optimiser le maillage de ton réseau mais ce n'est pas tout.
+Grâce à l'intégration du vpn wireguard tu pourras la déporter bien au delà de la sphère locale.
+Imagine que tu as une résidence secondaire et que tu voudrais la domotiser mais sans obligatoirement rajouter un système à part entière. Alors je ne te dit pas que c'est l'idéal mais, tu pourrais depuis la domotique de la résidence principale contrôler un maillage (zigbee/matter) à l'autre bout du monde grâce à ce VPN.
+
+D'ailleurs à ce sujet SMLight [te propose un tutoriel](https://smlight.tech/manual/slzb-06/guide/multiple-adapters-setup/){: target="_blank"} pour installer plusieurs entité Z2M sur une même installation avec d'y lier un coordinateur pour une entité Z2M.
+
+> Alors oui ça fonctionne mais c'est pas l'idéal
+
+**Pourquoi:** Ben tu vas installer plusieurs containers d'une même image ce qui porte à confusion le système plus d'éventuelles mises à jours du compteur.
+
+### Réseau maillé Bluetooth proxy
+
+Grâce à la puce intégrée esp32-S3, tu pourras paramétrer cette clé avec esphome, le [bluetooth en version proxy](https://smlight.tech/manual/slzb-06/guide/bluetooth-proxy/){: target="_blank"} et ainsi utiliser cette clé en routeur bluetooth et ainsi étendre le maillage au même titre qu'un réseau zigbee associés à plusieurs routeurs zigbee.
+
+## Optimisé pour bien fonctionner
+
+Les coordinateurs SMLight {{ page.ref }} sont optimisés afin d'établir des réseaux zigbee au maximum de leurs portées en effet chaques puces possède un amplificateur de 20db plus une antenne de 15cm qui rajoute 5db d'amplifications ( en gros tu peux difficilement faire mieux ).
+
+Contrairement à d'autres coordinateurs du marché tous les coordinateur SMLight {{ page.ref }} possèdent un convertisseur S.O.C à haute demande 921600 bps de quoi passer des mises à jours de firmwares sans encombres.
+
+## Bug rencontré lors des tests
+
+J'avoue j'ai pas mal testé ces divers coordinateurs 
+
+|Test|SLZB-06POE|SLZB-06M|SLZB-06P7|
+|----|----------|--------|---------|
+|Mode rj45|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|Mode Wifi|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|Mode USB|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|Réseau eth ou wifi|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|Installation Z2M ou ZHA|**ok**{: .green}|**ok**{: .green}|**!**{: .yellow}|
+|Interface sécurisé|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|VPN wireguard|**non testé**{: .yellow}|**non testé**{: .yellow}|**non testé**{: .yellow}|
+|MAJ Core|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|MAJ Zigbee Coordinateur|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+|MAJ Zigbee Routeur|**ok**{: .green}|**ok**{: .green}|**Nok**{: .red}|
+|Paramètres LED|**ok**{: .green}|**ok**{: .green}|**ok**{: .green}|
+
+Mis à part ça en règle général
+
+## Documentations En ligne
+
+Tu ne trouveras pas de documentations papiers avec le coordinateur, mais j'ai beau faire un article plus ou moins complet, SMLight a rédigé une très belle documentation en ligne por la série SLZB-06, n'hésite pas à la lire et à la relire tout y est très bien expliqué.
 
 [SLZB-06*](https://smlight.tech/manual/slzb-06/guide/getting-started/){: target="_blank"}
 
 [SLZB-07*](https://smlight.tech/manual-slzb-07/){: target="_blank"}
+
+## Les tarifs
+
+Alors comme dit plus haut ces modules sont à l'heure ou j'écris entièrement fabriqué en Ukraine qui veut dire que la vente finale serait donc plus chère que s'ils étaient fabriqués en Chine et bien non il n'en est rien. SMLight s'est aligné aux prix du marché et même moins chères que d'autres fabriquants.
+
+Pour exemple tu trouveras sur Domadoo la série USB SLZB-07 entre 19 et 23€ dans les mêmes ordres de prix que le célèbre sonoff zbdongle-e
+
+Quant aux version slzb-06 avec POE Domadoo ou sur Aliexpress vendent ça moins de 40€ 
+
+> Avec toutes les fonctions ça fait de ce coordinateur un Outsider.
 
 ## Outil flash firmware online ( interface )
 
@@ -98,3 +199,17 @@ Si pour x raison tu n'arrives plus à forcer le flash du firmware des dongles tu
 |ZHA|**v**{: .green}|**v**{: .green}|**v**{: .green}|**v**{: .green}|
 
 ## Attention Zgbee2mqtt 1.37.x
+
+## Bug rencontré sur la version slzb-06P7
+
+Malgré la **mise à jour du CORE avec le 0.2.13dev** j'ai rencontré de légers problèmes d'intégrations, j'ai mis un **SLZB-06 en mode routeur** mais l'intégration dans le coordinateur ne match pas, à l'heure ou j'écris j'envoi les bugs à SMLight via l'interface c'est plus simple.
+
+De plus pour l'instant il n'y a pas de firmwares disponible pour mettre le slzb-06P7 en mode routeur.
+
+## Attention aux versions à venir
+
+SMLight sors actuellement des versions aux puces TI ou Silabs de dernières générations, c'est une très bonne chose mais étant seul sur ce marché peu ou pas de firmwares optimsés ne sont disponibles pour le moment, si j'étais toi j'attendrai un peu et j'orienterai mon achat sur les version slzb-06 ou slzb-06M aux puces plus anciennes (cc2652, efr32 ) mais efficaces.
+
+## Conclusion
+
+Fonce, Fonce, Fonce. Je n'ai rien à dire de plus sur le SMLight {{ page.ref }}à part de te dire de l'acheter, vu ses nombreuses fonctions tu auras une vison plus élargie de ton système domotique en cas d''évolutions. Tout fonctionne à part quelques râté pour la version 06P7 qui devraient être rectifié dans les semaines à venir.
