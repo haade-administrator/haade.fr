@@ -30,20 +30,6 @@
           <image:loc>https://haade.fr/assets/images/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/change-the-result-of-one-entity-state-attribute-command-to-another-in-home-assistant-with-templates</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-04-29T23:45:00+02:00</news:publication_date>
-          <news:title>Change the result of an entity's state attribute</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/122/home-assistant-mini-tutos-haade-lab-create-an-average-on-entities-with-template.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
