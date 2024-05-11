@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.5 - Just a little bit smaller
-    url: https://www.home-assistant.io/blog/2024/05/01/release-20245/
-    image: http://www.home-assistant.io/images/blog/2024-05/social.png
+    title: Music Assistant 2.0 - Your Music, Your Players
+    url: https://www.home-assistant.io/blog/2024/05/09/music-assistant-2/
+    image: http://www.home-assistant.io/images/blog/2024-05-music-assistant/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: 2024.5 - Just a little bit smaller
-    url: https://www.home-assistant.io/blog/2024/05/01/release-20245/
-    image: http://www.home-assistant.io/images/blog/2024-05/social.png
+    title: Music Assistant 2.0 - Your Music, Your Players
+    url: https://www.home-assistant.io/blog/2024/05/09/music-assistant-2/
+    image: http://www.home-assistant.io/images/blog/2024-05-music-assistant/art.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Freebox et TaHoma  - des problèmes de déconnexion à cause du WiFi 7
-    url: https://www.lesalexiens.fr/actualites/freebox-tahoma-problemes-deconnexion-wifi-7/#utm_source=rss&utm_medium=rss&utm_campaign=freebox-tahoma-problemes-deconnexion-wifi-7
+    title: Maison Connectée  - 50 offres sur la domotique à saisir ce week-end
+    url: https://www.lesalexiens.fr/actualites/maison-connectee-50-offres-sur-la-domotique-a-saisir-ce-week-end/#utm_source=rss&utm_medium=rss&utm_campaign=maison-connectee-50-offres-sur-la-domotique-a-saisir-ce-week-end
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,8 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Meural Canvas II de NETGEAR
-    url: https://blog.nord-domotique.com/test-du-meural-canvas-ii-de-netgear/
+    title: Test du panneau solaire Sunology Play Max
+    url: https://blog.nord-domotique.com/test-du-panneau-solaire-sunology-play-max/
     image: 
 Abavala:
   fr_FR:
@@ -46,19 +46,20 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Amazon dévoile la Blink Mini 2  - la nouvelle caméra de sécurité à prix
-      très serré
-    url: https://www.maison-et-domotique.com/146832-amazon-blink-mini-2/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/blink-mini27-702x395.jpg
+    title: Scanners 3D - Creality casse les prix pour la fête des mères !
+    url: https://www.maison-et-domotique.com/146823-scanners-3d-creality-casse-les-prix-pour-la-fete-des-meres/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/bon-plan-creality-702x396.png
 Matter:
   en_GB:
   - name: Matter
-    title: Zigbee Security and Privacy Fundamentals
-    url: https://csa-iot.org/wp-content/uploads/2024/05/Zigbee-Security-and-Privacy-Fundamentals.pdf
+    title: Matter 1.3 Specification announced, enabling energy reporting for Matter
+      devices, and support for water and energy management, electric vehicle chargers,
+      and new major appliances
+    url: https://csa-iot.org/newsroom/matter-1-3-specification-released/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony ATF ESP32 SD Card Module released
-    url: https://www.kincony.com/esp32-tf-card.html
+    title: KinCony ESP32-S3 Core Board released
+    url: https://www.kincony.com/kincony-esp32-s3-core-board-released.html
     image:
