@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-05-13T01:00:00+02:00</news:publication_date>
+          <news:title>Discovery of SMLIGHT remote dongles</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/125/smlight-slzb-series-poe-and-other-en.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/test-and-installation-dry-contact-relay-module-blebox-doorbox-tedee-et-home-assistant</loc>
         <news:news>
           <news:publication>
@@ -14,20 +28,6 @@
         </news:news>
         <image:image>
           <image:loc>https://haade.fr/assets/images/posts/123/test-blebox-doorbox-v2-integration-tedee-home-assistant.png</image:loc>
-        </image:image>
-      </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-05-03T02:00:00+02:00</news:publication_date>
-          <news:title>Sonoff zbmini-l2 test taken to the extreme</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme.png</image:loc>
         </image:image>
       </url>
     </urlset>

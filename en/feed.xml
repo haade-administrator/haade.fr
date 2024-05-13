@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 12 May 2024 04:32:03 +0200</pubDate>
-    <lastBuildDate>Tue, 07 May 2024 23:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 13 May 2024 04:33:39 +0200</pubDate>
+    <lastBuildDate>Mon, 13 May 2024 01:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Discovery of SMLIGHT remote dongles</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>SMLight provides us with a complete range of remote and very complete Zigbee coordinators/dongles, simplified installation, a web interface and all Zigbee2mqtt and ZHA compatible.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.png" alt="Discovery of SMLIGHT remote dongles">
+</picture>
+
+      <p>I am lucky enough to be able to present to you part of the SMlight range from the Ukrainian manufacturer of Zigbee/Matter coordinators. You’ve certainly heard about it, the company is currently pulling out all the stops in terms of communication and is there anything to listen for?
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07">Discovery of SMLIGHT remote dongles</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 13 May 2024 01:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Test and integration of the Blebox Doorbox v2 module</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -228,27 +250,6 @@ Today is different, I’m going to show you how to work with entity state attrib
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Haade-lab Youtube channel by August</title>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Presentation of August and Lulu, new hosts of the Haade-Lab channel, presenting home automation tutorials and tests</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/115/presentation-august-et-lulu-animateurs-chaine-youtube-haade-lab-720-fd1a4f8c9.png" alt="Haade-lab Youtube channel by August">
-</picture>
-
-      <p>I introduce myself August host of the Haade Channel on youtube, helped by Lulu we will feed the channel Haade-lab section by presenting tutorials and tests in home automation in a different and rather fun way. This channel is primarily dedicated to the general public. A novice in this field, [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab">Haade-lab Youtube channel by August</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 24 Mar 2024 07:34:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/presentation-of-august-new-host-of-the-youtube-channel-haade-lab</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Automation]]></category>
     </item>
   </channel>
 </rss>
