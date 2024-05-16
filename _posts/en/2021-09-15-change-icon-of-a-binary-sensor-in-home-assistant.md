@@ -2,7 +2,7 @@
 guid: 19
 title: 'home assistant icon tip'
 description: 'Change the icon of a binary sensor in home assistant'
-categories: [Home-Assistant, Haade-lab]
+categories: [Automation, Home-Assistant, Haade-lab, Mini-tutos]
 tags: []
 date: '2021-09-15T07:00:00+00:00'
 last_modified_at:
