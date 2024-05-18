@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/125/smlight-slzb-series-poe-and-other.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-et-installation-module-relais-contact-sec-blebox-doorbox-tedee-et-home-assistant</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-05-07T23:00:00+02:00</news:publication_date>
-          <news:title>Test et integration du module Blebox Doorbox v2</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/123/test-blebox-doorbox-v2-integration-tedee-home-assistant.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
