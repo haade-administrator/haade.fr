@@ -1,5 +1,5 @@
 ---
-guid: 125
+guid: 126
 title: "Portail serrures Tedee"
 description: "Tutos sur l'utilisation du portail Tedee pour la gestion de plusieurs serrures connectées Tedee Go et Pro idéal quand tu possèdes plusieurs serures ou pour les professionnels de l'hébergement et conciergeries"
 ref: "Tedee"
@@ -7,10 +7,10 @@ layout: post
 authors: [Nico]
 date: 2024-05-15 00:10
 last_modified_at: 
-categories: [Haade-lab, Videos]
+categories: [News, Haade-lab]
 tags: []
 video: 
-image: 'picture.png'
+image: '126.png'
 toc: true
 beforetoc: ''
 published: false
@@ -26,6 +26,23 @@ rating:
 sourcelink:
   - https://portal.tedee.com/
 ---
+## Accès aux services de la serrure intelligente Tedee
+
+### Vérification des Status 
+
+![Setting up a report in zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/pages-status-tedee-service.webp{{ cachebuster }}){: width="692" height="388" class="lazyload"}
+
+[Page status Tedee](https://status.tedee.com/){: target="_blank"}
+
+### Accès au Portail
+
+[Portail Tedee Base de connaissance](https://tedee.com/fr/knowledge-base/portail-tedee/){: target="_blank"}
+
+![Accès Portail Tedee]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-portail-tedee.webp{{ cachebuster }}){: width="692" height="388" class="lazyload"}
 
 [Portail Tedee](https://portal.tedee.com/){: target="_blank"}
-[Page status Tedee](https://status.tedee.com/){: target="_blank"}
+
+[Découverte serrure Tedee Go]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %})
+
+[Post Blebox]({% post_url /fr/2024-05-07-test-et-installation-module-relais-contact-sec-blebox-doorbox-tedee-et-home-assistant %})
+
