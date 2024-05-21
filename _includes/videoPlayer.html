@@ -14,7 +14,7 @@
 </div>
 {%- elsif include.localId != nil %}
 <div class="embed-container">
-    <video controls width="100%" height="auto" type="video" style="border-radius:15px">
+    <video controls width="100%" height="auto" type="video" style="border-radius:15px" class="lazyload">
         <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" />
         <p>
             {{ translate.text[page.locale] }}
@@ -24,7 +24,7 @@
 </div>
 {%- elsif include.externalId != nil %}
 <div class="embed-container">
-    <video controls width="100%" height="auto" type="video" style="border-radius:15px">
+    <video controls width="100%" height="auto" type="video" style="border-radius:15px" class="lazyload">
         <source src="{{ include.externalId }}" />
         <p>
             {{ translate.text[page.locale] }}
@@ -46,15 +46,16 @@
   </div>
 {%- elsif include.instagramId != nil %}
 <blockquote 
-  class="instagram-media" 
+  class="instagram-media lazyload" 
   data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/reel/{{ include.instagramId }}/" 
   style="max-width:540px; min-width:326px; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
 </blockquote> 
 
 <script async src="//www.instagram.com/embed.js"></script>
+
 {%- elsif include.tiktokId != nil %}
 <blockquote 
-  class="tiktok-embed" 
+  class="tiktok-embed lazyload" 
   data-video-id="{{ include.tiktokId }}"
   style="border-left: 0px; padding-left: 0px;"> 
   <a href="https://www.tiktok.com/"></a> 
