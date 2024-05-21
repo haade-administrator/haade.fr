@@ -46,14 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Guide - Intégrer le serveur WES dans Home Assistant pour le suivi de consommation
-    url: https://www.maison-et-domotique.com/146893-guide-integrer-serveur-wes-home-assistant-suivi-consommation/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/titre-ha-wes-702x367.png
+    title: Installation de Frigate sur le mini pc NiPoGi GK3 Plus pour une vidéosurveillance
+      au top !
+    url: https://www.maison-et-domotique.com/146929-installation-frigate-mini-pc-nipogi-gk3-plus/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/titre-frigate-nipogi-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: 2023 Alliance Annual Report
-    url: https://csa-iot.org/wp-content/uploads/2024/05/2023-Connectivity-Standards-Alliance-Annual-Report.pdf
+    title: Welcome letter from Alliance President & CEO Tobin Richardson
+    url: https://csa-iot.org/newsroom/welcome-letter-from-alliance-president-ceo-tobin-richardson/
     image: 
 Kincony:
   en_GB:

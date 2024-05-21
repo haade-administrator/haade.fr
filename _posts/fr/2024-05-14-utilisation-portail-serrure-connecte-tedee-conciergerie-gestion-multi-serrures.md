@@ -42,6 +42,14 @@ sourcelink:
 
 [Portail Tedee](https://portal.tedee.com/){: target="_blank"}
 
+## Ajout d'une organisation
+
+{% include videoPlayer.html localId="creation-organisation.mkv" %}
+
+## Créations de Liens
+
+{% include videoPlayer.html localId="creation-lien-utilisation-pour-locataire.mkv" %}
+
 [Découverte serrure Tedee Go]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %})
 
 [Post Blebox]({% post_url /fr/2024-05-07-test-et-installation-module-relais-contact-sec-blebox-doorbox-tedee-et-home-assistant %})
