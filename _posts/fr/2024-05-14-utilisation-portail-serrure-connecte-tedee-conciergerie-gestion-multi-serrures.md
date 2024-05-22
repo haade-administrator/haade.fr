@@ -30,7 +30,7 @@ sourcelink:
 
 ### Vérification des Status 
 
-![Setting up a report in zoneminder]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/pages-status-tedee-service.webp{{ cachebuster }}){: width="692" height="388" class="lazyload"}
+{% include videoPlayer.html localId="pages-status-tedee-service.mkv" %}
 
 [Page status Tedee](https://status.tedee.com/){: target="_blank"}
 
