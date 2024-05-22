@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Music Assistant 2.0 - Your Music, Your Players
-    url: https://www.home-assistant.io/blog/2024/05/09/music-assistant-2/
-    image: http://www.home-assistant.io/images/blog/2024-05-music-assistant/art.jpg
+    title: Companion app for iOS 2024.5 - Let me Assist you -
+    url: https://www.home-assistant.io/blog/2024/05/22/companion-app-for-ios-20245-assist/
+    image: http://www.home-assistant.io/images/blog/2024-05-ios-assist/ios-og.jpg
   en_GB:
   - name: Home-Assistant
-    title: Music Assistant 2.0 - Your Music, Your Players
-    url: https://www.home-assistant.io/blog/2024/05/09/music-assistant-2/
-    image: http://www.home-assistant.io/images/blog/2024-05-music-assistant/art.jpg
+    title: Companion app for iOS 2024.5 - Let me Assist you -
+    url: https://www.home-assistant.io/blog/2024/05/22/companion-app-for-ios-20245-assist/
+    image: http://www.home-assistant.io/images/blog/2024-05-ios-assist/ios-og.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Vivatech 2024  - Enchanted Tools dévoile ses robots à IA générative
-    url: https://www.lesalexiens.fr/actualites/vivatech-2024-enchanted-tools-devoile-ses-robots-a-ia-generative/#utm_source=rss&utm_medium=rss&utm_campaign=vivatech-2024-enchanted-tools-devoile-ses-robots-a-ia-generative
+    title: Amazon proposera bien la nouvelle IA d’Alexa sur abonnement
+    url: https://www.lesalexiens.fr/actualites/amazon-proposera-bien-la-nouvelle-ia-dalexa-sur-abonnement/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-proposera-bien-la-nouvelle-ia-dalexa-sur-abonnement
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -60,6 +60,6 @@ Matter:
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony ESP32-S3 Core Board released
-    url: https://www.kincony.com/kincony-esp32-s3-core-board-released.html
+    title: How to use KBOX APP for relay board work without internet
+    url: https://www.kincony.com/relay-board-without-internet.html
     image:
