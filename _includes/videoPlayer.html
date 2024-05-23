@@ -14,7 +14,7 @@
 </div>
 {%- elsif include.localId != nil %}
 <div class="embed-container">
-    <video controls width="100%" height="auto" type="video" style="border-radius:15px" class="lazyload">
+    <video width="100%" height="auto" type="video" style="border-radius:15px" controls poster="/assets/images/posts/{{ page.guid }}/{{ include.thumbnail }}" controlslist="nodownload" preload="metadata" >
         <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" />
         <p>
             {{ translate.text[page.locale] }}
@@ -24,7 +24,7 @@
 </div>
 {%- elsif include.externalId != nil %}
 <div class="embed-container">
-    <video controls width="100%" height="auto" type="video" style="border-radius:15px" class="lazyload">
+    <video width="100%" height="auto" type="video" style="border-radius:15px" class="lazyload" controls poster="{{ include.thumbnail }}">
         <source src="{{ include.externalId }}" />
         <p>
             {{ translate.text[page.locale] }}
