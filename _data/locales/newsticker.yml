@@ -28,8 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Sonos lance son tout premier casque audio  - le Sonos Ace
-    url: https://blog.nord-domotique.com/sonos-lance-casque-sonos-ace/
+    title: Test du Plénum motorisé Easyzone QAI de Airzone
+    url: https://blog.nord-domotique.com/test-plenum-motorise-easyzone-qai-airzone/
     image: 
 Abavala:
   fr_FR:
@@ -46,10 +46,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Transition écologique - petit coup d’oeil sur l’Allemagne, souvent prise
-      comme modèle
-    url: https://www.maison-et-domotique.com/147010-transition-ecologique-focus-allemagne/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/dalle-2024-05-20-15-57-35-702x401.webp
+    title: Guide - Intégrer son alarme Ajax à Home Assistant, c’est possible !
+    url: https://www.maison-et-domotique.com/147015-guide-integrer-son-alarme-ajax-a-home-assistant-cest-possible/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/titre-ajax-ha-jeedom-702x367.png
 Matter:
   en_GB:
   - name: Matter
