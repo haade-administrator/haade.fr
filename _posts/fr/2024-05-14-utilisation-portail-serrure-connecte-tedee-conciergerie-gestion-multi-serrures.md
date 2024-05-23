@@ -45,23 +45,33 @@ Alors pourquoi dédier un article sur ce portail, tout simplement parce qu'il pr
 - Un compte Tedee créé et validé
 - des appareils tedee intégré dans l'application
 
-[Découverte serrure Tedee Go]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %})
+## Articles dédiés
+
+> Pour t'aider j'ai déjà rédigé deux articles de tests concernant l'univers Tedee.
+
+### Tedee Go
+
+[Découverte et test de la serrure Tedee Go]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %})
 
 {% include product-embed.html guid="2193" %}
 
-[Post Blebox]({% post_url /fr/2024-05-07-test-et-installation-module-relais-contact-sec-blebox-doorbox-tedee-et-home-assistant %})
+### Blebox Doorbox v2
+
+[Découverte test et inclusion du micro-module NO/NC Blebox Doorbox v2]({% post_url /fr/2024-05-07-test-et-installation-module-relais-contact-sec-blebox-doorbox-tedee-et-home-assistant %})
 
 {% include product-embed.html guid="2197" %}
 
-
 ## Accès aux services de la serrure intelligente Tedee
+
+Rentrons dans le vif du sujet et détaillons les onglets du portail Tedee, et surtout pourquoi l'utiliser
 
 ### Vérifier les status des services Tedee
 
 Important! que tu sois un **particulier**, un **professionnel** de l'hébergement, si tu rencontres des soucis de gestions à distances des serrures connectées Tedee, avant de paniquer et te déplacer ou de reprendre ton installation vérifie **les status des services** Tedee. **Et Oui acheter Tedee c'est aussi être dépendant du Cloud, 100% sécurisé** 😸
 
-Et même mieux [inscris toi](https://status.tedee.com/){: target="_blank"} pour être au courant des évolutions des services.
+Et même mieux [inscris-toi](https://status.tedee.com/){: target="_blank"} pour être au courant des évolutions des services.
 
+{% include videoPlayer.html thumbnail="126.png" localId="pages-status-tedee-service.mkv" %}
 {% include videoPlayer.html youtubeId="hdhFb1U1i18" %}
 
 ### Accès au Portail Tedee
@@ -70,6 +80,7 @@ Maintenant que tu sais visionner les status des services Tedee, rendez-vous sur 
 
 Ci-dessous une petite vidéo qui reprend la connection.
 
+{% include videoPlayer.html localId="acces-portail-tedee.mkv" %}
 {% include videoPlayer.html youtubeId="xbDODGAO9Gw" %}
 
 {%- include alert.html type="Warning" text="Tu dois utiliser le même compte sur le portail que celui que t'as créé lors de l'utilisation de l'app Tedee sur Smartphone, Logique !" %}
@@ -78,7 +89,9 @@ Ci-dessous une petite vidéo qui reprend la connection.
 
 Pour faire simple *pas de créations d'organisations* pas de paramétrages des appareils Tedee sur le portail **À part déverouiller la serrure**. *Donc perdons pas de temps et ajoutons une organisation.*
 
+{% include videoPlayer.html localId="creation-organisation.mkv" %}
 {% include videoPlayer.html youtubeId="czeecP4d3iU" %}
+
 
 **Alors pour revenir à nos moutons**, que tu sois particulier ou pro tu t'es connecté au portail au statut propriétaire, créer une organisation va te permettre d'orienter des paramétrages pour cet organisation. Je pars du principe que je crée une organisation nommé loc'ett qui gère plusieurs logements.
 
@@ -86,41 +99,65 @@ Une fois créé tu auras accès à de nouveaux onglets.
 
 ## Étape 2, Création d'un utilisateur externe
 
-Maintenant tu peux créer un utilisateur supplémentaire qui peut avoir un accès invité ou administrateur en gros un utilisateur invité pourra activer les appareils proposés selon les paramétrages effectués, tandis qu'un utilisateur administrateur pourra modifier les paramètres des appareils dont l'accès lui a été laissé.
+Maintenant tu peux créer un utilisateur supplémentaire qui peut avoir un accès **invité** ou **administrateur** en gros un utilisateur invité pourra activer les appareils proposés selon les paramétrages effectués, tandis qu'un utilisateur administrateur pourra modifier les paramètres des appareils dont l'accès lui a été laissé.
 
+{% include videoPlayer.html localId="creation-utilisateur-tedee-portail.mkv" %}
 {% include videoPlayer.html youtubeId="Sn4Wbxze1To" %}
 
-À la création d'un utilisateur, celui-ci reçoit un mail lui demandant de télécharger l'application Tedee pour smartphone et de créer un compte avec le mail enregistré dans le portail. Une fois créé il aura accès aux appareils et apparaitra sur le portail en tant qu'utilisateurs confirmé.
+**À la création d'un utilisateur**, celui-ci **reçoit un mail** lui demandant de télécharger l'application Tedee pour smartphone et de créer un compte avec le mail enregistré dans le portail. Une fois créé il aura accès aux appareils et apparaitra sur le portail en tant **qu'utilisateurs confirmé.**
 
 ## Étape 3, Ajouter des Appareils à l'organisation
 
 À cette étape ni l'organisation ni un utilisateur ne peuvent contrôler des appareils Tedee. Pour ce faire il faut attitrer des appareils à l'organisation et tu pourras te rendre compte que la Doorbox v2 de blebox et paramétrable, hum ça commence à être intéressant.
 
+{% include videoPlayer.html localId="ajouter-des-appareils-organisation-tedee.mkv" %}
 {% include videoPlayer.html youtubeId="sj-yK7HDGow" %}
+
 
 ## Étape 4, Accorder des accès Appareils par utilisateurs
 
-L'organisation, l'utilisateur créé
+L'organisation et l'utilisateur créé, il te faudra maintenant donner des accès invité/administrateur à l'utilisateur sinon sur l'application Tedee il ne pourras pas activer ou paramétrer les appareils.
 
+{% include videoPlayer.html localId="accorder-acces-par-utilisateurs.mkv" %}
 {% include videoPlayer.html youtubeId="gHbXG8kkmqY" %}
+
 
 ## Création de Liens d'utilisations
 
-Voilà un onglet très intéressant, pourquoi, tout simplement parce que tu peux générer des accès pour des locataires sans qu'ils aient besoin d'utiliser une application tiers, et ça c'est top. 
+**Voilà un onglet très intéressant**, pourquoi, tout simplement parce que tu peux générer des accès pour des locataires sans qu'ils aient besoin d'utiliser une application tiers, et ça c'est top. 
 
 Visionne la vidéo ci-dessous et tu pourras voir comment sont affichés les liens que tu pourrais envoyer tout simplement par mail. Le client final aura juste besoin d'un smartphone avec internet.
 
+{% include videoPlayer.html localId="creation-lien-utilisation-pour-locataire.mkv" %}
 {% include videoPlayer.html youtubeId="JkqLTklAvAE" %}
+
 
 ## (Journalisation) suivi des activités
 
+Encore un onglet fort intéressant surtout pour un gestionnaire principal qui pourra surveiller toutes les activités liées aux appareils Tedee, et tu pourras t'aider d'une recherche par filtre (utilisateur,appareil,activité). Le portail est vraiment complet
+
+{% include videoPlayer.html localId="suivi-activite-tedee-portail.mkv" %}
 {% include videoPlayer.html youtubeId="WwDLaEgJEhA" %}
+
 
 ## Connection à un système de réservation externe
 
+Pour terminer si tu utilises les systèmes de réservations externes comme [Smoobu](https://www.smoobu.com/){: target="_blank"} ou [Guesty](https://www.guesty.com/){: target="_blank"}, et bien sache que tu pourras intégrer ces gestionnaires dans Tedee et rendre le tout interconnectable
+
+{% include videoPlayer.html localId="connection-système-reservation-tedee-portail.mkv" %}
 {% include videoPlayer.html youtubeId="A3UjF62zhe8" %}
+
+
+{% include product-embed.html guid="2193" %}
+
+## Conclusion
+
+J'avais envie de rédiger cet article pour te montrer de quoi Tedee est fait, pour te dire qu'ils ne se sont pas contenté de faire un produit aux facettes plutôt réussis, **mais de faire un gestionnaire ultra complet** qui pourra même ravir les pros de la location.
+Pour terminer le fait de pouvoir **créer des liens** à destination des locataires **sans qu'ils aient besoin de télécharger quoique ce soit est un gros plus.**
+
+> L'interface de gestion des serrures Tedee est facile à prendre en main 👍
 
 {% include product-embed.html guid="2197" %}
 
-## Conclusion
+
 
