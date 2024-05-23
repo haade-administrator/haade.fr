@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/fr/blog/decouverte-gamme-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-05-13T01:00:00+02:00</news:publication_date>
-          <news:title>Découverte dongles déportés SMLIGHT</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/125/smlight-slzb-series-poe-and-other.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
