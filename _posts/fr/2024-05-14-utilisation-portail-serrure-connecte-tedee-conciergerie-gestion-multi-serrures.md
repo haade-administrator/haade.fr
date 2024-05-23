@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2024-05-15 00:10
 last_modified_at: 
-categories: [News, Haade-lab]
+categories: [News, Haade-lab, Mini-tutos]
 tags: []
 video: 
 image: '126.png'
@@ -62,7 +62,7 @@ Important! que tu sois un **particulier**, un **professionnel** de l'hébergemen
 
 Et même mieux [inscris toi](https://status.tedee.com/){: target="_blank"} pour être au courant des évolutions des services.
 
-{% include videoPlayer.html localId="pages-status-tedee-service.mkv" %}
+{% include videoPlayer.html youtubeId="hdhFb1U1i18" %}
 
 ### Accès au Portail Tedee
 
@@ -70,7 +70,7 @@ Maintenant que tu sais visionner les status des services Tedee, rendez-vous sur 
 
 Ci-dessous une petite vidéo qui reprend la connection.
 
-{% include videoPlayer.html localId="acces-portail-tedee.mkv" %}
+{% include videoPlayer.html youtubeId="xbDODGAO9Gw" %}
 
 {%- include alert.html type="Warning" text="Tu dois utiliser le même compte sur le portail que celui que t'as créé lors de l'utilisation de l'app Tedee sur Smartphone, Logique !" %}
 
@@ -78,7 +78,7 @@ Ci-dessous une petite vidéo qui reprend la connection.
 
 Pour faire simple *pas de créations d'organisations* pas de paramétrages des appareils Tedee sur le portail **À part déverouiller la serrure**. *Donc perdons pas de temps et ajoutons une organisation.*
 
-{% include videoPlayer.html localId="creation-organisation.mkv" %}
+{% include videoPlayer.html youtubeId="czeecP4d3iU" %}
 
 **Alors pour revenir à nos moutons**, que tu sois particulier ou pro tu t'es connecté au portail au statut propriétaire, créer une organisation va te permettre d'orienter des paramétrages pour cet organisation. Je pars du principe que je crée une organisation nommé loc'ett qui gère plusieurs logements.
 
@@ -88,7 +88,7 @@ Une fois créé tu auras accès à de nouveaux onglets.
 
 Maintenant tu peux créer un utilisateur supplémentaire qui peut avoir un accès invité ou administrateur en gros un utilisateur invité pourra activer les appareils proposés selon les paramétrages effectués, tandis qu'un utilisateur administrateur pourra modifier les paramètres des appareils dont l'accès lui a été laissé.
 
-{% include videoPlayer.html localId="creation-utilisateur-tedee-portail.mkv" %}
+{% include videoPlayer.html youtubeId="Sn4Wbxze1To" %}
 
 À la création d'un utilisateur, celui-ci reçoit un mail lui demandant de télécharger l'application Tedee pour smartphone et de créer un compte avec le mail enregistré dans le portail. Une fois créé il aura accès aux appareils et apparaitra sur le portail en tant qu'utilisateurs confirmé.
 
@@ -96,13 +96,13 @@ Maintenant tu peux créer un utilisateur supplémentaire qui peut avoir un accè
 
 À cette étape ni l'organisation ni un utilisateur ne peuvent contrôler des appareils Tedee. Pour ce faire il faut attitrer des appareils à l'organisation et tu pourras te rendre compte que la Doorbox v2 de blebox et paramétrable, hum ça commence à être intéressant.
 
-{% include videoPlayer.html localId="ajouter-des-appareils-organisation-tedee.mkv" %}
+{% include videoPlayer.html youtubeId="sj-yK7HDGow" %}
 
 ## Étape 4, Accorder des accès Appareils par utilisateurs
 
 L'organisation, l'utilisateur créé
 
-{% include videoPlayer.html localId="accorder-acces-par-utilisateurs.mkv" %}
+{% include videoPlayer.html youtubeId="gHbXG8kkmqY" %}
 
 ## Création de Liens d'utilisations
 
@@ -110,15 +110,15 @@ Voilà un onglet très intéressant, pourquoi, tout simplement parce que tu peux
 
 Visionne la vidéo ci-dessous et tu pourras voir comment sont affichés les liens que tu pourrais envoyer tout simplement par mail. Le client final aura juste besoin d'un smartphone avec internet.
 
-{% include videoPlayer.html localId="creation-lien-utilisation-pour-locataire.mkv" %}
+{% include videoPlayer.html youtubeId="JkqLTklAvAE" %}
 
 ## (Journalisation) suivi des activités
 
-{% include videoPlayer.html localId="suivi-activite-tedee-portail.mkv" %}
+{% include videoPlayer.html youtubeId="WwDLaEgJEhA" %}
 
 ## Connection à un système de réservation externe
 
-{% include videoPlayer.html localId="connection-système-reservation-tedee-portail.mkv" %}
+{% include videoPlayer.html youtubeId="A3UjF62zhe8" %}
 
 {% include product-embed.html guid="2197" %}
 
