@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/fr/blog/utilisation-portail-web-des-serrure-connecte-tedee-conciergerie-gestion-multi-serrures</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-05-26T18:10:00+02:00</news:publication_date>
+          <news:title>Tedee et le portail Cloud</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/126/tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
