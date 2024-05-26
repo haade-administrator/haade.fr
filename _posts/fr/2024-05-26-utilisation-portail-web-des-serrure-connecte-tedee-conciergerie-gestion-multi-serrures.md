@@ -1,19 +1,19 @@
 ---
 guid: 126
-title: "Portail serrures Tedee"
+title: "Tedee et le portail Cloud"
 description: "Tutos sur l'utilisation du portail Tedee pour la gestion de plusieurs serrures connectées Tedee Go et Pro idéal quand tu possèdes plusieurs serures ou pour les professionnels de l'hébergement et conciergeries"
 ref: "Tedee"
 layout: post
 authors: [Nico]
-date: 2024-05-15 00:10
+date: 2024-05-26 18:10
 last_modified_at: 
-categories: [News, Haade-lab, Mini-tutos]
+categories: [News, Haade-lab]
 tags: []
 video: 
-image: '126.png'
+image: 'tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -27,7 +27,7 @@ sourcelink:
   - https://portal.tedee.com/
 ---
 
-Après une brève présentation de la serrure connectée Tedee GO et l'intégration via l'application Smartphone, je te propose d'approfondir les connaissances à travers une gestion des données plus complètes des serrures connectées Tedee et ce grâce au cloud de le marque et à une gestion à [travers le portail web](https://portal.tedee.com/){: target="_blank"}.
+**Après une brève présentation de la serrure connectée Tedee GO** et l'intégration via l'application Smartphone, je te propose d'approfondir les connaissances à travers une gestion des données plus complètes des serrures connectées Tedee et ce grâce au cloud de le marque et à une gestion à [travers le portail web](https://portal.tedee.com/){: target="_blank"}.
 
 Alors pourquoi dédier un article sur ce portail, tout simplement parce qu'il propose des paramétrages plus poussés que l'application. Grâce à ce portail les professionnels de la location pourrot gérer l'accès à distance des logements.
 
@@ -71,17 +71,17 @@ Important! que tu sois un **particulier**, un **professionnel** de l'hébergemen
 
 Et même mieux [inscris-toi](https://status.tedee.com/){: target="_blank"} pour être au courant des évolutions des services.
 
-{% include videoPlayer.html thumbnail="126.png" localId="pages-status-tedee-service.mp4" localIdWm="pages-status-tedee-service.webm" %}
+{% include videoPlayer.html localId="pages-status-tedee-service.mp4" localIdWm="pages-status-tedee-service.webm" %}
 
 ### Accès au Portail Tedee
 
 Maintenant que tu sais visionner les status des services Tedee, rendez-vous sur le portail, [rien de plus simple clic ici](https://portal.tedee.com/){: target="_blank"} ou rends toi sur le site officiel Tedde et rends toi dans le pied de page de la page principal tous les liens sont dispos. D'ailleurs en complément de ce tuto tu peux trouver la [documentation du portail Tedee en ligne](https://tedee.com/fr/knowledge-base/portail-tedee/){: target="_blank"}
 
-Ci-dessous une petite vidéo qui reprend la connection.
+> Ci-dessous une petite vidéo qui reprend la connection.
 
 {% include videoPlayer.html localId="acces-portail-tedee.mp4" %}
 
-{%- include alert.html type="Warning" text="Tu dois utiliser le même compte sur le portail que celui que t'as créé lors de l'utilisation de l'app Tedee sur Smartphone, Logique !" %}
+{%- include alert.html type="warning" text="Tu dois utiliser le même compte sur le portail que celui que t'as créé lors de l'utilisation de l'app Tedee sur Smartphone, Logique !" %}
 
 ## Étape 1, ajout d'une Organisation
 

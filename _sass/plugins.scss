@@ -2410,6 +2410,7 @@ nav .navbar .links li {
   height: 0;
   overflow: hidden;
   max-width: 100%;
+  margin: 15px auto;
 }
 
 .embed-container iframe,
@@ -2787,4 +2788,10 @@ nav .navbar .links li {
       margin-left: 0;
     }
   }
+}
+
+// plyr video player javascript
+
+.plyr {
+  border-radius: 15px;
 }

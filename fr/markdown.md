@@ -270,6 +270,20 @@ dans navbar.js rajouter la class à la ligne 51 les classes " c'est géré comme
 dans plugin .css faire une recherche par show et rajouter la class ul appel la class i
 exemple la class more-sub-menu-protocol se connect à la class more-arrow-protocol ou htmlCss-sub-menu-shop html-css-arrow-shop
 
+# Plyr video player
+
+pour une mise à jour **récupérer le css** sur le cloud https://cdn.plyr.io/3.7.8/plyr.css et le transformer panuellement en scss
+le code css est personnalisé dans plugin.scss et sur videoplayer.html style=""
+
+recherche dans plugin.scss: // plyr video player javascript
+
+**récupérer le javascript:** https://cdn.plyr.io/3.7.8/plyr.js
+
+code complémentaire de fonctionnement dans theme.js: 
+
+récupérer le code: // video plyr embed to default.html
+
+
 
 
 

@@ -14,7 +14,7 @@
 </div>
 {%- elsif include.localId != nil %}
   <div class="embed-container">
-  <video id="player" class="js-player lazyload" controls crossorigin playsinline poster="/assets/images/posts/{{ page.guid }}/{{ include.thumbnail }}">
+  <video id="player" class="js-player lazyload" controls crossorigin playsinline data-poster="/assets/images/posts/{{ page.guid }}/{{ include.thumbnail }}">
     <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" type="video/mp4" />
     <source src="/assets/images/posts/{{ page.guid }}/{{ include.localIdWm }}" type="video/webm" />
       <p>
