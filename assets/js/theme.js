@@ -196,3 +196,9 @@ $(document).ready(function () {
     $("#imageBox").attr("src", imgURL);
   });
 });
+
+// video plyr embed to default.html
+
+document.addEventListener('DOMContentLoaded', () => {
+  const player = Plyr.setup('.js-player');
+});
