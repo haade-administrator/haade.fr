@@ -14,7 +14,11 @@
 </div>
 {%- elsif include.localId != nil %}
   <div class="embed-container">
+    {%- if include.thumbnail != nil %}
   <video id="player" class="js-player lazyload" controls crossorigin playsinline data-poster="/assets/images/posts/{{ page.guid }}/{{ include.thumbnail }}">
+    {%- else %}
+  <video id="player" class="js-player lazyload" controls crossorigin playsinline >
+    {%- endif %}
     <source src="/assets/images/posts/{{ page.guid }}/{{ include.localId }}" type="video/mp4" />
     <source src="/assets/images/posts/{{ page.guid }}/{{ include.localIdWm }}" type="video/webm" />
       <p>
