@@ -16,15 +16,16 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon proposera bien la nouvelle IA d’Alexa sur abonnement
-    url: https://www.lesalexiens.fr/actualites/amazon-proposera-bien-la-nouvelle-ia-dalexa-sur-abonnement/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-proposera-bien-la-nouvelle-ia-dalexa-sur-abonnement
+    title: Domotique  - 80 offres du week-end sur la maison connectée
+    url: https://www.lesalexiens.fr/actualites/domotique-80-offres-du-week-end-sur-la-maison-connectee/#utm_source=rss&utm_medium=rss&utm_campaign=domotique-80-offres-du-week-end-sur-la-maison-connectee
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Home Assistant et Zigbee2MQTT  - installation et configuration
-    url: https://blog.domadoo.fr/106275-home-assistant-et-zigbee2mqtt-installation/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/home-assistant-et-zigbee2mqtt-installation-configuration-0-1024x640.jpg
+    title: Aqara lance son détecteur de mouvement compatible Thread et Matter  - Motion
+      and Light Sensor P2
+    url: https://blog.domadoo.fr/106215-motion-and-light-sensor-p2-aqara-matter-thread/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/motion-and-light-sensor-p2-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -46,19 +47,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Guide - Intégrer son alarme Ajax à Home Assistant, c’est possible !
-    url: https://www.maison-et-domotique.com/147015-guide-integrer-son-alarme-ajax-a-home-assistant-cest-possible/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/titre-ajax-ha-jeedom-702x367.png
+    title: Découvrez les Mini-PCs GEEKOM  - Puissance et compacité au rendez-vous
+      !
+    url: https://www.maison-et-domotique.com/147052-mini-pc-geekom-nuc-promotion/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/bon-plan-geekom-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: Google opens up its smart home to everyone and will make Google TVs home
-      hubs
-    url: https://www.theverge.com/2024/5/15/24157154/google-home-api-matter-smart-home-chromecast-google-tv
+    title: Alliance Issue 1 Newsletter 2024
+    url: https://connect.csa-iot.org/whats-new-and-whats-next-for-the-alliance-2024
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: How to use KBOX APP for relay board work without internet
-    url: https://www.kincony.com/relay-board-without-internet.html
+    title: 32CH Smart Distribution Panel With Energy Monitoring (Tuya + home assistant)
+    url: https://www.kincony.com/32ch-smart-distribution-panel-with-energy-monitoring-tuya-home-assistant.html
     image:
