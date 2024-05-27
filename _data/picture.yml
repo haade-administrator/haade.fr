@@ -177,7 +177,7 @@ presets:
       wide: 25vw
     size: calc(100vw - 30px)
     attributes:
-      img: 'class="img-thumb lazyload"'
+      img: class="img-thumb lazyload"
     format_quality:
       jpg: 85
       png: 85
