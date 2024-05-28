@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Domotique  - 80 offres du week-end sur la maison connectée
-    url: https://www.lesalexiens.fr/actualites/domotique-80-offres-du-week-end-sur-la-maison-connectee/#utm_source=rss&utm_medium=rss&utm_campaign=domotique-80-offres-du-week-end-sur-la-maison-connectee
+    title: Domo Days  - 100 offres sur Alexa, Echo, Home Assistant et Sonoff
+    url: https://www.lesalexiens.fr/actualites/domo-days-100-offres-sur-alexa-echo-home-assistant-et-sonoff/#utm_source=rss&utm_medium=rss&utm_campaign=domo-days-100-offres-sur-alexa-echo-home-assistant-et-sonoff
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -29,8 +29,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Plénum motorisé Easyzone QAI de Airzone
-    url: https://blog.nord-domotique.com/test-plenum-motorise-easyzone-qai-airzone/
+    title: Segway Navimow I108E  - Découvrez notre test complet
+    url: https://blog.nord-domotique.com/test-complet-segway-navimow-i108e/
     image: 
 Abavala:
   fr_FR:
@@ -47,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Découvrez les Mini-PCs GEEKOM  - Puissance et compacité au rendez-vous
+    title: DomoDays - Domadoo éclate les prix en domotique sur plus de 500 produits
       !
-    url: https://www.maison-et-domotique.com/147052-mini-pc-geekom-nuc-promotion/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/bon-plan-geekom-702x367.png
+    url: https://www.maison-et-domotique.com/147170-domodays-domadoo-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/domadoo-domodays-28-05-03-06-2024-blog-ad-702x415.jpg
 Matter:
   en_GB:
   - name: Matter
