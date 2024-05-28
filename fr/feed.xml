@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 May 2024 04:34:30 +0200</pubDate>
-    <lastBuildDate>Sun, 26 May 2024 18:10:00 +0200</lastBuildDate>
+    <pubDate>Tue, 28 May 2024 19:30:05 +0200</pubDate>
+    <lastBuildDate>Tue, 28 May 2024 18:53:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Les Domodays</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Les Domodays sont de retour du 28 mai au 3 juin !</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.png" alt="Les Domodays">
+</picture>
+
+      <p>Profitez d’une semaine remplie de bonnes affaires avec des réductions allant jusqu’à 25% sur une large sélection de marques de domotique.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo">Les Domodays</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 28 May 2024 18:53:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</guid>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Tedee et le portail Cloud</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +246,6 @@ Aujourd’hui c’est différent, je vais te montrer comment travailler avec les
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Mise à jour Nspanel Pro 3.0 Rubik Design</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Présentation de Rubik la nouvelle interface utilisateur du Nspanel Pro pour une nouvelle expérience prend des aires de Rubik&apos;s cube.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/117/nspanel-pro-firmware-upgrade-v3-0-0-rubik-design-720-a331bbc22.png" alt="Mise à jour Nspanel Pro 3.0 Rubik Design">
-</picture>
-
-      <p>Sonoff fait évoluer l’interface utilisateur (UI) du NSPanel Pro, la version 3.0.0 intègre Rubik un module d’interface qui t’ouvres les champs du possible. L’entreprise ne cesse de faire évoluer les firmwares des modules Zigbee, et ça prouve que cette société est sérieuse.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra">Mise à jour Nspanel Pro 3.0 Rubik Design</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 03 Apr 2024 18:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/mise-a-jour-nspanel-pro-firmware-3-0-0-nouvelle-interface-rubik-extra</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
