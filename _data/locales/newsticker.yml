@@ -16,16 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Domo Days  - 100 offres sur Alexa, Echo, Home Assistant et Sonoff
-    url: https://www.lesalexiens.fr/actualites/domo-days-100-offres-sur-alexa-echo-home-assistant-et-sonoff/#utm_source=rss&utm_medium=rss&utm_campaign=domo-days-100-offres-sur-alexa-echo-home-assistant-et-sonoff
+    title: Aqara H2 EU  - une offre de lancement à 34 euros
+    url: https://www.lesalexiens.fr/actualites/aqara-h2-eu-une-offre-de-lancement-a-34-euros/#utm_source=rss&utm_medium=rss&utm_campaign=aqara-h2-eu-une-offre-de-lancement-a-34-euros
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara lance son détecteur de mouvement compatible Thread et Matter  - Motion
-      and Light Sensor P2
-    url: https://blog.domadoo.fr/106215-motion-and-light-sensor-p2-aqara-matter-thread/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/motion-and-light-sensor-p2-1024x640.png
+    title: Découverte de l’adaptateur USB Ethernet PoE Zigbee 3.0 SLZB-06M de SMLIGHT
+    url: https://blog.domadoo.fr/106058-smlight-slzb-06m-adaptateur-ethernet-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/slzb-06m-smlight-adaptateur-usb-ethernet-poe-zigbee-1080x675-PRESS-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -47,15 +46,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: DomoDays - Domadoo éclate les prix en domotique sur plus de 500 produits
-      !
-    url: https://www.maison-et-domotique.com/147170-domodays-domadoo-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/domadoo-domodays-28-05-03-06-2024-blog-ad-702x415.jpg
+    title: Test Bluetti AC70  - une batterie portable compacte mais endurante !
+    url: https://www.maison-et-domotique.com/147137-test-bluetti-ac70-batterie-portable-compacte-powerstation/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/ac70-eu-3-2000x-500x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Alliance Issue 1 Newsletter 2024
-    url: https://connect.csa-iot.org/whats-new-and-whats-next-for-the-alliance-2024
+    title: HomeKit Weekly - WELOVE releases the first Matter-enabled air purifier
+    url: https://9to5mac.com/2024/04/19/welove-p200-matter/
     image: 
 Kincony:
   en_GB:
