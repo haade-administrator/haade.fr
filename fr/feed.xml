@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 May 2024 08:19:21 +0200</pubDate>
-    <lastBuildDate>Tue, 28 May 2024 18:53:00 +0200</lastBuildDate>
+    <pubDate>Fri, 31 May 2024 11:24:12 +0200</pubDate>
+    <lastBuildDate>Fri, 31 May 2024 11:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>August &amp; Nicole testent pour toi la serrure Tedee Go</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <dc:creator><![CDATA[August]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>August va-t-il se retenir et ne rien explosé ? il n&apos;a pas intérêt Nicole veille au grain surtout qu&apos;il est rentré complètement bourré ce matin là !</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.png" alt="August & Nicole testent pour toi la serrure Tedee Go">
+</picture>
+
+      <p>Suite à une soirée trop arrosée, August est rentré complètement bourré. Heureusement la serrure Tedee installé il n’a pas eu besoin d’insérer la clé dans la serrure et sans le moindre mal il ouvre la porte grâce à son smartphone.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-&-nicole-forever">August & Nicole testent pour toi la serrure Tedee Go</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 31 May 2024 11:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-&-nicole-forever</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-&-nicole-forever</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Videos]]></category>
+    </item>
     <item>
       <title>Les Domodays</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -223,29 +246,6 @@ Aujourd’hui c’est différent, je vais te montrer comment travailler avec les
       <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-Template-faire-des-moyennes-de-plusieurs-entites</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Mini-tutos]]></category>
-    </item>
-    <item>
-      <title>Test du nouveau module de chauffage Nodon SIN-4-FP-21</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je vais tester ce module nodon fil pilote et surtout te montrer comment l&apos;intégrer et le contrôler dans home assistant avec l&apos;interface thermostat</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-fil-pilote-sin-4fp-21-controle-dans-home-assistant-720-e96b56148.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-fil-pilote-sin-4fp-21-controle-dans-home-assistant-720-e96b56148.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/118/test-nodon-module-fil-pilote-sin-4fp-21-controle-dans-home-assistant-720-e96b56148.png" alt="Test du nouveau module de chauffage Nodon SIN-4-FP-21">
-</picture>
-
-      <p>Nouvel arrivé sur le marché du contrôle de radiateur par fil pilote le Nodon SIN-4-FP-21, fidèle à la qualité de fabrication de la marque, nous promet une gestion simplifiée des radiateurs avec gestion par fil pilote.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-nouveau-module-chauffage-zigbee-nodon-sin-4-fp-21-avec-fil-pilote-et-integration-home-assistant">Test du nouveau module de chauffage Nodon SIN-4-FP-21</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 08 Apr 2024 17:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-nouveau-module-chauffage-zigbee-nodon-sin-4-fp-21-avec-fil-pilote-et-integration-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-nouveau-module-chauffage-zigbee-nodon-sin-4-fp-21-avec-fil-pilote-et-integration-home-assistant</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

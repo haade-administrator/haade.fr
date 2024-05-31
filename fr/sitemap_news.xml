@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-&amp;-nicole-forever</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-05-31T11:00:00+02:00</news:publication_date>
+          <news:title>August & Nicole testent pour toi la serrure Tedee Go</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</loc>
         <news:news>
           <news:publication>
