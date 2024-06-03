@@ -28,6 +28,14 @@ sourcelink:
   - https://itead.cc/product/sonoff-pow-ring-smart-power-meter-switch/
 ---
 
+Prérequis
+
+- Homeassistant HAOS de préférence
+- HACS d'installé
+- [SonoffLan](https://github.com/AlexxIT/SonoffLAN) d'installé
+- ou [Ewelink](https://ewelink.cc/ewelink-works-with-home-assistant/) pour home assistant
+- Ewelink sur smartphone [Android](https://play.google.com/store/apps/details?id=com.coolkit&hl=fr&pli=1) ou [Apple](https://apps.apple.com/us/app/ewelink/id1035163158)
+
 
 **Pince de transformateur de courant à noyau divisé** Détection de courant de transformateur jusqu'à 100 A. Aucun contact physique avec les fils sous tension, éliminant le risque de choc électrique. Relâchez ou fermez simplement les loquets sur le côté du capteur pour ouvrir et fermer le capteur CT.
 **Moniteur d'énergie** Installez-le dans le panneau de circuit électrique de votre maison pour surveiller la consommation électrique des appareils électroménagers ou des pièces.
