@@ -30,20 +30,6 @@
           <image:loc>https://haade.fr/assets/images/posts/127/domodays.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/utilisation-portail-web-des-serrure-connecte-tedee-conciergerie-gestion-multi-serrures</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-05-26T18:10:00+02:00</news:publication_date>
-          <news:title>Tedee et le portail Cloud</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/126/tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
