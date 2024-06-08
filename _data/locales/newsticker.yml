@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: ChatGPT Voice fonctionne désormais en arrière-plan sur mobile
-    url: https://www.lesalexiens.fr/actualites/chatgpt-voice-arriere-plan-mobile/#utm_source=rss&utm_medium=rss&utm_campaign=chatgpt-voice-arriere-plan-mobile
+    title: Test SwitchBot Lock Pro  - votre porte sécurisée par la domotique
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-switchbot-lock-pro-votre-porte-securisee-par-la-domotique/#utm_source=rss&utm_medium=rss&utm_campaign=test-switchbot-lock-pro-votre-porte-securisee-par-la-domotique
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -46,15 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Segway Navimow i108E - le robot tondeuse doté d’IA qui révolutionne
-      l’entretien du jardin en 15min, sans câble à installer !
-    url: https://www.maison-et-domotique.com/147322-test-segway-navimow-i108e-robot-tondeuse/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/video-cover-pc-a9e820cb-e7e4-427d-8400-64bdc0c5c0e8-702x393.webp
+    title: Test Fossibot F3600 - une batterie à la puissance monstrueuse capable d’alimenter
+      toute la maison !
+    url: https://www.maison-et-domotique.com/147180-test-fossibot-f3600-batterie-ultra-puissante-pour-la-maison/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/fossibot-f3600-power-station-520435-2--p1--702x366.png
 Matter:
   en_GB:
   - name: Matter
-    title: Webinar | Global Security Challenge, Single Certification Solution
-    url: https://csa-iot.org/newsroom/webinar-global-security-challenge-single-certification-solution/
+    title: The Best Smart Plugs
+    url: https://www.nytimes.com/wirecutter/reviews/best-smart-switch/
     image: 
 Kincony:
   en_GB:
