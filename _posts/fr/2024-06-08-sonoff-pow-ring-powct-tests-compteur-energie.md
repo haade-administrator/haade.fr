@@ -5,7 +5,7 @@ description: "Nouveau compteur d'énergie intelligent du marché, le Sonoff Pow 
 ref: "POWCT"
 layout: post
 authors: [Nico]
-date: 2024-05-30 12:27
+date: 2024-06-08 10:27
 last_modified_at: 
 categories: [Domotique, Tests, Wifi]
 tags: []
@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 3.5 
 sourcelink:
   - https://sonoff.tech/product/diy-smart-switches/powct/
   - https://itead.cc/product/sonoff-pow-ring-smart-power-meter-switch/
@@ -66,6 +66,7 @@ Pour commencer les boitiers sont de tailles et conceptions similaires, le relev�
 Le Sonoff {{ page.ref }} permet de mesurer la puissance d'un ou plusieurs circuits ( jusqu'à 100A ) grâce au capteur à noyau divisé distribué avec.
 Le Sonoff {{ page.ref }} est fournis avec une antenne wifi externe afin d'optimiser la réception des ondes.
 
+{% picture posts/{{ page.guid }}/particularite-sonoff-pow-ring-powct-mesure-intelligent-energie-wifi.png --alt Capture et présentation du sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
 
 
 ## Documentations {{ page.ref }}
