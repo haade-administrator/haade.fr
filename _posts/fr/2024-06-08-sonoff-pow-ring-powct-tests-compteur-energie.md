@@ -31,7 +31,7 @@ Aujourd'hui j'ai la chance de tester le compteur d'énergie intelligent, le Sono
 
 {% picture posts/{{ page.guid }}/sonoff-pow-ring-powct-mesure-intelligent-energie-wifi.png --alt image présentation écrin sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
 
-Prérequis
+## Prérequis
 
 - Homeassistant HAOS de préférence
 - HACS d'installé
@@ -75,6 +75,8 @@ Le Sonoff {{ page.ref }} est fournis avec une antenne wifi externe afin d'optimi
 
 {% include doclink.html pdf="Quick-Guide-POWCT-V1.1.pdf" title="Guide rapide du compteur d'énergie wifi Sonoff POWCT" %}
 
+![Affichage compteur Sonoff Pow Ring Powct]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/sonoff-pow-ring-powct-smart-energy-meter-wifi.webp{{ cachebuster }}){: width="940" height="529" class="lazyload"}
+
 **Pince de transformateur de courant à noyau divisé** Détection de courant de transformateur jusqu'à 100 A. Aucun contact physique avec les fils sous tension, éliminant le risque de choc électrique. Relâchez ou fermez simplement les loquets sur le côté du capteur pour ouvrir et fermer le capteur CT.
 **Moniteur d'énergie** Installez-le dans le panneau de circuit électrique de votre maison pour surveiller la consommation électrique des appareils électroménagers ou des pièces.
 **Conservation des données historiques pendant 6 mois :** enregistrez automatiquement vos données de consommation d'électricité lorsque vous retirez des appareils ou avez une panne de courant. Les données peuvent être enregistrées jusqu'à 6 mois et exportées dans un fichier pour visualisation.
@@ -82,3 +84,8 @@ Le Sonoff {{ page.ref }} est fournis avec une antenne wifi externe afin d'optimi
 **Sûr et fiable** Passez divers tests rigoureux, notamment des tests de foudre et de surtension, des tests de court-circuit, des tests de chute, des tests au brouillard salin, des tests dans des environnements extrêmement difficiles, etc. Des produits auxquels vous pouvez faire confiance à 100 %.
 
 {% picture posts/{{ page.guid }}/schema-branchement-avec-sans-contacteur-no-nc-sonoff-powct.png --alt Schema de branchement Sonoff POWCT mesure d'energies intelligent --img width="940" height="481" %}
+
+## Intégration Home Assistant
+
+{% picture posts/{{ page.guid }}/integration-sonoff-compteur-énergie-powct-homeassistant-sonofflan.png --alt Capture et présentation du sonoff pow ring powct gestionnaire energie --img width="940" height="853" %}
+
