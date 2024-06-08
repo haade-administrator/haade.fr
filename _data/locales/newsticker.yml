@@ -5,31 +5,31 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Companion app for iOS 2024.5 - Let me Assist you -
-    url: https://www.home-assistant.io/blog/2024/05/22/companion-app-for-ios-20245-assist/
-    image: http://www.home-assistant.io/images/blog/2024-05-ios-assist/ios-og.jpg
+    title: 2024.6 - Dipping our toes in the world of AI using LLMs -
+    url: https://www.home-assistant.io/blog/2024/06/05/release-20246/
+    image: http://www.home-assistant.io/images/blog/2024-06/social.png
   en_GB:
   - name: Home-Assistant
-    title: Companion app for iOS 2024.5 - Let me Assist you -
-    url: https://www.home-assistant.io/blog/2024/05/22/companion-app-for-ios-20245-assist/
-    image: http://www.home-assistant.io/images/blog/2024-05-ios-assist/ios-og.jpg
+    title: 2024.6 - Dipping our toes in the world of AI using LLMs -
+    url: https://www.home-assistant.io/blog/2024/06/05/release-20246/
+    image: http://www.home-assistant.io/images/blog/2024-06/social.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Vidéo SwitchBot Lock Pro  - notre avis sur la serrure connectée
-    url: https://www.lesalexiens.fr/actualites/video-switchbot-lock-pro-notre-avis-sur-la-serrure-connectee/#utm_source=rss&utm_medium=rss&utm_campaign=video-switchbot-lock-pro-notre-avis-sur-la-serrure-connectee
+    title: ChatGPT Voice fonctionne désormais en arrière-plan sur mobile
+    url: https://www.lesalexiens.fr/actualites/chatgpt-voice-arriere-plan-mobile/#utm_source=rss&utm_medium=rss&utm_campaign=chatgpt-voice-arriere-plan-mobile
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara lance son Hub M3 compatible Matter
-    url: https://blog.domadoo.fr/106221-aqara-hub-m3-matter-thread/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/aqara-hub-m3-banner-1024x640.png
+    title: Shelly Pro 2PM  - Un module DIN pour contrôler vos appareils
+    url: https://blog.domadoo.fr/106002-shelly-pro-2pm-module-din-controler-appareils/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/20240427_121107-1024x640.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Segway Navimow I108E  - Découvrez notre test complet
-    url: https://blog.nord-domotique.com/test-complet-segway-navimow-i108e/
+    title: Test du kit Zendure SolarFlow Hub 2000 et AB2000
+    url: https://blog.nord-domotique.com/test-kit-zendure-solarflow-hub-2000/
     image: 
 Abavala:
   fr_FR:
@@ -46,14 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Bluetti AC70  - une batterie portable compacte mais endurante !
-    url: https://www.maison-et-domotique.com/147137-test-bluetti-ac70-batterie-portable-compacte-powerstation/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/05/ac70-eu-3-2000x-500x500.jpg
+    title: Test Segway Navimow i108E - le robot tondeuse doté d’IA qui révolutionne
+      l’entretien du jardin en 15min, sans câble à installer !
+    url: https://www.maison-et-domotique.com/147322-test-segway-navimow-i108e-robot-tondeuse/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/video-cover-pc-a9e820cb-e7e4-427d-8400-64bdc0c5c0e8-702x393.webp
 Matter:
   en_GB:
   - name: Matter
-    title: HomeKit Weekly - WELOVE releases the first Matter-enabled air purifier
-    url: https://9to5mac.com/2024/04/19/welove-p200-matter/
+    title: Webinar | Global Security Challenge, Single Certification Solution
+    url: https://csa-iot.org/newsroom/webinar-global-security-challenge-single-certification-solution/
     image: 
 Kincony:
   en_GB:

@@ -27,7 +27,7 @@ sourcelink:
   - https://sonoff.tech/product/diy-smart-switches/powct/
   - https://itead.cc/product/sonoff-pow-ring-smart-power-meter-switch/
 ---
-Aujourd'hui j'ai la chance de tester le compteur d'énergie intelligent, le Sonoff Pow ring {{ page.ref }}, ce n'est pas le premier compteur Sonoff que je teste, il y a quelques temps [j'ai pu tester le pow elite 16A et l'intégrer à SonoffLAN]({% post_url /fr/2023-07-03-sonofflan-le-gestionnaire-sonoff-pour-home-assistant %}){% target="_blank"}, d'ailleurs j'ai renouvellé l'expérient avec le {{ page.ref }}. Mais il n'est pas reconnu dans l'application SonoffLAN alors va-t-il fonctionner ?
+Aujourd'hui j'ai la chance de tester le compteur d'énergie intelligent, le Sonoff Pow ring {{ page.ref }}, ce n'est pas le premier compteur Sonoff que je teste, il y a quelques temps [j'ai pu tester le pow elite 16A et l'intégrer à SonoffLAN]({% post_url /fr/2023-07-03-sonofflan-le-gestionnaire-sonoff-pour-home-assistant %}){: target="_blank"}, d'ailleurs j'ai renouvellé l'expérient avec le {{ page.ref }}. Mais il n'est pas reconnu dans l'application SonoffLAN alors va-t-il fonctionner ?
 
 {% picture posts/{{ page.guid }}/sonoff-pow-ring-powct-mesure-intelligent-energie-wifi.png --alt image présentation écrin sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
 
@@ -41,9 +41,22 @@ Prérequis
 
 ## Déballage
 
+Livré dans un bel écrin très qualitatif le sonoff Pow Ring {{ page.ref }} est très bien emballé, comme tu peux le voir sur l'image la mousse de protection est épaisse et la boîte relativement grande.
+
 {% picture posts/{{ page.guid }}/deballage-sonoff-pow-ring-powct-mesure-energie-wifi.png --alt image déballage sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
 
+**Dans la boiîte on y retrouve:**
+
+- le compteur d'énergie
+- la pince à noyau divisé
+- l'antenne wifi
+- un passe-mur pour l'antenne wifi
+- un traverse paroi
+- un lot de 2 visses pour **verouiller l'accès aux connecteurs.**
+
 {% picture posts/{{ page.guid }}/contenu-boite-sonoff-pow-ring-powct-mesure-energie-wifi.png --alt contenu de la boite du sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
+
+
 
 {% picture posts/{{ page.guid }}/prise-photo-presentation-sonoff-pow-ring-powct-mesure-intelligent-energie-wifi.png --alt Capture et présentation du sonoff pow ring powct gestionnaire energie --img width="940" height="529" %}
 
