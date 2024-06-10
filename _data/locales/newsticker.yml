@@ -47,11 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D - test robot tondeuse Segway Navimow, batterie ultra puissance
-      Fossibot F3600, robot aspirateur iRobot J9+ Combo, mise à jour Home Assistant,
-      etc.
-    url: https://www.maison-et-domotique.com/147446-debrief-md-semaine-23-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: EcoFlow PowerStream désormais compatible avec Shelly 3EM pour optimiser
+      automatiquement la consommation d’énergie !
+    url: https://www.maison-et-domotique.com/147437-ecoflow-powerstream-compatible-shelly-3em/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/titre-ecoflow-shelly-702x395.png
 Matter:
   en_GB:
   - name: Matter
