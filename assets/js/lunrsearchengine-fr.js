@@ -6,7 +6,7 @@ var documents = [{
     "description": "10/06/2024 - Nouveau compteur d'énergie intelligent du marché, le Sonoff Pow Ring POWCT propose une mesure de l'énergie externe, un affichage digital, une antenne wifi déporté de qui exploiter au mieux sa consommation d'énergie",
     "tags": ""},{
     "id": 1,
-    "url": "/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-&-nicole-forever",
+    "url": "/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-et-nicole-forever",
     "title": "August & Nicole testent pour toi la serrure Tedee Go",
     "description": "31/05/2024 - August va-t-il se retenir et ne rien explosé ? il n'a pas intérêt Nicole veille au grain surtout qu'il est rentré complètement bourré ce matin là !",
     "tags": ""},{

@@ -6,7 +6,7 @@ var documents = [{
     "description": "10/06/2024 - New intelligent energy meter on the market, the Sonoff Pow Ring POWCT offers external energy measurement, a digital display, a remote wifi antenna which can make the most of its energy consumption",
     "tags": ""},{
     "id": 1,
-    "url": "/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-&-nicole-forever",
+    "url": "/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-and-nicole-forever",
     "title": "August & Nicole test the Tedee Go lock for you",
     "description": "31/05/2024 - Will August hold back and not blow anything up? Nicole has no interest in keeping an eye on things, especially since he came home completely drunk that morning!",
     "tags": ""},{
