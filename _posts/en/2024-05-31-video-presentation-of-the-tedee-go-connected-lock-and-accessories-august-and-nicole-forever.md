@@ -15,6 +15,7 @@ toc: true
 beforetoc: ''
 published: true
 noindex: false
+addViews: 6
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'

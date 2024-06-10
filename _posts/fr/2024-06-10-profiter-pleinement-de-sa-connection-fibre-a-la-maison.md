@@ -27,6 +27,14 @@ sourcelink:
   - 
 ---
 
+bouygues fibre très rapide: download 1Gbits/s Upload 700MB/s
+Orange: 5Gbits et 1 Gbits
+SFR: Download 8Bbit/s Upload 8Gbit/s
+Free: Download 8Bbit/s Upload 8Gbit/s
+
+
+
+
 # Routeur
 
 https://mikrotik.com/product/rb5009ug_s_in#fndtn-specifications
