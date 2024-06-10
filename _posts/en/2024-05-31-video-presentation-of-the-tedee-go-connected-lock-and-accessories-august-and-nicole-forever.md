@@ -20,6 +20,8 @@ sitemap:
   exclude: 'no'
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
+redirect_from:
+  - /en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-&-nicole-forever
 locale: en_GB
 comments: true
 rating:  
