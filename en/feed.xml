@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Jun 2024 04:38:14 +0200</pubDate>
-    <lastBuildDate>Fri, 31 May 2024 11:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 10 Jun 2024 14:50:12 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Jun 2024 14:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Sonoff Pow Ring POWCT energy meter review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>New intelligent energy meter on the market, the Sonoff Pow Ring POWCT offers external energy measurement, a digital display, a remote wifi antenna which can make the most of its energy consumption</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-smart-energy-meter-wifi-720-226b80933.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-smart-energy-meter-wifi-720-226b80933.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-smart-energy-meter-wifi-720-226b80933.png" alt="Sonoff Pow Ring POWCT energy meter review">
+</picture>
+
+      <p>Today I have the chance to test the 100A intelligent energy meter, the Sonoff Pow ring POWCT, this is not the first Sonoff meter that I have tested, there is some time I was able to test the pow elite 16A and integrate it with SonoffLAN, moreover I repeated the [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/sonoff-pow-ring-powct-tests-energy-meter">Sonoff Pow Ring POWCT energy meter review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 10 Jun 2024 14:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/sonoff-pow-ring-powct-tests-energy-meter</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/sonoff-pow-ring-powct-tests-energy-meter</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Wifi]]></category>
+    </item>
     <item>
       <title>August &amp; Nicole test the Tedee Go lock for you</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,27 +248,6 @@ Today is different, I’m going to show you how to work with entity state attrib
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Wifi]]></category>
-    </item>
-    <item>
-      <title>Template - Create an average on entities</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>mini tutorials on templates in home assistant, how to create an average of the state of several entities.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/119/create-an-average-on-entities-template-home-assistant-720-7e36b146b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/119/create-an-average-on-entities-template-home-assistant-720-7e36b146b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/119/create-an-average-on-entities-template-home-assistant-720-7e36b146b.png" alt="Template - Create an average on entities">
-</picture>
-
-      <p>For our first template tutorial, I suggest you create averages from the state of the values of the entities (sensor). In my cases I need to take an average of two values concerning the off-peak/peak time teleinformation in order to bring up a single common value. In addition it is [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/home-assistant-Template-make-averages-of-multiple-entities">Template - Create an average on entities</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 11 Apr 2024 12:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/home-assistant-Template-make-averages-of-multiple-entities</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/home-assistant-Template-make-averages-of-multiple-entities</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Mini-tutos]]></category>
     </item>
   </channel>
 </rss>

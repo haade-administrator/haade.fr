@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 10 Jun 2024 04:38:14 +0200</pubDate>
-    <lastBuildDate>Fri, 31 May 2024 11:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 10 Jun 2024 14:50:12 +0200</pubDate>
+    <lastBuildDate>Mon, 10 Jun 2024 14:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test du compteur d&apos;énergie Sonoff Pow Ring POWCT</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Nouveau compteur d&apos;énergie intelligent du marché, le Sonoff Pow Ring POWCT propose une mesure de l&apos;énergie externe, un affichage digital, une antenne wifi déporté de qui exploiter au mieux sa consommation d&apos;énergie</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.png" alt="Test du compteur d'énergie Sonoff Pow Ring POWCT">
+</picture>
+
+      <p>Aujourd’hui j’ai la chance de tester le compteur d’énergie intelligent 100A, le Sonoff Pow ring POWCT, ce n’est pas le premier compteur Sonoff que je teste, il y a quelques temps j’ai pu tester le pow elite 16A et l’intégrer à SonoffLAN, d’ailleurs j’ai renouvellé l’expérience avec le POWCT.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie">Test du compteur d'énergie Sonoff Pow Ring POWCT</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 10 Jun 2024 14:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie</guid>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Wifi]]></category>
+    </item>
     <item>
       <title>August &amp; Nicole testent pour toi la serrure Tedee Go</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,27 +248,6 @@ Aujourd’hui c’est différent, je vais te montrer comment travailler avec les
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Securite]]></category>
       <category><![CDATA[Wifi]]></category>
-    </item>
-    <item>
-      <title>Template - Créer une moyenne sur entités</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>mini tutos sur les templates dans home assistant, comment créer une moyenne de l&apos;état de plusieurs entitées.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/119/creer-moyenne-etat-entite-template-home-assistant-720-0e6342f7a.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/119/creer-moyenne-etat-entite-template-home-assistant-720-0e6342f7a.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/119/creer-moyenne-etat-entite-template-home-assistant-720-0e6342f7a.png" alt="Template - Créer une moyenne sur entités">
-</picture>
-
-      <p>Pour notre premier tuto template, je te propose de créer des moyennes à partir de l’état des valeurs des entités ( sensor ). Dans mons cas j’ai besoin de faire une moyenne de deux valeurs concernant la téléinformation heure creuse/heure pleine afin de faire remonter une seule valeur commune. De [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-Template-faire-des-moyennes-de-plusieurs-entites">Template - Créer une moyenne sur entités</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 11 Apr 2024 12:30:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/home-assistant-Template-faire-des-moyennes-de-plusieurs-entites</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-Template-faire-des-moyennes-de-plusieurs-entites</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Mini-tutos]]></category>
     </item>
   </channel>
 </rss>

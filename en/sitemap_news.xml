@@ -3,17 +3,17 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
-        <loc>https://haade.fr/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-&amp;-nicole-forever</loc>
+        <loc>https://haade.fr/en/blog/sonoff-pow-ring-powct-tests-energy-meter</loc>
         <news:news>
           <news:publication>
             <news:name>Haade</news:name>
             <news:language>en</news:language>
           </news:publication>
-          <news:publication_date>2024-05-31T11:00:00+02:00</news:publication_date>
-          <news:title>August & Nicole test the Tedee Go lock for you</news:title>
+          <news:publication_date>2024-06-10T14:00:00+02:00</news:publication_date>
+          <news:title>Sonoff Pow Ring POWCT energy meter review</news:title>
         </news:news>
         <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go.png</image:loc>
+          <image:loc>https://haade.fr/assets/images/posts/129/sonoff-pow-ring-powct-smart-energy-meter-wifi.png</image:loc>
         </image:image>
       </url>
     </urlset>
