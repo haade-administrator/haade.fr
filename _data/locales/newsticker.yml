@@ -29,15 +29,16 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du kit Zendure SolarFlow Hub 2000 et AB2000
-    url: https://blog.nord-domotique.com/test-kit-zendure-solarflow-hub-2000/
+    title: Test de la Smart Gateway Tuya Zigbee 3.0
+    url: https://blog.nord-domotique.com/test-smart-gateway-tuya-zigbee-3-0/
     image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Quelles sont les nouveautés de la version 1.3 de Matter?
-    url: https://www.abavala.com/quelles-sont-les-nouveautes-de-la-version-1-3-de-matter/
-    image: https://www.abavala.com/wp-content/uploads/Matter-1-3-150x150.jpg
+    title: Découvrez le casque de vélo Aura  - la nouvelle référence des casques connectés
+      ?
+    url: https://www.abavala.com/decouvrez-le-casque-de-velo-aura-la-nouvelle-reference-des-casques-connectes/
+    image: https://www.abavala.com/wp-content/uploads/Unit_1_aura-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
