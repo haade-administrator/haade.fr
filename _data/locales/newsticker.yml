@@ -22,10 +22,9 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara dévoile sa prise murale intelligente encastrée Zigbee Smart Wall
-      Outlet H2
-    url: https://blog.domadoo.fr/106635-aqara-prise-murale-intelligente-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/aqara-wall-outlet-h2-eu-banner-1024x640.png
+    title: Shelly 3EM  - Le compteur 3 canaux connecté
+    url: https://blog.domadoo.fr/105349-shelly-3em-compteur-3-canaux-connecte/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/04/couverture3-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -48,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: EcoFlow PowerStream désormais compatible avec Shelly 3EM pour optimiser
-      automatiquement la consommation d’énergie !
-    url: https://www.maison-et-domotique.com/147437-ecoflow-powerstream-compatible-shelly-3em/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/titre-ecoflow-shelly-702x395.png
+    title: Installer une moustiquaire enroulable sur sa fenêtre sans aucun perçage,
+      pour des nuits paisibles !
+    url: https://www.maison-et-domotique.com/136605-installer-moustiquaire-enroulable-fenetre-sans-percage/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2022/05/moustiquaire-fenetre-enroulable-sans-percage-501x500.jpeg
 Matter:
   en_GB:
   - name: Matter
