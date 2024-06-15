@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 15 Jun 2024 04:36:18 +0200</pubDate>
-    <lastBuildDate>Mon, 10 Jun 2024 14:00:00 +0200</lastBuildDate>
+    <pubDate>Sat, 15 Jun 2024 19:10:33 +0200</pubDate>
+    <lastBuildDate>Sat, 15 Jun 2024 18:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Profite pleinement de ton abonnement fibre optique FREE</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Les abonnements fibres sont de plus en plus puissants et pourtant la plupart d&apos;entre nous n&apos;utilisent pas cette bande passante car notre réseau domestique est équipé pour utiliser seulement 1Gbit/s, alors comment utiliser au mieux sa freebox ultra</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/130/equipe-toi-et-utilise-ton-abonnement-fibre-internet-a-la-limite-de-ses-capacites-720-3461c7c1a.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/130/equipe-toi-et-utilise-ton-abonnement-fibre-internet-a-la-limite-de-ses-capacites-720-3461c7c1a.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/130/equipe-toi-et-utilise-ton-abonnement-fibre-internet-a-la-limite-de-ses-capacites-720-3461c7c1a.png" alt="Profite pleinement de ton abonnement fibre optique FREE">
+</picture>
+
+      <p>Ah, je suis enfin passé à la fibre par Free à mon domicile qui annonce une bande passante de 8Gbit/s en téléchargement et envoi de données, rien que ça. Mais voilà mon réseau actuel ne sort que 1Gbit/s sur l’ensemble des switchs. En regardant de plus près les résultats nationaux [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/profiter-pleinement-de-sa-connection-fibre-a-la-maison-avec-la-freebox-ultra">Profite pleinement de ton abonnement fibre optique FREE</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 15 Jun 2024 18:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/profiter-pleinement-de-sa-connection-fibre-a-la-maison-avec-la-freebox-ultra</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/profiter-pleinement-de-sa-connection-fibre-a-la-maison-avec-la-freebox-ultra</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Test du compteur d&apos;énergie Sonoff Pow Ring POWCT</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +248,6 @@ Aujourd’hui c’est différent, je vais te montrer comment travailler avec les
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Test de la serrure connectée Tedee Go + accessoires</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test complet et integration dans home-assistant de la serrure Tedee Go avec le bridge wifi Tedee et le clavier code accès Tedee</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/120/test-serrure-connectee-tedee-go-plus-bridge-digicode-720-a8a2d6f56.png" alt="Test de la serrure connectée Tedee Go + accessoires">
-</picture>
-
-      <p>Une première pour Haade, je vais te présenter une serrure connectée fabriqué dans les pays de l’est, la Tedee Go avec le bridge Tedee qui va bien et pour finir, le digicode Tedee. Pour la petite histoire j’ai demandé à Tedee de me fournir la version Pro qui a l’air [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires">Test de la serrure connectée Tedee Go + accessoires</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 22 Apr 2024 11:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-serrure-connectee-tedee-go-et-des-accessoires</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Securite]]></category>
-      <category><![CDATA[Wifi]]></category>
     </item>
   </channel>
 </rss>

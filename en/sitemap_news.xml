@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/take-full-advantage-of-your-fiber-connection-at-home-with-the-freebox-ultra</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-06-15T18:00:00+02:00</news:publication_date>
+          <news:title>Take full advantage of your FREE fiber optic subscription</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/130/equip-yourself-and-use-your-fiber-internet-subscription-to-the-limit-of-its-capacity.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/sonoff-pow-ring-powct-tests-energy-meter</loc>
         <news:news>
           <news:publication>
