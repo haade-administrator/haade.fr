@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: AI agents for the smart home
-    url: https://www.home-assistant.io/blog/2024/06/07/ai-agents-for-the-smart-home/
-    image: http://www.home-assistant.io/images/blog/2024-06-ai-agents-for-the-smart-home/art.jpg
+    title: Home Assistant SkyConnect becomes Connect ZBT-1
+    url: https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-06-ZBT1/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: AI agents for the smart home
-    url: https://www.home-assistant.io/blog/2024/06/07/ai-agents-for-the-smart-home/
-    image: http://www.home-assistant.io/images/blog/2024-06-ai-agents-for-the-smart-home/art.jpg
+    title: Home Assistant SkyConnect becomes Connect ZBT-1
+    url: https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement/
+    image: http://www.home-assistant.io/images/blog/2024-06-ZBT1/art.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Connectez votre climatisation avec Tado à -27%
-    url: https://www.lesalexiens.fr/actualites/connectez-votre-climatisation-avec-tado-a-27/#utm_source=rss&utm_medium=rss&utm_campaign=connectez-votre-climatisation-avec-tado-a-27
+    title: 37 offres sur la domotique Sonoff à saisir ce week-end
+    url: https://www.lesalexiens.fr/actualites/37-offres-sur-la-domotique-sonoff-a-saisir-ce-week-end/#utm_source=rss&utm_medium=rss&utm_campaign=37-offres-sur-la-domotique-sonoff-a-saisir-ce-week-end
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,8 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de la Smart Gateway Tuya Zigbee 3.0
-    url: https://blog.nord-domotique.com/test-smart-gateway-tuya-zigbee-3-0/
+    title: Play2 de Sunology, Découvrez notre test complet
+    url: https://blog.nord-domotique.com/presentation-et-test-play2-sunology/
     image: 
 Abavala:
   fr_FR:
@@ -47,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Installer une moustiquaire enroulable sur sa fenêtre sans aucun perçage,
-      pour des nuits paisibles !
-    url: https://www.maison-et-domotique.com/136605-installer-moustiquaire-enroulable-fenetre-sans-percage/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2022/05/moustiquaire-fenetre-enroulable-sans-percage-501x500.jpeg
+    title: Le Debrief M&D - test solution solaire Avidsen Soria, Ecoflow compatible
+      Shelly, écouteurs futuristes Nothing Ear, etc.
+    url: https://www.maison-et-domotique.com/147574-debrief-md-semaine-24-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
@@ -60,6 +60,6 @@ Matter:
 Kincony:
   en_GB:
   - name: Kincony
-    title: 32CH Smart Distribution Panel With Energy Monitoring (Tuya + home assistant)
-    url: https://www.kincony.com/32ch-smart-distribution-panel-with-energy-monitoring-tuya-home-assistant.html
+    title: KinCony AG8 ESP32-S3 Smart IR Controller released
+    url: https://www.kincony.com/kincony-ag8-esp32-s3-smart-ir-controller-released.html
     image:
