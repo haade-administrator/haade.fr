@@ -65,11 +65,11 @@ Sur le **NAS équipé 10Gbit/s** j'ai installé un speedtest tracker basé sur l
 
 {% picture posts/{{ page.guid }}/test-freebox-ultra-ookla-speedtest-NAS-tplink-10GB.png --alt test speedtest ookla fibre 10gb pour freebox ultra zyxel xgs1250, elfcam sfp+ et tp-link carte réseau 10GBit/s --img width="940" height="675" %}
 
-Ci-dessous un relevé nperf **sur le pc équipé d'une carte réseau 2.5Gbit/s**, là j'arrive à un téléchargement de 2,3Gbit/s et 1Gbit/s en envoi. Là l'envoi de données est un peu faible mais c'est du au choix du serveur par nperf. 
+Ci-dessous un relevé speedtest ookla **sur le pc équipé d'une carte réseau 2.5Gbit/s**, là j'arrive à un téléchargement de 2,3Gbit/s et en envoi.
 
 > Bref l'ensemble est plus qu'honorable.
 
-{% picture posts/{{ page.guid }}/test-nperf-pc-2.5gb.png --alt test speedtest nperf fibre 2.5gb pour freebox ultra zyxel xgs1250, elfcam sfp+ et tp-link carte réseau 2.5GBit/s test effectué sur pc --img width="940" height="641" %}
+{% picture posts/{{ page.guid }}/test-freebox-ultra-ookla-speedtest-PC-tplink-2.5GB.png --alt test speedtest ookla fibre 2.5gb pour freebox ultra zyxel xgs1250, elfcam sfp+ et tp-link carte réseau 2.5GBit/s test effectué sur pc --img width="736" height="405" %}
 
 ## Les Abonnements fibre
 
