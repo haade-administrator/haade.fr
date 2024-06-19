@@ -202,7 +202,7 @@ La carte comprend 9 ports filaires et un USB 3.0 pleine taille. Sept des ports s
 
 Les cartes sont livrées avec 1 Go de RAM DDR4 et 1 Go de stockage NAND. Cette combinaison de ports et de composants, par rapport à nos autres produits de format similaire, offre presque le double de performances dans les configurations avec de lourdes charges CPU.
 
-[https://mikrotik.com/product/rb5009ug_s_in#fndtn-specifications](https://mikrotik.com/product/rb5009ug_s_in#fndtn-specifications){: target="_blank"}
+[Spécifications Mikrotik RB5009UG+S+IN](https://mikrotik.com/product/rb5009ug_s_in#fndtn-specifications){: target="_blank"}
 
 {% include product-embed.html image="mikrotik-rb5009-sans-poe.png" title="MikroTik Routeur rb5009gug + s +" brand="Mikrotik" description="Routeur cage SFP+ wan et port rj45 2.5GBit/s" amazlink="3RpZZGl" %}
 
@@ -214,7 +214,7 @@ Toutes les options d'alimentation prennent en charge une large plage de tension 
 
 Chaque port de sortie PoE peut fournir jusqu'à 25 W de puissance . Tous les ports combinés sont limités à 130 W, ce qui devrait suffire pour la plupart des configurations. Vous pouvez spécifier manuellement la puissance maximale disponible à partir de vos sources d'alimentation, si nécessaire. En ce qui concerne les fonctionnalités de sortie PoE, le nouveau RB5009 peut échanger des coups avec nos légendaires commutateurs PoE : CRS354 et CRS328. Dans le plus petit format possible et au meilleur prix du marché !
 
-[https://mikrotik.com/product/rb5009upr_s_in#fndtn-specifications](https://mikrotik.com/product/rb5009upr_s_in#fndtn-specifications){: target="_blank"}
+[Spécifications Mikrotik RB5009UPR+S+IN](https://mikrotik.com/product/rb5009upr_s_in#fndtn-specifications){: target="_blank"}
 
 {% include product-embed.html image="mikrotik-rb5009-sans-poe.png" title="MikroTik RB5009UPr+S+in" brand="Mikrotik" description="Routeur cage SFP+ wan et port rj45 2.5GBit/s et POE+ in" amazlink="3KE0OHs" %}
 
