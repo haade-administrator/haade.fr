@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Les 60 meilleures offres domotiques du week-end
-    url: https://www.lesalexiens.fr/actualites/les-60-meilleures-offres-domotiques-du-week-end/#utm_source=rss&utm_medium=rss&utm_campaign=les-60-meilleures-offres-domotiques-du-week-end
+    title: Remarkable Alexa  - un abonnement entre 5 et 10 dollars par mois
+    url: https://www.lesalexiens.fr/actualites/remarkable-alexa-un-abonnement-entre-5-et-10-dollars-par-mois/#utm_source=rss&utm_medium=rss&utm_campaign=remarkable-alexa-un-abonnement-entre-5-et-10-dollars-par-mois
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -48,10 +48,11 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: ACE 1500 - il transforme les batteries Zendure en onduleur ou batteries
-      nomades !
-    url: https://www.maison-et-domotique.com/147766-zendure-ace-1500-lancement/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/ace-06-702x401.png
+    title: Le Debrief M&D -  tests solutions de stockage d’énergie Anker Solarbank
+      2 Pro et Zendure Hyper 2000, lancement du Zendure ACE 1500, roadmap Home Assistant
+      2024, etc.
+    url: https://www.maison-et-domotique.com/147809-debrief-md-semaine-25-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Matter:
   en_GB:
   - name: Matter
