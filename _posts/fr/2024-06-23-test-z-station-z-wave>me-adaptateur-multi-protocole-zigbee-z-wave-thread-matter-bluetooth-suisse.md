@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 3.7
+rating: 4.0
 sourcelink:
   - https://z-wave.me/products/z-station/
 ---
@@ -42,8 +42,8 @@ A oui j'oubliais la notice, elle reprend l'essentiel pour le reste rendez-vous d
 Le boitier est fait à base d'un ABS doux au touché. Le démontage s'effectue simplement én dévissant les 3 visses situées sous le boitier. Tu pourras aussi te rendre compte du rappel des emplacements d'antennes Z-wave et Zigbee. Le circuit imprimé sort tout seul de son emplacement. 
 
 **Deux choses sautent à mes yeux:**
-- la première le circuit aurait pu être réduit vu l'écart entre les compsants
-- le **module est vendu 126€** environ et vu le nombre de **composants il n'y en a pas pour plus de 30-35€** .... je te laisse imaginer la suite...
+- la première le circuit aurait pu être réduit vu l'écart entre les compsants ( **réponse Z-wave>me après diffusion de l'article:**  Oui, la PCB pourrait être plus compacte, mais avec le poids des antennes il faut avoir une base assez large. Nous avons décidé de faire la clef en format externe pour avoir une meilleure qualité de radio et ne pas casser les port USB avec le poids des antennes externes. )
+- le **module est vendu 126€** environ et vu le nombre de **composants il n'y en a pas pour plus de 30-35€** .... je te laisse imaginer la suite... ( **réponse Z-wave>me après diffusion de l'article:** Dommage que personne n'apprécie la qualité des composants utilisés, que les deux antennes et le port SMA par **Linx Technologies** nous coûtent 28 EUR - regarder sur DigiKey le prix pour 1000 pièces. **Alors cette phrase est loin d'être juste**. Cette clef coûte presque comme deux clef standard + deux antennes. Nous chargeons aussi pour le logiciel interne plus sophistiqué. )
 
 {% picture posts/{{ page.guid }}/dongle-z-station-ouverture-du-produit-acces-circuit-imprime-z-wave-me.png --alt Rendu du boitier z-station et accès au circuit imprimé --img width="940" height="529" %}
 
@@ -307,6 +307,5 @@ Z-Station peut également fonctionner avec le [firmware Z-Uno](https://z-uno.z-w
 
 ## Conclusion
 
-**Z-station est un adaptateur intéressant** car il intègre la puce z-wave 700 et la puce zigbee EFR32MG21. L'ensemble est fourni avec deux antennes externes bien distinctes et balisées avec des couleurs. **On aimera les outils mis à dispositions pour les mises à jour ultérieures du firmware**, et la clareté de la documentation. Je décide d'enlever 1,3 points pour le prix. 
-
-> En effet malgré les frais supplémentaires générés pour faire partie de la zwave alliance, **la z-station ne devrait pas être vendu plus de 90€**.
+**Z-station est un adaptateur intéressant** car il intègre la puce z-wave 700 et la puce zigbee EFR32MG21. L'ensemble est fourni avec deux antennes externes bien distinctes et balisées avec des couleurs. **On aimera les outils mis à dispositions pour les mises à jour ultérieures du firmware**, et la clareté de la documentation. Je décide d'enlever 1 points
+> En effet malgré les frais supplémentaires générés pour faire partie de la zwave alliance, et malgré la qualité des composants utilisés **la z-station ne devrait pas être vendu plus de 90-100€**.

@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
-rating: 3.7
+rating: 4.0
 sourcelink:
   - https://z-wave.me/products/z-station/
 ---
@@ -42,8 +42,8 @@ Yes, I forgot the instructions, it covers the essentials, for the rest, go direc
 The case is made from soft-touch ABS. Disassembly is simply done by unscrewing the 3 screws located under the case. You will also be able to see the reminder of the Z-wave and Zigbee antenna locations. The printed circuit comes out of its location by itself.
 
 **Two things stand out to me:**
-- the first the circuit could have been reduced given the gap between the components
-- the **module is sold for around 126€** and given the number of **components there are none for more than 30-35€**.... I'll let you imagine what happens next...
+- the first the circuit could have been reduced given the gap between the components (**Z-wave response>me after distribution of the article:** Yes, the PCB could be more compact, but with the weight of the antennas it You have to have a fairly wide base. We decided to make the key in external format to have better radio quality and not break the USB ports with the weight of the external antennas.
+- the **module is sold for around 126€** and given the number of **components there are none for more than 30-35€**.... I'll let you imagine what happens next... ( **Z-wave>me response after publication of the article:** Too bad that no one appreciates the quality of the components used, that the two antennas and the SMA port by **Linx Technologies** cost us 28 EUR - watch on DigiKey the price for 1000 pieces **So this sentence is far from fair** This key costs almost like two standard keys + two antennas.
 
 {% picture posts/{{ page.guid }}/dongle-z-station-ouverture-du-produit-acces-circuit-imprime-z-wave-me.png --alt Rendering of the z-station box and access to the printed circuit --img width="940" height="529" %}
 
@@ -307,6 +307,6 @@ Z-Station can also work with [Z-Uno firmware](https://z-uno.z-wave.me){: target=
 
 ## Conclusion
 
-**Z-station is an interesting adapter** because it integrates the z-wave 700 chip and the zigbee EFR32MG21 chip. The set is supplied with two external antennas that are very distinct and marked with colors. **We will like the tools made available for subsequent firmware updates**, and the clarity of the documentation. I decide to take away 1.3 points for the price.
+**Z-station is an interesting adapter** because it integrates the z-wave 700 chip and the zigbee EFR32MG21 chip. The set is supplied with two external antennas that are very distinct and marked with colors. **We will like the tools made available for subsequent firmware updates**, and the clarity of the documentation. I decide to remove 1 point
 
-> Indeed, despite the additional costs generated for being part of the zwave alliance, **the z-station should not be sold for more than €90**.
+> Indeed, despite the additional costs generated for being part of the zwave alliance, and despite the quality of the components used **the z-station should not be sold for more than €90-100**.
