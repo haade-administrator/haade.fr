@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Jun 2024 04:38:11 +0200</pubDate>
-    <lastBuildDate>Sat, 15 Jun 2024 18:00:00 +0200</lastBuildDate>
+    <pubDate>Sun, 23 Jun 2024 11:52:40 +0200</pubDate>
+    <lastBuildDate>Sun, 23 Jun 2024 11:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test de l&apos;adapteur USB multi protocoles Z-Station Z-wave&gt;me</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Je vais tester ce dongle référencé ZMEEZSTATION_ZW_ZB de la marque Z-Wave&gt;me le Z-station adaptateur USB et voir s&apos;il répond aux exigences opensources Zigbee2mqtt et ZwaveJS UI entre autres</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.png" alt="Test de l'adapteur USB multi protocoles Z-Station Z-wave>me">
+</picture>
+
+      <p>Une petite exclu sur le web, et oui je suis l’un des premiers à tester le nouveau superhero dongle de la marque ZWAVE&gt;ME, l’adaptateur USB multiprotocole le Z-STATION - ZMEEZSTATION_ZW_ZB compatible Zigbee/Z-wave/Thread/matter et même Bluetooth. Alors quand je dis le premier je parle en france et en référence d’un article [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse">Test de l'adapteur USB multi protocoles Z-Station Z-wave>me</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 23 Jun 2024 11:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Profite pleinement de ton abonnement fibre optique FREE</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +247,6 @@ Aujourd’hui c’est différent, je vais te montrer comment travailler avec les
       <guid isPermaLink="true">https://haade.fr/fr/blog/changer-le-resultat-d-une-commande-d-attribut-d-etat-d-entite-par-une-autre-dans-home-assistant-avec-les-templates</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Mini-tutos]]></category>
-    </item>
-    <item>
-      <title>Comparatif Vidéo robinets thermostatiques Moes, Aqara et Sonoff</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>August te présente un test sur notre chaîne youtube Haade-lab un comparatif des robinets thermostatiques Moes ZTRV-BY-100, Aqara SRTS-A01 et Sonoff TRVZB</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/121/youtube-haade-labs-comparatif-robinet-thermostatique-moes-sonoff-aqara-720-c2f94f9ef.png" alt="Comparatif Vidéo robinets thermostatiques Moes, Aqara et Sonoff">
-</picture>
-
-      <p>Suite à la vidéo économise du chauffage grâce à la domotique ça marche, August reviens avec à la clé un comparatif des robinets thermostatiques Moes ZTRV-BY-100, Aqara SRTS-A01 et Sonoff TRVZB, chose intéressante sa vision en tant que novice offrira une expérience intéressante à ceux qui veulent découvrir le monde [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara">Comparatif Vidéo robinets thermostatiques Moes, Aqara et Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 26 Apr 2024 08:40:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/comparatif-youtube-robinet-thermostatique-moes-sonoff-aqara</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
