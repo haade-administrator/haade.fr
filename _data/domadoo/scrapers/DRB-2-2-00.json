@@ -6,11 +6,11 @@
         "description": "Installez directement les modules NodOn au tableau électrique avec le boitier Rail DIN V2 ! Lot de 5 pièces.",
         "productNew": "",
         "minsalePrice": "49.90",
-        "maxsalePrice": "33.99",
-        "discount": "-20%",
+        "maxsalePrice": "25.99",
+        "discount": "-15%",
         "currency": "EUR",
-        "originalPrice": "33.99",
-        "quantity": "15 Produits disponibles",
+        "originalPrice": "25.99",
+        "quantity": "Hors stock",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/16616-large_default/nodon-boitier-rail-din-v2-pour-micromodules-5-pieces.jpg",
@@ -20,8 +20,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.5",
-            "totalStarCount": "4"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

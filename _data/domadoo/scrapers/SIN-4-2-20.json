@@ -6,11 +6,11 @@
         "description": "Avec ses deux canaux, le Module Éclairage ON/OFF Zigbee permet de rendre connectés et pilotables à distance via un smartphone, automatiquement ou à la voix un ou deux éclairages.",
         "productNew": "",
         "minsalePrice": "44.90",
-        "maxsalePrice": "25.99",
-        "discount": "-20%",
+        "maxsalePrice": "39.99",
+        "discount": "-15%",
         "currency": "EUR",
-        "originalPrice": "25.99",
-        "quantity": "9 Produits disponibles",
+        "originalPrice": "39.99",
+        "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/17555-large_default/nodon-module-eclairage-onoff-zigbee.jpg",
@@ -19,8 +19,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "3.9",
-            "totalStarCount": "7"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

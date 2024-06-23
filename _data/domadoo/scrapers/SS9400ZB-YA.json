@@ -6,11 +6,11 @@
         "description": "Créez différents automatismes et prenez le contrôle de ceux-ci avec la télécommande Zigbee 4 boutons LORATAP.",
         "productNew": "",
         "minsalePrice": "16.99",
-        "maxsalePrice": "61.31",
+        "maxsalePrice": "24.99",
         "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "61.31",
-        "quantity": "18 Produits disponibles",
+        "originalPrice": "24.99",
+        "quantity": "11 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/20270-large_default/loratap-interrupteur-mural-de-scene-sans-fil-zigbee-30-4-boutons.jpg",
@@ -23,8 +23,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "5",
-            "totalStarCount": "2"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

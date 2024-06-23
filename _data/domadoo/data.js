@@ -64,5 +64,6 @@ module.exports = [
     'controle-d-acces/6734-serrure-connectee-tedee-go-noire-tedee-5907720713867', // 2194 serrure tedee go noire
     'controle-d-acces/6470-tedee-bridge-bluetoothwi-fi-5907720713010', // 2195 tedee Bridge wifi
     'controle-d-acces/6469-tedee-clavier-a-code-5907720713263', // 2196 tedee digicode
-    'controle-d-acces/6735-module-relais-connecte-tedee-5900168580251' // 2197 module blebox doorbox tedee
+    'controle-d-acces/6735-module-relais-connecte-tedee-5900168580251', // 2197 module blebox doorbox tedee
+    'box-domotique/7154-z-waveme-adaptateur-usb-pour-z-wave-zigbeethreadble-z-station-4673724090181' // 2198 z-station zwave>me
 ]

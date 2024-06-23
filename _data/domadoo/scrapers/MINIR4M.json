@@ -6,10 +6,10 @@
         "description": "Contrôlez votre éclairage ou un dispositif électrique depuis Alexa, Google Home, Apple Home et plus grâce au module connecté ON/OFF Matter Sonoff.",
         "productNew": "",
         "minsalePrice": "15.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "91.99",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "91.99",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -35,8 +35,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "1",
-            "totalStarCount": "1"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

@@ -6,11 +6,11 @@
         "description": "Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "productNew": "",
         "minsalePrice": "76.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "17.99",
+        "discount": "-15%",
         "currency": "EUR",
-        "originalPrice": "",
-        "quantity": "7 Produits disponibles",
+        "originalPrice": "17.99",
+        "quantity": "2 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/18496-large_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
@@ -22,8 +22,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.7",
-            "totalStarCount": "52"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

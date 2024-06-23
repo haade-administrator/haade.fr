@@ -6,11 +6,11 @@
         "description": "SONOFF propose une box domotique fonctionnant en local pour rendre votre domotique plus rapide, fiable et sécurisée.",
         "productNew": "",
         "minsalePrice": "109.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "89.99",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "",
-        "quantity": "12 Produits disponibles",
+        "originalPrice": "89.99",
+        "quantity": "8 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/26466-large_default/box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.jpg",
@@ -33,8 +33,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "3.8",
-            "totalStarCount": "6"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

@@ -6,11 +6,11 @@
         "description": "Mesurez et surveillez la consommation d'un dispositif électrique en temps réel et activez ou désactivez celui-ci à distance.",
         "productNew": "",
         "minsalePrice": "25.99",
-        "maxsalePrice": "22.99",
-        "discount": "-10%",
+        "maxsalePrice": "7.20",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "22.99",
-        "quantity": "8 Produits disponibles",
+        "originalPrice": "7.20",
+        "quantity": "5 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/25897-large_default/sonoff-commutateur-de-compteur-de-puissance-intelligent-20a-avec-ecran-pow-elite.jpg",
@@ -37,8 +37,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "3",
-            "totalStarCount": "1"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

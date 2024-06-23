@@ -6,10 +6,10 @@
         "description": "Porte de l’immeuble. Porte d’entrée. Porte de garage. Une seule application.",
         "productNew": "",
         "minsalePrice": "69.00",
-        "maxsalePrice": "119.99",
-        "discount": "-20%",
+        "maxsalePrice": "0",
+        "discount": "",
         "currency": "EUR",
-        "originalPrice": "119.99",
+        "originalPrice": "",
         "quantity": "1 Produit disponible",
         "supply_date": null,
         "image": [

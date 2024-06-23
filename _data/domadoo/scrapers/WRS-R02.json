@@ -6,11 +6,11 @@
         "description": "L'interrupteur mural double sans fil Aqara H1 (WRS-R02) est un appareil Zigbee et un interrupteur à faible consommation d'énergie.",
         "productNew": "",
         "minsalePrice": "25.00",
-        "maxsalePrice": "27.99",
-        "discount": "-20%",
+        "maxsalePrice": "99.99",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "27.99",
-        "quantity": "Hors stock",
+        "originalPrice": "99.99",
+        "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/17716-large_default/aqara-interrupteur-mural-double-sans-fil-h1-zigbee-30-wrs-r02.jpg",
@@ -20,8 +20,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.3",
-            "totalStarCount": "14"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

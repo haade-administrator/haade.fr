@@ -4,12 +4,12 @@
         "productId": "ZB-BRIDGE-P",
         "title": "SONOFF - Box domotique Zigbee 3.0 / WIFI PRO",
         "description": "La box domotique ZB-BRIDGE-P ZIGBEE 3.0 / WIFI SONOFF permet d'avoir le contrôle de sa maison connectée à distance et de créer des scènes.",
-        "productNew": "Nouveau",
+        "productNew": "",
         "minsalePrice": "33.99",
-        "maxsalePrice": "0",
-        "discount": "",
+        "maxsalePrice": "20.99",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "",
+        "originalPrice": "20.99",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -33,8 +33,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "5",
-            "totalStarCount": "2"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

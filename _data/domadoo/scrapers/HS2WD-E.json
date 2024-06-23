@@ -2,28 +2,28 @@
     "product": {
         "linkId": "peripheriques/5714-heiman-sirene-interieure-intelligente-zigbee-30",
         "productId": "HS2WD-E",
-        "title": "HEIMAN - Sirène intérieure intelligente Zigbee 3.0",
+        "title": "Sirène Zigbee intelligente d'intérieur - HEIMAN HS2WD-E",
         "description": "La sirène intelligente Zigbee 3.0 de Heiman est idéale pour déclencher une alarme en cas d'urgence.",
         "productNew": "",
         "minsalePrice": "29.99",
-        "maxsalePrice": "27.99",
-        "discount": "-20%",
+        "maxsalePrice": "37.99",
+        "discount": "-10%",
         "currency": "EUR",
-        "originalPrice": "27.99",
+        "originalPrice": "37.99",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [
-            "https://cdn1.domadoo.fr/17675-large_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
-            "https://cdn1.domadoo.fr/17675-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
-            "https://cdn1.domadoo.fr/17676-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
-            "https://cdn1.domadoo.fr/17677-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
-            "https://cdn1.domadoo.fr/17678-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg",
-            "https://cdn1.domadoo.fr/17679-medium_default/heiman-sirene-interieure-intelligente-zigbee-30.jpg"
+            "https://cdn1.domadoo.fr/17675-large_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg",
+            "https://cdn1.domadoo.fr/17675-medium_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg",
+            "https://cdn1.domadoo.fr/17676-medium_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg",
+            "https://cdn1.domadoo.fr/17677-medium_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg",
+            "https://cdn1.domadoo.fr/17678-medium_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg",
+            "https://cdn1.domadoo.fr/17679-medium_default/sirene-zigbee-intelligente-d-interieur-heiman-hs2wd-e.jpg"
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.6",
-            "totalStarCount": "29"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

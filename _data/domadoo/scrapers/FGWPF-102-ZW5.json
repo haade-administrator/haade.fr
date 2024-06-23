@@ -6,10 +6,10 @@
         "description": "Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "productNew": "",
         "minsalePrice": "76.99",
-        "maxsalePrice": "26.99",
-        "discount": "-30%",
+        "maxsalePrice": "49.90",
+        "discount": "-25%",
         "currency": "EUR",
-        "originalPrice": "26.99",
+        "originalPrice": "49.90",
         "quantity": "Hors stock",
         "supply_date": null,
         "image": [
@@ -21,8 +21,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.9",
-            "totalStarCount": "15"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

@@ -6,11 +6,11 @@
         "description": "L'interrupteur mural double intelligent Aqara H1 (WS-EUK02) est un interrupteur mural intégrant deux relais et basé sur le protocole de communication sans fil Zigbee 3.0.",
         "productNew": "",
         "minsalePrice": "43.00",
-        "maxsalePrice": "11.57",
-        "discount": "-20%",
+        "maxsalePrice": "16.50",
+        "discount": "-15%",
         "currency": "EUR",
-        "originalPrice": "11.57",
-        "quantity": "Plus de 20 Produits disponibles",
+        "originalPrice": "16.50",
+        "quantity": "16 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/17724-large_default/aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-sans-neutre-ws-euk02.jpg",
@@ -21,8 +21,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "4.6",
-            "totalStarCount": "12"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }

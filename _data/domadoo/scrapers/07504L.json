@@ -5,11 +5,11 @@
         "title": "IMMAX - Sirène intelligente extérieure Zigbee 3.0 TUYA (IP65)",
         "description": "La sirène intelligente extérieure Zigbee 3.0 TUYA IMMAX permet d'optimiser la protection de votre logement en émettant une alarme sonore et visuelle dans votre jardin en cas d'anomalie détectée.",
         "productNew": "",
-        "minsalePrice": "37.99",
-        "maxsalePrice": "26.99",
-        "discount": "-30%",
+        "minsalePrice": "34.19",
+        "maxsalePrice": "37.99",
+        "discount": "-10%",
         "currency": "EUR",
-        "originalPrice": "26.99",
+        "originalPrice": "37.99",
         "quantity": "12 Produits disponibles",
         "supply_date": null,
         "image": [
@@ -24,8 +24,8 @@
         ],
         "ratings": {
             "totalStar": "5",
-            "averageStar": "3",
-            "totalStarCount": "2"
+            "averageStar": "0",
+            "totalStarCount": "0"
         }
     }
 }
