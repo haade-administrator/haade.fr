@@ -35,7 +35,7 @@ Sonoff has been selling this module for some time, which completes the Nspanel s
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/08/Stand_1000x1000px_01.jpg?fit=1000%2C1000&ssl=1" title="Box for Nspanel Controller" brand="Sonoff" description="Box for Controller Sonoff Nspanel Pro, Nspanel in eu or us version" domlink="accessoires-electriques/6616-sonoff-support-de-boitier-de-bureau-pour-nspanel-et-nspanelpro-noir.html" iteadlink="enclosure-stand" %}
 
-# Unboxing
+## Unboxing
 
 I will spare you the stages of the consumables (pouches and foams), in short, the sonoff Nspanel pro module is very well packaged, similar to the Nspanel by the way, it comes with a summary manual and a set of screws. The support also comes with two screws.
 
@@ -46,7 +46,7 @@ For the Nspanel pro as well as the case, the plastics used are of good quality.
 
 {% picture posts/{{ page.guid }}/deballage-sonoff-nspanel-pro-avec-support-capture-2.png --alt unpacking nspanel pro with its support and installation of together --img width="940" height="529" %}
 
-# 1st launch
+## 1st launch
 
 To carry out a first launch with firmware update it will be necessary the mobile phone with [Ewelink App](https://play.google.com/store/apps/details?id=com.coolkit&hl=fr&gl=US&pli=1){: target="_blank"} installed, and a 2.4Ghz wifi connection available.
 
@@ -89,7 +89,7 @@ To carry out a first launch with firmware update it will be necessary the mobile
 - Lan options without Cloud too restricted
 - zigbee response time too long (when you click on a switch the latency is about 1 second)
 
-# Functions
+## Functions
 
 ### Dashboard
 
@@ -146,14 +146,14 @@ The theme tab allows you to choose a dynamic or simple wallpaper, nothing more.
 {% picture posts/{{ page.guid }}/fonction-appel-nspanel-pro.png --alt NSPanel pro call function via ewelink application --img width="470" height="470" %}
 
 
-# Integration in Homeassistant
+## Integration in Homeassistant
 
 It is obvious that the NSpanel pro is controllable in the Home-assistant application, 3 choices are available to you for integration.
 You can easily control this module via homeassistant but to date all these options are subject to constraints controlled by the Sonoff company.
 
 > personally I chose the SonoffLan option which seems very promising.
 
-## #1 with the Ewelink 100% Cloud module
+### with the Ewelink 100% Cloud module
 
 A video distributed by Sonoff illustrates the installation of the addons well, I did not look into it because it is 100% Chinese Cloud and yes each action carried out by the Sonoff module or on Homeassistant goes through the Web.
 
@@ -176,7 +176,7 @@ Paste the [Github repository link](https://github.com/CoolKit-Technologies/ha-ad
 
 {% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
 
-## #2 by flashing the module with 100% local android
+### by flashing the module with 100% local android
 
 Thanks to Blakkader help it is possible to hack sonoff pro by installing and using [Android Debub Bridge ADB](https://developer.android.com/studio/command-line/adb?hl=fr){: target="_blank}. I have not tested this solution because in my opinion it has no interest, installing android is the same as taking an android tablet and installing it on the wall at least you would have a bigger screen.
 
@@ -199,7 +199,7 @@ Watch an installation video below.
 
 {% include videoPlayer.html youtubeId="0kjGH9-XQk4" %}
 
-## #3 Using the [Sonofflan repository](https://github.com/AlexxIT/SonoffLAN){:target="_blank"} (local and/or cloud)
+### Using the [Sonofflan repository](https://github.com/AlexxIT/SonoffLAN){:target="_blank"} (local and/or cloud)
 Entirely developed by AlexxIT, this module makes it easy to control Sonoff products. It has the advantage of being very easy to use. However it will still be necessary to configure the Ewelink cloud but without being obliged to use it, finally it depends on Sonoff's Lan compatibility
 
 ![Nspanel Pro Sonofflan installation on Homeassistant]({{ site.baseurl }}/assets/images/posts/52/installation-nspanel-sonofflan-homeassistant.webp{{ cachebuster }}){: width="940" height= "517" class="lazyload"}{:target="_blank"}
@@ -217,7 +217,7 @@ Entirely developed by AlexxIT, this module makes it easy to control Sonoff produ
 
 {% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/07/NSPanel-P_preorder_dim_gray.jpg?fit=1000%2C1000&ssl=1" title="Sonoff Nspanel Pro Controller" brand="Sonoff" description="Sonoff Nspanel Pro controller with zigbee 3.0 and integrated wifi" affiliate="_DCgKVON" domlink="objets-connectes/6625-sonoff-interrupteur-mural-noir-zigbee-30-nspanel-pro.html" iteadlink="sonoff-nspanel-pro-smart-home-control-panel" %}
 
-# Conclusion
+## Conclusion
 
 The current version of the firmware tested is the latest one **V1.5.4**, the quality of **manufacturing is good**, the interface and the quality of the panel are superior to the NSPANEL but **in my opinion the module is not in focus**, the horizontal swipe works correctly however the *vertical swipe is random*, you have to do it several times to access the menu, fortunately this module supports the other zigbee modules of the **Sonoff range**. *But for now it's far too limited*, I would have preferred full interoperability with Homeassistant. The functions included as well as the settings are well thought out. In my opinion, it is not an essential module for the moment, but perhaps it will become one the day Sonoff decides to open it to Opensource systems.
 
