@@ -5,40 +5,39 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Home Assistant SkyConnect becomes Connect ZBT-1
-    url: https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement/
-    image: http://www.home-assistant.io/images/blog/2024-06-ZBT1/art.jpg
+    title: Voice Chapter 7 - Supercharged wake words and timers
+    url: https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7/
+    image: http://www.home-assistant.io/images/blog/2024-06-voice-chapter-7/mWW-v1-vs-v2.png
   en_GB:
   - name: Home-Assistant
-    title: Home Assistant SkyConnect becomes Connect ZBT-1
-    url: https://www.home-assistant.io/blog/2024/06/13/zbt1-annoucement/
-    image: http://www.home-assistant.io/images/blog/2024-06-ZBT1/art.jpg
+    title: Voice Chapter 7 - Supercharged wake words and timers
+    url: https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7/
+    image: http://www.home-assistant.io/images/blog/2024-06-voice-chapter-7/mWW-v1-vs-v2.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Remarkable Alexa  - un abonnement entre 5 et 10 dollars par mois
-    url: https://www.lesalexiens.fr/actualites/remarkable-alexa-un-abonnement-entre-5-et-10-dollars-par-mois/#utm_source=rss&utm_medium=rss&utm_campaign=remarkable-alexa-un-abonnement-entre-5-et-10-dollars-par-mois
+    title: Home Assistant révolutionne ses commandes vocales avec l’IA
+    url: https://www.lesalexiens.fr/actualites/home-assistant-revolutionne-commandes-vocales-ia/#utm_source=rss&utm_medium=rss&utm_campaign=home-assistant-revolutionne-commandes-vocales-ia
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la box domotique Home Assistant Green de Nabu Casa
-    url: https://blog.domadoo.fr/106393-box-domotique-home-assistant-green/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/nabu-casa-box-home-assistant-green-1080x675-PRESS-1024x640.png
+    title: Shelly Wave 1PM  - Le module Z-Wave idéal pour votre maison intelligente
+    url: https://blog.domadoo.fr/106710-shelly-wave-1pm-le-module-z-wave-ideal-pour-votre-maison-intelligente/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/couverture-1024x640.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez « Moments Blink »  - Une Nouvelle Façon Captivante de Visionner
-      Vos Clips Vidéo
-    url: https://blog.nord-domotique.com/decouvrez-moments-blink/
+    title: Test du Gardena Sileno Life 1000  - Le Robot Tondeuse Intelligente pour
+      un Jardin Parfait
+    url: https://blog.nord-domotique.com/test-gardena-sileno-life-1000/
     image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Découvrez le casque de vélo Aura  - la nouvelle référence des casques connectés
-      ?
-    url: https://www.abavala.com/decouvrez-le-casque-de-velo-aura-la-nouvelle-reference-des-casques-connectes/
-    image: https://www.abavala.com/wp-content/uploads/Unit_1_aura-150x150.jpg
+    title: SwitchBot Universal Remote - la télécommande Matter de votre Smart Home
+    url: https://www.abavala.com/switchbot-universal-remote-la-telecommande-matter-de-votre-smart-home/
+    image: https://www.abavala.com/wp-content/uploads/switchbot_universal_remote_entete-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -48,17 +47,16 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le Debrief M&D -  tests solutions de stockage d’énergie Anker Solarbank
-      2 Pro et Zendure Hyper 2000, lancement du Zendure ACE 1500, roadmap Home Assistant
-      2024, etc.
-    url: https://www.maison-et-domotique.com/147809-debrief-md-semaine-25-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Lutter contre les moustiques  - comprendre les risques et trouver des solutions
+      efficaces !
+    url: https://www.maison-et-domotique.com/147911-lutter-contre-les-moustiques-solutions-efficaces/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/06/dalle-2024-06-27-18-01-20-702x401.webp
 Matter:
   en_GB:
   - name: Matter
-    title: DSR Corporation’s ZBOSS Zigbee® software stack is selected by Texas Instruments
-      for the newest family of SimpleLink™ wireless MCUs
-    url: https://www.prweb.com/releases/dsr-corporations-zboss-zigbee-software-stack-is-selected-by-texas-instruments-for-the-newest-family-of-simplelink-wireless-mcus-302176629.html?utm_source=LinkedIn&utm_campaign=smart_gateway&utm_medium=social_pilot
+    title: You’ll need a new smart lock if you want Apple Home to ‘magically’ unlock
+      your door
+    url: https://www.theverge.com/2024/6/19/24180813/apple-home-hands-free-unlock-smart-lock-uwb-wwdc-2024
     image: 
 Kincony:
   en_GB:
