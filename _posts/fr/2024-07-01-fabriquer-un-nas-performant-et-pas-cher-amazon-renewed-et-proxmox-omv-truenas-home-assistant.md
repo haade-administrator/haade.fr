@@ -81,7 +81,7 @@ rm /etc/apt/sources.list.d/pve-enterprise.list
 
 {% highlight shell %}
 echo '# Proxmox community package repository' >> /etc/apt/sources.list
-echo 'deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription' >> /etc/apt/sources.list
+echo 'deb http://download.proxmox.com/debian/pve bookkworm pve-no-subscription' >> /etc/apt/sources.list
 {% endhighlight %}
 
 
