@@ -16,15 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Le Xbox Game Pass débarque sur Amazon Fire TV
-    url: https://www.lesalexiens.fr/actualites/le-xbox-game-pass-debarque-sur-amazon-fire-tv/#utm_source=rss&utm_medium=rss&utm_campaign=le-xbox-game-pass-debarque-sur-amazon-fire-tv
+    title: Yale et Ajax Systems s’allient pour mieux sécuriser nos maisons connectées
+    url: https://www.lesalexiens.fr/actualites/yale-et-ajax-systems-sallient-pour-mieux-securiser-nos-maisons-connectees/#utm_source=rss&utm_medium=rss&utm_campaign=yale-et-ajax-systems-sallient-pour-mieux-securiser-nos-maisons-connectees
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Shelly Wave 1PM  - Le module Z-Wave idéal pour votre maison intelligente
-    url: https://blog.domadoo.fr/106710-shelly-wave-1pm-le-module-z-wave-ideal-pour-votre-maison-intelligente/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/couverture-1024x640.jpg
+    title: Découverte du capteur de présence connecté Zigbee Moes ZSS-LP-HP02-MS
+    url: https://blog.domadoo.fr/103914-configurer-capteur-de-presence-connnecte/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/moes-presence-sensor-ZSS-LP-HP02-MS-une-1024x640.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -47,15 +47,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Yale et Ajax Systems  - un partenariat qui s’étend à 30 nouveaux pays !
-    url: https://www.maison-et-domotique.com/147949-yale-ajax-systems-partenariat/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/titre-yale-ajax-702x367.png
+    title: Home Assistant Chapitre 7 - Boostez votre assistant vocal !
+    url: https://www.maison-et-domotique.com/147955-home-assistant-chapitre-7-assistant-vocal/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/voice-chapter-7-supercharged-wak-702x395.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: You’ll need a new smart lock if you want Apple Home to ‘magically’ unlock
-      your door
-    url: https://www.theverge.com/2024/6/19/24180813/apple-home-hands-free-unlock-smart-lock-uwb-wwdc-2024
+    title: Advancing Smart Home Technologies, Security and Matter
+    url: https://www.kudelski-iot.com/insights/advancing-smart-home-technologies-security-and-matter?utm_campaign=Kudelski-IoT&utm_content=292245124&utm_medium=social&utm_source=linkedin&hss_channel=lcp-35540034
     image: 
 Kincony:
   en_GB:
