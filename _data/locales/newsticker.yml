@@ -5,19 +5,19 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Voice Chapter 7 - Supercharged wake words and timers
-    url: https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7/
-    image: http://www.home-assistant.io/images/blog/2024-06-voice-chapter-7/mWW-v1-vs-v2.png
+    title: 2024.7 - Time to resize your cards!
+    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
+    image: http://www.home-assistant.io/images/blog/2024-07/social.png
   en_GB:
   - name: Home-Assistant
-    title: Voice Chapter 7 - Supercharged wake words and timers
-    url: https://www.home-assistant.io/blog/2024/06/26/voice-chapter-7/
-    image: http://www.home-assistant.io/images/blog/2024-06-voice-chapter-7/mWW-v1-vs-v2.png
+    title: 2024.7 - Time to resize your cards!
+    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
+    image: http://www.home-assistant.io/images/blog/2024-07/social.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Yale et Ajax Systems s’allient pour mieux sécuriser nos maisons connectées
-    url: https://www.lesalexiens.fr/actualites/yale-et-ajax-systems-sallient-pour-mieux-securiser-nos-maisons-connectees/#utm_source=rss&utm_medium=rss&utm_campaign=yale-et-ajax-systems-sallient-pour-mieux-securiser-nos-maisons-connectees
+    title: Echo Dot  - de nombreux utilisateurs d’Alexa rencontrent des problèmes
+    url: https://www.lesalexiens.fr/actualites/echo-dot-de-nombreux-utilisateurs-dalexa-rencontrent-des-problemes/#utm_source=rss&utm_medium=rss&utm_campaign=echo-dot-de-nombreux-utilisateurs-dalexa-rencontrent-des-problemes
     image: 
 Blog-Domadoo:
   fr_FR:

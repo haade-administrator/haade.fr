@@ -1,19 +1,19 @@
 ---
 guid: 132
-title: "Fabriquer un NAS multi-service avec Proxmox"
-description: "Petit tutos comment fabriquer un NAS pas cher multi-disques d'occasion grâce à Amazon renewed et installer un serveur VM proxmox pour OMV ou TrueNAS avec HomeAssistantOS et Frigate NVR"
+title: "NAS performant et pas cher multi-services Proxmox"
+description: "Petit tutos comment fabriquer un NAS pas cher multi-disques d'occasion grâce à Amazon renewed et installer un serveur VM proxmox pour OMV ou TrueNAS avec HomeAssistant OS et Frigate NVR"
 ref: ""
 layout: post
 authors: [Nico]
-date: 2024-07-01 12:05
+date: 2024-07-03 21:20
 last_modified_at: 
-categories: [Haade-lab, News]
+categories: [Haade-lab, News, Home-Assistant, Securite]
 tags: []
 video: 
 image: 'monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -217,11 +217,19 @@ Afin de se rendre compte de la charge du serveur et la gestion de la RAM je te m
 
 ### OMV-Frigate-HomeAssistant
 
+{% picture posts/{{ page.guid }}/stat-perf-omv-frigate-haos.png --alt Statistique performance omv, frigate, homeassistant OS installé dans proxmox --img width="940" height="471" %}
+
 ### TrueNas-Frigate-HomeAssistant
+
+{% picture posts/{{ page.guid }}/stat-perf-truenas-frigate-haos.png --alt Statistique performance truenas, frigate, homeassistant OS installé dans proxmox --img width="940" height="471" %}
 
 ### OMV-HomeAssistant
 
+{% picture posts/{{ page.guid }}/stat-perf-omv-haos.png --alt Statistique performance OMV et homeassistant OS installé dans proxmox --img width="940" height="471" %}
+
 ### Frigate-HomeAssistant
+
+{% picture posts/{{ page.guid }}/stat-perf-frigate-haos.png --alt Statistique performance frigate NVR et homeassistant OS installé dans proxmox --img width="940" height="454" %}
 
 ## Conclusion
 
