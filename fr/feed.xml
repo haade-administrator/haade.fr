@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Jul 2024 14:07:12 +0200</pubDate>
-    <lastBuildDate>Sun, 23 Jun 2024 11:00:00 +0200</lastBuildDate>
+    <pubDate>Wed, 03 Jul 2024 21:57:04 +0200</pubDate>
+    <lastBuildDate>Wed, 03 Jul 2024 21:20:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>NAS performant et pas cher multi-services Proxmox</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Petit tutos comment fabriquer un NAS pas cher multi-disques d&apos;occasion grâce à Amazon renewed et installer un serveur VM proxmox pour OMV ou TrueNAS avec HomeAssistant OS et Frigate NVR</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png" alt="NAS performant et pas cher multi-services Proxmox">
+</picture>
+
+      <p>Tu trouveras sur internet plusieurs façons des NAS à base de mini-pc performant mais pour une performance équivalente à de l’intel i5 ou i7 les prix peuvent vite s’envoler. Ce type de tutos n’est pas le premier sur la toile mais je vais te proposer une façon simple de faire [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant">NAS performant et pas cher multi-services Proxmox</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 03 Jul 2024 21:20:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Securite]]></category>
+    </item>
     <item>
       <title>Test de l&apos;adapteur USB multi protocoles Z-Station Z-wave&gt;me</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +247,6 @@
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Changer le résultat d&apos;un attribut d&apos;état d&apos;une entité</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Dans ce mini tutos je vais te montrer comment changer le résultat attribut d&apos;état d&apos;entité par un autre grâce aux templates dans Home-Assistant</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/122/home-assistant-template-changer-resultat-d-une-commande-attributs-entite-par-une-autre-mini-tutos-haade-lab-720-0f04a1d1c.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/122/home-assistant-template-changer-resultat-d-une-commande-attributs-entite-par-une-autre-mini-tutos-haade-lab-720-0f04a1d1c.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/122/home-assistant-template-changer-resultat-d-une-commande-attributs-entite-par-une-autre-mini-tutos-haade-lab-720-0f04a1d1c.png" alt="Changer le résultat d'un attribut d'état d'une entité">
-</picture>
-
-      <p>Dans l’article précédent je t’avais montré comment créer une moyenne d’états sur entités, en faisant un appel sur un état d’entité states() qui relève directement l’état de cette entité.
-Aujourd’hui c’est différent, je vais te montrer comment travailler avec les attributs des états des entités.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/changer-le-resultat-d-une-commande-d-attribut-d-etat-d-entite-par-une-autre-dans-home-assistant-avec-les-templates">Changer le résultat d'un attribut d'état d'une entité</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 29 Apr 2024 23:45:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/changer-le-resultat-d-une-commande-d-attribut-d-etat-d-entite-par-une-autre-dans-home-assistant-avec-les-templates</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/changer-le-resultat-d-une-commande-d-attribut-d-etat-d-entite-par-une-autre-dans-home-assistant-avec-les-templates</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Mini-tutos]]></category>
     </item>
   </channel>
 </rss>
