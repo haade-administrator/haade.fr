@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-06-23T11:00:00+02:00</news:publication_date>
-          <news:title>Test de l'adapteur USB multi protocoles Z-Station Z-wave>me</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
