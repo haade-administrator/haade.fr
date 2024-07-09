@@ -63,11 +63,35 @@ Mais voilà c'est du passé les modules z-wave 800 sont désormais au tarif des 
 
 {%- include alert.html type="warning" text="Attention le Long Range n'est pas disponible pour l'Europe car impossible à mettre en place sur la fréquence 868Mhz" link="https://z-wavealliance.org/what-is-z-wave-long-range-how-does-it-differ-from-z-wave/#:~:text=At%20this%20time%2C%20Z%2DWave,APAC%20regions%20in%20the%20future." textlink="Z-wave Long Range indisponible en france" %}
 
+## Sécurité S2 et z-wave 800 LR
+
+L'appareil prend en charge la dernière fonctionnalité Security 2 (S2). S2 est géré par le protocole de cryptage Strong AES 128, ce qui signifie que S2 fait de Z-Wave® la plate-forme de sécurité IoT (Internet des objets) la plus sécurisée du marché. Pour utiliser pleinement le produit et sa fonctionnalité Security 2, une passerelle Z-Wave® compatible Security 2 doit être utilisée.
+
+Contrôle authentifié
+
+DSK hors bande pour inclusion
+
+Peut être utilisé par la plupart des implémentations
+
+L'appareil prend également en charge les inclusions authentifiées, non authentifiées et non sécurisées de Security 2. 
+
+## Long Range valable ou non
+
 Conçu pour offrir une portée sans fil considérablement étendue et prendre en charge des réseaux robustes, Z-Wave LR étend la connectivité Z-Wave au-delà des limites de la maison et accélère l'adoption de Z-Wave dans d'autres secteurs verticaux tels que le commerce léger, l'hôtellerie et les unités multi-résidentielles (MDU). Z-Wave Long Range est un ajout supplémentaire de modulation DSSS OQPSK 100 kbps au protocole Z-Wave. La modulation est traitée comme un quatrième canal, ce qui permet aux passerelles d'ajouter des nœuds LR à l'analyse des canaux Z-Wave existants. **À l'heure actuelle, Z-Wave LR n'est disponible que pour le marché américain.** Cependant, le groupe de travail technique **évalue et teste la conformité** pour **garantir la prise en charge des régions Europe** et APAC à l'avenir.
 
 > Avec un peu de chance et une conformité en notre faveur permettra à la z-wave alliance de développer le long range dans nos contrées.
 
 Développée et gérée par les nouveaux groupes de travail techniques et de certification de la Z-Wave Alliance, la spécification mise à jour a été conçue pour inaugurer une nouvelle ère de connectivité Z-Wave tout en adhérant aux valeurs fondamentales de la technologie Z-Wave telles que la rétrocompatibilité et l'interopérabilité. La spécification mise à jour promeut un certain nombre d'avantages techniques clés qui se résument le mieux à une portée et une couverture accrues, une évolutivité accrue, une durée de vie de la batterie optimisée et l'interopérabilité. <cite>Z-wave Alliance</cite>
+
+## Le maillage en toile d'araignée disparait
+
+Ce qui a fait la force du z-vave 400 à 700 ainsi que du protocole zigbee 3.0 disparait sur le protocole Z-wave 800, il s'agit du maillage du réseau qui permet de relayer les ondes entre les modules routeurs et accroitre la distance d'émissions des ondes du réseau. Dans le principe c'est top car ça permet de renforcer simplement son réseau mais l'inconvénient c'est que ça rallonge le temps de latence entre l'émission et la réception.
+
+Z-wave 800 LR est rétrocompatible avec le maillage en réseau ( concerne les modules plus anciens ) mais il ne l'est pas avec les modules de la série 800, là il fonctionnera en étoile identique au maillage wifi, en gros tous les modules 800 se connectent directement sur le coordinateur z-wave. Heureusement les puces ZG23 présentent une transmission TX de +20dbm ce qui permet d'acroitre la distance même si le Long Range n'est pas actif.
+
+> J'ai testé la transmission en milieu clos en espaçant au maximum les modules du dongle et je n'ai rencontré aucun soucis de connection et de latence de transmissions, un bon point.
+
+
 
 ## Group et associations
 
