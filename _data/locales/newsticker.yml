@@ -1,0 +1,65 @@
+docs_list_title:
+  fr_FR: Dernières Nouvelles
+  en_GB: Breaking News
+
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: 2024.7 - Time to resize your cards!
+    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
+    image: http://www.home-assistant.io/images/blog/2024-07/social.png
+  en_GB:
+  - name: Home-Assistant
+    title: 2024.7 - Time to resize your cards!
+    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
+    image: http://www.home-assistant.io/images/blog/2024-07/social.png
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Amazon ressuscite Echo Spot avec un nouveau modèle 2024
+    url: https://www.lesalexiens.fr/actualites/amazon-ressuscite-echo-spot-avec-un-nouveau-modele-2024/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-ressuscite-echo-spot-avec-un-nouveau-modele-2024
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: LG Electronics fait l’acquisition de Athom, la société derrière la box
+      domotique Homey
+    url: https://blog.domadoo.fr/107195-lg-electronics-acquisition-athom-homey/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/Athom-joins-LG-electronics-1024x639.png
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Test du Nouveau Casque Sonos Ace  - Une Expérience Audio Révolutionnaire
+    url: https://blog.nord-domotique.com/test-nouveau-casque-sonos-ace/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: La Smart Home Homey rejoint le géant coréen LG
+    url: https://www.abavala.com/la-smart-home-homey-rejoint-le-geant-coreen-lg/
+    image: https://www.abavala.com/wp-content/uploads/LG-Homey-Athom-2024-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Test du Geekom AE7  - un Mini PC qui a tout d’un grand !
+    url: https://www.maison-et-domotique.com/148076-test-geekom-ae7-mini-pc/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-geekom-ae7-5-667x500.jpg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Q&A - SmartThings and AiDot on How Matter Creates a More Seamless Smart
+      Home
+    url: https://blog.smartthings.com/matter/qa-smartthings-and-aidot-on-how-matter-creates-a-more-seamless-smart-home/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: KinCony AG8 ESP32-S3 Smart IR Controller released
+    url: https://www.kincony.com/kincony-ag8-esp32-s3-smart-ir-controller-released.html
+    image:
