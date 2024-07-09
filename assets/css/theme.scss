@@ -232,6 +232,13 @@ blockquote {
   }
 }
 
+cite {
+  font-weight: bold;
+  font-style: italic;
+  border-left: 1px solid $dark;
+  padding-left: 5px;
+}
+
 // animation
 .nav-icon,
 .hamburger-bar,
