@@ -75,6 +75,13 @@ Peut être utilisé par la plupart des implémentations
 
 L'appareil prend également en charge les inclusions authentifiées, non authentifiées et non sécurisées de Security 2. 
 
+Clés de sécurité : clés réseau Z-Wave pour une inclusion sécurisée S0/S2. Vous pouvez les saisir manuellement ou les générer automatiquement en utilisant le bouton du générateur aléatoire ou en collant vos clés OZW dans l'entrée, elles seront automatiquement converties au format correct. Exemple de clé valide : 5C14897467C42598518AF155DE6CCEA8 (la longueur est de 32).
+
+S0_Legacy : clé S0 héritée
+S2 non authentifié : comme S2 authentifié, mais sans vérification que le bon appareil est inclus (ignorer l'étape de vérification DSK)
+Authentifié S2 : systèmes de sécurité, capteurs, éclairage, etc.
+S2 AccessControl (le plus élevé) : utilisé pour les serrures de porte, les portes de garage, etc.
+
 ## Long Range valable ou non
 
 Conçu pour offrir une portée sans fil considérablement étendue et prendre en charge des réseaux robustes, Z-Wave LR étend la connectivité Z-Wave au-delà des limites de la maison et accélère l'adoption de Z-Wave dans d'autres secteurs verticaux tels que le commerce léger, l'hôtellerie et les unités multi-résidentielles (MDU). Z-Wave Long Range est un ajout supplémentaire de modulation DSSS OQPSK 100 kbps au protocole Z-Wave. La modulation est traitée comme un quatrième canal, ce qui permet aux passerelles d'ajouter des nœuds LR à l'analyse des canaux Z-Wave existants. **À l'heure actuelle, Z-Wave LR n'est disponible que pour le marché américain.** Cependant, le groupe de travail technique **évalue et teste la conformité** pour **garantir la prise en charge des régions Europe** et APAC à l'avenir.
