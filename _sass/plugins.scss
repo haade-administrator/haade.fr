@@ -2493,6 +2493,7 @@ nav .navbar .links li {
 .alert-warning {
   background-color: #fff8f5;
   border-color: #ffccb3;
+  border-radius: 0 15px 15px 0;
 
   .alert-text {
     h4 {
@@ -2508,12 +2509,14 @@ nav .navbar .links li {
 
   .alert-icon {
     background-color: $alert-warning;
+    border-radius: 15px 0 0 15px;
   }
 }
 
 .alert-help {
   background-color: #fffcf5;
   border-color: #ffe4ad;
+  border-radius: 0 15px 15px 0;
 
   .alert-text {
     h4 {
@@ -2529,12 +2532,14 @@ nav .navbar .links li {
 
   .alert-icon {
     background-color: $alert-help;
+    border-radius: 15px 0 0 15px;
   }
 }
 
 .alert-info {
   background-color: #f7fbff;
   border-color: #cee5ff;
+  border-radius: 0 15px 15px 0;
 
   .alert-text {
     h4 {
@@ -2550,12 +2555,14 @@ nav .navbar .links li {
 
   .alert-icon {
     background-color: $alert-info;
+    border-radius: 15px 0 0 15px;
   }
 }
 
 .alert-danger {
   background-color: #fdf5f5;
   border-color: #f6d3d3;
+  border-radius: 0 15px 15px 0;
 
   .alert-text {
     h4 {
@@ -2571,12 +2578,14 @@ nav .navbar .links li {
 
   .alert-icon {
     background-color: $alert-error;
+    border-radius: 15px 0 0 15px;
   }
 }
 
 .alert-success {
   background-color: #edf8ed;
   border-color: #b9e4b9;
+  border-radius: 0 15px 15px 0;
 
   .alert-text {
     h4 {
@@ -2592,6 +2601,7 @@ nav .navbar .links li {
 
   .alert-icon {
     background-color: $alert-success;
+    border-radius: 15px 0 0 15px;
   }
 }
 
