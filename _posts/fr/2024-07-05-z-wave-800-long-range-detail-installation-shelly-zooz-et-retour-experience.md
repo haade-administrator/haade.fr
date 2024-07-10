@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Domotique, Protocoles, Z-wave]
 tags: []
 video: 
-image: 'picture.png'
+image: 'les-forces-du-z-wave-800-lr-et-exemples-assiciations-group.png'
 toc: true
 beforetoc: ''
 published: false
@@ -92,6 +92,9 @@ Développée et gérée par les nouveaux groupes de travail techniques et de cer
 
 ## Le maillage en toile d'araignée disparait
 
+reseau-maile-etoile-z-wave-800-lr.png
+{% picture posts/{{ page.guid }}/reseau-maile-etoile-z-wave-800-lr.png --alt option schéma réseau maillé ou étoilé constituant le z-wave LR 800 et autres --img width="940" height="816" %}
+
 Ce qui a fait la force du z-vave 400 à 700 ainsi que du protocole zigbee 3.0 disparait sur le protocole Z-wave 800, il s'agit du maillage du réseau qui permet de relayer les ondes entre les modules routeurs et accroitre la distance d'émissions des ondes du réseau. Dans le principe c'est top car ça permet de renforcer simplement son réseau mais l'inconvénient c'est que ça rallonge le temps de latence entre l'émission et la réception.
 
 Z-wave 800 LR est rétrocompatible avec le maillage en réseau ( concerne les modules plus anciens ) mais il ne l'est pas avec les modules de la série 800, là il fonctionnera en étoile identique au maillage wifi, en gros tous les modules 800 se connectent directement sur le coordinateur z-wave. Heureusement les puces ZG23 présentent une transmission TX de +20dbm ce qui permet d'acroitre la distance même si le Long Range n'est pas actif.
@@ -106,9 +109,9 @@ Déjà cité dans un précédent article ce qui fait la force du z-wave et qui �
 
 ### j'ai testé les associations de modules
 
-{%- include alert.html type="info" text="À savoir: tous modules peuvent être associés entre eux s'ils sont sur le même niveau de sécurisation. Un module de sécurité S2 ne peut pas être lié avec un module sans sécurité ou de sécurité S0" %}
+{%- include alert.html type="warning" text="<b>À savoir:</b> tous les modules peuvent être associés entre eux <b>s'ils sont sur le même niveau de sécurisation</b>. Un module de sécurité S2 ne peut pas être lié avec un module sans sécurité ou de sécurité S0" %}
 
-{%- include alert.html type="info" text="Les actions d'associations de modules exemple: on/off, ne fonctionne pas par une commande radio mais par un bouton physique situé sur l'appareil" link="https://blog.domadoo.fr/guides/groupes-dassociation-z-wave/" textlink="Explication des groupes et associations sur le site Domadoo" %}
+{%- include alert.html type="warning" text="Les actions d'associations de modules exemple: on/off, <b>ne fonctionnent pas par une commande radio mais par un bouton physique</b> situé sur l'appareil comme un interrupteur par exemple" link="https://blog.domadoo.fr/guides/groupes-dassociation-z-wave/" textlink="Explication des groupes et associations sur le site Domadoo" %}
 
 > Pour lier deux modules entre eux il faut vérifier qu'ils possèdent bien les mêmes commandes dans un groupe similaire. Sinon on ferait n'importe quoi.
 

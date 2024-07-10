@@ -16,21 +16,21 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon ressuscite Echo Spot avec un nouveau modèle 2024
-    url: https://www.lesalexiens.fr/actualites/amazon-ressuscite-echo-spot-avec-un-nouveau-modele-2024/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-ressuscite-echo-spot-avec-un-nouveau-modele-2024
+    title: Test Garmin Approach R10  - enfin un radar que vous allez aimer !
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-garmin-approach-r10-radar-golf/#utm_source=rss&utm_medium=rss&utm_campaign=test-garmin-approach-r10-radar-golf
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: LG Electronics fait l’acquisition de Athom, la société derrière la box
-      domotique Homey
-    url: https://blog.domadoo.fr/107195-lg-electronics-acquisition-athom-homey/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/Athom-joins-LG-electronics-1024x639.png
+    title: Découverte de l’excellente Box Homey Pro pour piloter un Store banne Somfy
+    url: https://blog.domadoo.fr/107153-homey-pro-store-banne-somfy/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/HomeyPro_RTS-1024x516.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Nouveau Casque Sonos Ace  - Une Expérience Audio Révolutionnaire
-    url: https://blog.nord-domotique.com/test-nouveau-casque-sonos-ace/
+    title: Amazon Révolutionne Votre Réveil avec le Nouvel Echo Spot à l’Occasion
+      de Prime Day
+    url: https://blog.nord-domotique.com/decouvrez-nouvel-echo-spot/
     image: 
 Abavala:
   fr_FR:
@@ -47,9 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Geekom AE7  - un Mini PC qui a tout d’un grand !
-    url: https://www.maison-et-domotique.com/148076-test-geekom-ae7-mini-pc/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-geekom-ae7-5-667x500.jpg
+    title: Amazon Prime Day 2024  - Les dates révélées !
+    url: https://www.maison-et-domotique.com/147968-amazon-prime-day-2024-dates/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/amazon-prime-day-2024-702x439.webp
 Matter:
   en_GB:
   - name: Matter
