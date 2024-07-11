@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/z-wave-800-long-range-detail-installation-shelly-zooz-et-retour-experience</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-07-11T23:30:00+02:00</news:publication_date>
+          <news:title>Z-wave 800 Long range les dessous du z-wave</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant</loc>
         <news:news>
           <news:publication>

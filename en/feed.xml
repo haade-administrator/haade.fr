@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Jul 2024 16:20:45 +0200</pubDate>
-    <lastBuildDate>Wed, 03 Jul 2024 21:20:00 +0200</lastBuildDate>
+    <pubDate>Fri, 12 Jul 2024 01:18:06 +0200</pubDate>
+    <lastBuildDate>Thu, 11 Jul 2024 23:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Z-wave 800 Long stores the bottom of the z-wave</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>I will detail the latest z-wave 800 protocol and take stock of this protocol and the association modes, with the latest shelly modules for testing on a Zooz ZST39 controller.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png" alt="Z-wave 800 Long stores the bottom of the z-wave">
+</picture>
+
+      <p>This is another article that is close to my heart, the Z-wave protocol is coming back to the forefront. Silabs has decided to change things, module prices are finally accessible, manufacturers are starting to produce modules integrating the latest protocol again.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience">Z-wave 800 Long stores the bottom of the z-wave</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 11 Jul 2024 23:30:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Protocoles]]></category>
+      <category><![CDATA[Z-wave]]></category>
+    </item>
     <item>
       <title>High-performance and inexpensive multi-service NAS and Proxmox</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,30 +247,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Automations]]></category>
       <category><![CDATA[Wifi]]></category>
-    </item>
-    <item>
-      <title>Sonoff zbmini-l2 test taken to the extreme</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the Sonoff Zbmini-L2 like you&apos;ve never seen it, guaranteed 100,000 clicks, that&apos;s what we&apos;re going to see</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/124/test-micro-module-sonoff-zbmini-l2-pousse-a-l-extreme-720-ed9a96aea.png" alt="Sonoff zbmini-l2 test taken to the extreme">
-</picture>
-
-      <p>Here’s a video where you might have a laugh, with the band August and Lulu we all 3 decided to test the Sonoff Zbmini-L2 in a most extreme way by pushing it back to its limits.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme">Sonoff zbmini-l2 test taken to the extreme</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 03 May 2024 02:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-sonoff-zbmini-l2-pushes-to-the-extreme</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
