@@ -110,7 +110,7 @@ by default once connected to your network via rj45 connect to the interface:
 - [SLZB-06M](http://slzb-06m.lan){: target="_blank"}
 - [SLZB-06p7](http://slzb-06p7.lan){: target="_blank"} (as I write these lines various bugs are listed on the [slzb-06P7 series](https://smlight.tech/product/slzb-06p7/){: target="_blank"})
 
-![interface configuration coordinator smlight slzb06 series firmware 2.0.18]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-configuration-smlight-slzb-06.webp{{ cachebuster }}){: width="940" height="467" class="lazyload"}
+![interface configuration coordinator smlight slzb06 series firmware 2.0.18]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-configuration-smlight-slzb-06.webp{{ cachebuster }}){: width="940" height="467" class="lazyload pictaninpost"}
 
 **You can access all the functions with a single click** and SMLight even allows you to send bug reports or contact requests via this interface, in short, pure joy.
 
@@ -118,7 +118,7 @@ by default once connected to your network via rj45 connect to the interface:
 
 ### Opensource Management Interface V0.9.9
 
-![opensource interface smlight firmware 0.9.9]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-smlight-slzb-v-opensource-0.9.9.webp{{ cachebuster }}){: width="940" height="465" class="lazyload"}
+![opensource interface smlight firmware 0.9.9]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/interface-smlight-slzb-v-opensource-0.9.9.webp{{ cachebuster }}){: width="940" height="465" class="lazyload pictaninpost"}
 
 ### Compatibility {{ page.ref }}
 

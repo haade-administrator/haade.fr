@@ -55,7 +55,7 @@ Les interrupteurs sont biens **reconnus dans Zigbee2mqtt**, avec comme construct
 - la qualité du lien
 - l'état on/off
 
-![intégration des interrupteur moes star ring dans zigbee2mqtt]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/interrupteur-moes-smart-ring-zigbee2mqtt-integration.webp{{ cachebuster }}){: width="940" height="603" class="lazyload"}
+![intégration des interrupteur moes star ring dans zigbee2mqtt]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/interrupteur-moes-smart-ring-zigbee2mqtt-integration.webp{{ cachebuster }}){: width="940" height="603" class="lazyload pictaninpost"}
 
 La commande d'allumage fonctionne très bien, le ressentis au touché est extra, petit plus l'interrupteur à deux contacteurs haut et bas pour chaque boutons poussoirs. En ce qui concerne le rétroéclairage c'est une réussite, un disque blanc ni trop fort ni trop faible, et comme le dit Moes ça reflète effet ciel étoilé, que dire de plus à part mettre 10/10.
 

@@ -167,11 +167,11 @@ I made a video integrating the zigbee key into zha with an integration fault. To
 
 > If you upgrade with the [latest firmware](https://github.com/Koenkk/Z-Stack-firmware/raw/master/coordinator/Z-Stack_3.x.0/bin/CC1352P2_CC2652P_launchpad_coordinator_20230507.zip){: target ="_blank"} discovery in ZHA will be done without needing to click on the fw switch.
 
-![Connection and operation method of zbbridge-pro cc2652 zigbee key in ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384" class="lazyload"}
+![Connection and operation method of zbbridge-pro cc2652 zigbee key in ZHA]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-zha-zigbee-esphome-zbbridge-pro.webp{{ cachebuster }}){: width="720" height="384" class="lazyload pictaninpost"}
 
 Below is the light operation after activating the switch. **The green light lets you know when to integrate** or update the firmware:
 
-![How the zigbee firmware switch works in esphome]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-firmware-update-esphome-sonoff-zbbridge-pro.webp{{ cachebuster }}){: width="400" height="275" class="lazyload"}
+![How the zigbee firmware switch works in esphome]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/zigbee-firmware-update-esphome-sonoff-zbbridge-pro.webp{{ cachebuster }}){: width="400" height="275" class="lazyload pictaninpost"}
 
 ## zigbee2mqtt configuration
 The configuration in Z2M is slightly different because you will make a call by TCP and not by socket

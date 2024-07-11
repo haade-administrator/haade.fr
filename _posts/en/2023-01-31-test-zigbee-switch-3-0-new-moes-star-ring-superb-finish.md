@@ -55,7 +55,7 @@ The switches are well **recognized in Zigbee2mqtt**, with Tuya as constructor an
 - the quality of the link
 - the on/off state
 
-![integration of moes star ring switches in zigbee2mqtt]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/interrupteur-moes-smart-ring-zigbee2mqtt-integration.webp{{ cachebuster }}){: width="940" height="603" class="lazyload"}
+![integration of moes star ring switches in zigbee2mqtt]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/interrupteur-moes-smart-ring-zigbee2mqtt-integration.webp{{ cachebuster }}){: width="940" height="603" class="lazyload pictaninpost"}
 
 The ignition control works very well, the feel to the touch is extra, plus the switch with two up and down contactors for each push button. As far as the backlighting is concerned, it's a success, a white disc that's neither too strong nor too weak, and as Moes says it reflects a starry sky effect, what more can I say except give it 10/10.
 

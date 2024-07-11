@@ -102,7 +102,7 @@ By default, **Proxmox update repositories include business repositories** subjec
 
 Go to the **Proxmox > Updates > Deposits** tab to change the deposits, then go to update, click on refresh and update.
 
-![Removal of Proxmox company deposits and addition of a No-Subscription deposit]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mise-a-jour-des-depots-proxmox-et-desactiver-depots-entreprises.webp{{ cachebuster }}){: width="940" height="472" class="lazyload"}
+![Removal of Proxmox company deposits and addition of a No-Subscription deposit]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mise-a-jour-des-depots-proxmox-et-desactiver-depots-entreprises.webp{{ cachebuster }}){: width="940" height="472" class="lazyload pictaninpost"}
 
 {%- include alert.html type="info" text="Proxmox does not recommend using the no-subscription repository in a production environment, as it is less followed than the normal enterprise repository" %}
 
@@ -152,7 +152,7 @@ Installing omv is **ultra simplified** thanks to the **tteck** script. Go to the
 
 **General rule 8GB of sodimm DDR4 memory at 2133Mhz** is enough to run these 1 virtual machine, and two LXC containers. The most demanding remains Frigate, however if you decide to have a system that does not confine itself within its limits or if you decide to set up a **RAID system in ZFS** you will need more memories, I therefore advise you to use some add/replace depending on the PC chosen.
 
-![1-click installation of openmediavault in an LXC container under Proxmox]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-openmediavault-proxmox-container.webp{{ cachebuster }}){: width="940" height="472" class="lazyload"}
+![1-click installation of openmediavault in an LXC container under Proxmox]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-openmediavault-proxmox-container.webp{{ cachebuster }}){: width="940" height="472" class="lazyload pictaninpost"}
 
 **Look at the characteristics of your PC in my case they are DDR4 2666Mhz SODIMMs:**
 
@@ -162,7 +162,7 @@ Installing omv is **ultra simplified** thanks to the **tteck** script. Go to the
 
 Unlike OMV, the installation of **Truenas is not automated** in Proxmox you will need to create a Virtual Machine from the **.iso** image of Truenas Scale.
 
-![3-click installation of Truenas on Proxmox VE using the official installation image]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-truenas-proxmox-nas-pas-cher.webp{{ cachebuster }}){: width="940" height="470" class="lazyload"}
+![3-click installation of Truenas on Proxmox VE using the official installation image]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-truenas-proxmox-nas-pas-cher.webp{{ cachebuster }}){: width="940" height="470" class="lazyload pictaninpost"}
 
 Also **Truenas Scale is installed in a VM** which is much more demanding than a container, plus the disk management system is only possible in ZFS RAID, so it will absolutely be necessary to increase the size of the memory and switch to **at least 16GB** but I advise you **32GB**.
 
@@ -181,7 +181,7 @@ As with OMV or Frigate, installing Homeassistant OS is just as simple thanks to 
 
 [Automated HAOS shell installer script for Proxmox VE](https://tteck.github.io/Proxmox/#home-assistant){: target="_blank"}
 
-![1-click installation of Home Assistant OS as a virtual machine on Proxmox VE using the script]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-homeassistant-os-proxmox-lxc.webp{{ cachebuster }}){: width="940" height="472" class="lazyload"}
+![1-click installation of Home Assistant OS as a virtual machine on Proxmox VE using the script]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-homeassistant-os-proxmox-lxc.webp{{ cachebuster }}){: width="940" height="472" class="lazyload pictaninpost"}
 
 ### Frigate NVR
 

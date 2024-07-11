@@ -342,7 +342,7 @@ Below I made an **Animated Gif** of how unlocking works and all without going th
 
 Because you can choose between unlocking the handle **or** unlocking with action on the latch, **unlike the Tedee app** or you must select a latch option beforehand before you can use it.
 
-![How the tedee go connected lock works in home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctionnement-home-assistant.webp{{ cachebuster }}){: width="597" height="679" class="lazyload"}
+![How the tedee go connected lock works in home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctionnement-home-assistant.webp{{ cachebuster }}){: width="597" height="679" class="lazyload pictaninpost"}
 
 {% include product-embed.html guid="2193" %}
 

@@ -148,7 +148,7 @@ Une fois ces étapes faites si tout c'est bien passé rendez-vous sur: [**http:/
 
 J'ai réalisé un gif animé des étapes d'installations de la jeedom Luna, je n'ai rencontré aucun soucis particulier j'espère qu'il en seras de même pour toi :)
 
-![Étape d'installation de la Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/etape-installation-box-jeedom-luna.webp{{ cachebuster }}){: width="940" height="474" class="lazyload"}
+![Étape d'installation de la Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/etape-installation-box-jeedom-luna.webp{{ cachebuster }}){: width="940" height="474" class="lazyload pictaninpost"}
 
 ## Plugin Luna dédié
 
@@ -161,7 +161,7 @@ Avec la box Jeedom a réalisé un plugin Luna qui te permet de:
 - contrôler l'état du réseau wifi 
 - connaître la puissance du signal
 
-![Application Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom-luna-app.webp{{ cachebuster }}){: width="242" height="477" class="lazyload"}
+![Application Jeedom Luna]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/jeedom-luna-app.webp{{ cachebuster }}){: width="242" height="477" class="lazyload pictaninpost"}
 
 Après installation du plugin et paramétrage j'ai du redémarrer la Box et ensuite les modifications étaient prises en compte, je ne sais pas si c'est un soucis de la box ou si je suis allé trop vite.
 

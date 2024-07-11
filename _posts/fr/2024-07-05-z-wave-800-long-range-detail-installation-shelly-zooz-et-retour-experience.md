@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Domotique, Protocoles, Z-wave]
 tags: []
 video: 
-image: 'les-forces-du-z-wave-800-lr-et-exemples-assiciations-group.png'
+image: 'les-forces-du-z-wave-800-lr-et-exemples-associations-group.png'
 toc: true
 beforetoc: ''
 published: false
@@ -92,7 +92,6 @@ Développée et gérée par les nouveaux groupes de travail techniques et de cer
 
 ## Le maillage en toile d'araignée disparait
 
-reseau-maile-etoile-z-wave-800-lr.png
 {% picture posts/{{ page.guid }}/reseau-maile-etoile-z-wave-800-lr.png --alt option schéma réseau maillé ou étoilé constituant le z-wave LR 800 et autres --img width="940" height="816" %}
 
 Ce qui a fait la force du z-vave 400 à 700 ainsi que du protocole zigbee 3.0 disparait sur le protocole Z-wave 800, il s'agit du maillage du réseau qui permet de relayer les ondes entre les modules routeurs et accroitre la distance d'émissions des ondes du réseau. Dans le principe c'est top car ça permet de renforcer simplement son réseau mais l'inconvénient c'est que ça rallonge le temps de latence entre l'émission et la réception.
@@ -100,6 +99,18 @@ Ce qui a fait la force du z-vave 400 à 700 ainsi que du protocole zigbee 3.0 di
 Z-wave 800 LR est rétrocompatible avec le maillage en réseau ( concerne les modules plus anciens ) mais il ne l'est pas avec les modules de la série 800, là il fonctionnera en étoile identique au maillage wifi, en gros tous les modules 800 se connectent directement sur le coordinateur z-wave. Heureusement les puces ZG23 présentent une transmission TX de +20dbm ce qui permet d'acroitre la distance même si le Long Range n'est pas actif.
 
 > J'ai testé la transmission en milieu clos en espaçant au maximum les modules du dongle et je n'ai rencontré aucun soucis de connection et de latence de transmissions, un bon point.
+
+### Test portée z-wave
+
+Ci dessous tu trouveras un schéma ou j'ai testé la portée du réseau z-wave en étoile. Deux modules z-wave 800 lr shelly et un module fibaro wallplug z-wave 500 sont sur le réseau. Pour info le test est effectué en milieu clos, les modules shelly 1 PM et fibaro wallplug sont séparés de l'adaptateur Zooz par une dalle béton.
+
+- Le module shelly shutter est à **1 mètre** du coordinateur et à une perte de **-61 dbm**
+- le module fibaro est à **16m** et a une perte de **-88dbm**
+- le module shelly 1 PM est le plus éloigné et isolé a **20m** et a une perte de **-84dbm**
+
+Malgré le maillage en étoile je n'ai rencontré aucuns soucis de connections et de latence à la réaction, tu pourras te rendre compte que grâce à l'antenne externe du shelly 1PM la réception est de meilleur qualité que le Fibaro wall plug.
+
+{% picture posts/{{ page.guid }}/test-portee-z-wave-800-et-500-milieu-clos.png --alt test portée z-wave 800 lr en milieu clos --img width="700" height="400" %}
 
 
 
@@ -121,10 +132,28 @@ Réussir à associer deux modules entre eux n'est pas difficile, encore faut-il 
 
 Tu clic sur un interrupteur branché sur un module te permettras de commander une fonction d'un autre module en direct.
 
-Cas N°1: je possède un module z-wave shelly qubino 1 PM z-wave 800 ( module qui peut se placer derrière un interrupteur physique ) qui a une action On/Off sur le group 2, en paramétrant correctement je peux le faire agir directement par le biais d'un interrupteur physique avec un module prise fibaro z-wave 500 qui possède lui aussi une commande On/Off sur le group. À condition que le module shelly soit inclus sans sécurité S2. Ci dessous le paramétrage dans Z-wave JS UI d'une association créé sur le shelly PM.
+**Cas N°1:** je possède un module z-wave shelly qubino 1 PM z-wave 800 ( module qui peut se placer derrière un interrupteur physique ) qui a une action On/Off sur le group 2, en paramétrant correctement je peux le faire agir directement par le biais d'un interrupteur physique avec un module prise fibaro z-wave 500 qui possède lui aussi une commande On/Off sur le group. À condition que le module shelly soit inclus sans sécurité S2. Ci dessous le paramétrage dans Z-wave JS UI d'une association créé sur le shelly PM.
+
+le gif animé ci dessous représente l'association entre le fibaro wall plug et le shelly wave 1PM sur les groupes on/off
+
+- le groupe 2 et 3 du fibaro s'associera au groupe 2 du shelly
+- tous deux sont paramétrés sans sécurité
+- le group 2 shelly on/off peut s'associer au group 2 fibaro mais pas au group 3
+
+Explication le group 2 et 3 du fibaro sont des groupes on/off, le group 2 représente une action on/off sur le bouton physique du fibaro et le group 3 représente une action on/off quand l'intensité du module détecte un changement ( bref quand tu branches un chargeur par exemple et que le fibaro est allumé, normal ! )
+
+> On a bien un cas ou 2 groupes différents peuvent s'associer entre eux le group 3 du fibaro sur le group 2 du shelly car ce sont tous des group On/Off.
+
+![association de deux modules z-wave 800 et z-wave 500 sans sécurité  group On/Off fonctionnel]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-association-meme-securite-z-wave-800-et-500-group-on-off.webp{{ cachebuster }}){: width="840" height="693" class="lazyload pictaninpost"}
 
 **PS:** tu peux retrouver facilement tous les groupes, associations et points finaux [sur la notice en ligne du module Shelly](https://kb.shelly.cloud/knowledge-base/wave-1){: target="_blank"}.
 
 Si je veux associé l'interrupteur physique situé sur le module fibaro vers la fonction On/Off du shelly il va falloir que je créé une association sur le module fibaro, voir la capture ci-dessous
 
-Cas N°2: Associer deux modules Shelly z-wave 800 un jeu d'enfant.
+**Cas N°2:** Associer deux modules Shelly z-wave 800 un jeu d'enfant.
+
+![Association module shelly z-wave 1 PM et wave Shutter group 2 on/off sur la même norme de sécurité S2 en rootendpoint ou endpoint 1, un jeu d'enfant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/creation-association-shelly-1pm-et-shutter-meme-securite.webp{{ cachebuster }}){: width="840" height="693" class="lazyload pictaninpost"}
+
+**Cas 3:** L'association de deux modules avec une norme de sécurité différente est impossible.
+
+![Impossibilité d'associer deux modules z-wave sur une norme de sécurité différente S2/rien S2/S0]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/impossibilite-association-z-wave-securite-differente.webp{{ cachebuster }}){: width="840" height="693" class="lazyload pictaninpost"}

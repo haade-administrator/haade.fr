@@ -119,7 +119,7 @@ Dernière étape, je vais te montrer comment désactiver le point d'accès wifi 
 
 **Chaque modules Blebox disposent directement d'une interface Web** afin de paramétrer les réglages du module, pour y accéder il te suffit de récupérer **l'adresse ip du module** présentée dans l'appli Smartphone **wBox**. Tu auras accès *à l'ensemble des données et plus encore* et tu pourras ainsi modifier n'importe quel paramètres du module. Génial !
 
-![accès direct au paramétrage wifi sans application des modules Blebox Doorbox v2]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-webui-blebox-doorbox-v2-online.webp{{ cachebuster }}){: width="940" height="517" class="lazyload"}
+![accès direct au paramétrage wifi sans application des modules Blebox Doorbox v2]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-webui-blebox-doorbox-v2-online.webp{{ cachebuster }}){: width="940" height="517" class="lazyload pictaninpost"}
 
 ## Paramétrage dans l'Application Tedee
 

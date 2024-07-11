@@ -83,7 +83,7 @@ Everything is functional, however a shell at the Firmware level is recognized as
 
 > More a whole battery of Parameters and Diagnostics in short than Happiness.
 
-![Parameter Fibaro fgpw-102 homeassistant-zwavejs]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametre-homeassistant-zwavejs-fibaro-fgpw-102.webp{{ cachebuster }}){: width="940" height="870" class="lazyload"}
+![Parameter Fibaro fgpw-102 homeassistant-zwavejs]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametre-homeassistant-zwavejs-fibaro-fgpw-102.webp{{ cachebuster }}){: width="940" height="870" class="lazyload pictaninpost"}
 
 # the module in Jeedom + ZwaveJS
 

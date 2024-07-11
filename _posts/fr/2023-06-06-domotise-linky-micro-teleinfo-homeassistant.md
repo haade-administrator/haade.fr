@@ -210,7 +210,7 @@ L 55mm x l 14mm x P 1mm
 Faut dire que la v3.0 du µtéléinfo illumine, tu ne pourras pas râter le transfert de données.
 > peut-être un peu trop lumineux à mon goût.
 
-![Transmission informations led micro Teleinfo v3.0 sur compteur dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/Micro-Teleinfo-v3-charles-hallard-blink.webp{{ cachebuster }}){: width="420" height="282" class="lazyload"}{: target="_blank"}
+![Transmission informations led micro Teleinfo v3.0 sur compteur dans home assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/Micro-Teleinfo-v3-charles-hallard-blink.webp{{ cachebuster }}){: width="420" height="282" class="lazyload pictaninpost"}{: target="_blank"}
 
 ## Conclusion
 

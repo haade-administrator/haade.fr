@@ -119,7 +119,7 @@ Last step, I will show you how to disable the initial wifi access point named **
 
 **Each Blebox module directly has a Web interface** in order to configure the module's settings, to access them you just need to retrieve **the IP address of the module** presented in the **wBox* Smartphone app *. You will have access *to all the data and more* and you will be able to modify any parameters of the module. Awesome !
 
-![direct access to wifi settings without application of Blebox Doorbox v2 modules]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-webui-blebox-doorbox-v2-online.webp{{ cachebuster }}){: width="940" height="517" class="lazyload"}
+![direct access to wifi settings without application of Blebox Doorbox v2 modules]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/acces-webui-blebox-doorbox-v2-online.webp{{ cachebuster }}){: width="940" height="517" class="lazyload pictaninpost"}
 
 ## Configuration in the Tedee Application
 

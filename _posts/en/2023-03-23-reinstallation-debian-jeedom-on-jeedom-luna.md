@@ -81,7 +81,7 @@ the circle will change from red to solid blue, debian has started
 
 Below is a GIF animation showing the whole step:
 
-![Flash debian image on jeedom luna with Factorytool]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/flash-image-debian-jeedom-luna.webp{{ cachebuster }}){: width="940" height="710" class="lazyload"}
+![Flash debian image on jeedom luna with Factorytool]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/flash-image-debian-jeedom-luna.webp{{ cachebuster }}){: width="940" height="710" class="lazyload pictaninpost"}
 
 find on your network the ip address of the Jeedom Luna
 

@@ -85,7 +85,7 @@ Selon le concepteur **le module a été éprouvé de façon méthodique et sév�
 4. **Prend en charge le contrôle du contacteur** POWCT dispose d'un relais à contact sec avec un courant de sortie nominal de 2 A qui est utilisé avec un contacteur pour réaliser le contrôle de commutation de la charge.
 5. **Sûr et fiable** Passez divers tests rigoureux, notamment des tests de foudre et de surtension, des tests de court-circuit, des tests de chute, des tests au brouillard salin, des tests dans des environnements extrêmement difficiles, etc. Des produits auxquels vous pouvez faire confiance à 100 %.
 
-![Affichage compteur Sonoff Pow Ring Powct]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/sonoff-pow-ring-powct-smart-energy-meter-wifi.webp{{ cachebuster }}){: width="940" height="529" class="lazyload"}
+![Affichage compteur Sonoff Pow Ring Powct]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/sonoff-pow-ring-powct-smart-energy-meter-wifi.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
 
 ## Parlons des branchements
 

@@ -715,7 +715,7 @@ La vue adaptative est un bonus extra surtout dédié aux affichages sur tablette
 
 [notice d'installation de la vue adaptative](https://ui-lovelace-minimalist.github.io/UI/setup/adaptive_dash/#add-adaptive-dashboard){: target="_blank"}
 
-![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/minimalist_adaptive_dash.webp{{ cachebuster }}){: width="480" height="270" class="lazyload"}
+![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/minimalist_adaptive_dash.webp{{ cachebuster }}){: width="480" height="270" class="lazyload pictaninpost"}
 
 [exemple code dashboard adaptive par Basbruss](https://github.com/basbruss/Minimalist-Dashboards){: target="_blank"}
 
@@ -929,7 +929,7 @@ states:
 > pour **rafraichir le frontend** il te faudra forcer la page **adaptive_ui.yaml** en y apportant une modif et en enregistrant
 
 ### Résultat
-![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui adaptive]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/capture-minimalist-ui-adaptive-dashboard.webp{{ cachebuster }}){: width="940" height="479" class="lazyload"}
+![Capture d'une image de mise en fonction de l'affichage adaptatif de minimalist.ui adaptive]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/capture-minimalist-ui-adaptive-dashboard.webp{{ cachebuster }}){: width="940" height="479" class="lazyload pictaninpost"}
 
 ## Conclusion {{ page.ref }} 
 

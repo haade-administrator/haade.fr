@@ -85,7 +85,7 @@ According to the designer **the module was tested methodically and rigorously**,
 4. **Supports contactor control** POWCT has a dry contact relay with a rated output current of 2A which is used with a contactor to realize load switching control.
 5. **Safe and reliable** Pass various rigorous tests, including lightning and surge tests, short circuit tests, drop tests, salt spray tests, extremely harsh environment tests, etc. . Products you can trust 100%.
 
-![Sonoff Pow Ring Powct meter display]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/sonoff-pow-ring-powct-smart-energy-meter-wifi.webp{{ cachebuster }}){: width="940" height="529" class="lazyload"}
+![Sonoff Pow Ring Powct meter display]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/sonoff-pow-ring-powct-smart-energy-meter-wifi.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
 
 ## Let's talk about hookups
 

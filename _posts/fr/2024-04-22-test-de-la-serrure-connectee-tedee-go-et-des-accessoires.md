@@ -342,7 +342,7 @@ Ci-dessous j'ai réalisé un **Gif animé** du fonctionnement du déverouillage 
 
 Car tu pourras choisir entre déverouiller la poignée **ou** déverouiller avec action sur le loquet, **contrairement à l'appli Tedee** ou il faut sélectionner une option loquet au préalable avant de pouvoir l'utiliser.
 
-![Fonctionnement de la serrure connectée tedee go dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctionnement-home-assistant.webp{{ cachebuster }}){: width="597" height="679" class="lazyload"}
+![Fonctionnement de la serrure connectée tedee go dans home assistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctionnement-home-assistant.webp{{ cachebuster }}){: width="597" height="679" class="lazyload pictaninpost"}
 
 {% include product-embed.html guid="2193" %}
 

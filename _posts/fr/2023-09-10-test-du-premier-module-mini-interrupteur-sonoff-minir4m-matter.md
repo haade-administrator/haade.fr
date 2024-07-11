@@ -63,7 +63,7 @@ le sonoff {{ page.ref }} possède pas mal d'options importantes
 *Comme tu peux le voir sur le gif animé ci-dessous je n'ai eu aucune difficulté à l'intégrer dans Home-Assistant.* Avant de pouvoir ajouter l'appareil dans Home-Assistant il faudra au préalable installer Matter dans le superviseur. Pour se faire tu peux suivre les étapes d'installations [en te rendant directement ici](installation-test-neo-wifi-matter-NAS-WR15W6-dans-home-assistant#1-installation-serveur-matter), il te suffira de cliquer sur les liens pour l'installation et l'intégration Matter. *J'ai rédigé le processus d'installation dans un précédent article dédié au module Neo NAS-WR15W6*.
 **Ensuite suis les étapes du processus et à l'invite scan le qrcode situé à l'arrière du module.**
 
-![Intégration du module Sonoff miniR4M dans home-assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-sonoff-minir4m-matter-homeassistant.webp{{ cachebuster }}){: width="320" height="693" class="lazyload"}
+![Intégration du module Sonoff miniR4M dans home-assistant]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/integration-sonoff-minir4m-matter-homeassistant.webp{{ cachebuster }}){: width="320" height="693" class="lazyload pictaninpost"}
 
 Une fois intégré tu pourras te rendre dans le panneau du module  et ainsi tester le fonctionnement du module. Une seule commande de disponible pour allumer et éteindre le module, à mon sens c'est un peu maigre **mais bon on est au prémisse du protocole, les prochains modules devraient peu à peu s'étoffer de nouvelles fonction.**
 

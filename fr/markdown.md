@@ -78,7 +78,7 @@ le retour à la ligne se fait automatiquement.
 
 commande: gif2webp -lossy nom.gif -o nom.webp
 
-![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394" class="lazyload"}{: target="_blank"}
+![Paramétrer un état dans zoneminder]({{ site.baseurl }}/assets/images/posts/21/zoneminder-etat-820.webp{{ cachebuster }}){: width="820" height="394" class="lazyload pictaninpost"}{: target="_blank"}
 
 ## Les liens pour les documents
 
@@ -203,7 +203,7 @@ ___
 
 ou déjà transformé: 
 
-![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421" class="lazyload"}
+![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421" class="lazyload pictaninpost"}
 
 ### intégrer une video webm non compatible apple
 youtube:

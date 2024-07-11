@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Garmin Approach R10  - enfin un radar que vous allez aimer !
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-garmin-approach-r10-radar-golf/#utm_source=rss&utm_medium=rss&utm_campaign=test-garmin-approach-r10-radar-golf
+    title: Amazon a enfin résolu le problème d’Echo Dot 5
+    url: https://www.lesalexiens.fr/actualites/amazon-a-enfin-resolu-probleme-echo-dot-5/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-a-enfin-resolu-probleme-echo-dot-5
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,9 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Amazon Prime Day 2024  - Les dates révélées !
-    url: https://www.maison-et-domotique.com/147968-amazon-prime-day-2024-dates/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/amazon-prime-day-2024-702x439.webp
+    title: Test Dreame A1 - ni fil périphérique ni antenne, ce robot tondeuse révolutionne
+      le domaine !
+    url: https://www.maison-et-domotique.com/147993-test-dreame-a1-robot-tondeuse/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-dreame-a1-37-667x500.jpg
 Matter:
   en_GB:
   - name: Matter

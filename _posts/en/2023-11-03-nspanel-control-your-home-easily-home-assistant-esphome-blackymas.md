@@ -84,7 +84,7 @@ I see two big advantages of integrating the Esphome firmware for the {{page.ref}
 
 The blueprint provided can be confusing given the number of settings available, but once you've looked around, **it's so gratifying to make a change and see that after saving and almost instantly the interface update on the NSPanel.**
 
-![Options blueprint Nspanel github blackymas]({{ site.baseurl }}/assets/images/posts/90/blueprint-option-nspanel-blackymas.webp{{ cachebuster }}){: width="620" height="320" class="lazyload"}{: target="_blank"}
+![Options blueprint Nspanel github blackymas]({{ site.baseurl }}/assets/images/posts/90/blueprint-option-nspanel-blackymas.webp{{ cachebuster }}){: width="620" height="320" class="lazyload pictaninpost"}{: target="_blank"}
 
 ## What does the Blackymas repository allow you to control?
 

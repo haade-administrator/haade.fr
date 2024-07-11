@@ -30,7 +30,7 @@ sourcelink:
 
 **TrueNAS like Openmediavault** is part of the very restricted world of software dedicated to managing a NAS. For two years the TrueNAS team decided to create a version running on Debian, like TrueNAS Core which runs on FreeBSD. Which makes TrueNAS Scale the only competing version of Openmediavault.
 
-![Presentation of the display of cobia TrueNAS 23.10 modules]({{ site.baseurl }}/assets/images/posts/94/presentation-applications-truenas-cobia-23.webp{{ cachebuster }}){: width ="940" height="483" class="lazyload"}{: target="_blank"}
+![Presentation of the display of cobia TrueNAS 23.10 modules]({{ site.baseurl }}/assets/images/posts/94/presentation-applications-truenas-cobia-23.webp{{ cachebuster }}){: width ="940" height="483" class="lazyload pictaninpost"}{: target="_blank"}
 
 **TrueNAS SCALE “Cobia” 23.10** BETA version saw five times higher adoption than previous versions of TrueNAS CORE or SCALE. Even with more testers than ever before, relatively few major issues surfaced and these were then quickly resolved.
 
