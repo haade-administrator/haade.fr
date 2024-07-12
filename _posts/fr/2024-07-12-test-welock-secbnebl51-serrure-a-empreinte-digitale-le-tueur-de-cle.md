@@ -47,7 +47,7 @@ sourcelink:
 
 Coupons de réductions supplémentaires valable sur le [site Amazon](https://amzn.to/3Whtm0f){: target="_blank"} en exclu pour le site Haade.fr: **SECB51001**. Pour un **Prix final de 132€.**
 
-{% include product-embed.html image="welock-secbnebl51-serrure-empreinte-digitale.png" title="Shelly Z-wave 1PM" brand="Welock" description="Serrure à empreinte digitale électronique avec carte RFID Bluetooth WiFi pour cylindre réglable de 30 à 70 mm, cylindre de fermeture électronique, Coupons de réductions: <b>SECB51001</b>" amazlink="3Whtm0f" %}
+{% include product-embed.html image="welock-secbnebl51-serrure-empreinte-digitale.png" title="Serrure par empreinte Welock SECBNEBL51" brand="Welock" description="Serrure à empreinte digitale électronique avec carte RFID Bluetooth WiFi pour cylindre réglable de 30 à 70 mm, cylindre de fermeture électronique, Coupons de réductions: <b>SECB51001</b>" amazlink="3Whtm0f" %}
 
 En cas de ruptures sur le site Amazon [tu peux aussi commander directement la serrure sur le site Welock](https://www.welock.com/haadbl55901){: target="_blank"}, elle est au prix de **189€ Livraison gratuite**. Mais ne t'inquiètes pas avec le code suivant: **SINDRO50** elle ne t'en **coûtera que 139€**, certe c'est un peu plus cher que sur le site Amazon mais ça reste raisonnable.
 
@@ -60,7 +60,7 @@ En cas de ruptures sur le site Amazon [tu peux aussi commander directement la se
 
 Coupons de réductions supplémentaires valable sur le [site Amazon](https://amzn.to/3Whtm0f){: target="_blank"} en exclu pour le site Haade.fr: **SECB51001**. Pour un **Prix final de 132€.**
 
-{% include product-embed.html image="welock-secbnebl51-serrure-empreinte-digitale.png" title="Shelly Z-wave 1PM" brand="Welock" description="Serrure à empreinte digitale électronique avec carte RFID Bluetooth WiFi pour cylindre réglable de 30 à 70 mm, cylindre de fermeture électronique, Coupons de réductions: <b>SECB51001</b>" amazlink="3Whtm0f" %}
+{% include product-embed.html image="welock-secbnebl51-serrure-empreinte-digitale.png" title="Serrure par empreinte Welock SECBNEBL51" brand="Welock" description="Serrure à empreinte digitale électronique avec carte RFID Bluetooth WiFi pour cylindre réglable de 30 à 70 mm, cylindre de fermeture électronique, Coupons de réductions: <b>SECB51001</b>" amazlink="3Whtm0f" %}
 
 En cas de ruptures sur le site Amazon [tu peux aussi commander directement la serrure sur le site Welock](https://www.welock.com/haadbl55901){: target="_blank"}, elle est au prix de **189€ Livraison gratuite**. Mais ne t'inquiètes pas avec le code suivant: **SINDRO50** elle ne t'en **coûtera que 139€**, certe c'est un peu plus cher que sur le site Amazon mais ça reste raisonnable.
 
