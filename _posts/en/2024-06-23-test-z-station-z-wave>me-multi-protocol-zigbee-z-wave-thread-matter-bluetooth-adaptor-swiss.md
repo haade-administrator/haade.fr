@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2024-06-23 11:00
 last_modified_at: 
-categories: [Tests, Automation, Zigbee, Zwave]
+categories: [Tests, Automation, Zigbee, Z-wave]
 tags: []
 video: 
 image: 'test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme.png'
