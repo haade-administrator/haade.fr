@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Jul 2024 12:41:30 +0200</pubDate>
+    <pubDate>Fri, 12 Jul 2024 13:17:01 +0200</pubDate>
     <lastBuildDate>Thu, 11 Jul 2024 23:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -92,7 +92,7 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Zigbee]]></category>
-      <category><![CDATA[Zwave]]></category>
+      <category><![CDATA[Z-wave]]></category>
     </item>
     <item>
       <title>Take full advantage of your FREE fiber optic subscription</title>
