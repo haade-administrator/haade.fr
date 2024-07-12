@@ -7,7 +7,7 @@ layout: post
 authors: Nico
 date: 2024-03-13 12:47
 last_modified_at: 
-categories: [News]
+categories: [News, Z-wave]
 tags: []
 image: 'z-wave-800-lr-silabs-relance-le-protocole.png'
 toc: true

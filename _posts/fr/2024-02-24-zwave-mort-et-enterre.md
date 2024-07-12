@@ -7,7 +7,7 @@ layout: post
 authors: Nico
 date: 2024-02-24 20:47
 last_modified_at: 
-categories: [News, Domotique]
+categories: [News, Domotique, Z-wave]
 tags: []
 image: 'z-wave-est-mort-pourquoi.png'
 toc: true

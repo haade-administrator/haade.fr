@@ -7,7 +7,7 @@ layout: post
 authors: Nico
 date: 2024-02-24 20:47
 last_modified_at: 
-categories: [News, Automation]
+categories: [News, Automation, Z-wave]
 tags: []
 image: 'why-z-wave-is-dead.png'
 toc: true

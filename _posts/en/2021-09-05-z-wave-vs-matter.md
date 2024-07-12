@@ -5,7 +5,7 @@ layout: post
 authors: Nico
 date: "2021-09-05"
 last_modified_at:
-categories: [News, Protocoles]
+categories: [News, Protocoles, Z-wave]
 image: "zwave-face-a-matter.jpg"
 published: true
 noindex: false

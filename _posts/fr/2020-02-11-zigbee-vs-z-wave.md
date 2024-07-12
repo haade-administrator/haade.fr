@@ -5,7 +5,7 @@ description: "Comparons les deux protocoles domotique les plus utilisés z-wave 
 date: '2020-02-11T14:05:00+00:00'
 last_modified_at: '2022-12-15'
 authors: Nico
-categories: Domotique Protocoles
+categories: [Domotique, Protocoles, Z-wave]
 tags: z-wave zigbee comparaison
 layout: post
 locale: fr_FR
