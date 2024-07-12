@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon a enfin résolu le problème d’Echo Dot 5
-    url: https://www.lesalexiens.fr/actualites/amazon-a-enfin-resolu-probleme-echo-dot-5/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-a-enfin-resolu-probleme-echo-dot-5
+    title: Amazon Alexa  - les nouveautés du second trimestre 2024
+    url: https://www.lesalexiens.fr/actualites/amazon-alexa-nouveautes-second-trimestre-2024/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-nouveautes-second-trimestre-2024
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,10 +47,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Dreame A1 - ni fil périphérique ni antenne, ce robot tondeuse révolutionne
-      le domaine !
-    url: https://www.maison-et-domotique.com/147993-test-dreame-a1-robot-tondeuse/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-dreame-a1-37-667x500.jpg
+    title: LG rachète la solution domotique Homey !
+    url: https://www.maison-et-domotique.com/148059-lg-rachete-homey/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/ked202407030037-700x-0-702x446.jpg
 Matter:
   en_GB:
   - name: Matter
