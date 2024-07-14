@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/manufacture-a-high-performance-and-cheap-nas-amazon-renewed-and-proxmox-omv-truenas-home-assistant</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-07-03T21:20:00+02:00</news:publication_date>
-          <news:title>High-performance and inexpensive multi-service NAS and Proxmox</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
