@@ -28,9 +28,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Amazon Révolutionne Votre Réveil avec le Nouvel Echo Spot à l’Occasion
-      de Prime Day
-    url: https://blog.nord-domotique.com/decouvrez-nouvel-echo-spot/
+    title: Participez à notre Jeu-Concours pour gagner un Super Équipement pour votre
+      Robot Tondeuse Navimow !
+    url: https://blog.nord-domotique.com/jeu-concours-equipements-navimow/
     image: 
 Abavala:
   fr_FR:
@@ -47,9 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: LG rachète la solution domotique Homey !
-    url: https://www.maison-et-domotique.com/148059-lg-rachete-homey/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/ked202407030037-700x-0-702x446.jpg
+    title: Découvrez la nouvelle télécommande universelle SwitchBot, compatible Matter
+      !
+    url: https://www.maison-et-domotique.com/148064-nouvelle-telecommande-universelle-switchbot-matter/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/w13-matter-3x-1-702x366.webp
 Matter:
   en_GB:
   - name: Matter
