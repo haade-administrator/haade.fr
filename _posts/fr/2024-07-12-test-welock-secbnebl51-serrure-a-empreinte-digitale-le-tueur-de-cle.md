@@ -181,7 +181,7 @@ En cas de ruptures sur le site Amazon [tu peux aussi commander directement la se
 
 ## Conclusion
 
-**Cette serrure est bien car elle te permettra de te passer de clés** et ainsi éviter tous problèmes liées à celles-ci, **l'ensemble du mécanisme et montage est de bonne facture**, le système d'empreinte digitale réagit au cars de tour.
+**Cette serrure est bien car elle te permettra de te passer de clés** et ainsi éviter tous problèmes liées à celles-ci, **l'ensemble du mécanisme et montage est de bonne facture**, le système d'empreinte digitale réagit au quart de tour.
 **Attention:** cette serrure est surtout dédiée aux portes protégées par les intempéries, **je doute qu'elle ne résiste aux alléats climatiques**. *De plus je n'ai trouvé aucunes informations sur l'indice de protection.*
 Personnellement l'application est à revoir je la trouve assez mal faite, comparé à d'autres applications dédiées aux serrures connectées. Mais tu pourras aisément t'en passer.
 En ce qui concerne la connection de secours en cas de défaillance des piles est bien pensée, **mais je doute que le jour ou ça arrive tu ais sur toi un powerbank avec un cable pour te dépatouiller.**
