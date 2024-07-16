@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 4.0 
+rating: 3.8
 sourcelink:
   - https://www.welock.com/collections/smart-lock-eu/products/welock-fingerprint-electronic-smart-door-lock-cylinder-secbn51
 ---
@@ -67,7 +67,7 @@ Pour finir ce tour d'horizon de l'emballage tu pourras te rendre compte que la s
 
 ## L'empreinte digitale
 
-Je dois dire que le fonctionnement et la paramétrage par empreinte digitale est ultra réactif, très précis bref rien à redire. Le paramétrage
+Je dois dire que le fonctionnement et la paramétrage par empreinte digitale est ultra réactif, très précis bref rien à redire. À la demande tu pose ton doigt
 
 ## Ajout des piles
 
@@ -98,9 +98,11 @@ La serrure Welock {{ page.ref }} est compatible avec les serrures de type europ�
 
 Person je n'ai pas eu besoin de placer cette rallonge lors de mes tests.
 
-## Mise en place de la Welock {{ page.ref }}
+## Installation de la Welock {{ page.ref }}
 
-Pour mettre en place la serrure là aussi ce n'est pas très compliqué, cependant il faudra passer par un démontage de l'ancien barillet afin de remplacer tout le système.
+Pour mettre en place la serrure là aussi ce n'est pas très compliqué, cependant il faudra passer par un démontage de l'ancien barillet afin de remplacer tout le système. Suivant les situations l'installation peut être plus ou moins complexes et longue, chez moi par exemple j'ai du passer par le démontage des garnitures plastiques qui n'était pas si évident.
+
+> Welock aurait pu trouver probablement un système plus simple, en installant cette serrure sur la porte sans avoir besoin de démonter le mécanisme existant comme l'a fait [Tedee avec sa serrure connectée]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}).
 
 **Commence par:**
 
@@ -113,13 +115,42 @@ Pour mettre en place la serrure là aussi ce n'est pas très compliqué, cependa
 
 > Et voilà c'est en place.
 
+## Application Welock
+
+[Welock Android](https://play.google.com/store/search?q=welock&c=apps&gl=FR){: target="_blank"}
+[Welock Apple store](https://apps.apple.com/fr/app/welock/id1133801008){: target="_blank"}
+
+L'application te servira essentiellement pour débloquer la serrure à l'aide du smartphone ou de débloquer la serrure en cas d'anomalie ou d'insuffisance de la batterie de la serrure.
+
+En ce qui concerne les autres fonctions elles seront plutôt secondaires donc dispensable de la fonction première de la serrure.
+
+{% picture posts/{{ page.guid }}/ajout-serrure-application-welock-secbnebl51.png --alt Ajout de la serrure à empreinte digitale Welock SECBNEBL51 dans l'application --img width="940" height="509" %}
+
+### Les fonctions de l'application
+
+**Tu pourras gérer:**
+
+- les autorisations des membres en assignant les numéros d'enregistrements des empreintes, cartes etc... **( je ne vois pas l'utilité première de cette fonction )**
+- Ajouter ou supprimer des cartes RFID **avec ou sans durée de validité** ( pas mal pour distribuer des cartes à des personnes tiers )
+- voir l'historique
+- télécharger les détails des enregistrements
+- supprimer les empreintes sans passer par la serrure
+- synchroniser l'heure *(fonction disponible directement sur l'écran de la serrure)*
+- accéder aux paramètres généraux
+
+{% picture posts/{{ page.guid }}/fonction-serrure-application-welock-secbnebl51.png --alt Fonction de la serrure à empreinte digitale Welock SECBNEBL51 dans l'application --img width="940" height="509" %}
+
 ## fonction de la batterie de secours
 
 {% include product-embed.html image="powerbank-avec-cable-inclus.png" title="Batterie Externe 10000mAh avec 4 Câbles Intégrés" brand="Charmast" description="Powerbank fonctionnel pour Welock serrure par empreinte digitale fonctionnement de secours." amazlink="3xMHqWd" %}
 
-Pour commencer il faut savoir que la durée de vie des piles est comprise entre 10 et 12 mois.
+Pour commencer il faut savoir que la durée de vie des piles est comprise entre 10 et 12 mois. 
 
-Pour utiliser la batterie de secours il te faudra un powerbank avec une sortie électrique comprise entre 3,6 et 4,5v ainsi qu'un cable compatible powerbank et une sortie en USB-A qui aurait pu être de type USB-C.
+{%- include alert.html type="info" text="Le débloquage de la serrure en cas de dysfonctionnements des piles <b>ne peut se faire que via l'application</b>, le powerbank est là qu'en source d'alimentations, les touches et empreintes digitales de la serrure ne seront pas actives" %}
+
+{% picture posts/{{ page.guid }}/mode-secours-welock-secbn51.png --alt Mode secours batterie avec powerbank et application la serrure à empreinte digitale Welock SECBNEBL51 --img width="940" height="529" %}
+
+Pour utiliser la batterie de secours il te faudra un powerbank avec une sortie électrique comprise entre 3,6 et 4,5v ainsi qu'un cable compatible powerbank et une sortie en *USB-A qui aurait pu être de type USB-C*. **Dans les faits j'ai utilisé la sortie 5v du powerbank qui n'a posé aucuns problèmes sur la serrure.**
 
 Coupons de réductions supplémentaires valable sur le [site Amazon](https://amzn.to/3Whtm0f){: target="_blank"} en exclu pour le site Haade.fr: **SECB51001**. Pour un **Prix final de 132€.**
 
@@ -150,7 +181,9 @@ En cas de ruptures sur le site Amazon [tu peux aussi commander directement la se
 
 ## Conclusion
 
-Cette serrure est bien car elle te permettra de te passer de clés et ainsi éviter tous problèmes liées à celles-ci, l'ensemble du mécanisme et montage est de bonne facture, le système d'empreinte digitale réagit au cars de tour.
-Attention: cette serrure est surtout dédiée aux portes protégées par les intempéries, je doute qu'elle ne résiste aux allées du climat.
-Personnellement l'application est à revoir je la trouve assez mal faite mais tu pourras aisément t'en passer.
-En ce qui concerne la connection de secours en cas de défaillance des piles est bien pensée, mais je doute que le jour ou ça arrive te ais sur toi un powerbank avec un cable pour te dépatouiller.
+**Cette serrure est bien car elle te permettra de te passer de clés** et ainsi éviter tous problèmes liées à celles-ci, **l'ensemble du mécanisme et montage est de bonne facture**, le système d'empreinte digitale réagit au cars de tour.
+**Attention:** cette serrure est surtout dédiée aux portes protégées par les intempéries, **je doute qu'elle ne résiste aux alléats climatiques**. *De plus je n'ai trouvé aucunes informations sur l'indice de protection.*
+Personnellement l'application est à revoir je la trouve assez mal faite, comparé à d'autres applications dédiées aux serrures connectées. Mais tu pourras aisément t'en passer.
+En ce qui concerne la connection de secours en cas de défaillance des piles est bien pensée, **mais je doute que le jour ou ça arrive tu ais sur toi un powerbank avec un cable pour te dépatouiller.**
+
+> Paulo va la tester sur sa porte d'entrée et te fera un petit retour d'expérience vidéo.
