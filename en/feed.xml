@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 17 Jul 2024 04:48:13 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Jul 2024 23:30:00 +0200</lastBuildDate>
+    <pubDate>Wed, 17 Jul 2024 10:53:10 +0200</pubDate>
+    <lastBuildDate>Wed, 17 Jul 2024 10:15:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Welock SECBNEBL51 fingerprint lock review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Welock provided me with this fingerprint lock which allows anyone to give you keys, no need to be afraid in case of loss, Welock the key killer.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.png" alt="Welock SECBNEBL51 fingerprint lock review">
+</picture>
+
+      <p>Today I am going to present to you a but not too connected fingerprint lock, the Welock SECBNEBL51. Why but not too much, I find that the connected function is not there, let me explain: The Welock connected locks can be unlocked via the Welock smartphone application and that’s it, [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer">Welock SECBNEBL51 fingerprint lock review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 17 Jul 2024 10:15:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Z-wave 800 Long stores the bottom of the z-wave</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +246,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Test and integration of the Blebox Doorbox v2 module</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>In this article I will present to you the micro wifi doorbox v2 module from Blebox NO/NC for garage door, gate as well as the integration into the Tedee and Home Assistant application</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/123/test-blebox-doorbox-v2-integration-tedee-home-assistant-720-f1350cd71.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/123/test-blebox-doorbox-v2-integration-tedee-home-assistant-720-f1350cd71.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/123/test-blebox-doorbox-v2-integration-tedee-home-assistant-720-f1350cd71.png" alt="Test and integration of the Blebox Doorbox v2 module">
-</picture>
-
-      <p>Following the article on the Tedee GO connected lock. The manufacturer Tedee also provided me with a relay module doorbox v2, it is a NO/NC module from the Blebox brand. Polish manufacturer of micro wifi module, I must admit that they are qualitative and there is rather interest because it [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-and-installation-dry-contact-relay-module-blebox-doorbox-tedee-et-home-assistant">Test and integration of the Blebox Doorbox v2 module</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 07 May 2024 23:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-and-installation-dry-contact-relay-module-blebox-doorbox-tedee-et-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-and-installation-dry-contact-relay-module-blebox-doorbox-tedee-et-home-assistant</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Automations]]></category>
-      <category><![CDATA[Wifi]]></category>
     </item>
   </channel>
 </rss>

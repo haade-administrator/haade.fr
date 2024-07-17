@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-07-17T10:15:00+02:00</news:publication_date>
+          <news:title>Welock SECBNEBL51 fingerprint lock review</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience</loc>
         <news:news>
           <news:publication>
