@@ -1229,6 +1229,24 @@ var documents = [{
         "title": "Z-WAVE.ME - ADAPTATEUR USB POUR Z-WAVE & ZIGBEE/THREAD/BLE Z-STATION",
         "description": "23/06/2024 - L'adaptateur USB Z-WAVE.ME est la solution idéale pour connecter et contrôler tous vos appareils domotiques.",
         "tags": ""
+        },{
+        "id": 227,
+        "url": "/fr/produit/commutateur-shelly-wavec-1-PM",
+        "title": "Shelly wave 1PM",
+        "description": "20/07/2024 - Contrôlez et mesurez la consommation électrique d'une large gamme d'appareils électroménagers et d'équipements de bureau (lumières, lignes électriques, systèmes de sécurité, radiateurs, chauffe-eau, etc.) de n'importe où.",
+        "tags": ""
+        },{
+        "id": 228,
+        "url": "/fr/produit/commutateur-z-wave-micromodule-shelly-wave-1-pm-mini",
+        "title": "SHELLY QUBINO - MICROMODULE COMMUTATEUR Z-WAVE+ 800 SHELLY WAVE 1PM MINI",
+        "description": "20/07/2024 - Le plus petit commutateur intelligent Z-Wave au monde pour un contrôle intelligent. Automatisez et contrôlez à distance vos luminaires ou une large gamme de petits appareils électriques et mesurez leur consommation électrique.",
+        "tags": ""
+        },{
+        "id": 229,
+        "url": "/fr/produit/cle-passerelle-dongle-z-wave-800-EU-zooz-zst39",
+        "title": "ZOOZ - CONTRÔLEUR USB Z-WAVE+ 800",
+        "description": "20/07/2024 - Toute nouvelle clé USB radio longue portée Z-Wave série 800 : signal incroyable, réseau ultra sécurisé et rapide !",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
