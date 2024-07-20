@@ -49,6 +49,9 @@ Concerne la clé Zooz ZST39: N'effectuez PAS de sauvegarde NVM à partir de clé
 [Firmware 1.3 Zooz ZST39 EU](https://www.getzooz.com/firmware/ZST39_SDK_7.21.3_EU_V01R30.zip){: target="_blank"}
 
 ### Dans ZwaveJS
+
+[Z-waveJS](https://zwave-js.github.io/node-zwave-js/#/){: target="_blank"}
+
 Z-wave JS est une intégration du z-wave qui permet de contrôler totalement le protocole z-wave dans un assistant opensource
 Le plugin z-waveJS est disponible sur la plupart des infrastructures opensource du marché:
 Le module Jeedom intègre directement ZwaveJS et l bibliothèque Z-waveJS UI
@@ -58,6 +61,8 @@ Dans Home assistant seul z-waveJS apparaîtra comme controlleur en tant qu'appar
 [Home Assistant](https://www.home-assistant.io/integrations/zwave_js/){: target="_blank"}
 
 ### Dans ZwaveJS UI
+
+[Z-waveJS UI](https://zwave-js.github.io/zwave-js-ui/#/){: target="_blank"}
 
 À savoir: Z-wave JS UI est une bibliothèque complète z-wave qui fonctionne avec le module Z-waveJS, en aucun cas elle ne te permettra de controller le protocole pour celà il faudra installer en parallèle le module z-wave.
 
