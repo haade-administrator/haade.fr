@@ -16,16 +16,15 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Prime Day  - 23 offres sur la domotique SwitchBot à saisir avant demain
-      !
-    url: https://www.lesalexiens.fr/actualites/prime-day-23-offres-sur-la-domotique-switchbot-a-saisir-avant-demain/#utm_source=rss&utm_medium=rss&utm_campaign=prime-day-23-offres-sur-la-domotique-switchbot-a-saisir-avant-demain
+    title: Prime Day  - 50 robots aspirateurs, tondeuses, vitres et piscines
+    url: https://www.lesalexiens.fr/actualites/prime-day-50-robots-aspirateurs-tondeuses-vitres-et-piscines/#utm_source=rss&utm_medium=rss&utm_campaign=prime-day-50-robots-aspirateurs-tondeuses-vitres-et-piscines
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de l’excellente Box Homey Pro pour piloter un Store banne Somfy
-    url: https://blog.domadoo.fr/107153-homey-pro-store-banne-somfy/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/HomeyPro_RTS-1024x516.jpg
+    title: Découverte du compteur d’énergie Zigbee Bituo Technik SPM01-D2TZ-U01
+    url: https://blog.domadoo.fr/106647-compteur-energie-bituo-technik-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/compteur-bituo-technik-smart-energy-sensor-spm01-d2tz-u01-zigbee-1080X675-PRESS-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -48,16 +47,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: '100 Produits à prix cassés pour la maison connectée -  Somfy, Bosch, Philips
-      Hue, Aqara, Tado, Blink, Withings, Arlo, iRobot, Worx, Switchbot, etc. #PRIMEDAY'
-    url: https://www.maison-et-domotique.com/148206-100-produits-primeday-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2023/10/titre-primeday-maison-connectee-200-702x396.png
+    title: "-10% sur la domotique ZigBee et EnOcean chez Nodon !"
+    url: https://www.maison-et-domotique.com/148283-domotique-zigbee-enocean-nodon-promo/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/bon-plan-nodon-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: Android 15 will let you control your Matter smart home devices over Thread,
-      but only on some phones
-    url: https://www.androidauthority.com/android-15-thread-network-3459010/
+    title: Smart Home WiFi IoT Solution Comes on a Single Chip
+    url: https://www.designnews.com/semiconductors-chips/wifi-iot-solution-comes-on-a-single-chip
     image: 
 Kincony:
   en_GB:

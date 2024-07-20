@@ -65,5 +65,8 @@ module.exports = [
     'controle-d-acces/6470-tedee-bridge-bluetoothwi-fi-5907720713010', // 2195 tedee Bridge wifi
     'controle-d-acces/6469-tedee-clavier-a-code-5907720713263', // 2196 tedee digicode
     'controle-d-acces/6735-module-relais-connecte-tedee-5900168580251', // 2197 module blebox doorbox tedee
-    'box-domotique/7154-z-waveme-adaptateur-usb-pour-z-wave-zigbeethreadble-z-station-4673724090181' // 2198 z-station zwave>me
+    'box-domotique/7154-z-waveme-adaptateur-usb-pour-z-wave-zigbeethreadble-z-station-4673724090181', // 2198 z-station zwave>me
+    'actionneurs-variateurs/6747-micromodule-commutateur-z-wave-800-shelly-wave-1pm-shelly-qubino', // 2199 shelly wwave 1PM
+    'actionneurs-variateurs/7172-shelly-qubino-micromodule-commutateur-z-wave-800-shelly-wave-1pm-m-3800235269145', // 2200 shelly wave 1 PM mini
+    'box-domotique/7041-zooz-controleur-usb-z-wave-800-853478006391' // 2201 adaptateur zooz zst39
 ]

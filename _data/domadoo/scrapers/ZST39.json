@@ -1,0 +1,26 @@
+{
+    "product": {
+        "linkId": "box-domotique/7041-zooz-controleur-usb-z-wave-800-853478006391",
+        "productId": "ZST39",
+        "title": "ZOOZ - Contrôleur USB Z-Wave+ 800",
+        "description": "Toute nouvelle clé USB radio longue portée Z-Wave série 800 : signal incroyable, réseau ultra sécurisé et rapide !",
+        "productNew": "Nouveau",
+        "minsalePrice": "31.46",
+        "maxsalePrice": "34.95",
+        "discount": "-10%",
+        "currency": "EUR",
+        "originalPrice": "34.95",
+        "quantity": "Hors stock",
+        "supply_date": null,
+        "image": [
+            "https://cdn1.domadoo.fr/28999-large_default/zooz-controleur-usb-z-wave-800.jpg",
+            "https://cdn1.domadoo.fr/28999-medium_default/zooz-controleur-usb-z-wave-800.jpg",
+            "https://cdn1.domadoo.fr/29000-medium_default/zooz-controleur-usb-z-wave-800.jpg"
+        ],
+        "ratings": {
+            "totalStar": "5",
+            "averageStar": "0",
+            "totalStarCount": "0"
+        }
+    }
+}

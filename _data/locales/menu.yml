@@ -199,6 +199,14 @@ brand:
       name: "Moes"
       link: "en/category-product/moes"
 
+  shelly:
+      fr_FR:
+        name: "Shelly"
+        link: "fr/categorie-produit/shelly"
+      en_GB:
+        name: "Shelly"
+        link: "en/category-product/shelly"
+
   sonoff:
     fr_FR:
       name: "Sonoff"
@@ -238,6 +246,14 @@ brand:
     en_GB:
       name: "Raspberry-pi"
       link: "en/category-product/raspberry-pi"
+
+  zooz:
+    fr_FR:
+      name: "Zooz"
+      link: "fr/categorie-produit/zooz"
+    en_GB:
+      name: "Zooz"
+      link: "en/category-product/zooz"
 
   zemismart:
     fr_FR:
