@@ -44,13 +44,13 @@ Voilà un article dédié à la domotisation d'une chaudière traditionnelle au 
 
 Je **vais te détailler les produits utilisés**, ainsi que la mise en place sur Home Assistant. À travers une installation des plus limpides, **j'ai agrémenté ce mécanisme à l'aide d'automatisations, templates et Blueprint.** Ne t'inquiètes pas ce n'est pas si compliqué surtout qu'au fil du temps Home Assistant à su s'adapter et rendre son interface utilisable même aux plus novices d'entres vous.
 
-{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="produits-compatibles-home-assistant/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
 
 ## Le matériel
 
 Chez [August](/fr/auteur-august/){: target="_blank"}, nous avons décidé de partir sur une [box Home Assistant Green](https://www.domadoo.fr/fr/box-domotique/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html?domid=39){: target="_blank"} avec un [dongle zigbee Skyconnect](https://www.domadoo.fr/fr/box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html?domid=39){: target="_blank"} pour contrôler les modules zigbee. Mais tu pourrais aussi partir sur une [box sonoff ihost avec clé zigbee intégré](https://www.domadoo.fr/fr/box-domotique/6715-box-domotique-ihost-local-zigbee-30-wifi-4gb-sonoff.html?domid=39){: target="_blank"} si tu désires domotiser certains aspects de ton logement, attention tout de même aux automatisations qui seront plus délicates à paramétrer. **En effet la box Home assistant green** est compatible avec le gigantesque **univers Home assistant** et de plus tu participes au projet opensource en investissant dans leurs Box et clés, et je trouve ça sympa.
 
-{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Clé dongle zigbee Skyconnect" domlink="box-domotique/6938-dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa-0794677011635.html" %}
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Clé dongle zigbee Skyconnect" domlink="box-domotique/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html" %}
 
 {%- include alert.html type="info" text="Pour info il existe aussi la box <b>Home Assistant Yellow</b> qui inclus la clé Zigbee mais le tarif est plus cher, pour le taf ça reste le même." link="https://www.home-assistant.io/yellow/" textlink="Home Assistant Yellow" %}
 

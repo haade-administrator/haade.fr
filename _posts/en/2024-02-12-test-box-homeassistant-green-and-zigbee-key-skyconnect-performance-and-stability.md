@@ -29,7 +29,7 @@ sourcelink:
 
 **I am far from being the first** to test this box, for the needs of an installation at Paulo's, I ordered a Home Assistant Green Box and a Skyconnect key on [seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html?queryID=c7f3fcf4f7354a2c4d56fdee4eab971d&objectID=5792&indexName=bazaar_retailer_products){: target="_blank"}, now it's time to test this box and see if **she is stable**!
 
-{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="smart-home-gateway/6938-zigbee-usb-dongle-home-assistant-skyconnect-nabu-casa-0794677011635.html" %}
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="smart-home-hub/7188-nabu-casa-zigbee-30-connect-zbt-1-usb-dongle-for-home-assistant-0860011789710.html" %}
 
 
 ## Presentation Box Home-assistant Green
@@ -38,7 +38,7 @@ sourcelink:
 
 Let's start by unboxing the green home-assistant box, as you can see **the packaging is super well done** and brings a little eco-friendly touch, it's not Green for nothing. Very well presented, I really have nothing to complain about the packaging of the Green home assistant.
 
-{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="produits-compatibles-home-assistant/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
 
 {% picture posts/{{ page.guid }}/tour-horizon-carton-emballage-home-assistant-green.png --alt unboxing the Green home-assistant box --img width="940" height="529" %}
 
@@ -60,7 +60,7 @@ As a reminder, the box comes with **4GB RAM** and **emmc 32GB** internal storage
 
 **Thanks to the switch also located on the rear panel** you can **either turn off the box** in complete safety by pressing for 6 seconds or **force it to stop** completely by pressing for 12 seconds.
 
-{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="produits-compatibles-home-assistant/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
 
 ### Technical characteristics
 
@@ -120,7 +120,7 @@ A **standard installation will take 10GB** of storage space, so you will have **
 
 {% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
 
-{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="smart-home-gateway/6938-zigbee-usb-dongle-home-assistant-skyconnect-nabu-casa-0794677011635.html" %}
+{% include product-embed.html image="dongle-usb-zigbee-30-skyconnect-pour-home-assistant-nabu-casa.jpg" title="Dongle Zigbee Skyconnect" brand="Nabu Casa" description="Skyconnect zigbee dongle key" domlink="smart-home-hub/7188-nabu-casa-zigbee-30-connect-zbt-1-usb-dongle-for-home-assistant-0860011789710.html" %}
 
 ## Conclusion
 
