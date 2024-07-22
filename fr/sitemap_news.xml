@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/134/test-welock-SECBNEBL51-serrure-empreinte-digitale-le-tueur-de-cle.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/z-wave-800-long-range-detail-installation-shelly-zooz-et-retour-experience</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-07-11T23:30:00+02:00</news:publication_date>
-          <news:title>Z-wave 800 Long range les dessous du z-wave</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
