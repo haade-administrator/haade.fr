@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Prime Day  - 50 robots aspirateurs, tondeuses, vitres et piscines
-    url: https://www.lesalexiens.fr/actualites/prime-day-50-robots-aspirateurs-tondeuses-vitres-et-piscines/#utm_source=rss&utm_medium=rss&utm_campaign=prime-day-50-robots-aspirateurs-tondeuses-vitres-et-piscines
+    title: Google TV Streamer, le nouveau Chromecast ?
+    url: https://www.lesalexiens.fr/actualites/google-tv-streamer-le-nouveau-chromecast/#utm_source=rss&utm_medium=rss&utm_campaign=google-tv-streamer-le-nouveau-chromecast
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -28,9 +28,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Découvrez le NERA 410XE de Husqvarna  - Le Robot Tondeuse Ultime pour un
-      Jardin Parfait
-    url: https://blog.nord-domotique.com/test-nera-410xe-husqvarna/
+    title: Support Pivotant Meural  - Améliorez votre Meural Canvas avec ce guide
+    url: https://blog.nord-domotique.com/test-du-support-pivotant-meural/
     image: 
 Abavala:
   fr_FR:
@@ -47,14 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: "-10% sur la domotique ZigBee et EnOcean chez Nodon !"
-    url: https://www.maison-et-domotique.com/148283-domotique-zigbee-enocean-nodon-promo/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/bon-plan-nodon-702x367.png
+    title: Dacia Spring  - mon retour sur la petite électrique après 6 mois et 10
+      000km…
+    url: https://www.maison-et-domotique.com/148406-dacia-spring-retour-experience-voiture-electrique/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-dacia-spring-2-625x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Smart Home WiFi IoT Solution Comes on a Single Chip
-    url: https://www.designnews.com/semiconductors-chips/wifi-iot-solution-comes-on-a-single-chip
+    title: Choosing low-power IoT devices to achieve sustainability
+    url: https://www.design-engineering.com/features/choosing-low-power-iot-devices-to-achieve-sustainability/
     image: 
 Kincony:
   en_GB:

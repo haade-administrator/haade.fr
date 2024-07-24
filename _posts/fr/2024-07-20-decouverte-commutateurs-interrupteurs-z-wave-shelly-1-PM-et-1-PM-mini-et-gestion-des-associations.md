@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Haade-lab, Z-wave]
 tags: []
 video: 
-image: 'picture.png'
+image: 'decouverte-shelly-z-wave-1-PM-et-1-PM-Mini.png'
 toc: true
 beforetoc: ''
 published: false
