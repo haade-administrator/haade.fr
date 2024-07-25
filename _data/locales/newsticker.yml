@@ -16,20 +16,21 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Google TV Streamer, le nouveau Chromecast ?
-    url: https://www.lesalexiens.fr/actualites/google-tv-streamer-le-nouveau-chromecast/#utm_source=rss&utm_medium=rss&utm_campaign=google-tv-streamer-le-nouveau-chromecast
+    title: Philips Hue s’apprête à lancer une nouvelle Sync Box 8K à la rentrée
+    url: https://www.lesalexiens.fr/actualites/philips-hue-sapprete-a-lancer-une-nouvelle-sync-box-8k-a-la-rentree/#utm_source=rss&utm_medium=rss&utm_campaign=philips-hue-sapprete-a-lancer-une-nouvelle-sync-box-8k-a-la-rentree
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du compteur d’énergie Zigbee Bituo Technik SPM01-D2TZ-U01
-    url: https://blog.domadoo.fr/106647-compteur-energie-bituo-technik-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/compteur-bituo-technik-smart-energy-sensor-spm01-d2tz-u01-zigbee-1080X675-PRESS-1024x640.png
+    title: Découverte de la caméra connectée NOUS W2 Tuya
+    url: https://blog.domadoo.fr/97734-camera-connectee-nous-w2-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2023/12/comment-utiliser-une-camera-connectee-nous-en-wifi-tuya-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Support Pivotant Meural  - Améliorez votre Meural Canvas avec ce guide
-    url: https://blog.nord-domotique.com/test-du-support-pivotant-meural/
+    title: Présentation du casque Sonos Ace à Paris  - Plongez dans l’univers sonore
+      de Sonos
+    url: https://blog.nord-domotique.com/sonos-ace-a-paris/
     image: 
 Abavala:
   fr_FR:
@@ -46,10 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Dacia Spring  - mon retour sur la petite électrique après 6 mois et 10
-      000km…
-    url: https://www.maison-et-domotique.com/148406-dacia-spring-retour-experience-voiture-electrique/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-dacia-spring-2-625x500.jpg
+    title: Test Maytronics Dolphin Skimmi  - le robot solaire qui nettoie la surface
+      de la piscine tout seul !
+    url: https://www.maison-et-domotique.com/148375-test-maytronics-dolphin-skimmi-piscine/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-maytronics-dolphin-skimmi-16-667x500.jpg
 Matter:
   en_GB:
   - name: Matter
