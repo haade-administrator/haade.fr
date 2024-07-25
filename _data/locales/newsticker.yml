@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
@@ -25,7 +23,7 @@ Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
     title: Découverte de la caméra connectée NOUS W2 Tuya
-    url: https://blog.domadoo.fr/97734-camera-connectee-nous-w2-tuya/
+    url: https://blog.domadoo.fr/97734-decouverte-de-la-camera-connectee-nous-w2-tuya/
     image: https://blog.domadoo.fr/wp-content/uploads/2023/12/comment-utiliser-une-camera-connectee-nous-en-wifi-tuya-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
@@ -65,4 +63,3 @@ Kincony:
     title: KinCony ALR ESP32-S3 LoRa SX1278 Gateway released
     url: https://www.kincony.com/kincony-alr-esp32-s3-lora-sx1278-gateway.html
     image:
->>>>>>> 722ed4a623f4d1177e4742969b2e01a5c6d4e0e8
