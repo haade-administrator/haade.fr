@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Jul 2024 17:34:48 +0200</pubDate>
+    <pubDate>Thu, 25 Jul 2024 19:28:23 +0200</pubDate>
     <lastBuildDate>Thu, 25 Jul 2024 16:52:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Unbeatable Offer Shelly Birthday Special</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Unmissable offers on the Shelly website for your birthday up to 50% off</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png" alt="Unbeatable Offer Shelly Birthday Special">
+</picture>
+
+      <p>From July 24 to 29 For the anniversary of the Shelly brand, the company is offering exceptional discounts for the purchase of its modules.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site">Unbeatable Offer Shelly Birthday Special</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 25 Jul 2024 16:52:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Automation]]></category>
+    </item>
     <item>
       <title>Welock SECBNEBL51 fingerprint lock review</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,28 +246,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/use-web-portal-of-connected-tedee-concierge-management-multi-locks</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Discovery of SMLIGHT remote dongles</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>SMLight provides us with a complete range of remote and very complete Zigbee coordinators/dongles, simplified installation, a web interface and all Zigbee2mqtt and ZHA compatible.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/125/smlight-slzb-series-poe-and-other-en-720-dd5d265ba.png" alt="Discovery of SMLIGHT remote dongles">
-</picture>
-
-      <p>I am lucky enough to be able to present to you part of the SMlight range from the Ukrainian manufacturer of Zigbee/Matter coordinators. You’ve certainly heard about it, the company is currently pulling out all the stops in terms of communication and is there anything to listen for?
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07">Discovery of SMLIGHT remote dongles</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 13 May 2024 01:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/discovery-range-dongle-zigbee-matter-thread-deporte-smlight-slzb-06-et-slzb-07</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
