@@ -13,7 +13,7 @@ video:
 image: 'decouverte-shelly-z-wave-1-PM-et-1-PM-Mini.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
