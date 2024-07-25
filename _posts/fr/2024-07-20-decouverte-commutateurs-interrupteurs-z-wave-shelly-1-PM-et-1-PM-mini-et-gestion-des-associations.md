@@ -1,5 +1,5 @@
 ---
-guid: 135
+guid: 136
 title: "Découverte des commutateurs Shelly Wave 1PM et mini"
 description: "Je vais tester et les commutateurs z-wave 800 shelly Wave 1PM et Wave 1PM mini et mettre en place des règles d'associations pour une communication en direct"
 ref: "Shelly"
@@ -13,7 +13,7 @@ video:
 image: 'decouverte-shelly-z-wave-1-PM-et-1-PM-Mini.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
