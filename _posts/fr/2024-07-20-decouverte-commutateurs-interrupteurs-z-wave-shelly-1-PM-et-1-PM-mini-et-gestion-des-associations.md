@@ -75,6 +75,36 @@ Dans Home assistant seul z-waveJS apparaîtra comme controlleur en tant qu'appar
 
 **À savoir:** Z-wave JS UI est une bibliothèque complète z-wave qui fonctionne avec le module Z-waveJS, en aucun cas elle ne te permettra de controller le protocole pour celà il faudra installer en parallèle le module z-wave.
 
+## Inclusion des modules Z-wave 800
+
+### De façon traditionnelle
+
+Les modules peuvent être inclus de deux façons différentes. La première la plus ancienne il suffit au moment venu de cliquer sur le bouton S.
+**Pour shelly:**
+- Appui 1 seconde sur le bouton
+- Appui 2 secondes jusqu'à ce que le voyant bleu reste fixe
+- Appui 2 secondes jusqu'à ce que le bouton bleu clignote
+
+Et là tu passeras en mode inclusion/exclusion.
+
+La seconde solution est d'inclure le shelly wave via l'interrupteur physique connecté au module après une installation murale.
+
+Les modules z-wave 800 sont munis d'une sécurité optimum de type S2, ils  peuvent être inclus de façons traditionnelles ( par bouton d'inclusion spécifique au module ou via un interrupteur connecté aux modules ) mais en plus il faudra mettre une clé pin lors du processus d'inclusion.
+
+> Alors quand tu as l'habitude d'intégrer des modules z-wave tu ne trouveras pas la manip très compliquée mais ce n'est pas le cas pour les novices.
+
+### Avec Smartstart (New)
+
+C'est dans ce but que la z-wave alliance a créé **Smartstart**. Smartstart a été créé pour simplifier grandement l'intégration d'un module z-wave 800 et ne pas faire fuire les futurs pocesseurs de modules z-wave.
+
+![Inclusion d'un module z-wave 800 avec smartstart tellement plus simple.]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/z-wave-smartstart-smartphone-connect.webp{{ cachebuster }}){: width="460" height="905" class="lazyload pictaninpost"}
+
+Tu pourras à l'aide de ton smartphone et de ton gestionnaire z-wave intégrer un module en scannant le qrcode fournis avec le module. Ensuite il te suffira simplement d'alimenter le module et il sera directement inclus en **sécurité S2** dans ton réseau.
+
+> Plus simple tu meurs.
+
+![Comparison of temperature and humidity reading Sonoff SNZB-02D, SNZB-02P and Aqara VOCKQJK11LM]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/inclusion-bouton-s-shelly-wave-1-pm-mini-avec-zwaveJSUI-et-home-assistant.webp{{ cachebuster }}){: width="940" height="506" class="lazyload pictaninpost"}
+
 ## Shelly Wave 1 PM
 
 Le Shelly wave 1 PM est aux dimensions standard de la marque Shelly Plus, le tarif affiché est quant à lui inférieur à 30€, c'est une très bonne nouvelle pour un module compatible Z-wave 800
@@ -154,7 +184,7 @@ Il faudra faire une petite découpe dans le module plus pour pouvoir y intégrer
 
 > Rien de bien compliqué.
 
-### Installation du Shelly Z-wwave 1 PM
+### Installation du Shelly Z-wave 1 PM
 
 {% include videoPlayer.html youtubeId="r4owWoakqzQ" %}
 

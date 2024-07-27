@@ -16,8 +16,8 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Philips Hue s’apprête à lancer une nouvelle Sync Box 8K à la rentrée
-    url: https://www.lesalexiens.fr/actualites/philips-hue-sapprete-a-lancer-une-nouvelle-sync-box-8k-a-la-rentree/#utm_source=rss&utm_medium=rss&utm_campaign=philips-hue-sapprete-a-lancer-une-nouvelle-sync-box-8k-a-la-rentree
+    title: OpenAI lance SearchGPT  - une révolution pour la recherche en ligne ?
+    url: https://www.lesalexiens.fr/actualites/openai-lance-searchgpt-une-revolution-pour-la-recherche-en-ligne/#utm_source=rss&utm_medium=rss&utm_campaign=openai-lance-searchgpt-une-revolution-pour-la-recherche-en-ligne
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -47,15 +47,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Maytronics Dolphin Skimmi  - le robot solaire qui nettoie la surface
-      de la piscine tout seul !
-    url: https://www.maison-et-domotique.com/148375-test-maytronics-dolphin-skimmi-piscine/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/test-maytronics-dolphin-skimmi-16-667x500.jpg
+    title: Eedomus lance une nouvelle fonctionnalité de protection par IA !
+    url: https://www.maison-et-domotique.com/148503-eedomus-protection-par-ia/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/eedomusia-682x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Choosing low-power IoT devices to achieve sustainability
-    url: https://www.design-engineering.com/features/choosing-low-power-iot-devices-to-achieve-sustainability/
+    title: Trident IoT Announces New Zigbee Chip and SDK
+    url: https://tridentiot.com/2024/06/25/trident-iot-announces-new-zigbee-chip-and-sdk/
     image: 
 Kincony:
   en_GB:
