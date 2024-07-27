@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/135/shelly-birthday.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-07-17T10:15:00+02:00</news:publication_date>
-          <news:title>Welock SECBNEBL51 fingerprint lock review</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
