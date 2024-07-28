@@ -20,7 +20,7 @@ dom-item: ZST39
 itead-item: 
 ---
 
-### joutez facilement la technologie Z-Wave !
+### Connectez facilement la technologie Z-Wave !
 
 Connectez-vous instantanément à des milliers de périphériques Z-Wave certifiés avec cette simple clé radio USB. C'est un excellent moyen de découvrir les capacités du Z-Wave.
 

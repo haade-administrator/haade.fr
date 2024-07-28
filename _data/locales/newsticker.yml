@@ -1,0 +1,64 @@
+docs_list_title:
+  fr_FR: Dernières Nouvelles
+  en_GB: Breaking News
+
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: Dashboard chapter 2 - Lets redesign the cards together!
+    url: https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2/
+    image: http://www.home-assistant.io/images/blog/2024-07-dashboard-chapter-2/new-badges.png
+  en_GB:
+  - name: Home-Assistant
+    title: Dashboard chapter 2 - Lets redesign the cards together!
+    url: https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2/
+    image: http://www.home-assistant.io/images/blog/2024-07-dashboard-chapter-2/new-badges.png
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Alexa et Amazon Echo  - un succès ruineux pour Amazon ?
+    url: https://www.lesalexiens.fr/actualites/alexa-et-amazon-echo-un-succes-ruineux-pour-amazon/#utm_source=rss&utm_medium=rss&utm_campaign=alexa-et-amazon-echo-un-succes-ruineux-pour-amazon
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Découverte de la caméra connectée NOUS W2 Tuya
+    url: https://blog.domadoo.fr/97734-decouverte-de-la-camera-connectee-nous-w2-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2023/12/comment-utiliser-une-camera-connectee-nous-en-wifi-tuya-1024x576.png
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Présentation du casque Sonos Ace à Paris  - Plongez dans l’univers sonore
+      de Sonos
+    url: https://blog.nord-domotique.com/sonos-ace-a-paris/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: La Smart Home Homey rejoint le géant coréen LG
+    url: https://www.abavala.com/la-smart-home-homey-rejoint-le-geant-coreen-lg/
+    image: https://www.abavala.com/wp-content/uploads/LG-Homey-Athom-2024-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Eedomus lance une nouvelle fonctionnalité de protection par IA !
+    url: https://www.maison-et-domotique.com/148503-eedomus-protection-par-ia/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/eedomusia-682x500.jpg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Trident IoT Announces New Zigbee Chip and SDK
+    url: https://tridentiot.com/2024/06/25/trident-iot-announces-new-zigbee-chip-and-sdk/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: KinCony ALR ESP32-S3 LoRa SX1278 Gateway released
+    url: https://www.kincony.com/kincony-alr-esp32-s3-lora-sx1278-gateway.html
+    image:

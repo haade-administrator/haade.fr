@@ -4,7 +4,7 @@ title: "Zooz"
 category: Zooz
 description: "Smart home products created to bring more time and freedom to your life. Let's build smarter tech together."
 url: "https://www.getzooz.com/"
-locale: fr_FR
+locale: en_GB
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
