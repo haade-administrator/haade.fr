@@ -327,13 +327,13 @@ Déclenché par SW (SW1). L'appareil envoie selon l'état du SW (SW1) (interrupt
 - Nœuds autorisés : 9
 - Il est affecté au commutateur connecté au terminal SW (SW1) (utilise la classe de commande de démarrage/arrêt à plusieurs niveaux).
 Déclenché par SW (SW1).
-- L'appareil envoie selon l'état du SW (SW1) (interrupteur ou bouton-poussoir) la commande SWITCH_MULTILEVEL_START_LEVEL_CHANGE ou SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE à l'appareil associé.
+- L'appareil envoie selon l'état du SW (SW1) (interrupteur ou bouton-poussoir) la commande SWITCH MULTILEVEL START LEVEL CHANGE ou SWITCH MULTILEVEL STOP LEVEL CHANGE à l'appareil associé.
 
 **Fonctionnel pour des lumières dimmables par exemple.**
   
 **Prend en charge les classes de commandes suivantes:**
-- SWITCH_MULTILEVEL_START_LEVEL_CHANGE : initier une transition vers un nouveau niveau
-- SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE : arrêter une transition en cours
+- SWITCH MULTILEVEL START LEVEL CHANGE : initier une transition vers un nouveau niveau
+- SWITCH MULTILEVEL STOP LEVEL CHANGE : arrêter une transition en cours
 
 ## Conclusion
 

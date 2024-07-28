@@ -327,13 +327,13 @@ Triggered by SW (SW1). The device sends according to the state of the SW (SW1) (
 - Allowed nodes: 9
 - It is assigned to the switch connected to the SW (SW1) terminal (uses the multi-level start/stop command class).
 Triggered by SW (SW1).
-- The device sends according to the state of the SW (SW1) (switch or pushbutton) the command SWITCH_MULTILEVEL_START_LEVEL_CHANGE or SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE to the associated device.
+- The device sends according to the state of the SW (SW1) (switch or pushbutton) the command SWITCH MULTILEVEL START LEVEL CHANGE or SWITCH MULTILEVEL STOP LEVEL CHANGE to the associated device.
 
 **Functional for dimmable lights for example.**
 
 **Supports the following command classes:**
-- SWITCH_MULTILEVEL_START_LEVEL_CHANGE: initiate a transition to a new level
-- SWITCH_MULTILEVEL_STOP_LEVEL_CHANGE: stop a transition in progress
+- SWITCH MULTILEVEL START LEVEL CHANGE: initiate a transition to a new level
+- SWITCH MULTILEVEL STOP LEVEL CHANGE: stop a transition in progress
 
 ## Conclusion
 
