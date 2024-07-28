@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2024.7 - Time to resize your cards!
-    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
-    image: http://www.home-assistant.io/images/blog/2024-07/social.png
+    title: Dashboard chapter 2 - Lets redesign the cards together!
+    url: https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2/
+    image: http://www.home-assistant.io/images/blog/2024-07-dashboard-chapter-2/new-badges.png
   en_GB:
   - name: Home-Assistant
-    title: 2024.7 - Time to resize your cards!
-    url: https://www.home-assistant.io/blog/2024/07/03/release-20247/
-    image: http://www.home-assistant.io/images/blog/2024-07/social.png
+    title: Dashboard chapter 2 - Lets redesign the cards together!
+    url: https://www.home-assistant.io/blog/2024/07/26/dashboard-chapter-2/
+    image: http://www.home-assistant.io/images/blog/2024-07-dashboard-chapter-2/new-badges.png
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
