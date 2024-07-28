@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 28 Jul 2024 05:00:31 +0200</pubDate>
-    <lastBuildDate>Thu, 25 Jul 2024 16:52:00 +0200</lastBuildDate>
+    <pubDate>Sun, 28 Jul 2024 12:29:47 +0200</pubDate>
+    <lastBuildDate>Sun, 28 Jul 2024 09:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Découverte des commutateurs Shelly Wave 1PM et mini</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Je vais tester les commutateurs z-wave 800 shelly Wave 1PM et Wave 1PM mini et mettre en place des règles d&apos;associations pour une communication en direct</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png" alt="Découverte des commutateurs Shelly Wave 1PM et mini">
+</picture>
+
+      <p>Découverte des modules Z-wave 800 Shelly wave 1 PM et 1 PM mini, quelles sont leurs particularités, et leurs différences. Sont-ils à la hauteur ? pour le tarif et surtout quelles options sont proposées pour ces modules z-wave ?
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations">Découverte des commutateurs Shelly Wave 1PM et mini</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 28 Jul 2024 09:30:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Z-wave]]></category>
+    </item>
     <item>
       <title>Offre Imbattable Shelly Spécial anniversaire</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,27 +248,6 @@
       <link>https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</guid>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Tedee et le portail Cloud</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Tutos sur l&apos;utilisation du portail Tedee pour la gestion de plusieurs serrures connectées Tedee Go et Pro idéal quand tu possèdes plusieurs serures ou pour les professionnels de l&apos;hébergement et conciergeries</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/126/tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees-720-f87446323.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/126/tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees-720-f87446323.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/126/tutos-utilisation-portail-web-tedee-ideal-pour-conciergerie-et-gestions-multi-serrures-connectees-720-f87446323.png" alt="Tedee et le portail Cloud">
-</picture>
-
-      <p>Après une brève présentation de la serrure connectée Tedee GO et l’intégration via l’application Smartphone, je te propose d’approfondir les connaissances à travers une gestion des données plus complètes des serrures connectées Tedee et ce grâce au cloud de le marque et à une gestion à travers le portail web. [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/utilisation-portail-web-des-serrure-connecte-tedee-conciergerie-gestion-multi-serrures">Tedee et le portail Cloud</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 26 May 2024 18:10:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/utilisation-portail-web-des-serrure-connecte-tedee-conciergerie-gestion-multi-serrures</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/utilisation-portail-web-des-serrure-connecte-tedee-conciergerie-gestion-multi-serrures</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
