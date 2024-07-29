@@ -225,6 +225,9 @@ footer:
   submit:
     fr_FR: Envoyer
     en_GB: Send
+    name:
+      fr_FR: Souscription
+      en_GB: Subscription
 
 # ezsp.html
 

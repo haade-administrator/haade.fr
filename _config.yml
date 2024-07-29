@@ -11,7 +11,7 @@ logo:
 favicon: 'assets/images/favicon.png'
 url: https://haade.fr
 baseurl: 
-mailchimp-list: 'https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4'
+mailchimp-list: 'https://haade.us4.list-manage.com/subscribe/post?u=86f32891957737a57c0b4ade8&amp;id=92dadba2b4&amp;f_id=00639cebf0'
 permalink: /:title/
 email: administrateur@haade.fr
 words_per_minute: 180

@@ -47,9 +47,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Eedomus lance une nouvelle fonctionnalité de protection par IA !
-    url: https://www.maison-et-domotique.com/148503-eedomus-protection-par-ia/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/eedomusia-682x500.jpg
+    title: Sonde de piscine ZigBee Yago 7-1 - connectez votre piscine en ZigBee dans
+      Home Assistant ou Jeedom !
+    url: https://www.maison-et-domotique.com/148432-sonde-de-piscine-zigbee-yago-home-assistant-jeedom/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/titre-yago-home-assistant-702x367.png
 Matter:
   en_GB:
   - name: Matter
