@@ -16,21 +16,20 @@ Home-Assistant:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Alexa et Amazon Echo  - un succès ruineux pour Amazon ?
-    url: https://www.lesalexiens.fr/actualites/alexa-et-amazon-echo-un-succes-ruineux-pour-amazon/#utm_source=rss&utm_medium=rss&utm_campaign=alexa-et-amazon-echo-un-succes-ruineux-pour-amazon
+    title: Google prépare un nouveau thermostat Nest Learning 4e génération
+    url: https://www.lesalexiens.fr/actualites/google-prepare-un-nouveau-thermostat-nest-learning-4e-generation/#utm_source=rss&utm_medium=rss&utm_campaign=google-prepare-un-nouveau-thermostat-nest-learning-4e-generation
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la caméra connectée NOUS W2 Tuya
-    url: https://blog.domadoo.fr/97734-decouverte-de-la-camera-connectee-nous-w2-tuya/
-    image: https://blog.domadoo.fr/wp-content/uploads/2023/12/comment-utiliser-une-camera-connectee-nous-en-wifi-tuya-1024x576.png
+    title: Découverte du module Zigbee 3.0 NOUS B1Z contact sec On/Off
+    url: https://blog.domadoo.fr/107570-module-zigbee-nous-b1z-tuya/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/nous-b1z-module-zigbee-on-off-1080x675-PRESS-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Présentation du casque Sonos Ace à Paris  - Plongez dans l’univers sonore
-      de Sonos
-    url: https://blog.nord-domotique.com/sonos-ace-a-paris/
+    title: Lancement du Nouveau Roomba Combo 10 Max  - Le Nettoyage Autonome Révolutionné
+    url: https://blog.nord-domotique.com/lancement-du-nouveau-roomba-combo-10-max-le-nettoyage-autonome-revolutionne/
     image: 
 Abavala:
   fr_FR:
@@ -47,15 +46,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Sonde de piscine ZigBee Yago 7-1 - connectez votre piscine en ZigBee dans
-      Home Assistant ou Jeedom !
-    url: https://www.maison-et-domotique.com/148432-sonde-de-piscine-zigbee-yago-home-assistant-jeedom/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/titre-yago-home-assistant-702x367.png
+    title: Torras Coolify Cyber Smart Neck Air Conditioner  - votre climatisation
+      personnelle autour du cou, à -20% !
+    url: https://www.maison-et-domotique.com/148209-torras-coolify-cyber-smart-neck-air-conditioner-votre-climatisation-personnelle-autour-du-cou-a-10/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/bon-plan-nodon-1-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: Trident IoT Announces New Zigbee Chip and SDK
-    url: https://tridentiot.com/2024/06/25/trident-iot-announces-new-zigbee-chip-and-sdk/
+    title: Eve Launches Matter over Thread Weather Sensor
+    url: https://homekitnews.com/2024/07/18/eve-launches-matter-over-thread-eve-weather-sensor/
     image: 
 Kincony:
   en_GB:
