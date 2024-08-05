@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/Offre-exceptionnelle-site-shelly-special-anniversaire-imbattable</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-07-25T16:52:00+02:00</news:publication_date>
-          <news:title>Offre Imbattable Shelly Spécial anniversaire</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/135/shelly-birthday.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
