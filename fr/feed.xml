@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 15 Aug 2024 04:57:11 +0200</pubDate>
-    <lastBuildDate>Sun, 28 Jul 2024 09:30:00 +0200</lastBuildDate>
+    <pubDate>Thu, 15 Aug 2024 18:49:37 +0200</pubDate>
+    <lastBuildDate>Thu, 15 Aug 2024 17:57:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Remise Spécial nouveau Sonoff NSPanel Pro 120</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Itead.cc fait une remise spécial sur le nouveau Sonoff NSPanel Pro taille 12cm jusqu&apos;à rupture du stock prévu</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png" alt="Remise Spécial nouveau Sonoff NSPanel Pro 120">
+</picture>
+
+      <p>Pour le lancement du tout nouveau produit, le SONOFF NSPanel Pro 120 Type, qui est en ligne depuis hier ! Pour célébrer le lancement, Itead.cc organise une promotion exclusive.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead">Remise Spécial nouveau Sonoff NSPanel Pro 120</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 15 Aug 2024 17:57:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</guid>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Découverte des commutateurs Shelly Wave 1PM et mini</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,27 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/presentation-video-de-la-serrure-connecte-tedee-go-et-accessoires-august-et-nicole-forever</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Videos]]></category>
-    </item>
-    <item>
-      <title>Les Domodays</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Les Domodays sont de retour du 28 mai au 3 juin !</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/127/domodays-720-91e52bcad.png" alt="Les Domodays">
-</picture>
-
-      <p>Profitez d’une semaine remplie de bonnes affaires avec des réductions allant jusqu’à 25% sur une large sélection de marques de domotique.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo">Les Domodays</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 28 May 2024 18:53:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/remises-exceptionnelles-domodays-domadoo</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
