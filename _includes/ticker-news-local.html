@@ -14,6 +14,17 @@
         >{{ item.title | truncatewords: 6, "[...]" }}</a
       >
     </li>
+    {%- endfor %} {%- for item in translate.Jeff-Geerling[page.locale] %}
+    <li>
+      <img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA+0lEQVR4AcXSIYyDMBiG4fNenyQkTRoSRJOKP6lAoxCzc3gzixcT2FOoORQSOYWaQqFrsaj3jrALsC2z+0z/9Emar02/3Jt8FEVrPS+RFqPMHiXzgzfOZjdgvOg9HoBYMpZ06hlVD/5UA0d5xMgBmfnu4WIeURUwBs5U09Q8YVBBr50zaum7xxq6SOK/vMAGripvm6atzEsMSoBB31FENseGhfcrSpIk20I2OK2oRlgwPDNfxW7RQxrnQHAEUhvWK0ZXaNNu3ggnGA4lK0rOksKacpn82jYuRsAXsXP6Z4LpXE+36I7OKpdaZefRqCTRxqho90LuPyIf/Zq/J7dCCPHKlREAAAAASUVORK5CYII="
+        alt="{{ item.name }}"
+        class="resized-image lazyload"
+      /><b>{{ item.name }}:</b
+      ><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"
+        >{{ item.title | truncatewords: 6, "[...]" }}</a
+      >
+    </li>
     {%- endfor %} {%- for item in translate.les-Alexiens[page.locale] %}
     <li>
       <img

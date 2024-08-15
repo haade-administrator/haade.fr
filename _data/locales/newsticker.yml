@@ -2,3 +2,69 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: Works with Home Assistant becomes part of the Open Home Foundation
+    url: https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf/
+    image: http://www.home-assistant.io/images/blog/2024-08-wwha-update/art.jpg
+  en_GB:
+  - name: Home-Assistant
+    title: Works with Home Assistant becomes part of the Open Home Foundation
+    url: https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf/
+    image: http://www.home-assistant.io/images/blog/2024-08-wwha-update/art.jpg
+Jeff-Geerling:
+  en_GB:
+  - name: Jeff-Geerling
+    title: Raspberry Pi Pico 2 - RP2350 adds more PIO, RISC-V cores
+    url: https://www.jeffgeerling.com/blog/2024/raspberry-pi-pico-2-rp2350-adds-more-pio-risc-v-cores
+    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-pico-2.jpeg
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Test PetKit Eversweet Max  - de l’eau propre même hors réseau
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-petkit-eversweet-max-fontaine-eau-chien-chat/#utm_source=rss&utm_medium=rss&utm_campaign=test-petkit-eversweet-max-fontaine-eau-chien-chat
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Découverte du dongle USB Z-Wave+ série 800 Zooz ZST39 sous Home Assistant
+    url: https://blog.domadoo.fr/106113-dongle-usb-z-wave-zooz-zst39/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/couverture-1024x640.png
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Test du Anker Smart Meter avec le Solarbank 2 Pro
+    url: https://blog.nord-domotique.com/test-anker-smart-meter/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: La Smart Home Homey rejoint le géant coréen LG
+    url: https://www.abavala.com/la-smart-home-homey-rejoint-le-geant-coreen-lg/
+    image: https://www.abavala.com/wp-content/uploads/LG-Homey-Athom-2024-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: DSL, fibre optique, LTE, câble et satellite - on fait le point sur les
+      connexions internet
+    url: https://www.maison-et-domotique.com/147979-points-sur-differentes-connexions-internet/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/dalle-2024-07-02-14-06-29-702x401.webp
+Matter:
+  en_GB:
+  - name: Matter
+    title: Q&A with Deepal Mehta, InnoPhase IoT on Matter and more
+    url: https://www.iotinsider.com/smart-home/qa-with-deepal-mehta-innophase-iot-on-matter-and-more/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: KinCony ALR ESP32-S3 LoRa SX1278 Gateway released
+    url: https://www.kincony.com/kincony-alr-esp32-s3-lora-sx1278-gateway.html
+    image:

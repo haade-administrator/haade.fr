@@ -6,6 +6,10 @@
   feed: https://home-assistant.io/atom.xml
   lang: en_GB
 
+- name: Jeff-Geerling
+  feed: https://www.jeffgeerling.com/blog.xml
+  lang: en_GB
+
 - name: les-Alexiens
   feed: https://lesalexiens.fr/feed/
   lang: fr_FR
