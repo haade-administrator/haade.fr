@@ -5,20 +5,20 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Works with Home Assistant becomes part of the Open Home Foundation
-    url: https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf/
-    image: http://www.home-assistant.io/images/blog/2024-08-wwha-update/art.jpg
+    title: HACS 2.0 - The best way to share community-made projects just got better
+    url: https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects/
+    image: http://www.home-assistant.io/images/blog/2024-08-hacs2/art.png
   en_GB:
   - name: Home-Assistant
-    title: Works with Home Assistant becomes part of the Open Home Foundation
-    url: https://www.home-assistant.io/blog/2024/08/08/works-with-home-assistant-becomes-part-ohf/
-    image: http://www.home-assistant.io/images/blog/2024-08-wwha-update/art.jpg
+    title: HACS 2.0 - The best way to share community-made projects just got better
+    url: https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects/
+    image: http://www.home-assistant.io/images/blog/2024-08-hacs2/art.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Raspberry Pi Pico 2 - RP2350 adds more PIO, RISC-V cores
-    url: https://www.jeffgeerling.com/blog/2024/raspberry-pi-pico-2-rp2350-adds-more-pio-risc-v-cores
-    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-pico-2.jpeg
+    title: Radxa X4 SBC Unites Intel N100 and Raspberry Pi RP2040
+    url: https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
+    image: https://www.jeffgeerling.com/sites/default/files/images/radxa-x4-top.jpeg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
@@ -52,15 +52,16 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: DSL, fibre optique, LTE, câble et satellite - on fait le point sur les
-      connexions internet
-    url: https://www.maison-et-domotique.com/147979-points-sur-differentes-connexions-internet/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/07/dalle-2024-07-02-14-06-29-702x401.webp
+    title: Assurance multirisque habitation  - est-ce nécessaire pour un appartement
+      ?
+    url: https://www.maison-et-domotique.com/148571-assurance-appartement-multirisque-habitation-necessaire/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/08/creative-arrangement-family-concept-700x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Q&A with Deepal Mehta, InnoPhase IoT on Matter and more
-    url: https://www.iotinsider.com/smart-home/qa-with-deepal-mehta-innophase-iot-on-matter-and-more/
+    title: Mixtile Edge 2 Kit review with Home Assistant, 2-in-1 Zigbee & Z-Wave mPCIe
+      module
+    url: https://www.cnx-software.com/2024/08/14/mixtile-edge-2-kit-review-with-home-assistant-2-in-1-zigbee-z-wave-mpcie-module/
     image: 
 Kincony:
   en_GB:
