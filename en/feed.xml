@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 24 Aug 2024 20:29:53 +0200</pubDate>
+    <pubDate>Sat, 24 Aug 2024 23:28:54 +0200</pubDate>
     <lastBuildDate>Sat, 24 Aug 2024 19:33:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test of the Saswell SAS980 Zigbee watering controller</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>I am testing a Zigbee watering module the Saswell SAS980 with intelligent timer and water flow measurement also manufactured under the RTX brand reference ZVG1 which has the particularity of measuring water consumption but not only that.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.png" alt="Test of the Saswell SAS980 Zigbee watering controller">
+</picture>
+
+      <p>After testing the irrigation module Zigbee Woox R7060 last year , today I am tackling the test of the Saswell SAS980SWT-7-Z01 sold under white label by RTX under the reference ZVG1. It is recognized under this reference in Zigbee2mqtt, but since then Saswell has resumed sales under this name. You [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement">Test of the Saswell SAS980 Zigbee watering controller</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 24 Aug 2024 19:33:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Special Discount new Sonoff NSPanel Pro 120</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +246,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Wifi]]></category>
-    </item>
-    <item>
-      <title>August &amp; Nicole test the Tedee Go lock for you</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Will August hold back and not blow anything up? Nicole has no interest in keeping an eye on things, especially since he came home completely drunk that morning!</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/128/august-et-nicole-testent-la-serrure-connectee-tedee-go-720-113deadff.png" alt="August & Nicole test the Tedee Go lock for you">
-</picture>
-
-      <p>Following an evening that was too watered, August came home completely drunk. Fortunately, the Tedee lock was installed, he did not need to insert the key in the lock and without the slightest difficulty he opened the door using his smartphone.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-and-nicole-forever">August & Nicole test the Tedee Go lock for you</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 31 May 2024 11:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-and-nicole-forever</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/video-presentation-of-the-tedee-go-connected-lock-and-accessories-august-and-nicole-forever</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Videos]]></category>
     </item>
   </channel>
 </rss>

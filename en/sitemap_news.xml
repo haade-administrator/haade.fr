@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-08-24T19:33:00+02:00</news:publication_date>
+          <news:title>Test of the Saswell SAS980 Zigbee watering controller</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</loc>
         <news:news>
           <news:publication>
