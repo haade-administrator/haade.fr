@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating: 3.8
+rating: 3.2
 sourcelink: 
   - https://fr.saswell.com/smart-irrigation-wifi-water-timer-sas980swt-7-z01_p147.html
   - https://blog.domadoo.fr/93249-electrovanne-saswell-zigbee/
