@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-08-15T17:57:00+02:00</news:publication_date>
-          <news:title>Special Discount new Sonoff NSPanel Pro 120</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 

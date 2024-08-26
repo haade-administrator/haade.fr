@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/137/programmateur-arrosage-intelligent-saswell-sas980-zigbee-zigbee2mqtt.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-08-22T19:00:00+02:00</news:publication_date>
-          <news:title>Remise Spécial nouveau Sonoff NSPanel Pro 120</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
