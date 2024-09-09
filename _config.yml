@@ -39,8 +39,6 @@ fallback_page: 'index'
 
 # permalink: /:categories/:title/
 
-
-
 # Plugins
 plugins:
   - jekyll-figure

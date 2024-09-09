@@ -1,11 +1,3 @@
-- name: Home-Assistant
-  feed: https://home-assistant.io/atom.xml
-  lang: fr_FR
-
-- name: Home-Assistant
-  feed: https://home-assistant.io/atom.xml
-  lang: en_GB
-
 - name: Jeff-Geerling
   feed: https://www.jeffgeerling.com/blog.xml
   lang: en_GB

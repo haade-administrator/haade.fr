@@ -2,40 +2,29 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
-Home-Assistant:
-  fr_FR:
-  - name: Home-Assistant
-    title: HACS 2.0 - The best way to share community-made projects just got better
-    url: https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects/
-    image: http://www.home-assistant.io/images/blog/2024-08-hacs2/art.png
-  en_GB:
-  - name: Home-Assistant
-    title: HACS 2.0 - The best way to share community-made projects just got better
-    url: https://www.home-assistant.io/blog/2024/08/21/hacs-the-best-way-to-share-community-made-projects/
-    image: http://www.home-assistant.io/images/blog/2024-08-hacs2/art.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Radxa X4 SBC Unites Intel N100 and Raspberry Pi RP2040
-    url: https://www.jeffgeerling.com/blog/2024/radxa-x4-sbc-unites-intel-n100-and-raspberry-pi-rp2040
-    image: https://www.jeffgeerling.com/sites/default/files/images/radxa-x4-top.jpeg
+    title: What happens when you touch a Pickle to an AM radio tower?
+    url: https://www.jeffgeerling.com/blog/2024/what-happens-when-you-touch-pickle-am-radio-tower
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test PetKit Eversweet Max  - de l’eau propre même hors réseau
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-petkit-eversweet-max-fontaine-eau-chien-chat/#utm_source=rss&utm_medium=rss&utm_campaign=test-petkit-eversweet-max-fontaine-eau-chien-chat
+    title: Amazon Alexa accusée de favoriser un candidat aux élections américaines
+    url: https://www.lesalexiens.fr/actualites/amazon-alexa-accusee-de-favoriser-un-candidat-aux-elections-americaines/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-accusee-de-favoriser-un-candidat-aux-elections-americaines
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du dongle USB Z-Wave+ série 800 Zooz ZST39 sous Home Assistant
-    url: https://blog.domadoo.fr/106113-dongle-usb-z-wave-zooz-zst39/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/05/couverture-1024x640.png
+    title: Découverte du module Zigbee Nous B2Z contact sec On/Off et suivi de consommation
+    url: https://blog.domadoo.fr/107836-nous-b2z-zigbe-3-0e-contact-sec-suivi-conso/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/nous-b2z-module-zigbee-on-off-conso-1080x675-PRESS-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Anker Smart Meter avec le Solarbank 2 Pro
-    url: https://blog.nord-domotique.com/test-anker-smart-meter/
+    title: Présentatation et Test du Jigoo C300
+    url: https://blog.nord-domotique.com/presentatation-et-test-du-jigoo-c300/
     image: 
 Abavala:
   fr_FR:
@@ -52,16 +41,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Assurance multirisque habitation  - est-ce nécessaire pour un appartement
-      ?
-    url: https://www.maison-et-domotique.com/148571-assurance-appartement-multirisque-habitation-necessaire/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/08/creative-arrangement-family-concept-700x500.jpg
+    title: 'EcoFlow dévoile 4 nouvelles séries de stations électriques portables,
+      dont la DELTA Pro 3 ! #IFA2024'
+    url: https://www.maison-et-domotique.com/148744-ecoflow-ifa-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/ecoflow-ifa2024-9-702x402.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Mixtile Edge 2 Kit review with Home Assistant, 2-in-1 Zigbee & Z-Wave mPCIe
-      module
-    url: https://www.cnx-software.com/2024/08/14/mixtile-edge-2-kit-review-with-home-assistant-2-in-1-zigbee-z-wave-mpcie-module/
+    title: Product Security Executive One-Pager
+    url: https://csa-iot.org/wp-content/uploads/2024/09/Product-Security-Executive-One-Pager.pdf
     image: 
 Kincony:
   en_GB:
