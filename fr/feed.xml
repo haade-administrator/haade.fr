@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Sep 2024 05:06:32 +0200</pubDate>
-    <lastBuildDate>Sat, 24 Aug 2024 19:33:00 +0200</lastBuildDate>
+    <pubDate>Mon, 09 Sep 2024 19:01:07 +0200</pubDate>
+    <lastBuildDate>Mon, 09 Sep 2024 18:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.3</generator>
+    <item>
+      <title>Test deshumidificateur Comfee Easy Dry 20</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test du déshumidificateur Easy dry 20 deux en un avec fonction ioniseur et intégration dans l&apos;assistant domotique Home Assistant.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png" alt="Test deshumidificateur Comfee Easy Dry 20">
+</picture>
+
+      <p>Suite à une saison 2024 très pluvieuse, je me suis retrouvé avec un taux d’humidité et de la moisissure dans la cave. Alors je me suis mis en quête de l’achat d’un déshumidificateur. Et je voulais qu’il soit compatible avec mon assistant préféré Home Assistant.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant">Test deshumidificateur Comfee Easy Dry 20</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 09 Sep 2024 18:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant</guid>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test du controlleur d&apos;arrosage Saswell SAS980 Zigbee</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +247,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Test du compteur d&apos;énergie Sonoff Pow Ring POWCT</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Nouveau compteur d&apos;énergie intelligent du marché, le Sonoff Pow Ring POWCT propose une mesure de l&apos;énergie externe, un affichage digital, une antenne wifi déporté de qui exploiter au mieux sa consommation d&apos;énergie</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/129/sonoff-pow-ring-powct-mesure-energie-intelligent-wifi-720-a3cd1a997.png" alt="Test du compteur d'énergie Sonoff Pow Ring POWCT">
-</picture>
-
-      <p>Aujourd’hui j’ai la chance de tester le compteur d’énergie intelligent 100A, le Sonoff Pow ring POWCT, ce n’est pas le premier compteur Sonoff que je teste, il y a quelques temps j’ai pu tester le pow elite 16A et l’intégrer à SonoffLAN, d’ailleurs j’ai renouvellé l’expérience avec le POWCT.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie">Test du compteur d'énergie Sonoff Pow Ring POWCT</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 10 Jun 2024 14:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/sonoff-pow-ring-powct-tests-compteur-energie</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Wifi]]></category>
     </item>
   </channel>
 </rss>
