@@ -17,14 +17,14 @@ les-Alexiens:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du module Zigbee Nous B2Z contact sec On/Off et suivi de consommation
-    url: https://blog.domadoo.fr/107836-nous-b2z-zigbe-3-0e-contact-sec-suivi-conso/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/07/nous-b2z-module-zigbee-on-off-conso-1080x675-PRESS-1024x640.png
+    title: Aqara dévoile de nouveaux produits à l’IFA 2024
+    url: https://blog.domadoo.fr/108714-nouveautes-aqara-ifa-2024/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/Aqara_IFA_2024-1024x619.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Présentatation et Test du Jigoo C300
-    url: https://blog.nord-domotique.com/presentatation-et-test-du-jigoo-c300/
+    title: Test de la commande intelligente de Climatiseur Netatmo
+    url: https://blog.nord-domotique.com/test-commande-climatiseur-netatmo/
     image: 
 Abavala:
   fr_FR:
@@ -41,15 +41,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'EcoFlow dévoile 4 nouvelles séries de stations électriques portables,
-      dont la DELTA Pro 3 ! #IFA2024'
-    url: https://www.maison-et-domotique.com/148744-ecoflow-ifa-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/ecoflow-ifa2024-9-702x402.jpg
+    title: L’iPhone 16 est là, vive l’iPhone 15 Pro Max !
+    url: https://www.maison-et-domotique.com/148817-iphone-15-pro-max-bon-plan/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/bon-plan-iphone-702x367.png
 Matter:
   en_GB:
   - name: Matter
-    title: Product Security Executive One-Pager
-    url: https://csa-iot.org/wp-content/uploads/2024/09/Product-Security-Executive-One-Pager.pdf
+    title: Matter Real House
+    url: https://csa-iot.org/wp-content/uploads/2024/09/News-Release-for-Matter-Real-House-Mandarin.pdf
     image: 
 Kincony:
   en_GB:
