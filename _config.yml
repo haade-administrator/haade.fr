@@ -19,6 +19,10 @@ words_per_minute: 180
 #https://formsubmit.co/
 formsubmitco: 'db65ec0e1e884cf4b77b96fa7ce5d63e'
 
+# regenerate only files change "experimental"
+
+incremental: true
+
 #socialnetwork
 social:
   discord: 'FaK6MuZ2'
