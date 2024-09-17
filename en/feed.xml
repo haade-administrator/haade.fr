@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Sep 2024 05:03:02 +0200</pubDate>
+    <pubDate>Tue, 17 Sep 2024 04:32:04 +0200</pubDate>
     <lastBuildDate>Mon, 09 Sep 2024 18:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -24,7 +24,7 @@
           <width>32</width>
             <height>32</height>
     </image>
-    <generator>Jekyll v4.3.3</generator>
+    <generator>Jekyll v4.3.4</generator>
     <item>
       <title>Comfee Easy Dry 20 dehumidifier test</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
