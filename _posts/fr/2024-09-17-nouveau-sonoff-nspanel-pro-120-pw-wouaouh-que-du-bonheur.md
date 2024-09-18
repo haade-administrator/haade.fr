@@ -27,11 +27,24 @@ sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/
 ---
 
+Encore un article attendu, vu le nombre de vente réalisé par itead et du nspanel pro ça ne m'étonne pas. Voilà j'ai reçu en test le nouveau NSPanel pro 120 fournis par itead et je les en remercie. J'ai réalisé quelques tests et fait un comparatif avec le NSPanel pro 86 et tu verras que les différences ne sont pas des moindres.
+
 ## Déballage {{ page.ref }}
+
+Le packaging est relativement similaire au NSPanel Pro, du coup bien emballé qui permet d'éviter la casse lors des transports.
 
 {% picture posts/{{ page.guid }}/deballage-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Déballage du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/tour-horizon-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Tour d'horizon du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel-contraste-ameliore.png --alt comparatif de l'affichage et du contraste du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/comparatif-affichage-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif de l'affichage du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/appel-direct-entre-2-nspanel-audio-video.png --alt fonction d'appels en direct audio et vidéo entre 2 nspanel --img width="940" height="529" %}
+
 
 ## Mise à jour NSPanel Pro
 
