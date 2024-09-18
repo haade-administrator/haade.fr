@@ -27,23 +27,54 @@ sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/
 ---
 
-Encore un article attendu, vu le nombre de vente réalisé par itead et du nspanel pro ça ne m'étonne pas. Voilà j'ai reçu en test le nouveau NSPanel pro 120 fournis par itead et je les en remercie. J'ai réalisé quelques tests et fait un comparatif avec le NSPanel pro 86 et tu verras que les différences ne sont pas des moindres.
+Encore un article attendu, vu le nombre de ventes réalisées par itead concernant le nspanel pro, **ça ne m'étonne pas**. Voilà j'ai reçu en test le nouveau NSPanel pro 120 fournis par itead et je les en remercie. J'ai réalisé quelques tests et fait un comparatif avec le NSPanel pro 86 et tu verras que les différences ne sont pas des moindres.
 
 ## Déballage {{ page.ref }}
 
-Le packaging est relativement similaire au NSPanel Pro, du coup bien emballé qui permet d'éviter la casse lors des transports.
+Le packaging est relativement similaire au NSPanel Pro, du coup bien emballé qui permet d'éviter la casse lors des transports. La mousse noire de protection de l'écran est désormais collée sur le carton.
 
 {% picture posts/{{ page.guid }}/deballage-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Déballage du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
 
+Le Sonoff {{ page.ref }} est de très bonne qualité je n'ai rien à redire, tu seras satisfait du produit une fois sorti du blister, toujours livré avec une notice et un kit de deux visses pour l'installer.
+
+> Attention l'emplacement des visses et aux normes américaines, le reste est aux normes européennes.
+
 {% picture posts/{{ page.guid }}/tour-horizon-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Tour d'horizon du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
 
+Comparons le NSPanel pro 86 et 120. Mise à par les dimensions totalement différentes, on trouvera d'autre points divergents:
+
+1. l'épaisseur de l'écran est plus importante sur le {{ page.ref }}
+2. il n'y a de module de protection protegeant le branchement sur le {{ page.ref }}
+3. la partie éléctrique qui sera encastrée dans la boite d'encastrement est légèrement moins imposante sur le {{ page.ref }} et c'est une bonne chose.
+4. La profondeur totale est similaire entre les deux produits.
+
 {% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
+
+Passons à la qualité d'affichage car là aussi il y a une différence, alors je dois te l'avouer ce n'est pas si flagrant sur les photos. 
+Mais pour un même réglage de contraste entre les deux produits, le {{ page.ref }} offre une profondeur lumineuse et de contraste supérieur au NSPanel Pro 86.
 
 {% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel-contraste-ameliore.png --alt comparatif de l'affichage et du contraste du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/comparatif-affichage-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif de l'affichage du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/appel-direct-entre-2-nspanel-audio-video.png --alt fonction d'appels en direct audio et vidéo entre 2 nspanel --img width="940" height="529" %}
+
+## Caractéristiques techniques
+
+|Couleur|Gris foncé, Blanc|
+|Modèle|NSPanel120PW, NSPanel120PB|
+|Taille de l'écran|4,7"|
+|Résolution de l'écran|750×1334|
+|Évaluation|100-240V~50/60Hz 0,15A MAX|
+|CPU|CPU ARM Cortex-A35 à quatre cœurs|
+|GPU|GPU Mali G31-2EE|
+|Connectivité sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, Zigbee 3.0|
+|Humidité de fonctionnement|5%~90%RH, sans condensation|
+|Température de fonctionnement|0°C-40°C|
+|Matériaux du boîtier|PC V0+CRS+Panneau en verre trempé|
+|Dimension|122,5×74,5×39,5 mm|
+|ID FCC|2APN5PANELPRO120|
+|IC|29127-PANELPRO120|
 
 
 ## Mise à jour NSPanel Pro
