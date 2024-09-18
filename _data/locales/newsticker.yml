@@ -11,15 +11,16 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon Alexa accusée de favoriser un candidat aux élections américaines
-    url: https://www.lesalexiens.fr/actualites/amazon-alexa-accusee-de-favoriser-un-candidat-aux-elections-americaines/#utm_source=rss&utm_medium=rss&utm_campaign=amazon-alexa-accusee-de-favoriser-un-candidat-aux-elections-americaines
+    title: Un patient contrôle Alexa par la pensée grâce à un implant cérébral
+    url: https://www.lesalexiens.fr/actualites/un-patient-controle-alexa-par-la-pensee-grace-a-un-implant-cerebral/#utm_source=rss&utm_medium=rss&utm_campaign=un-patient-controle-alexa-par-la-pensee-grace-a-un-implant-cerebral
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara dévoile de nouveaux produits à l’IFA 2024
-    url: https://blog.domadoo.fr/108714-nouveautes-aqara-ifa-2024/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/Aqara_IFA_2024-1024x619.webp
+    title: Thread 1.4 apporte une interopérabilité améliorée et de meilleures performances
+      réseau
+    url: https://blog.domadoo.fr/108711-thread-1-4-interoperabilite-amelioree/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/thread-1-4-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -41,18 +42,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: L’iPhone 16 est là, vive l’iPhone 15 Pro Max !
-    url: https://www.maison-et-domotique.com/148817-iphone-15-pro-max-bon-plan/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/bon-plan-iphone-702x367.png
+    title: Nouvelle série Navimow X3 - le robot tondeuse qui gère jusqu’à 10 000m2
+      !
+    url: https://www.maison-et-domotique.com/148893-nouvelle-serie-segway-navimow-x3/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/section-04-5-702x443.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Matter Real House
-    url: https://csa-iot.org/wp-content/uploads/2024/09/News-Release-for-Matter-Real-House-Mandarin.pdf
+    title: IoT Spotlights - New Solutions Manage Smart Homes, Tracking, and Energy
+    url: https://www.allaboutcircuits.com/news/iot-spotlights-new-solutions-manage-smart-homes-tracking-energy/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony ALR ESP32-S3 LoRa SX1278 Gateway released
-    url: https://www.kincony.com/kincony-alr-esp32-s3-lora-sx1278-gateway.html
+    title: KinCony Video campaign - Share Your Project, Earn Rewards!
+    url: https://www.kincony.com/video-campaign.html
     image:
