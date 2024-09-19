@@ -82,8 +82,6 @@ On en parle moins, car en général on ne possède que un NSPanel par habitation
 |Température de fonctionnement|0°C-40°C|
 |Matériaux du boîtier|PC V0+CRS+Panneau en verre trempé|
 |Dimension|122,5×74,5×39,5 mm|
-|ID FCC|2APN5PANELPRO120|
-|IC|29127-PANELPRO120|
 
 **Les + du produit:**{: .blue}
 
