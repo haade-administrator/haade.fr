@@ -62,8 +62,6 @@ Petite image de **présentation avec le support plastique Sonoff**, si tu veux l
 |Température de fonctionnement|0°C-40°C|
 |Matériaux du boîtier|PC V0+CRS+Panneau en verre trempé|
 |Dimension|122,5×74,5×39,5 mm|
-|ID FCC|2APN5PANELPRO120|
-|IC|29127-PANELPRO120|
 
 ## Comparatif NSPanel PRO 86 et 12
 
