@@ -21,7 +21,7 @@ sitemap:
 locale: en_GB
 addViews: 82
 comments: true
-rating: 3.5
+rating: 3.8
 sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel/ref/122/
   - https://blakadder.com/nspanel-pro/
