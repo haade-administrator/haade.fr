@@ -1,11 +1,11 @@
 ---
 guid: 140
-title: "Nouveau Nspanel Pro 12 WOUAOUH !"
+title: "Nouveau Nspanel Pro 120 WOUAOUH !"
 description: "Un test attendu avec impatience celui du tout nouveau sonoff Nspanel pro 120 PW, un format qui fait l'unanimité mais il n'y a pas que la taille qui compte. Je vais tu t'en doute le comparer au NsPanel Pro 86"
 ref: "Nspanel pro 120 PW"
 layout: post
 authors: [Nico]
-date: 2024-09-17 18:15
+date: 2024-09-22 10:00
 last_modified_at: 
 categories: [Domotique, Haade-lab, Tests]
 tags: []
@@ -13,7 +13,7 @@ video:
 image: 'nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -27,47 +27,27 @@ sourcelink:
   - https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/
 ---
 
-Encore un article attendu, vu le nombre de ventes réalisées par itead concernant le nspanel pro, **ça ne m'étonne pas**. Voilà j'ai reçu en test le nouveau NSPanel pro 120 fournis par itead et je les en remercie. J'ai réalisé quelques tests et fait un comparatif avec le NSPanel pro 86 et tu verras que les différences ne sont pas des moindres.
+Encore un article attendu, vu le nombre de ventes réalisées par itead concernant le nspanel pro, **ça ne m'étonne pas**. Voilà j'ai reçu en test le nouveau NSPanel pro 120 **fourni par itead** et je les en remercie. J'ai réalisé quelques tests et fait un comparatif avec le NSPanel pro 86 et tu verras que les différences ne sont pas des moindres.
 
 {% include product-embed.html image="sonoff-nspanel-pro-120-PW-en-vente.png" title="NSPanel Pro 120 PW" brand="Sonoff" description="Découvre le tout nouveau Sonoff NSPanel Pro 120 compatible wifi et zigbee un produit à avoir !" iteadlink="sonoff-nspanel-pro-smart-home-control-panel-120-type" %}
 
+{% picture posts/{{ page.guid }}/nouveau-nspanel-pro-120-avec-support-sonoff.png --alt Nouveau Sonoff NSPanel Pro 120 avec son support plastique --img width="940" height="529" %}
+
+{%- include alert.html type="info" text="Pour la sortie du NSPanel Pro, Itead fait des remises exceptionnelles il est temps d'en profiter." link="https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/" textlink="Offre Itead sur le nouveau Sonoff NSPanel 120" %}
+
 ## Déballage {{ page.ref }}
 
-Le packaging est relativement similaire au NSPanel Pro, du coup bien emballé qui permet d'éviter la casse lors des transports. La mousse noire de protection de l'écran est désormais collée sur le carton.
+Le packaging est relativement similaire au NSPanel Pro, du coup bien emballé **ce qui permet d'éviter la casse lors des transports**. La mousse noire de protection de l'écran est désormais collée sur le carton.
 
 {% picture posts/{{ page.guid }}/deballage-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Déballage du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
 
-## Tour d'horizon du {{ page.ref }}
-
-Le Sonoff {{ page.ref }} est de très bonne qualité je n'ai rien à redire, tu seras satisfait du produit une fois sorti du blister, toujours livré avec une notice et un kit de deux visses pour l'installer.
+Le Sonoff {{ page.ref }} est **de très bonne qualité** je n'ai rien à redire, tu seras satisfait du produit une fois sorti du blister, toujours livré avec une notice et un kit de deux visses pour l'installer.
 
 > Attention l'emplacement des visses et aux normes américaines, le reste est aux normes européennes.
 
 {% picture posts/{{ page.guid }}/tour-horizon-nouveau-nspanel-pro-120-wp-par-sonoff.png --alt Tour d'horizon du nouveau Sonoff NSPanel Pro 120 un sans faute pour la marque --img width="940" height="529" %}
 
-Petite image de présentation avec le support plastique Sonoff, si tu veux le poser sur un bureau afin de contrôler ta maison. Le support reste le même pour les deux versions 86 et 120.
-
-
-### Caractéristiques techniques
-
-|Couleur|Gris foncé, Blanc|
-|Modèle|NSPanel 120PW, NSPanel 120PB|
-|Taille de l'écran|4,7"|
-|Résolution de l'écran|750×1334|
-|Évaluation|100-240V~50/60Hz 0,15A MAX|
-|CPU|CPU ARM Cortex-A35 à quatre cœurs|
-|GPU|GPU Mali G31-2EE|
-|Connectivité sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, Zigbee 3.0|
-|Humidité de fonctionnement|5%~90%RH, sans condensation|
-|Température de fonctionnement|0°C-40°C|
-|Matériaux du boîtier|PC V0+CRS+Panneau en verre trempé|
-|Dimension|122,5×74,5×39,5 mm|
-|ID FCC|2APN5PANELPRO120|
-|IC|29127-PANELPRO120|
-
-## Comparatif NSPanel PRO 86 et 12
-
-Comparons le NSPanel pro 86 et 120. Mise à par les dimensions totalement différentes, on **trouvera d'autre points divergents:**
+**Comparons le NSPanel pro 86 et 120**. Mise à par les dimensions totalement différentes, on **trouvera d'autre points divergents:**
 
 1. l'épaisseur de l'écran est plus importante sur le {{ page.ref }}
 2. il n'y a de module de protection protegeant le branchement sur le {{ page.ref }}
@@ -77,41 +57,38 @@ Comparons le NSPanel pro 86 et 120. Mise à par les dimensions totalement diffé
 
 {% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
 
-Passons à la qualité d'affichage car là aussi il y a une différence, alors je dois te l'avouer ce n'est pas si flagrant sur les photos. 
+## Et l'écran dans tout ça ?
+
+Passons **à la qualité d'affichage** car là aussi il y a une différence, alors je dois te l'avouer ce n'est pas si flagrant sur les photos. 
 Mais pour un même réglage de contraste entre les deux produits, le {{ page.ref }} offre une profondeur lumineuse et un contraste supérieur au NSPanel Pro 86.
 
 {% picture posts/{{ page.guid }}/comparatif-nspanel-pro-120-et-nspanel-pro-86-traditionnel-contraste-ameliore.png --alt comparatif de l'affichage et du contraste du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
 
-Grande nouveauté du firmware V3.5.0, est l'adaptation de l'option portrait/paysage uniquement disponible sur la version 120, tu ne l'a retrouvera pas sur la version 86.
+Grande nouveauté du firmware V3.5.0, est l'adaptation de **l'option portrait/paysage uniquement disponible sur la version 120**, tu ne l'a retrouvera pas sur la version 86.
 
 Sur l'image ci-dessous j'ai pris des captures des deux modes d'affichages disponible. Ainsi tu pourras te rendre compte de l'avantage d'avoir un écra plus large. Aussi comme marqué plus haut sur ces photos on notera un contraste et une profondeur améliorés sur le {{ page.ref }}.
 
 {% picture posts/{{ page.guid }}/comparatif-affichage-nspanel-pro-120-et-nspanel-pro-86-traditionnel.png --alt comparatif de l'affichage du nouveau Sonoff NSPanel Pro 120 et du nspanel pro 86 --img width="940" height="529" %}
 
-On en parle moins, car en général on ne possède que un NSPanel par habitation, mais il est possible de communiquer directement entre plusieurs NSPanel via l'interface téléphonique, idéal pour les grands bâtiments ou si l'on possède un NSPanel par pièces. Ça peut faire gadget à première vue mais l'option reste néanmoins intéressante.
+On en parle moins, car en général on ne possède que un NSPanel par habitation, **mais il est possible de communiquer directement entre plusieurs NSPanel via l'interface téléphonique**, idéal pour les grands bâtiments ou si l'on possède un NSPanel par pièces. Ça peut faire gadget à première vue mais l'option reste néanmoins intéressante.
 
 {% picture posts/{{ page.guid }}/appel-direct-entre-2-nspanel-audio-video.png --alt fonction d'appels en direct audio et vidéo entre 2 nspanel --img width="940" height="529" %}
 
+## Support Sonoff {{ page.ref }}
 
-**Les + du produit:**{: .blue}
+Si pour X raison tu ne peux pas l'installer sur un support mural, Sonoff propose un **support plastique et c'est le même depuis un certain temps**, dispo en anthracite ou en blanc ce support est compatible avec les version 86 et 120 du NSPanel et NSPanel Pro. Super pour mettrre sur une table de chevet par exemple.
 
-- Le design
-- Nouveau format
-- compatible produits Sonoff
-- la qualité du contraste et de la luminosité
-- la qualité des matériaux utilisés
+{% picture posts/{{ page.guid }}/fixation-du-nouveau-nspanel-pro-120-avec-support-sonoff.png --alt fixation sur support Sonoff du NSPanel pro 120 --img width="940" height="529" %}
 
-**Les - du produit:**{: .red}
-
-- fermé au système Sonoff pour le moment
-- le prix plus de 100$
-- fixation au format interrupteur US
-- Système Android
-
+{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/08/Stand_1000x1000px_01.jpg?fit=1000%2C1000&ssl=1" title="Boitier pour Controleur Nspanel" brand="Sonoff" description="Boitier pour Controleur Sonoff Nspanel Pro, Nspanel en version eu ou us" domlink="accessoires-electriques/6616-sonoff-support-de-boitier-de-bureau-pour-nspanel-et-nspanelpro-noir.html" iteadlink="enclosure-stand" %}
 
 ## Mise à jour NSPanel Pro
 
+{% picture posts/{{ page.guid }}/version-3-5-du-nouveau-nspanel-pro-120-avec-support-sonoff.png --alt version 3.5.0 du NSPanel Pro 86 et 120 --img width="940" height="529" %}
+
 Depuis les premiers jours du NSPanel Pro, Sonoff technology publie une dizaine de mise à jour par an, en moyenne, ce qui nous emmènent à la version 3.5.0 au mois de Septembre 2024.
+
+### Quels sont les nouveautés depuis la version 3.0
 
 **V3.5.0 (14 septembre 2024)**
 
@@ -135,7 +112,7 @@ Depuis les premiers jours du NSPanel Pro, Sonoff technology publie une dizaine d
 
 **V3.3.0 (juillet. 9 juin 2024)**
 
-1. Prise en charge de la vanne d'eau intelligente Zigbee SONOFF SWV.
+1. Prise en charge de la **vanne d'eau intelligente Zigbee SONOFF SWV**.
 2. Prise en charge du capteur de présence humaine Matter et de l'interrupteur sans fil Matter.
 3. Réglez l'appareil d'action automatiquement sur marche/arrêt/maintien lors de la désactivation du thermostat.
 4. Le widget de l'écran d'accueil peut sélectionner la caméra ou la minuterie. (L'application nécessite la version 5.8 ou supérieure)
@@ -148,27 +125,56 @@ Depuis les premiers jours du NSPanel Pro, Sonoff technology publie une dizaine d
 **V3.1.0 (9 mai 2024)**
 
 
-1. Optimisation de l'expérience interactive de la nouvelle interface utilisateur
+1. **Optimisation de l'expérience interactive** de la nouvelle interface utilisateur
 
 **V3.0.1 (avril 15, 2024)**
 
 1. Correction du problème d'affichage anormal de la température et de l'humidité sur l'écran d'accueil
 2. Optimisation de la vitesse de chargement du centre de notifications
-3. Correction de la situation anormale après l'ajout de l'appareil Matter
+3. Correction de la situation anormale **après l'ajout de l'appareil Matter**
 
 [Lien direct à la page des versions](https://sonoff.tech/product-review/product-insight/sonoff-nspanel-pro-version-update-information-and-faq/){: target="_blank"}
 
-{% include product-embed.html image="sonoff-nspanel-pro-120-PW-en-vente.png" title="NSPanel Pro 120 PW" brand="Sonoff" description="Découvre le tout nouveau Sonoff NSPanel Pro 120 compatible wifi et zigbee un produit à avoir !" iteadlink="sonoff-nspanel-pro-smart-home-control-panel-120-type" %}
+{% picture posts/{{ page.guid }}/evolution-mise-a-jour-du-nouveau-nspanel-pro-120-avec-support-sonoff.png --alt mise à jour du NSPanel Pro 120 --img width="940" height="529" %}
 
-{%- include alert.html type="info" text="Pour la sortie du NSPanel Pro, Itead fait des remises exceptionnelles il est temps d'en profiter." link="https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/" textlink="Offre Itead sur le nouveau Sonoff NSPanel 120" %}
+## Caractéristiques techniques
+
+|Couleur|Gris foncé, Blanc|
+|Modèle|NSPanel 120PW, NSPanel 120PB|
+|Taille de l'écran|4,7"|
+|Résolution de l'écran|750×1334|
+|Évaluation|100-240V~50/60Hz 0,15A MAX|
+|CPU|CPU ARM Cortex-A35 à quatre cœurs|
+|GPU|GPU Mali G31-2EE|
+|Connectivité sans fil|Wi-Fi IEEE 802.11 b/g/n 2,4 GHz, Zigbee 3.0|
+|Humidité de fonctionnement|5%~90%RH, sans condensation|
+|Température de fonctionnement|0°C-40°C|
+|Matériaux du boîtier|PC V0+CRS+Panneau en verre trempé|
+|Dimension|122,5×74,5×39,5 mm|
+
+**Les + du produit:**{: .blue}
+
+- Le design
+- Nouveau format
+- compatible produits Sonoff
+- la qualité du **contraste et de la luminosité**
+- la qualité des matériaux utilisés
+
+**Les - du produit:**{: .red}
+
+- fermé au système Sonoff pour le moment
+- le prix **plus de 100$**
+- fixation au format interrupteur US
+- Système Android
+
+{% include product-embed.html image="sonoff-nspanel-pro-120-PW-en-vente.png" title="NSPanel Pro 120 PW" brand="Sonoff" description="Découvre le tout nouveau Sonoff NSPanel Pro 120 compatible wifi et zigbee un produit à avoir !" iteadlink="sonoff-nspanel-pro-smart-home-control-panel-120-type" %}
 
 ## Conclusion
 
-Pas de surprise le {{ page.ref }} offre des atouts indéniables, les 4,7'' de l'écran sont un réels plus, la qualité de la dalle a été revu avec des contrastes plus marqués. Sul bémol est la position des fixations qui ne sont pas compatibles avec les boites d'encastrements européennes. 
+Bon je ne te le cache pas, si tu hésites entre le NSPanel pro classique (86) et le nouveau {{ page.ref }}, **mon choix est fait et c'est le 120 qui l'emporte**, normal, affichage plus grand et contraste amélioré. Pas de surprise le {{ page.ref }} offre des atouts indéniables, les 4,7'' de l'écran sont un réels plus, la qualité de la dalle a été revu avec des contrastes plus marqués. Sul bémol est la position des fixations qui ne sont pas compatibles avec les boites d'encastrements européennes. 
 
-> Toujours pas d'interactions avec les box Domotiques Opensources.
+> Toujours pas **d'interactions avec les box Domotiques Opensources**.
 
 Pour le reste tout est nickel.
 
-
-
+{%- include alert.html type="info" text="Pour la sortie du NSPanel Pro, Itead fait des remises exceptionnelles il est temps d'en profiter." link="https://itead.cc/product/sonoff-nspanel-pro-smart-home-control-panel-120-type/ref/122/" textlink="Offre Itead sur le nouveau Sonoff NSPanel 120" %}
