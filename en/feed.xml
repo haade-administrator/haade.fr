@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 22 Sep 2024 05:03:11 +0200</pubDate>
-    <lastBuildDate>Mon, 09 Sep 2024 18:00:00 +0200</lastBuildDate>
+    <pubDate>Sun, 22 Sep 2024 10:27:17 +0200</pubDate>
+    <lastBuildDate>Sun, 22 Sep 2024 10:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>New Nspanel Pro 120 WOW!</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>A test eagerly awaited that of the brand new sonoff Nspanel pro 120 PW, a format that is unanimous but it is not only the size that counts. I will, you guessed it, compare it to the NsPanel Pro 86</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png" alt="New Nspanel Pro 120 WOW!">
+</picture>
+
+      <p>Another expected article, given the number of sales made by itead concerning the nspanel pro, it doesn’t surprise me. Here I received for testing the new NSPanel pro 120 provided by itead and I thank them for it. I carried out some tests and made a comparison with the NSPanel [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness">New Nspanel Pro 120 WOW!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 22 Sep 2024 10:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tests]]></category>
+    </item>
     <item>
       <title>Comfee Easy Dry 20 dehumidifier test</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +247,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Z-wave]]></category>
-    </item>
-    <item>
-      <title>Take full advantage of your FREE fiber optic subscription</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Fiber subscriptions are becoming more and more powerful and yet most of us do not use this bandwidth because our home network is equipped to use only 1Gbit/s, so how to best use your freebox ultra</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/130/equip-yourself-and-use-your-fiber-internet-subscription-to-the-limit-of-its-capacity-720-b729bd5d4.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/130/equip-yourself-and-use-your-fiber-internet-subscription-to-the-limit-of-its-capacity-720-b729bd5d4.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/130/equip-yourself-and-use-your-fiber-internet-subscription-to-the-limit-of-its-capacity-720-b729bd5d4.png" alt="Take full advantage of your FREE fiber optic subscription">
-</picture>
-
-      <p>Ah, I finally switched to fiber by Free at my home which announces a bandwidth of 8Gbit/s for downloading and sending data, no less. But there you go my current network only outputs 1Gbit/s on all the switches. Taking a closer look at the national results nperf I realized given [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/take-full-advantage-of-your-fiber-connection-at-home-with-the-freebox-ultra">Take full advantage of your FREE fiber optic subscription</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 15 Jun 2024 18:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/take-full-advantage-of-your-fiber-connection-at-home-with-the-freebox-ultra</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/take-full-advantage-of-your-fiber-connection-at-home-with-the-freebox-ultra</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
