@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Oct 2024 05:11:22 +0200</pubDate>
-    <lastBuildDate>Sun, 22 Sep 2024 10:00:00 +0200</lastBuildDate>
+    <pubDate>Tue, 01 Oct 2024 20:12:19 +0200</pubDate>
+    <lastBuildDate>Tue, 01 Oct 2024 18:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,32 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Domotique Home Assistant et économie de chauffage</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <dc:creator><![CDATA[August]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>August revient sur la vidéo du 28 Mars concernant l&apos;économie de chauffage et la domotique ça marche et apporte des chiffres sur sa consommation et ses économies réalisées depuis Février 2024</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Domotique Home Assistant et économie de chauffage">
+</picture>
+
+      <p>Après 9 mois d’installations, August revient faire le point sur la chaine youtube pour te parler de ses économies d’énergies réalisées grâce à une installation domotique Home Assistant.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan">Domotique Home Assistant et économie de chauffage</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</guid>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Nouveau Nspanel Pro 120 WOUAOUH !</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +250,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Securite]]></category>
-    </item>
-    <item>
-      <title>Test de l&apos;adapteur USB multi protocoles Z-Station Z-wave&gt;me</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je vais tester ce dongle référencé ZMEEZSTATION_ZW_ZB de la marque Z-Wave&gt;me le Z-station adaptateur USB et voir s&apos;il répond aux exigences opensources Zigbee2mqtt et ZwaveJS UI entre autres</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/131/test-du-adaptateur-dongle-usb-multi-protocoles-zwave-zigbee-thread-matter-ble-z-station-zwaveme-720-14158b406.png" alt="Test de l'adapteur USB multi protocoles Z-Station Z-wave>me">
-</picture>
-
-      <p>Une petite exclu sur le web, et oui je suis l’un des premiers à tester le nouveau superhero dongle de la marque ZWAVE&gt;ME, l’adaptateur USB multiprotocole le Z-STATION - ZMEEZSTATION_ZW_ZB compatible Zigbee/Z-wave/Thread/matter et même Bluetooth. Alors quand je dis le premier je parle en france et en référence d’un article [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse">Test de l'adapteur USB multi protocoles Z-Station Z-wave>me</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 23 Jun 2024 11:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-z-station-z-wave-me-adaptateur-multi-protocole-zigbee-z-wave-thread-matter-bluetooth-suisse</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Zigbee]]></category>
-      <category><![CDATA[Z-wave]]></category>
     </item>
   </channel>
 </rss>
