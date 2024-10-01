@@ -1,6 +1,6 @@
 ---
 guid: 141
-title: "Home Assistant home automation and heating saving"
+title: "Home Assistant - Automation and heating saving"
 description: "August returns to the video of March 28 concerning heating savings and home automation works and provides figures on its consumption and savings made since February 2024"
 ref: ""
 layout: post
