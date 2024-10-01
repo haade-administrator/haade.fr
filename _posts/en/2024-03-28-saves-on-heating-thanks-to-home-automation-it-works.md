@@ -46,7 +46,7 @@ I **will detail the products used**, as well as the setup on Home Assistant. Thr
 
 {% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink="smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
 
-## Le matériel
+## The material
 
 At [August](/en/author-august/){: target="_blank"}, we decided to go with a [Home Assistant Green box](https://www.domadoo.fr/en/smart-home-gateway/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html?domid=39){: target="_blank"} with a [Skyconnect zigbee hub](https://www.domadoo.fr/en/smart-home-gateway/6938-zigbee-usb-dongle-home-assistant-skyconnect-nabu-casa-0794677011635.html?domid=39){: target="_blank"} to control zigbee modules. But you could also go with a [Sonoff ihost box with integrated Zigbee key](https://www.domadoo.fr/en/smart-home-gateway/6715-zigbee-30-wifi-home-automation-gateway-ihost-local-4gb-sonoff.html?domid=39){: target="_blank"} if you want to home automation certain aspects of your home, be careful with automation which will be more difficult to configure. **Indeed, the Home assistant green box** is compatible with the gigantic **Home assistant universe** and what's more, you participate in the opensource project by investing in their Boxes and keys, and I find that nice.
 
