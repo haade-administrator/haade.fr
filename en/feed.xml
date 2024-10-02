@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Oct 2024 20:12:19 +0200</pubDate>
+    <pubDate>Wed, 02 Oct 2024 04:57:20 +0200</pubDate>
     <lastBuildDate>Tue, 01 Oct 2024 18:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -26,7 +26,7 @@
     </image>
     <generator>Jekyll v4.3.4</generator>
     <item>
-      <title>Home Assistant home automation and heating saving</title>
+      <title>Home Assistant - Automation and heating saving</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
       <dc:creator><![CDATA[August]]></dc:creator>
       <description>
@@ -34,12 +34,12 @@
       <p>August returns to the video of March 28 concerning heating savings and home automation works and provides figures on its consumption and savings made since February 2024</p><picture>
   <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.webp 720w" type="image/webp">
   <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Home Assistant home automation and heating saving">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Home Assistant - Automation and heating saving">
 </picture>
 
       <p>After 9 months of installation, August returns to take stock of the youtube channel to talk to you about energy savings achieved thanks to a Home Assistant home automation installation.
 </p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment">Home Assistant home automation and heating saving</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment">Home Assistant - Automation and heating saving</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
       <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>

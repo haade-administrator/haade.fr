@@ -2,7 +2,7 @@
 var documents = [{
     "id": 0,
     "url": "/en/blog/home-automation-and-heating-saving-the-assessment",
-    "title": "Home Assistant home automation and heating saving",
+    "title": "Home Assistant - Automation and heating saving",
     "description": "01/10/2024 - August returns to the video of March 28 concerning heating savings and home automation works and provides figures on its consumption and savings made since February 2024",
     "tags": ""},{
     "id": 1,

@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Oct 2024 20:12:19 +0200</pubDate>
+    <pubDate>Wed, 02 Oct 2024 04:57:20 +0200</pubDate>
     <lastBuildDate>Tue, 01 Oct 2024 18:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -26,7 +26,7 @@
     </image>
     <generator>Jekyll v4.3.4</generator>
     <item>
-      <title>Domotique Home Assistant et économie de chauffage</title>
+      <title>Domotique - Home Assistant et économie de chauffage</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
       <dc:creator><![CDATA[August]]></dc:creator>
       <description>
@@ -34,12 +34,12 @@
       <p>August revient sur la vidéo du 28 Mars concernant l&apos;économie de chauffage et la domotique ça marche et apporte des chiffres sur sa consommation et ses économies réalisées depuis Février 2024</p><picture>
   <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.webp 720w" type="image/webp">
   <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Domotique Home Assistant et économie de chauffage">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Domotique - Home Assistant et économie de chauffage">
 </picture>
 
       <p>Après 9 mois d’installations, August revient faire le point sur la chaine youtube pour te parler de ses économies d’énergies réalisées grâce à une installation domotique Home Assistant.
 </p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan">Domotique Home Assistant et économie de chauffage</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan">Domotique - Home Assistant et économie de chauffage</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
       <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>

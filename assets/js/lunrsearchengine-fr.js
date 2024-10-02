@@ -2,7 +2,7 @@
 var documents = [{
     "id": 0,
     "url": "/fr/blog/domotique-et-economie-de-chauffage-le-bilan",
-    "title": "Domotique Home Assistant et économie de chauffage",
+    "title": "Domotique - Home Assistant et économie de chauffage",
     "description": "01/10/2024 - August revient sur la vidéo du 28 Mars concernant l'économie de chauffage et la domotique ça marche et apporte des chiffres sur sa consommation et ses économies réalisées depuis Février 2024",
     "tags": ""},{
     "id": 1,
