@@ -134,6 +134,10 @@ GEM
     octokit (4.25.1)
       faraday (>= 1, < 3)
       sawyer (~> 0.9)
+    open-uri (0.4.1)
+      stringio
+      time
+      uri
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     popper_js (1.16.1)
@@ -211,6 +215,8 @@ GEM
       unicode-display_width (>= 1.1.1, < 3)
     thor (1.3.2)
     tilt (2.4.0)
+    time (0.4.0)
+      date
     to_slug (1.0.8)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
@@ -236,6 +242,7 @@ DEPENDENCIES
   json
   kramdown
   net-http
+  open-uri
   rouge
   rss
   sanitize
