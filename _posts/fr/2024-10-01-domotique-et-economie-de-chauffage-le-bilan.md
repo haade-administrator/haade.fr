@@ -7,7 +7,7 @@ layout: post
 authors: [Nico, August]
 date: 2024-10-01 18:30
 last_modified_at: 
-categories: [Domotique, Haade-lab, Videos, News, Home-Assistant]
+categories: [Videos, Haade-lab, News, Home-Assistant]
 tags: []
 video: GSRyNPTgO04
 image: 'bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime.png'
