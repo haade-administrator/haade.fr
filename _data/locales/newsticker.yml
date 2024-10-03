@@ -5,28 +5,27 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: AVerMedia Live Gamer Portable 2 Plus - Can't record to microSD
-    url: https://www.jeffgeerling.com/blog/2024/avermedia-live-gamer-portable-2-plus-cant-record-microsd
-    image: 
+    title: Snapdragon Dev Kit for Windows - the fastest X Elite, tested
+    url: https://www.jeffgeerling.com/blog/2024/snapdragon-dev-kit-windows-fastest-x-elite-tested
+    image: https://www.jeffgeerling.com/sites/default/files/images/snapdragon-x-elite-dev-kit-for-windows-hero.jpeg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Guide Ring (2024)  - 6 appareils testés et approuvés avec Alexa et Echo
-      Show
-    url: https://www.lesalexiens.fr/actualites/guide-achat-ring-6-appareils-testes-approuves-2024/#utm_source=rss&utm_medium=rss&utm_campaign=guide-achat-ring-6-appareils-testes-approuves-2024
+    title: iRobot dévoile son nouveau robot Roomba Combo 2 Essential
+    url: https://www.lesalexiens.fr/actualites/irobot-devoile-son-nouveau-robot-roomba-combo-2-essential/#utm_source=rss&utm_medium=rss&utm_campaign=irobot-devoile-son-nouveau-robot-roomba-combo-2-essential
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de l’élégante et puissante box domotique Athom Homey Pro (Early
-      2023)
-    url: https://blog.domadoo.fr/108548-decouverte-nouvelle-box-homey-pro-athom/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/08/athom-homey-pro-3-1080x675-PRES-1024x640.png
+    title: Nabu Casa et Home Assistant rejoignent le conseil d’administration de la
+      Z-Wave Alliance
+    url: https://blog.domadoo.fr/108977-nabu-casa-home-assistant-z-wave-alliance/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/nabucasa-zwave-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Présentation et test du Zendure Ace 1500  - Un modèle polyvalent et puissant
-    url: https://blog.nord-domotique.com/test-zendure-ace-1500/
+    title: Présentation du Heatzy Cool le thermostat connecté pour PAC
+    url: https://blog.nord-domotique.com/test-heatzy-cool-thermostat-connecte-pac/
     image: 
 Abavala:
   fr_FR:
@@ -43,15 +42,16 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 10 objets connectés indispensables en cuisine !
-    url: https://www.maison-et-domotique.com/148827-10-objets-connectes-indispensables-en-cuisine/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/09/cuisine-lumina-blanc-vue-1-hd-version-web-702x496.jpg
+    title: Maison hantée 2.0  - Utilisez Home Assistant pour une expérience d’Halloween
+      connectée et terrifiante !
+    url: https://www.maison-et-domotique.com/148921-maison-hantee-halloween-home-assistant/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/dalle-2024-10-02-15-05-43-702x401.webp
 Matter:
   en_GB:
   - name: Matter
-    title: Compared - Aqara U50 vs U100 vs U200 – Good, better, best in Apple Home
-      security
-    url: https://appleinsider.com/articles/24/09/23/compared-aqara-u50-vs-u100-vs-u200good-better-best-in-apple-home-security
+    title: Matter - Enabling Universal Grid-Friendly Integration for Energy Smart
+      Appliances and more
+    url: https://csa-iot.org/newsroom/matter-enabling-universal-grid-friendly-integration-for-energy-smart-appliances-and-more/
     image: 
 Kincony:
   en_GB:
