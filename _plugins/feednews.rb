@@ -6,6 +6,7 @@ require 'sanitize'
 require 'rss'
 require 'fileutils'
 require 'nokogiri'
+require 'open-uri'
 
 # Méthode pour extraire l'URL de l'image depuis la description
 def extract_image_from_description(description)
