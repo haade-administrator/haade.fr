@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Oct 2024 04:59:43 +0200</pubDate>
-    <lastBuildDate>Tue, 01 Oct 2024 18:30:00 +0200</lastBuildDate>
+    <pubDate>Thu, 03 Oct 2024 21:37:09 +0200</pubDate>
+    <lastBuildDate>Thu, 03 Oct 2024 16:45:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Domotise ton chauffage avec Sonoff NSPanel Pro</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Lors d&apos;un Live Youtube nous allons tenter de domotiser l&apos;appartement d&apos;August avec des produits de l&apos;univers Sonoff, le tout piloté par le fameux NSPanel Pro 120 au firmware d&apos;origine, nous espérons vous voir nombreux et répondre à vos questions.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.png" alt="Domotise ton chauffage avec Sonoff NSPanel Pro">
+</picture>
+
+      <p>Pour aller plus loin dans notre démarche et pour ceux qui ne veulent pas investir dans une box domotique Home assistant, nous préparons un live qui aura lieu le 7 Novembre à 21h00. Nous allons essayer de domotiser le chauffage de August en utilisant seulement des Produits de la marque [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube">Domotise ton chauffage avec Sonoff NSPanel Pro</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 03 Oct 2024 16:45:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube</guid>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Domotique - Home Assistant et économie de chauffage</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -45,9 +67,8 @@
       <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>
       <link>https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
@@ -227,29 +248,6 @@
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Protocoles]]></category>
       <category><![CDATA[Z-wave]]></category>
-    </item>
-    <item>
-      <title>NAS performant et pas cher multi-services Proxmox</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Petit tutos comment fabriquer un NAS pas cher multi-disques d&apos;occasion grâce à Amazon renewed et installer un serveur VM proxmox pour OMV ou TrueNAS avec HomeAssistant OS et Frigate NVR</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png" alt="NAS performant et pas cher multi-services Proxmox">
-</picture>
-
-      <p>Tu trouveras sur internet plusieurs façons des NAS à base de mini-pc performant mais pour une performance équivalente à de l’intel i5 ou i7 les prix peuvent vite s’envoler. Ce type de tutos n’est pas le premier sur la toile mais je vais te proposer une façon simple de faire [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant">NAS performant et pas cher multi-services Proxmox</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 03 Jul 2024 21:20:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/fabriquer-un-nas-performant-et-pas-cher-amazon-renewed-et-proxmox-omv-truenas-home-assistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Securite]]></category>
     </item>
   </channel>
 </rss>
