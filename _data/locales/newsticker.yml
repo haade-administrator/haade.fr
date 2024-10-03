@@ -1,0 +1,61 @@
+docs_list_title:
+  fr_FR: Dernières Nouvelles
+  en_GB: Breaking News
+
+Jeff-Geerling:
+  en_GB:
+  - name: Jeff-Geerling
+    title: Snapdragon Dev Kit for Windows - the fastest X Elite, tested
+    url: https://www.jeffgeerling.com/blog/2024/snapdragon-dev-kit-windows-fastest-x-elite-tested
+    image: https://www.jeffgeerling.com/sites/default/files/images/snapdragon-x-elite-dev-kit-for-windows-hero.jpeg
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: iRobot dévoile son nouveau robot Roomba Combo 2 Essential
+    url: https://www.lesalexiens.fr/actualites/irobot-devoile-son-nouveau-robot-roomba-combo-2-essential/#utm_source=rss&utm_medium=rss&utm_campaign=irobot-devoile-son-nouveau-robot-roomba-combo-2-essential
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Nabu Casa et Home Assistant rejoignent le conseil d’administration de la
+      Z-Wave Alliance
+    url: https://blog.domadoo.fr/108977-nabu-casa-home-assistant-z-wave-alliance/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/nabucasa-zwave-1024x576.png
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Présentation du Heatzy Cool le thermostat connecté pour PAC
+    url: https://blog.nord-domotique.com/test-heatzy-cool-thermostat-connecte-pac/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: La Smart Home Homey rejoint le géant coréen LG
+    url: https://www.abavala.com/la-smart-home-homey-rejoint-le-geant-coreen-lg/
+    image: https://www.abavala.com/wp-content/uploads/LG-Homey-Athom-2024-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Maison hantée 2.0  - Utilisez Home Assistant pour une expérience d’Halloween
+      connectée et terrifiante !
+    url: https://www.maison-et-domotique.com/148921-maison-hantee-halloween-home-assistant/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/dalle-2024-10-02-15-05-43-702x401.webp
+Matter:
+  en_GB:
+  - name: Matter
+    title: Matter - Enabling Universal Grid-Friendly Integration for Energy Smart
+      Appliances and more
+    url: https://csa-iot.org/newsroom/matter-enabling-universal-grid-friendly-integration-for-energy-smart-appliances-and-more/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: KinCony B16M ESP32-S3 Smart Controller released
+    url: https://www.kincony.com/b16m-esp32-s3-smart-controller-released.html
+    image:
