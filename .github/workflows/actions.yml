@@ -49,7 +49,7 @@ jobs:
       - name: Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: latest
 
       - name: Install and Build
         run: |
@@ -72,7 +72,7 @@ jobs:
           bundle config set --local path 'vendor/bundle'
           bundle install && bundle update
           bundle exec jekyll clean
-          JEKYLL_ENV=production bundle exec jekyll build --trace
+          JEKYLL_ENV=production bundle exec jekyll build
 
 
       - name: Deploy 🚀
