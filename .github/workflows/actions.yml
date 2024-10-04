@@ -10,8 +10,6 @@ on:
 
 #    tags:
 #      - v1.*.*
-    paths-ignore:
-      - '_plugins/feednews.rb'
       
   schedule:
   - cron: "0 2 * * *"

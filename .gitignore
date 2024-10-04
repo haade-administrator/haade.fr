@@ -16,3 +16,7 @@ node_modules
 # package.json
 # package-lock.json
 
+# ignore files
+
+_plugins/feednews.rb
+
