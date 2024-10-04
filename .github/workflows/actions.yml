@@ -10,6 +10,8 @@ on:
 
 #    tags:
 #      - v1.*.*
+    paths-ignore:
+      - '_plugins/feednews.rb'
       
   schedule:
   - cron: "0 2 * * *"
@@ -18,8 +20,7 @@ on:
       - .gitignore
       - README.md
       - LICENSE.txt
-      - _drafts/
-      - _plugins/feednews.rb  
+      - _drafts/  
 
 env:
   LANG: "fr_FR.UTF-8"
