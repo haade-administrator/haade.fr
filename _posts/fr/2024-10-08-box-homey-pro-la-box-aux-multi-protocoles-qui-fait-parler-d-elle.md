@@ -13,7 +13,7 @@ video:
 image: 'athom-homey-pro-box-domotique-test.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
