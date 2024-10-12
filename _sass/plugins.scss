@@ -2805,3 +2805,69 @@ nav .navbar .links li {
 .plyr {
   border-radius: 15px;
 }
+
+// qrcode generaton jekyll-qr
+
+.qr-link {
+  display: flex;
+  border: 1px solid #ccc;
+  flex-wrap: nowrap;
+  margin: 50px auto;
+  max-width: 600px;
+  /* VIA CSS MATIC https://goo.gl/cIbnS */
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15); 
+  background-color: #ececec;
+
+.qrcode {
+  width: 100%;
+  max-width: 200px;
+}
+
+.qr-link-text {
+  
+}
+
+.qr-link-title {
+  font-size: 18px;
+  margin: 10px 0 10px 0;
+}
+
+.qr-link-text p {
+  font-size: .75em;
+  margin: 0 8px 0 0;
+}
+
+.qr-reallink {
+  color: #666;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+}
+
+@media (max-width: 670px) {
+
+  .qr-link {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 300px;
+    flex-direction: column;
+  
+    .qrcode {
+      margin: 0 auto;
+      max-width: 120px;
+    }
+
+    .qr-link-text {
+      text-align: center;
+      margin: 0 5px 10px 5px;
+
+    .qr-reallink {
+      font-size: 12px;
+      }
+    }
+  
+  }
+}

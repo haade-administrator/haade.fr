@@ -1,0 +1,12 @@
+{%- assign translate = site.data.locales.qrlink %}
+<div class="qr-link">
+  <div class="qrcode">
+    {% qr include.qrlink %}
+  </div>
+  <div class="qr-link-text">
+    <h4 class="qr-link-title">{{ translate.title[page.locale] }}</h4>
+    <p>{{ include.text }}</p>
+    <hr>
+    <a href="{{ include.qrlink }}" target="_blank" class="qr-reallink">{{ include.realtextlink }}</a>
+  </div>
+</div>
