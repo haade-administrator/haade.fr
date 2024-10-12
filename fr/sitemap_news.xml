@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-10-01T18:30:00+02:00</news:publication_date>
-          <news:title>Domotique - Home Assistant et économie de chauffage</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 

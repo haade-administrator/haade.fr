@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2024-10-01T18:30:00+02:00</news:publication_date>
-          <news:title>Home Assistant - Automation and heating saving</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
