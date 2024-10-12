@@ -5,7 +5,7 @@
   </div>
   <div class="qr-link-text">
     <h4 class="qr-link-title">{{ translate.title[page.locale] }}</h4>
-    <p>{{ include.text }}</p>
+    <p>{{ translate.text-before[page.locale] }} {{ include.text }} {{ translate.text-after[page.locale] }}</p>
     <hr>
     <a href="{{ include.qrlink }}" target="_blank" class="qr-reallink">{{ include.realtextlink }}</a>
   </div>

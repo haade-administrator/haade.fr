@@ -1,3 +1,11 @@
 title:
   fr_FR: Plus d'informations sur le Qrcode
   en_GB: More informations on Qrcode
+
+text-before:
+  fr_FR: Ce QRcode te permet de
+  en_GB: This QRcode allows you to
+
+text-after:
+  fr_FR: tu as le choix entre scanner ce QRcode depuis ton smartphone ou de cliquer directement sur le lien ci-dessous.
+  en_GB: you have the choice between scanning this QRcode from your smartphone or clicking directly on the link below.

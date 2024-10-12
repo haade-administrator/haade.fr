@@ -5,27 +5,27 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Snapdragon Dev Kit for Windows - the fastest X Elite, tested
-    url: https://www.jeffgeerling.com/blog/2024/snapdragon-dev-kit-windows-fastest-x-elite-tested
-    image: https://www.jeffgeerling.com/sites/default/files/images/snapdragon-x-elite-dev-kit-for-windows-hero.jpeg
+    title: Realizing Meshtastic's Promise with the T-Deck
+    url: https://www.jeffgeerling.com/blog/2024/realizing-meshtastics-promise-t-deck
+    image: https://www.jeffgeerling.com/sites/default/files/images/lilygo-t-deck-on-workbench-new-firmware.jpeg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: iRobot dévoile son nouveau robot Roomba Combo 2 Essential
-    url: https://www.lesalexiens.fr/actualites/irobot-devoile-son-nouveau-robot-roomba-combo-2-essential/#utm_source=rss&utm_medium=rss&utm_campaign=irobot-devoile-son-nouveau-robot-roomba-combo-2-essential
+    title: Philips Hue prolonge ses offres Prime Day ce week-end
+    url: https://www.lesalexiens.fr/actualites/philips-hue-prolonge-ses-offres-prime-day-ce-week-end/#utm_source=rss&utm_medium=rss&utm_campaign=philips-hue-prolonge-ses-offres-prime-day-ce-week-end
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Nabu Casa et Home Assistant rejoignent le conseil d’administration de la
-      Z-Wave Alliance
-    url: https://blog.domadoo.fr/108977-nabu-casa-home-assistant-z-wave-alliance/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/nabucasa-zwave-1024x576.png
+    title: Découverte du nouveau OpenDTU Pro Max 130 sur Jeedom et Home Assistant
+    url: https://blog.domadoo.fr/109006-opendtu-pro-max-130-sur-jeedom-ha/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/OpenDTU-Pro-Max-130-1080x675-PRESS-1024x640.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Présentation du Heatzy Cool le thermostat connecté pour PAC
-    url: https://blog.nord-domotique.com/test-heatzy-cool-thermostat-connecte-pac/
+    title: Présentation et test du Zendure Hyper 2000  - Une solution d’énergie solaire
+      tout-en-un pour les particuliers
+    url: https://blog.nord-domotique.com/test-zendure-hyper-2000/
     image: 
 Abavala:
   fr_FR:
@@ -42,20 +42,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Maison hantée 2.0  - Utilisez Home Assistant pour une expérience d’Halloween
-      connectée et terrifiante !
-    url: https://www.maison-et-domotique.com/148921-maison-hantee-halloween-home-assistant/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/dalle-2024-10-02-15-05-43-702x401.webp
+    title: Jusqu’à -30% sur le stockage solaire Zendure pour faire fondre votre facture
+      d’électricité !
+    url: https://www.maison-et-domotique.com/149144-stockage-solaire-zendure-bon-plan-prime-day/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/461494526-122115202820499786-2541162926677806873-n-702x369.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Matter - Enabling Universal Grid-Friendly Integration for Energy Smart
-      Appliances and more
-    url: https://csa-iot.org/newsroom/matter-enabling-universal-grid-friendly-integration-for-energy-smart-appliances-and-more/
+    title: Securing the Future - Why Energy Smart Appliances Need Matter’s Framework
+    url: https://www.kudelski-iot.com/insights/securing-the-future-why-energy-smart-appliances-need-matters-framework
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony B16M ESP32-S3 Smart Controller released
-    url: https://www.kincony.com/b16m-esp32-s3-smart-controller-released.html
+    title: KinCony F16 ESP32-S3 16A Removable Relay Board released
+    url: https://www.kincony.com/esp32-s3-16a-removable-relay-board.html
     image:

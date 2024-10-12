@@ -44,7 +44,6 @@ plugins:
   - jekyll-figure
   - jekyll-gist
   - jekyll-redirect-from
-  - jekyll-qr
 
 
 # Set which comment system to use

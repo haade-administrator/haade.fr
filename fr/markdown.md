@@ -262,6 +262,12 @@ virer prism
 ajouter _syntax.scss à theme.scss
 ajouter codeblock.js à defaut.html et aussi à package.js
 
+# Onglet qrcode
+
+{% include qrlink.html qrlink="https://ton site web ou du texte" text="télécharger l'application Ewelink sur le playstore ou l'appstore" %}
+
+pour la partie texte: commencer le texte par un verbe car un texte avant et après sera intégré automatiquement: Ce QRcode te permet de ....... tu as le choix entre scanner ce QRcode depuis ton smartphone ou de cliquer directement sur le lien ci-dessous.
+
 # Exploiter megamenu
 
 Pour rajouter un sous menu il faut modifier navbar.js, menu.html et plugin.scss

@@ -17,11 +17,8 @@ toc: false
 ---
 
 - homeassistant paramétrage alarme
-- rhasspy
 - homeassistant présence
 - homeassistant zigbee2mqtt
-- zoneminder zmeventnotification mqtt homeassistant
-- homeassistant et zwave2mqtt
 - casaos un operating system intéressant [casaos](https://github.com/IceWhaleTech/CasaOS){: target="_blank"}
 - intégration et utilisation [frigate](https://frigate.video/){: target="_blank"} dans homeassistant 
 - hydroponic esp32-ha [led gardener](https://www.youtube.com/c/LEDGardener){: target="_blank"}
@@ -29,3 +26,8 @@ toc: false
 - Projet raspberry control piscine erp et ph avec ha [raspipool](https://github.com/virgilm/sparkly){: target="_blank"}
 - projet esp32 piscine et ha [esp32 pool](https://github.com/smurry/pool_controller){: target="_blank"}
 - [upgrader clé cc2652](https://www.zigbee2mqtt.io/guide/adapters/#notes){: target="_blank"}
+
+
+## 2024/10
+
+- News SMlight et Honeassistant release octobre 2024

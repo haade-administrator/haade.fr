@@ -28,6 +28,5 @@ group :jekyll_plugins do
     gem 'json'
     gem 'net-http'
     gem 'date'
-    gem 'jekyll-qr'
-
+    gem 'rqrcode'
 end
