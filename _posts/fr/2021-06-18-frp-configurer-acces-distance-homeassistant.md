@@ -93,9 +93,9 @@ Rendez-vous sur la dernière release qui nous intéresse dans notre cas un amd64
 cd /usr/lib/
 wget https://github.com/fatedier/frp/releases/download/v0.37.0/frp_0.37.0_linux_amd64.tar.gz
 tar zxvf frp_0.37.0_linux_amd64.tar.gz
-mv frp_0.37.0_linux_amd64 /var/frp/
+mv frp_0.37.0_linux_amd64 /usr/lib/frp/
 rm -rf frp_0.37.0_linux_amd64.tar.gz
-cd /var/frp/
+cd /frp/
 rm -rf frpc.ini frpc_full.ini frpc
 nano frps.ini
 {% endhighlight %}
