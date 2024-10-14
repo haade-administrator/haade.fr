@@ -13,7 +13,7 @@ class QR < Liquid::Tag
   RQRCODE_SVG_OPTIONS = {
     viewbox: true,
     offset: 44,
-    color: "ef1f7d",
+    color: "444",
     shape_rendering: "optimizeSpeed",
     module_size: 11,
     standalone: true,
