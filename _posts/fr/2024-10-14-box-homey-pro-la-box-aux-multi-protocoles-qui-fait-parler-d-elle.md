@@ -95,6 +95,26 @@ Bon visionnage.
 
 > l'application sur PC fonctionne à merveille
 
+## Paramétrage du réseau en local de la Box {{ page.ref }}
+
+**Par défaut la box Homey fonctionne que sur le cloud** hormis la sécurité des données cette box ne fonctionnera pas en l'absence de réseau internet. Pour l'installation en local c'est bien possible mais il faudra activer la redirection de port sur ton routeur et sur l'application Homey Pro.
+
+> N'oublie pas de dédier une **ip statique** à ta box
+
+[Accès en local sur la box Homey Pro](https://homey.app/en-us/news/port-forwarding-is-now-live/){: target="_blank"}
+
+### Paramétrage du routeur
+
+Une petite animation pour te montrer comment paramétrer une ouverture de port sur un routeur Freebox OS avec enregistrement d'une ip statique
+
+![Paramétrage redirection de port freebox Os pour homey avec adresse ip statique]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-port-forwarding-local-homey-pro-freebox.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
+
+### Paramétrage de l'application Port Forwarding ( ouverture de port )
+
+Une petite animation pour t'aider à paramétrer une redirection de port sur l'application Homey pro, tu trouveras dans l'onglet général l'adresse ip allouée à la box.
+
+![Paramétrage redirection de port freebox Os pour homey avec adresse ip statique]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-redirection-port-app-my-homey-box-local.webp{{ cachebuster }}){: width="244" height="529" class="lazyload pictaninpost"}
+
 ## Les Scenarios (Flows) dans tout ça
 
 Athom propose la **création de flows** en mode **simple ou en mode red node**, les fonctions sont nombreuses par défaut et créé automatiquement en fonction des modules et produits intégrés dans la box ce qui te permettra un large panel, il te **suffit de sélectionner** celles qui t'intéressent de les **relier** ensemble par un modèle de scénario classique (si,alors,sinon) et **ensuite de tester** d'un simple clic, le tout très très simplement. 
@@ -138,14 +158,12 @@ La capacité de mémoire RAM n'est que de 2GB et là aussi une box ne devrait pa
 
 {% picture posts/{{ page.guid }}/capacite-stockage-homey-pro-3gb-au-lieu-de-8gb-annonce.png --alt La capacité de stockage annoncé par le fabriquant Athom de la box Homey pro n'est pas de 8GB mais seulement de 2.66GB --img width="940" height="630" %}
 
-Seconde chose qui me dérange est le fait **que tout fonctionne sur le Cloud** hormis la sécurité des données cette box ne fonctionnera pas en l'absence de réseau internet.
-
 Pour finir il n'est actuellement **pas possible de sauvegarder les données de la box {{ page.ref }}** via un module, toutefois il doit être possible de réaliser cette manipulation en local grâce à l'accès ssh proposé par la box ( actellement en phase de test ).
 
 **Les - du produit:**{: .red}
 
 - Le **Prix 399€** relativement cher
-- tout **fonctionne sur le Cloud** rien en local
+- tout **fonctionne sur le Cloud** rien en local pour le moment (le port forwardin ne fonctionne pas)
 - Connection par défaut au wifi possible en **rj45 avec un connecteur supplémentaire**
 - Protocole **Z-wave 700** ( récent mais pas de dernières générations )
 - Seulement **2.6GB d'espace de stockage** au lieu de 8GB annoncé
@@ -169,6 +187,33 @@ Pour finir il n'est actuellement **pas possible de sauvegarder les données de l
 - **Mémoire vive:** 2Go LPDDR4 RAM
 - **Mémoire de stockage:** 8Go eMMC Flash annoncé ***mais seulement 2,66GB dont 1,33GB de libre***
 
+**La Box Homey pro a un diamètre de 127MM**
+
+{% picture posts/{{ page.guid }}/caracteristique-diametre-homey-pro-127mm.png --alt La box Homey pro a un diamètre de 127mm --img width="940" height="529" %}
+
+Retrouve en détail la composition de la carte embarquée de la box {{ page.ref}} ( attention toutes les fonctions ne sont pas disponibles )
+
+[Comparatif des différentes Box Homey du marché](https://support.homey.app/hc/en-us/articles/360015447093-Comparing-the-existing-Homey-Pro-models){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/carte-mere-homey-pro-detail.png --alt Détail du circuit imprimé de la carte box Homey pro --img width="940" height="588" %}
+
+1. MicroSOM (CPU, RAM, Wi-Fi et BT)
+2. Flash eMMC de 8 Go
+3. Alimentation
+4. LED RVB (24x)
+5. Microphones (2x) ( non disponible )
+6. Puce audio
+7. 433 MHz
+8. 868 MHz ( seulement disponible sur Homey bridge )
+9. Z-Wave plus 700
+10. ZigBee
+11. NFC (connecteur IC et antenne)
+12. LED infrarouge (6x)
+13. Récepteur infrarouge
+
+[Plus de détails concernant le circuit imprimé Homey pro](https://homey.app/en-us/blog/a-technical-introduction-homey/){: target="_blank"}
+
+
 Retrouve ci-dessous une **animation gif du fonctionnement de la led** purement décorative de la box {{ page.ref }}
 
 ![Animation des leds de la box Homey pro]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/animation-anneau-led-homey-pro-la-box-du-moment.webp{{ cachebuster }}){: width="495" height="463" class="lazyload pictaninpost"}
@@ -191,7 +236,7 @@ Voilà quelques liens qui me semble fort intéressant et qu'il faut connaître q
 
 ## Conclusion
 
-J'ai mis **une note de 4.4/5** pour la box Homey pro de Athom, selon certains elle mériterait 5/5, trois choses me chagrine, **la première** est son tarif de 399€ et son manque de connectique, **la seconde** est le fait qu'elle ne propose un accès que via le cloud, pas de service web en local **pour terminer** Homey annonce un stockage de 8GB et il est seulement de 2,66GB va comprendre.
+J'ai mis **une note de 4.4/5** pour la box Homey pro de Athom, selon certains elle mériterait 5/5, trois choses me chagrine, **la première** est son tarif de 399€ et son manque de connectique, **la seconde** est le fait qu'elle **n'est pas connectée en local par défaut** et tout fonctionne alors sur le cloud. **Pour terminer** Homey annonce un stockage de 8GB et il est seulement de 2,66GB va comprendre.
 
 Cependant c'est une box que je conseil à tous les novices de la domotique car **l'interface est très simple d'utilisation**, l'intégration des protocoles est très complet ( actuellement la mieux dotée du marché ). La communauté peut développer facilement des applications qui rendront compatibles une grande partie des produits connectés du marché.
 

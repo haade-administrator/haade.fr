@@ -95,6 +95,26 @@ Enjoy watching.
 
 > the PC application works wonderfully
 
+## Local network settings for the Box {{ page.ref }}
+
+**By default, the Homey box only works on the cloud** except for data security, this box will not work in the absence of an internet network. For local installation, it is possible but you will need to activate port forwarding on your router and on the Homey Pro application.
+
+> Don't forget to dedicate a **static IP** to your box
+
+[Local access on the Homey Pro box](https://homey.app/en-us/news/port-forwarding-is-now-live/){: target="_blank"}
+
+### Router settings
+
+A small animation to show you how to configure a port opening on a Freebox OS router with recording a static IP
+
+![Freebox Os port redirection settings for homey with static IP address]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-port-forwarding-local-homey-pro-freebox.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
+
+### Setting up the Port Forwarding application (port opening)
+
+A small animation to help you set up a port redirection on the Homey pro application, you will find in the general tab the IP address allocated to the box.
+
+![Setting up freebox Os port redirection for homey with static IP address]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-redirection-port-app-my-homey-box-local.webp{{ cachebuster }}){: width="244" height="529" class="lazyload pictaninpost"}
+
 ## Scenarios (Flows) in all this
 
 Athom offers the **creation of flows** in **simple mode or in red node mode**, the functions are numerous by default and created automatically according to the modules and products integrated in the box which will allow you a wide range, you **just have to select** those which interest you to **link** them together by a classic scenario model (if, then, if not) and **then to test** with a simple click, all very very simply.
@@ -138,14 +158,12 @@ The RAM memory capacity is only 2GB and here too a box should not offer a box be
 
 {% picture posts/{{ page.guid }}/capacite-stockage-homey-pro-3gb-au-lieu-de-8gb-annonce.png --alt The storage capacity announced by the manufacturer Athom of the Homey pro box is not 8GB but only 2.66GB --img width="940" height="630" %}
 
-Second thing that bothers me is the fact **that everything works on the Cloud** except for data security this box will not work in the absence of an internet network.
-
 Finally it is currently **not possible to save the data of the box {{ page.ref }}** via a module, however it must be possible to perform this manipulation locally thanks to the ssh access offered by the box (currently in the test phase).
 
 **The - of the product:**{: .red}
 
 - The **Price 399€** relatively expensive
-- everything **works on the Cloud** nothing locally
+- everything **works on the Cloud** nothing locally by default
 - Default connection to wifi possible in **rj45 with an additional connector**
 - Protocol **Z-wave 700** (recent but not latest generations)
 - Only **2.6GB of storage space** instead of 8GB announced
@@ -173,6 +191,32 @@ Find below a **gif animation of the operation of the LED** purely decorative of 
 
 ![Animation of the LEDs of the Homey pro box]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/animation-anneau-led-homey-pro-la-box-du-moment.webp{{ cachebuster }}){: width="495" height="463" class="lazyload pictaninpost"}
 
+**The Homey pro Box has a diameter of 127MM**
+
+{% picture posts/{{ page.guid }}/caracteristique-diametre-homey-pro-127mm.png --alt La box Homey pro a un diamètre de 127mm --img width="940" height="529" %}
+
+Find in detail the composition of the on-board card of the box {{ page.ref}} (note that not all functions are available)
+
+[Comparison of the different Homey Boxes on the market](https://support.homey.app/hc/en-us/articles/360015447093-Comparing-the-existing-Homey-Pro-models){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/carte-mere-homey-pro-detail.png --alt Détail du circuit imprimé de la carte box Homey pro --img width="940" height="588" %}
+
+1. MicroSOM (CPU, RAM, Wi-Fi & BT)
+2. 8 GB eMMC Flash
+3. Power Supply
+4. RGB LED (24x)
+5. Microphones (2x) ( No available )
+6. Audio Chip
+7. 433 MHz
+8. 868 MHz (only available on Homey bridge)
+9. Z-Wave
+10. ZigBee
+11. NFC (IC & antenna connector)
+12. Infrared LED (6x)
+13. Infrared receiver
+
+[More details about the Homey pro circuit board](https://homey.app/en-us/blog/a-technical-introduction-homey/){: target="_blank"}
+
 ## Instructions for use of the {{ page.ref }}
 
 {% include doclink.html pdf="Homey-Pro-Quick-Start-Guide.pdf" title="Homey Pro box quick user guide" %}
@@ -191,7 +235,7 @@ Here are some links that seem very interesting to me and that you should know wh
 
 ## Conclusion
 
-I gave **a score of 4.4/5** for the Athom Homey pro box, according to some it deserves 5/5, three things bother me, **the first** is its price of €399 and its lack of connectivity, **the second** is the fact that it only offers access via the cloud, no local web service **to finish** Homey announces a storage of 8GB and it is only 2.66GB, you understand.
+I gave **a score of 4.4/5** for the Athom Homey pro box, according to some it deserves 5/5, three things bother me, **the first** is its price of €399 and its lack of connectivity, **the second** is the fact that it only offers access via the cloud, no local web service by default **to finish** Homey announces a storage of 8GB and it is only 2.66GB, you understand.
 
 However, it is a box that I recommend to all novices in home automation because **the interface is very easy to use**, the integration of protocols is very complete (currently the best equipped on the market). The community can easily develop applications that will make a large part of the connected products on the market compatible.
 
