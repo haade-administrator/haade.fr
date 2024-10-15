@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Oct 2024 05:00:13 +0200</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2024 16:45:00 +0200</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2024 17:40:25 +0200</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2024 17:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Box Homey Pro - the quiet force</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test of the Homey pro early 2023 home automation box, disconcertingly simple, this box offers undeniable advantages for home automation novices, it has many positive points like all these available protocols, but does it have all the advantages on its side?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png" alt="Box Homey Pro - the quiet force">
+</picture>
+
+      <p>Here is a test that I can’t wait to present to you, thanks to Athom the manufacturer of the Homey Pro (Early 2023) box and Domadoo, I was able to acquire a latest generation Homey Pro (Early 2023) box. Athom sells this box for €399 no less! I hope that [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about">Box Homey Pro - the quiet force</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 14 Oct 2024 17:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Z-wave]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Home Assistant - Automation and heating saving</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,29 +249,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Protocoles]]></category>
       <category><![CDATA[Z-wave]]></category>
-    </item>
-    <item>
-      <title>High-performance and inexpensive multi-service NAS and Proxmox</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Short tutorials how to make a cheap used multi-disk NAS thanks to Amazon renewed and install a proxmox VM server for OMV or TrueNAS with HomeAssistant OS and Frigate NVR</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/132/monter-nas-pas-cher-et-performant-proxmox-sans-disque-dur-720-977c5f664.png" alt="High-performance and inexpensive multi-service NAS and Proxmox">
-</picture>
-
-      <p>You will find on the internet several ways of performing NAS based on mini-PCs but for a performance equivalent to the Intel i5 or i7 the prices can quickly skyrocket. This type of tutorial is not the first on the web but I will offer you a simple way to [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/manufacture-a-high-performance-and-cheap-nas-amazon-renewed-and-proxmox-omv-truenas-home-assistant">High-performance and inexpensive multi-service NAS and Proxmox</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 03 Jul 2024 21:20:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/manufacture-a-high-performance-and-cheap-nas-amazon-renewed-and-proxmox-omv-truenas-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/manufacture-a-high-performance-and-cheap-nas-amazon-renewed-and-proxmox-omv-truenas-home-assistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Security]]></category>
     </item>
   </channel>
 </rss>

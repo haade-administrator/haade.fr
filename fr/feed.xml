@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Oct 2024 05:00:13 +0200</pubDate>
-    <lastBuildDate>Thu, 03 Oct 2024 16:45:00 +0200</lastBuildDate>
+    <pubDate>Tue, 15 Oct 2024 17:40:25 +0200</pubDate>
+    <lastBuildDate>Mon, 14 Oct 2024 17:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Box Homey Pro - la force tranquille</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test de la box domotique Homey pro early 2023, d&apos;une simplicité déconcertante, cette box offre des atouts indéniables pour les novices de la domotique, elle possède de nombreux points positifs comme tout ces protocoles disponibles, mais a-t-elle tous les atouts de son côté ?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png" alt="Box Homey Pro - la force tranquille">
+</picture>
+
+      <p>Voilà un test que j’ai hâte de te présenter, grâce à Athom le fabriquant de la box Homey Pro (Early 2023) et Domadoo, j’ai pu acquérir une box Homey Pro (Early 2023) dernière génération. Athom vend cette box 399€ rien que ça ! J’espère que pour ce prix cette box [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle">Box Homey Pro - la force tranquille</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 14 Oct 2024 17:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Z-wave]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Domotise ton chauffage avec Sonoff NSPanel Pro</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-welock-SECBNEBL51-serrure-a-empreinte-digitale-le-tueur-de-cle</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Z-wave 800 Long range les dessous du z-wave</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je vais détailler le dernier protocole z-wave 800 et faire le point sur ce protocole et les modes d&apos;associations, avec pour test les derniers modules shelly sur un controlleur Zooz ZST39</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png" alt="Z-wave 800 Long range les dessous du z-wave">
-</picture>
-
-      <p>Voilà encore un article qui me tiens à coeur, le protocole Z-wave reviens sur le devant de la scène. Silabs a décidé de changer les choses, les tarifs des modules sont enfin accessibles, les fabriquants se remettent à produire des modules intégrant le dernier protocole.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/z-wave-800-long-range-detail-installation-shelly-zooz-et-retour-experience">Z-wave 800 Long range les dessous du z-wave</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 11 Jul 2024 23:30:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/z-wave-800-long-range-detail-installation-shelly-zooz-et-retour-experience</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/z-wave-800-long-range-detail-installation-shelly-zooz-et-retour-experience</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Protocoles]]></category>
-      <category><![CDATA[Z-wave]]></category>
     </item>
   </channel>
 </rss>
