@@ -11,8 +11,8 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Echo Spot (2024)  - notre avis sur le réveil connecté à Alexa
-    url: https://www.lesalexiens.fr/actualites/test-echo-spot-2024-avis-reveil-connecte-alexa/#utm_source=rss&utm_medium=rss&utm_campaign=test-echo-spot-2024-avis-reveil-connecte-alexa
+    title: Omajin by Netatmo  - test de la caméra intérieur/extérieur
+    url: https://www.lesalexiens.fr/actualites/test-camera-interieur-exterieur-omajin-by-netatmo/#utm_source=rss&utm_medium=rss&utm_campaign=test-camera-interieur-exterieur-omajin-by-netatmo
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -23,9 +23,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Présentation et test du Zendure Hyper 2000  - Une solution d’énergie solaire
-      tout-en-un pour les particuliers
-    url: https://blog.nord-domotique.com/test-zendure-hyper-2000/
+    title: Beem Battery  - la nouvelle référence pour un stockage énergétique intelligent
+      et une autonomie totale
+    url: https://blog.nord-domotique.com/presentation-beem-battery/
     image: 
 Abavala:
   fr_FR:
@@ -42,10 +42,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du mini ordinateur Nipogi CK10 I5-12450H - l’alternative compacte
-      pour les tâches du quotidien
-    url: https://www.maison-et-domotique.com/149275-test-mini-ordinateur-nipogi-ck10-i5-12450h/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/test-nipogi-ck10-9-667x500.jpg
+    title: Test du Aiper Surfer S1  - Un robot piscine innovant qui carbure au soleil
+    url: https://www.maison-et-domotique.com/149269-test-aiper-surfer-s1-robot-piscine/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/test-aiper-surfer-s1-28-667x500.jpg
 Matter:
   en_GB:
   - name: Matter
