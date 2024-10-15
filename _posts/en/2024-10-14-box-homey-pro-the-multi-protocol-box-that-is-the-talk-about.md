@@ -55,6 +55,12 @@ To finish some pictures of the unpacking of the **rj45 adapter**, this one *is u
 
 {% picture posts/{{ page.guid }}/dongle-connecteur-rj45-pour-box-homey-pro-deballage.png --alt unpacking the rj45 adapter to connect the homey pro box to the network by wire --img width="940" height="529" %}
 
+### RJ45 connector installation video
+
+For it to be recognized in Homey, pro the rj45 connector must be connected in a certain way, watch the official video created by Athom
+
+{% include videoPlayer.html youtubeId="kHsv5GH93Mw" %}
+
 In terms of connectivity, the {{ page.ref }} box is more than **minimalist**, it will only offer a USB-C connection port, I find it a shame that it does not offer RJ45 ports which ensures network stability, and could even have integrated the POE option, but this is not the case for this version, **a shame because we still have to pay €399.**
 
 {% picture posts/{{ page.guid }}/connectique-box-athom-homey-pro.png --alt screenshot of the connectivity available on the homey pro box --img width="940" height="529" %}
