@@ -2,14 +2,14 @@
     "product": {
         "linkId": "peripheriques/5729-aqara-interrupteur-mural-double-intelligent-h1-zigbee-30-avec-neutre-ws-euk04-6970504214804",
         "productId": "WS-EUK04",
-        "title": "AQARA - Interrupteur mural double intelligent H1 ZigBee 3.0 (avec neutre) - WS-EUK04",
+        "title": "AQARA - Interrupteur mural double H1 ZigBee 3.0 (avec neutre)",
         "description": "L'interrupteur mural double intelligent Aqara H1 (WS-EUK04) est un interrupteur mural intégrant deux relais et basé sur le protocole de communication sans fil Zigbee 3.0. Version avec neutre.",
         "productNew": "Nouveau",
         "minsalePrice": "40.00",
-        "maxsalePrice": "61.31",
-        "discount": "-25%",
+        "maxsalePrice": "32.56",
+        "discount": "-20%",
         "currency": "EUR",
-        "originalPrice": "61.31",
+        "originalPrice": "32.56",
         "quantity": "Plus de 20 Produits disponibles",
         "supply_date": null,
         "image": [

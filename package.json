@@ -34,6 +34,7 @@
     "add-banner": "node banner.js",
     "scrap": "node ./_data/aliexpress/fr_FR/launch.js && node ./_data/aliexpress/en_GB/launch.js && node ./_data/domadoo/launch.js && node ./_data/domadoo/launch.js",
     "scrapdom": "node ./_data/domadoo/launch.js",
+    "scraptest": "node ./_data/domadoo/scraptest.js",
     "scrapitead": "node ./_data/itead/launch.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify && npm run add-banner"

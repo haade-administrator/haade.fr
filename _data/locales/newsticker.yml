@@ -5,34 +5,33 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Realizing Meshtastic's Promise with the T-Deck
-    url: https://www.jeffgeerling.com/blog/2024/realizing-meshtastics-promise-t-deck
-    image: https://www.jeffgeerling.com/sites/default/files/images/lilygo-t-deck-on-workbench-new-firmware.jpeg
+    title: Finding a server's BMC / IPMI IP address with ipmitool
+    url: https://www.jeffgeerling.com/blog/2024/finding-servers-bmc-ipmi-ip-address-ipmitool
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Omajin by Netatmo  - test de la caméra intérieur/extérieur
-    url: https://www.lesalexiens.fr/actualites/test-camera-interieur-exterieur-omajin-by-netatmo/#utm_source=rss&utm_medium=rss&utm_campaign=test-camera-interieur-exterieur-omajin-by-netatmo
+    title: Maison connectée  - 30 offres à saisir ce week-end sur Amazon
+    url: https://www.lesalexiens.fr/actualites/maison-connectee-30-offres-a-saisir-ce-week-end-26102024/#utm_source=rss&utm_medium=rss&utm_campaign=maison-connectee-30-offres-a-saisir-ce-week-end-26102024
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du nouveau OpenDTU Pro Max 130 sur Jeedom et Home Assistant
-    url: https://blog.domadoo.fr/109006-opendtu-pro-max-130-sur-jeedom-ha/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/09/OpenDTU-Pro-Max-130-1080x675-PRESS-1024x640.png
+    title: Découverte de la batterie MS-A2 Hoymiles et utilisation en domotique
+    url: https://blog.domadoo.fr/109231-batterie-ms-a2-hoymiles-domotique/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/10/Hoymiles-MS-A2-1080x675-PRES-3-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Beem Battery  - la nouvelle référence pour un stockage énergétique intelligent
-      et une autonomie totale
-    url: https://blog.nord-domotique.com/presentation-beem-battery/
+    title: Anker MagGo (3-en-1)  - Test complet de la station de charge sans fil
+    url: https://blog.nord-domotique.com/test-anker-maggo-3-en-1/
     image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: La Smart Home Homey rejoint le géant coréen LG
-    url: https://www.abavala.com/la-smart-home-homey-rejoint-le-geant-coreen-lg/
-    image: https://www.abavala.com/wp-content/uploads/LG-Homey-Athom-2024-150x150.jpg
+    title: Guide des robot aspirateur 2024  - tout ce qu’il faut savoir avant de s’équiper
+    url: https://www.abavala.com/guide-des-robot-aspirateur-2024-tout-ce-qu-il-faut-savoir-avant-de-s-equiper/
+    image: https://www.abavala.com/wp-content/uploads/robot-aspirateur-2024-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -42,18 +41,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Aiper Surfer S1  - Un robot piscine innovant qui carbure au soleil
-    url: https://www.maison-et-domotique.com/149269-test-aiper-surfer-s1-robot-piscine/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/test-aiper-surfer-s1-28-667x500.jpg
+    title: Comment économiser de l’énergie avec le thermostat programmable ?
+    url: https://www.maison-et-domotique.com/149524-comment-economiser-energie-thermostat-programmable/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/faa1817509e1d979fcdad26bfebfe93b-702x468.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Securing the Future - Why Energy Smart Appliances Need Matter’s Framework
-    url: https://www.kudelski-iot.com/insights/securing-the-future-why-energy-smart-appliances-need-matters-framework
+    title: Enhanced Controllers, Streamlined Project Setup, and a New Home for Packages
+    url: https://www.linkedin.com/pulse/enhanced-controllers-streamlined-project-setup-new-home-ingo-fischer-81fee/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony F16 ESP32-S3 16A Removable Relay Board released
-    url: https://www.kincony.com/esp32-s3-16a-removable-relay-board.html
+    title: KinCony AS ESP32-S3 voice assistant released
+    url: https://www.kincony.com/kincony-as-esp32-s3-voice-assistant-released.html
     image:

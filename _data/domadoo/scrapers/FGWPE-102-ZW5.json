@@ -2,7 +2,7 @@
     "product": {
         "linkId": "peripheriques/3905-fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr-5902020528630",
         "productId": "FGWPE-102-ZW5",
-        "title": "FIBARO - Module prise commutateur et consomètre Z-Wave+ Fibaro Wall Plug FGWPE-102 ZW5, FR",
+        "title": "FIBARO - Module prise commutateur et consomètre Z-Wave+, prise FR",
         "description": "Le Fibaro Wall Plug est un module prise intelligent et extrêmement compact, qui permet de commander un éclairage ou tout autre appareil.",
         "productNew": "",
         "minsalePrice": "57.74",
@@ -10,15 +10,15 @@
         "discount": "-25%",
         "currency": "EUR",
         "originalPrice": "76.99",
-        "quantity": "Hors stock",
+        "quantity": "1 Produit disponible",
         "supply_date": null,
         "image": [
-            "https://cdn1.domadoo.fr/18496-large_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
-            "https://cdn1.domadoo.fr/18496-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
-            "https://cdn1.domadoo.fr/8446-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
-            "https://cdn1.domadoo.fr/8447-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
-            "https://cdn1.domadoo.fr/8448-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
-            "https://cdn1.domadoo.fr/8571-medium_default/fibaro-module-prise-commutateur-et-consometre-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg"
+            "https://cdn1.domadoo.fr/18496-large_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
+            "https://cdn1.domadoo.fr/18496-medium_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
+            "https://cdn1.domadoo.fr/8446-medium_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
+            "https://cdn1.domadoo.fr/8447-medium_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
+            "https://cdn1.domadoo.fr/8448-medium_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg",
+            "https://cdn1.domadoo.fr/8571-medium_default/fibaro-prise-commutateur-z-wave-fibaro-wall-plug-fgwpe-102-zw5-fr.jpg"
         ],
         "ratings": {
             "totalStar": "5",

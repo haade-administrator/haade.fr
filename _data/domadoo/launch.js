@@ -7,7 +7,7 @@ let invalidLinkCount = 0;
 
 async function scrapeDomadoo() {
     const browser = await puppeteer.launch({
-        headless: 'new',
+        headless: 'false',
         // `headless: true` (default) enables old Headless;
         // `headless: 'new'` enables new Headless;
         // `headless: false` enables "headful" mode.
@@ -45,9 +45,9 @@ async function scrapeDomadoo() {
         const salePrice = priceArr[0];
         const currency = priceArr[1];
         const rating = {
-            averageStar: $('.netreviewsProductWidgetNewRate .ratingValue').text(),
+            averageStar: $('.skeepers_product__stars .stars__rating .rate-aggregate').text().trim().match(/^\d+\.\d{1,2}/)[0],
             totalStar: $('.netreviewsProductWidgetNewRate .bestRating').text(),
-            totalStarCount: $('a.netreviewsProductWidgetNewLink span').text(),
+            totalStarCount: $('.skeepers_product__stars .stars__rating .rate-total').text().trim().split(' ')[0],
         };
         const discount = $('.discount-percentage').first().text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ').replace("Économisez ", "-");
         const availabilityValue = $('td.details-stock-units').text().trim().replace(/\n|\r/g, '').replace(/\s+/g, ' ');

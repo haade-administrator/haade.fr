@@ -2,7 +2,7 @@
     "product": {
         "linkId": "peripheriques/5386-aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-ssm-u01-6970504213296",
         "productId": "SSM-U01",
-        "title": "AQARA - Micromodule ON/OFF Zigbee 3.0 2500W avec neutre - SSM-U01",
+        "title": "AQARA - Micromodule ON/OFF Zigbee 3.0 2500W avec neutre",
         "description": "Le Single Switch Module Aqara SSM-U01 est un relais Zigbee 3.0 utilisé pour contrôler des lampes ou des appareils. Il dispose d'un suivi de la consommation électrique en temps réel.",
         "productNew": "",
         "minsalePrice": "27.99",
@@ -10,7 +10,7 @@
         "discount": "-5%",
         "currency": "EUR",
         "originalPrice": "69.00",
-        "quantity": "Plus de 20 Produits disponibles",
+        "quantity": "11 Produits disponibles",
         "supply_date": null,
         "image": [
             "https://cdn1.domadoo.fr/15896-large_default/aqara-micromodule-onoff-zigbee-30-2500w-avec-neutre-ssm-u01.jpg",
