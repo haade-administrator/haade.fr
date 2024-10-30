@@ -42,7 +42,7 @@ Si nous avons décidé **de nous diriger dans cet univers** c'est avant tout pou
 
 **Attention !** en suivant cet article **tu ne réaliseras certainement pas autant d'économies d'énergies qu'une installation** basée sur Home Assistant car l'application **Ewelink ne propose pas des systèmes de scénarios aussi poussés.**
 
-{% include product-embed.html image="Sonoff-contact-sec-wifi-ewelink-RE5V1C.png" title="Sonoff Contact Sec Wifi RE5V1C" brand="Sonoff" description="" iteadlink="sonoff-re5v1c" amazlink="3NDSQ2O" %}
+{% include product-embed.html image="Sonoff-contact-sec-wifi-ewelink-RE5V1C.png" title="Sonoff Contact Sec Wifi RE5V1C" brand="Sonoff" description="Micro contact sec wifi Sonoff RE5V1C compatible Ewelink" iteadlink="sonoff-re5v1c" amazlink="3NDSQ2O" %}
 
 **Mais tu pourras domotiser intelligemment ton chauffage** grâce au thermostat connecté, et au [contact sec wifi {{ page.ref }}](https://itead.cc/product/sonoff-re5v1c/ref/122){: target="_blank"} de la même marque, le tout controlé visuellement grâce au Nspanel Pro.
 
