@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Oct 2024 04:00:02 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 17:00:00 +0200</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 20:31:58 +0100</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2024 13:04:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Sonoff - Domotise ton chauffage conventionnel</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Transforme ton NSPanel Pro en contacteur de chaudière en intégrant direct le micro module Sonoff RE5VC et pilote le tout grâce à l&apos;application Ewelink</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png" alt="Sonoff - Domotise ton chauffage conventionnel">
+</picture>
+
+      <p>Afin de préparer au mieux le prochain Live, et toujours dans le but d’approfondir nos connaissances sur les modules de la gamme Sonoff, nous allons essayer dans cet article de domotiser un système de chauffage conventionnel mais en restant dans l’univers Sonoff et Ewelink.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff">Sonoff - Domotise ton chauffage conventionnel</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 24 Oct 2024 13:04:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff</guid>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Box Homey Pro - la force tranquille</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,27 +249,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/Offre-exceptionnelle-site-shelly-special-anniversaire-imbattable</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Domotique]]></category>
-    </item>
-    <item>
-      <title>Test du Welock SECBNEBL51 serrure à empreinte digitale</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Welock m&apos;a fourni cette serrure à empreinte digitale qui permet à quiconque de te passer de clés, plus besoin d&apos;avoir peur en cas de pertes, Welock le tueur de clé.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/134/test-welock-SECBNEBL51-serrure-empreinte-digitale-le-tueur-de-cle-720-1e4858bad.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/134/test-welock-SECBNEBL51-serrure-empreinte-digitale-le-tueur-de-cle-720-1e4858bad.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/134/test-welock-SECBNEBL51-serrure-empreinte-digitale-le-tueur-de-cle-720-1e4858bad.png" alt="Test du Welock SECBNEBL51 serrure à empreinte digitale">
-</picture>
-
-      <p>Aujourd’hui je vais te présenter une serrure a empreinte digitale connectée mais pas trop la Welock SECBNEBL51. Pourquoi mais pas trop, je trouve que la fonction connectée n’y est pas, je m’explique: Les serrures connectées Welock sont débloquables via l’application pour smartphone Welock et c’est tout, il existe bien un [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-welock-SECBNEBL51-serrure-a-empreinte-digitale-le-tueur-de-cle">Test du Welock SECBNEBL51 serrure à empreinte digitale</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 17 Jul 2024 10:15:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-welock-SECBNEBL51-serrure-a-empreinte-digitale-le-tueur-de-cle</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-welock-SECBNEBL51-serrure-a-empreinte-digitale-le-tueur-de-cle</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

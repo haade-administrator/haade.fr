@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Oct 2024 04:00:02 +0100</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2024 17:00:00 +0200</lastBuildDate>
+    <pubDate>Wed, 30 Oct 2024 20:31:58 +0100</pubDate>
+    <lastBuildDate>Thu, 24 Oct 2024 13:04:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Sonoff - Automate your conventional heating</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Transform your NSPanel Pro into a boiler contactor by directly integrating the Sonoff RE5VC micro module and control everything using the Ewelink application</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png" alt="Sonoff - Automate your conventional heating">
+</picture>
+
+      <p>In order to best prepare for the next Live, and always with the aim of deepening our knowledge of the modules in the Sonoff range, we will try in this article to automate a conventional heating system while remaining in the Sonoff universe and Ewelink.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range">Sonoff - Automate your conventional heating</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 24 Oct 2024 13:04:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Box Homey Pro - the quiet force</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,29 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Z-wave 800 Long stores the bottom of the z-wave</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>I will detail the latest z-wave 800 protocol and take stock of this protocol and the association modes, with the latest shelly modules for testing on a Zooz ZST39 controller.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/133/les-forces-du-z-wave-800-lr-et-exemples-associations-group-720-9373447e2.png" alt="Z-wave 800 Long stores the bottom of the z-wave">
-</picture>
-
-      <p>This is another article that is close to my heart, the Z-wave protocol is coming back to the forefront. Silabs has decided to change things, module prices are finally accessible, manufacturers are starting to produce modules integrating the latest protocol again.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience">Z-wave 800 Long stores the bottom of the z-wave</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 11 Jul 2024 23:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/z-wave-800-long-range-detail-installation-shelly-zooz-and-back-experience</guid>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Protocoles]]></category>
-      <category><![CDATA[Z-wave]]></category>
     </item>
   </channel>
 </rss>
