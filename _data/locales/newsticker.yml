@@ -11,8 +11,8 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Maison connectée  - 30 offres à saisir ce week-end sur Amazon
-    url: https://www.lesalexiens.fr/actualites/maison-connectee-30-offres-a-saisir-ce-week-end-26102024/#utm_source=rss&utm_medium=rss&utm_campaign=maison-connectee-30-offres-a-saisir-ce-week-end-26102024
+    title: Test Laifen Wave  - une brosse à dents connectée haut de gamme mais abordable ?
+    url: https://www.lesalexiens.fr/actualites/test-laifen-wave-brosse-dents-connectee-abordable/#utm_source=rss&utm_medium=rss&utm_campaign=test-laifen-wave-brosse-dents-connectee-abordable
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -41,9 +41,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Comment économiser de l’énergie avec le thermostat programmable ?
-    url: https://www.maison-et-domotique.com/149524-comment-economiser-energie-thermostat-programmable/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/faa1817509e1d979fcdad26bfebfe93b-702x468.jpeg
+    title: Test Dreame H14 Pro - l’aspirateur humide et sec qui transforme la corvée
+      du ménage en plaisir !
+    url: https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/5fabf558-29a1-4d40-99e9-6f6763947fc4cr001464600-pt0-sx1464-v1-654x500.jpg
 Matter:
   en_GB:
   - name: Matter

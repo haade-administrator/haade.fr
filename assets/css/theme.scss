@@ -977,7 +977,7 @@ img:hover {
   margin-bottom: 60px;
 
   #comments {
-    display: none;
+    display: none; // block/none; pour afficher/cacher les commentaires avant le clic
     margin-top: 60px;
 
     &.comments--show {
