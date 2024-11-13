@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2024-11-12 19:18
 last_modified_at: 
-categories: [Domotique, Haade-lab, Zigbee]
+categories: [Haade-lab, Home-Assistant]
 tags: []
 video: 
 image: 'test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd.png'
@@ -37,6 +37,11 @@ sourcelink:
 - Optionnel (un disque dur ssd NVME)
 - Optionnel une clé z-wave gpio ZOOZ ZAC93 entièrement compatible Yellow
 
+{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
+
+{% include product-embed.html image="nabu-casa-kit-home-assistant-yellow-avec-alimentation.png" title="Box Home Assistant Yellow" brand="Nabu Casa" description="Home Assistant Yellow est votre hub domotique prêt pour Matter, évolutif et extensible." domlink="box-domotique/7113-nabu-casa-kit-home-assistant-yellow-avec-alimentation.html" %}
+
+{% include product-embed.html image="dongle-gpio-zooz-zac93-compatible-home-assistant-yellow.png" title="Dongle GPIO Z-wave 800LR" brand="Zooz" description="Clé Z-wave Long Range 800 format GPIO compatible Home Assistant Yellow" amazlink="3YQdLEO" %}
 
 ## Ajout du cpu température
 
