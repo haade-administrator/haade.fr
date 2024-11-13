@@ -5,33 +5,34 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Finding a server's BMC / IPMI IP address with ipmitool
-    url: https://www.jeffgeerling.com/blog/2024/finding-servers-bmc-ipmi-ip-address-ipmitool
-    image: 
+    title: M4 Mac mini's efficiency is incredible
+    url: https://www.jeffgeerling.com/blog/2024/m4-mac-minis-efficiency-incredible
+    image: https://www.jeffgeerling.com/sites/default/files/images/m4-mac-mini-on-desk.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Laifen Wave  - une brosse à dents connectée haut de gamme mais abordable ?
-    url: https://www.lesalexiens.fr/actualites/test-laifen-wave-brosse-dents-connectee-abordable/#utm_source=rss&utm_medium=rss&utm_campaign=test-laifen-wave-brosse-dents-connectee-abordable
+    title: Nuki Smart Lock Ultra  - la serrure connectée de nouvelle génération
+    url: https://www.lesalexiens.fr/actualites/nuki-smart-lock-ultra-serrure-connectee-nouvelle-generation/#utm_source=rss&utm_medium=rss&utm_campaign=nuki-smart-lock-ultra-serrure-connectee-nouvelle-generation
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la batterie MS-A2 Hoymiles et utilisation en domotique
-    url: https://blog.domadoo.fr/109231-batterie-ms-a2-hoymiles-domotique/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/10/Hoymiles-MS-A2-1080x675-PRES-3-1024x640.webp
+    title: Matter 1.4 permet des maisons intelligentes plus performantes
+    url: https://blog.domadoo.fr/109526-matter-1-4-maison-intelligente-performante/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/Matter-1.4-Specification-Update-2024-1024x640.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Anker MagGo (3-en-1)  - Test complet de la station de charge sans fil
-    url: https://blog.nord-domotique.com/test-anker-maggo-3-en-1/
+    title: Test de la caméra Ring Spotlight Cam Pro
+    url: https://blog.nord-domotique.com/test-ring-spotlight-cam-pro/
     image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Guide des robot aspirateur 2024  - tout ce qu’il faut savoir avant de s’équiper
-    url: https://www.abavala.com/guide-des-robot-aspirateur-2024-tout-ce-qu-il-faut-savoir-avant-de-s-equiper/
-    image: https://www.abavala.com/wp-content/uploads/robot-aspirateur-2024-150x150.jpg
+    title: Nuki Smart Lock Ultra  - une serrure connectée plus petite, plus rapide
+      et plus silencieuse
+    url: https://www.abavala.com/nuki-smart-lock-ultra-une-serrure-connectee-plus-petite-plus-rapide-et-plus-silencieuse/
+    image: https://www.abavala.com/wp-content/uploads/Nuki_Smart_Lock_Ultra_entete-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -41,15 +42,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Dreame H14 Pro - l’aspirateur humide et sec qui transforme la corvée
-      du ménage en plaisir !
-    url: https://www.maison-et-domotique.com/149472-test-dreame-h14-pro/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/10/5fabf558-29a1-4d40-99e9-6f6763947fc4cr001464600-pt0-sx1464-v1-654x500.jpg
+    title: Mise à jour Matter 1.4  - de nombreux nouveaux appareils supportés, et
+      un focus sur la gestion énergétique
+    url: https://www.maison-et-domotique.com/149660-matter-1-4-mise-a-jour/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/matter-1-4-specification-update-2024-1-2048x683-1-702x234.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Enhanced Controllers, Streamlined Project Setup, and a New Home for Packages
-    url: https://www.linkedin.com/pulse/enhanced-controllers-streamlined-project-setup-new-home-ingo-fischer-81fee/
+    title: Matter 1.4 Enables More Capable Smart Homes
+    url: https://csa-iot.org/newsroom/matter-1-4-enables-more-capable-smart-homes/
     image: 
 Kincony:
   en_GB:
