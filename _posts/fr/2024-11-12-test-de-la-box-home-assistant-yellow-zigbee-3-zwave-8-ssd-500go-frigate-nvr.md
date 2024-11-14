@@ -1,8 +1,8 @@
 ---
 guid: 145
-title: "test ha yellow"
-description: ""
-ref: ""
+title: "Home assistant Yellow, pour qui?"
+description: "Test et intégrations de modules de la box Yellow première box à être sortie de terre par la société Nabu Casa, quels sont ses points fort et pour qui s'adresse-t-elle"
+ref: "Home Assistant yellow"
 layout: post
 authors: [Nico]
 date: 2024-11-12 19:18
@@ -30,12 +30,24 @@ sourcelink:
   - https://www.support.getzooz.com/kb/article/1158-zooz-ota-firmware-files/
 ---
 
+Il y a quelques temps je vous ai présenté la [box home assistant Green]({% post_url /fr/2024-02-12-test-box-homeassistant-green-et-cle-zigbee-skyconnect-performance-et-stabilite %}), une box plug'n playà moins de 100€ qui fait sensation dans le monde de la domotique. Aujourd'hui c'est au tour de la **{{ page.ref }}**, sortie avant la box green, cette box n'est pas prête à fonctionner cependant les différentes options disponibles en font tout de même **une box domotique de choix mais pour un public plus averti !**
+
 ## Prérequis
 
 - Une Box Home Assistant Yellow ( filaire ou Poe )
 - Une clé USB pour transférer HAOS sur le raspberry Pi
 - Optionnel (un disque dur ssd NVME)
 - Optionnel une clé z-wave gpio ZOOZ ZAC93 entièrement compatible Yellow
+
+## Déballage de la {{ page.ref }}
+
+Les similitudes entre les deux dernières box produites par Nabu Casa ont pas mal de similitudes esthétiques, oh je dirai 99% 🤠, rien que ça tu me diras, mais si tu ne me crois pas il n'y a qu'à regarder les photos prises ci-dessous.
+
+{% picture posts/{{ page.guid }}/deballage-unboxing-box-domotique-home-assistant-yellow.png --alt Déballage de la box Home Assistant Yellow --img width="940" height="529" %}
+
+La box {{ page.ref }} est livrée avec un câble rj45 **(pour la version POE)**, un dissipateur thermique pour le raspberri CM4, des pates thermiques et tout ce qu'il faut pour fixer l'ensemble. De jolis autocollants et une notice d'installation accompagne le reste. Mais faut dire qu'en terme d'installations la page web dédiée à la box {{ page.ref }} est des plus complètes, je te conseil de la visiter sans plus attendre.
+
+{% picture posts/{{ page.guid }}/finition-box-domotique-home-assistant-yellow.png --alt Finition externe de la box Home Assistant Yellow --img width="940" height="529" %}
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
