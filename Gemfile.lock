@@ -111,7 +111,7 @@ GEM
       objective_elements (~> 1.1)
       rainbow (~> 3.0)
       ruby-vips (~> 2.2)
-    json (2.8.1)
+    json (2.8.2)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
