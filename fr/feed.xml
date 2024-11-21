@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 21 Nov 2024 04:05:20 +0100</pubDate>
-    <lastBuildDate>Thu, 24 Oct 2024 13:04:00 +0200</lastBuildDate>
+    <pubDate>Thu, 21 Nov 2024 21:06:57 +0100</pubDate>
+    <lastBuildDate>Thu, 21 Nov 2024 20:45:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Home assistant Yellow, pour qui ?</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test et intégrations de modules de la box Yellow première box à être sortie de terre par la société Nabu Casa, quels sont ses points fort et pour qui s&apos;adresse-t-elle</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png" alt="Home assistant Yellow, pour qui ?">
+</picture>
+
+      <p>Il y a quelques temps je vous ai présenté la box home assistant Green, une box plug’n play à moins de 100€ qui fait sensation dans le monde de la domotique. Aujourd’hui c’est au tour de la Home Assistant yellow, sortie bien avant la box green, cette box n’est pas [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr">Home assistant Yellow, pour qui ?</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 21 Nov 2024 20:45:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Sonoff - Domotise ton chauffage conventionnel</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,28 +248,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Z-wave]]></category>
-    </item>
-    <item>
-      <title>Offre Imbattable Shelly Spécial anniversaire</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Des offres immanquable sur le site shelly pour son anniversaire jusqu&apos;à 50% de réductions</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png" alt="Offre Imbattable Shelly Spécial anniversaire">
-</picture>
-
-      <p>Du 24 au 29 Juillet Pour l’anniversair de la marque Shelly, l’entreprise fait des remises exceptionnelles pour l’achat de ses modules.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/Offre-exceptionnelle-site-shelly-special-anniversaire-imbattable">Offre Imbattable Shelly Spécial anniversaire</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 25 Jul 2024 16:52:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/Offre-exceptionnelle-site-shelly-special-anniversaire-imbattable</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/Offre-exceptionnelle-site-shelly-special-anniversaire-imbattable</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Domotique]]></category>
     </item>
   </channel>
 </rss>
