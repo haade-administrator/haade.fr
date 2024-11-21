@@ -321,7 +321,7 @@ Once the bridge is configured via the official Tedee application, go to the sett
 
 Then the rest happens in Home-Assistant in a way that is more than a simple click directly on the button below
 
-{% include homeassistantlink.html integration_brand="tedee" %}
+[![Open your Home Assistant instance and start setting up a new integration of a specific brand.](https://my.home-assistant.io/badges/brand.svg)](https://my.home-assistant.io/redirect/brand/?brand=tedee)
 
 Enter the IP address as well as the token and you will have directly all the information which will come up in Home Assistant (for the moment only the lock and the bridge will come up), I don't have too much concern for the integration of the others components because the API is very complete. You can also participate in the integration project because there is a [python library](https://pypi.org/project/pytedee-async/){: target="_blank"} integration and the corresponding [github](https://github.com/zweckj/pytedee_async){: target="_blank"}
 

@@ -933,6 +933,9 @@ img:hover {
         display: none;
         }
       }
+    a[href*="https://my.home-assistant.io/"]::after {
+        display: none;
+    }
   }
 }
 

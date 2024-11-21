@@ -118,7 +118,7 @@ Ensuite il faudra installer l'intégration Matter afin de pouvoir gérer les div
 
 Clic sur l'icone ci-dessous et ensuite clic sur ok pour configurer Matter (beta) rien de plus simple.
 
-{% include homeassistantlink.html integration="matter" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=matter){: target="_blank"}
 
 Une fois ces deux intégrations effectuées il te suffira de cliquer sur **ajouter un appareil Matter à partir de ton téléphone**
 {% include homeassistantlink.html add_matter_device="" %}

@@ -115,7 +115,7 @@ Il ne te reste plus qu'à valider le code et à pousser le tout sur le Sonoff {{
 
 Une fois uploadé dernière étape d'intégration Esphome, rendez-vous dans les applications et **configure ton device esphome, clic sur le lien ci-dessous**.
 
-{% include homeassistantlink.html integrations="" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=){: target="_blank"}
 
 **Rendu du module dans esphome:**
 
@@ -143,7 +143,7 @@ esp32_ble_tracker:
 
 Si tu souhaites utiliser la clé zigbee dans zha, ilte reste à configurer la clé comme sur les captures ci-dessous, clic sur le lien ci-dessous pour te rendre directement dans la config de la clé:
 
-{% include homeassistantlink.html integration="zha" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=zha){: target="_blank"}
 
 Ensuite ouvre une seconde page et va dans l'intégration esphome en cliquant sur le lien ci-dessous:
 

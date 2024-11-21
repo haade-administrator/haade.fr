@@ -97,7 +97,8 @@ Clic sur le lien ci-dessous pour **installer facilement auto-backup dans HACS**
 {% include homeassistantlink.html creator="jcwillox" repertory="hass-auto-backup" %}
 
 Ensuite une fois installé clic sur le lien ci-dessous pour **ajouter auto_backup** comme Appareil dans HA.
-{% include homeassistantlink.html integration="auto_backup" %}
+
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=auto_backup){: target="_blank"}
 
 Une fois l'ensemble installé auto backup t'ouvres **les services suivant**:
 
@@ -129,11 +130,11 @@ auto_backup.purged_backups
 
 **Exemple d'intégration Blueprint pour la génération de sauvegardes:**
 
-{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/automatic_backups.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/automatic_backups.yaml){: target="_blank"}
 
 **Exemple d'intégration Blueprint pour la génération d'une notification:**
 
-{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/notify_auto_backup.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://raw.githubusercontent.com/jcwillox/home-assistant-blueprints/main/automation/notify_auto_backup.yaml){: target="_blank"}
 
 Mais **auto_backup** c'est aussi une documentation complète de disponible, [il te suffit de cliquer sur ce lien](https://jcwillox.github.io/hass-auto-backup/){: target="_blank"}.
 Tu trouveras facilement des examples d'automatisations et notifications sous forme de Blueprint.

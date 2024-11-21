@@ -38,7 +38,7 @@ sourcelink:
 
 Pour toute question ou suggestion, utilise [ce fil de discussion sur le portail de la communauté Home Assistant](https://community.home-assistant.io/t/scheduled-auto-update-for-home-assistant/459281){: target="_blank"}.
 
-{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml){: target="_blank"}
 
 ## Installation
 Rien de plus simple clic sur **l'image import blueprint** ci-dessus ensuite sur **open link**. Ensuite tu retrouveras dans paramètres > automatisations et scènes > Blueprint, un Blueprint nommé **Home Assistant Auto-update on a schedule base** avant de créer une automatisation je te conseil dans un premier temps de créer une planification [voir l'étape schedule ci-dessous](./mise-a-jour-automatique-homeassistant#planification-des-mises-%C3%A0-jour), ensuite lance toi avec l'automatisation et dans planification choisis bien l'entité créé précédemment.
@@ -148,7 +148,7 @@ Tu peux l'utiliser pour conserver vos mises à jour lorsque vous organisez une f
 
 {% picture posts/{{ page.guid }}/suspendre-entite.png --alt suspendre des entités des mises à jour dans homeassistant --img width="940" height="136" %}
 
-{% include homeassistantlink.html blueprint_import="https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://raw.githubusercontent.com/edwardtfn/HomeAssistant-Config/main/blueprints/automation/EdwardTFN/auto_update_scheduled.yaml){: target="_blank"}
 
 ## Conclusion
 

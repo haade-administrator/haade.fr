@@ -137,7 +137,7 @@ Now on the main page of the application you will have the Blebox module(s) insta
 
 In HA it's just as simple, click on the link below and in the devices you should see the Blebox module appear.
 
-{% include homeassistantlink.html integrations="" %}
+[![Open your Home Assistant instance and show an integration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/configure-blebox-home-assistant.png --alt automatic lift and configuration of the Blebox doorbox v2 module in the Home assistant universe --img width="327" height="206" %}
 

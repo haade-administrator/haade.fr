@@ -117,7 +117,7 @@ Dernière étape copie l'username et le pass tu en auras besoin dans Z2M, vas da
 
 Première étape installe le dépôt supplémentaire pour les modules complémentaires, clic sur le lien ci-dessous:
 
-{% include homeassistantlink.html supervisor_addon_repository="https://github.com/zigbee2mqtt/hassio-zigbee2mqtt" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'ajout d'un référentiel de modules complémentaires avec une URL de référentiel spécifique pré-remplie.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/zigbee2mqtt/hassio-zigbee2mqtt){: target="_blank"}
 
 Ajoute le et ferme le popup. Actualise la page Boutique des modules complémentaires avec un petit F5 du clavier. Descend jusqu'à trouver les répertoires Zigbee2mqtt et installe simplement Zigbee2mqtt
 
@@ -257,7 +257,7 @@ Pour installer le Blueprint rien dde plus simple, clic sur le bouton ci-dessous.
 
 **PS:** Un **blueprint** est un script qui va te généré une automatisation personnalisée et tu n'auras plus qu'à paramétrer ! Idéal !
 
-{% include homeassistantlink.html blueprint_import="https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https%3A%2F%2Fgithub.com%2Frotilho%2Fhome-assistant-blueprints%2Fblob%2Fmain%2Ftrv_calibrator.yaml){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/blueprint-trv-sonoff.png --alt blueprint calibration thermostat externe sur robinet thermostatique trv --img width="940" height="388" %}
 

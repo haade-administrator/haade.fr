@@ -125,7 +125,7 @@ afin d'envoyer le code ci-dessus en mode UART **il te faudra**:
 
 Afin de paramétrer ton nouveau microphone dans home-assistant je t'invite à cliquer sur ce lien ci-dessous, et normalement une nouvelle instance esphome est découverte, il te suffit de cliquer sur **configurer et de redémarrer homeassistant**.
 
-{% include homeassistantlink.html integration="esphome" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=esphome){: target="_blank"}
 
 ## États des fonctions du {{ page.ref }}
 

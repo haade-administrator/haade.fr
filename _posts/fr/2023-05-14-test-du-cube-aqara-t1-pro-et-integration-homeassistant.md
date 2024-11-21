@@ -111,7 +111,7 @@ En suivant le lien de discussion ci-dessous très bien documenté tu pourras uti
 
 [Lien de discussion du Blueprint par Sir_Goodenough](https://community.home-assistant.io/t/zigbee2mqtt-aqara-magic-cube-t1-pro-ctp-r01-xiaomi-lumi-cagl02/525111){: target="_blank"}
 
-{% include homeassistantlink.html blueprint_import="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/Zigbee2MQTT-Aqara-Magic-Cube-T1-Pro-CTP-R01-Xiaomi-Lumi.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/Zigbee2MQTT-Aqara-Magic-Cube-T1-Pro-CTP-R01-Xiaomi-Lumi.yaml){: target="_blank"}
 
 ## ZHA
 
@@ -131,7 +131,7 @@ Là aussi j'utilise le Blueprint fournis par Sir_Goodenough et très bien docume
 
 [Lien de discussion du Blueprint par Sir_Goodenough](https://community.home-assistant.io/t/zha-xiaomi-cube-controller/495975){: target="_blank"}
 
-{% include homeassistantlink.html blueprint_import="https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/ZHA-Xiaomi_Cube_Controller.yaml" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://github.com/SirGoodenough/HA_Blueprints/blob/master/Automations/ZHA-Xiaomi_Cube_Controller.yaml){: target="_blank"}
 
 ### Créer un nombre pour le blueprint
 

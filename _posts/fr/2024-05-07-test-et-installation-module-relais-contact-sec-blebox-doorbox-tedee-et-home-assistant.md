@@ -137,7 +137,7 @@ Maintenant sur la page principale de l'application tu auras le ou les modules Bl
 
 Dans HA c'est tout aussi simple, clic sur le lien ci-dessous et dans les appareils tu devrais voir apparaître le module Blebox.
 
-{% include homeassistantlink.html integrations="" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/configure-blebox-home-assistant.png --alt remontée automoatique et configuration du module Blebox doorbox v2 dans l'univers Home assistant --img width="327" height="206" %}
 

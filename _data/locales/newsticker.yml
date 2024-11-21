@@ -5,26 +5,26 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: M4 Mac mini's efficiency is incredible
-    url: https://www.jeffgeerling.com/blog/2024/m4-mac-minis-efficiency-incredible
-    image: https://www.jeffgeerling.com/sites/default/files/images/m4-mac-mini-on-desk.jpg
+    title: LLMs accelerated with eGPU on a Raspberry Pi 5
+    url: https://www.jeffgeerling.com/blog/2024/llms-accelerated-egpu-on-raspberry-pi-5
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Nuki Smart Lock Ultra  - la serrure connectée de nouvelle génération
-    url: https://www.lesalexiens.fr/actualites/nuki-smart-lock-ultra-serrure-connectee-nouvelle-generation/#utm_source=rss&utm_medium=rss&utm_campaign=nuki-smart-lock-ultra-serrure-connectee-nouvelle-generation
+    title: Une belle offre sur la station météo Netatmo pendant le Black Friday
+    url: https://www.lesalexiens.fr/actualites/une-belle-offre-sur-la-station-meteo-netatmo-pendant-le-black-friday/#utm_source=rss&utm_medium=rss&utm_campaign=une-belle-offre-sur-la-station-meteo-netatmo-pendant-le-black-friday
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Matter 1.4 permet des maisons intelligentes plus performantes
-    url: https://blog.domadoo.fr/109526-matter-1-4-maison-intelligente-performante/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/Matter-1.4-Specification-Update-2024-1024x640.jpg
+    title: Aqara FP1E  - un nouveau détecteur de présence Zigbee 3.0
+    url: https://blog.domadoo.fr/108132-aqara-fp1e-detecteur-presence-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/10/aqara-presence-sensor-fp1e-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: WiZ Portrait  - Test complet d’une lampe intelligente pour le télétravail
-    url: https://blog.nord-domotique.com/wiz-portrait-test-complet/
+    title: Test du Roomba Combo 10 Max  - L’excellence du ménage autonome
+    url: https://blog.nord-domotique.com/test-roomba-combo-10-max/
     image: 
 Abavala:
   fr_FR:
@@ -42,18 +42,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Découverte Inoleds  - Quand l’éclairage LED rencontre le design français
-    url: https://www.maison-et-domotique.com/149664-decouverte-inoleds-eclairage-led-design-francais/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/inoleds-ninga-pendant-lamp8-500x500.jpg
+    title: Top 10 des cadeaux tech incontournables pour Noël 2024 !
+    url: https://www.maison-et-domotique.com/149708-top-10-cadeaux-tech-incontournables-noel-2024/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/dalle-2024-11-19-22-03-46-702x401.webp
 Matter:
   en_GB:
   - name: Matter
-    title: New collaboration hopes to revolutionize smart-home technology
-    url: https://bbcmag.com/new-collaboration-hopes-to-revolutionize-smart-home-technology/
+    title: Zigbee Use Case | Batteryless Devices
+    url: https://csa-iot.org/newsroom/zigbee-use-case-simple-setup-no-hub-copy-copy/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony AS ESP32-S3 voice assistant released
-    url: https://www.kincony.com/kincony-as-esp32-s3-voice-assistant-released.html
+    title: how to use “KCS”v3 firmware for KinCony ESP32-S3 board
+    url: https://www.kincony.com/how-to-use-kcsv3-firmware-esp32-board.html
     image:

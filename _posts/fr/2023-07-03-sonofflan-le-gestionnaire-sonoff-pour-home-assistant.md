@@ -45,7 +45,7 @@ Cette fois, j'ai décidé de rédiger un **article 2 en 1**, afin de te présent
 
 D'ailleurs Ewelink a développé un module fonctionnel sous home Assistant, il te faudra home assistant version OS et ajouter le dépot suivant:
 
-{%- include homeassistantlink.html supervisor_addon_repository="https://github.com/CoolKit-Technologies/ha-addon" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'ajout d'un référentiel de modules complémentaires avec une URL de référentiel spécifique pré-remplie.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https://github.com/CoolKit-Technologies/ha-addon){: target="_blank"}
 
 Cependant je trouve ce module lourd et il n'est d'autre qu'un iframe de l'application ewelink App pour téléphone, bref je passe mon tour.
 
@@ -76,7 +76,7 @@ Soit tu te rends dans:
 
 Ou alors tu clic directement sur le liens ci-dessous pour ajouter l'intégration
 
-{%- include homeassistantlink.html integration="sonoff" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=sonoff){: target="_blank"}
 
 > Voilà il ne te reste plus qu'à rentrer le login et mot de passe **ewelink** et valider.
 
@@ -155,7 +155,7 @@ Cette étape est malheureusement nécessaire pour pouvoir utiliser le module Son
 Une fois redémarré rendez toi dans:
 **Paramètre > Appareils et Services** ou clic directement sur le lien *ci-dessous*:
 
-{% include homeassistantlink.html integrations="" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=){: target="_blank"}
 
 Tu devrais voir **apparaître l'intégration Sonoff avec la remontée d'un appareil le POWR316D**, si tu possèdes déjà l'application Ewelink avec plusieurs modules sonoff ils apparaitront aussi dans l'intégration SonoffLAN de Home Assistant. Attetntion à bien choisir le mode de fonctionnement de l'intégration voir plus bas.
 

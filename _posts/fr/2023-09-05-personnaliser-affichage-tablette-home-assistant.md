@@ -69,7 +69,7 @@ Une fois installé **Redémarre ton instance Home Assistant**
 
 **Ensuite clic sur le bouton ci-dessous** pour ajouter l'intégration {{ page.ref }}. Si tu ne le sais pas encore {{ page.ref }} n'est pas un simple thème mais plutôt un combo thème/module
 
-{% include homeassistantlink.html integration="ui_lovelace_minimalist" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=ui_lovelace_minimalist){: target="_blank"}
 
 Et configure {{ page.ref }}
 

@@ -95,7 +95,8 @@ Click on the link below to easily install auto-backup in HACS
 {% include homeassistantlink.html creator="jcwillox" repertory="hass-auto-backup" %}
 
 Then once installed click on the link below to add auto_backup as Device in HA.
-{% include homeassistantlink.html integration="auto_backup" %}
+
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=auto_backup){: target="_blank"}
 
 Once the auto backup set is installed, open the following services:
 

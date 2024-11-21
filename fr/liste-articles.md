@@ -27,6 +27,9 @@ toc: false
 - projet esp32 piscine et ha [esp32 pool](https://github.com/smurry/pool_controller){: target="_blank"}
 - [upgrader clé cc2652](https://www.zigbee2mqtt.io/guide/adapters/#notes){: target="_blank"}
 
+- faire un article pour un upgrade du firmware zigbee dans home assistant yellow
+- dietpi, le système ultime pour monter sa box domotique home assistant yellow avec chrome kiosk
+
 
 ## 2024/10
 

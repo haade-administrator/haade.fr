@@ -112,11 +112,11 @@ Pour créer une autolatisation et utiliser l'ensemble des 3 fonctions du Sonoff 
 
 ### Pour Zigbee2mqtt
 
-{% include homeassistantlink.html blueprint_import="https://gist.github.com/haade-administrator/1a9c217a3f2cdf0ba149d4f2f186e6d4" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://gist.github.com/haade-administrator/1a9c217a3f2cdf0ba149d4f2f186e6d4){: target="_blank"}
 
 ### Pour ZHA
 
-{% include homeassistantlink.html blueprint_import="https://gist.github.com/haade-administrator/85e9ec76c36469806bf47ceb726d6632" %}
+[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'importation de plan avec un plan spécifique pré-rempli.](https://my.home-assistant.io/badges/blueprint_import.svg)](https://my.home-assistant.io/redirect/blueprint_import/?blueprint_url=https://gist.github.com/haade-administrator/85e9ec76c36469806bf47ceb726d6632){: target="_blank"}
 
 ## Fonction binding du {{ page.ref }}
 

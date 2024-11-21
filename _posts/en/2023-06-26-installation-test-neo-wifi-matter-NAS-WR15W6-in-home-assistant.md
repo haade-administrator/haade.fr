@@ -118,7 +118,7 @@ Then you will have to install the Matter integration in order to be able to mana
 
 Click on the icon below and then click on ok to configure Matter (beta) nothing could be simpler.
 
-{% include homeassistantlink.html integration="matter" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=matter){: target="_blank"}
 
 Once these two integrations are done, all you have to do is click on **add a Matter device from your phone**
 {% include homeassistantlink.html add_matter_device="" %}

@@ -76,7 +76,7 @@ Either you go to:
 
 Or you click directly on the links below to add the integration
 
-{%- include homeassistantlink.html integration="sonoff" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=sonoff){: target="_blank"}
 
 > That's all you have to do is enter the ewelink login and password and validate.
 
@@ -155,7 +155,7 @@ This step is unfortunately necessary to be able to use the Sonoff {{ page.ref }}
 Once restarted, go to:
 **Settings > Devices and Services** or click directly on the link *below*:
 
-{% include homeassistantlink.html integrations="" %}
+[![Ouvrez votre instance Home Assistant et affichez une intégration.](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=){: target="_blank"}
 
 You should see **appear the Sonoff integration with the rise of a device the POWR316D**, if you already have the Ewelink application with several sonoff modules they will also appear in the SonoffLAN integration of Home Assistant. Be careful to choose the operating mode of the integration, see below.
 
