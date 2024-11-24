@@ -21,7 +21,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
-rating:  
+rating: 4.8 
 sourcelink:
   - https://www.home-assistant.io/green/
   - https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html

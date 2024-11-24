@@ -89,11 +89,11 @@ Depuis peu on peut acquérir la clé Z-wave 800 sur le [site Amazon](https://amz
 
 ### Upgrade du firmware 
 
-{%- include alert.html type="warning" text="Télécharge le firmware correspondant à la bonne Zone et du bon module faute de quoi tu risques de faire dysfonctionner la clé Z-Wade, dans mon cas j'ai téléchargé le Firmware ZAC93 GPIO de la zone Europe" link="[Liens d'accès des firmwares Zooz](https://www.support.getzooz.com/kb/article/1158-zooz-ota-firmware-files/)" textlink="Page de téléchargement des firmwares disponibles pour les produits de la gamme Zooz." %}
+{%- include alert.html type="warning" text="Télécharge le firmware correspondant à la bonne Zone et du bon module faute de quoi tu risques de faire dysfonctionner la clé Z-Wade, dans mon cas j'ai téléchargé le Firmware ZAC93 GPIO de la zone Europe" link="https://www.support.getzooz.com/kb/article/1158-zooz-ota-firmware-files/" textlink="Page de téléchargement des firmwares disponibles pour les produits de la gamme Zooz." %}
 
 **L'upgrade du firmware Z-wave** est très simple commence par installer la célèbre bibliothèque  **Z-wave JS**. Z-wave JS est au protocole Z-wave ce qu'est Zigbee2mqtt au protocole Zigbee. À la différence qu'elle fonctionne en complément  en cliquant sur le lien ci-dessous
 
-[![Installation de zwavejs2mqtt](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zwavejs2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository)
+[![Installation de zwavejs2mqtt](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_zwavejs2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fhassio-addons%2Frepository){: target="_blank"}
 
 Ci-dessous **un gif animé du paramétrage de Z-wave JS** pour la box {{ page.ref }} ( dans la vidéo j'ai auparavant installé ZWave-JS )
 
