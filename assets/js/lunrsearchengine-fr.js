@@ -1,7 +1,7 @@
 
 var documents = [{
     "id": 0,
-    "url": "/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr",
+    "url": "/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go",
     "title": "Home assistant Yellow, pour qui ?",
     "description": "21/11/2024 - Test et intégrations de modules de la box Yellow première box à être sortie de terre par la société Nabu Casa, quels sont ses points fort et pour qui s'adresse-t-elle",
     "tags": ""},{

@@ -3,7 +3,7 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
-        <loc>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr</loc>
+        <loc>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</loc>
         <news:news>
           <news:publication>
             <news:name>Haade</news:name>

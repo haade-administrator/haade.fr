@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Nov 2024 04:11:17 +0100</pubDate>
+    <pubDate>Sun, 24 Nov 2024 18:59:20 +0100</pubDate>
     <lastBuildDate>Thu, 21 Nov 2024 20:45:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -37,12 +37,12 @@
 </picture>
 
       <p>Il y a quelques temps je vous ai présenté la box home assistant Green, une box plug’n play à moins de 100€ qui fait sensation dans le monde de la domotique. Aujourd’hui c’est au tour de la Home Assistant yellow, sortie bien avant la box green, cette box n’est pas [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr">Home assistant Yellow, pour qui ?</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go">Home assistant Yellow, pour qui ?</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
       <pubDate>Thu, 21 Nov 2024 20:45:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go-frigate-nvr</guid>
+      <link>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>

@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 24 Nov 2024 04:11:17 +0100</pubDate>
+    <pubDate>Sun, 24 Nov 2024 18:59:20 +0100</pubDate>
     <lastBuildDate>Thu, 21 Nov 2024 20:45:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Home assistant Yellow, for whom?</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Testing and integration of modules of the Yellow box, the first box to be released by the Nabu Casa company, what are its strong points and who is it for?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png" alt="Home assistant Yellow, for whom?">
+</picture>
+
+      <p>Some time ago I introduced you to the box home assistant Green, a plug’n play box at less than 100€ which is causing a sensation in the world of home automation. Today it’s the turn of the Home Assistant yellow, released well before the green box, this box is not [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go">Home assistant Yellow, for whom?</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 21 Nov 2024 20:45:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Sonoff - Automate your conventional heating</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,27 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Automation]]></category>
-    </item>
-    <item>
-      <title>Welock SECBNEBL51 fingerprint lock review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Welock provided me with this fingerprint lock which allows anyone to give you keys, no need to be afraid in case of loss, Welock the key killer.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/134/welock-test-SECBNEBL51-fingerprint-lock-the-key-killer-720-bc6b71749.png" alt="Welock SECBNEBL51 fingerprint lock review">
-</picture>
-
-      <p>Today I am going to present to you a but not too connected fingerprint lock, the Welock SECBNEBL51. Why but not too much, I find that the connected function is not there, let me explain: The Welock connected locks can be unlocked via the Welock smartphone application and that’s it, [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer">Welock SECBNEBL51 fingerprint lock review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 17 Jul 2024 10:15:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-welock-SECB-BL51-fingerprint-lock-the-key-killer</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
