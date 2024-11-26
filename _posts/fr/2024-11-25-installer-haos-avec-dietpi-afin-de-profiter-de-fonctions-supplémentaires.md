@@ -28,6 +28,9 @@ sourcelink:
   - https://dietpi.com/forum/
   - https://dietpi.com/
   - https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html
+  - https://dietpi.com/docs/install/
+  - https://dietpi.com/docs/software/
+  - https://dietpi.com/docs/software/desktop/#chromium
 ---
 
 Si vous aimez les ordinateurs un peu légers, type Raspberry Pi, Odroid et j’en passe, alors DietPi est fait pour vous. Il s’agit d’un système d’exploitation basé sur une Debian allégée dans le but de consommer le moins de CPU et de RAM possible.
@@ -46,3 +49,22 @@ https://dietpi.com/dietpi-software.html
 
 {% picture posts/{{ page.guid }}/dietpi-vs-raspberrypi-os-lite-rapsberry-pi-5.png --alt Diepti OS vs Raspberry Pi Os Lite sur raspberry pi 5 --img width="940" height="401" %}
 
+{% highlight shell %}
+sudo ifdown -a --exclude lo
+sudo mv /etc/network/interfaces /etc/network/interfaces.unused
+{% endhighlight %}
+
+check network interfaces
+
+{% highlight shell %}
+nmcli device
+nmcli connection
+{% endhighlight %}
+
+/etc/network/interfaces
+
+{% highlight txt %}
+allow-hotplug wlan0
+iface wlan0 inet dhcp
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+{% endhighlight %}

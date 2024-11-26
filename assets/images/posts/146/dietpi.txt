@@ -21,17 +21,17 @@ AUTO_SETUP_TIMEZONE=Europe/Paris
 # - If both Ethernet and WiFi are enabled, WiFi will take priority and Ethernet will be disabled.
 # - If using WiFi, please edit dietpi-wifi.txt to pre-enter credentials.
 AUTO_SETUP_NET_ETHERNET_ENABLED=1
-AUTO_SETUP_NET_WIFI_ENABLED=0
+AUTO_SETUP_NET_WIFI_ENABLED=1
 
 # WiFi country code: 2 capital letter value (e.g. GB US DE JP): https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 # - NB: This choice may be overridden if the WiFi access point sends a country code.
-AUTO_SETUP_NET_WIFI_COUNTRY_CODE=GB
+AUTO_SETUP_NET_WIFI_COUNTRY_CODE=FR
 
 # Enter your static network details below, if applicable.
 AUTO_SETUP_NET_USESTATIC=0
-AUTO_SETUP_NET_STATIC_IP=192.168.0.100
+AUTO_SETUP_NET_STATIC_IP=192.168.1.100
 AUTO_SETUP_NET_STATIC_MASK=255.255.255.0
-AUTO_SETUP_NET_STATIC_GATEWAY=192.168.0.1
+AUTO_SETUP_NET_STATIC_GATEWAY=192.168.1.254
 AUTO_SETUP_NET_STATIC_DNS=9.9.9.9 149.112.112.112
 
 # Set to "1" to convert DHCP leased network settings into static settings automatically on first boot.
@@ -277,8 +277,8 @@ SOFTWARE_WIFI_HOTSPOT_5G_CHANNEL=36
 SOFTWARE_XORG_DPI=96
 
 # Chromium
-SOFTWARE_CHROMIUM_RES_X=1900
-SOFTWARE_CHROMIUM_RES_Y=1220
+SOFTWARE_CHROMIUM_RES_X=1280
+SOFTWARE_CHROMIUM_RES_Y=800
 SOFTWARE_CHROMIUM_AUTOSTART_URL=http://localhost:8123
 
 # Home Assistant
