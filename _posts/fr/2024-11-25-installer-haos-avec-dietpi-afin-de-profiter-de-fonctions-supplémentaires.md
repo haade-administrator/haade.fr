@@ -68,3 +68,9 @@ allow-hotplug wlan0
 iface wlan0 inet dhcp
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 {% endhighlight %}
+
+
+## Dietpi.txt
+## cmdline.txt
+## config.txt
+## dietpi-wifi.txt
