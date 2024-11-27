@@ -69,8 +69,48 @@ iface wlan0 inet dhcp
     wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 {% endhighlight %}
 
+https://dietpi.com/survey/
+
 
 ## Dietpi.txt
 ## cmdline.txt
 ## config.txt
 ## dietpi-wifi.txt
+
+https://github.com/home-assistant/supervised-installer
+
+sudo su -
+
+{% highlight shell %}
+apt install \
+apparmor \
+bluez \
+cifs-utils \
+curl \
+dbus \
+jq \
+libglib2.0-bin \
+lsb-release \
+network-manager \
+nfs-common \
+systemd-journal-remote \
+systemd-resolved \
+udisks2 \
+wget -y
+{% endhighlight %}
+
+cp /etc/network/interfaces /etc/network/interfaces.old
+nano /etc/network/interfaces
+reboot
+
+https://github.com/home-assistant/os-agent/releases/tag/1.6.0
+
+wget https://github.com/home-assistant/os-agent/releases/download/1.6.0/os-agent_1.6.0_linux_aarch64.deb
+dpkg -i os-agent_1.6.0_linux_aarch64.deb 
+gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
+wget -O homeassistant-supervised.deb https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+apt install ./homeassistant-supervised.deb
+rm -rf homeassistant-supervised.deb os-agent_1.6.0_linux_aarch64.deb 
+mkdir /boot/firmware
+cp /boot/cmdline.txt /boot/firmware/
+
