@@ -112,8 +112,8 @@ GEM
       rainbow (~> 3.0)
       ruby-vips (~> 2.2)
     json (2.8.2)
-    kramdown (2.4.0)
-      rexml
+    kramdown (2.5.1)
+      rexml (>= 3.3.9)
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.4)
@@ -129,8 +129,8 @@ GEM
       logger
       mime-types-data (~> 3.2015)
     mime-types-data (3.2024.1105)
-    minitest (5.25.1)
-    mutex_m (0.2.0)
+    minitest (5.25.2)
+    mutex_m (0.3.0)
     net-http (0.5.0)
       uri
     nokogiri (1.16.7-x86_64-linux)
@@ -173,9 +173,9 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rdoc (6.7.0)
+    rdoc (6.8.1)
       psych (>= 4.0.0)
-    reline (0.5.11)
+    reline (0.5.12)
       io-console (~> 0.5)
     rexml (3.3.9)
     rouge (4.5.1)
