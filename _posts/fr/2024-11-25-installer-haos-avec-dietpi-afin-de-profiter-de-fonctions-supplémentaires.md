@@ -101,16 +101,20 @@ wget -y
 
 cp /etc/network/interfaces /etc/network/interfaces.old
 nano /etc/network/interfaces
+
 reboot
+
+curl -fsSL get.docker.com | sh
 
 https://github.com/home-assistant/os-agent/releases/tag/1.6.0
 
 wget https://github.com/home-assistant/os-agent/releases/download/1.6.0/os-agent_1.6.0_linux_aarch64.deb
 dpkg -i os-agent_1.6.0_linux_aarch64.deb 
 gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
+mkdir /boot/firmware
+cp /boot/cmdline.txt /boot/firmware/
 wget -O homeassistant-supervised.deb https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 apt install ./homeassistant-supervised.deb
 rm -rf homeassistant-supervised.deb os-agent_1.6.0_linux_aarch64.deb 
-mkdir /boot/firmware
-cp /boot/cmdline.txt /boot/firmware/
+
 
