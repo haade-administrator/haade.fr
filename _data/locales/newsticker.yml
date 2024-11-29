@@ -5,21 +5,21 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: LLMs accelerated with eGPU on a Raspberry Pi 5
-    url: https://www.jeffgeerling.com/blog/2024/llms-accelerated-egpu-on-raspberry-pi-5
-    image: 
+    title: Home Assistant Yellow - instant 2x IoT speedup with CM5
+    url: https://www.jeffgeerling.com/blog/2024/home-assistant-yellow-instant-2x-iot-speedup-cm5
+    image: https://www.jeffgeerling.com/sites/default/files/images/pi-cm5-ha-upgrade.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Aqara  - la domotique ZigBee à saisir pendant Black Friday
-    url: https://www.lesalexiens.fr/actualites/aqara-domotique-zigbee-black-friday/
+    title: La serrure connectée Nuki 4.0 Pro à son prix le plus bas
+    url: https://www.lesalexiens.fr/actualites/la-serrure-nuki-0-pro-a-son-prix-le-plus-bas/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara FP1E  - un nouveau détecteur de présence Zigbee 3.0
-    url: https://blog.domadoo.fr/108132-aqara-fp1e-detecteur-presence-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/10/aqara-presence-sensor-fp1e-1024x576.webp
+    title: Jeedom Luna - La meilleure passerelle LoRaWAN pour rendre un bâtiment connecté?
+    url: https://blog.domadoo.fr/109715-jeedom-luna-passerelle-lorawan-batiment/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/jeedom-luna-passerelle-lorawan-batiment-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -42,9 +42,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'Une Station Solaire Sunology Play achetée, une offerte ? #blackfriday'
-    url: https://www.maison-et-domotique.com/149810-sunology-blackfriday-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/black-friday-sunology-702x367.png
+    title: 'Profitez de prix jamais vu chez Sunity sur les kits solaires et les batteries
+      ! #BLACKFRIDAY'
+    url: https://www.maison-et-domotique.com/150018-sunity-blackfriday/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/9-be931ad9-281d-4483-ba20-cab8f908580a-500x500.webp
 Matter:
   en_GB:
   - name: Matter
@@ -54,6 +55,6 @@ Matter:
 Kincony:
   en_GB:
   - name: Kincony
-    title: how to use “KCS”v3 firmware for KinCony ESP32-S3 board
-    url: https://www.kincony.com/how-to-use-kcsv3-firmware-esp32-board.html
+    title: KinCony SIM7600E-L1C 4G breakout LTE core module released
+    url: https://www.kincony.com/sim7600e-l1c-4g-breakout-lte-core-module.html
     image:
