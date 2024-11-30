@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires",
     "title": "Installe Home Assistant OS sur Dietpi",
-    "description": "30/11/2024 - Voilà un article pertinent pour installer HAOS sur Dietpi le système d'exploitation RPI à la diète, pourquoi s'embêter à faire une telle installation alors qu'il existe une image toute faite HAOS pour raspberry pi ?",
+    "description": "30/11/2024 - Voilà un article pertinent pour installer HAOS sur Dietpi le système d'exploitation RPI à la diète ultra léger, pourquoi s'embêter à faire une telle installation alors qu'il existe une image toute faite HAOS pour raspberry pi ?",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go",

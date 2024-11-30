@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Nov 2024 19:30:26 +0100</pubDate>
+    <pubDate>Sat, 30 Nov 2024 19:41:19 +0100</pubDate>
     <lastBuildDate>Sat, 30 Nov 2024 19:10:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -30,7 +30,7 @@
       <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
-      <p>Voilà un article pertinent pour installer HAOS sur Dietpi le système d&apos;exploitation RPI à la diète, pourquoi s&apos;embêter à faire une telle installation alors qu&apos;il existe une image toute faite HAOS pour raspberry pi ?</p><picture>
+      <p>Voilà un article pertinent pour installer HAOS sur Dietpi le système d&apos;exploitation RPI à la diète ultra léger, pourquoi s&apos;embêter à faire une telle installation alors qu&apos;il existe une image toute faite HAOS pour raspberry pi ?</p><picture>
   <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.webp 720w" type="image/webp">
   <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png 720w" type="image/png">
   <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png" alt="Installe Home Assistant OS sur Dietpi">
