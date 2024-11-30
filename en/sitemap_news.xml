@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2024-11-30T19:10:00+01:00</news:publication_date>
+          <news:title>Install Home Assistant OS on Dietpi</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</loc>
         <news:news>
           <news:publication>

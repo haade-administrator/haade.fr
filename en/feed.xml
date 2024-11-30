@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Nov 2024 19:41:19 +0100</pubDate>
+    <pubDate>Sat, 30 Nov 2024 20:07:06 +0100</pubDate>
     <lastBuildDate>Sat, 30 Nov 2024 19:10:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Install Home Assistant OS on Dietpi</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Here is a relevant article to install HAOS on Dietpi the ultra light RPI operating system on a diet, why bother to do such an installation when there is a ready-made HAOS image for raspberry pi?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png" alt="Install Home Assistant OS on Dietpi">
+</picture>
+
+      <p>Why bother installing Home Assistant OS on dietpi when there is a ready-made image based on raspberry pi os Lite on the official website, or even simpler via the software imager developed by the Raspberry PI foundation which contains the HAOS image.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features">Install Home Assistant OS on Dietpi</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Home assistant Yellow, for whom?</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +248,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Z-wave]]></category>
-    </item>
-    <item>
-      <title>Unbeatable Offer Shelly Birthday Special</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Unmissable offers on the Shelly website for your birthday up to 50% off</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/135/shelly-birthday-720-0a4c18baf.png" alt="Unbeatable Offer Shelly Birthday Special">
-</picture>
-
-      <p>From July 24 to 29 For the anniversary of the Shelly brand, the company is offering exceptional discounts for the purchase of its modules.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site">Unbeatable Offer Shelly Birthday Special</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 25 Jul 2024 16:52:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/Exceptional-offer-shelly-special-unbeatable-birthday-site</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Automation]]></category>
     </item>
   </channel>
 </rss>
