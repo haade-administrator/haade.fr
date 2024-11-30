@@ -1,7 +1,7 @@
 ---
 guid: 146
 title: "Installe Home Assistant OS sur Dietpi"
-description: "Voilà un article pertinent pour installer HAOS sur Dietpi le système d'exploitation RPI à la diète, pourquoi s'embêter à faire une telle installation alors qu'il existe une image toute faite HAOS pour raspberry pi ?"
+description: "Voilà un article pertinent pour installer HAOS sur Dietpi le système d'exploitation RPI à la diète ultra léger, pourquoi s'embêter à faire une telle installation alors qu'il existe une image toute faite HAOS pour raspberry pi ?"
 ref: "DietPi"
 layout: post
 authors: [Nico]
@@ -303,7 +303,7 @@ reboot
 
 ## Conclusion
 
-**Dietpi software est une pépite** si tu souhaites contrôler ton raspberry-pi ou y installer des options facilement, **comme le contrôle des leds**, il te permettra de faire failement les mises à jours systèmes, de **créer un backup**, enfin bref toute une panoplie de fonctions. Et tout ça sur un système optimisé et ultra légé, **bref que du bonheur**.
+**Dietpi software est une pépite** si tu souhaites contrôler ton raspberry-pi ou y installer des options facilement, **comme le contrôle des leds**, il te permettra de faire failement les mises à jours systèmes, de **créer un backup**, enfin bref toute une panoplie de fonctions. Et tout ça sur un système optimisé et ultra léger, **bref que du bonheur**.
 
 > **Je recommande grandement dietpi à tout le monde**.
 
