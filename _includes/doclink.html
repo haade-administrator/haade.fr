@@ -17,6 +17,12 @@
 {%- else -%}
 <a href="/assets/images/posts/{{ page.guid }}/{{ include.csv }}" target="_blank">{{ include.title }}</a><i class="icor file-csv-solid"></i>
 {%- endif -%}
+{%- elsif include.md -%}
+{%- if include.md contains '://' -%}
+<a href="{{ include.md }}" target="_blank">{{ include.title }}</a><i class="icor md"></i>
+{%- else -%}
+<a href="/assets/images/posts/{{ page.guid }}/{{ include.md }}" target="_blank">{{ include.title }}</a><i class="icor md"></i>
+{%- endif -%}
 {%- elsif include.xls -%}
 {%- if include.xls contains '://' -%}
 <a href="{{ include.xls }}" target="_blank">{{ include.title }}</a><i class="icor file-excel-regular"></i>

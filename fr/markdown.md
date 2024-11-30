@@ -83,7 +83,7 @@ commande: gif2webp -lossy nom.gif -o nom.webp
 ## Les liens pour les documents
 
 ### inclure un lien static_file
-**préfixe ( pdf, docx, zip, csv, xls, torrent )**
+**préfixe ( pdf, docx, zip, csv, md, xls, torrent )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
 ### inclure un lien Homeassistant
@@ -269,7 +269,7 @@ ajouter codeblock.js à defaut.html et aussi à package.js
 
 # Onglet qrcode
 
-{% include qrlink.html qrlink="https://ton site web ou du texte" text="télécharger l'application Ewelink sur le playstore ou l'appstore" %}
+{% include qrlink.html qrlink="https://tonsiteweb.com ou du texte" text="télécharger l'application Ewelink sur le playstore ou l'appstore" %}
 
 pour la partie texte: commencer le texte par un verbe car un texte avant et après sera intégré automatiquement: Ce QRcode te permet de ....... tu as le choix entre scanner ce QRcode depuis ton smartphone ou de cliquer directement sur le lien ci-dessous.
 

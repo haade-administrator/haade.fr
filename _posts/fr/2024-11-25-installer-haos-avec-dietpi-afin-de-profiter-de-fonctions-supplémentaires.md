@@ -5,7 +5,7 @@ description: "Voilà un article pertinent pour installer HAOS sur Dietpi le syst
 ref: "DietPi"
 layout: post
 authors: [Nico]
-date: 2024-11-25 13:37
+date: 2024-11-30 19:10
 last_modified_at: 
 categories: [Haade-lab, Home-Assistant]
 tags: []
@@ -13,7 +13,7 @@ video:
 image: 'dietpi-os-home-assistant-os-raspberrypi-lcd-display.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -24,52 +24,71 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - https://dietpi.com/forum/t/home-assistant-supervised-install/17085/2
-  - https://dietpi.com/forum/
   - https://dietpi.com/
   - https://korben.info/dietpi-debian-ultra-legere-optimisee-raspberry-pi-odroid-pine64.html
-  - https://dietpi.com/docs/install/
-  - https://dietpi.com/docs/software/
-  - https://dietpi.com/docs/software/desktop/#chromium
 ---
 
 Pourquoi **s'embêter** à installer Home Assistant OS sur [dietpi](https://dietpi.com/){: target="_blank"} alors qu'il existe une [image toute prête](https://www.home-assistant.io/installation/raspberrypi){: target="_blank"} à base de raspberry pi os Lite sur le site officiel, ou encore **plus simple** via le [software imager](https://www.raspberrypi.com/software/){: target="_blank"} développé par la fondation Raspberry PI qui contient l'image HAOS.
 
-> J'ai décidé de faire cette installation pour **deux raisons** principales
+{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
-**La première**, Dietpi est une image debian ultra légère bien plus légère que raspberry pi os et ceux dans tous les domaines, il n'y a qu'à regarder le tableau **édité ci-dessous**. Comment ont-ils réussis à faire ça, simplement en enlevant beaucoup de softwares et librairies par défaut et en optimisant l'OS ainsi on pourras bénéficier du max de puissance de son SBC.
+> J'ai décidé de faire cette installation pour **deux raisons** principales.
+
+**La première**, Dietpi est une **image debian ultra légère** bien plus légère que raspberry pi os et ceux dans tous les domaines, il n'y a qu'à regarder le tableau **édité ci-dessous**. *Comment ont-ils réussis à faire ça !*, simplement en enlevant beaucoup de softwares et librairies par défaut et en optimisant l'OS, ainsi on pourras bénéficier du max de puissance de son SBC.
 
 {% picture posts/{{ page.guid }}/dietpi-vs-raspberrypi-os-lite-rapsberry-pi-5.png --alt Comparatif Dietpi vs Raspberry pi OS lite --img width="940" height="401" %}
 
-**La seconde** est liée à la première malgré cet allègement on retrouvera un pane de fonctions à activer jamais inégalé et ainsi on pourra installer **facilement un panel de soft** via **dietpi-software**, paramétrer les fonctions du raspberry pi via **detpi-config** et cerise sur le gateau je n'ai rencontré aucun soucis. 
+**La seconde** est liée à la première malgré cet allègement on retrouvera un **panel de fonctions à activer jamais inégalé** et ainsi on pourra installer **facilement un nombre pharaonique de soft** via **dietpi-software**, paramétrer les fonctions du raspberry pi via **detpi-config** et cerise sur le gateau **je n'ai rencontré aucun soucis**. 
+
+{% include product-embed.html image="raspberry-pi-5-achat-amazon.png" title="Raspberry-pi 5 8GB" brand="Raspberry" description="Dernière génération du raspberry-pi avec 8GB de RAM" affiliate="_DD0v3TL" amazlink="3B5VpIa" %}
 
 > Mais les fonctions ne s'arrêtent pas là !
 
-Si vous aimez les ordinateurs un peu légers, type Raspberry Pi, Odroid et j’en passe, alors DietPi est fait pour toi. Il s’agit d’un système d’exploitation basé sur une Debian allégée dans le but de **consommer le moins de CPU et de RAM possible**.
+Si vous aimez les OS ultra légers, type Raspberry Pi, Odroid et j’en passe, **alors DietPi est fait pour toi**. Il s’agit d’un système d’exploitation basé sur une Debian allégée dans le but de **consommer le moins de CPU et de RAM possible**.
 
 {%- include alert.html type="info" text="<b>DietPi</b> | Une image minimale à la baseOS Debian minimal hautement optimisé. <b>DietPi est extrêmement léger</b>, avec des fonctionnalités de faible empreinte <b>processus/mémoire</b> et DietPi-RAM log installé par défaut, pour obtenir les performances maximales de votre appareil." link="https://dietpi.com/" textlink="Dietpi.com" %}
 
 ## Installation Dietpi sur Raspberry PI
 
-J'ai réalisé l'installation sur un vieux **raspberry pi 3B+** qui trainait dans l'un de mes tiroirs avec 1GB de RAM autant dire que c'est light, mais ça va le faire, vu les perfs annoncées je n'en doute pas trop.
+J'ai réalisé l'installation sur un vieux **raspberry pi 3B+** qui trainait dans l'un de mes tiroirs avec **1GB de RAM** autant dire que c'est light, mais ça va le faire, vu les perfs annoncées je n'en doute pas trop !
 
 Pour commencer [télécharge l'image correspondante](https://dietpi.com/#download){: target="_blank"} à ton SBC et copie là sur une sdcard à l'aide de [Balena Etcher](https://etcher.balena.io/){: target="_blank"} par exemple. Jusque là rien de bien compliqué du moins je l'espère 😁.
+
+{% include product-embed.html image="sandisk-sdcard-256-extreme.png" title="Sdcard 256GB sandisk extrême" brand="Sandisk" description="Sdcard de qualité Sandisk pour raspberry pi" affiliate="_Dc6uJfL" amazlink="417XNZH" %}
+
+{% picture posts/{{ page.guid }}/copy-image-dietpi-balena-etcher.png --alt Installation de l'image Dietpi à l'aide du software balena etcher --img width="400" height="258" %}
 
 Une fois l'image copiée nous allons [**automatiser la première installation**](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation){: target="_blank"}, oui tu as bien entendu avec Dietpi tu peux modifier 2-3 fichiers textes et paramétrer ce que tu veux avant **le premier lancement et ça c'est génial**.
 
 ### automatisation par les fichiers {{ page.ref }}
 
+> Belle nouvelle Dietpi propose d'automatiser la première installation en modifiant simplement des fichiers textes à la source de la carte sd. 
+
+{% picture posts/{{ page.guid }}/acces-volume-dietpi-config-txt.png --alt modification des fichier dietpi pour automatiser le premier lancement --img width="831" height="492" %}
+
+#### dietpi.txt
+
+Commençons par ce fichier qui est le principal fichier à paramétrer si tu souhaites personnaliser le premier lancement, je ne vais pas faire le tour de toutes les fonctions, mais plutôt celles qui me semble pertinente pour toutes nouvelles installations.
+
+> Oui parce que tu vas vite te rendre compte que tu peux paramétrer pas mal de choses 👌.
+
+Aussi je tiens à préciser que toutes cette configuration est **biensûre modifiable ultérieurement** par l'interface graphique et via la commande ```dietpi-config```
+
+J'ai surtout modifié **les premiers paramètres** de language/régions sans avoir besoin de toucher aux autres paramètres par défaut comme la connection wifi car dans mes tests le raspberry pi est branché en rj45.
+
+Si tu veux retrouver toutes les infos de configurations de dietpi tu peux les avoir via la [documentation oficielle très bien faite](https://dietpi.com/docs/dietpi_tools/system_configuration/){: target="_blank"}
+
+Si tu as des questions plutôt pointus n'hésite [pas à consulter le forum](https://dietpi.com/forum/){: target="_blank"} dédié.
+
+**Ci-dessous retrouve le fichier modifié pour les tests de cet article.**
+
+{% include doclink.html md="dietpi.md" title="Fichier principal configuration dietpi.txt" %}
+
+J'ai aussi pris une capture de ces modifications.
+
 {% picture posts/{{ page.guid }}/entree-dietpi-config-txt.png --alt Configuration de dietpi.txt afin d'automatiser la première installation --img width="940" height="709" %}
 
 {% highlight markdown %}
-# IMPORTANT:
-# - This is intended for advanced users, unless you know what you are doing, do not edit this file. Please use the DietPi programs instead.
-# - Do not remove uncommented lines, as the items are scraped by DietPi programs, on demand.
-
-#------------------------------------------------------------------------------------------------------
-##### DietPi-Automation settings, applied on first boot of DietPi only, ONCE! #####
-#------------------------------------------------------------------------------------------------------
-
 ##### Language/Regional options #####
 # Locale e.g.: "en_GB.UTF-8" / "de_DE.UTF-8" | One entry and UTF-8 ONLY!
 AUTO_SETUP_LOCALE=fr_FR.UTF-8
@@ -85,343 +104,112 @@ AUTO_SETUP_TIMEZONE=Europe/Paris
 # - If both Ethernet and WiFi are enabled, WiFi will take priority and Ethernet will be disabled.
 # - If using WiFi, please edit dietpi-wifi.txt to pre-enter credentials.
 AUTO_SETUP_NET_ETHERNET_ENABLED=1
-AUTO_SETUP_NET_WIFI_ENABLED=1
-
-# WiFi country code: 2 capital letter value (e.g. GB US DE JP): https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-# - NB: This choice may be overridden if the WiFi access point sends a country code.
-AUTO_SETUP_NET_WIFI_COUNTRY_CODE=FR
-
-# Enter your static network details below, if applicable.
-AUTO_SETUP_NET_USESTATIC=0
-AUTO_SETUP_NET_STATIC_IP=192.168.1.100
-AUTO_SETUP_NET_STATIC_MASK=255.255.255.0
-AUTO_SETUP_NET_STATIC_GATEWAY=192.168.1.254
-AUTO_SETUP_NET_STATIC_DNS=9.9.9.9 149.112.112.112
-
-# Set to "1" to convert DHCP leased network settings into static settings automatically on first boot.
-AUTO_SETUP_DHCP_TO_STATIC=0
-
-# Hostname
-AUTO_SETUP_NET_HOSTNAME=DietPi
-
-# Force Ethernet speeds: 0=automatic speed | 10 = 10 Mbit/s | 100 = 100 Mbit/s etc.
-# - Use this when your Ethernet adapter has an unstable 1 Gbit/s link.
-AUTO_SETUP_NET_ETH_FORCE_SPEED=0
-
-# Delay service starts at boot until network is established: 0=disabled | 1=enabled
-AUTO_SETUP_BOOT_WAIT_FOR_NETWORK=1
-
-##### Misc options #####
-# Swap space size to generate: 0 => disable | 1 => auto | 2 and up => size in MiB
-AUTO_SETUP_SWAPFILE_SIZE=1089
-# Swap space location: "zram" => swap space on /dev/zram0 (auto-size = 50% of RAM size) | /path/to/file => swap file at location (auto-size = 2 GiB minus RAM size)
-AUTO_SETUP_SWAPFILE_LOCATION=/var/swap
-
-# Set to "1" to disable HDMI/video output and framebuffers on Raspberry Pi, to reduce power consumption and memory usage: Works on RPi only!
-AUTO_SETUP_HEADLESS=0
-
-# Unmask (enable) systemd-logind service (including dbus), which is masked by default on DietPi
-AUTO_UNMASK_LOGIND=0
-
-# Custom Script (pre-networking and pre-DietPi install)
-# - Allows you to automatically execute a custom script before network is up on first boot.
-# - Copy your script to /boot/Automation_Custom_PreScript.sh and it will be executed automatically.
-# - Executed script log: /var/tmp/dietpi/logs/dietpi-automation_custom_prescript.log
-
-# Custom Script (post-networking and post-DietPi install)
-# - Allows you to automatically execute a custom script at the end of DietPi install.
-# - Option 0 = Copy your script to /boot/Automation_Custom_Script.sh and it will be executed automatically.
-# - Option 1 = Host your script online, then use e.g. AUTO_SETUP_CUSTOM_SCRIPT_EXEC=https://myweb.com/myscript.sh and it will be downloaded and executed automatically.
-# - Executed script log: /var/tmp/dietpi/logs/dietpi-automation_custom_script.log
-AUTO_SETUP_CUSTOM_SCRIPT_EXEC=0
-
-# Restore a DietPi-Backup on first boot: 0 => disable | 1 => interactive restore (show list of found backups) | 2 => non-interactive restore (restore first found backup)
-# - Simply attach the drive/disk/stick which contains the backup. All attached drives will be mounted temporarily and searched automatically.
-AUTO_SETUP_BACKUP_RESTORE=0
-
-##### Software options #####
-# SSH server choice: 0=none/custom | -1=Dropbear | -2=OpenSSH
-AUTO_SETUP_SSH_SERVER_INDEX=-1
-
-# SSH server pubkey
-# - Public key(s) for "root" and "dietpi" users, which will be added to ~/.ssh/authorized_keys
-# - Use the same setting multiple times for adding multiple keys.
-# - See SOFTWARE_DISABLE_SSH_PASSWORD_LOGINS below for disabling SSH password logins.
-#AUTO_SETUP_SSH_PUBKEY=ssh-ed25519 AAAAAAAA111111111111BBBBBBBBBBBB222222222222cccccccccccc333333333333 mySSHkey
-
-# Logging mode choice: 0=none/custom | -1=RAMlog hourly clear | -2=RAMlog hourly save to disk + clear | -3=Rsyslog + Logrotate
-AUTO_SETUP_LOGGING_INDEX=-1
-# RAMlog max tmpfs size (MiB). 50 MiB should be fine for single use. 200+ MiB for heavy webserver access log etc.
-AUTO_SETUP_RAMLOG_MAXSIZE=50
-
-# Dependency preferences
-# - DietPi-Software installs all dependencies for selected software options automatically, which can include a webserver for web applications, a desktop for GUI applications and one usually wants a web browser on desktops.
-# - Especially for non-interactive first run installs (see AUTO_SETUP_AUTOMATED below), you may want to define which webserver, desktop and/or browser you want to have installed in such case. For interactive installs you will be always asked to pick one.
-# - With below settings you can define your preference for non-interactive installs. However, it will only installed if any other selected software requires it, and an explicit webserver/desktop/browser selection overrides those settings:
-# - Webserver preference: 0=Apache | -1=Nginx | -2=Lighttpd
-AUTO_SETUP_WEB_SERVER_INDEX=0
-# - Desktop preference: 0=LXDE | -1=Xfce | -2=MATE | -3=LXQt | -4=GNUstep
-AUTO_SETUP_DESKTOP_INDEX=0
-# - Browser preference: 0=None | -1=Firefox | -2=Chromium
-AUTO_SETUP_BROWSER_INDEX=-1
-
-# DietPi-Autostart: 0=Console | 7=Console autologin | 1=Kodi | 2=Desktop autologin | 16=Desktop | 4=OpenTyrian | 5=DietPi-CloudShell | 6=Amiberry fast boot | 8=Amiberry standard boot | 9=DDX-Rebirth | 10=CAVA Spectrum | 11=Chromium kiosk | 14=Custom script (background) | 17=Custom script (foreground)
-# - This will be effective on 2nd boot, after first run update and installs have been done.
-# - Related software titles must be installed either on first run installs or via AUTO_SETUP_AUTOMATED=1 + AUTO_SETUP_INSTALL_SOFTWARE_ID (see below).
-AUTO_SETUP_AUTOSTART_TARGET_INDEX=0
-# Autologin user name
-# - This user must exist before first run installs, otherwise it will be reverted to root.
-# - Applies to all autostart options but: 0, 6, 14 and 16
-AUTO_SETUP_AUTOSTART_LOGIN_USER=dietpi
-
-##### Non-interactive first run setup #####
-# On first login, run update, initial setup and software installs without any user input
-# - Setting this to "1" is required for AUTO_SETUP_GLOBAL_PASSWORD and AUTO_SETUP_INSTALL_SOFTWARE_ID.
-# - Setting this to "1" indicates that you accept the DietPi GPLv2 license, available at /boot/dietpi-LICENSE.txt, superseding AUTO_SETUP_ACCEPT_LICENSE.
-AUTO_SETUP_AUTOMATED=0
-
-# Global password to be applied for the system
-# - Requires AUTO_SETUP_AUTOMATED=1
-# - Affects "root" and "dietpi" users login passwords and is used by dietpi-software as default for software installs which require a password.
-# - During first run setup, the password is removed from this file and instead encrypted and saved to root filesystem.
-# - WARN: The default SSH server Dropbear does not support passwords over 100 characters.
-# - WARN: We cannot guarantee that all software options can handle special characters like \"$.
-#AUTO_SETUP_GLOBAL_PASSWORD= # Password has been encrypted and saved to rootfs
-
-# Software to automatically install
-# - Requires AUTO_SETUP_AUTOMATED=1
-# - List of available software IDs: https://github.com/MichaIng/DietPi/wiki/DietPi-Software-list
-# - Add as many entries as you wish, one each line.
-# - DietPi will automatically install all dependencies, like ALSA/X11 for desktops etc.
-# - E.g. the following (without the leading "#") will install the LXDE desktop automatically on first boot:
-#AUTO_SETUP_INSTALL_SOFTWARE_ID=23
-
-#------------------------------------------------------------------------------------------------------
-##### Misc DietPi program settings #####
-#------------------------------------------------------------------------------------------------------
-# DietPi-Survey: 1=opt in | 0=opt out | -1=ask on first call
-# - https://dietpi.com/docs/dietpi_tools/#miscellaneous (see tab 'DietPi Survey')
-SURVEY_OPTED_IN=1
-
-#------------------------------------------------------------------------------------------------------
-##### DietPi-Config settings #####
-#------------------------------------------------------------------------------------------------------
-# CPU Governor: schedutil | ondemand | interactive | conservative | powersave | performance
-CONFIG_CPU_GOVERNOR=schedutil
-# Ondemand Sampling Rate | Min value: 10000 microseconds (10 ms)
-CONFIG_CPU_ONDEMAND_SAMPLE_RATE=25000
-# Ondemand Sampling Down Factor: Sampling Rate * Down Factor / 1000 = ms (40 = 1000 ms when sampling rate is 25000)
-CONFIG_CPU_ONDEMAND_SAMPLE_DOWNFACTOR=40
-# Throttle Up Percentage: Percentage of average CPU usage during sampling rate at which CPU will be throttled up/down
-CONFIG_CPU_USAGE_THROTTLE_UP=50
-
-# CPU Frequency Limits: Disabled=disabled
-# - Intel CPUs use a percentage value (%) from 0-100, e.g.: 55
-# - All other devices must use a specific MHz value, e.g.: 1600
-# - Has no effect on RPi, please set "arm_freq" and "arm_freq_min" in config.txt instead.
-CONFIG_CPU_MAX_FREQ=Disabled
-CONFIG_CPU_MIN_FREQ=Disabled
-
-# Disable Intel-based turbo/boost stepping. This flag should not be required, setting <100% MAX frequency should disable Turbo on Intel CPUs.
-CONFIG_CPU_DISABLE_TURBO=0
-
-#GPU Driver | Will also be applied during 1st run if set to a value other than 'None'
-#   NB: x86_64 PC only!
-#   Adds support for GUI/video hardware acceleration, OpenGL/GLES, Vulkan and VA-API
-# - none | Default, No GPU
-# - intel
-# - nvidia
-# - amd
-# - custom | Manual driver install (DietPi will not make driver changes to your system)
-CONFIG_GPU_DRIVER=none
-
-# System-wide proxy settings
-# - Do not modify, you must use dietpi-config > "Network Options: Adapters" to apply
-CONFIG_PROXY_ADDRESS=MyProxyServer.com
-CONFIG_PROXY_PORT=8080
-CONFIG_PROXY_USERNAME=
-CONFIG_PROXY_PASSWORD=
-
-# Connection timeout in seconds for G_CHECK_NET and G_CHECK_URL. Increase if you have a "flaky" connection or slow DNS resolver.
-# - Set this to "0" to allow unlimited time, however this is not recommended to avoid unlimited hanging background scripts, e.g. daily DietPi update check.
-# - A negative or non-integer value will result in the default of 10 seconds.
-CONFIG_G_CHECK_URL_TIMEOUT=10
-# Connection attempts with above timeout each, before G_CHECK_NET and G_CHECK_URL give up and prompt an error.
-# - Any value below "1" or a non-integer value will result in the default of 2 attempts.
-CONFIG_G_CHECK_URL_ATTEMPTS=2
-# General connection and DNS testing
-# - IPv4 address to ping when checking network connectivity. Default: 9.9.9.9 (Quad9 DNS IP)
-CONFIG_CHECK_CONNECTION_IP=9.9.9.9
-# - IPv6 address to ping when checking network connectivity. Default: 2620:fe::fe (Quad9 DNS IP)
-CONFIG_CHECK_CONNECTION_IPV6=2620:fe::fe
-# - Domain to resolve when checking DNS resolver. Default: dns9.quad9.net (Quad9 DNS domain)
-CONFIG_CHECK_DNS_DOMAIN=dns9.quad9.net
-
-# Daily check for DietPi updates: 0=disable | 1=enable
-# - Checks are done by downloading a file of only 7 bytes.
-CONFIG_CHECK_DIETPI_UPDATES=1
-
-# Daily check for APT package updates: 0=disable | 1=check only | 2=check and upgrade automatically
-# - Upgrade logs can be found at: /var/tmp/dietpi/logs/dietpi-update_apt.log
-CONFIG_CHECK_APT_UPDATES=1
-
-# Network time sync: 0=disabled | 1=boot only | 2=boot + daily | 3=boot + hourly | 4=Daemon + Drift
-CONFIG_NTP_MODE=2
-
-# Serial Console: Set to 0 if you do not require serial console.
-CONFIG_SERIAL_CONSOLE_ENABLE=0
-
-# Sound card
-CONFIG_SOUNDCARD=rpi-bcm2835-auto
-
-# LCD Panel addon
-# - Do not modify, you must use dietpi-config to configure/set options
-CONFIG_LCDPANEL=none
-
-# IPv6
-CONFIG_ENABLE_IPV6=1
-
-# APT mirrors which are applied to /etc/apt/sources.list | Values here will also be applied during 1st run setup
-# - Raspbian: https://www.raspbian.org/RaspbianMirrors
-CONFIG_APT_RASPBIAN_MIRROR=http://raspbian.raspberrypi.com/raspbian
-# - Debian: https://www.debian.org/mirror/official#list
-CONFIG_APT_DEBIAN_MIRROR=https://deb.debian.org/debian/
-
-# NTP server(s) applied to /etc/systemd/timesyncd.conf
-# - "default": Use the NTP server(s) provided via DHCP, else the debian.pool.ntp.org NTP pool.
-# - "gateway": Use the router/gateway as NTP server. Recommended, if it does provide this functionality.
-# - To use another public NTP pool, see the full list at: https://www.ntppool.org/zone/@
-#   Use the pool domain without leading integer and dot (without "0."), like "debian.pool.ntp.org", "pool.ntp.org" or "uk.pool.ntp.org".
-# - You can also use a custom IP address, hostname or any combination of space-separated IP addresses, hostnames and NTP pool domains.
-CONFIG_NTP_MIRROR=default
-
-#------------------------------------------------------------------------------------------------------
-##### DietPi-Software settings #####
-#------------------------------------------------------------------------------------------------------
-# SSH Server
-# - Disable SSH password logins, e.g. when using pubkey authentication
-#	0=Allow password logins for all users, including root
-#	root=Disable password login for root user only
-#	1=Disable password logins for all users, assure that you have a valid SSH key applied!
-SOFTWARE_DISABLE_SSH_PASSWORD_LOGINS=0
-
-# VNC Server
-SOFTWARE_VNCSERVER_WIDTH=1280
-SOFTWARE_VNCSERVER_HEIGHT=720
-SOFTWARE_VNCSERVER_DEPTH=16
-SOFTWARE_VNCSERVER_DISPLAY_INDEX=1
-SOFTWARE_VNCSERVER_SHARE_DESKTOP=0
-
-# ownCloud/Nextcloud
-# - Optional username for admin account, the default is 'admin', applied during install
-SOFTWARE_OWNCLOUD_NEXTCLOUD_USERNAME=admin
-# - Optional data directory, default is "/mnt/dietpi_userdata/owncloud_data" respectively "/mnt/dietpi_userdata/nextcloud_data", applied during install
-SOFTWARE_OWNCLOUD_DATADIR=/mnt/dietpi_userdata/owncloud_data
-SOFTWARE_NEXTCLOUD_DATADIR=/mnt/dietpi_userdata/nextcloud_data
-
-# WiFi Hotspot
-SOFTWARE_WIFI_HOTSPOT_SSID=DietPi-HotSpot
-# - Key requires a minimum of 8 characters
-SOFTWARE_WIFI_HOTSPOT_KEY=dietpihotspot
-# - 2.4 GHz WiFi channel, not effective if 5 GHz frequency is enabled
-SOFTWARE_WIFI_HOTSPOT_CHANNEL=3
-# - 802.11n/WiFi 4, 802.11ac/WiFi 5, 802.11ax/WiFi 6 and 5 GHz support: Note that your WiFi adapter must support it!
-# - WiFi 5 support implicitly switches to 5 GHz frequency.
-# - 5 GHz frequency implicitly enables WiFi 4 support if neither WiFi 4, 5 nor 6 is enabled.
-SOFTWARE_WIFI_HOTSPOT_WIFI4=0
-SOFTWARE_WIFI_HOTSPOT_WIFI5=0
-# - WiFi 6 is only supported from Debian Bookworm on!
-SOFTWARE_WIFI_HOTSPOT_WIFI6=0
-SOFTWARE_WIFI_HOTSPOT_5G=0
-# - A full list of supported 5 GHz WiFi channels per region can be found e.g. on Wikipedia: https://en.wikipedia.org/wiki/List_of_WLAN_channels#5_GHz_(802.11a/h/n/ac/ax)
-SOFTWARE_WIFI_HOTSPOT_5G_CHANNEL=36
-
-# X.org
-# - DPI 96(default) 120(+25%) 144(+50%) 168(+75%) 192(+100%)
-SOFTWARE_XORG_DPI=96
-
-# Chromium
-SOFTWARE_CHROMIUM_RES_X=1280
-SOFTWARE_CHROMIUM_RES_Y=800
-SOFTWARE_CHROMIUM_AUTOSTART_URL=http://localhost:8123
-
-# Home Assistant
-# - Optional Python build dependencies and modules, possibly required for certain HA components
-#	Space separated list (no quotation!), will be installed together with Home Assistant automatically, if present
-SOFTWARE_HOMEASSISTANT_APT_DEPS=
-#	Add Python modules with version string at best, e.g.: firstModule==1.2.3 secondModule==4.5.6
-SOFTWARE_HOMEASSISTANT_PIP_DEPS=
-
-# K3s
-# Command with flags to use for launching K3s in the service
-# The value of this variable is copied directly into the INSTALL_K3S_EXEC environment variable before
-# running the K3s installer.
-# https://rancher.com/docs/k3s/latest/en/installation/install-options/#options-for-installation-with-script
-#
-# Optionally, you can add a configuration file named /boot/dietpi-k3s.yaml,
-# which will be copied into place during installation.
-# https://rancher.com/docs/k3s/latest/en/installation/install-options/#configuration-file
-SOFTWARE_K3S_EXEC=
-
-# DietPi-Dashboard
-# Version to use
-# - Stable = Use release version of DietPi-Dashboard.
-# - Nightly = Use unstable version DietPi-Dashboard. Might have bugs, but will probably have more features.
-SOFTWARE_DIETPI_DASHBOARD_VERSION=Stable
-# Whether to only install backend or not
-SOFTWARE_DIETPI_DASHBOARD_BACKEND=0
-
-# PiVPN
-# - For an unattended install, place a config file named "unattended_pivpn.conf" into the boot partition/directory.
-# - For example configs, have a look at: https://github.com/pivpn/pivpn/tree/master/examples
-
-# Shairport Sync
-# - Uncomment and set to "2" to install experimental AirPlay 2 build: https://github.com/mikebrady/shairport-sync/blob/master/AIRPLAY2.md
-#SOFTWARE_SHAIRPORT_SYNC_AIRPLAY=2
-
-# UrBackup Server
-# - Backup path, optional, defaults to "/mnt/dietpi_userdata/urbackup", effective on fresh UrBackup Server installs only
-SOFTWARE_URBACKUP_BACKUPPATH=/mnt/dietpi_userdata/urbackup
-
-#------------------------------------------------------------------------------------------------------
-##### Dev settings #####
-#------------------------------------------------------------------------------------------------------
-DEV_GITBRANCH=master
-DEV_GITOWNER=MichaIng
-
-#------------------------------------------------------------------------------------------------------
-##### Settings, automatically added by dietpi-update #####
-#------------------------------------------------------------------------------------------------------
+AUTO_SETUP_NET_WIFI_ENABLED=0
 {% endhighlight %}
+
+Si tu souhaites faire une première installation en wifi tu peux bienentendu paramétrer en amont le réseau, toujours dans **dietpi.txt** rajoute **1** dans *network options* à la ligne ```AUTO_SETUP_NET_WIFI_ENABLED=1```, tu peux laisser **1** aussi ,```AUTO_SETUP_NET_ETHERNET_ENABLED=1``` ça ne change rien car si le **wifi est activé il sera utilisé par défaut**. Ensuite il faudra adapter le fichier **dietpi-wifi.txt**.
+
+{% picture posts/{{ page.guid }}/entree-dietpi-config-wifi.png --alt Modification du fichier dietpi.txt pour lancer la connection par le wifi --img width="940" height="708" %}
+
+#### dietpi-wifi.txt
+
+Dans ce fichier tu vas pouvoir renseigner toutes les infos de tes réseaux.
+
+> si tu veux paramétrer plusieurs réseaux wifi pour te connecter sur l'un d'entre eux c'est faisable.
+
+{% picture posts/{{ page.guid }}/parametrage-dietpi-wifi-txt.png --alt Paramétrage du wifi dans dietpi-wifi.txt --img width="810" height="796" %}
+
+Il faudra modifier **2 lignes** si tes réseaux sont en wpa-psk:
+- le **SSID** ( nom du réseau )
+- le **pass** de connection en version crypté.
+
+Pour trouvers ce pass sous linux c'est très simple ouvre un terminal et entre la commande: ```wpa_passphrase SSID PASSWORD```
+
+{% picture posts/{{ page.guid }}/generation-passphrase-wpa.png --alt Génération d'une clé wpa-psk sous linux --img width="650" height="207" %}
+
+> Enregistre le fichier et c'est terminé, **ton SBC se connectera automatiquement au réseau wifi** lors du premier lancement, Magique 🪄
+
+#### config.txt ( réglage des perfs )
+
+Le fichier comme marqué dans le titre est là pour optimiser les perfs du raspberry-pi 3B+, perso je n'y ai pas touché, mais comme pour le reste tout est paramétrable facilement via l'interface dietpi connecté en ssh avec la commande ```dietpi-config``` onglet [performances options](https://dietpi.com/docs/dietpi_tools/system_configuration/#dietpi-config-performance-options){: target="_blank"}
+
+**Retrouve sous les liens ci-dessous** des configurations avec la documentation officielle de raspberry-pi.
+
+[Documentation configuration raspberry pi](https://www.raspberrypi.com/documentation/computers/config_txt.html){: target="_blank"}
+
+[Github des optimisations officielles du firmware pour raspberry-pi](https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README){: target="_blank"}
+
+{% include doclink.html md="config.md" title="Réglage des performances du raspberry pi" %}
+
+#### cmdline.txt ( pour accueillir HAOS )
+
+Afin de préparer l'installation de [home assistant supervised installer](https://github.com/home-assistant/supervised-installer){: target="_blank"} il faudra rajouter une ligne de commande à la suite du code déjà disponible, et tu verras un peu plus bas il faudra copier ce fichier dans le sous dossier **/firmware**. Ainsi home assistant fonctionner pour le mieux.
+
+{% highlight txt %}
+apparmor=1 security=apparmor systemd.unified_cgroup_hierarchy=0
+{% endhighlight %}
+
+{% picture posts/{{ page.guid }}/modification-cmdline-txt-pour-home-assistant-cgroupv1.png --alt Personnalisation du fichier pour préparer l'installation de Home Assistant OS et les infos CGroupV1 --img width="940" height="48" %}
+
+{% include doclink.html md="cmdline.md" title="Préparer cmdline pour home assistant OS" %}
 
 ### Premier lancement
 
-Sur le un raspberry pi 3B+ le premier démarrage a mis moins de 2 minutes pour se lancer sachant que j'ai fait quelques modifications dans le fichier dietpi.txt. La connection ssh est active par défaut, c'est un plus et lors de la première connection en ssh dietpi-update se lance automatiquement.
+Sur le **raspberry pi 3B+** le premier démarrage a mis moins de **2 minutes** pour se lancer sachant que j'ai fait quelques modifications dans le fichier **dietpi.txt.** La connection **ssh est active par défaut**, c'est un plus et **lors de la première connection en ssh dietpi-update se lance automatiquement.**
 
 {% picture posts/{{ page.guid }}/premiere-connection-ssh-dietpi-update-automatique.png --alt Première connection SSH Dietpi possède un GUI interface utile avec une mise à jour au premier lancement --img width="643" height="406" %}
 
 ### connection à l'interface
-Pour connaître l'adresse ip connecte le SBC en hdmi ainsi tu auras l'interface GUI dietpi disponible avec ton adresse ip dédiée ainsi que les identifians et mot de pass root d'affichés.
+Pour connaître l'adresse ip connecte le SBC en hdmi ainsi tu auras l'interface GUI dietpi disponible avec ton adresse ip dédiée ainsi que les identifiants et mot de passes root d'affichés.
 Je décide de me connecter en ssh ```ssh -p 22 mon-ip -l root```
 
 {% picture posts/{{ page.guid }}/dietpi-installe-acces-gui-ssh.png --alt Première connection SSH Dietpi possède un GUI interface utile --img width="643" height="406" %}
 
+sur l'image ci-dessus tu auras accès à l'ensemble des données et paramétrages de ton installation, une **fulltitude d'options ça c'est génial** avec entre autre:
+
+- [dietpi-launcher](https://dietpi.com/docs/dietpi_tools/#dietpi-launcher){: target="_blank"}
+- [dietpi-config](https://dietpi.com/docs/dietpi_tools/system_configuration/#dietpi-config){: target="_blank"}
+- [dietpi-software](https://dietpi.com/docs/dietpi_tools/software_installation/){: target="_blank"}
+- [dietpi-update et dietpi-cleaner](https://dietpi.com/docs/dietpi_tools/system_maintenance/){: target="_blank"}
+- [dietpi-backup](https://dietpi.com/docs/dietpi_tools/system_maintenance/){: target="_blank"}
+- htop
+- cpu (info)
+
+
 ![Première connection dietpi et paramétrage après mise à jour]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/premiere-connection.webp{{ cachebuster }}){: width="643" height="406" class="lazyload pictaninpost"}
 
-## Dietpi Software
+J'ai fait **un petit récapitulatif** au format Gif des prompts de la procédure lors de la première installation.
 
-https://dietpi.com/dietpi-software.html
+{% include product-embed.html image="sandisk-sdcard-256-extreme.png" title="Sdcard 256GB sandisk extrême" brand="Sandisk" description="Sdcard de qualité Sandisk pour raspberry pi" affiliate="_Dc6uJfL" amazlink="417XNZH" %}
 
 
-https://dietpi.com/survey/
+### Dietpi Software
 
-## Installation HAOS sur Dietpi
+Pour te rendre compte de toute la puissance de dietpi va directement sur la page des softwares à l'installation automatique disponible dans le dietpi, c'est impressionnant, tu peux taper directement la commande dans le terminal ```dietpi-software list``` et d'un **seul coup d'oeil tu verras tous les softs compatible avec l'architecture du SBC**.
 
-Si tu fais une recherche dans [dietpi-software](https://dietpi.com/docs/software/home_automation/){: target="_blank"}, tu pourras te rendre compte de la présence d'une fonction automatisée pour l'installation de Home assistant, mais pas de Home Assistant OS, elle a été envisagée mais conflictuelle car par défaut Dietpi utilise le gestionnaire de réseau **ifupdown** alors que HAOS utilise **network manager** ce qui rend la gestion du réseau impossible dans dietpi-config après le passage à network manager, mais heureusement pour nous ce n'est pas trop grave pour la suite.
+[Lien dietpi sofware sur le site officiel](https://dietpi.com/dietpi-software.html){: target="_blank"}
+
+![List des logiciels auto installables avec dietpi]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/list-softwares-dietpi.webp{{ cachebuster }}){: width="940" height="394" class="lazyload pictaninpost"}
+
+### Dietpi Survey
+
+Lors de la première installation il te sera demandé **si tu désires ou non laisser le serveur dietpi collecter les infos** sur tes statistiques.
+
+{% picture posts/{{ page.guid }}/premiere-connection-dietpi-survey.png --alt Surveillance Dietpi en ligne --img width="643" height="406" %}
+
+Perso j'ai coché 0, libre à toi de faire remonter les infos.
+
+[Page des statistiques de dietpi Survey](https://dietpi.com/survey/){: target="_blank"}
+
+## Installation Home Assistant OS sur Dietpi
+
+Si tu fais une recherche dans [dietpi-software](https://dietpi.com/docs/software/home_automation/){: target="_blank"}, tu pourras te rendre compte de la présence d'une fonction automatisée pour l'installation de Home assistant, mais pas de Home Assistant OS, elle a été envisagée mais conflictuelle car par défaut Dietpi utilise le gestionnaire de réseau **ifupdown** alors que HAOS utilise **network manager** ce qui rend la gestion du réseau impossible dans dietpi-config après le passage à network manager, **mais heureusement pour nous ce n'est pas trop grave pour la suite.**
 
 Donc une fois l'installation dietpi opérationnelle et mise à jour sur ton réseau il te suffit d'appliquer les commandes suivante:
 
-```sudo su -``` pour passer en mode administrateur
+{% highlight shell %}
+sudo su - # pour passer en mode administrateur
+{% endhighlight %}
 
 ensuite installons [home assistant supervised installer](https://github.com/home-assistant/supervised-installer){: target="_blank"} en commençant par les dépendances:
 
@@ -443,37 +231,83 @@ udisks2 \
 wget -y
 {% endhighlight %}
 
-ensuite on recrée le fichier réseau pour network manager, car je le rapelle le premier a été créé par **ifupdown**:
+Puis on recrée le fichier réseau pour network manager, car je le rapelle le premier a été créé par **ifupdown**:
 
-```sudo mv /etc/network/interfaces /etc/network/interfaces.old```
+{% highlight shell %}
+sudo mv /etc/network/interfaces /etc/network/interfaces.old # on renomme l'interface en fichier .old afin de ne pas perdre les infos précédentes
+{% endhighlight %}
 
 et on termine par un redémarrage
 
-```reboot```
+{% highlight shell %}
+reboot
+{% endhighlight %}
 
-```sudo su -```
+Après le redémarrage du système repasse en mode sudo permanent
 
+{% highlight shell %}
+sudo su -
+{% endhighlight %}
 
+On installe la librairie docker
 
-## Dietpi.txt
-## cmdline.txt
-## config.txt
-## dietpi-wifi.txt
-
-https://github.com/home-assistant/supervised-installer
-
+{% highlight shell %}
 curl -fsSL get.docker.com | sh
+{% endhighlight %}
 
-https://github.com/home-assistant/os-agent/releases/tag/1.6.0
+{%- include alert.html type="error" text="**PS:** Quand tu accèderas à home assistant après le paramétrage si une erreur root docker remonte il te suffira de redémarrer tout le système et home assistant corrigera cette erreur." %}
 
-wget https://github.com/home-assistant/os-agent/releases/download/1.6.0/os-agent_1.6.0_linux_aarch64.deb
-dpkg -i os-agent_1.6.0_linux_aarch64.deb 
-gdbus introspect --system --dest io.hass.os --object-path /io/hass/os
+Continue et récupère la dernière version de os-agent pour ton architecture moi il s'agit de **aarch64**
+
+[Release os-agent](https://github.com/home-assistant/os-agent/){: target="_blank"}
+
+Passons maintenant au téléchargement, à l'installation et au test de fonctionnement de os-agent:
+
+{% highlight shell %}
+wget https://github.com/home-assistant/os-agent/releases/download/1.6.0/os-agent_1.6.0_linux_aarch64.deb # on télécharge
+dpkg -i os-agent_1.6.0_linux_aarch64.deb # on installe 
+gdbus introspect --system --dest io.hass.os --object-path /io/hass/os # on vérifie
+{% endhighlight %}
+
+Maintenant **créeons** le dossier firmware, ensuite on fait une copie de cmdline.txt dans **/firmware**.
+
+{% highlight shell %}
 mkdir /boot/firmware
 cp /boot/cmdline.txt /boot/firmware/
+{% endhighlight %}
+
+> Pour terminer copie l'ensemble de la commande ci-dessous pour intaller Home Assiistant OS.
+
+{% highlight shell %}
 wget -O homeassistant-supervised.deb https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
 apt install ./homeassistant-supervised.deb
+{% endhighlight %}
+
+On supprime les fichiers préalablements téléchargés et situé à la racine.
+
+{% highlight shell %}
 rm -rf homeassistant-supervised.deb os-agent_1.6.0_linux_aarch64.deb 
+{% endhighlight %}
+
+**Fini par un petit redémarrage.**
+
+{% highlight shell %}
 reboot
+{% endhighlight %}
+
+> Voilà Home Assistant OS est installé sur Dietpi 🥳
+
+{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
+
+{% include product-embed.html image="raspberry-pi-5-achat-amazon.png" title="Raspberry-pi 5 4GB" brand="Raspberry" description="Dernière génération du raspberry-pi avec 4GB de RAM" affiliate="_DD0v3TL" amazlink="3VeGOAU" %}
+
+## Conclusion
+
+**Dietpi software est une pépite** si tu souhaites contrôler ton raspberry-pi ou y installer des options facilement, **comme le contrôle des leds**, il te permettra de faire failement les mises à jours systèmes, de **créer un backup**, enfin bref toute une panoplie de fonctions. Et tout ça sur un système optimisé et ultra légé, **bref que du bonheur**.
+
+> **Je recommande grandement dietpi à tout le monde**.
+
+
+
 
 

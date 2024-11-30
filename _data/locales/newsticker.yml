@@ -42,10 +42,9 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'Profitez de prix jamais vu chez Sunity sur les kits solaires et les batteries
-      ! #BLACKFRIDAY'
-    url: https://www.maison-et-domotique.com/150018-sunity-blackfriday/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/9-be931ad9-281d-4483-ba20-cab8f908580a-500x500.webp
+    title: "\U0001F525 Le robot tondeuse Segway Navimow i105E à 849€ ! #BLACKFRIDAY"
+    url: https://www.maison-et-domotique.com/149779-blackfriday-robot-tondeuse-segway-navimow-i105e/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/11/navimow-black-friday-702x367.png
 Matter:
   en_GB:
   - name: Matter
