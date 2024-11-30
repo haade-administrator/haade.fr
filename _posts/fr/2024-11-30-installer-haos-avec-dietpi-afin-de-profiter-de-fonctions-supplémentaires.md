@@ -189,7 +189,7 @@ Pour te rendre compte de toute la puissance de dietpi va directement sur la page
 
 [Lien dietpi sofware sur le site officiel](https://dietpi.com/dietpi-software.html){: target="_blank"}
 
-![List des logiciels auto installables avec dietpi]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/list-softwares-dietpi.webp{{ cachebuster }}){: width="940" height="394" class="lazyload pictaninpost"}
+![Liste des logiciels auto installables avec dietpi]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/list-softwares-dietpi.webp{{ cachebuster }}){: width="940" height="394" class="lazyload pictaninpost"}
 
 ### Dietpi Survey
 
@@ -255,7 +255,7 @@ On installe la librairie docker
 curl -fsSL get.docker.com | sh
 {% endhighlight %}
 
-{%- include alert.html type="error" text="**PS:** Quand tu accèderas à home assistant après le paramétrage si une erreur root docker remonte il te suffira de redémarrer tout le système et home assistant corrigera cette erreur." %}
+{%- include alert.html type="error" text="<b>PS:</b> Quand tu accèderas à home assistant après le paramétrage si une erreur root docker remonte il te suffira de redémarrer tout le système et home assistant corrigera cette erreur." %}
 
 Continue et récupère la dernière version de os-agent pour ton architecture moi il s'agit de **aarch64**
 
@@ -283,7 +283,7 @@ wget -O homeassistant-supervised.deb https://github.com/home-assistant/supervise
 apt install ./homeassistant-supervised.deb
 {% endhighlight %}
 
-On supprime les fichiers préalablements téléchargés et situé à la racine.
+On **supprime** les fichiers préalablements téléchargés et situés à la racine.
 
 {% highlight shell %}
 rm -rf homeassistant-supervised.deb os-agent_1.6.0_linux_aarch64.deb 
@@ -295,7 +295,7 @@ rm -rf homeassistant-supervised.deb os-agent_1.6.0_linux_aarch64.deb
 reboot
 {% endhighlight %}
 
-> Voilà Home Assistant OS est installé sur Dietpi 🥳
+> Voilà **Home Assistant OS est installé sur Dietpi** 🥳
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
