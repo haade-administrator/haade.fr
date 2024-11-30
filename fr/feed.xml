@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Nov 2024 04:03:32 +0100</pubDate>
-    <lastBuildDate>Thu, 21 Nov 2024 20:45:00 +0100</lastBuildDate>
+    <pubDate>Sat, 30 Nov 2024 19:30:26 +0100</pubDate>
+    <lastBuildDate>Sat, 30 Nov 2024 19:10:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Installe Home Assistant OS sur Dietpi</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Voilà un article pertinent pour installer HAOS sur Dietpi le système d&apos;exploitation RPI à la diète, pourquoi s&apos;embêter à faire une telle installation alors qu&apos;il existe une image toute faite HAOS pour raspberry pi ?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png" alt="Installe Home Assistant OS sur Dietpi">
+</picture>
+
+      <p>Pourquoi s’embêter à installer Home Assistant OS sur dietpi alors qu’il existe une image toute prête à base de raspberry pi os Lite sur le site officiel, ou encore plus simple via le software imager développé par la fondation Raspberry PI qui contient l’image HAOS.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires">Installe Home Assistant OS sur Dietpi</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Home assistant Yellow, pour qui ?</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +247,6 @@
       <link>https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</guid>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Découverte des commutateurs Shelly Wave 1PM et mini</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je vais tester les commutateurs z-wave 800 shelly Wave 1PM et Wave 1PM mini et mettre en place des règles d&apos;associations pour une communication en direct</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png" alt="Découverte des commutateurs Shelly Wave 1PM et mini">
-</picture>
-
-      <p>Découverte des modules Z-wave 800 Shelly wave 1 PM et 1 PM mini, quelles sont leurs particularités, et leurs différences. Sont-ils à la hauteur ? pour le tarif et surtout quelles options sont proposées pour ces modules z-wave ?
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations">Découverte des commutateurs Shelly Wave 1PM et mini</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 28 Jul 2024 09:30:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/decouverte-commutateurs-interrupteurs-z-wave-shelly-1-PM-et-1-PM-mini-et-gestion-des-associations</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Z-wave]]></category>
     </item>
   </channel>
 </rss>
