@@ -60,7 +60,7 @@ Pour commencer [télécharge l'image correspondante](https://dietpi.com/#downloa
 
 Une fois l'image copiée nous allons [**automatiser la première installation**](https://dietpi.com/docs/usage/#how-to-do-an-automatic-base-installation-at-first-boot-dietpi-automation){: target="_blank"}, oui tu as bien entendu avec Dietpi tu peux modifier 2-3 fichiers textes et paramétrer ce que tu veux avant **le premier lancement et ça c'est génial**.
 
-### automatisation par les fichiers {{ page.ref }}
+### Automatisation par les fichiers {{ page.ref }}
 
 > Belle nouvelle Dietpi propose d'automatiser la première installation en modifiant simplement des fichiers textes à la source de la carte sd. 
 
@@ -159,7 +159,7 @@ Sur le **raspberry pi 3B+** le premier démarrage a mis moins de **2 minutes** p
 
 {% picture posts/{{ page.guid }}/premiere-connection-ssh-dietpi-update-automatique.png --alt Première connection SSH Dietpi possède un GUI interface utile avec une mise à jour au premier lancement --img width="643" height="406" %}
 
-### connection à l'interface
+### Connection à l'interface
 Pour connaître l'adresse ip connecte le SBC en hdmi ainsi tu auras l'interface GUI dietpi disponible avec ton adresse ip dédiée ainsi que les identifiants et mot de passes root d'affichés.
 Je décide de me connecter en ssh ```ssh -p 22 mon-ip -l root```
 
