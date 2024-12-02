@@ -1,6 +1,6 @@
 ---
 guid: 147
-title: "Nouveautées attendues pour Sonoff en décembre"
+title: "Nouveautés attendues pour Sonoff en décembre"
 description: "Un plein de nouveautées pour les produits et firmwares sonoff attendus en décembre"
 ref: ""
 layout: post
@@ -10,7 +10,7 @@ last_modified_at:
 categories: [News, Haade-lab]
 tags: []
 video: 
-image: 'picture.png'
+image: 'quelles-nouveautes-sonoff-decembre-2024.png'
 toc: true
 beforetoc: ''
 published: false
@@ -27,11 +27,15 @@ sourcelink:
   - 
 ---
 
+En direct de la marque Sonoff ( itead.cc ) je vous remonte les nouveautés attendus pour ce mois de décembre en direct de la fabrique du Père Noel Chinois 🎅🏻
+
 ## Nouveaux produits
 
 ## deux nouveaux produits BMT01 et DUAL-RBS
 
 {% include doclink.html pdf="SONOFF-BBQ-Meat-Thermometer.pdf" title="Sonoff Module BMT01" %}
+
+{% include product-embed.html image="barbecue-sonde-thermometre-sonoff-bmt01.png" title="Sonoff sonde Barbecue connectée" brand="Sonoff" description="Découvre le tout nouveau Sonoff BMT01, un capteur de température pour mesurer la cuisson de la viande" %}
 
 Sonde à viande BMT01 Sortie prévue le 12 novembre.
 Le BMT01 est un capteur de température Bluetooth compact avec écran. Il est livré avec une sonde métallique haute température qui peut être utilisée pour surveiller la température des viandes grillées ou des fours.
@@ -42,6 +46,8 @@ Le BMT01 est un capteur de température Bluetooth compact avec écran. Il est li
 P.S : pour plus de détails sur le produit, veuillez vous référer au manuel du produit ci-joint dans cet e-mail.
 
 {% include doclink.html pdf="SONOFF-Smart-Roller-Shutter-Switch(Neutral-Wire-Required).pdf" title="Sonoff Module volet roulant DUAL-RBS" %}
+
+{% picture posts/{{ page.guid }}/SONOFF-Smart-Roller-Shutter-Switch.png --alt Nouveau micro module de contrôle de volet en avant première --img width="400" height="400" %}
 
 Interrupteur de rideau DUAL-RBS Sortie prévue le 28 novembre.
 Ce contrôleur de moteur de rideau/volet compatible Matter est conçu pour les boîtiers muraux de style européen et fonctionne sur le Wi-Fi 2,4 GHz.
@@ -93,6 +99,10 @@ P.S : Pour plus de détails sur le produit, veuillez vous référer au manuel d
 Nous pensons que ces produits peuvent apporter une valeur significative à vos abonnés intéressés par les solutions de maison intelligente. Si vous êtes intéressé, veuillez répondre à cet e-mail et nous organiserons la livraison des échantillons. N'hésitez pas à nous faire savoir si vous avez besoin de plus d'informations sur le produit.
 
 ## Nouveautée NSPanel Pro
+
+{% include product-embed.html image="sonoff-nspanel-pro-120-PW-en-vente.png" title="NSPanel Pro 120 PW" brand="Sonoff" description="Découvre le tout nouveau Sonoff NSPanel Pro 120 compatible wifi et zigbee un produit à avoir !" iteadlink="sonoff-nspanel-pro-smart-home-control-panel-120-type" %}
+
+
 Nous prévoyons de lancer une nouvelle fonctionnalité sur le NSPanel Pro en décembre : Web Shortcut. Cette fonctionnalité vous permet de rechercher des services au sein du réseau local et de les afficher sur l'écran du NSPanel Pro, ce qui vous permet de les consulter à tout moment.
 
 Par rapport à la fonctionnalité Page Web, Web Shortcut offre un moyen plus pratique d'accéder aux pages du réseau local. Lorsque vous quittez l'écran Web Shortcut, la page ne se ferme pas automatiquement, ce qui vous permet d'y revenir à tout moment. Cela rend Web Shortcut idéal pour les pages de réseau local telles que Home Assistant et iHost CAST.
