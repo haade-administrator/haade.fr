@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2024-11-21T20:45:00+01:00</news:publication_date>
-          <news:title>Home assistant Yellow, pour qui ?</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
