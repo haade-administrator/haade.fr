@@ -5,21 +5,21 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Home Assistant Yellow - instant 2x IoT speedup with CM5
-    url: https://www.jeffgeerling.com/blog/2024/home-assistant-yellow-instant-2x-iot-speedup-cm5
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi-cm5-ha-upgrade.jpg
+    title: Raspberry Pi boosts Pi 5 performance with SDRAM tuning
+    url: https://www.jeffgeerling.com/blog/2024/raspberry-pi-boosts-pi-5-performance-sdram-tuning
+    image: https://www.jeffgeerling.com/sites/default/files/images/pi-5-overclock-desk-mess.jpeg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Black Friday  - dernières offres Alexa, Amazon Echo, Fire TV et Ring
-    url: https://www.lesalexiens.fr/actualites/black-friday-dernieres-offres-alexa-amazon-echo-fire-tv-ring/
+    title: Netatmo et Somfy renforcent leur partenariat pour une maison connectée
+    url: https://www.lesalexiens.fr/actualites/netatmo-et-somfy-renforcent-leur-partenariat-pour-une-maison-connectee/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Jeedom Luna - La meilleure passerelle LoRaWAN pour rendre un bâtiment connecté?
-    url: https://blog.domadoo.fr/109715-jeedom-luna-passerelle-lorawan-batiment/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/jeedom-luna-passerelle-lorawan-batiment-1024x640.webp
+    title: Shelly Pro 3EM  - Le compteur d’énergie triphasé pour une maison connectée
+    url: https://blog.domadoo.fr/109476-compteur-energie-shelly-pro-3em/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/couverture.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -43,14 +43,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'Calendrier de l’Avent M&D - de nombreux lots à gagner chaque jour ! #concours'
-    url: https://www.maison-et-domotique.com/150030-grand-concours-noel-2024/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/concours-calendrier-accueil-2024-copie-495x500.png
+    title: Test du Khadas Mind Graphics  - la station GPU qui transforme votre mini-PC
+      en bête de course grâce à sa NVIDIA GeForce RTX 4060 Ti !
+    url: https://www.maison-et-domotique.com/150057-test-khadas-mind-graphics/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/titre-mind-graphics-702x458.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Midea Matter Testimonial Video
-    url: https://csa-iot.org/newsroom/midea-matter-testimonial-video/
+    title: Kwikset introduces Halo Select – A Matter-enabled smart door lock
+    url: https://9to5mac.com/kwikset-introduces-halo-select-a-matter-enabled-smart-door-lock/?utm_source=LinkedIn&utm_medium=social&utm_campaign=Amplified_News&utm_term=9to5Mac_Kwikset
     image: 
 Kincony:
   en_GB:
