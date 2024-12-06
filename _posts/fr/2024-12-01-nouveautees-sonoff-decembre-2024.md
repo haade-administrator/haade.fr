@@ -31,14 +31,16 @@ En direct de la marque Sonoff ( itead.cc ) je vous remonte les nouveautés atten
 
 ## Nouveaux produits
 
-## deux nouveaux produits BMT01 et DUAL-RBS
+### BMT01 et DUAL-RBS
 
 {% include doclink.html pdf="SONOFF-BBQ-Meat-Thermometer.pdf" title="Sonoff Module BMT01" %}
 
 {% include product-embed.html image="barbecue-sonde-thermometre-sonoff-bmt01.png" title="Sonoff sonde Barbecue connectée" brand="Sonoff" description="Découvre le tout nouveau Sonoff BMT01, un capteur de température pour mesurer la cuisson de la viande" %}
 
-Sonde à viande BMT01 Sortie prévue le 12 novembre.
-Le BMT01 est un capteur de température Bluetooth compact avec écran. Il est livré avec une sonde métallique haute température qui peut être utilisée pour surveiller la température des viandes grillées ou des fours.
+**Sonde à viande BMT01 Sortie prévue le 12 novembre.**
+
+**Le BMT01** est un capteur de température Bluetooth compact avec écran. Il est livré avec une sonde métallique haute température qui peut être utilisée pour surveiller la température des viandes grillées ou des fours.
+
 1.Portable et intelligent : emportez-le avec vous et surveillez la température de votre gril ou de votre viande directement depuis votre téléphone.
 2.Surveillance précise de la température : équipé d'une sonde métallique résistante à la chaleur, il fournit des relevés de température en temps réel toutes les 2 secondes, garantissant un contrôle précis de la cuisson.
 3.Alertes intelligentes : recevez des notifications lorsque la viande est proche de votre température prédéfinie, vous aidant à éviter la surcuisson et à servir au moment idéal.
@@ -49,7 +51,8 @@ P.S : pour plus de détails sur le produit, veuillez vous référer au manuel d
 
 {% picture posts/{{ page.guid }}/SONOFF-Smart-Roller-Shutter-Switch.png --alt Nouveau micro module de contrôle de volet en avant première --img width="400" height="400" %}
 
-Interrupteur de rideau DUAL-RBS Sortie prévue le 28 novembre.
+**Interrupteur de rideau DUAL-RBS Sortie prévue le 28 novembre.**
+
 Ce contrôleur de moteur de rideau/volet compatible Matter est conçu pour les boîtiers muraux de style européen et fonctionne sur le Wi-Fi 2,4 GHz.
 1. Conception compacte : avec une taille de 46 x 40 x 19 mm, il est plus petit que notre modèle précédent, ce qui garantit une installation facile de divers types d'interrupteurs.
 2. Compatibilité Matter : s'intègre parfaitement dans l'écosystème Matter, permettant un contrôle intelligent de la maison avec d'autres appareils compatibles Matter.

@@ -11,8 +11,8 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Netatmo et Somfy renforcent leur partenariat pour une maison connectée
-    url: https://www.lesalexiens.fr/actualites/netatmo-et-somfy-renforcent-leur-partenariat-pour-une-maison-connectee/
+    title: Le nouveau Kindle Scribe maintenant disponible en France
+    url: https://www.lesalexiens.fr/actualites/nouveau-kindle-scribe-maintenant-disponible-sur-amazon/
     image: 
 Blog-Domadoo:
   fr_FR:
@@ -43,15 +43,14 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Khadas Mind Graphics  - la station GPU qui transforme votre mini-PC
-      en bête de course grâce à sa NVIDIA GeForce RTX 4060 Ti !
-    url: https://www.maison-et-domotique.com/150057-test-khadas-mind-graphics/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/titre-mind-graphics-702x458.jpg
+    title: Test Honor Magic V3  - le smartphone pliable qui change la donne !
+    url: https://www.maison-et-domotique.com/150088-test-honor-magic-v3/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/test-honor-magic-v3-17-667x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Kwikset introduces Halo Select – A Matter-enabled smart door lock
-    url: https://9to5mac.com/kwikset-introduces-halo-select-a-matter-enabled-smart-door-lock/?utm_source=LinkedIn&utm_medium=social&utm_campaign=Amplified_News&utm_term=9to5Mac_Kwikset
+    title: Zigbee Use Case | Energy Management
+    url: https://csa-iot.org/newsroom/zigbee-use-case-energy-management-2/
     image: 
 Kincony:
   en_GB:
