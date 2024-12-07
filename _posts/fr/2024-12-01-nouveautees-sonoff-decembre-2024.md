@@ -13,7 +13,7 @@ video:
 image: 'quelles-nouveautes-sonoff-decembre-2024.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
