@@ -13,7 +13,7 @@ video:
 image: 'quelles-nouveautes-sonoff-decembre-2024.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -61,19 +61,17 @@ Ce contrôleur de moteur de rideau/volet compatible Matter est conçu pour les b
 5. Connexion facile du moteur : pas besoin de s'inquiéter des erreurs de câblage, ce commutateur résout automatiquement les problèmes de câblage inversé du moteur.
 P.S : Pour plus de détails sur le produit, veuillez vous référer au manuel du produit ci-joint dans cet e-mail.
 
-### Nouvelles fonctions Robinet thermostatique Sonoff ZTRV
+### Nouvelles fonctions Robinet thermostatique Sonoff TRVZB
 
-J'espère que vous allez bien !
-Nous vous remercions pour vos collaborations passées avec la vanne thermostatique de radiateur SONOFF Zigbee et vous informons que nous avons amélioré ses fonctionnalités pour mieux répondre aux besoins des utilisateurs. Les dernières mises à jour de la vanne thermostatique de radiateur SONOFF Zigbee sont les suivantes :
+{% include product-embed.html image="sonoff-tete-thermostatique-connectee-zigbee-30.jpg" title="Sonoff TRVZB" brand="Sonoff" description="La tête thermostatique connectée SONOFF Zigbee vous permet de contrôler la température plus précisément avec moins d'énergie, vous offrant ainsi une maison plus confortable." domlink="chauffage-clim/6776-sonoff-tete-thermostatique-connectee-zigbee-30.html" iteadlink="sonoff-zigbee-thermostatic-radiator-valve" affiliate="_DFB4iQZ" %}
 
-1. Prise en charge des capteurs de température externes - Recevez les relevés de température directement à partir des capteurs de température et d'humidité SONOFF Zigbee tels que SNZB-02, SNZB-02P et SNZB-02D pour fournir une température ambiante précise et confortable, disponible sur SONOFF ZBBridge-P, et fonctionnera bientôt sur NSPanel Pro, iHost, ZBBridge-U.
+Fonctionnalités améliorées pour mieux répondre aux besoins des utilisateurs. Les dernières mises à jour de la vanne thermostatique de radiateur SONOFF Zigbee sont les suivantes :
 
-2. Prise en charge du pourcentage d'ouverture - Capable de contrôler le pourcentage d'ouverture de 0% à 100%, avec une précision de 1% pour obtenir un contrôle de température stable, disponible sur SONOFF ZBBridge-P, NSPanel Pro, iHost, ZBBridge-U.
+1. Prise en charge des **capteurs de température externes** **(nouveautée très attendue idéal pour l'intégration dans le système sonoff NSPanel Pro )** - Recevez les relevés de température directement à partir des capteurs de température et d'humidité SONOFF Zigbee tels que **SNZB-02**, **SNZB-02P** et **SNZB-02D** pour fournir une température ambiante précise et confortable, disponible sur SONOFF ZBBridge-P, et fonctionnera bientôt sur NSPanel Pro, iHost, ZBBridge-U.
 
-En plus de ces avancées, nous sommes ravis de vous annoncer que SONOFF Zigbee TRV est devenu notre MEILLEUR VENDEUR depuis septembre, en s'appuyant sur l'augmentation de la demande du marché européen en matière d'enrouleurs et d'avantages économiques. Nous vous recommandons vivement de tester ce produit en conjonction avec les nouvelles fonctionnalités ci-dessus, je pense qu'il peut être apprécié par les fans de votre chaîne.
+2. Prise en **charge du pourcentage d'ouverture** - Capable de contrôler le pourcentage d'ouverture de 0% à 100%, avec une précision de 1% pour obtenir un contrôle de température stable, disponible sur SONOFF ZBBridge-P, NSPanel Pro, iHost, ZBBridge-U.
 
-Si vous avez des questions ou si vous avez besoin de plus amples informations sur les fonctionnalités mises à jour, n'hésitez pas à nous contacter.
-Merci encore une fois pour votre soutien et votre collaboration continus.
+En plus de ces avancées, SONOFF Zigbee TRV est devenu la **MEILLEUR VENDEUR de la marque depuis septembre**, en s'appuyant sur l'augmentation de la demande du marché européen en matière d'enrouleurs et d'avantages économiques.
 
 ### Sonoff Mini Dry (contact sec )
 
@@ -89,6 +87,9 @@ Le MINI-D est un commutateur intelligent Wi-Fi à contact sec conçu pour contr�
 P.S : pour plus de détails sur le produit, veuillez vous référer au manuel du produit ci-joint dans cet e-mail.
 
 ### Sonoff Switchman
+
+{% include product-embed.html image="switchmann-new-120-sonoff.png" title="Sonoff Interrupteur 120" brand="Sonoff" description="Nouvelle variante de l'interrupeur au format 120 Sonoff Switchman existe en version EU" iteadlink="sonoff-switchman-smart-wall-switch-m5" %}
+
 
 {% include doclink.html pdf="SONOFF-SwitchMan-Zigbee-Smart-Wall Switch _(Supports-both-No-Neutral-and-Neutral-Wire).pdf" title="Sonoff Interrupteur mural sans neutre wifi" %}
 

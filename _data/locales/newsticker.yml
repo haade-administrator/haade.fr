@@ -5,9 +5,9 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Raspberry Pi boosts Pi 5 performance with SDRAM tuning
-    url: https://www.jeffgeerling.com/blog/2024/raspberry-pi-boosts-pi-5-performance-sdram-tuning
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi-5-overclock-desk-mess.jpeg
+    title: AmpereOne - Cores are the new MHz
+    url: https://www.jeffgeerling.com/blog/2024/ampereone-cores-are-new-mhz
+    image: https://www.jeffgeerling.com/sites/default/files/images/ampereone-hero-open.jpeg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
@@ -43,18 +43,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Honor Magic V3  - le smartphone pliable qui change la donne !
-    url: https://www.maison-et-domotique.com/150088-test-honor-magic-v3/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/test-honor-magic-v3-17-667x500.jpg
+    title: Mise à jour Home Assistant 2024.12 - éditeur de scène, assistant vocal
+      en approche, nouvelles intégrations, etc.
+    url: https://www.maison-et-domotique.com/150138-mise-a-jour-home-assistant-2024-12/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/gd-l1pdwoaeuwkm-702x369.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Zigbee Use Case | Energy Management
-    url: https://csa-iot.org/newsroom/zigbee-use-case-energy-management-2/
+    title: The Alliance is creating a more equitable and accessible IoT
+    url: https://csa-iot.org/newsroom/the-alliance-is-creating-a-more-equitable-and-accessible-iot/
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony SIM7600E-L1C 4G breakout LTE core module released
-    url: https://www.kincony.com/sim7600e-l1c-4g-breakout-lte-core-module.html
+    title: KinCony F24 ESP32-S3 16A Removable Relay Board released
+    url: https://www.kincony.com/kincony-f24-esp32-s3-16a-removable-relay-board-released.html
     image:
