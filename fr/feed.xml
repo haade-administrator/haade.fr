@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 07 Dec 2024 04:08:59 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Nov 2024 19:10:00 +0100</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 19:30:44 +0100</pubDate>
+    <lastBuildDate>Sun, 01 Dec 2024 10:11:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Nouveautés attendues pour Sonoff en décembre</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Un plein de nouveautées pour les produits et firmwares sonoff attendus en décembre</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.png" alt="Nouveautés attendues pour Sonoff en décembre">
+</picture>
+
+      <p>En direct de la marque Sonoff ( itead.cc ) je vous remonte les nouveautés attendus pour ce mois de décembre en direct de la fabrique du Père Noel Chinois 🎅🏻
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/nouveautees-sonoff-decembre-2024">Nouveautés attendues pour Sonoff en décembre</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 01 Dec 2024 10:11:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/nouveautees-sonoff-decembre-2024</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/nouveautees-sonoff-decembre-2024</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Installe Home Assistant OS sur Dietpi</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,27 +248,6 @@
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Remise Spécial nouveau Sonoff NSPanel Pro 120</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Itead.cc fait une remise spécial sur le nouveau Sonoff NSPanel Pro taille 12cm jusqu&apos;à rupture du stock prévu</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png" alt="Remise Spécial nouveau Sonoff NSPanel Pro 120">
-</picture>
-
-      <p>Pour le lancement du tout nouveau produit, le SONOFF NSPanel Pro 120 Type, qui est en ligne depuis hier ! Pour célébrer le lancement, Itead.cc organise une promotion exclusive.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead">Remise Spécial nouveau Sonoff NSPanel Pro 120</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 15 Aug 2024 17:57:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/remise-special-nouveau-sonoff-nspanel-pro-120-sur-le-site-itead</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
