@@ -26,7 +26,7 @@ rating:
 sourcelink:
   - https://support.itead.cc/support/home
 redirect_from:
-  - /blog/nouveautees-sonoff-decembre-2024
+  - /fr/blog/nouveautees-sonoff-decembre-2024
 ---
 
 En direct de la marque **Sonoff ( itead.cc )** je vous remonte les nouveautés et actualités attendus pour **ce mois de décembre** en direct de la fabrique du Père Noel Chinois 🎅🏻 de chez Sonoff !
