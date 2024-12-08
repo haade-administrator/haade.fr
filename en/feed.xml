@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Dec 2024 04:19:04 +0100</pubDate>
-    <lastBuildDate>Sat, 30 Nov 2024 19:10:00 +0100</lastBuildDate>
+    <pubDate>Sun, 08 Dec 2024 18:31:01 +0100</pubDate>
+    <lastBuildDate>Sun, 08 Dec 2024 17:50:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>New features expected for Sonoff at the end of the year</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Lots of new features for Sonoff products and firmwares expected in November and December, Zigbee, new modules, in short, something crunchy</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.png" alt="New features expected for Sonoff at the end of the year">
+</picture>
+
+      <p>Live from the brand Sonoff (itead.cc) I bring you the new products and news expected for this month of December live from the factory of the Chinese Santa Claus 🎅🏻 at Sonoff!
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet">New features expected for Sonoff at the end of the year</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 08 Dec 2024 17:50:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Install Home Assistant OS on Dietpi</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +247,6 @@
       <link>https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</guid>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Discovering the Shelly Wave 1PM and mini switches</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>I will be testing the z-wave 800 shelly Wave 1PM and Wave 1PM mini switches and setting up association rules for live communication</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/136/decouverte-shelly-z-wave-1-PM-et-1-PM-Mini-720-04ef91fb1.png" alt="Discovering the Shelly Wave 1PM and mini switches">
-</picture>
-
-      <p>Discovery of the Z-wave 800 modules Shelly wave 1 PM and 1 PM mini, what are their particularities, and their differences. Are they up to par? for the price and especially what options are offered for these z-wave modules?
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/discovery-switches-z-wave-shelly-1-PM-and-1-PM-mini-switches-and-association-management">Discovering the Shelly Wave 1PM and mini switches</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 28 Jul 2024 09:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/discovery-switches-z-wave-shelly-1-PM-and-1-PM-mini-switches-and-association-management</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/discovery-switches-z-wave-shelly-1-PM-and-1-PM-mini-switches-and-association-management</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Z-wave]]></category>
     </item>
   </channel>
 </rss>
