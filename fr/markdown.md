@@ -111,14 +111,6 @@ Basic command line usage:
 gif2webp -lossy input.gif -o output.webp
 {% endhighlight %}
 
-## convertir une video en gif
-
-[https://image.online-convert.com/fr/convertir/mp4-en-gif](https://image.online-convert.com/fr/convertir/mp4-en-gif){: target="_blank"}
-
-## Convertir video en webp
-
-[https://tinywow.com/video/to-webp](https://tinywow.com/video/to-webp)
-
 ## Spoiler
 
 <span class="spoiler"> hospital with little knowledge (amnesia perhaps?) of what had happened, and why he was there, etc. He was told by attending Dr. Jeremy Newman (Stephen Rea) that it was July 29, 2002 (Simon thought it was the year 2000 - he was confused - he heard a doctor say 20:00 hours!) and that he had died for two minutes from cardiac arrest following the near-fatal accident -- but he had been revived ("You're as good as new").</span>
@@ -210,6 +202,8 @@ ou déjà transformé:
 
 ![install esphome in homeassistant]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/esphome-install.webp{{ cachebuster }}){: width="820" height="421" class="lazyload pictaninpost"}
 
+## Video
+
 ### intégrer une video webm non compatible apple
 youtube:
 {% include videoPlayer.html youtubeId="wAMIKhMkSFA" %}
@@ -225,6 +219,71 @@ tiktok:
 {% include videoPlayer.html tiktokIdId="" %}
 
 <iframe width="940" height="596" src="{{ site.baseurl}}/assets/images/posts/{{ page.guid }}/flash-multipan-multiprotocol-zbdongle-e-skyconnect-simple-clic-zigbee-940.webm{{ cachebuster }}" frameborder="0" allowfullscreen></iframe>
+
+### Compresser une video efficacement compatible (chrome-safari-firefox) avec ffmpeg en 2 passes
+
+compresser en 2 passes un mp4 en  libx264 pour être visible dans tous les navigateurs
+
+{% highlight shell %}
+ffmpeg -y -i quick-start-guide-home-assistant-voice-pe.mp4 \
+       -c:v libx264 -vf scale=960:-1 -preset slow -b:v 1000k -movflags +faststart -pass 1 \
+       -c:a aac -b:a 128k -f mp4 /dev/null && \
+ffmpeg -i quick-start-guide-home-assistant-voice-pe.mp4 \
+       -c:v libx264 -vf scale=960:-1 -preset slow -b:v 1000k -movflags +faststart -pass 2 \
+       -c:a aac -b:a 128k \
+       /home/nicolas/Dépotgit/haade/assets/images/posts/148/installation-et-premiere-mise-en-service-home-assistant-voice.mp4 -y
+{% endhighlight %}
+
+-vf scale=960:-1 -pix_fmt yuv420p -c:a aac -b:a 128k
+
+#### ratio/taille Top 16:9 Resolutions
+
+640 x 360 (nHD)
+854 x 480 (FWVGA)
+960 x 540 (qHD)
+1024 x 576 (WSVGA)
+1280 x 720 (HD/WXGA)
+1366 x 768 (FWXGA)
+1600 x 900 (HD+)
+1920 x 1080 (FHD)
+2048 x 1152 (QWXGA)
+2560 x 1440 (QHD)
+3200 x 1800 (WQXGA+)
+3840 x 2160 (UHD)
+5120 x 2880 (UHD+)
+7680 x 4320 (FUHD)
+15360 x 8640 (QUHD)
+30720 x 17280 (HHD)
+61440 x 34560 (FHHD)
+122880 x 69120 (QHHD)
+
+### convertir une video en gif
+
+[https://image.online-convert.com/fr/convertir/mp4-en-gif](https://image.online-convert.com/fr/convertir/mp4-en-gif){: target="_blank"}
+
+### Convertir video en webp
+
+[https://tinywow.com/video/to-webp](https://tinywow.com/video/to-webp)
+
+### Plyr video player utilisé sur le site
+
+Modifications des fichiers pour plyr:
+- plyr.scss
+- theme.js // video plyr embed to default.html
+- videoplayer.html
+- plyr.js
+
+pour une mise à jour **récupérer le css** sur le cloud https://cdn.plyr.io/3.7.8/plyr.css et le transformer manuellement en scss
+le code css est personnalisé dans plugin.scss et sur videoplayer.html style=""
+
+recherche dans plugin.scss: // plyr video player javascript
+
+**récupérer le javascript:** https://cdn.plyr.io/3.7.8/plyr.js
+
+code complémentaire de fonctionnement dans theme.js: 
+
+récupérer le code: // video plyr embed to default.html
+
 
 ### intégrer un podcast spotify
 
@@ -280,19 +339,6 @@ Pour rajouter un sous menu il faut modifier navbar.js, menu.html et plugin.scss
 dans navbar.js rajouter la class à la ligne 51 les classes " c'est géré comme un tableau, première class = show1 la seconde show 2 etc...
 dans plugin .css faire une recherche par show et rajouter la class ul appel la class i
 exemple la class more-sub-menu-protocol se connect à la class more-arrow-protocol ou htmlCss-sub-menu-shop html-css-arrow-shop
-
-# Plyr video player
-
-pour une mise à jour **récupérer le css** sur le cloud https://cdn.plyr.io/3.7.8/plyr.css et le transformer panuellement en scss
-le code css est personnalisé dans plugin.scss et sur videoplayer.html style=""
-
-recherche dans plugin.scss: // plyr video player javascript
-
-**récupérer le javascript:** https://cdn.plyr.io/3.7.8/plyr.js
-
-code complémentaire de fonctionnement dans theme.js: 
-
-récupérer le code: // video plyr embed to default.html
 
 
 

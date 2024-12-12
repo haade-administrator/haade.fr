@@ -188,8 +188,8 @@
   }
 
   &:focus-visible {
-    outline: 2px dashed #00b2ff;
-    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+    outline: 2px dashed #2ad2fd;
+    outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
     outline-offset: 2px;
   }
 }
@@ -472,8 +472,8 @@ a.plyr__control {
 
     &[aria-checked=true] {
       &:before {
-        background: #00b2ff;
-        background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+        background: #2ad2fd;
+        background: var(--plyr-control-toggle-checked-background, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
       }
 
       &:after {
@@ -507,8 +507,8 @@ a.plyr__control {
   border: 0;
   border-radius: 26px;
   border-radius: calc(var(--plyr-range-thumb-height,13px)*2);
-  color: #00b2ff;
-  color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+  color: #2ad2fd;
+  color: var(--plyr-range-fill-background, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
   display: block;
   height: 19px;
   height: calc(var(--plyr-range-thumb-active-shadow-width,3px)*2 + var(--plyr-range-thumb-height,13px));
@@ -649,8 +649,8 @@ a.plyr__control {
 
   &:focus-visible {
     &::-webkit-slider-runnable-track, &::-moz-range-track, &::-ms-track {
-      outline: 2px dashed #00b2ff;
-      outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+      outline: 2px dashed #2ad2fd;
+      outline: 2px dashed var(--plyr-focus-visible-color, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
       outline-offset: 2px;
     }
   }
@@ -971,8 +971,8 @@ a.plyr__control {
 
   .plyr__control {
     &:focus-visible, &:hover, &[aria-expanded=true] {
-      background: #00b2ff;
-      background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+      background: #2ad2fd;
+      background: var(--plyr-audio-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
       color: #fff;
       color: var(--plyr-audio-control-color-hover, #fff);
     }
@@ -1072,8 +1072,8 @@ a.plyr__control {
 
   .plyr__control {
     &:focus-visible, &:hover, &[aria-expanded=true] {
-      background: #00b2ff;
-      background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+      background: #2ad2fd;
+      background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
       color: #fff;
       color: var(--plyr-video-control-color-hover, #fff);
     }
@@ -1090,8 +1090,8 @@ a.plyr__control {
 }
 
 .plyr__control--overlaid {
-  background: #00b2ff;
-  background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #00b2ff)));
+  background: #2ad2fd;
+  background: var(--plyr-video-control-background-hover, var(--plyr-color-main, var(--plyr-color-main, #2ad2fd)));
   border: 0;
   border-radius: 100%;
   color: #fff;

@@ -115,7 +115,7 @@ Une petite animation pour te montrer comment paramétrer une ouverture de port s
 
 ![Paramétrage redirection de port freebox Os pour homey avec adresse ip statique]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-port-forwarding-local-homey-pro-freebox.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
 
-### Paramétrage de l'application Port Forwarding ( ouverture de port )
+### Paramétrage de l'application Port Forwarding ( ouverture de port )
 
 Une petite animation pour t'aider à paramétrer une redirection de port sur l'application Homey pro, tu trouveras dans l'onglet général l'adresse ip allouée à la box.
 
