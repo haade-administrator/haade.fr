@@ -92,7 +92,12 @@ Voilà les modules sont installés, il faut maintenant les ajoutés à tes appar
 
 Dernière étape il
 
-ajout-environnement-whisper-assistant.png
+{% picture posts/{{ page.guid }}/ajout-environnement-whisper-assistant.png --alt Ajouter Whisper dans les appareils home assistant --img width="940" height="529" %}
+
+Paramétrage de l'assistant vocal
+
+{% picture posts/{{ page.guid }}/creation-et-parametrage-assistant-vocal.png --alt Création et paramétrage d'un assistant vocal Home Assistant --img width="940" height="529" %}
+
 
 
 
