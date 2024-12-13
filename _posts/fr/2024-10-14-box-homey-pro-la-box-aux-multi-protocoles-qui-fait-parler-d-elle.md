@@ -103,7 +103,11 @@ Bon visionnage.
 
 ## Paramétrage du réseau en local de la Box {{ page.ref }}
 
-**Par défaut la box Homey fonctionne que sur le cloud** hormis la sécurité des données cette box ne fonctionnera pas en l'absence de réseau internet. Pour l'installation en local c'est bien possible mais il faudra activer la redirection de port sur ton routeur et sur l'application Homey Pro.
+**Par défaut la box Homey fonctionne en parallèle avec le cloud** hormis la sécurité des données cette box ne fonctionnera pas **totalement en l'absence de réseau internet**. 
+
+**Je m'explique: en local tu auras accès aux fonctions mais il te fautdra l'application cloud pour étendre les paramétrages.** 
+
+Pour une **installation en pur local** c'est bien possible mais il faudra activer la redirection de port sur ton routeur et sur l'application Homey Pro.
 
 > N'oublie pas de dédier une **ip statique** à ta box
 
@@ -159,7 +163,7 @@ Je ne te la cache pas, cette box vaut le détour, parmi les points positifs, son
 
 ### Les points négatifs
 
-Pour Commencer le premier soucis rencontré est matériel, la box {{ page.ref }} **est annoncée avec une capacité de stockage emmc de 8GB** ce qui est déjà peu à mon sens mais en réalité je me suis rendu compte **qu'elle n'était que de 2,66GB** ce qui peut vite poser des soucis à partir du moment ou on installent plusieurs applications. À mon sens une box ne devrait pas avoir une capacité de stockage en dessous de 32GB, même la box Home assistant Green propose 32GB.
+Pour Commencer le premier soucis rencontré est matériel, la box {{ page.ref }} **est annoncée avec une mémoire emmc de 8GB** ce qui est déjà peu à mon sens mais en **réalité tu ne pourras stocker que sur  2,66GB, le reste est utilisé par le système d'exploitation** ce qui peut vite poser des soucis à partir du moment ou on installent plusieurs applications. À mon sens une box ne devrait pas avoir une capacité de stockage en dessous de 32GB, même la box Home assistant Green propose 32GB.
 La capacité de mémoire RAM n'est que de 2GB et là aussi une box ne devrait pas proposer une box en dessous de 4GB de RAM surtout à ce prix là ! 
 
 {% picture posts/{{ page.guid }}/capacite-stockage-homey-pro-3gb-au-lieu-de-8gb-annonce.png --alt La capacité de stockage annoncé par le fabriquant Athom de la box Homey pro n'est pas de 8GB mais seulement de 2.66GB --img width="940" height="630" %}
@@ -172,7 +176,7 @@ Pour finir il n'est actuellement **pas possible de sauvegarder les données de l
 - tout **fonctionne sur le Cloud** rien en local pour le moment (le port forwardin ne fonctionne pas)
 - Connection par défaut au wifi possible en **rj45 avec un connecteur supplémentaire**
 - Protocole **Z-wave 700** ( récent mais pas de dernières générations )
-- Seulement **2.6GB d'espace de stockage** au lieu de 8GB annoncé
+- Seulement **2.6GB d'espace de stockage restant** sur les 8GB totaux ( le reste est utilisé par le système d'exploitation)
 - Mémoire RAM faible de **1.99GB**
 - Sauvegarde **payante**
 
@@ -242,7 +246,7 @@ Voilà quelques liens qui me semble fort intéressant et qu'il faut connaître q
 
 ## Conclusion
 
-J'ai mis **une note de 4.4/5** pour la box Homey pro de Athom, selon certains elle mériterait 5/5, trois choses me chagrine, **la première** est son tarif de 399€ et son manque de connectique, **la seconde** est le fait qu'elle **n'est pas connectée en local par défaut** et tout fonctionne alors sur le cloud. **Pour terminer** Homey annonce un stockage de 8GB et il est seulement de 2,66GB va comprendre.
+J'ai mis **une note de 4.4/5** pour la box Homey pro de Athom, selon certains elle mériterait 5/5, trois choses me chagrine, **la première** est son tarif de 399€ et son manque de connectique, **la seconde** est le fait qu'elle **n'est pas totalement fonctionnel en local par défaut** et tout fonctionne alors sur le cloud. **Pour terminer** Homey annonce un une capacité de stockage de 8GB mais en réalité tu ne pourras stocker des applications et autres que sur 2,66GB le reste est utilisé par l'OS.
 
 Cependant c'est une box que je conseil à tous les novices de la domotique car **l'interface est très simple d'utilisation**, l'intégration des protocoles est très complet ( actuellement la mieux dotée du marché ). La communauté peut développer facilement des applications qui rendront compatibles une grande partie des produits connectés du marché.
 

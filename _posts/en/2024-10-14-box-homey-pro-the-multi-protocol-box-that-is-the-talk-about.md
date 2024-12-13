@@ -103,7 +103,11 @@ Enjoy watching.
 
 ## Local network settings for the Box {{ page.ref }}
 
-**By default, the Homey box only works on the cloud** except for data security, this box will not work in the absence of an internet network. For local installation, it is possible but you will need to activate port forwarding on your router and on the Homey Pro application.
+**By default, the Homey box works in parallel with the cloud** except for data security, this box will not work **completely in the absence of an internet network**.
+
+**Let me explain: locally you will have access to the functions but you will need the cloud application to extend the settings.**
+
+For a **purely local installation** it is possible but you will have to activate port forwarding on your router and on the Homey Pro application.
 
 > Don't forget to dedicate a **static IP** to your box
 
@@ -159,7 +163,7 @@ I won't hide it from you, this box is worth a look, among the positive points, a
 
 ### The negative points
 
-To begin with, the first problem encountered is hardware, the box {{ page.ref }} **is announced with an emmc storage capacity of 8GB** which is already low in my opinion but in reality I realized **that it was only 2.66GB** which can quickly cause problems from the moment we install several applications. In my opinion a box should not have a storage capacity below 32GB, even the Home Assistant Green box offers 32GB.
+To start, the first problem encountered is hardware, the box {{ page.ref }} **is announced with an emmc memory of 8GB** which is already little in my opinion but in **reality you will only be able to store on 2.66GB, the rest is used by the operating system** which can quickly cause problems from the moment we install several applications. In my opinion a box should not have a storage capacity below 32GB, even the Home assistant Green box offers 32GB.
 The RAM memory capacity is only 2GB and here too a box should not offer a box below 4GB of RAM especially at this price!
 
 {% picture posts/{{ page.guid }}/capacite-stockage-homey-pro-3gb-au-lieu-de-8gb-annonce.png --alt The storage capacity announced by the manufacturer Athom of the Homey pro box is not 8GB but only 2.66GB --img width="940" height="630" %}
@@ -172,7 +176,7 @@ Finally it is currently **not possible to save the data of the box {{ page.ref }
 - everything **works on the Cloud** nothing locally by default
 - Default connection to wifi possible in **rj45 with an additional connector**
 - Protocol **Z-wave 700** (recent but not latest generations)
-- Only **2.6GB of storage space** instead of 8GB announced
+- Only **2.6GB storage space left** out of 8GB total (rest is used by operating system)
 - Low RAM memory of **1.99GB**
 - **Paid** backup
 
@@ -241,7 +245,7 @@ Here are some links that seem very interesting to me and that you should know wh
 
 ## Conclusion
 
-I gave **a score of 4.4/5** for the Athom Homey pro box, according to some it deserves 5/5, three things bother me, **the first** is its price of €399 and its lack of connectivity, **the second** is the fact that it only offers access via the cloud, no local web service by default **to finish** Homey announces a storage of 8GB and it is only 2.66GB, you understand.
+I gave **a score of 4.4/5** for the Athom Homey pro box, according to some it deserves 5/5, three things bother me, **the first** is its price of €399 and its lack of connectivity, **the second** is the fact that it **is not fully functional locally by default**. **Finally** Homey advertises a storage capacity of 8GB but in reality you can only store applications and others on 2.66GB, the rest is used by the OS.
 
 However, it is a box that I recommend to all novices in home automation because **the interface is very easy to use**, the integration of protocols is very complete (currently the best equipped on the market). The community can easily develop applications that will make a large part of the connected products on the market compatible.
 
