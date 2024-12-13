@@ -1,9 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    actionpack (7.1.5)
-      actionview (= 7.1.5)
-      activesupport (= 7.1.5)
+    actionpack (7.1.5.1)
+      actionview (= 7.1.5.1)
+      activesupport (= 7.1.5.1)
       nokogiri (>= 1.8.5)
       racc
       rack (>= 2.2.4)
@@ -11,13 +11,13 @@ GEM
       rack-test (>= 0.6.3)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    actionview (7.1.5)
-      activesupport (= 7.1.5)
+    actionview (7.1.5.1)
+      activesupport (= 7.1.5.1)
       builder (~> 3.1)
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    activesupport (7.1.5)
+    activesupport (7.1.5.1)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -55,7 +55,7 @@ GEM
     erubi (1.13.0)
     eventmachine (1.2.7)
     execjs (2.10.0)
-    faraday (2.12.1)
+    faraday (2.12.2)
       faraday-net_http (>= 2.0, < 3.5)
       json
       logger
@@ -74,7 +74,7 @@ GEM
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     io-console (0.8.0)
-    irb (1.14.1)
+    irb (1.14.2)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jekyll (4.3.4)
@@ -120,7 +120,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.2)
+    logger (1.6.3)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -133,7 +133,7 @@ GEM
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
-    nokogiri (1.16.8-x86_64-linux)
+    nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     objective_elements (1.1.2)
     octokit (4.25.1)
@@ -158,12 +158,12 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.6.1)
+    rails-html-sanitizer (1.6.2)
       loofah (~> 2.21)
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
-    railties (7.1.5)
-      actionpack (= 7.1.5)
-      activesupport (= 7.1.5)
+    railties (7.1.5.1)
+      actionpack (= 7.1.5.1)
+      activesupport (= 7.1.5.1)
       irb
       rackup (>= 1.0.0)
       rake (>= 12.2)
@@ -174,7 +174,7 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.11.1)
       ffi (~> 1.0)
-    rdoc (6.8.1)
+    rdoc (6.9.0)
       psych (>= 4.0.0)
     reline (0.5.12)
       io-console (~> 0.5)

@@ -76,7 +76,7 @@ Let's get to the heart of the matter, the interface of this box. And there I mus
 
 Let's start with the first use, for this you will need your **smartphone as well as the dedicated Homey application**, find below a **QRCode** that will allow you to install it with a simple click.
 
-{% include qrlink.html qrlink="https://setup.homey.app" text="download the Ewelink app from the play store or app store" realtextlink="Homey applications for Smartphone" %}
+{% include qrlink.html qrlink="https://setup.homey.app" text="download the Homey app from the play store or app store" realtextlink="Homey applications for Smartphone" %}
 
 #### First connection
 

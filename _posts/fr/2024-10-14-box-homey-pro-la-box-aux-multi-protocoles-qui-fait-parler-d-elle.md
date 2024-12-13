@@ -76,7 +76,7 @@ Passons au vif du sujet, l'interface de cette box. Et là je dois dire que **j'a
 
 Commençons par la première utilisation, pour celà il te faudra ton **smartphone ainsi que l'application dédiée Homey**, retrouve ci-dessous un **QRCode** qui te permettras de l'installer d'un simple clic.
 
-{% include qrlink.html qrlink="https://setup.homey.app" text="télécharger l'application Ewelink sur le playstore ou l'appstore" realtextlink="Applications Homey pour Smartphone" %}
+{% include qrlink.html qrlink="https://setup.homey.app" text="télécharger l'application Homey sur le playstore ou l'appstore" realtextlink="Applications Homey pour Smartphone" %}
 
 #### Première connection
 
