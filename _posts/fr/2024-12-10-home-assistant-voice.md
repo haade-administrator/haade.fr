@@ -50,13 +50,29 @@ La plupart d'entre nous qui sont intéressés pas des assistants vocaux en fonct
 
 {% picture posts/{{ page.guid }}/home-assistant-voice-control-par-la-voix-nabu-casa-faces-cotes.png --alt Home Assistant Voice preview edition controle par la voix emballage 4 faces côtés connectiques disponibles et fonctions --img width="940" height="529" %}
 
+{% picture posts/{{ page.guid }}/rendu-taille-home-assistant-voice-pe.png --alt Home Assistant Voice preview edition taille et rendu dans la main --img width="940" height="529" %}
+
 ## Sous la hotte
 
 {% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique.png --alt Home Assistant Voice preview edition controle pe ce qui se cache sous la hotte le circuit éléctronique --img width="940" height="529" %}
 
-
 {% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique-face-arriere.png --alt Home Assistant Voice preview edition controle pe ce qui se cache sous la hotte le circuit éléctronique face arrière --img width="940" height="529" %}
 
+{% picture posts/{{ page.guid }}/photo-demontage-home-assistant-voice-preview-edition.png --alt Home Assistant Voice preview edition demontage du mécanisme --img width="940" height="529" %}
+
+## 2 façons d'intégrer {{ page.ref }}
+
+### En wifi
+
+### Plus simple en Bluetooth
+
+## Contrôle {{ page.re }} avec esphome
+
+{% include videoPlayer.html localId="controle-fonctions-homeassistant-voice-pe-grace-a-esphome.mp4" %}
+
+controle-fonctions-homeassistant-voice-pe-grace-a-esphome
+
+### 2 façons de configurer l'éclairage LED
 
 **Tu trouveras à l'intérieur du carton:**
 

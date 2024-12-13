@@ -225,16 +225,16 @@ tiktok:
 compresser en 2 passes un mp4 en  libx264 pour être visible dans tous les navigateurs
 
 {% highlight shell %}
-ffmpeg -y -i quick-start-guide-home-assistant-voice-pe.mp4 \
-       -c:v libx264 -vf scale=960:-1 -preset slow -b:v 1000k -movflags +faststart -pass 1 \
+ffmpeg -y -i Kazam_screencast_00000.mp4 \
+       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-1 -movflags +faststart -pass 1 \
        -c:a aac -b:a 128k -f mp4 /dev/null && \
-ffmpeg -i quick-start-guide-home-assistant-voice-pe.mp4 \
-       -c:v libx264 -vf scale=960:-1 -preset slow -b:v 1000k -movflags +faststart -pass 2 \
+ffmpeg -i Kazam_screencast_00000.mp4 \
+       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-1 -movflags +faststart -pass 2 \
        -c:a aac -b:a 128k \
-       /home/nicolas/Dépotgit/haade/assets/images/posts/148/installation-et-premiere-mise-en-service-home-assistant-voice.mp4 -y
+       /home/nicolas/Dépotgit/haade/assets/images/posts/148/controle-fonctions-homeassistant-voice-pe-grace-a-esphome.mp4 -y
 {% endhighlight %}
 
--vf scale=960:-1 -pix_fmt yuv420p -c:a aac -b:a 128k
+-vf scale=940:-1 -pix_fmt yuv420p -c:a aac -b:a 128k
 
 #### ratio/taille Top 16:9 Resolutions
 

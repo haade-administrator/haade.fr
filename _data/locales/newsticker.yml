@@ -11,15 +11,16 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Amazon lance ses offres de Noël sur Alexa, Echo, Blink et Ring
-    url: https://www.lesalexiens.fr/actualites/amazon-lance-ses-offres-de-noel-sur-alexa-echo-blink-et-ring/
+    title: Test Tineco Pure One Station 5 Plus  - un balai aspirateur à la croisée
+      des chemins
+    url: https://www.lesalexiens.fr/labo-test-alexa/test-tineco-pure-one-station-5-plus-un-balai-aspirateur-a-la-croisee-des-chemins/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Homey Dashboards  - les tableaux de bord arrivent sur Homey !
-    url: https://blog.domadoo.fr/109957-homey-dashboards-tableaux-de-bord-homey/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/homey-product-lineup-with-dashboards1-1024x576.webp
+    title: Aqara lance son détecteur de fumée Zigbee en Europe
+    url: https://blog.domadoo.fr/109861-aqara-detecteur-de-fumee-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/aqara-smoke-detector-banner-1024x577.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -49,7 +50,7 @@ Maison-et-domotique:
 Matter:
   en_GB:
   - name: Matter
-    title: Zigbee Use Case | Commissioning and Control
+    title: Commissioning and Control with Zigbee
     url: https://csa-iot.org/newsroom/zigbee-use-case-commissioning-and-control/
     image: 
 Kincony:
