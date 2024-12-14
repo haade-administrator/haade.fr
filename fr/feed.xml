@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 14 Dec 2024 04:06:08 +0100</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2024 17:50:00 +0100</lastBuildDate>
+    <pubDate>Sun, 15 Dec 2024 00:02:57 +0100</pubDate>
+    <lastBuildDate>Tue, 10 Dec 2024 11:40:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Test Home Assistant Voice Preview Edition</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local ! Magique !</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png" alt="Test Home Assistant Voice Preview Edition">
+</picture>
+
+      <p>Voilà une nouvelle forte intéressante pour la communauté opensource domotique. Nabu casa que l’on ne présente plus a sorti son premier assistant vocal fonctionnel, pratique et pour une utilisation 100% local.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-voice">Test Home Assistant Voice Preview Edition</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 10 Dec 2024 11:40:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/home-assistant-voice</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-voice</guid>
+      <category><![CDATA[Test]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Nouveautés attendues pour Sonoff en cette fin d&apos;année</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +249,6 @@
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Test du controlleur d&apos;arrosage Saswell SAS980 Zigbee</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je teste un module d&apos;arrosage Zigbee le Saswell SAS980 avec minuteur intelligent et mesure du débit d&apos;eau aussi fabriqué sous la marqe RTX référence ZVG1 qui a la particularité de mesurer la consommation d&apos;eau mais pas que.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/137/programmateur-arrosage-intelligent-saswell-sas980-zigbee-zigbee2mqtt-720-731ce5bb3.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/137/programmateur-arrosage-intelligent-saswell-sas980-zigbee-zigbee2mqtt-720-731ce5bb3.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/137/programmateur-arrosage-intelligent-saswell-sas980-zigbee-zigbee2mqtt-720-731ce5bb3.png" alt="Test du controlleur d'arrosage Saswell SAS980 Zigbee">
-</picture>
-
-      <p>Après avoir testé le module d’irrigatrion Zigbee Woox R7060 l’année dernière, je m’attaque aujourd’hui au test du Saswell SAS980SWT-7-Z01 vendu sous marque blanche par RTX sous la référence ZVG1. Il est reconnu sous cette référence dans Zigbee2mqtt, mais depuis Saswell a repris la vente sous ce nom. Tu verras qu’il [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-controlleur-irrigation-saswell-sas980-avec-mesure-de-debit-zigbee">Test du controlleur d'arrosage Saswell SAS980 Zigbee</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 24 Aug 2024 19:33:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-du-controlleur-irrigation-saswell-sas980-avec-mesure-de-debit-zigbee</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-controlleur-irrigation-saswell-sas980-avec-mesure-de-debit-zigbee</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

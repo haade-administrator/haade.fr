@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/home-assistant-voice</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2024-12-10T11:40:00+01:00</news:publication_date>
+          <news:title>Test Home Assistant Voice Preview Edition</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/nouveautes-sonoff-fin-ann%C3%A9e-2024-produits-et-firmware-nspanel-pro-ztrv-robinet-thermostatique</loc>
         <news:news>
           <news:publication>
