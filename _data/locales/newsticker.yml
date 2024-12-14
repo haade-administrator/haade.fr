@@ -5,9 +5,9 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Raspberry Pi 500 uses QMK Firmware for built-in keyboard
-    url: https://www.jeffgeerling.com/blog/2024/raspberry-pi-500-uses-qmk-firmware-built-keyboard
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi-500-rp2040-keyboard-qmk.jpg
+    title: Pi modder successfully adds M.2 slot to Pi 500
+    url: https://www.jeffgeerling.com/blog/2024/pi-modder-successfully-adds-m2-slot-pi-500
+    image: https://www.jeffgeerling.com/sites/default/files/images/pi-500-ssd-console-output.jpg
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
