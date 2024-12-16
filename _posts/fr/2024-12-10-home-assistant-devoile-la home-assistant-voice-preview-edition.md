@@ -69,16 +69,25 @@ J'ai préféré te détailler ce processus avant l'intégration de {{ page.ref }
 
 il faudra installer et paramétrer ton système, commence par installer:
 
-**#1** un service wyoming stt (de la parole au texte) 
-Home assistant te conseil faster-whisper très bon en anglais mais pour l'instant très mauvais en français, ce n'est pas grave Mike avait développé l'utilitaire vosk qui fonctionne plutôt bien pour notre langue.
+### 1 un service wyoming stt (de la parole au texte) 
 
-Ajout le dépot Rhasspy:
+> **Vosk** ou **Rhassy-speech** pour la sentence vocale Française!
+
+Home assistant te conseil [faster-whisper](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"} **très bon en anglais** mais pour l'instant **très mauvais en français**, ce n'est pas grave Mike avait développé l'utilitaire **[vosk](https://github.com/rhasspy/hassio-addons/tree/master/vosk){: target="_blank"}** qui fonctionne plutôt bien pour notre langue française. 
+
+Aussi depuis peu un certain temps Mike développe [rhasspy-speech](https://github.com/rhasspy/rhasspy-speech){: target="_blank"} qui est un autre stt en voix de développement, il te propose en plus de modifier les sentences et te permettra d'affiner ton système mais il faut dire que la sentence française est déjà complète
+
+**Ajout le dépot [Github Rhasspy](https://github.com/rhasspy/hassio-addons){: target="_blank"} pour HAOS et tu auras accès à Vosk ou Rhasspy-speech**
 
 [![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'ajout de référentiel Rhasspy](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frhasspy%2Fhassio-addons)
 
 Actualise la page F5, recherche vosk et installe le, ensuite dans la configuration de vosk sélectionne la langue fr et démarre le module.
 
-**#2** Passons à l'installation du TTS (du texte à la parole) pour ça tu peux utiliser le module Piper qui fera l'affaire. Rends toi à nouveau dans la boutique des applications:
+> Lors des tests **j'ai rencontré un soucis d'installation** de Rhasspy-speech sur raspberry-pi 4
+
+### 2 Passons à l'installation du TTS (du texte à la parole) 
+
+pour ça tu peux utiliser le [module Piper](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"} qui fera l'affaire. Rends toi à nouveau dans la boutique des applications:
 
 [![Ouvrez votre instance Home Assistant et affichez la boutique de modules complémentaires.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
 
