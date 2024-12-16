@@ -187,4 +187,16 @@ Voice Preview Edition offre de nombreuses possibilités d'extension et de modifi
 |Dimensions et poids|84 x 84 x 21 mm, 96g<br>avec boîte : 94x94x30 mm, 120g|
 |Matériau|Plastique polycarbonate<br>Couleurs : Blanc et semi-transparent|
 
+{% picture posts/{{ page.guid }}/nomenclature-home-assistant-voice.png --alt Nomenclature Home Assistant Voice --img width="940" height="529" %}
+
+1. **Bouton central:** Réinitialiser, arrêter, converser sans mot de réveil
+2. **Module rotatif:** Modifier le volume ou la couleur de la LED
+3. **Interrupteur:** coupure du son matériel
+4. Anneau LED
+5. **Le port USB-C:** Pour les données et l'alimentation
+6. **Minijack** pour haut-parleur externe
+7. Prise de sortie stéréo 3,5 mm mini-jack
+8. Haut-parleur
+9. 2 microphones
+
 
