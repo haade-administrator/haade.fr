@@ -1,7 +1,7 @@
 ---
 guid: 148
-title: "Test Home Assistant Voice Preview Edition"
-description: "En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local ! Magique !"
+title: "Home assistant dévoile son nouveau produit la voice preview editon"
+description: "En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local okay Nabu une première ! Magique !"
 ref: "home assistant voice pe"
 layout: post
 authors: [Nico]
