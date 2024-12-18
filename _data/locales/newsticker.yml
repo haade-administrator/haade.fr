@@ -5,27 +5,27 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Pi modder successfully adds M.2 slot to Pi 500
-    url: https://www.jeffgeerling.com/blog/2024/pi-modder-successfully-adds-m2-slot-pi-500
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi-500-ssd-console-output.jpg
+    title: Getting beyond ProcessExecutionErrors when installing Ubuntu on arm64
+    url: https://www.jeffgeerling.com/blog/2024/getting-beyond-processexecutionerrors-when-installing-ubuntu-on-arm64
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Test Tineco Pure One Station 5 Plus  - un balai aspirateur à la croisée
-      des chemins
-    url: https://www.lesalexiens.fr/labo-test-alexa/test-tineco-pure-one-station-5-plus-un-balai-aspirateur-a-la-croisee-des-chemins/
+    title: 100 offres sur la maison connectée à saisir avant Noël
+    url: https://www.lesalexiens.fr/actualites/100-offres-sur-la-maison-connectee-a-saisir-avant-noel/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara lance son détecteur de fumée Zigbee en Europe
-    url: https://blog.domadoo.fr/109861-aqara-detecteur-de-fumee-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/aqara-smoke-detector-banner-1024x577.png
+    title: Le nouveau contrôleur de vanne d’Aqara modernise la gestion de l’eau domestique
+    url: https://blog.domadoo.fr/109872-aqara-controleur-de-vanne-zigbee/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/aqara-valve-controller-t1-banner-1024x577.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Grand Jeu Concours de Noël 2024 avec Nord Domotique
-    url: https://blog.nord-domotique.com/grand-jeu-concours-de-noel-2024/
+    title: Munbyn 941AP  - Test complet de l’imprimante thermique idéale pour vos
+      besoins professionnels
+    url: https://blog.nord-domotique.com/munbyn-941ap-test-complet/
     image: 
 Abavala:
   fr_FR:
@@ -43,15 +43,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Bambu Lab X1 Carbon  - La révolution de l’impression 3D à portée de
-      main !
-    url: https://www.maison-et-domotique.com/149477-bambu-lab-x1-carbon/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/bambu-lab-x1-series-introduction-702x395.jpg
+    title: Amazon Echo Frames 380  - J’ai testé les lunettes intelligentes qui vont
+      bouleverser votre maison connectée !
+    url: https://www.maison-et-domotique.com/150338-test-amazon-echo-frames-380-alexa/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/amazon-echo-frames-test-3-667x500.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Commissioning and Control with Zigbee
-    url: https://csa-iot.org/newsroom/zigbee-use-case-commissioning-and-control/
+    title: Silicon Labs talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/silicon-labs-talks-about-matter-adoption/
     image: 
 Kincony:
   en_GB:
