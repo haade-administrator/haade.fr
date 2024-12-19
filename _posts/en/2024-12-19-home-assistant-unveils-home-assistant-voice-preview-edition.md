@@ -60,255 +60,257 @@ What to say about the {{ page.ref }} **well at first glance not much:**
 4. A very important Qrcode to access the instructions
 5. A **{{ page.ref }}**
 
-{% picture posts/{{ page.guid }}/deballage-home-assistant-voice-control-par-la-voix-nabu-casa.png --alt Home Assistant Voice preview edition controle par la voix fabriqué par Nabu Casa à base de ESP32-S3 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-home-assistant-voice-control-par-la-voix-nabu-casa.png --alt Home Assistant Voice preview edition voice control made by Nabu Casa based on ESP32-S3 --img width="940" height="529" %}
 
-La face arrière du carton {{ page.ref }} te confirme bien qu'il n'y a **pas de cable USB-C et d'alimentations de fournis** un peu étonnant d'ailleurs, mais bon je ferais l'impasse à cette entorse car nous possédons tous de quoi alimenter à la maison en usb-c **à part pour les puristes Apple.**
+The back of the box {{ page.ref }} confirms that there is **no USB-C cable or power supply provided**, which is a bit surprising, but I would ignore this exception because we all have the means to power our home via USB-C **except for Apple purists.**
 
-{% picture posts/{{ page.guid }}/home-assistant-voice-control-par-la-voix-nabu-casa-emballage-face-arriere.png --alt Home Assistant Voice preview edition controle par la voix emballage face arrière --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/home-assistant-voice-control-par-la-voix-nabu-casa-emballage-face-arriere.png --alt Home Assistant Voice preview edition voice control packaging back side --img width="940" height="529" %}
 
-Faisons désormais **le tour** de la {{ page.ref }}
+Let's now **take a look** at the {{ page.ref }}
 
-Commençons par la face du dessous on trouvera l'étiquette produit, mais si tu regardes bien à côté se trouve une encoche qui cache dessous une connectique i2C tu pourras y brancher toutes sortes de micro-modules i2c et agrémenter la {{ page.ref }}
+Let's start with the bottom side, we'll find the product label, but if you look closely next to it there's a notch that hides an i2C connector underneath, you can plug in all sorts of i2c micro-modules and enhance the {{ page.ref }}
 
-**Continuons par les côtés on trouvera:**
-- une entrée alim USBC avec une sortie micro au format mini jack 3.5mm
-- un interrupteur physique pour **couper le micro/haut parleur** de la home assistant voice
-- une face pour le haut parleur
-- Sur le dessus Un bouton central à **4 fonctions**(1 appui pour passer ton ordre, 2 appuis, 3 appuis et appui long tu pourras assigner des ordres)
-- autour du bouton se trouve **un slide rotatif** tu pourras ( augmenter le volume, changer la couleur des Leds )
+**Let's continue on the sides, we'll find:**
+- a USBC power input with a 3.5mm mini jack microphone output
+- a physical switch to **mute the microphone/speaker** of the home assistant voice
+- a face for the speaker
+- On the top A central button with **4 functions** (1 press to place your order, 2 presses, 3 presses and long press you can assign orders)
+- around the button there's **a rotating slide** you can (increase the volume, change the color of the LEDs)
 
-{% picture posts/{{ page.guid }}/home-assistant-voice-control-par-la-voix-nabu-casa-faces-cotes.png --alt Home Assistant Voice preview edition controle par la voix emballage 4 faces côtés connectiques disponibles et fonctions --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/home-assistant-voice-control-par-la-voix-nabu-casa-faces-cotes.png --alt Home Assistant Voice preview edition voice control packaging 4 sides available connections and functions --img width="940" height="529" %}
 
-Une petite capture pour te rendre compte de la taille de la {{ page.ref }}
+A small screenshot to give you an idea of ​​the size of the {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/rendu-taille-home-assistant-voice-pe.png --alt Home Assistant Voice preview edition taille et rendu dans la main --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/rendu-taille-home-assistant-voice-pe.png --alt Home Assistant Voice preview edition size and rendering in the hand --img width="940" height="529" %}
 
-## Sous la hotte
+## Under the hood
 
-**Intéressons nous à ce qui se cache sous le boitier**.
-Première chose à souligner, on peut voir que tout est relativement bien pensé, les visses se démontent facilement. Le bouton central est inclus au circuit imprimé, bref sous le capot tu ne trouveras que deux pièces indépendantes, **le circuit et le haut parleur rien de plus.**
+**Let's take a look at what's hidden under the case**.
+First thing to point out, we can see that everything is relatively well thought out, the screws are easily removed. The central button is included in the printed circuit, in short under the hood you will only find two independent parts, **the circuit and the speaker nothing more.**
 
-{% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique.png --alt Home Assistant Voice preview edition controle pe ce qui se cache sous la hotte le circuit éléctronique --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique.png --alt Home Assistant Voice preview edition control pe what is hidden under the hood the electronic circuit --img width="940" height="529" %}
 
-Passons aux diverse connectiques **se trouvant sous le circuit:**
+Let's move on to the various connectors **found under the circuit:**
 
-1. Une connectique i2c
-2. la fameuse puce esp32-s3 ( pas étonnant tous les autres test réalisés par mike étaient avec cette puce )
-3. 1er port GPIO avec tx et rx pour le transfert
-4. 2nd port gpio
-5. Puce Xmos pour le son
+1. An i2c connector
+2. the famous esp32-s3 chip (no wonder all the other tests carried out by mike were with this chip)
+3. 1st GPIO port with tx and rx for the transfer
+4. 2nd gpio port
+5. Xmos chip for sound
 
-{% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique-face-arriere.png --alt Home Assistant Voice preview edition controle pe ce qui se cache sous la hotte le circuit éléctronique face arrière --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/home-assistant-voice-control-pe-circuit-electronique-face-arriere.png --alt Home Assistant Voice preview edition control pe what is hidden under the hood the electronic circuit back face --img width="940" height="529" %}
 
-> Pour finir je te met quelques photos du produit dans son ensemble.
+> Finally, I'll give you some photos of the product as a whole.
 
-{% picture posts/{{ page.guid }}/photo-demontage-home-assistant-voice-preview-edition.png --alt Home Assistant Voice preview edition demontage du mécanisme --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/photo-demontage-home-assistant-voice-preview-edition.png --alt Home Assistant Voice preview edition disassembly of the mechanism --img width="940" height="529" %}
 
-## Caractéristiques Techniques {{ page.ref }}
+## Technical Specifications {{ page.ref }}
 
-|SoC|ESP32-S3 avec 16 Mo de stockage FLASH<br>8 Mo de PSRAM|
-|Traitement audio|XMOS XU316|
-|Alimentation|USB-C, 5 V CC, 2 A|
-|Radios|**Wi-Fi 2,4 GHz**<br>Bluetooth 5.0 Low Energy|
-|Sortie audio|Prise de sortie stéréo 3,5 mm|
-|Microphone et haut-parleur|haut-parleur interne<br>Réseau interne à deux microphones<br>Commutateur de sourdine|
-|Conditions fonctionnement|Utilisation en intérieur uniquement<br>0 °C à 30 °C<br>32 °F à 86 °F|
-|Humidité|sans condensation, Conserver dans un environnement sec et pas trop poussiéreux, car cela peut endommager l'appareil|
-|Dimensions et poids|84 x 84 x 21 mm, 96g<br>avec boîte : 94x94x30 mm, 120g|
-|Matériau|Plastique polycarbonate<br>Couleurs : Blanc et semi-transparent|
+|SoC|ESP32-S3 with 16MB FLASH storage<br>8MB PSRAM|
+|Audio processing|XMOS XU316|
+|Power|USB-C, 5VDC, 2A|
+|Radios|**2.4GHz Wi-Fi**<br>Bluetooth 5.0 Low Energy|
+|Audio output|3.5mm stereo line-out jack|
+|Microphone and speaker|internal speaker<br>Internal dual microphone array<br>Mute switch|
+|Operating conditions|Indoor use only<br>0°C to 30°C<br>32°F to 86°F|
+|Humidity|non-condensing, Store in a dry and not too dusty environment, as this may damage the device|
+|Dimensions and weight|84 x 84 x 21 mm, 96g<br>with box: 94x94x30 mm, 120g|
+|Material|Polycarbonate plastic<br>Colors: White and semi-transparent|
 
-{% picture posts/{{ page.guid }}/nomenclature-home-assistant-voice.png --alt Nomenclature Home Assistant Voice --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/nomenclature-home-assistant-voice.png --alt Home Assistant Voice nomenclature --img width="940" height="529" %}
 
-1. **Bouton central:** Réinitialiser, arrêter, converser sans mot de réveil
-2. **Module rotatif:** Modifier le volume ou la couleur de la LED
-3. **Interrupteur:** coupure du son matériel
-4. Anneau LED
-5. **Le port USB-C:** Pour les données et l'alimentation
-6. **Minijack** pour haut-parleur externe
-7. Prise de sortie stéréo 3,5 mm mini-jack
-8. Haut-parleur
+1. **Central button:** Reset, stop, talk without wake word
+2. **Rotary module:** Change volume or LED color
+3. **Switch:** hardware mute
+4. LED ring
+5. **USB-C port:** For data and power
+6. **Minijack** for external speaker
+7. 3.5 mm mini-jack stereo output jack
+8. Speaker
 9. 2 microphones
 
-## Passons aux choses sérieuses
+## Let's get down to business
 
-### Connectons {{ page.ref }} à Home Assistant
+### Let's connect {{ page.ref }} to Home Assistant
 
-**Avant toute chose il faudra installer la suite Esphome, rien de bien compliqué !**
+**First of all, you will need to install the Esphome suite, nothing complicated!**
 
-**Rappel:** pour faire fonctionner {{ page.ref }} il faudra installer la bibliothèque esphome. rends toi dans l'addon-store en cliquant sur le lien ci-dessous:
+**Reminder:** to make {{ page.ref }} work, you will need to install the esphome library. Go to the addon-store by clicking on the link below:
 
-[![Ouvrez votre instance Home Assistant et affichez la boutique de modules complémentaires.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
+[![Open your Home Assistant instance and display the add-on store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
 
-Sélectionne et installe **ESPHome Device Compiler**
+Select and install **ESPHome Device Compiler**
 
-{{ page.ref }} est **d'une simplicité d'utilisation** grâce à une superbe intégration réalisé par Mike Hanssen dans esphome. J'ai fait une rétrospective vidéo des fonctions disponibles dans esphome.
+{{ page.ref }} is **easy to use** thanks to a great integration done by Mike Hanssen in esphome. I made a video retrospective of the features available in esphome.
 
-Les fonctions du {{ page.ref }} sont les suivantes:
-- possibilité de mettre à jour le firmware et le mot de réveil
-- augmenter le volume du {{ page.ref }} reconnu **comme media**
-- visu sur le sensor du bouton pressé ( dispo en 1, 2, 3 et long clic) top pour de futures automatisation
+The functions of {{ page.ref }} are as follows:
+- possibility to update the firmware and the wake-up word
+- increase the volume of the {{ page.ref }} recognized **as media**
+- visualization on the sensor of the pressed button (available in 1, 2, 3 and long click) great for future automation
 
-Il existe 2 façons d'installer rapidement {{ page.ref }} et de le connecter à home assistant
+There are 2 ways to quickly install {{ page.ref }} and connect it to home assistant
 
-> Si ta box intègre une puce Bluetooth alors je te conseil cette installation
+> If your box integrates a Bluetooth chip then I recommend this installation
 
-#### En wifi
+#### In wifi
 
-C'est une fonction classique d'intégration que l'on retrouve souvent sur les inclusions de modules wifi, mais ce n'est pas la plus simple, si ta box est equipé du bluetooth **je te conseil l'inclusion en Bluetooth** qui est beaucoup plus simple et rapide.
+This is a classic integration function that is often found on wifi module inclusions, but it is not the easiest, if your box is equipped with bluetooth **I recommend the Bluetooth inclusion** which is much simpler and faster.
 
-Pour suivre la configuration je te passe les détails et home assistant **a réalisé une vidéo d'intégration**
+To follow the configuration I will give you the details and home assistant **has made an integration video**
 
 {% include videoPlayer.html localId="installation-et-premiere-mise-en-service-home-assistant-voice.mp4" %}
 
-> Je n'ai pas rencontré de réels soucis c'est un peu plus tatillon que l'intégration Bluetooth
+> I haven't encountered any real problems, it's a little more finicky than Bluetooth integration
 
-#### Plus simple en Bluetooth
+#### Simpler in Bluetooth
 
-En Bluetooth **c'est ultra simple** il te suffit d'aller dans **Paramètres > Appareils et services** ongle découverte et suis le gif animé ci-dessous. Rien de plus simple tu rentres tes coordonnées wifi et le tour est joué. **Attention** compatible uniquement réseau 2,4Ghz
+In Bluetooth **it's ultra simple** you just have to go to **Settings > Devices and services** discovery tab and follow the animated gif below. Nothing could be simpler, you enter your wifi coordinates and that's it. **Warning** only compatible with 2.4Ghz network
 
-![Intégration home assistant voice en bluetooth]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-home-assistant-voice-pe-avec-bluetooth-simple-comme-bonjour.webp{{ cachebuster }}){: width="940" height="442" class="lazyload pictaninpost"}
+![Home assistant voice integration in bluetooth]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/parametrage-home-assistant-voice-pe-avec-bluetooth-simple-comme-bonjour.webp{{ cachebuster }}){: width="940" height="442" class="lazyload pictaninpost"}
 
-Dernière étape ajoute le **module découvert Esphome**, change le wakeword disponible **( Okay Nabu, hey Jarvis ou Hey Mycroft )** et ajoute une pièce si tu le désires et le tour est joué.
+Last step add the **Esphome discovered module**, change the available wakeword **(Okay Nabu, hey Jarvis or Hey Mycroft)** and add a room if you want and that's it.
 
-> Pour la **langue française** Okay Nabu est selon moi le plus adapté et fonctionne très bien.
+> For the **French language** Okay Nabu is in my opinion the most suitable and works very well.
 
-### Une fois installé voilà ce qui remonte
+### Once installed here is what comes up
 
 {% include videoPlayer.html localId="controle-fonctions-homeassistant-voice-pe-grace-a-esphome.mp4" %}
 
-**Toute une fulltitude d'options:**
+**A whole lot of options:**
 
-1. changer le setup et faire la mise à jour OTA est transparente
-2. augmenter le volume audio reconnu comme media
-3. état de l'assistant (écoute, off, etc)
-4. sélection de l'assistant vocal
-5. mode d'écoute ( pour le français choisi **détendu** ça fonctionne bien )
-6. Activer les led ( changer la couleur et l'intensité )
-7. modifier le mot d'activation ( pour l'instant disponible Okay Nabu, Hey Jarvis ou Hey Mycroft )
-8. activer/désactiver le micro
-9. activer/désactiver le son
+1. change the setup and do the OTA update is transparent
+2. increase the audio volume recognized as media
+3. assistant status (listening, off, etc.)
+4. voice assistant selection
+5. listening mode (for the chosen French **relaxed** it works well)
+6. Activate the LEDs (change the color and intensity)
+7. change the activation word (currently available Okay Nabu, Hey Jarvis or Hey Mycroft)
+8. activate/deactivate the microphone
+9. activate/deactivate the sound
 
-#### 2 façons de
+{% include product-embed.html image="home-assistant-voice-preview-edition.png" title="Home Assistant Voice Preview Edition" brand="Nabu Casa" description="Home Assistant Voice Preview Edition controls your home automation system by voice" domlink="box-domotique/7558-nabu-casa-home-assistant-voice-preview-edition-0860011789727.html" %}
 
-**configurer l'éclairage LED**
+#### 2 ways to
 
-Comme dit plus haut tu peux configurer la led directement dans esphome mais aussi physiquement ci-dessous le gif animé
+**configure the LED lighting**
 
-![Change directement la couleur des led sur home assistant voice]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/change-color-with-push-button.webp{{ cachebuster }}){: width="800" height="451" class="lazyload pictaninpost"}
+As said above you can configure the LED directly in esphome but also physically below the animated gif
 
-**Couper le micro**
+![Directly change the color of the LEDs on home assistant voice]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/change-color-with-push-button.webp{{ cachebuster }}){: width="800" height="451" class="lazyload pictaninpost"}
 
-Soit avec le bouton physique situé sur le côté soit par l'interface esphome
+**Mute the microphone**
 
-![Coupe le micro directement]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}//muting-device.webp{{ cachebuster }}){: width="800" height="450" class="lazyload pictaninpost"}
+Either with the physical button on the side or through the esphome interface
 
-### Prépare l'environnement Assistant vocal Home Assistant OS
+![Mutes the microphone directly]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}//muting-device.webp{{ cachebuster }}){: width="800" height="450" class="lazyload pictaninpost"}
 
-J'ai préféré te détailler ce processus avant l'intégration de {{ page.ref }} car je trouve ça plus pertinent.
+### Prepare the Home Assistant OS voice assistant environment
 
-il faudra installer et paramétrer ton système, commence par installer:
+I preferred to detail this process before integrating {{ page.ref }} because I find it more relevant.
 
-### 1 un service wyoming stt (de la parole au texte) 
+you will have to install and configure your system, start by installing:
 
-> **Vosk** ou **Rhassy-speech** pour la sentence **vocale Française!**
+### 1 a wyoming stt service (from speech to text)
 
-Home assistant te conseil [faster-whisper](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"} **très bon en anglais** mais pour l'instant **très mauvais en français**, ce n'est pas grave Mike avait développé l'utilitaire **[vosk](https://github.com/rhasspy/hassio-addons/tree/master/vosk){: target="_blank"}** qui fonctionne plutôt bien pour notre langue française et développe actuellement le module wyoming **Rhasspy-speech**.
+> **Vosk** or **Rhassy-speech** for the **French voice sentence!**
 
-Depuis peu Mike développe [rhasspy-speech](https://github.com/rhasspy/rhasspy-speech){: target="_blank"} qui est un autre **stt** en voix de développement, il te propose en plus de modifier les sentences et te permettra d'affiner ton système mais **il faut dire que la sentence française est déjà très complète.**
+Home assistant advises you [faster-whisper](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"}**very good in English** but for now **very bad in French**, it doesn't matter Mike had developed the utility **[vosk](https://github.com/rhasspy/hassio-addons/tree/master/vosk){: target="_blank"}** which works pretty well for our French language and is currently developing the wyoming module **Rhasspy-speech**.
 
-> **Vosk** n'a pas été mis à jour depuis plus de 5 mois
+Mike has recently been developing [rhasspy-speech](https://github.com/rhasspy/rhasspy-speech){: target="_blank"} which is another **stt** under development, it also offers you to modify the sentences and will allow you to refine your system but **it must be said that the French sentence is already very complete.**
 
-**Ajoute le dépot [Github Rhasspy](https://github.com/rhasspy/hassio-addons){: target="_blank"} pour HAOS et tu auras accès à Vosk ou Rhasspy-speech**
+> **Vosk** has not been updated for over 5 months
 
-[![Ouvrez votre instance Home Assistant et affichez la boîte de dialogue d'ajout de référentiel Rhasspy](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frhasspy%2Fhassio-addons)
+**Adds the repository [Github Rhasspy](https://github.com/rhasspy/hassio-addons){: target="_blank"} for HAOS and you will have access to Vosk or Rhasspy-speech**
 
-Actualise la page F5, recherche **vosk ou rhasspy-speech** et installe le, ensuite dans la configuration de vosk sélectionne la langue fr et démarre le module.
+[![Open your Home Assistant instance and display the Rhasspy Repository Add dialog](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Frhasspy%2Fhassio-addons)
 
-> Perso j'utilise **rhasspy-speech** qui devrait être l'avenir pour home-assistant voice.
+Refresh the page F5, search **vosk or rhasspy-speech** and install it, then in the vosk configuration select the language fr and start the module.
 
-### 2 Passons à l'installation du TTS (du texte à la parole) 
+> Personally I use **rhasspy-speech** which should be the future for home-assistant voice.
 
-pour ça tu peux utiliser le [module Piper](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"} qui fera l'affaire. Rends-toi à nouveau dans la boutique des applications:
+### 2 Let's move on to the installation of the TTS (text to speech)
 
-[![Ouvrez votre instance Home Assistant et affichez la boutique de modules complémentaires.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
+for that you can use the [Piper module](https://www.home-assistant.io/integrations/wyoming/){: target="_blank"} that will do the trick. Go to the app store again:
 
-et recherche le **module Piper**, installe le, dans la configuration Piper sélectionne une voix perso j'ai choisi fr_FR-siwis-medium, c'est une voix féminine
+[![Open your Home Assistant instance and display the add-ons store.](https://my.home-assistant.io/badges/supervisor_store.svg)](https://my.home-assistant.io/redirect/supervisor_store/)
 
-PS: [Rhasppy propose un utilitaire](https://rhasspy.github.io/piper-samples/){: target="_blank"} permettant de tester le voix **( upmc jessica en medium est top ) mais pour l'instant inutilisable dans home assistant car elle parle en accéléré.**
+and search for the **Piper module**, install it, in the Piper configuration select a custom voice I chose fr_FR-siwis-medium, it's a female voice
 
-### Ajout des instances
+PS: [Rhasppy offers a utility](https://rhasspy.github.io/piper-samples/){: target="_blank"} to test the voice **(upmc jessica in medium is great) but for now unusable in home assistant because she speaks in accelerated.**
 
-**Voilà les modules sont installés, il faut maintenant les ajouter à home assistant**
+### Adding instances
 
-**Pour info:** *Faster-whisper* s'installe de la même façon que les deux autres. Rends-toi dans la boutique des modules recherche **whispe**r, ensuite installe, puis configure la langue et démarre l'ensemble.
+**Here are the modules installed, now you have to add them to home assistant**
 
-**Rends toi** dans **Paramètre > Appareil et service** et **ajoute les protocoles Wyoming**
+**For info:** *Faster-whisper* is installed in the same way as the other two. Go to the module store, search for **whispe**r, then install, then configure the language and start the whole thing.
 
-{% picture posts/{{ page.guid }}/ajout-environnement-whisper-assistant.png --alt Ajouter Whisper dans les appareils home assistant --img width="940" height="529" %}
+**Go** to **Settings > Device and service** and **add the Wyoming protocols**
 
-### Dernière étape: Paramétrage de l'assistant vocal
+{% picture posts/{{ page.guid }}/ajout-environnement-whisper-assistant.png --alt Add Whisper to Home Assistant Devices --img width="940" height="529" %}
 
-Par défaut il existe un assistant vocal nommé Home Assistant et paramétré en Anglais, je décide de le réutiliser et de le paramétrer en français.
+### Last step: Setting up the voice assistant
 
-Rends toi dans **Paramètres > Assistants Vocaux > Ajouter un assistant**
+By default there is a voice assistant named Home Assistant and set up in English, I decide to reuse it and set it up in French.
 
-1. Met la configuration et l'agent de conversation en français
-2. sélectionne ton stt et paramètre en français
-3. sélection le tts en français
-4. choisi la voix **( tom ou siwis )** au format medium
+Go to **Settings > Voice Assistants > Add an assistant**
 
-{% picture posts/{{ page.guid }}/creation-et-parametrage-assistant-vocal.png --alt Création et paramétrage d'un assistant vocal Home Assistant --img width="940" height="529" %}
+1. Set the configuration and the conversation agent in French
+2. select your stt and set it up in French
+3. select the tts in French
+4. choose the voice **(tom or siwis)** in medium format
 
-## Paramétrage optimal pour la langue française du {{ page.ref }}
+{% picture posts/{{ page.guid }}/creation-et-parametrage-assistant-vocal.png --alt Creating and configuring a Home Assistant voice assistant--img width="940" height="529" %}
 
-Voici mes paramétrages pour la langue française
+## Optimal settings for the French language of the {{ page.ref }}
 
-- **Wakeword:** Okay Nabu ( le plus abouti à la demande des développeurs )
+Here are my settings for the French language
+
+- **Wakeword:** Okay Nabu ( the most accomplished at the request of the developers )
 - **stt:** rhasspy-speach
-- **tts:** piper avec son **siwis-medium**
-- dans **esphome**: détection de fin de parole sur **détendu**
+- **tts:** piper with his **siwis-medium**
+- in **esphome**: end of speech detection on **détendu**
 
-## Message de Nabu Casa
+## Message from Nabu Casa
 
-Home Assistant Voice Preview Edition est le **premier assistant vocal** conçu de A à Z pour fonctionner avec Home Assistant. Avec ses deux microphones et son traitement audio avancé, il peut entendre vos commandes et fournir un retour clair via son haut-parleur et son anneau LED. Il a été conçu pour se fondre dans la décoration intérieure, et ses commandes physiques tactiles permettent à n'importe qui de contrôler l'appareil de manière intuitive. Il a été conçu pour être utilisé avec Home Assistant Assist, l'assistant vocal axé sur la confidentialité qui vous permet de contrôler Home Assistant à l'aide du langage naturel. Il est entièrement configurable, vous permettant de faire ce que vous voulez avec la voix.
+Home Assistant Voice Preview Edition is the **first voice assistant** designed from the ground up to work with Home Assistant. With its dual microphones and advanced audio processing, it can hear your commands and provide clear feedback through its speaker and LED ring. It was designed to blend in with your home decor, and its physical touch controls allow anyone to control the device intuitively. It was designed to be used with Home Assistant Assist, the privacy-focused voice assistant that lets you control Home Assistant using natural language. It is fully configurable, allowing you to do whatever you want with voice.
 
-**Faisons des assistants vocaux ouverts, locaux et privés une réalité**
-Votre voix, votre choix - Nous méritons tous un contrôle vocal qui ne collecte pas nos données ni ne limite les fonctionnalités. Nous faisons rapidement progresser la voix ouverte et privée pour la maison. Notre vision est d'égaler, puis de dépasser, les autres assistants vocaux. Rejoignez-nous pour créer Assist (ou venez simplement nous accompagner) et prévisualisez l'avenir du contrôle vocal à la maison.
+**Let’s make open, local, private voice assistants a reality**
+Your voice, your choice - We all deserve voice control that doesn’t collect our data or limit functionality. We’re rapidly advancing open, private voice for the home. Our vision is to match and then surpass other voice assistants. Join us in building Assist (or just come along) and preview the future of voice control in the home.
 
-**Local ou Cloud**
-Si vous disposez d'un matériel puissant, exécutez la voix entièrement en local ou transférez le traitement de la parole vers notre Home Assistant Cloud axé sur la confidentialité pour des performances rapides.
+**On-premises or Cloud**
+If you have powerful hardware, run voice entirely on-premises or offload speech processing to our privacy-focused Home Assistant Cloud for fast performance.
 
-**Entièrement ouvert et axé sur la communauté**
-Un logiciel, un micrologiciel et un matériel entièrement ouverts vous permettent de les adapter au mieux à vos besoins. Avec une communauté dédiée de développeurs personnalisant et ajoutant des fonctionnalités.
+**Fully open and community-driven**
+Fully open software, firmware, and hardware let you tailor it to your needs. With a dedicated community of developers customizing and adding features.
 
-**Conçu avec une marge de croissance**
-Voice Preview Edition offre de nombreuses possibilités d'extension et de modification. Ses spécifications, en particulier sa RAM et son stockage, ont été choisies pour lui donner une marge de manœuvre pour ajouter des fonctionnalités futures. Il comprend un port Grove pour connecter des capteurs et une prise casque 3,5 mm pour connecter des haut-parleurs externes. Il est également facile à ouvrir.
+**Built with room to grow**
+Voice Preview Edition offers plenty of room to expand and tweak. Its specifications, especially its RAM and storage, have been chosen to give it room to add future features. It includes a Grove port for connecting sensors and a 3.5mm headphone jack for connecting external speakers. It is also easy to open.
 
-[Calendrier](https://www.home-assistant.io/blog/categories/assist/){: target="_blank"}
+[Calendar](https://www.home-assistant.io/blog/categories/assist/){: target="_blank"}
 
 
-{% include qrlink.html qrlink="https://go.nabucasa.com/ha-voice-pe/setup" text="lire la notice complète de la Home Assistant Voice" realtextlink="Notice d'utilisation Home Assistant Voice" %}
+{% include qrlink.html qrlink="https://go.nabucasa.com/ha-voice-pe/setup" text="read the full Home Assistant Voice manual" realtextlink="Home Assistant Voice user manual" %}
 
-{% include product-embed.html image="home-assistant-voice-preview-edition.png" title="Home Assistant Voice Preview Edition" brand="Nabu Casa" description="Home Assistant Voice Preview Edition commande ta centrale domotique par la voix" domlink="box-domotique/7558-nabu-casa-home-assistant-voice-preview-edition-0860011789727.html" %}
+{% include product-embed.html image="home-assistant-voice-preview-edition.png" title="Home Assistant Voice Preview Edition" brand="Nabu Casa" description="Home Assistant Voice Preview Edition controls your home automation system by voice" domlink="box-domotique/7558-nabu-casa-home-assistant-voice-preview-edition-0860011789727.html" %}
 
 ## {{ page.ref }} Factory reset
 
-Si tu veux tout **réinitialiser** n'hésite pas à faire un redémarrage d'usine, pour se faire reste appuyé **20 secondes sur le bouton central**
+If you want to **reset** everything, don't hesitate to do a factory reboot, to do this, press and hold the central button for **20 seconds**
 
 ![Home assistant voice factory reset]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/factory-reset.webp{{ cachebuster }}){: width="456" height="256" class="lazyload pictaninpost"}
 
-## Réactivité du système
+## System reactivity
 
-Si tu veux des commandes instantanées et une rapidité d'action ta box domotique doit être assez costaud ci dessous des temps de réactivité entre la demande et la réponse final:
+If you want instant commands and speed of action your home automation box must be quite robust below are the reactivity times between the request and the final response:
 
-- **Nuc 300:** 1 seconde
-- **Home assistant yellow 8gb ram:** 1 seconde
-- **Home assistant Green:** 5 secondes
-- **Raspberry pi 4 GB:** 4 secondes
-- **Raspberry pi 5 4GB:** 2 secondes
+- **Nuc 300:** 1 second
+- **Home assistant yellow 8gb ram:** 1 second
+- **Home assistant Green:** 5 seconds
+- **Raspberry pi 4 GB:** 4 seconds
+- **Raspberry pi 5 4GB:** 2 seconds
 
-Suivant ton système le délai de latence est plus ou moins long, j'estime qu'au dessus de 2 secondes le confort n'est plus le même. Ça ne veut pas dire de ne pas en acheter si tu possède une box manquant de peps pour une assistance vocal, **car je pense que dans le futur les mécanismes stt et tts seront de plus ne plus léger.**
+Depending on your system the latency delay is more or less long, I estimate that above 2 seconds the comfort is no longer the same. That doesn't mean not to buy one if you have a box lacking in pep for voice assistance, **because I think that in the future the stt and tts mechanisms will be lighter and lighter.**
 
 ## Conclusion
 
-Voilà un **super produit** pour contrôler ta domotique par la voix et le tout en local ( pas découte externe ), c'est un produit super bien fini aux fonctions très bien pensé. **L'ensemble de l'assistance vocal n'est pas encore optimum**, mais je suis persuadé que la {{ page.ref }} te comblera pleinement. **Bref c'est l'assistant vocal à avoir.**
+Here is a **super product** to control your home automation by voice and all locally (no external listening), it is a super well finished product with very well thought out functions. **The whole voice assistance is not yet optimal**, but I am convinced that the {{ page.ref }} will fully satisfy you. **In short, it is the voice assistant to have.**

@@ -27,6 +27,8 @@ sourcelink:
   - https://github.com/esphome/home-assistant-voice-pe
   - https://go.nabucasa.com/ha-voice-pe/setup
   - https://www.home-assistant.io/blog/categories/assist/
+redirect_from:
+  - /fr/blog/home-assistant-voice
 ---
 
 Voilà une **nouvelle forte intéressante pour la communauté opensource domotique.** Nabu casa que l'on ne présente plus a sorti son premier **assistant vocal fonctionnel**, pratique et pour une utilisation **100% local**.
@@ -187,6 +189,8 @@ Dernière étape ajoute le **module découvert Esphome**, change le wakeword dis
 7. modifier le mot d'activation ( pour l'instant disponible Okay Nabu, Hey Jarvis ou Hey Mycroft )
 8. activer/désactiver le micro
 9. activer/désactiver le son
+
+{% include product-embed.html image="home-assistant-voice-preview-edition.png" title="Home Assistant Voice Preview Edition" brand="Nabu Casa" description="Home Assistant Voice Preview Edition commande ta centrale domotique par la voix" domlink="box-domotique/7558-nabu-casa-home-assistant-voice-preview-edition-0860011789727.html" %}
 
 #### 2 façons de
 
