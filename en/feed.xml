@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 19 Dec 2024 09:36:16 +0100</pubDate>
-    <lastBuildDate>Sun, 08 Dec 2024 17:50:00 +0100</lastBuildDate>
+    <pubDate>Thu, 19 Dec 2024 22:18:38 +0100</pubDate>
+    <lastBuildDate>Thu, 19 Dec 2024 22:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Home Assistant unveils its new product, the voice preview edition</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>As a preview we are testing the home assistant voice Preview Edition, the first product in this range for Nabu Casa, control your home locally by voice okay Nabu a first! Magical!</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.png" alt="Home Assistant unveils its new product, the voice preview edition">
+</picture>
+
+      <p>This is very interesting news for the opensource home automation community. Nabu casa, which needs no introduction, has released its first functional voice assistant, practical and for 100% local use.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition">Home Assistant unveils its new product, the voice preview edition</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 19 Dec 2024 22:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition</guid>
+      <category><![CDATA[Test]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>New features expected for Sonoff at the end of the year</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,27 +249,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Special Discount new Sonoff NSPanel Pro 120</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Itead.cc is offering a special discount on the new Sonoff NSPanel Pro 12cm size while supplies last</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/138/offre-exceptionnelle-lancement-nspanel-pro-120-par-itead-720-c6035605c.png" alt="Special Discount new Sonoff NSPanel Pro 120">
-</picture>
-
-      <p>For the launch of the brand new product, the SONOFF NSPanel Pro 120 Type, which has been online since yesterday! To celebrate the launch, Itead.cc is organizing an exclusive promotion.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site">Special Discount new Sonoff NSPanel Pro 120</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 15 Aug 2024 17:57:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/special-discount-new-sonoff-nspanel-pro-120-on-itead-site</guid>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
