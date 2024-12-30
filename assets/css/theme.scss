@@ -798,6 +798,13 @@ img:hover {
   border-radius: 15px;
 }
 
+// integration image dans un tableau
+td .pictaninpost {
+  min-width: 300px;
+  height: auto;
+  border-radius: inherit;
+}
+
 .image-shadow {
   -webkit-box-shadow: 0 7px 50px 0 rgba(84, 110, 122, 0.15);
   -moz-box-shadow: 0 7px 50px 0 rgba(84, 110, 122, 0.15);

@@ -328,7 +328,7 @@ ajouter codeblock.js à defaut.html et aussi à package.js
 
 # Onglet qrcode
 
-{% include qrlink.html qrlink="https://tonsiteweb.com ou du texte" text="télécharger l'application Ewelink sur le playstore ou l'appstore" %}
+{% include qrlink.html qrlink="https://tonsiteweb.com ou du texte" text="télécharger l'application Ewelink sur le playstore ou l'appstore" realtextlink="" %}
 
 pour la partie texte: commencer le texte par un verbe car un texte avant et après sera intégré automatiquement: Ce QRcode te permet de ....... tu as le choix entre scanner ce QRcode depuis ton smartphone ou de cliquer directement sur le lien ci-dessous.
 

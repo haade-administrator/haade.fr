@@ -5,21 +5,21 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Getting beyond ProcessExecutionErrors when installing Ubuntu on arm64
-    url: https://www.jeffgeerling.com/blog/2024/getting-beyond-processexecutionerrors-when-installing-ubuntu-on-arm64
+    title: Documenting an 1115 ft radio tower climb
+    url: https://www.jeffgeerling.com/blog/2024/documenting-1115-ft-radio-tower-climb
     image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: 100 offres sur la maison connectée à saisir avant Noël
-    url: https://www.lesalexiens.fr/actualites/100-offres-sur-la-maison-connectee-a-saisir-avant-noel/
+    title: Télécommande universelle SwitchBot  - une seule pour les piloter tous
+    url: https://www.lesalexiens.fr/labo-test-alexa/telecommande-universelle-switchbot-une-seule-pour-les-piloter-tous/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Le nouveau contrôleur de vanne d’Aqara modernise la gestion de l’eau domestique
-    url: https://blog.domadoo.fr/109872-aqara-controleur-de-vanne-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/aqara-valve-controller-t1-banner-1024x577.png
+    title: Découverte du détecteur de présence Aqara FP2 Wi-Fi
+    url: https://blog.domadoo.fr/109564-detecteur-presence-aqara-fp2-wifi/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/11/Aqara-FP2-PS-S02D-Detecteur-presence-Wi-Fi-1080x675-PRES-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -43,15 +43,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Amazon Echo Frames 380  - J’ai testé les lunettes intelligentes qui vont
-      bouleverser votre maison connectée !
-    url: https://www.maison-et-domotique.com/150338-test-amazon-echo-frames-380-alexa/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/amazon-echo-frames-test-3-667x500.jpg
+    title: Les systèmes de filtration d’eau  - votre guide pour une eau pure à la
+      maison !
+    url: https://www.maison-et-domotique.com/150482-choisir-systeme-filtration-eau/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/33665-702x468.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Silicon Labs talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/silicon-labs-talks-about-matter-adoption/
+    title: Tuya Smart talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/tuya-smart-talks-about-matter-adoption/
     image: 
 Kincony:
   en_GB:
