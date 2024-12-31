@@ -39,6 +39,7 @@ Bon je te le cache pas ce type de produit a un gros inconvénient, il ne peut se
 
 Par contre **celui-ci relève en continu**, le fait de l'enlever et de faire tourner le compteur d'eau **créera une différence,** et le jour ou la société des eaux changera l'émetteur d'impulsion ils feront un relevé manuel du compteur et la **facture risque d'être salée.**
 
+{% picture posts/{{ page.guid }}/evertron-cyble-emetteur-compteur.jpg --alt émetteur à impulsion itron everblu cyble --img width="400" height="400" %}
 
 Vous pouvez connecter le compteur d’eau intelligent HomeWizard à votre Wi-Fi et à votre compteur d’eau. À partir de là, notre compteur d’eau intelligent lira votre compteur d’eau analogique. Les spécifications de notre compteur d’eau sont les suivantes.
 
