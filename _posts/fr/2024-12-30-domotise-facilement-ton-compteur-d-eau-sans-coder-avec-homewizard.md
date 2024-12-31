@@ -1,7 +1,7 @@
 ---
 guid: 149
-title: "Domotise facilement ton compteur d'eau"
-description: ""
+title: "Domotise facilement ton compteur d'eau grâce à Homewizard"
+description: "Sujet très demandé, relever sa consommation d'eau à tout moment fait parti des instances les plus sollicitées, homewizard a créé un module wifi capable de s'adapter à l'ensemble des compteurs européens"
 ref: "HWE-WTR-23"
 layout: post
 authors: [Nico]
@@ -27,6 +27,18 @@ sourcelink:
   - https://www.homewizard.com/fr-be/
   - https://www.homewizard.com/nl/blog/works-with-home-assistant/
 ---
+Voilà un sujet qui en intéressera plus d'un, alors cet article ne relève pas du miracle mais je te propose un nouveau module fabriqué par une société Néerlandaise Homewizard, le watermeter {{ page.ref }}. c'est un produit qui fonctionne en wifi et qui relève la consommation d'eau grâce à un récepteur magnétique. Cen 'est pas une grande nouveauté surtout que [Pieter Brinckman a déjà réalisé un module Diy à base de esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_vlank"} qui te coutera moins cher.
+
+Le Homewizard watermeter {{ page.ref }} coûte un peu moins de 50€ mais il est compatible tous compteurs européens grâce aux adaptateurs fournis avec et ça c'est un réel plus.
+
+{% picture posts/{{ page.guid }}/watermeter-bracket-set.png --alt Adaptateur fournis avec le homewizard watermeter --img width="600" height="600" %}
+
+Bon je te le cache pas ce type de produit a un gros inconvénient, il ne peut se mettre en place que sur un compteur **sans émetteur d'impulsion**. Eh oui les compteurs d'impulsions s'installent et fonctionnent avec des émetteurs/récepteurs magnétiques.
+
+> Tu pourras si tu le souhaite enlever facilement le compteur d'impulsion pour moi c'est un itron.
+
+Par contre **celui-ci relève en continu**, le fait de l'enlever et de faire tourner le compteur d'eau **créera une différence,** et le jour ou la société des eaux changera l'émetteur d'impulsion ils feront un relevé manuel du compteur et la **facture risque d'être salée.**
+
 
 Vous pouvez connecter le compteur d’eau intelligent HomeWizard à votre Wi-Fi et à votre compteur d’eau. À partir de là, notre compteur d’eau intelligent lira votre compteur d’eau analogique. Les spécifications de notre compteur d’eau sont les suivantes.
 

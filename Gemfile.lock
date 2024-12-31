@@ -66,7 +66,7 @@ GEM
     feed-normalizer (1.5.2)
       hpricot (>= 0.6)
       simple-rss (>= 1.1)
-    ffi (1.17.0)
+    ffi (1.17.1)
     forwardable-extended (2.6.0)
     google-protobuf (3.25.5-x86_64-linux)
     hpricot (0.8.6)
