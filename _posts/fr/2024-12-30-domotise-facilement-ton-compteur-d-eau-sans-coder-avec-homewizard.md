@@ -25,7 +25,6 @@ comments: true
 rating:  
 sourcelink:
   - https://www.homewizard.com/fr-be/
-  - https://www.homewizard.com/nl/blog/works-with-home-assistant/
 ---
 Voilà un sujet qui en intéressera plus d'un, alors cet article ne relève pas du miracle mais je te propose un nouveau module fabriqué par une société Néerlandaise Homewizard, le watermeter {{ page.ref }}. c'est un produit qui fonctionne en wifi et qui relève la consommation d'eau grâce à un récepteur magnétique. Cen 'est pas une grande nouveauté surtout que [Pieter Brinckman a déjà réalisé un module Diy à base de esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_vlank"} qui te coutera moins cher.
 
@@ -78,6 +77,28 @@ Avec l’adaptateur, vous pouvez placer le compteur d’eau sur la plupart des c
 Vidéo d'installation officielle
 
 {% include videoPlayer.html youtubeId="MY7T5YkCSI4" %}
+
+## Intégration Home Assistant
+
+Homewizard annonce officiellement [la prise en charge de ses produits dans home Assistant](https://www.homewizard.com/nl/blog/works-with-home-assistant/){: target="_blank"} quelle bonne nouvelle !
+
+### Activation API
+
+{% picture posts/{{ page.guid }}/activation-api-pour-integration-home-assistant.png --alt Activer API dans l'application Homewizard pour Home Assistant --img width="244" height="529" %}
+
+### Fonctions disponibles
+
+{% picture posts/{{ page.guid }}/information-homewizard-homeassistant.png --alt émetteur à impulsion itron everblu cyble --img width="940" height="576" %}
+
+1. relève totale de la consommation d'eau ( par défaut en m3 j'ai transformé en litres mais la valeur dans l'application officielle reste en m3 )
+2. relève instantanée de la consommation d'eau
+3. Permet de choisir de faire remonter les infos de consommations dans le cloud ou de fonctionner totalement le local, TOP.
+
+### Tour d'horizon en fonctionnement
+
+![Animation des différentes fonctions prise en charge dans Home Assistant du module de relève de la consommation de l'eau watermeter par Homewizard]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/information-controlable-dans-home-assistant-homewizard-watermeter.webp{{ cachebuster }}){: width="940" height="576" class="lazyload pictaninpost"}
+
+
 
 
 ## Caractéristique technique du {{ page.ref }}
