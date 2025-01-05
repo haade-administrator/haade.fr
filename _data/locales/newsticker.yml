@@ -2,3 +2,59 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+Jeff-Geerling:
+  en_GB:
+  - name: Jeff-Geerling
+    title: System76 built the fastest Windows Arm PC
+    url: https://www.jeffgeerling.com/blog/2025/system76-built-fastest-windows-arm-pc
+    image: https://www.jeffgeerling.com/sites/default/files/images/system76-thelio-astra-hero.jpeg
+les-Alexiens:
+  fr_FR:
+  - name: les-Alexiens
+    title: Télécommande universelle SwitchBot  - une seule pour les piloter tous
+    url: https://www.lesalexiens.fr/labo-test-alexa/telecommande-universelle-switchbot-une-seule-pour-les-piloter-tous/
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Top 10 des articles du blog en 2024
+    url: https://blog.domadoo.fr/110319-top-10-des-articles-du-blog-en-2024/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/top-10-des-art-et-guides-du-blog-2024-1024x554.jpg
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Munbyn 941AP  - Test complet de l’imprimante thermique idéale pour vos
+      besoins professionnels
+    url: https://blog.nord-domotique.com/munbyn-941ap-test-complet/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: CES 2025  - Retour à Vegas rêves à rêver
+    url: https://www.abavala.com/ces-2025-retour-a-vegas-reves-a-rever/
+    image: https://www.abavala.com/wp-content/uploads/ces2025-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Porte anti-inondation  - La solution miracle face aux catastrophes naturelles
+      qui s’intensifient ?
+    url: https://www.maison-et-domotique.com/150495-porte-anti-inondation-solution-miracle-catastrophes-naturelles/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/26905-702x393.jpg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Aqara talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/aqara-talks-about-matter-adoption/
+    image: 
+Kincony:
+  en_GB:
+  - name: Kincony
+    title: KinCony F24 ESP32-S3 16A Removable Relay Board released
+    url: https://www.kincony.com/kincony-f24-esp32-s3-16a-removable-relay-board-released.html
+    image:
