@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 05 Jan 2025 04:09:36 +0100</pubDate>
-    <lastBuildDate>Thu, 19 Dec 2024 22:00:00 +0100</lastBuildDate>
+    <pubDate>Sun, 05 Jan 2025 14:57:25 +0100</pubDate>
+    <lastBuildDate>Sun, 05 Jan 2025 14:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Domotise facilement ton compteur d&apos;eau grâce à Homewizard</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Sujet très demandé, relever sa consommation d&apos;eau à tout moment fait parti des instances les plus sollicitées, homewizard a créé un module wifi capable de s&apos;adapter à l&apos;ensemble des compteurs européens</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.png" alt="Domotise facilement ton compteur d'eau grâce à Homewizard">
+</picture>
+
+      <p>Voilà un sujet qui en intéressera plus d’un, mais attention il ne relèvera pas du miracle ! mais je te propose un nouveau module fabriqué par une société Néerlandaise Homewizard, le watermeter HWE-WTR-23. c’est un produit qui fonctionne en wifi et qui relève la consommation d’eau grâce à un récepteur [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard">Domotise facilement ton compteur d'eau grâce à Homewizard</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 05 Jan 2025 14:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Home assistant dévoile son nouveau produit la voice preview editon</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,29 +247,6 @@
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Test deshumidificateur Comfee Easy Dry 20</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test du déshumidificateur Easy dry 20 deux en un avec fonction ioniseur et intégration dans l&apos;assistant domotique Home Assistant.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png" alt="Test deshumidificateur Comfee Easy Dry 20">
-</picture>
-
-      <p>Suite à une saison 2024 très pluvieuse, je me suis retrouvé avec un taux d’humidité et de la moisissure dans la cave. Alors je me suis mis en quête de l’achat d’un déshumidificateur. Et je voulais qu’il soit compatible avec mon assistant préféré Home Assistant.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant">Test deshumidificateur Comfee Easy Dry 20</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 09 Sep 2024 18:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-deshumidificateur-comfee-et-integration-dans-home-assistant</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
