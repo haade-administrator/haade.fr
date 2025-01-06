@@ -1266,6 +1266,10 @@ body.active-side {
     grid-template-columns: 1fr;
     grid-template-areas: "post-grid";
   }
+    // integration image dans un tableau
+td .pictaninpost {
+  min-width: 200px;
+}
 }
 
 @media (max-width: 600px) {
@@ -1316,6 +1320,10 @@ body.active-side {
       font-size: 1.4rem;
     }
   }
+      // integration image dans un tableau
+td .pictaninpost {
+  min-width: 180px;
+}
 }
 
 @media (max-width: 480px) {
@@ -1367,4 +1375,8 @@ body.active-side {
       height: 35px;
     }
   }
+      // integration image dans un tableau
+td .pictaninpost {
+  min-width: 150px;
+}
 }

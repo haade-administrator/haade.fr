@@ -29,7 +29,7 @@ sourcelink:
 
 Voilà un sujet qui en intéressera plus d'un, **mais attention il ne relèvera pas du miracle !** mais je te propose un nouveau module fabriqué par une société Néerlandaise **Homewizard**, le **watermeter {{ page.ref }}**. c'est un produit qui fonctionne en wifi et qui relève la consommation d'eau grâce à un récepteur magnétique. Ce n'est pas une grande nouveauté surtout que [Pieter Brinckman a déjà réalisé un module Diy à base de esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"} qui **te coutera moins cher**.
 
-{%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
+{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
 > Emballage du Homewizard {{ page.ref }} super résistant .
 
@@ -210,16 +210,6 @@ Pour terminer tu pourras retrouver ci-dessous le lien vers la **notice complète
 
 |Poids|310 g|
 |SKU|HWE-WTR-13|
-|**Connection**|802.11b/g/n (2.4 GHz) WiFi<br>WPA2 and WPA3 encrypted|
-|Power supply|USB-C: Realtime data<br>2x CR123A Batterij: **4x per day** measurement history|
-|Maximum measurement speed|USB-C: 200 liters per minute<br>**2x CR123A** Battery: 30 liters per minute (1 year)|
-|Minimum measurement unit|0.3 liters|
-|History|Energy usage history of the past 12 months<br>Extend your energy usage history with an **Energy+** subscription|
-|Security|Automatic security updates<br>128bits AES encryption with TLS/SSL|
-|External connections|Open API (JSON)|
-
-|Poids|310 g|
-|SKU|HWE-WTR-13|
 |**Connexion**|802.11b/g/n (2,4 GHz) WiFi<br>Cryptage WPA2 et WPA3|
 |Alimentation électrique|USB-C: données en temps réel<br>2 piles CR123A: historique de mesure **4x par jour**|
 |Vitesse de mesure maximale|USB-C: 200 litres par minute<br>**2 piles CR123A**: 30 litres par minute (1 an)|
@@ -244,7 +234,7 @@ Pour terminer tu pourras retrouver ci-dessous le lien vers la **notice complète
 
 - Ne peut pas être utilisé sur les compteurs avec la fonction télérelève
 
-{%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
+{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
 ## Conclusion
 

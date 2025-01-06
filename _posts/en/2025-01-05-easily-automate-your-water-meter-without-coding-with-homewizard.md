@@ -24,68 +24,68 @@ locale: en_GB
 comments: true
 rating: 4.8 
 sourcelink:
-  - https://www.homewizard.com/fr-be/
+  - https://www.homewizard.com/
 ---
 
-Voilà un sujet qui en intéressera plus d'un, **mais attention il ne relèvera pas du miracle !** mais je te propose un nouveau module fabriqué par une société Néerlandaise **Homewizard**, le **watermeter {{ page.ref }}**. c'est un produit qui fonctionne en wifi et qui relève la consommation d'eau grâce à un récepteur magnétique. Ce n'est pas une grande nouveauté surtout que [Pieter Brinckman a déjà réalisé un module Diy à base de esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"} qui **te coutera moins cher**.
+This is a topic that will interest more than one, **but be careful it will not be a miracle!** but I propose you a new module manufactured by a Dutch company **Homewizard**, the **watermeter {{ page.ref }}**. It is a product that works in wifi and that records the water consumption thanks to a magnetic receiver. It is not a big novelty especially since [Pieter Brinckman has already made a Diy module based on esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"} which will **cost you less**.
 
 {%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
 
-> Emballage du Homewizard {{ page.ref }} super résistant .
+> Super strong Homewizard {{ page.ref }} packaging.
 
-{% picture posts/{{ page.guid }}/emballage-homewizard-watermeter.png --alt Emballage solide du Homewizard Watermeter --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/emballage-homewizard-watermeter.png --alt Homewizard Watermeter Solid Packaging --img width="940" height="529" %}
 
-## Déballage
+## Unpacking
 
-L'emballage est très bien réalisé, le carton extérieur est risistant bref tu ne risque pas de rencontrer de soucis lors de la livraison. À l'intérieur on trouvera un ensemble de:
+The packaging is very well done, the outer carton is resistant in short you will not encounter any problems during delivery. Inside we will find a set of:
 
-- visses
-- 3 adaptateurs pour différentes marque de compteur
-- une notice d'installation surtout sur compteur
-- une prise usb-c
-- un cable usb de 3 mètres
-- et biensûre un module de relève {{ page.ref }}
+- screws
+- 3 adapters for different brands of meters
+- an installation guide especially on meters
+- a usb-c socket
+- ​​a 3 meter usb cable
+- and of course a reading module {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/contenu-homewizard-watermeter-adaptateur-notice.png --alt Contenu Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/contenu-homewizard-watermeter-adaptateur-notice.png --alt Contents Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
 
-{% picture posts/{{ page.guid }}/contenu-emballage-watermeter.png --alt Contenu de la boite du Homewizard Watermeter HWE-WTR-23 --img width="828" height="506" %}
+{% picture posts/{{ page.guid }}/contenu-emballage-watermeter.png --alt Contents of the Homewizard Watermeter HWE-WTR-23 box --img width="828" height="506" %}
 
-### Bon à savoir
+### Good to know
 
-- Sur **secteur** le Homewizardd watermeter {{ page.ref }} relève les **données de instantanéments**.
-- Sur **Batterie** Le module Homewizard watermeter {{ page.ref }} **relève les données 4 fois par jour**.
+- On **mains** the Homewizardd watermeter {{ page.ref }} reads **data instantly**.
+- On **Battery** The Homewizard watermeter module {{ page.ref }} **reads data 4 times a day**.
 
-Tenu dans la main, ainsi tu pourras te rendre compte des dimensions du module, et tu trouveras une trappe d'accès pour la connection par piles 123A
+Held in the hand, so you can see the dimensions of the module, and you will find an access hatch for the connection by 123A batteries
 
-{% picture posts/{{ page.guid }}/homewizard-watermeter-size-battery-compartiment.png --alt Mise en situation taille et compartiment batterie du Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/homewizard-watermeter-size-battery-compartiment.png --alt Homewizard Watermeter HWE-WTR-23 size and battery compartment overview --img width="940" height="529" %}
 
-{% include product-embed.html image="amazon-basics-cr123A.png" title="Amazon Basics CR123A" brand="Amazon" description="Piles CR123A lithium idéal pour appareils domotiques et photos" amazlink="4fKszeD" %}
+{% include product-embed.html image="amazon-basics-cr123A.png" title="Amazon Basics CR123A" brand="Amazon" description="CR123A lithium batteries ideal for home automation devices and photos" amazlink="4fKszeD" %}
 
-Ci-dessous quelques photos du {{ page.ref }} afin de te rendre compte du produit, ça reste basic et fait l'essentiel. 
+Below are some pictures of the {{ page.ref }} to give you an idea of ​​the product, it remains basic and does the essentials.
 
-> Je tiens **à féliciter Homewizard** pour y fournir un cable usb-c d'une longueur de 4 mètres.
+> I would like to **congratulate Homewizard** for providing a 4 meter long USB-C cable.
 
-{% picture posts/{{ page.guid }}/captures-ecran-homewizard-watermeter-pro.png --alt tour d'horizon du Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/captures-ecran-homewizard-watermeter-pro.png --alt overview of the Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
 
-Le Homewizard watermeter {{ page.ref }} coûte un **peu moins de 50€** mais il est compatible **tous compteurs européens** grâce aux adaptateurs fournis avec et ça c'est un réel plus.
+The Homewizard watermeter {{ page.ref }} costs a **little less than €50** but it is compatible with **all European meters** thanks to the adapters provided with it and that is a real plus.
 
-{% picture posts/{{ page.guid }}/homewizard-watermeter-mounting.png --alt Exemple de montage du Homewizard Watermeter sur compteur d'eau --img width="282" height="300" %}
+{% picture posts/{{ page.guid }}/homewizard-watermeter-mounting.png --alt Example of mounting the Homewizard Watermeter on a water meter --img width="282" height="300" %}
 
-## Installation du Homewizard {{ page.ref }}
+## Installation of the Homewizard {{ page.ref }}
 
-### Homewizard {{ page.ref }} et la Télérelève
+### Homewizard {{ page.ref }} and Remote Reading
 
-{%- include alert.html type="warning" text="Avant tout je tiens à préciser que mon compteur d'eau est équipé d'un télémètre qui empêche l'installation d'un tel module. Pour le bien du test j'ai enlevé l'émetteur itron Everblu Cyble." %}
+{%- include alert.html type="warning" text="First of all I would like to point out that my water meter is equipped with a telemeter which prevents the installation of such a module. For the sake of the test I removed the itron Everblu Cyble transmitter." %}
 
-Bon je te le cache pas ce type de produit a un gros inconvénient, il ne peut se mettre en place que sur un compteur **sans émetteur d'impulsion**. Eh oui les compteurs d'impulsions s'installent et fonctionnent avec des émetteurs/récepteurs magnétiques.
+Well I won't hide it from you, this type of product has a big drawback, it can only be installed on a meter **without a pulse transmitter**. Yes, pulse meters are installed and work with magnetic transmitters/receivers.
 
-> Tu pourras si tu le souhaite enlever facilement le compteur d'impulsion pour moi c'est un itron.
+> If you wish, you can easily remove the pulse meter; for me it's an itron.
 
-Par contre **celui-ci relève en continu**, le fait de l'enlever et de faire tourner le compteur d'eau **créera une différence,** et le jour ou la société des eaux changera l'émetteur d'impulsion ils feront un relevé manuel du compteur et la **facture risque d'être salée.**
+On the other hand, **this one reads continuously**, removing it and turning the water meter **will create a difference,** and the day the water company changes the pulse transmitter, they will take a manual reading of the meter and the **bill could be steep.**
 
-{% picture posts/{{ page.guid }}/evertron-cyble-emetteur-compteur.jpg --alt émetteur à impulsion itron everblu cyble --img width="400" height="400" %}
+{% picture posts/{{ page.guid }}/evertron-cyble-emetteur-compteur.jpg --alt itron everblu cyble pulse transmitter --img width="400" height="400" %}
 
-Il y a quelques temps, j'avais rédigé une façon de procéder pour relever la consommation d'eau sur un **émetteur Itron everblu cyble**, à l'aide d'un récepteur 433mHz, *bonne lecture*.
+Some time ago, I wrote a procedure to measure water consumption on an **Itron everblu cyble transmitter**, using a 433mHz receiver, *good reading*.
 
 [Domotise le compteur d'eau Itron avec esp et cc1101 dans ha pour 10€]({% post_url fr/2022-12-21-domotiser-compteur-eau-itron-everblu-cyble %}){: target="_blank"}
 
@@ -217,16 +217,6 @@ Pour terminer tu pourras retrouver ci-dessous le lien vers la **notice complète
 |History|Energy usage history of the past 12 months<br>Extend your energy usage history with an **Energy+** subscription|
 |Security|Automatic security updates<br>128bits AES encryption with TLS/SSL|
 |External connections|Open API (JSON)|
-
-|Poids|310 g|
-|SKU|HWE-WTR-13|
-|**Connexion**|802.11b/g/n (2,4 GHz) WiFi<br>Cryptage WPA2 et WPA3|
-|Alimentation électrique|USB-C: données en temps réel<br>2 piles CR123A: historique de mesure **4x par jour**|
-|Vitesse de mesure maximale|USB-C: 200 litres par minute<br>**2 piles CR123A**: 30 litres par minute (1 an)|
-|Unité de mesure minimale|0,3 litre|
-|Historique|Historique de consommation d'énergie des 12 derniers mois<br>Étendez votre historique de consommation d'énergie avec un abonnement **Energy+**|
-|Sécurité|Mises à jour de sécurité automatiques<br>Cryptage AES 128 bits avec TLS/SSL|
-|Connexions externes|API ouverte (JSON)|
 
 **Les + du produit:**{: .blue}
 
