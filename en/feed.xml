@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Jan 2025 08:50:59 +0100</pubDate>
+    <pubDate>Mon, 06 Jan 2025 09:17:53 +0100</pubDate>
     <lastBuildDate>Sun, 05 Jan 2025 14:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Easily automate your water meter with Homewizard</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>A highly requested topic, reading your water consumption at any time is one of the most requested instances, homewizard has created a wifi module capable of adapting to all European meters</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.png" alt="Easily automate your water meter with Homewizard">
+</picture>
+
+      <p>This is a topic that will interest more than one, but be careful it will not be a miracle! but I propose you a new module manufactured by a Dutch company Homewizard, the watermeter HWE-WTR-23. It is a product that works in wifi and that records the water consumption thanks [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard">Easily automate your water meter with Homewizard</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 05 Jan 2025 14:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Home Assistant unveils its new product, the voice preview edition</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,28 +248,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Test of the Saswell SAS980 Zigbee watering controller</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>I am testing a Zigbee watering module the Saswell SAS980 with intelligent timer and water flow measurement also manufactured under the RTX brand reference ZVG1 which has the particularity of measuring water consumption but not only that.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/137/zigbee-watering-programer-saswell-sas980-zigbee-zigbee2mqtt-720-beb8adc45.png" alt="Test of the Saswell SAS980 Zigbee watering controller">
-</picture>
-
-      <p>After testing the irrigation module Zigbee Woox R7060 last year , today I am tackling the test of the Saswell SAS980SWT-7-Z01 sold under white label by RTX under the reference ZVG1. It is recognized under this reference in Zigbee2mqtt, but since then Saswell has resumed sales under this name. You [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement">Test of the Saswell SAS980 Zigbee watering controller</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 24 Aug 2024 19:33:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-saswell-sas980-irrigation-controller-with-zigbee-flow-measurement</guid>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
