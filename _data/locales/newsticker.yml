@@ -11,21 +11,21 @@ Jeff-Geerling:
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Télécommande universelle SwitchBot  - une seule pour les piloter tous
-    url: https://www.lesalexiens.fr/labo-test-alexa/telecommande-universelle-switchbot-une-seule-pour-les-piloter-tous/
+    title: Aqara dévoile ses nouveautés domotiques au CES 2025
+    url: https://www.lesalexiens.fr/actualites/aqara-devoile-ses-nouveautes-domotiques-au-ces-2025/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Top 10 des articles du blog en 2024
-    url: https://blog.domadoo.fr/110319-top-10-des-articles-du-blog-en-2024/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/top-10-des-art-et-guides-du-blog-2024-1024x554.jpg
+    title: CES 2025  - Athom dévoile sa nouvelle box domotique Homey Pro Mini
+    url: https://blog.domadoo.fr/110432-ces2025-athom-devoile-homey-pro-mini/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/Homey-Pro-mini-ces2025-une-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Munbyn 941AP  - Test complet de l’imprimante thermique idéale pour vos
-      besoins professionnels
-    url: https://blog.nord-domotique.com/munbyn-941ap-test-complet/
+    title: Sunity Go  - notre test sur la praticité et l’efficacité de cette station
+      solaire
+    url: https://blog.nord-domotique.com/sunity-go-notre-test-complet/
     image: 
 Abavala:
   fr_FR:
@@ -42,15 +42,16 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Porte anti-inondation  - La solution miracle face aux catastrophes naturelles
-      qui s’intensifient ?
-    url: https://www.maison-et-domotique.com/150495-porte-anti-inondation-solution-miracle-catastrophes-naturelles/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2024/12/26905-702x393.jpg
+    title: 'La révolution home cinéma est en marche  - Xgimi dévoile son écran-barre
+      de son ultime Ascend au #CES2025'
+    url: https://www.maison-et-domotique.com/150521-home-cinema-xgimi-ecran-barre-de-son-ascend/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/01/xgimi-ces-2025-702x436.png
 Matter:
   en_GB:
   - name: Matter
-    title: Aqara talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/aqara-talks-about-matter-adoption/
+    title: Apple, Google, and Samsung will accept Matter certification of smart home
+      products
+    url: https://www.theverge.com/2025/1/6/24336570/apple-google-samsung-accept-matter-certification%20
     image: 
 Kincony:
   en_GB:

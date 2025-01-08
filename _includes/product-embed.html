@@ -35,10 +35,13 @@
             <p>{{ include.description }}</p>
         </div>
         <div class="embedproduct-price">
-            {%- if product contains currency %}
-            <p><span>{{ include.price }}</span>{{ include.currency }}</p>
+            {%- if include.price %}
+            <p><b><span>{{ include.price }}</span>{{ include.currency }}</b></p>
             {%- endif %}
             <div class="embedaffiliate">
+            {%- if include.customlink %}
+            <span class="haadebutton" role="button"><a href="{{ include.customlink }}" target="_blank" rel="nofollow noopener">{{ translate.product.buttonbuy[page.locale] }}</a></span>
+            {%- endif %}
             {%- if include.affiliate %}
             <span class="aliexbutton" role="button"><a href="https://s.click.aliexpress.com/e/{{ include.affiliate }}" target="_blank" rel="nofollow noopener"><img src="/assets/images/aliexpress-payment.png" width="20" height="20" class="lazyload" alt="aliexpress logo payment"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Aliexpress</a></span>
             {%- endif %}

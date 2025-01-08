@@ -29,6 +29,8 @@ sourcelink:
 
 This is a topic that will interest more than one, **but be careful it will not be a miracle!** but I propose you a new module manufactured by a Dutch company **Homewizard**, the **watermeter {{ page.ref }}**. It is a product that works in wifi and that records the water consumption thanks to a magnetic receiver. It is not a big novelty especially since [Pieter Brinckman has already made a Diy module based on esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"} which will **cost you less**.
 
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Watermeter HWE-WTR-23" brand="Homewizard" description="Instantaneous water consumption measurement, Wi-Fi connection, adaptable to water meters on the European market and all compatible with Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
+
 {%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
 
 > Super strong Homewizard {{ page.ref }} packaging.
@@ -124,7 +126,9 @@ The list is long and that's great, find the maximum amount of information below.
 |![Installation of the homewizard watermeter wifi water consumption measurement compatible with home assistant and Elsther or Honeywell meter]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/elsther-honeywell.webp{{ cachebuster }}){: width="300" height="198" class="lazyload pictaninpost"}|<b>Elsther, Honeywell</b><br>Elster and Honeywell water meters are compatible and are fixed using bracket 1 and two screws (PS4/16).|
 |![Installation of the homewizard watermeter wifi water consumption measurement compatible with home assistant and Diehl Metering meter]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/diehl-metering.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Diehl Metering</b><br>Diehl Metering water meters do not have screw holes, instead you can snap the bracket 3 into the water meter.|
 |![Installation of the homewizard watermeter wifi water consumption measurement compatible with home assistant and Dh Metering meter]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/dh-metering.webp{{ cachebuster }}){: width="300" height="200" class="lazyload pictaninpost"}|<b>Dh Metering</b><br>DH Metering water meters are compatible and are fixed using bracket 2 and two screws (M2.5/12).|       
-|![Installation of the homewizard watermeter wifi water consumption measurement compatible with home assistant and Maddalena MVM meter]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/maddalena-mvm.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Maddalena MVM</b><br>On Maddalena MVM water meters, the bracket must be placed upside down. You must hook the bracket on the left side of the water meter and screw it on the right side (with a screw, P2.6/8). Make sure that your analogue water meter has this option.|                
+|![Installation of the homewizard watermeter wifi water consumption measurement compatible with home assistant and Maddalena MVM meter]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/maddalena-mvm.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Maddalena MVM</b><br>On Maddalena MVM water meters, the bracket must be placed upside down. You must hook the bracket on the left side of the water meter and screw it on the right side (with a screw, P2.6/8). Make sure that your analogue water meter has this option.| 
+
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Watermeter HWE-WTR-23" brand="Homewizard" description="Instantaneous water consumption measurement, Wi-Fi connection, adaptable to water meters on the European market and all compatible with Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
 
 ### Installation video {{ page.ref }}
 
@@ -235,6 +239,8 @@ Finally, you can find below the link to the **complete online notice of the Home
 - Cannot be used on meters with the remote reading function
 
 {%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
+
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Watermeter HWE-WTR-23" brand="Homewizard" description="Instantaneous water consumption measurement, Wi-Fi connection, adaptable to water meters on the European market and all compatible with Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
 
 ## Conclusion
 

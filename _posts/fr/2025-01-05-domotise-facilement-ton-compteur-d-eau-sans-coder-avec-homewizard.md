@@ -29,6 +29,8 @@ sourcelink:
 
 Voilà un sujet qui en intéressera plus d'un, **mais attention il ne relèvera pas du miracle !** mais je te propose un nouveau module fabriqué par une société Néerlandaise **Homewizard**, le **watermeter {{ page.ref }}**. c'est un produit qui fonctionne en wifi et qui relève la consommation d'eau grâce à un récepteur magnétique. Ce n'est pas une grande nouveauté surtout que [Pieter Brinckman a déjà réalisé un module Diy à base de esp32](https://www.pieterbrinkman.com/2022/02/02/build-a-cheap-water-usage-sensor-using-esphome-home-assistant-and-a-proximity-sensor/){: target="_blank"} qui **te coutera moins cher**.
 
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Mesure conso d'eau HWE-WTR-23" brand="Homewizard" description="Mesure de la consommation d'eau en instantanée, liaison wifi, adaptable aux compteurs d'eaux du marché européen et le tout compatible Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
+
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
 > Emballage du Homewizard {{ page.ref }} super résistant .
@@ -124,7 +126,9 @@ La liste est longue est c'est tant mieux retrouve ci-dessous le max d'infos.
 |![Installation du watermeter homewizard mesure de consommation d'eau wifi compatible home assistant et compteur Elsther ou Honeywell]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/elsther-honeywell.webp{{ cachebuster }}){: width="300" height="198" class="lazyload pictaninpost"}|<b>Elsther, Honeywell</b><br>Les compteurs d'eau Elster et Honeywell sont compatibles et se fixent à l'aide du support 1 et de deux vis (PS4/16).|
 |![Installation du watermeter homewizard mesure de consommation d'eau wifi compatible home assistant et compteur Diehl Metering]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/diehl-metering.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Diehl Metering</b><br>Les compteurs d'eau Diehl Metering ne sont pas munis de trous de vis, vous pouvez plutôt emboîter le support 3 dans le compteur d'eau.|
 |![Installation du watermeter homewizard mesure de consommation d'eau wifi compatible home assistant et compteur Dh Metering]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/dh-metering.webp{{ cachebuster }}){: width="300" height="200" class="lazyload pictaninpost"}|<b>Dh Metering</b><br>Les compteurs d'eau DH Metering sont compatibles et se fixent à l'aide du support 2 et de deux vis (M2.5/12).|       
-|![Installation du watermeter homewizard mesure de consommation d'eau wifi compatible home assistant et compteur Maddalena MVM]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/maddalena-mvm.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Maddalena MVM</b><br>Sur les compteurs d'eau Maddalena MVM, le support doit être placé sens dessus dessous. Vous devez accrocher le support sur le côté gauche du compteur d'eau et le visser sur le côté droit (avec une vis, P2.6/8). Veillez à ce que votre compteur d'eau analogique dispose de cette option.|                
+|![Installation du watermeter homewizard mesure de consommation d'eau wifi compatible home assistant et compteur Maddalena MVM]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/maddalena-mvm.webp{{ cachebuster }}){: width="300" height="210" class="lazyload pictaninpost"}|<b>Maddalena MVM</b><br>Sur les compteurs d'eau Maddalena MVM, le support doit être placé sens dessus dessous. Vous devez accrocher le support sur le côté gauche du compteur d'eau et le visser sur le côté droit (avec une vis, P2.6/8). Veillez à ce que votre compteur d'eau analogique dispose de cette option.|    
+
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Mesure conso d'eau HWE-WTR-23" brand="Homewizard" description="Mesure de la consommation d'eau en instantanée, liaison wifi, adaptable aux compteurs d'eaux du marché européen et le tout compatible Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
 
 ### Installation en vidéo {{ page.ref }}
 
@@ -235,6 +239,8 @@ Pour terminer tu pourras retrouver ci-dessous le lien vers la **notice complète
 - Ne peut pas être utilisé sur les compteurs avec la fonction télérelève
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
+
+{% include product-embed.html image="homewizard-watermeter-hwe-wtr-13.png" title="Mesure conso d'eau HWE-WTR-23" brand="Homewizard" description="Mesure de la consommation d'eau en instantanée, liaison wifi, adaptable aux compteurs d'eaux du marché européen et le tout compatible Home Assistant" customlink="https://partner.homewizard.com/c/?si=18407&li=1795784&wi=405781&dl=fr-be%2Fboutique%2Fcompteur-deau-wi-fi%2F" price="49.95" currency="€" %}
 
 ## Conclusion
 
