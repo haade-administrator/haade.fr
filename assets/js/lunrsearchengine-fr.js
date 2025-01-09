@@ -7,7 +7,7 @@ var documents = [{
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition",
-    "title": "Home assistant dévoile son nouveau produit la voice preview editon",
+    "title": "Home assistant dévoile son nouveau produit la voice preview edition",
     "description": "19/12/2024 - En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local okay Nabu une première ! Magique !",
     "tags": ""},{
     "id": 2,

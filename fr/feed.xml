@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 09 Jan 2025 04:24:31 +0100</pubDate>
+    <pubDate>Thu, 09 Jan 2025 12:44:45 +0100</pubDate>
     <lastBuildDate>Sun, 05 Jan 2025 14:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -47,19 +47,19 @@
       <category><![CDATA[Home-Assistant]]></category>
     </item>
     <item>
-      <title>Home assistant dévoile son nouveau produit la voice preview editon</title>
+      <title>Home assistant dévoile son nouveau produit la voice preview edition</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
       <description>
       <![CDATA[
       <p>En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local okay Nabu une première ! Magique !</p><picture>
   <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.webp 720w" type="image/webp">
   <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png" alt="Home assistant dévoile son nouveau produit la voice preview editon">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png" alt="Home assistant dévoile son nouveau produit la voice preview edition">
 </picture>
 
       <p>Voilà une nouvelle forte intéressante pour la communauté opensource domotique. Nabu casa que l’on ne présente plus a sorti son premier assistant vocal fonctionnel, pratique et pour une utilisation 100% local.
 </p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition">Home assistant dévoile son nouveau produit la voice preview editon</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition">Home assistant dévoile son nouveau produit la voice preview edition</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
       ]]>
       </description>
       <pubDate>Thu, 19 Dec 2024 22:00:00 +0100</pubDate>
