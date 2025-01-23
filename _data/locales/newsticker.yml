@@ -5,34 +5,35 @@ docs_list_title:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: System76 built the fastest Windows Arm PC
-    url: https://www.jeffgeerling.com/blog/2025/system76-built-fastest-windows-arm-pc
-    image: https://www.jeffgeerling.com/sites/default/files/images/system76-thelio-astra-hero.jpeg
+    title: Project Mini Rack - compact and portable homelabs
+    url: https://www.jeffgeerling.com/blog/2025/project-mini-rack-compact-and-portable-homelabs
+    image: 
 les-Alexiens:
   fr_FR:
   - name: les-Alexiens
-    title: Aqara dévoile ses nouveautés domotiques au CES 2025
-    url: https://www.lesalexiens.fr/actualites/aqara-devoile-ses-nouveautes-domotiques-au-ces-2025/
+    title: Entre ambitions et obstacles, Amazon prépare la nouvelle Alexa pour 2025
+    url: https://www.lesalexiens.fr/actualites/entre-ambitions-et-obstacles-amazon-prepare-la-nouvelle-alexa-pour-2025/
     image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: CES 2025  - Athom dévoile sa nouvelle box domotique Homey Pro Mini
-    url: https://blog.domadoo.fr/110432-ces2025-athom-devoile-homey-pro-mini/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/Homey-Pro-mini-ces2025-une-1024x576.webp
+    title: Découverte du thermostat fil pilote programmable Zigbee 3.0 Moes Tuya
+    url: https://blog.domadoo.fr/109895-moes-thermostat-zigbee-tuya-fil-pilote/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/MOES-fil-pilote-zigbee-smart-programmable-thermostat-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Sunity Go  - notre test sur la praticité et l’efficacité de cette station
-      solaire
-    url: https://blog.nord-domotique.com/sunity-go-notre-test-complet/
+    title: Test de la montre connectée Ice Fit  - Le compagnon idéal pour le quotidien
+      et le sport
+    url: https://blog.nord-domotique.com/test-montre-ice-fit/
     image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: CES 2025  - Retour à Vegas rêves à rêver
-    url: https://www.abavala.com/ces-2025-retour-a-vegas-reves-a-rever/
-    image: https://www.abavala.com/wp-content/uploads/ces2025-150x150.jpg
+    title: CES 2025  - Switchbot tranforme son  robot aspirateur K20+ Pro en robot
+      multifonction
+    url: https://www.abavala.com/ces-2025-switchbot-tranforme-son-robot-aspirateur-k20-pro-en-robot-multifonction/
+    image: https://www.abavala.com/wp-content/uploads/CES-2025-Switchbot-Thumbnail-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -42,20 +43,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'La révolution home cinéma est en marche  - Xgimi dévoile son écran-barre
-      de son ultime Ascend au #CES2025'
-    url: https://www.maison-et-domotique.com/150521-home-cinema-xgimi-ecran-barre-de-son-ascend/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/01/xgimi-ces-2025-702x436.png
+    title: 'Mammotion révolutionne la tonte robotisée au #CES2025, avec des mini-robots
+      bluffants et une IA surpuissante !'
+    url: https://www.maison-et-domotique.com/150598-mammotion-ces2025/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/01/mammotion-ces2025-13-702x365.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Apple, Google, and Samsung will accept Matter certification of smart home
-      products
-    url: https://www.theverge.com/2025/1/6/24336570/apple-google-samsung-accept-matter-certification%20
+    title: The Latest from InnoPhase IoT - Meet the Next-Gen Talaria 6 Family of SoCs
+    url: https://www.iotevolutionworld.com/iot/articles/461605-latest-from-innophase-iot-meet-next-gen-talaria.htm
     image: 
 Kincony:
   en_GB:
   - name: Kincony
-    title: KinCony F24 ESP32-S3 16A Removable Relay Board released
-    url: https://www.kincony.com/kincony-f24-esp32-s3-16a-removable-relay-board-released.html
+    title: KinCony TS tiny SHT30 temperature and humidity sensor
+    url: https://www.kincony.com/tiny-sht30-temperature-humidity-sensor.html
     image:
