@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 Jan 2025 03:54:43 +0100</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2025 14:00:00 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Jan 2025 09:47:15 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Jan 2025 08:29:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Test of the Sonoff Contact-Dry Matter Wifi Micro Module</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Sonoff unveils its first Matter/wifi compatible dry contact micro module, the Mini-D</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.png" alt="Test of the Sonoff Contact-Dry Matter Wifi Micro Module">
+</picture>
+
+      <p>Few in number on the market and often under-exploited, home automation modules with dry contact function are very little represented especially depending on the chosen communications protocol, in Zigbee almost non-existent, a little better in wifi and more often present in z-wave. Sonoff releases its first micro dry contact module [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller">Test of the Sonoff Contact-Dry Matter Wifi Micro Module</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 23 Jan 2025 08:29:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Easily automate your water meter with Homewizard</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +246,6 @@
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Tests]]></category>
-    </item>
-    <item>
-      <title>Comfee Easy Dry 20 dehumidifier test</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the Easy dry 20 two-in-one dehumidifier with ionizer function and integration into the Home Assistant home automation assistant.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/139/test-deshumidifacteur-comfee-easy-dry-20-compatible-home-assistant-720-26d6490ff.png" alt="Comfee Easy Dry 20 dehumidifier test">
-</picture>
-
-      <p>After a very rainy 2024 season, I found myself with a humidity level and mold in the basement. So I started looking to buy a dehumidifier. And I wanted it to be compatible with my favorite assistant Home Assistant.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/comfee-dehumidifier-test-and-integration-in-home-assistant">Comfee Easy Dry 20 dehumidifier test</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 09 Sep 2024 18:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/comfee-dehumidifier-test-and-integration-in-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/comfee-dehumidifier-test-and-integration-in-home-assistant</guid>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

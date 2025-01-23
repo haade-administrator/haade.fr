@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 23 Jan 2025 03:54:43 +0100</pubDate>
-    <lastBuildDate>Sun, 05 Jan 2025 14:00:00 +0100</lastBuildDate>
+    <pubDate>Thu, 23 Jan 2025 09:47:15 +0100</pubDate>
+    <lastBuildDate>Thu, 23 Jan 2025 08:29:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Test du Micro Module Contact-Sec Matter Wifi Sonoff</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Sonoff dévoile son premier micro module contact sec compatible Matter/wifi le Mini-D</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.png" alt="Test du Micro Module Contact-Sec Matter Wifi Sonoff">
+</picture>
+
+      <p>Peu nombreux sur le marché et souvent sous exploité, les modules domotisés à fonction contact-sec sont très peu représentés surtout suivant le protocole de communications choisi, en Zigbee quasi inexistant, un peu mieux en wifi et plus souvent présent en z-wave. Sonoff sort son premier micro module contact-sec le Mini-D, [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d">Test du Micro Module Contact-Sec Matter Wifi Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 23 Jan 2025 08:29:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Domotise facilement ton compteur d&apos;eau grâce à Homewizard</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +246,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Nouveau Nspanel Pro 120 WOUAOUH !</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Un test attendu avec impatience celui du tout nouveau sonoff Nspanel pro 120 PW, un format qui fait l&apos;unanimité mais il n&apos;y a pas que la taille qui compte. Je vais tu t&apos;en doute le comparer au NsPanel Pro 86</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png" alt="Nouveau Nspanel Pro 120 WOUAOUH !">
-</picture>
-
-      <p>Encore un article attendu, vu le nombre de ventes réalisées par itead concernant le nspanel pro, ça ne m’étonne pas. Voilà j’ai reçu en test le nouveau NSPanel pro 120 fourni par itead et je les en remercie. J’ai réalisé quelques tests et fait un comparatif avec le NSPanel pro [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/nouveau-sonoff-nspanel-pro-120-pw-wouaouh-que-du-bonheur">Nouveau Nspanel Pro 120 WOUAOUH !</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 22 Sep 2024 10:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/nouveau-sonoff-nspanel-pro-120-pw-wouaouh-que-du-bonheur</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/nouveau-sonoff-nspanel-pro-120-pw-wouaouh-que-du-bonheur</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
     </item>
   </channel>
 </rss>
