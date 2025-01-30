@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2025-01-30T16:20:00+01:00</news:publication_date>
+          <news:title>Prepare a Thread and Matter network on Home Assistant</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</loc>
         <news:news>
           <news:publication>

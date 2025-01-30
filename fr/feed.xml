@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Jan 2025 03:51:56 +0100</pubDate>
-    <lastBuildDate>Thu, 23 Jan 2025 08:29:00 +0100</lastBuildDate>
+    <pubDate>Thu, 30 Jan 2025 16:54:12 +0100</pubDate>
+    <lastBuildDate>Thu, 30 Jan 2025 16:20:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Prépare un réseau Thread et Matter sur Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Découvre et prépare un routeur de bordure Thread avec matter afin d&apos;intégrer les nouveaux produits arrivant sur le marché avec Home Assistant, Thread un protocole exceptionnel</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.png" alt="Prépare un réseau Thread et Matter sur Home Assistant">
+</picture>
+
+      <p>De nombreux articles sont disponibles sur le protocole de gestions des produits connectés Matter, actuellement il fonctionne avec le réseau Wifi ou le réseau Thread. Nous connaissons tous les avantages et inconvénients du wifi, mais as-tu déjà entendu parler de Thread ?
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module">Prépare un réseau Thread et Matter sur Home Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 30 Jan 2025 16:20:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test du Micro Module Contact-Sec Matter Wifi Sonoff</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -221,31 +244,6 @@
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Domotique - Home Assistant et économie de chauffage</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>August revient sur la vidéo du 28 Mars concernant l&apos;économie de chauffage et la domotique ça marche et apporte des chiffres sur sa consommation et ses économies réalisées depuis Février 2024</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Domotique - Home Assistant et économie de chauffage">
-</picture>
-
-      <p>Après 9 mois d’installations, August revient faire le point sur la chaine youtube pour te parler de ses économies d’énergies réalisées grâce à une installation domotique Home Assistant.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan">Domotique - Home Assistant et économie de chauffage</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotique-et-economie-de-chauffage-le-bilan</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

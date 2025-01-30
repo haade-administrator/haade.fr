@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Jan 2025 03:51:56 +0100</pubDate>
-    <lastBuildDate>Thu, 23 Jan 2025 08:29:00 +0100</lastBuildDate>
+    <pubDate>Thu, 30 Jan 2025 16:54:12 +0100</pubDate>
+    <lastBuildDate>Thu, 30 Jan 2025 16:20:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Prepare a Thread and Matter network on Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Discover and prepare a Thread edge router with matter to integrate new products coming to the market with Home Assistant, Thread an exceptional protocol</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.png" alt="Prepare a Thread and Matter network on Home Assistant">
+</picture>
+
+      <p>Many articles are available on the Matter connected product management protocol, currently it works with the Wifi network or the Thread network. We know all the advantages and disadvantages of wifi, but have you ever heard about Thread?
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module">Prepare a Thread and Matter network on Home Assistant</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 30 Jan 2025 16:20:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test of the Sonoff Contact-Dry Matter Wifi Micro Module</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,28 +247,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>New Nspanel Pro 120 WOW!</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>A test eagerly awaited that of the brand new sonoff Nspanel pro 120 PW, a format that is unanimous but it is not only the size that counts. I will, you guessed it, compare it to the NsPanel Pro 86</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/140/nouveau-sonoff-nspanel-pro-120-wide-panel-test-et-comparatif-avec-version-86-720-77d8f7ad3.png" alt="New Nspanel Pro 120 WOW!">
-</picture>
-
-      <p>Another expected article, given the number of sales made by itead concerning the nspanel pro, it doesn’t surprise me. Here I received for testing the new NSPanel pro 120 provided by itead and I thank them for it. I carried out some tests and made a comparison with the NSPanel [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness">New Nspanel Pro 120 WOW!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 22 Sep 2024 10:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/new-sonoff-nspanel-pro-120-pw-wouaouh-happiness</guid>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
     </item>
   </channel>
 </rss>
