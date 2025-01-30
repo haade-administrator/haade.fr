@@ -40,6 +40,8 @@ Parcours cette vidéo, bon elle dure 1h30, mais pour les 10 ans, j'ai fait l'eff
 
 **Home Assistant Green**  offre une configuration sans effort et vous permet de contrôler tous les appareils intelligents avec un seul système, où toutes les **données sont stockées localement** par défaut. Cet appareil bénéficie de l’écosystème  de Home-Assistant.
 
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="produits-compatibles-home-assistant/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
+
 **{{ page.ref }}** intègre une carte mère conçue en collaboration avec [l'entreprise Seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){: target="_blank"}, point intéressant processeur 4 coeurs ARM-Cortex A55 et 4Gb de ram embarquées et 32GB de stockage emmc, tout ce qu'il faut pour faire tourner Home-Assistant OS.
 
 {% picture posts/{{ page.guid }}/home-assistant-new-logo.png --alt pour ses 10 ans home assistant s'offre un nouveau logo --img width="940" height="133" %}
@@ -109,6 +111,8 @@ Comme rien n'est fait à moitié chez Home-Assistant, un site complet à été c
 
 - Absence de certaines connectiues internes
 - dispo uniquement en vente sur une plateforme chinoise **(seeedstudio)**
+
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green en vente chez domadoo à moins de 100€" domlink="produits-compatibles-home-assistant/7046-nabu-casa-box-domotique-home-assistant-green-0794677011758.html" %}
 
 ## Conclusion
 

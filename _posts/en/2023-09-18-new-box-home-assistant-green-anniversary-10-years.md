@@ -40,6 +40,8 @@ Watch this video, well it lasts 1h30, but for the 10th anniversary, I made the e
 
 **Home Assistant Green** offers effortless setup and lets you control all smart devices with one system, where all **data is stored locally** by default. This device benefits from the Home-Assistant ecosystem.
 
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="produits-compatibles-home-assistant/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
+
 **{{ page.ref }}** includes a motherboard designed in collaboration with [the company Seeedstudio](https://www.seeedstudio.com/Home-Assistant-Green-p-5792.html){: target="_blank"}, interesting point 4-core ARM-Cortex A55 processor and 4Gb of onboard RAM and 32GB of emmc storage, everything you need to run Home-Assistant OS.
 
 {% picture posts/{{ page.guid }}/home-assistant-new-logo.png --alt pour ses 10 ans home assistant s'offre un nouveau logo --img width="940" height="133" %}
@@ -109,6 +111,8 @@ As nothing is done by halves at Home-Assistant, a complete site has been created
 
 - Absence of certain internal connections
 - only available for sale on a Chinese platform **(seeedstudio)**
+
+{% include product-embed.html image="Home-Assistant-Green.png" title="Box HomeAssistant Green" brand="Nabu Casa" description="Box Home Assistant Green on sale at domadoo for less than €100" domlink ="produits-compatibles-home-assistant/7046-nabu-casa-home-assistant-green-smart-home-hub-0794677011758.html" %}
 
 ## Conclusion
 
