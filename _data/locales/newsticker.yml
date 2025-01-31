@@ -40,4 +40,15 @@ Matter:
   - name: Matter
     title: Alliance Member Map – Embedded World 2025
     url: https://csa-iot.org/newsroom/alliance-embedded-world-2025-member-map/
-    image:
+    image: 
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: 321 Backup
+    url: https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/
+    image: http://www.home-assistant.io/images/blog/2025-01-backups/art.jpg
+  en_GB:
+  - name: Home-Assistant
+    title: 321 Backup
+    url: https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/
+    image: http://www.home-assistant.io/images/blog/2025-01-backups/art.jpg
