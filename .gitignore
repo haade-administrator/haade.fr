@@ -18,5 +18,5 @@ node_modules
 
 # ignore files
 
-_plugins/feednews.rb
+# _plugins/feednews.rb
 
