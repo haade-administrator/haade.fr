@@ -2,3 +2,42 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+Jeff-Geerling:
+  en_GB:
+  - name: Jeff-Geerling
+    title: How is Deepseek R1 on a Raspberry Pi?
+    url: https://www.jeffgeerling.com/blog/2025/how-deepseek-r1-on-raspberry-pi
+    image: 
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Découverte du contrôleur de vanne T1 Aqara Zigbee 3.0
+    url: https://blog.domadoo.fr/110017-controleur-vanne-t1-aqara-zigbee-3-0/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Aqara-vanne-t1-1080x675-PRESS-1024x640.webp
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Ring Battery Doorbell  - La Sonnette Vidéo Sans Fil qui Sécurise Votre
+      Entrée avec Simplicité
+    url: https://blog.nord-domotique.com/test-ring-battery-doorbell/
+    image: 
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: CES 2025  - Switchbot tranforme son  robot aspirateur K20+ Pro en robot
+      multifonction
+    url: https://www.abavala.com/ces-2025-switchbot-tranforme-son-robot-aspirateur-k20-pro-en-robot-multifonction/
+    image: https://www.abavala.com/wp-content/uploads/CES-2025-Switchbot-Thumbnail-150x150.jpg
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Gaming et éclairage connecté  - transformez la chambre de votre ado en
+      véritable arène esport !
+    url: https://www.maison-et-domotique.com/150690-gaming-eclairage-connecte-chambre-ado/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/01/6d173ee0-6928-4eb8-a67c-50ef375a5c97-702x234.jpg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Alliance Member Map – Embedded World 2025
+    url: https://csa-iot.org/newsroom/alliance-embedded-world-2025-member-map/
+    image:

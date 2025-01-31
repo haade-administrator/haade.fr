@@ -33,3 +33,11 @@
 - name: Kincony
   feed: https://www.kincony.com/feed/
   lang: en_GB
+
+- name: Home-Assistant
+  feed: https://www.home-assistant.io/atom.xml
+  lang: fr_FR
+
+- name: Home-Assistant
+  feed: https://www.home-assistant.io/atom.xml
+  lang: en_GB
