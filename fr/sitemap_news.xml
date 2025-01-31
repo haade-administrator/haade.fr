@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2025-01-31T12:30:00+01:00</news:publication_date>
+          <news:title>Remise exceptionnelle sur la gamme domotique Tado sur le site Veepee</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/152/tado-domotique-chauffage-veepee-vente-privee-50-%-remise.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module</loc>
         <news:news>
           <news:publication>

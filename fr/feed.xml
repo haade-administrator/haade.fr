@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 31 Jan 2025 03:53:16 +0100</pubDate>
-    <lastBuildDate>Thu, 30 Jan 2025 16:20:00 +0100</lastBuildDate>
+    <pubDate>Fri, 31 Jan 2025 12:48:59 +0100</pubDate>
+    <lastBuildDate>Fri, 31 Jan 2025 12:30:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Remise exceptionnelle sur la gamme domotique Tado sur le site Veepee</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Remise allant jusqu&apos;à plus de 50% sur toute la gamme tado X sur le site veepee, vente privée jusqu&apos;au 03/02/2025 à 5 h du matin</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/152/tado-domotique-chauffage-veepee-vente-privee-50-%25-remise-720-1399e165c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/152/tado-domotique-chauffage-veepee-vente-privee-50-%25-remise-720-1399e165c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/152/tado-domotique-chauffage-veepee-vente-privee-50-%25-remise-720-1399e165c.png" alt="Remise exceptionnelle sur la gamme domotique Tado sur le site Veepee">
+</picture>
+
+      <p>Attention Remise exceptionnelle sur le site veepee.fr de la célèbre gamme Tado°. Plus que 3 jours pour en profiter ! Pas encore testé par l’équipe Haade mais ça ne serait tarder, Tado lance avec la gamme X des robinets thermostatiques exceptionnels.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel">Remise exceptionnelle sur la gamme domotique Tado sur le site Veepee</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 31 Jan 2025 12:30:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel</guid>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Prépare un réseau Thread et Matter sur Home Assistant</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,28 +243,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Z-wave]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Domotise ton chauffage avec Sonoff NSPanel Pro</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Lors d&apos;un Live Youtube nous allons tenter de domotiser l&apos;appartement d&apos;August avec des produits de l&apos;univers Sonoff, le tout piloté par le fameux NSPanel Pro 120 au firmware d&apos;origine, nous espérons vous voir nombreux et répondre à vos questions.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/142/domotise-ton-chgauffage-grace-a-sonoff-et-le-nspanel-pro-720-d9c39f430.png" alt="Domotise ton chauffage avec Sonoff NSPanel Pro">
-</picture>
-
-      <p>Pour aller plus loin dans notre démarche et pour ceux qui ne veulent pas investir dans une box domotique Home assistant, nous préparons un live qui aura lieu le 7 Novembre à 21h00. Nous allons essayer de domotiser le chauffage de August en utilisant seulement des Produits de la marque [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube">Domotise ton chauffage avec Sonoff NSPanel Pro</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 03 Oct 2024 16:45:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-ton-chauffage-grace-au-sonoff-nspanel-pro-live-youtube</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
     </item>
   </channel>
 </rss>
