@@ -30,20 +30,6 @@
           <image:loc>https://haade.fr/assets/images/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2025-01-23T08:29:00+01:00</news:publication_date>
-          <news:title>Test du Micro Module Contact-Sec Matter Wifi Sonoff</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
