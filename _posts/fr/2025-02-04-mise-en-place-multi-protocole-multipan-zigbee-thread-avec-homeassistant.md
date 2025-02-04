@@ -76,7 +76,7 @@ Ensuite avant de démarrer l'application il faut la configurer rien de bien comp
 - démarre l'application
 
 {% picture posts/{{ page.guid }}/configuration-silabs-multi-protocol.png
- --alt Installation du module multi-protocol thread zigbee par silabs --img width="600" height="544" %}
+ --alt Configuration du module multi-protocol thread zigbee par silabs --img width="600" height="544" %}
 
 Arrivé à ce stade le module va **envoyer le firmware multi-protocol** adéquat, ce n'est pas le dernier disponible mais celui qui a été testé par l'équipe HA, soit le 4.3.1, pour finir il va paramétrer le serveur Openthread.
 
@@ -123,7 +123,7 @@ Il va falloir maintenant ajouter le coordinateur Zigbee via la bibliothèque **Z
 Rien de compliqué vas dans **Paramètres > Appareils et services > Ajouter une intégration** et choisi **Zigbee home automation**
 
 {% picture posts/{{ page.guid }}/ajout-coordinateur-zigbee.png
- --alt ajour coordinateur zigbee --img width="600" height="298" %}
+ --alt ajout coordinateur zigbee --img width="600" height="298" %}
 
 Sélectionne le dongle attention il s'agit du **socket://core-silabs-multiprotocol:9999**
 
@@ -140,7 +140,7 @@ Comme pour Thread nous allons vérifier les informations du réseau **afin de vo
 [![Configuration du réseau Zigbee ZHA](https://my.home-assistant.io/badges/config_zha.svg)](https://my.home-assistant.io/redirect/config_zha/){: target="_blank}
 
 {% picture posts/{{ page.guid }}/parametre-zigbee-controle-du-canal.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="607" height="853" %}
+ --alt reconfigure un nouveau réseau pour l'installation multi-protocol silabs --img width="607" height="853" %}
 
 > Dans mon cas les **deux canaux sont identiques Jackpot** !
 
@@ -156,12 +156,12 @@ Si ce n'est pas le cas ne t'affoles pas, **clic sur migrer la radio**{: .red} et
 Lors de la **découverte d'un module Matter sur le réseau ou lors de la création d'un réseau Openthread** l'appareil montera automatiquement dans la découverte des appareils
 
 {% picture posts/{{ page.guid }}/decouverte-matter.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="354" height="220" %}
+ --alt Découverte module Matter --img width="354" height="220" %}
 
 **Pour rappel** si tu n'as pas encore installé de **serveurs Matter pas grave** lors de la découverte du premier appareil Matter il te suffira de laisser la case coché: **utilisez le module complémentaire officiel Matter server dans le superivsor**
 
 {% picture posts/{{ page.guid }}/installation-automatique-serveur-matter.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="600" height="295" %}
+ --alt créer un nouveau réseau lors du premier ajout matter --img width="600" height="295" %}
 
 ## Vérification de l'ensemble
 

@@ -13,7 +13,7 @@ video:
 image: 'installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -57,172 +57,172 @@ You can also use [the online application provided by home assistant](https://con
 
 If you have another Sonoff type key, go to the [darkxst page which also uses the online firmware modification application](https://darkxst.github.io/silabs-firmware-builder/){: target="_blank}
 
-> Bref la clé doit être configuré en Zigbee
+> In short, the key must be configured in Zigbee
 
-## 3ème étape l'installation
+## 3rd step installation
 
-Rien de plus simple **télécharge et installe le module officiel Silabs multi-protocol** en cliquant sur le lien ci-dessous
+Nothing could be simpler **download and install the official Silabs multi-protocol module** by clicking on the link below
 
-[![Télécharge l'application Silabs multi-protocol par home Assistant](https://my.home-assistant.io/badges/supervisor_ingress.svg)](https://my.home-assistant.io/redirect/supervisor_ingress/?addon=core_silabs_multiprotocol%2F){: target="_blank}
+[![Download the Silabs multi-protocol application by home Assistant](https://my.home-assistant.io/badges/supervisor_ingress.svg)](https://my.home-assistant.io/redirect/supervisor_ingress/?addon=core_silabs_multiprotocol%2F){: target="_blank}
 
 {% picture posts/{{ page.guid }}/silicon-labs-multi-protocol-thread-zigbee.png
- --alt Installation du module multi-protocol thread zigbee par silabs --img width="600" height="320" %}
+ --alt Installation of the multi-protocol thread zigbee module by silabs --img width="600" height="320" %}
 
-Ensuite avant de démarrer l'application il faut la configurer rien de bien compliquer:
+Then before starting the application you have to configure it, nothing too complicated:
 
-- Sélectionne la clé qui va être paramétrer
-- met le baudrate à 460800
-- et fini par enregistrer
-- démarre l'application
+- Select the key that will be configured
+- set the baudrate to 460800
+- and finish by saving
+- start the application
 
 {% picture posts/{{ page.guid }}/configuration-silabs-multi-protocol.png
- --alt Installation du module multi-protocol thread zigbee par silabs --img width="600" height="544" %}
+ --alt Configuration of multi-protocol thread zigbee module by silabs --img width="600" height="544" %}
 
-Arrivé à ce stade le module va **envoyer le firmware multi-protocol** adéquat, ce n'est pas le dernier disponible mais celui qui a été testé par l'équipe HA, soit le 4.3.1, pour finir il va paramétrer le serveur Openthread.
+At this stage the module will **send the appropriate multi-protocol firmware**, it is not the latest available but the one that has been tested by the HA team, i.e. 4.3.1, to finish it will configure the Openthread server.
 
-En consultant le journal tu pourras vérifier l'installation qui s'est bien déroulé, avec un message en **rouge avec l'encryption désactivé**{: .red}, mais qui ne pose pas de problème au fonctionnement **cependant l'encryption du border router Thread sera non fonctionnel.**
+By consulting the log you will be able to verify the installation that went well, with a message in **red with encryption disabled**{: .red}, but which does not pose a problem for operation **however the encryption of the border router Thread will be non-functional.**
 
 {% picture posts/{{ page.guid }}/journal-installation-multi-protocol.png
- --alt Journal installation multi-protocol --img width="940" height="690" %}
+ --alt Multi-protocol installation log --img width="940" height="690" %}
 
-> Voilà l'installation est terminée
+> Here is the installation complete
 
-Si **tu n'as pas de serveur Matter de disponible** et oui pour rappel thread fonctionne avec Matter, ce n'est pas la peine de t'amuser à installer le serveur, ça se fera automatiquement lors de la découverte du premier module.
+If **you do not have a Matter server available** and yes as a reminder thread works with Matter, there is no need to mess around installing the server, it will be done automatically when discovering the first module.
 
-## 4ème étape ajout des appareils
+## 4th step adding devices
 
-### Ajout de l'appareil Thread
+### Adding the Thread device
 
-Maintenant rends-toi dans **Paramètres > Appareils et service** et ajoute la découverte Thread
+Now go to **Settings > Devices and service** and add the Thread discovery
 
 {% picture posts/{{ page.guid }}/decouverte-thread.png
- --alt découverte thread --img width="347" height="214" %}
+ --alt discovery thread --img width="347" height="214" %}
 
-> Une fois l'appareil ajouté tu vas maintenant retourner **dessus et cliquer sur configurer**
+> Once the device is added you will now go back **to it and click on configure**
 
 {% picture posts/{{ page.guid }}/configurer-thread.png
- --alt verification configuration thread --img width="600" height="137" %}
+ --alt verify configuration thread --img width="600" height="137" %}
 
-Nous allons afficher la configuration afin de savoir sur quel canal le réseau thread est paramétré, appui sur le **i** dans mon cas c'est le **canal 20 de paramétré par défaut**.
+We will display the configuration in order to know on which channel the thread network is configured, press the **i** in my case it is the **channel 20 configured by default**.
 
-{%- include alert.html type="warning" text="Phase délicate du processus, il faudra impérativement que le <b>canal radio soit le même sur les deux protocoles</b>, pour un choix judicieux <b>si tu le peux</b> opte pour le <b>canal 15, 20 ou 25</b> afin de ne pas rentrer en concurrence avec le canal du réseau wifi." link="https://haade.fr/fr/blog/interference-zigbee-wifi-2-4ghz-a-savoir" textlink="Interférence Zigbee et Wifi" %}
+{%- include alert.html type="warning" text="A delicate phase of the process, it is imperative that the <b>radio channel is the same on both protocols</b>, for a judicious choice <b>if you can</b> opt for <b>channel 15, 20 or 25</b> so as not to compete with the channel of the wifi network." link="https://haade.fr/en/blog/interference-zigbee-wifi-2-4ghz-to-know" textlink="Zigbee and Wifi interference" %}
 
 {% picture posts/{{ page.guid }}/information-routeur-thread-canal.png
  --alt information border router thread --img width="600" height="137" %}
 
-> Processus délicat du multi-protocol est le fait que **tu ne peux pas modifier manuellement** le canal de thread et zigbee, le choix se fait **automatiquement**
+> Tricky process of multi-protocol is the fact that **you can't manually change** the thread and zigbee channel, the choice is made **automatically**
 
 {% picture posts/{{ page.guid }}/canal-choisi-automatiquement-en-mode-multi-protocol.png
- --alt choix du canal automatique thread et zigbee. --img width="600" height="298" %}
+ --alt automatic thread and zigbee channel selection. --img width="600" height="298" %}
 
-{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="34aH0EeO" %}
+{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Tado°" brand="Tado°" description="Tado° X thermostatic faucet, probably the most advanced faucet on the market, matter over thread compatible" amazlink="34aH0EeO" %}
 
-### Ajout de l'appareil Zigbee
+### Adding the Zigbee device
 
-Il va falloir maintenant ajouter le coordinateur Zigbee via la bibliothèque **Zigpy ZHA**.
-Rien de compliqué vas dans **Paramètres > Appareils et services > Ajouter une intégration** et choisi **Zigbee home automation**
+Now we will have to add the Zigbee coordinator via the **Zigpy ZHA** library.
+Nothing complicated, go to **Settings > Devices and services > Add an integration** and choose **Zigbee home automation**
 
 {% picture posts/{{ page.guid }}/ajout-coordinateur-zigbee.png
- --alt ajour coordinateur zigbee --img width="600" height="298" %}
+ --alt add zigbee coordinator --img width="600" height="298" %}
 
-Sélectionne le dongle attention il s'agit du **socket://core-silabs-multiprotocol:9999**
+Select the dongle, note that it is **socket://core-silabs-multiprotocol:9999**
 
 {% picture posts/{{ page.guid }}/choix-du-dongle-multi-protocol-zigbee.png
- --alt choix du socket zigbee pour l'installation multi-protocol silabs --img width="600" height="412" %}
+ --alt choosing zigbee socket for silabs multi-protocol installation --img width="600" height="412" %}
 
-Pour terminer sélectionne **créer un nouveau réseau ou supprimer un réseau existant**
+To finish select **create a new network or delete an existing network**
 
 {% picture posts/{{ page.guid }}/creer-un-nouvea-reseau-zigbee.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="417" height="273" %}
+ --alt create new network for silabs multi-protocol installation --img width="417" height="273" %}
 
-Comme pour Thread nous allons vérifier les informations du réseau **afin de voir si l'installation automatique a bien choisi** le même **canal** que le réseau Thread. rends-toi directement sur le lien ci-dessous.
+As for Thread we will check the network information **to see if the automatic installation has chosen** the same **channel** as the Thread network. Go directly to the link below.
 
-[![Configuration du réseau Zigbee ZHA](https://my.home-assistant.io/badges/config_zha.svg)](https://my.home-assistant.io/redirect/config_zha/){: target="_blank}
+[![Zigbee ZHA network configuration](https://my.home-assistant.io/badges/config_zha.svg)](https://my.home-assistant.io/redirect/config_zha/){: target="_blank}
 
 {% picture posts/{{ page.guid }}/parametre-zigbee-controle-du-canal.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="607" height="853" %}
+ --alt create new network for silabs multi-protocol installation --img width="607" height="853" %}
 
-> Dans mon cas les **deux canaux sont identiques Jackpot** !
+> In my case the **two channels are identical Jackpot**!
 
-Si ce n'est pas le cas ne t'affoles pas, **clic sur migrer la radio**{: .red} et **sélectionne reconfigurer la radio actuelle ensuite ça devrait être bon**
+If this is not the case do not panic, **click on migrate radio**{: .red} and **select reconfigure current radio then it should be good**
 
 {% picture posts/{{ page.guid }}/reconfigurer-radio-actuelle.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="600" height="742" %}
+ --alt reconfigure a new network for the silabs multi-protocol installation --img width="600" height="742" %}
 
-{% include product-embed.html image="nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-skyconnect-pour-home-assistant.png" title="Clé Zigbee et Thread ZBT 1 Skyconnect" brand="Nabucasa" description="Clé Home Assistant Nabu Casa compatible Zigbee ou Thread" domlink="box-domotique/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html" %}
+{% include product-embed.html image="nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-skyconnect-pour-home-assistant.png" title="Zigbee Key and Thread ZBT 1 Skyconnect" brand="Nabucasa" description="Nabu Casa Home Assistant key compatible with Zigbee or Thread" domlink="box-domotique/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html" %}
 
-## Pour terminer Ajoutons Matter
+## To finish Let's add Matter
 
-Lors de la **découverte d'un module Matter sur le réseau ou lors de la création d'un réseau Openthread** l'appareil montera automatiquement dans la découverte des appareils
+When **discovering a Matter module on the network or when creating an Openthread network** the device will automatically come up in the device discovery
 
 {% picture posts/{{ page.guid }}/decouverte-matter.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="354" height="220" %}
+ --alt discovery Matter device --img width="354" height="220" %}
 
-**Pour rappel** si tu n'as pas encore installé de **serveurs Matter pas grave** lors de la découverte du premier appareil Matter il te suffira de laisser la case coché: **utilisez le module complémentaire officiel Matter server dans le superivsor**
+**As a reminder** if you have not yet installed **Matter servers, no problem** when discovering the first Matter device, you just need to leave the box checked: **use the official Matter server add-on in the supervisor**
 
 {% picture posts/{{ page.guid }}/installation-automatique-serveur-matter.png
- --alt créer un nouveau réseau pour l'installation multi-protocol silabs --img width="600" height="295" %}
+ --alt create new network on first add matter --img width="600" height="295" %}
 
-## Vérification de l'ensemble
+## Checking the whole
 
-Voilà une **capture d'écran de l'ensemble du système d'installé**, tu pourras te rendre compte que j'ai installé un produit dans **Zigbee ZHA, il s'agit d'une ampoule Lidl** ainsi qu'un module **dans Matter il s'agit du très bon robinet thermostatique Tado-X compatible Thread**.
+Here is a **screenshot of the whole installed system**, you will be able to see that I installed a product in **Zigbee ZHA, it is a Lidl bulb** as well as a module **in Matter it is the very good Tado-X thermostatic faucet compatible with Thread**.
 
 {% picture posts/{{ page.guid }}/controle-installation-silabs-multi-protocol.png
- --alt tour d'horizon de l'installation complète --img width="940" height="392" %}
+ --alt full installation overview --img width="940" height="392" %}
 
-{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="34aH0EeO" %}
+{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Tado°" brand="Tado°" description="Tado° X thermostatic faucet, probably the most advanced faucet on the market, matter over thread compatible" amazlink="34aH0EeO" %}
 
-> Ci-dessous l'intégration du robinet **thermostatique Tado-X** en multi-protocole dans Home Assistant
+> Below is the integration of the **Tado-X** thermostatic faucet in multi-protocol in Home Assistant
 
 {% picture posts/{{ page.guid }}/integration-robinet-thermostatique-thread-tado-x-dans-home-assistant.png
- --alt integration robinet thermostatique tado-x dans home assistant en multi-protocole --img width="600" height="368" %}
+ --alt integration of tado-x thermostatic faucet in home assistant in multi-protocol --img width="600" height="368" %}
 
-> Ci-dessous l'intégration de **l'ampoule Lidl Zigbee** en multi-protocole dans Home Assistant
+> Below is the integration of the **Lidl Zigbee bulb** in multi-protocol in Home Assistant
 
 {% picture posts/{{ page.guid }}/integration-ampoule-zigbee-dans-multi-protocole-home-assistant-avec-zha.png
- --alt integration robinet thermostatique tado-x dans home assistant en multi-protocole --img width="600" height="452" %}
+ --alt integration of tado-x thermostatic faucet in home assistant in multi-protocol --img width="600" height="452" %}
 
-## Récapitulatif étape clé
+## Key step summary
 
-1. Avec une clé Zigbee puce silabs avec un [firmware Zigbee](https://github.com/darkxst/silabs-firmware-builder){: target="_blank} installé.
-2. Être sure d'avoir entièrement **suprimmé l'intégration ZHA, Thread et Openthread** des appareils sur Home Assistant.
-3. Installe le module **Silabs Multi-protocole officiel**.
-4. Sélectinne la clé zigbee dans les paramètres et enregistrer.
-5. Démarre le lancement du module.
-6. Aller dans **paramètres > Appareils et services** et ajouter Thread en découverte.
-7. Vérifie toujours **dans Appareils et services l'entrée Openthread** configurée.
-8. Aller dans l'entrée Thread et appuyez sur configurer.
-9. Vérifie **l'existence du routeur de bordure ha-thread-xxxx** et appuyer sur **i** afin de vérifier les **infos Channel** dans mon cas 20.
-10. Ensuite Ajoute l'appareil **Zigbee Home Automation**
-11. Sélectionne l'entrée: **socket://core-silabs-multiprotocol:9999**
-12. Sélectionne **Effacer les paramètres réseau et crééer un nouveau réseau**
-13. Va dans les appareils Zigbee et clic sur configurer
-14. Vérifie le Canal il doit être identique à Threasd pour moi, canal 20 
-15. Si différent clic sur **migrer la radio** et **reconfigurer la radio actuelle**
+1. With a silabs chip Zigbee key with a [Zigbee firmware](https://github.com/darkxst/silabs-firmware-builder){: target="_blank} installed.
+2. Be sure to have completely **removed ZHA, Thread and Openthread integration** from devices on Home Assistant.
+3. Install the **Official Silabs Multi-protocol** module.
+4. Select the zigbee key in the settings and save.
+5. Start the module launch.
+6. Go to **settings > Devices and services** and add Thread in discovery.
+7. Always check **in Devices and services the Openthread** entry configured.
+8. Go to the Thread entry and press configure.
+9. Check **the existence of the ha-thread-xxxx border router** and press **i** to check the **info Channel** in my case 20.
+10. Then Add the device **Zigbee Home Automation**
+11. Select the entry: **socket://core-silabs-multiprotocol:9999**
+12. Select **Clear network settings and create a new network**
+13. Go to Zigbee devices and click on configure
+14. Check the Channel it must be the same as Threasd for me, channel 20
+15. If different click on **migrate radio** and **reconfigure current radio**
 
-{%- include alert.html type="warning" text="Phase délicate du processus, il faudra impérativement que le <b>canal radio soit le même sur les deux protocoles</b>, pour un choix judicieux <b>si tu le peux</b> opte pour le <b>canal 15, 20 ou 25</b> afin de ne pas rentrer en concurrence avec le canal du réseau wifi." link="https://haade.fr/fr/blog/interference-zigbee-wifi-2-4ghz-a-savoir" textlink="Interférence Zigbee et Wifi" %}
+{%- include alert.html type="warning" text="A delicate phase of the process, it is imperative that the <b>radio channel is the same on both protocols</b>, for a judicious choice <b>if you can</b> opt for <b>channel 15, 20 or 25</b> so as not to compete with the channel of the wifi network." link="https://haade.fr/en/blog/interference-zigbee-wifi-2-4ghz-to-know" textlink="Zigbee and Wifi interference" %}
 
-## Multi-protocle et la bibliothèque Zigbee2mqtt
+## Multi-protocle and Zigbee2mqtt library
 
-La dernière version du **module silabs multi-protocole** ainsi que la **version 2 de Zigbee2mqtt ne permettent pas de fonctionner ensemble.**
+The latest version of the **silabs multi-protocol module** and the **version 2 of Zigbee2mqtt do not allow to work together.**
 
-**Ce n'est pas la peine d'essayer de paramétrer** 
+**There is no point in trying to configure**
 
 {% highlight yaml%}
 port: socket://core-silabs-multiprotocol:9999 ou port: tcp://core-silabs-multiprotocol:9999
 adapter: ember ou ezsp
 {% endhighlight %}
 
-> Malheureusement la **bibliothèque Zigbee2mqtt est non fonctionnel** en mode Multi-Protocole
+> Unfortunately the **Zigbee2mqtt library is non-functional** in Multi-Protocol mode
 
 {% picture posts/{{ page.guid }}/erreur-zigbee2mqtt-silabs-multi-protocole.png
- --alt Erreur installation multiprotocole zigbee et thread pour zigbee2mqtt dans home assistant --img width="940" height="446" %}
+ --alt Error installing multiprotocol zigbee and thread for zigbee2mqtt in home assistant --img width="940" height="446" %}
 
 ## Conclusion
 
-Si tu suis bien le processus d'installation **tu auras réussi à faire fonctionner sur une seule clé** en l'occurrence la Skyconnect en mode **multi-protocole Silabs Zigbee/Thread/Matter**, sans trop de difficulté et tu pourras ainsi faire fonctionner un panel de modules Thread et Zigbee. **Néanmoins c'est un mode expérimental il est à utiliser avec des pincettes**, et tout n'est pas encore parfait.
+If you follow the installation process well **you will have managed to make it work on a single key** in this case the Skyconnect in **multi-protocol Silabs Zigbee/Thread/Matter** mode, without too much difficulty and you will be able to run a panel of Thread and Zigbee modules. **However, this is an experimental mode, it should be used with caution**, and everything is not perfect yet.
 
-{% include product-embed.html image="nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-skyconnect-pour-home-assistant.png" title="Clé Zigbee et Thread ZBT 1 Skyconnect" brand="Nabucasa" description="Clé Home Assistant Nabu Casa compatible Zigbee ou Thread" domlink="box-domotique/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html" %}
+{% include product-embed.html image="nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-skyconnect-pour-home-assistant.png" title="Zigbee Key and Thread ZBT 1 Skyconnect" brand="Nabucasa" description="Nabu Casa Home Assistant key compatible with Zigbee or Thread" domlink="box-domotique/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html" %}
 
 
 
