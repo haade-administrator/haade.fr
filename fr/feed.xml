@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Feb 2025 03:50:32 +0100</pubDate>
-    <lastBuildDate>Fri, 31 Jan 2025 12:30:00 +0100</lastBuildDate>
+    <pubDate>Tue, 04 Feb 2025 18:20:11 +0100</pubDate>
+    <lastBuildDate>Tue, 04 Feb 2025 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Thread est un protocole qui monte en puissance, il est possible grâce à Silicon Labs de faire cohabiter Thread/Matter avec Zigbee sur la même clé EZSP. Malgré le fonctionnement expérimental, tu pourras te rendre compte que l&apos;installation des deux&apos; protocoles sur une même clé est possible !</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png" alt="Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant">
+</picture>
+
+      <p>Après un tuto sur l’installation du protocole Thread/Matter sur Home Assistant, continuons maintenant et abordons un sujet sensible, le multi-protocole thread/zigbee sur la même clé. Pourquoi sensible, cette intégration est toujours en phase de développement et non conseillée par l’équipe Nabu Casa.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant">Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 04 Feb 2025 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Remise exceptionnelle sur la gamme domotique Tado sur le site Veepee</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,29 +242,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff</guid>
       <category><![CDATA[Domotique]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Box Homey Pro - la force tranquille</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test de la box domotique Homey pro early 2023, d&apos;une simplicité déconcertante, cette box offre des atouts indéniables pour les novices de la domotique, elle possède de nombreux points positifs comme tout ces protocoles disponibles, mais a-t-elle tous les atouts de son côté ?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png" alt="Box Homey Pro - la force tranquille">
-</picture>
-
-      <p>Voilà un test que j’ai hâte de te présenter, grâce à Athom le fabriquant de la box Homey Pro (Early 2023) et Domadoo, j’ai pu acquérir une box Homey Pro (Early 2023) dernière génération. Athom vend cette box 399€ rien que ça ! J’espère que pour ce prix cette box [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle">Box Homey Pro - la force tranquille</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 14 Oct 2024 17:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/box-homey-pro-la-box-aux-multi-protocoles-qui-fait-parler-d-elle</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Z-wave]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
