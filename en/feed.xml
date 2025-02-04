@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 04 Feb 2025 18:20:11 +0100</pubDate>
+    <pubDate>Tue, 04 Feb 2025 18:35:49 +0100</pubDate>
     <lastBuildDate>Tue, 04 Feb 2025 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Setting up Zigbee/Thread Multi-protocol on Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Thread is a protocol that is gaining momentum, it is possible thanks to Silicon Labs to make Thread/Matter coexist with Zigbee on the same EZSP key. Despite the experimental operation, you will be able to realize that the installation of both protocols on the same key is possible!</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png" alt="Setting up Zigbee/Thread Multi-protocol on Home Assistant">
+</picture>
+
+      <p>After a tutorial on installing the Thread/Matter protocol on Home Assistant, let’s continue now and tackle a sensitive subject, the thread/zigbee multi-protocol on the same key. Why sensitive, this integration is still in the development phase and not recommended by the Nabu Casa team.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant">Setting up Zigbee/Thread Multi-protocol on Home Assistant</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 04 Feb 2025 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Prepare a Thread and Matter network on Home Assistant</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,31 +244,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Z-wave]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Home Assistant - Automation and heating saving</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>August returns to the video of March 28 concerning heating savings and home automation works and provides figures on its consumption and savings made since February 2024</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/141/bilan-economie-chauffage-gaz-august-de-reels-economies-investissement-minime-720-bc5d05989.png" alt="Home Assistant - Automation and heating saving">
-</picture>
-
-      <p>After 9 months of installation, August returns to take stock of the youtube channel to talk to you about energy savings achieved thanks to a Home Assistant home automation installation.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment">Home Assistant - Automation and heating saving</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 01 Oct 2024 18:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/home-automation-and-heating-saving-the-assessment</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
