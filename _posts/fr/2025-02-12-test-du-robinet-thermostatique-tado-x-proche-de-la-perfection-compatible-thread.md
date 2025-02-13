@@ -13,7 +13,7 @@ video:
 image: 'robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
