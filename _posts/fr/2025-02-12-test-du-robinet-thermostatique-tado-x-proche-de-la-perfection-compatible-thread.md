@@ -13,7 +13,7 @@ video:
 image: 'robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -22,11 +22,11 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4 
 sourcelink:
   - 
 ---
-L'entreprise Tado° m'a fourni l'ensemble de la Gamme Tado° X, parler de l'ensemble de la gamme Tado° dans un article ne me semble pas pertinent car il y a beaucoup à dire !. Pour ne perdre personne j'ai déidé de vous présenter en priorité le robinet thermostatique Tado X.
+L'entreprise Tado° m'a fourni l'ensemble de la Gamme Tado° X. Parler de l'ensemble de la gamme Tado° dans un article ne me semble pas pertinent car il y a beaucoup à dire !. Pour ne perdre personne j'ai déidé de vous présenter en priorité le robinet thermostatique Tado X.
 
 Présenter cet article seul n'est pas démuni de tous sens, car je vais te prouver qu'il est tout à fait possible d'utiliser ce robinet connecté sans le reste de la gamme grâce au protocole Thread.
 

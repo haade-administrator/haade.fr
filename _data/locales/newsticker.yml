@@ -5,27 +5,27 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 321 Backup
-    url: https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/
-    image: http://www.home-assistant.io/images/blog/2025-01-backups/art.jpg
+    title: 2025.2 - Iterating on backups
+    url: https://www.home-assistant.io/blog/2025/02/05/release-20252/
+    image: 
   en_GB:
   - name: Home-Assistant
-    title: 321 Backup
-    url: https://www.home-assistant.io/blog/2025/01/03/3-2-1-backup/
-    image: http://www.home-assistant.io/images/blog/2025-01-backups/art.jpg
+    title: 2025.2 - Iterating on backups
+    url: https://www.home-assistant.io/blog/2025/02/05/release-20252/
+    image: 
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du contrôleur de vanne T1 Aqara Zigbee 3.0
-    url: https://blog.domadoo.fr/110017-controleur-vanne-t1-aqara-zigbee-3-0/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Aqara-vanne-t1-1080x675-PRESS-1024x640.webp
+    title: Découverte du détecteur de fumée Zigbee 3.0 Aqara SD-S01D
+    url: https://blog.domadoo.fr/110100-detecteur-fumee-zigbee-3-0-aqara-sd-s01d/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Aqara-detecteur-fumee-zigbee-sd-s01d-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
     title: Test complet de la chaise ergonomique NEWTRAL MagicH-BP  - confort, soutien
       lombaire et innovation
     url: https://blog.nord-domotique.com/test-chaise-newtral-magich-bp/
-    image:
+    image: 
 Abavala:
   fr_FR:
   - name: Abavala
@@ -33,21 +33,28 @@ Abavala:
       multifonction
     url: https://www.abavala.com/ces-2025-switchbot-tranforme-son-robot-aspirateur-k20-pro-en-robot-multifonction/
     image: https://www.abavala.com/wp-content/uploads/CES-2025-Switchbot-Thumbnail-150x150.jpg
+Domo&Geek:
+  fr_FR:
+  - name: Domo&Geek
+    title: Sunology city  - la station solaire pour les balcons
+    url: https://domoandgeek.fr/sunology-city-la-station-solaire-pour-les-balcons/
+    image: https://domoandgeek.fr/wp-content/uploads/2024/01/Kit_Solaire_Sunology_CITY-2_Panneaux_Balcon_1-150x150.webp
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le génialissime robot tondeuse Navimow i108 arrive enfin !
-    url: https://www.maison-et-domotique.com/150678-disponibilite-robot-tondeuse-navimow-i108/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/dsc-1148-702x468.jpg
+    title: Le chauffage solaire SunAéro devient connecté et obtient sa certification
+      officielle
+    url: https://www.maison-et-domotique.com/150737-chauffage-solaire-sunaero-devient-connecte/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/sunaero-connecte-702x345.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Orion O6 ITX Arm V9 board - temper your expectations
-    url: https://www.jeffgeerling.com/blog/2025/orion-o6-itx-arm-v9-board-temper-your-expectations
-    image:
+    title: Build Box64 with Box32 for X86 emulation on RISC-V Linux
+    url: https://www.jeffgeerling.com/blog/2025/build-box64-box32-x86-emulation-on-risc-v-linux
+    image: 
 Matter:
   en_GB:
   - name: Matter
-    title: Electronic Products announces winners of the 2024 Product of the Year Awards
-    url: https://www.electronicproducts.com/electronic-products-announces-winners-of-the-2024-product-of-the-year-awards/
+    title: Flic talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/flic-talks-about-matter-adoption/
     image:
