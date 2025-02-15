@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2025-02-04T18:00:00+01:00</news:publication_date>
-          <news:title>Setting up Zigbee/Thread Multi-protocol on Home Assistant</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
