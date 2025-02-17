@@ -52,6 +52,6 @@ tado° est le leader de la technologie intelligente en matière de contrôle du 
 
 > L'un des meilleurs robinets thermostatiques du marché
 
-{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="34aH0EeO" %}
+{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="4i2glzz" %}
 
 
