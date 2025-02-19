@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Feb 2025 03:53:26 +0100</pubDate>
-    <lastBuildDate>Tue, 04 Feb 2025 18:00:00 +0100</lastBuildDate>
+    <pubDate>Wed, 19 Feb 2025 19:24:22 +0100</pubDate>
+    <lastBuildDate>Wed, 19 Feb 2025 18:43:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test du robinet thermostatique connecté Tado° X</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Proche de la perfection ce robinet Tado X et j&apos;ai hâte de te le présenter, dans cet article je vais juste te présenter le robinet thermostatique Tado X compatible Thread</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.png" alt="Test du robinet thermostatique connecté Tado° X">
+</picture>
+
+      <p>L’entreprise Tado° m’a gracieusement fourni l’ensemble de la Gamme Tado° X. Mais dans cet article je vais simplement te présenter le robinet thermostatique Tado° X. Parler de l’ensemble de la gamme Tado° dans un article ne me semble pas pertinent car il y a beaucoup à dire !. Pour ne [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread">Test du robinet thermostatique connecté Tado° X</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 19 Feb 2025 18:43:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,28 +241,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Sonoff - Domotise ton chauffage conventionnel</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Transforme ton NSPanel Pro en contacteur de chaudière en intégrant direct le micro module Sonoff RE5VC et pilote le tout grâce à l&apos;application Ewelink</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png" alt="Sonoff - Domotise ton chauffage conventionnel">
-</picture>
-
-      <p>Afin de préparer au mieux le prochain Live, et toujours dans le but d’approfondir nos connaissances sur les modules de la gamme Sonoff, nous allons essayer dans cet article de domotiser un système de chauffage conventionnel mais en restant dans l’univers Sonoff et Ewelink.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff">Sonoff - Domotise ton chauffage conventionnel</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 24 Oct 2024 13:04:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/remplace-ton-systeme-de-chauffage-conventionnel-par-des-modules-de-la-gamme-sonoff</guid>
-      <category><![CDATA[Domotique]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
