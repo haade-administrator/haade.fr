@@ -37,11 +37,11 @@ sourcelink:
 
 ## Déballage du {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/deballage-robinet-therpostatique-tado-x-thread.png --alt Déballage et présentation du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-robinet-thermostatique-tado-x-thread.png --alt Déballage et présentation du robinet thermostatique Tado° X --img width="940" height="529" %}
 
-Petit tour d'horizon de la boîte, le plus intéressant est l'inscription **compatible Thread border router**. Actuellement peut de produits sont compatibles avec le protocole Thread, je pense que dans l'avenir plus de produits le seront, car c'est un protocole très intéressant. Pourquoi, car il est similaire au protocole Zigbee mais il se base sur la transmission IP, en gros Threas allie le meilleur entre Zigbee et Wifi.
+Petit tour d'horizon de la boîte, le plus intéressant est l'inscription **compatible Thread border router**. **Actuellement peu de produits sont compatibles avec le protocole Thread**, je pense que dans l'avenir plus de produits le seront, **car c'est un protocole très intéressant.** Pourquoi, car il est similaire au protocole Zigbee mais il se base sur la **transmission IP**, **en gros Thread allie le meilleur entre Zigbee et Wifi.**
 
-Pour de plus amples informations sur Thread j'ai dernièrement rédigé deux articles sur le sujet, l'un pour [l'intégration de Thread dans Home Assistant]({% post_url /fr/2025-01-30-prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module %}) et l'autre pour montrer la faisabilité de [l'intégration de Thread et Zigbee sur une même clé]({% post_url /fr/2025-02-04-mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant %}). 
+Pour de plus amples informations sur Thread **j'ai dernièrement rédigé deux articles sur le sujet**, l'un pour [l'intégration de Thread dans Home Assistant]({% post_url /fr/2025-01-30-prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module %}) et l'autre pour montrer la faisabilité de [l'intégration de Thread et Zigbee sur une même clé]({% post_url /fr/2025-02-04-mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant %}). 
 
 > Je ne l'ai pas fait par hasard à ce moment là car c'était pour préparer la découverte des produits Tado.
 
@@ -59,7 +59,7 @@ Ci dessous retrouve le détail des adaptateurs fournis avec le robinet thermosta
 
 {% picture posts/{{ page.guid }}/adaptateurs-de-montage-du-robinet-thermostatique-connecte-tado-x.png --alt Adaptateurs de montage du Robinet thermostatique Tado° X --img width="940" height="529" %}
 
-Pour ne pas t'y perdre je te joins la notice détaillée pour l'installation des robinets sur les radiateurs ou circuits d'aux existants.
+Pour ne **pas t'y perdre je te joins la notice détaillée** pour l'installation des robinets sur les radiateurs ou circuits d'aux existants.
 
 {% include doclink.html pdf="selection-adaptateur-robinet-thermostatique-tado-x.pdf" title="Notice d'instructions des adaptateurs pour le robinet thermostatique Tado° X" %}
 
@@ -174,3 +174,10 @@ Seule particularité dans le processus d'installation, à un moment donné l'ins
 **Que dire de plus**, il s'adapte à toutes situations, il est **petit** et fonctionne sur **batterie**, il est compatible avec **Thread** donc il peut fonctionner sans le reste de la gamme Tado°, il est beau et efficace, ***il est ultra silencieux*** ( le plus silencieux testé jusqu'à maintenant ), **bon je le conçois il coûte cher, mais si le prix t'importe peu alors fonce !**
 
 > **Selon moi actuellement c'est le meilleur du marché**
+
+**Pourquoi, outre ses nombreux atouts:**
+- tu verras que tu peux faire de **l'autocalibration de température** avec un thermostat secondaire
+- les **thermostats envoient** directement une info au **kit de démarrage** **pour allumer ou non la chaufière**
+- **l'application est très simple** voir le prochain article
+- Contrairement aux autres marques tu arriveras à **faire entre 15 et 50% d'économies d'énergies** **sans passer par une box comme Home Assistant**
+- l'un des premiers produits du marché à **être compatible Thread**

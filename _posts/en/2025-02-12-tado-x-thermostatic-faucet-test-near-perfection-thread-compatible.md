@@ -13,7 +13,7 @@ video:
 image: 'thermostatic-tap-x-by-tado-one-of-the-best-on-the-market.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -27,150 +27,156 @@ sourcelink:
   - https://shop.tado.com/fr-row/products/smart-radiator-thermostat-x?_gl=1*1h80oi9*_gcl_au*MTE5NDk4MTU0MC4xNzM5MDI3OTY4*FPAU*MTE5NDk4MTU0MC4xNzM5MDI3OTY4*_ga*NzQyNDMwNTUuMTczODg1NjA3Nw..*_ga_4RDJNWE5FD*MTczOTgwODExNS42LjEuMTczOTgwOTQ5My4wLjAuMjM2OTQxOTQy*_fplc*T3VLaHRtSlJ1N2xrWUFLOSUyRnRFY1JwdG1FVXpJamM0b2lkdzJmeEQ1cmhQVnhXJTJCYmM1VEY0RjRlTzgyOWllMGRGektCbzVOJTJGV2N6Um85VThXeDglMkZHU1BoaTBXTGZHUmVaZ0VSV1A5WlZ2TU8wWWh2bXl0TWVhNmU4NzJhVEElM0QlM0Q.
   - https://amzn.to/4i2glzz
 ---
-**L'entreprise Tado° m'a gracieusement fourni** l'ensemble de la Gamme Tado° X. Mais dans cet article **je vais simplement te présenter** le robinet thermostatique Tado° X. Parler de l'ensemble de la gamme Tado° dans un article **ne me semble pas pertinent** car il y a beaucoup à dire !. **Pour ne perdre personne** j'ai décidé de vous présenter en priorité le robinet thermostatique Tado X.
+**The company Tado° kindly provided me** with the entire Tado° X range. But in this article **I will simply present** the Tado° X thermostatic tap. Talking about the entire Tado° range in one article **does not seem relevant** to me because there is a lot to say!. **In order not to lose anyone** I have decided to present to you first the Tado° X thermostatic tap.
 
-{% picture posts/{{ page.guid }}/robinet-thermostatique-connecte-tado-x.png --alt Robinet thermostatique Tado° X probablement le meilleur du marché --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/robinet-thermostatique-connecte-tado-x.png --alt Tado° X thermostatic faucet probably the best on the market --img width="940" height="529" %}
 
-{%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
+{%- include alert.html type="info" text="Haade.fr is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means to earn fees by linking to Amazon.com and affiliated sites." %}
 
-{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatiques Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatiques Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
+{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Set of 3 Tado° X thermostatic taps" brand="Tado°" description="Set of 3x Tado° X thermostatic taps, probably the most advanced tap on the market, matter over thread compatible" amazlink="3X45Fsn" %}
 
-## Déballage du {{ page.ref }}
+## Unboxing the {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/deballage-robinet-therpostatique-tado-x-thread.png --alt Déballage et présentation du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-robinet-thermostatique-tado-x-thread.png --alt Unboxing and presentation of the Tado° X thermostatic faucet --img width="940" height="529" %}
 
-Petit tour d'horizon de la boîte, le plus intéressant est l'inscription **compatible Thread border router**. Actuellement peut de produits sont compatibles avec le protocole Thread, je pense que dans l'avenir plus de produits le seront, car c'est un protocole très intéressant. Pourquoi, car il est similaire au protocole Zigbee mais il se base sur la transmission IP, en gros Threas allie le meilleur entre Zigbee et Wifi.
+A quick look at the box, the most interesting thing is the inscription **compatible Thread border router**. **Currently few products are compatible with the Thread protocol**, I think that in the future more products will be, **because it is a very interesting protocol.** Why, because it is similar to the Zigbee protocol but it is based on **IP transmission**, **basically Thread combines the best between Zigbee and Wifi.**
 
-Pour de plus amples informations sur Thread j'ai dernièrement rédigé deux articles sur le sujet, l'un pour [l'intégration de Thread dans Home Assistant]({% post_url /fr/2025-01-30-prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module %}) et l'autre pour montrer la faisabilité de [l'intégration de Thread et Zigbee sur une même clé]({% post_url /fr/2025-02-04-mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant %}). 
+For more information on Thread **I recently wrote two articles on the subject**, one for [Thread integration into Home Assistant]({% post_url /en/2025-01-30-prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module %}) and the other to show the feasibility of [integrating Thread and Zigbee on the same key]({% post_url /en/2025-02-04-multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant %}). 
 
-> Je ne l'ai pas fait par hasard à ce moment là car c'était pour préparer la découverte des produits Tado.
+> I didn't do it by chance at that time because it was to prepare for the discovery of Tado products.
 
-{% picture posts/{{ page.guid }}/presentation-robinet-thermostatique-tado-x-compatible-thread-matter.png --alt Présentation du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/presentation-robinet-thermostatique-tado-x-compatible-thread-matter.png --alt Introducing the Tado° X Thermostatic Faucet --img width="940" height="529" %}
 
-À l'intérieur du carton se trouve un magnifique petit robinet thermostatique {{ page.ref }} tout en rondeur, fourni avec deux docments reprenant les spécifications techniques ainsi qu'un kit d'adaptateurs afin de faciliter le montage sur tous les radiateurs européens.
+Inside the box is a beautiful little thermostatic tap {{ page.ref }} all in roundness, supplied with two documents containing the technical specifications as well as an adapter kit to facilitate the assembly on all European radiators.
 
-Comme la documentation officielle n'est pas fournis retrouve là sur notre site, pas de stress.
+As the official documentation is not provided, find it there on our site, no stress.
 
-{% include doclink.html pdf="manuel-utilisation-robinet-thermostatique-tado-x-multi-langue.pdf" title="Manuel d'installations des adaptateurs pour le robinet thermostatique Tado° X" %}
+{% include doclink.html pdf="manuel-utilisation-robinet-thermostatique-tado-x-multi-langue.pdf" title="Installation manual for Tado° X thermostatic tap adapters" %}
 
-> Normalement tu n'auras **pas besoin d'utiliser d'adaptateurs en France**.
+> Normally you will **not need to use adapters in France**.
 
-Ci dessous retrouve le détail des adaptateurs fournis avec le robinet thermostatique Tado° X
+Below you will find the details of the adapters supplied with the Tado° X thermostatic tap
 
-{% picture posts/{{ page.guid }}/adaptateurs-de-montage-du-robinet-thermostatique-connecte-tado-x.png --alt Adaptateurs de montage du Robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/adaptateurs-de-montage-du-robinet-thermostatique-connecte-tado-x.png --alt Tado° X Thermostatic Tap Mounting Adapters --img width="940" height="529" %}
 
-Pour ne pas t'y perdre je te joins la notice détaillée pour l'installation des robinets sur les radiateurs ou circuits d'aux existants.
+So that you don't get lost, I'm attaching detailed instructions for installing the taps on existing radiators or water circuits.
 
-{% include doclink.html pdf="selection-adaptateur-robinet-thermostatique-tado-x.pdf" title="Notice d'instructions des adaptateurs pour le robinet thermostatique Tado° X" %}
+{% include doclink.html pdf="selection-adaptateur-robinet-thermostatique-tado-x.pdf" title="Instructions for adapters for the Tado° X thermostatic tap" %}
 
-**Chose ultra intéressante** le {{ page.ref }} ne fonctionne pas avec des piles **mais bel et bien avec une batterie amovible** avec recharge en USB-C, pour moi c'est une première et c'est une surprise agréable, plus besoin de changer les piles, un petit démontage, une recharge et c'est reparti pour un long moment. Et oui cerise sur le gâteau **cette batterie** fait le Job et **dure longtemps** une fois rechargé au maximum.
+**Ultra interesting thing** the {{ page.ref }} does not work with batteries **but with a removable battery** with USB-C charging, for me it's a first and it's a pleasant surprise, no need to change the batteries, a little disassembly, a recharge and it's ready for a long time. And yes, the cherry on the cake **this battery** does the job and **lasts a long time** once fully recharged.
 
-{% picture posts/{{ page.guid }}/batterie-du-robinet-thermostatique-connecte-tado-x.png --alt Présentation de la batterie charge USB-C ultra pratique du Robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/batterie-du-robinet-thermostatique-connecte-tado-x.png --alt Introducing the ultra-convenient USB-C charging battery of the Tado° X Thermostatic Tap --img width="940" height="529" %}
 
-**Pour finir sur le déballage**, **garde bien l'étiquette fourni avec le robinet**{: .red} celle qui reprend le **QRCode Matter** ou le code d'authenfication qui te permettra d'intégrer le {{ page.ref }} dans l'application Tado ou dans tout autres applications compatible Matter comme Google Home entre autre.
+**To finish on the unpacking**, **keep the label provided with the faucet**{: .red} the one that includes the **Matter QRCode** or the authentication code that will allow you to integrate the {{ page.ref }} into the Tado application or into any other Matter compatible applications such as Google Home among others.
 
-{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="4i2glzz" %}
+{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Tado°" brand="Tado°" description="Tado° X thermostatic faucet, probably the most advanced faucet on the market, matter over thread compatible" amazlink="4i2glzz" %}
 
-## Interface du robinet thermostatique {{ page.ref }}
+## Thermostatic tap interface {{ page.ref }}
 
-Je dois dire que **l'interface est extra**, le rendu aussi, l'affichage digitale n'est pas reprise sur tout le cadran mais sur un carré au centre du disque, j'ai schématisé sur l'image ci-dessous, **mais le produit est bien fini à première vue tu ne verras pas la surface réelle de l'écran LCD, du fait de l'écran Mat.**
+I must say that **the interface is great**, the rendering too, the digital display is not repeated on the entire dial but on a square in the center of the disk, I have schematized on the image below, **but the product is well finished at first glance you will not see the real surface of the LCD screen, because of the Matte screen.**
 
-{% picture posts/{{ page.guid }}/dimension-du-cadran-numerique-du-robinet-thermostatique-connecte-tado-x.png --alt Dimension du cadran digital du Robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/dimension-du-cadran-numerique-du-robinet-thermostatique-connecte-tado-x.png --alt Dimensions of the digital dial of the Tado° X thermostatic faucet --img width="940" height="529" %}
 
-Tu pourras **voir une clé** qui te permet d'accéder aux deux paramètres du robinet {{ page.ref }}. **Reste appuyé 3 secondes** et tu pourras **changer la langue** et **l'orientation de l'affichage** grâce à la **mollette**.
+You will be able to **see a key** that allows you to access the two settings of the tap {{ page.ref }}. **Hold it for 3 seconds** and you will be able to **change the language** and **the orientation of the display** using the **wheel**.
 
-{% picture posts/{{ page.guid }}/parametrage-du-robinet-thermostatique-connecte-tado-x.png --alt Parametrage langue et orientation du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/parametrage-du-robinet-thermostatique-connecte-tado-x.png --alt Setting the language and orientation of the Tado° X thermostatic faucet --img width="940" height="529" %}
 
 
-{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatiques Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatiques Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
+{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Set of 3 Tado° X thermostatic taps" brand="Tado°" description="Set of 3x Tado° X thermostatic taps, probably the most advanced tap on the market, matter over thread compatible" amazlink="3X45Fsn" %}
 
-**Ci dessous je reprend l'echec** d'un montage en cours, il fallait que je te le montre mais **ça n'arrive que rarement**, si jamais ça te le fait **passe par un reset voir plus bas**, mais franchement je n'ai rencontré ce problème que sur un des **robinets qui m'a été livré reconditionné** les autres étaient neuf et tout était ok.
+**Below I show the failure** of an assembly in progress, I had to show you but **it rarely happens**, if ever it does it to you **go through a reset see below**, but honestly I only encountered this problem on one of the **taps that was delivered to me reconditioned** the others were new and everything was ok.
 
-Le robinet te **demandera naturellement de le monter** et ensuite de le calibrer, c'est repris sur **l'image 2**, qui te demande d'appuyer 3 secondes, ensuite la calibration se fait et l'indication sur le **cadran montage en cours apparaitra**. Pour terminer tu auras un message qui t'indiquera que la manipulation **a été réalisé avec succès**.
+The tap will **naturally ask you to assemble it** and then to calibrate it, it is repeated on **image 2**, which asks you to press 3 seconds, then the calibration is done and the indication on the **assembly in progress dial will appear**. To finish you will have a message that will tell you that the manipulation **was successfully completed**.
 
-**Super point important**, le **fonctionnement est ultra silencieux**{: .red} *d'ailleurs le plus silencieux* des robinets thermostatiques que *j'ai pu tester.*
+**Super important point**, the **operation is ultra silent**{: .red} *moreover the quietest* of the thermostatic faucets that *I have been able to test.*
 
-{% picture posts/{{ page.guid }}/erreur-montage-calibrage-robinet-thermostatique-tado-x.png --alt Erreur Montage et calibrage du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/erreur-montage-calibrage-robinet-thermostatique-tado-x.png --alt Error Mounting and calibrating the Tado° X thermostatic faucet --img width="940" height="529" %}
 
-### Reinitialisation du {{ page.ref }}
+### Resetting the {{ page.ref }}
 
-tous les produits Tado se réinitialisent, la manipulation pour réinitialiser le {{ page.ref }} est simple:
+all Tado products are reset, the manipulation to reset the {{ page.ref }} is simple:
 
-1. enlève la batterie
-2. rebranche la batterie
-3. une fois le logo affiché appui sur l'ecran en restant appuyé
-4. en suite il te demande d'appuyer 3 sec pour réinitialise
-5. et les indications réinitialisations en cours s'afficheront.
+1. remove the battery
+2. reconnect the battery
+3. once the logo is displayed press on the screen while holding down
+4. then it asks you to press 3 seconds to reset
+5. and the reset in progress indications will be displayed.
 
-{% picture posts/{{ page.guid }}/reinitialiation-usine-thermostat-connecte-tado-x.png --alt Réinitialisation du robinet thermostatique Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/reinitialiation-usine-thermostat-connecte-tado-x.png --alt Resetting the Tado° X thermostatic faucet --img width="940" height="529" %}
 
-> Voilà le tour est joué le robinet thermostatique est réinitialisé en mode usine.
+> That's it, the thermostatic valve is reset to factory mode.
 
-{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparatif des robinets thermostatiques Sonoff TRVZB et Tado° X --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparison of Sonoff TRVZB and Tado° X thermostatic faucets --img width="940" height="529" %}
 
-## Comparatif du {{ page.ref }} et du Sonoff TRVZB
+## Comparison of the {{ page.ref }} and the Sonoff TRVZB
 
-Voilà j'ai voulu te comparer le {{ page.ref }} avec le **sonoff TRVZB**, car pour moi le **Sonoff est le meilleur robinet Zigbee du marché (qualité/prix)**.
+Here I wanted to compare the {{ page.ref }} with the **sonoff TRVZB**, because for me the **Sonoff is the best Zigbee faucet on the market (quality/price)**.
 
-Bon il n'y a pas photo le {{ page.ref }} **est:**
+Well, there's no comparison, the {{ page.ref }} **is:**
 
-- plus petit
-- l'affichage plus nette
-- de meilleur qualité de fabrication
-- il fonctionne sur batterie
-- s'adapte mieux à l'envirronnement de pose ( proche d'un mur, accès à la mollette, etc... )
-- plus silencieux
+- smaller
+- the display is clearer
+- better manufacturing quality
+- it runs on battery power
+- adapts better to the installation environment (close to a wall, access to the dial, etc.)
+- quieter
 
-> Mais je tiens aussi à dire qu'il **coûte 3 fois plus cher** que le Sonoff
+> But I also want to say that it **costs 3 times more** than the Sonoff
 
-## Tarif du robinet thermostatique {{ page.ref }}
+## Price of the thermostatic faucet {{ page.ref }}
 
-En temps Normal le {{ page.ref }} coûte 100€ rien que ça, ce qui fait grimper la facture d'investissement, même si ses atouts sont indéniables ça fait cher le produit !
+Normally the {{ page.ref }} costs €100 just that, which increases the investment bill, even if its advantages are undeniable it makes the product expensive!
 
-Mais, il y a un mais, **Tado fait régulièrement des offres remisées allant de -40 à -50%** par exemple à l'heure ou j'écris cet article tu le **trouve à -42%** sur Amazon. J'avais aussi diffusé une annonce ou Veepee le proposait à -50%, à ces tarifs là ça devient vraiment intéressant.
+But, there is a but, **Tado regularly offers discounted offers ranging from -40 to -50%** for example at the time I am writing this article you **find it at -42%** on Amazon. I also posted an ad where Veepee was offering it at -50%, at these prices it becomes really interesting.
 
-## Intégration du {{ page.ref }}
+## Integration of {{ page.ref }}
 
-Dans le **prochain article** je parlerai de l'application Tado et de tout l'univers et **de ses paramétrages et surtout de ses nombreux atouts.** Quel l'on ne trouve pas dans les autres applications à part dans Home Assistant
+In the **next article** I will talk about the Tado application and the whole universe and **its settings and especially its many assets.** Which we do not find in other applications except in Home Assistant
 
-**Mais j'ai repris une capture** de l'intégration dans Matter qui sera la même pour tous les produits compatibles Matter, donc la même intégration dans Home Assistant, Google Home, Tado, etc....
+**But I took a screenshot** of the integration in Matter which will be the same for all Matter compatible products, so the same integration in Home Assistant, Google Home, Tado, etc....
 
-{% picture posts/{{ page.guid }}/integration-du-robinet-thermostatique-connecte-tado-x-avec-ou-sans-bridge.png --alt Intégration des robinets thermostatiques Tado° X avec ou sans bridge dans l'application grace à thread et Matter --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/integration-du-robinet-thermostatique-connecte-tado-x-avec-ou-sans-bridge.png --alt Integration of Tado° X thermostatic faucets with or without bridge into the application thanks to thread and Matter --img width="940" height="529" %}
 
-Seule particularité dans le processus d'installation, à un moment donné l'installation te rappelle que tu as ou n'as pas de bridge connecté Tado d'installé et tu verras que tu peux passer cette étape pour l'intégrer autrement que dans l'univers Tado.
+The only peculiarity in the installation process is that at one point the installation reminds you that you have or do not have a Tado connected bridge installed and you will see that you can skip this step to integrate it in a different way than in the Tado universe.
 
-**PS:** **Le bridge Tado** reprend le protocole Thread/Matter il sera indispensable si tu ne possèdes pas d'autres bridges à domicile ( google, box etc... compatible Matter ) sinon libre à toi de l'installer autrement.
+**PS:** **The Tado bridge** uses the Thread/Matter protocol, it will be essential if you do not have other bridges at home (google, box etc... compatible with Matter), otherwise you are free to install it differently.
 
-> **Les Kits de démarrage** seront présentés dans un autre article bien distinct.
+> **The Starter Kits** will be presented in another separate article.
 
-## Documentations Officielles {{ page.ref }}
+## Official Documentations {{ page.ref }}
 
-{% include doclink.html pdf="selection-adaptateur-robinet-thermostatique-tado-x.pdf" title="Notice d'instructions des adaptateurs pour le robinet thermostatique Tado° X" %}
+{% include doclink.html pdf="selection-adaptateur-robinet-thermostatique-tado-x.pdf" title="Instructions for adapters for the Tado° X thermostatic tap" %}
 
-{% include doclink.html pdf="manuel-utilisation-robinet-thermostatique-tado-x-multi-langue.pdf" title="Manuel d'installations des adaptateurs pour le robinet thermostatique Tado° X" %}
+{% include doclink.html pdf="manuel-utilisation-robinet-thermostatique-tado-x-multi-langue.pdf" title="Installation manual for Tado° X thermostatic tap adapters" %}
 
-## **les + du produit** {{ page.ref }}
+## **product advantages** {{ page.ref }}
 {: .blue}
 
-- la qualité de fabrication
-- compatible **Thread** avec Matter
-- fonctionne sur batterie amovible et rechargeable en USB-C
-- Installation **simple** et adaptée à toutes situations
-- petit
-- Peut fonctionner seul **avec un assistant domotique Open Source** comme Home Assistant grâce à **Thread**
-- **Ultra Silencieux**
-- intuitif
+- manufacturing quality
+- **Thread** compatible with Matter
+- works on removable and rechargeable battery via USB-C
+- **Simple** installation and suitable for all situations
+- small
+- Can work alone **with an Open Source home automation assistant** such as Home Assistant thanks to **Thread**
+- **Ultra Silent**
+- intuitive
 
-
-## **les - du produit** {{ page.ref }}
+## **product disadvantages** {{ page.ref }}
 {: .red}
 
-- Le prix 99€
+- The price €99
 
-{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Robinet thermostatique Tado° X" brand="Tado°" description="Robinet thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="4i2glzz" %}
+{% include product-embed.html image="robinet-tado-x-thermostatique-matter-thread.png" title="Tado°" brand="Tado°" description="Tado° X thermostatic faucet, probably the most advanced faucet on the market, matter over thread compatible" amazlink="4i2glzz" %}
 
 ## Conclusion
 
-**Que dire de plus**, il s'adapte à toutes situations, il est **petit** et fonctionne sur **batterie**, il est compatible avec **Thread** donc il peut fonctionner sans le reste de la gamme Tado°, il est beau et efficace, ***il est ultra silencieux*** ( le plus silencieux testé jusqu'à maintenant ), **bon je le conçois il coûte cher, mais si le prix t'importe peu alors fonce !**
+**What more can I say**, it adapts to all situations, it is **small** and works on **battery**, it is compatible with **Thread** so it can work without the rest of the Tado° range, it is beautiful and efficient, ***it is ultra silent*** (the quietest tested so far), **well I understand it is expensive, but if the price does not matter to you then go for it!**
 
-> **Selon moi actuellement c'est le meilleur du marché**
+> **In my opinion it is currently the best on the market**
+
+**Why, besides its many advantages:**
+- you will see that you can do **temperature self-calibration** with a secondary thermostat
+- the **thermostats** send information directly to the **starter kit** **to turn on or not the boiler**
+- **the application is very simple** see the next article
+- Unlike other brands you will be able to **make between 15 and 50% energy savings** **without going through a box like Home Assistant**
+- one of the first products on the market to **be Thread compatible**
