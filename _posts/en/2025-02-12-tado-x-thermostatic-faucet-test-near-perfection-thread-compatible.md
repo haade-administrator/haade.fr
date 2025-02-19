@@ -1,7 +1,7 @@
 ---
 guid: 154
-title: "Test du robinet thermostatique connecté Tado° X"
-description: "Proche de la perfection ce robinet Tado X et j'ai hâte de te le présenter, dans cet article je vais juste te présenter le robinet thermostatique Tado X compatible Thread"
+title: "Tado° X Smart Thermostatic Faucet Review"
+description: "Close to perfection this Tado X faucet and I can't wait to present it to you, in this article I will just present the Tado X thermostatic faucet compatible with Thread"
 ref: "Tado° X"
 layout: post
 authors: [Nico]
@@ -10,17 +10,17 @@ last_modified_at:
 categories: [Tests, Home-Assistant]
 tags: []
 video: 
-image: 'robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche.png'
+image: 'thermostatic-tap-x-by-tado-one-of-the-best-on-the-market.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
-locale: fr_FR
+locale: en_GB
 comments: true
 rating: 4.6
 sourcelink:

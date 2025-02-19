@@ -16,15 +16,15 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du détecteur de fumée Zigbee 3.0 Aqara SD-S01D
-    url: https://blog.domadoo.fr/110100-detecteur-fumee-zigbee-3-0-aqara-sd-s01d/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Aqara-detecteur-fumee-zigbee-sd-s01d-1080x675-PRESS-1024x640.webp
+    title: Suivez votre consommation électrique avec le Lixee ZLinky TIC V2 pour compteur
+      Linky
+    url: https://blog.domadoo.fr/110294-lixee-zlinky-tic-v2-zigbee-3-0-cpt-linky/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Lixee-Zlinky-module-tic-v2-zigbee-1080x675-PRES-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet de la chaise ergonomique NEWTRAL MagicH-BP  - confort, soutien
-      lombaire et innovation
-    url: https://blog.nord-domotique.com/test-chaise-newtral-magich-bp/
+    title: Test du Roomba Combo Essential  - Un Nettoyage 2-en-1 Accessible et Performant
+    url: https://blog.nord-domotique.com/test-du-roomba-combo-essential/
     image:
 Abavala:
   fr_FR:
@@ -42,19 +42,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Des panneaux solaires vivants  - la révolution verte qui pourrait changer
-      nos maisons
-    url: https://www.maison-et-domotique.com/150797-panneaux-solaires-vivants/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/dalle-2025-02-15-09-12-26-702x401.webp
+    title: Les ampoules connectées  - à quoi ça sert ?
+    url: https://www.maison-et-domotique.com/150805-les-ampoules-connectees-a-quoi-ca-sert/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/man-using-smartphone-his-automated-home-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Build Box64 with Box32 for X86 emulation on RISC-V Linux
-    url: https://www.jeffgeerling.com/blog/2025/build-box64-box32-x86-emulation-on-risc-v-linux
+    title: How to Recompile Linux (on a Raspberry Pi)
+    url: https://www.jeffgeerling.com/blog/2025/how-recompile-linux-on-raspberry-pi
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: Flic talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/flic-talks-about-matter-adoption/
+    title: Hama talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/hama-talks-about-matter-adoption/
     image:
