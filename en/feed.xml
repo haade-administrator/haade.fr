@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Feb 2025 19:24:22 +0100</pubDate>
+    <pubDate>Wed, 19 Feb 2025 19:42:30 +0100</pubDate>
     <lastBuildDate>Wed, 19 Feb 2025 18:43:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Tado° X Smart Thermostatic Faucet Review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Close to perfection this Tado X faucet and I can&apos;t wait to present it to you, in this article I will just present the Tado X thermostatic faucet compatible with Thread</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/154/thermostatic-tap-x-by-tado-one-of-the-best-on-the-market-720-6c33a7722.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/154/thermostatic-tap-x-by-tado-one-of-the-best-on-the-market-720-6c33a7722.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/154/thermostatic-tap-x-by-tado-one-of-the-best-on-the-market-720-6c33a7722.png" alt="Tado° X Smart Thermostatic Faucet Review">
+</picture>
+
+      <p>The company Tado° kindly provided me with the entire Tado° X range. But in this article I will simply present the Tado° X thermostatic tap. Talking about the entire Tado° range in one article does not seem relevant to me because there is a lot to say!. In order not [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/tado-x-thermostatic-faucet-test-near-perfection-thread-compatible">Tado° X Smart Thermostatic Faucet Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 19 Feb 2025 18:43:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/tado-x-thermostatic-faucet-test-near-perfection-thread-compatible</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/tado-x-thermostatic-faucet-test-near-perfection-thread-compatible</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Setting up Zigbee/Thread Multi-protocol on Home Assistant</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -221,29 +242,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range</guid>
       <category><![CDATA[Automation]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Box Homey Pro - the quiet force</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test of the Homey pro early 2023 home automation box, disconcertingly simple, this box offers undeniable advantages for home automation novices, it has many positive points like all these available protocols, but does it have all the advantages on its side?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/143/athom-homey-pro-box-domotique-test-720-ed74e87ac.png" alt="Box Homey Pro - the quiet force">
-</picture>
-
-      <p>Here is a test that I can’t wait to present to you, thanks to Athom the manufacturer of the Homey Pro (Early 2023) box and Domadoo, I was able to acquire a latest generation Homey Pro (Early 2023) box. Athom sells this box for €399 no less! I hope that [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about">Box Homey Pro - the quiet force</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 14 Oct 2024 17:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/box-homey-pro-the-multi-protocol-box-that-is-the-talk-about</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Z-wave]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>
