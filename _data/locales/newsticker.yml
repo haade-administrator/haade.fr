@@ -23,8 +23,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Roomba Combo Essential  - Un Nettoyage 2-en-1 Accessible et Performant
-    url: https://blog.nord-domotique.com/test-du-roomba-combo-essential/
+    title: Aqara Camera Hub G5 Pro  - Test et avis sur cette caméra de surveillance
+      extérieure
+    url: https://blog.nord-domotique.com/test-aqara-camera-hub-g5-pro/
     image:
 Abavala:
   fr_FR:
@@ -42,9 +43,10 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Les ampoules connectées  - à quoi ça sert ?
-    url: https://www.maison-et-domotique.com/150805-les-ampoules-connectees-a-quoi-ca-sert/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/man-using-smartphone-his-automated-home-702x468.jpg
+    title: Témoignage de Damien  - L’histoire inspirante d’un passionné de domotique
+      sur Home Assistant
+    url: https://www.maison-et-domotique.com/150809-temoignage-damien-home-assistant/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/how-damien-uses-home-assistant-t-702x395.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
