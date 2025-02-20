@@ -33,7 +33,7 @@ sourcelink:
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
-{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatiques Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatiques Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
+{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatique Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
 
 ## Déballage du {{ page.ref }}
 
@@ -41,13 +41,13 @@ sourcelink:
 
 Petit tour d'horizon de la boîte, le plus intéressant est l'inscription **compatible Thread border router**. **Actuellement peu de produits sont compatibles avec le protocole Thread**, je pense que dans l'avenir plus de produits le seront, **car c'est un protocole très intéressant.** Pourquoi, car il est similaire au protocole Zigbee mais il se base sur la **transmission IP**, **en gros Thread allie le meilleur entre Zigbee et Wifi.**
 
-Pour de plus amples informations sur Thread **j'ai dernièrement rédigé deux articles sur le sujet**, l'un pour [l'intégration de Thread dans Home Assistant]({% post_url /fr/2025-01-30-prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module %}) et l'autre pour montrer la faisabilité de [l'intégration de Thread et Zigbee sur une même clé]({% post_url /fr/2025-02-04-mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant %}). 
+Pour de plus amples informations sur Thread **j'ai dernièrement rédigé deux articles sur le sujet**, l'un pour [l'intégration de Thread dans Home Assistant]({% post_url /fr/2025-01-30-prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module %}){: target="_blank"} et l'autre pour montrer la faisabilité de [l'intégration de Thread et Zigbee sur une même clé]({% post_url /fr/2025-02-04-mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant %}){: target="_blank"}. 
 
 > Je ne l'ai pas fait par hasard à ce moment là car c'était pour préparer la découverte des produits Tado.
 
 {% picture posts/{{ page.guid }}/presentation-robinet-thermostatique-tado-x-compatible-thread-matter.png --alt Présentation du robinet thermostatique Tado° X --img width="940" height="529" %}
 
-À l'intérieur du carton se trouve un magnifique petit robinet thermostatique {{ page.ref }} tout en rondeur, fourni avec deux docments reprenant les spécifications techniques ainsi qu'un kit d'adaptateurs afin de faciliter le montage sur tous les radiateurs européens.
+À l'intérieur du carton se trouve un magnifique petit robinet thermostatique {{ page.ref }} tout en rondeur, fourni avec deux documents reprenant les spécifications techniques ainsi qu'un kit d'adaptateurs afin de faciliter le montage sur tous les radiateurs européens.
 
 Comme la documentation officielle n'est pas fournis retrouve là sur notre site, pas de stress.
 
@@ -81,14 +81,13 @@ Tu pourras **voir une clé** qui te permet d'accéder aux deux paramètres du ro
 
 {% picture posts/{{ page.guid }}/parametrage-du-robinet-thermostatique-connecte-tado-x.png --alt Parametrage langue et orientation du robinet thermostatique Tado° X --img width="940" height="529" %}
 
+{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatique Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
 
-{% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatiques Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatiques Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
+**Ci dessous je reprend l'échec** d'un montage en cours, il fallait que je te le montre mais **ça n'arrive que rarement**, si jamais ça te le fait **passe par un reset voir plus bas**, mais franchement je n'ai rencontré ce problème que sur un des **robinets qui m'a été livré reconditionné** les autres étaient neuf et tout était ok.
 
-**Ci dessous je reprend l'echec** d'un montage en cours, il fallait que je te le montre mais **ça n'arrive que rarement**, si jamais ça te le fait **passe par un reset voir plus bas**, mais franchement je n'ai rencontré ce problème que sur un des **robinets qui m'a été livré reconditionné** les autres étaient neuf et tout était ok.
+Le robinet te **demandera naturellement de le monter** et ensuite de le calibrer, c'est repris sur **l'image 2**, qui te demande d'appuyer 3 secondes, ensuite la calibration se fait et l'indication sur le **cadran montage en cours apparaîtra**. Pour terminer tu auras un message qui t'indiquera que la manipulation **a été réalisé avec succès**.
 
-Le robinet te **demandera naturellement de le monter** et ensuite de le calibrer, c'est repris sur **l'image 2**, qui te demande d'appuyer 3 secondes, ensuite la calibration se fait et l'indication sur le **cadran montage en cours apparaitra**. Pour terminer tu auras un message qui t'indiquera que la manipulation **a été réalisé avec succès**.
-
-**Super point important**, le **fonctionnement est ultra silencieux**{: .red} *d'ailleurs le plus silencieux* des robinets thermostatiques que *j'ai pu tester.*
+**Super point important**, le **fonctionnement est ultra silencieux**{: .red} *d'ailleurs le plus silencieux* des robinets thermostatique que *j'ai pu tester.*
 
 {% picture posts/{{ page.guid }}/erreur-montage-calibrage-robinet-thermostatique-tado-x.png --alt Erreur Montage et calibrage du robinet thermostatique Tado° X --img width="940" height="529" %}
 
@@ -100,17 +99,17 @@ tous les produits Tado se réinitialisent, la manipulation pour réinitialiser l
 2. rebranche la batterie
 3. une fois le logo affiché appui sur l'ecran en restant appuyé
 4. en suite il te demande d'appuyer 3 sec pour réinitialise
-5. et les indications réinitialisations en cours s'afficheront.
+5. et les indications réinitialisation en cours s'afficheront.
 
 {% picture posts/{{ page.guid }}/reinitialiation-usine-thermostat-connecte-tado-x.png --alt Réinitialisation du robinet thermostatique Tado° X --img width="940" height="529" %}
 
 > Voilà le tour est joué le robinet thermostatique est réinitialisé en mode usine.
 
-{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparatif des robinets thermostatiques Sonoff TRVZB et Tado° X --img width="940" height="529" %}
-
 ## Comparatif du {{ page.ref }} et du Sonoff TRVZB
 
 Voilà j'ai voulu te comparer le {{ page.ref }} avec le **sonoff TRVZB**, car pour moi le **Sonoff est le meilleur robinet Zigbee du marché (qualité/prix)**.
+
+{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparatif des robinets thermostatique Sonoff TRVZB et Tado° X --img width="940" height="529" %}
 
 Bon il n'y a pas photo le {{ page.ref }} **est:**
 
@@ -118,7 +117,7 @@ Bon il n'y a pas photo le {{ page.ref }} **est:**
 - l'affichage plus nette
 - de meilleur qualité de fabrication
 - il fonctionne sur batterie
-- s'adapte mieux à l'envirronnement de pose ( proche d'un mur, accès à la mollette, etc... )
+- s'adapte mieux à l'environnement de pose ( proche d'un mur, accès à la mollette, etc... )
 - plus silencieux
 
 > Mais je tiens aussi à dire qu'il **coûte 3 fois plus cher** que le Sonoff
@@ -135,7 +134,7 @@ Dans le **prochain article** je parlerai de l'application Tado et de tout l'univ
 
 **Mais j'ai repris une capture** de l'intégration dans Matter qui sera la même pour tous les produits compatibles Matter, donc la même intégration dans Home Assistant, Google Home, Tado, etc....
 
-{% picture posts/{{ page.guid }}/integration-du-robinet-thermostatique-connecte-tado-x-avec-ou-sans-bridge.png --alt Intégration des robinets thermostatiques Tado° X avec ou sans bridge dans l'application grace à thread et Matter --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/integration-du-robinet-thermostatique-connecte-tado-x-avec-ou-sans-bridge.png --alt Intégration des robinets thermostatique Tado° X avec ou sans bridge dans l'application grace à thread et Matter --img width="940" height="529" %}
 
 Seule particularité dans le processus d'installation, à un moment donné l'installation te rappelle que tu as ou n'as pas de bridge connecté Tado d'installé et tu verras que tu peux passer cette étape pour l'intégrer autrement que dans l'univers Tado.
 

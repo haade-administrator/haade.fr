@@ -41,7 +41,7 @@ sourcelink:
 
 A quick look at the box, the most interesting thing is the inscription **compatible Thread border router**. **Currently few products are compatible with the Thread protocol**, I think that in the future more products will be, **because it is a very interesting protocol.** Why, because it is similar to the Zigbee protocol but it is based on **IP transmission**, **basically Thread combines the best between Zigbee and Wifi.**
 
-For more information on Thread **I recently wrote two articles on the subject**, one for [Thread integration into Home Assistant]({% post_url /en/2025-01-30-prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module %}) and the other to show the feasibility of [integrating Thread and Zigbee on the same key]({% post_url /en/2025-02-04-multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant %}). 
+For more information on Thread **I recently wrote two articles on the subject**, one for [Thread integration into Home Assistant]({% post_url /en/2025-01-30-prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module %}){: target="_blank"} and the other to show the feasibility of [integrating Thread and Zigbee on the same key]({% post_url /en/2025-02-04-multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant %}){: target="_blank"}. 
 
 > I didn't do it by chance at that time because it was to prepare for the discovery of Tado products.
 
@@ -106,11 +106,11 @@ all Tado products are reset, the manipulation to reset the {{ page.ref }} is sim
 
 > That's it, the thermostatic valve is reset to factory mode.
 
-{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparison of Sonoff TRVZB and Tado° X thermostatic faucets --img width="940" height="529" %}
-
 ## Comparison of the {{ page.ref }} and the Sonoff TRVZB
 
 Here I wanted to compare the {{ page.ref }} with the **sonoff TRVZB**, because for me the **Sonoff is the best Zigbee faucet on the market (quality/price)**.
+
+{% picture posts/{{ page.guid }}/comparatif-robinet-thermostatique-connecte-sonoff-trvzb-et-tado-x.png --alt Comparison of Sonoff TRVZB and Tado° X thermostatic faucets --img width="940" height="529" %}
 
 Well, there's no comparison, the {{ page.ref }} **is:**
 
