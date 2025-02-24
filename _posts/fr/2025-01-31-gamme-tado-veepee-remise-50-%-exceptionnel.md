@@ -10,7 +10,7 @@ last_modified_at:
 categories: [News]
 tags: []
 video: 
-image: 'tado-domotique-chauffage-veepee-vente-privee-50-%-remise.png'
+image: 'tado-domotique-chauffage-veepee-vente-privee-50-pourcent-remise.png'
 toc: true
 beforetoc: ''
 published: true

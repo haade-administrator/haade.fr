@@ -1,7 +1,9 @@
+# cartoonize with https://goart.fotor.com/
+
 Nico:
   name: Nico
   display_name: Nico
-  avatar: "nico.jpg"
+  avatar: "nico-2.png"
   # gravatar: '66178447db0764d08b4bd975c515fa5d'
   email: nico@haade.fr
   web: https://www.haade.fr
@@ -47,7 +49,7 @@ August:
 Yann:
   name: Yann
   display_name: Yann
-  avatar: "yann.jpg"
+  avatar: "yann.png"
   email: tonton@haade.fr
   web:
   url:
