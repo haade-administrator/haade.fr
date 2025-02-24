@@ -43,19 +43,18 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Témoignage de Damien  - L’histoire inspirante d’un passionné de domotique
-      sur Home Assistant
-    url: https://www.maison-et-domotique.com/150809-temoignage-damien-home-assistant/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/how-damien-uses-home-assistant-t-702x395.jpg
+    title: Pi Network - il est temps d’encaisser !
+    url: https://www.maison-et-domotique.com/150830-pi-network-il-est-temps-dencaisser/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/titre-pi-network-702x367.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: How to Recompile Linux (on a Raspberry Pi)
-    url: https://www.jeffgeerling.com/blog/2025/how-recompile-linux-on-raspberry-pi
+    title: Benchmarking multiple network interfaces at once in Linux with iperf3
+    url: https://www.jeffgeerling.com/blog/2025/benchmarking-multiple-network-interfaces-once-linux-iperf3
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: Hama talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/hama-talks-about-matter-adoption/
+    title: Participant Membership One-Pager
+    url: https://csa-iot.org/wp-content/uploads/2025/02/Participant-Membership_One-Pager_2025.pdf
     image:
