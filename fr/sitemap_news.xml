@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2025-02-24T09:00:00+01:00</news:publication_date>
+          <news:title>Installer un bandeau Led connecté Diy avec WLED</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</loc>
         <news:news>
           <news:publication>

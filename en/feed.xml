@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Feb 2025 15:17:25 +0100</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 18:43:00 +0100</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2025 09:16:39 +0100</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Install a connected LED strip DIY with WLED</title>
+      <dc:creator><![CDATA[Math67]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>I will show you how to easily install a Gledopto GL-C-310WL LED strip in home assistant thanks to WLED installed by default in the module, child&apos;s play</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.png" alt="Install a connected LED strip DIY with WLED">
+</picture>
+
+      <p>In order to light up the coffee niche in my kitchen, I decided to make my own LED strip using WLED. WLED connects to your Wifi and is natively recognized by Home Assistant, it allows you to use an addressable LED strip and offers many programming possibilities, I explain in [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md">Install a connected LED strip DIY with WLED</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 24 Feb 2025 09:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Tado° X Smart Thermostatic Faucet Review</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,28 +242,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Sonoff - Automate your conventional heating</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Transform your NSPanel Pro into a boiler contactor by directly integrating the Sonoff RE5VC micro module and control everything using the Ewelink application</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/144/controle-ton-chauffage-avec-sonoff-nspanel-pro-et-contact-sec-RE5VC-dans-Ewelink-720-ca7f69003.png" alt="Sonoff - Automate your conventional heating">
-</picture>
-
-      <p>In order to best prepare for the next Live, and always with the aim of deepening our knowledge of the modules in the Sonoff range, we will try in this article to automate a conventional heating system while remaining in the Sonoff universe and Ewelink.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range">Sonoff - Automate your conventional heating</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 24 Oct 2024 13:04:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/replace-your-conventional-heating-system-with-modules-from-the-sonoff-range</guid>
-      <category><![CDATA[Automation]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

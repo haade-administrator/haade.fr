@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Feb 2025 15:17:25 +0100</pubDate>
-    <lastBuildDate>Wed, 19 Feb 2025 18:43:00 +0100</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2025 09:16:39 +0100</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Installer un bandeau Led connecté Diy avec WLED</title>
+      <dc:creator><![CDATA[Math67]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Je vais te montrer comment installer facilement un bandeau led Gledopto GL-C-310WL dans home assistant grâce à WLED d&apos;installé par défaut dans le module, un jeu d&apos;enfant</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.png" alt="Installer un bandeau Led connecté Diy avec WLED">
+</picture>
+
+      <p>Afin d’éclairer la niche à café dans ma cuisine, j’ai décidé de fabriquer moi-même mon bandeau LED en utilisant WLED. WLED se connecte sur ton Wifi et est reconnu nativement par Home Assistant, il permet d’utiliser un bandeau à LED adressable et offre beaucoup de possibilités de programmation, je vous [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant">Installer un bandeau Led connecté Diy avec WLED</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 24 Feb 2025 09:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test du robinet thermostatique connecté Tado° X</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -218,27 +240,6 @@
       <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
       <link>https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Home assistant Yellow, pour qui ?</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test et intégrations de modules de la box Yellow première box à être sortie de terre par la société Nabu Casa, quels sont ses points fort et pour qui s&apos;adresse-t-elle</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png" alt="Home assistant Yellow, pour qui ?">
-</picture>
-
-      <p>Il y a quelques temps je vous ai présenté la box home assistant Green, une box plug’n play à moins de 100€ qui fait sensation dans le monde de la domotique. Aujourd’hui c’est au tour de la Home Assistant yellow, sortie bien avant la box green, cette box n’est pas [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go">Home assistant Yellow, pour qui ?</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 21 Nov 2024 20:45:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-de-la-box-home-assistant-yellow-zigbee-3-zwave-8-ssd-500go</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
