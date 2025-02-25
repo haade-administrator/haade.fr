@@ -23,17 +23,16 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Aqara Camera Hub G5 Pro  - Test et avis sur cette caméra de surveillance
-      extérieure
-    url: https://blog.nord-domotique.com/test-aqara-camera-hub-g5-pro/
-    image:
+    title: Test complet du Netgear Orbi 770  - WiFi 7 puissant et performant
+    url: https://blog.nord-domotique.com/test-complet-du-netgear-orbi-770/
+    image: 
 Abavala:
   fr_FR:
   - name: Abavala
-    title: CES 2025  - Switchbot tranforme son  robot aspirateur K20+ Pro en robot
-      multifonction
-    url: https://www.abavala.com/ces-2025-switchbot-tranforme-son-robot-aspirateur-k20-pro-en-robot-multifonction/
-    image: https://www.abavala.com/wp-content/uploads/CES-2025-Switchbot-Thumbnail-150x150.jpg
+    title: "“Works with Apple” vs “Build for Matter”  - la guerre des certifications
+      ?"
+    url: https://www.abavala.com/works-with-apple-vs-build-for-matter-la-guerre-des-certifications/
+    image: https://www.abavala.com/wp-content/uploads/Matter_vs_homekit-150x150.jpg
 Domo&Geek:
   fr_FR:
   - name: Domo&Geek
@@ -43,15 +42,16 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Pi Network - il est temps d’encaisser !
-    url: https://www.maison-et-domotique.com/150830-pi-network-il-est-temps-dencaisser/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/titre-pi-network-702x367.png
+    title: Test Laifen Wave  - la brosse à dents connectée qui va vous faire sourire
+      !
+    url: https://www.maison-et-domotique.com/150847-test-laifen-wave-brosse-a-dents-connectee/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/test-laifen-wave-16-1-375x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Benchmarking multiple network interfaces at once in Linux with iperf3
-    url: https://www.jeffgeerling.com/blog/2025/benchmarking-multiple-network-interfaces-once-linux-iperf3
-    image:
+    title: NUT on my Pi, so my servers don't die
+    url: https://www.jeffgeerling.com/blog/2025/nut-on-my-pi-so-my-servers-dont-die
+    image: 
 Matter:
   en_GB:
   - name: Matter
