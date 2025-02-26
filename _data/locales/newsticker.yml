@@ -16,16 +16,15 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Suivez votre consommation électrique avec le Lixee ZLinky TIC V2 pour compteur
-      Linky
-    url: https://blog.domadoo.fr/110294-lixee-zlinky-tic-v2-zigbee-3-0-cpt-linky/
-    image: https://blog.domadoo.fr/wp-content/uploads/2024/12/Lixee-Zlinky-module-tic-v2-zigbee-1080x675-PRES-1024x640.webp
+    title: Comment utiliser Matter avec Home Assistant (Wi-Fi et Thread)?
+    url: https://blog.domadoo.fr/110744-comment-utiliser-matter-avec-home-assistant/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/02/comment-utiliser-matter-avec-home-assistant-thread-wifi-0-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
     title: Test complet du Netgear Orbi 770  - WiFi 7 puissant et performant
     url: https://blog.nord-domotique.com/test-complet-du-netgear-orbi-770/
-    image:
+    image: 
 Abavala:
   fr_FR:
   - name: Abavala
@@ -42,19 +41,19 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Laifen Wave  - la brosse à dents connectée qui va vous faire sourire
-      !
-    url: https://www.maison-et-domotique.com/150847-test-laifen-wave-brosse-a-dents-connectee/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/test-laifen-wave-16-1-375x500.jpg
+    title: Test du Zendure SolarFlow 800  - Le micro-onduleur révolutionnaire qui
+      va transformer votre installation solaire en 2025
+    url: https://www.maison-et-domotique.com/150853-test-zendure-solarflow-800/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/titre-zendure-solarflow-800-702x393.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
     title: NUT on my Pi, so my servers don't die
     url: https://www.jeffgeerling.com/blog/2025/nut-on-my-pi-so-my-servers-dont-die
-    image:
+    image: 
 Matter:
   en_GB:
   - name: Matter
-    title: Participant Membership One-Pager
-    url: https://csa-iot.org/wp-content/uploads/2025/02/Participant-Membership_One-Pager_2025.pdf
+    title: This outdoor security camera brings Matter connectivity outside
+    url: https://www.pcworld.com/article/2614877/this-outdoor-security-camera-brings-matter-connectivity-outside.html
     image:
