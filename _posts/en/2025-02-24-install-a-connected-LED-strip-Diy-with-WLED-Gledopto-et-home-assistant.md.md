@@ -4,7 +4,7 @@ title: "Install a connected LED strip DIY with WLED"
 description: "I will show you how to easily install a Gledopto GL-C-310WL LED strip in home assistant thanks to WLED installed by default in the module, child's play"
 ref: "GL-C-310WL"
 layout: post
-authors: [Math67]
+authors: [Math]
 date: 2025-02-24 09:00
 last_modified_at: 
 categories: [Haade-lab, Tests, Home-Assistant]

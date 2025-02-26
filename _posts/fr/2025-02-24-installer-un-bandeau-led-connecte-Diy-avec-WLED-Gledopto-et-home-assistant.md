@@ -4,7 +4,7 @@ title: "Installer un bandeau Led connecté Diy avec WLED"
 description: "Je vais te montrer comment installer facilement un bandeau led Gledopto GL-C-310WL dans home assistant grâce à WLED d'installé par défaut dans le module, un jeu d'enfant"
 ref: "GL-C-310WL"
 layout: post
-authors: [Math67]
+authors: [Math]
 date: 2025-02-24 09:00
 last_modified_at: 
 categories: [Haade-lab, Tests, Home-Assistant]

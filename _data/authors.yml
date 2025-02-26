@@ -13,13 +13,13 @@ Nico:
   discord: https://discordapp.com/widget?id=637642871738073091&theme=dark&username=Nicoxygen#5644
   github: https://github.com/haade-administrator
   description:
-    fr_FR: "Membre fondateur du site Haade, un passionné de domotique avec toutes les astuces qui vont biens."
-    en_GB: "Founding member of the Haade site, a home automation enthusiast with all the tricks that go well."
+    fr_FR: "Membre fondateur du site Haade, voilà plus de 10 ans que je suis passionné de domotique, informatique et électronique. J'essaie à travers ce blog d'aider d'autres internautes à s'expérimenter en domotique, à trouver des tutos ludiques, bref à évoluer."
+    en_GB: "Founding member of the Haade website, I have been passionate about home automation, computers and electronics for over 10 years. Through this blog, I try to help other Internet users to experiment with home automation, to find fun tutorials, in short to evolve."
 
-Math67:
-  name: Math67
-  display_name: Math67
-  avatar: "math67.png"
+Math:
+  name: Math
+  display_name: Math
+  avatar: "math.png"
   email: fogel.mathieu@gmail.com
   web:
   url:

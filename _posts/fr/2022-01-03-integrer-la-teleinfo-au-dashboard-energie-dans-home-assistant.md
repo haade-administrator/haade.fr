@@ -3,7 +3,7 @@ guid: 25
 title: "La téléinfo dans le dashboard Energie de Home Assistant"
 description: "Teleinfo Home Assistant : Intégrer les informations du compteurs électrique dans le dashboard Energie dans HA"
 layout: post
-authors: Math67
+authors: Math
 date: "2022-01-03T13:23:45+00:00"
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant]

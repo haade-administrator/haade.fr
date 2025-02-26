@@ -2,7 +2,7 @@
 guid: 13
 title: "Intégrer son compteur électrique ( téléinfo ) dans Home Assistant"
 description: "téléinformation dans homeassistant comment intégrer son compteur edf"
-authors: Math67
+authors: Math
 layout: post
 date: "2021-08-03"
 last_modified_at:
