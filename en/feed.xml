@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Feb 2025 03:54:31 +0100</pubDate>
+    <pubDate>Wed, 26 Feb 2025 09:12:58 +0100</pubDate>
     <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -27,7 +27,7 @@
     <generator>Jekyll v4.4.1</generator>
     <item>
       <title>Install a connected LED strip DIY with WLED</title>
-      <dc:creator><![CDATA[Math67]]></dc:creator>
+      <dc:creator><![CDATA[Math]]></dc:creator>
       <description>
       <![CDATA[
       <p>I will show you how to easily install a Gledopto GL-C-310WL LED strip in home assistant thanks to WLED installed by default in the module, child&apos;s play</p><picture>

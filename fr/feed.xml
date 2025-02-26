@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Feb 2025 03:54:31 +0100</pubDate>
+    <pubDate>Wed, 26 Feb 2025 09:12:58 +0100</pubDate>
     <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
@@ -27,7 +27,7 @@
     <generator>Jekyll v4.4.1</generator>
     <item>
       <title>Installer un bandeau Led connecté Diy avec WLED</title>
-      <dc:creator><![CDATA[Math67]]></dc:creator>
+      <dc:creator><![CDATA[Math]]></dc:creator>
       <description>
       <![CDATA[
       <p>Je vais te montrer comment installer facilement un bandeau led Gledopto GL-C-310WL dans home assistant grâce à WLED d&apos;installé par défaut dans le module, un jeu d&apos;enfant</p><picture>
