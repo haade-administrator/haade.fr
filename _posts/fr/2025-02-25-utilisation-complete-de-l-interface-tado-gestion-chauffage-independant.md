@@ -67,3 +67,7 @@ Pour [commencer le support Tado° a très bien documenté](https://support.tado.
 
 Il faudra créer un compte si ce n'est déjà fait, sinon si tu veux tester l'application avant de passer le cap de l'achat. Tado° a mis à disposition un compte démo.
 
+{% picture posts/{{ page.guid }}/premiere-connection-application-tado-inscription-mode-demo.png --alt Première utilisation du de l'application Tado accès à une démo, utilisateur existant ou création de compte --img width="940" height="509" %}
+
+{% picture posts/{{ page.guid }}/premiere-connection-application-tado-enregistrement-donnees-cloud.png --alt Première connection de l'application Tado avec compte utilisateur existant, geolocalisation et enregistrement données cloud --img width="940" height="509" %}
+

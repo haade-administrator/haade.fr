@@ -24,7 +24,7 @@ Blog-Nord-Domotique:
   - name: Blog-Nord-Domotique
     title: Test complet du Netgear Orbi 770  - WiFi 7 puissant et performant
     url: https://blog.nord-domotique.com/test-complet-du-netgear-orbi-770/
-    image: 
+    image:
 Abavala:
   fr_FR:
   - name: Abavala
@@ -50,7 +50,7 @@ Jeff-Geerling:
   - name: Jeff-Geerling
     title: NUT on my Pi, so my servers don't die
     url: https://www.jeffgeerling.com/blog/2025/nut-on-my-pi-so-my-servers-dont-die
-    image: 
+    image:
 Matter:
   en_GB:
   - name: Matter
