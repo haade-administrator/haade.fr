@@ -22,8 +22,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du Netgear Orbi 770  - WiFi 7 puissant et performant
-    url: https://blog.nord-domotique.com/test-complet-du-netgear-orbi-770/
+    title: eero Célèbre une Décennie d’Innovation avec ses Nouveaux Produits Wi-Fi
+      7
+    url: https://blog.nord-domotique.com/decouvrez-eero-7/
     image:
 Abavala:
   fr_FR:
@@ -41,15 +42,15 @@ Domo&Geek:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Zendure SolarFlow 800  - Le micro-onduleur révolutionnaire qui
-      va transformer votre installation solaire en 2025
-    url: https://www.maison-et-domotique.com/150853-test-zendure-solarflow-800/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/titre-zendure-solarflow-800-702x393.png
+    title: Test Anycubic Kobra S1 Combo  - La révolution de l’impression 3D multicouleur
+      à portée de main (et du porte monnaie !)
+    url: https://www.maison-et-domotique.com/150927-test-anycubic-kobra-s1-combo/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/anycubic-kobra-s1-combo-3d-printer-527203-0--p1--447x500.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: NUT on my Pi, so my servers don't die
-    url: https://www.jeffgeerling.com/blog/2025/nut-on-my-pi-so-my-servers-dont-die
+    title: Project MINI RACK - what have we started??
+    url: https://www.jeffgeerling.com/blog/2025/project-mini-rack-what-have-we-started
     image:
 Matter:
   en_GB:

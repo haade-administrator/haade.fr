@@ -65,9 +65,22 @@ Pour [commencer le support Tado° a très bien documenté](https://support.tado.
 
 ### Première étape
 
-Il faudra créer un compte si ce n'est déjà fait, sinon si tu veux tester l'application avant de passer le cap de l'achat. Tado° a mis à disposition un compte démo.
+Il faudra créer un compte si ce n'est déjà fait, sinon si tu veux tester l'application avant de passer le cap de l'achat. Tado° a mis à **disposition un compte démo**.
+
+Le compte Demo est une interface qui n'est pas complète car tu n'auras pas accès aux paramétrages des modules seulement à la gestion du frontend (tu n'as pas accès aux modifications de pièeces etc.... ), mais c'st déjà pas mal pour tester l'univers Tado.
 
 {% picture posts/{{ page.guid }}/premiere-connection-application-tado-inscription-mode-demo.png --alt Première utilisation du de l'application Tado accès à une démo, utilisateur existant ou création de compte --img width="940" height="509" %}
 
+Lors de ta première connection, tu n'auras pas comme sur l'image ci-dessous un appareil de connecté. Mais si comme moi tu t'es déjà connecté d'un appareil alors tu retrouveras la liste des appareils enrregistrés il te suffira d'en sélectionner l'un ou l'autre pour reprendre la configuration, ou tou simplement d'en créer un si c'est ton premier appareil.
+Ensuite Tado° te demander d'accepter la géolocalisation, comme beaucoup d'applications Tado prendra en compte la présence ou non des personnes dans le logement.
+
 {% picture posts/{{ page.guid }}/premiere-connection-application-tado-enregistrement-donnees-cloud.png --alt Première connection de l'application Tado avec compte utilisateur existant, geolocalisation et enregistrement données cloud --img width="940" height="509" %}
+
+## Ajouter son premier appareil
+
+L'ajout d'appareil dans Tado suit la logique d'intégration Matter, si tu as déjà intégré un appareil Matter auparavant, l'ajout d'un appareil dans Tado° est identique. Si au contraire c'est la première fois que tu intègres un appareil Matter
+Alors en étape 1 il faudra scanner le qurcode disponible avec la boite ou derrière le produit. Je te conseil fortement de garder les étiquettes Matter qui sont beaucoup plus facile à Scanner. Mais sâche que si tu n'arrives pas à scanner le QRCode tu pourras aussi utiliser le code disponible en dessous à 11 chiffres: XXXX-XXX-XXXX.
+
+{% picture posts/{{ page.guid }}/ajout-du-premier-appareil-matter-tado.png --alt Ajout du premier appareil Tado compatible Thread Matter dans l'application Tado --img width="940" height="522" %}
+
 
