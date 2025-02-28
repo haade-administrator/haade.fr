@@ -83,4 +83,55 @@ Alors en étape 1 il faudra scanner le qurcode disponible avec la boite ou derri
 
 {% picture posts/{{ page.guid }}/ajout-du-premier-appareil-matter-tado.png --alt Ajout du premier appareil Tado compatible Thread Matter dans l'application Tado --img width="940" height="522" %}
 
+La capture d'écran ci-dessus n'affiche que 4 étapes, sur les 8 réellement défini par Matter, mais ce sont comme tu peux te le douter les étapes importantes pour l'intégration dans Matter.
+J'ai volontairement commencé par le bridge car c'est lui qui intègre le protocole Thread sans lui tu ne pourras guère intégré de robinet thermostatique Tado°.
+Ensuite je vais installer un robinet thermostatique et un thermostat de contrôle de la chaudière.
+
+## Tour d'horizon des paramètres de l'appli Tado°
+
+Paramétrer une application est essentielle pour comprendre et optimiser son fonctionnement, l'application Tado° est comme annoncée plus tôt est très bien faite, alors il y a pas mal de paramétrage, mais pas trop compliquer à comprendre.
+
+![Page des Paramètres application Tado°]({{ site.baseurl }}/assets/images/posts/{{ page.guid}}/pages-des-parametres-appli-tado.webp{{ cachebuster }}){: width="340" height="746" class="lazyload pictaninpost"} 
+
+### Pièces et Appareils
+
+Cet onglet reprend les appareils inclus dans l'application comme ( la tête Thermostatique, le thermostat intelligent ainsi que le bridge ).
+
+> La fonction de pièces dans Tado° est une fonction très importante
+
+Lors de l'ajout d'un appareil Tado ajoute cet appareil dans une pièce à nombre aléatoire systématiquement différente, il faudra ensuite renommer cette pièce ou alors déplacer l'appareil dans une pièce existante.
+
+En cliquant sur les 3 petits popints en haut à droite tu pourras **supprimer l'appareil**{: .red} si tu le désire
+
+Ci dessous dans pièces et appareils tu peux voir que le **robinet thermostatique** est dans la pièce renommé **Salon** et le **thermostat intelligent** dans la pièce nommée **couloir**.
+
+{% picture posts/{{ page.guid }}/parametrage-piece-e-appareil-tado.png --alt Paramétrage pièces et appareils Tado --img width="940" height="522" %}
+
+**Quand tu clics sur la pièce tu pourras:**
+
+1. renommer la pièce
+2. controler la fonction chauffage par pièces avec 3 sous fonctions ( jusqu'au prochain bloc horaire, par minuterie, ou jusqu'à la réactivation de la programmation )
+3. Enfin dernière fonction tu pourras associer la pièce à un thermostat intelligent ( bref un controleur de chaudière )
+
+Chez Tado° c'est la pièce qui prime sur l'appareil et en greos les automatisations se passent par pièces.
+
+{% picture posts/{{ page.guid }}/parametrage-appareil-tado.png --alt Paramétrage des appareils enregistrés Tado --img width="940" height="522" %}
+
+Voilà dans les paramétrages des appareils end Devices ( robinet et thermostat ) tu pourras:
+
+1. voir la connectivité et l'état de la pile
+2. changer le nom de la pièce ou déplacer l'appareil vers une nouvelle pièce
+3. Activer ou non la sécurité enfant
+
+{% picture posts/{{ page.guid }}/suite-parametrage-appareil-tado.png --alt Suite des Paramétrage des appareils enregistrés Tado --img width="940" height="522" %}
+
+4. Afficher les instructions d'installations (peut être utilie )
+5. Modifier le facteur de compensation de la rlève de température
+6. Lier l'appareil à un hub matter ( utile si tu chagnge de bridge ou si tu passes sur home Assistant )
+
+Voilà les paramétrages sont identiques pour les thermostats intelligent, quand au bridge tu ne pourras que le configurer s'il décrodu du réseau wifi.
+
+## Détail de la maison
+
+
 
