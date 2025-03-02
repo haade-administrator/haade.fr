@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2025-02-19T18:43:00+01:00</news:publication_date>
-          <news:title>Test du robinet thermostatique connecté Tado° X</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
