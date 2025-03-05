@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Mar 2025 03:57:06 +0100</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
+    <pubDate>Wed, 05 Mar 2025 11:15:16 +0100</pubDate>
+    <lastBuildDate>Wed, 05 Mar 2025 11:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test de l&apos;interface du chauffage Tado°</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Deuxième étape de présentation de l&apos;univers Tado, je vais te montrer tout le processus d&apos;utilisation de l&apos;interface Tado et de ses particularités</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.png" alt="Test de l'interface du chauffage Tado°">
+</picture>
+
+      <p>Voilà dans une continuité de présentation de l’univers Tado° suite à la présentation du robinet thermostatique Tado° X, je vais aujourd’hui te présenter l’application Tado° de ses particularités et surtout ce qui différencie la gestion du Chauffage Tado° et la gestion par rapport aux autres marques.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant">Test de l'interface du chauffage Tado°</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 05 Mar 2025 11:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Installer un bandeau Led connecté Diy avec WLED</title>
       <dc:creator><![CDATA[Math]]></dc:creator>
@@ -220,28 +243,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/nouveautes-sonoff-fin-ann%C3%A9e-2024-produits-et-firmware-nspanel-pro-ztrv-robinet-thermostatique</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Installe Home Assistant OS sur Dietpi</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Voilà un article pertinent pour installer HAOS sur Dietpi le système d&apos;exploitation RPI à la diète ultra léger, pourquoi s&apos;embêter à faire une telle installation alors qu&apos;il existe une image toute faite HAOS pour raspberry pi ?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png" alt="Installe Home Assistant OS sur Dietpi">
-</picture>
-
-      <p>Pourquoi s’embêter à installer Home Assistant OS sur dietpi alors qu’il existe une image toute prête à base de raspberry pi os Lite sur le site officiel, ou encore plus simple via le software imager développé par la fondation Raspberry PI qui contient l’image HAOS.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires">Installe Home Assistant OS sur Dietpi</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/installer-haos-avec-dietpi-afin-de-profiter-de-fonctions-suppl%C3%A9mentaires</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

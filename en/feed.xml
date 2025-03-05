@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Mar 2025 03:57:06 +0100</pubDate>
-    <lastBuildDate>Mon, 24 Feb 2025 09:00:00 +0100</lastBuildDate>
+    <pubDate>Wed, 05 Mar 2025 11:15:16 +0100</pubDate>
+    <lastBuildDate>Wed, 05 Mar 2025 11:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Testing the Tado° heating interface</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Second step of presentation of the Tado universe, I will show you the whole process of using the Tado interface and its particularities</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.png" alt="Testing the Tado° heating interface">
+</picture>
+
+      <p>Here is a continuation of the presentation of the Tado° universe following the presentation of the Tado° X thermostatic faucet, Today I will introduce you to the Tado° application, its special features and especially what differentiates the management of Tado° Heating and management from other brands.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management">Testing the Tado° heating interface</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 05 Mar 2025 11:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Install a connected LED strip DIY with WLED</title>
       <dc:creator><![CDATA[Math]]></dc:creator>
@@ -219,27 +242,6 @@
       <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Home assistant Yellow, for whom?</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Testing and integration of modules of the Yellow box, the first box to be released by the Nabu Casa company, what are its strong points and who is it for?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/145/test-home-assistant-yellow-integration-backup-zigbee-zwave-ssd-720-51bf46d66.png" alt="Home assistant Yellow, for whom?">
-</picture>
-
-      <p>Some time ago I introduced you to the box home assistant Green, a plug’n play box at less than 100€ which is causing a sensation in the world of home automation. Today it’s the turn of the Home Assistant yellow, released well before the green box, this box is not [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go">Home assistant Yellow, for whom?</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 21 Nov 2024 20:45:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-homebox-home-assistant-jaune-zigbee-3-zwave-8-ssd-500go</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>

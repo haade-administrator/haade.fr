@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2025-03-05T11:00:00+01:00</news:publication_date>
+          <news:title>Test de l'interface du chauffage Tado°</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/156/controle-ton-installation-tado-par-application-officielle.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</loc>
         <news:news>
           <news:publication>
