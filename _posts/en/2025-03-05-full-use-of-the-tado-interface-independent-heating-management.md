@@ -151,7 +151,7 @@ That's it **the settings are identical for smart thermostats**, as for the bridg
 
 {% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Set of 3 Tado° X thermostatic taps" brand="Tado°" description="Set of 3x Tado° X thermostatic taps, probably the most advanced tap on the market, matter over thread compatible" amazlink="3X45Fsn" %}
 
-## House details
+### House details
 
 In the house details, there is nothing complicated either:
 

@@ -151,7 +151,7 @@ Voilà **les paramétrages sont identiques pour les thermostats intelligent**, q
 
 {% include product-embed.html image="lot-de-3-robinets-tado-x-thermostatique-matter-thread.png" title="Lot de 3 Robinets thermostatique Tado° X" brand="Tado°" description="Lot de 3x Robinets thermostatique Tado° X, probablement le robinet le plus abouti du marché, compatible matter over thread" amazlink="3X45Fsn" %}
 
-## Détail de la maison
+### Détail de la maison
 
 Dans le détail de la maison, là aussi rien de bien compliqué:
 
