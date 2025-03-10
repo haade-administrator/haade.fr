@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Apollo joins the Works With Home Assistant Program
-    url: https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha/
-    image: http://www.home-assistant.io/images/blog/2025-02-apollo/art.jpg
+    title: 2025.3 - View those headers!
+    url: https://www.home-assistant.io/blog/2025/03/05/release-20253/
+    image:
   en_GB:
   - name: Home-Assistant
-    title: Apollo joins the Works With Home Assistant Program
-    url: https://www.home-assistant.io/blog/2025/02/27/apollo-joins-wwha/
-    image: http://www.home-assistant.io/images/blog/2025-02-apollo/art.jpg
+    title: 2025.3 - View those headers!
+    url: https://www.home-assistant.io/blog/2025/03/05/release-20253/
+    image:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,9 +22,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Konyks Camini Care 2  - Test Complet de la Caméra Wi-Fi Polyvalente pour
-      la Sécurité et l’Assistance à Domicile
-    url: https://blog.nord-domotique.com/test-konyks-camini-care-2/
+    title: Pourquoi désactiver vos notifications à 22h09 pourrait sauver votre sommeil
+    url: https://blog.nord-domotique.com/notifications-et-sommeil/
     image:
 Abavala:
   fr_FR:
@@ -35,15 +34,15 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Quelles sont les dernières innovations en matière de panneaux solaires
-      ?
-    url: https://www.maison-et-domotique.com/151001-dernieres-innovations-panneaux-solaires/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/02/05ab57d46bcd672e7131254ee51cc58c-702x468.jpeg
+    title: Protégez vos panneaux solaires de la grêle  - les astuces incontournables
+      pour éviter la casse
+    url: https://www.maison-et-domotique.com/151441-proteger-panneaux-solaires-grele-astuces/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/titre-protection-grele-702x367.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Is an Intel N100 a better value than a Raspberry Pi?
-    url: https://www.jeffgeerling.com/blog/2025/intel-n100-better-value-raspberry-pi
+    title: YouTube scares me; I need RAID 1 for my video content
+    url: https://www.jeffgeerling.com/blog/2025/youtube-scares-me-i-need-raid-1-my-video-content
     image:
 Matter:
   en_GB:
