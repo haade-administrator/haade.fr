@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2025-03-08 18:57
 last_modified_at: 
-categories: [Domotique, Haade-lab, Zigbee]
+categories: [Haade-lab, Securite, Zigbee]
 tags: []
 video: 
 image: 'domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher.png'
