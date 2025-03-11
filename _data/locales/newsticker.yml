@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2025.3 - View those headers!
-    url: https://www.home-assistant.io/blog/2025/03/05/release-20253/
-    image:
+    title: Home Assistant officially Matters
+    url: https://www.home-assistant.io/blog/2025/03/10/matter-certification/
+    image: http://www.home-assistant.io/images/blog/2025-03-matter-certification/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: 2025.3 - View those headers!
-    url: https://www.home-assistant.io/blog/2025/03/05/release-20253/
-    image:
+    title: Home Assistant officially Matters
+    url: https://www.home-assistant.io/blog/2025/03/10/matter-certification/
+    image: http://www.home-assistant.io/images/blog/2025-03-matter-certification/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,8 +22,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Pourquoi désactiver vos notifications à 22h09 pourrait sauver votre sommeil
-    url: https://blog.nord-domotique.com/notifications-et-sommeil/
+    title: Test IMOU Cruiser Dual  - Une caméra de surveillance à double objectif
+      performante
+    url: https://blog.nord-domotique.com/test-imou-cruiser-dual/
     image:
 Abavala:
   fr_FR:
