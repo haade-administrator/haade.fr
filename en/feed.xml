@@ -29,7 +29,7 @@ sitemap:
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{%- for post in site.posts limit:1 %}{{ post.date | date_to_rfc822 }}{%- endfor %}</lastBuildDate>
     <image>
-        <url>{{ site.url }}{{ site.baseurl }}/assets/images/favicon.png</url>
+        <url>{{ site.url }}{{ site.baseurl }}/assets/images/favicon.ico</url>
         <title>{{ site.name | xml_escape }}</title>
           <link>{{ site.url }}{{ site.baseurl }}/{{ page.locale | slice: 0,2 }}/</link>
           <width>32</width>
