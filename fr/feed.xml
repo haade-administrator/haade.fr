@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Mar 2025 04:02:06 +0100</pubDate>
-    <lastBuildDate>Wed, 05 Mar 2025 11:00:00 +0100</lastBuildDate>
+    <pubDate>Tue, 11 Mar 2025 10:43:00 +0100</pubDate>
+    <lastBuildDate>Tue, 11 Mar 2025 10:30:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Domotise tes volets roulants Bubendorff en Zigbee pour pas cher</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Ne nous fions pas au titre je ne vais pas réellement domotiser des volets bubendorff mais remplacer le système par des moteurs filaires chamberlain. Je te donne mes raisons</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.png" alt="Domotise tes volets roulants Bubendorff en Zigbee pour pas cher">
+</picture>
+
+      <p>Aujourd’hui je t’explique non pas comment j’ai domotisé des volets Bubendorff en Zigbee, simplement parce que ce n’est pas possible, mais pourquoi j’ai décidé de virer le système Bubendorff Tradi ID 1 qui avait 20 ans par des moteurs Chamberlain filaires à fin de course mécanique relié sur un interrupteur [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff">Domotise tes volets roulants Bubendorff en Zigbee pour pas cher</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 11 Mar 2025 10:30:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Test de l&apos;interface du chauffage Tado°</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,28 +242,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition</guid>
       <category><![CDATA[Test]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Nouveautés attendues pour Sonoff en cette fin d&apos;année</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Un plein de nouveautés pour les produits et firmwares sonoff attendus en Novembre et Décembre, du Zigbee, des modules inédits bref du croustillant</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/147/quelles-nouveautes-sonoff-decembre-2024-720-8d4fad77c.png" alt="Nouveautés attendues pour Sonoff en cette fin d'année">
-</picture>
-
-      <p>En direct de la marque Sonoff ( itead.cc ) je vous remonte les nouveautés et actualités attendus pour ce mois de décembre en direct de la fabrique du Père Noel Chinois 🎅🏻 de chez Sonoff !
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/nouveautes-sonoff-fin-ann%C3%A9e-2024-produits-et-firmware-nspanel-pro-ztrv-robinet-thermostatique">Nouveautés attendues pour Sonoff en cette fin d'année</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 08 Dec 2024 17:50:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/nouveautes-sonoff-fin-ann%C3%A9e-2024-produits-et-firmware-nspanel-pro-ztrv-robinet-thermostatique</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/nouveautes-sonoff-fin-ann%C3%A9e-2024-produits-et-firmware-nspanel-pro-ztrv-robinet-thermostatique</guid>
-      <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>

@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/zigbee-automation-of-shutters-tradi-id-bubendorff</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2025-03-11T10:30:00+01:00</news:publication_date>
+          <news:title>Automate Bubendorff roller shutters in Zigbee for cheap</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/157/domotise-test-rolling-shutters-bubendorff-in-zigbee-for-cheap.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management</loc>
         <news:news>
           <news:publication>

@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Mar 2025 04:02:06 +0100</pubDate>
-    <lastBuildDate>Wed, 05 Mar 2025 11:00:00 +0100</lastBuildDate>
+    <pubDate>Tue, 11 Mar 2025 10:43:00 +0100</pubDate>
+    <lastBuildDate>Tue, 11 Mar 2025 10:30:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.png</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Automate Bubendorff roller shutters in Zigbee for cheap</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Let&apos;s not be fooled by the title, I&apos;m not really going to automate Bubendorff shutters but replace the system with Chamberlain wired motors. I&apos;ll give you my reasons</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-rolling-shutters-bubendorff-in-zigbee-for-cheap-720-b542db3ae.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-rolling-shutters-bubendorff-in-zigbee-for-cheap-720-b542db3ae.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/157/domotise-test-rolling-shutters-bubendorff-in-zigbee-for-cheap-720-b542db3ae.png" alt="Automate Bubendorff roller shutters in Zigbee for cheap">
+</picture>
+
+      <p>Today I’m not explaining to you how I automated Bubendorff shutters in Zigbee, simply because it’s not possible, but why I decided to remove the Bubendorff Tradi ID 1 system which was 20 years old by Chamberlain wired motors with mechanical limit switch connected to a Zigbee Moes switch.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/zigbee-automation-of-shutters-tradi-id-bubendorff">Automate Bubendorff roller shutters in Zigbee for cheap</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 11 Mar 2025 10:30:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/zigbee-automation-of-shutters-tradi-id-bubendorff</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/zigbee-automation-of-shutters-tradi-id-bubendorff</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Testing the Tado° heating interface</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,28 +245,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Install Home Assistant OS on Dietpi</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Here is a relevant article to install HAOS on Dietpi the ultra light RPI operating system on a diet, why bother to do such an installation when there is a ready-made HAOS image for raspberry pi?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/146/dietpi-os-home-assistant-os-raspberrypi-lcd-display-720-68dbc26b6.png" alt="Install Home Assistant OS on Dietpi">
-</picture>
-
-      <p>Why bother installing Home Assistant OS on dietpi when there is a ready-made image based on raspberry pi os Lite on the official website, or even simpler via the software imager developed by the Raspberry PI foundation which contains the HAOS image.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features">Install Home Assistant OS on Dietpi</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 30 Nov 2024 19:10:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/install-haos-with-dietpi-to-enjoy-additional-features</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
