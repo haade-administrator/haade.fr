@@ -24,7 +24,6 @@ locale: fr_FR
 comments: true
 rating:  
 sourcelink:
-  - 
 ---
 
 Aujourd'hui je t'explique non pas comment j'ai domotisé des volets Bubendorff en Zigbee, **simplement parce que ce n'est pas possible**, mais **pourquoi j'ai décidé de virer le système Bubendorff Tradi ID 1** qui avait 20 ans par des **moteurs Chamberlain filaires** à **fin de course mécanique** relié sur un interrupteur Zigbee Moes.

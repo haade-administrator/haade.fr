@@ -24,7 +24,6 @@ locale: en_GB
 comments: true
 rating:  
 sourcelink:
-  - 
 ---
 
 Today I'm not explaining to you how I automated Bubendorff shutters in Zigbee, **simply because it's not possible**, but **why I decided to remove the Bubendorff Tradi ID 1 system** which was 20 years old by **Chamberlain wired motors** with **mechanical limit switch** connected to a Zigbee Moes switch.
