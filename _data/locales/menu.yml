@@ -341,10 +341,10 @@ legalnotice:
 gdpr:
   fr_FR:
     name: "Politique de confidentialité"
-    link: "fr/rgpd"
+    link: "fr/rgpd-politique-de-confidentialite"
   en_GB:
     name: "Privacy Policy"
-    link: "en/gdpr"
+    link: "en/gdpr-general-data-protection-regulation"
 
 contact:
   fr_FR:
