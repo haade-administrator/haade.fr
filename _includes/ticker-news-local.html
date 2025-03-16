@@ -69,17 +69,6 @@
         >{{ item.title | truncatewords: 6, "[...]" }}</a
       >
     </li>
-    {%- endfor %} {%- for item in translate.Domo&Geek[page.locale] %}
-    <li>
-      <img
-        src="https://domoandgeek.fr/wp-content/uploads/2017/11/cropped-DomoGeek.-2-32x32.png"
-        alt="{{ item.name }}"
-        class="resized-image lazyload"
-      /><b>{{ item.name }}:</b
-      ><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer"
-        >{{ item.title | truncatewords: 6, "[...]" }}</a
-      >
-    </li>
     {%- endfor %} {%- for item in translate.Maison-et-domotique[page.locale] %}
     <li>
       <img
