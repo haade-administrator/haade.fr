@@ -16,15 +16,15 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Comment mettre à jour un dongle Zigbee (Sonoff, Smlight, Home Assistant)?
-    url: https://blog.domadoo.fr/110828-comment-mettre-a-jour-un-dongle-zigbee/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/02/comment-mettre-a-jour-un-dongle-zigbee-avec-home-assistant-1024x576.jpg
+    title: Découverte du module commutateur 10A Zigbee 3.0 SONOFF ZBMINIR2
+    url: https://blog.domadoo.fr/110329-sonoff-zbminir2-commut-10a-zigbee-3-0/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/Sonoff-zbminir2-commutateur-zigbee-10a-1080x675-PRES-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test IMOU Cruiser Dual  - Une caméra de surveillance à double objectif
-      performante
-    url: https://blog.nord-domotique.com/test-imou-cruiser-dual/
+    title: Découvrez la Nouvelle Beem On 500 Wc - Plus Puissante et Plus Accessible
+      que Jamais
+    url: https://blog.nord-domotique.com/decouvrez-la-nouvelle-beem-on-500-wc/
     image:
 Abavala:
   fr_FR:
@@ -35,15 +35,15 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Protégez vos panneaux solaires de la grêle  - les astuces incontournables
-      pour éviter la casse
-    url: https://www.maison-et-domotique.com/151441-proteger-panneaux-solaires-grele-astuces/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/titre-protection-grele-702x367.png
+    title: Méga Soldes de Mars chez Geekbuying  - Les meilleures offres à ne pas manquer
+      !
+    url: https://www.maison-et-domotique.com/154714-mega-soldes-mars-geekbuying/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/bon-plan-geekbuying-702x399.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: YouTube scares me; I need RAID 1 for my video content
-    url: https://www.jeffgeerling.com/blog/2025/youtube-scares-me-i-need-raid-1-my-video-content
+    title: Exploring WiFi 7 (at 2 Gbps) on a Raspberry Pi 5
+    url: https://www.jeffgeerling.com/blog/2025/exploring-wifi-7-2-gbps-on-raspberry-pi-5
     image:
 Matter:
   en_GB:
