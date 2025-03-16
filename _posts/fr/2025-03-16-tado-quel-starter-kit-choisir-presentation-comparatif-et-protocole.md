@@ -77,6 +77,10 @@ Ensuite il ya un branchement 2 fils pour le [protocole Opentherm](https://www.op
 
 {% picture posts/{{ page.guid }}/presentation-bridge-tado-x-prise.png --alt Présentation du bridge branchement secteur Tado X liaison Thread --img width="940" height="529" %}
 
+#### Réinitialisation usine
+
+Tous les produits tado sont réinitialisables pratique si tu rencontres des soucis d'intégrations dans l'application, [rends toi sur cette page](https://help.tado.com/fr/articles/8943122-comment-puis-je-reinitialiser-mes-appareils-tado-x-aux-reglages-d-usine){: target="_blank"} pour trouver toutes les informations.
+
 #### Caractéristiques techniques
 
 |Dimensions|Thermostat Intelligent filaire X: 104 x 104 x 18 mm<br>Bridge X: 60 x 60 x 31 mm|
