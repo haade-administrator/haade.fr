@@ -109,6 +109,7 @@ Tous les produits tado sont réinitialisables pratique si tu rencontres des souc
 - fonction sonde et thermostat ( température et humidité )
 - Protocole Matter/Thread
 - fonction thermostat central
+- **Tado° garantie tout ses produits 10 ans**
 
 #### **les - du smart thermostat X** {{ page.ref }}
 {: .red}
@@ -125,25 +126,31 @@ Tous les produits tado sont réinitialisables pratique si tu rencontres des souc
 
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x.png --alt Contenu du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
+#### Module wireless bridge
+
+{% picture posts/{{ page.guid }}/deballage-wireless-smart-thermostat-x.png --alt Déballage du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere.png --alt Déballage du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-sous-le-capot.png --alt Présentation connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-explication.png --alt Explication connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
-{% picture posts/{{ page.guid }}/deballage-wireless-smart-thermostat-x.png --alt Déballage du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+#### sonde température déportée sur pile
+
+{% picture posts/{{ page.guid }}/presentation-sonde-thermostatique-deporte-fournis-avec-wireless-smart-thermostat-x.png --alt présentation sonde thermostatique déporté fourni avec le kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
 {% include product-embed.html image="sonde-temperature-deporte-tado.png" title="Sonde de temperature déporté tado" brand="Tado°" description="sSonde de température déportée Tado communique directement avec les robinets thermostatiques Tado" amazlink="4hAdtt7" %}
 
 {% picture posts/{{ page.guid }}/explication-association-sonde-temperature-et-robinet-thermostatique-tado-x.png --alt explication du fonctionnement de la liaison directe entre une sonde de température déportée tado et un robinet thermostatique tado x --img width="940" height="529" %}
 
-{% picture posts/{{ page.guid }}/presentation-sonde-thermostatique-deporte-fournis-avec-wireless-smart-thermostat-x.png --alt présentation sonde thermostatique déporté fourni avec le kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
 #### **les + du wireless smart thermostat X** {{ page.ref }}
 {: .blue}
 
 - Qualité des produits
 - piles fournis avec la sonde déportée
+- **Tado° garantie tout ses produits 10 ans**
 
 #### **les - du wireless smart thermostat X** {{ page.ref }}
 {: .red}
@@ -177,5 +184,11 @@ Alors ce qu'annonce Tado° n'est pas faut, car ils parlent de la liaison entre l
 > Tu l'auras compris **comme les deux kits peuvent controller ta chaudière** à l'aide des ports **Com/No** dans la plupart des cas je te conseil de prendre le **kit de démarrage Wireless Smart Thermostat X**.
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
+
+## Le prix dans tout ça ?
+
+## La Garantie Tado°
+
+**Tado° garantie tout ses produits 10 ans**
 
 ## Conclusion
