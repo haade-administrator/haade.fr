@@ -67,15 +67,25 @@ Le controlleur tado° **fonctionne avec 3 piles de type AAA** qui sont fournis, 
 
 Les autocollants fournis avec son là pour numéroter les cables filaires. Tu trouveras en enlevant la petite visse l'espace pour relier les cables de communications de ta chaudière.
 
-Tout d'abord il y a **Com/NC/NO/P1/P2**, tout ces branchements sont disponibles mais en général la plupart des chaudières classiques fonctionnent avec deux fils l'un pole Com et l'autre pour NO ( normalement ouvert ), pour P1 et P2 ils sont là pour les chaudières à 3 fils. Pour avoir le maximum d'infos de branchements, et surtout parce que la notice n'est pas fournis avec, rends toi dans l'applucation Tado: **Paramètres > pièces et appareils** ensuite **clic sur le produit concerné** et va sur **instructions d'installations**.
+Tout d'abord il y a **Com/NC/NO/P1/P2**, tout ces branchements sont disponibles mais en général la plupart des chaudières classiques fonctionnent avec deux fils l'un pole Com et l'autre pour NO ( normalement ouvert ), pour P1 et P2 ils sont là pour les chaudières à 3 fils. Pour avoir le maximum [d'infos de branchements](https://help.tado.com/fr/articles/3387234-ou-puis-je-trouver-les-instructions-d-installation-pour-mes-appareils-de-chauffage-tado){: target="_blank"}, et surtout parce que la notice n'est pas fournis avec, rends toi dans l'application Tado: **Paramètres > pièces et appareils** ensuite **clic sur le produit concerné** et va sur **instructions d'installations**.
 
-Ensuite il ya un branchement 2 fils pour le [protocole Opentherm](https://www.opentherm.eu/){: target="_blank"}, si ta chaudière fonctionne avec il faudra la connecter voir la notice de ta chaudières mais tu retrouves aussi ces infos dans les **instructions d'installations**.
+Ensuite il ya un branchement 2 fils pour le [protocole Opentherm](https://www.opentherm.eu/){: target="_blank"}, si ta chaudière fonctionne avec il faudra la connecter voir la notice de ta chaudière mais tu retrouves aussi ces infos dans les **instructions d'installations**.
 
 {% picture posts/{{ page.guid }}/connection-chaudiere-starter-kit-smart-thermostat-x.png --alt Connection chaudière du thermostat intelligent(smart-starter-x) --img width="940" height="529" %}
 
 #### Le bridge tado X
 
+C'est le bridge qui embarque le protocole de liaison Thread, il n'est pas obligatoirement indispensable si tu possèdes déjà un autre bridge/dongle Matter/Thread, car pour rappel ce sont des protocoles ouvert avec une communication multi-marques. Mais si tu n'as pas de passerelle il faudra absolument connecter ce Bridge. **Il a un gros point négatif, il se connecte sur une prise donc il monopolisera une de tes prises**. pour le reste l'intégration est parfaite.
+
+> Il est fourni avec deux adaptateurs Uk/Eu
+
 {% picture posts/{{ page.guid }}/presentation-bridge-tado-x-prise.png --alt Présentation du bridge branchement secteur Tado X liaison Thread --img width="940" height="529" %}
+
+Sur la face avant seul un bouton wps est dispnonible, il te simplifiera la vie pour te connecter sur le réseau domestique wifi, il sert aussi de bouton factory reset.
+
+Quand tu le branche la lumière basse de connection secteur s'allume, la lumière juste au dessus clignote, celà t'indiques que le bridge est prêt à s'appairer dans l'envirronnement Matter. Une fois connecté à l'appli Tado°, les 3 lumières apparaitront pour te dire que le bridge est dans la place .
+
+{% picture posts/{{ page.guid }}/code-lumiere-bridge-tado.png --alt Code lumière du bridge branchement secteur Tado X liaison Thread --img width="940" height="529" %}
 
 #### Réinitialisation usine
 
@@ -109,9 +119,62 @@ Tous les produits tado sont réinitialisables pratique si tu rencontres des souc
 - ne permet pas de désactiver la fonction thermostat ( mais juste de l'éteindre )
 - pas de notices papier
 
+### Wireless smart thermostat X
+
+{% include product-embed.html image="kit-wireless-smart-thermostat-x-tado.png" title="Wireless Smart Thermostat X" brand="Tado°" description="starter kit pour contrôler ta chaudière avec thermostat d'origine reliée sans fil Tado fonctionne aussi en filaire" amazlink="3DNUEoy" %}
+
+{% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x.png --alt Contenu du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere.png --alt Déballage du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-sous-le-capot.png --alt Présentation connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-explication.png --alt Explication connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/deballage-wireless-smart-thermostat-x.png --alt Déballage du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+{% include product-embed.html image="sonde-temperature-deporte-tado.png" title="Sonde de temperature déporté tado" brand="Tado°" description="sSonde de température déportée Tado communique directement avec les robinets thermostatiques Tado" amazlink="4hAdtt7" %}
+
+{% picture posts/{{ page.guid }}/explication-association-sonde-temperature-et-robinet-thermostatique-tado-x.png --alt explication du fonctionnement de la liaison directe entre une sonde de température déportée tado et un robinet thermostatique tado x --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/presentation-sonde-thermostatique-deporte-fournis-avec-wireless-smart-thermostat-x.png --alt présentation sonde thermostatique déporté fourni avec le kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+#### **les + du wireless smart thermostat X** {{ page.ref }}
+{: .blue}
+
+- Qualité des produits
+- piles fournis avec la sonde déportée
+
+#### **les - du wireless smart thermostat X** {{ page.ref }}
+{: .red}
+
+- 
+
+
 ## Comparatif
 
 ## Intégration
+
+## Compréhesion sur les termes
+
+Quand j'ai commandé les produits pour tester l'envirronnement, je t'avouerai que j'étais perdu sur le choix du starter kit, pourquoi, à cause des termes employés par Tado.
+
+1. Le smart thermostat Kit est donné par Tado° comme un thermostat filaire mais celui-ci fonctionne sans fil ( pile AAA fourni).
+2. Le smart thermostat X Wireless est donné par Tado° comme un thermostat sans fil mais le module fonctionne sur le secteur 230V
+
+Alors ce qu'annonce Tado° n'est pas faut, car ils parlent de la liaison entre le thermostat d'origine et la chaudière.
+
+## Alors, lequel choisir ?
+
+1. Si la **liaison entre le thermostat d'origine et la chaudière est sans fil** et si celle-ci est compatible avec Tado° alors il n'y a pas de question à se poser, **il faudra prendre le Wireless Smart Thermostat X**.
+2. Si ton thermostat d'origine fonctionne **sur pile et que tu n'as pas de 230v** à proximité il faudra prendre **le Smart Thermostat X**
+3. Si l'emplacement de ton thermostat **n'est pas situé dans une pièce chauffée** ( couloir ... ) je te conseil **le Wireless smart thermostat X**
+4. Si tu souhaites déporter la sonde de température de ton controlleur de chaudière je te conseil **le Wireless smart thermostat X**
+5. Si tu souhaites brancher le controlleur Thread sur 230v hors prise je te conseil **le Wireless smart thermostat X**
+6. Si la connection à ta chaudière est plus complexe avec branchement (p1, p2 et p3) je te conseil **le Wireless smart thermostat X**
+7. Si ton thermostat d'origine est situé dans une pièce chauffée et s'il ne peut fonctionner qu'à l'aide de piles je te conseil **le smart thermostat X**
+
+> Tu l'auras compris **comme les deux kits peuvent controller ta chaudière** à l'aide des ports **Com/No** dans la plupart des cas je te conseil de prendre le **kit de démarrage Wireless Smart Thermostat X**.
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
