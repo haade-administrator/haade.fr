@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.8 
 sourcelink:
   - https://tado-rwknz.involve.me/productcompatibility-update-fa01a73abe00-ab546a5c19ba-copy-88cf43650695
   - https://www.opentherm.eu/
@@ -276,4 +276,4 @@ En te **posant les bonnes questions** tu pourras facilement choisir entre le kit
 
 ## Conclusion
 
-Volià un comparatif qui te permettra d'y voir plus claire entre les deux kits de démarrages proposés par Tado°. Il faut retenir que le kit wireless propose les mêmes fonction que le kit Smart Thermostat Kit, mais en plus il permet la liaison sans fil avec les chaudières compatibles. Si ton controlleur est dans une pièce non chauffée comme c'est souvent le cas alors je te conseil le kit wireless à condition que tu puisses le brancher sur secteur. Dans les autres cas je te conseil le smart thermostat X.
+**Voilà un comparatif qui te permettra d'y voir plus claire** entre les deux kits de démarrages proposés par Tado°. Il faut retenir que le **kit wireless propose les mêmes fonctions que le kit Smart Thermostat Kit**, mais en plus il permet la liaison sans fil avec les chaudières compatibles. **Si ton controlleur est dans une pièce non chauffée** comme c'est souvent le cas alors **je te conseil le kit wireless** à condition que tu puisses le brancher sur secteur. **Dans les autres cas je te conseil le smart thermostat X.**
