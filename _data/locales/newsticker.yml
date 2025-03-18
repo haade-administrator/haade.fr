@@ -25,7 +25,7 @@ Blog-Nord-Domotique:
     title: Caméra Ring 2K  - découvrez les nouvelles fonctionnalités révolutionnaires
       pour 2025
     url: https://blog.nord-domotique.com/fonctionnalites-camera-ring-2k/
-    image:
+    image: 
 Abavala:
   fr_FR:
   - name: Abavala
@@ -44,7 +44,7 @@ Jeff-Geerling:
   - name: Jeff-Geerling
     title: Exploring WiFi 7 (at 2 Gbps) on a Raspberry Pi 5
     url: https://www.jeffgeerling.com/blog/2025/exploring-wifi-7-2-gbps-on-raspberry-pi-5
-    image:
+    image: 
 Matter:
   en_GB:
   - name: Matter
