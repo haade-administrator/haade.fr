@@ -31,6 +31,10 @@ Après avoir présenté le [somptueux robinet thermostatique Tado° X]({% post_u
 
 {%- include alert.html type="info" text="Haade.fr participe au programme d'associés d'Amazon Services LLC, un programme de publicité d'affiliation conçu pour fournir un moyen de gagner des frais lors de la création de liens vers Amazon.com et des sites affiliés." %}
 
+## Articles Connexes
+
+{% include article-connexe.html guids="154,156" %}
+
 ## Présentation
 
 Avant de rentrer dans le vif du sujet si tu veux v"érifier la [compatibilité de ta chaudière Tado a mis en place un outil disponible](https://tado-rwknz.involve.me/productcompatibility-update-fa01a73abe00-ab546a5c19ba-copy-88cf43650695){: target="_blank"} ne ligne.
@@ -39,6 +43,8 @@ Commençons par le smart thermostat X le controlleur de chaudière filaire grâc
 ### Smart thermostat X
 
 {% include product-embed.html image="starter-kit-tado-smart-thermostat-x.png" title="Smart Thermostat X" brand="Tado°" description="starter kit pour contrôler ton chauffage Tado version filaire" amazlink="4bWSDTr" %}
+
+{% include doclink.html pdf="manuel-bridge-filaire-smart-thermostat-x.pdf" title="Manuel du thermostat controlleur de chaudière sur pile du kit smart thermostat X Tado°" %}
 
 Le tado° smart starter X est un kit de démarrage fourni avec:
 - un **thermostat intelligent** digital intégrant la fonction de controlleur de chaudière filaire avec un thermostat d'ambiance digital
@@ -78,6 +84,8 @@ Ensuite il ya un branchement 2 fils pour le [protocole Opentherm](https://www.op
 C'est le bridge qui embarque le protocole de liaison Thread, il n'est pas obligatoirement indispensable si tu possèdes déjà un autre bridge/dongle Matter/Thread, car pour rappel ce sont des protocoles ouvert avec une communication multi-marques. Mais si tu n'as pas de passerelle il faudra absolument connecter ce Bridge. **Il a un gros point négatif, il se connecte sur une prise donc il monopolisera une de tes prises**. pour le reste l'intégration est parfaite.
 
 > Il est fourni avec deux adaptateurs Uk/Eu
+
+{% include doclink.html pdf="manuel-bridge-smart-thermostat-x.pdf" title="Manuel du bridge du kit smart thermostat X Tado°" %}
 
 {% picture posts/{{ page.guid }}/presentation-bridge-tado-x-prise.png --alt Présentation du bridge branchement secteur Tado X liaison Thread --img width="940" height="529" %}
 
@@ -119,28 +127,64 @@ Tous les produits tado sont réinitialisables pratique si tu rencontres des souc
 - l'écran ne contrôle que des chaudières à branchement d'ordres filaires (Com/No)
 - ne permet pas de désactiver la fonction thermostat ( mais juste de l'éteindre )
 - pas de notices papier
+- le prix 200€
 
 ### Wireless smart thermostat X
 
 {% include product-embed.html image="kit-wireless-smart-thermostat-x-tado.png" title="Wireless Smart Thermostat X" brand="Tado°" description="starter kit pour contrôler ta chaudière avec thermostat d'origine reliée sans fil Tado fonctionne aussi en filaire" amazlink="3DNUEoy" %}
 
+Le starter kit wireless a des fonctionnalités proche du smart thermostat X, mais l'approche est différente, dans ce pack le controlleur Thread fait office de controlleur de chaudière pour les systèmes de chaudières communiquant sans fil ( entre le thermostat et la chaudière ), mais il permet aussi de communiquer avec la chaudière de façon filaire comme le smart Thermostat X, il se différencie de son homologue grâce au déport d'une sonde thermostatique.
+
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x.png --alt Contenu du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
-#### Module wireless bridge
+> À l'intérieur du pack on trouve le controlleur et une sonde thermostatique déportée.
 
 {% picture posts/{{ page.guid }}/deballage-wireless-smart-thermostat-x.png --alt Déballage du kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
+#### Module wireless bridge
+
+Le module bridge du wireless pack est relativement bien faite, à l'intérieur du pack tu trouveras un controleur avec un cable secteur que l'on peut dévisser, des autocollants, un kit de visses et chevilles, un jeu de 3 cables afin de connecter P1/P2 et P3. 
+
+{% include doclink.html pdf="manuel-bridge-wireless-smart-thermostat-x.pdf" title="Manuel de branchement du bridge wireless smart thermostat X" %}
+
+Sur la face haute deux boutons sont disponibles, l'un concerne la fonction wps et l'autre te permet d'enclancher la chaudière ou la fonction boost manuellement.
+
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere.png --alt Déballage du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+Pour accéder à la connectique il te suffit de déboiter la coque de façon simple.
+Sous cette coque on retrouve le qrcode d'appairage Matter ainsi que de nombreuses inscriptions au niveau des voyants.
 
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-sous-le-capot.png --alt Présentation connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
+Pour les voyants en partant de la gauche tu as:
+- le voyant d'alimentation
+- les 3 voyants de connections au réseau wifi domestique
+- le voyant reset/boost/chauffage
+- un voyant relay (il doit être lié soit aux entrées P1/2/3 ou à l'opentherm )
+- un voyant pour la fonction opentherm
+
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-explication.png --alt Explication connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
+
+Pour la partie branchement en partant de la gauche tu as:
+
+- le branchement de la prise ( Neutre / Phase / Phase )
+- un branchement com/Nc/No pour relier à la chaudière ( identique au smart thermostat X )
+- un branchement P1/2/3 **( je n'ai pas trouvé d'infos de branchements à ce sujet )**
+- un branchement modbus opentherm
 
 #### sonde température déportée sur pile
 
+La sonde de température fournis avec le wireless kit est similaire au thermostat digital tado, cependant comme elle fait office de sonde de température uniquement, tu ne trouveras aucunes connectiques pour la chaudière ou branchements opentherm.
+
 {% picture posts/{{ page.guid }}/presentation-sonde-thermostatique-deporte-fournis-avec-wireless-smart-thermostat-x.png --alt présentation sonde thermostatique déporté fourni avec le kit de démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
+{% include doclink.html pdf="sonde-de-temperature-tado-x-manuel.pdf" title="Manuel de branchement de la sonde déportée Tado°" %}
+
+Elle est livrée avec un support mural, des visses et autocollants, piles AAA et le carton d'information Matter.
+
 {% include product-embed.html image="sonde-temperature-deporte-tado.png" title="Sonde de temperature déporté tado" brand="Tado°" description="sSonde de température déportée Tado communique directement avec les robinets thermostatiques Tado" amazlink="4hAdtt7" %}
+
+Dans l'environnement Tado° ( en passant par l'application ), la sonde de température ou même le thermostat, ont leurs importances car lorsque tu les intègrent dans la même pièce qu'un ou plusieurs robinets thermostatiques tado X, ce ne seras plus la température du robinet qui sera relevé ( peut être faussée du fait de la proximité des radiateurs ) mais ce sera la température relevée par la sonde qui sera utilisé. Et ceux sans avoir besoin de remédier à une automatisation.
 
 {% picture posts/{{ page.guid }}/explication-association-sonde-temperature-et-robinet-thermostatique-tado-x.png --alt explication du fonctionnement de la liaison directe entre une sonde de température déportée tado et un robinet thermostatique tado x --img width="940" height="529" %}
 
@@ -150,17 +194,52 @@ Tous les produits tado sont réinitialisables pratique si tu rencontres des souc
 
 - Qualité des produits
 - piles fournis avec la sonde déportée
-- **Tado° garantie tout ses produits 10 ans**
+- **Tado° garantie tout ses produits 10 ans si déclaré sur le site**
+- la sonde de température peut être installée ou bon nous semblent
+- le controlleur peut être relié sur le 230v
+- le controlleur est compatible avec les chaudières filaires et celles qui communiquent sans fil
 
 #### **les - du wireless smart thermostat X** {{ page.ref }}
 {: .red}
 
+- Impossibilité de le faire fonctionner sur pile
+- le prix 200€
+
+## Intégration dans Home Assistant
+
+Il existe **plusieurs façons d'intégrer les thermostats, sondes et robinets Tado° dans Home Assistant** notemment par le biais d'une clé Thread externe au bridge Tado. 
+
+Cependant si tu désires **concerver la fonction boost** sans devoir créer une automatisation dans HA et **notemment la liaison entre la température des sondes ou thermostats avec les robinets thermostatiques** je te suggère de réaliser toute l'installation dans l'application Tado et ensuite de partager les produits avec home assistant grâce à Matter.
+
+**Pour ce faire:**
+
+**Vas dans l'app tado puis:**
+
+- paramètres et appareils
+- sélectionne un appareil sauf le bridge
+- va en bas de la pge et clic sur **liaison de l'appareil Matter**
 - 
+{% picture posts/{{ page.guid }}/partage-les-appareils-tado-avec-home-assistant-grace-a-matter.png --alt Je vais te montrer comment partager des appareils tado entre l'appli officielle et home assistant --img width="940" height="529" %}
 
+**Ensuite apparait l'interface Matter sur smartphone:**
 
-## Comparatif
+- clic sur l'icone Home Assistant si ça ne fonctionne pas tu peux aussi sélectionner une des deux autres intégrations.
 
-## Intégration
+> il te suffit ensuite de suivre les étapes.
+> 
+{% picture posts/{{ page.guid }}/partage-les-appareils-tado-avec-home-assistant-grace-a-matter-2nd-etape.png --alt 2nd étape des appareils tado entre l'appli officielle et home assistant --img width="940" height="529" %}
+
+**Maintenant les appareils sont partagés à home assistant**
+
+Ci-dessous un gif animé de l'intégration du robinet thermostatique
+
+![Partage du robinet thermostatique Tado X dans home assistant]({{ site.baseurl }}/assets/images/posts/158/integration-robinet-thermostatique-tado-x-dans-home-assistant.webp{{ cachebuster }}){: width="940" height="716" class="lazyload pictaninpost"}{: target="_blank"}
+
+Ci-dessous un gif animé de l'intégration du thermostat contenu dans le kit smart thermostat X.
+
+![Partage du smart thermostat Tado X dans home assistant]({{ site.baseurl }}/assets/images/posts/158/integration-starter-kit-smart-thermostat-x.webp{{ cachebuster }}){: width="940" height="719" class="lazyload pictaninpost"}{: target="_blank"}
+
+> Voilà en deux temps, trois mouvements nous avons partagés les appareils Tado° dans home assistant, **merci Matter.**
 
 ## Compréhesion sur les termes
 
@@ -169,9 +248,11 @@ Quand j'ai commandé les produits pour tester l'envirronnement, je t'avouerai qu
 1. Le smart thermostat Kit est donné par Tado° comme un thermostat filaire mais celui-ci fonctionne sans fil ( pile AAA fourni).
 2. Le smart thermostat X Wireless est donné par Tado° comme un thermostat sans fil mais le module fonctionne sur le secteur 230V
 
-Alors ce qu'annonce Tado° n'est pas faut, car ils parlent de la liaison entre le thermostat d'origine et la chaudière.
+**Alors ce qu'annonce Tado° n'est pas faux, car ils parlent de la liaison entre le thermostat d'origine et la chaudière.**
 
-## Alors, lequel choisir ?
+## Maintenant, lequel choisir ?
+
+En te **posant les bonnes questions** tu pourras facilement choisir entre le kit de démarrage **Smart Thermostat X** ou le **Wireless Smart Thermostat X**.
 
 1. Si la **liaison entre le thermostat d'origine et la chaudière est sans fil** et si celle-ci est compatible avec Tado° alors il n'y a pas de question à se poser, **il faudra prendre le Wireless Smart Thermostat X**.
 2. Si ton thermostat d'origine fonctionne **sur pile et que tu n'as pas de 230v** à proximité il faudra prendre **le Smart Thermostat X**
@@ -187,8 +268,12 @@ Alors ce qu'annonce Tado° n'est pas faut, car ils parlent de la liaison entre l
 
 ## Le prix dans tout ça ?
 
-## La Garantie Tado°
+- Un kit de démarrage **Smart Tado X ou wireless coûte 200€** mais si tu es patient tado fait des offres promotionnelle allant de -40 à -50% y compris sur amazon.
+- Un **robinet thermostatique tado X coûte 100€** là aussi si tu es patient tado fait des offres promotionnelle allant de -40 à -50% y compris sur amazon.
+- Une **sonde thermostatique coûte 100€**
 
-**Tado° garantie tout ses produits 10 ans**
+**Les tarifs sont élevés** mais Tado° a le mérite de **fabriquer actuellement les meilleurs produits du marché, facile à installer et à utiliser.**
 
 ## Conclusion
+
+Volià un comparatif qui te permettra d'y voir plus claire entre les deux kits de démarrages proposés par Tado°. Il faut retenir que le kit wireless propose les mêmes fonction que le kit Smart Thermostat Kit, mais en plus il permet la liaison sans fil avec les chaudières compatibles. Si ton controlleur est dans une pièce non chauffée comme c'est souvent le cas alors je te conseil le kit wireless à condition que tu puisses le brancher sur secteur. Dans les autres cas je te conseil le smart thermostat X.
