@@ -1,0 +1,21 @@
+{%- assign translate = site.data.locales.translate -%}
+{%- assign guids = include.guids | split: "," -%} 
+{%- assign posts = site.posts | where: 'published', true -%}
+
+{%- assign filtered_posts = "" | split: "" -%} 
+{%- for guid in guids %}
+  {%- assign matching_posts = posts | where: 'guid', guid | where: 'locale', page.locale -%}
+  {%- assign filtered_posts = filtered_posts | concat: matching_posts -%}
+{%- endfor %}
+
+{%- if filtered_posts.size > 0 %}
+  <div>
+    <ol>
+      {%- for post in filtered_posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {%- endfor %}
+    </ol>
+  </div>
+{%- endif %}

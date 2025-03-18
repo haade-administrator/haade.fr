@@ -86,6 +86,13 @@ commande: gif2webp -lossy nom.gif -o nom.webp
 **préfixe ( pdf, docx, zip, csv, md, xls, torrent )**
 {% include doclink.html docx="Zigbee-3.0-USB-dongle-plus-firmware-flashing-1-1.docx" title="document word" %}
 
+## Articles Connexes
+
+choisis tous les GUIDS à incorporer
+
+{% include article-connexe.html guids="154,156" %}
+
+
 ### inclure un lien Homeassistant
 Blueprint:
 {% include homeassistantlink.html blueprint_import="https://gist.github.com/haade-administrator/61d839c20a79643c4ceefe52fd85336e" %}
