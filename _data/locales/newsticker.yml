@@ -16,16 +16,16 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte du module commutateur 10A Zigbee 3.0 SONOFF ZBMINIR2
-    url: https://blog.domadoo.fr/110329-sonoff-zbminir2-commut-10a-zigbee-3-0/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/01/Sonoff-zbminir2-commutateur-zigbee-10a-1080x675-PRES-1024x640.webp
+    title: Comment créer un Binding Zigbee avec Zigbee2MQTT ?
+    url: https://blog.domadoo.fr/106803-integrer-binding-zigbee2mqtt/
+    image: https://blog.domadoo.fr/wp-content/uploads/2024/06/domotique-binding-zigbee2mqtt-telecommande-1024x576.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
     title: Caméra Ring 2K  - découvrez les nouvelles fonctionnalités révolutionnaires
       pour 2025
     url: https://blog.nord-domotique.com/fonctionnalites-camera-ring-2k/
-    image: 
+    image:
 Abavala:
   fr_FR:
   - name: Abavala
@@ -35,19 +35,18 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du kit solaire Sunflower Solar pour balcon  - l’électricité gratuite
-      à portée de main !
-    url: https://www.maison-et-domotique.com/154307-test-kit-solaire-sunflower-solar-pour-balcon/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/panneaux-solaires-pour-balcon-install-s-556x500.webp
+    title: ForumDomotique.com  - la nouvelle communauté dédiée à la maison connectée
+    url: https://www.maison-et-domotique.com/155100-nouveau-forum-domotique/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/forumdomotique-702x456.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
     title: Exploring WiFi 7 (at 2 Gbps) on a Raspberry Pi 5
     url: https://www.jeffgeerling.com/blog/2025/exploring-wifi-7-2-gbps-on-raspberry-pi-5
-    image: 
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: This outdoor security camera brings Matter connectivity outside
-    url: https://www.pcworld.com/article/2614877/this-outdoor-security-camera-brings-matter-connectivity-outside.html
+    title: Govee countertop ice maker review - Matter control to chill those beverages
+    url: https://appleinsider.com/articles/25/02/26/govee-countertop-ice-maker-review-matter-control-to-chill-those-beverages
     image:
