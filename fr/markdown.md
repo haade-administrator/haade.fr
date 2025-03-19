@@ -90,7 +90,7 @@ commande: gif2webp -lossy nom.gif -o nom.webp
 
 choisis tous les GUIDS à incorporer
 
-{% include article-connexe.html guids="154,156" %}
+{% include related-article.html guids="154,156" %}
 
 
 ### inclure un lien Homeassistant
