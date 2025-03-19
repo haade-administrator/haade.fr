@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Mar 2025 04:03:54 +0100</pubDate>
-    <lastBuildDate>Tue, 11 Mar 2025 10:30:00 +0100</lastBuildDate>
+    <pubDate>Wed, 19 Mar 2025 08:28:23 +0100</pubDate>
+    <lastBuildDate>Wed, 19 Mar 2025 08:15:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Tado° quel starter kit choisir ?</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Comparatif des deux starter kit de la marque Tado°, voici un article de présentation du matériel et de t&apos;aider dans ton choix lors de l&apos;achat, les kits de démarrages sont indispensables pour utiliser la gestion de chauffage Tado° dans l&apos;application Tado°</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-quel-starter-kit-choisir-presentation-et-comparatif-720-d09b16551.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-quel-starter-kit-choisir-presentation-et-comparatif-720-d09b16551.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/158/tado-quel-starter-kit-choisir-presentation-et-comparatif-720-d09b16551.png" alt="Tado° quel starter kit choisir ?">
+</picture>
+
+      <p>Après avoir présenté le somptueux robinet thermostatique Tado° X, ainsi que l’application Tado des plus réussis, attaquons nous maintenant au coeur du système, je vais aujourd’hui te présenter les deux controleurs Tado° le wireless smart thermostat X et le smart thermostat X. Ces deux contrôleurs embarquent le protocole border router [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/tado-quel-starter-kit-choisir-presentation-comparatif-et-protocole">Tado° quel starter kit choisir ?</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 19 Mar 2025 08:15:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/tado-quel-starter-kit-choisir-presentation-comparatif-et-protocole</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/tado-quel-starter-kit-choisir-presentation-comparatif-et-protocole</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Domotise tes volets roulants Bubendorff en Zigbee pour pas cher</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,29 +241,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Home assistant dévoile son nouveau produit la voice preview edition</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>En avant première nous testons le home assistant voice Preview Edition, premier produit de cette gamme pour Nabu Casa, controle ta maison par la voix en local okay Nabu une première ! Magique !</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/en-avant-premiere-test-home-assistant-voice-produit-nabu-casa-720-d0f5fa397.png" alt="Home assistant dévoile son nouveau produit la voice preview edition">
-</picture>
-
-      <p>Voilà une nouvelle forte intéressante pour la communauté opensource domotique. Nabu casa que l’on ne présente plus a sorti son premier assistant vocal fonctionnel, pratique et pour une utilisation 100% local.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition">Home assistant dévoile son nouveau produit la voice preview edition</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 19 Dec 2024 22:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-devoile-la-home-assistant-voice-preview-edition</guid>
-      <category><![CDATA[Test]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

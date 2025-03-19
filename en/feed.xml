@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Mar 2025 04:03:54 +0100</pubDate>
-    <lastBuildDate>Tue, 11 Mar 2025 10:30:00 +0100</lastBuildDate>
+    <pubDate>Wed, 19 Mar 2025 08:28:23 +0100</pubDate>
+    <lastBuildDate>Wed, 19 Mar 2025 08:15:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Tado° which starter kit should I choose?</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Comparison of the two starter kits from the Tado° brand, here is an article presenting the equipment and helping you in your choice when purchasing, the starter kits are essential to use the Tado° heating management in the Tado° application</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.png" alt="Tado° which starter kit should I choose?">
+</picture>
+
+      <p>After presenting the sumptuous Tado° X thermostatic faucet, as well as the most successful Tado app, Now let’s get to the heart of the system. Today, I’m going to introduce you to the two Tado° controllers: the Wireless Smart Thermostat X and the Smart Thermostat X. These two controllers feature [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol">Tado° which starter kit should I choose?</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 19 Mar 2025 08:15:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Automate Bubendorff roller shutters in Zigbee for cheap</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,28 +243,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition</guid>
       <category><![CDATA[Test]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>New features expected for Sonoff at the end of the year</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Lots of new features for Sonoff products and firmwares expected in November and December, Zigbee, new modules, in short, something crunchy</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/147/what-s-news-sonoff-december-2024-720-a8c226545.png" alt="New features expected for Sonoff at the end of the year">
-</picture>
-
-      <p>Live from the brand Sonoff (itead.cc) I bring you the new products and news expected for this month of December live from the factory of the Chinese Santa Claus 🎅🏻 at Sonoff!
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet">New features expected for Sonoff at the end of the year</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 08 Dec 2024 17:50:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/new-sonoff-end-of-year-2024-products-and-firmware-nspanel-pro-ztrv-thermostatic-faucet</guid>
-      <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
