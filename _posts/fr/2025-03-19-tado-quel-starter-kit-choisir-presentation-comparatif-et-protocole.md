@@ -1,11 +1,11 @@
 ---
 guid: 158
-title: "Tado° quel starter kit choisir"
+title: "Tado° quel starter kit choisir ?"
 description: "Comparatif des deux starter kit de la marque Tado°, voici un article de présentation du matériel et de t'aider dans ton choix lors de l'achat, les kits de démarrages sont indispensables pour utiliser la gestion de chauffage Tado° dans l'application Tado°"
 ref: ""
 layout: post
 authors: [Nico]
-date: 2025-03-19 09:00
+date: 2025-03-19 08:15
 last_modified_at: 
 categories: [Tests, Haade-lab]
 tags: []
@@ -35,7 +35,7 @@ Après avoir présenté le [somptueux robinet thermostatique Tado° X]({% post_u
 
 ## Articles Connexes
 
-{% include article-connexe.html guids="154,156" %}
+{% include related-article.html guids="154,156" %}
 
 ## Présentation
 
@@ -166,7 +166,8 @@ Sur la **face haute deux boutons sont disponibles**, l'un concerne la fonction w
 
 {% picture posts/{{ page.guid }}/kit-wireless-smart-thermostat-x-module-connection-chaudiere-sous-le-capot.png --alt Présentation connectique et code lumière du module de gestion chaudière avec protocole Thread du démarrage Wireless smart thermostat x par Tado° --img width="940" height="529" %}
 
-Pour les voyants en partant de la gauche tu as:
+**Pour les voyants en partant de la gauche tu as:**
+
 - le voyant d'alimentation
 - les **3 voyants de connections** au réseau wifi domestique
 - le voyant **reset/boost/chauffage**
@@ -197,7 +198,7 @@ La **sonde de température** fournis avec le wireless kit est similaire au therm
 - 3 x piles AAA
 - carton d'information Matter.
 
-{% include product-embed.html image="sonde-temperature-deporte-tado.png" title="Sonde de temperature déporté tado" brand="Tado°" description="sSonde de température déportée Tado communique directement avec les robinets thermostatiques Tado" amazlink="4hAdtt7" %}
+{% include product-embed.html image="sonde-temperature-deporte-tado.png" title="Sonde de temperature déporté tado" brand="Tado°" description="Sonde de température déportée Tado communique directement avec les robinets thermostatiques Tado" amazlink="4hAdtt7" %}
 
 **Dans l'envirronnement Tado°** ( en passant par l'application ), la **sonde de température** ou même le thermostat, **ont leurs importances**.
 Lorsque tu les intègrent **dans la même pièce** qu'un ou plusieurs robinets thermostatiques tado X, **ce ne seras plus la température** du robinet qui sera relevé ( car elle peut être faussée du fait de la proximité des radiateurs ) **mais ce sera la température relevée par la sonde qui sera utilisé**. 
@@ -244,7 +245,7 @@ Cependant si tu désires **concerver la fonction boost**{: .red} sans devoir cr�
 - clic sur **l'icone Home Assistant** si ça ne fonctionne pas tu peux aussi sélectionner une des deux autres intégrations.
 
 > il te suffit ensuite **de suivre les étapes**.
-> 
+
 {% picture posts/{{ page.guid }}/partage-les-appareils-tado-avec-home-assistant-grace-a-matter-2nd-etape.png --alt 2nd étape des appareils tado entre l'appli officielle et home assistant --img width="940" height="529" %}
 
 **Maintenant les appareils sont partagés à home assistant**
@@ -292,6 +293,8 @@ En te **posant les bonnes questions** tu pourras facilement choisir entre le kit
 - Une **sonde thermostatique coûte 100€**
 
 **Les tarifs sont élevés** mais Tado° a le mérite de **fabriquer actuellement les meilleurs produits du marché, facile à installer et à utiliser.**
+
+{% include product-embed.html image="kit-wireless-smart-thermostat-x-tado.png" title="Wireless Smart Thermostat X" brand="Tado°" description="starter kit pour contrôler ta chaudière avec thermostat d'origine reliée sans fil Tado fonctionne aussi en filaire" amazlink="3DNUEoy" %}
 
 ## Conclusion
 
