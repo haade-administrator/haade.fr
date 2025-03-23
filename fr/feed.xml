@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Mar 2025 04:09:23 +0100</pubDate>
-    <lastBuildDate>Wed, 19 Mar 2025 08:15:00 +0100</lastBuildDate>
+    <pubDate>Sun, 23 Mar 2025 11:36:09 +0100</pubDate>
+    <lastBuildDate>Sun, 23 Mar 2025 10:27:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Domotise Ton logement avec Tado° En vidéo</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <dc:creator><![CDATA[August]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p></p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.png" alt="Domotise Ton logement avec Tado° En vidéo">
+</picture>
+
+      <p>Bonjour à tous après plusieurs tutos des produits de la marque Tado° et pour conclure, Jacques Gyver et Nicole ont tous deux décidé de se lancer dans l’aventure Tado° en vidéo. Cette vidéo comme quelques autres a pour ligne de conduite, l’humour et la domotique. Jacques et Nicole s’attaquent à [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place">Domotise Ton logement avec Tado° En vidéo</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 23 Mar 2025 10:27:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place</guid>
+      <category><![CDATA[Videos]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Tado° quel starter kit choisir ?</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -74,9 +96,9 @@
       <description>
       <![CDATA[
       <p>Deuxième étape de présentation de l&apos;univers Tado, je vais te montrer tout le processus d&apos;utilisation de l&apos;interface Tado et de ses particularités</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-5e0632e21.png" alt="Test de l'interface du chauffage Tado°">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.png" alt="Test de l'interface du chauffage Tado°">
 </picture>
 
       <p>Voilà dans une continuité de présentation de l’univers Tado° suite à la présentation du robinet thermostatique Tado° X, je vais aujourd’hui te présenter l’application Tado° de ses particularités et surtout ce qui différencie la gestion du Chauffage Tado° et la gestion par rapport aux autres marques.
@@ -220,27 +242,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Domotise facilement ton compteur d&apos;eau grâce à Homewizard</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Sujet très demandé, relever sa consommation d&apos;eau à tout moment fait parti des instances les plus sollicitées, homewizard a créé un module wifi capable de s&apos;adapter à l&apos;ensemble des compteurs européens</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-domotise-compteur-eau-home-assistant-720-721796f34.png" alt="Domotise facilement ton compteur d'eau grâce à Homewizard">
-</picture>
-
-      <p>Voilà un sujet qui en intéressera plus d’un, mais attention il ne relèvera pas du miracle ! mais je te propose un nouveau module fabriqué par une société Néerlandaise Homewizard, le watermeter HWE-WTR-23. c’est un produit qui fonctionne en wifi et qui relève la consommation d’eau grâce à un récepteur [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard">Domotise facilement ton compteur d'eau grâce à Homewizard</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 05 Jan 2025 14:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-facilement-ton-compteur-d-eau-sans-coder-avec-homewizard</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

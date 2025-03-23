@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Mar 2025 04:09:23 +0100</pubDate>
-    <lastBuildDate>Wed, 19 Mar 2025 08:15:00 +0100</lastBuildDate>
+    <pubDate>Sun, 23 Mar 2025 11:36:09 +0100</pubDate>
+    <lastBuildDate>Sun, 23 Mar 2025 10:27:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -75,9 +75,9 @@
       <description>
       <![CDATA[
       <p>Second step of presentation of the Tado universe, I will show you the whole process of using the Tado interface and its particularities</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-261815246.png" alt="Testing the Tado° heating interface">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.png" alt="Testing the Tado° heating interface">
 </picture>
 
       <p>Here is a continuation of the presentation of the Tado° universe following the presentation of the Tado° X thermostatic faucet, Today I will introduce you to the Tado° application, its special features and especially what differentiates the management of Tado° Heating and management from other brands.
