@@ -4,7 +4,7 @@ title: "Domotise ton chauffage avec Sonoff NSPanel Pro"
 description: "Lors d'un Live Youtube nous allons tenter de domotiser l'appartement d'August avec des produits de l'univers Sonoff, le tout piloté par le fameux NSPanel Pro 120 au firmware d'origine, nous espérons vous voir nombreux et répondre à vos questions."
 ref: ""
 layout: post
-authors: [Nico]
+authors: [Nico, August]
 date: 2024-10-03 16:45
 last_modified_at: 
 categories: [Videos, Haade-lab, News]

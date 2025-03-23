@@ -9,7 +9,7 @@ date: 2025-03-05 11:00
 last_modified_at: 
 categories: [Tests, Videos, Haade-lab]
 tags: []
-video:
+video: 'bJK9krRC90Q'
 image: 'controle-ton-installation-tado-par-application-officielle.png'
 toc: true
 beforetoc: ''
