@@ -1,113 +1,101 @@
 ---
 guid: 160
-title: "Comparatif Cam Slim VS Gen 2 Sonoff"
-description: "Comparatif des deux caméras Sonoff du moment Cam Slim et Cam Slim Gen 2 alors laquelle Choisir ?"
+title: "Cam Slim VS Gen 2 Sonoff Comparison"
+description: "Comparison of the two Sonoff cameras of the moment Cam Slim and Cam Slim Gen 2 so which one to choose?"
 ref: ""
 layout: post
 authors: [Nico]
 date: 2025-04-02 13:30
 last_modified_at: 
-categories: [Haade-lab, Securite]
+categories: [Haade-lab, Security]
 tags: []
 video: 
 image: 'comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
   exclude: 'no'
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
-locale: fr_FR
+locale: en_GB
 comments: true
 rating: 4.8 
 sourcelink:
-  - 
 ---
 
-Ajourd'hui comparons les deux caméras du moment **Sonoff** disponibles à **moins de 30€** chez tous les commerçants auxquels nous sommes affiliés. Je remercie **Domadoo et Itead** de m'avoir fournis ce matériel.
+Today, let's compare the two currently available Sonoff cameras for less than €30 from all our affiliated retailers. I'd like to thank Domadoo and Itead for providing me with this equipment.
 
 ## Sonoff Cam Slim Gen 1
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Caméra Sonoff Cam Slim" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Sonoff Cam Slim Camera FHD" brand="Sonoff" description="Sonoff Cam Slim small wifi camera" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
 
-La caméra Slim FHD est la première caméra de la marque. Elle fonctionne en wifi. 
+The Slim FHD camera is the brand's first camera. It works with Wi-Fi.
 
-> D'ailleurs les deux caméras fonctionnent en Wifi.
+> Both cameras also work with Wi-Fi.
 
-{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim.png --alt Déballage Caméra wifi sonoff Cam Slim --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim.png --alt Unboxing the Sonoff Cam Slim Wi-Fi Camera
 
-**La boite contient:**
+> Both cameras work via Wi-Fi. --img width="940" height="529" %}
 
-- les notices
-- la caméra
-- un **autocollant** de fixation
-- des visses et chevilles
-- un cable usb-c de **50cm**
+**The box contains:**
 
-{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-particularite.png --alt Déballage et particularité Caméra wifi sonoff Cam Slim --img width="940" height="529" %}
+- Instructions
+- The camera
+- A **mounting sticker**
+- Screws and wall plugs
+- A **50cm** USB-C cable
 
-**La caméra Slim est très bien emballée sur la face avant on retrouve:**
+{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-particularite.png --alt Unboxing and special features of the Sonoff Cam Slim wifi camera --img width="940" height="529" %}
 
-- 2 lumières infrarouges **mais très dicrètes**
-- une lumière bleu de fonctionnement
-- un micro
-- un capteur de mouvement
+**The Slim camera is very well packaged. On the front, we find:**
 
-{% picture posts/{{ page.guid }}/caracteristique-sonoff-camera-slim.png --alt Caractéristique spécifique de la Caméra wifi Sonoff Cam Slim --img width="940" height="529" %}
+- 2 infrared lights **but very discreet**
+- A blue operating light
+- A microphone
+- A motion sensor
 
-**La cam Slim de Sonoff a les caractéristiques vidéos suivantes:**
+{% picture posts/{{ page.guid }}/caracteristique-sonoff-camera-slim.png --alt Specific feature of Sonoff Cam Slim wifi camera --img width="940" height="529" %}
 
-- Capture 1920x1080p FHD
-- capteur infra rouge
-- 2 voies audio
-- capteur de mouvement
+**The Sonoff Slim Cam has the following video specifications:**
 
-**Sur la face arrière:**
+- 1920x1080p FHD capture
+- Infrared sensor
+- 2-way audio
+- Motion sensor
 
-- tu auras l'alimentation usb(c)
-- ainsi que le haut-parleur
+**On the back:**
 
-La caméra se **déboite du support facilement**, et te laissera l'accès à la sdcard pour un stockage futur.
+- You'll find the USB(C) power port
+- As well as the speaker
 
-**Le support est bien réalisé**, orientable sur un axe 360°, ce support est assez lourd et leste facilement la caméra.
+The camera **easily detaches from the mount**, giving you access to the SD card for future storage.
 
-#### **les + de la caméra Slim Sonoff** {{ page.ref }}
+**The mount is well made**, rotating 360°. This mount is quite heavy and easily weighs down the camera.
+
+#### **Pros of the Sonoff Slim Camera** {{ page.ref }}
 {: .blue}
 
-- Qualité du produit
-- le prix ( 30€ environs )
-- résolution **élevée**
-- grand **angle 130°**
-- compatible Ewelink
-- Support **RTSP** ( idéal pour nvr de type frigate)
-- détection de mouvement
-- support de **caméra stable**
+- Product quality
+- Price (around €30)
+- **High resolution**
+- 130° **wide angle**
+- Ewelink compatible
+- **RTSP** support (ideal for Frigate-type NVRs)
+- Motion detection
+- Stable camera support
 
-#### **les - de la caméra Slim Sonoff** {{ page.ref }}
+#### **Cons of the Sonoff Slim Camera** {{ page.ref }}
 {: .red}
 
-- Appairage ancien
-- pas de détection AI
-- cable usb-c court
-- absence **de paramétrage de zones**
+- Old pairing
+- No AI detection
+- Short USB-C cable
+- No **zone settings**
 
-### Caractéristiques Cam Slim S-cam
-
-|Caméra Slim|S-CAM|
-|Modèle|CAM Slim|
-|Norme de compression vidéo|H.264|
-|Entrée|5 VCC 1 A|
-|Wi-Fi|IEEE 802.11 b/g/n 2,4 GHz|
-|Résolution|1080p|
-|Plan de caméra|[https://itead.cc/camera-plan/](https://itead.cc/camera-plan/){: target="_blank"}|
-|Température de fonctionnement|-10 °C~40 °C|
-|Dimensions|91x53x44.5mm|
-|compression video|H264|
-|Ouverture de l'objectif|F2.3|
-|Objectif grand angle|130°|
+### Features Cam Slim S-cam
 
 |CAM Slim Bundle|S-CAM|
 |Model|CAM Slim|
@@ -120,84 +108,69 @@ La caméra se **déboite du support facilement**, et te laissera l'accès à la 
 |Lens Aperture|F2.3|
 |Wide Angle Lens|130°|
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Caméra Sonoff Cam Slim" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Sonoff Cam Slim Camera FHD" brand="Sonoff" description="Sonoff Cam Slim small wifi camera" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
 
 ## Sonoff Cam Slim Gen 2
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Caméra Sonoff Cam Slim Gen 2" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim Gen 2 la dernière de la gamme" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Sonoff Cam Slim Gen 2 Camera" brand="Sonoff" description="Small wifi camera Sonoff Cam Slim Gen 2 the latest in the range" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
 
-**La caméra Sonoff CAM Slim Gen 2 est fourni avec:**
+**The Sonoff CAM Slim Gen 2 camera comes with:**
 
-- une notice
-- un gabarit de perçage
-- des visses et chevilles
-- un cable usb-c de 2m
-- une caméra gen 2
+- Instructions
+- A drilling template
+- Screws and wall plugs
+- A 2m USB-C cable
+- A Gen 2 camera
 
-{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-gen-2.png --alt Déballage Caméra wifi sonoff Cam Slim Gen 2 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-gen-2.png --alt Unboxing Sonoff Cam Slim Gen 2 WiFi Camera --img width="940" height="529" %}
 
-**L'emballage est optimisé sur la caméra tu retrouveras:**
+**The packaging is optimized for the camera, you'll find:**
 
-- une led bleu de fonctionnement
-- un micro
-- des hauts parleurs sous la caméra
-- **tu noteras l'absence de led infrarouge** ( un plus pour une discrétion de nuit )
+- A blue LED indicator light
+- A microphone
+- Speakers under the camera
+- **Note the absence of an infrared LED** (a plus for nighttime discretion)
 
-{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-gen-2-particularite.png --alt Déballage Caméra wifi sonoff Cam Slim Gen 2 particularité caméra --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/unboxing-sonoff-camera-slim-gen-2-particularite.png --alt Unboxing Sonoff Cam Slim Gen 2 wifi camera camera feature --img width="940" height="529" %}
 
-Continuons en image la cam slim gen 2 est dotée:
+Continuing with the images, the Gen 2 Slim Cam features:
 
-- d'un bouton reset facile d'accès
-- d'un **qrcode** afin de faciliter l'appairage
-- d'un emplacement sdcard
-- d'un **second haut parleur** sur la face arrière
-- sous le support des emplacements pour la fixation par visse
+- an easy-to-access reset button
+- a QR code to facilitate pairing
+- an SD card slot
+- a second speaker on the back
+- screw mounting slots under the bracket
 
-{% picture posts/{{ page.guid }}/caracteristique-sonoff-camera-slim-gen-2.png --alt Caractéristique Caméra wifi sonoff Cam Slim Gen 2 et particularité caméra --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/caracteristique-sonoff-camera-slim-gen-2.png --alt Sonoff Cam Slim Gen 2 wifi camera feature and camera special feature --img width="940" height="529" %}
 
-La cam slim Gen 2 se différencie de la cam slim grâce à sa **détection intelligente** de présence humaine. En cas de détection une notification remontera. C'est un plus mais pas obligatoire. Car si tu n'utilises pas l'application officielle, mais un gestionnaire nvr de type frigate, celui-ci gère déjà les détections AI pour tous types de caméras.
+The Gen 2 Slim Cam differs from the Slim Cam thanks to its **intelligent detection** of human presence. In case of detection, a notification will be sent. This is a plus but not mandatory. Because if you don't use the official app, but an NVR manager like Frigate, it already manages AI detections for all types of cameras.
 
-{% picture posts/{{ page.guid }}/difference-detection-humaine-cam-slim-gen-2.png --alt détection humaine dans l'application Ewelink de la cam slim gen 2 par Sonoff --img width="640" height="1422" %}
+{% picture posts/{{ page.guid }}/difference-detection-humaine-cam-slim-gen-2.png --alt Human detection in the Ewelink app of the slim gen 2 cam by Sonoff --img width="640" height="1422" %}
 
-#### **les + de la caméra cam Slim gen 2 Sonoff** {{ page.ref }}
+#### **Pros of the Sonoff Slim Gen 2 Camera** {{ page.ref }}
 {: .blue}
 
-- Qualité du produit
-- le prix **( moins de 30€ )**
-- résolution **élevée** 1920x1080px fhd
-- compatible Ewelink
-- Support **RTSP** ( idéal pour nvr de type frigate)
-- détection de mouvement
-- détection par **présence humaine**
-- un cable usb-c de **2m**
-- tarif inférieur à la cam slim
-- **mise en veille** de la caméra
-- possibilité de **paramétrer des zones**
-- Appairage moderne par qrcode
+- Product quality
+- Price **(less than €30)**
+- **High resolution** 1920x1080px FHD
+- Ewelink compatible
+- **RTSP **support (ideal for Frigate-type NVRs)
+- Motion detection
+- **Human presence** detection
+- A **2m** USB-C cable
+- Lower price than the Slim Cam
+- Camera sleep mode
+- Ability to **configure zones**
+- Modern QR code pairing
 
-
-#### **les - de la caméra cam Slim gen 2 Sonoff** {{ page.ref }}
+#### **Cons of the Sonoff Slim Gen 2 Camera** {{ page.ref }}
 {: .red}
 
-- support instable
-- absence de **grand angle**
-- absence de fixation par autocollant double face
+- Unstable stand
+- **No wide angle**
+- No double-sided sticker mounting
 
-### Caractéristiques de la cam slim gen 2
-
-|Modèle|CAM-S2|
-|Entrée|5 V ⎓ 1 A|
-|Température de fonctionnement|-10 °C à 40 °C|
-|Dimensions|48x46x86,5mm|
-|compression video|H264|
-|Focale de l'objectif|3,8 mm|
-|Pixels de la caméra|2 millions de pixels|
-|Résolution|1920 × 1080|
-|Interface|Type-C|
-|Wi-Fi|IEEE 802.11 b/g/n 2,4 GHz|
-|Ouverture de l'objectif|F2.0|
-|Stockage Cloud et carte TF|(128 Go max. pour la carte TF)|
-|Couleur|Blanc|
+### Features of the Slim Gen 2 Cam
 
 |Model|CAM-S2|
 |Input|5V⎓1A|
@@ -211,87 +184,88 @@ La cam slim Gen 2 se différencie de la cam slim grâce à sa **détection intel
 |Storage methods|Cloud storage and TF card (Max.128GB for TF card)|
 |Color|White|
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Caméra Sonoff Cam Slim Gen 2" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim Gen 2 la dernière de la gamme" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Sonoff Cam Slim Gen 2 Camera" brand="Sonoff" description="Small wifi camera Sonoff Cam Slim Gen 2 the latest in the range" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
 
-## Différences
+## Differences
 
-Malgré des **dimensions similaires**, il en est tout autre pour les boites, à noter que le support de la cam slim est plus imposant mais plus pratique.
+Despite **similar dimensions**, the cases are quite different. Note that the Slim Cam's mount is larger but more practical.
 
-En ce qui concerne les **différences physiques** les plus importantes se situent au **niveau du support**, quand à la caméra **slim, elle est d'aspect ronde** et la **gen 2 carré**.
+Regarding the most significant **physical differences**, the mount is in the Slim Cam. The **Slim Cam is round**, while the **Gen 2 is square**.
 
-{% picture posts/{{ page.guid }}/caracteristique-visuelle-et-difference-camera-slim-vs-gen-2-par-sonoff.png --alt Caracteristique visuelle et différence Caméra wifi sonoff Cam Slim vs cam slim Gen 2 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/caracteristique-visuelle-et-difference-camera-slim-vs-gen-2-par-sonoff.png --alt Visual characteristic and difference Sonoff Cam Slim wifi camera vs cam slim Gen 2 --img width="940" height="529" %}
 
-Concernant l'image la Sonoff Cam Slim dispose d'un **grand angle de 130°** ce qui est intéressant pour les petites pièces avec peu de recules. l'image de celle-ci **est moins colorée/contrastée** que la Gen 2.
+Regarding the image, the Sonoff Cam Slim has a **130° wide angle** which is interesting for small rooms with little space. The image from it **is less colorful/contrasted** than the Gen 2.
 
-{% picture posts/{{ page.guid }}/comparatif-image-camera-sonoff-cam-slim-vs-sonoff-cam-slim-gen-2.png --alt Comparatif image Caméra wifi sonoff Cam Slim vs cam slim Gen 2 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/comparatif-image-camera-sonoff-cam-slim-vs-sonoff-cam-slim-gen-2.png --alt Sonoff Cam Slim vs Cam Slim Gen 2 WiFi Camera Comparison --img width="940" height="529" %}
 
 
-## l'application Ewelink
+## the Ewelink app
 
-Les caméras Sonoff sont compatibles avec l'application **Ewelink** mais elles fonctionnent aussi avec "ok google" et "Alexa" ***de plus le mode RTSP ouvre ces caméras à bien d'autres systèmes.***
+Sonoff cameras are compatible with the **Ewelink** app, but they also work with "OK Google" and "Alexa." ***Plus, the RTSP mode opens these cameras to many other systems.***
 
-Bon comme le reste de la gamme Wifi si tu veux utiliser ce produit il te faudra télécharger l'application Ewelink dispo sur [android](https://play.google.com/store/apps/details?id=com.coolkit&hl=fr&gl=US){: target="_blank"} et [Apple Store](https://apps.apple.com/fr/app/ewelink-smart-home/id1035163158){: target="_blank"}.
+Well, like the rest of the Wifi range, if you want to use this product you will need to download the Ewelink application available on [android](https://play.google.com/store/apps/details?id=com.coolkit&hl=fr&gl=US){: target="_blank"} and [Apple Store](https://apps.apple.com/fr/app/ewelink-smart-home/id1035163158){: target="_blank"}.
 
-{% include qrlink.html qrlink="https://sonoff.tech/ewelink/" text="télécharger l'application Ewelink directement pour Android ou Apple" realtextlink="Applications Ewelink pour Smartphone" %}
+{% include qrlink.html qrlink="https://sonoff.tech/ewelink/" text="download the Ewelink app directly for Android or Apple" realtextlink="App Ewelink for Smartphone" %}
 
-**Pour commencer l'appairage de la Cam Slim se fait par:**
+**To begin, pair the Slim Cam using:**
 
-- commande sonore afin de paramétrer le wifi du réseau. 
-- Tu peux aussi te connecter manuellement au wifi de la camér pour la retrouver dans l'application Ewelink et ainsi la paramétrer.
+- A sound command to configure the network's Wi-Fi.
+- You can also manually connect to the camera's Wi-Fi to find it in the Ewelink app and configure it.
 
-**Il s'agit là de l'ancien mode d'appairage**.
+**This is the old pairing method**.
 
-L'appairage de **la Cam slim Gen 2** se fait par QRCode, **beaucoup plus simple**
+Pairing the **Slim Cam Gen 2** is done using a QR code, which is much simpler.
 
-> L'interface Ewelink de gestion des caméras est intuitif et fonction parfaitement, comme je l'ai déjà présenté dans divers articles Ewelink est une propriété Sonoff et l'application est très bien faite.
+> The Ewelink camera management interface is intuitive and works perfectly, as I've already discussed in various articles. Ewelink is a Sonoff product, and the app is very well designed.
 
-{% picture posts/{{ page.guid }}/cam-slim-ewelink-sonoff-caracteristique.png --alt Caractéristique spécifique de la Caméra wifi Sonoff Cam Slim dans Ewelink --img width="640" height="1422" %}
+{% picture posts/{{ page.guid }}/cam-slim-ewelink-sonoff-caracteristique.png --alt Specific feature of Sonoff Cam Slim wifi camera in Ewelink --img width="640" height="1422" %}
 
-**Les fonctions sont nombreuses est variées tu pourras:**
+**The functions are numerous and varied, you can:**
 
-- mettre à jour le firmware
-- changer le nom
-- partager la caméra
-- créer des **scènes intelligentes**
-- **allumer ou éteindre le voyant bleu** indicateur de fonctionnement ( la gen 2 sera totalement discrète la nuit )
-- stocker dans le cloud
-- paramétrer la détection de mouvement ( activer/désactiver, type, **créer des zones (gen-2 uniquement)**, régller la sensibilité, la durée, activer les notifications push )
-- paramétrer l'enregistrement en local sur carte sd
-- pivoter l'image
-- plus de paramètres ( réglage du son, volume du micro, **mise en veille (gen-2)**, régler leprotocole RTSP, **paramétrer des zones privées (gen-2)**, activer le filigrane, **paramétrer date et heure (cam-slim)** et redémarrer le système )
-- paramétrer le wifi
-- activer la vision nocturne ( auto, on, off )
-- activer l'alarme 
+- Update the firmware
+- Change the name
+- Share the camera
+- Create **smart scenes**
+- Turn the blue LED on or off (the Gen 2 will be completely discreet at night)
+- Store in the cloud
+- Set up motion detection (enable/disable, type, **create zones (Gen 2 only)**, adjust sensitivity, duration, enable push notifications)
+- Set up local recording on SD card
+- Rotate the image
+- More settings (adjust sound, microphone volume, **sleep time (Gen 2)**, set RTSP protocol, set privacy zones (Gen 2)**, enable watermark, set date and time (Cam-Slim)** and reboot the system)
+- Set up Wi-Fi
+- Enable night vision (auto, on, off)
+- Enable the alarm
 
-{% picture posts/{{ page.guid }}/fonction-ewelink-camera-sonoff-slim-et-gen-2.png --alt fonctions spécifique de la Caméra wifi Sonoff Cam Slim et gen 2 dans Ewelink --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/fonction-ewelink-camera-sonoff-slim-et-gen-2.png --alt specific functions of the Sonoff Cam Slim and gen 2 wifi camera in Ewelink --img width="940" height="529" %}
 
-Ci dessous **4 captures pour le paramétrage RTSP** ( fonction importantes et dispos pour les deux caméras ).
-Tu pourras même **générer un lien RTSP pratique pour connaître l'adresse exacte** de liaison généré en fonction de ton adresse locale et mot de passe.
+Below are **4 screenshots for RTSP setup** (important features available for both cameras).
+You can even **generate a handy RTSP link to find the exact address** of the connection generated based on your local address and password.
 
-{% picture posts/{{ page.guid }}/fonction-rtsp-ewelink-camera-sonoff-slim-et-gen-2.png --alt fonctions RTSP spécifique de la Caméra wifi Sonoff Cam Slim et gen 2 dans Ewelink --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/fonction-rtsp-ewelink-camera-sonoff-slim-et-gen-2.png --alt Specific RTSP functions of the Sonoff Cam Slim and gen 2 wifi camera in Ewelink --img width="940" height="529" %}
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Caméra Sonoff Cam Slim" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Sonoff Cam Slim Camera FHD" brand="Sonoff" description="Sonoff Cam Slim small wifi camera" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
 
-## Laquelle Choisir ?
+## Which One to Choose?
 
-Les fonctions des deux caméras sont relativement similaire, **la qualité d'image est identique** **( la version gen 2 ) a un contraste plus élevé**.
-Les dimensions sont relativements similaires.
-toutes deux sont compatibles RTSP.
+The features of both cameras are relatively similar. **The image quality is identical** (the Gen 2 version) has higher contrast**.
+The dimensions are relatively similar.
+Both are RTSP compatible.
 
-- Si tu es intéressé par une caméra **grand angle** alors la Cam Slim est faite pour toi.
-- **Si le support et le maintien stable** est important alors la Cam Slim est faite pour toi.
-- Si les voyants infrarouges ne te dérangent pas la Cam Slim est faite pour toi.
+- If you're interested in a **wide-angle** camera, then the Slim Cam is for you.
+- **If support and stability** are important, then the Slim Cam is for you.
+- If infrared LEDs don't bother you, the Slim Cam is for you.
 
-Si tu es intéressé par une caméra qui capture **les détections humaines** alors la Gen 2 est faite pour toi.
-Si tu veux une caméra **ultra discrète la nuit** alors la Gen 2 est faite pour toi.
-Si tu as besoin de **paramétrer des zones actives** dans Ewelink alors la Gen 2 est faite pour toi. 
-Si tu veux mettre ta **caméra en hibernation** alors la Gen 2 est faite pour toi.
+If you're interested in a camera that captures **human detection**, then the Gen 2 is for you.
+If you want a camera that's **ultra discreet at night**, then the Gen 2 is for you.
+If you need to **set up active zones** in Ewelink, then the Gen 2 is for you.
 
-{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Caméra Sonoff Cam Slim Gen 2" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim Gen 2 la dernière de la gamme" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
+If you want to put your **camera into hibernation** then the Gen 2 is for you.
+
+{% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Sonoff Cam Slim Gen 2 Camera" brand="Sonoff" description="Small wifi camera Sonoff Cam Slim Gen 2 the latest in the range" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
 
 ## Conclusion
 
-Sonoff propose actuellement 2 caméras, la [cam slim FHD](https://www.domadoo.fr/fr/peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html?domid=39){: target="_blank"} et la [cam Slim Gen2](https://www.domadoo.fr/fr/black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html?domid=39){: target="_blank"}. **Ces deux caméras sont de qualités**, l'intégration avec **l'envirronnement Ewelink est parfait** et des plus complets. Si tu veux sécuriser l'intérieur de ton logement alors ces deux caméras sont faites pour toi, j'ai tout de même une **préférence pour la cam slim Gen 2**. 
+Sonoff currently offers two cameras: the [FHD Slim Cam](https://www.domadoo.fr/fr/peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html?domid=39){: target="_blank"} and the [cam Slim Gen2](https://www.domadoo.fr/fr/black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html?domid=39){: target="_blank"}. **These two cameras are high-quality**, and the integration with the **Ewelink environment is perfect** and very comprehensive. If you want to secure the interior of your home, then these two cameras are for you. I still have a **preference for the Slim Gen 2 Cam**.
 
-> Bref ces deux caméras sont **vendus 30€ environ** et pour le prix tu seras pleinement conquis ?
+> In short, these two cameras are **sold for around €30**, and for the price, you'll be completely won over.
 
