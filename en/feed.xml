@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Apr 2025 13:56:10 +0200</pubDate>
+    <pubDate>Wed, 02 Apr 2025 14:11:53 +0200</pubDate>
     <lastBuildDate>Wed, 02 Apr 2025 13:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Cam Slim VS Gen 2 Sonoff Comparison</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Comparison of the two Sonoff cameras of the moment Cam Slim and Cam Slim Gen 2 so which one to choose?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png" alt="Cam Slim VS Gen 2 Sonoff Comparison">
+</picture>
+
+      <p>Today, let’s compare the two currently available Sonoff cameras for less than €30 from all our affiliated retailers. I’d like to thank Domadoo and Itead for providing me with this equipment.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose">Cam Slim VS Gen 2 Sonoff Comparison</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 02 Apr 2025 13:30:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Security]]></category>
+    </item>
     <item>
       <title>Tado° which starter kit should I choose?</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -221,29 +243,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Home Assistant unveils its new product, the voice preview edition</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>As a preview we are testing the home assistant voice Preview Edition, the first product in this range for Nabu Casa, control your home locally by voice okay Nabu a first! Magical!</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/148/test-preview-edition-home-assistant-voice-first-product-by-home-assistant-720-e545b84a7.png" alt="Home Assistant unveils its new product, the voice preview edition">
-</picture>
-
-      <p>This is very interesting news for the opensource home automation community. Nabu casa, which needs no introduction, has released its first functional voice assistant, practical and for 100% local use.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition">Home Assistant unveils its new product, the voice preview edition</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 19 Dec 2024 22:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/home-assistant-unveils-home-assistant-voice-preview-edition</guid>
-      <category><![CDATA[Test]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
