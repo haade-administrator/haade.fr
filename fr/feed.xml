@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Apr 2025 05:07:59 +0200</pubDate>
-    <lastBuildDate>Sun, 23 Mar 2025 10:27:00 +0100</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2025 13:55:23 +0200</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2025 13:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Comparatif Cam Slim VS Gen 2 Sonoff</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Comparatif des deux caméras Sonoff du moment Cam Slim et Cam Slim Gen 2 alors laquelle Choisir ?</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png" alt="Comparatif Cam Slim VS Gen 2 Sonoff">
+</picture>
+
+      <p>Ajourd’hui comparons les deux caméras du moment Sonoff disponibles à moins de 30€ chez tous les commerçants auxquels nous sommes affiliés. Je remercie Domadoo et Itead de m’avoir fournis ce matériel.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir">Comparatif Cam Slim VS Gen 2 Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 02 Apr 2025 13:30:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Securite]]></category>
+    </item>
     <item>
       <title>Domotise Ton logement avec Tado° En vidéo</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -221,27 +243,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Test du Micro Module Contact-Sec Matter Wifi Sonoff</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Sonoff dévoile son premier micro module contact sec compatible Matter/wifi le Mini-D</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-sec-ideal-portes-de-garages-720-6d433956b.png" alt="Test du Micro Module Contact-Sec Matter Wifi Sonoff">
-</picture>
-
-      <p>Peu nombreux sur le marché et souvent sous exploité, les modules domotisés à fonction contact-sec sont très peu représentés surtout suivant le protocole de communications choisi, en Zigbee quasi inexistant, un peu mieux en wifi et plus souvent présent en z-wave. Sonoff sort son premier micro module contact-sec le Mini-D, [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d">Test du Micro Module Contact-Sec Matter Wifi Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 23 Jan 2025 08:29:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-Micro-controlleur-contact-sec-wifi-matter-Sonoff-mini-d</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
