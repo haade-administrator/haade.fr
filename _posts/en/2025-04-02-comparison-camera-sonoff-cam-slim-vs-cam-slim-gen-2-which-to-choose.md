@@ -13,7 +13,7 @@ video:
 image: 'comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -109,6 +109,17 @@ La caméra se **déboite du support facilement**, et te laissera l'accès à la 
 |Ouverture de l'objectif|F2.3|
 |Objectif grand angle|130°|
 
+|CAM Slim Bundle|S-CAM|
+|Model|CAM Slim|
+|Video Compression Standard|H.264|
+|Input|5VDC 1A|
+|Wi-Fi|IEEE 802.11 b/g/n 2.4GHz|
+|Resolution|1080P|
+|Camera Plan|[https://itead.cc/camera-plan/](https://itead.cc/camera-plan/){: target="_blank"}|
+|Working Temperature|-10°C~40°C|
+|Lens Aperture|F2.3|
+|Wide Angle Lens|130°|
+
 {% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.png" title="Caméra Sonoff Cam Slim" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim" iteadlink="sonoff-cam-slim-wi-fi-smart-security-camera" domlink="peripheriques/6334-sonoff-camera-de-securite-intelligente-wi-fi-cam-slim.html" affiliate="_ooQApu9" amazlink="4iTeqye" %}
 
 ## Sonoff Cam Slim Gen 2
@@ -187,6 +198,18 @@ La cam slim Gen 2 se différencie de la cam slim grâce à sa **détection intel
 |Ouverture de l'objectif|F2.0|
 |Stockage Cloud et carte TF|(128 Go max. pour la carte TF)|
 |Couleur|Blanc|
+
+|Model|CAM-S2|
+|Input|5V⎓1A|
+|Working temperature|-10°C~40°C|
+|Lens focal length|3.8mm|
+|Camera pixels|2 million pixels|
+|Resolution|1920×1080|
+|Interface type|Type-C|
+|Wi-Fi|IEEE 802.11 b/g/n 2.4GHz|
+|Lens aperture|F2.0|
+|Storage methods|Cloud storage and TF card (Max.128GB for TF card)|
+|Color|White|
 
 {% include product-embed.html image="sonoff-camera-de-securite-intelligente-wi-fi-cam-slim-gen-2.png" title="Caméra Sonoff Cam Slim Gen 2" brand="Sonoff" description="Petite caméra wifi Sonoff Cam Slim Gen 2 la dernière de la gamme" iteadlink="sonoff-cam-slim-gen2-smart-home-security-camera" domlink="black-friday-domotique/7475-sonoff-camera-de-securite-intelligente-wi-fi.html" affiliate="_om7AgeN" amazlink="4ldNcUr" %}
 
