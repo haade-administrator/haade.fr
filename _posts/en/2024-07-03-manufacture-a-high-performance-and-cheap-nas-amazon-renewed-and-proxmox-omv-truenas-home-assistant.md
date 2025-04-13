@@ -94,7 +94,7 @@ For **the installation of Proxmox, nothing very complicated**, start by download
 
 Find below the page of the site bringing together the VM or LXC installation scripts for the different software to be installed for the following steps.
 
-[Automated shel installers script for Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts){: target="_blank"}
+[Automated shell installers script for Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts){: target="_blank"}
 
 #### Change deposits
 
