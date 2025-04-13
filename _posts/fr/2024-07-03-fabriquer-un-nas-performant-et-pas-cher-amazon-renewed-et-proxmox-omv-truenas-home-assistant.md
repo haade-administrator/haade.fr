@@ -94,7 +94,7 @@ Pour **l'installation de Proxmox rien de bien compliqué**, commence par téléc
 
 Retrouve ci dessous la page du site regroupant les scripts d'installations VM ou LXC des différents soft à installer pour les étapes suivantes.
 
-[Script d'installations shel automatisés pour Proxmox VE](https://tteck.github.io/Proxmox/){: target="_blank"}
+[Script d'installations shel automatisés pour Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts){: target="_blank"}
 
 #### Changer les dépots 
 
@@ -148,7 +148,7 @@ Il existe de nombreuses façons d'installer des images dans un container:
 
 L'installation d'omv est **ultra simplifiée** grâce au script **tteck**. Rends toi dans l'onglet Proxmox et clic sur shell, pour accéder au terminal ensuite colle le script et lance le tout, après quelques minutes l'installation est terminée. Tu pourras te rendre sur OMV.
 
-[Script d'installations shell OMV automatisés pour Proxmox VE](https://tteck.github.io/Proxmox/#openmediavault-lxc){: target="_blank"}
+[Script d'installations shell OMV automatisés pour Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts?id=omv){: target="_blank"}
 
 En **règle général 8GO de mémoire sodimm DDR4 en 2133Mhz** suffisent pour faire tourner ces 1 Machine virtuelle, et deux containers LXC. Le plus gourmand reste Frigate cependant si tu décides d'avoir un système qui ne se retranche pas dans ses limites ou si tu décides de monter un système **RAID en ZFS** il te faudra davantage de mémoires je te conseil donc d'en rajouter/remplacer suivant le pc choisi.
 
@@ -179,7 +179,7 @@ Comme pour OMV ou Frigate l'installation de Homeassistant OS est tout aussi simp
 
 {%- include alert.html type="info" text="Attention à bien régler le nombre de coeur et la RAM en fonction des deux autres pour la stabilité de ton système." %}
 
-[Script d'installation shell HAOS automatisés pour Proxmox VE](https://tteck.github.io/Proxmox/#home-assistant){: target="_blank"}
+[Script d'installation shell HAOS automatisés pour Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts?id=haos-vm){: target="_blank"}
 
 ![Installation en 1 clic de Home Assistant OS comme machine virtuelle sur Proxmox VE à l'aide du script]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/installation-homeassistant-os-proxmox-lxc.webp{{ cachebuster }}){: width="940" height="472" class="lazyload pictaninpost"}
 
@@ -187,9 +187,9 @@ Comme pour OMV ou Frigate l'installation de Homeassistant OS est tout aussi simp
 
 Là aussi il existe un script pour installer Frigate dans un container LXC Proxmox, suis les étapes et tu auras un résultat positif. 
 
-Si suite à ça tu rencontres des difficultés avec l'accélération matérielle tu peux installer frigate à travers docker en installant [docker dans Proxmox](https://tteck.github.io/Proxmox/#docker-lxc){: target="_blank"}. Ainsi tu pourras paramétrer aux petits oignons l'instance Frigate avec toutes les options nécessaires.
+Si suite à ça tu rencontres des difficultés avec l'accélération matérielle tu peux installer frigate à travers docker en installant [docker dans Proxmox](https://community-scripts.github.io/ProxmoxVE/scripts?id=docker){: target="_blank"}. Ainsi tu pourras paramétrer aux petits oignons l'instance Frigate avec toutes les options nécessaires.
 
-[Script d'installations shell Frigate automatisés pour Proxmox VE](https://tteck.github.io/Proxmox/#frigate-lxc){: target="_blank"}
+[Script d'installations shell Frigate automatisés pour Proxmox VE](https://community-scripts.github.io/ProxmoxVE/scripts?id=frigate){: target="_blank"}
 
 > Mais si tu décides d'utiliser OMV comme NAS alors je te conseil de l'installer au travers du container LXC docker à côté de frigate et non via le script.
 
