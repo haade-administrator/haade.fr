@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2025-04-02T13:30:00+02:00</news:publication_date>
-          <news:title>Cam Slim VS Gen 2 Sonoff Comparison</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
