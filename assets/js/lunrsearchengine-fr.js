@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant",
     "title": "Test du portier Hikvision DS-KV8x13",
-    "description": "13/04/2025 - Test et intégration du portier Hikvision DS-KV8X13 et intégration complète dans Jome Assistant",
+    "description": "13/04/2025 - Test et intégration du portier Hikvision DS-KV8X13 avec une intégration complète dans Jome Assistant",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir",

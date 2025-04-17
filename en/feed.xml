@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Apr 2025 15:18:14 +0200</pubDate>
+    <pubDate>Thu, 17 Apr 2025 15:54:40 +0200</pubDate>
     <lastBuildDate>Sun, 13 Apr 2025 18:47:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Hikvision DS-KV8x13 Doorphone Review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Testing and integration of the Hikvision DS-KV8X13 doorphone with full integration into Jome Assistant</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png" alt="Hikvision DS-KV8x13 Doorphone Review">
+</picture>
+
+      <p>As part of a installation for access control in a town hall and already automated with Home Assistant, I bought a complete Hikvision kit because the price is attractive and I already know that I could control everything in Home Assistant.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/hikvision-ds-kv8x13-intercom-doorphone-test-and-home-assistant-integration">Hikvision DS-KV8x13 Doorphone Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 13 Apr 2025 18:47:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/hikvision-ds-kv8x13-intercom-doorphone-test-and-home-assistant-integration</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/hikvision-ds-kv8x13-intercom-doorphone-test-and-home-assistant-integration</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Videos]]></category>
+    </item>
     <item>
       <title>Cam Slim VS Gen 2 Sonoff Comparison</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,27 +245,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Easily automate your water meter with Homewizard</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>A highly requested topic, reading your water consumption at any time is one of the most requested instances, homewizard has created a wifi module capable of adapting to all European meters</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/149/homewizard-watermeter-hwe-wtr-13-home-automation-compatible-home-assistant-720-1a8ccae63.png" alt="Easily automate your water meter with Homewizard">
-</picture>
-
-      <p>This is a topic that will interest more than one, but be careful it will not be a miracle! but I propose you a new module manufactured by a Dutch company Homewizard, the watermeter HWE-WTR-23. It is a product that works in wifi and that records the water consumption thanks [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard">Easily automate your water meter with Homewizard</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 05 Jan 2025 14:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/easily-automate-your-water-meter-without-coding-with-homewizard</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

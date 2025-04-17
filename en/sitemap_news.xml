@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/hikvision-ds-kv8x13-intercom-doorphone-test-and-home-assistant-integration</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2025-04-13T18:47:00+02:00</news:publication_date>
+          <news:title>Hikvision DS-KV8x13 Doorphone Review</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
