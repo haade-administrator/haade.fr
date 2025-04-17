@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Apr 2025 05:05:17 +0200</pubDate>
-    <lastBuildDate>Wed, 02 Apr 2025 13:30:00 +0200</lastBuildDate>
+    <pubDate>Thu, 17 Apr 2025 15:18:14 +0200</pubDate>
+    <lastBuildDate>Sun, 13 Apr 2025 18:47:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test du portier Hikvision DS-KV8x13</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test et intégration du portier Hikvision DS-KV8X13 et intégration complète dans Jome Assistant</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png" alt="Test du portier Hikvision DS-KV8x13">
+</picture>
+
+      <p>Dans le cadre d’une installation pour contrôle d’accès d’une mairie et déjà domotisée avec Home Assistant, j’ai acheté un kit complet Hikvision car le prix est attractif et je sais dors et déjà que je pourrais contrôler l’ensemble dans Home Assistant.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant">Test du portier Hikvision DS-KV8x13</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 13 Apr 2025 18:47:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Videos]]></category>
+    </item>
     <item>
       <title>Comparatif Cam Slim VS Gen 2 Sonoff</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,29 +243,6 @@
       <link>https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/gamme-tado-veepee-remise-50-exceptionnel</guid>
       <category><![CDATA[News]]></category>
-    </item>
-    <item>
-      <title>Prépare un réseau Thread et Matter sur Home Assistant</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Découvre et prépare un routeur de bordure Thread avec matter afin d&apos;intégrer les nouveaux produits arrivant sur le marché avec Home Assistant, Thread un protocole exceptionnel</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-avec-thread-configure-border-router-pour-homeassistant-720-be09ae24e.png" alt="Prépare un réseau Thread et Matter sur Home Assistant">
-</picture>
-
-      <p>De nombreux articles sont disponibles sur le protocole de gestions des produits connectés Matter, actuellement il fonctionne avec le réseau Wifi ou le réseau Thread. Nous connaissons tous les avantages et inconvénients du wifi, mais as-tu déjà entendu parler de Thread ?
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module">Prépare un réseau Thread et Matter sur Home Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 30 Jan 2025 16:20:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/prepare-le-reseau-thread-matter-avec-home-assistant-et-integre-un-module</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
