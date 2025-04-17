@@ -1,7 +1,7 @@
 ---
 guid: 161
 title: "Test du portier Hikvision DS-KV8x13"
-description: "Test et intégration du portier Hikvision DS-KV8X13 et intégration complète dans Jome Assistant"
+description: "Test et intégration du portier Hikvision DS-KV8X13 avec une intégration complète dans Jome Assistant"
 ref: "DS-KV8X13"
 layout: post
 authors: [Nico]
@@ -38,7 +38,7 @@ Sur [aliexpress pour la modique somme de 386€ livré](https://s.click.aliexpre
 
 Photo du **kit fourni et livré de Pologne** en moins d'une semaine, cette commande me donne pleinement satisfaction.
 
-{% picture posts/{{ page.guid }}/kit-interphone-hikvision-ds-kv8213-ecran-kh6350-switch-poe.png --alt  kit portier, interphone hikvision ds-kv8x13 avec ecran ds-kh6350 et switch poe --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/kit-interphone-hikvision-ds-kv8213-ecran-kh6350-switch-poe.png --alt kit portier, interphone hikvision ds-kv8x13 avec ecran ds-kh6350 et switch poe --img width="940" height="529" %}
 
 {% include product-embed.html image="kit-portier-hikvision-ds-kv8113.png" title="Kit complet portier DS-KV8113" brand="Hikvision" description="Kit complet interphone hivision ds-kv8x13 avec écran, badge nfc et switch poe" affiliate="_onK2RLZ" %}
 
@@ -47,12 +47,12 @@ Photo du **kit fourni et livré de Pologne** en moins d'une semaine, cette comma
 J'ai choisi le **kit à encastrer** livré avec le portier, une boite d'encastrement ainsi qu'une casqueete de protection. Ce kit est livré avec:
 
 - une notice
-- des badges rfid fréquences 13.56MHZ réinscriptibles
+- des badges rfid fréquences **13.56MHZ réinscriptibles**
 - un guide de perçage
 - des clés et tournevisses
 - des visses et chevilles.
 
-{% picture posts/{{ page.guid }}/deballage-du-portier-hikvision-ds-kv8x13.png --alt  déballage, interphone hikvision ds-kv8x13 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-du-portier-hikvision-ds-kv8x13.png --alt déballage, interphone hikvision ds-kv8x13 --img width="940" height="529" %}
 
 Le portier se démonte à l'aide d'une clé allen et d'une visse sous le dessous. Ensuite tu as accès à l'affichage de la sonnette afin de changer facilement les étiquettes d'identifications.
 
@@ -66,7 +66,7 @@ Pour terminer comme je possède à titre privé un **portier Doorbird D202**, j'
 
 > À savoir le prix du Hikvision ds-KV8213 est le **quart du prix d'un Doorbird D202** tu peux le trouver sur aliexpress aux alentoures de 120€ seul., certe l'intégration dans Home Assistant n'est pas aussi simple, mais pas insurmontable.
 
-{% picture posts/{{ page.guid }}/comparatif-portier-doorbird-d202-et-hikvision-ds-kv8113.png --alt  comparatif des interphones doorbird D202 et Hikvision DS-KV8213 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/comparatif-portier-doorbird-d202-et-hikvision-ds-kv8113.png --alt comparatif des interphones doorbird D202 et Hikvision DS-KV8213 --img width="940" height="529" %}
 
 {% include product-embed.html image="ds-kv8213.png" title="Portier DS-KV8213 + Rfid" brand="Hikvision" description="Portier deux sonnette avec badge Hikvision DS-KV8213" affiliate="_oD1qijH" %}
 
@@ -87,17 +87,17 @@ Concernant la connectique, il s'alimente en rj45 norme POE, ou sur une alimentat
 
 De plus l'écran peut se connecter au réseau wifi.
 
-{% picture posts/{{ page.guid }}/station-accueil-ds-kh6350-hikvision.png --alt  déballage station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/station-accueil-ds-kh6350-hikvision.png --alt déballage station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
 
 **Bon à savoir:** les écrans peuvent fonctionner indépendemment du portier et vice-versa. Tu pourrais par exemple acheter un écran et une caméra ip pour contrôler l'accès d'une porte d'entrée.
 
-{% picture posts/{{ page.guid }}/taille-station-accueil-ds-kh6350-hikvision.png --alt  taille station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/taille-station-accueil-ds-kh6350-hikvision.png --alt taille station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
 
 Bel écran de qualité, dommage qu'il ne fonctionne pas sous android afin de pouvoir afficher Home Assistant ou tout autres applications. 
 
 Si tu veux un **écran compatible Android Hikvision**, il en existe bien un de 10" [le DS-KH9510](https://s.click.aliexpress.com/e/_omrqNiX){: target="_blank"}, **seul défaut sa faible résolution de 1024x600**
 
-{% picture posts/{{ page.guid }}/capture-station-accueil-ds-kh6350-hikvision.png --alt  capture d'écran de la station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/capture-station-accueil-ds-kh6350-hikvision.png --alt capture d'écran de la station d'accueil DS-KH6350 par Hikvision --img width="940" height="529" %}
 
 **Le Point négatifs des écrans ds-kh6350**, hormis une intégration propriétaire se trouve au niveau de la résolution qui est plafonné à **1024x600px**, j'aurai bien aimé une résolution de 1280x800px, mais sur ce type de produits ça reste un détail.
 
@@ -249,7 +249,7 @@ Tu peux paramétrer [plusieurs entités voir la notice du module](https://github
 
 Pour contrôler le flux de la caméra j'utilise le [nvr Frigate](https://frigate.video/){: target="_blank"} je ne vais pas passer en revue ses fonctions tu trouveras toutes les infos sur le site officiel, il faut retenir que ce **nvr est gratuit** et peut être utilisé **dans un docker externe** donc potentiellement compatible dans tous les assistants opensource du marché tel que Openhab, Jeedom, etc... 
 
-Frigate est entièrement compatible et intégrable dans home assistant.
+> Frigate est entièrement compatible et intégrable dans home assistant.
 
 J'utilise le module de liaison **Frigate dispo dans le répertoire HACS**, ainsi ça fera remonter toutes les caméras paramétrés dans frigate dans l'instance home assistant.
 
