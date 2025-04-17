@@ -5,49 +5,50 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Motionblinds joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha/
-    image: http://www.home-assistant.io/images/blog/2025-03-motionblinds/art.jpg
+    title: 2 million homes strong - State of the Open Home 2025
+    url: https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap/
+    image: http://www.home-assistant.io/images/blog/2025-04-SOTOH/ohf-structure.jpg
   en_GB:
   - name: Home-Assistant
-    title: Motionblinds joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/03/27/motionblinds-joins-wwha/
-    image: http://www.home-assistant.io/images/blog/2025-03-motionblinds/art.jpg
+    title: 2 million homes strong - State of the Open Home 2025
+    url: https://www.home-assistant.io/blog/2025/04/16/state-of-the-open-home-recap/
+    image: http://www.home-assistant.io/images/blog/2025-04-SOTOH/ohf-structure.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Camera Hub G5 Pro  - la première caméra extérieure d’Aqara
-    url: https://blog.domadoo.fr/111095-camera-hub-g5-pro-aqara-exterieur/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/03/aqara-camera-hub-g5-pro_banner-1024x576.webp
+    title: La pieuvre universelle CPREYCONNECT révolutionne le câblage électrique
+    url: https://blog.domadoo.fr/111116-pieuvre-electrique-universelle-cpreyconnect/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/04/banniere-pieuvre-cprey_m_66aa35630bf56-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet de l’Amazon Echo Show 21  - Un écran intelligent de 21 pouces
-      à la hauteur des attentes ?
-    url: https://blog.nord-domotique.com/test-amazon-echo-show-21/
+    title: Extension BP1600  - décuplez l’autonomie de votre Anker Solix Solarbank
+      E1600 AC
+    url: https://blog.nord-domotique.com/test-batterie-dextension-bp1600-anker/
     image:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: SwitchBot lance Roller Shade son store connecté, extensible et ajustable
-    url: https://www.abavala.com/switchbot-lance-roller-shade-son-store-connecte-extensible-et-ajustable/
-    image: https://www.abavala.com/wp-content/uploads/Blocks-100-of-Light_02-150x150.jpg
+    title: Enfin ! Les aspirateurs robots passent à Matter  - les fabricants sont
+      au rendez-vous !
+    url: https://www.abavala.com/enfin-les-aspirateurs-robots-passent-a-matter-les-fabricants-sont-au-rendez-vous/
+    image: https://www.abavala.com/wp-content/uploads/Robot-aspirateur-Matter-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Eaton 3S Mini  - L’onduleur de poche qui sauve votre box internet
-      des coupures électriques
-    url: https://www.maison-et-domotique.com/156966-test-eaton-3s-mini-onduleur-de-poche/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/test-eaton-3s-mini-54-667x500.jpg
+    title: Transformez votre vidéoprojecteur low-cost en bijou cinéma  - astuces de
+      pro dévoilées !
+    url: https://www.maison-et-domotique.com/160620-reglages-parfaits-videoprojecteur-lowcost/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/reglage-videoprojecteur-chatgpt-702x468.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Running the LAMP Stack in a Lamp Rack
-    url: https://www.jeffgeerling.com/blog/2025/running-lamp-stack-lamp-rack
+    title: It's easier than ever to de-censor videos
+    url: https://www.jeffgeerling.com/blog/2025/its-easier-ever-de-censor-videos
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: Govee countertop ice maker review - Matter control to chill those beverages
-    url: https://appleinsider.com/articles/25/02/26/govee-countertop-ice-maker-review-matter-control-to-chill-those-beverages
+    title: Midea | Pioneering Matter Adoption in Smart Appliances
+    url: https://csa-iot.org/newsroom/midea-pioneering-matter-adoption-in-smart-appliances/
     image:
