@@ -29,4 +29,5 @@ group :jekyll_plugins do
     gem 'net-http'
     gem 'date'
     gem 'rqrcode'
+    gem 'stringio', '~> 3.1.6'
 end

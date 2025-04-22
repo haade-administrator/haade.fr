@@ -18,7 +18,8 @@ on:
       - .gitignore
       - README.md
       - LICENSE.txt
-      - _drafts/  
+      - _drafts/
+      - first-jekyll-install.sh
 
 env:
   LANG: "fr_FR.UTF-8"
