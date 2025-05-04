@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 May 2025 05:20:11 +0200</pubDate>
-    <lastBuildDate>Sun, 13 Apr 2025 18:47:00 +0200</lastBuildDate>
+    <pubDate>Sun, 04 May 2025 19:22:19 +0200</pubDate>
+    <lastBuildDate>Sun, 04 May 2025 18:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>TrueNAS Scale OS Update: The Best NAS Manager of the Moment!</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>TrueNAS scale is reaching maturity and is announcing major advances that now allow me to leave OMV, my old NAS manager.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.png" alt="TrueNAS Scale OS Update: The Best NAS Manager of the Moment!">
+</picture>
+
+      <p>How time flies! It’s been over a year now since I last looked at the embedded system for Nas, TrueNAS. As you know, few open source operating systems are dedicated to Nas, personally I only see two that are valid Openmediavault and TrueNAS (formerly Freenas). To get back to the [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager">TrueNAS Scale OS Update: The Best NAS Manager of the Moment!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sun, 04 May 2025 18:30:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Security]]></category>
+    </item>
     <item>
       <title>Hikvision DS-KV8x13 Doorphone Review</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,27 +245,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Test of the Sonoff Contact-Dry Matter Wifi Micro Module</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Sonoff unveils its first Matter/wifi compatible dry contact micro module, the Mini-D</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/150/test-sonoff-mini-d-module-contact-dry-ideal-garage-door-720-c2ac8bc4d.png" alt="Test of the Sonoff Contact-Dry Matter Wifi Micro Module">
-</picture>
-
-      <p>Few in number on the market and often under-exploited, home automation modules with dry contact function are very little represented especially depending on the chosen communications protocol, in Zigbee almost non-existent, a little better in wifi and more often present in z-wave. Sonoff releases its first micro dry contact module [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller">Test of the Sonoff Contact-Dry Matter Wifi Micro Module</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 23 Jan 2025 08:29:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-Sonoff-mini-d-wifi-matter-dry-contact-micro-controller</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
