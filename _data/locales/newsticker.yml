@@ -5,26 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Reolink joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-04-reolink/art.jpg
+    title: Eve Joins Works With Home Assistant
+    url: https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-04-eve/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: Reolink joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/04/17/reolink-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-04-reolink/art.jpg
+    title: Eve Joins Works With Home Assistant
+    url: https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-04-eve/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: La pieuvre universelle CPREYCONNECT révolutionne le câblage électrique
-    url: https://blog.domadoo.fr/111116-pieuvre-electrique-universelle-cpreyconnect/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/04/banniere-pieuvre-cprey_m_66aa35630bf56-1024x576.webp
+    title: La nouvelle interface Homey Energy est disponible
+    url: https://blog.domadoo.fr/111186-interface-homey-energy/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/04/homey-energy-banner-1024x513.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Extension BP1600  - décuplez l’autonomie de votre Anker Solix Solarbank
-      E1600 AC
-    url: https://blog.nord-domotique.com/test-batterie-dextension-bp1600-anker/
+    title: J’ai testé le Zendure SolarFlow 800  - stockage solaire malin et plug &
+      play à moins de 300€
+    url: https://blog.nord-domotique.com/test-complet-zendure-solarflow-800/
     image:
 Abavala:
   fr_FR:
@@ -36,19 +36,20 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Sunbooster transforme vos clôtures en centrales solaires  - une révolution
-      énergétique discrète et efficace !
-    url: https://www.maison-et-domotique.com/151443-sunbooster-cloture-solaire/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/03/invention-innovation-cloture-solaire-sunbooster-vertical-002-jpg-702x468.webp
+    title: Débrief M&D - un écran géant dans la poche, nouveau capteur Linky Somfy,
+      législation sur le solaire, bons plans French Days…
+    url: https://www.maison-et-domotique.com/161577-debrief-md-semaine-18-2025/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: The (almost) perfect mini NAS for my mini rack
-    url: https://www.jeffgeerling.com/blog/2025/almost-perfect-mini-nas-my-mini-rack
+    title: Trying out a cheap USB VK-172 GPS dongle on a Mac
+    url: https://www.jeffgeerling.com/blog/2025/trying-out-cheap-usb-vk-172-gps-dongle-on-mac
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: Midea | Pioneering Matter Adoption in Smart Appliances
-    url: https://csa-iot.org/newsroom/midea-pioneering-matter-adoption-in-smart-appliances/
+    title: For a Smarter Smart Home - Why Matter Devices Belong on Your Primary Wi-Fi
+      Network
+    url: https://csa-iot.org/newsroom/for-a-smarter-smart-home-why-matter-devices-belong-on-your-primary-wi-fi-network/
     image:
