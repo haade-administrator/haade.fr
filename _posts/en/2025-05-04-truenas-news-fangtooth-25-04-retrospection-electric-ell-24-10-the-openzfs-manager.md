@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2025-05-04 18:30
 last_modified_at: 
-categories: [Security, Haade-lab]
+categories: [News, Security]
 tags: []
 video: 
 image: 'truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence.png'
