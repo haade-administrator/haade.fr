@@ -5,51 +5,50 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Eve Joins Works With Home Assistant
-    url: https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-04-eve/art.jpg
+    title: 2025.6 - Getting picky about Bluetooth
+    url: https://www.home-assistant.io/blog/2025/06/11/release-20256/
+    image:
   en_GB:
   - name: Home-Assistant
-    title: Eve Joins Works With Home Assistant
-    url: https://www.home-assistant.io/blog/2025/04/29/eve-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-04-eve/art.jpg
+    title: 2025.6 - Getting picky about Bluetooth
+    url: https://www.home-assistant.io/blog/2025/06/11/release-20256/
+    image:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: La nouvelle interface Homey Energy est disponible
-    url: https://blog.domadoo.fr/111186-interface-homey-energy/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/04/homey-energy-banner-1024x513.webp
+    title: Controlez vos rubans led avec SMLight A1-SLWF-03
+    url: https://blog.domadoo.fr/111631-integrer-smlight-slwf-03-home-assistant/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/IMG_20230527_081954-1200x800-2-1024x683.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: J’ai testé le Zendure SolarFlow 800  - stockage solaire malin et plug &
-      play à moins de 300€
-    url: https://blog.nord-domotique.com/test-complet-zendure-solarflow-800/
+    title: Mammotion Yuka 1000  - Test complet du robot tondeuse sans fil, et ultra
+      précis
+    url: https://blog.nord-domotique.com/test-mammotion-yuka-1000/
     image:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Enfin ! Les aspirateurs robots passent à Matter  - les fabricants sont
-      au rendez-vous !
-    url: https://www.abavala.com/enfin-les-aspirateurs-robots-passent-a-matter-les-fabricants-sont-au-rendez-vous/
-    image: https://www.abavala.com/wp-content/uploads/Robot-aspirateur-Matter-150x150.jpg
+    title: SwitchBot K20+ Pro  - le robot domestique multitâche qui redéfinit la maison
+      connectée
+    url: https://www.abavala.com/switchbot-k20-pro-le-robot-domestique-multitache-qui-redefinit-la-maison-connectee/
+    image: https://www.abavala.com/wp-content/uploads/3-K20-Pro-Air-Purifier-Kit-3-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Débrief M&D - un écran géant dans la poche, nouveau capteur Linky Somfy,
-      législation sur le solaire, bons plans French Days…
-    url: https://www.maison-et-domotique.com/161577-debrief-md-semaine-18-2025/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2021/01/le-debrief-702x395.png
+    title: Upgrade Home Assistant 2025.6  - connexion Bluetooth, dashboard optimisé
+      et plus encore
+    url: https://www.maison-et-domotique.com/162560-assistant-2025-6/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/gtmjgvwxyaa6ol1-500x500.jpeg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Trying out a cheap USB VK-172 GPS dongle on a Mac
-    url: https://www.jeffgeerling.com/blog/2025/trying-out-cheap-usb-vk-172-gps-dongle-on-mac
+    title: How I monitor and control all my powered devices (Zigbee + HA)
+    url: https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: For a Smarter Smart Home - Why Matter Devices Belong on Your Primary Wi-Fi
-      Network
-    url: https://csa-iot.org/newsroom/for-a-smarter-smart-home-why-matter-devices-belong-on-your-primary-wi-fi-network/
+    title: Matter Open Day 2025
+    url: https://csa-iot.org/newsroom/matter-open-day-2025/
     image:
