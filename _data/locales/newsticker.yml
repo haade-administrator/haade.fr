@@ -16,9 +16,9 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Controlez vos rubans led avec SMLight A1-SLWF-03
-    url: https://blog.domadoo.fr/111631-integrer-smlight-slwf-03-home-assistant/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/IMG_20230527_081954-1200x800-2-1024x683.jpg
+    title: Home Assistant Voice  - installation autonome sur box HA Green
+    url: https://blog.domadoo.fr/111855-home-assistant-voice-installation-ha-green/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/Home-assistant-voice-autonome-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -36,10 +36,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Upgrade Home Assistant 2025.6  - connexion Bluetooth, dashboard optimisé
-      et plus encore
-    url: https://www.maison-et-domotique.com/162560-assistant-2025-6/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/gtmjgvwxyaa6ol1-500x500.jpeg
+    title: 'Libérez vos week-ends  - gagnez le Navimow i105e, le robot qui bichonne
+      votre pelouse #CONCOURS'
+    url: https://www.maison-et-domotique.com/162655-concours-navimow-i105e/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/titre-concours-navimow-702x369.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
@@ -49,6 +49,7 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
-    title: Matter Open Day 2025
-    url: https://csa-iot.org/newsroom/matter-open-day-2025/
+    title: Omdia Report - Consumer IoT Device Cybersecurity Standards, Policies, and
+      Certification Schemes 2025
+    url: https://csa-iot.org/wp-content/uploads/2025/06/Consumer-IoT-Device-Cybersecurity-Standards-Policies-and-Certification-Schemes-2025-_FINAL.pdf
     image:

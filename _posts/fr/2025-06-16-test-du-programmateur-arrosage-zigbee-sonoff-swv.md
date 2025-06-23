@@ -50,5 +50,13 @@ Aujourd'hui je vais te présenter brièvement mais sérieusement un article inco
 {% picture posts/{{ page.guid }}/bouton-unique-face-avant-du-programmateur-arrosage-zigbee-sonoff-swv-bsp.png
  --alt bouton unique face avant fonctionnement départ et arret ainsi que l'inclusion du programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
 
+## {{ page.ref }} dans Zigbee2mqtt
+
+{% picture posts/{{ page.guid }}/exposition-commandes-zigbee2mqtt-sonoff-irrigation-flow-swv-bsp-zigbee.png
+ --alt fonctions exposées dans zigbes2mqtt du programmateur arrosage sonoff swv-bsp --img width="940" height="954" %}
+
+{% picture posts/{{ page.guid }}/integration-sonoff-swv-bsp-smart-water-valve-with-update-firmware-ota.png
+ --alt intégration dans zigbes2mqtt du programmateur arrosage sonoff swv-bsp avec mise à jour ota 1.0.4 --img width="940" height="407" %}
+
 {% include product-embed.html image="sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.png" title="Programmateur Arrosage SWV" brand="Sonoff" description="Programmateur d'arrosage Zigbee par Sonoff le SWV" iteadlink="sonoff-zigbee-smart-water-valve" domlink="compatibilite-des-hubs-domotiques/7187-sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.html"  affiliate="_okRXRXs" amazlink="45rhIVv" %}
 ## Conclusion
