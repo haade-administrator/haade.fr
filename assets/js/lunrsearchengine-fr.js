@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/fr/blog/test-du-programmateur-arrosage-zigbee-sonoff-swv",
     "title": "Test du programmateur Sonoff SWV-BSP",
-    "description": "17/06/2025 - Test et essai du programmateur d'arrosage zigbee Sonoff SWV-BSP",
+    "description": "25/06/2025 - Test et essai du programmateur d'arrosage zigbee Sonoff SWV-BSP",
     "tags": ""},{
     "id": 1,
     "url": "/fr/blog/truenas-nouveautees-fangtooth-25-04-retrospection-electric-ell-24-10-le-gestionnaire-openzfs",

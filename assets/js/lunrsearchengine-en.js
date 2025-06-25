@@ -3,7 +3,7 @@ var documents = [{
     "id": 0,
     "url": "/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer",
     "title": "Sonoff SWV-BSP Programmer Review",
-    "description": "17/06/2025 - Sonoff SWV-BSP Zigbee Watering Timer Review and Test",
+    "description": "25/06/2025 - Sonoff SWV-BSP Zigbee Watering Timer Review and Test",
     "tags": ""},{
     "id": 1,
     "url": "/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager",
