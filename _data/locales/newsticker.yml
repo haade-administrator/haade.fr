@@ -5,26 +5,25 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2025.6 - Getting picky about Bluetooth
-    url: https://www.home-assistant.io/blog/2025/06/11/release-20256/
-    image:
+    title: Community Day 2025 Wrap-up
+    url: https://www.home-assistant.io/blog/2025/06/24/community-day-2025-wrap-up/
+    image: http://www.home-assistant.io/images/blog/2025-06-community-day-wrap-up/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: 2025.6 - Getting picky about Bluetooth
-    url: https://www.home-assistant.io/blog/2025/06/11/release-20256/
-    image:
+    title: Community Day 2025 Wrap-up
+    url: https://www.home-assistant.io/blog/2025/06/24/community-day-2025-wrap-up/
+    image: http://www.home-assistant.io/images/blog/2025-06-community-day-wrap-up/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Home Assistant Voice  - installation autonome sur box HA Green
-    url: https://blog.domadoo.fr/111855-home-assistant-voice-installation-ha-green/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/Home-assistant-voice-autonome-1080x675-PRESS-1024x640.webp
+    title: Aqara Hub M100  - un contrôleur Matter, Thread et Zigbee compact
+    url: https://blog.domadoo.fr/111471-aqara-hub-m100-matter-controller-thread/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/aqara-hub-m100-banner-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Mammotion Yuka 1000  - Test complet du robot tondeuse sans fil, et ultra
-      précis
-    url: https://blog.nord-domotique.com/test-mammotion-yuka-1000/
+    title: Test complet du Segway Navimow X3  - le robot tondeuse qui vise l’excellence
+    url: https://blog.nord-domotique.com/test-complet-segway-navimow-x3/
     image:
 Abavala:
   fr_FR:
@@ -36,20 +35,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 'Libérez vos week-ends  - gagnez le Navimow i105e, le robot qui bichonne
-      votre pelouse #CONCOURS'
-    url: https://www.maison-et-domotique.com/162655-concours-navimow-i105e/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/titre-concours-navimow-702x369.png
+    title: Quand aura lieu l’Amazon Prime Day 2025 ? Toutes les infos sur les promos
+      et nouveautés
+    url: https://www.maison-et-domotique.com/162665-amazon-prime-day-2025-toutes-les-infos/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/titre-amazon-prime-day-2025-702x468.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: How I monitor and control all my powered devices (Zigbee + HA)
-    url: https://www.jeffgeerling.com/blog/2025/how-i-monitor-and-control-all-my-powered-devices-zigbee-ha
+    title: Setting up an Ubuntu Desktop installation for SSH, quickly
+    url: https://www.jeffgeerling.com/blog/2025/setting-ubuntu-desktop-installation-ssh-quickly
     image:
 Matter:
   en_GB:
   - name: Matter
-    title: Omdia Report - Consumer IoT Device Cybersecurity Standards, Policies, and
-      Certification Schemes 2025
-    url: https://csa-iot.org/wp-content/uploads/2025/06/Consumer-IoT-Device-Cybersecurity-Standards-Policies-and-Certification-Schemes-2025-_FINAL.pdf
+    title: Telink Semiconductor Builds Comprehensive Matter Solutions 
+    url: https://www.eetimes.com/telink-semiconductor-builds-comprehensive-matter-solutions/
     image:
