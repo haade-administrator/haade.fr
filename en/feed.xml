@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Jun 2025 10:26:41 +0200</pubDate>
-    <lastBuildDate>Sun, 04 May 2025 18:30:00 +0200</lastBuildDate>
+    <pubDate>Wed, 25 Jun 2025 11:08:05 +0200</pubDate>
+    <lastBuildDate>Tue, 17 Jun 2025 09:18:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Sonoff SWV-BSP Programmer Review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Sonoff SWV-BSP Zigbee Watering Timer Review and Test</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.png" alt="Sonoff SWV-BSP Programmer Review">
+</picture>
+
+      <p>It’s been a while since I’ve written an article. I apologize, due to lack of time and the preparation of a hard-hitting article on integrating a wall-mounted tablet.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer">Sonoff SWV-BSP Programmer Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 17 Jun 2025 09:18:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>TrueNAS Scale OS Update: The Best NAS Manager of the Moment!</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,29 +243,6 @@
       <pubDate>Tue, 04 Feb 2025 18:00:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Prepare a Thread and Matter network on Home Assistant</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Discover and prepare a Thread edge router with matter to integrate new products coming to the market with Home Assistant, Thread an exceptional protocol</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/151/perpare-server-matter-with-thread-router-border-for-homeassistant-720-6b8a1b6bf.png" alt="Prepare a Thread and Matter network on Home Assistant">
-</picture>
-
-      <p>Many articles are available on the Matter connected product management protocol, currently it works with the Wifi network or the Thread network. We know all the advantages and disadvantages of wifi, but have you ever heard about Thread?
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module">Prepare a Thread and Matter network on Home Assistant</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Thu, 30 Jan 2025 16:20:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/prepare-the-thread-matter-network-with-home-assistant-and-integrate-a-module</guid>
-      <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>

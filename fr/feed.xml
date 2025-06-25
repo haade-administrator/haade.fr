@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Jun 2025 10:26:41 +0200</pubDate>
-    <lastBuildDate>Sun, 04 May 2025 18:30:00 +0200</lastBuildDate>
+    <pubDate>Wed, 25 Jun 2025 11:08:05 +0200</pubDate>
+    <lastBuildDate>Tue, 17 Jun 2025 09:18:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test du programmateur Sonoff SWV-BSP</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test et essai du programmateur d&apos;arrosage zigbee Sonoff SWV-BSP</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-programmateur-arrosage-sonoff-zigbee-swv-bsp-720-7cd2ffb90.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-programmateur-arrosage-sonoff-zigbee-swv-bsp-720-7cd2ffb90.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/163/test-programmateur-arrosage-sonoff-zigbee-swv-bsp-720-7cd2ffb90.png" alt="Test du programmateur Sonoff SWV-BSP">
+</picture>
+
+      <p>Voilà un petit moment que je n’ai pas écris d’article, je m’en excuse, faute de temps et préparation d’un article coup de poing sur l’intégration d’une tablette murale en perspective.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-programmateur-arrosage-zigbee-sonoff-swv">Test du programmateur Sonoff SWV-BSP</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Tue, 17 Jun 2025 09:18:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-du-programmateur-arrosage-zigbee-sonoff-swv</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-programmateur-arrosage-zigbee-sonoff-swv</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Mise à jour de l&apos;OS TrueNAS scale le meilleur gestionnaire de NAS du moment !</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -220,28 +243,6 @@
       <link>https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</guid>
       <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Thread est un protocole qui monte en puissance, il est possible grâce à Silicon Labs de faire cohabiter Thread/Matter avec Zigbee sur la même clé EZSP. Malgré le fonctionnement expérimental, tu pourras te rendre compte que l&apos;installation des deux&apos; protocoles sur une même clé est possible !</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png" alt="Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant">
-</picture>
-
-      <p>Après un tuto sur l’installation du protocole Thread/Matter sur Home Assistant, continuons maintenant et abordons un sujet sensible, le multi-protocole thread/zigbee sur la même clé. Pourquoi sensible, cette intégration est toujours en phase de développement et non conseillée par l’équipe Nabu Casa.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant">Mise en Place du Multi-protocole Zigbee/Thread sur Home Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 04 Feb 2025 18:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/mise-en-place-multi-protocole-multipan-zigbee-thread-avec-homeassistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
