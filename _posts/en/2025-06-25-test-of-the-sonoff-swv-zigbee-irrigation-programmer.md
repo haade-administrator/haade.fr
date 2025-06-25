@@ -5,7 +5,7 @@ description: "Sonoff SWV-BSP Zigbee Watering Timer Review and Test"
 ref: "SWV-BSP"
 layout: post
 authors: [Nico]
-date: 2025-06-17 09:18
+date: 2025-06-25 09:18
 last_modified_at: 
 categories: [Tests, Haade-lab, Zigbee]
 tags: []
