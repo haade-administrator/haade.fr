@@ -13,7 +13,7 @@ video:
 image: 'test-programmateur-arrosage-sonoff-zigbee-swv-bsp.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -27,11 +27,13 @@ sourcelink:
   - https://sonoff.tech/product/home-appliances/swv/
 ---
 
-Voilà un petit moment que je n'ai pas écris d'article, je m'en excuse, faute de temps et préparation d'un article coup de poing sur l'intégration d'une tablette murale en perspective.
+Voilà un petit moment que je n'ai pas écris d'article, *je m'en excuse*, faute de temps et préparation d'un article coup de poing sur l'intégration d'une tablette murale en perspective.
 
-Aujourd'hui je vais te présenter brièvement mais sérieusement un article incontournable avec l'arrivée des beaux jours, il s'agit ni plu ni moins du programmateur d'arrosage zigbee de la marque Sonoff le {{ page.ref }}.
+Aujourd'hui je vais te présenter brièvement mais sérieusement un **produit incontournable avec l'arrivée des beaux jours**, il s'agit ni plu ni moins du **programmateur d'arrosage zigbee de la marque Sonoff le {{ page.ref }}**.
 
 [Vendu moins de 30$ chez notre partemanire Itead](https://itead.cc/product/sonoff-zigbee-smart-water-valve/ref/122/){: target="_blank"}, le moins que l'on puisse dire c'est que ce tarif est imbattable  surtout aux vues de sa qualité et le nombre de commandes disponibles dans Zigbee2mqtt donc compatible multi plateforme opensource.
+
+[J'ai déjà testé un article similaire d'une autre marque, si tu le désire tu peux comparer, clic-ici directement]({% post_url /fr/2023-03-29-test-controleur-arrosage-intelligent-zigbee-woox-r7060 %}), **mais attention les fonctions et le tarif divergent entre les deux produits !** et l'article sur le Woox date du printemps 2023...
 
 
 {% include product-embed.html image="sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.png" title="Programmateur Arrosage SWV" brand="Sonoff" description="Programmateur d'arrosage Zigbee par Sonoff le SWV" iteadlink="sonoff-zigbee-smart-water-valve" domlink="compatibilite-des-hubs-domotiques/7187-sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.html"  affiliate="_okRXRXs" amazlink="45rhIVv" %}
@@ -42,7 +44,7 @@ L'emballage {{ page.ref }} est comme à son habitude orange signe d'un produit i
 
 {% picture posts/{{ page.guid }}/unboxing-box-face-avant-sonoff-swv-bsp.png --alt Déballage programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
 
-Compatible ewelink mais aussi zigbee2mqtt donc multi plateformes ce n'est pas indiqué sur l'emballage mais regarde un peu plus bas j'ai fait une intégration.
+Compatible **ewelink** mais aussi **zigbee2mqtt** donc multi-plateformes ce n'est pas indiqué sur l'emballage mais regarde un peu plus bas j'ai fait une intégration.
 
 {% picture posts/{{ page.guid }}/unboxing-box-face-arriere-sonoff-swv-bsp.png --alt Déballage programmateur arrosage sonoff swv-bsp face arrière du carton --img width="940" height="529" %}
 
@@ -54,11 +56,11 @@ Le module sonoff {{ page.ref }} est fournis **sans piles il faudra t'équiper de
 
 {% picture posts/{{ page.guid }}/contenu-et-presentation-du-programmateur-arrosage-zigbee-sonoff-swv-bsp.png --alt Contenu et présentation du programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
 
-Le compartiment des piles est bien fait et étanchéifié par un joint
+> Le compartiment des piles est bien fait et étanchéifié par un joint
 
 {% picture posts/{{ page.guid }}/box-pile-du-programmateur-arrosage-zigbee-sonoff-swv-bsp.png --alt Contenu et présentation du compartiment à pile du programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
 
-Ci-dessous une vue du haut et du dessous du sonoff {{ page.ref }} entièrement compatible avec nos systèmes européens
+Ci-dessous **une vue du haut et du dessous du sonoff** {{ page.ref }} entièrement compatible avec nos systèmes européens
 
 {% picture posts/{{ page.guid }}/connecteur-superieur-et-inferieur-du-programmateur-arrosage-zigbee-sonoff-swv-bsp.png
 --alt partie supérieur et inférieur du programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
@@ -66,7 +68,7 @@ Ci-dessous une vue du haut et du dessous du sonoff {{ page.ref }} entièrement c
 **Pour terminer l'interface avant ultra simple et constitué d'un bouton unique lumineux**
 - lorsqu'il n'est pas appairé celui-ci clignote en vert
 - une fois appairé il se met en vert fixe puis s'éteint
-- lorsque le système est ouvert le voyant est allumé.
+- lorsque l'état du switch change, le voyant s'allume pui s'éteint brièvement.
 
 {% picture posts/{{ page.guid }}/bouton-unique-face-avant-du-programmateur-arrosage-zigbee-sonoff-swv-bsp.png
  --alt bouton unique face avant fonctionnement départ et arret ainsi que l'inclusion du programmateur arrosage sonoff swv-bsp --img width="940" height="529" %}
@@ -78,8 +80,7 @@ Ci-dessous une vue du haut et du dessous du sonoff {{ page.ref }} entièrement c
 {% picture posts/{{ page.guid }}/acces-circuit-imprime-sonoff-smartwater-swv-bsp-zigbee.png
  --alt Accès simplifié au circuit imprimé du programmateur arrosage sonoff swv-bsp dans home assistant --img width="940" height="559" %}
 
-
-Facile d'accès et protégé par un joint périphérique, la carte électronique du Sonoff {{ page.ref }} **offre des points d'entrées**, **tu pourras noter que Sonoff utilise la puce Silabs EFR32MG22.**
+Facile d'accès et protégé par un joint périphérique IP55, la carte électronique du Sonoff {{ page.ref }} **offre des points d'entrées**, **tu pourras noter que Sonoff utilise la puce Silabs EFR32MG22.**
 
 {% picture posts/{{ page.guid }}/circuit-sonoff-swv.png
  --alt circuit imprimé du programmateur arrosage sonoff swv-bsp dans home assistant --img width="940" height="559" %}
@@ -98,23 +99,11 @@ Facile d'accès et protégé par un joint périphérique, la carte électronique
 |Matériaux du boîtier|PC+ABS|
 |Pression de fonctionnement|0,06 à 0,8 MPa|
 
-|Thread Standard|BSP, NH|
-|Rating|**6V(4*1.5V AA)**|
-|Wireless connection|Zigbee 3.0|
-|Working temperature|5°C~60°C|
-|Watering temperature|5°C~40°C|
-|Working humidity|5%-95%RH, non-condensing|
-|Waterproof|**IP55**|
-|Dimension|152x100x46mm|
-|Color|Black|
-|Casing materials|PC+ABS|
-|Working pressure|0.06-0.8MPa|
-
 {% include product-embed.html image="sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.png" title="Programmateur Arrosage SWV" brand="Sonoff" description="Programmateur d'arrosage Zigbee par Sonoff le SWV" iteadlink="sonoff-zigbee-smart-water-valve" domlink="compatibilite-des-hubs-domotiques/7187-sonoff-programmateur-d-arrosage-zigbee-mesure-de-consommation-swv-bsp.html"  affiliate="_okRXRXs" amazlink="45rhIVv" %}
 
 ## {{ page.ref }} dans Zigbee2mqtt
 
-Passons à l'intégration dans Zigbee2mqtt et oui le Sonoff est compatible Home Assistant, le top !
+Passons à l'intégration dans **Zigbee2mqtt** et oui le Sonoff est compatible Home Assistant, le top !
 Rien de plus simple ouvre la découverte zigbee dans Z2M puis reste appuyé 5 secondes sur le bouton du module {{ page.ref }}
 
 Une fois reconnu **je te conseil de faire la mise à jour du firmware** à l'heure ou j'écris cet article **la dernière version disponible est la 1.0.4**
@@ -218,7 +207,7 @@ Clic sur le lien ci-dessus **ajouter une entrée** et **modéliser un capteur**
 
 [![Créer un template dans Home Assistant](https://my.home-assistant.io/badges/integration.svg)](https://my.home-assistant.io/redirect/integration/?domain=template)
 
-Clic sur le lien ci-dessus **ajouter une entrée** et **modéliser un capteur** inspire toi des liens plus haut, la méthode ci dessous t'aides à convertir m3 en litres en le multipliant par 24 elle te donnera la conso des 24 dernières heurs
+Clic sur le lien ci-dessus **ajouter une entrée** et **modéliser un capteur** inspire toi des liens plus haut, la méthode ci dessous t'aides à convertir m3 en litres en le multipliant par 24 **elle te donnera la conso des 24 dernières heures.**
 
 {% highlight yaml %}
 {% raw %}
