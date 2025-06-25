@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2025-06-25 09:18
 last_modified_at: 
-categories: [Tests, Haade-lab, Zigbee]
+categories: [Tests, Haade-lab, Zigbee, Home-Assistant]
 tags: []
 video: 
 image: 'test-programmateur-arrosage-sonoff-zigbee-swv-bsp.png'
