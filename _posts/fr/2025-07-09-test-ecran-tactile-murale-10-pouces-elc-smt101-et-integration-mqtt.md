@@ -111,6 +111,10 @@ Article coup de poing, aujourd'hui je vais tester la tablette 10 pouces de la ma
 |Certificates|CCC/CE/FCC/ROHS|
 |Operating Temperature|0℃-40℃|
 
+## Ultimate Dashboard
+
+{% include videoPlayer.html youtubeId="pC-VBly1Y00" %}
+
 ## Intégration MQTT
 
 #### **les + de la caméra Slim Sonoff** {{ page.ref }}
@@ -128,6 +132,7 @@ Article coup de poing, aujourd'hui je vais tester la tablette 10 pouces de la ma
 - Absence d'alimentation secteur ( 110-240V )
 - Relais switch DC ( idéal contact sec )
 - Fourni avec Android 13 ( HAOS non intégrable d'origine )
+- Thread non pris en charge dans Android 13
 - Le Prix
 
 ## Conclusion
