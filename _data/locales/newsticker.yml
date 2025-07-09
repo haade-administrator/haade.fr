@@ -5,25 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Community Day 2025 Wrap-up
-    url: https://www.home-assistant.io/blog/2025/06/24/community-day-2025-wrap-up/
-    image: http://www.home-assistant.io/images/blog/2025-06-community-day-wrap-up/art.jpg
+    title: Nuki joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/07/03/nuki-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-07-nuki/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: Community Day 2025 Wrap-up
-    url: https://www.home-assistant.io/blog/2025/06/24/community-day-2025-wrap-up/
-    image: http://www.home-assistant.io/images/blog/2025-06-community-day-wrap-up/art.jpg
+    title: Nuki joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/07/03/nuki-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-07-nuki/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara Hub M100  - un contrôleur Matter, Thread et Zigbee compact
-    url: https://blog.domadoo.fr/111471-aqara-hub-m100-matter-controller-thread/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/aqara-hub-m100-banner-1024x576.webp
+    title: Comment utiliser Home Assistant avec Alexa (via le Cloud Nabu Casa)
+    url: https://blog.domadoo.fr/111638-home-assistant-avec-alexa-cloud-nabu-casa/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/comment-utiliser-home-assistant-avec-amazon-alexa-cloud-nabu-casa-1-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du Segway Navimow X3  - le robot tondeuse qui vise l’excellence
-    url: https://blog.nord-domotique.com/test-complet-segway-navimow-x3/
+    title: Test de la Sonos Arc Ultra  - la barre de son ultime pour le home cinéma
+      et bien plus encore
+    url: https://blog.nord-domotique.com/test-de-la-sonos-arc-ultra/
     image:
 Abavala:
   fr_FR:
@@ -35,19 +36,20 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Quand aura lieu l’Amazon Prime Day 2025 ? Toutes les infos sur les promos
-      et nouveautés
-    url: https://www.maison-et-domotique.com/162665-amazon-prime-day-2025-toutes-les-infos/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/06/titre-amazon-prime-day-2025-702x468.png
+    title: 10 critères à prendre en compte lors de votre souscription à une assurance
+      habitation
+    url: https://www.maison-et-domotique.com/162966-10-criteres-a-prendre-en-compte-lors-de-votre-souscription-a-une-assurance-habitation/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/assurance-1-702x468.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Setting up an Ubuntu Desktop installation for SSH, quickly
-    url: https://www.jeffgeerling.com/blog/2025/setting-ubuntu-desktop-installation-ssh-quickly
-    image:
+    title: Mini NASes marry NVMe to Intel's efficient chip
+    url: https://www.jeffgeerling.com/blog/2025/mini-nases-marry-nvme-intels-efficient-chip
+    image: https://www.jeffgeerling.com/sites/default/files/images/mini-nas-lineup-with-coffee-mug.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Telink Semiconductor Builds Comprehensive Matter Solutions 
-    url: https://www.eetimes.com/telink-semiconductor-builds-comprehensive-matter-solutions/
+    title: The Connectivity Standards Alliance Welcomes Its Newest Promoter Member
+      to the Board of Directors
+    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-welcomes-its-newest-promoter-member-to-the-board-of-directors/
     image:
