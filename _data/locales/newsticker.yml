@@ -5,26 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Nuki joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/07/03/nuki-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-07-nuki/art.jpg
+    title: Zooz joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/07/15/zooz-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-07-zooz/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: Nuki joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/07/03/nuki-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-07-nuki/art.jpg
+    title: Zooz joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/07/15/zooz-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-07-zooz/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Comment utiliser Home Assistant avec Alexa (via le Cloud Nabu Casa)
-    url: https://blog.domadoo.fr/111638-home-assistant-avec-alexa-cloud-nabu-casa/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/05/comment-utiliser-home-assistant-avec-amazon-alexa-cloud-nabu-casa-1-1024x640.webp
+    title: Aqara lance sa serrure connectée entrée de gamme Smart Lock U200 Lite
+    url: https://blog.domadoo.fr/112058-aqara-smart-lock-u200-lite-serrure-connecte/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/aqara-smart-lock-U200-lite-banner-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test de la Sonos Arc Ultra  - la barre de son ultime pour le home cinéma
-      et bien plus encore
-    url: https://blog.nord-domotique.com/test-de-la-sonos-arc-ultra/
+    title: Station solaire KODAK 450w Plug & Play  - test complet du panneau solaire
+      facile à installer
+    url: https://blog.nord-domotique.com/station-solaire-kodak-450w/
     image:
 Abavala:
   fr_FR:
@@ -36,20 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: 10 critères à prendre en compte lors de votre souscription à une assurance
-      habitation
-    url: https://www.maison-et-domotique.com/162966-10-criteres-a-prendre-en-compte-lors-de-votre-souscription-a-une-assurance-habitation/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/assurance-1-702x468.png
+    title: Test Jigoo V700  - le balai sans fil qui relègue la corvée de vidage aux
+      oubliettes !
+    url: https://www.maison-et-domotique.com/163145-test-jigoo-v700-balai-sans-fil/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/93f71f00-59ee-4d2a-bbf1-7133728720a4--p1--702x488.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Mini NASes marry NVMe to Intel's efficient chip
-    url: https://www.jeffgeerling.com/blog/2025/mini-nases-marry-nvme-intels-efficient-chip
-    image: https://www.jeffgeerling.com/sites/default/files/images/mini-nas-lineup-with-coffee-mug.jpg
+    title: Adding GPS and off-grid maps to my Meshtastic T-Deck
+    url: https://www.jeffgeerling.com/blog/2025/adding-gps-and-grid-maps-my-meshtastic-t-deck
+    image: https://www.jeffgeerling.com/sites/default/files/images/meshmap-stl.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: The Connectivity Standards Alliance Welcomes Its Newest Promoter Member
-      to the Board of Directors
-    url: https://csa-iot.org/newsroom/the-connectivity-standards-alliance-welcomes-its-newest-promoter-member-to-the-board-of-directors/
+    title: Alliance Member Map – IFA Berlin 2025
+    url: https://csa-iot.org/newsroom/alliance-member-map-ifa-berlin-2025/
     image:

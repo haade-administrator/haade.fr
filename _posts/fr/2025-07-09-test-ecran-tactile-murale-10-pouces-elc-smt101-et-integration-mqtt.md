@@ -27,25 +27,74 @@ sourcelink:
   - https://www.elclcd.com/products/10-1-smart-home-panel-smt101
   - https://s.click.aliexpress.com/e/_oCHHQoO
 ---
-Article coup de poing, aujourd'hui je vais tester la tablette 10 pouces de la marque ELC, la SMT101 aussi disponible en 9,7" et 15,6", cette tablette a l'avantage d'être encastrable, de disposer d'un bandeau Led, et d'autres options. Elle tourne sous android 13 et embarque un processeur Rockchip RK3566, la version testée dispose de 4GB de Ram et 128Go de Rom. Je vais te présenter cette tablette, et te donner les points positifs et négatifs car malheureusement il y en a !.
+**Article coup de poing**, aujourd'hui je vais tester la tablette 10,1 pouces de la marque ELC, la SMT101 aussi disponible en 9,7" et 15,6", cette tablette a **l'avantage d'être encastrable**, de disposer d'un bandeau Led, et d'autres options. Elle tourne sous android 13 et embarque un processeur Rockchip RK3566, la version testée dispose de **4GB de Ram et 128Go de Rom**. Je vais te présenter cette tablette, et te donner les points positifs et négatifs car malheureusement il y en a !.
 
-> Cerise sur le Gâteau j'ai développé une Apk qui te permettra de contrôler les fonctions de cette tablette dans Home Assistant ( Led, Switch, Température et humidité ) grâce à la passerelle MQTT.
+> **Cerise sur le Gâteau j'ai développé une Apk** qui te permettra de contrôler les fonctions de cette tablette dans Home Assistant ( Led, Switch, Température et humidité ) grâce à la passerelle MQTT et Home Assistant Discovery.
 
 ## Déballage {{ page.ref }}
 
+L'emballage est tout blanc exempt de tout indices de marque (marque blanche). Le tout étant bien emballé c'est un plus surtout que cette tablette est en provenance de chine, bref l'emballage est relativement bien conçu !
+
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
+
 {% picture posts/{{ page.guid }}/deballage-elc-smt-101.png --alt Déballage de la tablette murale ELC-SMT101 --img width="940" height="529" %}
 
+À l'intérieur on y trouve tout le nécessaire enfin presque, pour bien débuter.
+- la tablette 10,1"
+- une alimentation européenne
+- des connecteurs rapides
+- un tournevis
+- une notice sommaire
+- un cable data usb-c **( la qualité laisse à désirer )**
+- des visses de fixations pour fixer le support dans la boite d'encastrement
+
 {% picture posts/{{ page.guid }}/contenu-boite-elc-smt101.png --alt Contenu de la boite de la tablette murale ELC-SMT101 --img width="940" height="529" %}
+
+Petit tour d'horizon de la tablette
+- sur le dessus un bouton power
+- juste à côté un bouton recovery ( mode loader et maskrom )
+- sur la face avant une caméra de 5mp ainsi q'un capteur de luminosité
+- sur le dessous 4 sorties micros ainsi que sur chaque extrémité des hauts parleurs ( qui font très bien le job )
+- le ? correspont au capteur de température et d'humidité situé sur le flanc gauche.
 
 {% picture posts/{{ page.guid }}/tour-horizon-tablette-murale-elc-smt101.png --alt Tour d'horizon de la tablette murale ELC-SMT101 --img width="940" height="529" %}
 
 ## Connectique
 
+Partie intéressante du produit, la face arrière et la connectique sont intéressantes et relativement bien travaillé.
+
 {% picture posts/{{ page.guid }}/face-arriere-tablette-elc-smt101.png --alt Face arrière tablette murale ELC SMT101 --img width="940" height="529" %}
+
+Commençons par le support murale noir, il est en métal et rigide, idéal pour ne pas le déformer lors de l'installation.
+Il tient à la tablette par 3 clips de plus ce support est collé à la tablette de façon magnétique car celle -ci intègre des aimants derrière la coque.
+
+> **Le support est solide est très fonctionnel.**
+
+La partie connectique n'est pas en reste. On y trouve:
+- un double switch afin de contrôler des lumières 220v
+- Deux entrées I/O afin d'y connecter des interrupteurs physiques
+- Une entrée infrarouge ( intéressante si tu veux y connecter un émetteur IR )
+- Des ports RS485
+- une entrée 12v (malheureusement cette tablette n'est pas alimentable en 220V)
+- Une entrée USB-C afin de débugger
+- Un port RJ45 avec fonction POE si tu veux l'alimenter par ce biais.
 
 {% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
 
+La connectique est pas mal, **je déplore deux choses:**
+
+👎 l'absence d'alimentation 220V
+👎 la boîte d'encastrement au format UK ( carré ) et non fourni avec la tablette.
+
+## Sous le capot {{ page.ref }}
+
+{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-de-la-tablette-elc-smt101.png --alt Démontage en deux parties de la tablette murale ELC SMT101 --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-assemble-avec-switch-220v-de-la-tablette-elc-smt101.png --alt Assemblage des deux modules sans les coque de la tablette murale ELC SMT101 --img width="940" height="529" %}
+
 ## Caractéristiques Techniques {{ Page.ref }}
+
+Retrouve toutes les caractéristiques techniques de la tablette ci-dessous
 
 |Taille diagonale|10,1 pouces (LCD)| 
 |Type d'écran|Écran haute définition 10,1" plein écran, entièrement collé|
@@ -61,7 +110,7 @@ Article coup de poing, aujourd'hui je vais tester la tablette 10 pouces de la ma
 |ROM|32 Go (64 Go en option)|
 |Système d'exploitation|Android 13|
 |Taille et poids|Dimensions : 243,07 x 159,67 x 13,6 mm (L × l × P)|
-|Sans fil|Wi-Fi IEEE 802.11a/b/g/n/ac/ax (WiFi 6E)<br>802.15.4/Thread/Matter/Zigbee|
+|Sans fil|**Wi-Fi IEEE 802.11a/b/g/n/ac/ax (WiFi 6E)<br>802.15.4/Thread/Matter/Zigbee**|
 |Bluetooth|Bluetooth 5.3|
 |Ports E/S|USB Type-C et USB 2.0 compatibles OTG|
 |Port relais|Contrôle des appareils domestiques compatibles avec les connexions relais|
