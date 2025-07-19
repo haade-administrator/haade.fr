@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Jul 2025 05:24:05 +0200</pubDate>
-    <lastBuildDate>Wed, 25 Jun 2025 09:18:00 +0200</lastBuildDate>
+    <pubDate>Sat, 19 Jul 2025 10:52:10 +0200</pubDate>
+    <lastBuildDate>Wed, 09 Jul 2025 09:35:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test de la tablette murale Android ELC-SMT101</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test et intégration dans home assistant avec mqtt de la tablette murale ELC SMT101 avec bandeau Led et switch</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.png" alt="Test de la tablette murale Android ELC-SMT101">
+</picture>
+
+      <p>Article coup de poing, aujourd’hui je vais tester la tablette 10,1 pouces de la marque ELC, la SMT101 aussi disponible en 9,7” et 15,6”, cette tablette a l’avantage d’être encastrable, de disposer d’un bandeau Led, et d’autres options. Elle tourne sous android 13 et embarque un processeur Rockchip RK3566, la [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt">Test de la tablette murale Android ELC-SMT101</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 09 Jul 2025 09:35:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test du programmateur Sonoff SWV-BSP</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -222,27 +244,6 @@
       <link>https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</link>
       <guid isPermaLink="true">https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</guid>
       <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Test du robinet thermostatique connecté Tado° X</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Proche de la perfection ce robinet Tado X et j&apos;ai hâte de te le présenter, dans cet article je vais juste te présenter le robinet thermostatique Tado X compatible Thread</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/154/robinet-thermostatique-x-par-tado-un-des-meilleurs-du-marche-720-99854c07b.png" alt="Test du robinet thermostatique connecté Tado° X">
-</picture>
-
-      <p>L’entreprise Tado° m’a gracieusement fourni l’ensemble de la Gamme Tado° X. Mais dans cet article je vais simplement te présenter le robinet thermostatique Tado° X. Parler de l’ensemble de la gamme Tado° dans un article ne me semble pas pertinent car il y a beaucoup à dire !. Pour ne [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread">Test du robinet thermostatique connecté Tado° X</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 19 Feb 2025 18:43:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-du-robinet-thermostatique-tado-x-proche-de-la-perfection-compatible-thread</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
