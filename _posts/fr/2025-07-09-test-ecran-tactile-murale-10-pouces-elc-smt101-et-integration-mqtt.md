@@ -13,7 +13,7 @@ video:
 image: 'test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard.png'
 toc: true
 beforetoc: ''
-published: true
+published: false
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -112,7 +112,19 @@ Retrouve ci-dessous un schéma de branchement sur le réseau classique 220v d'un
 
 ## Home-Assistant et {{ page.ref }}
 
-Par défaut la tablette est fourni avec android 13 en version root ce qui nous laisse libre accès
+Par défaut la tablette est fourni avec **android 13 en version rooté** ce qui nous laisse libre accès à l'ensemble de la structure.
+
+{% picture posts/{{ page.guid }}/integration-home-assistant-tablette-elc-smt101.png --alt Intégration Home Assistant companion sur la tablette murale ELC SMT101 --img width="940" height="529" %}
+
+### Ultimate Dashboard
+
+J'ai choisi de modifier l'interface home assistant en ne faisant qu'ajouter quelques modules hacs sinon le reste de l'intégration se passe avec lovelace. Ci-dessous retrouve une vidéo d'intégration du dashboard créé fonctionnel et quasi parfait, assez facile à suivre et franchement je ne suis pas déçu.
+
+{% include videoPlayer.html youtubeId="pC-VBly1Y00" %}
+
+### Intégration MQTT
+
+Pour faire remonter les fonctions de la tablette ( led, switch, io température et humidité ) j'ai crée une application android qui communique par mqtt grâce à home assistant discovery. L'application n'est pas parfaite mais presque. Retrouve [l'application APK à cette adresse Github](https://github.com/haade-administrator/haade_panel_s504/releases){: target="_blank"}
 
 ## Caractéristiques Techniques {{ Page.ref }}
 
@@ -181,12 +193,6 @@ Retrouve toutes les caractéristiques techniques de la tablette ci-dessous
 |Language|Multi-language|
 |Certificates|CCC/CE/FCC/ROHS|
 |Operating Temperature|0℃-40℃|
-
-## Ultimate Dashboard
-
-{% include videoPlayer.html youtubeId="pC-VBly1Y00" %}
-
-## Intégration MQTT
 
 #### **les + de la caméra Slim Sonoff** {{ page.ref }}
 {: .blue}
