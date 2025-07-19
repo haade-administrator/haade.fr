@@ -13,7 +13,7 @@ video:
 image: 'test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -50,7 +50,7 @@ L'emballage est tout blanc exempt de tout indices de marque (marque blanche). Le
 
 {% picture posts/{{ page.guid }}/contenu-boite-elc-smt101.png --alt Contenu de la boite de la tablette murale ELC-SMT101 --img width="940" height="529" %}
 
-Petit tour d'horizon de la tablette
+**Petit tour d'horizon de la tablette**
 - sur le dessus un bouton power
 - juste à côté un bouton recovery ( mode loader et maskrom )
 - sur la face avant une caméra de 5mp ainsi q'un capteur de luminosité
@@ -77,20 +77,42 @@ La partie connectique n'est pas en reste. On y trouve:
 - Des ports RS485
 - une entrée 12v (malheureusement cette tablette n'est pas alimentable en 220V)
 - Une entrée USB-C afin de débugger
-- Un port RJ45 avec fonction POE si tu veux l'alimenter par ce biais.
+- **Un port RJ45 avec fonction POE** si tu veux l'alimenter par ce biais.
 
 {% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
 
 La connectique est pas mal, **je déplore deux choses:**
 
-👎 l'absence d'alimentation 220V
-👎 la boîte d'encastrement au format UK ( carré ) et non fourni avec la tablette.
+👎 **l'absence d'alimentation 220V**
+👎 **la boîte d'encastrement au format UK ( carré ) et non fourni avec la tablette.**
 
 ## Sous le capot {{ page.ref }}
 
+Comme beaucoup de produits de ce type, la partie électronique est façonnée de deux modules emboitables, la partie connectique et la partie processeur.
+
+La tablette {{ page.ref }} embarque un processeur Rockchips RK3566, cette version embarque 4Gb de Ram et 32GO de stockage, **aussi disponible à la vente en 2Gb et 16GO**. Je suis parti sur ce modèle afin de travailler sur un buildroot embarquant directement Home Assistant. Ainsi pour le prix on pourrait avoir une box domotique avec une interface de gestion ce qui pourrait largement justifier le prix. Mais ce n'est pas gagné les premier tests d'intégrations ne sont pas concluants.
+
+> De plus cette tablette embarque une puce Zigbee/Thread/Matter
+
+### Au sujet de la puce Zigbee du {{ page.ref }}
+
+Malheureusement la puce intégrée est une **Vensi lmiot-efr32 LMZ-E321VX-SN** plus [d'infos à ce sujet sur le FCCreport](https://fcc.report/FCC-ID/2ar6ize321vx/4139687.pdf){: target="_blank"} c'est une fabrication propriétaire embarquant une puce silabs EFR32MG1 et le sdk ELC ne permettrait de communiquer avec elle que par l'interposition d'un serveur mqtt donc difficilement intégrable directement dans zigbee2mqtt.
+
 {% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-de-la-tablette-elc-smt101.png --alt Démontage en deux parties de la tablette murale ELC SMT101 --img width="940" height="529" %}
 
+Sur la capture ci-dessous tu pourras te rendre dompte de l'ensemble du circuit électronique.
+
+> **Point intéressant les relais sont compatible 110-220v**
+
 {% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-assemble-avec-switch-220v-de-la-tablette-elc-smt101.png --alt Assemblage des deux modules sans les coque de la tablette murale ELC SMT101 --img width="940" height="529" %}
+
+Retrouve ci-dessous un schéma de branchement sur le réseau classique 220v d'un éclairage traditionnel.
+
+{% picture posts/{{ page.guid }}/branchement-schema-lumière-220v-elc-smt101.png --alt Schéma de branchement électrique des lumières en 220v avec la tablette murale ELC SMT101 --img width="940" height="529" %}
+
+## Home-Assistant et {{ page.ref }}
+
+Par défaut la tablette est fourni avec android 13 en version root ce qui nous laisse libre accès
 
 ## Caractéristiques Techniques {{ Page.ref }}
 
