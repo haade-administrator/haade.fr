@@ -68,7 +68,7 @@ Partie intéressante du produit, la face arrière et la connectique sont intére
 Commençons par le support murale noir, il est en métal et rigide, idéal pour ne pas le déformer lors de l'installation.
 Il tient à la tablette par 3 clips de plus ce support est collé à la tablette de façon magnétique car celle -ci intègre des aimants derrière la coque.
 
-> **Le support est solide est très fonctionnel.**
+> **Le support est solide et très fonctionnel.**
 
 La partie connectique n'est pas en reste. On y trouve:
 - un double switch afin de contrôler des lumières 220v

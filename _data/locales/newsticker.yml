@@ -5,26 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Zooz joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/07/15/zooz-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-07-zooz/art.jpg
+    title: Companion app for Android - Its been a while
+    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
+    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
   en_GB:
   - name: Home-Assistant
-    title: Zooz joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/07/15/zooz-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-07-zooz/art.jpg
+    title: Companion app for Android - Its been a while
+    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
+    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Aqara lance sa serrure connectée entrée de gamme Smart Lock U200 Lite
-    url: https://blog.domadoo.fr/112058-aqara-smart-lock-u200-lite-serrure-connecte/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/aqara-smart-lock-U200-lite-banner-1024x576.png
+    title: Comment contrôler les appareils Tuya depuis Home Assistant?
+    url: https://blog.domadoo.fr/111946-ajouter-appareils-tuya-a-home-assistant/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/tuya-home-assistant-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Station solaire KODAK 450w Plug & Play  - test complet du panneau solaire
-      facile à installer
-    url: https://blog.nord-domotique.com/station-solaire-kodak-450w/
+    title: Test complet de la Solarbank 3 Pro d’Anker SOLIX  - la batterie solaire
+      modulaire de nouvelle génération
+    url: https://blog.nord-domotique.com/test-complet-de-la-solarbank-3-pro/
     image:
 Abavala:
   fr_FR:
@@ -36,19 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Jigoo V700  - le balai sans fil qui relègue la corvée de vidage aux
-      oubliettes !
-    url: https://www.maison-et-domotique.com/163145-test-jigoo-v700-balai-sans-fil/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/93f71f00-59ee-4d2a-bbf1-7133728720a4--p1--702x488.png
+    title: Tesla Powerwall  - La révolution du stockage d’énergie s’invite enfin dans
+      nos maisons en France
+    url: https://www.maison-et-domotique.com/163394-tesla-powerwall-3-france/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/powerwall-3-hero-desktop-fr-702x439.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Adding GPS and off-grid maps to my Meshtastic T-Deck
-    url: https://www.jeffgeerling.com/blog/2025/adding-gps-and-grid-maps-my-meshtastic-t-deck
-    image: https://www.jeffgeerling.com/sites/default/files/images/meshmap-stl.jpg
+    title: Open Sauce is a confoundingly brilliant Bay Area event
+    url: https://www.jeffgeerling.com/blog/2025/open-sauce-confoundingly-brilliant-bay-area-event
+    image: https://www.jeffgeerling.com/sites/default/files/images/open-sauce-2025-joe-jeff-geerling.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Alliance Member Map – IFA Berlin 2025
-    url: https://csa-iot.org/newsroom/alliance-member-map-ifa-berlin-2025/
+    title: eWeLink -  Driving Smart Home Innovation Through Matter Adoption TEST
+    url: https://csa-iot.org/newsroom/ewelink-driving-smart-home-innovation-through-matter-adoption-test/
     image:
