@@ -37,9 +37,14 @@ L'emballage est tout blanc exempt de tout indices de marque (marque blanche). Le
 
 {% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
 
+N'hésite pas à télécharger **la notice d'installation** en cliquant sur le lien ci-dessous.
+
+{% include doclink.html pdf="notice-technique-elc-smt101.pdf" title="Notice technique de la tablette murale Elc SMT" %}
+
 {% picture posts/{{ page.guid }}/deballage-elc-smt-101.png --alt Déballage de la tablette murale ELC-SMT101 --img width="940" height="529" %}
 
-À l'intérieur on y trouve tout le nécessaire enfin presque, pour bien débuter.
+**À l'intérieur on y trouve tout le nécessaire enfin presque**, pour bien débuter.
+
 - la tablette 10,1"
 - une alimentation européenne
 - des connecteurs rapides
@@ -51,6 +56,7 @@ L'emballage est tout blanc exempt de tout indices de marque (marque blanche). Le
 {% picture posts/{{ page.guid }}/contenu-boite-elc-smt101.png --alt Contenu de la boite de la tablette murale ELC-SMT101 --img width="940" height="529" %}
 
 **Petit tour d'horizon de la tablette**
+
 - sur le dessus un bouton power
 - juste à côté un bouton recovery ( mode loader et maskrom )
 - sur la face avant une caméra de 5mp ainsi q'un capteur de luminosité
@@ -61,7 +67,7 @@ L'emballage est tout blanc exempt de tout indices de marque (marque blanche). Le
 
 ## Connectique
 
-Partie intéressante du produit, la face arrière et la connectique sont intéressantes et relativement bien travaillé.
+**Partie intéressante du produit**, la face arrière et la connectique sont intéressantes et relativement bien travaillé.
 
 {% picture posts/{{ page.guid }}/face-arriere-tablette-elc-smt101.png --alt Face arrière tablette murale ELC SMT101 --img width="940" height="529" %}
 
@@ -96,6 +102,8 @@ La tablette {{ page.ref }} embarque un processeur Rockchips RK3566, cette versio
 
 ### Au sujet de la puce Zigbee du {{ page.ref }}
 
+{% picture posts/{{ page.guid }}/carte-mere-face-dessous-elc-smt101-puce-zigbee-et-emmc.png --alt Dessous de la carte mère puce zigbee et emmc samsung de la tablette murale ELC SMT101 --img width="940" height="529" %}
+
 Malheureusement la puce intégrée est une **Vensi lmiot-efr32 LMZ-E321VX-SN** plus [d'infos à ce sujet sur le FCCreport](https://fcc.report/FCC-ID/2ar6ize321vx/4139687.pdf){: target="_blank"} c'est une fabrication propriétaire embarquant une puce silabs EFR32MG1 et le sdk ELC ne permettrait de communiquer avec elle que par l'interposition d'un serveur mqtt donc difficilement intégrable directement dans zigbee2mqtt.
 
 {% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-de-la-tablette-elc-smt101.png --alt Démontage en deux parties de la tablette murale ELC SMT101 --img width="940" height="529" %}
@@ -124,7 +132,34 @@ J'ai choisi de modifier l'interface home assistant en ne faisant qu'ajouter quel
 
 ### Intégration MQTT
 
-Pour faire remonter les fonctions de la tablette ( led, switch, io température et humidité ) j'ai crée une application android qui communique par mqtt grâce à home assistant discovery. L'application n'est pas parfaite mais presque. Retrouve [l'application APK à cette adresse Github](https://github.com/haade-administrator/haade_panel_s504/releases){: target="_blank"}
+Pour faire remonter les fonctions de la tablette ( led, switch, io température et humidité ) j'ai crée une application android qui communique par mqtt grâce à home assistant discovery. L'application n'est pas parfaite mais presque. [Télécharge l'application mqtt APK pour contrôler les fonctions de la tablette Elc SMT101]({{ site.baseurl }}/assets/images/posts/164/haade_panel_s504-v1.0.8.apk){: target="_blank"}
+
+La capture ci-dessous **te montre brièvement l'interface** de contrôle mqtt sur la tablette android. **( paramétrage mqtt, contrôle des switchs et contrôle led )**.
+
+{% picture posts/{{ page.guid }}/parametrage-application-android-mqtt-pour-communiquer-avec-tablette-elc-smt101.png --alt Intégration Mqtt par l'Apk pour la tablette Elc SMT101 --img width="940" height="529" %}
+
+Ci-dessous une capture des **paramètres et infos**, bienentendu ces infos remontent dans Home Assistant.
+
+{% picture posts/{{ page.guid }}/controle-elc-smt101-led-switch-avec-home-assistant-par-mqtt-temperature-humidite.png --alt Visuel de la température et humidité dans l'intégration Mqtt par l'Apk pour la tablette Elc SMT101 --img width="940" height="529" %}
+
+Pour finir une **capture dans Home assistant** du contrôle de la tablette.
+
+{% picture posts/{{ page.guid }}/exemple-control-elc-smt101-led-switch-avec-home-assistant-par-mqtt.png --alt Contrôle des fonctions de la  la tablette Elc SMT101 dans home Assistant grâce à MQTT --img width="940" height="529" %}
+
+**Bon je m'excuse pour la qualité des images mais actuellement la fonction Mqtt permet de:**
+
+- paramétrer le serveur mqtt ( créé au préalable dans home assistant )
+- contrôler les couleurs et luminosités des led sur la tablette et dans home assistant
+- contrôler les deux switchs
+- contrôler les interrupteurs physiques I/O branché sur la tablette ( encore en phase de test )
+- afficher la température et humidité ainsi que la version du sofware sur la tablette et dans home assistant.
+- visuel de la luminosité ambiante
+- faire la mise à jour de l'APK par un simple clic
+- minimiser l'application dans Android
+
+**À venir:**
+
+- utiliser la puce zigbee comme coordianateur sur la tablette et la faire intéragir avec home assistant toujours par MQTT.
 
 ## Caractéristiques Techniques {{ Page.ref }}
 
