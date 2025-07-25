@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 25 Jul 2025 19:35:30 +0200</pubDate>
+    <pubDate>Fri, 25 Jul 2025 20:51:22 +0200</pubDate>
     <lastBuildDate>Fri, 25 Jul 2025 19:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>ELC-SMT101 Android Wall Mounted Tablet Review</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Testing and integration into home assistant with mqtt of the ELC SMT101 wall tablet with LED strip and switch</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.png" alt="ELC-SMT101 Android Wall Mounted Tablet Review">
+</picture>
+
+      <p>A powerful article: today I’m going to review the 10.1-inch tablet from ELC, the SMT101, also available in 9.7” and 15.6”. This tablet has the advantage of being built-in, having an LED strip, and other options. It runs Android 13 and features a Rockchip RK3566 processor. The version I tested [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration">ELC-SMT101 Android Wall Mounted Tablet Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 25 Jul 2025 19:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Sonoff SWV-BSP Programmer Review</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -223,28 +245,6 @@
       <link>https://haade.fr/en/blog/tado-x-thermostatic-faucet-test-near-perfection-thread-compatible</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/tado-x-thermostatic-faucet-test-near-perfection-thread-compatible</guid>
       <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Setting up Zigbee/Thread Multi-protocol on Home Assistant</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Thread is a protocol that is gaining momentum, it is possible thanks to Silicon Labs to make Thread/Matter coexist with Zigbee on the same EZSP key. Despite the experimental operation, you will be able to realize that the installation of both protocols on the same key is possible!</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/153/installation-multiprotocole-zigbee-thread-cle-skyconnect-zbt1-home-assistant-720-6316ce6b3.png" alt="Setting up Zigbee/Thread Multi-protocol on Home Assistant">
-</picture>
-
-      <p>After a tutorial on installing the Thread/Matter protocol on Home Assistant, let’s continue now and tackle a sensitive subject, the thread/zigbee multi-protocol on the same key. Why sensitive, this integration is still in the development phase and not recommended by the Nabu Casa team.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant">Setting up Zigbee/Thread Multi-protocol on Home Assistant</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 04 Feb 2025 18:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/multi-protocol-multipan-zigbee-thread-implementation-with-homeassistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
