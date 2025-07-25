@@ -136,6 +136,8 @@ Par défaut la tablette est fourni avec **android 13 en version rooté** ce qui 
 
 **Pour info:** passer en maskrom est assez simple, redémarre la tablette, au moment ou celle-ci passe en écran noir il suffit d'appuyer 2 secondes sur le bouton recovery.
 
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
+
 En mode Hardware il est aussi possible de passer en maskrom **il suffit de créer un pont entre les deux connecteurs identifiés sur la photo ci-dessous, de brancher le cable usb-c au pc et la carte mère et ensuite de brancher l'alimentation.** 
 
 > Et le tour est joué.
@@ -218,7 +220,7 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 |Certificats | CCC/CE/FCC/ROHS |
 |Température de fonctionnement | 0 °C - 40 °C |
 
-#### **les + de la caméra Slim Sonoff** {{ page.ref }}
+## **les + de la caméra Slim Sonoff** {{ page.ref }}
 {: .blue}
 
 - Qualité du produit ( malgré un légère imperfection lumineuse )
@@ -227,7 +229,7 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 - alimentation RJ45 POE
 - Android 13 rooté
 
-#### **les - de la caméra Slim Sonoff** {{ page.ref }}
+## **les - de la caméra Slim Sonoff** {{ page.ref }}
 {: .red}
 
 - Absence d'alimentation secteur ( 110-240V )
@@ -235,6 +237,8 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 - Fourni avec Android 13 ( HAOS non intégrable d'origine )
 - Thread non pris en charge dans Android 13
 - Le Prix
+
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
 
 ## Conclusion
 

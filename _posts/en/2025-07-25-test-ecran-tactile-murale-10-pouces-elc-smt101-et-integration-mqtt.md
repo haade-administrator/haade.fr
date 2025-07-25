@@ -1,7 +1,7 @@
 ---
 guid: 164
-title: "Test de la tablette murale Android ELC-SMT101"
-description: "Test et intégration dans home assistant avec mqtt de la tablette murale ELC SMT101 avec bandeau Led et switch"
+title: "ELC-SMT101 Android Wall Mounted Tablet Review"
+description: "Testing and integration into home assistant with mqtt of the ELC SMT101 wall tablet with LED strip and switch"
 ref: "ELC SMT101"
 layout: post
 authors: [Nico]
@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Haade-lab, Home-Assistant]
 tags: []
 video: 
-image: 'test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard.png'
+image: 'test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard.png'
 toc: true
 beforetoc: ''
 published: false
@@ -20,203 +20,173 @@ sitemap:
   exclude: 'no'
   priority: 0.5 #between 0.0 to 1.0, 1.0 high priority
   lastmod:  # date to end modification
-locale: fr_FR
+locale: en_GB
 comments: true
 rating: 4.2
 sourcelink:
   - https://www.elclcd.com/products/10-1-smart-home-panel-smt101
   - https://s.click.aliexpress.com/e/_oCHHQoO
 ---
-**Article coup de poing**, aujourd'hui je vais tester la tablette 10,1 pouces de la marque ELC, la SMT101 aussi disponible en 9,7" et 15,6", cette tablette a **l'avantage d'être encastrable**, de disposer d'un bandeau Led, et d'autres options. Elle tourne sous android 13 et embarque un processeur Rockchip RK3566, la version testée dispose de **4GB de Ram et 128Go de Rom**. Je vais te présenter cette tablette, et te donner les points positifs et négatifs car malheureusement il y en a !.
+**A powerful article**: today I'm going to review the 10.1-inch tablet from ELC, the SMT101, also available in 9.7" and 15.6". This tablet has the **advantage of being built-in**, having an LED strip, and other options. It runs Android 13 and features a Rockchip RK3566 processor. The version I tested has **4GB of RAM and 128GB of ROM**. I'm going to introduce you to this tablet and give you the pros and cons, because unfortunately there are some!
 
-> **Cerise sur le Gâteau j'ai développé une Apk** qui te permettra de contrôler les fonctions de cette tablette dans Home Assistant ( Led, Switch, Température et humidité ) grâce à la passerelle MQTT et Home Assistant Discovery.
+> **The cherry on the cake is that I developed an APK** that will allow you to control the tablet's functions in Home Assistant (LEDs, Switches, Temperature and Humidity) using the MQTT gateway and Home Assistant Discovery.
 
-[Télécharge l'application mqtt APK pour contrôler les fonctions de la tablette Elc SMT101]({{ site.baseurl }}/assets/images/posts/164/haade_panel_s504-v1.0.8.apk){: target="_blank"}
+[Download the mqtt APK application to control the functions of the Elc SMT101 tablet]({{ site.baseurl }}/assets/images/posts/164/haade_panel_s504-v1.0.8.apk){: target="_blank"}
 
-## Déballage {{ page.ref }}
+## Unboxing {{ page.ref }}
 
-L'emballage est tout blanc exempt de tout indices de marque **(marque blanche)**. Le tout étant bien emballé c'est un plus surtout que cette tablette est en provenance de chine, bref l'emballage est relativement bien conçu !
+The packaging is all white, free of any branding (white label). Everything is well packaged, which is a plus, especially since this tablet comes from China. In short, the packaging is relatively well designed!
 
-{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="ELC SMT101 Wall Shelf with LED strip" brand="ELC" description="ELC SMT101 Android 13 Wall Tablet Rooted" affiliate="_omyM8Ge" %}
 
-N'hésite pas à télécharger **la notice d'installation** en cliquant sur le lien ci-dessous.
+Feel free to download **the installation instructions** by clicking on the link below.
 
-{% include doclink.html pdf="notice-technique-elc-smt101.pdf" title="Notice technique de la tablette murale Elc SMT" %}
+{% include doclink.html pdf="notice-technique-elc-smt101.pdf" title="Technical instructions for the Elc SMT wall shelf" %}
 
-{% picture posts/{{ page.guid }}/deballage-elc-smt-101.png --alt Déballage de la tablette murale ELC-SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-elc-smt-101.png --alt Unboxing the ELC-SMT101 Wall Shelf --img width="940" height="529" %}
 
-**À l'intérieur on y trouve tout le nécessaire enfin presque**, pour bien débuter.
+**Inside, you'll find everything you need, well, almost everything**, to get started.
 
-- la tablette 10,1"
-- une alimentation **européenne** ( sur demande au revendeur )
-- des connecteurs rapides
-- un tournevis
-- une notice sommaire
-- un cable data usb-c **( la qualité laisse à désirer )**
-- des visses de fixations pour fixer le support dans la boite d'encastrement
+- The 10.1" tablet
+- A **European power** supply (available upon request from the retailer)
+- Quick connectors
+- A screwdriver
+- A brief guide
+- A **USB-C data cable** (the quality is poor)
+- Mounting screws to secure the mount to the mounting box
 
-{% picture posts/{{ page.guid }}/contenu-boite-elc-smt101.png --alt Contenu de la boite de la tablette murale ELC-SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/contenu-boite-elc-smt101.png --alt ELC-SMT101 Wall Mounted Tablet Box Contents --img width="940" height="529" %}
 
-**Petit tour d'horizon de la tablette**
+**A quick overview of the tablet**
 
-- sur le dessus un **bouton power**
-- juste à côté un **bouton recovery** ( mode loader et maskrom )
-- sur la face **avant une caméra de 5mp** ainsi **q'un capteur de luminosité**
-- sur le dessous 4 sorties micros ainsi que sur chaque extrémité des hauts parleurs ( qui font très bien le job )
-- le ? correspond au **capteur de température et d'humidité** situé sur le flanc gauche.
+- On the top, a **power button**
+- Right next to it, a **recovery button** (loader mode and maskrom)
+- On the **front, a 5MP camera** and **a light sensor**
+- On the bottom, four microphone outputs, as well as speakers on each end (which do their job very well)
+- The ? corresponds to the **temperature and humidity sensor** located on the left side.
 
-{% picture posts/{{ page.guid }}/tour-horizon-tablette-murale-elc-smt101.png --alt Tour d'horizon de la tablette murale ELC-SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/tour-horizon-tablette-murale-elc-smt101.png --alt ELC-SMT101 Wall Mounted Tablet Overview --img width="940" height="529" %}
 
-## Connectique
+##Connections
 
-**Partie intéressante du produit**, la face arrière et la connectique sont intéressantes et relativement bien travaillé.
+**An interesting part of the product**: the back panel and connectors are interesting and relatively well-designed.
 
-{% picture posts/{{ page.guid }}/face-arriere-tablette-elc-smt101.png --alt Face arrière tablette murale ELC SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/face-arriere-tablette-elc-smt101.png --alt Back of ELC SMT101 wall shelf --img width="940" height="529" %}
 
-Commençons par le support murale noir, il est en métal et rigide, idéal pour ne pas le déformer lors de l'installation.
-Il tient à la tablette par 3 clips de plus ce support est collé à la tablette de façon magnétique car celle-ci intègre un support aimanté derrière la coque.
-**La tablette est faite de façon à coller totalement au mur sans laisser d'écart car le moulage de la structure est très bien réalisé.**
+Let's start with the black wall mount. It's made of rigid metal, ideal for preventing it from deforming during installation.
+It holds the tablet with three clips. This mount is also magnetically attached to the tablet, as it features a built-in magnetic mount behind the case.
+**The tablet is designed to adhere completely to the wall without any gaps, as the molding of the structure is very well done.**
 
-> **Le support est solide et très fonctionnel.**
+> **The mount is solid and very functional.**
 
-La partie connectique n'est pas en reste. **On y trouve:**
+The connectivity is also impressive. **It includes:**
 
-- un **double switch** afin de contrôler des lumières 220v
-- Deux **entrées I/O** afin d'y connecter des interrupteurs physiques
-- Une **entrée infrarouge** ( intéressante si tu veux y connecter un émetteur IR )
-- Des ports RS485
-- une **entrée 12v (malheureusement cette tablette n'est pas alimentable en 220V)**
-- Une entrée USB-C afin de débugger
-- **Un port RJ45 avec fonction POE** si tu veux l'alimenter par ce biais.
+- A **double switch** to control 220V lights
+- Two **I/O inputs** to connect physical switches
+- An **infrared input** (useful if you want to connect an IR transmitter)
+- RS485 ports
+- A **12V input (unfortunately, this tablet doesn't support 220V power)**
+- A USB-C input for debugging
+- An **RJ45 port with POE function** if you want to power it through that port.
 
-{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="Tablette Murale ELC SMT101 avec bandeau Led" brand="ELC" description="Tablette Murale ELC SMT101 Android 13 rooté" affiliate="_omyM8Ge" %}
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="ELC SMT101 Wall Shelf with LED strip" brand="ELC" description="ELC SMT101 Android 13 Wall Tablet Rooted" affiliate="_omyM8Ge" %}
 
-La connectique est pas mal, **je déplore deux choses:**
+The connectivity isn't bad. **I have two complaints:**
 
-👎 **l'absence d'alimentation 220V**
-👎 **la boîte d'encastrement au format UK ( carré ) et non fourni avec la tablette.**
+👎 **the lack of a 220V power supply**
+👎 **the UK-format (square) flush-mounting box is not included with the tablet.**
 
-## Sous le capot {{ page.ref }}
+## Under the Hood {{ page.ref }}
 
-Comme beaucoup de produits de ce type, la partie électronique est **façonnée de deux modules emboitables**, la partie connectique et la partie processeur.
+Like many products of this type, the electronics are **made up of two interlocking modules**: the connectivity section and the processor section.
 
-La tablette {{ page.ref }} embarque un processeur **Rockchips RK3566**, cette version embarque **4Gb de Ram et 32GO** de stockage, **aussi disponible à la vente en 2Gb et 16GO**. Je suis parti sur ce modèle afin de travailler **sur un buildroot embarquant directement Home Assistant**. 
-Ainsi pour le prix on pourrait avoir une box domotique embrquant une puce zigbee/matter/thread avec une interface de gestion 
+The {{ page.ref }} tablet features a **Rockchips RK3566** processor. This version comes with **4GB of RAM and 32GB** of storage, and is also available in 2GB and 16GB. I chose this model to work on a buildroot directly integrating Home Assistant.
 
-> ce qui pourrait largement justifier le prix. Mais ce n'est pas gagné les premier tests d'intégrations ne sont pas concluants.
+So, for the price, we could have a home automation box incorporating a Zigbee/Matter/Thread chip with a management interface
 
-Mais il y a un mais, suite à un bug buildroot, j'ai négocié avec la société ELC qui va me transmettre le SDK complet et j'ai l'espoir d'arriver à intégrer HAOS.
-Si les résultats sont concluants, **Haade.fr commercialisera directement** cette tablette avec l'intégration HAOS et probablement avec une alimentation en 230V. Et suivant le cours du dollars, **le prix de vente départ france devrait être aux alentours de 235€ livraison incluse.**
+> which could more than justify the price. But it's not a done deal; the initial integration tests are inconclusive.
 
-### Au sujet de la puce Zigbee du {{ page.ref }}
+But there is one catch: following a buildroot bug, I negotiated with the company ELC, which will send me the complete SDK, and I hope to be able to integrate HAOS. If the results are conclusive, **Haade.fr will sell this tablet directly** with HAOS integration and probably with a 230V power supply. And depending on the dollar exchange rate, **the retail price ex-France should be around €235 including delivery.**
 
-{% picture posts/{{ page.guid }}/carte-mere-face-dessous-elc-smt101-puce-zigbee-et-emmc.png --alt Dessous de la carte mère puce zigbee et emmc samsung de la tablette murale ELC SMT101 --img width="940" height="529" %}
+### About the Zigbee chip of the {{ page.ref }}
 
-Malheureusement la puce intégrée est une **Vensi lmiot-efr32 LMZ-E321VX-SN** plus [d'infos à ce sujet sur le FCCreport](https://fcc.report/FCC-ID/2ar6ize321vx/4139687.pdf){: target="_blank"} c'est une fabrication propriétaire embarquant une **puce silabs EFR32MG1** et le sdk ELC ne permettrait de communiquer avec elle que par l'interposition d'un serveur mqtt donc difficilement intégrable directement dans zigbee2mqtt. Mais celà reste à confirmer.
+{% picture posts/{{ page.guid }}/carte-mere-face-dessous-elc-smt101-puce-zigbee-et-emmc.png --alt Underside of the motherboard zigbee chip and emmc samsung of the ELC SMT101 wall tablet --img width="940" height="529" %}
 
-Tout de même une bonne nouvelle, Les SoC EFR32MG1 sont idéaux pour la conception d'objets connectés sans fil économes en énergie. Issus de la gamme Wireless Gecko, les appareils EFR32MG1 **prennent en charge la connectivité sans fil Zigbee et Thread**, ainsi que le **Bluetooth Low Energy** et la prise en charge des protocoles propriétaires 2,4 GHz et sub-GHz. Cette solution monopuce offre une efficacité énergétique de pointe, des temps de réveil ultra-rapides, un amplificateur de puissance évolutif et des fonctionnalités de microcontrôleur (MCU) sans compromis. Ces appareils sont parfaitement adaptés aux applications maillées alimentées par le secteur, telles que l'éclairage, les passerelles et les assistants vocaux, ainsi qu'à d'autres systèmes exigeant des performances élevées et une faible consommation d'énergie.
+Unfortunately the integrated chip is a **Vensi lmiot-efr32 LMZ-E321VX-SN** more [info about this on the FCCreport](https://fcc.report/FCC-ID/2ar6ize321vx/4139687.pdf){: target="_blank"} It's a proprietary product featuring a **Silabs EFR32MG1 chip**, and the ELC SDK would only allow communication with it via an MQTT server, making it difficult to integrate directly into Zigbee2MQTT. However, this remains to be confirmed.
 
-{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-de-la-tablette-elc-smt101.png --alt Démontage en deux parties de la tablette murale ELC SMT101 --img width="940" height="529" %}
+There's good news, though: the EFR32MG1 SoCs are ideal for designing energy-efficient wireless connected devices. Part of the Wireless Gecko family, the EFR32MG1 devices **support Zigbee and Thread wireless connectivity, as well as Bluetooth Low Energy and support for proprietary 2.4 GHz and sub-GHz protocols**. This single-chip solution offers industry-leading power efficiency, ultra-fast wake-up times, a scalable power amplifier, and uncompromising microcontroller (MCU) functionality. These devices are ideal for mains-powered mesh applications such as lighting, gateways and voice assistants, as well as other systems requiring high performance and low power consumption.
 
-Sur la capture ci-dessous tu pourras te rendre compte de l'ensemble du circuit électronique.
+{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-de-la-tablette-elc-smt101.png --alt Two-part disassembly of the ELC SMT101 wall shelf --img width="940" height="529" %}
 
-> **Point intéressant les relais sont compatible 110-220v**
+In the screenshot below, you can see the entire electronic circuit.
 
-{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-assemble-avec-switch-220v-de-la-tablette-elc-smt101.png --alt Assemblage des deux modules sans les coque de la tablette murale ELC SMT101 --img width="940" height="529" %}
+> **Interesting point: the relays are compatible with 110-220V**
 
-Retrouve ci-dessous **un schéma de branchement de relais sur le réseau classique 220v** d'un éclairage traditionnel.
+{% picture posts/{{ page.guid }}/sous-le-capot-en-deux-parties-assemble-avec-switch-220v-de-la-tablette-elc-smt101.png --alt Assembly of the two modules without the shell of the ELC SMT101 wall shelf --img width="940" height="529" %}
 
-{% picture posts/{{ page.guid }}/branchement-schema-lumière-220v-elc-smt101.png --alt Schéma de branchement électrique des lumières en 220v avec la tablette murale ELC SMT101 --img width="940" height="529" %}
+Find below **a connection diagram for a relay on the classic 220v network** for traditional lighting.
 
-## Home-Assistant et {{ page.ref }}
+{% picture posts/{{ page.guid }}/branchement-schema-lumière-220v-elc-smt101.png --alt Electrical connection diagram for 220v lights with the ELC SMT101 wall shelf --img width="940" height="529" %}
 
-Par défaut la tablette est fourni avec **android 13 en version rooté** ce qui nous laisse libre accès à l'ensemble de la structure.
+## Home Assistant and {{ page.ref }}
 
-{% picture posts/{{ page.guid }}/integration-home-assistant-tablette-elc-smt101.png --alt Intégration Home Assistant companion sur la tablette murale ELC SMT101 --img width="940" height="529" %}
+By default, the tablet comes with **rooted Android 13**, which gives us free access to the entire structure.
 
-**Pour info:** passer en maskrom est assez simple, redémarre la tablette, au moment ou celle-ci passe en écran noir il suffit d'appuyer 2 secondes sur le bouton recovery.
+{% picture posts/{{ page.guid }}/integration-home-assistant-tablette-elc-smt101.png --alt Home Assistant companion integration on the ELC SMT101 wall tablet --img width="940" height="529" %}
 
-En mode Hardware il est aussi possible de passer en maskrom **il suffit de créer un pont entre les deux connecteurs identifiés sur la photo ci-dessous, de brancher le cable usb-c au pc et la carte mère et ensuite de brancher l'alimentation.** 
+**FYI:** Switching to maskrom is quite simple: restart the tablet. When it goes black, simply press the recovery button for 2 seconds.
 
-> Et le tour est joué.
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="ELC SMT101 Wall Shelf with LED strip" brand="ELC" description="ELC SMT101 Android 13 Wall Tablet Rooted" affiliate="_omyM8Ge" %}
 
-{% picture posts/{{ page.guid }}/mode-maskrom-hard-elc-smt.png --alt Mode Maskrom Hardware sur la tablette murale ELC SMT101 --img width="940" height="529" %}
+In Hardware mode, it's also possible to switch to maskrom. **Just create a bridge between the two connectors identified in the photo below, connect the USB-C cable to the PC and the motherboard, and then plug in the power supply.**
+
+> And that's it.
+
+{% picture posts/{{ page.guid }}/mode-maskrom-hard-elc-smt.png --alt Maskrom Hardware Mode on the ELC SMT101 Wall Shelf --img width="940" height="529" %}
 
 ### Ultimate Dashboard
 
-J'ai choisi de modifier l'interface home assistant en ne faisant qu'ajouter **quelques modules hacs** sinon le reste de l'intégration **se passe avec lovelace**. Ci-dessous retrouve une vidéo d'intégration du dashboard créé fonctionnel et quasi parfait, assez facile à suivre et franchement je ne suis pas déçu. **Le tout concentré autour d'une entrée zone créé pour l'occasion.**
+I chose to modify the Home Assistant interface by only adding a few HACS modules. The rest of the integration is done with Lovelace. Below is a video of the integration of the dashboard, which is functional and almost perfect. It's quite easy to follow, and frankly, I'm not disappointed. It's all centered around an input area created for the occasion.
 
-> Le rendu sur la tablette 10,1" est totalement lisible et agréable.
+> The rendering on the 10.1" tablet is completely readable and pleasant.
 
 {% include videoPlayer.html youtubeId="pC-VBly1Y00" %}
 
-### Intégration MQTT
+### MQTT Integration
 
-Pour faire **remonter les fonctions de la tablette** ( led, switch, io température et humidité ) j'ai crée une application android qui communique par mqtt grâce à home assistant discovery. L'application n'est pas parfaite mais presque. [Télécharge l'application mqtt APK pour contrôler les fonctions de la tablette Elc SMT101]({{ site.baseurl }}/assets/images/posts/164/haade_panel_s504-v1.0.8.apk){: target="_blank"}
+To **transmit the tablet's functions** (LEDs, switches, temperature and humidity IOs), I created an Android app that communicates via MQTT using Home Assistant Discovery. The app isn't perfect, but it's close. [Download the MQTT APK app to control the functions of the ELC SMT101 tablet]({{ site.baseurl }}/assets/images/posts/164/haade_panel_s504-v1.0.8.apk){: target="_blank"}
 
-La capture ci-dessous **te montre brièvement l'interface** de contrôle mqtt sur la tablette android. **( paramétrage mqtt, contrôle des switchs et contrôle led )**.
+The screenshot below **briefly shows you the interface** of mqtt control on the android tablet. **(mqtt setting, switch control and led control)**.
 
-{% picture posts/{{ page.guid }}/parametrage-application-android-mqtt-pour-communiquer-avec-tablette-elc-smt101.png --alt Intégration Mqtt par l'Apk pour la tablette Elc SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/parametrage-application-android-mqtt-pour-communiquer-avec-tablette-elc-smt101.png --alt Mqtt integration by Apk for Elc SMT101 tablet --img width="940" height="529" %}
 
-Ci-dessous une capture des **paramètres et infos**, bienentendu ces infos remontent dans Home Assistant.
+Below is a screenshot of the **settings and information**, of course this information goes back to Home Assistant.
 
-{% picture posts/{{ page.guid }}/controle-elc-smt101-led-switch-avec-home-assistant-par-mqtt-temperature-humidite.png --alt Visuel de la température et humidité dans l'intégration Mqtt par l'Apk pour la tablette Elc SMT101 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/controle-elc-smt101-led-switch-avec-home-assistant-par-mqtt-temperature-humidite.png --alt Visualization of temperature and humidity in Mqtt integration by Apk for Elc SMT101 tablet --img width="940" height="529" %}
 
-Pour finir une **capture dans Home assistant** du contrôle de la tablette.
+Finally, a **capture in Home Assistant** of the tablet control.
 
-{% picture posts/{{ page.guid }}/exemple-control-elc-smt101-led-switch-avec-home-assistant-par-mqtt.png --alt Contrôle des fonctions de la  la tablette Elc SMT101 dans home Assistant grâce à MQTT --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/exemple-control-elc-smt101-led-switch-avec-home-assistant-par-mqtt.png --alt Controlling the functions of the Elc SMT101 tablet in Home Assistant using MQTT --img width="940" height="529" %}
 
-**Bon je m'excuse pour la qualité des images mais actuellement la fonction Mqtt permet de:**
+**Okay, I apologize for the image quality, but currently the MQTT function allows you to:**
 
-- paramétrer le serveur mqtt ( créé au préalable dans home assistant )
-- contrôler les couleurs et luminosités des led sur la tablette et dans home assistant
-- contrôler les deux switchs
-- contrôler les interrupteurs physiques I/O branché sur la tablette ( encore en phase de test )
-- afficher la température et humidité ainsi que la version du sofware sur la tablette et dans home assistant.
-- visuel de la luminosité ambiante
-- faire la mise à jour de l'APK par un simple clic
-- minimiser l'application dans Android
+- configure the MQTT server (previously created in Home Assistant)
+- control the LED colors and brightness on the tablet and in Home Assistant
+- control the two switches
+- control the physical I/O switches connected to the tablet (still in the testing phase)
+- display the temperature and humidity as well as the software version on the tablet and in Home Assistant.
+- visualize the ambient brightness
+- update the APK with a single click
+- minimize the app in Android
 
-**À venir:**
+**Coming soon:**
 
-- utiliser la puce zigbee comme coordianateur sur la tablette et la faire intéragir avec home assistant toujours par MQTT.
-- utiliser la fonction de la caméra peut-être par une identification.
+- use the ZigBee chip as a coordinator on the tablet and have it interact with Home Assistant, still via MQTT.
+- use the camera function, perhaps through identification.
 
-## Caractéristiques Techniques {{ Page.ref }}
+## Technical Specifications {{ Page.ref }}
 
-**Retrouve toutes les caractéristiques techniques de la tablette ci-dessous**
-
-|Taille diagonale|10,1 pouces (LCD)| 
-|Type d'écran|Écran haute définition 10,1" plein écran, entièrement collé|
-|Résolution|1280 x 800 pixels|
-|Format d'image|16:10|
-|Angle de vision|D/G 85/85, U/D 85/85|
-|Mode d'affichage|Normalement noir|
-|Rapport de contraste|800:1|
-|Luminance|250 nits|
-|Nombre de points|10 points|
-|Processeur|CPU RK3566 Quad-core Cortex A55|
-|RAM|2 Go (4 Go en option)|
-|ROM|32 Go (64 Go en option)|
-|Système d'exploitation|Android 13|
-|Taille et poids|Dimensions : 243,07 x 159,67 x 13,6 mm (L × l × P)|
-|Sans fil|**Wi-Fi IEEE 802.11a/b/g/n/ac/ax (WiFi 6E)<br>802.15.4/Thread/Matter/Zigbee**|
-|Bluetooth|Bluetooth 5.3|
-|Ports E/S|USB Type-C et USB 2.0 compatibles OTG|
-|Port relais|Contrôle des appareils domestiques compatibles avec les connexions relais|
-|Port IR|Utilisé pour la télécommande infrarouge, avec un récepteur externe enfichable permettant de contrôler l'appareil|
-|RJ45|Interface Ethernet (norme de fonction POE IEEE802.3at, POE+, classe 4, 25,5 W)|
-|Port d'alimentation|Entrée d'alimentation CC 12 V, 1,5 A, 18 W|
-|Format multimédia|Format vidéo MPEG-1, MPEG-2, MPEG-4, H.265, H.264, VC-1, VP8, VP9, ​​etc.|
-|Audio Format | MP3/WMA/AAC, etc. |
-|Photo | JPEG |
-|Couleur | Noir, Blanc |
-|Haut-parleur | 2 W, pavillon BOX |
-|Microphone | Quatre microphones |
-|Appareil photo | 5 Mpx (vue conventionnelle) |
-|Langue | Multilingue |
-|Certificats | CCC/CE/FCC/ROHS |
-|Température de fonctionnement | 0 °C - 40 °C |
+**Find all the tablet's technical specifications below**
 
 |Diagonal Size|10.1-inch (LCD)|
 |Panel Type|10.1" high-definition full view screen fully bonded|
@@ -232,7 +202,7 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 |ROM|32GB (Optional 64GB)|
 |Operating System|Android 13|
 |Size and Weight|Dimensions 243.07 x 159.67 x 13.6 mm (L × W × D)|
-|Wireless|WiFi IEEE 802.11a/b/g/n/ac/ax (WiFi 6E)<br>802.15.4/Thread/Matter/Zigbee|
+|Wireless|**WiFi IEEE 802.11a/b/g/n/ac/ax (WiFi 6E)<br>802.15.4/Thread/Matter/Zigbee**|
 |Bluetooth|Bluetooth 5.3|
 |I/O Ports|USB Type-C USB 2.0 supports OTG functionality|
 |Relay Port|Control home devices that support Relay connections|
@@ -250,24 +220,26 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 |Certificates|CCC/CE/FCC/ROHS|
 |Operating Temperature|0℃-40℃|
 
-#### **les + de la caméra Slim Sonoff** {{ page.ref }}
+## **Pros of the Sonoff Slim Camera** {{ page.ref }}
 {: .blue}
 
-- Qualité du produit ( malgré un légère imperfection lumineuse )
-- Système de fixation solide
-- Bandeau Led
-- alimentation RJ45 POE
-- Android 13 rooté
+- Product quality (despite a slight lighting imperfection)
+- Solid mounting system
+- LED strip
+- RJ45 POE power supply
+- Rooted Android 13
 
-#### **les - de la caméra Slim Sonoff** {{ page.ref }}
+## **Cons of the Sonoff Slim Camera** {{ page.ref }}
 {: .red}
 
-- Absence d'alimentation secteur ( 110-240V )
-- Relais switch DC ( idéal contact sec )
-- Fourni avec Android 13 ( HAOS non intégrable d'origine )
-- Thread non pris en charge dans Android 13
-- Le Prix
+- No mains power supply (110-240V)
+- DC switch relay (ideal for dry contact)
+- Comes with Android 13 (HAOS cannot be integrated by default)
+- Thread not supported in Android 13
+- The Price
+
+{% include product-embed.html image="elc-smt-101-tablette-murale-bandeau-led.png" title="ELC SMT101 Wall Shelf with LED strip" brand="ELC" description="ELC SMT101 Android 13 Wall Tablet Rooted" affiliate="_omyM8Ge" %}
 
 ## Conclusion
 
-**Voilà une très bonne tablette**, bonne base de départ **pour une intégration future de home assistant OS avec un affichage en direct**, ce qui en ferait une box domotique tout en un. Mais **il y a des améliorations à apporter pour la rendre exceptionnelle**. Le tarif tourne autour de 235€ sur aliexpress et tu **pourras utiliser toutes ses fonctions grâce à l'apk fournis par mes soins**. L'éclairage LED est top et te **permettra des créer des automatisations visuelles**, top 👍.
+**This is a very good tablet**, a good starting point **for future integration of Home Assistant OS with a live display**, which would make it an all-in-one home automation box. But **there are improvements to be made to make it exceptional**. The price is around €235 on AliExpress and you **will be able to use all its functions thanks to the APK provided by me**. The LED lighting is great and will **allow you to create visual automations**, great 👍.
