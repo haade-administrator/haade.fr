@@ -13,7 +13,7 @@ video:
 image: 'test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
