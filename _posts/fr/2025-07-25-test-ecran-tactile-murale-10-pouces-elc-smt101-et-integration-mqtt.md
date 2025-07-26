@@ -220,7 +220,7 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 |Certificats | CCC/CE/FCC/ROHS |
 |Température de fonctionnement | 0 °C - 40 °C |
 
-## **les + de la caméra Slim Sonoff** {{ page.ref }}
+## **les + de la tablette {{ page.ref }}**
 {: .blue}
 
 - Qualité du produit ( malgré un légère imperfection lumineuse )
@@ -229,7 +229,7 @@ Pour finir une **capture dans Home assistant** du contrôle de la tablette.
 - alimentation RJ45 POE
 - Android 13 rooté
 
-## **les - de la caméra Slim Sonoff** {{ page.ref }}
+## **les - de la tablette {{ page.ref }}**
 {: .red}
 
 - Absence d'alimentation secteur ( 110-240V )
