@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2025-07-25T19:00:00+02:00</news:publication_date>
-          <news:title>ELC-SMT101 Android Wall Mounted Tablet Review</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
