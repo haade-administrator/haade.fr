@@ -5,26 +5,27 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Companion app for Android - Its been a while
-    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
-    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
+    title: AirGradient joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/08/21/airgradient-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-08-airgradient/art.jpg
   en_GB:
   - name: Home-Assistant
-    title: Companion app for Android - Its been a while
-    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
-    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
+    title: AirGradient joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/08/21/airgradient-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-08-airgradient/art.jpg
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Comment contrôler les appareils Tuya depuis Home Assistant?
-    url: https://blog.domadoo.fr/111946-ajouter-appareils-tuya-a-home-assistant/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/tuya-home-assistant-1024x576.png
+    title: Home Assistant Connect ZWA-2 - Une révolution pour la domotique Z-Wave
+      !
+    url: https://blog.domadoo.fr/112130-home-assistant-connect-zwa-2-zwave/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/07/home-assistant-connect-zwa-2-une-revolution-pour-la-domotique-z-wave-91-1024x576.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet de la Solarbank 3 Pro d’Anker SOLIX  - la batterie solaire
-      modulaire de nouvelle génération
-    url: https://blog.nord-domotique.com/test-complet-de-la-solarbank-3-pro/
+    title: Test complet du bureau assis-debout Flexispot E1 Pro  - puissance, stabilité
+      et ergonomie pour un usage quotidien exigeant
+    url: https://blog.nord-domotique.com/test-complet-flexispot-e1-pro/
     image:
 Abavala:
   fr_FR:
@@ -36,19 +37,18 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Salle de bain connectée  - quand domotique et design s’invitent dans la
-      douche
-    url: https://www.maison-et-domotique.com/163369-salle-de-bain-connectee-douche/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/salle-de-baon-connectee-702x468.jpg
+    title: Énergie solaire  - 7 idées reçues qui vous empêchent de faire des économies
+    url: https://www.maison-et-domotique.com/163993-idees-recues-solutions-solaires/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/08/titre-fausse-idees-recues-solaire-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Open Sauce is a confoundingly brilliant Bay Area event
-    url: https://www.jeffgeerling.com/blog/2025/open-sauce-confoundingly-brilliant-bay-area-event
-    image: https://www.jeffgeerling.com/sites/default/files/images/open-sauce-2025-joe-jeff-geerling.jpg
+    title: Reverse Engineering ALL the Raspberry Pis
+    url: https://www.jeffgeerling.com/blog/2025/reverse-engineering-all-raspberry-pis
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: eWeLink -  Driving Smart Home Innovation Through Matter Adoption TEST
-    url: https://csa-iot.org/newsroom/ewelink-driving-smart-home-innovation-through-matter-adoption-test/
+    title: GE Launches Two New Matter smart Dimmer switches
+    url: https://homekitnews.com/2025/08/22/ge-launches-two-new-matter-smart-dimmer-switches/
     image:
