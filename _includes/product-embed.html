@@ -54,6 +54,9 @@
             {% if include.iteadlink %}
             <span class="iteadbutton" role="button"><a href="https://itead.cc/product/{{ include.iteadlink }}/ref/122/" target="_blank" rel="nofollow noopener"><img src="/assets/images/itead-payment.png" width="20" height="20" class="lazyload" alt="itead logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Itead</a></span>
             {%- endif %}
+            {% if include.sonofftech %}
+            <span class="sonofftechbutton" role="button"><a href="https://sonoff.tech/fr-fr/products/{{ include.sonofftech }}?ref=haadeone&utm_source=affiliate" target="_blank" rel="nofollow noopener"><img src="/assets/images/sonofftech-payment.png" width="68" height="20" class="lazyload" alt="sonofftech logo"> {{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Sonoff</a></span>
+            {%- endif %}
             {% if include.amazlink %}
             <span class="amazbutton" role="button"><a href="https://amzn.to/{{ include.amazlink }}" target="_blank" rel="nofollow noopener"><i class="icob amazon"></i>{{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Amazon</a></span>
             {%- endif %}
