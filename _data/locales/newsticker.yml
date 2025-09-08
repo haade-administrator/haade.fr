@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: AirGradient joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/08/21/airgradient-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-08-airgradient/art.jpg
+    title: Frient joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/09/02/frient-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-09-frient/art.webp
   en_GB:
   - name: Home-Assistant
-    title: AirGradient joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/08/21/airgradient-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-08-airgradient/art.jpg
+    title: Frient joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/09/02/frient-joins-works-with-home-assistant/
+    image: http://www.home-assistant.io/images/blog/2025-09-frient/art.webp
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -23,9 +23,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du bureau assis-debout Flexispot E1 Pro  - puissance, stabilité
-      et ergonomie pour un usage quotidien exigeant
-    url: https://blog.nord-domotique.com/test-complet-flexispot-e1-pro/
+    title: Test du Mova P50 Ultra  - le robot aspirateur qui veut tout révolutionner
+    url: https://blog.nord-domotique.com/test-du-mova-p50/
     image:
 Abavala:
   fr_FR:
@@ -37,18 +36,18 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Énergie solaire  - 7 idées reçues qui vous empêchent de faire des économies
-    url: https://www.maison-et-domotique.com/163993-idees-recues-solutions-solaires/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/08/titre-fausse-idees-recues-solaire-702x468.jpg
+    title: Test Aiper Surfer S2  - Skimmer solaire, entretien zéro prise de tête
+    url: https://www.maison-et-domotique.com/164117-test-aiper-surfer-s2-skimmer-solaire/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_aiper_surfer_s2i_31-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Reverse Engineering ALL the Raspberry Pis
-    url: https://www.jeffgeerling.com/blog/2025/reverse-engineering-all-raspberry-pis
-    image:
+    title: How to install TrueNAS on a Raspberry Pi
+    url: https://www.jeffgeerling.com/blog/2025/how-install-truenas-on-raspberry-pi
+    image: https://www.jeffgeerling.com/sites/default/files/images/pi-5-with-hard-drives.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: GE Launches Two New Matter smart Dimmer switches
-    url: https://homekitnews.com/2025/08/22/ge-launches-two-new-matter-smart-dimmer-switches/
+    title: Level Lock Pro review - Brilliant design + Matter = best in class
+    url: https://www.pcworld.com/article/2887364/level-lock-pro-review.html
     image:

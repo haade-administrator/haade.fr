@@ -432,6 +432,25 @@ $alert-success: #42ae42;
           }
         }
 
+        .sonofftechbutton {
+          img {
+            margin-right: 1em;
+          }
+
+          a {
+            background-color: #000000;
+          }
+
+          :hover,
+          :focus {
+            background-color: #666666;
+          }
+
+          :active {
+            background-color: #666666;
+          }
+        }
+
         .iteadbutton {
           img {
             margin-right: 1em;
