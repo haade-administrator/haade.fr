@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Frient joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/09/02/frient-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-09-frient/art.webp
+    title: 2025.9 - Features for tiles and automations for miles
+    url: https://www.home-assistant.io/blog/2025/09/03/release-20259/
+    image: "/images/blog/2025-09/automation-sidebar.png"
   en_GB:
   - name: Home-Assistant
-    title: Frient joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/09/02/frient-joins-works-with-home-assistant/
-    image: http://www.home-assistant.io/images/blog/2025-09-frient/art.webp
+    title: 2025.9 - Features for tiles and automations for miles
+    url: https://www.home-assistant.io/blog/2025/09/03/release-20259/
+    image: "/images/blog/2025-09/automation-sidebar.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -23,8 +23,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Mova P50 Ultra  - le robot aspirateur qui veut tout révolutionner
-    url: https://blog.nord-domotique.com/test-du-mova-p50/
+    title: Test du Dreame H15 S  - l’aspirateur-laveur de précision pour les bords
+      et recoins
+    url: https://blog.nord-domotique.com/test-du-dreame-h15-s/
     image:
 Abavala:
   fr_FR:
@@ -42,12 +43,12 @@ Maison-et-domotique:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: How to install TrueNAS on a Raspberry Pi
-    url: https://www.jeffgeerling.com/blog/2025/how-install-truenas-on-raspberry-pi
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi-5-with-hard-drives.jpg
+    title: YouTube views are down (don't panic)
+    url: https://www.jeffgeerling.com/blog/2025/youtube-views-are-down-dont-panic
+    image: https://www.jeffgeerling.com/sites/default/files/images/youtube-jeffgeerling-views-down.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Level Lock Pro review - Brilliant design + Matter = best in class
-    url: https://www.pcworld.com/article/2887364/level-lock-pro-review.html
+    title: How Philips Hue unlocks a new level of smart lighting
+    url: https://www.signify.com/global/our-company/news/press-releases/2025/20250904-ambiance-reimagined-how-philips-hue-unlocks-a-new-level-of-smart-lighting
     image:
