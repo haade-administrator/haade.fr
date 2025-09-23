@@ -8,8 +8,6 @@ RUN apt-get update && apt-get install -y \
     curl \
     nodejs \
     npm \
-    libxml2-dev \
-    libxslt1-dev \
     libvips \
     libvips-dev \
     libvips-tools \
@@ -30,6 +28,9 @@ COPY Gemfile Gemfile.lock ./
 
 # Configurer Bundler pour installer dans vendor/bundle
 RUN bundle config set --global path 'vendor/bundle'
+
+# remove error nokogiri warning library
+RUN bundle config set build.nokogiri --use-system-libraries=false \
 
 # Installer les gems
 RUN bundle install
