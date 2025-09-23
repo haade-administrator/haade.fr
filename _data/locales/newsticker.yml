@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2025.9 - Features for tiles and automations for miles
-    url: https://www.home-assistant.io/blog/2025/09/03/release-20259/
-    image: "/images/blog/2025-09/automation-sidebar.png"
+    title: Building the AI-powered local smart home
+    url: https://www.home-assistant.io/blog/2025/09/11/ai-in-home-assistant/
+    image: "/images/blog/2025-09-ai/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: 2025.9 - Features for tiles and automations for miles
-    url: https://www.home-assistant.io/blog/2025/09/03/release-20259/
-    image: "/images/blog/2025-09/automation-sidebar.png"
+    title: Building the AI-powered local smart home
+    url: https://www.home-assistant.io/blog/2025/09/11/ai-in-home-assistant/
+    image: "/images/blog/2025-09-ai/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -23,9 +23,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Dreame H15 S  - l’aspirateur-laveur de précision pour les bords
-      et recoins
-    url: https://blog.nord-domotique.com/test-du-dreame-h15-s/
+    title: Test complet du robot tondeuse Gardena Smart Sileno Free 800  - sans fil,
+      sans prise de tête, mais avec de l’intelligence
+    url: https://blog.nord-domotique.com/test-gardena-smart-sileno-free-800/
     image:
 Abavala:
   fr_FR:
@@ -43,12 +43,12 @@ Maison-et-domotique:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: YouTube views are down (don't panic)
-    url: https://www.jeffgeerling.com/blog/2025/youtube-views-are-down-dont-panic
-    image: https://www.jeffgeerling.com/sites/default/files/images/youtube-jeffgeerling-views-down.jpg
+    title: CubeSats are fascinating learning tools for space
+    url: https://www.jeffgeerling.com/blog/2025/cubesats-are-fascinating-learning-tools-space
+    image: https://www.jeffgeerling.com/sites/default/files/images/four-cubesats-together.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: How Philips Hue unlocks a new level of smart lighting
-    url: https://www.signify.com/global/our-company/news/press-releases/2025/20250904-ambiance-reimagined-how-philips-hue-unlocks-a-new-level-of-smart-lighting
+    title: Engineering harmony - solving the multiprotocol puzzle in IoT device design
+    url: https://www.microcontrollertips.com/engineering-harmony-solving-the-multiprotocol-puzzle-in-iot-device-design/
     image:
