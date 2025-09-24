@@ -220,7 +220,7 @@ Finally, a **capture in Home Assistant** of the tablet control.
 |Certificates|CCC/CE/FCC/ROHS|
 |Operating Temperature|0℃-40℃|
 
-## **Pros of the Sonoff Slim Camera** {{ page.ref }}
+## **Pros of the tablet {{ page.ref }}**
 {: .blue}
 
 - Product quality (despite a slight lighting imperfection)
@@ -229,7 +229,7 @@ Finally, a **capture in Home Assistant** of the tablet control.
 - RJ45 POE power supply
 - Rooted Android 13
 
-## **Cons of the Sonoff Slim Camera** {{ page.ref }}
+## **Cons of the tablet {{ page.ref }}**
 {: .red}
 
 - No mains power supply (110-240V)

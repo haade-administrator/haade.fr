@@ -2,15 +2,43 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
+<<<<<<< HEAD
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
     title: Test du Merach W50  - le tapis de marche compact, puissant et silencieux
     url: https://blog.nord-domotique.com/test-du-tapis-merach-w50/
+=======
+Home-Assistant:
+  fr_FR:
+  - name: Home-Assistant
+    title: Building the AI-powered local smart home
+    url: https://www.home-assistant.io/blog/2025/09/11/ai-in-home-assistant/
+    image: "/images/blog/2025-09-ai/art.webp"
+  en_GB:
+  - name: Home-Assistant
+    title: Building the AI-powered local smart home
+    url: https://www.home-assistant.io/blog/2025/09/11/ai-in-home-assistant/
+    image: "/images/blog/2025-09-ai/art.webp"
+Blog-Domadoo:
+  fr_FR:
+  - name: Blog-Domadoo
+    title: Home Assistant Connect ZWA-2 - Une révolution pour la domotique Z-Wave
+      !
+    url: https://blog.domadoo.fr/112130-home-assistant-connect-zwa-2-zwave/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/07/home-assistant-connect-zwa-2-une-revolution-pour-la-domotique-z-wave-91-1024x576.webp
+Blog-Nord-Domotique:
+  fr_FR:
+  - name: Blog-Nord-Domotique
+    title: Test complet du robot tondeuse Gardena Smart Sileno Free 800  - sans fil,
+      sans prise de tête, mais avec de l’intelligence
+    url: https://blog.nord-domotique.com/test-gardena-smart-sileno-free-800/
+>>>>>>> 0a42ce7aeecf1af1d7ca25fb558d8b86ee0e7cdd
     image:
 Abavala:
   fr_FR:
   - name: Abavala
+<<<<<<< HEAD
     title: IFA 2025  - un Hub survitaminé et des ampoules qui détectent les mouvements,
       la nouvelle ère Philips Hue
     url: https://www.abavala.com/ifa-2025-un-hub-survitamine-et-des-ampoules-qui-detectent-les-mouvements-la-nouvelle-ere-philips-hue/
@@ -27,4 +55,27 @@ Matter:
     title: New ‘Wi-Fi for Matter’ certification by Wi-Fi Alliance speeds up time-to-market
       for Matter-capable APs
     url: https://wifinowglobal.com/news-and-blog/new-wi-fi-for-matter-certification-by-wi-fi-alliance-speeds-up-time-to-market-for-matter-capable-aps/
+=======
+    title: SwitchBot K20+ Pro  - le robot domestique multitâche qui redéfinit la maison
+      connectée
+    url: https://www.abavala.com/switchbot-k20-pro-le-robot-domestique-multitache-qui-redefinit-la-maison-connectee/
+    image: https://www.abavala.com/wp-content/uploads/3-K20-Pro-Air-Purifier-Kit-3-150x150.jpg
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: Test Aiper Surfer S2  - Skimmer solaire, entretien zéro prise de tête
+    url: https://www.maison-et-domotique.com/164117-test-aiper-surfer-s2-skimmer-solaire/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_aiper_surfer_s2i_31-667x500.jpg
+Jeff-Geerling:
+  en_GB:
+  - name: Jeff-Geerling
+    title: CubeSats are fascinating learning tools for space
+    url: https://www.jeffgeerling.com/blog/2025/cubesats-are-fascinating-learning-tools-space
+    image: https://www.jeffgeerling.com/sites/default/files/images/four-cubesats-together.jpeg
+Matter:
+  en_GB:
+  - name: Matter
+    title: Engineering harmony - solving the multiprotocol puzzle in IoT device design
+    url: https://www.microcontrollertips.com/engineering-harmony-solving-the-multiprotocol-puzzle-in-iot-device-design/
+>>>>>>> 0a42ce7aeecf1af1d7ca25fb558d8b86ee0e7cdd
     image:
