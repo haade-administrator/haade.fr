@@ -2,53 +2,29 @@ docs_list_title:
   fr_FR: Dernières Nouvelles
   en_GB: Breaking News
 
-Home-Assistant:
-  fr_FR:
-  - name: Home-Assistant
-    title: Companion app for Android - Its been a while
-    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
-    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
-  en_GB:
-  - name: Home-Assistant
-    title: Companion app for Android - Its been a while
-    url: https://www.home-assistant.io/blog/2025/07/23/companion-app-for-android/
-    image: http://www.home-assistant.io/images/blog/2025-07-android-companion/art.png
-Blog-Domadoo:
-  fr_FR:
-  - name: Blog-Domadoo
-    title: Comment contrôler les appareils Tuya depuis Home Assistant?
-    url: https://blog.domadoo.fr/111946-ajouter-appareils-tuya-a-home-assistant/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/06/tuya-home-assistant-1024x576.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet de la Solarbank 3 Pro d’Anker SOLIX  - la batterie solaire
-      modulaire de nouvelle génération
-    url: https://blog.nord-domotique.com/test-complet-de-la-solarbank-3-pro/
+    title: Test du Merach W50  - le tapis de marche compact, puissant et silencieux
+    url: https://blog.nord-domotique.com/test-du-tapis-merach-w50/
     image:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: SwitchBot K20+ Pro  - le robot domestique multitâche qui redéfinit la maison
-      connectée
-    url: https://www.abavala.com/switchbot-k20-pro-le-robot-domestique-multitache-qui-redefinit-la-maison-connectee/
-    image: https://www.abavala.com/wp-content/uploads/3-K20-Pro-Air-Purifier-Kit-3-150x150.jpg
-Maison-et-domotique:
-  fr_FR:
-  - name: Maison-et-domotique
-    title: Salle de bain connectée  - quand domotique et design s’invitent dans la
-      douche
-    url: https://www.maison-et-domotique.com/163369-salle-de-bain-connectee-douche/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/07/salle-de-baon-connectee-702x468.jpg
-Jeff-Geerling:
+    title: IFA 2025  - un Hub survitaminé et des ampoules qui détectent les mouvements,
+      la nouvelle ère Philips Hue
+    url: https://www.abavala.com/ifa-2025-un-hub-survitamine-et-des-ampoules-qui-detectent-les-mouvements-la-nouvelle-ere-philips-hue/
+    image: https://www.abavala.com/wp-content/uploads/IFA-2025-Philips-Hue-entete-150x150.jpg
+Home-Assistant:
   en_GB:
-  - name: Jeff-Geerling
-    title: Open Sauce is a confoundingly brilliant Bay Area event
-    url: https://www.jeffgeerling.com/blog/2025/open-sauce-confoundingly-brilliant-bay-area-event
-    image: https://www.jeffgeerling.com/sites/default/files/images/open-sauce-2025-joe-jeff-geerling.jpg
+  - name: Home-Assistant
+    title: Happy 12th Birthday, Home Assistant!
+    url: https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12/
+    image: http://www.home-assistant.io/images/blog/2025-09-12th-anniversary/art.webp
 Matter:
   en_GB:
   - name: Matter
-    title: eWeLink -  Driving Smart Home Innovation Through Matter Adoption TEST
-    url: https://csa-iot.org/newsroom/ewelink-driving-smart-home-innovation-through-matter-adoption-test/
+    title: New ‘Wi-Fi for Matter’ certification by Wi-Fi Alliance speeds up time-to-market
+      for Matter-capable APs
+    url: https://wifinowglobal.com/news-and-blog/new-wi-fi-for-matter-certification-by-wi-fi-alliance-speeds-up-time-to-market-for-matter-capable-aps/
     image:
