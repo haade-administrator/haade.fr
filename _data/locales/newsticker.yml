@@ -16,10 +16,9 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Home Assistant Connect ZWA-2 - Une révolution pour la domotique Z-Wave
-      !
-    url: https://blog.domadoo.fr/112130-home-assistant-connect-zwa-2-zwave/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/07/home-assistant-connect-zwa-2-une-revolution-pour-la-domotique-z-wave-91-1024x576.webp
+    title: Z-wave Long Range avec l’antenne Home Assistant Connect et Jeedom
+    url: https://blog.domadoo.fr/112777-utilisation-z-wave-long-range-jeedom/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/09/home-assistant-connect-zwa-2-avec-jeedom-luna-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -36,15 +35,16 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test Aiper Surfer S2  - Skimmer solaire, entretien zéro prise de tête
-    url: https://www.maison-et-domotique.com/164117-test-aiper-surfer-s2-skimmer-solaire/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_aiper_surfer_s2i_31-667x500.jpg
+    title: Cable management ultime  - dompter ses câbles avec le bureau Secretlab
+      Magnus Pro
+    url: https://www.maison-et-domotique.com/164649-cable-management-ultime-bureau-secretlab-magnus-pro/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_secretlab_magnus_pro_bureau_04-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: You can finally manage Macs with FileVault remotely in Tahoe
-    url: https://www.jeffgeerling.com/blog/2025/you-can-finally-manage-macs-filevault-remotely-tahoe
-    image: https://www.jeffgeerling.com/sites/default/files/images/mac-mini-m4-power-button-workbench.jpg
+    title: Full eGPU acceleration on the Pi 500+ with a 15-line patch
+    url: https://www.jeffgeerling.com/blog/2025/full-egpu-acceleration-on-pi-500-15-line-patch
+    image: https://www.jeffgeerling.com/sites/default/files/images/pi500plus-egpu-on-desk.jpeg
 Matter:
   en_GB:
   - name: Matter
