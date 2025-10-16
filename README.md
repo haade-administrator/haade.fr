@@ -34,13 +34,16 @@
 # Jekyll dans docker
 
 à la racine du site haade lancer
+
 ```docker compose build --no-cache```
 
 puis
 
 pour finir
+
 ```docker compose up```
 
-## reconstruire proprement
-docker compose down -v --rmi haade-jekyll
+## reconstruire proprement si erreur bundler..
+
+```docker compose down -v --rmi haade-jekyll```
 
