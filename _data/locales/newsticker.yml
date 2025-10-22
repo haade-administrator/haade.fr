@@ -5,25 +5,25 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Happy 12th Birthday, Home Assistant!
-    url: https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12/
-    image: "/images/blog/2025-09-12th-anniversary/art.webp"
+    title: Ending production of Home Assistant Yellow
+    url: https://www.home-assistant.io/blog/2025/10/15/yellow-end-of-life/
+    image: "/images/blog/2025-10-yellow-eol/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: Happy 12th Birthday, Home Assistant!
-    url: https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12/
-    image: "/images/blog/2025-09-12th-anniversary/art.webp"
+    title: Ending production of Home Assistant Yellow
+    url: https://www.home-assistant.io/blog/2025/10/15/yellow-end-of-life/
+    image: "/images/blog/2025-10-yellow-eol/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Z-wave Long Range avec l’antenne Home Assistant Connect et Jeedom
-    url: https://blog.domadoo.fr/112777-utilisation-z-wave-long-range-jeedom/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/09/home-assistant-connect-zwa-2-avec-jeedom-luna-1024x640.webp
+    title: Clavier Zigbee FRIENT KEYZB-110  - codes + RFID pour Home Assistant
+    url: https://blog.domadoo.fr/112861-clavier-zigbee-frient-keyzb-110/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/10/Generated-Image-October-07-2025-1_27PM-1-1024x535.png
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du Dreame L40 Ultra  - puissance, autonomie et intelligence
-    url: https://blog.nord-domotique.com/test-complet-du-dreame-l40-ultra/
+    title: Test complet du Zendure Solarflow 2400 AC
+    url: https://blog.nord-domotique.com/test-complet-du-zendure-solarflow-2400-ac/
     image:
 Abavala:
   fr_FR:
@@ -35,20 +35,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Cable management ultime  - dompter ses câbles avec le bureau Secretlab
-      Magnus Pro
-    url: https://www.maison-et-domotique.com/164649-cable-management-ultime-bureau-secretlab-magnus-pro/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_secretlab_magnus_pro_bureau_04-667x500.jpg
+    title: Comment allier design, confort et économies d’eau dans votre salle de bains
+      ?
+    url: https://www.maison-et-domotique.com/165280-comment-allier-design-confort-et-economies-deau-dans-votre-salle-de-bains/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/10/9ab383d2cb17d6a59cb079f0f1dfbded-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Full eGPU acceleration on the Pi 500+ with a 15-line patch
-    url: https://www.jeffgeerling.com/blog/2025/full-egpu-acceleration-on-pi-500-15-line-patch
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi500plus-egpu-on-desk.jpeg
+    title: VCF Midwest was even better than I expected
+    url: https://www.jeffgeerling.com/blog/2025/vcf-midwest-was-even-better-i-expected
+    image: https://www.jeffgeerling.com/sites/default/files/images/macintosh-powerbook-520.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: New ‘Wi-Fi for Matter’ certification by Wi-Fi Alliance speeds up time-to-market
-      for Matter-capable APs
-    url: https://wifinowglobal.com/news-and-blog/new-wi-fi-for-matter-certification-by-wi-fi-alliance-speeds-up-time-to-market-for-matter-capable-aps/
+    title: The 7iE Smart Matter WiFi Thermostat by Warmup
+    url: https://www.warmup.com/7ie-smart-matter-wifi-thermostat
     image:
