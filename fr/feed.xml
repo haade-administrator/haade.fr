@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Oct 2025 05:12:04 +0200</pubDate>
-    <lastBuildDate>Fri, 25 Jul 2025 19:00:00 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Oct 2025 14:28:36 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2025 09:07:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Box Home Assistant Yellow la fin</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Nabu Casa vient de l&apos;annoncer et décider d&apos;arrêter la box compute 4 Yellow</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.png" alt="Box Home Assistant Yellow la fin">
+</picture>
+
+      <p>Zut ! Nabu Casa décide d’arrêter de produire la box la plus polyvalente du fabriquant la Yellow. En effet d’après le dernier post publié sur le blog officiel, les ventes de la Yellow sont en déclins! Ouf Bonne nouvelle, les mises à jours de compatibilité matériel seront maintenus !
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-yellow-la-fin">Box Home Assistant Yellow la fin</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 22 Oct 2025 09:07:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/home-assistant-yellow-la-fin</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-yellow-la-fin</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Test de la tablette murale Android ELC-SMT101</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,28 +247,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Installer un bandeau Led connecté Diy avec WLED</title>
-      <dc:creator><![CDATA[Math]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Je vais te montrer comment installer facilement un bandeau led Gledopto GL-C-310WL dans home assistant grâce à WLED d&apos;installé par défaut dans le module, un jeu d&apos;enfant</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/155/install-bandeau-led-facilement-avec-wled-et-gledopto-720-86bc4fe26.png" alt="Installer un bandeau Led connecté Diy avec WLED">
-</picture>
-
-      <p>Afin d’éclairer la niche à café dans ma cuisine, j’ai décidé de fabriquer moi-même mon bandeau LED en utilisant WLED. WLED se connecte sur ton Wifi et est reconnu nativement par Home Assistant, il permet d’utiliser un bandeau à LED adressable et offre beaucoup de possibilités de programmation, je vous [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant">Installer un bandeau Led connecté Diy avec WLED</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 24 Feb 2025 09:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/installer-un-bandeau-led-connecte-Diy-avec-WLED-Gledopto-et-home-assistant</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
