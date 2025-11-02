@@ -42,9 +42,9 @@ Maison-et-domotique:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Why do some radio towers blink?
-    url: https://www.jeffgeerling.com/blog/2025/why-do-some-radio-towers-blink
-    image:
+    title: The Arduino Uno Q is a weird hybrid SBC
+    url: https://www.jeffgeerling.com/blog/2025/arduino-uno-q-weird-hybrid-sbc
+    image: https://www.jeffgeerling.com/sites/default/files/images/arduino-uno-1-in-hand.jpg
 Matter:
   en_GB:
   - name: Matter

@@ -24,18 +24,23 @@ RUN apt-get update -qq && \
 # --- Étape 3 : dossier de travail ---
 WORKDIR /srv/jekyll
 
-# --- Étape 4 : installation Bundler (version figée) ---
-RUN gem install bundler -v 2.4.19
+# --- Étape 4 : installation Bundler ---
+RUN gem install bundler
 
 # --- Étape 5 : copier les fichiers Gemfile avant les sources pour profiter du cache ---
-COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
+
+# Copier Gemfile.lock seulement si il existe
+RUN if [ -f Gemfile.lock ]; then cp Gemfile.lock ./; else touch Gemfile.lock; fi
 
 # --- Étape 6 : configurer Bundler ---
-RUN bundle config set --global path 'vendor/bundle' && \
-    bundle config set build.nokogiri --use-system-libraries=true
+RUN bundle config set --global path 'vendor/bundle' \
+    && bundle config set build.nokogiri --use-system-libraries=true
 
 # --- Étape 7 : installation des gems ---
 RUN bundle install --jobs 4 --retry 3
+
+RUN bundle pristine nokogiri
 
 # --- Étape 8 : copier le reste du site ---
 COPY . .
