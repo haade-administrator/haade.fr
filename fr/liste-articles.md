@@ -26,9 +26,9 @@ toc: false
 - Projet raspberry control piscine erp et ph avec ha [raspipool](https://github.com/virgilm/sparkly){: target="_blank"}
 - projet esp32 piscine et ha [esp32 pool](https://github.com/smurry/pool_controller){: target="_blank"}
 - [upgrader clé cc2652](https://www.zigbee2mqtt.io/guide/adapters/#notes){: target="_blank"}
-
 - faire un article pour un upgrade du firmware zigbee dans home assistant yellow
-- dietpi, le système ultime pour monter sa box domotique home assistant yellow avec chrome kiosk
+- test nouveau programme controle consommation eau everblu esp8266/32 cc1101 par [Genestealer](https://github.com/genestealer/everblu-meters-esp8266-improved){: target="_blank"}
+- faire un article suite à une modification du firmware POWCT par [Mazkagaz](https://github.com/mazkagaz/sonoff_powct_esphome?tab=readme-ov-file){: target="_blank"}
 
 
 ## 2024/10
