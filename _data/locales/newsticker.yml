@@ -5,25 +5,26 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Happy 12th Birthday, Home Assistant!
-    url: https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12/
-    image: "/images/blog/2025-09-12th-anniversary/art.webp"
+    title: ELTAKO joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/10/29/eltako-joins-wwha/
+    image: "/images/blog/2025-10-eltako/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: Happy 12th Birthday, Home Assistant!
-    url: https://www.home-assistant.io/blog/2025/09/17/home-assistant-turns-12/
-    image: "/images/blog/2025-09-12th-anniversary/art.webp"
+    title: ELTAKO joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2025/10/29/eltako-joins-wwha/
+    image: "/images/blog/2025-10-eltako/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Z-wave Long Range avec l’antenne Home Assistant Connect et Jeedom
-    url: https://blog.domadoo.fr/112777-utilisation-z-wave-long-range-jeedom/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/09/home-assistant-connect-zwa-2-avec-jeedom-luna-1024x640.webp
+    title: Prise intelligente Shelly Wave Plug S Long Range Zwave 800
+    url: https://blog.domadoo.fr/113052-prise-shelly-wave-plug-s-long-range-zw800/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/10/prise-zwave-800-shelly-wave-plug-s-eu-long-range-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du Dreame L40 Ultra  - puissance, autonomie et intelligence
-    url: https://blog.nord-domotique.com/test-complet-du-dreame-l40-ultra/
+    title: Test complet du vélo électrique Hitway BK27  - polyvalence, confort et
+      performance à moins de 800€
+    url: https://blog.nord-domotique.com/test-velo-electrique-hitway-bk27/
     image:
 Abavala:
   fr_FR:
@@ -35,20 +36,18 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Cable management ultime  - dompter ses câbles avec le bureau Secretlab
-      Magnus Pro
-    url: https://www.maison-et-domotique.com/164649-cable-management-ultime-bureau-secretlab-magnus-pro/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/09/test_secretlab_magnus_pro_bureau_04-667x500.jpg
+    title: Top 5 des marques de maison connectée recommandées en 2025
+    url: https://www.maison-et-domotique.com/165389-top-5-des-marques-de-maison-connectee-recommandees-en-2025/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/10/meilleures-marques-domotique-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Full eGPU acceleration on the Pi 500+ with a 15-line patch
-    url: https://www.jeffgeerling.com/blog/2025/full-egpu-acceleration-on-pi-500-15-line-patch
-    image: https://www.jeffgeerling.com/sites/default/files/images/pi500plus-egpu-on-desk.jpeg
+    title: The Arduino Uno Q is a weird hybrid SBC
+    url: https://www.jeffgeerling.com/blog/2025/arduino-uno-q-weird-hybrid-sbc
+    image: https://www.jeffgeerling.com/sites/default/files/images/arduino-uno-1-in-hand.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: New ‘Wi-Fi for Matter’ certification by Wi-Fi Alliance speeds up time-to-market
-      for Matter-capable APs
-    url: https://wifinowglobal.com/news-and-blog/new-wi-fi-for-matter-certification-by-wi-fi-alliance-speeds-up-time-to-market-for-matter-capable-aps/
+    title: Samsung SmartThings | Transforming Standards Into Everyday Experiences
+    url: https://csa-iot.org/newsroom/samsung-smartthings-transforming-standards-into-everyday-experiences/
     image:

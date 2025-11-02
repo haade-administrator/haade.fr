@@ -4,10 +4,26 @@
 
 # Haade next generation
 
-## Installation
-- npm Install
-- bundle config set --local path 'vendor/bundle'
-- bundle install
+## Installation sous linux
+- Pour installer l'environnement Jekyll sous jekyll rien de plus simple lance le script shell
+```sudo bash first-jekyll-install.sh```
+
+### Jekyll dans Docker
+
+à la racine du site haade lancer
+
+```docker compose build --no-cache```
+
+puis
+
+pour finir
+
+```docker compose up```
+
+## reconstruire proprement si erreur bundler..
+
+```docker compose down -v```
+
 
 ### todo list
 
@@ -30,20 +46,4 @@
 17. Carousel: [comparatif](https://itnext.io/javascript-sliders-will-kill-your-website-performance-5e4925570e2b)
 18. [remplacement countapi.xyz par hits](https://hits.sh)
 19. [imagekit.io optipise image et test website](https://imagekit.io)
-
-# Jekyll dans docker
-
-à la racine du site haade lancer
-
-```docker compose build --no-cache```
-
-puis
-
-pour finir
-
-```docker compose up```
-
-## reconstruire proprement si erreur bundler..
-
-```docker compose down -v --rmi haade-jekyll```
 

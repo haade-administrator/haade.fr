@@ -11,6 +11,7 @@ services:
       - bundle_cache:/srv/jekyll/vendor/bundle
     environment:
       - JEKYLL_ENV=development
+      - TZ=Europe/Paris
 
 volumes:
   bundle_cache:
