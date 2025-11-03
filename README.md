@@ -13,16 +13,26 @@
 à la racine du site haade lancer
 
 ```docker compose build --no-cache```
-
-puis
-
-pour finir
-
 ```docker compose up```
-
-## reconstruire proprement si erreur bundler..
-
 ```docker compose down -v```
+
+Si erreur de toutes sortes alors:
+supprimer Gemfile.lock et dossier vendor
+
+```rm -rf vendor/ Gemfile.lock/```
+ 
+ensuite build:
+
+ ```docker compose build --no-cache```
+
+Si rien ne fonctionne supprime tout:
+```bash
+rm -rf vendor
+rm -rf .bundle
+rm -rf _site
+bundle clean --force
+```
+
 
 
 ### todo list
