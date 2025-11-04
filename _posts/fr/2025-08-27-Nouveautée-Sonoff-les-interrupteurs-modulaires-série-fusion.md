@@ -42,7 +42,13 @@ Quand à la version E1GSL elle est spécialement dédié pour le ZBMINIL2 qui es
 
 ## Interrupteurs volets roulants
 
-{% include product-embed.html image="https://i0.wp.com/itead.cc/wp-content/uploads/2022/12/ZBMINIL2-1600px-5.jpg?fit=1600%2C1600&ssl=1" title="ZBMINIL2 Extrême" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html"  affiliate="_DkilCPV" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" amazlink="" %}
+{% include product-embed.html image="ZBMINIL2.png" title="ZBMINIL2 Extrême Zigbee" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html"  affiliate="_DkilCPV" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" amazlink="" %}
+
+{% include product-embed.html image="MINIR4.png" title="MINIR4 Wifi" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html"  affiliate="_DkilCPV" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" amazlink="" %}
+
+{% include product-embed.html image="MINIR4M.png" title="MINIR4M Matter" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html"  affiliate="_DkilCPV" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" amazlink="" %}
+
+{% include product-embed.html image="ZBMINIR2.png" title="ZBMINIR2 Zigbee" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-zbminil2-extreme-zigbee-smart-switch-no-neutral-required" domlink="peripheriques/6619-sonoff-commutateur-intelligent-sans-neutre-zigbee-30-zbminil2.html"  affiliate="_DkilCPV" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" amazlink="" %}
 
 ## Plaques Murales 2 ou 3 interrupteurs
 
@@ -58,4 +64,14 @@ Particularité très intéressante, Sonoff propose des modèles 3D à imprimer a
 
 Grâce à ces modèles disponible sur [Makerworld.com](https://makerworld.com/fr/collections/7598269-fusion-series-accessories?ref=haadeone&sub_id=affiliate){:target="_blank"} tu pourras intégrer à côté de tes interrupteurs un module SNZB-01/02/03P et rendre un interrupteur intelligent.
 
+{% picture posts/{{ page.guid }}/makerworld-page-printable-project-sonoff-fusion.png --alt Page de présentation des projets sonoff fusion pour impression 3d créé par itead pratique et bien pensé --img width="940" height="444" %}
+
 Il te permettra aussi d'intégrer le modules digitaux de température SNZB-02D ou 02WD rien que ça, c'est top.
+
+## Documentations
+
+{% include doclink.html pdf="Fusion Series(Enclosure Switch)—Influencer Creation Guide.pdf" title="document word" %}
+
+{% include doclink.html pdf="Fusion Series(Orb-RBS)—Influencer Creation Guide.pdf" title="document word" %}
+
+{% include doclink.html pdf="Fusion Series(Orb-MW1)—Influencer Creation Guide.pdf" title="document word" %}

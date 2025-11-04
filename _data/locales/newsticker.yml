@@ -22,9 +22,8 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test complet du vélo électrique Hitway BK27  - polyvalence, confort et
-      performance à moins de 800€
-    url: https://blog.nord-domotique.com/test-velo-electrique-hitway-bk27/
+    title: Test du Narwal Freo X10 Pro  - mon avis après plusieurs semaines
+    url: https://blog.nord-domotique.com/test-narwal-freo-x10-pro/
     image:
 Abavala:
   fr_FR:
@@ -48,6 +47,7 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
-    title: Samsung SmartThings | Transforming Standards Into Everyday Experiences
-    url: https://csa-iot.org/newsroom/samsung-smartthings-transforming-standards-into-everyday-experiences/
+    title: Inside the Future of IoT - Matter 1.4.2, Smart Buildings & CSA’s Global
+      Vision
+    url: https://www.youtube.com/watch?v=cof2dptrGcI
     image:
