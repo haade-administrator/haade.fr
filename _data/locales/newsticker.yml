@@ -5,20 +5,20 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: ELTAKO joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/10/29/eltako-joins-wwha/
-    image: "/images/blog/2025-10-eltako/art.webp"
+    title: "2025.11 - Pick, automate, and a slice of pie \U0001F967"
+    url: https://www.home-assistant.io/blog/2025/11/05/release-202511/
+    image: "/images/blog/2025-11/target-picker.png"
   en_GB:
   - name: Home-Assistant
-    title: ELTAKO joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2025/10/29/eltako-joins-wwha/
-    image: "/images/blog/2025-10-eltako/art.webp"
+    title: "2025.11 - Pick, automate, and a slice of pie \U0001F967"
+    url: https://www.home-assistant.io/blog/2025/11/05/release-202511/
+    image: "/images/blog/2025-11/target-picker.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Prise intelligente Shelly Wave Plug S Long Range Zwave 800
-    url: https://blog.domadoo.fr/113052-prise-shelly-wave-plug-s-long-range-zw800/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/10/prise-zwave-800-shelly-wave-plug-s-eu-long-range-1080x675-PRESS-1024x640.webp
+    title: Nouveau Sonoff Dongle Max Zigbee Thread ethernet PoE DONGLE-M
+    url: https://blog.domadoo.fr/112921-sonoff-dongle-max-zb-thread-ethernet-poe/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/10/Sonoff-dongle-max-zigbee-thread-poe-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -35,15 +35,15 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Top 5 des marques de maison connectée recommandées en 2025
-    url: https://www.maison-et-domotique.com/165389-top-5-des-marques-de-maison-connectee-recommandees-en-2025/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/10/meilleures-marques-domotique-702x468.jpg
+    title: Testez Home Assistant gratuitement, sans rien installer !
+    url: https://www.maison-et-domotique.com/165484-testez-home-assistant-gratuitement-sans-rien-installer/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/test-home-assistant-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: The Arduino Uno Q is a weird hybrid SBC
-    url: https://www.jeffgeerling.com/blog/2025/arduino-uno-q-weird-hybrid-sbc
-    image: https://www.jeffgeerling.com/sites/default/files/images/arduino-uno-1-in-hand.jpg
+    title: It's not that hard to stop a Trane
+    url: https://www.jeffgeerling.com/blog/2025/its-not-hard-stop-trane
+    image: https://www.jeffgeerling.com/sites/default/files/images/trane-s9v2-furnace-inside.jpg
 Matter:
   en_GB:
   - name: Matter

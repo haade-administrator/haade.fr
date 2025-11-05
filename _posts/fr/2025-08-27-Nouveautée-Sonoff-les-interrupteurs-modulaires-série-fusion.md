@@ -28,15 +28,17 @@ sourcelink:
   - https://sonoff.tech/en-de/pages/user-manual
 ---
 
-Après la création des interrupteurs murales shelly wall switch compatible avec leurs micromodules, **Sonoff emboite le pas dans cet univers et crée la gamme Fusion**, des boitiers interrupteurs compatibles avec les micromodules de la gamme, proche du design des interrupteurs siemens grands publics du marché.
+Après la création des interrupteurs murales, **Shelly wall switch** compatible avec leurs micromodules, **Sonoff emboite le pas dans cet univers et crée la gamme Fusion**, des boitiers interrupteurs compatibles avec les micromodules de la gamme, proche du **design des interrupteurs Siemens** grands publics du marché. 
+
+> **Mais Sonoff ne s'arrête pas là** et propose des solutions Diy à travers l'impression 3D.
 
 {% picture posts/{{ page.guid }}/shelly-wall-switch.png --alt Module interrupteur mural pour shelly dimmer, 1 pm et plus --img width="400" height="400" %}
 
 ## Commençons par la gamme Fusion E1GS/SL
 
-La gamme Fusion E1GS est conçue pour intégrer les modèles ZBMINIR2, MINIR4 et MINIR4M, qui sont 3 mini interrupteurs fonctionnant chacuns sous un protocole différent soit, Zigbee, wifi et Matter ainsi Sonoff couvre l'ensemble des protocoles pour intégrer des interupteurs.
+La gamme **Fusion E1GS** est conçue pour intégrer les modèles **ZBMINIR2, MINIR4 et MINIR4M**, qui sont 3 mini interrupteurs fonctionnant chacuns sous un protocole différent soit, Zigbee, wifi et Matter ainsi Sonoff couvre l'ensemble des protocoles pour intégrer des interupteurs.
 
-Quand à la version E1GSL elle est spécialement dédié pour le ZBMINIL2 qui est rappelons le, le mini module sans neutre qui fonctionne avec le protocole Zigbee.
+Quand à la **version E1GSL** elle est spécialement dédié pour le **ZBMINIL2** qui est rappelons le, le mini module sans neutre qui fonctionne avec le protocole Zigbee.
 
 {% picture posts/{{ page.guid }}/sonoff-fusion-interrupteur-mural-micro-module-E1GS-SL.png --alt Interrupteur mural compatible micromodules sonoff Fusion E1GS et E1GSL --img width="940" height="337" %}
 
