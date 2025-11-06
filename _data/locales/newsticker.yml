@@ -35,9 +35,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Testez Home Assistant gratuitement, sans rien installer !
-    url: https://www.maison-et-domotique.com/165484-testez-home-assistant-gratuitement-sans-rien-installer/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/test-home-assistant-702x468.jpg
+    title: Home Assistant 2025.11  - Interface revisitée, personnalisations avancées
+      et une énergie bien pilotée
+    url: https://www.maison-et-domotique.com/165502-maj-home-assistant-2025-11/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/G5A_56WXoAAM7WL-500x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
