@@ -25,7 +25,6 @@ comments: true
 rating: 5.0 
 sourcelink:
   - https://sonoff.tech/fr-fr/collections/fusion-series
-  - https://sonoff.tech/en-de/pages/user-manual
 ---
 
 Après la création des interrupteurs murales, **Shelly wall switch** compatible avec leurs micromodules, **Sonoff emboite le pas dans cet univers et crée la gamme Fusion**, des boitiers interrupteurs compatibles avec les micromodules de la gamme, proche du **design des interrupteurs Siemens** grands publics du marché. 
@@ -64,16 +63,32 @@ Sur la plaque deux interrupteurs tu pourras même utiliser une boite d'encastrem
 
 Particularité très intéressante, Sonoff propose des modèles 3D à imprimer afin de [rendre compatible ces plaques avec d'autres produits de la marque](https://makerworld.com/fr/collections/7598269-fusion-series-accessories?ref=haadeone&sub_id=affiliate){:target="_blank"}, et ça franchement c'est à la fois super cool et fort de la part de la marque Sonoff. Bon il faut être équipé d'une imprimante, c'est mieux mais certains sites te permettent d'imprimer en ligne comme PCBway, JLPcb ou bien d'autres encore.
 
-Grâce à ces modèles disponible sur [Makerworld.com](https://makerworld.com/fr/collections/7598269-fusion-series-accessories?ref=haadeone&sub_id=affiliate){:target="_blank"} tu pourras intégrer à côté de tes interrupteurs un module SNZB-01/02/03P et rendre un interrupteur intelligent.
+## Solutions impressions 3D pour Sonoff Fusion
+
+En plus de proposer des micromodules adaptés aux interrupteurs fusion et rendant le tout complet, Sonoff propose des accessoires supplémentaires à imprimer pour rendre d'autres produits de la marque fusionnable avec les interrupteurs. Pour plus de compréhensions je te laisse voir par toi même 😋.
+
+Grâce à ces modèles disponible sur [Makerworld.com](https://makerworld.com/fr/collections/7598269-fusion-series-accessories?ref=haadeone&sub_id=affiliate){:target="_blank"} tu pourras intégrer à côté de tes interrupteurs un module SNZB-01/02/03P et rendre un interrupteur encore plus intelligent.
 
 {% picture posts/{{ page.guid }}/makerworld-page-printable-project-sonoff-fusion.png --alt Page de présentation des projets sonoff fusion pour impression 3d créé par itead pratique et bien pensé --img width="940" height="444" %}
 
-Il te permettra aussi d'intégrer le modules digitaux de température SNZB-02D ou 02WD rien que ça, c'est top.
+> Il te permettra aussi d'intégrer **les modules digitaux de température SNZB-02D ou 02WD rien que ça, c'est top**.
+
+## Fusion por les volets
+
+{% picture posts/{{ page.guid }}/dimension-erbs-sonoff-fusion.png --alt Dimension de l'interrupteur pour volet Sonoff fusion compatible MINI-RBS et  MINI-ZBRBS --img width="940" height="366" %}
+
+{% include product-embed.html image="MINI-RBS.png" title="Micromodule pour volet roulant Matter" brand="Sonoff" description="Premier micromodule pour volet roulant protocole Matter." iteadlink="sonoff-smart-roller-shutter-switch" domlink="micromodule-connecte/8055-sonoff-module-volet-roulant-matter-mini-rbs.html"   sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" %}
+
+{% include product-embed.html image="MINI-ZBRBS.png" title="Micromodule pour volet roulant Zigbee" brand="Sonoff" description="Premier micromodule pour volet roulant protocole Zigbee." sonofftech="sonoff-zigbee-smart-roller-shutter-switch-mini-zbrbs" %}
+
+{% include product-embed.html image="ERBS.png" title="ZBMINIR2 Zigbee" brand="Sonoff" description="Smallest sonoff zbmini l2 extreme switch module on the market" iteadlink="sonoff-roller-shutter-wall-switch-enclosure" domlink="accessoires-electriques/8070-sonoff-boitier-d-interrupteur-mural-pour-module-volet-roulant.html" sonofftech="sonoff-smart-roller-shutter-switch-mini-rbs" %}
 
 ## Documentations
 
-{% include doclink.html pdf="Fusion Series(Enclosure Switch)—Influencer Creation Guide.pdf" title="document word" %}
+[Documentations techniques des modules Sonoff](https://sonoff.tech/fr-fr/pages/user-manual){: target="_blank"}
 
-{% include doclink.html pdf="Fusion Series(Orb-RBS)—Influencer Creation Guide.pdf" title="document word" %}
+{% include doclink.html pdf="Fusion Series(Enclosure Switch)—Influencer Creation Guide.pdf" title="Documents Techniques pour les interrupteurs fusion par Sonoff" %}
 
-{% include doclink.html pdf="Fusion Series(Orb-MW1)—Influencer Creation Guide.pdf" title="document word" %}
+{% include doclink.html pdf="Fusion Series(Orb-RBS)—Influencer Creation Guide.pdf" title="Documents Techniques pour les interrupteurs volets roulants fusion par Sonoff" %}
+
+{% include doclink.html pdf="Fusion Series(Orb-MW1)—Influencer Creation Guide.pdf" title="Documents techniques interrupteur matter par Sonoff" %}
