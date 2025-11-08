@@ -35,20 +35,18 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Horloges programmables  - des solutions innovantes pour optimiser la consommation
-      d’énergie
-    url: https://www.maison-et-domotique.com/165491-horloges-programmables-gestion-temps/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/horloge-digitale-702x468.jpg
+    title: Sonoff Days  - –15 % sur les modules Zigbee chez Domadoo
+    url: https://www.maison-et-domotique.com/165526-sonoff-days-15-sur-les-modules-zigbee-chez-domadoo/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/promo-sonoff-702x315.png
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: It's not that hard to stop a Trane
-    url: https://www.jeffgeerling.com/blog/2025/its-not-hard-stop-trane
-    image: https://www.jeffgeerling.com/sites/default/files/images/trane-s9v2-furnace-inside.jpg
+    title: Converting hot dog plasma video to sound with OpenCV
+    url: https://www.jeffgeerling.com/blog/2025/converting-hot-dog-plasma-video-sound-opencv
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: Inside the Future of IoT - Matter 1.4.2, Smart Buildings & CSA’s Global
-      Vision
-    url: https://www.youtube.com/watch?v=cof2dptrGcI
+    title: Ikea’s Big Smart-Home Push Arrives With 21 New Matter Devices
+    url: https://www.forbes.com/sites/paullamkin/2025/11/06/ikeas-big-smart-home-push-arrives-with-21-new-matter-devices/
     image:
