@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2025 04:03:54 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Oct 2025 09:07:00 +0200</lastBuildDate>
+    <pubDate>Sat, 08 Nov 2025 18:58:15 +0100</pubDate>
+    <lastBuildDate>Sat, 08 Nov 2025 08:05:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Fusion, les interrupteurs modulaires Sonoff</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Présentation des interrupteurs modulaires Sonoff pour MINI-RBS, ZBMINIL2 et MINI EXTREME</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.png" alt="Fusion, les interrupteurs modulaires Sonoff">
+</picture>
+
+      <p>Après la création des interrupteurs murales, Shelly wall switch compatible avec leurs micromodules, Sonoff emboite le pas dans cet univers et crée la gamme Fusion, des boitiers interrupteurs compatibles avec les micromodules de la gamme, proche du design des interrupteurs Siemens grands publics du marché.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion">Fusion, les interrupteurs modulaires Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 08 Nov 2025 08:05:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Box Home Assistant Yellow la fin</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +246,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Securite]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Test de l&apos;interface du chauffage Tado°</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Deuxième étape de présentation de l&apos;univers Tado, je vais te montrer tout le processus d&apos;utilisation de l&apos;interface Tado et de ses particularités</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/controle-ton-installation-tado-par-application-officielle-720-49b263fc6.png" alt="Test de l'interface du chauffage Tado°">
-</picture>
-
-      <p>Voilà dans une continuité de présentation de l’univers Tado° suite à la présentation du robinet thermostatique Tado° X, je vais aujourd’hui te présenter l’application Tado° de ses particularités et surtout ce qui différencie la gestion du Chauffage Tado° et la gestion par rapport aux autres marques.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant">Test de l'interface du chauffage Tado°</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 05 Mar 2025 11:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/utilisation-complete-de-l-interface-tado-gestion-chauffage-independant</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 08 Nov 2025 04:03:54 +0100</pubDate>
-    <lastBuildDate>Wed, 22 Oct 2025 09:07:00 +0200</lastBuildDate>
+    <pubDate>Sat, 08 Nov 2025 18:58:15 +0100</pubDate>
+    <lastBuildDate>Sat, 08 Nov 2025 08:05:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Fusion, Sonoff modular switches</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Introducing Sonoff modular switches for MINI-RBS, ZBMINIL2 and MINI EXTREME</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/165/New-modular-switch-fusion-sonoff-720-3f9e642c5.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/165/New-modular-switch-fusion-sonoff-720-3f9e642c5.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/165/New-modular-switch-fusion-sonoff-720-3f9e642c5.png" alt="Fusion, Sonoff modular switches">
+</picture>
+
+      <p>Following the creation of the Shelly wall switch, compatible with their micromodules, Sonoff is following suit in this market and creating the Fusion range, switch boxes compatible with the range’s micromodules, closely resembling the design of Siemens switches widely available on the market.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/New-Sonoff-Fusion-Series-Modular-Switches">Fusion, Sonoff modular switches</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 08 Nov 2025 08:05:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/New-Sonoff-Fusion-Series-Modular-Switches</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/New-Sonoff-Fusion-Series-Modular-Switches</guid>
+      <category><![CDATA[News]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Box Home Assistant Yellow the end</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +248,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Install a connected LED strip DIY with WLED</title>
-      <dc:creator><![CDATA[Math]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>I will show you how to easily install a Gledopto GL-C-310WL LED strip in home assistant thanks to WLED installed by default in the module, child&apos;s play</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/155/install-led-strip-easily-with-wled-and-gledopto-720-f2da4a3ad.png" alt="Install a connected LED strip DIY with WLED">
-</picture>
-
-      <p>In order to light up the coffee niche in my kitchen, I decided to make my own LED strip using WLED. WLED connects to your Wifi and is natively recognized by Home Assistant, it allows you to use an addressable LED strip and offers many programming possibilities, I explain in [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md">Install a connected LED strip DIY with WLED</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Mon, 24 Feb 2025 09:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/install-a-connected-LED-strip-Diy-with-WLED-Gledopto-et-home-assistant.md</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
