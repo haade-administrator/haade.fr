@@ -117,7 +117,10 @@ And now, let's look at the technical documents.
 
 ## Conclusion
 
-Sonoff m'impressionnera toujours mais là, la barre est mise à l'innovation, ils ne cessent de créer de nouveaux produit toujours plus poussés de très bonne facture et bien pensé. 
-> Franchement selon moi c'est la marque de l'année. 
-La gamme Fusion est super sympa, de proposer des impressions 3d pour pousser encore plus loin la créativité me plait énormément
-**Cependant une plaque de fixation en acier aurait fait une grande différence.**
+Sonoff will always impress me, but now they've really raised the bar for innovation. They keep creating new, increasingly advanced products that are very well-made and thoughtfully designed.
+
+> Frankly, in my opinion, it's the brand of the year.
+
+The Fusion range is fantastic, and offering 3D printing to push creativity even further is something I really appreciate.
+
+**However, a steel mounting plate would have made a big difference.**
