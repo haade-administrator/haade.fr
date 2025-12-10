@@ -5,48 +5,49 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: "2025.11 - Pick, automate, and a slice of pie \U0001F967"
-    url: https://www.home-assistant.io/blog/2025/11/05/release-202511/
-    image: "/images/blog/2025-11/target-picker.png"
+    title: The best gets better - Home Assistant Connect ZBT-2
+    url: https://www.home-assistant.io/blog/2025/11/19/home-assistant-connect-zbt-2/
+    image: "/images/blog/2025-11-home-assistant-connect-zbt-2/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: "2025.11 - Pick, automate, and a slice of pie \U0001F967"
-    url: https://www.home-assistant.io/blog/2025/11/05/release-202511/
-    image: "/images/blog/2025-11/target-picker.png"
+    title: The best gets better - Home Assistant Connect ZBT-2
+    url: https://www.home-assistant.io/blog/2025/11/19/home-assistant-connect-zbt-2/
+    image: "/images/blog/2025-11-home-assistant-connect-zbt-2/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Nouveau Sonoff Dongle Max Zigbee Thread ethernet PoE DONGLE-M
-    url: https://blog.domadoo.fr/112921-sonoff-dongle-max-zb-thread-ethernet-poe/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/10/Sonoff-dongle-max-zigbee-thread-poe-1080x675-PRESS-1024x640.webp
+    title: Module Intelligent Aidoo Zwave AZAI6ZWEMEL AIRZONE
+    url: https://blog.domadoo.fr/112594-aidoo-airzone-zwave-azai6zwemel/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/08/Airzone-Aidoo-chauffage-climatisation-zwave-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du Narwal Freo X10 Pro  - mon avis après plusieurs semaines
-    url: https://blog.nord-domotique.com/test-narwal-freo-x10-pro/
-    image:
+    title: Les Meilleures Offres à Saisir lors du Black Friday 2025
+    url: https://blog.nord-domotique.com/les-meilleures-offres-black-friday-2025/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/11/designer-7.jpg?fit=300%2C200&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: IFA 2025  - un Hub survitaminé et des ampoules qui détectent les mouvements,
-      la nouvelle ère Philips Hue
-    url: https://www.abavala.com/ifa-2025-un-hub-survitamine-et-des-ampoules-qui-detectent-les-mouvements-la-nouvelle-ere-philips-hue/
-    image: https://www.abavala.com/wp-content/uploads/IFA-2025-Philips-Hue-entete-150x150.jpg
+    title: Du support natif des caméras à la gestion de l’énergie  - les nouvelles
+      propositions de Matter 1.5
+    url: https://www.abavala.com/du-support-natif-des-cameras-a-la-gestion-de-l-energie-les-nouvelles-propositions-de-matter-1-5/
+    image: https://www.abavala.com/wp-content/uploads/Matter-1-5-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Sonoff Days  - –15 % sur les modules Zigbee chez Domadoo
-    url: https://www.maison-et-domotique.com/165526-sonoff-days-15-sur-les-modules-zigbee-chez-domadoo/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/promo-sonoff-702x315.png
+    title: Black Friday maison connectée 2025  - tous les meilleurs bons plans mis
+      à jour en direct
+    url: https://www.maison-et-domotique.com/166034-black-friday-2025-live/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/bons-plans-black-friday-live-500x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Converting hot dog plasma video to sound with OpenCV
-    url: https://www.jeffgeerling.com/blog/2025/converting-hot-dog-plasma-video-sound-opencv
-    image:
+    title: Nvidia Graphics Cards work on Pi 5 and Rockchip
+    url: https://www.jeffgeerling.com/blog/2025/nvidia-graphics-cards-work-on-pi-5-and-rockchip
+    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-5-in-mug-with-nvidia-a4000.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Ikea’s Big Smart-Home Push Arrives With 21 New Matter Devices
-    url: https://www.forbes.com/sites/paullamkin/2025/11/06/ikeas-big-smart-home-push-arrives-with-21-new-matter-devices/
+    title: Alliance Member Map – CES 2026
+    url: https://csa-iot.org/newsroom/alliance-member-map-ces-2026/
     image:

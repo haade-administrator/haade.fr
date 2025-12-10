@@ -66,7 +66,7 @@ Le Dongle Plus MG24 (Dongle-PMG24) est la version améliorée du ZBDongle-E. Il 
 
 ### Caratéristiques technique:
 
-|**Nom****|**Description**|
+|**Nom**|**Description**|
 |SoC Zigbee|EFR32MG24|
 |Puce USB-série|CP2102(N)|
 |Entrée|5 V⎓500 mA|
@@ -93,3 +93,30 @@ Le Dongle Plus MG24 (Dongle-PMG24) est la version améliorée du ZBDongle-E. Il 
 |Working Humidity|5%-95%RH|
 |Supported OS|Windows, Ubuntu, Raspberry Pi OS / Raspbian, Docker|
 |Dimensions|18 mm × 10.5 mm × 214 mm|
+
+## **les + du {{ page.ref }} Plus MG24**
+{: .blue}
+
+-
+
+## **les - du {{ page.ref }} Plus MG24**
+{: .red}
+
+## Test de distances
+
+Passons à un test important celui de la distance de couverture zigbee, ce test va comparer la qualité du lien entre les dongles zigbee suivant:
+
+- le dongle nabu casa skyconnect (ZHT-01)
+- le dongle sonoff Plus MG24
+- le dongle déporté Sonoff dongle Max
+
+Le module de liaison est un thermostat sur pile donc enddevice Sonoff SNZB-02P
+
+> La distance est identique entre le dongle et le module thermostat
+
+La distance entre le sonoff SNZB-02P et le dongle est de 13 mètres en milieu ouvert, pour rappel le dbi en zigbee va de 0 à 255, **et 255 est la puissance la plus forte du réseau**.
+
+|                       | Skyconnect  | Dongle Plus | Dongle Max |
+|-----------------------|:-----------:|:-----------:|:----------:|
+| **13m ouvert**        |     144     |      104    |    255     |
+| **20mm ouvert/étage** |      76     |       76    |    223     |
