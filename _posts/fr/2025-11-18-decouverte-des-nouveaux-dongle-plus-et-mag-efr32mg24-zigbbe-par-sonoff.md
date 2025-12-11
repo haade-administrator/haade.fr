@@ -40,9 +40,21 @@ Commençons par ce [dongle PM24](https://dongle.sonoff.tech/guide/dongle-pmg24/i
 
 Comme pour les anciens dongles de la marque le dongle plus mg24 à une coque en aluminium d'un gris anthracite exaltant, mais contrairement aux anciens la coque est beaucoup plus petite, le produit est donc beaucoup plus léger, un avantage indéniable pour ne pas forcer sur la sortie usb de la box domotique.
 
-Deuxième caractéristique importante réside sur la puce utilisée, une Silabs EFR32MG24 qui est beaucoup plus performante que la série MG21. Avec des caractéristiques clés telles que des performances RF 2,4 GHz élevées, une faible consommation de courant et uneIA/ML accélérateur matériel et Coffre-fort sécurisé™, un processeur ARM Cortex®-M33 cadencé jusqu'à 78 MHz, avec jusqu'à 1,5 Mo de mémoire Flash et 256 ko de RAM, la puce mg24 est idéal pour les performances et les réseaux étendus.
+**Deuxième caractéristique importante** réside sur la puce utilisée, une Silabs EFR32MG24 qui est beaucoup plus performante que la série MG21. Avec des caractéristiques clés telles que des performances RF 2,4 GHz élevées, une faible consommation de courant et uneIA/ML accélérateur matériel et Coffre-fort sécurisé™, un processeur ARM Cortex®-M33 cadencé jusqu'à 78 MHz, avec jusqu'à 1,5 Mo de mémoire Flash et 256 ko de RAM, la puce mg24 est idéal pour les performances et les réseaux étendus.
 
-### Flash du firmware
+en ce qui concerne la qualité de fabrication rien à dire la qualité est là, les **firmwares zigbee et thread** fonctionnent bien **par contre impossible de faire fonctionner la fonction multipan** qui est pourtant annoncée comme stable en 4.6.0, je n'ai pas réussi à intégrer des modules trv tado et en même temps inclure des modules sonoff zigbee, je ne sais pas si c'est une erreur de ma part en tous cas après de nombreux essais j'ai fini par abandonner.
+
+De plus j'ai effectué des tests de distances en zigbee et là aussi je suis déçu le sonoff dongle plus MG24 capte moins bien malgré l'antenne que le dongle nabu casa zbt1 ( skyconnect ). **Ce qui laisse à désirer c'est bien dommage, je ne la recommande pas.**
+
+## Dongle Max
+
+Sonoff décide d'emboîter le pas au fabricant SMLIGHT en créant un dongle déporté et je dois dire que le constat est sans ambiguitée
+
+> Le dongle Max n'a rien à voir avec le dongle Plus Sonoff
+
+Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'aluminium fourni avec deux énormes antennes
+
+### Flash du firmware Sonoff
 
 Pour le dongle max MG24 deux solutions sont disponibles pour mettre à jour le firmware.
 Via l'interface web en connectant la clé directement sur son PC, fonctionne nativement sur Linux, pour les autres systèmes il faudra au préalable installer les drivers CP210x.

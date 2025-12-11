@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: The best gets better - Home Assistant Connect ZBT-2
-    url: https://www.home-assistant.io/blog/2025/11/19/home-assistant-connect-zbt-2/
-    image: "/images/blog/2025-11-home-assistant-connect-zbt-2/art.webp"
+    title: More devices, more choice - celebrating a massive year for certification
+    url: https://www.home-assistant.io/blog/2025/12/09/wwha-2025-recap/
+    image: "/images/blog/2025-12-wwha-recap/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: The best gets better - Home Assistant Connect ZBT-2
-    url: https://www.home-assistant.io/blog/2025/11/19/home-assistant-connect-zbt-2/
-    image: "/images/blog/2025-11-home-assistant-connect-zbt-2/art.webp"
+    title: More devices, more choice - celebrating a massive year for certification
+    url: https://www.home-assistant.io/blog/2025/12/09/wwha-2025-recap/
+    image: "/images/blog/2025-12-wwha-recap/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,9 +22,10 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Les Meilleures Offres à Saisir lors du Black Friday 2025
-    url: https://blog.nord-domotique.com/les-meilleures-offres-black-friday-2025/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/11/designer-7.jpg?fit=300%2C200&ssl=1
+    title: Somfy Outdoor Camera 2  - mon test complet de la caméra extérieure intelligente
+      qui veut sécuriser la maison sans abonnement
+    url: https://blog.nord-domotique.com/test-somfy-outdoor-camera-2/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/09/somfy-outdoor-camera-2-1796.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -35,19 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Black Friday maison connectée 2025  - tous les meilleurs bons plans mis
-      à jour en direct
-    url: https://www.maison-et-domotique.com/166034-black-friday-2025-live/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/11/bons-plans-black-friday-live-500x500.jpg
+    title: Marre de tondre ? Ce robot s’en charge pour vous – et on vous l’offre !
+    url: https://www.maison-et-domotique.com/166283-concours-noel-naviow/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/concours-noel-navimow-596x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Nvidia Graphics Cards work on Pi 5 and Rockchip
-    url: https://www.jeffgeerling.com/blog/2025/nvidia-graphics-cards-work-on-pi-5-and-rockchip
-    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-5-in-mug-with-nvidia-a4000.jpeg
+    title: The DC-ROMA II is the fastest RISC-V laptop and is odd
+    url: https://www.jeffgeerling.com/blog/2025/dc-roma-ii-fastest-risc-v-laptop-and-odd
+    image: https://www.jeffgeerling.com/sites/default/files/images/dc-roma-ii-framework-external-display.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Alliance Member Map – CES 2026
-    url: https://csa-iot.org/newsroom/alliance-member-map-ces-2026/
+    title: HomeKit Weekly - Hands on with Level Lock Pro and why it sets a new standard
+      for HomeKit and Matter smart locks
+    url: https://9to5mac.com/2025/12/05/homekit-weekly-hands-on-with-level-lock-pro-and-why-it-sets-a-new-standard-for-homekit-and-matter/
     image:
