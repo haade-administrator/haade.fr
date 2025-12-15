@@ -1,5 +1,5 @@
 ---
-guid: 166
+guid: 167
 title: "Découverte des Dongles Plus et Max Sonoff"
 description: "Examinons et testons ensemble les nouveaux dongle de la marque Sonoff le Plus et Max à base de puces efr32mg24"
 ref: "Sonoff Dongle"
@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Haade-lab, Zigbee]
 tags: []
 video: 
-image: 'picture.png'
+image: 'test-des-nouveaux-dongles-sonoff-plus-et-max-efr32mg24.png'
 toc: true
 beforetoc: ''
 published: false
