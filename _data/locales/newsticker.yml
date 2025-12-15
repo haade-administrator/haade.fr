@@ -42,9 +42,9 @@ Maison-et-domotique:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: The DC-ROMA II is the fastest RISC-V laptop and is odd
-    url: https://www.jeffgeerling.com/blog/2025/dc-roma-ii-fastest-risc-v-laptop-and-odd
-    image: https://www.jeffgeerling.com/sites/default/files/images/dc-roma-ii-framework-external-display.jpeg
+    title: CM0 - a new Raspberry Pi you can't buy
+    url: https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy
+    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-cm0.jpeg
 Matter:
   en_GB:
   - name: Matter

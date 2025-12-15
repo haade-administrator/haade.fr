@@ -34,9 +34,13 @@ Dans l'univers des dongles Zigbee à base de puces Silabs EFR32 de plus en plus 
 
 À première vue les deux nouveaux dongles ont été entièrement redessiné et rejoigne la sphère des dongles hautes qualité. Les produits sont très biens packagés et très bien fini, ça respire la conception de fabrication 100% bien fini.
 
+{% picture posts/{{ page.guid }}/capture-emballage-nouveaux-dongles-sonoff.png --alt Emballage des nouveaux dongles Sonoff Max et Plus à base de puces silabs MG24 --img width="940" height="529" %}
+
 ## Dongle Plus MG24
 
 Commençons par ce [dongle PM24](https://dongle.sonoff.tech/guide/dongle-pmg24/introduction-dongle-pmg24/){: target="_blank"}, la boite arbore la compatibilité avec home assistant et zigbee2mqtt, l'emballage est optimisé et quand on sort la clé de la boite l'antenne frappe à l'oeil, la longueur est impressionnante par rapport au stick qui apporte un gain supplémentaire de 3dbi au 20 dbi de la puce.
+
+{% picture posts/{{ page.guid }}/dongle-plus-mg24-contenu-par-sonoff.png --alt Contenu du dongle USB Sonoff Plus MG24 --img width="940" height="529" %}
 
 Comme pour les anciens dongles de la marque le dongle plus mg24 à une coque en aluminium d'un gris anthracite exaltant, mais contrairement aux anciens la coque est beaucoup plus petite, le produit est donc beaucoup plus léger, un avantage indéniable pour ne pas forcer sur la sortie usb de la box domotique.
 
@@ -50,9 +54,15 @@ De plus j'ai effectué des tests de distances en zigbee et là aussi je suis dé
 
 Sonoff décide d'emboîter le pas au fabricant SMLIGHT en créant un dongle déporté et je dois dire que le constat est sans ambiguitée
 
+{% picture posts/{{ page.guid }}/dongle-max-contenu-par-sonoff.png --alt Contenu du dongle USB Sonoff Max déporté --img width="940" height="529" %}
+
 > Le dongle Max n'a rien à voir avec le dongle Plus Sonoff
 
 Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'aluminium fourni avec deux énormes antennes
+
+{% picture posts/{{ page.guid }}/dongle-max-assemblage-grande-antenne.png --alt Assemblage du Dongle Max --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/dimensions-dongle-max-sonoff-grande-antenne.png --alt Dimensions du Dongle Max par Sonoff --img width="940" height="529" %}
 
 ### Flash du firmware Sonoff
 
@@ -75,6 +85,9 @@ Personnellement pour les biens d'une future installation j'ai passé cette clé 
 
 Le Dongle Plus MG24 (Dongle-PMG24) est la version améliorée du ZBDongle-E. Il remplace la puce EFR32MG21 par l'EFR32MG24. La mémoire flash a été augmentée de 100 % et la RAM de 300 %, tandis que la consommation en veille a été réduite. Enfin, son format plus compact facilite son branchement à différents ports USB.
 
+{% picture posts/{{ page.guid }}/differences-taille-et-antennes-dongle-max-et-plus-sonoff-grande-antenne.png --alt Dimensions du Dongle Max vs dongle plus par Sonoff antennes immenses --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/differences-taille-et-antennes-dongle-max-et-plus-sonoff-grande-antenne-2.png --alt Seconde image Dimensions du Dongle Max vs dongle plus par Sonoff antennes immenses --img width="940" height="529" %}
 
 ### Caratéristiques technique:
 
