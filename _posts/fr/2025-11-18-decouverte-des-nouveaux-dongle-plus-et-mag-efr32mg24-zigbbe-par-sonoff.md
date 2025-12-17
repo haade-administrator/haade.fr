@@ -64,6 +64,10 @@ Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'a
 
 {% picture posts/{{ page.guid }}/dimensions-dongle-max-sonoff-grande-antenne.png --alt Dimensions du Dongle Max par Sonoff --img width="940" height="529" %}
 
+### Présentation de l'interface
+
+{% include videoPlayer.html localId="presentation-interface-sonoff-dongle-max.mp4" %}
+
 ### Flash du firmware Sonoff
 
 Pour le dongle max MG24 deux solutions sont disponibles pour mettre à jour le firmware.
