@@ -50,19 +50,35 @@ en ce qui concerne la qualité de fabrication rien à dire la qualité est là, 
 
 De plus j'ai effectué des tests de distances en zigbee et là aussi je suis déçu le sonoff dongle plus MG24 capte moins bien malgré l'antenne que le dongle nabu casa zbt1 ( skyconnect ). **Ce qui laisse à désirer c'est bien dommage, je ne la recommande pas.**
 
+### conclusion Dongle plus MG24
+
+C'est un **dongle de fabrication irréprochable**, les dimensions et le poids sont réduites au minimum, la taille de **l'antenne est supérieur aux autres dongles fournis avec antennes mise à part le Dongle Max, mais similaire aux dongles de la marque SMLight.** Donc si tu cherches un dongle de qualité avec une puce dernière génération alors il est fait pour toi, **mais si tu cherches un dongle exceptionnel alors passes ton tour.**
+
 ## Dongle Max
 
-Sonoff décide d'emboîter le pas au fabricant SMLIGHT en créant un dongle déporté et je dois dire que le constat est sans ambiguitée
+Sonoff décide d'emboîter le pas au fabricant SMLIGHT en créant un dongle déporté et je dois dire que le constat est sans ambiguitée.
 
 {% picture posts/{{ page.guid }}/dongle-max-contenu-par-sonoff.png --alt Contenu du dongle USB Sonoff Max déporté --img width="940" height="529" %}
 
 > Le dongle Max n'a rien à voir avec le dongle Plus Sonoff
 
-Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'aluminium fourni avec deux énormes antennes
+Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'aluminium fourni avec deux énormes antennes, l'une pour le Zigbee et l'autre pour le wifi, et oui ce dongle gère le mode point d'accès wifi.
+
+Le Sonoff dongle max est livrée avec un support pour une fixation murale, avec des visses et chevilles. **Il est fournis avec un cable usb-c qui servira uniquement d'alimentations, n'essaie pas de transférer des données sur ta box home assistant, ça ne fonctionnera pas.** Pour terminer il est livré avec une notice sommaire ainsi q'un double face, pour une fixation sécurisée.
 
 {% picture posts/{{ page.guid }}/dongle-max-assemblage-grande-antenne.png --alt Assemblage du Dongle Max --img width="940" height="529" %}
 
+Sur la fabrication le Dongle Max est similaire au dongle plus, la taille est plus imposante, les antennes aussi. **Normal le Dongle Max est plus qu'une simple cé zigbee/wifi, il peut être un hub et un client multi protocole.**
+
 {% picture posts/{{ page.guid }}/dimensions-dongle-max-sonoff-grande-antenne.png --alt Dimensions du Dongle Max par Sonoff --img width="940" height="529" %}
+
+### Interface gestion Dongle Max
+
+pour accéder à l'interface rien de plus simple, il suffit de connecter le dongle en rj45 sur ton réseau et de taper dans le moteur de recherche de ton navigateur préféré [http://dongle-m.local](http://dongle-m.local){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/sonoff-dongle-max-interface.png --alt Interface gestion dongle Max et les diverses options --img width="940" height="451" %}
+
+
 
 ### Flash du firmware Sonoff
 
