@@ -54,13 +54,15 @@ De plus j'ai effectué des tests de distances en zigbee et là aussi je suis dé
 
 C'est un **dongle de fabrication irréprochable**, les dimensions et le poids sont réduites au minimum, la taille de **l'antenne est supérieur aux autres dongles fournis avec antennes mise à part le Dongle Max, mais similaire aux dongles de la marque SMLight.** Donc si tu cherches un dongle de qualité avec une puce dernière génération alors il est fait pour toi, **mais si tu cherches un dongle exceptionnel alors passes ton tour.**
 
-## Dongle Max
+## Sonoff Dongle Max
 
 Sonoff décide d'emboîter le pas au fabricant SMLIGHT en créant un dongle déporté et je dois dire que le constat est sans ambiguitée.
 
 {% picture posts/{{ page.guid }}/dongle-max-contenu-par-sonoff.png --alt Contenu du dongle USB Sonoff Max déporté --img width="940" height="529" %}
 
-> Le dongle Max n'a rien à voir avec le dongle Plus Sonoff
+> Le dongle Max n'a rien à voir avec le dongle Plus Sonoff.
+
+Enfin si il utilise la même puce Zigbee Silabs EFR32MG24
 
 Là aussi l'emballage est soigné à l'intérieur on retrouve un dongle fait d'aluminium fourni avec deux énormes antennes, l'une pour le Zigbee et l'autre pour le wifi, et oui ce dongle gère le mode point d'accès wifi.
 
@@ -72,15 +74,38 @@ Sur la fabrication le Dongle Max est similaire au dongle plus, la taille est plu
 
 {% picture posts/{{ page.guid }}/dimensions-dongle-max-sonoff-grande-antenne.png --alt Dimensions du Dongle Max par Sonoff --img width="940" height="529" %}
 
-### Présentation de l'interface
-
-{% include videoPlayer.html localId="presentation-interface-sonoff-dongle-max.mp4" %}
-
 ### Interface gestion Dongle Max
 
 pour accéder à l'interface rien de plus simple, il suffit de connecter le dongle en rj45 sur ton réseau et de taper dans le moteur de recherche de ton navigateur préféré [http://dongle-m.local](http://dongle-m.local){: target="_blank"}
 
 {% picture posts/{{ page.guid }}/sonoff-dongle-max-interface.png --alt Interface gestion dongle Max et les diverses options --img width="940" height="451" %}
+
+Tu pourras:
+
+- te connecter aux outils ewelink
+- créer un access point
+- faire les mises à jours des puces et même automatiser ce processus( note que pour tester le mode multipan il faut passer en beta 1.0.4 )
+- trouver les infos nécessaires pour se connecter à Z2M ou ZHA directement sur l'interface
+- te connecter à un client mqtt
+- créer des webhooks
+- créer un client wireguard
+- de créer des sauvegardes
+- enfin tu pourras modifier divers paramètres
+
+Il te permet de créer un client vpn wireguard !
+
+Pour faire un retour rapide car je n'ai pas tout testé, quel est l'intérêt j'en vois qu'un directement de créer un réseau local à distance :) . Relier une box homeassistant à un réseau zigbee distant est tout à fait possible ainsi tu pourrais controler ton réseau zigbee sans aucunes autres limites.
+En réalité l client vpn est là pour relier en toutes sécuritées le dongle max Sonoff à la box en toute sécurité.
+
+Pourquoi se connecter à un client MQTT ?
+
+Je penses que cette option à été 
+
+{% include videoPlayer.html localId="presentation-interface-sonoff-dongle-max.mp4" %}
+
+Ci-dessus j'ai mis une vidéo qui balaye les différentes fonctions. La modification de certains paramètres comme la gestion de couleurs des Leds est très impressionnant.
+
+> Je relève tout de même divers bugs minimes mais présent qui devraient être corrigés dans les semaines à venir.
 
 
 
