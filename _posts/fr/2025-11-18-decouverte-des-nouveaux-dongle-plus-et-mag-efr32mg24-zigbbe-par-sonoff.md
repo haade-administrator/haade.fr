@@ -72,6 +72,10 @@ Sur la fabrication le Dongle Max est similaire au dongle plus, la taille est plu
 
 {% picture posts/{{ page.guid }}/dimensions-dongle-max-sonoff-grande-antenne.png --alt Dimensions du Dongle Max par Sonoff --img width="940" height="529" %}
 
+### Présentation de l'interface
+
+{% include videoPlayer.html localId="presentation-interface-sonoff-dongle-max.mp4" %}
+
 ### Interface gestion Dongle Max
 
 pour accéder à l'interface rien de plus simple, il suffit de connecter le dongle en rj45 sur ton réseau et de taper dans le moteur de recherche de ton navigateur préféré [http://dongle-m.local](http://dongle-m.local){: target="_blank"}

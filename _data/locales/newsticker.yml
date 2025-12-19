@@ -47,6 +47,11 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
+<<<<<<< HEAD
     title: How Ikea Is Mastering the Blend of Thread and Zigbee
     url: https://matter-smarthome.de/en/products/how-ikea-masters-the-combination-of-thread-and-zigbee/
+=======
+    title: Alliance Year in Review - 2025 Reflections & Seasons Greetings!
+    url: https://connect.csa-iot.org/alliance-year-in-review-2025-reflections-seasons-greetings%20
+>>>>>>> 73f01ee031e071ff107b923af92a44e8a419fc2e
     image:
