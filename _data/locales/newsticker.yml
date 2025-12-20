@@ -16,9 +16,9 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Module Intelligent Aidoo Zwave AZAI6ZWEMEL AIRZONE
-    url: https://blog.domadoo.fr/112594-aidoo-airzone-zwave-azai6zwemel/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/08/Airzone-Aidoo-chauffage-climatisation-zwave-1080x675-PRESS-1024x640.webp
+    title: Multiprise Shelly power strip4 Gen4 Wifi Matter Zigbee
+    url: https://blog.domadoo.fr/113241-multiprise-shelly-power-strip4-gen4/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/multiprise-zigbee-matter-bluetooth-wifi6-shelly-power-strip4-gen4-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -35,15 +35,15 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: iRobot en faillite  - fin de Roomba ou renaissance surprise ?
-    url: https://www.maison-et-domotique.com/166393-faillite-irobot-quels-impacts-pour-roomba/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/faillite-irobot-702x468.jpg
+    title: Maison connectée  - 7 automatismes malins qui évitent les gros sinistres
+    url: https://www.maison-et-domotique.com/166349-maison-connectee-7-automatismes-malins-qui-evitent-les-gros-sinistres/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/titre-domotique-prevention-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: 1.5 TB of VRAM on Mac Studio - RDMA over Thunderbolt 5
-    url: https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5
-    image: https://www.jeffgeerling.com/sites/default/files/images/mac-studio-cluster-1-hero.jpg
+    title: Big GPUs don't need big PCs
+    url: https://www.jeffgeerling.com/blog/2025/big-gpus-dont-need-big-pcs
+    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-egpu-vs-pc-gpu-setup.jpeg
 Matter:
   en_GB:
   - name: Matter
