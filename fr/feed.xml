@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Dec 2025 04:17:06 +0100</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2025 08:05:00 +0100</lastBuildDate>
+    <pubDate>Sat, 20 Dec 2025 19:24:18 +0100</pubDate>
+    <lastBuildDate>Sat, 20 Dec 2025 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Découverte des Dongles Plus et Max Sonoff</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Examinons et testons ensemble les nouveaux dongle de la marque Sonoff le Plus et Max à base de puces efr32mg24 avec test du multipan</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-des-nouveaux-dongles-sonoff-plus-et-max-efr32mg24-720-ec359ae83.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-des-nouveaux-dongles-sonoff-plus-et-max-efr32mg24-720-ec359ae83.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/167/test-des-nouveaux-dongles-sonoff-plus-et-max-efr32mg24-720-ec359ae83.png" alt="Découverte des Dongles Plus et Max Sonoff">
+</picture>
+
+      <p>Dans l’univers des dongles Zigbee à base de puces Silabs EFR32 de plus en plus nombreux, Sonoff présente ses deux nouveaux dongles Plus et Max.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/decouverte-des-nouveaux-dongle-plus-et-mag-efr32mg24-zigbbe-par-sonoff">Découverte des Dongles Plus et Max Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 20 Dec 2025 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/decouverte-des-nouveaux-dongle-plus-et-mag-efr32mg24-zigbbe-par-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/decouverte-des-nouveaux-dongle-plus-et-mag-efr32mg24-zigbbe-par-sonoff</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Fusion, les interrupteurs modulaires Sonoff</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,28 +247,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/tado-quel-starter-kit-choisir-presentation-comparatif-et-protocole</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Domotise tes volets roulants Bubendorff en Zigbee pour pas cher</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Ne nous fions pas au titre je ne vais pas réellement domotiser des volets bubendorff mais remplacer le système par des moteurs filaires chamberlain. Je te donne mes raisons</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/157/domotise-test-volets-roulants-bubendorff-en-zigbee-pour-pas-cher-720-a17bea0c4.png" alt="Domotise tes volets roulants Bubendorff en Zigbee pour pas cher">
-</picture>
-
-      <p>Aujourd’hui je t’explique non pas comment j’ai domotisé des volets Bubendorff en Zigbee, simplement parce que ce n’est pas possible, mais pourquoi j’ai décidé de virer le système Bubendorff Tradi ID 1 qui avait 20 ans par des moteurs Chamberlain filaires à fin de course mécanique relié sur un interrupteur [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff">Domotise tes volets roulants Bubendorff en Zigbee pour pas cher</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Tue, 11 Mar 2025 10:30:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-en-zigbee-des-volets-tradi-id-bubendorff</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Securite]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

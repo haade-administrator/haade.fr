@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Dec 2025 04:17:06 +0100</pubDate>
-    <lastBuildDate>Sat, 08 Nov 2025 08:05:00 +0100</lastBuildDate>
+    <pubDate>Sat, 20 Dec 2025 19:24:18 +0100</pubDate>
+    <lastBuildDate>Sat, 20 Dec 2025 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Discover the Dongles Plus and Max Sonoff</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Let&apos;s examine and test together the new Sonoff Plus and Max dongles based on efr32mg24 chips, including a multipan test.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.png" alt="Discover the Dongles Plus and Max Sonoff">
+</picture>
+
+      <p>In the ever-growing world of Zigbee dongles based on Silabs EFR32 chips, Sonoff presents its two new dongles: Plus and Max.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff">Discover the Dongles Plus and Max Sonoff</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Sat, 20 Dec 2025 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Fusion, Sonoff modular switches</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +248,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Testing the Tado° heating interface</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Second step of presentation of the Tado universe, I will show you the whole process of using the Tado interface and its particularities</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/156/control-your-tado-installation-by-official-app-720-33e90e737.png" alt="Testing the Tado° heating interface">
-</picture>
-
-      <p>Here is a continuation of the presentation of the Tado° universe following the presentation of the Tado° X thermostatic faucet, Today I will introduce you to the Tado° application, its special features and especially what differentiates the management of Tado° Heating and management from other brands.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management">Testing the Tado° heating interface</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 05 Mar 2025 11:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/full-use-of-the-tado-interface-independent-heating-management</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
