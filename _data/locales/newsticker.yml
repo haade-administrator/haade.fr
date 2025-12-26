@@ -35,18 +35,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Maison connectée  - 7 automatismes malins qui évitent les gros sinistres
-    url: https://www.maison-et-domotique.com/166349-maison-connectee-7-automatismes-malins-qui-evitent-les-gros-sinistres/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/titre-domotique-prevention-702x468.jpg
+    title: Homey Self-Hosted Server sur Synology DSM 7  - guide complet, dossier data,
+      mises à jour
+    url: https://www.maison-et-domotique.com/166439-tutoriel-installer-homey-self-hosted-server-sur-synology-dsm-7/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/titre-install-homey-synology-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Big GPUs don't need big PCs
-    url: https://www.jeffgeerling.com/blog/2025/big-gpus-dont-need-big-pcs
-    image: https://www.jeffgeerling.com/sites/default/files/images/raspberry-pi-egpu-vs-pc-gpu-setup.jpeg
+    title: NIST was 5 μs off UTC after last week's power cut
+    url: https://www.jeffgeerling.com/blog/2025/nist-was-5-%CE%BCs-utc-after-last-weeks-power-cut
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: How Ikea Is Mastering the Blend of Thread and Zigbee
-    url: https://matter-smarthome.de/en/products/how-ikea-masters-the-combination-of-thread-and-zigbee/
+    title: SmartThings First to Add Matter 1.5 Camera Support
+    url: https://homekitnews.com/2025/12/20/smartthings-first-to-add-matter-1-5-camera-support/
     image:
