@@ -22,9 +22,10 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Jeu concours de Noël Nord Domotique 2025 – 47 lots high-tech à gagner
-    url: https://blog.nord-domotique.com/jeu-concours-de-noel-nord-domotique-2025/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/12/jeu-concours-noel-2025-3308.jpg?fit=300%2C225&ssl=1
+    title: Test MOVA Z60 Ultra Roller Complete  - le robot aspirateur-laveur le plus
+      puissant que j’ai testé
+    url: https://blog.nord-domotique.com/test-mova-z60-ultra-roller-complete/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/11/designer.jpeg?fit=300%2C200&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -42,9 +43,9 @@ Maison-et-domotique:
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: NIST was 5 μs off UTC after last week's power cut
-    url: https://www.jeffgeerling.com/blog/2025/nist-was-5-%CE%BCs-utc-after-last-weeks-power-cut
-    image:
+    title: Dell's version of the DGX Spark fixes pain points
+    url: https://www.jeffgeerling.com/blog/2025/dells-version-dgx-spark-fixes-pain-points
+    image: https://www.jeffgeerling.com/sites/default/files/images/dell-pro-max-gb10-two.jpeg
 Matter:
   en_GB:
   - name: Matter
