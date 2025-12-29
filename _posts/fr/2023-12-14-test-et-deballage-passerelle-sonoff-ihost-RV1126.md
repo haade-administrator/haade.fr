@@ -100,7 +100,7 @@ Avant de commencer ce tour d'horizon, Sonoff à développé une très bonnne doc
 
 ## Premier démarrage et Mise à jour
 
-Pour commencer si tu lis la documentation officielle, Sonoff t'indique de brancher en usb et rj45, d'attendre l'affichage bleu et ensuite de te connecter à l'adresse [ihost.local](htt://ihost.local){: target="_blank"}, ben chez moi ça n'a jamais fonctionné je me suis démerdé en allant sur le routeur et cherché manuellement l'adresse ip, n'hésite pas à paramétrer en adresse ip fixe sinon tu risque comme moi de voir celle-ci changer régulièrement. Ensuite connecte toi à l'invite:
+Pour commencer si tu lis la documentation officielle, Sonoff t'indique de brancher en usb et rj45, d'attendre l'affichage bleu et ensuite de te connecter à l'adresse [ihost.local](http://ihost.local){: target="_blank"}, ben chez moi ça n'a jamais fonctionné je me suis démerdé en allant sur le routeur et cherché manuellement l'adresse ip, n'hésite pas à paramétrer en adresse ip fixe sinon tu risque comme moi de voir celle-ci changer régulièrement. Ensuite connecte toi à l'invite:
 
 {% picture posts/{{ page.guid }}/page-connection-passerelle-sonoff-ihost.png --alt page de connection du sonoff gateway ihost --img width="940" height="611" %}
 
@@ -164,7 +164,7 @@ La passerelle {{ page.ref }} propose un onglet Smart scene, il s'agit rien de pl
 
 Alors à ce stade la version 1.12.0 n'ajoute pas de nouveautées dans ce domaine et c'est dommage car on est loin de ce que peut proposer Home Assistant ou Jeedom et c'est dommage. **Il ne propose que les conditions de déclenchements et les actions c'est trop léger pour faire de l'automatisation.**
 
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost-ss.mp4" %}
+{% include videoPlayer.html youtubeId="PeVD-pXDs18" %}
 
 ### Les Modes dans {{ page.ref }} Smart security
 

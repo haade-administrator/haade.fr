@@ -100,7 +100,7 @@ Before starting this overview, Sonoff has developed very good documentation avai
 
 ## First start and Update
 
-To start, if you read the official documentation, Sonoff tells you to connect via USB and RJ45, wait for the blue display and then connect to the address [ihost.local](htt://ihost.local) {: target="_blank"}, well for me it never worked I managed by going to the router and manually looking for the IP address, don't hesitate to set it to a fixed IP address otherwise you risk like me to see it change regularly. Then connect to the prompt:
+To start, if you read the official documentation, Sonoff tells you to connect via USB and RJ45, wait for the blue display and then connect to the address [ihost.local](http://ihost.local) {: target="_blank"}, well for me it never worked I managed by going to the router and manually looking for the IP address, don't hesitate to set it to a fixed IP address otherwise you risk like me to see it change regularly. Then connect to the prompt:
 
 {% picture posts/{{ page.guid }}/page-connection-passerelle-sonoff-ihost.png --alt sonoff gateway ihost connection page --img width="940" height="611" %}
 
@@ -120,7 +120,7 @@ After restarting, go to the settings page and you will see a button appear for t
 
 On the homepage you can use the Zigbee network as well as pairing buttons, I'll let you watch how it works on video
 
-{% include videoPlayer.html externalId="https://sonoff.tech/wp-content/uploads/2023/03/IHost添加子设备教学视频.mp4" %}
+{% include videoPlayer.html youtubeId="PeVD-pXDs18" %}
 
 ### Zigbee compatibility
 
