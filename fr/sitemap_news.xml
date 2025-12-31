@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/fr/blog/decouverte-des-nouveaux-dongle-plus-et-mag-efr32mg24-zigbbe-par-sonoff</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2025-12-20T18:00:00+01:00</news:publication_date>
-          <news:title>Découverte des Dongles Plus et Max Sonoff</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/167/test-des-nouveaux-dongles-sonoff-plus-et-max-efr32mg24.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
