@@ -105,16 +105,9 @@ content:
             - label: "English"
               value: en_GB
 
-      - name: summary
-        label: "Résumé"
-        type: text
-        description: "Court résumé ou extrait"
-
       - name: image
         label: "Image de couverture"
         type: image
-        options:
-          path: posts
 
       - name: body
         label: "Contenu"
