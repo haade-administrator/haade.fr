@@ -1,9 +1,64 @@
 media:
+- name: media
+  label: "Médias"
   input: assets/images/posts
   output: /
+  categories: [ image, document, video ]
 
 content:
   - name: posts
     label: Articles
     type: collection
     path: _posts
+    view:
+      fields: [ title, date, published ]
+      primary: title
+      sort: [ date ]
+      default:
+        sort: date
+        order: desc
+
+    # Schéma des champs pour les posts
+    fields:
+      - name: title
+        label: "Titre"
+        type: string
+        required: true
+
+      - name: slug
+        label: "Slug"
+        type: string
+        description: "Identifiant utilisé dans l’URL"
+        required: true
+
+      - name: date
+        label: "Date de publication"
+        type: date
+        required: true
+
+      - name: published
+        label: "Publié"
+        type: boolean
+        default: false
+
+      - name: summary
+        label: "Résumé"
+        type: text
+        description: "Court résumé ou extrait"
+
+      - name: cover_image
+        label: "Image de couverture"
+        type: image
+        options:
+          path: posts
+
+      - name: body
+        label: "Contenu"
+        type: rich-text
+        description: "Contenu principal de l’article"
+
+      - name: tags
+        label: "Tags"
+        type: string
+        list: true
+        description: "Mots-clés séparés"
