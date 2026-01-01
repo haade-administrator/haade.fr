@@ -41,11 +41,10 @@ content:
           minlength: 20
           maxlength: 160
 
-      - name: slug
-        label: "Slug"
+      - name: ref
+        label: "Ref"
         type: string
-        description: "Identifiant utilisé dans l’URL"
-        required: false
+        description: "reference indexée par {{page.ref}} dans l'article"
 
       - name: date
         label: "Date de publication"
