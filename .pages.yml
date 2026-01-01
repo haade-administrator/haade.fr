@@ -20,6 +20,12 @@ content:
 
     # Schéma des champs pour les posts
     fields:
+
+      - name: guid
+        label: "Guid"
+        type: number
+        required: true
+        
       - name: title
         label: "Titre"
         type: string
@@ -29,7 +35,7 @@ content:
         label: "Slug"
         type: string
         description: "Identifiant utilisé dans l’URL"
-        required: true
+        required: false
 
       - name: date
         label: "Date de publication"
