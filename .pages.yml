@@ -79,7 +79,15 @@ content:
         type: select
         options:
           multiple: true
-          values: [ Domotique, Haade-lab, Home-Assistant, Zigbee ]
+          values: 
+            - value: Domotique
+              label: Domotique
+            - value: Haade-lab
+              label: Haade-lab
+            - value: Home-Assistant
+              label: Home-Assistant
+            - value: Zigbee
+              label: Zigbee
 
       - name: published
         label: "Publié"
