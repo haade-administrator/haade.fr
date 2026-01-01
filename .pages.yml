@@ -12,7 +12,7 @@ content:
     path: _posts
     subfolders: true
     view:
-      fields: [ guid, title, description, ref, date, published ]
+      fields: [ guid, title, description, date, published ]
       primary: title
       sort: [ date ]
       default:
@@ -45,6 +45,20 @@ content:
         label: "Ref"
         type: string
         description: "reference indexée par {{page.ref}} dans l'article"
+
+      - name: authors
+        label: Auteurs
+        type: select
+        options:
+          values:
+            - value: Nico
+              label: Nicolas Rodriguez
+            - value: Math
+              label: Mathieu Fogel
+            - value: August
+              label: Paul 
+            - value: Yann
+              label: Yann Brochier
 
       - name: date
         label: "Date de publication"
