@@ -110,7 +110,7 @@ content:
         type: text
         description: "Court résumé ou extrait"
 
-      - name: cover_image
+      - name: image
         label: "Image de couverture"
         type: image
         options:
