@@ -11,7 +11,6 @@ categories:
   - Home-Assistant
 published: false
 locale: fr_FR
-summary: encours
-image: /104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008.png
+image: /../168/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
 ---
 test
