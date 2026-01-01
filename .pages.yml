@@ -24,6 +24,7 @@ content:
       - name: guid
         label: "Guid"
         type: number
+        description: "Identifiant numérique unique (ex: 100, 101)"
         required: true
         
       - name: title
