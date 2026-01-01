@@ -1,3 +1,9 @@
 media:
   input: assets/images/posts
   output: /
+
+content:
+  - name: posts
+    label: Articles
+    type: collection
+    path: _posts
