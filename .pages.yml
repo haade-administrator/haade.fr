@@ -10,8 +10,9 @@ content:
     label: Articles
     type: collection
     path: _posts
+    subfolders: true
     view:
-      fields: [ title, date, published ]
+      fields: [ guid, title, description, ref, date, published ]
       primary: title
       sort: [ date ]
       default:
