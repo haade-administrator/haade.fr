@@ -2,7 +2,7 @@ media:
 - name: media
   label: "Médias"
   input: assets/images/posts
-  output: ../
+  output: /
   categories: [ image, document, video ]
 
 content:
