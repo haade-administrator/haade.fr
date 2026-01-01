@@ -56,6 +56,17 @@ content:
         label: "Publié"
         type: boolean
         default: false
+        
+      - name: locale
+        label: "Langue"
+        type: select
+        required: true
+        options:
+          values:
+            - label: "Français"
+              value: fr_FR
+            - label: "English"
+              value: en_GB
 
       - name: summary
         label: "Résumé"
