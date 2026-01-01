@@ -12,5 +12,6 @@ categories:
 published: false
 locale: fr_FR
 summary: encours
+image: /104/test-adaptateur-dongle-zigbee-matter-thread-aeotec-mini-zi-stick-ZGA008.png
 ---
 test
