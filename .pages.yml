@@ -35,7 +35,7 @@ content:
       - name: description
         label: "Description"
         type: string
-        description: "Décris de façon précise l'article sert pour le référencement"
+        description: "Décris de façon précise l'article sert pour le référencement de 20 à 160 caractères"
         options:
           minlength: 20
           maxlength: 160
