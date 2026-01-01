@@ -32,6 +32,14 @@ content:
         type: string
         required: true
 
+      - name: description
+        label: "Description"
+        type: string
+        description: "Décris de façon précise l'article sert pour le référencement"
+        options:
+          minlength: 20
+          maxlength: 160
+
       - name: slug
         label: "Slug"
         type: string
