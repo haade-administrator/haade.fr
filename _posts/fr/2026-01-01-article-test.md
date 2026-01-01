@@ -11,6 +11,6 @@ categories:
   - Home-Assistant
 published: false
 locale: fr_FR
-image: /../168/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
+image: ../168/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
 ---
 test
