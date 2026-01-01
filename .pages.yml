@@ -33,6 +33,12 @@ content:
         type: string
         required: true
 
+      - name: slug
+        label: "Slug"
+        type: string
+        description: "Identifiant utilisé dans l’URL"
+        required: true
+
       - name: description
         label: "Description"
         type: string
@@ -67,6 +73,13 @@ content:
           time: true
           format: dd-MM-yyyy HH:mm
         required: true
+
+      - name: categories
+        label: Categories
+        type: select
+        options:
+          multiple: true
+          values: [ Domotique, Haade-lab, Home-Assistant, Zigbee ]
 
       - name: published
         label: "Publié"
