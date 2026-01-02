@@ -89,7 +89,10 @@ content:
             - value: Zigbee
               label: Zigbee
 
-      - { name: published, label: "Publié", type: boolean, default: false }
+      - name: published
+        label: "Publié"
+        type: boolean
+        default: false
         
       - name: locale
         label: "Langue"
@@ -102,9 +105,21 @@ content:
             - label: "English"
               value: en_GB
 
-      - { name: image, label: "Image de couverture", type: image }
-      - { name: body, label: Contenu, type: rich-text, description: "Contenu principal de l’article" }
-      - { name: tags, label: "Tags", type: string, list: true, description: "Mots-clés séparés" }
+      - name: image
+        label: "Image de couverture"
+        type: image
+        description: "Dimensions 1200x675px"
+        
+      - name: body
+        label: Contenu
+        type: rich-text
+        description: "Contenu principal de l’article"
+      
+      - name: tags
+        label: "Tags"
+        type: string
+        list: true
+        description: "Mots-clés séparés"
 
 components:
   hero: # 'hero' is the component name/key
