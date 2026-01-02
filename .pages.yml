@@ -12,7 +12,7 @@ content:
     path: _posts
     subfolders: true
     view:
-      fields: [ guid, title, date, published ]
+      fields: [ image, guid, title, date, published ]
       primary: title
       sort: [ date ]
       default:
