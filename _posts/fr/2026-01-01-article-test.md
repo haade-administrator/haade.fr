@@ -11,6 +11,6 @@ categories:
   - Home-Assistant
 published: false
 locale: fr_FR
-image: lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
+image: /10/antenne-soudee-esp-12f-wemos-d1-mini.png
 ---
 test
