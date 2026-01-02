@@ -11,6 +11,6 @@ categories:
   - Home-Assistant
 published: false
 locale: fr_FR
-image: /10/antenne-soudee-esp-12f-wemos-d1-mini.png
+image: /{{ page.guid }}/100/acces-processeur-sonoff-passerelle-ihost.png
 ---
 test
