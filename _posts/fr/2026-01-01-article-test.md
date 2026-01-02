@@ -5,7 +5,7 @@ slug: article-test
 description: article test en cours pagescms
 ref: article-test
 authors: Nico
-date: 01-01-2026 20:03
+date: 2026-01-02 17:51
 categories:
   - Domotique
   - Home-Assistant
