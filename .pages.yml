@@ -71,7 +71,7 @@ content:
         type: date
         options:
           time: true
-          format: yyyy-MM-dd'T'HH:mm
+          format: yyyy-MM-dd'T'HH:mm+00:00
         required: true
 
       - name: categories
