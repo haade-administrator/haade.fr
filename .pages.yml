@@ -4,12 +4,17 @@ settings:
     merge: true
 
 media:
-- name: media
-  label: "Médias"
-  input: assets/images/posts
-  output: /
-  categories: [ image, document, video ]
-
+  - name: Fichiers
+    label: Files
+    input: assets/images/posts
+    output: /
+    categories: [ document ]
+  - name: Images # Note: 'name' key is required here
+    label: Images
+    input: assets/images/posts
+    output: /
+    extensions: [ png, webp ]
+  
 content:
   - name: posts
     label: Articles
