@@ -124,6 +124,11 @@ content:
         list: true
         description: "Mots-clés séparés"
 
+      - name: sourcelink
+        label: Website URL
+        type: string
+        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+
       - name: body
         label: Contenu
         type: rich-text
