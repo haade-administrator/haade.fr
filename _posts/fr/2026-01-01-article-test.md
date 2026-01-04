@@ -14,5 +14,8 @@ locale: fr_FR
 image: /168/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
 Url:
   sourcelink: http://www.google.fr
+sourcelink:
+  - https://www.google.fr
+  - free.fr
 ---
 test
