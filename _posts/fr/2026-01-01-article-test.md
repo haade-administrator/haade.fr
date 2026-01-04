@@ -11,7 +11,7 @@ categories:
   - Home-Assistant
 published: false
 locale: fr_FR
-image: /168/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png
+image: /assets/images/posts/44/immax-neo-07504L-smart-siren-exterieur-ip65-zigbee-3-diverse-photo.png
 Url:
   sourcelink: http://www.google.fr
 sourcelink:
