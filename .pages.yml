@@ -135,3 +135,9 @@ components:
       - name: cover
         label: Cover Image
         type: image
+  email: # 'email' is the component name/key
+    label: Email Address
+    type: string
+    pattern:
+      regex: '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+      message: 'This must be a valid email address (e.g. hello@example.com).'
