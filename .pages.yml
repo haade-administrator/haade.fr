@@ -6,6 +6,7 @@ settings:
 media:
     input: assets/images/posts
     output: /
+    path: {{ page.guid }}
 
   
 content:
