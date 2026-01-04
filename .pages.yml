@@ -145,12 +145,11 @@ content:
             label: Add email
             component: email
 
-      - name: Url
-        label: Contact information
+      - name: sourcelink
+        label: lien web externe
         type: object
         fields:
-        - name: sourcelink
-          label: Website URL
+        - name: -
           type: string
           pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
 
