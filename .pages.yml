@@ -132,6 +132,20 @@ content:
           creatable: true
           multiple: true
 
+      - name: product
+        label: Product test
+        type: select
+        options:
+          fetch:
+            url: https://api.example.com/products
+            params:
+              search: ""
+              category: "electronics"
+            results: data.products
+            value: ""
+            label: " ()"
+            image: thumbnail
+
       - name: body
         label: Contenu
         type: rich-text
