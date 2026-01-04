@@ -122,3 +122,16 @@ content:
       - name: body
         label: Contenu
         type: rich-text
+
+components:
+  hero: # 'hero' is the component name/key
+    label: Hero Section
+    type: object
+    fields:
+      - name: headline
+        label: Headline
+        type: text
+        required: true
+      - name: cover
+        label: Cover Image
+        type: image
