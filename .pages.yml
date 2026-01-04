@@ -4,8 +4,8 @@ settings:
     merge: true
 
 media:
-    input: assets/images/posts
-    output: /assets/images/posts
+    input: ../assets/images/posts
+    output: /
 
 content:
   - name: posts
