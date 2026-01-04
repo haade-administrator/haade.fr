@@ -1,5 +1,5 @@
 settings:
-  hide: true
+  hide: false
   content:
     merge: true
 
