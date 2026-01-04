@@ -131,6 +131,10 @@ content:
       - name: rating
         label: "Note/Vote"
         type: number
+        options:
+          min: 0.0
+          max: 5.0
+          step: 0.1
         description: "vote article de 0.0 à 5.0"
 
       - name: sourcelink
