@@ -7,7 +7,6 @@ media:
     input: assets/images/posts
     output: /
 
-  
 content:
   - name: posts
     label: Articles
@@ -115,7 +114,7 @@ content:
         label: "Image de couverture"
         type: image
         options:
-          path: /167
+          path: assets/images/posts/167
           extensions: [jpg, png]
         description: "Dimensions 1200x675px"
 
@@ -128,7 +127,9 @@ content:
       - name: sourcelink
         label: lien web externe
         type: select
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+        pattern:
+          regex: '^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$'
+          message: 'This must be a valid weblink address (e.g. https://haade.fr).'
         options:
           creatable: true
           multiple: true
