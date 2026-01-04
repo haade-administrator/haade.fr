@@ -113,7 +113,6 @@ content:
       - name: body
         label: Contenu
         type: rich-text
-        description: "Contenu principal de l’article"
       
       - name: tags
         label: "Tags"
