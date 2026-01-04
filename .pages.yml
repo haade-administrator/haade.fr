@@ -124,10 +124,14 @@ content:
         list: true
         description: "Mots-clés séparés"
 
-      - name: sourcelink
-        label: Website URL
-        type: string
-        pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
+      - name: Url
+        label: Contact information
+        type: object
+        fields:
+        - name: sourcelink
+          label: Website URL
+          type: string
+          pattern: ^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(\/[^\s]*)?$
 
       - name: body
         label: Contenu
