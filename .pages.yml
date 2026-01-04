@@ -122,6 +122,9 @@ content:
       - name: body
         label: Contenu
         type: rich-text
+        options:
+          path: blog-images
+          extensions: [jpg, jpeg, png]
 
 components:
   hero: # 'hero' is the component name/key
