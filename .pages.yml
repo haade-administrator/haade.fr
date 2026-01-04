@@ -128,6 +128,11 @@ content:
         list: true
         description: "Mots-clés séparés"
 
+      - name: rating
+        label: "Note/Vote"
+        type: number
+        description: "vote article de 0.0 à 5.0"
+
       - name: sourcelink
         label: lien web externe
         type: select
