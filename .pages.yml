@@ -121,7 +121,7 @@ content:
       - name: image
         label: "Image de couverture"
         type: image
-        path: {{ page.guid }}
+        path: /{{ page.guid }}
         description: "Dimensions 1200x675px"
 
       - name: tags
