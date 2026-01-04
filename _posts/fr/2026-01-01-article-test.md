@@ -17,5 +17,6 @@ Url:
 sourcelink:
   - https://www.google.fr
   - free.fr
+layout: post
 ---
 test
