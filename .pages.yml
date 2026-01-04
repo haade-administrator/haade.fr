@@ -6,6 +6,7 @@ settings:
 media:
     input: assets/images/posts
     output: /
+    path: assets/images/posts/167
 
 content:
   - name: posts
@@ -113,9 +114,6 @@ content:
       - name: image
         label: "Image de couverture"
         type: image
-        options:
-          path: ../167
-          extensions: [jpg, png]
         description: "Dimensions 1200x675px"
 
       - name: tags
