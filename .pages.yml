@@ -6,7 +6,6 @@ settings:
 media:
     input: assets/images/posts
     output: /
-    path: {{ page.guid }}
 
   
 content:
@@ -116,7 +115,7 @@ content:
         label: "Image de couverture"
         type: image
         options:
-          path: {{ page.guid }}
+          path: 167
           extensions: [jpg, png]
         description: "Dimensions 1200x675px"
 
