@@ -141,6 +141,9 @@ content:
               - name: content
                 label: Text Content
                 type: rich-text
+          - name: email
+            label: Add email
+            component: email
 
       - name: Url
         label: Contact information
