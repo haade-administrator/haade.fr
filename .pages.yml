@@ -4,16 +4,9 @@ settings:
     merge: true
 
 media:
-  - name: Fichiers
-    label: Files
     input: assets/images/posts
     output: /
-    categories: [ document ]
-  - name: Images # Note: 'name' key is required here
-    label: Images
-    input: assets/images/posts
-    output: /
-    extensions: [ png, webp ]
+
   
 content:
   - name: posts
@@ -122,7 +115,8 @@ content:
         label: "Image de couverture"
         type: image
         options:
-          path: /168
+          path: {{ page.guid }}
+          extensions: [jpg, png]
         description: "Dimensions 1200x675px"
 
       - name: tags
