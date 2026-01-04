@@ -113,6 +113,13 @@ content:
       - name: body
         label: Contenu
         type: rich-text
+
+      - name: content
+        label: Content
+        type: rich-text
+        options:
+          path: blog-images
+          extensions: [jpg, jpeg, png]
       
       - name: tags
         label: "Tags"
