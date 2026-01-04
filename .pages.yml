@@ -50,6 +50,13 @@ content:
           maxlength: 160
         required: true
 
+      - name: layout
+        label: "Calque"
+        type: select
+        required: true
+        options:
+          values: ['post']
+
       - name: ref
         label: "Ref"
         type: string
