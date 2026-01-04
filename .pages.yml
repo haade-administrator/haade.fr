@@ -4,7 +4,7 @@ settings:
     merge: true
 
 media:
-    input: assets/images/posts/..
+    input: assets/images/posts
     output: /
 
 content:
@@ -113,6 +113,8 @@ content:
       - name: image
         label: "Image de couverture"
         type: image
+        options:
+          path: "{guid}"
         description: "Dimensions 1200x675px"
 
       - name: tags
