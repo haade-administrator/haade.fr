@@ -5,7 +5,7 @@ settings:
 
 media:
     input: assets/images/posts
-    output: /
+    output: /assets/images/posts
 
 content:
   - name: posts
@@ -113,8 +113,6 @@ content:
       - name: image
         label: "Image de couverture"
         type: image
-        options:
-          path: assets/images/posts/{{ page.guid }}
         description: "Dimensions 1200x675px"
 
       - name: tags
