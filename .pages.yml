@@ -4,9 +4,8 @@ settings:
     merge: true
 
 media:
-    input: assets/images/posts
+    input: assets/images/posts/{{ page.guid }}
     output: /
-    path: assets/images/posts/167
 
 content:
   - name: posts
