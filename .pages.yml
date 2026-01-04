@@ -114,7 +114,7 @@ content:
         label: "Image de couverture"
         type: image
         options:
-          path: assets/images/posts/167
+          path: assets/images/posts/{{ page.guid }}
           extensions: [jpg, png]
         description: "Dimensions 1200x675px"
 
