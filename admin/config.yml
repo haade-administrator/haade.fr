@@ -1,0 +1,32 @@
+yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: haade-administrator/haade.fr
+
+media_folder: /assets/images
+public_folder: /
+
+i18n:
+  structure: multiple_folders
+  locales: [fr, en]
+  default_locale: fr
+
+editor:
+  preview: true
+
+collections:
+  - name: posts
+    label: Posts
+    folder: _posts
+    i18n: true
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Rating (scale of 1-5)", name: "rating", widget: "number" }
+      - { label: Body, name: body, widget: markdown }
+      - name: date
+        label: date and time
+        widget: datetime
+        format: MM/DD/YYYY HH:mm
