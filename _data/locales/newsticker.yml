@@ -16,9 +16,9 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Multiprise Shelly power strip4 Gen4 Wifi Matter Zigbee
-    url: https://blog.domadoo.fr/113241-multiprise-shelly-power-strip4-gen4/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/multiprise-zigbee-matter-bluetooth-wifi6-shelly-power-strip4-gen4-1080x675-PRESS-1024x640.webp
+    title: Sonoff Mini Duo module double On-Off zigbee et amplificateur
+    url: https://blog.domadoo.fr/113407-sonoff-mini-duo-module-double-on-off-zb-3-0/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/Sonoff-mini-duo-zigbee-module-double-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -36,19 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Homey Self-Hosted Server sur Synology DSM 7  - guide complet, dossier data,
-      mises à jour
-    url: https://www.maison-et-domotique.com/166439-tutoriel-installer-homey-self-hosted-server-sur-synology-dsm-7/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/titre-install-homey-synology-702x468.jpg
+    title: SwitchBot au CES 2026  - la maison connectée passe en mode robotique IA
+      (et ça change tout)
+    url: https://www.maison-et-domotique.com/166749-switchbot-ces-2026/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/02-key-visual-copie-702x416.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Dell's version of the DGX Spark fixes pain points
-    url: https://www.jeffgeerling.com/blog/2025/dells-version-dgx-spark-fixes-pain-points
-    image: https://www.jeffgeerling.com/sites/default/files/images/dell-pro-max-gb10-two.jpeg
+    title: JeffGeerling.com has been Migrated to Hugo
+    url: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/
+    image: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/jeffgeerling-old-drupal.png
 Matter:
   en_GB:
   - name: Matter
-    title: SmartThings First to Add Matter 1.5 Camera Support
-    url: https://homekitnews.com/2025/12/20/smartthings-first-to-add-matter-1-5-camera-support/
+    title: Why ‘Aliro’, The New Smart Lock Standard, Matters For The Smart Home
+    url: https://www.forbes.com/sites/bennyhareven/2025/12/31/why-aliro-the-new-smart-lock-standard-matters-for-the-smart-home/
     image:
