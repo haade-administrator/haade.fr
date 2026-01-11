@@ -5,50 +5,50 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Music Assistant 2.7 - Taking over the airwaves
-    url: https://www.home-assistant.io/blog/2025/12/17/music-assistant-2-7/
-    image: "/images/blog/2025-12-music-assistant-2-7/art.webp"
+    title: "2026.1 - Home is where the dashboard is \U0001F942"
+    url: https://www.home-assistant.io/blog/2026/01/07/release-20261/
+    image: "/images/blog/2026-01/home-dashboard-mobile.png"
   en_GB:
   - name: Home-Assistant
-    title: Music Assistant 2.7 - Taking over the airwaves
-    url: https://www.home-assistant.io/blog/2025/12/17/music-assistant-2-7/
-    image: "/images/blog/2025-12-music-assistant-2-7/art.webp"
+    title: "2026.1 - Home is where the dashboard is \U0001F942"
+    url: https://www.home-assistant.io/blog/2026/01/07/release-20261/
+    image: "/images/blog/2026-01/home-dashboard-mobile.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Sonoff Mini Duo module double On-Off zigbee et amplificateur
-    url: https://blog.domadoo.fr/113407-sonoff-mini-duo-module-double-on-off-zb-3-0/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/Sonoff-mini-duo-zigbee-module-double-1080x675-PRESS-1024x640.webp
+    title: Zooz XS Relay Zen57 module On-Off Zwave800 Long Range
+    url: https://blog.domadoo.fr/113344-zooz-xs-relay-zen57-module-on-off-zw800-lr/
+    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/zooz-xs-relay-zen57-module-on-off-zwave800-lr-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test MOVA Z60 Ultra Roller Complete  - le robot aspirateur-laveur le plus
-      puissant que j’ai testé
-    url: https://blog.nord-domotique.com/test-mova-z60-ultra-roller-complete/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2025/11/designer.jpeg?fit=300%2C200&ssl=1
+    title: CES 2026  - MOVA muscle son jeu avec les nouvelles tondeuses LiDAX Ultra
+      et ViAX, et dévoile un écosystème outdoor ultra-intelligent
+    url: https://blog.nord-domotique.com/ces-2026-mova-muscle-son-jeu/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/v70-ultra-complete.jpg?fit=300%2C169&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Du support natif des caméras à la gestion de l’énergie  - les nouvelles
-      propositions de Matter 1.5
-    url: https://www.abavala.com/du-support-natif-des-cameras-a-la-gestion-de-l-energie-les-nouvelles-propositions-de-matter-1-5/
-    image: https://www.abavala.com/wp-content/uploads/Matter-1-5-150x150.jpg
+    title: CES 2026  - Mammotion dévoile LUBA 3 AWD et SPINO S1 Pro et s’ouvre une
+      nouvelle ère pour les robots de jardin et de piscine
+    url: https://www.abavala.com/ces-2026-mammotion-devoile-luba-3-awd-et-spino-s1-pro-et-s-ouvre-une-nouvelle-ere-pour-les-robots-de-jardin-et-de-piscine/
+    image: https://www.abavala.com/wp-content/uploads/CES-2025-Mammotion-Luba-3-entete-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: SwitchBot au CES 2026  - la maison connectée passe en mode robotique IA
-      (et ça change tout)
-    url: https://www.maison-et-domotique.com/166749-switchbot-ces-2026/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/02-key-visual-copie-702x416.jpg
+    title: Beatbot au CES 2026  - IA, nettoyage de surface, récupération facile… les
+      nouveautés AquaSense X et Sora 70
+    url: https://www.maison-et-domotique.com/166518-beatbot-ces-2026/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/aquasense-x-702x365.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: JeffGeerling.com has been Migrated to Hugo
-    url: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/
-    image: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/jeffgeerling-old-drupal.png
+    title: Local Email Debugging with Mailpit
+    url: https://www.jeffgeerling.com/blog/2026/mailpit-local-email-debugging/
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: Why ‘Aliro’, The New Smart Lock Standard, Matters For The Smart Home
-    url: https://www.forbes.com/sites/bennyhareven/2025/12/31/why-aliro-the-new-smart-lock-standard-matters-for-the-smart-home/
+    title: Lockly launches Matter-compatible Affirm smart lock series at CES
+    url: https://www.pcworld.com/article/3021140/lockly-launches-matter-compatible-affirm-smart-lock-series-at-ces.html
     image:

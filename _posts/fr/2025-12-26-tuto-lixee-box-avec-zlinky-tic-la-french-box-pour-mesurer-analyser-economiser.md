@@ -30,6 +30,8 @@ sourcelink:
 
 [Lixee société française issue d'une communautée Diy](https://lixee.fr/fr/){: target="_blank"} commercialise notemment quelques produits destinés entre autres à la prise de mesure d'énergie ( éléctricité, eau ou gaz ). Basé sur une communautée toujours plus intéressée, il y a environ 2 ans elle a sorti un module qui fait à l'heure actuelle toujours l'unanimité, le **Zlinky_Tic**, pour ceux qui ne connaissent pas c'est un *module de téléinformation zigbee 100% compatible et intégrable* au **Linky**. Fin Novembre La société m'a envoyé la lixee-box en version **Lite** pour effectuer des test sur la ZIWIFI32S3.
 
+{% picture posts/{{ page.guid }}/box-lixee-ziwifi32.png --alt Présentation du dongle Lixee --img width="940" height="529" %}
+
 ## Tuto Installation
 
 {% include videoPlayer.html youtubeId="1w0yDo08sk0" %}
@@ -40,3 +42,12 @@ sourcelink:
 
 {% include product-embed.html image="lixee-carte-universelle-lixee-ziwifi32-lite-wifi-bluetooth-zigbee.png" title="Carte universelle LiXee-ZiWifi32 Lite WiFi, Bluetooth, Zigbee" brand="Lixee" description="La LiXee-ZiWifi32 Lite est une carte universelle compacte pour la domotique, intégrant Wi-Fi, Bluetooth et Zigbee. Compatible avec jeedom, domoticz et Home Assistant, elle permet un contrôle flexible de capteurs et actionneurs. Idéale pour ponts Zigbee, LiXee-Box ou prototypes multi-protocoles." domlink="dongle-zigbee/8423-lixee-carte-universelle-lixee-ziwifi32-lite-wifi-bluetooth-zigbee-3770014375162.html" %}
 
+{% picture posts/{{ page.guid }}/tableau-de-bord-energetique-lixee-ziwifi32.png --alt Découverte de l'interface graphique de la Box Lixee --img width="940" height="747" %}
+
+![Mise à jour du système lixee Box]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mise-a-jour-firmware-lixee-box.webp{{ cachebuster }}){: width="940" height="600" class="lazyload pictaninpost"}{: target="_blank"}
+
+## Prise en charge Zigbee
+
+Actuellement, la prise ne charge Zigbee est assez limitée
+
+![Mode inclusion Zigbee lixee-box avec Zlinky]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/mode-jumellage-inclusion-zigbee-zlinky.webp{{ cachebuster }}){: width="940" height="497" class="lazyload pictaninpost"}{: target="_blank"}
