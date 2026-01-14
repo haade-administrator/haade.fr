@@ -1,5 +1,5 @@
 ---
-guid: 169
+guid: 168
 title: "Installe facilement Google Coral"
 description: "Installation automatisée des drivers google gasket sur debian 13 ou Ovh 8 et ainsi d'utiliser la force du Tensorflow"
 ref: "google-coral"
