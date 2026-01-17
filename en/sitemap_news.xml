@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/install-google-coral-gasket-on-debian-13-or-ovh-8-automatically</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-01-16T23:00:00+01:00</news:publication_date>
+          <news:title>Easily install Google Coral</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/168/installation-automatisee-google-coral-debian-13-trixie-gasket-driver.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
