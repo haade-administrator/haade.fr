@@ -34,7 +34,61 @@ sourcelink:
 
 ## Tuto Installation
 
+La façon la plus simple d'installer et de trouver l'adresse de la lixee-box afin d'utiliser au mieux la web app est de suivre la vidéo de l'installation officielle. Simple et relativement efficace.
+
 {% include videoPlayer.html youtubeId="1w0yDo08sk0" %}
+
+## Détail de la {{ page.ref }}
+
+Proche de la fabrication artisanale, la {{ page.ref }} reste une belle conception française, simple de montage mais efficace. Le boitier semi translucide cache une carte embarquée à base de esp32-S3 wifi/bluetooth ainsi qu'une puce zigbee version Zigate+ la NXP JN5189. D'ailleurs cette conception fait beaucoup penser à la zigate v1, même le circuit imprimé y ressemble.
+
+## Pourquoi la {{ page.ref }} se lance sur ce créneau
+
+D'après mon ressentie, la société a voulu simplifier la mise en place d'un interface de gestion d'énergie pour les nuls en domotique. Cependant l'interface énergie apporte un réel plus que l'on ne trouve pas encore par défaut sur home-assistant, bref une interface bien frenchie et 100% compatible avec le linky.
+
+Cette box 100% basée sur le référentiel [lixee-zibridge](https://github.com/fairecasoimeme/LiXee-ZiBridge){: target="_blank"} qui crée un pont entre l'esp32-s3 et la puce nxp Zigbee. La puce Zigbee intègre le firmware Zigate v2.
+
+Ce choix n'est je ne le pense pas stratégique, pourquoi j'avance ça simplement que la société aurait pu directement utiliser une puce esp32 qui intègre la puce zigbee comme la esp32-c2 ou h6, la clé aurait été beaucoup plus petite et plus simple à réaliser, mais utiliser le référentiel esp-idf veut aussi dire, apprendre, créer et coder entièrement une nouvelle interface. 
+
+> Lixee se base sur le travail de Zigate+ pour la prise en charge et gestion du coordinateur Zigbee.
+
+## L'interface {{ page.ref }}
+
+Le temps d'effectuer les tests j'ai pu réaliser deux mises à jours, bon faut le dire en ce moment je ne suis pas le plus rapide en rédaction.
+
+La page d'accueil est super intéressante et relativement bien monté, tu branches ton Zlinky sur le linky,, tu l'intègres dans l'écosystème et à partir de là plus rien à faire à part patienter le temps que les infos d'énergies remontent.
+
+> Voilà enfin une page énergie faite pour les français.
+
+Cette page est très bien réalisée
+
+## Et le coordinateur Zigbee dans tout ça !
+
+La Lixee box te permet d'intégrer d'autres modules zigbee dans l'interfacec cependant la liste de modules est relativement restreinte
+
+
+## Caractéristiques techniques de la {{ page.ref }}
+
+Alimentation :
+5 VCC via le port USB-A
+MCU : ESP32-S3-WROOM-1-N16R8
+Fréquence : 240Mhz
+SRAM : 512Kb
+PSRAM : 8Mb
+ROM : 16Mb
+Interfaces sans fils
+WiFi 802.11b/g/n
+Zigbee 3.0
+Bluetooth Low Energy 5.0
+Interfaces
+1x module ZiGate+
+1x port USB (power + UART0)
+1x bouton Reset
+1x bouton Flash (pour l'ESP32S3 - GPIO0)
+1x sélecteur ESP / FTDI (pour rediriger UART0 vers l'ESP32 ou vers la ZiGate)
+12x GPIOs
+
+## Pourquoi créer une Box
 
 {% include product-embed.html image="lixee-box-domotique-wifi-zigbee-compteur-lixee-zigbee.png" title="Box domotique WIFI Zigbee + Compteur Lixee Zigbee" brand="Lixee" description="La LiXee-Box domotique compacte centralise vos données énergétiques et optimise votre consommation. Suivi en temps réel, historique complet, automatisations intelligentes, gestion des seuils et routage énergétique. Compatible WiFi, Bluetooth, Zigbee et MQTT, intégration facile avec Home Assistant et données Linky." domlink="french-days/8424-lixee-box-domotique-wifi-zigbee-compteur-lixee-zigbee-3770014375193.html" %}
 
