@@ -5,7 +5,7 @@ description: "test de la lixee box"
 ref: "Lixee-Box"
 layout: post
 authors: [Nico]
-date: 2025-12-26 11:03
+date: 2026-01-10 11:03
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant, Zigbee]
 tags: []

@@ -46,7 +46,7 @@ Before running the script, install these additional dependencies not included in
 {% highlight shell %}
 sudo apt update
 sudo apt upgrade
-sudo apt install git debhelper dh-dkms
+sudo apt install git debhelper dh-dkms linux-headers-$(uname -r)
 {% endhighlight %}
 
 **Important:** Remember to update all dependencies before running the script described above in the command lines.

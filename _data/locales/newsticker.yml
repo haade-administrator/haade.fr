@@ -5,27 +5,27 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: "2026.1 - Home is where the dashboard is \U0001F942"
-    url: https://www.home-assistant.io/blog/2026/01/07/release-20261/
-    image: "/images/blog/2026-01/home-dashboard-mobile.png"
+    title: Partner update - HELTUN removed from Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/01/13/partner-update-heltun/
+    image: "/images/blog/2026-01-partner-update-heltun/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: "2026.1 - Home is where the dashboard is \U0001F942"
-    url: https://www.home-assistant.io/blog/2026/01/07/release-20261/
-    image: "/images/blog/2026-01/home-dashboard-mobile.png"
+    title: Partner update - HELTUN removed from Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/01/13/partner-update-heltun/
+    image: "/images/blog/2026-01-partner-update-heltun/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Zooz XS Relay Zen57 module On-Off Zwave800 Long Range
-    url: https://blog.domadoo.fr/113344-zooz-xs-relay-zen57-module-on-off-zw800-lr/
-    image: https://blog.domadoo.fr/wp-content/uploads/2025/12/zooz-xs-relay-zen57-module-on-off-zwave800-lr-1080x675-PRESS-1024x640.webp
+    title: Tutoriel de la télécommande 4 boutons Sonoff ORB 4 in 1 zigbee 3.0
+    url: https://blog.domadoo.fr/113470-4-boutons-sonoff-orb-4-in-1-zigbee-3-0/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/01/Sonoff-orb-4-in-1-4-boutons-zigbee-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: CES 2026  - MOVA muscle son jeu avec les nouvelles tondeuses LiDAX Ultra
-      et ViAX, et dévoile un écosystème outdoor ultra-intelligent
-    url: https://blog.nord-domotique.com/ces-2026-mova-muscle-son-jeu/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/v70-ultra-complete.jpg?fit=300%2C169&ssl=1
+    title: Test Creative Pebble X Plus  - des enceintes PC 2.1 compactes avec caisson
+      de basses (vidéo)
+    url: https://blog.nord-domotique.com/creative-pebble-x-plus-test/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/designer-10-1.jpg?fit=300%2C200&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -36,16 +36,15 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Beatbot au CES 2026  - IA, nettoyage de surface, récupération facile… les
-      nouveautés AquaSense X et Sora 70
-    url: https://www.maison-et-domotique.com/166518-beatbot-ces-2026/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2025/12/aquasense-x-702x365.jpg
+    title: MOVA au CES 2026  - l’IA s’invite partout, du ménage à la pelouse
+    url: https://www.maison-et-domotique.com/167166-mova-au-ces-2026-lia-sinvite-partout-du-menage-a-la-pelouse/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/mova-ces-2026-002-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Local Email Debugging with Mailpit
-    url: https://www.jeffgeerling.com/blog/2026/mailpit-local-email-debugging/
-    image:
+    title: Raspberry Pi's new AI HAT adds 8GB of RAM for local LLMs
+    url: https://www.jeffgeerling.com/blog/2026/raspberry-pi-ai-hat-2/
+    image: https://www.jeffgeerling.com/blog/2026/raspberry-pi-ai-hat-2/raspberry-pi-ai-hat-2.jpg
 Matter:
   en_GB:
   - name: Matter
