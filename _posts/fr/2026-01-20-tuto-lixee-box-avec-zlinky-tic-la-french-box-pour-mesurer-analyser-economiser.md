@@ -5,7 +5,7 @@ description: "test de la lixee box"
 ref: "Lixee-Box"
 layout: post
 authors: [Nico]
-date: 2026-01-10 11:03
+date: 2026-01-17 11:03
 last_modified_at: 
 categories: [Domotique, Haade-lab, Home-Assistant, Zigbee]
 tags: []
@@ -26,13 +26,19 @@ rating: 4.0
 sourcelink:
   - https://lixee.fr/fr/
   - https://faire-ca-soi-meme.fr/
+  - https://github.com/fairecasoimeme/LiXee-Box
 ---
 
-[Lixee société française issue d'une communautée Diy](https://lixee.fr/fr/){: target="_blank"} commercialise notemment quelques produits destinés entre autres à la prise de mesure d'énergie ( éléctricité, eau ou gaz ). Basé sur une communautée toujours plus intéressée, il y a environ 2 ans elle a sorti un module qui fait à l'heure actuelle toujours l'unanimité, le **Zlinky_Tic**, pour ceux qui ne connaissent pas c'est un *module de téléinformation zigbee 100% compatible et intégrable* au **Linky**. Fin Novembre La société m'a envoyé la lixee-box en version **Lite** pour effectuer des test sur la ZIWIFI32S3.
+[Lixee société française issue d'une communautée Diy](https://lixee.fr/fr/){: target="_blank"} commercialise notemment quelques produits destinés entre autres à la prise de mesure d'énergie ( éléctricité, eau ou gaz ). Basé sur une communautée toujours plus intéressée, il y a environ 2 ans elle a sorti un module qui fait à l'heure actuelle toujours l'unanimité, le [**Zlinky_Tic**](https://www.domadoo.fr/fr/eco-energie/7492-lixee-module-tic-vers-zigbee-30-pour-compteur-linky-v2-zlinky-v4000-0014-3770014375179.html?domid=39){: target="_blank"}, pour ceux qui ne connaissent pas c'est un ***module de téléinformation zigbee 100% compatible et intégrable*** au **Linky**. Fin Novembre La société m'a envoyé la lixee-box en version **Lite** pour effectuer des test sur la ZIWIFI32S3.
 
-{% picture posts/{{ page.guid }}/box-lixee-ziwifi32.png --alt Présentation du dongle Lixee --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/decouverte-lixee-box-et-zlinky-tic.png --alt Découverte Zlinky Box et Zlinky_tic v2 --img width="940" height="529" %}
 
-## Tuto Installation
+La présentation et l'emballage restent sobre, sans fioriture, la lixee-box version lite contient le dongle-box ainsi que le zlinky_tic v2 de quoi,
+
+> Mesurer, analyser,économiser comme l'annonce Lixee
+
+
+## Tuto Installation {{ page.ref }}
 
 La façon la plus simple d'installer et de trouver l'adresse de la lixee-box afin d'utiliser au mieux la web app est de suivre la vidéo de l'installation officielle. Simple et relativement efficace.
 
@@ -40,15 +46,45 @@ La façon la plus simple d'installer et de trouver l'adresse de la lixee-box afi
 
 ## Détail de la {{ page.ref }}
 
-Proche de la fabrication artisanale, la {{ page.ref }} reste une belle conception française, simple de montage mais efficace. Le boitier semi translucide cache une carte embarquée à base de esp32-S3 wifi/bluetooth ainsi qu'une puce zigbee version Zigate+ la NXP JN5189. D'ailleurs cette conception fait beaucoup penser à la zigate v1, même le circuit imprimé y ressemble.
+> Pour plus de détalis de l'ensemble des informations de la Lixee-box n'hésite pas à [consulter le référentiel dédié sur github](https://github.com/fairecasoimeme/LiXee-Box){: target="_blank"}
+
+Proche **d'une fabrication artisanale**, la {{ page.ref }} reste néanmoins une belle conception française, simple de montage mais efficace. Le boitier semi-translucide cache une carte embarquée à base de **esp32-S3 wifi/bluetooth** ainsi qu'une puce **zigbee version Zigate+ la NXP JN5189**. 
+
+> D'ailleurs cette conception fait beaucoup penser aux produits Zigate, tant par le matériel mais aussi par l'interface utilisée! 
+
+{% picture posts/{{ page.guid }}/box-lixee-ziwifi32.png --alt Présentation du dongle Lixee --img width="940" height="529" %}
+
+Une fois branchée sur une prise usb classique la lixee-box se pare d'une belle lumière bleue, si tu as bien suivi le tuto d'installation de la lixee-box tu auras bien l'adresse web pour accéder directement à l'interface.
+
+{% picture posts/{{ page.guid }}/présentation-box-lixee-demontee.png --alt Présentation du dongle Lixee box démonté --img width="940" height="529" %}
+
+Un démontage de la {{ page.ref }} est très simple comme annoncé plus haut, il suffit de dévisser les deux visses présentes sous le dessous de la box et le tour est joué tu as accès au **Graal**.
+
+{% picture posts/{{ page.guid }}/circuit-imprime-vue-pres-lixee-box.png --alt Tour d'horizon du circuit imprimé du dongle Lixee box --img width="940" height="529" %}
+
+**Un circuit imprimé relativement simple se cache dessous:**
+
+- une puce esp32-s3 pour la gestion wifi/bluetooth
+- une puce Nxp pour le Zigbee
+- un bouton reset et flash
+- un interrupteur ftdi/esp32
+- des ports GPIO libre
+
+Les ports GPIO pour un tel type de produits sont un réel plus si tu souhaites intégrer dess sondes ou tout autres types de produits.
 
 ## Pourquoi la {{ page.ref }} se lance sur ce créneau
 
-D'après mon ressentie, la société a voulu simplifier la mise en place d'un interface de gestion d'énergie pour les nuls en domotique. Cependant l'interface énergie apporte un réel plus que l'on ne trouve pas encore par défaut sur home-assistant, bref une interface bien frenchie et 100% compatible avec le linky.
+D'après mon ressentie, la société a voulu simplifier la mise en place d'un **interface de gestion d'énergie pour les nuls en domotique**. Cependant l'interface de la **page d'accueil énergie apporte un réel plus** que l'on ne trouve pas encore par défaut sur home-assistant 
 
-Cette box 100% basée sur le référentiel [lixee-zibridge](https://github.com/fairecasoimeme/LiXee-ZiBridge){: target="_blank"} qui crée un pont entre l'esp32-s3 et la puce nxp Zigbee. La puce Zigbee intègre le firmware Zigate v2.
+> Bref une interface bien **frenchie** et **100%** compatible avec le **linky**.
 
-Ce choix n'est je ne le pense pas stratégique, pourquoi j'avance ça simplement que la société aurait pu directement utiliser une puce esp32 qui intègre la puce zigbee comme la esp32-c2 ou h6, la clé aurait été beaucoup plus petite et plus simple à réaliser, mais utiliser le référentiel esp-idf veut aussi dire, apprendre, créer et coder entièrement une nouvelle interface. 
+{% picture posts/{{ page.guid }}/Interface-page-accueil-lixee-box.png --alt Interface V2.14 Lixee-box avec info tarif en cours et étiquettes énergétiques la page d'accueil une très belle réussite --img width="940" height="529" %}
+
+Cette box basée sur un mix de référentiels [lixee-zibridge](https://github.com/fairecasoimeme/LiXee-ZiBridge){: target="_blank"} et firmware déjà existant, là je parle du **zigate v2** ce qui permet à l'entrreprise de créer un pont entre l'esp32-s3 et la puce nxp Zigbee. 
+
+> La puce Zigbee intègre le firmware Zigate v2.
+
+Ce choix n'est je ne le pense pas stratégique, pourquoi j'avance ça simplement que la société aurait pu directement utiliser une puce esp32 qui intègre la puce zigbee comme pourquoi pas la **esp32-c2 ou h6**, la clé aurait été beaucoup plus petite et plus simple à réaliser, mais utiliser le référentiel esp-idf veut aussi dire, apprendre, créer et coder entièrement une nouvelle interface. 
 
 > Lixee se base sur le travail de Zigate+ pour la prise en charge et gestion du coordinateur Zigbee.
 
