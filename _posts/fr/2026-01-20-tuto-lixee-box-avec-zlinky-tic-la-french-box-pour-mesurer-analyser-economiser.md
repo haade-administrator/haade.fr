@@ -84,23 +84,25 @@ Cette box basée sur un mix de référentiels [lixee-zibridge](https://github.co
 
 > La puce Zigbee intègre le firmware Zigate v2.
 
-Ce choix n'est je ne le pense pas stratégique, pourquoi j'avance ça simplement que la société aurait pu directement utiliser une puce esp32 qui intègre la puce zigbee comme pourquoi pas la **esp32-c2 ou h6**, la clé aurait été beaucoup plus petite et plus simple à réaliser, mais utiliser le référentiel esp-idf veut aussi dire, apprendre, créer et coder entièrement une nouvelle interface. 
+Ce choix n'est je ne le pense pas stratégique **sur le plan matériel**, pourquoi j'avance ça ! Simplement que la société aurait pu directement utiliser une puce esp32 qui intègre la puce zigbee comme pourquoi pas la **esp32-H2 ou C5/C6**, la clé aurait été beaucoup plus petite et plus simple à réaliser, ***mais utiliser le référentiel esp-idf veut aussi dire, apprendre, créer et coder entièrement une nouvelle interface***. 
 
 > Lixee se base sur le travail de Zigate+ pour la prise en charge et gestion du coordinateur Zigbee.
 
 ## L'interface {{ page.ref }}
 
-Le temps d'effectuer les tests j'ai pu réaliser deux mises à jours, bon faut le dire en ce moment je ne suis pas le plus rapide en rédaction.
+Le temps d'effectuer les tests j'ai **pu réaliser deux mises à jours**, c'est bien, ça veut aussi dire que le développement est plutôt actif, bon faut le dire en ce moment je ne suis pas le plus rapide en rédaction.
 
-La page d'accueil est super intéressante et relativement bien monté, tu branches ton Zlinky sur le linky,, tu l'intègres dans l'écosystème et à partir de là plus rien à faire à part patienter le temps que les infos d'énergies remontent.
+La **page d'accueil est super intéressante** et relativement bien monté, tu branches ton Zlinky sur le linky, tu l'intègres dans l'écosystème et à partir de là plus rien à faire à part patienter le temps que les infos d'énergies remontent.
 
-> Voilà enfin une page énergie faite pour les français.
+> **Voilà enfin une page énergie faite pour les français**.
 
-Cette page est très bien réalisée
+
 
 ## Et le coordinateur Zigbee dans tout ça !
 
-La Lixee box te permet d'intégrer d'autres modules zigbee dans l'interfacec cependant la liste de modules est relativement restreinte
+La Lixee box te permet d'intégrer d'autres modules zigbee dans l'interface cependant [la liste de modules est relativement restreinte](https://github.com/fairecasoimeme/LiXee-Box?tab=readme-ov-file#-appareils-lixee-compatibilit%C3%A9-compl%C3%A8te){: target="_blank"}. L'intégration fonctionne relativement bien, j'ai tout de même rencontré un défaut, quand un module est déconnecté un certain temps il a du mal ensuite à rejoindre le réseau.
+
+
 
 
 ## Caractéristiques techniques de la {{ page.ref }}

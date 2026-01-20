@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Partner update - HELTUN removed from Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/01/13/partner-update-heltun/
-    image: "/images/blog/2026-01-partner-update-heltun/art.webp"
+    title: State of the Open Home 2026 - join us live in Utrecht, the Netherlands!
+    url: https://www.home-assistant.io/blog/2026/01/20/state-of-the-open-home-2026/
+    image: "/images/blog/2026-01-state-of-the-open-home-2026/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: Partner update - HELTUN removed from Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/01/13/partner-update-heltun/
-    image: "/images/blog/2026-01-partner-update-heltun/art.webp"
+    title: State of the Open Home 2026 - join us live in Utrecht, the Netherlands!
+    url: https://www.home-assistant.io/blog/2026/01/20/state-of-the-open-home-2026/
+    image: "/images/blog/2026-01-state-of-the-open-home-2026/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -36,9 +36,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: MOVA au CES 2026  - l’IA s’invite partout, du ménage à la pelouse
-    url: https://www.maison-et-domotique.com/167166-mova-au-ces-2026-lia-sinvite-partout-du-menage-a-la-pelouse/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/mova-ces-2026-002-667x500.jpg
+    title: Narwal au CES 2026  - Flow 2 mise tout sur l’IA, 30 000 Pa et le lavage
+      à l’eau chaude en continu
+    url: https://www.maison-et-domotique.com/167339-narwal-ces-2026-flow-2/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/narwal-ces-2026-006-1-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
