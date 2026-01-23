@@ -29,26 +29,25 @@ Blog-Nord-Domotique:
 Abavala:
   fr_FR:
   - name: Abavala
-    title: CES 2026  - Mammotion dévoile LUBA 3 AWD et SPINO S1 Pro et s’ouvre une
-      nouvelle ère pour les robots de jardin et de piscine
-    url: https://www.abavala.com/ces-2026-mammotion-devoile-luba-3-awd-et-spino-s1-pro-et-s-ouvre-une-nouvelle-ere-pour-les-robots-de-jardin-et-de-piscine/
-    image: https://www.abavala.com/wp-content/uploads/CES-2025-Mammotion-Luba-3-entete-150x150.jpg
+    title: 'Neoia, le robot breton qui mise sur la rosée pour booster le solaire #CES2026'
+    url: https://www.abavala.com/neoia-le-robot-breton-qui-mise-sur-la-rosee-pour-booster-le-solaire-ces2026/
+    image: https://www.abavala.com/wp-content/uploads/Neoia-imageentete-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Narwal au CES 2026  - Flow 2 mise tout sur l’IA, 30 000 Pa et le lavage
-      à l’eau chaude en continu
-    url: https://www.maison-et-domotique.com/167339-narwal-ces-2026-flow-2/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/narwal-ces-2026-006-1-667x500.jpg
+    title: Ikea fracasse la domotique au CES 2026 avec sa gamme connectée à prix cassé
+      !
+    url: https://www.maison-et-domotique.com/167497-ikea-fracasse-la-domotique-au-ces-2026-avec-sa-gamme-connectee-a-prix-casse/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/ikea-ces-2026-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Raspberry Pi's new AI HAT adds 8GB of RAM for local LLMs
-    url: https://www.jeffgeerling.com/blog/2026/raspberry-pi-ai-hat-2/
-    image: https://www.jeffgeerling.com/blog/2026/raspberry-pi-ai-hat-2/raspberry-pi-ai-hat-2.jpg
+    title: Migrating 13,000 Comments from Drupal to Hugo
+    url: https://www.jeffgeerling.com/blog/2026/migrating-13000-comments-from-drupal-to-hugo/
+    image:
 Matter:
   en_GB:
   - name: Matter
-    title: Lockly launches Matter-compatible Affirm smart lock series at CES
-    url: https://www.pcworld.com/article/3021140/lockly-launches-matter-compatible-affirm-smart-lock-series-at-ces.html
+    title: Telecom firm ZTE joins CSA to target operator smart home market
+    url: https://www.matteralpha.com/industry-news/telecom-firm-zte-joins-csa-to-target-operator-smart-home-market
     image:
