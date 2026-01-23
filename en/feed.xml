@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Jan 2026 18:16:11 +0100</pubDate>
+    <pubDate>Fri, 23 Jan 2026 18:26:33 +0100</pubDate>
     <lastBuildDate>Fri, 23 Jan 2026 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -44,6 +44,7 @@
       <link>https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</guid>
       <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Videos]]></category>
       <category><![CDATA[Zigbee]]></category>
     </item>
     <item>
