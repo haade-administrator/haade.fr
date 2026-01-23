@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Jan 2026 04:33:01 +0100</pubDate>
-    <lastBuildDate>Fri, 16 Jan 2026 23:00:00 +0100</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 18:16:11 +0100</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Lixee Box Économiseur d&apos;énergie</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>test de la lixee-box, box 100% compatible avec le zlinky, rentre dans le monde de la domotique et contrôle l&apos;énergie de ton habitat</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.png" alt="Lixee Box Économiseur d'énergie">
+</picture>
+
+      <p>Lixee société française issue d’une communautée Diy commercialise notemment quelques produits destinés entre autres à la prise de mesure d’énergie ( éléctricité, eau ou gaz ). Basé sur une communautée toujours plus intéressée, il y a environ 2 ans elle a sorti un module qui fait à l’heure actuelle toujours [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser">Lixee Box Économiseur d'énergie</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 23 Jan 2026 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Installe facilement Google Coral</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +246,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Securite]]></category>
-    </item>
-    <item>
-      <title>Domotise Ton logement avec Tado° En vidéo</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <dc:creator><![CDATA[August]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p></p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/159/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place-720-822dcf473.png" alt="Domotise Ton logement avec Tado° En vidéo">
-</picture>
-
-      <p>Bonjour à tous après plusieurs tutos des produits de la marque Tado° et pour conclure, Jacques Gyver et Nicole ont tous deux décidé de se lancer dans l’aventure Tado° en vidéo. Cette vidéo comme quelques autres a pour ligne de conduite, l’humour et la domotique. Jacques et Nicole s’attaquent à [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place">Domotise Ton logement avec Tado° En vidéo</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 23 Mar 2025 10:27:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/domotise-ton-logement-avec-tado-jacques-gyver-et-nicole-sont-dans-la-place</guid>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

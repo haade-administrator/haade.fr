@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Jan 2026 04:33:01 +0100</pubDate>
-    <lastBuildDate>Fri, 16 Jan 2026 23:00:00 +0100</lastBuildDate>
+    <pubDate>Fri, 23 Jan 2026 18:16:11 +0100</pubDate>
+    <lastBuildDate>Fri, 23 Jan 2026 18:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,27 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Lixee Box Energy Saver</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Testing the Lixee-Box, a box 100% compatible with Zlinky, enter the world of home automation and control your home&apos;s energy</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.png" alt="Lixee Box Energy Saver">
+</picture>
+
+      <p>Lixee, a French company born from a DIY community, markets several products designed, among other things, for energy measurement (electricity, water, or gas). Based on a growing and engaged community, about two years ago they released a module that remains highly popular today: the Zlinky_Tic, For those who don’t know, [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save">Lixee Box Energy Saver</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 23 Jan 2026 18:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Zigbee]]></category>
+    </item>
     <item>
       <title>Easily install Google Coral</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,27 +246,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</guid>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Security]]></category>
-    </item>
-    <item>
-      <title>Tado° which starter kit should I choose?</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Comparison of the two starter kits from the Tado° brand, here is an article presenting the equipment and helping you in your choice when purchasing, the starter kits are essential to use the Tado° heating management in the Tado° application</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/158/tado-which-starter-kit-to-choose-presentation-and-comparison-720-679be727f.png" alt="Tado° which starter kit should I choose?">
-</picture>
-
-      <p>After presenting the sumptuous Tado° X thermostatic faucet, as well as the most successful Tado app, Now let’s get to the heart of the system. Today, I’m going to introduce you to the two Tado° controllers: the Wireless Smart Thermostat X and the Smart Thermostat X. These two controllers feature [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol">Tado° which starter kit should I choose?</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 19 Mar 2025 08:15:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/tado-which-starter-kit-to-choose-presentation-comparison-and-protocol</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>

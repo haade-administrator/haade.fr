@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-01-23T18:00:00+01:00</news:publication_date>
+          <news:title>Lixee Box Energy Saver</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/install-google-coral-gasket-on-debian-13-or-ovh-8-automatically</loc>
         <news:news>
           <news:publication>
