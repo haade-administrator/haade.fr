@@ -7,9 +7,9 @@ layout: post
 authors: [Nico]
 date: 2026-01-23 18:00
 last_modified_at: 
-categories: [Haade-lab, Zigbee]
+categories: [Haade-lab, Videos, Zigbee]
 tags: []
-video: 
+video: Qw2jz4_rqTA
 image: 'lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise.png'
 toc: true
 beforetoc: ''
@@ -45,7 +45,7 @@ La présentation et l'emballage restent sobre, sans fioriture, la lixee-box vers
 
 La façon la plus simple d'installer et de trouver l'adresse de la lixee-box afin d'utiliser au mieux la web app est de suivre la vidéo de l'installation officielle. Simple et relativement efficace.
 
-{% include videoPlayer.html youtubeId="Qw2jz4_rqTA" %}
+{% include videoPlayer.html youtubeId="1w0yDo08sk0" %}
 
 ## Détail de la {{ page.ref }}
 
@@ -97,7 +97,7 @@ Ce choix n'est je ne le pense pas stratégique **sur le plan matériel**, pourqu
 
 Afin d'agrémenter cet article j'ai fait une vidéo qui reprend les fonctions de l'interface de la {{ page.ref }}
 
-{% include videoPlayer.html youtubeId="xkFLa9t-2kM" %}
+{% include videoPlayer.html youtubeId="Qw2jz4_rqTA" %}
 
 Le temps d'effectuer les tests j'ai **pu réaliser deux mises à jours**, c'est bien, ça veut aussi dire que le développement est plutôt actif, bon faut le dire en ce moment je ne suis pas le plus rapide en rédaction.
 

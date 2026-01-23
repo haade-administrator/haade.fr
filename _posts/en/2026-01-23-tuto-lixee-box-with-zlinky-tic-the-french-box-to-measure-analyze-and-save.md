@@ -7,9 +7,9 @@ layout: post
 authors: [Nico]
 date: 2026-01-23 18:00
 last_modified_at: 
-categories: [Haade-lab, Zigbee]
+categories: [Haade-lab, Videos, Zigbee]
 tags: []
-video: 
+video: Qw2jz4_rqTA
 image: 'lixee-box-zlinky_tic-box-french-measure-analysis-economize.png'
 toc: true
 beforetoc: ''
@@ -45,7 +45,7 @@ The presentation and packaging remain simple and straightforward. The Lixee-box 
 
 The easiest way to install and find the Lixee-Box address to get the most out of the web app is to follow the official installation video. Simple and relatively effective.
 
-{% include videoPlayer.html youtubeId="Qw2jz4_rqTA" %}
+{% include videoPlayer.html youtubeId="1w0yDo08sk0" %}
 
 ## Details of the {{ page.ref }}
 
@@ -97,7 +97,7 @@ Lixee is based on the work of Zigate+ for the support and management of the Zigb
 
 To complement this article, I've created a video that demonstrates the functions of the interface of {{ page.ref }}
 
-{% include videoPlayer.html youtubeId="xkFLa9t-2kM" %}
+{% include videoPlayer.html youtubeId="Qw2jz4_rqTA" %}
 
 By the time I'd run the tests, I'd **been able to release two updates**, which is great. It also means development is quite active, although I have to admit I'm not the fastest writer at the moment.
 
