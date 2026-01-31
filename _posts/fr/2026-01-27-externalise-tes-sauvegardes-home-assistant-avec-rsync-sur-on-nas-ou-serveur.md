@@ -28,12 +28,13 @@ sourcelink:
   - https://github.com/RsyncProject/rsync
 ---
 
-En 2023 j'avais rédigé un article: [intégrer un article interne]({% post_url fr/2023-05-22-simple-sauvegarde-externe-homeassistant-syncthing-plus-gestion-backup %})
+En 2023 j'avais rédigé un article: [intégrer un article interne]({% post_url fr 2023-05-22-simple-sauvegarde-externe-homeassistant-syncthing-plus-gestion-backup %})
 
 ## Prérequis
 
 - Home Assistant OS
 - un NAS avec openmediavault de préférence
+- module complémentaire File editor
 - module complémentaire Rsync
 
 ## Installation Rsync dans HAOS
