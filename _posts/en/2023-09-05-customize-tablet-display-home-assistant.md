@@ -76,7 +76,7 @@ And configure {{ page.ref }}
 I opted for a semi-manual installation **additional integrations** because I regularly encountered non-recognition error messages
 
 **Integration required**
-- [browser_mod](https://github.com/thomasloven/hass-**browser_mod**){: target="_blank"} by Thomas Loven **(attention! activated in two steps see the user manual facility)**
+- [browser_mod](https://github.com/thomasloven/hass-browser_mod){: target="_blank"} by Thomas Loven **(attention! activated in two steps see the user manual facility)**
 
 **Lovelace Resources Required**
 - [button card](https://github.com/custom-cards/button-card){: target="_blank"} by RomRider

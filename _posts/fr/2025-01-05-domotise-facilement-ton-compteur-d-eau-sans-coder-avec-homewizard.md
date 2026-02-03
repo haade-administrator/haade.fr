@@ -39,14 +39,14 @@ Voilà un sujet qui en intéressera plus d'un, **mais attention il ne relèvera 
 
 ## Déballage
 
-L'emballage est très bien réalisé, le carton extérieur est risistant bref tu ne risque pas de rencontrer de soucis lors de la livraison. À l'intérieur on trouvera un ensemble de:
+L'emballage est très bien réalisé, le carton extérieur est résistant bref tu ne risque pas de rencontrer de soucis lors de la livraison. À l'intérieur on trouvera un ensemble de:
 
 - visses
 - 3 adaptateurs pour différentes marque de compteur
 - une notice d'installation surtout sur compteur
-- une prise usb-c
-- un cable usb de 3 mètres
-- et biensûre un module de relève {{ page.ref }}
+- une prise USB-C
+- un cable USB de 3 mètres
+- et bien sûr un module de relève {{ page.ref }}
 
 {% picture posts/{{ page.guid }}/contenu-homewizard-watermeter-adaptateur-notice.png --alt Contenu Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
 
@@ -65,7 +65,7 @@ Tenu dans la main, ainsi tu pourras te rendre compte des dimensions du module, e
 
 Ci-dessous quelques photos du {{ page.ref }} afin de te rendre compte du produit, ça reste basic et fait l'essentiel. 
 
-> Je tiens **à féliciter Homewizard** pour y fournir un cable usb-c d'une longueur de 4 mètres.
+> Je tiens **à féliciter Homewizard** pour y fournir un cable usb-c d'une longueur de 3 mètres.
 
 {% picture posts/{{ page.guid }}/captures-ecran-homewizard-watermeter-pro.png --alt tour d'horizon du Homewizard Watermeter HWE-WTR-23 --img width="940" height="529" %}
 
@@ -142,7 +142,7 @@ Si tu désires télécharger l'application Homewizard pour Apple ou Android pas 
 
 {% include qrlink.html qrlink="https://setup.homewizard.com" text="télécharger l'application Homewizard directement pour Android ou Apple" realtextlink="Applications Homewizard pour Smartphone" %}
 
-Ci-dessous j'ai réalisé un gif animé de la première connection à l'application Officielle, en passant par le paramétrage du wifi, et pour finir le calibrage du module.
+Ci-dessous j'ai réalisé un gif animé de la première connection à l'application officielle, en passant par le paramétrage du wifi, et pour finir le calibrage du module.
 
 Après la création du compte suis les étapes rien de bien compliqué:
 - connecte le smartphone au module via la connection **WatermeterSetup** avec le code **Setuppass**
@@ -189,7 +189,7 @@ Après quelques heures de fonctionnement sur secteur, j'ai réalisé un gif anim
 
 ![Animation des différentes fonctions prise en charge dans Home Assistant du module de relève de la consommation de l'eau watermeter par Homewizard]({{ site.baseurl }}/assets/images/posts/{{ page.guid }}/information-controlable-dans-home-assistant-homewizard-watermeter.webp{{ cachebuster }}){: width="940" height="576" class="lazyload pictaninpost"}
 
-La relève de consommation, surtout **l'intégration dans le dashboard énergie de home assistant est compatible** ainsi tu pourras suivre la conso sur graphique, et tu pourras paramétere un tarif.
+La relève de consommation, surtout **l'intégration dans le dashboard énergie de home assistant est compatible** ainsi tu pourras suivre la conso sur graphique, et tu pourras paramétrer un tarif.
 
 {% picture posts/{{ page.guid }}/tableau-energie-releve-consommation-eau-home-assistant-Homewizard-watermeter.png --alt Intégration dans le tableau énergie de home assistant du module homewizard watermeter HWE-WTR-23 --img width="940" height="492" %}
 
@@ -207,7 +207,7 @@ Une fois désactivé tu pourras te rendre compte que plus aucunes données ne re
 
 Pour terminer tu pourras retrouver ci-dessous le lien vers la **notice complète en ligne du Homewizard watermeter {{ page.ref }}**
 
-[Notice Officielle Homewizard Watermeter](https://helpdesk.homewizard.com/fr/articles/6287701-mon-watermeter-analogique-est-il-compatible-et-comment-est-ce-que-je-l-installe){: target="_blank"}
+[Notice officielle Homewizard Watermeter](https://helpdesk.homewizard.com/fr/articles/6287701-mon-watermeter-analogique-est-il-compatible-et-comment-est-ce-que-je-l-installe){: target="_blank"}
 
 
 ## Caractéristiques techniques du {{ page.ref }}

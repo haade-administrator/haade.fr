@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: State of the Open Home 2026 - join us live in Utrecht, the Netherlands!
-    url: https://www.home-assistant.io/blog/2026/01/20/state-of-the-open-home-2026/
-    image: "/images/blog/2026-01-state-of-the-open-home-2026/art.webp"
+    title: How we'll build the device database, together
+    url: https://www.home-assistant.io/blog/2026/02/02/about-device-database/
+    image: "/images/blog/2026-02-02-about-device-database/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: State of the Open Home 2026 - join us live in Utrecht, the Netherlands!
-    url: https://www.home-assistant.io/blog/2026/01/20/state-of-the-open-home-2026/
-    image: "/images/blog/2026-01-state-of-the-open-home-2026/art.webp"
+    title: How we'll build the device database, together
+    url: https://www.home-assistant.io/blog/2026/02/02/about-device-database/
+    image: "/images/blog/2026-02-02-about-device-database/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -35,9 +35,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test RingConn Gen 2  - la fin des montres connectées ?
-    url: https://www.maison-et-domotique.com/167551-test-ringconn-gen-2-la-fin-des-montres-connectees/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/titre-ringconn-702x468.jpg
+    title: Solaire, batterie, générateur  - Anker sort l’artillerie lourde avec la
+      SOLIX E10
+    url: https://www.maison-et-domotique.com/167760-solaire-batterie-generateur-anker-sort-lartillerie-lourde-avec-la-solix-e10/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/solix-e10-702x290.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
@@ -47,6 +48,6 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
-    title: That Curious Logo on Your Dryer Means It Can Do Smart Home Things
-    url: https://www.nytimes.com/wirecutter/reviews/what-you-need-to-know-about-matter/
+    title: Why Your Smart Home Isn’t Smart - It Needs Ambient Intelligence
+    url: https://www.forbes.com/sites/moorinsights/2026/02/02/why-your-smart-home-isnt-smart-it-needs-ambient-intelligence/
     image:
