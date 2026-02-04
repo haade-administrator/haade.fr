@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2026-02-04 10:40
 last_modified_at: 
-categories: [Haade-lab, Home-Assistant]
+categories: [Security, Home-Assistant, Haade-lab]
 tags: []
 video: 
 image: 'external-homeassistant-backup-with-rsync-nas-omv.png'
