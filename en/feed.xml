@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Feb 2026 05:11:18 +0100</pubDate>
-    <lastBuildDate>Fri, 23 Jan 2026 18:00:00 +0100</lastBuildDate>
+    <pubDate>Wed, 04 Feb 2026 11:04:52 +0100</pubDate>
+    <lastBuildDate>Wed, 04 Feb 2026 10:40:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Easily outsource your Home Assistant backup</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Thanks to Rsync, automatically and easily offload your Home Assistant backups.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png" alt="Easily outsource your Home Assistant backup">
+</picture>
+
+      <p>Even back then, outsourcing Home Assistant backups was a concern for me. Given my Raspberry Pi setup, everything was stored on the SD card, I wrote an article in 2023: How ​​to outsource your backup with Syncthing(/fr/blog/simple-sauvegarde-externe-homeassistant-syncthing-plus-gestion-backup). This method still works, but Syncthing is still quite complex.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server">Easily outsource your Home Assistant backup</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 04 Feb 2026 10:40:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Lixee Box Energy Saver</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,28 +247,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Videos]]></category>
-    </item>
-    <item>
-      <title>Cam Slim VS Gen 2 Sonoff Comparison</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Comparison of the two Sonoff cameras of the moment Cam Slim and Cam Slim Gen 2 so which one to choose?</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/160/comparatif-camera-sonoff-cam-slim-vs-cam-slim-gen-2-laquelle-choisir-720-ff2b80a3e.png" alt="Cam Slim VS Gen 2 Sonoff Comparison">
-</picture>
-
-      <p>Today, let’s compare the two currently available Sonoff cameras for less than €30 from all our affiliated retailers. I’d like to thank Domadoo and Itead for providing me with this equipment.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose">Cam Slim VS Gen 2 Sonoff Comparison</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 02 Apr 2025 13:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/comparison-camera-sonoff-cam-slim-vs-cam-slim-gen-2-which-to-choose</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Security]]></category>
     </item>
   </channel>
 </rss>

@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/fr/blog/externalise-tes-sauvegardes-home-assistant-avec-rsync-sur-on-nas-ou-serveur</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2026-02-04T10:40:00+01:00</news:publication_date>
+          <news:title>Externalise Facilement ta sauvegarde Home-Assistant</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/170/external-homeassistant-backup-with-rsync-nas-omv.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
