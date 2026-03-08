@@ -5,50 +5,50 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: How we'll build the device database, together
-    url: https://www.home-assistant.io/blog/2026/02/02/about-device-database/
-    image: "/images/blog/2026-02-02-about-device-database/art.webp"
+    title: 2026.3 - A clean sweep
+    url: https://www.home-assistant.io/blog/2026/03/04/release-20263/
+    image: "/images/blog/2026-03/vacuum-area-mapping.png"
   en_GB:
   - name: Home-Assistant
-    title: How we'll build the device database, together
-    url: https://www.home-assistant.io/blog/2026/02/02/about-device-database/
-    image: "/images/blog/2026-02-02-about-device-database/art.webp"
+    title: 2026.3 - A clean sweep
+    url: https://www.home-assistant.io/blog/2026/03/04/release-20263/
+    image: "/images/blog/2026-03/vacuum-area-mapping.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découvrez la prise Zigbee Nous Smart A7Z avec mesure de consommation
-    url: https://blog.domadoo.fr/113533-prise-nous-smart-zigbee-socket-a7z/
-    image: https://blog.domadoo.fr/wp-content/uploads/2026/01/Prise-Nous-smart-socket-a7z-zigbee-1080x675-PRESS-1024x640.webp
+    title: Sonoff CAM-PT2 - Caméra intérieure de sécurité 360° Pan Tilt 2 WiFi
+    url: https://blog.domadoo.fr/113588-sonoff-camera-securite-360-pan-tilt2-wifi/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/02/Sonoff-camera-360-wifi-pan-tilt2-cam-pt2-1080x675_PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Navimow 2026  - une nouvelle génération de robots tondeuses, avec le H2
-      comme modèle phare
-    url: https://blog.nord-domotique.com/navimow-2026-decouvrez-la-nouvelle-gamme/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/02/new-product-lineups-2-min.jpg?fit=206%2C300&ssl=1
+    title: Programme Ambassadeur Husqvarna 2026  - comment obtenir -30% après l’achat
+      de votre Automower® ?
+    url: https://blog.nord-domotique.com/programme-ambassadeur-husqvarna-2026-2/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/02/308v.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
-    title: Quand l’innovation se met au service du confort d’usage  - la petite révolution
-      des robots tondeuses 2026 chez Navimow
-    url: https://www.abavala.com/quand-l-innovation-se-met-au-service-du-confort-dusage-la-petite-revolution-des-robots-tondeuses-2026-chez-navimow/
-    image: https://www.abavala.com/wp-content/uploads/Navimow-2026-New-Product-150x150.jpg
+    title: Hub IA  - SwitchBot dévoile un assistant domestique qui voit, comprend…
+      et agit !
+    url: https://www.abavala.com/hub-ia-switchbot-devoile-un-assistant-domestique-qui-voit-comprend-et-agit/
+    image: https://www.abavala.com/wp-content/uploads/AI_Hub_entete-150x150.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Lymow One Plus arrive en France  - tonte cyclonique, chenilles de tank
-      et IA embarquée pour ton jardin !
-    url: https://www.maison-et-domotique.com/167735-lymow-one-plus-arrive-en-europe-double-lames-rotatives-rtk-vslam-et-pentes-a-45/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/01/kv21-702x363.jpg
+    title: Robots aspirateurs, automatisations et énergie  - ce que change la mise
+      à jour Home Assistant 2026.3
+    url: https://www.maison-et-domotique.com/168243-robots-aspirateurs-automatisations-et-energie-ce-que-change-la-mise-a-jour-home-assistant-2026-3/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/hcl7aerxyai-zv5-500x500.jpeg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Ode to the AA Battery
-    url: https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/
-    image: https://www.jeffgeerling.com/blog/2026/ode-to-the-aa-battery/ifixit-soldering-usb-battery-merocle-torn-down.jpg
+    title: A PTP Wall Clock is impractical and a little too precise
+    url: https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/
+    image: https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/39c3-oliver-ettlin-ptp-clock.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Why Your Smart Home Isn’t Smart - It Needs Ambient Intelligence
-    url: https://www.forbes.com/sites/moorinsights/2026/02/02/why-your-smart-home-isnt-smart-it-needs-ambient-intelligence/
+    title: Nordic Semiconductor talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/nordic-semiconductor-talks-about-matter-adoption/
     image:
