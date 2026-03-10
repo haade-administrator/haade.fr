@@ -25,6 +25,7 @@ comments: true
 rating: 5.0 
 sourcelink:
   - https://smlight.tech/global/slzbmr4
+  - https://smlight.tech/support/manuals/books/slzb-os
 ---
 
 Il y a peu de temps j'ai installé le [firmware multipan sur un dongle max Sonoff]({% post_url /fr/2025-12-20-decouverte-des-nouveaux-dongle-plus-et-mag-efr32mg24-zigbbe-par-sonoff %}), l'installation fonctionne j'ai réussi à installer des modules zigbee et thread avec succès mais j'ai été vit confronté à des problèmes d'instabilités au niveau de l'émission et réception de l'antenne, en effet tout est basé sur une seule antenne et je pense que le soucis vient au niveau des canaux identiques aux deux protocoles. Pour pallier à ce problème j'ai demandé à la société SMLight de me fournir une clé multiradio et ils m'ont gentiment procuré le SLZB-MR4U 
@@ -53,7 +54,11 @@ Bon comme il s'agit d'un dongle de production je suis resté volontairement sur 
 
 Pour faire simple et présenter au mieux l'interface je vais passer sur une vidéo de présentation
 
-### Présentation vidéo SLZB-OS
+{% include product-embed.html image="smlight-slzb-mr4u-adaptateur-usb-ethernet-poe-zigbee-et-thread-cc2674p10-efr32mg26.png" title="Dongle SLZB-MR4U" brand="SMLight" description="Dongle multiprotocole double puces silabs EFR32MG26 et texas instrument CC2674P10 idéal pour zigbee et thread" domlink="produits-de-domotique/8369-smlight-slzb-mr4u-adaptateur-usb-ethernet-poe-zigbee-et-thread-cc2674p10-efr32mg26-.html" amazlink="4bhZgQq" %}
+
+## Présentation vidéo SLZB-OS
+
+{% include videoPlayer.html youtubeId="_cw5LgqeF0E" %}
 
 ## Intégration dans Home Assistant
 

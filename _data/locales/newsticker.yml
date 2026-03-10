@@ -22,10 +22,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Programme Ambassadeur Husqvarna 2026  - comment obtenir -30% après l’achat
-      de votre Automower® ?
-    url: https://blog.nord-domotique.com/programme-ambassadeur-husqvarna-2026-2/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/02/308v.jpg?fit=300%2C225&ssl=1
+    title: Lefant M2 Plus  - un robot milieu de gamme à 200 € qui fait le job !
+    url: https://blog.nord-domotique.com/test-lefant-m2-plus/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/lefant-m2-plus-3856.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -36,10 +35,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Robots aspirateurs, automatisations et énergie  - ce que change la mise
-      à jour Home Assistant 2026.3
-    url: https://www.maison-et-domotique.com/168243-robots-aspirateurs-automatisations-et-energie-ce-que-change-la-mise-a-jour-home-assistant-2026-3/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/hcl7aerxyai-zv5-500x500.jpeg
+    title: Votre pelouse peut se tondre toute seule  - ces robots en promo changent
+      la donne
+    url: https://www.maison-et-domotique.com/168314-votre-pelouse-peut-se-tondre-toute-seule-ces-robots-en-promo-changent-la-donne/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/promo-robots-tondeuses-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
@@ -49,6 +48,6 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
-    title: Nordic Semiconductor talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/nordic-semiconductor-talks-about-matter-adoption/
+    title: Nuki Now Puts Matter Right Into the Front Door
+    url: https://matter-smarthome.de/en/products/nuki-now-puts-matter-right-into-the-front-door/
     image:
