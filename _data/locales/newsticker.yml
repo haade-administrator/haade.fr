@@ -16,9 +16,9 @@ Home-Assistant:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Sonoff CAM-PT2 - Caméra intérieure de sécurité 360° Pan Tilt 2 WiFi
-    url: https://blog.domadoo.fr/113588-sonoff-camera-securite-360-pan-tilt2-wifi/
-    image: https://blog.domadoo.fr/wp-content/uploads/2026/02/Sonoff-camera-360-wifi-pan-tilt2-cam-pt2-1080x675_PRESS-1024x640.webp
+    title: Sonoff MINI DUO-L module double sortie sans neutre Zigbee 3.0
+    url: https://blog.domadoo.fr/113707-sonoff-mini-duo-l-module-double-sortie-zb/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/03/Sonoff-mini-duo-l-module-double-sortie-sans-neutre-zigbee-1080x675-PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
@@ -35,10 +35,10 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Votre pelouse peut se tondre toute seule  - ces robots en promo changent
-      la donne
-    url: https://www.maison-et-domotique.com/168314-votre-pelouse-peut-se-tondre-toute-seule-ces-robots-en-promo-changent-la-donne/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/promo-robots-tondeuses-702x468.jpg
+    title: On a testé le MOVA Z60 Ultra Roller Standalone - ce robot aspirateur laveur
+      change vraiment la donne
+    url: https://www.maison-et-domotique.com/168330-mova-z60-ultra-roller-standalone-robot-aspirateur-laveur-test/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/test-mova-z60-ultra-roller-standalone-014-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
@@ -48,6 +48,6 @@ Jeff-Geerling:
 Matter:
   en_GB:
   - name: Matter
-    title: Nuki Now Puts Matter Right Into the Front Door
-    url: https://matter-smarthome.de/en/products/nuki-now-puts-matter-right-into-the-front-door/
+    title: Infineon Technologies talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/infineon-technologies-talks-about-matter-adoption/
     image:
