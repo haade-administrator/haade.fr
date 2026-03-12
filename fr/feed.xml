@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Mar 2026 05:14:36 +0100</pubDate>
-    <lastBuildDate>Wed, 04 Feb 2026 10:40:00 +0100</lastBuildDate>
+    <pubDate>Thu, 12 Mar 2026 10:30:43 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Mar 2026 15:49:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test dongle multiradio Smlight SLZB-MR4U</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test du dongle Multiradio Zigbee et Thread de la marque SMLIGHT SLZB-MR4U ça marche</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/171/smlight-multiradio-zigbee-et-thread-ca-marche-test-slzb-mr4u-720-ab8c449c0.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/171/smlight-multiradio-zigbee-et-thread-ca-marche-test-slzb-mr4u-720-ab8c449c0.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/171/smlight-multiradio-zigbee-et-thread-ca-marche-test-slzb-mr4u-720-ab8c449c0.png" alt="Test dongle multiradio Smlight SLZB-MR4U">
+</picture>
+
+      <p>Il y a peu de temps j’ai installé le firmware multipan sur un dongle max Sonoff, l’installation fonctionne j’ai réussi à installer des modules zigbee et thread avec succès mais j’ai été vite confronté à des problèmes d’instabilités au niveau de l’émission et réception de l’antenne, en effet tout est [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-et-thread-ca-marche-du-feu-de-dieu">Test dongle multiradio Smlight SLZB-MR4U</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 06 Mar 2026 15:49:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-et-thread-ca-marche-du-feu-de-dieu</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-et-thread-ca-marche-du-feu-de-dieu</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Externalise Facilement ta sauvegarde Home-Assistant</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -224,29 +246,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/truenas-nouveautees-fangtooth-25-04-retrospection-electric-ell-24-10-le-gestionnaire-openzfs</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Securite]]></category>
-    </item>
-    <item>
-      <title>Test du portier Hikvision DS-KV8x13</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test et intégration du portier Hikvision DS-KV8X13 avec une intégration complète dans Jome Assistant</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/161/test-portier-voip-hikvision-ds-kv8x13-integration-home-assistant-frigate-720-21d512c3c.png" alt="Test du portier Hikvision DS-KV8x13">
-</picture>
-
-      <p>Dans le cadre d’une installation pour contrôle d’accès d’une mairie et déjà domotisée avec Home Assistant, j’ai acheté un kit complet Hikvision car le prix est attractif et je sais dors et déjà que je pourrais contrôler l’ensemble dans Home Assistant.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant">Test du portier Hikvision DS-KV8x13</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 13 Apr 2025 18:47:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-portier-interphonie-hikvision-ds-kv8x13-et-integration-home-assistant</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Securite]]></category>
-      <category><![CDATA[Videos]]></category>
     </item>
   </channel>
 </rss>
