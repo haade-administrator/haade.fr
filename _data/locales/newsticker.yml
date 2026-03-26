@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2026.3 - A clean sweep
-    url: https://www.home-assistant.io/blog/2026/03/04/release-20263/
-    image: "/images/blog/2026-03/vacuum-area-mapping.png"
+    title: Heatit joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/03/24/heatit-joins-works-with-home-assistant/
+    image: "/images/blog/2026-03-heatit/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: 2026.3 - A clean sweep
-    url: https://www.home-assistant.io/blog/2026/03/04/release-20263/
-    image: "/images/blog/2026-03/vacuum-area-mapping.png"
+    title: Heatit joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/03/24/heatit-joins-works-with-home-assistant/
+    image: "/images/blog/2026-03-heatit/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,9 +22,10 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Lefant M2 Plus  - un robot milieu de gamme à 200 € qui fait le job !
-    url: https://blog.nord-domotique.com/test-lefant-m2-plus/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/lefant-m2-plus-3856.jpg?fit=300%2C225&ssl=1
+    title: Test Marstek Venus E 3.0  - une batterie solaire plug-and-play intelligente
+      pour maximiser son autoconsommation
+    url: https://blog.nord-domotique.com/test-marstek-venus-e-3-0/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/marstek-venus-e-3488.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -35,19 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: On a testé le MOVA Z60 Ultra Roller Standalone - ce robot aspirateur laveur
-      change vraiment la donne
-    url: https://www.maison-et-domotique.com/168330-mova-z60-ultra-roller-standalone-robot-aspirateur-laveur-test/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/test-mova-z60-ultra-roller-standalone-014-667x500.jpg
+    title: Le summum de l’autonomie dans votre jardin  - ces robots tondeuses STIGA
+      intègrent une caméra IA pour encore mieux entretenir votre jardin
+    url: https://www.maison-et-domotique.com/168360-nouveautes-stiga-vista-2026/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/stiga-vista-robot-amb14-titre-702x360.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: A PTP Wall Clock is impractical and a little too precise
-    url: https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/
-    image: https://www.jeffgeerling.com/blog/2026/ptp-wall-clock-impractical-too-precise/39c3-oliver-ettlin-ptp-clock.jpg
+    title: Using FireWire on a Raspberry Pi
+    url: https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/
+    image: https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/g4-canon-gl1-firewire.jpg
 Matter:
   en_GB:
   - name: Matter
-    title: Infineon Technologies talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/infineon-technologies-talks-about-matter-adoption/
+    title: Keyfactor talks about Matter Adoption
+    url: https://csa-iot.org/newsroom/keyfactor-talks-about-matter-adoption/
     image:
