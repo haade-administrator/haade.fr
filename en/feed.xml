@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 26 Mar 2026 05:33:36 +0100</pubDate>
-    <lastBuildDate>Fri, 06 Mar 2026 15:49:00 +0100</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2026 08:33:27 +0100</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2026 08:15:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Easily unlock your Xiaomi router in 5 minutes</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>In this article I&apos;m going to show you how to unlock your Xiaomi router and install OpenWrt in a single command line</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/172/unlock-your-router-xiaomi-easily-720-0483965eb.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/172/unlock-your-router-xiaomi-easily-720-0483965eb.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/172/unlock-your-router-xiaomi-easily-720-0483965eb.png" alt="Easily unlock your Xiaomi router in 5 minutes">
+</picture>
+
+      <p>Here’s an article that might interest many of you. For many years, Xiaomi has been developing a whole range of routers, each more powerful than the last, at increasingly competitive prices!
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt">Easily unlock your Xiaomi router in 5 minutes</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Thu, 26 Mar 2026 08:15:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</guid>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Mini-tutos]]></category>
+    </item>
     <item>
       <title>Smlight SLZB-MR4U multiradio dongle test</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,27 +248,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>TrueNAS Scale OS Update: The Best NAS Manager of the Moment!</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>TrueNAS scale is reaching maturity and is announcing major advances that now allow me to leave OMV, my old NAS manager.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/162/truenas-ameliration-24-et-25-fangtooth-edition-logiciel-par-excellence-720-3b3233af4.png" alt="TrueNAS Scale OS Update: The Best NAS Manager of the Moment!">
-</picture>
-
-      <p>How time flies! It’s been over a year now since I last looked at the embedded system for Nas, TrueNAS. As you know, few open source operating systems are dedicated to Nas, personally I only see two that are valid Openmediavault and TrueNAS (formerly Freenas). To get back to the [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager">TrueNAS Scale OS Update: The Best NAS Manager of the Moment!</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sun, 04 May 2025 18:30:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/truenas-news-fangtooth-25-04-retrospection-electric-ell-24-10-the-openzfs-manager</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Security]]></category>
     </item>
   </channel>
 </rss>
