@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Apr 2026 06:30:11 +0200</pubDate>
+    <pubDate>Fri, 03 Apr 2026 20:38:30 +0200</pubDate>
     <lastBuildDate>Thu, 26 Mar 2026 08:15:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -44,6 +44,7 @@
       <pubDate>Thu, 26 Mar 2026 08:15:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</guid>
+      <category><![CDATA[NAS]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Mini-tutos]]></category>
     </item>
@@ -91,6 +92,7 @@
       <category><![CDATA[Security]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[NAS]]></category>
     </item>
     <item>
       <title>Lixee Box Energy Saver</title>
@@ -132,6 +134,7 @@
       <pubDate>Fri, 16 Jan 2026 23:00:00 +0100</pubDate>
       <link>https://haade.fr/en/blog/install-google-coral-gasket-on-debian-13-or-ovh-8-automatically</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/install-google-coral-gasket-on-debian-13-or-ovh-8-automatically</guid>
+      <category><![CDATA[NAS]]></category>
       <category><![CDATA[Mini-tutos]]></category>
       <category><![CDATA[Haade-lab]]></category>
     </item>
