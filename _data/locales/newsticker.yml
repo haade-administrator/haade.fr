@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Heatit joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/03/24/heatit-joins-works-with-home-assistant/
-    image: "/images/blog/2026-03-heatit/art.webp"
+    title: 2026.4 - Infrared never left the chat
+    url: https://www.home-assistant.io/blog/2026/04/01/release-20264/
+    image: "/images/blog/2026-04/infrared-proxy.png"
   en_GB:
   - name: Home-Assistant
-    title: Heatit joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/03/24/heatit-joins-works-with-home-assistant/
-    image: "/images/blog/2026-03-heatit/art.webp"
+    title: 2026.4 - Infrared never left the chat
+    url: https://www.home-assistant.io/blog/2026/04/01/release-20264/
+    image: "/images/blog/2026-04/infrared-proxy.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,10 +22,10 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test Marstek Venus E 3.0  - une batterie solaire plug-and-play intelligente
-      pour maximiser son autoconsommation
-    url: https://blog.nord-domotique.com/test-marstek-venus-e-3-0/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/01/marstek-venus-e-3488.jpg?fit=300%2C225&ssl=1
+    title: Ray-Ban Meta WEYFARER GEN 2  - je les ai testées au ski et au padel… gadget
+      ou révolution ?
+    url: https://blog.nord-domotique.com/ray-ban-meta-weyfarer-gen-2/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/03/ray-ban-meta-wayfarer-decran-2026-03-29-a-15.53.43.jpg?fit=300%2C156&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -36,19 +36,19 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Le summum de l’autonomie dans votre jardin  - ces robots tondeuses STIGA
-      intègrent une caméra IA pour encore mieux entretenir votre jardin
-    url: https://www.maison-et-domotique.com/168360-nouveautes-stiga-vista-2026/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/stiga-vista-robot-amb14-titre-702x360.jpg
+    title: J’ai testé la batterie Sunology Storey  - simple, silencieuse, compatible
+      Home Assistant… mais est-ce vraiment rentable ?
+    url: https://www.maison-et-domotique.com/168813-test-sunology-storey-batterie-plug-and-play/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/03/test-sunology-storey-titre-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Using FireWire on a Raspberry Pi
-    url: https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/
-    image: https://www.jeffgeerling.com/blog/2026/firewire-on-a-raspberry-pi/g4-canon-gl1-firewire.jpg
+    title: Build your own Dial-up ISP with a Raspberry Pi
+    url: https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/
+    image: https://www.jeffgeerling.com/blog/2026/build-your-own-dial-up-isp-with-a-raspberry-pi/pi-isp-ibook-hero.jpeg
 Matter:
   en_GB:
   - name: Matter
-    title: Keyfactor talks about Matter Adoption
-    url: https://csa-iot.org/newsroom/keyfactor-talks-about-matter-adoption/
+    title: Zigbee Privacy & Security Fundamentals
+    url: https://csa-iot.org/newsroom/zigbee-privacy-security-fundamentals/
     image:

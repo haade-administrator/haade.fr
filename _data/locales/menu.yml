@@ -70,6 +70,15 @@ security:
     name: "Security"
     link: "en/category/security"
 
+nas:
+  fr_FR:
+    name: "NAS"
+    link: "fr/categorie/nas"
+
+  en_GB:
+    name: "NAS"
+    link: "en/category/nas"
+
 tutorials:
   fr_FR:
     name: "Tutos"
