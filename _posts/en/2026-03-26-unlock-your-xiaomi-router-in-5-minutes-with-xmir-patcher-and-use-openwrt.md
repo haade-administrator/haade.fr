@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2026-03-26 08:15
 last_modified_at: 
-categories: [Haade-lab, Mini-tutos]
+categories: [NAS, Haade-lab, Mini-tutos]
 tags: []
 video: 
 image: 'unlock-your-router-xiaomi-easily.png'

@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2026-01-16 23:00
 last_modified_at: 
-categories: [Mini-tutos, Haade-lab]
+categories: [NAS, Mini-tutos, Haade-lab]
 tags: []
 video: 
 image: 'installation-automatisee-google-coral-debian-13-trixie-gasket-driver.png'
