@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Apr 2026 11:13:15 +0200</pubDate>
-    <lastBuildDate>Thu, 26 Mar 2026 08:15:00 +0100</lastBuildDate>
+    <pubDate>Mon, 06 Apr 2026 21:51:48 +0200</pubDate>
+    <lastBuildDate>Mon, 06 Apr 2026 21:40:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Easily install YoloV9 and make detection smart</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Here&apos;s a mini-tutorial that will interest many: YOLO V9, king of object detection, installed in one click.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/173/install-yolov9-facilementsur-frigate-avec-un-google-coral-avec-superviseur-omv-8-720-30cd6ec9c.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/173/install-yolov9-facilementsur-frigate-avec-un-google-coral-avec-superviseur-omv-8-720-30cd6ec9c.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/173/install-yolov9-facilementsur-frigate-avec-un-google-coral-avec-superviseur-omv-8-720-30cd6ec9c.png" alt="Easily install YoloV9 and make detection smart">
+</picture>
+
+      <p>Yolo V9 is a task manager and cutting-edge object detector that’s free and ultra-powerful. It will analyze videos faster than lightning and prevent many false positives.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant">Easily install YoloV9 and make detection smart</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 06 Apr 2026 21:40:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant</guid>
+      <category><![CDATA[NAS]]></category>
+      <category><![CDATA[Mini-tutos]]></category>
+    </item>
     <item>
       <title>Easily unlock your Xiaomi router in 5 minutes</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,30 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</guid>
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-    </item>
-    <item>
-      <title>Sonoff SWV-BSP Programmer Review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Sonoff SWV-BSP Zigbee Watering Timer Review and Test</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/163/test-smart-water-zigbee-sonoffswv-bsp-720-ad014b3f0.png" alt="Sonoff SWV-BSP Programmer Review">
-</picture>
-
-      <p>It’s been a while since I’ve written an article. I apologize, due to lack of time and the preparation of a hard-hitting article on integrating a wall-mounted tablet.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer">Sonoff SWV-BSP Programmer Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 25 Jun 2025 09:18:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-of-the-sonoff-swv-zigbee-irrigation-programmer</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
