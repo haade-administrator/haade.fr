@@ -14,14 +14,7 @@
             <a href="{{ menu.automation[page.locale].link | absolute_url }}">{{ menu.automation[page.locale].name }}</a>
             <i class="icos angle-down-solid htmlcss-arrow-automation arrow"></i>
             <ul class="htmlCss-sub-menu-automation sub-menu">
-                <li class="more">
-                <span><a href="{{ site.baseurl }}/{{ menu.security[page.locale].link }}">{{ menu.security[page.locale].name }}</a>
-                <i class='icos angle-right-solid arrow more-arrow-automation'></i>
-              </span>
-                <ul class="more-sub-menu-automation sub-menu">
-                  <li><a href="{{ site.baseurl }}/{{ menu.nas[page.locale].link }}">{{ menu.nas[page.locale].name}}</a></li>
-                </ul>
-              </li>
+              <li><a href="{{ site.baseurl }}/{{ menu.security[page.locale].link }}">{{ menu.security[page.locale].name }}</a></li>
               <li class="more">
                 <span><a href="{{ site.baseurl }}/{{ menu.tutorials[page.locale].link }}">{{ menu.tutorials[page.locale].name }}</a>
                 <i class='icos angle-right-solid arrow more-arrow-automation'></i>
