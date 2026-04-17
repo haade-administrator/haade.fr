@@ -2,20 +2,6 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-      <url>
-        <loc>https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>en</news:language>
-          </news:publication>
-          <news:publication_date>2026-04-06T21:40:00+02:00</news:publication_date>
-          <news:title>Easily install YoloV9 and make detection smart</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/173/install-yolov9-facilementsur-frigate-avec-un-google-coral-avec-superviseur-omv-8.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
