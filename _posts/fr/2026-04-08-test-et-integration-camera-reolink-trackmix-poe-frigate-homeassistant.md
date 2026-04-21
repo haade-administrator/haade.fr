@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Securite]
 tags: []
 video: 
-image: 'picture.png'
+image: 'test-camera-reolink-trackmix-poe-produit-top-gestion-sav-mauvais.png'
 toc: true
 beforetoc: ''
 published: false
@@ -43,28 +43,134 @@ Bref j'ai eu quelques jours pour tester tout de même le produit avant de le ret
 
 Reolink fabrique du matériel de bonne qualité, il en est de même pour l'emballage, ce carton bleu renferme, une notice, la caméra et tout le nécessaire pour la fixer et la brancher en rj45.
 
+{% picture posts/{{ page.guid }}/deballage-unboxing-camera-reolink-trackmix-poe.png --alt déballage caméra reolink trackmix poe --img width="940" height="529" %}
+
+
 ## La caméra {{ page.ref }}
 
 J'ai acheté cette caméra 165€, et si tu désires te la procurer mais que tu n'es pas pressé sur le site Veepee il y a régulièrement des offres à 115€.
 Et je dois dire qu'elle est vraiment qualitative, le bloc électronique est constitué d'aluminium quand à la tête recevant l'objectif, elle est en abs. le support de fixtion est lui aussi en aluminium, un plus.
 
+{% picture posts/{{ page.guid }}/detail-camera-reolink-trackmix-poe.png --alt détail optiques caméra reolink trackmix poe et taille réelle --img width="940" height="529" %}
+
+
 La caméra Trackmix POE est une caméra à double objectif, l'un standard pour filmer en grand angle tandis que la seconde permet de gérer le zoom et l'autotrack, malheureusement ces deux caméras sont dépendantes l'une de l'autre, j'aurai aimé avec une double rotation afin de pouvoir couvrir deux zones en même temps, ce n'est pas le cas. Sur la tête on retrouve les voyants infrarouge pour la vision nocturne ainsi que deux gros voyants blanc pour l'éclairage couleurs en faible luminosité.
 
 La qualité d'image est excellente de jours comme de nuit et même en faible luminosité
 
-Enfin on retrouve sur le dessus le branchement rj45/électrique
+Enfin on retrouve sur la partie arrière le branchement rj45/électrique
+
+{% picture posts/{{ page.guid }}/vue-avec-support-camera-reolink-trackmix-poe.png --alt vue avec support caméra reolink trackmix poe et taille réelle --img width="940" height="529" %}
+
+{% picture posts/{{ page.guid }}/trackmix-poe-specifications-dimensions-et-lentilles.png --alt dimension et lentilles caméra reolink trackmix poe --img width="940" height="529" %}
+
+1. Led infrarouge
+2. Objectif
+3. Micro
+4. Capteur lumière jour
+5. Projecteur
 
 Pour terminer je vais te parler des dimensions, et malheureusement c'est ce qui m'a fait regretter ce choix, elles sont tout simplement hors normes, et encore tu dois rajouter un support qui rend encore la hauteur plus imposante
 
+{% picture posts/{{ page.guid }}/dimension-geante-camera-reolink-trackmix-poe.png --alt dimension imposante caméra reolink trackmix poe et taille réelle --img width="940" height="529" %}
+
+Tu trouveras par exemple sur [makerworld](https://makerworld.com/fr/models/2181442-high-strength-reolink-trackmix-corner-mount#profileId-2367734){: target="_blank"} une impression intéressante pour fixer la caméra Reolink {{ page.ref }} dans un angle, [il en existe plein d'autres sur le web](https://www.google.com/search?sca_esv=ce9bda148a5d733d&sxsrf=ANbL-n53Xos0tn6KlRRuZiU6pIJ2g4lsKQ:1776785807210&udm=2&fbs=ADc_l-bpk8W4E-qsVlOvbGJcDwpnZs8UoziVXl2LUkEbFKCT_RABk-hkcMrxQ7FKs8tssDqOO9ERJ6Y9GB2wlGE1PQxxRSOAfyqNiJErXYtGzsUbEp-FDLaT_jeMdmKGhNSo-pYTG6KIrKSEintiL4aoUnk5RL73DLMb7L_182uzCCWx3YieygwjcLoJvW_UOKQT3w569M3CmuF9sMyMYwqqEQ_V0kIQ-A&q=print+3d+trackmix+reolink&sa=X&ved=2ahUKEwiEx4X3ov-TAxXvKvsDHXDXOhkQtKgLegQIFBAB&biw=1920&bih=919&dpr=1#sv=CAMSVhoyKhBlLVhaY0tTU2pUbFJ6ckVNMg5YWmNLU1NqVGxSenJFTToOajk3TnlsTjZRY3hSb00gBCocCgZtb3NhaWMSEGUtWFpjS1NTalRsUnpyRU0YADABGAcgja7HjA9KCBABGAEgASgB){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/support-impression-3d-camera-reolink-trackmix-poe.png --alt exemple d'une impression 3d pour fixer la caméra reolink trackmix poe dans un angle --img width="940" height="529" %}
+
+### Caractéristique technique {{ page.ref }}
+
+**Vidéo et audio**
+
+|Capteur d'image|Capteur CMOS 1/3" + 1/2,8"|
+|Résolution vidéo|Jusqu’à 3840 x 2160 (8,0 mégapixels) à 25 images par seconde|
+|Lentille|Fonction f=2.8mm@F=1.6 etf=8mm@F=1.6|
+|Format vidéo|H.264, H.265|
+|Champ de vision|Horizontal : 104° -38<br>Vertical : 60° -21|
+|Mode zoom|Zoom hybride 6X|
+|Jour et nuit|Filtre IR avec commutation automatique|
+|Vision nocturne infrarouge|Jusqu’à 30 mètres (100 pieds) (LED : 2 pièces/850 nm)|
+|Vision nocturne en couleur|Projecteurs : 2 pièces/6500 K/450 lumens|
+|Audio|Audio bidirectionnel|
+
+**Puissance**
+
+|PoE|IEEE 802.3af, 48 V actif|
+|Alimentation en courant continu|12,0 V CC⎓2 A, <12 W|
+
+**Interface**
+
+|Puissance|Port d’alimentation CC|
+|Système|Bouton de réinitialisation|
+|Ethernet|Un port RJ45 10 M/100 Mbps|
+|Stockage|Emplacement pour carte Micro SD (max. 512 Go)|
+|Audio|Microphone et haut-parleur intégrés|
+
+**Pan & Tilt**
+
+|Gamme Pan & Tilt|Panoramique : 355°, inclinaison : 0°~ 90|
+|Vitesse panoramique|2,5°-90°/s (vitesse réglable)|
+|Vitesse d'inclinaison|1,5°-60°/s (vitesse réglable)|
+|Points prédéfinis|32|
+|Suivi automatique|OUI|
+
+**Caractéristiques du logiciel**
+
+|Taux de rafraîchissement|Flux principal : 2 i/s – 25 i/s<br>Flux secondaire : 4 i/s – 20 i/s|
+|Taux de codage|Flux principal : 4096 Kbps - 8192 Kbps<br>Sous flux : 128 Kbps - 1228 Kbps|
+|Navigateurs pris en charge|Edge, Chrome, Firefox, Safari|
+|Système d'exploitation supporté|PC : Windows, Mac OS ; Smartphone : iOS, Android|
+|Alarmes intelligentes|Détection de mouvement<br>détection de personnes<br>détection de véhicules<br>détection d’animaux|
+|Modes d'enregistrement|Enregistrement déclenché par le mouvement (par défaut)<br>enregistrement programmé<br>enregistrement 24 h/7 j|
+|Méthode de suivi|Suivi numérique<br>suivi panoramique/inclinaison en premier<br>suivi numérique en premier|
+|Protocoles et normes|HTTPS, SSL, TCP/IP, UDP, HTTP, IPv4, UPnP, RTSP, RTMP, SMTP, NTP, DHCP, DNS, DDNS, FTP, P2P|
+|Accès maximal de l'utilisateur|"Supporte jusqu’à 20 utilisateurs (1 compte administrateur et 19 comptes utilisateurs)<br>jusqu’à 12 flux vidéo simultanés (10 sous-flux et 2 flux principaux)"|
+|Fonctionne avec|Assistant Google|
+
+**Environnement de travail**
+
+|Température de fonctionnement|-10 °C à +55 °C (14 °F à 131 °F)|
+|Humidité de fonctionnement|10% à 90%|
+|Étanchéité|IP65|
+|Taille|Dimensions 228 x 147 x 110 mm|
+|Poids|1,21 kg|
+
+**Garantie limitée de 2 ans**. Pour obtenir de l’aide, rendez-vous sur https://support.reolink.com/hc/en-us/.
+
+
+
 ## le logiciel Reolink
 
-Reolnk fourni un logiciel et une intégration à home assistant très plus que satisfaisante, il est disponible pour Android et Apple
+Reolnk fourni un logiciel et une intégration à home assistant très plus que satisfaisante, il est disponible pour Android et Apple, je n'en parle pas vraiment dans cet article, mais si tu ressens le besoin fait le moi savoir.
 
+{% picture posts/{{ page.guid }}/rendu-sommaire-application-smartphone.png --alt Rendu des deux caméras disponible avec la reolink trackmix poe --img width="270" height="600" %}
 
 {% include qrlink.html qrlink="https://play.google.com/store/apps/details?id=com.mcu.reolink&hl=fr" text="télécharger l'application Reolink sur le playstore" realtextlink="Application Reolink Playstore Android" %}
 
 {% include qrlink.html qrlink="https://apps.apple.com/fr/app/reolink/id995927563" text="télécharger l'application Reolink sur l' Apple store" realtextlink="Application Reolink Apple store" %}
 
+Ce que ne permet pas le logiciel
+- choix du mode de compressions des images tu n'aura d'autres choix que d'utiliser h265 ou h264
+
+{% include product-embed.html image="camera-reolink-trackmix-poe.png" title="Trackmix Poe" brand="Reolink" description="Reolink PTZ 4K Caméra Extérieur PoE, Double Objectif, Zoom Hybride 6X, Suivi Automatique, Vision Nocturne en Couleur, Détection de Personne/Véhicule/Animal, Audio Bidirectionnel, TrackMix PoE" amazlink="4vDrDSF" %}
+
+{% include product-embed.html image="camera-reolink-trackmix-poe-gris.png" title="Trackmix Poe Gris" brand="Reolink" description="Reolink PTZ 4K Caméra Extérieur PoE, Double Objectif, Zoom Hybride 6X, Suivi Automatique, Vision Nocturne en Couleur, Détection de Personne/Véhicule/Animal, Audio Bidirectionnel, TrackMix PoE" amazlink="4sHS075" %}
+
+## Reolink pour Home Assistant
+
+{% picture posts/{{ page.guid }}/reolink-application-officielle.png --alt Application officielle reolink pour home assistant disponible par défaut --img width="674" height="303" %}
+
+Page dédiée à la marque [Reolink sur le site Home-Assistant](https://www.home-assistant.io/integrations/reolink/){: target="_blank"}
+
+{% picture posts/{{ page.guid }}/application-officielle-reolink-home-assistant.png --alt Application officielle reolink pour home assistant --img width="940" height="702" %}
+
+{% picture posts/{{ page.guid }}/application-officielle-reolink-home-assistant-nombreuse-entite.png --alt Nombreuses entités disponible avec l'application officielle reolink pour home assistant --img width="693" height="746" %}
+
+Application Reolink mise à jour régulièrement sur [github](https://github.com/home-assistant/core/tree/dev/homeassistant/components/reolink){: target="_blank"}
+
+## Frigate
+
+Code complet pour les 3 flux
 
 {% highlight yaml %}
 {% raw %}
@@ -151,6 +257,18 @@ go2rtc:
 {% endraw %}
 {% endhighlight %}
 
-{% include product-embed.html image="camera-reolink-trackmix-poe.png" title="Trackmix Poe" brand="Reolink" description="Reolink PTZ 4K Caméra Extérieur PoE, Double Objectif, Zoom Hybride 6X, Suivi Automatique, Vision Nocturne en Couleur, Détection de Personne/Véhicule/Animal, Audio Bidirectionnel, TrackMix PoE" amazlink="4vDrDSF" %}
+{% picture posts/{{ page.guid }}/camera-principale-detectee-dans-frigate.png --alt rendu et détection caméra principale dans frigate --img width="940" height="456" %}
 
-{% include product-embed.html image="camera-reolink-trackmix-poe-gris.png" title="Trackmix Poe Gris" brand="Reolink" description="Reolink PTZ 4K Caméra Extérieur PoE, Double Objectif, Zoom Hybride 6X, Suivi Automatique, Vision Nocturne en Couleur, Détection de Personne/Véhicule/Animal, Audio Bidirectionnel, TrackMix PoE" amazlink="4sHS075" %}
+{% picture posts/{{ page.guid }}/camera-secondaire-autotrack-avec-zoom-actif-detectee-dans-frigate.png --alt rendu et détection caméra secondaire dans frigate --img width="940" height="456" %}
+
+{% picture posts/{{ page.guid }}/rendu-frigate-card-camera-grand-angle-reolink-trackmix-poe-home-assistant.png --alt rendu camera principal dans home assistant grâce à la frigate card dédiée pour la caméra principale controle orientation --img width="554" height="341" %}
+
+{% picture posts/{{ page.guid }}/rendu-frigate-card-dans-home-assistant-pour-camera-autotrack-avec-zoom-fonctionnel.png --alt Rendu seconde caméra avec détection autotrack et zoom actif dans home assistant grâce à la frigate card --img width="554" height="341" %}
+
+## Conclusion
+
+Reolink propose encore une fois un produit exceptionnel, la qualité et le fonctionnement est au rendez-vous et bien supérieur à d'autre marques, le logiciel Reolink sur smartphone et la web app fonctionnent bien, je déplore un manque de fonctions quand aux réglages comme la gestion des compressions d'images et audios. L'intégration dans Home Assistant est parfaite et très complète, quand à l'intégration dans frigate elle se fait sans soucis majeures, la fonction autotrack est indisponible mais contournable.
+
+> Côté matériel tout est presque parfait, côté SAV rencontré sur Reolink manque cruellement de sérieux.
+
+
