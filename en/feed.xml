@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Apr 2026 06:47:59 +0200</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2026 21:40:00 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 12:41:20 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Reolink Trackmix PoE camera review - Customer service needs improvement 🤬</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Testing and integrating the Reolink Trackmix PoE camera with Frigate and Home Assistant, and a rant against the brand&apos;s customer service 👎</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-top-product-poor-aftersale-720-e8505fd08.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-top-product-poor-aftersale-720-e8505fd08.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-top-product-poor-aftersale-720-e8505fd08.png" alt="Reolink Trackmix PoE camera review - Customer service needs improvement 🤬">
+</picture>
+
+      <p>I recently purchased a Reolink Trackmix PoE camera to equip my home and ordered directly from the official Reolink website, Reolink.com. However, I wanted to cancel the order because I have another camera that’s more suitable (smaller size), but the cancellation process with Reolink wasn’t handled correctly.
+</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant">Reolink Trackmix PoE camera review - Customer service needs improvement 🤬</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 22 Apr 2026 12:30:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Easily install YoloV9 and make detection smart</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -227,28 +250,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>ELC-SMT101 Android Wall Mounted Tablet Review</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Testing and integration into home assistant with mqtt of the ELC SMT101 wall tablet with LED strip and switch</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/164/test-and-integration-elc-smt101-wall-tablet-led-band-mqtt-home-assistant-ultimate-dashboard-720-c5c61f408.png" alt="ELC-SMT101 Android Wall Mounted Tablet Review">
-</picture>
-
-      <p>A powerful article: today I’m going to review the 10.1-inch tablet from ELC, the SMT101, also available in 9.7” and 15.6”. This tablet has the advantage of being built-in, having an LED strip, and other options. It runs Android 13 and features a Rockchip RK3566 processor. The version I tested [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration">ELC-SMT101 Android Wall Mounted Tablet Review</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 25 Jul 2025 19:00:00 +0200</pubDate>
-      <link>https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/test-10-inch-wall-mounted-touchscreen-elc-smt101-and-mqtt-integration</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>

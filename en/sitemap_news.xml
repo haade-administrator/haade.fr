@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-04-22T12:30:00+02:00</news:publication_date>
+          <news:title>Reolink Trackmix PoE camera review - Customer service needs improvement 🤬</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/174/test-camera-reolink-trackmix-poe-top-product-poor-aftersale.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 

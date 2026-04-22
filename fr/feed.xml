@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 22 Apr 2026 06:47:59 +0200</pubDate>
-    <lastBuildDate>Mon, 06 Apr 2026 21:40:00 +0200</lastBuildDate>
+    <pubDate>Wed, 22 Apr 2026 12:41:20 +0200</pubDate>
+    <lastBuildDate>Wed, 22 Apr 2026 12:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test camera Reolink Trackmix Poe - Service client à revoir 🤬</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>test et intégration de la caméra Reolink Trackmix Poe dans frigate et home assistant et coup de gueule contre le service client de la marque 👎</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-produit-top-gestion-sav-mauvais-720-f40387b7a.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-produit-top-gestion-sav-mauvais-720-f40387b7a.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/174/test-camera-reolink-trackmix-poe-produit-top-gestion-sav-mauvais-720-f40387b7a.png" alt="Test camera Reolink Trackmix Poe - Service client à revoir 🤬">
+</picture>
+
+      <p>J’ai récemment fait l’acquisition d’une caméra Reolink Trackmix Poe pour équiper la maison et j’ai directement commandé sur le site officiel de la marque Reolink.com cependant j’ai voulu me rétracter car j’ai une autre caméra plus adapté ( dimensions réduites ), mais la prise en charge pour l’annulation de la [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-et-integration-camera-reolink-trackmix-poe-frigate-homeassistant">Test camera Reolink Trackmix Poe - Service client à revoir 🤬</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 22 Apr 2026 12:30:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-et-integration-camera-reolink-trackmix-poe-frigate-homeassistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-et-integration-camera-reolink-trackmix-poe-frigate-homeassistant</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Installe facilement YoloV9 et rend la détection intelligente</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +248,6 @@
       <category><![CDATA[News]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Test de la tablette murale Android ELC-SMT101</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Test et intégration dans home assistant avec mqtt de la tablette murale ELC SMT101 avec bandeau Led et switch</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/164/test-et-integration-tablette-murale-elc-smt101-bandeau-led-mqtt-home-assistant-ultimate-dashboard-720-91db307f4.png" alt="Test de la tablette murale Android ELC-SMT101">
-</picture>
-
-      <p>Article coup de poing, aujourd’hui je vais tester la tablette 10,1 pouces de la marque ELC, la SMT101 aussi disponible en 9,7” et 15,6”, cette tablette a l’avantage d’être encastrable, de disposer d’un bandeau Led, et d’autres options. Elle tourne sous android 13 et embarque un processeur Rockchip RK3566, la [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt">Test de la tablette murale Android ELC-SMT101</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 25 Jul 2025 19:00:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/test-ecran-tactile-murale-10-pouces-elc-smt101-et-integration-mqtt</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
     </item>
   </channel>
 </rss>
