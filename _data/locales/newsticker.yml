@@ -22,19 +22,6 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-<<<<<<< HEAD
-    title: Zendure SolarFlow Mix  - une nouvelle génération de stockage énergétique
-      domestique (jusqu’à 91 % d’économies)
-    url: https://blog.nord-domotique.com/presentation-zendure-solarflow-mix/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/04/solarflow-4000-mix-series-kv.jpg?fit=300%2C169&ssl=1
-Maison-et-domotique:
-  fr_FR:
-  - name: Maison-et-domotique
-    title: Jusqu’à 1 850€ économisés par an  - SolarFlow Mix, la nouvelle arme solaire
-      de Zendure
-    url: https://www.maison-et-domotique.com/169667-zendure-solarflow-mix-trois-systemes-intelligents-rentabiliser-son-solaire/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/04/solarflow-mix-titre-702x395.jpg
-=======
     title: Test robot tondeuse YARDCARE N1600 Pro  - un robot sans fil périphérique
       à moins de 800 € vraiment intéressant ?
     url: https://blog.nord-domotique.com/test-robot-tondeuse-yardcare-n1600-pro/
@@ -46,7 +33,6 @@ Maison-et-domotique:
       ? Mon verdict après 1 mois
     url: https://www.maison-et-domotique.com/169313-ugreen-maxidok-thunderbolt-5-17-en-1-dock-ssd/
     image: https://www.maison-et-domotique.com/wp-content/uploads/2026/04/test-ugreen-thunderbolt-station-702x392.jpg
->>>>>>> d8c3b5ada0 (initial post 175)
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
