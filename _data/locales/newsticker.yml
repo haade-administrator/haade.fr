@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2026.4 - Infrared never left the chat
-    url: https://www.home-assistant.io/blog/2026/04/01/release-20264/
-    image: "/images/blog/2026-04/infrared-proxy.png"
+    title: BEGA joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/05/05/bega-joins-works-with-home-assistant/
+    image: "/images/blog/2026-05-bega/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: 2026.4 - Infrared never left the chat
-    url: https://www.home-assistant.io/blog/2026/04/01/release-20264/
-    image: "/images/blog/2026-04/infrared-proxy.png"
+    title: BEGA joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/05/05/bega-joins-works-with-home-assistant/
+    image: "/images/blog/2026-05-bega/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,6 +22,7 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
+<<<<<<< HEAD
     title: Zendure SolarFlow Mix  - une nouvelle génération de stockage énergétique
       domestique (jusqu’à 91 % d’économies)
     url: https://blog.nord-domotique.com/presentation-zendure-solarflow-mix/
@@ -33,9 +34,22 @@ Maison-et-domotique:
       de Zendure
     url: https://www.maison-et-domotique.com/169667-zendure-solarflow-mix-trois-systemes-intelligents-rentabiliser-son-solaire/
     image: https://www.maison-et-domotique.com/wp-content/uploads/2026/04/solarflow-mix-titre-702x395.jpg
+=======
+    title: Test robot tondeuse YARDCARE N1600 Pro  - un robot sans fil périphérique
+      à moins de 800 € vraiment intéressant ?
+    url: https://blog.nord-domotique.com/test-robot-tondeuse-yardcare-n1600-pro/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/05/capture-decran-2026-05-04-a-15.23.55.jpg?fit=300%2C140&ssl=1
+Maison-et-domotique:
+  fr_FR:
+  - name: Maison-et-domotique
+    title: UGREEN Maxidok Thunderbolt 5 17-en-1  - le dock ultime avec SSD intégré
+      ? Mon verdict après 1 mois
+    url: https://www.maison-et-domotique.com/169313-ugreen-maxidok-thunderbolt-5-17-en-1-dock-ssd/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/04/test-ugreen-thunderbolt-station-702x392.jpg
+>>>>>>> d8c3b5ada0 (initial post 175)
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: An Arm Mainboard for the Framework Laptop
-    url: https://www.jeffgeerling.com/blog/2026/arm-mainboard-for-framework-laptop/
-    image: https://www.jeffgeerling.com/blog/2026/arm-mainboard-for-framework-laptop/metacomputing-arm-framework-hero.jpg
+    title: SBC Clusters are a terrible value, but they're fun anyway
+    url: https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/
+    image: https://www.jeffgeerling.com/blog/2026/deskpi-super4c-sbc-cluster/deskpi-super4c-in-waveshare-homerack-mini-rack.jpg
