@@ -32,7 +32,7 @@ sourcelink:
 
 I wanted to **write a summary tutorial** because I encountered several problems while setting up my secondary router, which runs **OpenWrt**. I finally **found all the information** in the official documentation, making a few modifications. And in this article, I'll walk you through the entire installation process with images, **which can be configured directly through the Luci interface**.
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 # 1 - Switching the router to access point mode behind the Freebox
 
@@ -155,7 +155,7 @@ Finally, click on "Create an interface" and then on **General settings**.
 
 **finally save, save and apply**
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 At this stage, your interfaces should look like the screenshot below.
 
@@ -237,7 +237,7 @@ In **traffic rules**, we'll create three rules: one to allow communication on DN
 
 {% picture posts/{{ page.guid }}/interface-definitive-traffic-rules-created-for-guest.png --alt redirection de trafic pour l'interface guest --img width="940" height="417" %}
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 ### Finally, let's install AdGuard Home
 
@@ -291,7 +291,7 @@ In **dhcp > main settings**, you will need to add 3 rules to dhcp-options, depen
 {% picture posts/{{ page.guid }}/parametre-specifique-adguardhome-si-dhcp-serveur-reste-actif-pour-interface-lan-ipv6.png
  --alt AdGuardHome-specific parameter if DHCP is active on the LAN interface, DHCPv6 part --img width="940" height="888" %}
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 ## My list of software installed on OpenWrt
 

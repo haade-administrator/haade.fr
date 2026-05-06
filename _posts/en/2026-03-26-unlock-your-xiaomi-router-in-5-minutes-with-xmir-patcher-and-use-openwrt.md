@@ -166,7 +166,7 @@ You **don't own a router** and you don't know which one to choose, but you know 
 
 November 29, 2024, marked the release of the OpenWrt One router, the first router designed to offer repairability and complete software freedom. Equipped with a **MediaTek MT7981B** SoC, it offers features such as dual-band Wi-Fi 6 (3x3/2x2), PoE, two Ethernet ports, and a mikroBUS expansion connector. **Priced at just over €110**, this router, ideal for advanced users, is tamper-proof and FCC compliant.
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 and Gigabit Ethernet RJ45 256 MiB SPI NAND Open Source Smart Router" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 ## Conclusion
 

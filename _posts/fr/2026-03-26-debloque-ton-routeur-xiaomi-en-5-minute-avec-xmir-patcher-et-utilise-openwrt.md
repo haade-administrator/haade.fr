@@ -166,7 +166,7 @@ Tu ne **possède pas de routeur** et tu ne sais lequel choisir, mais tu sais une
 
 Le 29 novembre 2024 marqua la sortie du routeur OpenWrt One, le premier routeur conçu pour vous offrir la possibilité de le réparer et une liberté logicielle totale. Équipé d'un SoC **MediaTek MT7981B**, il propose des fonctionnalités telles que le Wi-Fi 6 double bande (3×3/2×2), le PoE, deux ports Ethernet et un connecteur d'extension mikroBUS. **Proposé à un peu plus de 110€**, ce routeur, idéal pour les utilisateurs avertis, est inviolable et conforme aux normes FCC.
 
-{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 et Gigabit Ethernet RJ45 256 MiB SPI NAND routeur intelligent Open Source" amazlink="4dfavMl" affiliate="_c3c8vxkT" %}
+{% include product-embed.html image="openwrt-one-soutien-le-projet.png" title="Openwrt One" brand="Openwrt" description="Banana Pi OpenWrt One MediaTek MT7981B 1GB DDR4 2.5GbE RJ45 et Gigabit Ethernet RJ45 256 MiB SPI NAND routeur intelligent Open Source" amazlink="4dfavMl" affiliate="_c40mhtfd" %}
 
 ## Conclusion
 
