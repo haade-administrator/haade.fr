@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 06 May 2026 09:28:44 +0200</pubDate>
-    <lastBuildDate>Wed, 22 Apr 2026 12:30:00 +0200</lastBuildDate>
+    <pubDate>Wed, 06 May 2026 13:38:31 +0200</pubDate>
+    <lastBuildDate>Wed, 06 May 2026 13:30:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Tutos Openwrt, mode bridge AP, accès invité et protection du réseau</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Un tuto Openwrt qui reprend les paramétrages point d&apos;accès, guest mode, et adguardhome de façons fonctionnelles en utilisant l&apos;interface LUCI</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/175/tuto-openwrt-mode-bridge-ap-guest-et-protection-firewall-adguardhome-720-b9f60f684.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/175/tuto-openwrt-mode-bridge-ap-guest-et-protection-firewall-adguardhome-720-b9f60f684.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/175/tuto-openwrt-mode-bridge-ap-guest-et-protection-firewall-adguardhome-720-b9f60f684.png" alt="Tutos Openwrt, mode bridge AP, accès invité et protection du réseau">
+</picture>
+
+      <p>J’ai voulu rédiger un tuto récapitulatif car je me suis retrouvé confronté à plusieurs problème lors du paramétrage de mon routeur secondaire qui tourne avec Openwrt. J’ai fini par retrouver toutes les informations dans la doc officielle en y apportant quelques modifications. Et enfin dans cet article je reprends toute [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/openwrt-acces-point-guest-client-et-adguardhome-au-rendez-vous">Tutos Openwrt, mode bridge AP, accès invité et protection du réseau</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 06 May 2026 13:30:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/openwrt-acces-point-guest-client-et-adguardhome-au-rendez-vous</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/openwrt-acces-point-guest-client-et-adguardhome-au-rendez-vous</guid>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[NAS]]></category>
+      <category><![CDATA[News]]></category>
+    </item>
     <item>
       <title>Test camera Reolink Trackmix Poe - Service client à revoir 🤬</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -225,29 +248,6 @@
       <guid isPermaLink="true">https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion</guid>
       <category><![CDATA[News]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Box Home Assistant Yellow la fin</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Nabu Casa vient de l&apos;annoncer et décider d&apos;arrêter la box compute 4 Yellow</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/166/home-assistant-yellow-la-fin-720-742f3c555.png" alt="Box Home Assistant Yellow la fin">
-</picture>
-
-      <p>Zut ! Nabu Casa décide d’arrêter de produire la box la plus polyvalente du fabriquant la Yellow. En effet d’après le dernier post publié sur le blog officiel, les ventes de la Yellow sont en déclins! Ouf Bonne nouvelle, les mises à jours de compatibilité matériel seront maintenus !
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/home-assistant-yellow-la-fin">Box Home Assistant Yellow la fin</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 22 Oct 2025 09:07:00 +0200</pubDate>
-      <link>https://haade.fr/fr/blog/home-assistant-yellow-la-fin</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/home-assistant-yellow-la-fin</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

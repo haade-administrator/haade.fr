@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/fr/blog/openwrt-acces-point-guest-client-et-adguardhome-au-rendez-vous</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>fr</news:language>
+          </news:publication>
+          <news:publication_date>2026-05-06T13:30:00+02:00</news:publication_date>
+          <news:title>Tutos Openwrt, mode bridge AP, accès invité et protection du réseau</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/175/tuto-openwrt-mode-bridge-ap-guest-et-protection-firewall-adguardhome.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
