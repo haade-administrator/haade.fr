@@ -1357,6 +1357,18 @@ var documents = [{
         "title": "ZOOZ - Z-WAVE+ 800 USB CONTROLLER",
         "description": "20/07/2024 - All new Z-Wave 800 series long range radio USB key: incredible signal, ultra secure and fast network!",
         "tags": ""
+        },{
+        "id": 253,
+        "url": "/en/product/smlight-slzb-mr4u",
+        "title": "SMLight SLZB-MR4U",
+        "description": "06/03/2026 - Multi-protocol Zigbee and Thread USB Ethernet PoE adapter with EFR32MG26 and CC2674P10 chips.",
+        "tags": ""
+        },{
+        "id": 254,
+        "url": "/en/product/smlight-smhub-nano-mg24",
+        "title": "SMLight SMHUB NANO MG24",
+        "description": "07/05/2026 - Ultra-powerful standalone smart home hub with EFR32MG24 and ESP32-S3 chips, supporting Zigbee, Thread, and Matter.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {

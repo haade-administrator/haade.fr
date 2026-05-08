@@ -1452,6 +1452,18 @@ var documents = [{
         "title": "ZOOZ - CONTRÔLEUR USB Z-WAVE+ 800",
         "description": "20/07/2024 - Toute nouvelle clé USB radio longue portée Z-Wave série 800 : signal incroyable, réseau ultra sécurisé et rapide !",
         "tags": ""
+        },{
+        "id": 271,
+        "url": "/fr/produit/smlight-slzb-mr4u",
+        "title": "SMLight SLZB-MR4U",
+        "description": "06/03/2026 - Adaptateur USB Ethernet PoE multiprotocole Zigbee et Thread avec puces EFR32MG26 et CC2674P10.",
+        "tags": ""
+        },{
+        "id": 272,
+        "url": "/fr/produit/smlight-smhub-nano-mg24",
+        "title": "SMLight SMHUB NANO MG24",
+        "description": "07/05/2026 - Hub domotique indépendant ultra-puissant avec puces EFR32MG24 et ESP32-S3, supportant Zigbee, Thread et Matter.",
+        "tags": ""
         }];
 
 var idx = lunr(function () {
