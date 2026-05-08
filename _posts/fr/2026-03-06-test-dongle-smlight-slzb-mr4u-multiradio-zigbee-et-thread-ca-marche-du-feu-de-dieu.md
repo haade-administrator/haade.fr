@@ -207,4 +207,4 @@ L'intégration dans HA est propre je note néanmoins des dysfonctionnements au n
 
 ## Article Connexes
 
-{% include related-article.html guids="167,125" %}
+{% include related-article.html guids="176,125,167" %}

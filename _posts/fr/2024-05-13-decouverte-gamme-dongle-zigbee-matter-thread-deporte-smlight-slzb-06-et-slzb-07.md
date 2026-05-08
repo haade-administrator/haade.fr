@@ -253,3 +253,7 @@ SMLight sors actuellement des versions aux puces **Texas Instrument ou Silabs de
 ## Conclusion
 
 **Fonce, Fonce, Fonce.** Je n'ai rien à dire de plus sur le SMLight {{ page.ref }} à part de te dire de **l'acheter**, vu ses nombreuses fonctions tu auras une vison plus élargie de ton système domotique surtout en cas d'évolutions. *Presque tout fonctionne et même s'il y a une erreur ou un oubli les rectificatifs se feront rapidement.* Même le prix est intéressant moins de 40€ pour toutes ces options. **Perso je vais remplacer ma clé sonoff ZBDongle-P par le SMLIGHT SLZB06.**
+
+## Article Connexes
+
+{% include related-article.html guids="176,171" %}

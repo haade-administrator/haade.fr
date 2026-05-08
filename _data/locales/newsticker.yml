@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: BEGA joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/05/05/bega-joins-works-with-home-assistant/
-    image: "/images/blog/2026-05-bega/art.webp"
+    title: "2026.5 - We're on the same frequency now \U0001F4E1"
+    url: https://www.home-assistant.io/blog/2026/05/06/release-20265/
+    image: "/images/blog/2026-05/rf-config-flow.png"
   en_GB:
   - name: Home-Assistant
-    title: BEGA joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/05/05/bega-joins-works-with-home-assistant/
-    image: "/images/blog/2026-05-bega/art.webp"
+    title: "2026.5 - We're on the same frequency now \U0001F4E1"
+    url: https://www.home-assistant.io/blog/2026/05/06/release-20265/
+    image: "/images/blog/2026-05/rf-config-flow.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -29,10 +29,10 @@ Blog-Nord-Domotique:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: UGREEN Maxidok Thunderbolt 5 17-en-1  - le dock ultime avec SSD intégré
-      ? Mon verdict après 1 mois
-    url: https://www.maison-et-domotique.com/169313-ugreen-maxidok-thunderbolt-5-17-en-1-dock-ssd/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/04/test-ugreen-thunderbolt-station-702x392.jpg
+    title: Home Assistant 2026.5  - RF 433, maintenance centralisée et nouvelles cartes,
+      les nouveautés qui changent tout
+    url: https://www.maison-et-domotique.com/170049-home-assistant-2026-5/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/05/hhpa-sbxcai4rdi-463x500.jpeg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling

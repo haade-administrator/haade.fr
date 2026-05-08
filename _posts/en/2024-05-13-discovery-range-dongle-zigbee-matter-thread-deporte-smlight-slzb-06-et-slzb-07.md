@@ -253,3 +253,7 @@ SMLight is currently releasing chip versions **Texas Instrument or latest genera
 ## Conclusion
 
 **Go, Go, Go.** I have nothing more to say about the SMLight {{ page.ref }} other than to tell you to **buy it**, given its many functions you will have a broader vision of your home automation system, especially in the event of developments. *Almost everything works and even if there is an error or an oversight, corrections will be made quickly.* Even the price is interesting, less than €40 for all these options. **Personally I am going to replace my Sonoff ZBDongle-P key with the SMLIGHT SLZB06.**
+
+## Related Articles
+
+{% include related-article.html guids="176,171" %}

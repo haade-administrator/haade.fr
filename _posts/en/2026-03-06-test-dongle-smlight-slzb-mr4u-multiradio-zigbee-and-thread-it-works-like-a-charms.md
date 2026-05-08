@@ -207,4 +207,4 @@ The integration into HA is clean, however I note some malfunctions in the report
 
 ## Related Articles
 
-{% include related-article.html guids="167,125" %}
+{% include related-article.html guids="176,125,167" %}
