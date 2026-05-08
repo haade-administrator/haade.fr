@@ -2,7 +2,7 @@
 guid: 176
 title: "Test SMLIGHT SMHUB NANO : Le hub domotique Linux totalement indépendant"
 description: "Découverte du SMHUB NANO de SMLIGHT, un micro-serveur sous Linux capable de faire tourner Zigbee2MQTT, Node-RED et Matterbridge en local sans serveur central."
-ref: "SMHUB-NANO"
+ref: "SMHUB-NANO-MG24"
 layout: post
 authors: [Nico]
 date: 2026-05-07 21:55
