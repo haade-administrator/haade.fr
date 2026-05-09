@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Zigbee, Home-Assistant]
 tags: [SMLIGHT, Matter, Thread, Zigbee]
 video: 
-image: 'smlight-smhub-nano-hub-domotique-standalone.png'
+image: 'smhub-nano-le-premier-hub-smlight-100%-linux-et-autonome.png'
 toc: true
 beforetoc: ''
 published: false
