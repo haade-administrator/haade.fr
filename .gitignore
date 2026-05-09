@@ -12,6 +12,7 @@ _site
 .bundle/
 vendor/bundle
 node_modules
+astro-haade
 # banner.js
 # package.json
 # package-lock.json
