@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/test-smlight-smhub-nano-le-hub-domotique-independant</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-07-08T15:00:00+02:00</news:publication_date>
+          <news:title>SMLIGHT SMHUB NANO Review: The fully independent Linux smart home hub</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/176/smhub-nano-the-first-smlight-hub-100%-linux-and-standalone.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 

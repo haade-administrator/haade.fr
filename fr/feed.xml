@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Jul 2026 07:22:32 +0200</pubDate>
-    <lastBuildDate>Wed, 06 May 2026 13:30:00 +0200</lastBuildDate>
+    <pubDate>Wed, 08 Jul 2026 16:14:44 +0200</pubDate>
+    <lastBuildDate>Wed, 08 Jul 2026 15:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,33 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test SMLIGHT SMHUB NANO : Le hub domotique Linux totalement indépendant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Découverte du SMHUB NANO de SMLIGHT, un micro-serveur sous Linux capable de faire tourner Zigbee2MQTT, Node-RED et Matterbridge en local sans serveur central.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/176/smhub-nano-le-premier-hub-smlight-100%25-linux-et-autonome-720-924ff0396.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/176/smhub-nano-le-premier-hub-smlight-100%25-linux-et-autonome-720-924ff0396.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/176/smhub-nano-le-premier-hub-smlight-100%25-linux-et-autonome-720-924ff0396.png" alt="Test SMLIGHT SMHUB NANO : Le hub domotique Linux totalement indépendant">
+</picture>
+
+      <p>Après avoir testé le dongle multiradio SLZB-MR4U, je reviens vers la marque SMLIGHT pour un produit radicalement différent mais tout aussi excitant : le SMHUB NANO.
+</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-smlight-smhub-nano-le-hub-domotique-independant">Test SMLIGHT SMHUB NANO : Le hub domotique Linux totalement indépendant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 08 Jul 2026 15:00:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-smlight-smhub-nano-le-hub-domotique-independant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-smlight-smhub-nano-le-hub-domotique-independant</guid>
+      <category><![CDATA[SMLIGHT]]</category>
+      <category><![CDATA[Matter]]</category>
+      <category><![CDATA[Thread]]</category>
+      <category><![CDATA[Zigbee]]</category>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Zigbee]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Tutos Openwrt, mode bridge AP, accès invité et protection du réseau</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -226,28 +253,6 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Fusion, les interrupteurs modulaires Sonoff</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Présentation des interrupteurs modulaires Sonoff pour MINI-RBS, ZBMINIL2 et MINI EXTREME</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/165/Nouveau-interrupteurs-modulaires-fusion-sonoff-720-2f0f1eafc.png" alt="Fusion, les interrupteurs modulaires Sonoff">
-</picture>
-
-      <p>Après la création des interrupteurs murales, Shelly wall switch compatible avec leurs micromodules, Sonoff emboite le pas dans cet univers et crée la gamme Fusion, des boitiers interrupteurs compatibles avec les micromodules de la gamme, proche du design des interrupteurs Siemens grands publics du marché.
-</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion">Fusion, les interrupteurs modulaires Sonoff</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 08 Nov 2025 08:05:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/Nouveaut%C3%A9e-Sonoff-les-interrupteurs-modulaires-s%C3%A9rie-fusion</guid>
-      <category><![CDATA[News]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
