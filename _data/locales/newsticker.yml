@@ -5,37 +5,43 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: "2026.5 - We're on the same frequency now \U0001F4E1"
-    url: https://www.home-assistant.io/blog/2026/05/06/release-20265/
-    image: "/images/blog/2026-05/rf-config-flow.png"
+    title: Companion app - Changing support for Apple platforms
+    url: https://www.home-assistant.io/blog/2026/07/07/companion-app-changing-support-for-apple-platforms/
+    image: "/images/blog/2026-07-companion-app-changing-support-for-apple-platforms/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: "2026.5 - We're on the same frequency now \U0001F4E1"
-    url: https://www.home-assistant.io/blog/2026/05/06/release-20265/
-    image: "/images/blog/2026-05/rf-config-flow.png"
+    title: Companion app - Changing support for Apple platforms
+    url: https://www.home-assistant.io/blog/2026/07/07/companion-app-changing-support-for-apple-platforms/
+    image: "/images/blog/2026-07-companion-app-changing-support-for-apple-platforms/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Test du module Shelly wave 1 mini ZWave Plus Long Range contact sec
-    url: https://blog.domadoo.fr/113824-shelly-wave-1mini-zwaveplus-lr/
-    image: https://blog.domadoo.fr/wp-content/uploads/2026/04/Shelly-wave-1-mini-zwave-plus-lr-s800-contact-sec-1080x675-PRES-1024x640.webp
+    title: Ventilateur silencieux et intelligent sur pied Switchbot BLE
+    url: https://blog.domadoo.fr/113993-ventilateur-silencieux-smart-switchbot-ble/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/06/Switchbot_ventilateur_intelligent_silencieux_ble_sur_pied_W3800520_1080x675_PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test robot tondeuse YARDCARE N1600 Pro  - un robot sans fil périphérique
-      à moins de 800 € vraiment intéressant ?
-    url: https://blog.nord-domotique.com/test-robot-tondeuse-yardcare-n1600-pro/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/05/capture-decran-2026-05-04-a-15.23.55.jpg?fit=300%2C140&ssl=1
+    title: Test du UGREEN NASync DXP4800 Pro  - le NAS qui veut bousculer Synology
+      ?
+    url: https://blog.nord-domotique.com/test-ugreen-nasync-dxp4800-pro/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/07/ugreen-nassync-dxp4800-pro-7110.jpg?fit=300%2C225&ssl=1
+Abavala:
+  fr_FR:
+  - name: Abavala
+    title: Hub IA  - SwitchBot dévoile un assistant domestique qui voit, comprend…
+      et agit !
+    url: https://www.abavala.com/hub-ia-switchbot-devoile-un-assistant-domestique-qui-voit-comprend-et-agit/
+    image: https://www.abavala.com/wp-content/uploads/AI_Hub_entete.jpg
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Home Assistant 2026.5  - RF 433, maintenance centralisée et nouvelles cartes,
-      les nouveautés qui changent tout
-    url: https://www.maison-et-domotique.com/170049-home-assistant-2026-5/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/05/hhpa-sbxcai4rdi-463x500.jpeg
+    title: Préparer un chantier de rénovation  - étapes essentielles
+    url: https://www.maison-et-domotique.com/171679-preparer-un-chantier-de-renovation-etapes-essentielles/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/07/titre-renovation-assurance-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: HomePod mini feels like magic, but it's just good timing
-    url: https://www.jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic--but-it-s-just-good-timing/
-    image: https://www.jeffgeerling.com/blog/2026/homepod-mini-feels-like-magic--but-it-s-just-good-timing/homepod-minis-stereo-pair-iphone-playing-music.jpg
+    title: Quickly apply LUTs (color grading) with ffmpeg
+    url: https://www.jeffgeerling.com/blog/2026/apply-lut-color-grade-with-ffmpeg/
+    image:

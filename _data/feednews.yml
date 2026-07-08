@@ -30,10 +30,6 @@
   feed: https://www.jeffgeerling.com/blog.xml
   lang: en_GB
 
-- name: Matter
-  feed: https://csa-iot.org/feed/
-  lang: en_GB
-
 - name: Kincony
   feed: https://www.kincony.com/feed/
   lang: en_GB
