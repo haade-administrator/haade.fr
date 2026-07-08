@@ -27,13 +27,13 @@ sourcelink:
   - https://github.com/smlight-tech/smhub-flasher
 ---
 
-After testing the [SLZB-MR4U multi-radio dongle]({% post_url /fr/2026-03-06-test-dongle-smlight-slzb-mr4u-multiradio-zigbee-and-thread-it-works-like-a-charms %}), I’m turning back to the SMLIGHT brand for a radically different yet equally exciting product: the **{{ page.ref }}**.
+After testing the [SLZB-MR4U multi-radio dongle]({% post_url /en/2026-03-06-test-dongle-smlight-slzb-mr4u-multiradio-zigbee-and-thread-it-works-like-a-charms %}), I’m turning back to the SMLIGHT brand for a radically different yet equally exciting product: the **{{ page.ref }}**.
 
 **Unlike the brand's other products**, which are essentially Zigbee/Thread coordinators, the {{ page.ref }} is a genuine **standalone micro-server** based on Buildroot Linux and named SMHUB-OS. The concept is simple: host your home automation software directly on the hub to eliminate reliance on a central Home Assistant server or the cloud for critical automations.
 
 > This represents a minor revolution for decentralized installations or remote sites!
 
-{% include product-embed.html image="smhub-nano-mg24-shop-link.png" title="SMHUB NANO MG24" (SMLight) – Standalone Linux home automation hub featuring the EFR32MG24 chip, supporting Zigbee2MQTT, Node-RED, and Matterbridge." domlink="produits-de-domotique/8664-smlight-smhub-nano-mg24-hub-sous-linux-zigbee2mqtt-node-red-et-matterbridge.html" amazlink="4nrnP3i" %}
+{% include product-embed.html image="smhub-nano-mg24-shop-link.png" title="SMHUB NANO MG24" brand="SMLight" description="(SMLight) – Standalone Linux home automation hub featuring the EFR32MG24 chip, supporting Zigbee2MQTT, Node-RED, and Matterbridge." domlink="produits-de-domotique/8664-smlight-smhub-nano-mg24-hub-sous-linux-zigbee2mqtt-node-red-et-matterbridge.html" amazlink="4nrnP3i" %}
 
 ## Unboxing the {{ page.ref }}
 
