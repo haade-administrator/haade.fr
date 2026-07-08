@@ -15,7 +15,7 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 08 Jul 2026 16:14:44 +0200</pubDate>
+    <pubDate>Wed, 08 Jul 2026 16:26:17 +0200</pubDate>
     <lastBuildDate>Wed, 08 Jul 2026 15:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
@@ -51,6 +51,7 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Videos]]></category>
     </item>
     <item>
       <title>OpenWrt tutorials, AP bridge mode, guest access, and network protection</title>
@@ -164,6 +165,7 @@
       <category><![CDATA[Tests]]></category>
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Videos]]></category>
     </item>
     <item>
       <title>Easily outsource your Home Assistant backup</title>
