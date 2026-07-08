@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2026-07-08 15:00
 last_modified_at: 
-categories: [Tests, Zigbee, Home-Assistant]
+categories: [Tests, Zigbee, Home-Assistant, Videos]
 tags: [SMLIGHT, Matter, Thread, Zigbee]
 video: 
 image: 'smhub-nano-the-first-smlight-hub-100%-linux-and-standalone.png'
@@ -33,7 +33,7 @@ After testing the [SLZB-MR4U multi-radio dongle]({% post_url /en/2026-03-06-test
 
 > This represents a minor revolution for decentralized installations or remote sites!
 
-{% include product-embed.html image="smhub-nano-mg24-shop-link.png" title="SMHUB NANO MG24" brand="SMLight" description="(SMLight) – Standalone Linux home automation hub featuring the EFR32MG24 chip, supporting Zigbee2MQTT, Node-RED, and Matterbridge." domlink="produits-de-domotique/8664-smlight-smhub-nano-mg24-hub-sous-linux-zigbee2mqtt-node-red-et-matterbridge.html" amazlink="4nrnP3i" %}
+{% include product-embed.html image="smhub-nano-mg24-shop-link.png" title="SMHUB NANO MG24" brand="SMLight" description="(SMLight) – Standalone Linux home automation hub featuring the EFR32MG24 chip, supporting Zigbee2MQTT, Node-RED, and Matterbridge." domlink="produits-de-domotique/8664-smlight-smhub-nano-mg24-hub-sous-linux-zigbee2mqtt-node-red-et-matterbridge.html" %}
 
 ## Unboxing the {{ page.ref }}
 

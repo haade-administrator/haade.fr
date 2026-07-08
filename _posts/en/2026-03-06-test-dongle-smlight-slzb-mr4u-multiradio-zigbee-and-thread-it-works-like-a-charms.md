@@ -7,7 +7,7 @@ layout: post
 authors: [Nico]
 date: 2026-03-06 15:49
 last_modified_at: 
-categories: [Tests, Zigbee, Home-Assistant]
+categories: [Tests, Zigbee, Home-Assistant, Videos]
 tags: []
 video: 
 image: 'smlight-multiradio-zigbee-et-thread-ca-marche-test-slzb-mr4u.png'
