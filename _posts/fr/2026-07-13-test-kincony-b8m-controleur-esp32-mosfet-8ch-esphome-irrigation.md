@@ -713,6 +713,8 @@ Maintenant comparons le {{ page.ref }} avec son concurrent le plus direct : le *
 
 {%- include alert.html type="warning" text="<b>Différence fondamentale :</b> le Kincony B8M utilise des <b>sorties MOSFET</b> (DC uniquement, silencieuses) tandis que le Waveshare utilise des <b>relais mécaniques</b> (AC et DC, avec cliquetis). Ce choix impacte directement les cas d'usage !" %}
 
+{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="Module de relais WiFi industriel ESP32-S3 à 8 canaux, avec interface CAN isolée intégrée, processeur Xtensa 32 bits LX7 double cœur et multiples circuits de protection par isolation." affiliate="_c32q2aKj" amazlink="4yoMRFk"  %}
+
 ### Tableau comparatif détaillé
 
 |Caractéristique|**Kincony B8M**|**Waveshare ESP32-S3-ETH-8DI-8RO**|
