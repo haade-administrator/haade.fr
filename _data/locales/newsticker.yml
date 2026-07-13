@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Companion app - Changing support for Apple platforms
-    url: https://www.home-assistant.io/blog/2026/07/07/companion-app-changing-support-for-apple-platforms/
-    image: "/images/blog/2026-07-companion-app-changing-support-for-apple-platforms/art.webp"
+    title: IoTorero joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/07/09/iotorero-joins-works-with-home-assistant/
+    image: "/images/blog/2026-07-iotorero/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: Companion app - Changing support for Apple platforms
-    url: https://www.home-assistant.io/blog/2026/07/07/companion-app-changing-support-for-apple-platforms/
-    image: "/images/blog/2026-07-companion-app-changing-support-for-apple-platforms/art.webp"
+    title: IoTorero joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/07/09/iotorero-joins-works-with-home-assistant/
+    image: "/images/blog/2026-07-iotorero/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -36,12 +36,13 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Préparer un chantier de rénovation  - étapes essentielles
-    url: https://www.maison-et-domotique.com/171679-preparer-un-chantier-de-renovation-etapes-essentielles/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/07/titre-renovation-assurance-702x468.jpg
+    title: Test Aecooly Cold Air Ultra  - un ventilateur de poche surpuissant avec
+      brume fraîche intégrée
+    url: https://www.maison-et-domotique.com/171857-test-aecooly-cold-air-ultra-ventilateur-de-poche-surpuissant-avec-brumisateur/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/07/titre-test-aecooly-cold-air-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Quickly apply LUTs (color grading) with ffmpeg
-    url: https://www.jeffgeerling.com/blog/2026/apply-lut-color-grade-with-ffmpeg/
-    image:
+    title: QuadRF can spot drones and see WiFi through my wall
+    url: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/
+    image: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/quadrf-antennna-array.jpeg

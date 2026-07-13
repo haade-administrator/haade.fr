@@ -232,16 +232,16 @@ tiktok:
 compresser en 2 passes un mp4 en  libx264 pour être visible dans tous les navigateurs
 
 {% highlight shell %}
-ffmpeg -y -i Kazam_screencast_00000.mp4 \
-       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-1 -movflags +faststart -pass 1 \
+ffmpeg -y -i camera-parking_1783661130-209907-zuzi55_2026-07-10-07-25-30.mp4 \
+       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-2 -movflags +faststart -pass 1 \
        -c:a aac -b:a 128k -f mp4 /dev/null && \
-ffmpeg -i Kazam_screencast_00000.mp4 \
-       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-1 -movflags +faststart -pass 2 \
+ffmpeg -i camera-parking_1783661130-209907-zuzi55_2026-07-10-07-25-30.mp4 \
+       -c:v libx264 -preset slow -b:v 600k -vf scale=940:-2 -movflags +faststart -pass 2 \
        -c:a aac -b:a 128k \
-       /home/nicolas/Dépotgit/haade/assets/images/posts/148/controle-fonctions-homeassistant-voice-pe-grace-a-esphome.mp4 -y
-{% endhighlight %}
+       /home/nicolas/Depotgit/haade.fr/assets/images/posts/177/camera-parking_1783661130-209907-zuzi55_2026-07-10-07-25-30.mp4 -y
+{% endhighlight %}       
+       -vf scale=940:-1 -pix_fmt yuv420p -c:a aac -b:a 128k
 
--vf scale=940:-1 -pix_fmt yuv420p -c:a aac -b:a 128k
 
 #### ratio/taille Top 16:9 Resolutions
 
