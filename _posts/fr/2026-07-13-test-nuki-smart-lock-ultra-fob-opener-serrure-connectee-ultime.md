@@ -271,7 +271,7 @@ Un appui sur le bouton et la porte se déverrouille. C'est **idéal pour** :
 
 En cas de perte, l'autorisation peut être **révoquée instantanément** depuis l'application Nuki.
 
-{% include product-embed.html image="nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki.png" title="Nuki Fob" brand="Nuki" description="Télécommande Bluetooth Nuki Fob pour Smart Lock, portée 15m, chiffrement bout-en-bout, pile CR1632" amazlink="44qWci0" domlink="/controle-acces/4399-nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki-9120072084058.html" %}
+{% include product-embed.html image="nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki.png" title="Nuki Fob" brand="Nuki" description="Télécommande Bluetooth Nuki Fob pour Smart Lock, portée 15m, chiffrement bout-en-bout, pile CR1632" amazlink="44qWci0" domlink="controle-acces/4399-nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki-9120072084058.html" %}
 
 #### **les + du produit** Nuki Fob
 {: .blue}
@@ -483,7 +483,7 @@ Pour tous les autres cas, **la {{ page.ref }} est le meilleur choix**.
 
 > Un pack complet **Ultra + Keypad 2.0** revient à environ **508€**. C'est un investissement conséquent, mais si tu fais de la location saisonnière, le ROI est rapide : plus de serrurerie, plus de clés perdues, plus de déplacements pour les check-in.
 
-{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" amazlink="4wLkrnj" domlink="/controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" amazlink="4wLkrnj" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
 
 ## Conclusion
 
