@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 13 Jul 2026 07:38:37 +0200</pubDate>
-    <lastBuildDate>Wed, 08 Jul 2026 15:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 13 Jul 2026 08:24:42 +0200</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2026 08:00:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Dahua SD1A404DB-GNY the full option PTZ camera in Frigate</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test and integration of the Dahua SD1A404DB-GNY 4MP WizSense PTZ camera in Frigate with autotracking and Home Assistant, full technical specifications and PTZ functions</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/177/test-camera-ptz-dahua-sd1a404db-gny-frigate-home-assistant-en-720-8f0e6624e.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/177/test-camera-ptz-dahua-sd1a404db-gny-frigate-home-assistant-en-720-8f0e6624e.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/177/test-camera-ptz-dahua-sd1a404db-gny-frigate-home-assistant-en-720-8f0e6624e.png" alt="Dahua SD1A404DB-GNY the full option PTZ camera in Frigate">
+</picture>
+
+      <p>Following my Reolink Trackmix Poe camera test, I mentioned having found my ideal camera with a Dahua model. Well, here we are! Let me introduce the Dahua SD1A404DB-GNY, a compact 4MP PTZ camera from the WizSense range that ticks all the boxes for a perfect integration into Frigate and Home [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate">Dahua SD1A404DB-GNY the full option PTZ camera in Frigate</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 13 Jul 2026 08:00:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>SMLIGHT SMHUB NANO Review: The fully independent Linux smart home hub</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -234,29 +256,6 @@
       <category><![CDATA[NAS]]></category>
       <category><![CDATA[Mini-tutos]]></category>
       <category><![CDATA[Haade-lab]]></category>
-    </item>
-    <item>
-      <title>Discover the Dongles Plus and Max Sonoff</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Let&apos;s examine and test together the new Sonoff Plus and Max dongles based on efr32mg24 chips, including a multipan test.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/167/test-of-new-dongles-sonoff-plus-and-max-efr32mg24-720-e1440474d.png" alt="Discover the Dongles Plus and Max Sonoff">
-</picture>
-
-      <p>In the ever-growing world of Zigbee dongles based on Silabs EFR32 chips, Sonoff presents its two new dongles: Plus and Max.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff">Discover the Dongles Plus and Max Sonoff</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Sat, 20 Dec 2025 18:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/discovery-of-the-new-dongle-plus-et-mag-efr32mg24-zigbbe-by-sonoff</guid>
-      <category><![CDATA[Tests]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

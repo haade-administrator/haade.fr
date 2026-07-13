@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-07-13T08:00:00+02:00</news:publication_date>
+          <news:title>Dahua SD1A404DB-GNY the full option PTZ camera in Frigate</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/177/test-camera-ptz-dahua-sd1a404db-gny-frigate-home-assistant-en.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/test-smlight-smhub-nano-le-hub-domotique-independant</loc>
         <news:news>
           <news:publication>
