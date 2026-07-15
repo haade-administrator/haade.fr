@@ -1,7 +1,7 @@
 ---
 guid: 179
-title: "Test Nuki Smart Lock Ultra, Fob et Opener la serrure connectée ultime"
-description: "Test complet de la serrure connectée Nuki Smart Lock Ultra avec le Fob et l'Opener, intégration Home Assistant via Matter et MQTT, services Airbnb et location saisonnière, comparatif avec la Tedee Go"
+title: "Test Nuki Smart Lock Ultra, Fob et Door Sensor la serrure connectée ultime"
+description: "Test complet de la serrure connectée Nuki Smart Lock Ultra avec le Fob et le Door Sensor, intégration Home Assistant via Matter et MQTT, services Airbnb et location saisonnière, comparatif avec la Tedee Go"
 ref: "Nuki Smart Lock Ultra"
 layout: post
 authors: [Nico]
@@ -31,7 +31,7 @@ sourcelink:
   - https://www.home-assistant.io/integrations/nuki/
 ---
 
-Il y a quelque temps j'ai testé la [serrure connectée Tedee Go et ses accessoires]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}). Le produit m'avait laissé un **goût d'inachevé** : bruyante (70dB !), énergivore et limitée en connectivité. Aujourd'hui je m'attaque à ce qui se fait de mieux sur le marché européen : la **{{ page.ref }}**. Et je ne viens pas seul, j'ai aussi le **Nuki Fob** (télécommande Bluetooth) et le **Nuki Opener** (pour ouvrir la porte de l'immeuble).
+Il y a quelque temps j'ai testé la [serrure connectée Tedee Go et ses accessoires]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}). Le produit m'avait laissé un **goût d'inachevé** : bruyante (70dB !), énergivore et limitée en connectivité. Aujourd'hui je m'attaque à ce qui se fait de mieux sur le marché européen : la **{{ page.ref }}**. Et je ne viens pas seul, j'ai aussi le **Nuki Fob** (télécommande Bluetooth) et le **Nuki Door Sensor** (capteur d'ouverture de porte).
 
 Après plusieurs semaines d'utilisation quotidienne, je peux te dire que **Nuki a placé la barre très haut**. Moteur brushless ultra-rapide, design compact en acier inoxydable, WiFi + Thread/Matter + MQTT intégrés, pas besoin de bridge... **c'est probablement la serrure connectée la plus complète du marché.** Mais est-ce que ça justifie les 349€ ? C'est ce qu'on va voir ensemble.
 
@@ -290,53 +290,55 @@ En cas de perte, l'autorisation peut être **révoquée instantanément** depuis
 - Un seul bouton (pas de feedback visuel)
 - Pas de localisation GPS en cas de perte
 
-## Le Nuki Opener
+## Le Nuki Door Sensor
 
-Le **Nuki Opener** est le complément parfait si tu habites en **appartement**. Il se branche sur ton **interphone** existant et permet d'ouvrir la porte de l'immeuble à distance ou automatiquement.
+Le **Nuki Door Sensor** est le complément idéal de la Smart Lock Ultra. Ce petit capteur se fixe **à l'intérieur de ta porte** et permet de savoir en temps réel si la porte est **ouverte, fermée ou verrouillée**. C'est un accessoire que je considère comme indispensable pour une installation complète.
 
-{% picture posts/{{ page.guid }}/nuki-opener-interphone-immeuble.png --alt Nuki Opener installé sur un interphone pour ouvrir la porte d'immeuble --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/nuki-door-sensor-capteur-ouverture-porte.png --alt Nuki Door Sensor capteur d'ouverture de porte installé --img width="940" height="529" %}
 
-### Caractéristiques de l'Opener
+### Caractéristiques du Door Sensor
 
-|Dimensions|70 × 70 × 25 mm|
-|Poids|~115 g|
-|Communication|Bluetooth 5.0|
-|Alimentation|4× piles AAA OU Micro-USB 5V (permanent)|
-|Compatibilité|Interphones jusqu'à 50V AC/DC, 2A|
-|Autorisations|Jusqu'à 200|
+|Dimensions|Compact (se fixe sur le cadre de porte)|
+|Communication|Bluetooth Low Energy|
+|Alimentation|Pile (longue durée)|
+|Installation|Adhésif 3M (pas de perçage, pas de vis)|
+|Compatibilité|Nuki Smart Lock 3.0 et supérieur (dont Ultra)|
+|Usage|Intérieur uniquement|
+|Couleur|Blanc|
 
 ### Fonctionnalités
 
-Le Nuki Opener offre des fonctions vraiment pratiques :
+Le Door Sensor remonte des informations précieuses :
 
-- **Ring to Open** : quand quelqu'un sonne, la porte de l'immeuble s'ouvre automatiquement (plages horaires configurables)
-- **Auto Unlock** : s'ouvre quand tu approches (comme la Smart Lock)
-- **Mode continu** : ouvre à chaque sonnerie (idéal pour les événements, déménagements)
-- **Suppression de sonnerie** : coupe le son de l'interphone via l'app (pratique quand bébé dort)
-- **Journal d'activité** : qui a sonné et quand
+- **État de la porte** : ouverte ou fermée, en temps réel dans l'application Nuki
+- **Détection de verrouillage** : sait si la porte est verrouillée (pas juste fermée)
+- **Notifications intelligentes** : alerte si la porte reste ouverte trop longtemps
+- **Détection de sabotage** : alerte en cas de tentative de retrait du capteur
+- **Historique** : journal complet des ouvertures/fermetures
 
-{%- include alert.html type="warning" text="Le Nuki Opener ne gère <b>pas le son bidirectionnel</b>. Tu ne peux pas parler avec le visiteur depuis ton smartphone. C'est un buzzeur intelligent, pas un interphone connecté." %}
+{%- include alert.html type="info" text="Le Door Sensor améliore la fiabilité de l'<b>Auto Lock</b>. Sans lui, la Smart Lock verrouille après un délai fixe. Avec le Door Sensor, elle ne verrouille <b>que quand la porte est effectivement fermée</b>, évitant de verrouiller sur une porte entrouverte." %}
 
-> Vérifie bien la **compatibilité de ton interphone** sur le site Nuki avant d'acheter. Le Opener ne fonctionne pas avec tous les systèmes.
+> C'est un détail qui change tout au quotidien : tu sais en un coup d'œil dans Home Assistant si ta porte est ouverte, fermée ou verrouillée. Et les automatisations deviennent bien plus fiables.
 
-{% include product-embed.html image="nuki-opener-interphone.png" title="Nuki Opener" brand="Nuki" description="Nuki Opener pour interphone, ouvre la porte d'immeuble automatiquement, Ring to Open, Bluetooth 5.0" amazlink="" %}
+{% include product-embed.html image="nuki-door-sensor.png" title="Nuki Door Sensor" brand="Nuki" description="Nuki Door Sensor, capteur d'ouverture de porte Bluetooth, détection ouverte/fermée/verrouillée, installation adhésive sans perçage" amazlink="" %}
 
-#### **les + du produit** Nuki Opener
+#### **les + du produit** Nuki Door Sensor
 {: .blue}
 
-- Ring to Open avec plages horaires
-- Suppression de sonnerie
-- Installation DIY (~15 minutes)
-- Mode continu pour événements
-- Double alimentation (piles ou USB)
+- État porte ouverte/fermée/verrouillée en temps réel
+- Améliore la fiabilité de l'Auto Lock
+- Détection de sabotage intégrée
+- Installation ultra simple (adhésif, pas de perçage)
+- Notifications si porte restée ouverte
+- Petit et discret
 
-#### **les - du produit** Nuki Opener
+#### **les - du produit** Nuki Door Sensor
 {: .red}
 
-- Pas d'interphonie bidirectionnelle (pas de son)
-- Nécessite le Nuki Bridge pour l'accès à distance
-- Compatibilité interphone à vérifier
-- Installation filaire sur l'interphone
+- Usage intérieur uniquement
+- Bluetooth uniquement (nécessite la Smart Lock à proximité)
+- Adhésif qui peut se décoller sur certaines surfaces
+- Prix ~59€ pour un capteur de porte
 
 ## Le Nuki Keypad 2.0 (accessoire clé)
 
@@ -477,7 +479,7 @@ Pour tous les autres cas, **la {{ page.ref }} est le meilleur choix**.
 |**Nuki Smart Lock Ultra**|~349€|
 |**Nuki Smart Lock Pro 5** (garde le cylindre)|~289€|
 |**Nuki Fob**|~49€|
-|**Nuki Opener**|~119€|
+|**Nuki Door Sensor**|~59€|
 |**Nuki Keypad 2.0**|~159€|
 |**Nuki Bridge** (non nécessaire avec Ultra)|~99€|
 
@@ -489,7 +491,7 @@ Pour tous les autres cas, **la {{ page.ref }} est le meilleur choix**.
 
 La **{{ page.ref }}** mérite son nom. C'est aujourd'hui **la serrure connectée la plus aboutie du marché européen**. Le moteur brushless est une vraie révolution : rapide, silencieux en mode Gentle, et durable. Le WiFi, Thread/Matter et MQTT intégrés font de cette serrure un **rêve pour les utilisateurs Home Assistant** — plus besoin de bridge, tout est local et instantané.
 
-Là où [la Tedee Go m'avait déçu]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}) sur le bruit et la connectivité, la {{ page.ref }} **comble toutes les lacunes**. Le design en acier inoxydable est premium, l'application est exemplaire, et l'écosystème d'accessoires (Fob, Opener, Keypad) couvre tous les besoins.
+Là où [la Tedee Go m'avait déçu]({% post_url /fr/2024-04-22-test-de-la-serrure-connectee-tedee-go-et-des-accessoires %}) sur le bruit et la connectivité, la {{ page.ref }} **comble toutes les lacunes**. Le design en acier inoxydable est premium, l'application est exemplaire, et l'écosystème d'accessoires (Fob, Door Sensor, Keypad) couvre tous les besoins.
 
 Les points de friction existent : le **prix** (349€), le **changement de cylindre obligatoire** et le **câble de charge propriétaire** sont les critiques les plus légitimes. Mais ces compromis sont largement compensés par la qualité globale du produit.
 

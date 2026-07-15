@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Domotique, Home-Assistant, Haade-lab]
 tags: []
 video: 
-image: 'test-kincony-b8m-esp32-s3-mosfet-8ch-esphome-home-assistant-irrigation.png'
+image: 'test-kincony-b8m-mosfet-centre-irrigation-intelligent.png'
 toc: true
 beforetoc: ''
 published: false
@@ -54,11 +54,11 @@ Le {{ page.ref }} est livré dans un **boîtier DIN-rail en plastique ABS** prê
 - un câble USB-C pour la programmation
 - une notice rapide avec les schémas de câblage
 
-{% picture posts/{{ page.guid }}/deballage-kincony-b8m-esp32-mosfet.png --alt déballage du contrôleur Kincony B8M ESP32-S3 8 canaux MOSFET --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/deballage-kincony-b8m-esp32-mosfet.png --alt déballage du contrôleur Kincony B8M ESP32-S3 8 canaux MOSFET --img width="940" height="687" %}
 
 La première impression est celle d'un produit **sérieux et bien fini**. Le boîtier DIN-rail est compact et robuste, les borniers à vis sont bien identifiés et de bonne qualité. On sent un produit conçu pour un usage professionnel.
 
-{% picture posts/{{ page.guid }}/detail-connecteurs-kincony-b8m.png --alt détail des connecteurs et borniers du Kincony B8M --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/detail-connecteurs-kincony-b8m.png --alt détail des connecteurs et borniers du Kincony B8M --img width="940" height="932" %}
 
 Les dimensions sont compactes : **122 × 83 × 59 mm**, parfait pour s'intégrer dans un tableau électrique aux côtés de l'alimentation 24V.
 
@@ -66,7 +66,7 @@ Les dimensions sont compactes : **122 × 83 × 59 mm**, parfait pour s'intégrer
 
 Le {{ page.ref }} est bâti autour d'un **ESP32-S3-WROOM-1U (N16R8)** avec 16MB de Flash et 8MB de PSRAM, ce qui en fait un module puissant capable de gérer de nombreuses entités ESPHome sans broncher.
 
-{% picture posts/{{ page.guid }}/circuit-imprime-kincony-b8m-composants.png --alt circuit imprimé du Kincony B8M avec les composants identifiés --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/circuit-imprime-kincony-b8m-composants.png --alt circuit imprimé du Kincony B8M avec les composants identifiés --img width="940" height="627" %}
 
 ### Ce qui est embarqué
 
@@ -164,7 +164,7 @@ Mon système d'irrigation fonctionne avec des **électrovannes 24V DC**, c'est l
 5. **RTC DS3231** : les planifications fonctionnent même si Home Assistant ou le réseau tombe
 6. **Ethernet** : connexion filaire fiable, pas de problème WiFi dans le jardin
 
-{% picture posts/{{ page.guid }}/schema-cablage-irrigation-kincony-b8m.png --alt schéma de câblage du système d'irrigation avec le Kincony B8M et les électrovannes 24V --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/schema-cablage-irrigation-kincony-b8m.png --alt schéma de câblage du système d'irrigation avec le Kincony B8M et les électrovannes 24V --img width="717" height="649" %}
 
 > L'alimentation 24V DC qui alimente le {{ page.ref }} alimente aussi directement les électrovannes via les sorties MOSFET. Un seul câble d'alimentation et un câble Ethernet, le reste c'est du câblage d'électrovannes. Ultra simple.
 
@@ -678,7 +678,7 @@ Une fois le firmware flashé, le {{ page.ref }} est **automatiquement découvert
 - 8 capteurs binaires (entrées)
 - 4 capteurs analogiques (humidité sol, pression, débit)
 
-{% picture posts/{{ page.guid }}/integration-esphome-kincony-b8m-home-assistant-entites.png --alt intégration ESPHome du Kincony B8M dans Home Assistant avec toutes les entités --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/integration-esphome-kincony-b8m-home-assistant-entites.png --alt intégration ESPHome du Kincony B8M dans Home Assistant avec toutes les entités --img width="940" height="658" %}
 
 {% include homeassistantlink.html integration="esphome" %}
 
@@ -691,7 +691,64 @@ Grâce aux entités remontées dans Home Assistant, tu peux créer des **automat
 - **Interdiction d'arrosage** si la pluie est annoncée (via intégration météo)
 - **Planification saisonnière** avec des durées variables selon la période
 
-{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt automatisation d'irrigation dans Home Assistant avec le Kincony B8M --img width="940" height="529" %}
+Mais plutôt que de tout recréer à la main avec des automatisations natives, je te recommande fortement d'utiliser le composant **Irrigation V5** disponible dans HACS.
+
+### Irrigation V5 : le module HACS indispensable
+
+[**Irrigation V5**](https://github.com/petergridge/Irrigation-V5){: target="_blank"} est un composant custom développé par **petergridge** qui transforme Home Assistant en un **contrôleur d'irrigation professionnel**. Couplé aux 8 sorties MOSFET du {{ page.ref }}, c'est la combinaison parfaite.
+
+{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt interface Irrigation V5 HACS dans Home Assistant avec les zones du Kincony B8M --img width="940" height="529" %}
+
+#### Installation
+
+1. Ouvre **HACS** dans Home Assistant
+2. Recherche **"Irrigation Controller Component"**
+3. Installe le composant et redémarre Home Assistant
+4. Va dans **Paramètres → Appareils et services → Ajouter une intégration → Irrigation**
+5. Configure ton premier programme d'arrosage
+
+{%- include alert.html type="help" text="La carte Lovelace personnalisée <b>irrigation-card</b> est incluse avec le composant. Elle te donne une interface visuelle complète pour gérer tes zones directement depuis le dashboard." %}
+
+#### Fonctionnalités clés d'Irrigation V5
+
+Ce qui rend ce composant redoutable avec le {{ page.ref }} :
+
+- **Programmes multi-zones** : configure chaque sortie MOSFET du B8M comme une zone d'irrigation indépendante avec sa propre durée d'arrosage
+- **Planification flexible** : démarrage par heure fixe, lever/coucher du soleil, ou déclenchement manuel
+- **Mode ECO** : cycle arrosage/pause/reprise qui laisse l'eau s'infiltrer dans le sol entre les passages, réduisant le ruissellement. Idéal pour les sols argileux
+- **Capteur de pluie** : associe un capteur binaire (ou les données météo) pour **suspendre automatiquement** l'arrosage quand il pleut. Configurable **zone par zone** (tu peux exclure la terrasse couverte par exemple)
+- **Capteur de source d'eau** : arrête l'arrosage si le niveau du puits ou de la cuve est trop bas
+- **Ajustement automatique** : augmente ou diminue la durée d'arrosage en fonction de facteurs externes (température, humidité du sol via les entrées analogiques ADS1115 du B8M)
+- **Multi-programmes** : tu peux ajouter l'intégration plusieurs fois pour créer des programmes séparés (pelouse le matin, potager le soir)
+
+#### Configuration avec le {{ page.ref }}
+
+Voici comment associer les zones d'Irrigation V5 aux sorties MOSFET du {{ page.ref }} :
+
+{% highlight yaml %}
+# Exemple de configuration Irrigation V5
+# Les switches ESPHome du B8M servent de zones
+
+# Dans la configuration Irrigation V5 (via l'interface) :
+# Zone 1 → switch.zone_1_pelouse_avant
+# Zone 2 → switch.zone_2_pelouse_arriere
+# Zone 3 → switch.zone_3_massifs_fleurs
+# Zone 4 → switch.zone_4_potager
+# Zone 5 → switch.zone_5_haies
+# Zone 6 → switch.zone_6_goutte_a_goutte
+
+# Capteur de pluie (optionnel) :
+# binary_sensor.rain_sensor (via intégration météo ou capteur physique)
+
+# Ajustement par humidité du sol (optionnel) :
+# sensor.humidite_sol_zone_1_0_5v (entrée analogique ADS1115 du B8M)
+{% endhighlight %}
+
+> L'avantage d'Irrigation V5 par rapport aux automatisations natives c'est la **gestion centralisée** : tu as une seule carte Lovelace qui affiche toutes tes zones, les prochains arrosages programmés, l'état du capteur de pluie et la durée restante de chaque zone active. Plus besoin de jongler entre 15 automatisations différentes.
+
+{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt automatisation d'irrigation dans Home Assistant avec le Kincony B8M et Irrigation V5 --img width="940" height="529" %}
+
+{%- include alert.html type="info" text="Le mode <b>ECO</b> est particulièrement intéressant avec les sorties MOSFET du B8M : la commutation silencieuse et ultra-rapide permet des cycles arrosage/pause très courts sans usure mécanique, là où un relais classique s'userait prématurément." %}
 
 ## Autres méthodes d'intégration
 
@@ -703,13 +760,13 @@ Outre ESPHome, le {{ page.ref }} supporte d'autres méthodes :
 |**Tasmota**|Moyen|Flash Tasmota, intégration via MQTT ou native|
 |**Arduino / MicroPython**|Élevé|Firmware custom, communication via MQTT ou API REST|
 
+{% picture posts/{{ page.guid }}/integration-kincony-b8m-esphome-home-assistant.png --alt Intégration du Kincony b8m dans esphome --img width="940" height="516" %}
+
 {%- include alert.html type="info" text="Le firmware d'usine <b>KCS v3</b> supporte le MQTT auto-discovery et Apple HomeKit. Si tu ne veux pas mettre les mains dans ESPHome, c'est une option clé en main." %}
 
 ## Comparatif : {{ page.ref }} vs Waveshare ESP32-S3-ETH-8DI-8RO
 
 Maintenant comparons le {{ page.ref }} avec son concurrent le plus direct : le **Waveshare ESP32-S3-ETH-8DI-8RO**. Waveshare est un fabricant reconnu basé à Shenzhen, fondé en 2007, spécialisé dans les modules de développement, les écrans et les cartes IoT. Leur réputation de qualité industrielle est solide.
-
-{% picture posts/{{ page.guid }}/comparatif-kincony-b8m-vs-waveshare-esp32-s3-eth-8di-8ro.png --alt comparatif Kincony B8M vs Waveshare ESP32-S3-ETH-8DI-8RO --img width="940" height="529" %}
 
 {%- include alert.html type="warning" text="<b>Différence fondamentale :</b> le Kincony B8M utilise des <b>sorties MOSFET</b> (DC uniquement, silencieuses) tandis que le Waveshare utilise des <b>relais mécaniques</b> (AC et DC, avec cliquetis). Ce choix impacte directement les cas d'usage !" %}
 

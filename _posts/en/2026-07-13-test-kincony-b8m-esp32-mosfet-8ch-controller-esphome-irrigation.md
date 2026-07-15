@@ -10,7 +10,7 @@ last_modified_at:
 categories: [Tests, Automation, Home-Assistant, Haade-lab]
 tags: []
 video: 
-image: 'test-kincony-b8m-esp32-s3-mosfet-8ch-esphome-home-assistant-irrigation.png'
+image: 'test-kincony-b8m-mosfet-smart-irrigation-hub.png'
 toc: true
 beforetoc: ''
 published: false
@@ -463,7 +463,64 @@ With the entities surfaced in Home Assistant, you can create **smart irrigation 
 - **Watering prohibition** if rain is forecast (via weather integration)
 - **Seasonal scheduling** with variable durations based on the time of year
 
-{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt irrigation automation in Home Assistant with the Kincony B8M --img width="940" height="529" %}
+Rather than building everything from scratch with native automations, I strongly recommend the **Irrigation V5** component available in HACS.
+
+### Irrigation V5: The Essential HACS Module
+
+[**Irrigation V5**](https://github.com/petergridge/Irrigation-V5){: target="_blank"} is a custom component developed by **petergridge** that turns Home Assistant into a **professional irrigation controller**. Paired with the {{ page.ref }}'s 8 MOSFET outputs, it's the perfect combination.
+
+{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt Irrigation V5 HACS interface in Home Assistant with Kincony B8M zones --img width="940" height="529" %}
+
+#### Installation
+
+1. Open **HACS** in Home Assistant
+2. Search for **"Irrigation Controller Component"**
+3. Install the component and restart Home Assistant
+4. Go to **Settings → Devices & Services → Add Integration → Irrigation**
+5. Configure your first watering programme
+
+{%- include alert.html type="help" text="The custom Lovelace <b>irrigation-card</b> is included with the component. It gives you a complete visual interface to manage your zones directly from the dashboard." %}
+
+#### Key Features of Irrigation V5
+
+What makes this component powerful with the {{ page.ref }}:
+
+- **Multi-zone programmes**: configure each B8M MOSFET output as an independent irrigation zone with its own watering duration
+- **Flexible scheduling**: start by fixed time, sunrise/sunset, or manual trigger
+- **ECO mode**: water/wait/repeat cycle that lets water soak into the soil between bursts, reducing runoff. Ideal for clay soils
+- **Rain sensor**: link a binary sensor (or weather data) to **automatically suspend** watering when it rains. Configurable **per zone** (you can exclude covered patios for example)
+- **Water source sensor**: stops watering if well or tank level is too low
+- **Automatic adjustment**: increase or decrease watering duration based on external factors (temperature, soil moisture via the B8M's ADS1115 analog inputs)
+- **Multi-programme**: you can add the integration multiple times to create separate schedules (lawn in the morning, vegetable garden in the evening)
+
+#### Configuration with the {{ page.ref }}
+
+Here's how to map Irrigation V5 zones to the {{ page.ref }}'s MOSFET outputs:
+
+{% highlight yaml %}
+# Irrigation V5 configuration example
+# ESPHome switches from the B8M serve as zones
+
+# In the Irrigation V5 configuration (via UI):
+# Zone 1 → switch.zone_1_front_lawn
+# Zone 2 → switch.zone_2_back_lawn
+# Zone 3 → switch.zone_3_flower_beds
+# Zone 4 → switch.zone_4_vegetable_garden
+# Zone 5 → switch.zone_5_hedges
+# Zone 6 → switch.zone_6_drip_irrigation
+
+# Rain sensor (optional):
+# binary_sensor.rain_sensor (via weather integration or physical sensor)
+
+# Soil moisture adjustment (optional):
+# sensor.soil_moisture_zone_1_0_5v (ADS1115 analog input from the B8M)
+{% endhighlight %}
+
+> The advantage of Irrigation V5 over native automations is **centralised management**: you get a single Lovelace card showing all your zones, next scheduled waterings, rain sensor status and remaining time for each active zone. No more juggling 15 different automations.
+
+{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt irrigation automation in Home Assistant with the Kincony B8M and Irrigation V5 --img width="940" height="529" %}
+
+{%- include alert.html type="info" text="<b>ECO mode</b> is particularly well-suited to the B8M's MOSFET outputs: silent and ultra-fast switching allows very short water/pause cycles without mechanical wear, where a standard relay would wear out prematurely." %}
 
 ## Other Integration Methods
 
