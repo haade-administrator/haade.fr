@@ -559,7 +559,7 @@ Now let's compare the {{ page.ref }} with its closest competitor: the **Waveshar
 
 ### Detailed Comparison Table
 
-|Feature|[**Kincony B8M - 53€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 89€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
+|Feature|[**Kincony B8M - 89€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 53€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
 |**Output Type**|**MOSFET** (solid-state)|**Mechanical Relay** (NO/COM/NC)|
 |**AC 220V Load**|❌ No (DC only)|✅ Yes (up to 250V AC 10A)|
 |**DC Load**|✅ 12-24V DC 10A|✅ Up to 30V DC 10A|

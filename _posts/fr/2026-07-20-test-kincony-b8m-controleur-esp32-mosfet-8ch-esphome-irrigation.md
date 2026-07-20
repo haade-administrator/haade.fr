@@ -789,7 +789,7 @@ Maintenant comparons le {{ page.ref }} avec son concurrent le plus direct : le *
 
 ### Tableau comparatif détaillé
 
-|Caractéristique|[**Kincony B8M - 53€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 89€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
+|Caractéristique|[**Kincony B8M - 89€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 53€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
 |**Type de sortie**|**MOSFET** (état solide)|**Relais mécanique** (NO/COM/NC)|
 |**Charge AC 220V**|❌ Non (DC uniquement)|✅ Oui (jusqu'à 250V AC 10A)|
 |**Charge DC**|✅ 12-24V DC 10A|✅ Jusqu'à 30V DC 10A|
