@@ -5,7 +5,7 @@ description: "Full test of the Kincony B8M ESP32-S3 8-channel MOSFET controller 
 ref: "Kincony B8M"
 layout: post
 authors: [Nico]
-date: 2026-07-13 08:00
+date: 2026-07-20 18:15
 last_modified_at: 
 categories: [Tests, Automation, Home-Assistant, Haade-lab]
 tags: []
@@ -13,7 +13,7 @@ video:
 image: 'test-kincony-b8m-mosfet-smart-irrigation-hub.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: en_GB
 comments: true
-rating:  
+rating: 4.2 
 sourcelink:
   - https://www.kincony.com/esp32-smart-controller-b8m-8ch-mosfet.html
   - https://www.kincony.com/forum/showthread.php?tid=8210
@@ -34,7 +34,7 @@ I've been looking for a **compact and silent multi-channel controller** to drive
 
 In this article I present this product in detail, its complete integration into **ESPHome** and **Home Assistant**, and I compare it with its direct competitor the **Waveshare ESP32-S3-ETH-8DI-8RO** to help you make the right choice.
 
-{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" amazlink="" %}
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" affiliate="_c3LSscYB" %}
 
 ## The Kincony Brand
 
@@ -62,6 +62,8 @@ The first impression is that of a **serious and well-finished product**. The DIN
 
 Dimensions are compact: **122 × 83 × 59 mm**, perfect for fitting into an electrical panel alongside the 24V power supply.
 
+{% picture posts/{{ page.guid }}/taille-kincony-b8m.png --alt Taille real size of Kincony B8M --img width="940" height="529" %}
+
 ## The {{ page.ref }} Controller
 
 The {{ page.ref }} is built around an **ESP32-S3-WROOM-1U (N16R8)** with 16MB Flash and 8MB PSRAM, making it a powerful module capable of handling many ESPHome entities without breaking a sweat.
@@ -85,6 +87,9 @@ The {{ page.ref }} doesn't settle for just 8 MOSFET outputs. It's a true **Swiss
 - **USB-C**: for programming and power
 
 {%- include alert.html type="warning" text="<b>Warning!</b> MOSFET outputs only work with <b>DC (12-24V)</b>. It's impossible to switch 220V AC directly. For 220V you'll need an external relay module or turn to the Waveshare." %}
+
+{% picture posts/{{ page.guid }}/tour-horizon-kincony-b8m.png --alt horizon tour of Kincony B8M --img width="940" height="529" %}
+
 
 ### Technical Specifications {{ page.ref }}
 
@@ -155,6 +160,8 @@ The {{ page.ref }} doesn't settle for just 8 MOSFET outputs. It's a true **Swiss
 
 ## Why the {{ page.ref }} for Irrigation?
 
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" affiliate="_c3LSscYB" %}
+
 My irrigation system runs on **24V DC solenoid valves**, the standard for professional irrigation systems (Hunter, Rain Bird, etc.). The {{ page.ref }} is **perfect for this use case**:
 
 1. **8 irrigation zones**: each MOSFET output drives a 24V DC solenoid valve
@@ -183,6 +190,10 @@ Once the first flash succeeds, all subsequent updates are done **OTA** (Over-The
 ### Complete ESPHome Configuration
 
 Below is my **complete and working configuration** for the {{ page.ref }} adapted for irrigation. All 8 outputs are configured as switches, 8 inputs as binary sensors, and all 4 analog inputs are active for soil moisture sensors:
+
+{% picture posts/{{ page.guid }}/affichage-code-exemple-pour-kincony-b8m.png --alt example code screen of kincony b8m --img width="940" height="529" %}
+
+> However, if you wish to integrate it, you will need to enable either Wi-Fi or RJ45 in the code; the two cannot work simultaneously.
 
 {% highlight yaml %}
 {% raw %}
@@ -456,6 +467,8 @@ Once the firmware is flashed, the {{ page.ref }} is **automatically discovered**
 
 ### Irrigation Automation
 
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" affiliate="_c3LSscYB" %}
+
 With the entities surfaced in Home Assistant, you can create **smart irrigation automations**. For example:
 
 - **Zone-based watering** with programmed durations
@@ -469,7 +482,7 @@ Rather than building everything from scratch with native automations, I strongly
 
 [**Irrigation V5**](https://github.com/petergridge/Irrigation-V5){: target="_blank"} is a custom component developed by **petergridge** that turns Home Assistant into a **professional irrigation controller**. Paired with the {{ page.ref }}'s 8 MOSFET outputs, it's the perfect combination.
 
-{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt Irrigation V5 HACS interface in Home Assistant with Kincony B8M zones --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt Irrigation V5 HACS interface in Home Assistant with Kincony B8M zones --img width="598" height="1021" %}
 
 #### Installation
 
@@ -495,6 +508,8 @@ What makes this component powerful with the {{ page.ref }}:
 
 #### Configuration with the {{ page.ref }}
 
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" affiliate="_c3LSscYB" %}
+
 Here's how to map Irrigation V5 zones to the {{ page.ref }}'s MOSFET outputs:
 
 {% highlight yaml %}
@@ -518,7 +533,7 @@ Here's how to map Irrigation V5 zones to the {{ page.ref }}'s MOSFET outputs:
 
 > The advantage of Irrigation V5 over native automations is **centralised management**: you get a single Lovelace card showing all your zones, next scheduled waterings, rain sensor status and remaining time for each active zone. No more juggling 15 different automations.
 
-{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt irrigation automation in Home Assistant with the Kincony B8M and Irrigation V5 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt irrigation automation in Home Assistant with the Kincony B8M and Irrigation V5 --img width="508" height="895" %}
 
 {%- include alert.html type="info" text="<b>ECO mode</b> is particularly well-suited to the B8M's MOSFET outputs: silent and ultra-fast switching allows very short water/pause cycles without mechanical wear, where a standard relay would wear out prematurely." %}
 
@@ -538,13 +553,13 @@ Besides ESPHome, the {{ page.ref }} supports other methods:
 
 Now let's compare the {{ page.ref }} with its closest competitor: the **Waveshare ESP32-S3-ETH-8DI-8RO**. Waveshare is a well-known manufacturer based in Shenzhen, founded in 2007, specialising in development modules, displays and IoT boards. Their reputation for industrial-grade quality is solid.
 
-{% picture posts/{{ page.guid }}/comparatif-kincony-b8m-vs-waveshare-esp32-s3-eth-8di-8ro.png --alt comparison Kincony B8M vs Waveshare ESP32-S3-ETH-8DI-8RO --img width="940" height="529" %}
-
 {%- include alert.html type="warning" text="<b>Fundamental difference:</b> the Kincony B8M uses <b>MOSFET outputs</b> (DC only, silent) while the Waveshare uses <b>mechanical relays</b> (AC and DC, with clicking). This choice directly impacts use cases!" %}
+
+{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="8-channel industrial ESP32-S3 WiFi relay module, featuring an integrated isolated CAN interface, a dual-core Xtensa 32-bit LX7 processor, and multiple isolation protection circuits." affiliate="_c32q2aKj" amazlink="4yoMRFk"  %}
 
 ### Detailed Comparison Table
 
-|Feature|**Kincony B8M**|**Waveshare ESP32-S3-ETH-8DI-8RO**|
+|Feature|[**Kincony B8M - 53€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 89€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
 |**Output Type**|**MOSFET** (solid-state)|**Mechanical Relay** (NO/COM/NC)|
 |**AC 220V Load**|❌ No (DC only)|✅ Yes (up to 250V AC 10A)|
 |**DC Load**|✅ 12-24V DC 10A|✅ Up to 30V DC 10A|
@@ -618,7 +633,7 @@ The Waveshare comes in **4 variants**:
 
 {%- include alert.html type="info" text="For my <b>24V DC irrigation</b> use case, the <b>Kincony B8M</b> was the natural choice: silent MOSFET outputs, analog inputs for soil moisture sensors, and high-precision RTC for autonomous scheduling." %}
 
-{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" amazlink="" %}
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="ESP32-S3 8-channel MOSFET controller DC 12-24V, Ethernet, RS485, 8 digital inputs, 4 analog inputs, DS3231 RTC, OLED display" affiliate="_c3LSscYB" %}
 
 ## Conclusion
 
@@ -627,3 +642,5 @@ The {{ page.ref }} is a **remarkable controller** for anyone needing to drive DC
 Against the Waveshare, the choice is primarily **dictated by load type**: MOSFET (DC) vs Relay (AC/DC). Both products are quality, well-supported by ESPHome, and housed in professional DIN-rail enclosures. **Waveshare wins on price and AC versatility, Kincony wins on embedded features and silence.**
 
 > If like me you're looking for a multi-zone controller for DC irrigation, **the {{ page.ref }} is my recommendation**. If you need to switch 220V AC, go for the Waveshare.
+
+{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="8-channel industrial ESP32-S3 WiFi relay module, featuring an integrated isolated CAN interface, a dual-core Xtensa 32-bit LX7 processor, and multiple isolation protection circuits." affiliate="_c32q2aKj" amazlink="4yoMRFk"  %}

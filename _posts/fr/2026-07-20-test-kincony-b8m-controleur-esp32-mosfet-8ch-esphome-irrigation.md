@@ -5,7 +5,7 @@ description: "Test complet du Kincony B8M contrôleur ESP32-S3 8 canaux MOSFET a
 ref: "Kincony B8M"
 layout: post
 authors: [Nico]
-date: 2026-07-13 08:00
+date: 2026-07-20 18:15
 last_modified_at: 
 categories: [Tests, Domotique, Home-Assistant, Haade-lab]
 tags: []
@@ -13,7 +13,7 @@ video:
 image: 'test-kincony-b8m-mosfet-centre-irrigation-intelligent.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.2 
 sourcelink:
   - https://www.kincony.com/esp32-smart-controller-b8m-8ch-mosfet.html
   - https://www.kincony.com/forum/showthread.php?tid=8210
@@ -62,6 +62,9 @@ La première impression est celle d'un produit **sérieux et bien fini**. Le bo�
 
 Les dimensions sont compactes : **122 × 83 × 59 mm**, parfait pour s'intégrer dans un tableau électrique aux côtés de l'alimentation 24V.
 
+{% picture posts/{{ page.guid }}/taille-kincony-b8m.png --alt Taille réel du Kincony B8M --img width="940" height="529" %}
+
+
 ## Le contrôleur {{ page.ref }}
 
 Le {{ page.ref }} est bâti autour d'un **ESP32-S3-WROOM-1U (N16R8)** avec 16MB de Flash et 8MB de PSRAM, ce qui en fait un module puissant capable de gérer de nombreuses entités ESPHome sans broncher.
@@ -85,6 +88,8 @@ Le {{ page.ref }} ne se contente pas de 8 sorties MOSFET. C'est un **véritable 
 - **USB-C** : pour la programmation et l'alimentation
 
 {%- include alert.html type="warning" text="<b>Attention !</b> Les sorties MOSFET ne fonctionnent qu'en <b>DC (12-24V)</b>. Impossible de commuter du 220V AC directement. Pour du 220V il faudra ajouter un module relais externe ou se tourner vers le Waveshare." %}
+
+{% picture posts/{{ page.guid }}/tour-horizon-kincony-b8m.png --alt tour d'horizon du Kincony B8M --img width="940" height="529" %}
 
 ### Caractéristiques techniques {{ page.ref }}
 
@@ -155,6 +160,8 @@ Le {{ page.ref }} ne se contente pas de 8 sorties MOSFET. C'est un **véritable 
 
 ## Pourquoi le {{ page.ref }} pour l'irrigation ?
 
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="Contrôleur ESP32-S3 8 canaux MOSFET DC 12-24V, Ethernet, RS485, 8 entrées digitales, 4 entrées analogiques, RTC DS3231, écran OLED" affiliate="_c3LSscYB"  %}
+
 Mon système d'irrigation fonctionne avec des **électrovannes 24V DC**, c'est le standard pour les systèmes d'arrosage professionnels (Hunter, Rain Bird, etc.). Le {{ page.ref }} est **parfait pour cet usage** :
 
 1. **8 zones d'irrigation** : chaque sortie MOSFET pilote une électrovanne 24V DC
@@ -183,6 +190,10 @@ Une fois le premier flash réussi, toutes les mises à jour suivantes se font en
 ### Configuration ESPHome complète
 
 Ci-dessous ma configuration **complète et fonctionnelle** pour le {{ page.ref }} adaptée à l'irrigation. Les 8 sorties sont configurées en switches, les 8 entrées en capteurs binaires, et les 4 entrées analogiques sont actives pour les capteurs d'humidité du sol :
+
+{% picture posts/{{ page.guid }}/affichage-code-exemple-pour-kincony-b8m.png --alt exemple d'affichage du code du kincony b8m --img width="940" height="529" %}
+
+> Si toutefois tu désires l'intégrer il faudra activer dans le code le wifi ou rj45 mais les deux en même temps ne fonctionneront pas.
 
 {% highlight yaml %}
 {% raw %}
@@ -697,7 +708,7 @@ Mais plutôt que de tout recréer à la main avec des automatisations natives, j
 
 [**Irrigation V5**](https://github.com/petergridge/Irrigation-V5){: target="_blank"} est un composant custom développé par **petergridge** qui transforme Home Assistant en un **contrôleur d'irrigation professionnel**. Couplé aux 8 sorties MOSFET du {{ page.ref }}, c'est la combinaison parfaite.
 
-{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt interface Irrigation V5 HACS dans Home Assistant avec les zones du Kincony B8M --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/irrigation-v5-hacs-home-assistant-kincony-b8m.png --alt interface Irrigation V5 HACS dans Home Assistant avec les zones du Kincony B8M --img width="598" height="1021" %}
 
 #### Installation
 
@@ -711,6 +722,8 @@ Mais plutôt que de tout recréer à la main avec des automatisations natives, j
 
 #### Fonctionnalités clés d'Irrigation V5
 
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="Contrôleur ESP32-S3 8 canaux MOSFET DC 12-24V, Ethernet, RS485, 8 entrées digitales, 4 entrées analogiques, RTC DS3231, écran OLED" affiliate="_c3LSscYB"  %}
+
 Ce qui rend ce composant redoutable avec le {{ page.ref }} :
 
 - **Programmes multi-zones** : configure chaque sortie MOSFET du B8M comme une zone d'irrigation indépendante avec sa propre durée d'arrosage
@@ -722,6 +735,8 @@ Ce qui rend ce composant redoutable avec le {{ page.ref }} :
 - **Multi-programmes** : tu peux ajouter l'intégration plusieurs fois pour créer des programmes séparés (pelouse le matin, potager le soir)
 
 #### Configuration avec le {{ page.ref }}
+
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="Contrôleur ESP32-S3 8 canaux MOSFET DC 12-24V, Ethernet, RS485, 8 entrées digitales, 4 entrées analogiques, RTC DS3231, écran OLED" affiliate="_c3LSscYB" %}
 
 Voici comment associer les zones d'Irrigation V5 aux sorties MOSFET du {{ page.ref }} :
 
@@ -746,7 +761,7 @@ Voici comment associer les zones d'Irrigation V5 aux sorties MOSFET du {{ page.r
 
 > L'avantage d'Irrigation V5 par rapport aux automatisations natives c'est la **gestion centralisée** : tu as une seule carte Lovelace qui affiche toutes tes zones, les prochains arrosages programmés, l'état du capteur de pluie et la durée restante de chaque zone active. Plus besoin de jongler entre 15 automatisations différentes.
 
-{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt automatisation d'irrigation dans Home Assistant avec le Kincony B8M et Irrigation V5 --img width="940" height="529" %}
+{% picture posts/{{ page.guid }}/automatisation-irrigation-home-assistant-kincony-b8m.png --alt automatisation d'irrigation dans Home Assistant avec le Kincony B8M et Irrigation V5 --img width="508" height="895" %}
 
 {%- include alert.html type="info" text="Le mode <b>ECO</b> est particulièrement intéressant avec les sorties MOSFET du B8M : la commutation silencieuse et ultra-rapide permet des cycles arrosage/pause très courts sans usure mécanique, là où un relais classique s'userait prématurément." %}
 
@@ -770,11 +785,11 @@ Maintenant comparons le {{ page.ref }} avec son concurrent le plus direct : le *
 
 {%- include alert.html type="warning" text="<b>Différence fondamentale :</b> le Kincony B8M utilise des <b>sorties MOSFET</b> (DC uniquement, silencieuses) tandis que le Waveshare utilise des <b>relais mécaniques</b> (AC et DC, avec cliquetis). Ce choix impacte directement les cas d'usage !" %}
 
-{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="Module de relais WiFi industriel ESP32-S3 à 8 canaux, avec interface CAN isolée intégrée, processeur Xtensa 32 bits LX7 double cœur et multiples circuits de protection par isolation." affiliate="_c32q2aKj" amazlink="4yoMRFk"  %}
+{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="Module de relais WiFi industriel ESP32-S3 à 8 canaux, avec interface CAN isolée intégrée, processeur Xtensa 32 bits LX7 double cœur et multiples circuits de protection par isolation." affiliate="_c32q2aKj" amazlink="4yoMRFk" %}
 
 ### Tableau comparatif détaillé
 
-|Caractéristique|**Kincony B8M**|**Waveshare ESP32-S3-ETH-8DI-8RO**|
+|Caractéristique|[**Kincony B8M - 53€**](https://s.click.aliexpress.com/e/_c3LSscYB){: target="_blank"}|[**Waveshare ESP32-S3-ETH-8DI-8RO - 89€**](https://s.click.aliexpress.com/e/_c32q2aKj){: target="_blank"}|
 |**Type de sortie**|**MOSFET** (état solide)|**Relais mécanique** (NO/COM/NC)|
 |**Charge AC 220V**|❌ Non (DC uniquement)|✅ Oui (jusqu'à 250V AC 10A)|
 |**Charge DC**|✅ 12-24V DC 10A|✅ Jusqu'à 30V DC 10A|
@@ -848,7 +863,7 @@ Le Waveshare existe en **4 variantes** :
 
 {%- include alert.html type="info" text="Pour mon usage en <b>irrigation 24V DC</b>, le choix du <b>Kincony B8M</b> s'est imposé naturellement : sorties MOSFET silencieuses, entrées analogiques pour les capteurs d'humidité du sol, et RTC haute précision pour les planifications autonomes." %}
 
-{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="Contrôleur ESP32-S3 8 canaux MOSFET DC 12-24V, Ethernet, RS485, 8 entrées digitales, 4 entrées analogiques, RTC DS3231, écran OLED" affiliate="_c3LSscYB"  %}
+{% include product-embed.html image="kincony-b8m-esp32-mosfet-8ch.png" title="Kincony B8M" brand="Kincony" description="Contrôleur ESP32-S3 8 canaux MOSFET DC 12-24V, Ethernet, RS485, 8 entrées digitales, 4 entrées analogiques, RTC DS3231, écran OLED" affiliate="_c3LSscYB" %}
 
 ## Conclusion
 
@@ -857,3 +872,5 @@ Le {{ page.ref }} est un **contrôleur remarquable** pour qui a besoin de pilote
 Face au Waveshare, le choix est avant tout **dicté par le type de charge** : MOSFET (DC) vs Relais (AC/DC). Les deux produits sont de qualité, bien supportés par ESPHome, et montés en boîtier DIN-rail professionnel. **Le Waveshare gagne sur le prix et la polyvalence AC, le Kincony gagne sur les fonctionnalités embarquées et le silence.**
 
 > Si comme moi tu cherches un contrôleur multi-zones pour l'irrigation en DC, **le {{ page.ref }} est le choix que je te recommande**. Si tu as besoin de commuter du 220V AC, tourne-toi vers le Waveshare.
+
+{% include product-embed.html image="waveshare-ESP32-S3-POE-ETH-8DI-8RO-C.png" title="Waveshare ESP32-S3-POE-ETH-8DI-8RO-C" brand="Waveshare" description="Module de relais WiFi industriel ESP32-S3 à 8 canaux, avec interface CAN isolée intégrée, processeur Xtensa 32 bits LX7 double cœur et multiples circuits de protection par isolation." affiliate="_c32q2aKj" amazlink="4yoMRFk" %}
