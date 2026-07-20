@@ -3,6 +3,20 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
       <url>
+        <loc>https://haade.fr/en/blog/test-kincony-b8m-esp32-mosfet-8ch-controller-esphome-irrigation</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-07-20T18:15:00+02:00</news:publication_date>
+          <news:title>Kincony B8M ESP32 8-channel MOSFET controller test for irrigation</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/178/test-kincony-b8m-mosfet-smart-irrigation-hub.png</image:loc>
+        </image:image>
+      </url>
+      <url>
         <loc>https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</loc>
         <news:news>
           <news:publication>

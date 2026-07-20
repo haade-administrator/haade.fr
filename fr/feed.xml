@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Jul 2026 07:39:42 +0200</pubDate>
-    <lastBuildDate>Mon, 13 Jul 2026 08:00:00 +0200</lastBuildDate>
+    <pubDate>Mon, 20 Jul 2026 18:38:41 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2026 18:15:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test du Kincony B8M contrôleur ESP32 8 canaux MOSFET pour l&apos;irrigation</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test complet du Kincony B8M contrôleur ESP32-S3 8 canaux MOSFET avec intégration ESPHome et Home Assistant pour piloter un système d&apos;irrigation, comparatif avec le Waveshare ESP32-S3-ETH-8DI-8RO</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/178/test-kincony-b8m-mosfet-centre-irrigation-intelligent-720-fb88a0ed1.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/178/test-kincony-b8m-mosfet-centre-irrigation-intelligent-720-fb88a0ed1.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/178/test-kincony-b8m-mosfet-centre-irrigation-intelligent-720-fb88a0ed1.png" alt="Test du Kincony B8M contrôleur ESP32 8 canaux MOSFET pour l'irrigation">
+</picture>
+
+      <p>Cela fait un bon moment que je cherchais un contrôleur multi-canaux compact et silencieux pour piloter mon système d’irrigation en DC 24V. Après avoir testé des solutions Zigbee comme le Sonoff SWV ou le Woox R7060, je voulais passer à une solution filaire, fiable et entièrement personnalisable. Mon choix s’est [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-kincony-b8m-controleur-esp32-mosfet-8ch-esphome-irrigation">Test du Kincony B8M contrôleur ESP32 8 canaux MOSFET pour l'irrigation</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Mon, 20 Jul 2026 18:15:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-kincony-b8m-controleur-esp32-mosfet-8ch-esphome-irrigation</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-kincony-b8m-controleur-esp32-mosfet-8ch-esphome-irrigation</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+    </item>
     <item>
       <title>Dahua SD1A404DB-GNY la caméra PTZ full option dans Frigate</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -232,28 +255,6 @@
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[Videos]]></category>
       <category><![CDATA[Zigbee]]></category>
-    </item>
-    <item>
-      <title>Installe facilement Google Coral</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Installation automatisée des drivers google gasket sur debian 13 ou Ovh 8 et ainsi d&apos;utiliser la force du Tensorflow</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/168/installation-automatisee-google-coral-debian-13-trixie-gasket-driver-720-54f3ce949.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/168/installation-automatisee-google-coral-debian-13-trixie-gasket-driver-720-54f3ce949.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/168/installation-automatisee-google-coral-debian-13-trixie-gasket-driver-720-54f3ce949.png" alt="Installe facilement Google Coral">
-</picture>
-
-      <p>Après une réinstallation suite à un passage râté d’Openmediavault 6 à 8 qui je le rappelle est basé sur debian trixie, je me suis vite rendu compte que le Google Coral intallé dans le NAS ne fonctionnait plus sur mon Docker Frigate, j’ai voulu réinstallé en suivant la manipulation officielles [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/installer-google-coral-gasket-sur-debian-13-ou-ovh-8-de-facon-automatisee">Installe facilement Google Coral</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 16 Jan 2026 23:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/installer-google-coral-gasket-sur-debian-13-ou-ovh-8-de-facon-automatisee</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/installer-google-coral-gasket-sur-debian-13-ou-ovh-8-de-facon-automatisee</guid>
-      <category><![CDATA[NAS]]></category>
-      <category><![CDATA[Mini-tutos]]></category>
-      <category><![CDATA[Haade-lab]]></category>
     </item>
   </channel>
 </rss>
