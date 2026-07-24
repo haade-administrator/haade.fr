@@ -16,20 +16,6 @@
           <image:loc>https://haade.fr/assets/images/posts/178/test-kincony-b8m-mosfet-centre-irrigation-intelligent.png</image:loc>
         </image:image>
       </url>
-      <url>
-        <loc>https://haade.fr/fr/blog/dahua-la-camera-ptz-full-option-dans-frigate</loc>
-        <news:news>
-          <news:publication>
-            <news:name>Haade</news:name>
-            <news:language>fr</news:language>
-          </news:publication>
-          <news:publication_date>2026-07-13T08:00:00+02:00</news:publication_date>
-          <news:title>Dahua SD1A404DB-GNY la caméra PTZ full option dans Frigate</news:title>
-        </news:news>
-        <image:image>
-          <image:loc>https://haade.fr/assets/images/posts/177/test-camera-ptz-dahua-sd1a404db-gny-frigate-home-assistant.png</image:loc>
-        </image:image>
-      </url>
     </urlset>
 
 
