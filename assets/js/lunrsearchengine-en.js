@@ -788,7 +788,7 @@ var documents = [{
     "id": 157,
     "url": "/en/blog/domotize-your-garage-door-for-5",
     "title": "Automate your garage door for 5€",
-    "description": "20/05/2021 - a simple way to automate your garage door at a lower cost",
+    "description": "19/05/2021 - a simple way to automate your garage door at a lower cost",
     "tags": ""},{
     "id": 158,
     "url": "/en/blog/esphome-and-homeassistant",

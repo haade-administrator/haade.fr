@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 29 Jul 2026 07:20:40 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2026 18:15:00 +0200</lastBuildDate>
+    <pubDate>Thu, 30 Jul 2026 04:57:29 +0000</pubDate>
+    <lastBuildDate>Mon, 20 Jul 2026 18:15:00 +0000</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -40,7 +40,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-kincony-b8m-esp32-mosfet-8ch-controller-esphome-irrigation">Kincony B8M ESP32 8-channel MOSFET controller test for irrigation</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 20 Jul 2026 18:15:00 +0200</pubDate>
+      <pubDate>Mon, 20 Jul 2026 18:15:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/test-kincony-b8m-esp32-mosfet-8ch-controller-esphome-irrigation</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-kincony-b8m-esp32-mosfet-8ch-controller-esphome-irrigation</guid>
       <category><![CDATA[Tests]]></category>
@@ -63,7 +63,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate">Dahua SD1A404DB-GNY the full option PTZ camera in Frigate</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 13 Jul 2026 08:00:00 +0200</pubDate>
+      <pubDate>Mon, 13 Jul 2026 08:00:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/dahua-the-full-option-ptz-camera-in-frigate</guid>
       <category><![CDATA[Tests]]></category>
@@ -86,7 +86,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-smlight-smhub-nano-le-hub-domotique-independant">SMLIGHT SMHUB NANO Review: The fully independent Linux smart home hub</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 08 Jul 2026 15:00:00 +0200</pubDate>
+      <pubDate>Wed, 08 Jul 2026 15:00:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/test-smlight-smhub-nano-le-hub-domotique-independant</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-smlight-smhub-nano-le-hub-domotique-independant</guid>
       <category><![CDATA[SMLIGHT]]></category>
@@ -113,7 +113,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/openwrt-access-point-guest-client-and-adguardhome-at-the-appointment">OpenWrt tutorials, AP bridge mode, guest access, and network protection</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 06 May 2026 13:30:00 +0200</pubDate>
+      <pubDate>Wed, 06 May 2026 13:30:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/openwrt-access-point-guest-client-and-adguardhome-at-the-appointment</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/openwrt-access-point-guest-client-and-adguardhome-at-the-appointment</guid>
       <category><![CDATA[Security]]></category>
@@ -137,7 +137,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant">Reolink Trackmix PoE camera review - Customer service needs improvement 🤬</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 22 Apr 2026 12:30:00 +0200</pubDate>
+      <pubDate>Wed, 22 Apr 2026 12:30:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-and-integration-camera-reolink-trackmix-poe-frigate-homeassistant</guid>
       <category><![CDATA[Tests]]></category>
@@ -160,7 +160,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant">Easily install YoloV9 and make detection smart</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Mon, 06 Apr 2026 21:40:00 +0200</pubDate>
+      <pubDate>Mon, 06 Apr 2026 21:40:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/easily-install-yolov9-with-google-coral-for-frigate-omv9-supervisor-and-secure-home-assistant</guid>
       <category><![CDATA[NAS]]></category>
@@ -182,7 +182,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt">Easily unlock your Xiaomi router in 5 minutes</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Thu, 26 Mar 2026 08:15:00 +0100</pubDate>
+      <pubDate>Thu, 26 Mar 2026 08:15:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/unlock-your-xiaomi-router-in-5-minutes-with-xmir-patcher-and-use-openwrt</guid>
       <category><![CDATA[NAS]]></category>
@@ -204,7 +204,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-and-thread-it-works-like-a-charms">Smlight SLZB-MR4U multiradio dongle test</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Fri, 06 Mar 2026 15:49:00 +0100</pubDate>
+      <pubDate>Fri, 06 Mar 2026 15:49:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-and-thread-it-works-like-a-charms</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/test-dongle-smlight-slzb-mr4u-multiradio-zigbee-and-thread-it-works-like-a-charms</guid>
       <category><![CDATA[Tests]]></category>
@@ -228,7 +228,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server">Easily outsource your Home Assistant backup</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Wed, 04 Feb 2026 10:40:00 +0100</pubDate>
+      <pubDate>Wed, 04 Feb 2026 10:40:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</guid>
       <category><![CDATA[Security]]></category>
@@ -251,7 +251,7 @@
       <p>Read the full article: <a href="https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save">Lixee Box Energy Saver</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
       ]]>
       </description>
-      <pubDate>Fri, 23 Jan 2026 18:00:00 +0100</pubDate>
+      <pubDate>Fri, 23 Jan 2026 18:00:00 +0000</pubDate>
       <link>https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</link>
       <guid isPermaLink="true">https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</guid>
       <category><![CDATA[Haade-lab]]></category>

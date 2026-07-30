@@ -9,7 +9,7 @@
             <news:name>Haade</news:name>
             <news:language>en</news:language>
           </news:publication>
-          <news:publication_date>2026-07-20T18:15:00+02:00</news:publication_date>
+          <news:publication_date>2026-07-20T18:15:00+00:00</news:publication_date>
           <news:title>Kincony B8M ESP32 8-channel MOSFET controller test for irrigation</news:title>
         </news:news>
         <image:image>
