@@ -60,6 +60,9 @@
             {% if include.amazlink %}
             <span class="amazbutton" role="button"><a href="https://amzn.to/{{ include.amazlink }}" target="_blank" rel="nofollow noopener"><i class="icob amazon"></i>{{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Amazon</a></span>
             {%- endif %}
+            {% if include.newamazlink %}
+            <span class="amazbutton" role="button"><a href="https://link.amazon/{{ include.newamazlink }}" target="_blank" rel="nofollow noopener"><i class="icob amazon"></i>{{ translate.product.buttonbuy[page.locale] }} {{ translate.product.outof[page.locale] }} Amazon</a></span>
+            {%- endif %}
         </div>
         </div>
     </div>

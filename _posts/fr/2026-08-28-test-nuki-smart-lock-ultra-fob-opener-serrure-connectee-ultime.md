@@ -5,15 +5,15 @@ description: "Test complet de la serrure connectée Nuki Smart Lock Ultra avec l
 ref: "Nuki Smart Lock Ultra"
 layout: post
 authors: [Nico]
-date: 2026-07-13 17:00
+date: 2026-08-28 09:45
 last_modified_at: 
 categories: [Tests, Securite, Home-Assistant]
 tags: []
 video: 
-image: 'test-nuki-smart-lock-ultra-fob-opener-serrure-connectee-home-assistant.png'
+image: 'la-serrure-connecte-nuki-smart-lock-ultra-vaut-elle-le-cout.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -22,7 +22,7 @@ sitemap:
   lastmod:  # date to end modification
 locale: fr_FR
 comments: true
-rating:  
+rating: 4.8 
 sourcelink:
   - https://nuki.io/fr/smart-lock-ultra/
   - https://nuki.io/fr/fob/
@@ -35,7 +35,7 @@ Il y a quelque temps j'ai testé la [serrure connectée Tedee Go et ses accessoi
 
 Après plusieurs semaines d'utilisation quotidienne, je peux te dire que **Nuki a placé la barre très haut**. Moteur brushless ultra-rapide, design compact en acier inoxydable, WiFi + Thread/Matter + MQTT intégrés, pas besoin de bridge... **c'est probablement la serrure connectée la plus complète du marché.** Mais est-ce que ça justifie les 349€ ? C'est ce qu'on va voir ensemble.
 
-{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" amazlink="" %}
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" newamazlink="B06T45HCe" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
 
 ## La marque Nuki
 
@@ -55,11 +55,19 @@ Le packaging Nuki est soigné et premium. À l'ouverture, tu retrouves :
 - le **cylindre universel Nuki** (modulable selon les dimensions de ta porte)
 - 2 bagues de base interchangeables (blanche et noire)
 - le câble de charge magnétique USB-C propriétaire
-- 5 clés de secours
+- 3 clés de secours
 - les outils de montage (tournevis, vis de fixation)
 - le guide d'installation rapide
 
 {% picture posts/{{ page.guid }}/deballage-nuki-smart-lock-ultra-contenu-boite.png --alt déballage et contenu de la boîte de la Nuki Smart Lock Ultra --img width="940" height="529" %}
+
+La Nuki Smart Lock Ultra est livré en deux parties, une boîte avec la serrure connectée, l'autre avec le verrou Made Swiss 🇨🇭 oblige.
+
+{% picture posts/{{ page.guid }}/deballage-nuki-smart-lock-ultra-contenu-boite-nuki.png --alt déballage et contenu de la boîte de la Nuki Smart Lock Ultra la serrure connectée --img width="940" height="529" %}
+
+Le kit verrou est fourni avec un panel d'adaptateur, personnellement je n'ai eu besoin d'installer que quelques pièces de ce kit Lego 👷, **qui en passant est de très très bonne qualité !**
+
+{% picture posts/{{ page.guid }}/deballage-nuki-smart-lock-ultra-contenu-boite-verrou.png --alt déballage et contenu de la boîte de la Nuki Smart Lock Ultra la serrure connectée --img width="940" height="529" %}
 
 La première impression est celle d'un **produit haut de gamme**. Le corps en acier inoxydable brossé inspire immédiatement confiance. On est très loin du plastique ABS de la Tedee Go. Le cylindre est compact, les finitions sont irréprochables et le poids de 250g donne une sensation de solidité.
 
@@ -83,6 +91,8 @@ Un anneau LED circulaire en périphérie indique l'état de la serrure :
 
 ### Le moteur brushless : la vraie révolution
 
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" newamazlink="B06T45HCe" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
+
 C'est **LA** grande innovation de cette génération. Nuki a intégré un **moteur brushless** (sans balais), une technologie que l'on retrouve dans les véhicules électriques et les drones. C'est une **première mondiale dans une serrure connectée**.
 
 Les avantages sont immédiats :
@@ -97,15 +107,18 @@ Les avantages sont immédiats :
 Les **3 modes de vitesse** sont un vrai plus :
 
 |Mode|Temps (double tour)|Usage|
-|**Insane**|< 1.5 seconde|Au quotidien, quand tu es pressé|
+|----|-------------------|-----|
+|**Insane**|inférieur à 1.5 seconde|Au quotidien, quand tu es pressé|
 |**Standard**|2 secondes|Usage normal, bon compromis|
 |**Gentle**|3.3 secondes|La nuit, optimisé pour le silence|
 
-{%- include alert.html type="help" text="Le mode <b>Gentle</b> est un game changer. Si tu as des enfants qui dorment ou des voisins proches, tu apprécies de pouvoir verrouiller ta porte à 23h sans réveiller tout le monde." %}
+> Le mode **Gentle** est un game changer. Si tu as des enfants qui dorment ou des voisins proches, tu apprécies de pouvoir verrouiller ta porte à 23h sans réveiller tout le monde.
 
 ### Le bruit, justement 🔊
 
 Puisque j'avais été particulièrement critique sur le **bruit de la Tedee Go** (mesure à ~70dB à 60cm), autant aborder le sujet frontalement avec la Nuki Ultra.
+
+{% include videoPlayer.html localId="bruit-nuki-smart-lock-ultra-en-action-cadre.mp4" %}
 
 **Verdict : nettement mieux.** Le moteur brushless produit un son plus **doux et moins aigu** que les moteurs à balais classiques. En mode **Gentle**, la serrure est remarquablement discrète. En mode **Insane**, tu entends le mécanisme mais ça reste dans des niveaux très acceptables.
 
@@ -164,7 +177,7 @@ La recharge se fait via un **câble magnétique USB-C propriétaire** qui se cli
 
 |Cylindre|Nuki Universal Cylinder (inclus)|
 |Certification|SKG*** (haute sécurité)|
-|Clés|5 clés de secours incluses|
+|Clés|3 clés de secours incluses|
 |Urgence|Ouverture physique possible même serrure installée|
 
 **Fonctionnalités**
@@ -201,6 +214,8 @@ La recharge se fait via un **câble magnétique USB-C propriétaire** qui se cli
 
 ## Installation
 
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" newamazlink="B06T45HCe" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
+
 ### Remplacement du cylindre
 
 C'est **la différence majeure** avec la Tedee Go ou la Nuki Smart Lock Pro 5 qui se fixent sur le cylindre existant. Ici, tu dois **remplacer ton cylindre actuel** par le **cylindre universel Nuki**.
@@ -224,13 +239,23 @@ L'installation prend **moins de 15 minutes** pour quelqu'un d'un peu bricoleur. 
 
 ### Point important : la clé physique
 
-Contrairement à ce qu'on pourrait craindre, **la clé physique fonctionne toujours** depuis l'extérieur, même avec la serrure installée. Nuki fournit **5 clés de secours** avec le cylindre universel. En cas de panne de batterie, tu peux toujours rentrer chez toi avec ta clé. C'est rassurant.
+Contrairement à ce qu'on pourrait craindre, **la clé physique fonctionne toujours** depuis l'extérieur, même avec la serrure installée. Nuki fournit **3 clés de secours** avec le cylindre universel. En cas de panne de batterie, tu peux toujours rentrer chez toi avec ta clé. C'est rassurant.
 
 ## L'application Nuki
 
 L'application Nuki (iOS et Android) est **la tour de contrôle** de ton écosystème. Elle est **intuitive, bien conçue et complète**.
 
-{% picture posts/{{ page.guid }}/application-nuki-smart-lock-ultra-interface.png --alt interface de l'application Nuki pour la Smart Lock Ultra --img width="940" height="529" %}
+Je ne vais pas te dévoiler tous les détails car ils sont nombreux, je n'ai rencontré aucun soucis d'intégration.
+
+{% picture posts/{{ page.guid }}/application-nuki-smart-lock-ultra-interface-integration-serrure.png --alt interface de l'application Nuki pour la Smart Lock Ultra integration dans l'application --img width="940" height="529" %}
+
+Malgré une serrure à verouillage haut manuel, le calibrage est précis et rapide, impeccable !
+
+{% picture posts/{{ page.guid }}/application-nuki-smart-lock-ultra-interface-calibration-update-firmware.png --alt interface de l'application Nuki pour la Smart Lock Ultra calibration et mise à jour --img width="940" height="529" %}
+
+L'activation par wifi est là ausi bien faite, à droite de l'image une capture sur certains paramètres, comme la fonction du bouton et l'éclairage de la led.
+
+{% picture posts/{{ page.guid }}/application-nuki-smart-lock-ultra-interface-wifi-et-options.png --alt interface de l'application Nuki pour la Smart Lock Ultra wifi et diverses options --img width="940" height="529" %}
 
 ### Fonctionnalités principales
 
@@ -261,6 +286,10 @@ Le **Nuki Fob** est une **télécommande Bluetooth de poche** en forme de porte-
 |Sécurité|Chiffrement bout-en-bout (niveau banque en ligne)|
 |Capacité|1 Fob → jusqu'à 100 Smart Locks|
 
+{% picture posts/{{ page.guid }}/nuki-fob-telecommande-bluetooth-detail.png --alt Nuki Fob télécommande Bluetooth en porte-clés quelques détails --img width="940" height="529" %}
+
+> Selon moi le Key Fob a un réel avantage dans une utilisation quotidienne
+
 ### Usage concret
 
 Un appui sur le bouton et la porte se déverrouille. C'est **idéal pour** :
@@ -269,9 +298,13 @@ Un appui sur le bouton et la porte se déverrouille. C'est **idéal pour** :
 - le **personnel de ménage** ou les aides à domicile
 - un **backup physique** en cas de panne de smartphone
 
+L'intégration des accessoires dans l'application Nuki est simple et intuitive
+
+{% picture posts/{{ page.guid }}/application-nuki-smart-lock-ultra-integration-fob-et-parametres.png --alt interface de l'application Nuki pour la telecommande fob integration et paramètres --img width="940" height="529" %}
+
 En cas de perte, l'autorisation peut être **révoquée instantanément** depuis l'application Nuki.
 
-{% include product-embed.html image="nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki.png" title="Nuki Fob" brand="Nuki" description="Télécommande Bluetooth Nuki Fob pour Smart Lock, portée 15m, chiffrement bout-en-bout, pile CR1632" amazlink="44qWci0" domlink="controle-acces/4399-nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki-9120072084058.html" %}
+{% include product-embed.html image="nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki.png" title="Nuki Fob" brand="Nuki" description="Télécommande Bluetooth Nuki Fob pour Smart Lock, portée 15m, chiffrement bout-en-bout, pile CR1632" newamazlink="B0egEXM0A" domlink="controle-acces/4399-nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki-9120072084058.html" %}
 
 #### **les + du produit** Nuki Fob
 {: .blue}
@@ -289,6 +322,8 @@ En cas de perte, l'autorisation peut être **révoquée instantanément** depuis
 - Portée Bluetooth limitée à 15m (doit être à proximité)
 - Un seul bouton (pas de feedback visuel)
 - Pas de localisation GPS en cas de perte
+
+{% include product-embed.html image="nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki.png" title="Nuki Fob" brand="Nuki" description="Télécommande Bluetooth Nuki Fob pour Smart Lock, portée 15m, chiffrement bout-en-bout, pile CR1632" newamazlink="B0egEXM0A" domlink="controle-acces/4399-nuki-fob-telecommande-porte-cle-bluetooth-pour-smart-lock-nuki-9120072084058.html" %}
 
 ## Le Nuki Door Sensor
 
@@ -320,7 +355,7 @@ Le Door Sensor remonte des informations précieuses :
 
 > C'est un détail qui change tout au quotidien : tu sais en un coup d'œil dans Home Assistant si ta porte est ouverte, fermée ou verrouillée. Et les automatisations deviennent bien plus fiables.
 
-{% include product-embed.html image="nuki-door-sensor.png" title="Nuki Door Sensor" brand="Nuki" description="Nuki Door Sensor, capteur d'ouverture de porte Bluetooth, détection ouverte/fermée/verrouillée, installation adhésive sans perçage" amazlink="" %}
+{% include product-embed.html image="nuki-door-sensor.png" title="Nuki Door Sensor" brand="Nuki" description="Nuki Door Sensor, capteur d'ouverture de porte Bluetooth, détection ouverte/fermée/verrouillée, installation adhésive sans perçage" newamazlink="B0c8rjAKG" domlink="controle-acces/5980-nuki-detecteur-d-ouverture-bluetooth-nuki-door-sensor-9120072081873.html" %}
 
 #### **les + du produit** Nuki Door Sensor
 {: .blue}
@@ -330,12 +365,12 @@ Le Door Sensor remonte des informations précieuses :
 - Détection de sabotage intégrée
 - Installation ultra simple (adhésif, pas de perçage)
 - Notifications si porte restée ouverte
-- Petit et discret
 
 #### **les - du produit** Nuki Door Sensor
 {: .red}
 
 - Usage intérieur uniquement
+- **Dimensions extravagantes**
 - Bluetooth uniquement (nécessite la Smart Lock à proximité)
 - Adhésif qui peut se décoller sur certaines surfaces
 - Prix ~59€ pour un capteur de porte
@@ -343,6 +378,8 @@ Le Door Sensor remonte des informations précieuses :
 ## Le Nuki Keypad 2.0 (accessoire clé)
 
 Je ne l'ai pas testé personnellement mais il mérite d'être mentionné car il est **indispensable pour la location saisonnière**. Le **Nuki Keypad 2.0** permet l'ouverture par **code PIN** ou **empreinte digitale** sans smartphone.
+
+{% include product-embed.html image="nuki-keypad-2-0.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Nuki Keypad 2 NFC (2026) - Ouvrez votre porte avec Apple home key, NFC, empreinte digitale ou code à 6 chiffres, accessoire Smart Home pour Nuki Smart Lock, clavier Bluetooth compatible Matter" newamazlink="B07snvH9G" domlink="clavier-biometrique/9026-nuki-keypad-2-nfc-clavier-a-codes-nfc-et-fingerprint-bluetooth-pour-nuki-smart-lock-9120072084515.html" %}
 
 |Dimensions|118 × 29 × 21 mm|
 |Communication|Bluetooth 5.0|
@@ -357,7 +394,7 @@ Je ne l'ai pas testé personnellement mais il mérite d'être mentionné car il 
 
 ## Intégration Home Assistant
 
-C'est un point crucial pour les lecteurs de haade.fr. La {{ page.ref }} offre **deux méthodes d'intégration excellentes** dans Home Assistant, toutes deux 100% locales.
+C'est un point crucial pour les lecteurs de haade.fr. La {{ page.ref }} offre **deux méthodes d'intégration excellentes** dans Home Assistant, **toutes deux 100% locales.**
 
 ### Méthode 1 : MQTT (recommandée)
 
@@ -368,8 +405,6 @@ C'est la méthode la plus simple et la plus éprouvée. La {{ page.ref }} intèg
 1. Dans l'application Nuki → **Fonctions & Configuration** → **Smart Home** → **MQTT**
 2. Renseigne l'IP de ton broker Mosquitto, le nom d'utilisateur et le mot de passe
 3. La serrure apparaît **automatiquement** dans Home Assistant via MQTT Discovery
-
-{% picture posts/{{ page.guid }}/integration-nuki-ultra-home-assistant-mqtt.png --alt intégration MQTT de la Nuki Smart Lock Ultra dans Home Assistant --img width="940" height="529" %}
 
 Tu obtiens :
 - une entité **lock** (verrouiller/déverrouiller/ouvrir le loquet)
@@ -407,8 +442,6 @@ Avec la {{ page.ref }} dans Home Assistant, les possibilités sont vastes :
 
 C'est un cas d'usage où la {{ page.ref }} **excelle véritablement**. Le combo **Smart Lock Ultra + Keypad 2.0** est la solution idéale pour les propriétaires qui font de la location courte durée.
 
-{% picture posts/{{ page.guid }}/nuki-airbnb-location-saisonniere-acces-autonome.png --alt utilisation Nuki Smart Lock Ultra pour Airbnb et location saisonnière avec accès autonome --img width="940" height="529" %}
-
 ### Pourquoi Nuki pour la location ?
 
 1. **Check-in autonome 24h/24** : plus besoin de se déplacer pour remettre les clés
@@ -431,7 +464,7 @@ Le principe : tu connectes ton calendrier de réservation et **les codes d'accè
 
 ### Nuki Web API pour les développeurs
 
-Pour les plus techniques, Nuki fournit une **API REST complète** (api.nuki.io) qui permet :
+Pour les Geeks, Nuki fournit une **API REST complète** (api.nuki.io) qui permet:
 - de verrouiller/déverrouiller à distance
 - de gérer les utilisateurs et les codes
 - d'accéder aux journaux d'activité
@@ -473,6 +506,8 @@ La Tedee Go reste pertinente si :
 
 Pour tous les autres cas, **la {{ page.ref }} est le meilleur choix**.
 
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" newamazlink="B06T45HCe" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
+
 ## Tarifs de l'écosystème Nuki
 
 |Produit|Prix|
@@ -485,7 +520,7 @@ Pour tous les autres cas, **la {{ page.ref }} est le meilleur choix**.
 
 > Un pack complet **Ultra + Keypad 2.0** revient à environ **508€**. C'est un investissement conséquent, mais si tu fais de la location saisonnière, le ROI est rapide : plus de serrurerie, plus de clés perdues, plus de déplacements pour les check-in.
 
-{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" amazlink="4wLkrnj" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
+{% include product-embed.html image="nuki-smart-lock-ultra-serrure-connectee.png" title="Nuki Smart Lock Ultra" brand="Nuki" description="Serrure connectée Nuki Smart Lock Ultra, moteur brushless, WiFi, Thread/Matter, MQTT, cylindre universel SKG***, acier inoxydable" newamazlink="B06T45HCe" domlink="controle-d-acces-sans-fil/7882-nuki-smart-lock-ultra-serrure-intelligente-matter-alexa-google-home-homekit-smartthings-homey-9120072083969.html" %}
 
 ## Conclusion
 

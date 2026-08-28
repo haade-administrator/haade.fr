@@ -5,27 +5,27 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: IoTorero joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/07/09/iotorero-joins-works-with-home-assistant/
-    image: "/images/blog/2026-07-iotorero/art.webp"
+    title: Anonymous and open to all - The Home Assistant survey dataset
+    url: https://www.openhomefoundation.org/blog/home-assistant-survey-dataset/
+    image:
   en_GB:
   - name: Home-Assistant
-    title: IoTorero joins Works with Home Assistant
-    url: https://www.home-assistant.io/blog/2026/07/09/iotorero-joins-works-with-home-assistant/
-    image: "/images/blog/2026-07-iotorero/art.webp"
+    title: Anonymous and open to all - The Home Assistant survey dataset
+    url: https://www.openhomefoundation.org/blog/home-assistant-survey-dataset/
+    image:
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Ventilateur silencieux et intelligent sur pied Switchbot BLE
-    url: https://blog.domadoo.fr/113993-ventilateur-silencieux-smart-switchbot-ble/
-    image: https://blog.domadoo.fr/wp-content/uploads/2026/06/Switchbot_ventilateur_intelligent_silencieux_ble_sur_pied_W3800520_1080x675_PRESS-1024x640.webp
+    title: Découverte de la serrure Nuki Smart Lock Ultra et intégration Homey Pro
+    url: https://blog.domadoo.fr/114114-decouverte-de-la-serrure-nuki-smart-lock-ultra-et-integration-homey-pro/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/07/NukiSmartlock_entete-1024x512.jpg
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test du UGREEN NASync DXP4800 Pro  - le NAS qui veut bousculer Synology
+    title: Test MOVA LR10 Prime  - une litière autonettoyante adaptée aux grands chats
       ?
-    url: https://blog.nord-domotique.com/test-ugreen-nasync-dxp4800-pro/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/07/ugreen-nassync-dxp4800-pro-7110.jpg?fit=300%2C225&ssl=1
+    url: https://blog.nord-domotique.com/test-mova-lr10-prime/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/07/mova-lr10-primeecran-2026-07-29-a-23.40.25.jpg?fit=300%2C176&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -36,13 +36,13 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Test du Wiliv Willo  - le piège à moustiques qui mise sur la science plutôt
-      que sur les insecticides
-    url: https://www.maison-et-domotique.com/171907-test-wiliv-willo-piege-a-moustiques-tigre/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/07/willo-titre-test-702x468.jpg
+    title: UGREEN NASync DXP4800 Pro  - j’ai testé ce NAS 4 baies qui veut faire oublier
+      les ténors du marché
+    url: https://www.maison-et-domotique.com/172425-test-nas-ugreen-nasync-dxp4800-pro/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/08/test-ugreen-nas-dxp4800-pro-017-667x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: QuadRF can spot drones and see WiFi through my wall
-    url: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/
-    image: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/quadrf-antennna-array.jpeg
+    title: Debugging Ubiquiti's 5G Backup on AT&T
+    url: https://www.jeffgeerling.com/blog/2026/unifi-u5g-backup-debugging/
+    image: https://www.jeffgeerling.com/blog/2026/unifi-u5g-backup-debugging/unifi-5g-backup-20mbps-in-studio.jpg
