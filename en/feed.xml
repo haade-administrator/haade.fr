@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Aug 2026 14:20:28 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2026 18:15:00 +0200</lastBuildDate>
+    <pubDate>Fri, 28 Aug 2026 09:57:57 +0200</pubDate>
+    <lastBuildDate>Fri, 28 Aug 2026 09:45:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Nuki Smart Lock Ultra, Fob and Door Sensor test the ultimate smart lock</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Full test of the Nuki Smart Lock Ultra smart lock with the Fob and Door Sensor, Home Assistant integration via Matter and MQTT, Airbnb and rental services, comparison with the Tedee Go</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/179/is-the-nuki-smart-lock-ultra-worth-the-cost-720-549bfbc23.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/179/is-the-nuki-smart-lock-ultra-worth-the-cost-720-549bfbc23.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/179/is-the-nuki-smart-lock-ultra-worth-the-cost-720-549bfbc23.png" alt="Nuki Smart Lock Ultra, Fob and Door Sensor test the ultimate smart lock">
+</picture>
+
+      <p>Some time ago I tested the Tedee Go smart lock and its accessories. The product left me with an unfinished feeling: noisy (70dB!), power-hungry and limited in connectivity. Today I’m tackling what’s best on the European market: the Nuki Smart Lock Ultra. And I’m not coming alone, I also have [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/test-nuki-smart-lock-ultra-fob-door-sensor-the-ultimate-smart-lock">Nuki Smart Lock Ultra, Fob and Door Sensor test the ultimate smart lock</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 28 Aug 2026 09:45:00 +0200</pubDate>
+      <link>https://haade.fr/en/blog/test-nuki-smart-lock-ultra-fob-door-sensor-the-ultimate-smart-lock</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/test-nuki-smart-lock-ultra-fob-door-sensor-the-ultimate-smart-lock</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Security]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Kincony B8M ESP32 8-channel MOSFET controller test for irrigation</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -235,28 +257,6 @@
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[NAS]]></category>
-    </item>
-    <item>
-      <title>Lixee Box Energy Saver</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Testing the Lixee-Box, a box 100% compatible with Zlinky, enter the world of home automation and control your home&apos;s energy</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-french-measure-analysis-economize-720-672167a89.png" alt="Lixee Box Energy Saver">
-</picture>
-
-      <p>Lixee, a French company born from a DIY community, markets several products designed, among other things, for energy measurement (electricity, water, or gas). Based on a growing and engaged community, about two years ago they released a module that remains highly popular today: the Zlinky_Tic, For those who don’t know, [...]</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save">Lixee Box Energy Saver</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 23 Jan 2026 18:00:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/tuto-lixee-box-with-zlinky-tic-the-french-box-to-measure-analyze-and-save</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

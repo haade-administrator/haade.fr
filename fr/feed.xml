@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Aug 2026 14:20:28 +0200</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2026 18:15:00 +0200</lastBuildDate>
+    <pubDate>Fri, 28 Aug 2026 09:57:57 +0200</pubDate>
+    <lastBuildDate>Fri, 28 Aug 2026 09:45:00 +0200</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,28 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.4.1</generator>
+    <item>
+      <title>Test Nuki Smart Lock Ultra, Fob et Door Sensor la serrure connectée ultime</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Test complet de la serrure connectée Nuki Smart Lock Ultra avec le Fob et le Door Sensor, intégration Home Assistant via Matter et MQTT, services Airbnb et location saisonnière, comparatif avec la Tedee Go</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/179/la-serrure-connecte-nuki-smart-lock-ultra-vaut-elle-le-cout-720-92f1264d0.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/179/la-serrure-connecte-nuki-smart-lock-ultra-vaut-elle-le-cout-720-92f1264d0.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/179/la-serrure-connecte-nuki-smart-lock-ultra-vaut-elle-le-cout-720-92f1264d0.png" alt="Test Nuki Smart Lock Ultra, Fob et Door Sensor la serrure connectée ultime">
+</picture>
+
+      <p>Il y a quelque temps j’ai testé la serrure connectée Tedee Go et ses accessoires. Le produit m’avait laissé un goût d’inachevé : bruyante (70dB !), énergivore et limitée en connectivité. Aujourd’hui je m’attaque à ce qui se fait de mieux sur le marché européen : la Nuki Smart Lock [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/test-nuki-smart-lock-ultra-fob-opener-serrure-connectee-ultime">Test Nuki Smart Lock Ultra, Fob et Door Sensor la serrure connectée ultime</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Fri, 28 Aug 2026 09:45:00 +0200</pubDate>
+      <link>https://haade.fr/fr/blog/test-nuki-smart-lock-ultra-fob-opener-serrure-connectee-ultime</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/test-nuki-smart-lock-ultra-fob-opener-serrure-connectee-ultime</guid>
+      <category><![CDATA[Tests]]></category>
+      <category><![CDATA[Securite]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+    </item>
     <item>
       <title>Test du Kincony B8M contrôleur ESP32 8 canaux MOSFET pour l&apos;irrigation</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -233,28 +255,6 @@
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Haade-lab]]></category>
       <category><![CDATA[NAS]]></category>
-    </item>
-    <item>
-      <title>Lixee Box Économiseur d&apos;énergie</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>test de la lixee-box, box 100% compatible avec le zlinky, rentre dans le monde de la domotique et contrôle l&apos;énergie de ton habitat</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/169/lixee-box-zlinky_tic-box-francaise-mesure-analyse-economise-720-405f083a1.png" alt="Lixee Box Économiseur d'énergie">
-</picture>
-
-      <p>Lixee société française issue d’une communautée Diy commercialise notemment quelques produits destinés entre autres à la prise de mesure d’énergie ( éléctricité, eau ou gaz ). Basé sur une communautée toujours plus intéressée, il y a environ 2 ans elle a sorti un module qui fait à l’heure actuelle toujours [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser">Lixee Box Économiseur d'énergie</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Fri, 23 Jan 2026 18:00:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/tuto-lixee-box-avec-zlinky-tic-la-french-box-pour-mesurer-analyser-economiser</guid>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[Videos]]></category>
-      <category><![CDATA[Zigbee]]></category>
     </item>
   </channel>
 </rss>

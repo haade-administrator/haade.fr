@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/test-nuki-smart-lock-ultra-fob-door-sensor-the-ultimate-smart-lock</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-08-28T09:45:00+02:00</news:publication_date>
+          <news:title>Nuki Smart Lock Ultra, Fob and Door Sensor test the ultimate smart lock</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/179/is-the-nuki-smart-lock-ultra-worth-the-cost.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 
