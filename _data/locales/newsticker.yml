@@ -5,14 +5,14 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: Anonymous and open to all - The Home Assistant survey dataset
-    url: https://www.openhomefoundation.org/blog/home-assistant-survey-dataset/
-    image:
+    title: 2026.9 - There's room on this bus
+    url: https://www.home-assistant.io/blog/2026/09/02/release-20269/
+    image: "/images/blog/2026-09/cloud-signup.png"
   en_GB:
   - name: Home-Assistant
-    title: Anonymous and open to all - The Home Assistant survey dataset
-    url: https://www.openhomefoundation.org/blog/home-assistant-survey-dataset/
-    image:
+    title: 2026.9 - There's room on this bus
+    url: https://www.home-assistant.io/blog/2026/09/02/release-20269/
+    image: "/images/blog/2026-09/cloud-signup.png"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
@@ -22,10 +22,9 @@ Blog-Domadoo:
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: Test MOVA LR10 Prime  - une litière autonettoyante adaptée aux grands chats
-      ?
-    url: https://blog.nord-domotique.com/test-mova-lr10-prime/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/07/mova-lr10-primeecran-2026-07-29-a-23.40.25.jpg?fit=300%2C176&ssl=1
+    title: IFA 2026  - ma première fois à Berlin, 15 ans après le CES
+    url: https://blog.nord-domotique.com/ifa-2026-ma-premiere-fois-a-berlin/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/09/ifa-2026-8508.jpg?fit=300%2C225&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -36,13 +35,13 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: UGREEN NASync DXP4800 Pro  - j’ai testé ce NAS 4 baies qui veut faire oublier
-      les ténors du marché
-    url: https://www.maison-et-domotique.com/172425-test-nas-ugreen-nasync-dxp4800-pro/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/08/test-ugreen-nas-dxp4800-pro-017-667x500.jpg
+    title: Lankeleisi KETT-8  - ce vélo électrique a une étonnante façon de s’adapter
+      à son cycliste
+    url: https://www.maison-et-domotique.com/173140-lankeleisi-kett-8-velo-electrique-polyvalent/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/09/lankeleisi-kett-8-1-665x500.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: Debugging Ubiquiti's 5G Backup on AT&T
-    url: https://www.jeffgeerling.com/blog/2026/unifi-u5g-backup-debugging/
-    image: https://www.jeffgeerling.com/blog/2026/unifi-u5g-backup-debugging/unifi-5g-backup-20mbps-in-studio.jpg
+    title: OpenNMC is an open replacement for expensive APC management cards
+    url: https://www.jeffgeerling.com/blog/2026/opennmc-apc-ups-replacement-card/
+    image: https://www.jeffgeerling.com/blog/2026/opennmc-apc-ups-replacement-card/apc-smart-ups-2200xl-in-rack.jpg
