@@ -5,7 +5,7 @@ description: "Tutoriel complet pour intégrer le chlorinateur à sel Poolex Aqua
 ref: "Aqualyser Multi"
 layout: post
 authors: [Nico]
-date: 2026-09-10 18:00
+date: 2026-10-28 17:00
 last_modified_at:
 categories: [Domotique, Home-Assistant, Haade-lab, Tuya]
 tags: []
@@ -13,7 +13,7 @@ video:
 image: 'integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant.png'
 toc: true
 beforetoc: ''
-published: false
+published: true
 noindex: false
 sitemap:
   changefreq: 'monthly'
@@ -30,6 +30,8 @@ sourcelink:
 ---
 
 Avec l'arrivée de la belle saison, la piscine reprend du service — et avec elle, la gestion quotidienne du traitement de l'eau. Si tu possèdes un **chlorinateur à sel Poolex {{ page.ref }}**, tu as entre les mains un appareil performant… mais encore plus puissant lorsqu'il est piloté depuis **Home Assistant**.
+
+{% picture posts/{{ page.guid }}/domotise-ta-piscine-avec-poolex-aqualyser-compatible-home-assistant.png --alt Domotise entièrement ta piscine grâce au poolex aqualyser et tuya local --img width="940" height="529" %}
 
 Dans cet article, je te guide pas à pas pour **intégrer le Poolex {{ page.ref }} dans Home Assistant** via l'intégration communautaire **Tuya Local (HACS)**, puis pour **automatiser entièrement la gestion de ta piscine** grâce à un **Blueprint dédié** que j'ai développé et mis à disposition librement.
 
@@ -92,6 +94,7 @@ La salinité recommandée est de **2,7 à 5 g/L** (soit 2,7 à 5 kg/m³). Voici 
 
 {%- include alert.html type="info" text="Les deux fichiers nécessaires à cette intégration — le fichier device tuya-local et le blueprint d'automatisation — sont disponibles librement sur le dépôt GitHub haade-administrator/blueprint_poolex_aqualyser." link="https://github.com/haade-administrator/blueprint_poolex_aqualyser" textlink="Voir les fichiers sur GitHub" %}
 
+
 | Fonction | Type | Description |
 |---|---|---|
 | Interrupteur principal | Switch | Allumage / Extinction de l'Aqualyser |
@@ -101,6 +104,8 @@ La salinité recommandée est de **2,7 à 5 g/L** (soit 2,7 à 5 kg/m³). Voici 
 | Intervalle d'inversion de polarité | Number | Fréquence de rinçage des électrodes en heures |
 | Mode BOOST | Switch | Activation du mode production maximale |
 | Niveau de production | Number | Réglage du taux de production en % |
+
+![Toutes les fonctions disponibles du Poolex Aqualyser dans home assistant grâce à tuya local]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/fonctions-disponibles-home-assistant.webp{{ cachebuster }}){: width="940" height="529" class="lazyload pictaninpost"}
 
 {%- include alert.html type="warning" text="L'électrolyseur au sel Poolex Aqualyser Multi fonctionne en local via Wi-Fi. Il doit impérativement être sur le même réseau Wi-Fi que ton instance Home Assistant." %}
 
@@ -155,6 +160,9 @@ Il faut que le poolex aqualyser soit intégré dans l'application Smartlife
 {%- include alert.html type="info" text="Le code utilisateur (aussi appelé uid) est propre à ton compte Smart Life. Il ressemble à une chaîne de caractères alphanumérique de type 'eu1234567890abcd'. C'est ce code que Tuya Local utilise pour récupérer automatiquement le device_id et la local_key de chaque appareil sans avoir besoin de te rendre sur iot.tuya.com." %}
 
 **4. Renseigne le code utilisateur dans Tuya Local**
+
+![Integration automatisée grace à tuya local du poolex aqualyser]({{ site.baseurl}}/assets/images/posts/{{ page.guid }}/integration-grace-a-tuya-local-poolex-aqualyser.webp{{ cachebuster }}){: width="572" height="628" class="lazyload pictaninpost"}
+
 
 Lors de la configuration de l'intégration Tuya Local dans Home Assistant, renseigne ce code utilisateur dans le champ prévu. L'intégration se charge ensuite de récupérer automatiquement le `device_id` et la `local_key` pour chaque appareil détecté sur ton réseau local.
 

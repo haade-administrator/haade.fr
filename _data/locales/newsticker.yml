@@ -5,26 +5,27 @@ docs_list_title:
 Home-Assistant:
   fr_FR:
   - name: Home-Assistant
-    title: 2026.9 - There's room on this bus
-    url: https://www.home-assistant.io/blog/2026/09/02/release-20269/
-    image: "/images/blog/2026-09/cloud-signup.png"
+    title: Everything Smart Home joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/10/27/everything-smart-home-joins-works-with-home-assistant/
+    image: "/images/blog/2026-10-everything-smart-home/art.webp"
   en_GB:
   - name: Home-Assistant
-    title: 2026.9 - There's room on this bus
-    url: https://www.home-assistant.io/blog/2026/09/02/release-20269/
-    image: "/images/blog/2026-09/cloud-signup.png"
+    title: Everything Smart Home joins Works with Home Assistant
+    url: https://www.home-assistant.io/blog/2026/10/27/everything-smart-home-joins-works-with-home-assistant/
+    image: "/images/blog/2026-10-everything-smart-home/art.webp"
 Blog-Domadoo:
   fr_FR:
   - name: Blog-Domadoo
-    title: Découverte de la serrure Nuki Smart Lock Ultra et intégration Homey Pro
-    url: https://blog.domadoo.fr/114114-decouverte-de-la-serrure-nuki-smart-lock-ultra-et-integration-homey-pro/
-    image: https://blog.domadoo.fr/wp-content/uploads/2026/07/NukiSmartlock_entete-1024x512.jpg
+    title: Nouvelle veilleuse Zigbee 3.0 multifonctions ThirdReality
+    url: https://blog.domadoo.fr/114572-veilleuse-multifonction-zigbee-thirdreality/
+    image: https://blog.domadoo.fr/wp-content/uploads/2026/10/ThirdReality_veilleuse_multifonction_zigbee_1080x675_PRESS-1024x640.webp
 Blog-Nord-Domotique:
   fr_FR:
   - name: Blog-Nord-Domotique
-    title: IFA 2026  - ma première fois à Berlin, 15 ans après le CES
-    url: https://blog.nord-domotique.com/ifa-2026-ma-premiere-fois-a-berlin/
-    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/09/ifa-2026-8508.jpg?fit=300%2C225&ssl=1
+    title: MOVA se lance dans l’entretien du jardin avec une nouvelle gamme d’outils
+      Mova 20V
+    url: https://blog.nord-domotique.com/mova-20v-decouvrez-notre-test/
+    image: https://i0.wp.com/blog.nord-domotique.com/wp-content/uploads/2026/09/mova-20-v1.jpg?fit=300%2C168&ssl=1
 Abavala:
   fr_FR:
   - name: Abavala
@@ -35,13 +36,13 @@ Abavala:
 Maison-et-domotique:
   fr_FR:
   - name: Maison-et-domotique
-    title: Lankeleisi KETT-8  - ce vélo électrique a une étonnante façon de s’adapter
-      à son cycliste
-    url: https://www.maison-et-domotique.com/173140-lankeleisi-kett-8-velo-electrique-polyvalent/
-    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/09/lankeleisi-kett-8-1-665x500.jpg
+    title: Éclairage extérieur  - quel luminaire choisir selon chaque espace du jardin
+      ?
+    url: https://www.maison-et-domotique.com/174101-eclairage-exterieur-quel-luminaire-choisir-selon-chaque-espace-du-jardin/
+    image: https://www.maison-et-domotique.com/wp-content/uploads/2026/10/terrasse-moderne-illuminee-au-crepuscule-702x468.jpg
 Jeff-Geerling:
   en_GB:
   - name: Jeff-Geerling
-    title: OpenNMC is an open replacement for expensive APC management cards
-    url: https://www.jeffgeerling.com/blog/2026/opennmc-apc-ups-replacement-card/
-    image: https://www.jeffgeerling.com/blog/2026/opennmc-apc-ups-replacement-card/apc-smart-ups-2200xl-in-rack.jpg
+    title: Noctua Fan Swap on a Calnex Rb/GPS Frequency Reference
+    url: https://www.jeffgeerling.com/blog/2026/noctua-fan-swap-calnex-rb-gps-frequency-reference/
+    image: https://www.jeffgeerling.com/blog/2026/noctua-fan-swap-calnex-rb-gps-frequency-reference/calnex-rb-gps-frequency-reference-open.jpeg
