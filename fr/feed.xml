@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr</link>
     <atom:link href="https://haade.fr/fr/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2026 08:52:18 +0100</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2026 09:45:00 +0200</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2026 17:58:16 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2026 17:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Intégration complète de la piscine Poolex Aqualyser dans Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Tutoriel complet pour intégrer le chlorinateur à sel Poolex Aqualyser Multi dans Home Assistant via Tuya Local (HACS) et automatiser la filtration et la chloration grâce au blueprint dédié.</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/180/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant-720-ce1f7f288.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/180/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant-720-ce1f7f288.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/180/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant-720-ce1f7f288.png" alt="Intégration complète de la piscine Poolex Aqualyser dans Home Assistant">
+</picture>
+
+      <p>Avec l’arrivée de la belle saison, la piscine reprend du service — et avec elle, la gestion quotidienne du traitement de l’eau. Si tu possèdes un chlorinateur à sel Poolex Aqualyser Multi, tu as entre les mains un appareil performant… mais encore plus puissant lorsqu’il est piloté depuis Home Assistant. [...]</p>
+      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant">Intégration complète de la piscine Poolex Aqualyser dans Home Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 28 Oct 2026 17:00:00 +0100</pubDate>
+      <link>https://haade.fr/fr/blog/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/fr/blog/integration-complete-piscine-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant</guid>
+      <category><![CDATA[Domotique]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tuya]]></category>
+    </item>
     <item>
       <title>Test Nuki Smart Lock Ultra, Fob et Door Sensor la serrure connectée ultime</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -232,29 +255,6 @@
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Videos]]></category>
-    </item>
-    <item>
-      <title>Externalise Facilement ta sauvegarde Home-Assistant</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Grâce à Rsync externalise automatiquement et facilement tes sauvegardes Home Assistant</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png" alt="Externalise Facilement ta sauvegarde Home-Assistant">
-</picture>
-
-      <p>A l’époque déjà, externaliser la sauvegarde Home Assistant me préoccupait, Dixit mon installation à base de raspberry mise tout sur la carte SD, de ce fait en 2023 j’avais rédigé un article: comment externaliser sa sauvegarde avec syncthing, cette méthode fonctionne toujours mais syncthing est tout de même une usine [...]</p>
-      <p>Lire l'article complet: <a href="https://haade.fr/fr/blog/externalise-tes-sauvegardes-home-assistant-avec-rsync-sur-on-nas-ou-serveur">Externalise Facilement ta sauvegarde Home-Assistant</a> sur le blog <a href="https://haade.fr">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 04 Feb 2026 10:40:00 +0100</pubDate>
-      <link>https://haade.fr/fr/blog/externalise-tes-sauvegardes-home-assistant-avec-rsync-sur-on-nas-ou-serveur</link>
-      <guid isPermaLink="true">https://haade.fr/fr/blog/externalise-tes-sauvegardes-home-assistant-avec-rsync-sur-on-nas-ou-serveur</guid>
-      <category><![CDATA[Securite]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[NAS]]></category>
     </item>
   </channel>
 </rss>

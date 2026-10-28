@@ -2,6 +2,20 @@
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+      <url>
+        <loc>https://haade.fr/en/blog/complete-pool-integration-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant</loc>
+        <news:news>
+          <news:publication>
+            <news:name>Haade</news:name>
+            <news:language>en</news:language>
+          </news:publication>
+          <news:publication_date>2026-10-28T17:00:00+01:00</news:publication_date>
+          <news:title>Complete integration of the Poolex Aqualyser pool in Home Assistant</news:title>
+        </news:news>
+        <image:image>
+          <image:loc>https://haade.fr/assets/images/posts/180/automate-your-pool-managment-poolex-aqualyser-easily-with-tuya-local-to-homeassistant.png</image:loc>
+        </image:image>
+      </url>
     </urlset>
 
 

@@ -15,8 +15,8 @@
     <sy:updateFrequency>1</sy:updateFrequency>
     <link>https://haade.fr/en/</link>
     <atom:link href="https://haade.fr/en/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Oct 2026 08:52:18 +0100</pubDate>
-    <lastBuildDate>Fri, 28 Aug 2026 09:45:00 +0200</lastBuildDate>
+    <pubDate>Wed, 28 Oct 2026 17:58:16 +0100</pubDate>
+    <lastBuildDate>Wed, 28 Oct 2026 17:00:00 +0100</lastBuildDate>
     <image>
         <url>https://haade.fr/assets/images/favicon.ico</url>
         <title>Haade</title>
@@ -25,6 +25,29 @@
             <height>32</height>
     </image>
     <generator>Jekyll v4.3.4</generator>
+    <item>
+      <title>Complete integration of the Poolex Aqualyser pool in Home Assistant</title>
+      <dc:creator><![CDATA[Nico]]></dc:creator>
+      <description>
+      <![CDATA[
+      <p>Complete tutorial to integrate the Poolex Aqualyser Multi salt chlorinator into Home Assistant through Tuya Local (HACS) and automate filtration and chlorination with the dedicated blueprint</p><picture>
+  <source srcset="https://haade.fr/assets/images/generated/posts/180/automate-your-pool-managment-poolex-aqualyser-easily-with-tuya-local-to-homeassistant-720-3e4e6f956.webp 720w" type="image/webp">
+  <source srcset="https://haade.fr/assets/images/generated/posts/180/automate-your-pool-managment-poolex-aqualyser-easily-with-tuya-local-to-homeassistant-720-3e4e6f956.png 720w" type="image/png">
+  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/180/automate-your-pool-managment-poolex-aqualyser-easily-with-tuya-local-to-homeassistant-720-3e4e6f956.png" alt="Complete integration of the Poolex Aqualyser pool in Home Assistant">
+</picture>
+
+      <p>With the warm season back, the pool is up and running again — and with it, the daily job of keeping the water balanced. If you own a Poolex Aqualyser Multi salt chlorinator, you have a capable device in your hands… but it becomes far more powerful once it is [...]</p>
+      <p>Read the full article: <a href="https://haade.fr/en/blog/complete-pool-integration-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant">Complete integration of the Poolex Aqualyser pool in Home Assistant</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
+      ]]>
+      </description>
+      <pubDate>Wed, 28 Oct 2026 17:00:00 +0100</pubDate>
+      <link>https://haade.fr/en/blog/complete-pool-integration-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant</link>
+      <guid isPermaLink="true">https://haade.fr/en/blog/complete-pool-integration-poolex-aqualyser-tuya-local-hacs-blueprint-home-assistant</guid>
+      <category><![CDATA[Automation]]></category>
+      <category><![CDATA[Home-Assistant]]></category>
+      <category><![CDATA[Haade-lab]]></category>
+      <category><![CDATA[Tuya]]></category>
+    </item>
     <item>
       <title>Nuki Smart Lock Ultra, Fob and Door Sensor test the ultimate smart lock</title>
       <dc:creator><![CDATA[Nico]]></dc:creator>
@@ -233,30 +256,6 @@
       <category><![CDATA[Zigbee]]></category>
       <category><![CDATA[Home-Assistant]]></category>
       <category><![CDATA[Videos]]></category>
-    </item>
-    <item>
-      <title>Easily outsource your Home Assistant backup</title>
-      <dc:creator><![CDATA[Nico]]></dc:creator>
-      <description>
-      <![CDATA[
-      <p>Thanks to Rsync, automatically and easily offload your Home Assistant backups.</p><picture>
-  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.webp 720w" type="image/webp">
-  <source srcset="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png 720w" type="image/png">
-  <img width="720" height="405" src="https://haade.fr/assets/images/generated/posts/170/external-homeassistant-backup-with-rsync-nas-omv-720-4db7a3eac.png" alt="Easily outsource your Home Assistant backup">
-</picture>
-
-      <p>Even back then, outsourcing Home Assistant backups was a concern for me. Given my Raspberry Pi setup, everything was stored on the SD card, I wrote an article in 2023: How ​​to outsource your backup with Syncthing(/fr/blog/simple-sauvegarde-externe-homeassistant-syncthing-plus-gestion-backup). This method still works, but Syncthing is still quite complex.
-</p>
-      <p>Read the full article: <a href="https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server">Easily outsource your Home Assistant backup</a> on the blog <a href="https://haade.fr/en/">Haade.fr</a>.</p>
-      ]]>
-      </description>
-      <pubDate>Wed, 04 Feb 2026 10:40:00 +0100</pubDate>
-      <link>https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</link>
-      <guid isPermaLink="true">https://haade.fr/en/blog/externalize-your-home-assistant-backups-with-rsync-on-nas-or-server</guid>
-      <category><![CDATA[Security]]></category>
-      <category><![CDATA[Home-Assistant]]></category>
-      <category><![CDATA[Haade-lab]]></category>
-      <category><![CDATA[NAS]]></category>
     </item>
   </channel>
 </rss>
